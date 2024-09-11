@@ -31,6 +31,9 @@ custom_css = """
         padding-bottom: 10px;
         margin-bottom: 10px;
     }
+    .bl-title {
+        margin-right: 30px;
+    }
     .bl-section {
         margin-bottom: 10px;
         border: 1px solid black;
@@ -84,7 +87,7 @@ def display_bl_form(doc):
     bl_html = f"""
     <div class="bl-form">
         <div class="bl-header">
-            <div>
+            <div class="bl-title">
                 <h2>BILL OF LADING</h2>
             </div>
             <div>
@@ -168,7 +171,7 @@ def display_bl_form(doc):
     """
     
     # Render the BL form
-    st.markdown(bl_html, unsafe_allow_html=True)
+    st.html(bl_html)
 
 
 def generate_container_rows(containers, doc):
