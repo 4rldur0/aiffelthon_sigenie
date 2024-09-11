@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410168413",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2410E12"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Acme Trading Corp.",
+      "address": "1234 Shanghai Road, Ningbo, Zhejiang, 315000, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8666 1234",
+      "email": "shipping@acmetc.com"
+    },
+    "consignee": {
+      "name": "Acme Industries Inc.",
+      "address": "1000 Maasboulevard, 3063 NL Rotterdam, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@acmeindustries.nl",
+      "telephone": "+31 10 202 1234"
+    },
+    "notifyParty": {
+      "name": "Acme Logistics",
+      "address": "1234 Logistics Way, Rotterdam, 3011 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "logistics@acme.nl",
+      "telephone": "+31 10 444 5555"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "903281",
+  "commodityDescription": "TEMPERATURE CONTROLLERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ACME123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEMPERATURE CONTROLLERS (W.500MM H.300MM D.200MM)",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ACME123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEMPERATURE CONTROLLERS (W.500MM H.300MM D.200MM)",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "ACME123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEMPERATURE CONTROLLERS (W.500MM H.300MM D.200MM)",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "314159",
+      "marksAndNumbers": "ACME123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEMPERATURE CONTROLLERS (W.500MM H.300MM D.200MM)",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5678901",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ACME123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEMPERATURE CONTROLLERS (W.500MM H.300MM D.200MM)",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) X 20' REEFER CONTAINERS",
+    "totalPackages": 500,
+    "totalGrossWeight": 90000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "Acme Industries Inc.",
+      "address": "1000 Maasboulevard, 3063 NL Rotterdam, NETHERLANDS",
+      "telephone": "+31 10 202 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Acme Industries Inc.",
+      "address": "1000 Maasboulevard, 3063 NL Rotterdam, NETHERLANDS",
+      "telephone": "+31 10 202 1234"
+    },
+    "onboardDate": "2024-10-22 17:00",
+    "additionalRemarks": "Keep refrigerated at 2-8\u00b0C. Fragile, handle with care."
+  }
+}

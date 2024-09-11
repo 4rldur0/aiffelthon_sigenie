@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202410212299",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2456W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MACHINERY CO.",
+      "address": "234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9998",
+      "email": "INFO@APMACHINERY.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "567 MADRID STREET, ALGECIRAS, SPAIN",
+      "taxId": "B12345678",
+      "president": "MR. JUAN GARCIA",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "567 MADRID STREET, ALGECIRAS, SPAIN",
+      "taxId": "B12345678",
+      "president": "MR. JUAN GARCIA",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84799090",
+  "commodityDescription": "SEMI-AUTOMATIC LABELING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APM20241027",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SEMI-AUTOMATIC LABELING MACHINE AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APM20241027",
+      "numberOfPackages": 12,
+      "packageType": "CRATES",
+      "cargoDescription": "SEMI-AUTOMATIC LABELING MACHINE AS PER COMMERCIAL INVOICE",
+      "grossWeight": 13000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "APM20241027",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SEMI-AUTOMATIC LABELING MACHINE AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY CONTAINER) CONTAINER ONLY",
+    "totalPackages": 32,
+    "packageType": "CRATES",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 37000.0,
+    "totalMeasurement": 62.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": "CO, Fumigation Certificate",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "567 MADRID STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "567 MADRID STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13"
+    },
+    "onboardDate": "2024-10-24 14:00",
+    "additionalRemarks": "Cargo requires special handling. Please ensure proper securing within containers."
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
+  }
+}

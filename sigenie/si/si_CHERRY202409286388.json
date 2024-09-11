@@ -1,0 +1,167 @@
+{
+  "bookingReference": "CHERRY202409286388",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024921W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9742",
+      "address": "Keizersgracht 123, 1016 DW Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "email": "info@customer3215.nl"
+    },
+    "consignee": {
+      "name": "SHIPPER 9742",
+      "address": "123 Bund Road, Shanghai, 200001, China",
+      "country": "CHINA",
+      "telephone": "+86 21 6666 7777",
+      "email": "sales@shipper9742.com"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5871",
+      "address": "456 Nanjing Road, Shanghai, 200002, China",
+      "country": "CHINA",
+      "telephone": "+86 21 8888 9999",
+      "email": "info@invoicereceiver5871.com"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "940160",
+  "commodityDescription": "METAL CHAIR LEGS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "C3215-1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIR LEGS",
+      "grossWeight": 2000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "C3215-2",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIR LEGS",
+      "grossWeight": 2000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "MSCU4567890",
+      "sealNumber": "1357924680",
+      "marksAndNumbers": "C3215-3",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIR LEGS",
+      "grossWeight": 2000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "2468013579",
+      "marksAndNumbers": "C3215-4",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIR LEGS",
+      "grossWeight": 2000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "MSCU2468013",
+      "sealNumber": "5432109876",
+      "marksAndNumbers": "C3215-5",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIR LEGS",
+      "grossWeight": 2000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "MSCU5432109",
+      "sealNumber": "8765432109",
+      "marksAndNumbers": "C3215-6",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIR LEGS",
+      "grossWeight": 2000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "1098765432",
+      "marksAndNumbers": "C3215-7",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIR LEGS",
+      "grossWeight": 2000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "MSCU1098765",
+      "sealNumber": "4321098765",
+      "marksAndNumbers": "C3215-8",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIR LEGS",
+      "grossWeight": 2000.0,
+      "measurement": 2.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "EIGHT (8) X 20 DRY CONTAINER",
+    "totalPackages": 800,
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 20.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "C321520241027"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "Kuehne + Nagel",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 200 1000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5871",
+      "address": "456 Nanjing Road, Shanghai, 200002, China",
+      "telephone": "+86 21 8888 9999"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "Containers require pre-trip inspection."
+  },
+  "dangerousGoods": {
+    "dangerousGoods": true,
+    "unNumber": "3077",
+    "properShippingName": "ENVIRONMENTALLY HAZARDOUS SUBSTANCE, SOLID, N.O.S.",
+    "class": "9",
+    "packingGroup": "III",
+    "subsidiaryRisk": null,
+    "hazards": [
+      "Environmental Hazard"
+    ],
+    "storageCategory": "Environmentally Hazardous Substance",
+    "emergencyProcedures": "In case of spill, isolate area and prevent entry. Collect spilled material using absorbent material. Dispose of contaminated material according to local regulations. Contact emergency services if necessary."
+  }
+}

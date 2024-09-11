@@ -1,0 +1,138 @@
+{
+  "bookingReference": "CHERRY202409254625",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024521W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3548",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8876 5432",
+      "email": "SHIPPER3548@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8312",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL123456789",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8889"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9856",
+      "address": "456 ABC STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 666 7777",
+      "fax": "+31 10 666 7778"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847989",
+  "commodityDescription": "TEXTILE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER 3548",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIPPER 3548",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU2468013",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SHIPPER 3548",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU5789012",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SHIPPER 3548",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU6314025",
+      "sealNumber": "567890",
+      "marksAndNumbers": "SHIPPER 3548",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS",
+    "totalPackages": 50,
+    "packageType": "CRATES",
+    "containerType": "20 DRY GENERAL PURPOSE",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED BY CHAMBER OF COMMERCE NINGBO",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8312",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9856",
+      "address": "456 ABC STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-05 17:32",
+    "additionalRemarks": "Please ensure containers are pre-cooled for sensitive machinery parts."
+  },
+  "dangerousGoods": {
+    "dangerousGoods": true,
+    "unNumber": "3244",
+    "properShippingName": "Genetic Material, Not Regulated for Transport",
+    "class": "9",
+    "packingGroup": null,
+    "subsidiaryRisk": null,
+    "flashPoint": null,
+    "hazards": [
+      "May cause allergic skin reactions."
+    ],
+    "stowage": "Segregate from foodstuffs.",
+    "handling": "Wear appropriate personal protective equipment (PPE). Avoid contact with skin and eyes.",
+    "emergencyProcedures": "In case of skin contact, wash immediately with soap and water. In case of eye contact, rinse immediately with plenty of water and seek medical attention.",
+    "documentation": "Shipper's declaration for dangerous goods required."
+  }
+}

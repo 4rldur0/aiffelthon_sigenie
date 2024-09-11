@@ -1,0 +1,87 @@
+{
+  "bookingReference": "CHERRY202410071612",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024735W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9824",
+      "address": "123, YONGFU ROAD, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "EURO MEDICAL IMPORTS NV.",
+      "address": "25, MEERWEG, ANTWERP, BELGIUM",
+      "telephone": "+32 3 222 1234",
+      "fax": "+32 3 222 5678"
+    },
+    "notifyParty": {
+      "name": "EURO MEDICAL IMPORTS NV.",
+      "address": "25, MEERWEG, ANTWERP, BELGIUM",
+      "telephone": "+32 3 222 1234",
+      "fax": "+32 3 222 5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "901890",
+  "commodityDescription": "MEDICAL DEVICES",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "890123",
+      "marksAndNumbers": "EMIM2024",
+      "numberOfPackages": 20,
+      "cargoDescription": "MEDICAL DEVICES - PACKAGED",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU4321657",
+      "sealNumber": "345678",
+      "marksAndNumbers": "EMIM2024",
+      "numberOfPackages": 20,
+      "cargoDescription": "MEDICAL DEVICES - PACKAGED",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 66.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC4567890123"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EURO MEDICAL IMPORTS NV.",
+      "address": "25, MEERWEG, ANTWERP, BELGIUM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO MEDICAL IMPORTS NV.",
+      "address": "25, MEERWEG, ANTWERP, BELGIUM"
+    },
+    "onboardDate": "2024-10-09 17:35",
+    "additionalRemarks": "Please ensure proper documentation for medical devices."
+  }
+}

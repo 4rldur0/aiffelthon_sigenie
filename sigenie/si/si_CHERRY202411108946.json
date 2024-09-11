@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202411108946",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "3456W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "OMEGA TRADING CO.",
+      "address": "DIJKZICHT 25, 3016 AX ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@OMEGATRADING.NL",
+      "telephone": "+31 10 412 6666"
+    },
+    "notifyParty": {
+      "name": "OMEGA TRADING CO.",
+      "address": "DIJKZICHT 25, 3016 AX ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@OMEGATRADING.NL",
+      "telephone": "+31 10 412 6666"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "94017000",
+  "commodityDescription": "GARDEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9758231",
+      "sealNumber": "123456",
+      "marksAndNumbers": "OMGC-1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "GARDEN CHAIRS, PACKAGED IN INDIVIDUAL CARTONS, PALLETIZED",
+      "grossWeight": 2000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU7891234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "OMGC-2",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "GARDEN CHAIRS, PACKAGED IN INDIVIDUAL CARTONS, PALLETIZED",
+      "grossWeight": 2000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "987654",
+      "marksAndNumbers": "OMGC-3",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "GARDEN CHAIRS, PACKAGED IN INDIVIDUAL CARTONS, PALLETIZED",
+      "grossWeight": 2000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "432109",
+      "marksAndNumbers": "OMGC-4",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "GARDEN CHAIRS, PACKAGED IN INDIVIDUAL CARTONS, PALLETIZED",
+      "grossWeight": 2000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "098765",
+      "marksAndNumbers": "OMGC-5",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "GARDEN CHAIRS, PACKAGED IN INDIVIDUAL CARTONS, PALLETIZED",
+      "grossWeight": 2000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY X5) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 10000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "94017000",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "DELTA MANUFACTURING INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8888 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA TRADING CO.",
+      "address": "DIJKZICHT 25, 3016 AX ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 6666",
+      "fax": "+31 10 412 6667"
+    },
+    "onboardDate": "2024-11-15 10:00",
+    "additionalRemarks": "7 Days Free Time at Destination, Fumigation Certificate Required"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202409263383",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2436WQB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Eastern Machinery Corp.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO ECONOMIC & TECHNOLOGICAL DEVELOPMENT ZONE)"
+    },
+    "consignee": {
+      "name": "EURO TECH IMPORT & EXPORT GMBH",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY 20457",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHIMPORT.DE",
+      "telephone": "+49 40 123 4567"
+    },
+    "notifyParty": {
+      "name": "EURO TECH IMPORT & EXPORT GMBH",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY 20457",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHIMPORT.DE",
+      "telephone": "+49 40 123 4567"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "848330",
+  "commodityDescription": "GEARBOXES FOR INDUSTRIAL MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ASIA PRECISION 1/3",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "GEARBOXES AS PER INVOICE",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "ASIA PRECISION 2/3",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "GEARBOXES AS PER INVOICE",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU4321098",
+      "sealNumber": "98765432",
+      "marksAndNumbers": "ASIA PRECISION 3/3",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "GEARBOXES AS PER INVOICE",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CRATES",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO543210",
+    "hsCode": "848330",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+      "telephone": "03600061234",
+      "fax": "81-3-6000-0001"
+    },
+    "onboardDate": "2024-10-02 12:00",
+    "additionalRemarks": "Oversized cargo, requires special handling equipment."
+  }
+}

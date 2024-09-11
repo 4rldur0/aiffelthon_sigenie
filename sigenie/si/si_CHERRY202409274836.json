@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202409274836",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "232023W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING INC.",
+      "address": "1234 FACTORY LANE, NINGBO, CHINA",
+      "telephone": "+86 574 123 4567",
+      "fax": "+86 574 890 1234"
+    },
+    "consignee": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "5678 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 890 1234",
+      "email": "DELTA.TRADING@EXAMPLE.COM",
+      "contactPerson": "JANE DOE"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "DELTA TRADING COMPANY - FINANCE",
+      "address": "5678 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847989",
+  "commodityDescription": "TEXTILE FIBRE PROCESSING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING - OMEGA INC.",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE FIBRE PROCESSING MACHINE",
+      "grossWeight": 3000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING - OMEGA INC. 2",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE FIBRE PROCESSING MACHINE",
+      "grossWeight": 3000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SAMPLE MARKING - OMEGA INC. 3",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE FIBRE PROCESSING MACHINE",
+      "grossWeight": 3000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU4321657",
+      "sealNumber": "432165",
+      "marksAndNumbers": "SAMPLE MARKING - OMEGA INC. 4",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE FIBRE PROCESSING MACHINE",
+      "grossWeight": 3000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU6543218",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING - OMEGA INC. 5",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE FIBRE PROCESSING MACHINE",
+      "grossWeight": 3000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 DRY CONTAINERS",
+    "totalPackages": 250,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV20241001",
+    "documentNumber": "20241001001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "5678 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 890 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING COMPANY - FINANCE",
+      "address": "5678 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-01 12:00",
+    "additionalRemarks": "Cargo weight: 15,000 kg, Value: USD 35,000"
+  }
+}

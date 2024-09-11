@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202411096535",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2410EUM"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CFR",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA TRADING CO. LTD",
+      "onBehalfOf": "",
+      "address": "2345 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA 315000",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-5678"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "222 FRANKFURTER STREET, HAMBURG, 20457, GERMANY",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "222 FRANKFURTER STREET, HAMBURG, 20457, GERMANY"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "94017100",
+  "commodityDescription": "METAL CHAIRS FOR OFFICE USE",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CHINA123",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS FOR OFFICE USE",
+      "grossWeight": 2200.0,
+      "measurement": 12.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "CHINA456",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS FOR OFFICE USE",
+      "grossWeight": 2200.0,
+      "measurement": 12.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "CHINA789",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS FOR OFFICE USE",
+      "grossWeight": 2200.0,
+      "measurement": 12.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU4321657",
+      "sealNumber": "765432",
+      "marksAndNumbers": "CHINA101",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS FOR OFFICE USE",
+      "grossWeight": 2200.0,
+      "measurement": 12.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU5678901",
+      "sealNumber": "987654",
+      "marksAndNumbers": "CHINA112",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS FOR OFFICE USE",
+      "grossWeight": 2200.0,
+      "measurement": 12.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) TWENTY FOOT DRY CONTAINER",
+    "totalPackages": 250,
+    "packageType": "CRATES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 11000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "222 FRANKFURTER STREET, HAMBURG, 20457, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "222 FRANKFURTER STREET, HAMBURG, 20457, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432"
+    },
+    "onboardDate": "2024-11-12 10:00",
+    "additionalRemarks": "Cargo requires careful handling to prevent scratches."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

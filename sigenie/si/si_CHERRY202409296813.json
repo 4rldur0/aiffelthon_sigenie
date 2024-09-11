@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202409296813",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2439EW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURE LTD.",
+      "address": "1234 ASIA PACIFIC BOULEVARD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "email": "INFO@ASIAPACIFICMFG.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "5678 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 333 4444",
+      "fax": "+31 10 333 5555"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "5678 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 333 4444",
+      "fax": "+31 10 333 5555"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "DIGITAL CAMERAS, 12MP RESOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CRLU1500071",
+      "sealNumber": "894104",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "DIGITAL CAMERA, 12MP RESOLUTION. FRAGILE.",
+      "grossWeight": 1500.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU1500072",
+      "sealNumber": "894105",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "DIGITAL CAMERA, 12MP RESOLUTION. FRAGILE.",
+      "grossWeight": 1500.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU1500073",
+      "sealNumber": "894106",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "DIGITAL CAMERA, 12MP RESOLUTION. FRAGILE.",
+      "grossWeight": 1500.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY CONTAINER X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X3",
+    "totalGrossWeight": 4500.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033739"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "5678 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 333 4444",
+      "fax": "+31 10 333 5555"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "5678 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 333 4444",
+      "fax": "+31 10 333 5555"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "Free Time: 5 Days at Port of Discharge. Consignee to arrange customs clearance."
+  }
+}

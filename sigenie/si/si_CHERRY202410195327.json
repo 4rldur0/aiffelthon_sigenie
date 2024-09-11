@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410195327",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435EWQ"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Telegraphic Transfer",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO BRANCH)",
+      "telephone": "+86 574 8654 3210",
+      "email": "CHINA@CHINATRADINGCO.COM"
+    },
+    "consignee": {
+      "name": "ACME IMPORTS & EXPORTS LTD.",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "INFO@ACMEIMPORTEXPORT.NL",
+      "telephone": "+31 10 35678901"
+    },
+    "notifyParty": {
+      "name": "ACME IMPORTS & EXPORTS LTD.",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "INFO@ACMEIMPORTEXPORT.NL",
+      "telephone": "+31 10 35678901"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "SUDU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "CHINA123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS, ASSORTED TYPES",
+      "grossWeight": 15000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "SUDU4321098",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "CHINA456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS, ASSORTED TYPES",
+      "grossWeight": 15000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 DRY) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 51.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC23456789012345"
+    },
+    "originalBLDistribution": {
+      "name": "ACME IMPORTS & EXPORTS LTD.",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31 10 35678901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME IMPORTS & EXPORTS LTD.",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31 10 35678901"
+    },
+    "onboardDate": "2024-10-25 10:00",
+    "additionalRemarks": "Value: USD50,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

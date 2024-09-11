@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410097114",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "245WQA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER BL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 HONGQI ROAD, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "BLUE OCEAN LOGISTICS LTD.",
+      "address": "2nd FLOOR, 456 STADHOUWERSTRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 4567890",
+      "fax": "+31 10 98765432"
+    },
+    "notifyParty": {
+      "name": "BLUE OCEAN LOGISTICS LTD.",
+      "address": "2nd FLOOR, 456 STADHOUWERSTRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 4567890",
+      "fax": "+31 10 98765432"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "94036000",
+  "commodityDescription": "WOODEN DINING CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE12345",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN DINING CHAIRS - PACKAGED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SUNRISE12345",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN DINING CHAIRS - PACKAGED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "543210",
+      "marksAndNumbers": "SUNRISE12345",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN DINING CHAIRS - PACKAGED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SUNRISE12345",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN DINING CHAIRS - PACKAGED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE12345",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN DINING CHAIRS - PACKAGED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) TWENTY FOOT DRY CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "1234567890123",
+      "9876543210123"
+    ],
+    "originalBLDistribution": {
+      "name": "BLUE OCEAN LOGISTICS LTD.",
+      "address": "2nd FLOOR, 456 STADHOUWERSTRAAT, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE OCEAN LOGISTICS LTD.",
+      "address": "2nd FLOOR, 456 STADHOUWERSTRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 4567890",
+      "fax": "+31 10 98765432"
+    },
+    "onboardDate": "2024-10-14 10:00",
+    "additionalRemarks": "CONTAINER NEEDS TO BE SEALED WITH HIGH SECURITY SEAL"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

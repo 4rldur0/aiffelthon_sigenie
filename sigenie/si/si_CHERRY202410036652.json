@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410036652",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWH"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Acme Manufacturing Co.",
+      "address": "123 Factory Road, Ningbo, China",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-87654321"
+    },
+    "consignee": {
+      "name": "Global Traders Inc.",
+      "address": "456 Trade Center, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-87654321"
+    },
+    "notifyParty": {
+      "name": "Global Traders Inc.",
+      "address": "456 Trade Center, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-87654321"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847989",
+  "commodityDescription": "Textile Weaving Machines",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ACM1234",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "Textile Weaving Machines, AS PER PACKING LIST",
+      "grossWeight": 10000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ACM1234",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "Textile Weaving Machines, AS PER PACKING LIST",
+      "grossWeight": 10000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CRLU34567890",
+      "sealNumber": "345678",
+      "marksAndNumbers": "ACM1234",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "Textile Weaving Machines, AS PER PACKING LIST",
+      "grossWeight": 10000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CRLU67890123",
+      "sealNumber": "901234",
+      "marksAndNumbers": "ACM1234",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "Textile Weaving Machines, AS PER PACKING LIST",
+      "grossWeight": 10000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CRLU01234567",
+      "sealNumber": "567890",
+      "marksAndNumbers": "ACM1234",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "Textile Weaving Machines, AS PER PACKING LIST",
+      "grossWeight": 10000,
+      "measurement": 25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 250,
+    "packageType": "CRATES",
+    "totalGrossWeight": 50000,
+    "totalMeasurement": 125
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "Global Traders Inc.",
+      "address": "456 Trade Center, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-87654321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Traders Inc.",
+      "address": "456 Trade Center, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-87654321"
+    },
+    "onboardDate": "2024-10-10 10:00",
+    "additionalRemarks": "Cargo requires temperature controlled environment."
+  }
+}

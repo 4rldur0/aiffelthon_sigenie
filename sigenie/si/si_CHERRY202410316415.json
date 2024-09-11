@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410316415",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "24043E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "country": "CHINA",
+      "telephone": "+86 574 8888 9999",
+      "email": "SHIPPING@ASIAPACIFIC.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "1 FRANKFURTER STRASSE, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "email": "ORDERS@GLOBALIMPORTS.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "1 FRANKFURTER STRASSE, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "email": "ORDERS@GLOBALIMPORTS.DE"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "MICROSCOPE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "NB20241031",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROSCOPE PARTS - LENSES, MIRRORS & HOUSING COMPONENTS - PACKED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "NB20241031",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROSCOPE PARTS - OBJECTIVE LENSES & EYEPIECES - PACKED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "112233",
+      "marksAndNumbers": "NB20241031",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROSCOPE PARTS - STANDS, STAGE & FOCUSING MECHANISMS - PACKED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) 20 DRY CONTAINERS",
+    "totalPackages": 150,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 75.3
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "1 FRANKFURTER STRASSE, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "1 FRANKFURTER STRASSE, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678"
+    },
+    "onboardDate": "2024-11-02 12:00",
+    "additionalRemarks": "Free Time at Destination: 5 Days"
+  }
+}

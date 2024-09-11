@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410255433",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2442E11A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 NINGBO STREET, NINGBO, CHINA 315000",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-87654321"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-87654321"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-98765432",
+      "fax": "+31-10-12345678"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876544",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HC) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO2024102501",
+    "salesOrderNumber": "SO2024102502",
+    "lcDetails": {
+      "lcNumber": "LC2024102503"
+    },
+    "certificateDetails": "CERT2024102504",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-87654321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-98765432",
+      "fax": "+31-10-12345678"
+    },
+    "onboardDate": "2024-10-29 10:00",
+    "additionalRemarks": "Two 40' High Cube containers, Weight: 22 tons per container, Value: USD45,000"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

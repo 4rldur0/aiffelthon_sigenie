@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202411078354",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "244W19S"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO ECONOMIC & TECHNOLOGICAL DEVELOPMENT ZONE)",
+      "telephone": "+86 574 8888 1234",
+      "email": "SHIPPING@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING CO.",
+      "address": "STATIONSPLEIN 13, 3013 KV ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@DELTASHIPPING.NL",
+      "telephone": "+31 10 414 1234"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING CO.",
+      "address": "STATIONSPLEIN 13, 3013 KV ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@DELTASHIPPING.NL",
+      "telephone": "+31 10 414 1234"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "85444210",
+  "commodityDescription": "POWER TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU87654321",
+      "sealNumber": "12345678901",
+      "marksAndNumbers": "APTI20241107",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "POWER TRANSFORMERS (TEMPERATURE SENSITIVE)",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU12345678",
+      "sealNumber": "98765432101",
+      "marksAndNumbers": "APTI20241107",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "POWER TRANSFORMERS (TEMPERATURE SENSITIVE)",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "APTI20241107",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "POWER TRANSFORMERS (TEMPERATURE SENSITIVE)",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "APTI20241107",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "POWER TRANSFORMERS (TEMPERATURE SENSITIVE)",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (40' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 80,
+    "totalGrossWeight": 88000.0,
+    "totalMeasurement": 140.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING CO.",
+      "address": "STATIONSPLEIN 13, 3013 KV ROTTERDAM",
+      "telephone": "+31 10 414 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING CO.",
+      "address": "STATIONSPLEIN 13, 3013 KV ROTTERDAM",
+      "telephone": "+31 10 414 1234"
+    },
+    "onboardDate": "2024-11-10 14:00",
+    "additionalRemarks": "SHIPMENT REQUIRES TEMPERATURE CONTROL: 15-25 DEGREES CELSIUS. B/L INSTRUCTIONS: SHIPPER'S LOAD AND COUNT"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

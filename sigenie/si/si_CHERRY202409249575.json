@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202409249575",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "240923W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREENFIELD GLOBAL TRADING CO.",
+      "address": "123 GREENFIELD STREET, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "EUROSTYLE FURNISHING LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 876 5432"
+    },
+    "notifyParty": {
+      "name": "EUROSTYLE FURNISHING LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 876 5432"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "940340",
+  "commodityDescription": "WOODEN COFFEE TABLES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GF123",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN COFFEE TABLES - SHIPMENT NO. 20241025",
+      "grossWeight": 1200.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GF456",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN COFFEE TABLES - SHIPMENT NO. 20241025",
+      "grossWeight": 1200.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GF789",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN COFFEE TABLES - SHIPMENT NO. 20241025",
+      "grossWeight": 1200.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "GF123",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN COFFEE TABLES - SHIPMENT NO. 20241025",
+      "grossWeight": 1200.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU6543210",
+      "sealNumber": "7890123",
+      "marksAndNumbers": "GF456",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN COFFEE TABLES - SHIPMENT NO. 20241025",
+      "grossWeight": 1200.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 6000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO12345678"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROSTYLE FURNISHING LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROSTYLE FURNISHING LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-09-28 16:00",
+    "additionalRemarks": "Cargo to be stowed below deck."
+  },
+  "reeferSettings": {}
+}

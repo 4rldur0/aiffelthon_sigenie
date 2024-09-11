@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411085529",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2432W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "No. 1234, Nanjing Road, Shanghai, China",
+      "telephone": "+86 21 6666 1234",
+      "fax": "+86 21 6666 1235"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "Calle Mayor, 123, Algeciras, Spain",
+      "telephone": "+34 956 5555 1234",
+      "fax": "+34 956 5555 1235",
+      "email": "info@globalimportandexport.com",
+      "contactPerson": "Maria Garcia"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "Calle Mayor, 123, Algeciras, Spain",
+      "telephone": "+34 956 5555 1234",
+      "fax": "+34 956 5555 1235",
+      "email": "info@globalimportandexport.com",
+      "contactPerson": "Maria Garcia"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "940161",
+  "commodityDescription": "Office Chairs",
+  "containers": [
+    {
+      "containerNumber": "CRLU9587632",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AP123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "AP456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "147852",
+      "marksAndNumbers": "AP789",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU23456789",
+      "sealNumber": "369852",
+      "marksAndNumbers": "AP101",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU56789012",
+      "sealNumber": "741852",
+      "marksAndNumbers": "AP112",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 STANDARD CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 61000.0,
+    "totalMeasurement": 126.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202411085529-1",
+    "documentNumber": "202411085529-2",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "Calle Mayor, 123, Algeciras, Spain",
+      "telephone": "+34 956 5555 1234",
+      "fax": "+34 956 5555 1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "Calle Mayor, 123, Algeciras, Spain",
+      "telephone": "+34 956 5555 1234",
+      "fax": "+34 956 5555 1235"
+    },
+    "onboardDate": "2024-11-15 14:00",
+    "additionalRemarks": "Cargo to be stowed away from heat and moisture."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

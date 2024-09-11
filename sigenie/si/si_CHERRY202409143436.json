@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202409143436",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "3217W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ IMPORT EXPORT INC.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT EXPORT INC",
+      "address": "123 SUNRISE AVENUE, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "notifyParty": {
+      "name": "ABC GLOBAL LOGISTICS LTD.",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM, EC1A 1AA",
+      "telephone": "+44-20-1234-5678",
+      "fax": "+44-20-1234-5679"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85011010",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 15,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS AS PER INVOICE",
+      "grossWeight": 13000.0,
+      "measurement": 27.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS AS PER INVOICE",
+      "grossWeight": 14000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 45,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 39000.0,
+    "totalMeasurement": 82.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO78901",
+    "salesOrderNumber": "SO23456",
+    "lcDetails": {
+      "lcNumber": "LC7890123456"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN NUMBER: CO78901234",
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT EXPORT INC",
+      "address": "123 SUNRISE AVENUE, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "onboardDate": "2024-09-18 10:00",
+    "additionalRemarks": "CONTAINERS PRE-MARSHALLED. VALUE: USD35,000. SHIPPER REQUESTS COOL CONTAINER."
+  }
+}

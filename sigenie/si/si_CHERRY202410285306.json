@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410285306",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024372E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1254",
+      "address": "1234 Industrial Ave, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 5678 9012",
+      "email": "shipping@shipper1254.com"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 9825",
+      "address": "5678 Algeciras Road, Algeciras, Spain",
+      "taxId": "ES1234567890",
+      "telephone": "+34 956 1234 56",
+      "fax": "+34 956 9876 54"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 8731",
+      "address": "9012 Customer Ave, Madrid, Spain",
+      "telephone": "+34 91 5678 9012",
+      "fax": "+34 91 3456 7890"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "940171",
+  "commodityDescription": "METAL CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP1234",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS - SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIP7890",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS - SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWELVE (20' DRY CONTAINER X12) CONTAINER ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY CONTAINER X12",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC123456789"
+    },
+    "certificateDetails": "Certificate of Origin issued",
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 9825",
+      "address": "5678 Algeciras Road, Algeciras, Spain",
+      "telephone": "+34 956 1234 56",
+      "fax": "+34 956 9876 54"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 8731",
+      "address": "9012 Customer Ave, Madrid, Spain",
+      "telephone": "+34 91 5678 9012",
+      "fax": "+34 91 3456 7890"
+    },
+    "onboardDate": "2024-10-15 14:30",
+    "additionalRemarks": "Containers to be loaded on deck. Please ensure adequate lashing."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202410021203",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "24237W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECH SOLUTIONS ASIA LTD.",
+      "address": "123 Technology Street, Shanghai, China",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 12345679"
+    },
+    "consignee": {
+      "name": "TECH SOLUTIONS EUROPE GMBH",
+      "address": "123 Europastrasse, Frankfurt, Germany",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679",
+      "email": "info@techsolutionseurope.de",
+      "contactPerson": "Klaus Schmidt"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "123 Logistics Road, London, UK",
+      "telephone": "+44 20 12345678",
+      "fax": "+44 20 12345679",
+      "email": "info@worldwidelogistics.co.uk",
+      "contactPerson": "Sarah Jones"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "870323",
+  "commodityDescription": "DELIVERY TRUCKS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TSASIA-1",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DELIVERY TRUCKS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "TSASIA-2",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DELIVERY TRUCKS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "TSASIA-3",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DELIVERY TRUCKS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4321654",
+      "sealNumber": "432165",
+      "marksAndNumbers": "TSASIA-4",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DELIVERY TRUCKS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU5432167",
+      "sealNumber": "543216",
+      "marksAndNumbers": "TSASIA-5",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DELIVERY TRUCKS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 DRY CONTAINER",
+    "totalPackages": 25,
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-001",
+    "documentNumber": "20241025-002",
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "CO-1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "TECH SOLUTIONS EUROPE GMBH",
+      "address": "123 Europastrasse, Frankfurt, Germany",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TECH SOLUTIONS EUROPE GMBH",
+      "address": "123 Europastrasse, Frankfurt, Germany",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679"
+    },
+    "onboardDate": "2024-10-10 14:00",
+    "additionalRemarks": "VEHICLES MUST BE SECURED PROPERLY FOR TRANSIT"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

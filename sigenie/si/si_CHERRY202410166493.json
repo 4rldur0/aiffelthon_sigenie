@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202410166493",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2347E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH GMBH",
+      "address": "INDUSTRIEPARK 12, HAMBURG, GERMANY"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORT EXPORT INC.",
+      "address": "SINGAPORE STREET 123, SINGAPORE",
+      "telephone": "+65 6777 1234",
+      "fax": "+65 6777 6789"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC IMPORT EXPORT INC.",
+      "address": "SINGAPORE STREET 123, SINGAPORE",
+      "telephone": "+65 6777 1212",
+      "fax": "+65 6777 6767"
+    }
+  },
+  "shippingTerm": "D/D",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EUROTECH SHIPMENT 123",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRIC MOTORS - PACKED IN CARTONS",
+      "grossWeight": 22000.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "EUROTECH SHIPMENT 123",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRIC MOTORS - PACKED IN PALLETS",
+      "grossWeight": 22000.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EUROTECH SHIPMENT 123",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRIC MOTORS - PACKED IN CRATES",
+      "grossWeight": 22000.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CRLU9012345",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "EUROTECH SHIPMENT 123",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRIC MOTORS - PACKED IN BOXES",
+      "grossWeight": 22000.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "345678",
+      "marksAndNumbers": "EUROTECH SHIPMENT 123",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRIC MOTORS - PACKED IN WOODEN CASES",
+      "grossWeight": 22000.0,
+      "measurement": 32.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER X5) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY CONTAINER X5",
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 160.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT-123456",
+      "CERT-789012"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC IMPORT EXPORT INC.",
+      "address": "SINGAPORE STREET 123, SINGAPORE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORT EXPORT INC.",
+      "address": "SINGAPORE STREET 123, SINGAPORE",
+      "telephone": "+65 6777 1212",
+      "fax": "+65 6777 6767"
+    },
+    "onboardDate": "2024-10-20 10:00",
+    "additionalRemarks": "FRAGILE CARGO, HANDLE WITH CARE"
+  }
+}

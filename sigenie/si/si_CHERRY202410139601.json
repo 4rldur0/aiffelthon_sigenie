@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410139601",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "24046W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING INC.",
+      "address": "1234 INDUSTRY STREET, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NEAR SHANGHAI METRO STATION)"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO.",
+      "address": "10 MAIN STREET, BERLIN, 10117, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@DELTATRADING.DE",
+      "telephone": "+49 30 1234 5678"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO.",
+      "address": "10 MAIN STREET, BERLIN, 10117, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@DELTATRADING.DE",
+      "telephone": "+49 30 1234 5678"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "AUTOMATIC PACKAGING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GTS20241026",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC PACKAGING MACHINE",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "432165",
+      "marksAndNumbers": "GTS20241026",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC PACKAGING MACHINE",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "CRATES",
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC123456789012"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+      "telephone": "03600061234",
+      "fax": "81-3-6000-0001"
+    },
+    "onboardDate": "2024-10-18 10:00",
+    "additionalRemarks": "Fragile machinery, Value: USD 35,000"
+  },
+  "reeferSettings": {}
+}

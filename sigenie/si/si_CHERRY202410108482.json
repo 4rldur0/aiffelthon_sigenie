@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202410108482",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024225W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9458",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO ECONOMIC & TECHNOLOGY DEVELOPMENT ZONE)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7312",
+      "address": "WALDDORFSTRASSE 55, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@CUSTOMER7312.DE",
+      "telephone": "+49 40 12345678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2135",
+      "address": "EINER STRASSE 10, 20357 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@INVOICERECEIVER2135.DE",
+      "telephone": "+49 40 98765432"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "846630",
+  "commodityDescription": "Hydraulic Cylinders",
+  "containers": [
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SHIPPER9458-123",
+      "numberOfPackages": 200,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HYDRAULIC CYLINDERS AS PER PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU11223344",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SHIPPER9458-456",
+      "numberOfPackages": 200,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HYDRAULIC CYLINDERS AS PER PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE DRY X2) CONTAINERS ONLY",
+    "totalPackages": 400,
+    "packageType": "BOXES",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "12345ABC",
+    "freeTimeAtDestination": "7 DAYS",
+    "onboardDate": "2024-10-18 12:00",
+    "additionalRemarks": "Containers to be loaded on deck."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

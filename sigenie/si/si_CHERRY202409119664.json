@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202409119664",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024818W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3612",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9251",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31-10-2222-1234",
+      "fax": "+31-10-2222-5678",
+      "email": "IMPORT@CUSTOMER9251.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5793",
+      "address": "1234 BRUSSELS STREET, ANTWERP, BELGIUM, 2000",
+      "telephone": "+32-3-2222-1234",
+      "fax": "+32-3-2222-5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847989",
+  "commodityDescription": "TEXTILE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SMW-20241016",
+      "numberOfPackages": 20,
+      "cargoDescription": "TEXTILE MACHINERY PARTS IN CRATES",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SMW-20241016",
+      "numberOfPackages": 20,
+      "cargoDescription": "TEXTILE MACHINERY PARTS IN CRATES",
+      "grossWeight": 22100.0,
+      "measurement": 33.2
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SMW-20241016",
+      "numberOfPackages": 20,
+      "cargoDescription": "TEXTILE MACHINERY PARTS IN CRATES",
+      "grossWeight": 22200.0,
+      "measurement": 33.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20DRY CONTAINERS",
+    "totalPackages": 60,
+    "totalGrossWeight": 66300.0,
+    "totalMeasurement": 99.6
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241016-001",
+    "documentNumber": "20241016-002",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9251",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31-10-2222-1234",
+      "fax": "+31-10-2222-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5793",
+      "address": "1234 BRUSSELS STREET, ANTWERP, BELGIUM, 2000",
+      "telephone": "+32-3-2222-1234",
+      "fax": "+32-3-2222-5678"
+    },
+    "onboardDate": "2024-10-05 12:45",
+    "additionalRemarks": "Containers require lashing and securing for safe transit."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU9876543",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "477292",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "None"
+  }
+}

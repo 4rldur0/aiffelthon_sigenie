@@ -1,0 +1,85 @@
+{
+  "bookingReference": "CHERRY202411103469",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "24257E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC IMPORT & EXPORT LTD",
+      "address": "1234 INTERNATIONAL AVE, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "(EAST DISTRICT)",
+      "telephone": "+86 21 5555 1234",
+      "email": "SHIPPING@ABCIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "XYZ GLOBAL TRADING CO.",
+      "address": "5678 MAIN STREET, ALGECIRAS, SPAIN 11001",
+      "country": "SPAIN",
+      "email": "INFO@XYZGLOBALTRADING.COM",
+      "telephone": "+34 956 222 1111"
+    },
+    "notifyParty": {
+      "name": "XYZ GLOBAL TRADING CO.",
+      "address": "5678 MAIN STREET, ALGECIRAS, SPAIN 11001",
+      "country": "SPAIN",
+      "email": "INFO@XYZGLOBALTRADING.COM",
+      "telephone": "+34 956 222 1111"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "903180",
+  "commodityDescription": "Digital Temperature Sensors",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC-20241110",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "DIGITAL TEMPERATURE SENSORS - SHIPPED AS IS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) 20' REEFER CONTAINER",
+    "totalPackages": 1000,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "XYZ GLOBAL TRADING CO.",
+      "address": "5678 MAIN STREET, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34 956 222 1111"
+    },
+    "originalInvoiceDistribution": {
+      "name": "XYZ GLOBAL TRADING CO.",
+      "address": "5678 MAIN STREET, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34 956 222 1111"
+    },
+    "onboardDate": "2024-11-12 12:00",
+    "additionalRemarks": "Temperature control to be maintained between 2 and 8 degrees Celsius."
+  }
+}

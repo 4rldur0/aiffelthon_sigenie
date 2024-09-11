@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202411012394",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2422E103"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Global Sourcing Solutions",
+      "onBehalfOf": "",
+      "address": "123 Global Street, Shanghai, CHINA",
+      "telephone": "+86-21-55551212",
+      "fax": "+86-21-55556767"
+    },
+    "consignee": {
+      "name": "ABC Imports LLC",
+      "address": "124 Canal Street, Amsterdam, NETHERLANDS",
+      "companyNumber": "123456789012"
+    },
+    "notifyParty": {
+      "name": "XYZ Corp.",
+      "address": "125 Main Street, Rotterdam, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854370",
+  "commodityDescription": "Bluetooth Headphones",
+  "containers": [
+    {
+      "containerNumber": "CMLU12345678",
+      "sealNumber": "98765432101",
+      "marksAndNumbers": "GSS2345",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BLUETOOTH HEADPHONES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU87654321",
+      "sealNumber": "10203040506",
+      "marksAndNumbers": "GSS6789",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BLUETOOTH HEADPHONES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU98765432",
+      "sealNumber": "54321098765",
+      "marksAndNumbers": "GSS0123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BLUETOOTH HEADPHONES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HQ DRY) CONTAINERS",
+    "totalPackages": 3000,
+    "packageType": "CARTONS",
+    "containerType": "40' HQ DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "COO-CN20241012"
+    ],
+    "originalBLDistribution": {
+      "name": "XYZ Corp.",
+      "address": "123 Main Street, Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-87654321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Imports LLC",
+      "address": "124 Canal Street, Amsterdam, NETHERLANDS",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-87654321"
+    },
+    "onboardDate": "2024-11-08 16:00",
+    "additionalRemarks": "3 x 40' HQ DRY Containers. Cargo: Assorted Bluetooth Headphones. Value: USD 45,000"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202410191384",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2458E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BMW Brilliance Automotive Ltd.",
+      "onBehalfOf": "BMW AG",
+      "address": "1238 Nanjing Road West, Shanghai, China 200041",
+      "telephone": "+86-21-6327-2222",
+      "fax": "+86-21-6327-2223"
+    },
+    "consignee": {
+      "name": "BMW North America LLC",
+      "address": "1000 BMW Way, Greer, SC 29651, USA",
+      "companyNumber": "1234567"
+    },
+    "notifyParty": {
+      "name": "BMW North America LLC",
+      "address": "1000 BMW Way, Greer, SC 29651, USA"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87032310",
+  "commodityDescription": "Luxury Sedans",
+  "containers": [
+    {
+      "containerNumber": "CMAU8976543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BMW20241019",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "Luxury Sedan - Model X5",
+      "grossWeight": 2500.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU8976544",
+      "sealNumber": "123457",
+      "marksAndNumbers": "BMW20241019",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "Luxury Sedan - Model 7 Series",
+      "grossWeight": 2450.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU8976545",
+      "sealNumber": "123458",
+      "marksAndNumbers": "BMW20241019",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "Luxury Sedan - Model 3 Series",
+      "grossWeight": 2400.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HQ) CONTAINERS ONLY",
+    "totalPackages": 3,
+    "packageType": "UNIT",
+    "containerType": "40'HQ",
+    "totalGrossWeight": 7350.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN1234567890",
+      "CO1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "BMW North America LLC",
+      "address": "1000 BMW Way, Greer, SC 29651, USA",
+      "telephone": "+1-864-834-2000",
+      "fax": "+1-864-834-2001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BMW Brilliance Automotive Ltd.",
+      "address": "1238 Nanjing Road West, Shanghai, China 200041",
+      "telephone": "+86-21-6327-2222",
+      "fax": "+86-21-6327-2223"
+    },
+    "onboardDate": "2024-10-26 14:30",
+    "additionalRemarks": "Vehicles are equipped with specialized climate control units for transport. Value: USD 180,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

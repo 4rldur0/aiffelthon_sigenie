@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202409277405",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024965E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2361",
+      "address": "NO. 1234, JINGDONG ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "IMPORTERS SPAIN SL",
+      "address": "AVENIDA DE ESPA\u00d1A 123, 11001 CADIZ, SPAIN",
+      "telephone": "+34-956-123456",
+      "fax": "+34-956-1234567",
+      "email": "IMPORT@IMPORTERSPAN.ES",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "LOGISTICS SPAIN SA",
+      "address": "CALLE DE LA RAMBLA 456, 11001 CADIZ, SPAIN",
+      "telephone": "+34-956-7654321",
+      "fax": "+34-956-76543210"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847989",
+  "commodityDescription": "SPINDLES FOR SPINNING",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER2361-01",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SPINDLES FOR SPINNING",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SHIPPER2361-02",
+      "numberOfPackages": 45,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SPINDLES FOR SPINNING",
+      "grossWeight": 17500.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER2361-03",
+      "numberOfPackages": 40,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SPINDLES FOR SPINNING",
+      "grossWeight": 17000.0,
+      "measurement": 24.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 135,
+    "totalGrossWeight": 52500.0,
+    "totalMeasurement": 73.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20240927-001",
+    "documentNumber": "20240927-002",
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": [
+      "CN20240927-001"
+    ],
+    "originalBLDistribution": {
+      "name": "IMPORTERS SPAIN SL",
+      "address": "AVENIDA DE ESPA\u00d1A 123, 11001 CADIZ, SPAIN",
+      "telephone": "+34-956-123456",
+      "fax": "+34-956-1234567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 4812",
+      "address": "AVENIDA DE ESPA\u00d1A 123, 11001 CADIZ, SPAIN",
+      "telephone": "+34-956-123456",
+      "fax": "+34-956-1234567"
+    },
+    "onboardDate": "2024-10-02 10:35",
+    "additionalRemarks": "Containers require pre-trip inspection."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 45 HIGH CUBE Container"
+  }
+}

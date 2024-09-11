@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202409189984",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS LLC",
+      "address": "No. 123, Huayuan Road, Ningbo, Zhejiang, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Ningbo Free Trade Zone)"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "Calle Mayor, 25, 28013 Madrid, SPAIN",
+      "country": "SPAIN",
+      "email": "info@globaltradingsolutions.es",
+      "telephone": "+34 91 666 66 66"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "Calle Mayor, 25, 28013 Madrid, SPAIN",
+      "country": "SPAIN",
+      "email": "info@globaltradingsolutions.es",
+      "telephone": "+34 91 666 66 66"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "902300",
+  "commodityDescription": "LASER SCANNING HEADS",
+  "containers": [
+    {
+      "containerNumber": "CCLU1234567",
+      "sealNumber": "111111",
+      "marksAndNumbers": "SUN123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LASER SCANNING HEADS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CCLU8765432",
+      "sealNumber": "222222",
+      "marksAndNumbers": "SUN456",
+      "numberOfPackages": 8,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LASER SCANNING HEADS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CCLU9876543",
+      "sealNumber": "333333",
+      "marksAndNumbers": "SUN789",
+      "numberOfPackages": 12,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LASER SCANNING HEADS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' STANDARD CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 34000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GTS20240918-001",
+    "hsCode": "902300",
+    "freeTimeAtDestination": "5 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC000123456789"
+    },
+    "certificateDetails": "Certificate of Origin issued by the Chamber of Commerce, Ningbo, China",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "Calle Mayor, 25, 28013 Madrid, SPAIN",
+      "telephone": "+34 91 666 66 66"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "Calle Mayor, 25, 28013 Madrid, SPAIN",
+      "telephone": "+34 91 666 66 66"
+    },
+    "onboardDate": "2024-09-22 12:00",
+    "additionalRemarks": "5 Days Free Time at Destination"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202409207534",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "3421W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "FOB",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORT EXPORT INC.",
+      "address": "456 BLUE SKY WAY, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "789 GLOBAL STREET, HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-1",
+      "numberOfPackages": 100,
+      "cargoDescription": "MOTORCYCLE PARTS, MADE IN CHINA",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-2",
+      "numberOfPackages": 100,
+      "cargoDescription": "MOTORCYCLE PARTS, MADE IN CHINA",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SUNRISE-3",
+      "numberOfPackages": 100,
+      "cargoDescription": "MOTORCYCLE PARTS, MADE IN CHINA",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU2345678",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SUNRISE-4",
+      "numberOfPackages": 100,
+      "cargoDescription": "MOTORCYCLE PARTS, MADE IN CHINA",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU4567890",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SUNRISE-5",
+      "numberOfPackages": 100,
+      "cargoDescription": "MOTORCYCLE PARTS, MADE IN CHINA",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 90000.0,
+    "totalMeasurement": 165.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CN1234567890",
+      "CN9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "BLUE SKY IMPORT EXPORT INC.",
+      "address": "456 BLUE SKY WAY, HAMBURG, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "789 GLOBAL STREET, HAMBURG, GERMANY"
+    },
+    "onboardDate": "2024-09-27 12:00",
+    "additionalRemarks": "DANGEROUS GOODS: Class 9, UN No: 3077"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6292313",
+    "unClass": "1",
+    "unCode": "No:",
+    "hsCode": "6880.97.67",
+    "flashPoint": "1\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

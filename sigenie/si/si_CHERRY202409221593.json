@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202409221593",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2423W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "onBehalfOf": "",
+      "address": "NO. 123 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-5678"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM) LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "MAERSK LOGISTICS (ROTTERDAM)",
+      "address": "123 PORT STREET, ROTTERDAM, NETHERLANDS 3011BB"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "TELEPHONE SWITCHING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHANGHAI-1234",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELEPHONE SWITCHING EQUIPMENT",
+      "grossWeight": 22000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHANGHAI-5678",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELEPHONE SWITCHING EQUIPMENT",
+      "grossWeight": 22000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE REEFER",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033739"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM) LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MAERSK LOGISTICS (ROTTERDAM)",
+      "address": "123 PORT STREET, ROTTERDAM, NETHERLANDS 3011BB"
+    },
+    "onboardDate": "2024-09-26 12:00",
+    "additionalRemarks": "CARGO REQUIRES TEMPERATURE CONTROL BETWEEN 2-8 DEGREES CELSIUS. VALUE: USD 50,000"
+  }
+}

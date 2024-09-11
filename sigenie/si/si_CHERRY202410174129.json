@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410174129",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2424E112"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO INDUSTRIAL ZONE)",
+      "telephone": "+86 574 8888 9999",
+      "email": "SUNRISE@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "ATLAS IMPORT & EXPORT INC.",
+      "address": "456 ATLAS LANE, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "ATLAS@EXAMPLE.COM",
+      "telephone": "+31 10 777 8888"
+    },
+    "notifyParty": {
+      "name": "ATLAS IMPORT & EXPORT INC.",
+      "address": "456 ATLAS LANE, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "ATLAS@EXAMPLE.COM",
+      "telephone": "+31 10 666 9999"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "847130",
+  "commodityDescription": "LAPTOP COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SR-LAPTOP123",
+      "numberOfPackages": 120,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS (120 CARTONS)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "SR-LAPTOP456",
+      "numberOfPackages": 120,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS (120 CARTONS)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "1020304050",
+      "marksAndNumbers": "SR-LAPTOP789",
+      "numberOfPackages": 120,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS (120 CARTONS)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3 x 20 DRY) CONTAINERS ONLY",
+    "totalPackages": 360,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "originalBLDistribution": {
+      "name": "ATLAS IMPORT & EXPORT INC.",
+      "address": "456 ATLAS LANE, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31 10 777 8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ATLAS IMPORT & EXPORT INC.",
+      "address": "456 ATLAS LANE, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31 10 777 8888"
+    },
+    "onboardDate": "2024-10-22 14:00",
+    "additionalRemarks": "Laptops packaged individually. Value: USD300,000"
+  }
+}

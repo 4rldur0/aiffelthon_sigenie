@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202411013354",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2425E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Schneider Electric (Shanghai)",
+      "address": "123 ENGINEERING STREET, SINGAPORE 609876",
+      "telephone": "+65 6789 1234",
+      "fax": "+65 6789 4321"
+    },
+    "consignee": {
+      "name": "AMERICAN MACHINE PARTS INC.",
+      "address": "456 INDUSTRY AVE, LOS ANGELES, USA 90012",
+      "telephone": "+1 213 555 5678",
+      "fax": "+1 213 555 8901",
+      "email": "ORDERS@AMERICANCNC.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "AMERICAN MACHINE PARTS INC.",
+      "address": "456 INDUSTRY AVE, LOS ANGELES, USA 90012",
+      "telephone": "+1 213 555 5678",
+      "fax": "+1 213 555 8901",
+      "email": "ORDERS@AMERICANCNC.COM"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84597000",
+  "commodityDescription": "CNC MACHINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SPEL20241107",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CNC MACHINE PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SPEL20241107",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CNC MACHINE PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "432109",
+      "marksAndNumbers": "SPEL20241107",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CNC MACHINE PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 DRY CONTAINER",
+    "totalPackages": 150,
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 99.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241107-1412",
+    "documentNumber": "20241107-1412-BL",
+    "lcDetails": {
+      "lcNumber": "LC23456789012"
+    },
+    "certificateDetails": [
+      "fumigation certificate",
+      "certificate of origin"
+    ],
+    "originalBLDistribution": {
+      "name": "AMERICAN MACHINE PARTS INC.",
+      "address": "456 INDUSTRY AVE, LOS ANGELES, USA 90012",
+      "telephone": "+1 213 555 5678",
+      "fax": "+1 213 555 8901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE PRECISION ENGINEERING LTD",
+      "address": "123 ENGINEERING STREET, SINGAPORE 609876",
+      "telephone": "+65 6789 1234",
+      "fax": "+65 6789 4321"
+    },
+    "onboardDate": "2024-11-07 14:00",
+    "additionalRemarks": "TRANSFORMERS, PACKED ON WOODEN PALLETS. VALUE: USD150,000"
+  }
+}

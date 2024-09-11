@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202410037004",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "244W31E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING GMBH",
+      "address": "123 INDUSTRY STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 555 123 4567",
+      "email": "SHIPPER@OMEGAMFG.COM"
+    },
+    "consignee": {
+      "name": "DELTA IMPORT & EXPORT INC.",
+      "address": "456 COMMERCE LANE, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 987 6543"
+    },
+    "notifyParty": {
+      "name": "DELTA IMPORT & EXPORT INC.",
+      "address": "456 COMMERCE LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 111 2222",
+      "fax": "+31 10 333 4444"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "902300",
+  "commodityDescription": "SPECTROPHOTOMETERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "12345",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM SPECTROPHOTOMETERS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 20 DRY CONTAINER",
+    "totalPackages": 10,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA IMPORT & EXPORT INC.",
+      "address": "456 COMMERCE LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 987 6543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA IMPORT & EXPORT INC.",
+      "address": "456 COMMERCE LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 111 2222",
+      "fax": "+31 10 333 4444"
+    },
+    "onboardDate": "2024-10-10 12:00",
+    "additionalRemarks": "5 Days Free Time at Destination, Carrier Provided Container"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 45 HIGH CUBE Container"
+  }
+}

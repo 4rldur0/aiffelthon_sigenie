@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411034019",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24211E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO.",
+      "address": "No. 1234, Jinling Road, Ningbo, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "No. 5678, Maasboulevard, Rotterdam, 3072JA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@globalimports.nl",
+      "telephone": "+31 10 202 5555"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "No. 5678, Maasboulevard, Rotterdam, 3072JA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@globalimports.nl",
+      "telephone": "+31 10 202 5555"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "85437090",
+  "commodityDescription": "Electric Motors",
+  "containers": [
+    {
+      "containerNumber": "MSCU8976543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APM-20241103",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS, PACKED IN INDIVIDUAL CARTONS, PROTECTED WITH BUBBLE WRAP AND FOAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APM-20241103",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS, PACKED IN INDIVIDUAL CARTONS, PROTECTED WITH BUBBLE WRAP AND FOAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU5678901",
+      "sealNumber": "987654",
+      "marksAndNumbers": "APM-20241103",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS, PACKED IN INDIVIDUAL CARTONS, PROTECTED WITH BUBBLE WRAP AND FOAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 FOOT) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GI20241103-001",
+    "hsCode": "85437090",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "No. 5678, Maasboulevard, Rotterdam, 3072JA, NETHERLANDS",
+      "telephone": "+31 10 202 5555"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "No. 5678, Maasboulevard, Rotterdam, 3072JA, NETHERLANDS",
+      "telephone": "+31 10 202 5555"
+    },
+    "onboardDate": "2024-11-06 12:00",
+    "additionalRemarks": "Please ensure all necessary customs documentation is provided before container loading."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

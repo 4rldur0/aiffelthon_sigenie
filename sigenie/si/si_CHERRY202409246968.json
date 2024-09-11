@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202409246968",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2448W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE, SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA IMPORT EXPORT INC.",
+      "onBehalfOf": "BETA INTERNATIONAL LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890124"
+    },
+    "consignee": {
+      "name": "GAMMA IMPORT GMBH",
+      "address": "KLANGENSTRASSE 15, 20355 HAMBURG, GERMANY",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "BETA INTERNATIONAL LTD.",
+      "address": "10 LONDON STREET, LONDON EC1A 4AA, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "90318020",
+  "commodityDescription": "ANALYTICAL BALANCES",
+  "containers": [
+    {
+      "containerNumber": "SUDU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AGT123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ANALYTICAL BALANCES",
+      "grossWeight": 5000.0,
+      "measurement": 10.0,
+      "additionalInfo": null
+    },
+    {
+      "containerNumber": "SUDU1234568",
+      "sealNumber": "123457",
+      "marksAndNumbers": "AGT124",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ANALYTICAL BALANCES",
+      "grossWeight": 5000.0,
+      "measurement": 10.0,
+      "additionalInfo": null
+    },
+    {
+      "containerNumber": "SUDU1234569",
+      "sealNumber": "123458",
+      "marksAndNumbers": "AGT125",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ANALYTICAL BALANCES",
+      "grossWeight": 5000.0,
+      "measurement": 10.0,
+      "additionalInfo": null
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY CONTAINER) CONTAINER ONLY",
+    "totalPackages": 150,
+    "packageType": "BOXES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000202033739"
+    },
+    "certificateDetails": [
+      "4112720070177X"
+    ],
+    "originalBLDistribution": {
+      "name": "GAMMA IMPORT GMBH",
+      "address": "KLANGENSTRASSE 15, 20355 HAMBURG, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA INTERNATIONAL LTD.",
+      "address": "10 LONDON STREET, LONDON EC1A 4AA, UNITED KINGDOM",
+      "telephone": "+44-20-76666666",
+      "fax": "+44-20-76666667"
+    },
+    "onboardDate": "2024-09-26 14:00",
+    "additionalRemarks": "Maintain temperature between 2-8 degrees Celsius."
+  }
+}
