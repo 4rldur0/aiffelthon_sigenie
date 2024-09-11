@@ -8,7 +8,7 @@ import base64
 load_dotenv()
 MONGO_URI = os.getenv("MONGODB_URI")
 DB_NAME = os.getenv("MONGODB_DB_NAME")
-COLLECTION_NAME = "si"  # Changed from "bl" to "si"
+COLLECTION_NAME = "si" 
 client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
@@ -281,7 +281,6 @@ def main():
     else:
         st.warning("No document found for the selected booking reference.")
 
-    # Footer 제거
 
 if __name__ == "__main__":
     main()
