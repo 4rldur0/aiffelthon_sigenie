@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409218831",
+  "customerName": "CUSTOMER 3412",
+  "shipperName": "SHIPPER 8765",
+  "invoiceReceiver": "INVOICE RECEIVER 5678",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024822W"
+  },
+  "cargoDetails": {
+    "hsCode": "281640",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 52",
+    "commodity": "SAMPLE COMMODITY 91"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "GENERAL PURPOSE",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-05 12:30",
+    "estimatedDepartureFromLoadingPort": "2024-10-07 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-01 08:00"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE",
+  "shippingTerm": "CIF",
+  "remarks": "Containers require pre-trip inspection."
+}

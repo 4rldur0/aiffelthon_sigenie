@@ -1,5 +1,6 @@
 # environment variables
 .env
+.venv
 
 #Cache folders
 __pycache__
@@ -15,3 +16,7 @@ poetry.lock
 .bin
 /rag/db
 *.ipynb
+
+# processed log
+processed_bkg_files.json
+processed_si_files.json

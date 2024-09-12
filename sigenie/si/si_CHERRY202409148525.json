@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202409148525",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2437W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA ELECTRONICS LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 1111"
+    },
+    "consignee": {
+      "name": "DELTA IMPORTS INC.",
+      "address": "456 BROADWAY, NEW YORK CITY, NY 10001, USA",
+      "telephone": "+1 555 123 4567",
+      "fax": "+1 555 987 6543"
+    },
+    "notifyParty": {
+      "name": "DELTA IMPORTS INC.",
+      "address": "456 BROADWAY, NEW YORK CITY, NY 10001, USA",
+      "telephone": "+1 555 123 4567",
+      "fax": "+1 555 987 6543"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "POWER TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA IMPORTS INC. ORDER 12345",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 10000,
+      "measurement": 20
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DELTA IMPORTS INC. ORDER 12345",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 5000,
+      "measurement": 10
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "DELTA IMPORTS INC. ORDER 12345",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 10000,
+      "measurement": 20
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "901234",
+      "marksAndNumbers": "DELTA IMPORTS INC. ORDER 12345",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 5000,
+      "measurement": 10
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "567890",
+      "marksAndNumbers": "DELTA IMPORTS INC. ORDER 12345",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 10000,
+      "measurement": 20
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 STANDARD CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "packageType": "CARTONS & PALLETS",
+    "totalGrossWeight": 50000,
+    "totalMeasurement": 100
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA IMPORTS INC.",
+      "address": "456 BROADWAY, NEW YORK CITY, NY 10001, USA",
+      "telephone": "+1 555 123 4567",
+      "fax": "+1 555 987 6543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA IMPORTS INC.",
+      "address": "456 BROADWAY, NEW YORK CITY, NY 10001, USA",
+      "telephone": "+1 555 123 4567",
+      "fax": "+1 555 987 6543"
+    },
+    "onboardDate": "2024-09-20 14:00",
+    "additionalRemarks": "Require fumigation certificate"
+  }
+}

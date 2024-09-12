@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202410253507",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2439E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS INC.",
+      "address": "1234 ORCHARD ROAD, SINGAPORE, 238888",
+      "country": "SINGAPORE",
+      "additionalInfo": "(SINGAPORE FREE TRADE ZONE)",
+      "telephone": "+65 6789 1234",
+      "email": "SHIPPING@SUNRISETRADE.COM.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTERS GMBH",
+      "address": "123 MAIN STREET, HAMBURG, 20095, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@GLOBALIMPORTERS.DE",
+      "telephone": "+49 40 555 1212"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTERS GMBH",
+      "address": "123 MAIN STREET, HAMBURG, 20095, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@GLOBALIMPORTERS.DE",
+      "telephone": "+49 40 555 1212"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847130",
+  "commodityDescription": "LAPTOP COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-12345",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS - MODEL A200",
+      "grossWeight": 12000.0,
+      "measurement": 16.0
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-67890",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS - MODEL A200",
+      "grossWeight": 12000.0,
+      "measurement": 16.0
+    },
+    {
+      "containerNumber": "MSCU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE-98765",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS - MODEL A200",
+      "grossWeight": 12000.0,
+      "measurement": 16.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "432109",
+      "marksAndNumbers": "SUNRISE-43210",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS - MODEL A200",
+      "grossWeight": 12000.0,
+      "measurement": 16.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (4) x 20' DRY CONTAINER",
+    "totalPackages": 400,
+    "totalGrossWeight": 48000.0,
+    "totalMeasurement": 64.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTERS GMBH",
+      "address": "123 MAIN STREET, HAMBURG, 20095, GERMANY",
+      "telephone": "+49 40 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTERS GMBH",
+      "address": "123 MAIN STREET, HAMBURG, 20095, GERMANY",
+      "telephone": "+49 40 555 1212"
+    },
+    "onboardDate": "2024-10-28 10:00",
+    "additionalRemarks": "CARGO REQUIRES SPECIAL HANDLING. PLEASE ENSURE ADEQUATE SECURITY DURING TRANSIT."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9421234",
+    "unClass": "6",
+    "unCode": "No:",
+    "hsCode": "2097.27.86",
+    "flashPoint": "43\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

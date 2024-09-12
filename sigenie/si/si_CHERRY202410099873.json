@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202410099873",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2442W1EA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "123 SUNRISE AVENUE, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "456 TOY STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "789 BLOCK LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 6789 0123",
+      "fax": "+31 10 4567 8901"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "95030010",
+  "commodityDescription": "CHILDREN'S BUILDING BLOCKS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9776123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE IMPORTS LTD.",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CHILDREN'S BUILDING BLOCKS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU8954321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE IMPORTS LTD.",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CHILDREN'S BUILDING BLOCKS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SUNRISE IMPORTS LTD.",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CHILDREN'S BUILDING BLOCKS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "214365",
+      "marksAndNumbers": "SUNRISE IMPORTS LTD.",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CHILDREN'S BUILDING BLOCKS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE IMPORTS LTD.",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CHILDREN'S BUILDING BLOCKS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER X5) CONTAINERS ONLY",
+    "totalPackages": 2500,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY CONTAINER X5",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT12345",
+      "CERT67890"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "456 TOY STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "789 BLOCK LANE, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "Please ensure all necessary permits are in place prior to shipment."
+  }
+}

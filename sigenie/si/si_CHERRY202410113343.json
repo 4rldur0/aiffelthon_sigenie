@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410113343",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024852E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9467",
+      "address": "123 MAIN STREET, SUITE 300, NEW YORK, NY 10002, USA",
+      "telephone": "212-555-1313",
+      "fax": "212-555-1314"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "456 BROADWAY, SUITE 100, LONDON, WC1A 1EJ, UNITED KINGDOM",
+      "telephone": "+44 20 7555 1414",
+      "fax": "+44 20 7555 1415",
+      "email": "INFO@SUNRISEIMPORTSLTD.COM",
+      "contactPerson": "JANE DOE"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "SUNRISE LOGISTICS LTD",
+      "address": "789 OXFORD STREET, SUITE 200, LONDON, W1D 1LL, UNITED KINGDOM",
+      "telephone": "+44 20 7555 1515",
+      "fax": "+44 20 7555 1516"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "940161",
+  "commodityDescription": "METAL CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: METAL CHAIRS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 45,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: METAL CHAIRS",
+      "grossWeight": 14500.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 55,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: METAL CHAIRS",
+      "grossWeight": 15500.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20DRY CONTAINERS",
+    "totalPackages": 150,
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241026-001",
+    "documentNumber": "20241026-002",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "456 BROADWAY, SUITE 100, LONDON, WC1A 1EJ, UNITED KINGDOM",
+      "telephone": "+44 20 7555 1414",
+      "fax": "+44 20 7555 1415"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "456 BROADWAY, SUITE 100, LONDON, WC1A 1EJ, UNITED KINGDOM",
+      "telephone": "+44 20 7555 1414",
+      "fax": "+44 20 7555 1415"
+    },
+    "onboardDate": "2024-10-22 15:30",
+    "additionalRemarks": "Containers to be loaded on deck due to oversized cargo."
+  }
+}

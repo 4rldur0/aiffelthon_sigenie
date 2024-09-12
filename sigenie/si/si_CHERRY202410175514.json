@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410175514",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410W35"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "1234 OCEAN BOULEVARD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "5678 MAIN STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49 30 1234 5678",
+      "fax": "+49 30 1234 9012",
+      "email": "IMPORT@GLOBALTRADING.DE",
+      "contactPerson": "PETER MEIER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "MICROPROCESSOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU1122334",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GT-456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 12200.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "CRLU5566778",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GT-789",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 12100.0,
+      "measurement": 15.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40' HIGH CUBE REEFER CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 36300.0,
+    "totalMeasurement": 45.7
+  },
+  "additionalInformation": {
+    "invoiceNumber": "GT20241017001",
+    "documentNumber": "20241017002",
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "5678 MAIN STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49 30 1234 5678",
+      "fax": "+49 30 1234 9012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "5678 MAIN STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49 30 1234 5678",
+      "fax": "+49 30 1234 9012"
+    },
+    "onboardDate": "2024-10-22 14:00",
+    "additionalRemarks": "3 x 40' HIGH CUBE REEFER CONTAINERS, Item: MICROPROCESSOR CHIPS, Value: USD300,000"
+  }
+}

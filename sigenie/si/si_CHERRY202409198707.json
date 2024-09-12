@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202409198707",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024412W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1294",
+      "address": "BEEMSTERSTRAAT 10, 1976 BE IJMUIDEN, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTECH.NL",
+      "telephone": "+31 255 553333"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "328 HUANGPU ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO OFFICE)"
+    },
+    "notifyParty": {
+      "name": "EUROTECH ENGINEERING BV",
+      "address": "BEEMSTERSTRAAT 10, 1976 BE IJMUIDEN, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "SHIPPING@EUROTECH.NL",
+      "telephone": "+31 255 553333"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "950430",
+  "commodityDescription": "Mechanical Pencils",
+  "containers": [
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EUROTECH ENGINEERING BV",
+      "numberOfPackages": 10,
+      "packageType": "CARTON",
+      "cargoDescription": "Mechanical Pencils as per Invoice",
+      "grossWeight": 1500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EUROTECH ENGINEERING BV",
+      "numberOfPackages": 10,
+      "packageType": "CARTON",
+      "cargoDescription": "Mechanical Pencils as per Invoice",
+      "grossWeight": 1500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "EUROTECH ENGINEERING BV",
+      "numberOfPackages": 10,
+      "packageType": "CARTON",
+      "cargoDescription": "Mechanical Pencils as per Invoice",
+      "grossWeight": 1500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "CARTON",
+    "totalGrossWeight": 4500.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "950430",
+    "freeTimeAtDestination": "14 DAYS",
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "328 HUANGPU ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86 21 63212345"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH ENGINEERING BV",
+      "address": "BEEMSTERSTRAAT 10, 1976 BE IJMUIDEN, NETHERLANDS",
+      "telephone": "+31 255 553333"
+    },
+    "onboardDate": "2024-10-25 15:00",
+    "additionalRemarks": "Container needs to be pre-cooled to 10 degrees Celsius."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

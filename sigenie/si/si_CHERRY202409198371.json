@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202409198371",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024315W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9586",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 5555"
+    },
+    "consignee": {
+      "name": "EURO METAL IMPORT LTD",
+      "address": "123 HANSEATISCHE STRASSE, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@EUROMETALIMPORT.DE",
+      "contactPerson": "FRANZ SCHMITZ"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "73269090",
+  "commodityDescription": "STEEL SHEETS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9662312",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SUNRISE-1",
+      "numberOfPackages": 100,
+      "cargoDescription": "STEEL SHEETS AS PER COMMERCIAL INVOICE",
+      "grossWeight": 24000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "SUNRISE-2",
+      "numberOfPackages": 100,
+      "cargoDescription": "STEEL SHEETS AS PER COMMERCIAL INVOICE",
+      "grossWeight": 23500.0,
+      "measurement": 67.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40' HIGH CUBE CONTAINER",
+    "totalPackages": 200,
+    "totalGrossWeight": 47500.0,
+    "totalMeasurement": 135.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "GFS20241019-001",
+    "documentNumber": "20241019-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EURO METAL IMPORT LTD",
+      "address": "123 HANSEATISCHE STRASSE, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO METAL IMPORT LTD",
+      "address": "123 HANSEATISCHE STRASSE, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "onboardDate": "2024-10-05 17:45",
+    "additionalRemarks": "Please ensure proper documentation for customs clearance."
+  }
+}

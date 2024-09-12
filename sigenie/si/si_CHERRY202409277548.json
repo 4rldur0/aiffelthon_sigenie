@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202409277548",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "3247EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA DRAGON TRADING CO.",
+      "address": "123 DRAGON STREET, NINGBO, CHINA 315000"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT CO. LTD",
+      "address": "456 SUNRISE AVENUE, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT & EXPORT CO. LTD",
+      "address": "456 SUNRISE AVENUE, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "6204630000",
+  "commodityDescription": "LADIES' JACKETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE JACKETS 1",
+      "numberOfPackages": 50,
+      "cargoDescription": "LADIES' JACKETS IN 50 PACKAGES",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SUNRISE JACKETS 2",
+      "numberOfPackages": 55,
+      "cargoDescription": "LADIES' JACKETS IN 55 PACKAGES",
+      "grossWeight": 8500.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SUNRISE JACKETS 3",
+      "numberOfPackages": 60,
+      "cargoDescription": "LADIES' JACKETS IN 60 PACKAGES",
+      "grossWeight": 9000.0,
+      "measurement": 24.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 165,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 25500.0,
+    "totalMeasurement": 66.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "987654321012X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT CO. LTD",
+      "address": "456 SUNRISE AVENUE, ROTTERDAM, NETHERLANDS 3000AA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT CO. LTD",
+      "address": "456 SUNRISE AVENUE, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-10-03 12:00",
+    "additionalRemarks": "CONTAINERS SHOULD BE SECURED WITH A HIGH-SECURITY SEAL AND PROPER LABELS"
+  }
+}

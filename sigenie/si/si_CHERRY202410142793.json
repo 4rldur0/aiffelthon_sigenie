@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410142793",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2431W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MACHINERY LTD.",
+      "onBehalfOf": "",
+      "address": "1234 INDUSTRIAL AVE, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1313"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTERS INC.",
+      "address": "10 MAIN STREET, MADRID, SPAIN, 28001",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTERS INC.",
+      "address": "10 MAIN STREET, MADRID, SPAIN, 28001"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84796090",
+  "commodityDescription": "AUTOMATIC SHRINK WRAP MACHINE",
+  "containers": [
+    {
+      "containerNumber": "SEGU9562323",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLOBAL123",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "AUTOMATIC SHRINK WRAP MACHINE",
+      "grossWeight": 3000.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "SEGU9562324",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GLOBAL124",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "AUTOMATIC SHRINK WRAP MACHINE",
+      "grossWeight": 3000.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "SEGU9562325",
+      "sealNumber": "135790",
+      "marksAndNumbers": "GLOBAL125",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "AUTOMATIC SHRINK WRAP MACHINE",
+      "grossWeight": 3000.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 3,
+    "packageType": "UNITS",
+    "containerType": "20DR",
+    "totalGrossWeight": 9000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTERS INC.",
+      "address": "10 MAIN STREET, MADRID, SPAIN, 28001",
+      "telephone": "+34-91-123-4567",
+      "fax": "+34-91-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC MACHINERY LTD.",
+      "address": "1234 INDUSTRIAL AVE, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1313"
+    },
+    "onboardDate": "2024-10-18 09:00",
+    "additionalRemarks": "Insurance required. Pre-shipment inspection optional."
+  },
+  "outOfGaugeDimensions": {
+    "length": 12192,
+    "width": 2438,
+    "height": 2696,
+    "overWidth": 200,
+    "overHeight": 300
+  }
+}

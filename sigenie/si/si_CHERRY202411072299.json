@@ -1,0 +1,143 @@
+{
+  "bookingReference": "CHERRY202411072299",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2422EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIES INC.",
+      "address": "NO. 128, SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "INFO@SUNRISEINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CORP.",
+      "address": "WATERLOO PLAZA, 121-123 WATERLOOPLEIN, 1011 PG AMSTERDAM, NETHERLANDS",
+      "taxId": "NL856321452B01",
+      "president": "MR. JAN VAN DER WIEL",
+      "telephone": "+31 20 624 3500",
+      "fax": "+31 20 624 3501"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CORP.",
+      "address": "WATERLOO PLAZA, 121-123 WATERLOOPLEIN, 1011 PG AMSTERDAM, NETHERLANDS",
+      "taxId": "NL856321452B01",
+      "president": "MR. JAN VAN DER WIEL",
+      "telephone": "+31 20 624 3500",
+      "fax": "+31 20 624 3501"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "90230000",
+  "commodityDescription": "MEDICAL EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS MEDICAL EQUIPMENT",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS MEDICAL EQUIPMENT",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS MEDICAL EQUIPMENT",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "214365",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS MEDICAL EQUIPMENT",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU5432167",
+      "sealNumber": "567890",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS MEDICAL EQUIPMENT",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) X 20 DRY CONTAINER",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0123456789"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "BANK OF CHINA NINGBO BRANCH",
+      "address": "NO. 123 HAIYAN ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8666 7890",
+      "fax": "+86 574 8666 7891"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BANK OF CHINA NINGBO BRANCH",
+      "address": "NO. 123 HAIYAN ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8666 7890",
+      "fax": "+86 574 8666 7891"
+    },
+    "onboardDate": "2024-11-10 10:00",
+    "additionalRemarks": "Pre-shipment inspection required. Fumigation certificate needed."
+  },
+  "dangerousGoods": {
+    "dangerousGoodsDescription": "Corrosive solid, acidic, n.o.s.",
+    "unNumber": "3264",
+    "class": "9",
+    "packingGroup": "II",
+    "subsidiaryRisk": null,
+    "properShippingName": "Corrosive solid, acidic, n.o.s.",
+    "technicalName": null,
+    "netWeight": null,
+    "grossWeight": null,
+    "quantity": null,
+    "packaging": null,
+    "emergencyResponseGuideNumber": "172"
+  }
+}

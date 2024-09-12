@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202409304578",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024892W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1854",
+      "address": "No. 1234, Xinghai Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8654 3210",
+      "email": "shipping@shipper1854.com"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 6123",
+      "address": "123 Thames Street, London, EC3N 2ES, United Kingdom",
+      "telephone": "+44 20 7946 5678",
+      "fax": "+44 20 7946 5679"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7392",
+      "address": "123 Thames Street, London, EC3N 2ES, United Kingdom",
+      "telephone": "+44 20 7946 5678",
+      "fax": "+44 20 7946 5679"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "950691",
+  "commodityDescription": "TREADMILLS FOR HOME USE",
+  "containers": [
+    {
+      "containerNumber": "CMAU5123456",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP-1854-TM001",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "TREADMILLS AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU6789012",
+      "sealNumber": "678901",
+      "marksAndNumbers": "SHIP-1854-TM002",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "TREADMILLS AS PER INVOICE",
+      "grossWeight": 17500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CRATES",
+    "containerType": "40'HC X2",
+    "totalGrossWeight": 35500.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "CC123456789",
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 6123",
+      "address": "123 Thames Street, London, EC3N 2ES, United Kingdom",
+      "telephone": "+44 20 7946 5678",
+      "fax": "+44 20 7946 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 7392",
+      "address": "123 Thames Street, London, EC3N 2ES, United Kingdom",
+      "telephone": "+44 20 7946 5678",
+      "fax": "+44 20 7946 5679"
+    },
+    "onboardDate": "2024-10-15 18:42",
+    "additionalRemarks": "Please ensure containers are properly secured for transit."
+  }
+}

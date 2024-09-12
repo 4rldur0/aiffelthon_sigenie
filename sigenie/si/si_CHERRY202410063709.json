@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410063709",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024413E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Telegraphic Transfer",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3582",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "145 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 DE",
+      "country": "NETHERLANDS",
+      "email": "IMPORT@EURO-IMPORTS.NL",
+      "telephone": "+31 20 345 6789"
+    },
+    "notifyParty": {
+      "name": "EURO IMPORTS BV",
+      "address": "145 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 DE",
+      "country": "NETHERLANDS",
+      "email": "IMPORT@EURO-IMPORTS.NL",
+      "telephone": "+31 20 345 6789"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854231",
+  "commodityDescription": "SEMICONDUCTORS",
+  "containers": [
+    {
+      "containerNumber": "MSCU2345678",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ASPL2345",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN SEMICONDUCTORS, PALLETIZED",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU87654321",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "ASPL2346",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN SEMICONDUCTORS, PALLETIZED",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "BOXES",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "854231",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "145 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 DE",
+      "telephone": "+31 20 345 6789"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "145 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 DE",
+      "telephone": "+31 20 345 6789",
+      "fax": "+31 20 345 6790"
+    },
+    "onboardDate": "2024-10-15 15:32",
+    "additionalRemarks": "Containers require pre-trip inspection."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "bookingReference": "CHERRY202410163029",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410WQB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL ENTERPRISES LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, PUTUO DISTRICT, SHANGHAI, 200062",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)",
+      "telephone": "+86 21 6543 2100",
+      "email": "GLOBAL@GLOBALENTERPRISES.COM"
+    },
+    "consignee": {
+      "name": "DUTCH FURNITURE IMPORTS BV",
+      "address": "DE KLOKKENLAAN 100, 3062 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@DUTCHFURNITUREIMPORTS.NL",
+      "telephone": "+31 10 463 1234"
+    },
+    "notifyParty": {
+      "name": "DUTCH FURNITURE IMPORTS BV",
+      "address": "DE KLOKKENLAAN 100, 3062 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@DUTCHFURNITUREIMPORTS.NL",
+      "telephone": "+31 10 463 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "94016000",
+  "commodityDescription": "METAL CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLOBAL 1/5",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS (W.1200MM H.800MM)",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GLOBAL 2/5",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS (W.1200MM H.800MM)",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GLOBAL 3/5",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS (W.1200MM H.800MM)",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9012345",
+      "sealNumber": "901234",
+      "marksAndNumbers": "GLOBAL 4/5",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS (W.1200MM H.800MM)",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "678901",
+      "marksAndNumbers": "GLOBAL 5/5",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS (W.1200MM H.800MM)",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 x 20' DRY) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-20 15:00",
+    "additionalRemarks": "CONTAINER SEAL REQUIRED. CARGO WEIGHT NOT TO EXCEED 20 TONNES PER CONTAINER."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5514529",
+    "unClass": "2",
+    "unCode": "No: 3077",
+    "hsCode": "6334.10.40",
+    "flashPoint": "17\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

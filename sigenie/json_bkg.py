@@ -125,12 +125,65 @@ def main():
 
         if selected_doc:
             st.write("---")
-            # Create input fields for all sections of the booking document
-            updated_data = create_input_fields(selected_doc)
+            
+            # 상단 정보
+            st.subheader("Booking Information")
+            col1, col2 = st.columns(2)
+            with col1:
+                st.text_input("Booking Reference", selected_doc.get('bookingReference', ''))
+                st.text_input("Customer Name", selected_doc.get('customerName', ''))
+                st.text_input("Shipper Name", selected_doc.get('shipperName', ''))
+            with col2:
+                st.text_input("Invoice Receiver", selected_doc.get('invoiceReceiver', ''))
+                st.text_input("Shipping Term", selected_doc.get('shippingTerm', ''))
 
-            # Update button to save changes
+            st.write("---")
+
+            # 중앙 정보
+            col_left, col_right = st.columns(2)
+            
+            with col_left:
+                st.subheader("Voyage Details")
+                voyage_details = create_input_fields(selected_doc.get('voyageDetails', {}), 'voyageDetails.')
+                
+                st.subheader("Route Details")
+                route_details = create_input_fields(selected_doc.get('routeDetails', {}), 'routeDetails.')
+                
+                st.subheader("Schedule Details")
+                schedule_details = create_input_fields(selected_doc.get('scheduleDetails', {}), 'scheduleDetails.')
+
+            with col_right:
+                st.subheader("Cargo Details")
+                cargo_details = create_input_fields(selected_doc.get('cargoDetails', {}), 'cargoDetails.')
+                
+                st.subheader("Container Details")
+                container_details = create_input_fields(selected_doc.get('containerDetails', {}), 'containerDetails.')
+                
+                st.subheader("Empty Container Pickup Location")
+                pickup_location = create_input_fields(selected_doc.get('emptyContainerPickupLocation', {}), 'emptyContainerPickupLocation.')
+
+            st.write("---")
+
+            # 하단 정보
+            st.subheader("Remarks")
+            remarks = st.text_area("Remarks", selected_doc.get('remarks', ''))
+
+            # Update button
             if st.button("Update"):
-                # Update the document in MongoDB
+                updated_data = {
+                    'bookingReference': selected_doc['bookingReference'],
+                    'customerName': selected_doc['customerName'],
+                    'shipperName': selected_doc['shipperName'],
+                    'invoiceReceiver': selected_doc['invoiceReceiver'],
+                    'shippingTerm': selected_doc['shippingTerm'],
+                    'voyageDetails': voyage_details,
+                    'routeDetails': route_details,
+                    'scheduleDetails': schedule_details,
+                    'cargoDetails': cargo_details,
+                    'containerDetails': container_details,
+                    'emptyContainerPickupLocation': pickup_location,
+                    'remarks': remarks
+                }
                 update_mongodb(selected_doc['_id'], updated_data)
                 st.success("Document updated successfully!")
 

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410138269",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024781W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1234",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO OFFICE)"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 5678",
+      "address": "1234 BEEMSTERSTRAAT, 1976 BE IJMUIDEN, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@INVOICERECEIVER.NL",
+      "telephone": "+31 255 553333"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 9876",
+      "address": "9876 SHANGHAI ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "email": "CUSTOMER@9876.COM",
+      "telephone": "+86 21 63212345"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "290513",
+  "commodityDescription": "CHLORINE COMPOUNDS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9516783",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER 1234",
+      "numberOfPackages": 10,
+      "packageType": "BOX",
+      "cargoDescription": "CHLORINE COMPOUNDS AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER 1234",
+      "numberOfPackages": 8,
+      "packageType": "BOX",
+      "cargoDescription": "CHLORINE COMPOUNDS AS PER INVOICE",
+      "grossWeight": 16000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE DRY) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "packageType": "BOX",
+    "totalGrossWeight": 34000.0,
+    "totalMeasurement": 63.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "freeTimeAtDestination": "14 DAYS",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9876",
+      "address": "9876 SHANGHAI ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86 21 63212345"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5678",
+      "address": "1234 BEEMSTERSTRAAT, 1976 BE IJMUIDEN, NETHERLANDS",
+      "telephone": "+31 255 553333"
+    },
+    "onboardDate": "2024-10-25 16:00",
+    "additionalRemarks": "Containers require lashing."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

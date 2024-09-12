@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410285784",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2423EWB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS LTD",
+      "address": "1234 Import Street, Shanghai, China",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1213"
+    },
+    "consignee": {
+      "name": "UNITED GLOBAL TRADING CO.",
+      "address": "456 Trade Avenue, Amsterdam, Netherlands",
+      "telephone": "+31 20 7777 8888",
+      "fax": "+31 20 7777 8889",
+      "email": "info@unitedglobaltrading.nl",
+      "contactPerson": "Peter Van der Meer"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "94017000",
+  "commodityDescription": "CANED CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "API123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Caned Chairs - Model A100",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "654321",
+      "marksAndNumbers": "API456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Caned Chairs - Model A200",
+      "grossWeight": 7500.0,
+      "measurement": 19.5
+    },
+    {
+      "containerNumber": "CMAU7778889",
+      "sealNumber": "987654",
+      "marksAndNumbers": "API789",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Caned Chairs - Model A300",
+      "grossWeight": 8500.0,
+      "measurement": 20.5
+    },
+    {
+      "containerNumber": "CMAU2223334",
+      "sealNumber": "432109",
+      "marksAndNumbers": "API111",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Caned Chairs - Model A400",
+      "grossWeight": 7000.0,
+      "measurement": 19.0
+    },
+    {
+      "containerNumber": "CMAU5556667",
+      "sealNumber": "098765",
+      "marksAndNumbers": "API222",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Caned Chairs - Model A500",
+      "grossWeight": 8200.0,
+      "measurement": 20.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 DRY CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 40200.0,
+    "totalMeasurement": 99.2
+  },
+  "additionalInformation": {
+    "invoiceNumber": "UGT20241028-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-CN-20241028-001"
+    ],
+    "originalBLDistribution": {
+      "name": "UNITED GLOBAL TRADING CO.",
+      "address": "456 Trade Avenue, Amsterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "UNITED GLOBAL TRADING CO.",
+      "address": "456 Trade Avenue, Amsterdam, Netherlands"
+    },
+    "onboardDate": "2024-11-02 12:00",
+    "additionalRemarks": "Please arrange customs clearance at destination port."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

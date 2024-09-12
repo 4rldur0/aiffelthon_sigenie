@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411046821",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2411EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TEXTILES CO.",
+      "address": "123 YONGJIANG STREET, NINGBO, CHINA 315000",
+      "telephone": "+86-574-123-4567",
+      "fax": "+86-574-123-4568"
+    },
+    "consignee": {
+      "name": "EUROASIA IMPORTS LTD",
+      "address": "456 AVENIDA DE LA LIBERTAD, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34-956-123-4567",
+      "fax": "+34-956-123-4568"
+    },
+    "notifyParty": {
+      "name": "EUROASIA IMPORTS LTD",
+      "address": "456 AVENIDA DE LA LIBERTAD, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34-956-123-4567",
+      "fax": "+34-956-123-4568"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "560312",
+  "commodityDescription": "INDUSTRIAL FABRIC",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SUNRISE TEXTILES CO.",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM: INDUSTRIAL FABRIC",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "7890123",
+      "marksAndNumbers": "SUNRISE TEXTILES CO.",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM: INDUSTRIAL FABRIC",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "3456789",
+      "marksAndNumbers": "SUNRISE TEXTILES CO.",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM: INDUSTRIAL FABRIC",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE) CONTAINERS",
+    "totalPackages": 450,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 37000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "EUROASIA IMPORTS LTD",
+      "address": "456 AVENIDA DE LA LIBERTAD, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34-956-123-4567",
+      "fax": "+34-956-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA IMPORTS LTD",
+      "address": "456 AVENIDA DE LA LIBERTAD, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34-956-123-4567",
+      "fax": "+34-956-123-4568"
+    },
+    "onboardDate": "2024-11-08 10:00",
+    "additionalRemarks": "3 x 40 HIGH CUBE containers, Industrial Fabric, Value: USD35,000"
+  }
+}

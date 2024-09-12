@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202410111638",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024876A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3214",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 6543",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 5678"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 9876",
+      "address": "789 BROADWAY, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 6767"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "270111",
+  "commodityDescription": "Coal Briquettes",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP3214-1",
+      "numberOfPackages": 1000,
+      "cargoDescription": "Coal Briquettes - Packed in Bags",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SHIP3214-2",
+      "numberOfPackages": 1000,
+      "cargoDescription": "Coal Briquettes - Packed in Bags",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIP3214-3",
+      "numberOfPackages": 1000,
+      "cargoDescription": "Coal Briquettes - Packed in Bags",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SHIP3214-4",
+      "numberOfPackages": 1000,
+      "cargoDescription": "Coal Briquettes - Packed in Bags",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU9012345",
+      "sealNumber": "678901",
+      "marksAndNumbers": "SHIP3214-5",
+      "numberOfPackages": 1000,
+      "cargoDescription": "Coal Briquettes - Packed in Bags",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU0123456",
+      "sealNumber": "7890123",
+      "marksAndNumbers": "SHIP3214-6",
+      "numberOfPackages": 1000,
+      "cargoDescription": "Coal Briquettes - Packed in Bags",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "8901234",
+      "marksAndNumbers": "SHIP3214-7",
+      "numberOfPackages": 1000,
+      "cargoDescription": "Coal Briquettes - Packed in Bags",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "90123456",
+      "marksAndNumbers": "SHIP3214-8",
+      "numberOfPackages": 1000,
+      "cargoDescription": "Coal Briquettes - Packed in Bags",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "EIGHT (20 DRY) CONTAINERS",
+    "totalPackages": 8000,
+    "packageType": "BAGS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 160000.0,
+    "totalMeasurement": 160.0
+  },
+  "additionalInformation": {
+    "onboardDate": "2024-10-25 14:30",
+    "additionalRemarks": "Containers must be equipped with temperature monitoring devices."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

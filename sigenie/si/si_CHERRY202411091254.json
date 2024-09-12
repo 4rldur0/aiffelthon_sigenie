@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202411091254",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2411E12"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORTS INC.",
+      "address": "123 INDUSTRY STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(INDUSTRIAL ZONE)"
+    },
+    "consignee": {
+      "name": "ALPHA TRADING CO.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@alphatrading.nl",
+      "telephone": "+31 10 245 6789"
+    },
+    "notifyParty": {
+      "name": "GAMMA LOGISTICS BV",
+      "address": "789 WAREHOUSE STREET, AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "logistics@gammalogistics.nl",
+      "telephone": "+31 20 345 6789"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "94017900",
+  "commodityDescription": "METAL CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA IMPORTS INC.",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS AS PER INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS PACKAGED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "234567",
+      "marksAndNumbers": "BETA IMPORTS SEAL",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS ON PALLETS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HQ) CONTAINERS ONLY",
+    "totalPackages": 450,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "94017900",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "CERT123456789",
+    "originalBLDistribution": {
+      "name": "ALPHA TRADING CO.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 245 6789"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA TRADING CO.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 245 6789"
+    },
+    "onboardDate": "2024-11-17 14:00",
+    "additionalRemarks": "3 x 40' HQ containers, Metal Chairs, Value: USD 35,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

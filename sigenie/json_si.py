@@ -31,10 +31,12 @@ st.markdown("""
 PROCESSED_FILES_JSON = 'processed_si_files.json'
 
 def load_processed_files():
-    if os.path.exists(PROCESSED_FILES_JSON):
-        with open(PROCESSED_FILES_JSON, 'r') as f:
+    try:
+        with open('processed_si_files.json', 'r') as f:
             return set(json.load(f))
-    return set()
+    except (json.JSONDecodeError, FileNotFoundError):
+        # 파일이 비어있거나 존재하지 않을 경우 빈 세트 반환
+        return set()
 
 def save_processed_files(processed_files):
     with open(PROCESSED_FILES_JSON, 'w') as f:

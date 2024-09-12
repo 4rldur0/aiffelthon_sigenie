@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410165739",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024427E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1278",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 1234 5678",
+      "fax": "+86 574 1234 5679"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5532",
+      "address": "456 ALICANTE STREET, ALGEICRAS, SPAIN",
+      "telephone": "+34 956 1234 5678",
+      "fax": "+34 956 1234 5679"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9856",
+      "address": "789 SEVILLA STREET, MADRID, SPAIN",
+      "telephone": "+34 911 234 5678",
+      "fax": "+34 911 234 5679"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "847989",
+  "commodityDescription": "WIND TURBINE GENERATOR",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER 1278 1/2",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : WIND TURBINE GENERATOR",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER 1278 2/2",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : WIND TURBINE GENERATOR",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 2,
+    "packageType": "UNIT",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 80.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ATTACHED",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5532",
+      "address": "456 ALICANTE STREET, ALGEICRAS, SPAIN",
+      "telephone": "+34 956 1234 5678",
+      "fax": "+34 956 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9856",
+      "address": "789 SEVILLA STREET, MADRID, SPAIN",
+      "telephone": "+34 911 234 5678",
+      "fax": "+34 911 234 5679"
+    },
+    "onboardDate": "2024-10-22 15:00",
+    "additionalRemarks": "CONTAINER NEEDS SPECIAL SEALING DUE TO FRAGILE CONTENT."
+  }
+}

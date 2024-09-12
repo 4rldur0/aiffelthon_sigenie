@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202409245365",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2436E3W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "VALENCIA, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS",
+      "address": "123 HUANGPU ROAD, SHANGHAI, CHINA, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 6234 5678",
+      "email": "shipping@asiapacific.com"
+    },
+    "consignee": {
+      "name": "GOLDEN GATE IMPORTS LLC",
+      "address": "456 AVENIDA ESPA\u00d1A, VALENCIA, SPAIN, 46001",
+      "country": "SPAIN",
+      "email": "info@goldengateimports.es",
+      "telephone": "+34 96 389 7654"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE IMPORTS LLC",
+      "address": "456 AVENIDA ESPA\u00d1A, VALENCIA, SPAIN, 46001",
+      "country": "SPAIN",
+      "email": "info@goldengateimports.es",
+      "telephone": "+34 96 389 7654"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854231",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "APE123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROPROCESSORS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "APE456",
+      "numberOfPackages": 120,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROPROCESSORS AS PER INVOICE",
+      "grossWeight": 11500.0,
+      "measurement": 24.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 x 20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 220,
+    "totalGrossWeight": 23500.0,
+    "totalMeasurement": 50.3
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GOLDEN GATE IMPORTS LLC",
+      "address": "456 AVENIDA ESPA\u00d1A, VALENCIA, SPAIN, 46001",
+      "telephone": "+34 96 389 7654"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN GATE IMPORTS LLC",
+      "address": "456 AVENIDA ESPA\u00d1A, VALENCIA, SPAIN, 46001",
+      "telephone": "+34 96 389 7654"
+    },
+    "onboardDate": "2024-09-26 18:00",
+    "additionalRemarks": "14 Days Free Time at Destination"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  }
+}

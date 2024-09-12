@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202410277062",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "244WESSG"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL FORWARDING SOLUTIONS",
+      "address": "123 Logistics Street, Shanghai, China",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORTS LTD.",
+      "address": "456 Commerce Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432",
+      "email": "import@bluesky.nl",
+      "contactPerson": "Peter Jones"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY IMPORTS LTD.",
+      "address": "456 Commerce Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432",
+      "email": "import@bluesky.nl",
+      "contactPerson": "Jane Doe"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "94017100",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BSI123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GFS456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "BSI789",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU2468013",
+      "sealNumber": "801357",
+      "marksAndNumbers": "GFS123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU5793124",
+      "sealNumber": "124680",
+      "marksAndNumbers": "BSI456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20' CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241027-001",
+    "documentNumber": "20241027-002",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY IMPORTS LTD.",
+      "address": "456 Commerce Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY IMPORTS LTD.",
+      "address": "456 Commerce Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "onboardDate": "2024-10-12 17:00",
+    "additionalRemarks": "7 Days Free Time at Destination, Temperature Setting: 15\u00b0C"
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  }
+}

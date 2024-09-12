@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202409197572",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2432EWW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORT EXPORT CO.",
+      "onBehalfOf": "MS. LI HUI",
+      "address": "125 INDUSTRY ROAD, SHANGHAI, CHINA 200210",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "EURO AUTO PARTS GMBH",
+      "address": "126 AUTOstrasse, ANTWERP, BELGIUM 2000",
+      "companyNumber": "BE0678901234"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (ANTWERP)",
+      "address": "127 AEROCITY ROAD, ANTWERP, BELGIUM 2000"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "87089910",
+  "commodityDescription": "AUTOMOTIVE BRAKE PADS - FOR HONDA CIVIC",
+  "containers": [
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CE202410",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SEAL SAID TO CONTAIN: AUTOMOTIVE BRAKE PADS",
+      "grossWeight": 9500.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU8765433",
+      "sealNumber": "123457",
+      "marksAndNumbers": "CE202410",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SEAL SAID TO CONTAIN: AUTOMOTIVE BRAKE PADS",
+      "grossWeight": 9500.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU8765434",
+      "sealNumber": "123458",
+      "marksAndNumbers": "CE202410",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SEAL SAID TO CONTAIN: AUTOMOTIVE BRAKE PADS",
+      "grossWeight": 9500.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "CARTONS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 28500.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241025ABC"
+    },
+    "certificateDetails": [
+      {
+        "certificateType": "Fumigation Certificate",
+        "issuer": "CHINA PLANT QUARANTINE SERVICE",
+        "issueDate": "2024-10-25"
+      }
+    ],
+    "originalBLDistribution": {
+      "name": "EURO AUTO PARTS GMBH",
+      "address": "126 AUTOstrasse, ANTWERP, BELGIUM 2000",
+      "telephone": "+32-3-1234-5678",
+      "fax": "+32-3-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA AUTO PARTS LTD.",
+      "address": "125 INDUSTRY ROAD, SHANGHAI, CHINA 200210",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "onboardDate": "2024-10-01 15:00",
+    "additionalRemarks": "Shipment requires fumigation certificate. Please provide original bill of lading."
+  }
+}

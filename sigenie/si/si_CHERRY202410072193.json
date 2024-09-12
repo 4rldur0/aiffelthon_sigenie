@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202410072193",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "3217SW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "ROOM 301, 3F, NO. 1234 HUANGPU ROAD, SHANGHAI, CHINA, 200001",
+      "telephone": "+86 21 6234 5678",
+      "email": "logistics@asiapacificlogistics.com"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "FRANKFURTER STRASSE 123, 60314 FRANKFURT, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MS. ANNA SCHMIDT",
+      "telephone": "+49 69 123 4567",
+      "fax": "+49 69 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "FRANKFURTER STRASSE 123, 60314 FRANKFURT, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MS. ANNA SCHMIDT",
+      "telephone": "+49 69 123 4567",
+      "fax": "+49 69 123 4568"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "903281",
+  "commodityDescription": "Pressure Sensors for Industrial Automation",
+  "containers": [
+    {
+      "containerNumber": "SEGU4567890",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APL SHANGHAI TO HAMBURG",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PRESSURE SENSORS, PACKED IN CARTONS. VALUE: USD25,000",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APL SHANGHAI TO HAMBURG",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PRESSURE SENSORS, PACKED IN CARTONS. VALUE: USD25,000",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "APL SHANGHAI TO HAMBURG",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PRESSURE SENSORS, PACKED IN CARTONS. VALUE: USD25,000",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU8765432",
+      "sealNumber": "987654",
+      "marksAndNumbers": "APL SHANGHAI TO HAMBURG",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PRESSURE SENSORS, PACKED IN CARTONS. VALUE: USD25,000",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU9876543",
+      "sealNumber": "234567",
+      "marksAndNumbers": "APL SHANGHAI TO HAMBURG",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PRESSURE SENSORS, PACKED IN CARTONS. VALUE: USD25,000",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "2023102912345"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "FRANKFURTER STRASSE 123, 60314 FRANKFURT, GERMANY",
+      "telephone": "+49 69 123 4567",
+      "fax": "+49 69 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "FRANKFURTER STRASSE 123, 60314 FRANKFURT, GERMANY",
+      "telephone": "+49 69 123 4567",
+      "fax": "+49 69 123 4568"
+    },
+    "onboardDate": "2024-10-10 17:00",
+    "additionalRemarks": "Delivery to consignee's warehouse within 48 hours of arrival"
+  }
+}

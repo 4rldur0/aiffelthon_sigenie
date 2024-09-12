@@ -8,7 +8,7 @@ import base64
 load_dotenv()
 MONGO_URI = os.getenv("MONGODB_URI")
 DB_NAME = os.getenv("MONGODB_DB_NAME")
-COLLECTION_NAME = "si"  # Changed from "bl" to "si"
+COLLECTION_NAME = "si" 
 client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
@@ -30,6 +30,9 @@ custom_css = """
         border-bottom: 1px solid black;
         padding-bottom: 10px;
         margin-bottom: 10px;
+    }
+    .bl-title {
+        margin-right: 30px;
     }
     .bl-section {
         margin-bottom: 10px;
@@ -77,14 +80,14 @@ def display_bl_form(doc):
     # Load and encode the logo
     logo_base64 = get_base64_encoded_image("./img/containergenie.png")
     
-    # Adjust the HTML generation with a separate function call outside the HTML string
-    container_info_html = generate_container_rows(doc['containers'], doc)
+    # Generate container information HTML
+    particulars_html, container_info_html, footer_info_html = generate_container_rows(doc['containers'], doc)
 
     # Create the BL form HTML
     bl_html = f"""
     <div class="bl-form">
         <div class="bl-header">
-            <div>
+            <div class="bl-title">
                 <h2>BILL OF LADING</h2>
             </div>
             <div>
@@ -135,21 +138,15 @@ def display_bl_form(doc):
             </div>
         </div>
     <div class="bl-section">
-        <h3>PARTICULARS FURNISHED BY SHIPPER - CARRIER NOT RESPONSIBLE</h3>
+        {particulars_html}
+    </div>
+    <div class="bl-section">
         {container_info_html}
     </div>
+    <div class="bl-section">
+        {footer_info_html}
+    </div>
     <div class="bl-footer">
-        <div class="bl-grid">
-            <div>
-                <p><strong>FCL/FCL</strong></p>
-                <p><strong>{doc['shippingTerm']}</strong></p>
-            </div>
-            <div>
-                <p><strong>"{doc['paymentDetails']['freightPaymentTerms'].upper()}"</strong></p>
-                <p>{doc['totalShipment']['totalContainers']}</p>
-            </div>
-        </div>
-        <p><strong>TOTAL No. OF CONTAINERS OF PACKAGES RECEIVED BY THE CARRIER: {doc['totalShipment']['totalContainers']}</strong></p>
         <p class="small-text">The number of containers of packages shown in the 'TOTAL No. OF CONTAINERS OR PACKAGES RECEIVED BY THE CARRIER'S box which are said by the shipper to hold or consolidate the goods described in the PARTICULARS FURNISHED BY SHIPPER - CARRIER NOT RESPONSIBLE box, have been received by Sea Lead Shipping DMCC from the shipper in apparent good order and condition except as otherwise indicated hereon - weight, measure, marks, numbers, quality, quantity, description, contents and value unknown - for Carriage from the Place of Receipt or the Port of loading (whichever is applicable) to the Port of Discharge or the Place of Delivery (whichever is applicable) on the terms and conditions hereof INCLUDING THE TERMS AND CONDITIONS ON THE REVERSE SIDE HEREOF, THE CARRIER'S APPLICABLE TARIFF AND THE TERMS AND CONDITIONS OF THE PRECARRIER AND ONCARRIER AS APPLICABLE IN ACCORDANCE WITH THE TERMS AND CONDITIONS ON THE REVERSE SIDE HEREOF.</p>
         <p class="small-text">IN WITNESS WHEREOF {doc['documentationDetails']['numberOfOriginalBLs']} ({doc['documentationDetails']['numberOfOriginalBLs']} in words) ORIGINAL BILLS OF LADING (unless otherwise stated above) HAVE BEEN SIGNED ALL OF THE SAME TENOR AND DATE, ONE OF WHICH BEING ACCOMPLISHED THE OTHER(S) TO STAND VOID.</p>
         <div class="bl-grid">
@@ -168,11 +165,12 @@ def display_bl_form(doc):
     """
     
     # Render the BL form
-    st.markdown(bl_html, unsafe_allow_html=True)
+    st.html(bl_html)
 
 
 def generate_container_rows(containers, doc):
-    table_html = f"""
+    particulars_html = f"""
+    <h3>PARTICULARS FURNISHED BY SHIPPER - CARRIER NOT RESPONSIBLE</h3>
     <table class="bl-table">
         <tr>
             <th>MARKS AND NUMBERS</th>
@@ -189,6 +187,9 @@ def generate_container_rows(containers, doc):
             <td>{doc['totalShipment'].get('totalMeasurement', '')}</td>
         </tr>
     </table>
+    """
+
+    container_info_html = """
     <h3>CONTAINER INFORMATION</h3>
     <table class="bl-table">
         <tr>
@@ -202,7 +203,7 @@ def generate_container_rows(containers, doc):
     """
     
     for container in containers:
-        table_html += f"""
+        container_info_html += f"""
         <tr>
             <td>{container.get('containerNumber', '')}</td>
             <td>{container.get('sealNumber', '')}</td>
@@ -212,15 +213,51 @@ def generate_container_rows(containers, doc):
             <td>{container.get('measurement', '')}</td>
         </tr>
         """
-    table_html += "</table>"
-    return table_html
+    container_info_html += "</table>"
+
+    footer_info_html = f"""
+    <div class="bl-grid">
+        <div>
+            <p><strong>FCL/FCL</strong></p>
+            <p><strong>{doc['shippingTerm']}</strong></p>
+        </div>
+        <div>
+            <p><strong>"{doc['paymentDetails']['freightPaymentTerms'].upper()}"</strong></p>
+            <p>{doc['totalShipment']['totalContainers']}</p>
+        </div>
+    </div>
+    <p><strong>TOTAL No. OF CONTAINERS OF PACKAGES RECEIVED BY THE CARRIER: {doc['totalShipment']['totalContainers']}</strong></p>
+    """
+    
+    return particulars_html, container_info_html, footer_info_html
 
 
 
 
+
+def display_container_information(containers):
+    st.subheader("CONTAINER INFORMATION")
+    
+    # Create a table header
+    header = ["Container No.", "Seal No.", "Packages", "Description", "Gross Weight (KG)", "Measurement (CBM)"]
+    st.write("<table><tr>{}</tr>".format("".join(f"<th>{col}</th>" for col in header)), unsafe_allow_html=True)
+    
+    # Create table rows for each container
+    for container in containers:
+        row = [
+            container.get('containerNumber', ''),
+            container.get('sealNumber', ''),
+            container.get('packages', ''),
+            container.get('description', ''),
+            container.get('grossWeight', ''),
+            container.get('measurement', '')
+        ]
+        st.write("<tr>{}</tr>".format("".join(f"<td>{cell}</td>" for cell in row)), unsafe_allow_html=True)
+    
+    st.write("</table>", unsafe_allow_html=True)
 
 def main():
-    st.title("BL Viewer")
+    st.title("Bill of Lading JSON Editor")
 
     # Fetch all documents from MongoDB's si collection
     documents = list(collection.find())
@@ -244,7 +281,6 @@ def main():
     else:
         st.warning("No document found for the selected booking reference.")
 
-    # Footer 제거
 
 if __name__ == "__main__":
     main()

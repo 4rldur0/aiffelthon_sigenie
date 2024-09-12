@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411038088",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024429E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9342",
+      "address": "1234 SKYLINE BOULEVARD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 5555 1234",
+      "email": "SHIPPING@SHIPPER9342.COM"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 3759",
+      "address": "123 MAIN STREET, ALGECIRAS, SPAIN, 11001",
+      "country": "SPAIN",
+      "email": "INFO@INVOICERECEIVER3759.COM",
+      "telephone": "+34 956 789 123"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7821",
+      "address": "1234 SKYLINE BOULEVARD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "email": "SHIPPING@CUSTOMER7821.COM",
+      "telephone": "+86 21 5555 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "902290",
+  "commodityDescription": "SURGICAL INSTRUMENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT1234",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SURGICAL INSTRUMENTS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT7890",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SURGICAL INSTRUMENTS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GT4567",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SURGICAL INSTRUMENTS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "432109",
+      "marksAndNumbers": "GT9876",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SURGICAL INSTRUMENTS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "765432",
+      "marksAndNumbers": "GT2345",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SURGICAL INSTRUMENTS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY X5) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 127.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-27 18:15",
+    "additionalRemarks": "Require pre-shipment inspection."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

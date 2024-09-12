@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410137307",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2422EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING LTD.",
+      "address": "No. 123, Xingye Road, Ningbo, Zhejiang, 315000, China",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "email": "shipping@sunrisemanufacturing.com"
+    },
+    "consignee": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "123 Main Street, Rotterdam, 3000 AA, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@blueskytrading.nl",
+      "telephone": "+31 10 222 3333"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "123 Main Street, Rotterdam, 3000 AA, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@blueskytrading.nl",
+      "telephone": "+31 10 222 3333"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "940160",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUN-123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Office Chairs packed in individual cartons",
+      "grossWeight": 22000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SUN-456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Office Chairs packed in individual cartons",
+      "grossWeight": 22000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUN-789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Office Chairs packed in individual cartons",
+      "grossWeight": 22000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3 X 40 DRY HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 84.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "123 Main Street, Rotterdam, 3000 AA, Netherlands",
+      "telephone": "+31 10 222 3333"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "123 Main Street, Rotterdam, 3000 AA, Netherlands",
+      "telephone": "+31 10 222 3333"
+    },
+    "onboardDate": "2024-11-05 16:00",
+    "additionalRemarks": "Three 40' High Cube Dry Containers. Office chairs for commercial use. Value: USD50,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

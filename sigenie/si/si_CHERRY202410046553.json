@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410046553",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2421W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO. LTD.",
+      "address": "123 XINZHU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6666 7777",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.COM"
+    },
+    "consignee": {
+      "name": "EUROTECH DISTRIBUTION BV",
+      "address": "456 ANTWERP STREET, ANTWERP, BELGIUM",
+      "taxId": "BE0477328656",
+      "president": "MS. ANNA DE GROOT",
+      "telephone": "+32 3 222 3333",
+      "fax": "+32 3 222 3334"
+    },
+    "notifyParty": {
+      "name": "EUROTECH DISTRIBUTION BV",
+      "address": "456 ANTWERP STREET, ANTWERP, BELGIUM",
+      "taxId": "BE0477328656",
+      "president": "MS. ANNA DE GROOT",
+      "telephone": "+32 3 222 3333",
+      "fax": "+32 3 222 3334"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "853669",
+  "commodityDescription": "SWITCHING DEVICES",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "EUROTECH DISTRIBUTION BV",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHING DEVICES AS PER COMMERCIAL INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "EUROTECH DISTRIBUTION BV",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHING DEVICES AS PER COMMERCIAL INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN AVAILABLE UPON REQUEST",
+    "originalBLDistribution": {
+      "name": "EUROTECH DISTRIBUTION BV",
+      "address": "456 ANTWERP STREET, ANTWERP, BELGIUM",
+      "telephone": "+32 3 222 3333",
+      "fax": "+32 3 222 3334"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH DISTRIBUTION BV",
+      "address": "456 ANTWERP STREET, ANTWERP, BELGIUM",
+      "telephone": "+32 3 222 3333",
+      "fax": "+32 3 222 3334"
+    },
+    "onboardDate": "2024-10-06 12:00",
+    "additionalRemarks": "Circuit breakers packed in wooden crates. Value: USD35,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202409142171",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2409FOR"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "IRON AND STEEL MANUFACTURERS LTD.",
+      "address": "258 HONGKOU ROAD,NINGBO,CHINA,315000",
+      "telephone": "+86 574 88888888",
+      "fax": "+86 574 88888887"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222222",
+      "fax": "+31 10 2222223",
+      "email": "IMPORT@GLOBALTRADING.NL",
+      "contactPerson": "JAN VAN DER SLOOT"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "72072000",
+  "commodityDescription": "STEEL BILLETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2026038",
+      "sealNumber": "170768",
+      "marksAndNumbers": "ISML2310",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: STEEL BILLETS ON STEEL PALLETS",
+      "grossWeight": 22000.0,
+      "measurement": 20.618
+    },
+    {
+      "containerNumber": "CRLU2030543",
+      "sealNumber": "170658",
+      "marksAndNumbers": "ISML2310",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: STEEL BILLETS ON STEEL PALLETS",
+      "grossWeight": 22000.0,
+      "measurement": 20.071
+    },
+    {
+      "containerNumber": "CRLU2712351",
+      "sealNumber": "170990",
+      "marksAndNumbers": "ISML2310",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: STEEL BILLETS ON STEEL PALLETS",
+      "grossWeight": 22000.0,
+      "measurement": 19.449
+    },
+    {
+      "containerNumber": "CRLU2148985",
+      "sealNumber": "170759",
+      "marksAndNumbers": "ISML2310",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: STEEL BILLETS ON STEEL PALLETS",
+      "grossWeight": 22000.0,
+      "measurement": 19.04
+    },
+    {
+      "containerNumber": "CRLU2164841",
+      "sealNumber": "170635",
+      "marksAndNumbers": "ISML2310",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: STEEL BILLETS ON STEEL PALLETS",
+      "grossWeight": 22000.0,
+      "measurement": 18.747
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20DRY CONTAINERS",
+    "totalPackages": 100,
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 97.925
+  },
+  "additionalInformation": {
+    "invoiceNumber": "GT20241025-001",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222222",
+      "fax": "+31 10 2222223"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222222",
+      "fax": "+31 10 2222223"
+    },
+    "onboardDate": "2024-10-01 10:00",
+    "additionalRemarks": "STEEL BILLETS SECURED ON STEEL PALLETS"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

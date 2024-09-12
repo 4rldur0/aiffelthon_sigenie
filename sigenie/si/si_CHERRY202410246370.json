@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410246370",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2410WST"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Electronics Ltd.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678"
+    },
+    "consignee": {
+      "name": "Global Logistics Solutions Inc. - Tokyo Branch",
+      "address": "1234 TOKYO STREET, TOKYO, JAPAN",
+      "telephone": "+81 3 2222 3456",
+      "fax": "+81 3 2222 7890",
+      "email": "IMPORT@GLOBALLOGISTICS.JP",
+      "contactPerson": "YASUO TANAKA"
+    },
+    "notifyParty": {
+      "name": "Global Logistics Solutions Inc. - Tokyo Branch",
+      "address": "1234 TOKYO STREET, TOKYO, JAPAN",
+      "telephone": "+81 3 2222 3456",
+      "fax": "+81 3 2222 7890",
+      "email": "IMPORT@GLOBALLOGISTICS.JP"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847130",
+  "commodityDescription": "COMPUTER SERVERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLS123",
+      "numberOfPackages": 100,
+      "cargoDescription": "COMPUTER SERVERS - PACKAGED AND PALLETIZED",
+      "grossWeight": 22000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GLS456",
+      "numberOfPackages": 100,
+      "cargoDescription": "COMPUTER SERVERS - PACKAGED AND PALLETIZED",
+      "grossWeight": 22000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "890123",
+      "marksAndNumbers": "GLS789",
+      "numberOfPackages": 100,
+      "cargoDescription": "COMPUTER SERVERS - PACKAGED AND PALLETIZED",
+      "grossWeight": 22000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "GLS101",
+      "numberOfPackages": 100,
+      "cargoDescription": "COMPUTER SERVERS - PACKAGED AND PALLETIZED",
+      "grossWeight": 22000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CMAU9012345",
+      "sealNumber": "678901",
+      "marksAndNumbers": "GLS1234",
+      "numberOfPackages": 100,
+      "cargoDescription": "COMPUTER SERVERS - PACKAGED AND PALLETIZED",
+      "grossWeight": 22000.0,
+      "measurement": 68.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 DRY CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 340.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241026-001",
+    "documentNumber": "20241026-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "Global Logistics Solutions Inc. - Tokyo Branch",
+      "address": "1234 TOKYO STREET, TOKYO, JAPAN",
+      "telephone": "+81 3 2222 3456",
+      "fax": "+81 3 2222 7890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Logistics Solutions Inc. - Tokyo Branch",
+      "address": "1234 TOKYO STREET, TOKYO, JAPAN",
+      "telephone": "+81 3 2222 3456",
+      "fax": "+81 3 2222 7890"
+    },
+    "onboardDate": "2024-10-29 12:00",
+    "additionalRemarks": "Cargo requires climate control. Temperature: 15-25 degrees Celsius."
+  }
+}

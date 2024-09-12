@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202411071080",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241102W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CFR",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Electronics Co.",
+      "address": "123 Tech Lane, Ningbo, China",
+      "telephone": "+86 574 8888 7777",
+      "email": "shipping@sunrise-electronics.cn"
+    },
+    "consignee": {
+      "name": "GlobalTech Industries",
+      "address": "456 Innovation Blvd, Rotterdam, Netherlands",
+      "taxId": "NL1234567890",
+      "telephone": "+31 10 5555 6666",
+      "fax": "+31 10 5555 6667"
+    },
+    "notifyParty": {
+      "name": "Sunrise Logistics LLC",
+      "address": "789 Harbor Drive, Ningbo, China",
+      "telephone": "+86 574 6666 7777",
+      "fax": "+86 574 6666 7778"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85414090",
+  "commodityDescription": "SILICON TRANSISTORS",
+  "containers": [
+    {
+      "containerNumber": "CBOX2234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "Sunrise Electronics Co. - NINGBO, CHINA",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SILICON TRANSISTORS - CFR ROTTERDAM",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CBOX2234568",
+      "sealNumber": "123457",
+      "marksAndNumbers": "Sunrise Electronics Co. - NINGBO, CHINA",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SILICON TRANSISTORS - CFR ROTTERDAM",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CBOX2234569",
+      "sealNumber": "123458",
+      "marksAndNumbers": "Sunrise Electronics Co. - NINGBO, CHINA",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SILICON TRANSISTORS - CFR ROTTERDAM",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CBOX2234570",
+      "sealNumber": "123459",
+      "marksAndNumbers": "Sunrise Electronics Co. - NINGBO, CHINA",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SILICON TRANSISTORS - CFR ROTTERDAM",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CBOX2234571",
+      "sealNumber": "123460",
+      "marksAndNumbers": "Sunrise Electronics Co. - NINGBO, CHINA",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SILICON TRANSISTORS - CFR ROTTERDAM",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 2500,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "23456789012345"
+    },
+    "certificateDetails": "CN20240929001",
+    "originalBLDistribution": {
+      "name": "GlobalTech Industries",
+      "address": "456 Innovation Blvd, Rotterdam, Netherlands",
+      "telephone": "+31 10 5555 6666",
+      "fax": "+31 10 5555 6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GlobalTech Industries",
+      "address": "456 Innovation Blvd, Rotterdam, Netherlands",
+      "telephone": "+31 10 5555 6666",
+      "fax": "+31 10 5555 6667"
+    },
+    "onboardDate": "2024-11-12 10:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED, 5-10 DEGREES CELSIUS"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410128447",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "244E28"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "BUSAN, SOUTH KOREA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TOYOTA MOTOR CORPORATION (JAPAN)",
+      "address": "128, YEOUIDO-DONG, YEONGDEUNGPO-GU, SEOUL, SOUTH KOREA",
+      "country": "SOUTH KOREA",
+      "additionalInfo": "ATTN: MR. KIM TAE-HYUNG",
+      "telephone": "+82 2 3777 1234",
+      "email": "TAEHYUNG.KIM@LG.COM"
+    },
+    "consignee": {
+      "name": "BEST BUY CO. INC.",
+      "address": "7601 PENN AVE S, RICHFIELD, MN 55423, USA",
+      "country": "USA",
+      "email": "IMPORTS@BESTBUY.COM",
+      "telephone": "+1 612 291 1500"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (USA)",
+      "address": "1555 STEWART AVE, WESTBURY, NY 11590, USA",
+      "country": "USA",
+      "email": "NOTIFICATIONS@DHL.COM",
+      "telephone": "+1 516 683 2000"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85414000",
+  "commodityDescription": "LCD TELEVISIONS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "LG SHIPMENT",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "LCD TELEVISIONS AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 40' DRY CONTAINER",
+    "totalPackages": 50,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 35.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789012"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (USA)",
+      "address": "1555 STEWART AVE, WESTBURY, NY 11590, USA",
+      "telephone": "+1 516 683 2000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BEST BUY CO. INC.",
+      "address": "7601 PENN AVE S, RICHFIELD, MN 55423, USA",
+      "telephone": "+1 612 291 1500"
+    },
+    "onboardDate": "2024-10-18 10:00",
+    "additionalRemarks": "CARGO SHOULD BE SECURED PROPERLY TO PREVENT DAMAGE DURING TRANSIT. VALUE: USD 25,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CMAU7654321",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "331672",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "None"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

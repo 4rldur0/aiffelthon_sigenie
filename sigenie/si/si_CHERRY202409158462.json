@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202409158462",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "240915-03"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TEXTILES CO. LTD",
+      "address": "123 SUNRISE STREET, NINGBO 315000, CHINA"
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORT & EXPORT",
+      "address": "456 CONSIGNEE AVENUE, ALGECIRAS 11001, SPAIN",
+      "telephone": "+34 956 78 90 12",
+      "fax": "+34 956 78 90 13"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY IMPORT & EXPORT",
+      "address": "456 CONSIGNEE AVENUE, ALGECIRAS 11001, SPAIN",
+      "telephone": "+34 956 78 90 12",
+      "fax": "+34 956 78 90 13"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "63079090",
+  "commodityDescription": "COTTON TOWELS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE TEXTILES CO. LTD",
+      "numberOfPackages": 1000,
+      "cargoDescription": "1000 PACKAGES OF COTTON TOWELS",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SUNRISE TEXTILES CO. LTD",
+      "numberOfPackages": 1000,
+      "cargoDescription": "1000 PACKAGES OF COTTON TOWELS",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE TEXTILES CO. LTD",
+      "numberOfPackages": 1000,
+      "cargoDescription": "1000 PACKAGES OF COTTON TOWELS",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU1357911",
+      "sealNumber": "911234",
+      "marksAndNumbers": "SUNRISE TEXTILES CO. LTD",
+      "numberOfPackages": 1000,
+      "cargoDescription": "1000 PACKAGES OF COTTON TOWELS",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU2468013",
+      "sealNumber": "013579",
+      "marksAndNumbers": "SUNRISE TEXTILES CO. LTD",
+      "numberOfPackages": 1000,
+      "cargoDescription": "1000 PACKAGES OF COTTON TOWELS",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 STANDARD) CONTAINERS ONLY",
+    "totalPackages": 5000,
+    "packageType": "PACKAGES",
+    "containerType": "20 STANDARD",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 165.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT123456",
+      "CERT789012"
+    ],
+    "originalBLDistribution": {
+      "name": "BLUE SKY IMPORT & EXPORT",
+      "address": "456 CONSIGNEE AVENUE, ALGECIRAS 11001, SPAIN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY IMPORT & EXPORT",
+      "address": "456 CONSIGNEE AVENUE, ALGECIRAS 11001, SPAIN",
+      "telephone": "+34 956 78 90 12",
+      "fax": "+34 956 78 90 13"
+    },
+    "onboardDate": "2024-09-18 12:00",
+    "additionalRemarks": "Free time: 5 days at destination. Shipper responsible for customs clearance."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

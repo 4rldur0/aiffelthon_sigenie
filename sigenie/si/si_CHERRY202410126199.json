@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410126199",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TEXTILES CO. LTD",
+      "onBehalfOf": null,
+      "address": "238 SHENNAN ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86-21-6326-9876",
+      "fax": "+86-21-6326-9875"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "6204620000",
+  "commodityDescription": "LADIES' COTTON JEANS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE TEXTILES CO. LTD",
+      "numberOfPackages": 500,
+      "packageType": "PIECES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LADIES' COTTON JEANS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE TEXTILES CO. LTD",
+      "numberOfPackages": 500,
+      "packageType": "PIECES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LADIES' COTTON JEANS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SUNRISE TEXTILES CO. LTD",
+      "numberOfPackages": 500,
+      "packageType": "PIECES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LADIES' COTTON JEANS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE DRY) CONTAINERS",
+    "totalPackages": 1500,
+    "packageType": "PIECES",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-10-26 10:00",
+    "additionalRemarks": "3 x 40' High Cube Dry Containers, Item: Ladies' Cotton Jeans"
+  }
+}

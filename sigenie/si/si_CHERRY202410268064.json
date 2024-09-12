@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410268064",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "24293ES"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT EXPORT",
+      "address": "123 TRADE STREET, NINGBO, CHINA, 315000",
+      "telephone": "+86-574-99999999",
+      "fax": "+86-574-99999998"
+    },
+    "consignee": {
+      "name": "ALPHA SHIPPING INC.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-12345679"
+    },
+    "notifyParty": {
+      "name": "ALPHA SHIPPING INC.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-12345679"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "940160",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "ALPHA1",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 15000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA2",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 15000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ALPHA3",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 15000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA4",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 15000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ALPHA5",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 15000,
+      "measurement": 30
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 75000,
+    "totalMeasurement": 150
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20231027001",
+    "salesOrderNumber": "20231027002",
+    "lcDetails": {
+      "lcNumber": "LC20231027ALPHA"
+    },
+    "certificateDetails": "20231027CERT001",
+    "originalBLDistribution": {
+      "name": "ALPHA SHIPPING INC.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA IMPORT EXPORT",
+      "address": "123 TRADE STREET, NINGBO, CHINA, 315000",
+      "telephone": "+86-574-99999999",
+      "fax": "+86-574-99999998"
+    },
+    "onboardDate": "2024-10-30 10:00",
+    "additionalRemarks": "Please ensure chairs are properly packaged to prevent damage during transit."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

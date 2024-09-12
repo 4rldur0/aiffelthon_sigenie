@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410313057",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "243EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FEDEX INTERNATIONAL (SHANGHAI)",
+      "address": "258 HONGKOU ROAD,NINGBO,CHINA,315000",
+      "telephone": "+86 574 88888888",
+      "fax": "+86 574 88888887"
+    },
+    "consignee": {
+      "name": "FEDEX INTERNATIONAL (DUBAI)",
+      "address": "123 MAIN STREET, DUBAI, UAE",
+      "telephone": "+971 4 2222222",
+      "fax": "+971 4 2222223",
+      "email": "IMPORT@FEDEXDUBAI.AE",
+      "contactPerson": "MOHAMMED ALI"
+    },
+    "notifyParty": {
+      "name": "FEDEX INTERNATIONAL (DUBAI)",
+      "address": "123 MAIN STREET, DUBAI, UAE",
+      "telephone": "+971 4 2222222",
+      "fax": "+971 4 2222223"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "94036000",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2026038",
+      "sealNumber": "170768",
+      "marksAndNumbers": "FEDEX23",
+      "numberOfPackages": 50,
+      "cargoDescription": "OFFICE CHAIRS PACKED IN INDIVIDUAL BOXES",
+      "grossWeight": 12000.0,
+      "measurement": 25.618
+    },
+    {
+      "containerNumber": "CRLU2030543",
+      "sealNumber": "170658",
+      "marksAndNumbers": "FEDEX23",
+      "numberOfPackages": 50,
+      "cargoDescription": "OFFICE CHAIRS PACKED IN INDIVIDUAL BOXES",
+      "grossWeight": 12000.0,
+      "measurement": 25.071
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE CONTAINERS",
+    "totalPackages": 100,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.689
+  },
+  "additionalInformation": {
+    "invoiceNumber": "GT20241025-001",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "FEDEX INTERNATIONAL (DUBAI)",
+      "address": "123 MAIN STREET, DUBAI, UAE",
+      "telephone": "+971 4 2222222",
+      "fax": "+971 4 2222223"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FEDEX INTERNATIONAL (DUBAI)",
+      "address": "123 MAIN STREET, DUBAI, UAE",
+      "telephone": "+971 4 2222222",
+      "fax": "+971 4 2222223"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "VALUE: USD30,000. Chairs are packed in individual boxes."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

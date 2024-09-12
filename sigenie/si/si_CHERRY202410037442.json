@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202410037442",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241023W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Beta Manufacturing Co.",
+      "address": "123 Industrial Avenue, Shanghai, China, 200001"
+    },
+    "consignee": {
+      "name": "Alpha Industries LLC (Europe)",
+      "address": "123 Zuiderstraat, Amsterdam, Netherlands, 1012 AB"
+    },
+    "notifyParty": {
+      "name": "Alpha Industries LLC",
+      "address": "123 Main Street, New York, NY, 10001"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "SEED CLEANING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 1,
+      "cargoDescription": "SEED CLEANING MACHINE",
+      "grossWeight": 5000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 1,
+      "cargoDescription": "SEED CLEANING MACHINE",
+      "grossWeight": 5000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "BETA789",
+      "numberOfPackages": 1,
+      "cargoDescription": "SEED CLEANING MACHINE",
+      "grossWeight": 5000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 3,
+    "packageType": "UNITS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "Alpha Industries LLC (Europe)",
+      "address": "123 Zuiderstraat, Amsterdam, Netherlands, 1012 AB"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 Anson Road, #10-01, Singapore 079903"
+    },
+    "onboardDate": "2024-10-12 10:00",
+    "additionalRemarks": "Requires temperature control between 2-8 degrees Celsius. Class: 9, UN No: 3077"
+  },
+  "reeferSettings": {
+    "reeferSettings": {
+      "temperatureSetPoint": {
+        "value": 2,
+        "unit": "Celsius"
+      },
+      "temperatureTolerance": {
+        "upperLimit": 4,
+        "lowerLimit": 0
+      },
+      "humiditySetPoint": {
+        "value": 70,
+        "unit": "Percent"
+      },
+      "humidityTolerance": {
+        "upperLimit": 75,
+        "lowerLimit": 65
+      },
+      "ventilation": "Minimum",
+      "co2Monitoring": true,
+      "alarmThresholds": {
+        "temperature": {
+          "high": 5,
+          "low": 1
+        },
+        "humidity": {
+          "high": 80,
+          "low": 60
+        }
+      },
+      "notes": "Maintain a controlled environment to preserve the integrity of the high-value cargo."
+    }
+  }
+}

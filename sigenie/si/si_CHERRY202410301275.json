@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410301275",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2410W32"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CFR",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SHENYANG ROAD, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "ACME INTERNATIONAL INC.",
+      "address": "125 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234567",
+      "fax": "+49 40 9876543"
+    },
+    "notifyParty": {
+      "name": "ACME INTERNATIONAL LTD.",
+      "address": "10 LONDON WALL, LONDON, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRICAL MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRICAL MOTORS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRICAL MOTORS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRICAL MOTORS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU2468013",
+      "sealNumber": "2468013",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRICAL MOTORS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "5432109",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRICAL MOTORS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "PACKAGES",
+    "containerType": "20' DRY CONTAINER",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 165.0
+  },
+  "additionalInformation": {
+    "originalBLDistribution": {
+      "name": "ACME INTERNATIONAL LTD.",
+      "address": "10 LONDON WALL, LONDON, UNITED KINGDOM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME INTERNATIONAL INC.",
+      "address": "125 FRANKFURTER STRASSE, HAMBURG, GERMANY"
+    },
+    "onboardDate": "2024-11-05 15:00",
+    "additionalRemarks": "Containers must be lashed and secured for heavy seas."
+  }
+}

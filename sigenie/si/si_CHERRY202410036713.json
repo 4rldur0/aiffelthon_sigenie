@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410036713",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2437E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 1
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ORIENTAL TRADING COMPANY",
+      "address": "1234 MAIN STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "ACME IMPORT & EXPORT LTD.",
+      "address": "456 RUE DE LA PAIX, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2345 6789",
+      "fax": "+31 10 2345 6788"
+    },
+    "notifyParty": {
+      "name": "ACME IMPORT & EXPORT LTD.",
+      "address": "789 BOULEVARD DES CHAMPS, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 9876 5432",
+      "fax": "+31 10 9876 5431"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87112000",
+  "commodityDescription": "MOTORCYCLE PARTS & ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "MOTORCYCLE PARTS AS PER PACKING LIST",
+      "grossWeight": 10000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "MOTORCYCLE PARTS AS PER PACKING LIST",
+      "grossWeight": 10000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "PACKAGES",
+    "containerType": "40 HIGH CUBE DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": null
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ACME IMPORT & EXPORT LTD.",
+      "address": "456 RUE DE LA PAIX, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME IMPORT & EXPORT LTD.",
+      "address": "789 BOULEVARD DES CHAMPS, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 9876 5432",
+      "fax": "+31 10 9876 5431"
+    },
+    "onboardDate": "2024-10-15 16:00",
+    "additionalRemarks": "CARGO SECURED ON PALLETS. VALUE: USD 25,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

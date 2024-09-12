@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410221099",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2446SEA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Delta Manufacturing Group",
+      "address": "1234 Industrial Avenue, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 1111",
+      "fax": "+86 574 8888 2222"
+    },
+    "consignee": {
+      "name": "Omega Industries Inc.",
+      "address": "456 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "info@omegaindustries.nl",
+      "contactPerson": "Mr. John Smith"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "940360",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DMG-123",
+      "numberOfPackages": 150,
+      "cargoDescription": "OFFICE CHAIRS - PALLETIZED",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "DMG-456",
+      "numberOfPackages": 150,
+      "cargoDescription": "OFFICE CHAIRS - PALLETIZED",
+      "grossWeight": 12100.0,
+      "measurement": 20.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 24100.0,
+    "totalMeasurement": 40.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV-2024-1022-1100",
+    "documentNumber": "202410221100-BL",
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "CN1234567890",
+      "CN9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "Omega Industries Inc.",
+      "address": "456 Trade Street, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Delta Manufacturing Group",
+      "address": "1234 Industrial Avenue, Ningbo, Zhejiang, China"
+    },
+    "onboardDate": "2024-11-08 10:00",
+    "additionalRemarks": "Requires fumigation certificate."
+  },
+  "dangerousGoods": {
+    "dangerousGoods": true,
+    "unNumber": "3334",
+    "properShippingName": "Aviation Regulated Solid - Oxidizing",
+    "class": "9",
+    "packingGroup": "II",
+    "subsidiaryRisk": null,
+    "flashPoint": null,
+    "technicalName": null,
+    "hazards": [
+      "Oxidizing agent"
+    ],
+    "emergencyProcedures": "In case of fire, use dry chemical powder, carbon dioxide, or water spray. Avoid contact with combustible materials. Wear appropriate personal protective equipment.",
+    "storageInstructions": "Store in a cool, dry, well-ventilated area. Keep away from incompatible materials such as reducing agents and flammable substances."
+  }
+}
