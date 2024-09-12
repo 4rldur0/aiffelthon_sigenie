@@ -4,6 +4,7 @@ import streamlit as st
 from pymongo import MongoClient, InsertOne
 from bson import ObjectId
 from dotenv import load_dotenv
+import base64
 
 # Load environment variables from .env file
 load_dotenv()
@@ -18,15 +19,42 @@ client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
-# Apply custom CSS to use Avenir font
-st.markdown("""
+
+def get_base64_encoded_font(font_path):
+    with open(font_path, "rb") as font_file:
+        return base64.b64encode(font_file.read()).decode('utf-8')
+
+# Load and encode the Freesentation font
+font_base64 = get_base64_encoded_font("./fonts/Freesentation.ttf")
+
+# Custom CSS to style the Booking form and apply Freesentation font
+st.markdown(f"""
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Avenir:wght@400;700&display=swap');
-    html, body, [class*="st-"] {
-        font-family: 'Avenir', sans-serif;
-    }
+    @font-face {{
+        font-family: 'Freesentation';
+        src: url(data:font/ttf;base64,{font_base64}) format('truetype');
+    }}
+    html, body, [class*="st-"] {{
+        font-family: 'Freesentation', sans-serif;
+    }}
     </style>
     """, unsafe_allow_html=True)
+
+def get_base64_encoded_font(font_path):
+    with open(font_path, "rb") as font_file:
+        return base64.b64encode(font_file.read()).decode('utf-8')
+
+def display_booking_form(doc):
+    # Load and encode the Freesentation font
+    font_base64 = get_base64_encoded_font("./fonts/Freesentation.ttf")
+    
+    # Apply custom CSS with the encoded font
+    st.markdown(custom_css.format(font_base64=font_base64), unsafe_allow_html=True)
+    
+    # ... (기존 booking form HTML 생성 코드) ...
+
+    # Render the Booking form
+    st.markdown(booking_html, unsafe_allow_html=True)
 
 PROCESSED_FILES_JSON = 'processed_bkg_files.json'
 
@@ -100,7 +128,7 @@ def create_list_input_fields(data_list, prefix):
     return updated_list
 
 def main():
-    st.title("Booking JSON Editor")
+    st.title("Booking (BKG) Editor")
 
     # Load JSON files from the 'bkg' directory
     json_files = load_json_files('./bkg/')
@@ -127,15 +155,15 @@ def main():
             st.write("---")
             
             # 상단 정보
-            st.subheader("Booking Information")
+            st.subheader("Basic Booking Information")
             col1, col2 = st.columns(2)
             with col1:
-                st.text_input("Booking Reference", selected_doc.get('bookingReference', ''))
-                st.text_input("Customer Name", selected_doc.get('customerName', ''))
-                st.text_input("Shipper Name", selected_doc.get('shipperName', ''))
+                st.text_input("Booking Reference Number", selected_doc.get('bookingReference', ''))
+                st.text_input("Customer Full Name", selected_doc.get('customerName', ''))
+                st.text_input("Shipper Full Name", selected_doc.get('shipperName', ''))
             with col2:
-                st.text_input("Invoice Receiver", selected_doc.get('invoiceReceiver', ''))
-                st.text_input("Shipping Term", selected_doc.get('shippingTerm', ''))
+                st.text_input("Invoice Recipient", selected_doc.get('invoiceReceiver', ''))
+                st.text_input("Shipping Terms (e.g., FOB, CIF)", selected_doc.get('shippingTerm', ''))
 
             st.write("---")
 
@@ -143,30 +171,30 @@ def main():
             col_left, col_right = st.columns(2)
             
             with col_left:
-                st.subheader("Voyage Details")
-                voyage_details = create_input_fields(selected_doc.get('voyageDetails', {}), 'voyageDetails.')
+                st.subheader("Voyage Information")
+                voyage_details = create_input_fields(selected_doc.get('voyageDetails', {}), 'Voyage: ')
                 
-                st.subheader("Route Details")
-                route_details = create_input_fields(selected_doc.get('routeDetails', {}), 'routeDetails.')
+                st.subheader("Route Information")
+                route_details = create_input_fields(selected_doc.get('routeDetails', {}), 'Route: ')
                 
-                st.subheader("Schedule Details")
-                schedule_details = create_input_fields(selected_doc.get('scheduleDetails', {}), 'scheduleDetails.')
+                st.subheader("Schedule Information")
+                schedule_details = create_input_fields(selected_doc.get('scheduleDetails', {}), 'Schedule: ')
 
             with col_right:
-                st.subheader("Cargo Details")
-                cargo_details = create_input_fields(selected_doc.get('cargoDetails', {}), 'cargoDetails.')
+                st.subheader("Cargo Information")
+                cargo_details = create_input_fields(selected_doc.get('cargoDetails', {}), 'Cargo: ')
                 
-                st.subheader("Container Details")
-                container_details = create_input_fields(selected_doc.get('containerDetails', {}), 'containerDetails.')
+                st.subheader("Container Information")
+                container_details = create_input_fields(selected_doc.get('containerDetails', {}), 'Container: ')
                 
                 st.subheader("Empty Container Pickup Location")
-                pickup_location = create_input_fields(selected_doc.get('emptyContainerPickupLocation', {}), 'emptyContainerPickupLocation.')
+                pickup_location = create_input_fields(selected_doc.get('emptyContainerPickupLocation', {}), 'Pickup: ')
 
             st.write("---")
 
             # 하단 정보
-            st.subheader("Remarks")
-            remarks = st.text_area("Remarks", selected_doc.get('remarks', ''))
+            st.subheader("Additional Remarks")
+            remarks = st.text_area("Special Instructions or Notes", selected_doc.get('remarks', ''))
 
             # Update button
             if st.button("Update"):

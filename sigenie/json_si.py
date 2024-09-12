@@ -4,6 +4,7 @@ import streamlit as st
 from pymongo import MongoClient, InsertOne
 from bson import ObjectId
 from dotenv import load_dotenv
+import base64
 
 # Load environment variables from .env file
 load_dotenv()
@@ -18,13 +19,23 @@ client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
-# Apply custom CSS to use Avenir font
-st.markdown("""
+def get_base64_encoded_font(font_path):
+    with open(font_path, "rb") as font_file:
+        return base64.b64encode(font_file.read()).decode('utf-8')
+
+# Load and encode the Freesentation font
+font_base64 = get_base64_encoded_font("./fonts/Freesentation.ttf")
+
+# Apply custom CSS to use Freesentation font
+st.markdown(f"""
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Avenir:wght@400;700&display=swap');
-    html, body, [class*="st-"] {
-        font-family: 'Avenir', sans-serif;
-    }
+    @font-face {{
+        font-family: 'Freesentation';
+        src: url(data:font/ttf;base64,{font_base64}) format('truetype');
+    }}
+    html, body, [class*="st-"] {{
+        font-family: 'Freesentation', sans-serif;
+    }}
     </style>
     """, unsafe_allow_html=True)
 
@@ -154,7 +165,7 @@ def create_list_input_fields(data_list, prefix):
     return updated_list
 
 def main():
-    st.title("Shipping Instruction JSON Editor")
+    st.title("Shipping Instruction (SI) Editor")
 
     # Load JSON files from the 'si' directory
     json_files = load_json_files('./si/')
@@ -183,40 +194,54 @@ def main():
             col1, col2, col3, col4 = st.columns(4)
 
             with col1:
-                # Display and allow editing of voyage and route details
                 st.subheader("Voyage & Route Details")
-                voyage_details = create_input_fields(selected_doc.get('voyageDetails', {}), 'voyageDetails.')
-                route_details = create_input_fields(selected_doc.get('routeDetails', {}), 'routeDetails.')
+                voyage_details = create_input_fields(selected_doc.get('voyageDetails', {}), 'Voyage: ')
+                route_details = create_input_fields(selected_doc.get('routeDetails', {}), 'Route: ')
                 
-                # Display and allow editing of payment and documentation details
                 st.subheader("Payment & Documentation")
-                payment_details = create_input_fields(selected_doc.get('paymentDetails', {}), 'paymentDetails.')
-                doc_details = create_input_fields(selected_doc.get('documentationDetails', {}), 'documentationDetails.')
+                payment_details = create_input_fields(selected_doc.get('paymentDetails', {}), 'Payment: ')
+                doc_details = create_input_fields(selected_doc.get('documentationDetails', {}), 'Document: ')
 
             with col2:
-                # Display and allow editing of party details
-                st.subheader("Party Details")
-                party_details = create_input_fields(selected_doc.get('partyDetails', {}), 'partyDetails.')
+                st.subheader("Party Information")
+                party_details = {}
+                for party_type in ['shipper', 'consignee', 'notifyParty']:
+                    party_info = selected_doc.get('partyDetails', {}).get(party_type, {})
+                    st.write(f"**{party_type.capitalize()}**")
+                    party_details[party_type] = {
+                        'name': st.text_input(f"{party_type.capitalize()} Name", party_info.get('name', '')),
+                        'address': st.text_area(f"{party_type.capitalize()} Address", party_info.get('address', '')),
+                        'telephone': st.text_input(f"{party_type.capitalize()} Telephone", party_info.get('telephone', ''))
+                    }
 
             with col3:
-                # Display and allow editing of shipping information
-                st.subheader("Shipping Information")
-                shipping_term = st.text_input("shippingTerm", selected_doc.get('shippingTerm', ''))
-                hs_code = st.text_input("hsCode", selected_doc.get('hsCode', ''))
-                commodity_description = st.text_area("commodityDescription", selected_doc.get('commodityDescription', ''))
+                st.subheader("Shipping Details")
+                shipping_term = st.text_input("Shipping Terms (e.g., FOB, CIF)", selected_doc.get('shippingTerm', ''))
+                hs_code = st.text_input("HS Code (Harmonized System)", selected_doc.get('hsCode', ''))
+                commodity_description = st.text_area("Commodity Description", selected_doc.get('commodityDescription', ''))
                 
-                # Display and allow editing of container information
-                st.subheader("Containers")
-                containers = create_input_fields(selected_doc.get('containers', []), 'containers')
+                st.subheader("Container Information")
+                containers = []
+                for i, container in enumerate(selected_doc.get('containers', [])):
+                    with st.expander(f"Container {i+1}"):
+                        containers.append({
+                            'containerNumber': st.text_input(f"Container Number {i+1}", container.get('containerNumber', '')),
+                            'sealNumber': st.text_input(f"Seal Number {i+1}", container.get('sealNumber', '')),
+                            'containerType': st.text_input(f"Container Type {i+1}", container.get('containerType', '')),
+                            'packageType': st.text_input(f"Package Type {i+1}", container.get('packageType', '')),
+                            'numberOfPackages': st.number_input(f"Number of Packages {i+1}", value=int(container.get('numberOfPackages', 0))),
+                            'grossWeight': st.number_input(f"Gross Weight (kg) {i+1}", value=float(container.get('grossWeight', 0.0))),
+                            'measurement': st.number_input(f"Measurement (cbm) {i+1}", value=float(container.get('measurement', 0.0))),
+                            'cargoDescription': st.text_area(f"Cargo Description {i+1}", container.get('cargoDescription', '')),
+                            'marksAndNumbers': st.text_area(f"Marks and Numbers {i+1}", container.get('marksAndNumbers', ''))
+                        })
                 
-                # Display and allow editing of total shipment information
-                st.subheader("Total Shipment")
-                total_shipment = create_input_fields(selected_doc.get('totalShipment', {}), 'totalShipment.')
+                st.subheader("Total Shipment Summary")
+                total_shipment = create_input_fields(selected_doc.get('totalShipment', {}), 'Total: ')
 
             with col4:
-                # Display and allow editing of additional information
                 st.subheader("Additional Information")
-                additional_info = create_input_fields(selected_doc.get('additionalInformation', {}), 'additionalInformation.')
+                additional_info = create_input_fields(selected_doc.get('additionalInformation', {}), 'Additional: ')
 
             # Special Cargo Information section
             st.write("---")
@@ -230,40 +255,40 @@ def main():
                 for key in ['length', 'width', 'height', 'overWidth', 'overHeight']:
                     value = oog.get(key, '')
                     if value == 'In-Gauge':
-                        oog_updated[key] = st.text_input(f"{key.capitalize()} (mm)", value=value)
+                        oog_updated[key] = st.text_input(f"OOG {key.capitalize()} (mm)", value=value)
                     else:
                         try:
                             numeric_value = float(value) if value else 0
-                            oog_updated[key] = st.number_input(f"{key.capitalize()} (mm)", value=numeric_value)
+                            oog_updated[key] = st.number_input(f"OOG {key.capitalize()} (mm)", value=numeric_value)
                         except ValueError:
-                            oog_updated[key] = st.text_input(f"{key.capitalize()} (mm)", value=value)
+                            oog_updated[key] = st.text_input(f"OOG {key.capitalize()} (mm)", value=value)
 
             # Dangerous Goods
             dg = selected_doc.get('dangerousGoods')
             if dg:
                 st.write("Dangerous Goods:")
                 dg_updated = {}
-                dg_updated['containerNumber'] = st.text_input("Container Number (DG)", value=dg.get('containerNumber', ''))
-                dg_updated['unClass'] = st.text_input("UN Class", value=dg.get('unClass', ''))
-                dg_updated['unCode'] = st.text_input("UN Code", value=dg.get('unCode', ''))
-                dg_updated['hsCode'] = st.text_input("HS Code (DG)", value=dg.get('hsCode', ''))
-                dg_updated['flashPoint'] = st.text_input("Flash Point", value=dg.get('flashPoint', ''))
-                dg_updated['additionalInfo'] = st.text_area("Additional Info (DG)", value=dg.get('additionalInfo', ''))
+                dg_updated['containerNumber'] = st.text_input("DG Container Number", value=dg.get('containerNumber', ''))
+                dg_updated['unClass'] = st.text_input("DG UN Class", value=dg.get('unClass', ''))
+                dg_updated['unCode'] = st.text_input("DG UN Code", value=dg.get('unCode', ''))
+                dg_updated['hsCode'] = st.text_input("DG HS Code", value=dg.get('hsCode', ''))
+                dg_updated['flashPoint'] = st.text_input("DG Flash Point", value=dg.get('flashPoint', ''))
+                dg_updated['additionalInfo'] = st.text_area("DG Additional Info", value=dg.get('additionalInfo', ''))
 
             # Reefer Settings
             rs = selected_doc.get('reeferSettings')
             if rs:
                 st.write("Reefer Settings:")
                 rs_updated = {}
-                rs_updated['containerNumber'] = st.text_input("Container Number (Reefer)", value=rs.get('containerNumber', ''))
-                rs_updated['temperature'] = st.text_input("Temperature", value=rs.get('temperature', ''))
-                rs_updated['minTemperature'] = st.text_input("Min Temperature", value=rs.get('minTemperature', ''))
-                rs_updated['maxTemperature'] = st.text_input("Max Temperature", value=rs.get('maxTemperature', ''))
-                rs_updated['ventilation'] = st.text_input("Ventilation", value=rs.get('ventilation', ''))
-                rs_updated['humidity'] = st.text_input("Humidity", value=rs.get('humidity', ''))
+                rs_updated['containerNumber'] = st.text_input("Reefer Container Number", value=rs.get('containerNumber', ''))
+                rs_updated['temperature'] = st.text_input("Reefer Temperature", value=rs.get('temperature', ''))
+                rs_updated['minTemperature'] = st.text_input("Reefer Min Temperature", value=rs.get('minTemperature', ''))
+                rs_updated['maxTemperature'] = st.text_input("Reefer Max Temperature", value=rs.get('maxTemperature', ''))
+                rs_updated['ventilation'] = st.text_input("Reefer Ventilation", value=rs.get('ventilation', ''))
+                rs_updated['humidity'] = st.text_input("Reefer Humidity", value=rs.get('humidity', ''))
 
             # Update button to save changes
-            if st.button("Update"):
+            if st.button("Update Shipping Instruction"):
                 # Collect all updated data
                 updated_data = {
                     'voyageDetails': voyage_details,
@@ -289,7 +314,7 @@ def main():
 
                 # Update the document in MongoDB
                 update_mongodb(selected_doc['_id'], updated_data)
-                st.success("Document updated successfully!")
+                st.success("Shipping Instruction updated successfully!")
 
 if __name__ == "__main__":
     main()
