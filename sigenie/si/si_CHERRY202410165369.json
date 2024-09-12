@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410165369",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024853W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TOY MASTER INC",
+      "address": "1234 TOY STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 55556666",
+      "fax": "+86 21 77778888"
+    },
+    "consignee": {
+      "name": "ACME IMPORT EXPORT LTD",
+      "address": "5678 IMPORT STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 111122",
+      "fax": "+34 956 333344",
+      "email": "IMPORT@ACMEIMPORT.ES",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "LOGISTICS SPAIN SL",
+      "address": "9012 WAREHOUSE STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 444455",
+      "fax": "+34 956 666677",
+      "email": "NOTIFICATIONS@LOGISTICSSpain.ES"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "95030010",
+  "commodityDescription": "EDUCATIONAL BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TM123",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: EDUCATIONAL BOARD GAMES",
+      "grossWeight": 6000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "TM456",
+      "numberOfPackages": 145,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: EDUCATIONAL BOARD GAMES",
+      "grossWeight": 5800.0,
+      "measurement": 24.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 DRY HIGH CUBE CONTAINER",
+    "totalPackages": 295,
+    "totalGrossWeight": 11800.0,
+    "totalMeasurement": 49.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-001",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "ACME IMPORT EXPORT LTD",
+      "address": "5678 IMPORT STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 111122",
+      "fax": "+34 956 333344"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FINANCE DEPARTMENT, ACME IMPORT EXPORT LTD",
+      "address": "5678 IMPORT STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 111122",
+      "fax": "+34 956 333344"
+    },
+    "onboardDate": "2024-10-22 16:00",
+    "additionalRemarks": "Containers to be loaded with delicate cargo. Please handle with care. Ensure proper ventilation."
+  }
+}

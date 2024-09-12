@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410217273",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2410VASDG1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC MANUFACTURING LTD",
+      "address": "1234 Shanghai Rd, Ningbo, Zhejiang 315000, China",
+      "telephone": "+86 574 8652 1234",
+      "email": "sales@abcmfg.com"
+    },
+    "consignee": {
+      "name": "XYZ INTERNATIONAL TRADING CO.",
+      "address": "1234 Europaboulevard, Rotterdam 3071 AZ, Netherlands",
+      "taxId": "NL001234567B01",
+      "president": "MR. PETER VAN DER LINDE",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6788"
+    },
+    "notifyParty": {
+      "name": "XYZ INTERNATIONAL TRADING CO.",
+      "address": "1234 Europaboulevard, Rotterdam 3071 AZ, Netherlands",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6788"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE LOOMS",
+  "containers": [
+    {
+      "containerNumber": "MSCU3456789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR ROTTERDAM TEXTILE LOOMS",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR ROTTERDAM TEXTILE LOOMS",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR ROTTERDAM TEXTILE LOOMS",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CRATES",
+    "containerType": "40 HIGH CUBE",
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 105.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC0002345678"
+    },
+    "certificateDetails": "CO, COO, FORM A",
+    "originalBLDistribution": {
+      "name": "XYZ INTERNATIONAL TRADING CO.",
+      "address": "1234 Europaboulevard, Rotterdam 3071 AZ, Netherlands",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6788"
+    },
+    "originalInvoiceDistribution": {
+      "name": "XYZ INTERNATIONAL TRADING CO.",
+      "address": "1234 Europaboulevard, Rotterdam 3071 AZ, Netherlands",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6788"
+    },
+    "onboardDate": "2024-10-26 14:00",
+    "additionalRemarks": "VALUE: USD 150,000, PACKING LIST AND COMMERCIAL INVOICE REQUIRED"
+  }
+}

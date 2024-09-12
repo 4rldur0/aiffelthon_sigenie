@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202410282054",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24102815"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Industries Ltd.",
+      "address": "123 Sunshine Avenue, Ningbo, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "Global Trading Co.",
+      "address": "456 Commercial Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    },
+    "notifyParty": {
+      "name": "Global Trading Co.",
+      "address": "456 Commercial Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "94016000",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "SEGU7856321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUN123",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS PER COMMERCIAL INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUN456",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS PER COMMERCIAL INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SUN789",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS PER COMMERCIAL INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU8765432",
+      "sealNumber": "147852",
+      "marksAndNumbers": "SUN101",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS PER COMMERCIAL INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU2345678",
+      "sealNumber": "369852",
+      "marksAndNumbers": "SUN102",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS PER COMMERCIAL INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CN1234567890",
+      "CO1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "Global Trading Co.",
+      "address": "456 Commercial Street, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Trading Co.",
+      "address": "456 Commercial Street, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-10-31 09:00",
+    "additionalRemarks": "14 Days Free Time at Destination"
+  }
+}

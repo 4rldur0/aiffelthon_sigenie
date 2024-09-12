@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202409142417",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024901W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1987",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 7777"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3721",
+      "address": "123 AMSTERDAM STREET, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 222 3333",
+      "fax": "+49 40 222 4444",
+      "email": "INFO@CUSTOMER3721.COM",
+      "contactPerson": "PETER SMITH"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 4293",
+      "address": "123 MAIN STREET, FRANKFURT, GERMANY 60329",
+      "telephone": "+49 69 111 2222",
+      "fax": "+49 69 111 3333"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "870870",
+  "commodityDescription": "CAR ENGINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9235714",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CAR ENGINE PARTS",
+      "grossWeight": 18500.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU9235715",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CAR ENGINE PARTS",
+      "grossWeight": 18600.0,
+      "measurement": 33.5
+    },
+    {
+      "containerNumber": "CRLU9235716",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CAR ENGINE PARTS",
+      "grossWeight": 18500.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20 DRY CONTAINER",
+    "totalPackages": 300,
+    "totalGrossWeight": 55600.0,
+    "totalMeasurement": 99.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "GTS20241024001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3721",
+      "address": "123 AMSTERDAM STREET, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 222 3333",
+      "fax": "+49 40 222 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 4293",
+      "address": "123 MAIN STREET, FRANKFURT, GERMANY 60329",
+      "telephone": "+49 69 111 2222",
+      "fax": "+49 69 111 3333"
+    },
+    "onboardDate": "2024-09-21 16:30",
+    "additionalRemarks": "Please ensure proper ventilation for the containers."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

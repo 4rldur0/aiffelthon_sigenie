@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410132760",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2436EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GAMMA INDUSTRIES INC.",
+      "onBehalfOf": "GAMMA INDUSTRIES INC.",
+      "address": "2345 YUANMING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-66666666",
+      "fax": "+86-21-66666667"
+    },
+    "consignee": {
+      "name": "EUROCYCLE IMPORT BV",
+      "address": "KEULENSTRAAT 12, 3012 AL ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GAMMA INDUSTRIES INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, UNITED STATES"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "90328110",
+  "commodityDescription": "SURVEYING TELESCOPES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DT123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SURVEYING TELESCOPES",
+      "grossWeight": 8000.0,
+      "measurement": 15.0,
+      "additionalInfo": "FRAGILE CARGO. HANDLE WITH CARE."
+    },
+    {
+      "containerNumber": "TCLU1234568",
+      "sealNumber": "123457",
+      "marksAndNumbers": "DT124",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SURVEYING TELESCOPES",
+      "grossWeight": 8000.0,
+      "measurement": 15.0,
+      "additionalInfo": "FRAGILE CARGO. HANDLE WITH CARE."
+    },
+    {
+      "containerNumber": "TCLU1234569",
+      "sealNumber": "123458",
+      "marksAndNumbers": "DT125",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SURVEYING TELESCOPES",
+      "grossWeight": 8000.0,
+      "measurement": 15.0,
+      "additionalInfo": "FRAGILE CARGO. HANDLE WITH CARE."
+    },
+    {
+      "containerNumber": "TCLU1234570",
+      "sealNumber": "123459",
+      "marksAndNumbers": "DT126",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SURVEYING TELESCOPES",
+      "grossWeight": 8000.0,
+      "measurement": 15.0,
+      "additionalInfo": "FRAGILE CARGO. HANDLE WITH CARE."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (20 DRY CONTAINER) CONTAINER ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 32000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033739"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROCYCLE IMPORT BV",
+      "address": "KEULENSTRAAT 12, 3012 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2000000",
+      "fax": "+31-10-2000001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GAMMA INDUSTRIES INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, UNITED STATES",
+      "telephone": "+1-212-555-5555",
+      "fax": "+1-212-555-5556"
+    },
+    "onboardDate": "2024-11-08 10:00",
+    "additionalRemarks": "Cargo is fragile. Handle with care. Please ensure container is properly secured."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

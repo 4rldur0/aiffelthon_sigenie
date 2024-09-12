@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410041541",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2433W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD",
+      "address": "123 TECH STREET, NINGBO, CHINA",
+      "telephone": "+86 574 123 4567",
+      "email": "SUNRISE@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "DELTA IMPORTS LLC",
+      "address": "456 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL12345678901234",
+      "president": "MS. ANNA SMITH",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "DELTA IMPORTS LLC",
+      "address": "456 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85423910",
+  "commodityDescription": "MICROPROCESSOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, CONTAINER SEAL NUMBER: 1234567 SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "TCLU1234568",
+      "sealNumber": "1234568",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, CONTAINER SEAL NUMBER: 1234568 SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "TCLU1234569",
+      "sealNumber": "1234569",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, CONTAINER SEAL NUMBER: 1234569 SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE DRY) CONTAINER ONLY",
+    "totalPackages": 3000,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE DRY",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "DELTA IMPORTS LLC",
+      "address": "456 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA IMPORTS LLC",
+      "address": "456 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-10-08 12:00",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT, CONTAINER SEAL NUMBER: 1234567"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5308131",
+    "unClass": "4",
+    "unCode": "No: 3334",
+    "hsCode": "7738.18.14",
+    "flashPoint": "37\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

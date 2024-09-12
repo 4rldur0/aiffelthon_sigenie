@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202410159686",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "1234E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable Bill of Lading",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 Main Street, Ningbo, Zhejiang, China 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "consignee": {
+      "name": "ZENITH IMPORTS LLC",
+      "address": "1000 Harbor Drive, Rotterdam, Netherlands 3011 AB",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "notifyParty": {
+      "name": "ZENITH IMPORTS LLC",
+      "address": "1000 Harbor Drive, Rotterdam, Netherlands 3011 AB",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ZIM123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS AS PER INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "432165",
+      "marksAndNumbers": "ZIM456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS AS PER INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZIM789",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS AS PER INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ZIM101",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS AS PER INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "765432",
+      "marksAndNumbers": "ZIM112",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS AS PER INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 2.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER)",
+    "totalPackages": 2500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 12.5
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO9876543",
+    "lcDetails": {},
+    "certificateDetails": "CN20241002001",
+    "originalBLDistribution": {
+      "name": "ZENITH IMPORTS LLC",
+      "address": "1000 Harbor Drive, Rotterdam, Netherlands 3011 AB",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH IMPORTS LLC",
+      "address": "1000 Harbor Drive, Rotterdam, Netherlands 3011 AB",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "onboardDate": "2024-10-20 10:00",
+    "additionalRemarks": "FRAGILE CARGO, HANDLE WITH CARE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 45'HC Container"
+  }
+}

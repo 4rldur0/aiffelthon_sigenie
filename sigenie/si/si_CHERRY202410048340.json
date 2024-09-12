@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202410048340",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2442WEN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Tech Solutions Inc.",
+      "address": "123 TECH PARK DRIVE, SHANGHAI, CHINA",
+      "telephone": "+86 21 6278 5692",
+      "email": "SALES@TECHSOLUTIONSINC.COM"
+    },
+    "consignee": {
+      "name": "Seabridge Logistics LLC",
+      "address": "250 MAAS STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "telephone": "+31 10 203 4567",
+      "fax": "+31 10 203 4568"
+    },
+    "notifyParty": {
+      "name": "Global Enterprises Ltd.",
+      "address": "124 OXFORD STREET, LONDON, UK",
+      "telephone": "+44 20 7567 8901",
+      "fax": "+44 20 7567 8902"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "90328100",
+  "commodityDescription": "TEMPERATURE CONTROLLERS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SBLOGISTICS ORDER 12345",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "TEMPERATURE CONTROLLERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU11223344",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SBLOGISTICS ORDER 12345",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "TEMPERATURE CONTROLLERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU55667788",
+      "sealNumber": "11223344",
+      "marksAndNumbers": "SBLOGISTICS ORDER 12345",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "TEMPERATURE CONTROLLERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU99887766",
+      "sealNumber": "55667788",
+      "marksAndNumbers": "SBLOGISTICS ORDER 12345",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "TEMPERATURE CONTROLLERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU11229988",
+      "sealNumber": "99887766",
+      "marksAndNumbers": "SBLOGISTICS ORDER 12345",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "TEMPERATURE CONTROLLERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY X5) CONTAINERS ONLY",
+    "totalPackages": 2500,
+    "packageType": "BOXES",
+    "containerType": "20' DRY X5",
+    "totalGrossWeight": 90000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED",
+    "originalBLDistribution": {
+      "name": "Seabridge Logistics LLC",
+      "address": "250 MAAS STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 203 4567",
+      "fax": "+31 10 203 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Enterprises Ltd.",
+      "address": "124 OXFORD STREET, LONDON, UK",
+      "telephone": "+44 20 7567 8901",
+      "fax": "+44 20 7567 8902"
+    },
+    "onboardDate": "2024-10-12 16:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3077"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

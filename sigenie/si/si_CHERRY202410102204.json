@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410102204",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "243E25"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "COSCO SHIPPING LINES (SHANGHAI)",
+      "address": "123 Port Road, Shanghai, China"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING BV",
+      "address": "456 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    },
+    "notifyParty": {
+      "name": "MAERSK LINE (SINGAPORE)",
+      "address": "789 Marina Boulevard, Singapore"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "94035000",
+  "commodityDescription": "WOODEN DINING TABLE",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ATI123",
+      "numberOfPackages": 10,
+      "cargoDescription": "WOODEN DINING TABLE - TABLE TOPS",
+      "grossWeight": 1500.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "ATI456",
+      "numberOfPackages": 10,
+      "cargoDescription": "WOODEN DINING TABLE - LEGS & FRAME",
+      "grossWeight": 1000.0,
+      "measurement": 8.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ATI789",
+      "numberOfPackages": 5,
+      "cargoDescription": "WOODEN DINING TABLE - HARDWARE & PACKING",
+      "grossWeight": 500.0,
+      "measurement": 4.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) x 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 25,
+    "packageType": "PACKAGES",
+    "containerType": "40' HIGH CUBE",
+    "totalGrossWeight": 3000.0,
+    "totalMeasurement": 22.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567890",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING BV",
+      "address": "456 Trade Street, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CMA CGM S.A.",
+      "address": "4 Quai d'Arenc, Marseille, France"
+    },
+    "onboardDate": "2024-10-16 12:00",
+    "additionalRemarks": "CARGO MUST BE PROPERLY SECURED FOR TRANSPORTATION."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

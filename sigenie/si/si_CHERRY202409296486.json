@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202409296486",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024637E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7843",
+      "address": "NO. 234, PUYANG ROAD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "EURO TECH IMPORT BV.",
+      "address": "DE KOEPLAAN 156, 3061 LA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTECHIMPORT.NL",
+      "telephone": "+31 10 201 8910"
+    },
+    "notifyParty": {
+      "name": "EURO TECH IMPORT BV.",
+      "address": "DE KOEPLAAN 156, 3061 LA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTECHIMPORT.NL",
+      "telephone": "+31 10 201 8910"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85437090",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "890123",
+      "marksAndNumbers": "ASIA TECH LTD.",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRIC MOTORS - 5HP",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU8901234",
+      "sealNumber": "567890",
+      "marksAndNumbers": "ASIA TECH LTD.",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRIC MOTORS - 10HP",
+      "grossWeight": 11500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU5678901",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA TECH LTD.",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRIC MOTORS - 15HP",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) 20' DRY CONTAINERS",
+    "totalPackages": 65,
+    "packageType": "BOXES",
+    "totalGrossWeight": 35500.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "123456789012",
+    "hsCode": "85437090",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": "CN20241025002",
+    "originalBLDistribution": {
+      "name": "EURO TECH IMPORT BV.",
+      "address": "DE KOEPLAAN 156, 3061 LA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 201 8910"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TECH IMPORT BV.",
+      "address": "DE KOEPLAAN 156, 3061 LA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 201 8910"
+    },
+    "onboardDate": "2024-10-05 15:30",
+    "additionalRemarks": "Ensure containers are pre-cooled to 2 degrees Celsius."
+  }
+}
