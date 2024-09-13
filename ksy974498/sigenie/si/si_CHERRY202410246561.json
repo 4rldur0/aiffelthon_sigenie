@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202410246561",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2431E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS LTD.",
+      "address": "123 TECH PARK ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)",
+      "telephone": "+86 21 8888 1234",
+      "email": "SALES@SUNRISE-ELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "DIAMOND IMPORTS INC.",
+      "address": "456 CANAL STREET, NEW YORK, USA, 10013",
+      "country": "USA",
+      "email": "ORDERS@DIAMONDIMPORTS.COM",
+      "telephone": "+1 212 666 6666"
+    },
+    "notifyParty": {
+      "name": "DIAMOND IMPORTS INC.",
+      "address": "456 CANAL STREET, NEW YORK, USA, 10013",
+      "country": "USA",
+      "email": "ORDERS@DIAMONDIMPORTS.COM",
+      "telephone": "+1 212 666 6666"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85444210",
+  "commodityDescription": "5G NETWORK ROUTERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GI20241025",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "5G NETWORK ROUTERS (100 CARTONS)",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GI20241025",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "5G NETWORK ROUTERS (100 CARTONS)",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GI20241025",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "5G NETWORK ROUTERS (100 CARTONS)",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU1357911",
+      "sealNumber": "314159",
+      "marksAndNumbers": "GI20241025",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "5G NETWORK ROUTERS (100 CARTONS)",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU2718283",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GI20241025",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "5G NETWORK ROUTERS (100 CARTONS)",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 x 20 DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123456"
+    },
+    "certificateDetails": [
+      "1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "DIAMOND IMPORTS INC.",
+      "address": "456 CANAL STREET, NEW YORK, USA, 10013",
+      "telephone": "+1 212 666 6666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DIAMOND IMPORTS INC.",
+      "address": "456 CANAL STREET, NEW YORK, USA, 10013",
+      "telephone": "+1 212 666 6666"
+    },
+    "onboardDate": "2024-11-02 12:00",
+    "additionalRemarks": "PACKING: CARTONS, VALUE: USD50,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "MSCU3789562",
+    "unClass": "9",
+    "unCode": "3333",
+    "hsCode": "870323",
+    "flashPoint": "Not applicable",
+    "additionalInfo": "Batteries contained within the motorcycles"
+  }
+}

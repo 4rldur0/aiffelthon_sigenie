@@ -1,0 +1,75 @@
+{
+  "bookingReference": "CHERRY202410227385",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2442W15A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 GLOBAL AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 1010",
+      "fax": "+31 10 202 1011"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 GLOBAL AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 1010",
+      "fax": "+31 10 202 1011"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "903281",
+  "commodityDescription": "TEMPERATURE CONTROL SYSTEMS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-1",
+      "numberOfPackages": 1000,
+      "cargoDescription": "TEMPERATURE CONTROL SYSTEMS AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-2",
+      "numberOfPackages": 1000,
+      "cargoDescription": "TEMPERATURE CONTROL SYSTEMS AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "PACKAGES",
+    "containerType": "40' HIGH CUBE X2",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "onboardDate": "2024-10-27 15:00",
+    "additionalRemarks": "Two 40' High Cube Reefers, Temperature: -18 degrees Celsius, Value: USD50,000"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202409262856",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024514E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1289",
+      "address": "123 SHIPPER STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3721",
+      "address": "456 CONSIGNEE AVENUE, GDANSK, POLAND",
+      "telephone": "+48 58 3333 1234",
+      "fax": "+48 58 3333 5678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 7432",
+      "address": "789 NOTIFY STREET, GDANSK, POLAND",
+      "telephone": "+48 58 3333 9876",
+      "fax": "+48 58 3333 4321"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "441211",
+  "commodityDescription": "Printing Paper",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 500,
+      "cargoDescription": "Printing Paper (H.S. CODE 441211)",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 500,
+      "cargoDescription": "Printing Paper (H.S. CODE 441211)",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "TCLU98765432",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 500,
+      "cargoDescription": "Printing Paper (H.S. CODE 441211)",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "TCLU13579246",
+      "sealNumber": "14725836",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 500,
+      "cargoDescription": "Printing Paper (H.S. CODE 441211)",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "TCLU24681357",
+      "sealNumber": "96385274",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 500,
+      "cargoDescription": "Printing Paper (H.S. CODE 441211)",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 2500,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3721",
+      "address": "456 CONSIGNEE AVENUE, GDANSK, POLAND"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 7432",
+      "address": "789 NOTIFY STREET, GDANSK, POLAND",
+      "telephone": "+48 58 3333 9876",
+      "fax": "+48 58 3333 4321"
+    },
+    "onboardDate": "2024-09-28 15:00",
+    "additionalRemarks": "Containers need to be sealed with a high-security seal."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

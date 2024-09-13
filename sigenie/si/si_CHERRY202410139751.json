@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410139751",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2424E100"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "onBehalfOf": "",
+      "address": "WITTEHILLSSTRA\u00dfE 3, 80333 M\u00dcNCHEN, GERMANY",
+      "telephone": "+49-89-636-35300",
+      "fax": "+49-89-636-35301"
+    },
+    "consignee": {
+      "name": "VOLKSWAGEN AG",
+      "address": "POSTFACH 11 11, 38436 WOLFSBURG, GERMANY",
+      "companyNumber": "HRB 110000"
+    },
+    "notifyParty": {
+      "name": "VOLKSWAGEN AG",
+      "address": "POSTFACH 11 11, 38436 WOLFSBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "853669",
+  "commodityDescription": "SWITCHGEAR",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SIEMENS 1/3",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "SWITCHGEAR AS PER PACKING LIST",
+      "grossWeight": 8000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU8901234",
+      "sealNumber": "98765432",
+      "marksAndNumbers": "SIEMENS 2/3",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "SWITCHGEAR AS PER PACKING LIST",
+      "grossWeight": 8000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU5678901",
+      "sealNumber": "23456789",
+      "marksAndNumbers": "SIEMENS 3/3",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "SWITCHGEAR AS PER PACKING LIST",
+      "grossWeight": 8000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY) CONTAINERS",
+    "totalPackages": 60,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "COO"
+    ],
+    "originalBLDistribution": {
+      "name": "VOLKSWAGEN AG",
+      "address": "POSTFACH 11 11, 38436 WOLFSBURG, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "VOLKSWAGEN AG",
+      "address": "POSTFACH 11 11, 38436 WOLFSBURG, GERMANY"
+    },
+    "onboardDate": "2024-10-18 12:00",
+    "additionalRemarks": "Special Handling Required: Refrigerated Cargo. Free Time at Destination: 5 Days"
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410237138",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIES LTD.",
+      "address": "1234 SUNRISE STREET, NINGBO, CHINA",
+      "telephone": "+86-574-8888-9999",
+      "fax": "+86-574-8888-0000"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "456 GLOBAL TRADE CENTER, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-7777-8888",
+      "fax": "+31-10-7777-9999"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "456 GLOBAL TRADE CENTER, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-7777-8888",
+      "fax": "+31-10-7777-9999"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85437090",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "213456",
+      "marksAndNumbers": "GHI789",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "PACKAGES",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "Certificate of Origin Issued",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "456 GLOBAL TRADE CENTER, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-7777-8888",
+      "fax": "+31-10-7777-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "456 GLOBAL TRADE CENTER, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-7777-8888",
+      "fax": "+31-10-7777-9999"
+    },
+    "onboardDate": "2024-10-26 12:00",
+    "additionalRemarks": "14 Days Free Time at Destination"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

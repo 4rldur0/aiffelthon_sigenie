@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410124507",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024481E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4861",
+      "address": "123 SHIPPERS STREET, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 88888888",
+      "fax": "+86 574 88888887"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 2593",
+      "address": "456 CONSIGNEE AVE, ALGEICRAS, SPAIN, 11001",
+      "telephone": "+34 956 222222",
+      "fax": "+34 956 222223",
+      "email": "IMPORT@RECEIVER2593.ES",
+      "contactPerson": "MARIA RODRIGUEZ"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7312",
+      "address": "789 CUSTOMER LANE, LONDON, UK, W1A 1AA",
+      "telephone": "+44 20 7777 7777",
+      "fax": "+44 20 7777 7778",
+      "email": "CUSTOMER7312@EXAMPLE.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "INDUSTRIAL PUMPING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP4861-202410",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: INDUSTRIAL PUMPING EQUIPMENT - MODEL A100",
+      "grossWeight": 20000.0,
+      "measurement": 59.99
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SHIP4861-202410",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: INDUSTRIAL PUMPING EQUIPMENT - MODEL A100",
+      "grossWeight": 20000.0,
+      "measurement": 59.99
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 20,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 119.98
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV20241012-001",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 2593",
+      "address": "456 CONSIGNEE AVE, ALGEICRAS, SPAIN, 11001",
+      "telephone": "+34 956 222222",
+      "fax": "+34 956 222223"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 7312",
+      "address": "789 CUSTOMER LANE, LONDON, UK, W1A 1AA",
+      "telephone": "+44 20 7777 7777",
+      "fax": "+44 20 7777 7778"
+    },
+    "onboardDate": "2024-10-18 12:30",
+    "additionalRemarks": "Ensure containers are properly sealed and labeled."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

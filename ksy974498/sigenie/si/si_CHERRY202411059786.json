@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202411059786",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024327E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2312",
+      "onBehalfOf": "",
+      "address": "123 SHIPPER STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 4569",
+      "address": "5678 MAIN STREET, BERLIN, GERMANY 10117",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7835",
+      "address": "2345 CUSTOMER STREET, BERLIN, GERMANY 10117"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940170",
+  "commodityDescription": "Metal Chair Seats",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER 2312",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIR SEATS PACKED IN MASTER CARTONS. VALUE: USD50,000",
+      "grossWeight": 10000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER 2312",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIR SEATS PACKED IN MASTER CARTONS. VALUE: USD50,000",
+      "grossWeight": 10000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "135792",
+      "marksAndNumbers": "SHIPPER 2312",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIR SEATS PACKED IN MASTER CARTONS. VALUE: USD50,000",
+      "grossWeight": 10000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "246813",
+      "marksAndNumbers": "SHIPPER 2312",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIR SEATS PACKED IN MASTER CARTONS. VALUE: USD50,000",
+      "grossWeight": 10000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "579123",
+      "marksAndNumbers": "SHIPPER 2312",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIR SEATS PACKED IN MASTER CARTONS. VALUE: USD50,000",
+      "grossWeight": 10000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 4569",
+      "address": "5678 MAIN STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 7835",
+      "address": "2345 CUSTOMER STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-5679"
+    },
+    "onboardDate": "2024-10-25 16:30",
+    "additionalRemarks": "Require pre-cooling of containers"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

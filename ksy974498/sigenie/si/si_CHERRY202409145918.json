@@ -1,0 +1,138 @@
+{
+  "bookingReference": "CHERRY202409145918",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024328B"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "MADRID"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4376",
+      "address": "1234 SHENYANG ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8888 9999",
+      "email": "SALES@SHIPPER4376.COM"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 9825",
+      "address": "C/ REAL, 25, 28001 MADRID, SPAIN",
+      "country": "SPAIN",
+      "email": "ORDERS@INVOICERECEIVER9825.COM",
+      "telephone": "+34 91 555 1212"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 8521",
+      "address": "C/ GRAN VIA, 10, 28013 MADRID, SPAIN",
+      "country": "SPAIN",
+      "email": "INFO@CUSTOMER8521.COM",
+      "telephone": "+34 91 666 3333"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRICAL WIRING HARNESSES",
+  "containers": [
+    {
+      "containerNumber": "CGBU1234567",
+      "sealNumber": "111111",
+      "marksAndNumbers": "SHIP4376ABC",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRICAL WIRING HARNESSES AS PER INVOICE NO. 20240914001",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGBU8765432",
+      "sealNumber": "222222",
+      "marksAndNumbers": "SHIP4376ABC",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRICAL WIRING HARNESSES AS PER INVOICE NO. 20240914001",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGBU3456789",
+      "sealNumber": "333333",
+      "marksAndNumbers": "SHIP4376ABC",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRICAL WIRING HARNESSES AS PER INVOICE NO. 20240914001",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGBU9876543",
+      "sealNumber": "444444",
+      "marksAndNumbers": "SHIP4376ABC",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRICAL WIRING HARNESSES AS PER INVOICE NO. 20240914001",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGBU2345678",
+      "sealNumber": "555555",
+      "marksAndNumbers": "SHIP4376ABC",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRICAL WIRING HARNESSES AS PER INVOICE NO. 20240914001",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 X 40'HC) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 9825",
+      "address": "C/ REAL, 25, 28001 MADRID, SPAIN",
+      "telephone": "+34 91 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 8521",
+      "address": "C/ GRAN VIA, 10, 28013 MADRID, SPAIN",
+      "telephone": "+34 91 666 3333"
+    },
+    "additionalRemarks": "Containers require pre-trip inspection. Maintain temperature at -15 degrees Celsius.",
+    "onboardDate": "2024-10-22 16:10"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40' HIGH CUBE OPEN TOP Container"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202409227437",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024235W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3749",
+      "address": "123 SHIPPER STREET, SINGAPORE",
+      "telephone": "+65 6789 1234",
+      "fax": "+65 6789 5678"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5812",
+      "address": "456 CONSIGNEE AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 9876543",
+      "email": "CUSTOMER5812@EXAMPLE.COM",
+      "contactPerson": "JANE DOE"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 8215",
+      "address": "789 NOTIFY ADDRESS, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 4567890",
+      "fax": "+31 10 2345678",
+      "email": "RECEIVER8215@EXAMPLE.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854442",
+  "commodityDescription": "Circuit Breakers",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CIRCUIT BREAKERS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CIRCUIT BREAKERS",
+      "grossWeight": 17500.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CIRCUIT BREAKERS",
+      "grossWeight": 18200.0,
+      "measurement": 25.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20 DRY",
+    "totalPackages": 300,
+    "totalGrossWeight": 53700.0,
+    "totalMeasurement": 74.7
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202410066166-1",
+    "documentNumber": "202410066166-2",
+    "lcDetails": {
+      "lcNumber": "LC987654321"
+    },
+    "certificateDetails": [
+      "CERT1234567",
+      "CERT8765432"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5812",
+      "address": "456 CONSIGNEE AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 9876543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8215",
+      "address": "789 NOTIFY ADDRESS, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 4567890",
+      "fax": "+31 10 2345678"
+    },
+    "onboardDate": "2024-10-15 18:00",
+    "additionalRemarks": "Require container lashing certification."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

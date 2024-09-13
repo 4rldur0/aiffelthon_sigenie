@@ -1,0 +1,140 @@
+{
+  "bookingReference": "CHERRY202411117568",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024321A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3451",
+      "address": "NO. 1234, A, 56, CHANGHE-ROAD, JIANGNING, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8678 9012",
+      "email": "SHIPPING@SHIPPER3451.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 1287 GMBH",
+      "address": "IM STADTWALD 23, 20457 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@CUSTOMER1287.DE",
+      "telephone": "+49 40 3789 1234"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6732",
+      "address": "HEIDESTRASSE 10, 22083 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@INVOICERECEIVER6732.DE",
+      "telephone": "+49 40 2345 6789"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940360",
+  "commodityDescription": "Wooden Chairs",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: Wooden Chairs ",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234568",
+      "sealNumber": "1234567891",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: Wooden Chairs ",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234569",
+      "sealNumber": "1234567892",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: Wooden Chairs ",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234570",
+      "sealNumber": "1234567893",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: Wooden Chairs ",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234571",
+      "sealNumber": "1234567894",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: Wooden Chairs ",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-26 17:30",
+    "additionalRemarks": "Please ensure the containers are properly sealed and labelled."
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

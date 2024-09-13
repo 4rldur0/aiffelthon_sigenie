@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202411116697",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2433W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING LTD.",
+      "address": "333 SHANGHAI ROAD, HONG KONG, CHINA",
+      "telephone": "+86 21 6543 2109",
+      "email": "SHIPPER@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8556789012",
+      "president": "MR. PETER VAN DER LINDEN",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8556789012",
+      "president": "MR. PETER VAN DER LINDEN",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "902214",
+  "commodityDescription": "NETWORKING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU1500070",
+      "sealNumber": "894103",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORKING EQUIPMENT",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU1500071",
+      "sealNumber": "894104",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORKING EQUIPMENT",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HQ) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "BOXES",
+    "containerType": "40 HQ",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "onboardDate": "2024-11-20 14:00",
+    "additionalRemarks": "Special Instructions: Keep temperature at 2-8 degrees Celsius."
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

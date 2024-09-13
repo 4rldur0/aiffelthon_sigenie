@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202409253585",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2441EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES CO.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(PUTONG DISTRICT)",
+      "telephone": "+86 21 5876 1234",
+      "email": "INFO@DELTAINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "OMEGA IMPORT EXPORT LTD.",
+      "address": "5678 MAIN STREET, LONDON, UNITED KINGDOM, EC1A 1AX",
+      "country": "UNITED KINGDOM",
+      "email": "ORDERS@OMEGAIMPORT.COM",
+      "telephone": "+44 20 7123 4567"
+    },
+    "notifyParty": {
+      "name": "OMEGA IMPORT EXPORT LTD.",
+      "address": "5678 MAIN STREET, LONDON, UNITED KINGDOM, EC1A 1AX",
+      "country": "UNITED KINGDOM",
+      "email": "ORDERS@OMEGAIMPORT.COM",
+      "telephone": "+44 20 7123 4567"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "87089990",
+  "commodityDescription": "Automotive Brake Pads",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA 123",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "Automotive Brake Pads - Model A123",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "DELTA 456",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "Automotive Brake Pads - Model B456",
+      "grossWeight": 12200.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 1000,
+    "totalGrossWeight": 24200.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA IMPORT EXPORT LTD.",
+      "address": "5678 MAIN STREET, LONDON, UNITED KINGDOM, EC1A 1AX",
+      "telephone": "+44 20 7123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA IMPORT EXPORT LTD.",
+      "address": "5678 MAIN STREET, LONDON, UNITED KINGDOM, EC1A 1AX",
+      "telephone": "+44 20 7123 4567"
+    },
+    "onboardDate": "2024-09-27 10:00",
+    "additionalRemarks": "5 Days Free Time at Destination, Documentation Required: Commercial Invoice, Packing List, Bill of Lading, Certificate of Origin"
+  }
+}

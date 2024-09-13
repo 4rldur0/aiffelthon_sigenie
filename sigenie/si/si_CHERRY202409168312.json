@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202409168312",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2422W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHEJIANG YINGTAI IMPORT & EXPORT CO., LTD.",
+      "address": "123 HUAYUAN RD, HANGZHOU, ZHEJIANG 310000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(JIANGGAN DISTRICT)"
+    },
+    "consignee": {
+      "name": "KUEHNE + NAGEL (ROTTERDAM) LTD.",
+      "address": "PO BOX 275, ROTTERDAM, 3000 AD, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@KNROTTERDAM.NL",
+      "telephone": "+31 10 414 2600"
+    },
+    "notifyParty": {
+      "name": "KUEHNE + NAGEL (SHANGHAI)",
+      "address": "22ND FLOOR, THE PLAZA, 139 NANJING ROAD WEST, SHANGHAI 200001, CHINA",
+      "country": "CHINA",
+      "email": "ORDERS@KNSHANGHAI.CN",
+      "telephone": "+86 21 6339 3600"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE YARN SPINNING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "MSCU7896543",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "KN-12345",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE YARN SPINNING MACHINES, 10 CRATES",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "KN-56789",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE YARN SPINNING MACHINES, 10 CRATES",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "CRATES",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345678",
+    "hsCode": "8479899000",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC00012345678"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "KUEHNE + NAGEL (ROTTERDAM) LTD.",
+      "address": "PO BOX 275, ROTTERDAM, 3000 AD, NETHERLANDS",
+      "telephone": "+31 10 414 2600"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KUEHNE + NAGEL (ROTTERDAM) LTD.",
+      "address": "PO BOX 275, ROTTERDAM, 3000 AD, NETHERLANDS",
+      "telephone": "+31 10 414 2600"
+    },
+    "onboardDate": "2024-09-22 12:00",
+    "additionalRemarks": "CARGO REQUIRES SPECIAL HANDLING - OVERWEIGHT. VALUE: USD 45,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

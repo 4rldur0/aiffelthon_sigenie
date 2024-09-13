@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202409211246",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2433EWW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 6387 5678",
+      "fax": "+86 21 6387 5679"
+    },
+    "consignee": {
+      "name": "EUROTECH LTD",
+      "address": "456 MARKET STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001",
+      "email": "INFO@EUROTECHLTD.COM",
+      "contactPerson": "JANE DOE"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "789 CANAL STREET, AMSTERDAM, NETHERLANDS 1012AB",
+      "telephone": "+31 20 300 4000",
+      "fax": "+31 20 300 4001"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "Optical Fiber Cables",
+  "containers": [
+    {
+      "containerNumber": "MSCU5768123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTC123",
+      "numberOfPackages": 500,
+      "cargoDescription": "Optical Fiber Cables",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APTC456",
+      "numberOfPackages": 500,
+      "cargoDescription": "Optical Fiber Cables",
+      "grossWeight": 12500.0,
+      "measurement": 26.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "APTC789",
+      "numberOfPackages": 500,
+      "cargoDescription": "Optical Fiber Cables",
+      "grossWeight": 12500.0,
+      "measurement": 26.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 1500,
+    "totalGrossWeight": 37500.0,
+    "totalMeasurement": 77.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "APTC20241026001",
+    "documentNumber": "20241026002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-20241026-001"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH LTD",
+      "address": "456 MARKET STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH LTD",
+      "address": "456 MARKET STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001"
+    },
+    "onboardDate": "2024-10-05 18:00",
+    "additionalRemarks": "Please provide a copy of the commercial invoice and packing list."
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410303413",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024352E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL MACHINERY SOLUTIONS INC",
+      "address": "123 MAIN STREET, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "ACME IMPORT & EXPORT LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, 3011 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ACMEIMPORTEXPORT.NL",
+      "telephone": "+31 10 462 31 15"
+    },
+    "notifyParty": {
+      "name": "ACME IMPORT & EXPORT LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, 3011 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ACMEIMPORTEXPORT.NL",
+      "telephone": "+31 10 462 31 15"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "870870",
+  "commodityDescription": "BRAKE CALIPERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9123456",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ACME123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "BRAKE CALIPERS - SHIPPERS LOAD, COUNT & SEAL SAID TO CONTAIN: 100 BRAKE CALIPERS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ACME456",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "BRAKE CALIPERS - SHIPPERS LOAD, COUNT & SEAL SAID TO CONTAIN: 100 BRAKE CALIPERS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE CONTAINER)",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "870870",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "ACME IMPORT & EXPORT LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, 3011 AB, NETHERLANDS",
+      "telephone": "+31 10 462 31 15"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME IMPORT & EXPORT LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, 3011 AB, NETHERLANDS",
+      "telephone": "+31 10 462 31 15",
+      "fax": "+31 10 462 31 12"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "Cargo requires temperature controlled storage during transit."
+  }
+}
