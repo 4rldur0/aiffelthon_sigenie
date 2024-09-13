@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411025369",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024812E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9562",
+      "address": "1234 SHIPPER STREET, NINGBO, CHINA",
+      "telephone": "+86 574 1234 5678",
+      "email": "SHIPPER9562@EMAIL.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7291",
+      "address": "5678 CUSTOMER STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 9876"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1845",
+      "address": "9012 INVOICE STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 5678 9012",
+      "fax": "+49 40 5678 3456"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRICAL TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1500070",
+      "sealNumber": "894103",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, HAMBURG, GERMANY ELECTRICAL TRANSFORMERS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU1500071",
+      "sealNumber": "894104",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, HAMBURG, GERMANY ELECTRICAL TRANSFORMERS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU1500072",
+      "sealNumber": "894105",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, HAMBURG, GERMANY ELECTRICAL TRANSFORMERS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 3,
+    "packageType": "CRATES",
+    "containerType": "40' HIGH CUBE CONTAINER",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7291",
+      "address": "5678 CUSTOMER STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 9876"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1845",
+      "address": "9012 INVOICE STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 5678 9012",
+      "fax": "+49 40 5678 3456"
+    },
+    "onboardDate": "2024-11-10 12:00",
+    "additionalRemarks": "Require pre-shipment inspection"
+  }
+}

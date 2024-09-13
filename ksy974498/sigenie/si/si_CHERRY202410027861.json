@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410027861",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2431EA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS LTD.",
+      "address": "1234, SHANGHAI ROAD, SHANGHAI, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "SHANGHAI FREE TRADE ZONE"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT GMBH",
+      "address": "22, Hafenstrasse, 20457 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 36789012"
+    },
+    "notifyParty": {
+      "name": "EUROTECH IMPORT GMBH",
+      "address": "22, Hafenstrasse, 20457 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 36789012"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847180",
+  "commodityDescription": "SMARTPHONES",
+  "containers": [
+    {
+      "containerNumber": "SEGU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "TI20231026A",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SMARTPHONES",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "SEGU1122334",
+      "sealNumber": "6543217",
+      "marksAndNumbers": "TI20231026B",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SMARTPHONES",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "ETI20241026",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "0000123456789012"
+    },
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORT GMBH",
+      "address": "22, Hafenstrasse, 20457 Hamburg, Germany",
+      "telephone": "+49 40 36789012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORT GMBH",
+      "address": "22, Hafenstrasse, 20457 Hamburg, Germany",
+      "telephone": "+49 40 36789012"
+    },
+    "onboardDate": "2024-10-18 15:00",
+    "additionalRemarks": "Temperature: 2-8 degrees Celsius, Value: USD300,000"
+  }
+}

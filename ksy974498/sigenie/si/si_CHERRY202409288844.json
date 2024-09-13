@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202409288844",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409ZWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunbeam Industries Ltd.",
+      "address": "123-456 ABC STREET, NINGBO, CHINA",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-98765432"
+    },
+    "consignee": {
+      "name": "SEAGATE LOGISTICS GMBH",
+      "address": "789-012 DEF AVENUE, HAMBURG, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432",
+      "email": "IMPORT@SEAGATE.DE",
+      "contactPerson": "ANNA MEIER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "EVERGREEN TRADING INC.",
+      "address": "456-789 GHI STREET, NEW YORK, USA",
+      "telephone": "+1-212-12345678",
+      "fax": "+1-212-98765432"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "94016000",
+  "commodityDescription": "FURNITURE - SEATS",
+  "containers": [
+    {
+      "containerNumber": "MSCU3567213",
+      "sealNumber": "170768",
+      "marksAndNumbers": "HS94016000",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: FURNITURE - SEATS",
+      "grossWeight": 12000.0,
+      "measurement": 25.618
+    },
+    {
+      "containerNumber": "MSCU3567214",
+      "sealNumber": "170658",
+      "marksAndNumbers": "HS94016000",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: FURNITURE - SEATS",
+      "grossWeight": 11500.0,
+      "measurement": 25.071
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20' DRY CONTAINER",
+    "totalPackages": 200,
+    "totalGrossWeight": 23500.0,
+    "totalMeasurement": 50.689
+  },
+  "additionalInformation": {
+    "invoiceNumber": "3669224-07",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SEAGATE LOGISTICS GMBH",
+      "address": "789-012 DEF AVENUE, HAMBURG, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EVERGREEN TRADING INC.",
+      "address": "456-789 GHI STREET, NEW YORK, USA",
+      "telephone": "+1-212-12345678",
+      "fax": "+1-212-98765432"
+    },
+    "onboardDate": "2024-10-02 10:00",
+    "additionalRemarks": "Requires careful handling - fragile goods."
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  }
+}

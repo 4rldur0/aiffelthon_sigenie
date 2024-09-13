@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202409159715",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024331W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1296",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8732",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@CUSTOMER8732.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3489",
+      "address": "789 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INVOICE@RECEIVER3489.NL",
+      "telephone": "+31 10 987 6543"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "940360",
+  "commodityDescription": "Wooden Dining Tables",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "WDTG001",
+      "numberOfPackages": 10,
+      "packageType": "UNITS",
+      "cargoDescription": "WOODEN DINING TABLE, WEIGHT: 150KG",
+      "grossWeight": 150.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "WDTG002",
+      "numberOfPackages": 10,
+      "packageType": "UNITS",
+      "cargoDescription": "WOODEN DINING TABLE, WEIGHT: 150KG",
+      "grossWeight": 150.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "WDTG003",
+      "numberOfPackages": 10,
+      "packageType": "UNITS",
+      "cargoDescription": "WOODEN DINING TABLE, WEIGHT: 150KG",
+      "grossWeight": 150.0,
+      "measurement": 2.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "UNITS",
+    "totalGrossWeight": 450.0,
+    "totalMeasurement": 7.5
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20240915",
+    "hsCode": "940360",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8732",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3489",
+      "address": "789 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 987 6543"
+    },
+    "onboardDate": "2024-09-22 12:30",
+    "additionalRemarks": "Containers require fumigation certificate."
+  }
+}

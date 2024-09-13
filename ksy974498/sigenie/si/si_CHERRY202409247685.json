@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202409247685",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2443E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SEAWORTH TRADING CO.",
+      "address": "123 Marina Boulevard, Suite 200\nSingapore 018985",
+      "telephone": "+65 6888 1234",
+      "fax": "+65 6888 5678"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "1234 Main Street, Suite 300\nRotterdam, Netherlands 3011 AA",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457",
+      "email": "info@globalimports.nl",
+      "contactPerson": "Pieter Jansen"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLES (EXCEEDING 250CC BUT NOT EXCEEDING 500CC)",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "GT456",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 17500.0,
+      "measurement": 32.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20 DRY CONTAINER",
+    "totalPackages": 10,
+    "totalGrossWeight": 35500.0,
+    "totalMeasurement": 65.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241005-001",
+    "documentNumber": "20241005-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "Certificate of Origin"
+    ],
+    "originalBLDistribution": {
+      "name": "FINANCE DEPARTMENT - GLOBAL IMPORTS INC.",
+      "address": "1234 Main Street, Suite 300\nRotterdam, Netherlands 3011 AA",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FINANCE DEPARTMENT - GLOBAL IMPORTS INC.",
+      "address": "1234 Main Street, Suite 300\nRotterdam, Netherlands 3011 AA",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "Please ensure containers are properly sealed and labelled."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU987654321",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "224279",
+    "flashPoint": "NOT APPLICABLE",
+    "additionalInfo": "REQUIRES TEMPERATURE CONTROL"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

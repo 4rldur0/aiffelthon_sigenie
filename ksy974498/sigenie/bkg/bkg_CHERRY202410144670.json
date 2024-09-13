@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410144670",
+  "customerName": "CUSTOMER 1234",
+  "shipperName": "SHIPPER 5678",
+  "invoiceReceiver": "INVOICE RECEIVER 9012",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024320E"
+  },
+  "cargoDetails": {
+    "hsCode": "847989",
+    "chapterDescription": "MACHINERY FOR INDUSTRIAL PROCESSES",
+    "commodity": "INDUSTRIAL HYDRAULIC PRESS"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "GENERAL PURPOSE",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-25 16:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-26 08:00",
+    "estimatedArrivalAtDischargePort": "2024-11-15 12:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CFS/CY",
+  "remarks": "Require pre-shipment inspection",
+  "transportationTerm": "CY/CY"
+}

@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202410303727",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2448WNS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1386",
+      "address": "123 Marina Boulevard, Singapore",
+      "telephone": "+65 6789 0123",
+      "email": "shipping@shipper1386.com"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7254",
+      "address": "456 Hafenstrasse, Hamburg, Germany",
+      "taxId": "DE1234567890",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 9876 5432"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9872",
+      "address": "789 Reeperbahn, Hamburg, Germany",
+      "taxId": "DE9876543210",
+      "telephone": "+49 40 4321 0987",
+      "fax": "+49 40 6543 2109"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "PAPER MILL EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHP1386-1",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, CIF HAMBURG, GERMANY PAPER MILL EQUIPMENT",
+      "grossWeight": 25000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 HIGH CUBE X1)",
+    "totalPackages": 1,
+    "packageType": "UNITS",
+    "containerType": "40 HIGH CUBE X1",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC123456789"
+    },
+    "certificateDetails": "Certificate of Origin issued",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7254",
+      "address": "456 Hafenstrasse, Hamburg, Germany",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 9876 5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9872",
+      "address": "789 Reeperbahn, Hamburg, Germany",
+      "telephone": "+49 40 4321 0987",
+      "fax": "+49 40 6543 2109"
+    },
+    "onboardDate": "2024-11-04 10:30",
+    "additionalRemarks": "Equipment requires pre-cooling to 2 degrees Celsius."
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  }
+}

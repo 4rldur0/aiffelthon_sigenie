@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202409155992",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423WQB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS",
+      "address": "123 Tech Lane, Shanghai, China, 200000",
+      "telephone": "+86-21-45678901",
+      "fax": "+86-21-12345678"
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORTS LLC",
+      "address": "145 Harbor Drive, Rotterdam, Netherlands, 3011 AH",
+      "telephone": "+31-10-23456789",
+      "fax": "+31-10-98765432",
+      "email": "info@blueskyimports.nl",
+      "contactPerson": "Jan Van der Meer"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "902300",
+  "commodityDescription": "DIGITAL PRESSURE GAUGES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GTS123",
+      "numberOfPackages": 50,
+      "cargoDescription": "DIGITAL PRESSURE GAUGES - MODEL A123",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GTS456",
+      "numberOfPackages": 45,
+      "cargoDescription": "DIGITAL PRESSURE GAUGES - MODEL B789",
+      "grossWeight": 11500.0,
+      "measurement": 19.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE DRY CONTAINER",
+    "totalPackages": 95,
+    "totalGrossWeight": 23500.0,
+    "totalMeasurement": 39.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241001-002",
+    "documentNumber": "20001639823",
+    "lcDetails": {
+      "lcNumber": "4567890123"
+    },
+    "certificateDetails": [
+      "4112724080179X",
+      "4112724080180X"
+    ],
+    "originalBLDistribution": {
+      "name": "BLUE SKY IMPORTS LLC",
+      "address": "145 Harbor Drive, Rotterdam, Netherlands, 3011 AH"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY IMPORTS LLC",
+      "address": "145 Harbor Drive, Rotterdam, Netherlands, 3011 AH"
+    },
+    "onboardDate": "2024-09-20 10:00",
+    "additionalRemarks": "Value: USD80,000. Consignee requires pre-cooling of containers."
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  }
+}

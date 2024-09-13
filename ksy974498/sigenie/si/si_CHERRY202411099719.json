@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202411099719",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2436WNS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES LTD",
+      "address": "2345 HUA SHENG ROAD, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO ECONOMIC & TECHNOLOGICAL DEVELOPMENT ZONE)",
+      "telephone": "+86 574 86543210",
+      "email": "SHIPPING@ASIAPACIFICTEXTILES.COM"
+    },
+    "consignee": {
+      "name": "STARLIGHT IMPORTS LLC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "IMPORT@STARLIGHTIMPORTS.COM, ORDERS@STARLIGHTIMPORTS.NL",
+      "telephone": "+31 10 4567890"
+    },
+    "notifyParty": {
+      "name": "STARLIGHT IMPORTS LLC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "RECEIVING@STARLIGHTIMPORTS.COM",
+      "telephone": "+31 10 4567890"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "551321",
+  "commodityDescription": "COTTON FABRIC",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "123456",
+      "marksAndNumbers": "STIM12345",
+      "numberOfPackages": 500,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON FABRIC",
+      "grossWeight": 18500.0,
+      "measurement": 28.5
+    },
+    {
+      "containerNumber": "CRLU78901234",
+      "sealNumber": "567890",
+      "marksAndNumbers": "STIM12345",
+      "numberOfPackages": 500,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON FABRIC",
+      "grossWeight": 18500.0,
+      "measurement": 28.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) x 40 HIGH CUBE DRY CONTAINERS",
+    "totalPackages": 1000,
+    "totalGrossWeight": 37000.0,
+    "totalMeasurement": 57.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "STARLIGHT IMPORTS LLC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 4567890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "STARLIGHT IMPORTS LLC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 4567890"
+    },
+    "onboardDate": "2024-11-18 10:00",
+    "additionalRemarks": "Value: USD35,000, Incoterms: CIF"
+  }
+}

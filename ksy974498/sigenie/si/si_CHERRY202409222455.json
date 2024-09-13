@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202409222455",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "240929W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS LTD.",
+      "address": "123 OCEAN DRIVE, NINGBO, CHINA",
+      "telephone": "+86 574 123 4567",
+      "email": "INFO@ASIAIMPORT.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS GmbH",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL123456789",
+      "president": "MS. ANNA SMITH",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 WALL STREET, NEW YORK, USA",
+      "telephone": "+1 212 123 4567",
+      "fax": "+1 212 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "901890",
+  "commodityDescription": "MEDICAL SURGICAL INSTRUMENTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA PACIFIC IMPORTS LTD.",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL SURGICAL INSTRUMENTS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIA PACIFIC IMPORTS LTD.",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL SURGICAL INSTRUMENTS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ASIA PACIFIC IMPORTS LTD.",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL SURGICAL INSTRUMENTS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU2468013",
+      "sealNumber": "246801",
+      "marksAndNumbers": "ASIA PACIFIC IMPORTS LTD.",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL SURGICAL INSTRUMENTS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU5137029",
+      "sealNumber": "513702",
+      "marksAndNumbers": "ASIA PACIFIC IMPORTS LTD.",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL SURGICAL INSTRUMENTS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY X5) CONTAINERS",
+    "totalPackages": 5000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN AVAILABLE UPON REQUEST",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS GmbH",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 WALL STREET, NEW YORK, USA",
+      "telephone": "+1 212 123 4567",
+      "fax": "+1 212 123 4568"
+    },
+    "onboardDate": "2024-09-27 10:00",
+    "additionalRemarks": "Fragile cargo, requires careful handling."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202410097194",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024412E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5289",
+      "onBehalfOf": null,
+      "address": "1234 SHENNAN ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86-21-6326-9876",
+      "fax": "+86-21-6326-9875"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 1642",
+      "address": "222, QUEEN STREET, GDANSK 80-888, POLAND",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 3715",
+      "address": "123 MAIN STREET, LONDON EC1A 1AA, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "902300",
+  "commodityDescription": "SURGICAL INSTRUMENTS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER 5289",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SURGICAL INSTRUMENTS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER 5289",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SURGICAL INSTRUMENTS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SHIPPER 5289",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SURGICAL INSTRUMENTS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU4321654",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SHIPPER 5289",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SURGICAL INSTRUMENTS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU5432167",
+      "sealNumber": "789456",
+      "marksAndNumbers": "SHIPPER 5289",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SURGICAL INSTRUMENTS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS",
+    "totalPackages": 500,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3715",
+      "address": "123 MAIN STREET, LONDON EC1A 1AA, UNITED KINGDOM",
+      "telephone": "+44-20-7632-9876",
+      "fax": "+44-20-7632-9875"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1642",
+      "address": "222, QUEEN STREET, GDANSK 80-888, POLAND",
+      "telephone": "+48-58-333-2222",
+      "fax": "+48-58-333-2223"
+    },
+    "onboardDate": "2024-10-25 12:15",
+    "additionalRemarks": "Containers must be loaded on top."
+  }
+}

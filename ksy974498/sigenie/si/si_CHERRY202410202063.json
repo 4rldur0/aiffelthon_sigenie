@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410202063",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024211W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8275",
+      "address": "123 Industrial Street, Ningbo, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 5128",
+      "address": "456 Commercial Boulevard, Rotterdam, Netherlands",
+      "telephone": "+31 10 555 55 55",
+      "fax": "+31 10 555 55 56"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 1749",
+      "address": "789 Harbor Lane, Rotterdam, Netherlands",
+      "telephone": "+31 10 666 66 66",
+      "fax": "+31 10 666 66 67"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC CONTAINERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SHIP8275-01",
+      "numberOfPackages": 500,
+      "cargoDescription": "PLASTIC CONTAINERS AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SHIP8275-02",
+      "numberOfPackages": 500,
+      "cargoDescription": "PLASTIC CONTAINERS AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU2468013",
+      "sealNumber": "54321098",
+      "marksAndNumbers": "SHIP8275-03",
+      "numberOfPackages": 500,
+      "cargoDescription": "PLASTIC CONTAINERS AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC987654321"
+    },
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 5128",
+      "address": "456 Commercial Boulevard, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 1749",
+      "address": "789 Harbor Lane, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-10-26 15:00",
+    "additionalRemarks": "Containers require pre-trip inspection"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202410306810",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024342W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4852",
+      "address": "123 ORCHARD ROAD, SINGAPORE, SINGAPORE"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3217",
+      "address": "456 HANOVER STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 5555 1234",
+      "fax": "+49 40 5555 6789"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2745",
+      "address": "789 FIFTH AVENUE, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 6767"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WARDROBES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKINGS",
+      "numberOfPackages": 100,
+      "cargoDescription": "WARDROBES - PACKED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SAMPLE MARKINGS 2",
+      "numberOfPackages": 100,
+      "cargoDescription": "WARDROBES - PACKED IN PALLETS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMPLE MARKINGS 3",
+      "numberOfPackages": 100,
+      "cargoDescription": "WARDROBES - PACKED IN CRATES",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9012345",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SAMPLE MARKINGS 4",
+      "numberOfPackages": 100,
+      "cargoDescription": "WARDROBES - PACKED IN BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SAMPLE MARKINGS 5",
+      "numberOfPackages": 100,
+      "cargoDescription": "WARDROBES - PACKED IN DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY X5) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY X5",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT-123456",
+      "CERT-789012"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3217",
+      "address": "456 HANOVER STREET, HAMBURG, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2745",
+      "address": "789 FIFTH AVENUE, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 6767"
+    },
+    "onboardDate": "2024-11-10 14:30",
+    "additionalRemarks": "Containers require pre-trip inspection"
+  }
+}
