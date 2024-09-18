@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410195988",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "244WSE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Telegraphic Transfer",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DANONE (SHANGHAI)",
+      "address": "NO. 1234, JIANGSU ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)",
+      "telephone": "+86 21 5678 9012",
+      "email": "SHIPPING@DANONESHANGHAI.COM"
+    },
+    "consignee": {
+      "name": "DANONE (GERMANY)",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "IMPORT@DANONEGERMANY.DE",
+      "telephone": "+49 40 3678 9012"
+    },
+    "notifyParty": {
+      "name": "DANONE (GERMANY)",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "IMPORT@DANONEGERMANY.DE",
+      "telephone": "+49 40 3678 9012"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "22021000",
+  "commodityDescription": "UHT MILK POWDER",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DAN123",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "UHT MILK POWDER AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "DAN456",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "UHT MILK POWDER AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU3456789",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DAN789",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "UHT MILK POWDER AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU9012345",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "DAN901",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "UHT MILK POWDER AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU5678901",
+      "sealNumber": "23456789",
+      "marksAndNumbers": "DAN567",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "UHT MILK POWDER AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) x 40 HIGH CUBE CONTAINER",
+    "totalPackages": 2500,
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234"
+    },
+    "originalBLDistribution": {
+      "name": "DANONE (PARIS)",
+      "address": "12 RUE DE LA PAIX, 75001 PARIS",
+      "telephone": "+33 1 4567 8901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DANONE (PARIS)",
+      "address": "12 RUE DE LA PAIX, 75001 PARIS",
+      "telephone": "+33 1 4567 8901"
+    },
+    "onboardDate": "2024-10-26 10:00",
+    "additionalRemarks": "VALUE: USD100,000. Maintain temperature between -18\u00b0C and -22\u00b0C during transit."
+  }
+}

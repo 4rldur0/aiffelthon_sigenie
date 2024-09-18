@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202411064892",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241123W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECH SOLUTIONS INC.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "DE BRIJN STREET 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@DHL.NL",
+      "telephone": "+31 10 205 1234"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "DE BRIJN STREET 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@DHL.NL",
+      "telephone": "+31 10 205 1234"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847130",
+  "commodityDescription": "NETWORK SERVERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SERVERS, PACKED ON PALLETS",
+      "grossWeight": 5000.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SERVERS, PACKED ON PALLETS",
+      "grossWeight": 5000.0,
+      "measurement": 12.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 10000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "freeTimeAtDestination": "14 DAYS",
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "DE BRIJN STREET 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 205 1234"
+    },
+    "onboardDate": "2024-11-12 10:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED: 15-20 DEGREES CELSIUS"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40 DRY Flat Rack Container"
+  }
+}

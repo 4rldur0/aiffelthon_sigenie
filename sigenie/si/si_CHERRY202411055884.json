@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411055884",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2411VASG1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS LTD.",
+      "address": "123 Sunshine Street, Shanghai, China 200000",
+      "telephone": "+86-21-5555-6789",
+      "fax": "+86-21-5555-6890"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORTERS LTD.",
+      "address": "456 Alpha Avenue, Amsterdam, Netherlands 1012AB",
+      "telephone": "+31-20-6666-1234",
+      "fax": "+31-20-6666-1345"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORTERS LTD.",
+      "address": "456 Alpha Avenue, Amsterdam, Netherlands 1012AB",
+      "telephone": "+31-20-6666-1234",
+      "fax": "+31-20-6666-1345"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "TELECOMMUNICATION CABLES - COPPER",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "ASIC2411",
+      "numberOfPackages": 1000,
+      "packageType": "REELS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES - COPPER IN 1000M REELS",
+      "grossWeight": 22000,
+      "measurement": 60
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIC2411",
+      "numberOfPackages": 1000,
+      "packageType": "REELS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES - COPPER IN 1000M REELS",
+      "grossWeight": 22000,
+      "measurement": 60
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIC2411",
+      "numberOfPackages": 1000,
+      "packageType": "REELS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES - COPPER IN 1000M REELS",
+      "grossWeight": 22000,
+      "measurement": 60
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "REELS",
+    "totalGrossWeight": 66000,
+    "totalMeasurement": 180
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": "CHEM-CERT-20241105",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORTERS LTD.",
+      "address": "456 Alpha Avenue, Amsterdam, Netherlands 1012AB",
+      "telephone": "+31-20-6666-1234",
+      "fax": "+31-20-6666-1345"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORTERS LTD.",
+      "address": "456 Alpha Avenue, Amsterdam, Netherlands 1012AB",
+      "telephone": "+31-20-6666-1234",
+      "fax": "+31-20-6666-1345"
+    },
+    "onboardDate": "2024-11-12 14:00",
+    "additionalRemarks": "3 x 40 HIGH CUBE Containers, Telecommunication Cables - Copper, Value: USD 225,000"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "bookingReference": "CHERRY202410083149",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024587A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5214",
+      "onBehalfOf": "",
+      "address": "321 Huaihai Road, Shanghai, China",
+      "telephone": "+86-21-6326-8888",
+      "fax": "+86-21-6326-9999"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT SOLUTIONS BV",
+      "address": "123 Keizersgracht, Amsterdam, Netherlands",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT SOLUTIONS BV",
+      "address": "123 Keizersgracht, Amsterdam, Netherlands"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940161",
+  "commodityDescription": "WOODEN CHAIR SEATS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9987654",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "GT-23456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIR SEATS",
+      "grossWeight": 8000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9987655",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "GT-23457",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIR SEATS",
+      "grossWeight": 8000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9987656",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "GT-23458",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIR SEATS",
+      "grossWeight": 8000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT SOLUTIONS BV",
+      "address": "123 Keizersgracht, Amsterdam, Netherlands",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT SOLUTIONS BV",
+      "address": "123 Keizersgracht, Amsterdam, Netherlands",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    },
+    "onboardDate": "2024-10-15 12:30",
+    "additionalRemarks": "Please ensure proper stacking of containers to prevent damage."
+  },
+  "reeferSettings": {
+    "reeferSettings": {
+      "temperatureSetPoint": {
+        "value": 2,
+        "unit": "Celsius"
+      },
+      "temperatureTolerance": {
+        "upperLimit": 4,
+        "lowerLimit": 0
+      },
+      "humiditySetPoint": {
+        "value": 70,
+        "unit": "Percent"
+      },
+      "humidityTolerance": {
+        "upperLimit": 75,
+        "lowerLimit": 65
+      },
+      "ventilation": "Minimum",
+      "co2Monitoring": true,
+      "alarmThresholds": {
+        "temperature": {
+          "high": 5,
+          "low": 1
+        },
+        "humidity": {
+          "high": 80,
+          "low": 60
+        }
+      },
+      "notes": "Maintain a controlled environment to preserve the integrity of the high-value cargo."
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202411108059",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "24051W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO.",
+      "address": "1234 HUAIHAI ROAD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(BUSINESS DISTRICT)"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT EXPORT LTD.",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "EUROTECH.IMPORT.EXPORT@EXAMPLE.COM",
+      "telephone": "+31 10 12345678"
+    },
+    "notifyParty": {
+      "name": "EUROTECH IMPORT EXPORT LTD.",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "EUROTECH.IMPORT.EXPORT@EXAMPLE.COM",
+      "telephone": "+31 10 12345678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "90318090",
+  "commodityDescription": "TEMPERATURE GAUGES",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK 1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEMPERATURE GAUGES - 100 CARTONS",
+      "grossWeight": 5000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIPPER MARK 2",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "TEMPERATURE GAUGES - 50 PALLETS",
+      "grossWeight": 2500.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) x 40' HIGH CUBE DRY CONTAINERS",
+    "totalPackages": 150,
+    "packageType": "VARIOUS",
+    "totalGrossWeight": 7500.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "90318090",
+    "freeTimeAtDestination": "7 DAYS",
+    "onboardDate": "2024-11-13 14:00",
+    "additionalRemarks": "Shipper Owned Container. Free Time at Destination: 7 Days"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  }
+}

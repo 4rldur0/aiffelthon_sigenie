@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410093000",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2423WBE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH IMPORTS & EXPORTS",
+      "address": "123 CHANGSHU ROAD, SHANGHAI, CHINA, 200120",
+      "country": "CHINA",
+      "additionalInfo": "BRANCH OFFICE",
+      "telephone": "+86 21 5555 6789",
+      "email": "INFO@GLOBALTRADING.CN"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "145 KEPLER STREET, ROTTERDAM, NETHERLANDS, 3015 GA",
+      "country": "NETHERLANDS",
+      "email": "IMPORTS@EUROTECH.NL",
+      "telephone": "+31 10 444 5678"
+    },
+    "notifyParty": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "145 KEPLER STREET, ROTTERDAM, NETHERLANDS, 3015 GA",
+      "country": "NETHERLANDS",
+      "email": "IMPORTS@EUROTECH.NL",
+      "telephone": "+31 10 444 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GR123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 50 CARTONS OF ELECTRONIC COMPONENTS",
+      "grossWeight": 18000.0,
+      "measurement": 30.5
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GR456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 50 CARTONS OF ELECTRONIC COMPONENTS",
+      "grossWeight": 18000.0,
+      "measurement": 30.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40' DRY CONTAINERS",
+    "totalPackages": 100,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 61.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-CN1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "145 KEPLER STREET, ROTTERDAM, NETHERLANDS, 3015 GA",
+      "telephone": "+31 10 444 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "145 KEPLER STREET, ROTTERDAM, NETHERLANDS, 3015 GA",
+      "telephone": "+31 10 444 5678"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "Fragile Cargo, Value: USD150,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

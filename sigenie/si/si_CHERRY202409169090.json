@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202409169090",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024415W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1245",
+      "address": "1234 SUNRISE LANE, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3712",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9145",
+      "address": "456 OAK AVENUE, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940179",
+  "commodityDescription": "Wooden Chair Frames",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CF1-123",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN CHAIR FRAMES AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU8901234",
+      "sealNumber": "567890",
+      "marksAndNumbers": "CF1-456",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN CHAIR FRAMES AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU5678901",
+      "sealNumber": "901234",
+      "marksAndNumbers": "CF1-789",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN CHAIR FRAMES AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) x 20 DRY CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3712",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9142",
+      "address": "456 OAK AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-09-22 16:00",
+    "additionalRemarks": "Please ensure containers are sealed properly."
+  },
+  "outOfGaugeDimensions": {
+    "length": 12000,
+    "width": 2400,
+    "height": 2600,
+    "overHeight": 100
+  }
+}

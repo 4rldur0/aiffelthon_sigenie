@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202411051610",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "244Z15B"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES LTD.",
+      "address": "123 YONGFU ROAD, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "456 KONINGINNA STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 7777 1234",
+      "fax": "+31 10 7777 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "456 KONINGINNA STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 7777 9876",
+      "fax": "+31 10 7777 4321"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "61103090",
+  "commodityDescription": "MEN'S COTTON SWEATERS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "ASIA PACIFIC TEXTILES LTD.",
+      "numberOfPackages": 1000,
+      "cargoDescription": "MEN'S COTTON SWEATERS (H.S. CODE 61103090)",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ASIA PACIFIC TEXTILES LTD.",
+      "numberOfPackages": 1000,
+      "cargoDescription": "MEN'S COTTON SWEATERS (H.S. CODE 61103090)",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU98765432",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "ASIA PACIFIC TEXTILES LTD.",
+      "numberOfPackages": 1000,
+      "cargoDescription": "MEN'S COTTON SWEATERS (H.S. CODE 61103090)",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU13579246",
+      "sealNumber": "14725836",
+      "marksAndNumbers": "ASIA PACIFIC TEXTILES LTD.",
+      "numberOfPackages": 1000,
+      "cargoDescription": "MEN'S COTTON SWEATERS (H.S. CODE 61103090)",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU24681357",
+      "sealNumber": "96385274",
+      "marksAndNumbers": "ASIA PACIFIC TEXTILES LTD.",
+      "numberOfPackages": 1000,
+      "cargoDescription": "MEN'S COTTON SWEATERS (H.S. CODE 61103090)",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 5000,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 140.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "456 KONINGINNA STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "456 KONINGINNA STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 7777 9876",
+      "fax": "+31 10 7777 4321"
+    },
+    "onboardDate": "2024-11-12 12:00",
+    "additionalRemarks": "CONTAINERS SHOULD BE SEALED AND MARKED ACCORDING TO ISPS REGULATIONS."
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

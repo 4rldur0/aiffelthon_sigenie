@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202410136706",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "244EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREEN EARTH TRADING CO.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 5555 1234",
+      "email": "info@greentrading.cn"
+    },
+    "consignee": {
+      "name": "EUROGRAIN LTD",
+      "address": "25 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011 GD",
+      "country": "NETHERLANDS",
+      "email": "info@eurograin.nl",
+      "telephone": "+31 10 222 2222"
+    },
+    "notifyParty": {
+      "name": "GREEN EARTH TRADING CO.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "email": "info@greentrading.cn",
+      "telephone": "+86 21 5555 1234"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847990",
+  "commodityDescription": "GRAIN CLEANING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GREEN EARTH TRADING CO.",
+      "numberOfPackages": 10,
+      "packageType": "CASES",
+      "cargoDescription": "GRAIN CLEANING MACHINERY PARTS AS PER ORDER NUMBER 12345",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GREEN EARTH TRADING CO.",
+      "numberOfPackages": 10,
+      "packageType": "CASES",
+      "cargoDescription": "GRAIN CLEANING MACHINERY PARTS AS PER ORDER NUMBER 12345",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GREEN EARTH TRADING CO.",
+      "numberOfPackages": 10,
+      "packageType": "CASES",
+      "cargoDescription": "GRAIN CLEANING MACHINERY PARTS AS PER ORDER NUMBER 12345",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "432109",
+      "marksAndNumbers": "GREEN EARTH TRADING CO.",
+      "numberOfPackages": 10,
+      "packageType": "CASES",
+      "cargoDescription": "GRAIN CLEANING MACHINERY PARTS AS PER ORDER NUMBER 12345",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (4 x 20 DRY) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CN-2024-10-01-123456"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROGRAIN LTD",
+      "address": "25 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011 GD",
+      "telephone": "+31 10 222 2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN EARTH TRADING CO.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86 21 5555 1234"
+    },
+    "onboardDate": "2024-10-25 14:00",
+    "additionalRemarks": "4 x 20 DRY containers. Grain cleaning machinery for rice processing. Value: USD25,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40' HIGH CUBE OPEN TOP Container"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

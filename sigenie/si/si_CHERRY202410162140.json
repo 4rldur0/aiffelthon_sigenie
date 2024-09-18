@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410162140",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024473E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4729",
+      "address": "123 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA, 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5281",
+      "address": "101 MADRID STREET, ALGECIRAS, SPAIN, 11001",
+      "telephone": "+34-956-777777",
+      "fax": "+34-956-777778",
+      "email": "IMPORT@CUSTOMER5281.ES",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "INVOICE RECEIVER 9317",
+      "address": "101 BARCELONA STREET, MADRID, SPAIN, 28001",
+      "telephone": "+34-91-5555555",
+      "fax": "+34-91-5555556"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "AUTOMATIC BOTTLE FILLING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "BM20241016",
+      "numberOfPackages": 50,
+      "cargoDescription": "AUTOMATIC BOTTLE FILLING MACHINE AS PER INVOICE",
+      "grossWeight": 7000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "BM20241016",
+      "numberOfPackages": 50,
+      "cargoDescription": "AUTOMATIC BOTTLE FILLING MACHINE AS PER INVOICE",
+      "grossWeight": 7000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20 DRY HIGH CUBE CONTAINER",
+    "totalPackages": 100,
+    "totalGrossWeight": 14000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241016-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "LC20241025-002"
+    },
+    "certificateDetails": [
+      "FUMIGATION CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5281",
+      "address": "101 MADRID STREET, ALGECIRAS, SPAIN, 11001",
+      "telephone": "+34-956-777777",
+      "fax": "+34-956-777778"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9317",
+      "address": "101 BARCELONA STREET, MADRID, SPAIN, 28001",
+      "telephone": "+34-91-5555555",
+      "fax": "+34-91-5555556"
+    },
+    "onboardDate": "2024-10-22 14:30",
+    "additionalRemarks": "Require fumigation certificate"
+  }
+}

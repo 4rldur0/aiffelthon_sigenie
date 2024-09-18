@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410142082",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024417E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "FOB",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4712",
+      "address": "123 Harmony Street, Ningbo, China"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9823",
+      "address": "456 Europa Boulevard, Rotterdam, Netherlands",
+      "telephone": "+31 10 555 1234",
+      "fax": "+31 10 666 5678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1569",
+      "address": "789 Innovation Avenue, Rotterdam, Netherlands",
+      "telephone": "+31 10 777 9012",
+      "fax": "+31 10 888 3456"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940160",
+  "commodityDescription": "WOODEN DINING CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CHAIR1",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN DINING CHAIRS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 6000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU8901234",
+      "sealNumber": "567890",
+      "marksAndNumbers": "CHAIR2",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN DINING CHAIRS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 6000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU5678901",
+      "sealNumber": "901234",
+      "marksAndNumbers": "CHAIR3",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN DINING CHAIRS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 6000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU2345678",
+      "sealNumber": "890123",
+      "marksAndNumbers": "CHAIR4",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN DINING CHAIRS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 6000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "345678",
+      "marksAndNumbers": "CHAIR5",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN DINING CHAIRS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 6000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {},
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9823",
+      "address": "456 Europa Boulevard, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1569",
+      "address": "789 Innovation Avenue, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-10-21 12:30",
+    "additionalRemarks": "Containers require pre-trip inspection."
+  }
+}

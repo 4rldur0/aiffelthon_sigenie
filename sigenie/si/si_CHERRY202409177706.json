@@ -1,0 +1,87 @@
+{
+  "bookingReference": "CHERRY202409177706",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "240927B"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "HOUSE",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DAIMLER AG",
+      "address": "38436 Wolfsburg, Germany"
+    },
+    "consignee": {
+      "name": "BMW AG",
+      "address": "80788 Munich, Germany",
+      "telephone": "+49 89 382 00000",
+      "fax": "+49 89 382 00001"
+    },
+    "notifyParty": {
+      "name": "BMW AG - LOGISTICS DEPARTMENT",
+      "address": "80788 Munich, Germany",
+      "telephone": "+49 89 382 00002",
+      "fax": "+49 89 382 00003"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "870323",
+  "commodityDescription": "PASSENGER VEHICLES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "BMW123",
+      "numberOfPackages": 1,
+      "cargoDescription": "PASSENGER VEHICLE - SHIPPERS LOAD, COUNT & WEIGHT",
+      "grossWeight": 2500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "BMW456",
+      "numberOfPackages": 1,
+      "cargoDescription": "PASSENGER VEHICLE - SHIPPERS LOAD, COUNT & WEIGHT",
+      "grossWeight": 2400.0,
+      "measurement": 24.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 DRY) CONTAINERS ONLY",
+    "totalPackages": 2,
+    "packageType": "UNITS",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 4900.0,
+    "totalMeasurement": 49.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "9876543210"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BMW AG - LOGISTICS DEPARTMENT",
+      "address": "80788 Munich, Germany"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BMW AG - LOGISTICS DEPARTMENT",
+      "address": "80788 Munich, Germany"
+    },
+    "onboardDate": "2024-09-24 14:00",
+    "additionalRemarks": "Door Delivery Included"
+  }
+}

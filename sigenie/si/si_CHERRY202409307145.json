@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202409307145",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024902E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": " negotiable ",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5432",
+      "address": "123 SHANGHAI ROAD, NINGBO 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(INDUSTRIAL ZONE)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9876",
+      "address": "456 EUROPA BOULEVARD, ROTTERDAM 3011BC, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "CUSTOMER9876@EXAMPLE.COM",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1234",
+      "address": "789 AMSTERDAM STREET, AMSTERDAM 1017AL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "RECEIVER1234@EXAMPLE.COM",
+      "telephone": "+31 20 876 5432"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940160",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "890123",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS, 100 CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS, 100 CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO987654",
+    "hsCode": "940160",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "CERT987654",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9876",
+      "address": "456 EUROPA BOULEVARD, ROTTERDAM 3011BC, NETHERLANDS",
+      "telephone": "+31 10 234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1234",
+      "address": "789 AMSTERDAM STREET, AMSTERDAM 1017AL, NETHERLANDS",
+      "telephone": "+31 20 876 5432"
+    },
+    "onboardDate": "2024-10-05 10:00",
+    "additionalRemarks": "Containers require a temperature setting of 15 degrees Celsius."
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

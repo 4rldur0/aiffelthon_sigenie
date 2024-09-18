@@ -1,0 +1,155 @@
+{
+  "bookingReference": "CHERRY202410286547",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2446E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING CO. LTD.",
+      "address": "NO. 888, HUAYUAN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6333 9876",
+      "email": "sales@deltamanufacturing.cn"
+    },
+    "consignee": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "taxId": "123456789",
+      "president": "MS. ANNA SMITH",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "notifyParty": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "taxId": "123456789",
+      "president": "MS. ANNA SMITH",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "902300",
+  "commodityDescription": "MEDICAL LABORATORY EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "TCLU5432197",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT231028",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEDICAL LABORATORY EQUIPMENT",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU5432198",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT231028",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEDICAL LABORATORY EQUIPMENT",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU5432199",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GT231028",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEDICAL LABORATORY EQUIPMENT",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU5432200",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GT231028",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEDICAL LABORATORY EQUIPMENT",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU5432201",
+      "sealNumber": "901234",
+      "marksAndNumbers": "GT231028",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEDICAL LABORATORY EQUIPMENT",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 50,
+    "packageType": "CRATES",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "onboardDate": "2024-10-31 12:00",
+    "additionalRemarks": "TEMPERATURE SENSITIVE CARGO: REQUIRE REFRIGERATION DURING TRANSIT. PLEASE HANDLE WITH CARE."
+  },
+  "reeferSettings": {
+    "temperatureSetpoint": {
+      "value": 2,
+      "unit": "Celsius"
+    },
+    "temperatureRange": {
+      "lowerLimit": 0,
+      "upperLimit": 4,
+      "unit": "Celsius"
+    },
+    "humiditySetpoint": {
+      "value": 90,
+      "unit": "%"
+    },
+    "humidityRange": {
+      "lowerLimit": 85,
+      "upperLimit": 95,
+      "unit": "%"
+    },
+    "ventilationSettings": {
+      "mode": "Passive",
+      "rate": 0
+    },
+    "preCooling": true,
+    "monitoringFrequency": "Continuous"
+  }
+}

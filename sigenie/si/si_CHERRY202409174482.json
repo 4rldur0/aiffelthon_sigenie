@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202409174482",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409WST"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LONG BEACH, USA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 YONGFU ROAD, NINGBO, ZHEJIANG, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "SHIPPING@SUNRISETRADING.CN"
+    },
+    "consignee": {
+      "name": "AUTO WAREHOUSE SOLUTIONS INC",
+      "address": "123 MAIN STREET, LONG BEACH, CA 90802, USA",
+      "country": "USA",
+      "telephone": "+1 562 678 9012",
+      "email": "ORDERS@AUTOWAREHOUSESOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 YONGFU ROAD, NINGBO, ZHEJIANG, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "INVOICE@SUNRISETRADING.CN"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "94017100",
+  "commodityDescription": "AUTOMOBILE SEATS",
+  "containers": [
+    {
+      "containerNumber": "MSKU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SUNRISE-20241026-1",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "AUTOMOBILE SEATS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSKU8765432",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SUNRISE-20241026-2",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "AUTOMOBILE SEATS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSKU9876543",
+      "sealNumber": "23456789",
+      "marksAndNumbers": "SUNRISE-20241026-3",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "AUTOMOBILE SEATS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC000123456789"
+    },
+    "certificateDetails": [
+      "CN20241026001",
+      "CN20241026002"
+    ],
+    "originalBLDistribution": {
+      "name": "AUTO WAREHOUSE SOLUTIONS INC",
+      "address": "123 MAIN STREET, LONG BEACH, CA 90802, USA",
+      "telephone": "+1 562 678 9012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 YONGFU ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8765 4321"
+    },
+    "onboardDate": "2024-09-22 12:00",
+    "additionalRemarks": "TEMPERATURE CONTROL NOT REQUIRED. REQUESTING DOOR DELIVERY."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40 DRY Flat Rack Container"
+  }
+}

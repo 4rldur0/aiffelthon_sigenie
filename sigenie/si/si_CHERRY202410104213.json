@@ -1,0 +1,143 @@
+{
+  "bookingReference": "CHERRY202410104213",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2423EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TEXTILES CO. LTD.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "(Contact Person: JANE DOE)"
+    },
+    "consignee": {
+      "name": "SEA SKY LOGISTICS INC.",
+      "address": "456 SKY WAY, ROTTERDAM, NETHERLANDS 3011AA",
+      "country": "NETHERLANDS",
+      "email": "CUSTOMER.SERVICE@SEASKYLOGISTICS.COM",
+      "telephone": "+31 10 123 4567"
+    },
+    "notifyParty": {
+      "name": "SEA SKY LOGISTICS INC.",
+      "address": "456 SKY WAY, ROTTERDAM, NETHERLANDS 3011AA",
+      "country": "NETHERLANDS",
+      "email": "CUSTOMER.SERVICE@SEASKYLOGISTICS.COM",
+      "telephone": "+31 10 123 4567"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "610910",
+  "commodityDescription": "POLYESTER T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SEA SKY LOGISTICS - ORDER #12345",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYESTER T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SEA SKY LOGISTICS - ORDER #67890",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYESTER T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SEA SKY LOGISTICS - ORDER #11111",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYESTER T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SEA SKY LOGISTICS - ORDER #22222",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYESTER T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SEA SKY LOGISTICS - ORDER #33333",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYESTER T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 5000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "610910",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "SEA SKY LOGISTICS INC.",
+      "address": "456 SKY WAY, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SEA SKY LOGISTICS INC.",
+      "address": "456 SKY WAY, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-10-25 14:00",
+    "additionalRemarks": "Cargo to be loaded on pallets and secured with straps."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2839728",
+    "unClass": "3",
+    "unCode": "No: 3334",
+    "hsCode": "1544.86.81",
+    "flashPoint": "66\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

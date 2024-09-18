@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410114526",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024321A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3512",
+      "address": "1234 ORCHARD ROAD, SINGAPORE, 238888",
+      "country": "SINGAPORE",
+      "additionalInfo": "(SINGAPORE FREE TRADE ZONE)",
+      "telephone": "+65 6789 1234",
+      "email": "SHIPPING@SINGAPOREMETALIMPORT.COM.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT BV",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL",
+      "telephone": "+31 10 555 1212"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT & EXPORT BV",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL",
+      "telephone": "+31 10 555 1212"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "73043100",
+  "commodityDescription": "STEEL BEAMS FOR CONSTRUCTION",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SMI-12345",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "STEEL BEAMS FOR CONSTRUCTION (W.2400MM H.2000MM)",
+      "grossWeight": 24000.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SMI-67890",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "STEEL BEAMS FOR CONSTRUCTION (W.2400MM H.2000MM)",
+      "grossWeight": 24000.0,
+      "measurement": 32.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) x 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 200,
+    "totalGrossWeight": 48000.0,
+    "totalMeasurement": 64.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT BV",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "telephone": "+31 10 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT BV",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "telephone": "+31 10 555 1212"
+    },
+    "onboardDate": "2024-10-18 12:00",
+    "additionalRemarks": "Fragile cargo, handle with care."
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  }
+}

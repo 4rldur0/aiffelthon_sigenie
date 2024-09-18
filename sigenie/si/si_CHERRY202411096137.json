@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411096137",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2422EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS CO.",
+      "address": "328 Huaihai Road, Shanghai, China",
+      "telephone": "+86-21-6326-1234",
+      "fax": "+86-21-6326-5678"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "25 Prins Hendrikkade, Amsterdam, Netherlands",
+      "telephone": "+31-20-345-6789",
+      "fax": "+31-20-345-9012"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "25 Prins Hendrikkade, Amsterdam, Netherlands",
+      "telephone": "+31-20-345-6789",
+      "fax": "+31-20-345-9012"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "290341",
+  "commodityDescription": "CYCLOHEXANE",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876545",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "GIM20231109",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. CYCLOHEXANE IN 200 LITER DRUMS.",
+      "grossWeight": 25000,
+      "measurement": 35
+    },
+    {
+      "containerNumber": "CRLU9876546",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "GIM20231109",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. CYCLOHEXANE IN 200 LITER DRUMS.",
+      "grossWeight": 25000,
+      "measurement": 35
+    },
+    {
+      "containerNumber": "CRLU9876547",
+      "sealNumber": "13579246",
+      "marksAndNumbers": "GIM20231109",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. CYCLOHEXANE IN 200 LITER DRUMS.",
+      "grossWeight": 25000,
+      "measurement": 35
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' STANDARD CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 75000,
+    "totalMeasurement": 105
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20231109-001",
+    "salesOrderNumber": "20231109-002",
+    "lcDetails": {},
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "25 Prins Hendrikkade, Amsterdam, Netherlands",
+      "telephone": "+31-20-345-6789",
+      "fax": "+31-20-345-9012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC CHEMICALS CO.",
+      "address": "328 Huaihai Road, Shanghai, China",
+      "telephone": "+86-21-6326-1234",
+      "fax": "+86-21-6326-5678"
+    },
+    "onboardDate": "2024-11-12 18:00",
+    "additionalRemarks": "12 Days Free Time at Destination, Reefer Settings: 5 Degrees Celsius"
+  }
+}

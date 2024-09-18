@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410076872",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2431W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 YONGFU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5678 9012",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS LTD",
+      "address": "123 QUEEN STREET, LONDON, UK, WC2A 3EY",
+      "taxId": "GB1234567890",
+      "president": "MR. PETER SMITH",
+      "telephone": "+44 20 7678 9012",
+      "fax": "+44 20 7678 9013"
+    },
+    "notifyParty": {
+      "name": "EURO IMPORTS LTD",
+      "address": "123 QUEEN STREET, LONDON, UK, WC2A 3EY",
+      "taxId": "GB1234567890",
+      "president": "MR. PETER SMITH",
+      "telephone": "+44 20 7678 9012",
+      "fax": "+44 20 7678 9013"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "90331010",
+  "commodityDescription": "SURGICAL ROBOTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS SURGICAL ROBOTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU2992660",
+      "sealNumber": "123457",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS SURGICAL ROBOTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 x 40 DRY) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS LTD",
+      "address": "123 QUEEN STREET, LONDON, UK, WC2A 3EY",
+      "telephone": "+44 20 7678 9012",
+      "fax": "+44 20 7678 9013"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORTS LTD",
+      "address": "123 QUEEN STREET, LONDON, UK, WC2A 3EY",
+      "telephone": "+44 20 7678 9012",
+      "fax": "+44 20 7678 9013"
+    },
+    "onboardDate": "2024-10-10 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED: 2-8 DEGREES CELSIUS, VALUE: USD200,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

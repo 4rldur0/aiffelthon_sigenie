@@ -1,0 +1,142 @@
+{
+  "bookingReference": "CHERRY202409264619",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2422EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "No. 234, Zhongshan Road, Ningbo, Zhejiang, 315000, China",
+      "country": "CHINA",
+      "additionalInfo": "(Near Ningbo Port)"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN IMPORT LTD.",
+      "address": "Erasmusgracht 45, 3034 AD Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@goldensunimport.nl",
+      "telephone": "+31 10 411 22 34"
+    },
+    "notifyParty": {
+      "name": "BLUE OCEAN LOGISTICS LTD.",
+      "address": "123 Main Street, London, United Kingdom, W1A 1AA",
+      "country": "UNITED KINGDOM",
+      "email": "info@blueoceanlogistics.uk",
+      "telephone": "+44 20 7123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "EGG SORTING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GOLDEN SUN IMPORT LTD",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: EGG SORTING MACHINES 10MT 10 CRATES",
+      "grossWeight": 10000.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GOLDEN SUN IMPORT LTD",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: EGG SORTING MACHINES 10MT 10 CRATES",
+      "grossWeight": 10000.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "TCLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GOLDEN SUN IMPORT LTD",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: EGG SORTING MACHINES 10MT 10 CRATES",
+      "grossWeight": 10000.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "TCLU1357911",
+      "sealNumber": "911234",
+      "marksAndNumbers": "GOLDEN SUN IMPORT LTD",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: EGG SORTING MACHINES 10MT 10 CRATES",
+      "grossWeight": 10000.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "TCLU2468013",
+      "sealNumber": "135791",
+      "marksAndNumbers": "GOLDEN SUN IMPORT LTD",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: EGG SORTING MACHINES 10MT 10 CRATES",
+      "grossWeight": 10000.0,
+      "measurement": 12.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 50,
+    "packageType": "CRATES",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 62.5
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "847989",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "BLUE OCEAN LOGISTICS LTD.",
+      "address": "123 Main Street, London, United Kingdom, W1A 1AA",
+      "telephone": "+44 20 7123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN SUN IMPORT LTD.",
+      "address": "Erasmusgracht 45, 3034 AD Rotterdam, Netherlands",
+      "telephone": "+31 10 411 22 34"
+    },
+    "onboardDate": "2024-10-02 10:00",
+    "additionalRemarks": "Ensure proper lashing of cargo"
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

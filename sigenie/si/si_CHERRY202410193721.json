@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202410193721",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2448W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 BROADWAY STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 56 78",
+      "fax": "+31 10 234 56 79"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 56 78",
+      "fax": "+31 10 234 56 79"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SUNRISE TRADING CO. MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRONIC COMPONENTS AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "SUNRISE TRADING CO. MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRONIC COMPONENTS AS PER INVOICE",
+      "grossWeight": 18500.0,
+      "measurement": 68.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "PACKAGES",
+    "containerType": "40 HIGH CUBE",
+    "totalGrossWeight": 36500.0,
+    "totalMeasurement": 136.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT1234567"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 56 78",
+      "fax": "+31 10 234 56 79"
+    },
+    "onboardDate": "2024-10-28 10:00",
+    "additionalRemarks": "Electronic component shipment, Value: USD 80,000"
+  }
+}

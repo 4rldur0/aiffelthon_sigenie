@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202409286859",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024382E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3792",
+      "onBehalfOf": "WORLDWIDE PACKAGING SOLUTIONS GMBH",
+      "address": "UNIT 1002, 10/F, SHANGHAI TOWER, 501 YIN CHENG ROAD, SHANGHAI 200085, CHINA",
+      "telephone": "+86-21-5386-1234",
+      "fax": "+86-21-5386-5678"
+    },
+    "consignee": {
+      "name": "GERMAN PACKAGING GMBH",
+      "address": "ST. GEORG STRASSE 15, 20354 HAMBURG, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "REUTERSTRASSE 5, 20537 HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "PACKAGING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "TCLU7894567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PACKAGING MACHINERY",
+      "grossWeight": 6500.0,
+      "measurement": 15.0,
+      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. THE CONTAINER IS PROPERTY OF MSC."
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 6,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PACKAGING MACHINERY",
+      "grossWeight": 7000.0,
+      "measurement": 16.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 11,
+    "packageType": "CRATES",
+    "containerType": "20GP",
+    "totalGrossWeight": 13500.0,
+    "totalMeasurement": 31.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CHINA TRADING CO. LTD.",
+      "address": "UNIT 1208, 12/F, SHANGHAI TOWER, 501 YIN CHENG ROAD, SHANGHAI 200085, CHINA",
+      "telephone": "+86-21-5386-1234",
+      "fax": "+86-21-5386-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GERMAN PACKAGING GMBH",
+      "address": "ST. GEORG STRASSE 15, 20354 HAMBURG, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432"
+    },
+    "onboardDate": "2024-10-15 14:30",
+    "additionalRemarks": "Containers require pre-trip inspection."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

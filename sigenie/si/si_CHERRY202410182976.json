@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410182976",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2425431E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3178",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA, 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9421",
+      "address": "101 AMSTERDAM STREET, HAMBURG, GERMANY, 20457",
+      "telephone": "+49-40-2222222",
+      "fax": "+49-40-2222223",
+      "email": "IMPORT@CUSTOMER9421.DE",
+      "contactPerson": "ANNA MEIER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "CUSTOMER 9421 - LOGISTICS DEPT",
+      "address": "101 AMSTERDAM STREET, HAMBURG, GERMANY, 20457",
+      "telephone": "+49-40-2222222",
+      "fax": "+49-40-2222223"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871640",
+  "commodityDescription": "Truck Chassis",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SHIP3178-1",
+      "numberOfPackages": 1,
+      "cargoDescription": "Truck Chassis AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "SHIP3178-2",
+      "numberOfPackages": 1,
+      "cargoDescription": "Truck Chassis AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "9876543",
+      "marksAndNumbers": "SHIP3178-3",
+      "numberOfPackages": 1,
+      "cargoDescription": "Truck Chassis AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20 DRY GENERAL PURPOSE CONTAINERS",
+    "totalPackages": 3,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 66.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241017-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "LC20241025-001"
+    },
+    "certificateDetails": [
+      "CO-234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9421",
+      "address": "101 AMSTERDAM STREET, HAMBURG, GERMANY, 20457",
+      "telephone": "+49-40-2222222",
+      "fax": "+49-40-2222223"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 9421",
+      "address": "101 AMSTERDAM STREET, HAMBURG, GERMANY, 20457",
+      "telephone": "+49-40-2222222",
+      "fax": "+49-40-2222223"
+    },
+    "onboardDate": "2024-10-27 12:05",
+    "additionalRemarks": "Containers require pre-trip inspection."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}
