@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410042991",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2447E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunbeam Industries",
+      "address": "123 Sunshine Boulevard, Shanghai, China"
+    },
+    "consignee": {
+      "name": "Blue Sky Trading",
+      "address": "456 Canal Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 5678"
+    },
+    "notifyParty": {
+      "name": "Sunbeam Global Logistics",
+      "address": "789 Harbor Way, Rotterdam, Netherlands",
+      "telephone": "+31 10 200 9876",
+      "fax": "+31 10 200 5432"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "903281",
+  "commodityDescription": "HAND TOOLS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNB123",
+      "numberOfPackages": 500,
+      "cargoDescription": "Hand Tools - Packed in Boxes",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SUNB124",
+      "numberOfPackages": 500,
+      "cargoDescription": "Hand Tools - Packed in Boxes",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNB125",
+      "numberOfPackages": 500,
+      "cargoDescription": "Hand Tools - Packed in Boxes",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNB126",
+      "numberOfPackages": 500,
+      "cargoDescription": "Hand Tools - Packed in Boxes",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SUNB127",
+      "numberOfPackages": 500,
+      "cargoDescription": "Hand Tools - Packed in Boxes",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 STANDARD) CONTAINERS",
+    "totalPackages": 2500,
+    "packageType": "BOXES",
+    "containerType": "20 STD",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "onboardDate": "2024-10-29 17:00",
+    "additionalRemarks": "D/G, Class: 8, UN No: 1950"
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  }
+}

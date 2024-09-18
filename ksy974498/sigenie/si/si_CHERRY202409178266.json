@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202409178266",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "240923E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Electronics",
+      "address": "258 XINGFU ROAD, SHANGHAI, CHINA, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 6234 5678",
+      "email": "shipping@sunriseelectronics.com"
+    },
+    "consignee": {
+      "name": "Atlas Trading Co. Europe",
+      "address": "123 PRINSENGRACHT, AMSTERDAM, NETHERLANDS, 1015VC",
+      "country": "NETHERLANDS",
+      "email": "info@atlas-europe.nl",
+      "telephone": "+31 20 567 8901"
+    },
+    "notifyParty": {
+      "name": "Atlas Trading Co. Europe",
+      "address": "123 PRINSENGRACHT, AMSTERDAM, NETHERLANDS, 1015VC",
+      "country": "NETHERLANDS",
+      "email": "info@atlas-europe.nl",
+      "telephone": "+31 20 567 8901"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854370",
+  "commodityDescription": "Electric Motor Components",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SE123",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "Electric Motor Components AS PER INVOICE",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "SE456",
+      "numberOfPackages": 48,
+      "packageType": "PACKAGES",
+      "cargoDescription": "Electric Motor Components AS PER INVOICE",
+      "grossWeight": 21500.0,
+      "measurement": 34.8
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "1098765432",
+      "marksAndNumbers": "SE789",
+      "numberOfPackages": 45,
+      "packageType": "PACKAGES",
+      "cargoDescription": "Electric Motor Components AS PER INVOICE",
+      "grossWeight": 20500.0,
+      "measurement": 34.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3 x 40'HC) CONTAINERS ONLY",
+    "totalPackages": 143,
+    "totalGrossWeight": 64000.0,
+    "totalMeasurement": 104.4
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "Atlas Trading Co. Europe",
+      "address": "123 PRINSENGRACHT, AMSTERDAM, NETHERLANDS, 1015VC",
+      "telephone": "+31 20 567 8901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Atlas Trading Co. Europe",
+      "address": "123 PRINSENGRACHT, AMSTERDAM, NETHERLANDS, 1015VC",
+      "telephone": "+31 20 567 8901"
+    },
+    "onboardDate": "2024-09-22 14:00",
+    "additionalRemarks": "Containers should be stacked securely and inspected for any damage before loading."
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  }
+}

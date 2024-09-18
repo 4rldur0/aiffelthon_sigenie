@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202409235345",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2410WBA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FURNITURE LTD",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "123 MAIN STREET, CHICAGO, ILLINOIS, USA 60601",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CORP",
+      "address": "123 WALL STREET, NEW YORK, NEW YORK, USA 10005"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940330",
+  "commodityDescription": "WOODEN CHAIRS WITH FABRIC UPHOLSTERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "CHAIR123",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS WITH FABRIC UPHOLSTERY",
+      "grossWeight": 22000.0,
+      "measurement": 55.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908630",
+      "sealNumber": "892088",
+      "marksAndNumbers": "CHAIR123",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS WITH FABRIC UPHOLSTERY",
+      "grossWeight": 22000.0,
+      "measurement": 55.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY HIGH CUBE CONTAINER)",
+    "totalPackages": 400,
+    "packageType": "CARTONS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 110.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033739"
+    },
+    "certificateDetails": [
+      "4112720070179X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "123 MAIN STREET, CHICAGO, ILLINOIS, USA 60601",
+      "telephone": "+1-312-123-4567",
+      "fax": "+1-312-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CORP",
+      "address": "123 WALL STREET, NEW YORK, NEW YORK, USA 10005"
+    },
+    "onboardDate": "2024-10-01 14:00",
+    "additionalRemarks": "To be loaded in container(s) stowed below deck. Value: USD45,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

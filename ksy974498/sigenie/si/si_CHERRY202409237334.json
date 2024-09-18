@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202409237334",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "345E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "Original",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IRON & STEEL CO. LTD.",
+      "address": "1234 Iron Street, Ningbo, China",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 98765432"
+    },
+    "consignee": {
+      "name": "ACME INTERNATIONAL IMPORTS LTD.",
+      "address": "5678 Harbor Road, Hamburg, Germany",
+      "telephone": "+49 40 67890123",
+      "fax": "+49 40 45678901"
+    },
+    "notifyParty": {
+      "name": "ACME INTERNATIONAL IMPORTS LTD.",
+      "address": "5678 Harbor Road, Hamburg, Germany",
+      "telephone": "+49 40 67890123",
+      "fax": "+49 40 45678901"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "72089000",
+  "commodityDescription": "COLD ROLLED STEEL SHEETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE STEEL",
+      "numberOfPackages": 200,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COLD ROLLED STEEL SHEETS",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU6543210",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE STEEL",
+      "numberOfPackages": 200,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COLD ROLLED STEEL SHEETS",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU1098765",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE STEEL",
+      "numberOfPackages": 200,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COLD ROLLED STEEL SHEETS",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4321098",
+      "sealNumber": "321098",
+      "marksAndNumbers": "SUNRISE STEEL",
+      "numberOfPackages": 200,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COLD ROLLED STEEL SHEETS",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SUNRISE STEEL",
+      "numberOfPackages": 200,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COLD ROLLED STEEL SHEETS",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "BUNDLES",
+    "totalGrossWeight": 120000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345678",
+    "salesOrderNumber": "SO98765432",
+    "lcDetails": {
+      "lcNumber": "LC000123456789"
+    },
+    "certificateDetails": "CERT-000123",
+    "originalBLDistribution": {
+      "name": "ACME INTERNATIONAL IMPORTS LTD.",
+      "address": "5678 Harbor Road, Hamburg, Germany"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME INTERNATIONAL IMPORTS LTD.",
+      "address": "5678 Harbor Road, Hamburg, Germany"
+    },
+    "onboardDate": "2024-10-02 14:00",
+    "additionalRemarks": "CONTAINER MUST BE SEALED AFTER LOADING"
+  }
+}

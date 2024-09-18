@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409201915",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024357A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4321",
+      "address": "123 SHIPPER STREET, NINGBO, CHINA",
+      "telephone": "+86 123 456 7890",
+      "email": "SHIPPER4321@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 1234",
+      "address": "456 CONSIGNEE AVE, ALGECIRAS, SPAIN",
+      "taxId": "12345678901234",
+      "president": "MS. JANE DOE",
+      "telephone": "+34 987 654 3210",
+      "fax": "+34 987 654 3211"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 9876",
+      "address": "789 CUSTOMER LANE, ALGECIRAS, SPAIN",
+      "telephone": "+34 567 890 1234",
+      "fax": "+34 567 890 1235"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BOARD GAMES",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 120,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BOARD GAMES",
+      "grossWeight": 14000.0,
+      "measurement": 18.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) x 40 HIGH CUBE REEFERS",
+    "totalPackages": 220,
+    "packageType": "CARTONS",
+    "containerType": "40 HIGH CUBE REEFERS",
+    "totalGrossWeight": 26000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890ABC",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9876",
+      "address": "789 CUSTOMER LANE, ALGECIRAS, SPAIN",
+      "telephone": "+34 567 890 1234",
+      "fax": "+34 567 890 1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1234",
+      "address": "456 CONSIGNEE AVE, ALGECIRAS, SPAIN",
+      "telephone": "+34 987 654 3210",
+      "fax": "+34 987 654 3211"
+    },
+    "onboardDate": "2024-10-05 10:00",
+    "additionalRemarks": "Containers require pre-cooling to 5 degrees Celsius."
+  }
+}

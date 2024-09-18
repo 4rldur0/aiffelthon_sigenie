@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202409273816",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024931E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4782",
+      "onBehalfOf": "",
+      "address": "456 GLOBAL STREET, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-98765432",
+      "fax": "+86-21-12345678"
+    },
+    "consignee": {
+      "name": "EURO TRADING GROUP NV",
+      "address": "789 MAIN STREET, ANTWERP, BELGIUM, 2000",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "EURO TRADING GROUP NV",
+      "address": "789 MAIN STREET, ANTWERP, BELGIUM, 2000"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "850440",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GSL123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRIC MOTORS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GSL123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRIC MOTORS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GSL123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRIC MOTORS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY) CONTAINERS",
+    "totalPackages": 150,
+    "packageType": "BOXES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EURO TRADING GROUP NV",
+      "address": "789 MAIN STREET, ANTWERP, BELGIUM, 2000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TRADING GROUP NV",
+      "address": "789 MAIN STREET, ANTWERP, BELGIUM, 2000"
+    },
+    "onboardDate": "2024-10-05 15:00",
+    "additionalRemarks": "Containers to be loaded with lashing bars and dunnage."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410192029",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ACME ELECTRONICS LTD.",
+      "onBehalfOf": "",
+      "address": "123 ELECTRONICS STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-9012"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "IGBT MODULES FOR POWER ELECTRONICS APPLICATIONS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908631",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ACME-1234",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: IGBT MODULES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908632",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ACME-5678",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: IGBT MODULES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033739"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-10-24 14:00",
+    "additionalRemarks": "CARGO REQUIRES TEMPERATURE CONTROLLED STORAGE DURING TRANSIT."
+  }
+}

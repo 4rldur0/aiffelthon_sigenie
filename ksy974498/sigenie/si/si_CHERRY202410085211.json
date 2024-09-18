@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410085211",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024412W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1958",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 8259",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234567",
+      "fax": "+49 40 9876543"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7523",
+      "address": "789 BERLINER PLATZ, HAMBURG, GERMANY",
+      "telephone": "+49 40 5678901",
+      "fax": "+49 40 2345678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC BOTTLES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP1958-1",
+      "numberOfPackages": 1000,
+      "cargoDescription": "PLASTIC BOTTLES AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIP1958-2",
+      "numberOfPackages": 1000,
+      "cargoDescription": "PLASTIC BOTTLES AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SHIP1958-3",
+      "numberOfPackages": 1000,
+      "cargoDescription": "PLASTIC BOTTLES AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIP1958-4",
+      "numberOfPackages": 1000,
+      "cargoDescription": "PLASTIC BOTTLES AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "543210",
+      "marksAndNumbers": "SHIP1958-5",
+      "numberOfPackages": 1000,
+      "cargoDescription": "PLASTIC BOTTLES AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 5000,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7523",
+      "address": "789 BERLINER PLATZ, HAMBURG, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8259",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY"
+    },
+    "onboardDate": "2024-10-12 15:45",
+    "additionalRemarks": "Containers to be loaded on deck"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

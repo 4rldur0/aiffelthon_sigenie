@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202410111405",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA GLOBAL TRADING",
+      "address": "2345 CANAL STREET, AMSTERDAM 1012 AB, NETHERLANDS",
+      "telephone": "+31-20-666-7890",
+      "fax": "+31-20-666-7891"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL TRADING",
+      "address": "5678 STADTGASSE, FRANKFURT 60329, GERMANY",
+      "telephone": "+49-69-123-4567",
+      "fax": "+49-69-123-4568"
+    },
+    "notifyParty": {
+      "name": "OMEGA GLOBAL TRADING",
+      "address": "5678 STADTGASSE, FRANKFURT 60329, GERMANY",
+      "telephone": "+49-69-123-4567",
+      "fax": "+49-69-123-4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854239",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CCLU1234567",
+      "sealNumber": "890123",
+      "marksAndNumbers": "ZIM202410",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 8000.0,
+      "measurement": 18.0
+    },
+    {
+      "containerNumber": "CCLU8765432",
+      "sealNumber": "456789",
+      "marksAndNumbers": "ZIM202410",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 8000.0,
+      "measurement": 18.0
+    },
+    {
+      "containerNumber": "CCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZIM202410",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 8000.0,
+      "measurement": 18.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'X1) CONTAINER ONLY",
+    "totalPackages": 450,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 54.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241026",
+    "salesOrderNumber": "SO20241026",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "CN20241026",
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL TRADING",
+      "address": "5678 STADTGASSE, FRANKFURT 60329, GERMANY",
+      "telephone": "+49-69-123-4567",
+      "fax": "+49-69-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH IMPORTS BV",
+      "address": "2345 CANAL STREET, AMSTERDAM 1012 AB, NETHERLANDS",
+      "telephone": "+31-20-666-7890",
+      "fax": "+31-20-666-7891"
+    },
+    "onboardDate": "2024-10-18 12:00",
+    "additionalRemarks": "Customs Clearance Included"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

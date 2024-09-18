@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202411043125",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2428E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CORP.",
+      "address": "1234 SHANGHAI STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-6789",
+      "fax": "+86-21-5555-5432"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORTS LTD.",
+      "address": "10 FRANKFURTER STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-9876"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORTS LTD.",
+      "address": "10 FRANKFURTER STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-9876"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854370",
+  "commodityDescription": "TELEVISIONS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TELEVISIONS AS PER PACKING LIST",
+      "grossWeight": 9000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BETA789",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TELEVISIONS AS PER PACKING LIST",
+      "grossWeight": 9000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMLU8765432",
+      "sealNumber": "876543",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TELEVISIONS AS PER PACKING LIST",
+      "grossWeight": 9000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMLU2345678",
+      "sealNumber": "234567",
+      "marksAndNumbers": "BETA987",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TELEVISIONS AS PER PACKING LIST",
+      "grossWeight": 9000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMLU5678901",
+      "sealNumber": "567890",
+      "marksAndNumbers": "BETA1234",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TELEVISIONS AS PER PACKING LIST",
+      "grossWeight": 9000,
+      "measurement": 25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER)",
+    "totalPackages": 250,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 45000,
+    "totalMeasurement": 125
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "salesOrderNumber": "SO9876543210",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORTS LTD.",
+      "address": "10 FRANKFURTER STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-9876"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA TRADING CORP.",
+      "address": "1234 SHANGHAI STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-6789",
+      "fax": "+86-21-5555-5432"
+    },
+    "onboardDate": "2024-11-10 12:00",
+    "additionalRemarks": "Fragile Cargo: Handle with Care"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

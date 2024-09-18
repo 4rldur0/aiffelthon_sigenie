@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202409233233",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2409ZHSG456"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "1234 INDUSTRY STREET, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NEAR SHANGHAI METRO STATION)"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO.",
+      "address": "10 MAIN STREET, BERLIN, 10117, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@DELTATRADING.DE",
+      "telephone": "+49 30 1234 5678"
+    },
+    "notifyParty": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "country": "SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "903033",
+  "commodityDescription": "TESTING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GTS20241026",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TESTING EQUIPMENT",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY CONTAINER) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CRATES",
+    "totalGrossWeight": 8000.0,
+    "totalMeasurement": 20.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "hsCode": "903033",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC123456789012"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "10 MAIN STREET, BERLIN, 10117, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@DELTATRADING.DE",
+      "telephone": "+49 30 1234 5678"
+    },
+    "onboardDate": "2024-09-27 17:00",
+    "additionalRemarks": "Fragile goods, Handle with care."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

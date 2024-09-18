@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202410269452",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2445SEA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Asian Electronics Manufacturing Ltd.",
+      "address": "1234 ELECTRONICS WAY, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "email": "SHIPPER@ASIANELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "Global Trading Corp.",
+      "address": "5678 TRADE CENTER, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. PETER JONES",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    },
+    "notifyParty": {
+      "name": "Global Trading Corp. France Branch",
+      "address": "9012 BOULEVARD DU TEMPLE, PARIS, FRANCE",
+      "taxId": "FR9876543210",
+      "president": "MS. MARIE DUPONT",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854231",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "8901234",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU5678901",
+      "sealNumber": "2345678",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU2345678",
+      "sealNumber": "9012345",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU6789012",
+      "sealNumber": "3456789",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) 20 STANDARD CONTAINER",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 STANDARD",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "onboardDate": "2024-11-02 12:00",
+    "additionalRemarks": "Fragile Cargo. Handle with Care"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}
