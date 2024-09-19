@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409153556",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024932W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1792",
+      "address": "123 SHANGHAI ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-8765-4321",
+      "fax": "+86-574-8765-4322"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5823",
+      "address": "234 FRANKFURTER STRASSE, HAMBURG 20457, GERMANY",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679",
+      "email": "CUSTOMER5823@EXAMPLE.COM",
+      "contactPerson": "ANNA MEYER"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6218",
+      "address": "567 BERLINER PLATZ, HAMBURG 20359, GERMANY"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "Agricultural Tractor",
+  "containers": [
+    {
+      "containerNumber": "CRLU9187654",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "TRCTR-1",
+      "numberOfPackages": 1,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ONE AGRICULTURAL TRACTOR",
+      "grossWeight": 8000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU9187655",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "TRCTR-2",
+      "numberOfPackages": 1,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ONE AGRICULTURAL TRACTOR",
+      "grossWeight": 8000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 DRY HIGH CUBE CONTAINERS",
+    "totalPackages": 2,
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INVOICE-2024-10-01",
+    "documentNumber": "20001639823",
+    "lcDetails": {
+      "lcNumber": "LC1234567891"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5823",
+      "address": "234 FRANKFURTER STRASSE, HAMBURG 20457, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 6218",
+      "address": "567 BERLINER PLATZ, HAMBURG 20359, GERMANY"
+    },
+    "onboardDate": "2024-09-20 14:55",
+    "additionalRemarks": "Please ensure the tractor is properly secured for transport."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

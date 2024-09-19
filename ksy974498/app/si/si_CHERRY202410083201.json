@@ -1,0 +1,151 @@
+{
+  "bookingReference": "CHERRY202410083201",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "1234SEA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA ELECTRONICS CO.",
+      "address": "23/F, CHINA WORLD TOWER, 1 JAVA ROAD, NORTH POINT, HONG KONG",
+      "country": "HONG KONG",
+      "additionalInfo": "",
+      "telephone": "+852 2956 7890",
+      "email": "SHIPMENTS@BETA-ELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORTERS LTD.",
+      "address": "BEURSKAAI 100, 2000 ANTWERP, BELGIUM",
+      "country": "BELGIUM",
+      "email": "OPERATIONS@ALPHAIMPORTERS.COM",
+      "telephone": "+32 3 213 5678"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORTERS LTD.",
+      "address": "BEURSKAAI 100, 2000 ANTWERP, BELGIUM",
+      "country": "BELGIUM",
+      "email": "OPERATIONS@ALPHAIMPORTERS.COM",
+      "telephone": "+32 3 213 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85423010",
+  "commodityDescription": "Microcontroller Units (MCUs)",
+  "containers": [
+    {
+      "containerNumber": "MSCU1112223",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "ALPHA231028",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROCONTROLLER UNITS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU3334445",
+      "sealNumber": "1112223334",
+      "marksAndNumbers": "ALPHA231028",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROCONTROLLER UNITS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU5556667",
+      "sealNumber": "4445556667",
+      "marksAndNumbers": "ALPHA231028",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROCONTROLLER UNITS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU7778889",
+      "sealNumber": "7778889990",
+      "marksAndNumbers": "ALPHA231028",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROCONTROLLER UNITS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU1112220",
+      "sealNumber": "0001112223",
+      "marksAndNumbers": "ALPHA231028",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROCONTROLLER UNITS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 X 40 DRY)",
+    "totalPackages": 2500,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567891"
+    },
+    "certificateDetails": [
+      "COO",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORTERS LTD.",
+      "address": "BEURSKAAI 100, 2000 ANTWERP, BELGIUM",
+      "telephone": "+32 3 213 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORTERS LTD.",
+      "address": "BEURSKAAI 100, 2000 ANTWERP, BELGIUM",
+      "telephone": "+32 3 213 5678"
+    },
+    "onboardDate": "2024-10-15 10:00",
+    "additionalRemarks": "Fragile electronic components, handle with utmost care. Ensure container is secured for safe transit."
+  },
+  "reeferSettings": {
+    "temperature": {
+      "setpoint": -20,
+      "tolerance": 2
+    },
+    "ventilation": {
+      "mode": "Passive",
+      "rate": "Closed"
+    },
+    "humidity": {
+      "setpoint": 70,
+      "tolerance": 5
+    },
+    "precooling": true,
+    "monitoring": {
+      "frequency": "Continuous",
+      "alarms": [
+        "Temperature Deviation",
+        "Humidity Deviation"
+      ]
+    },
+    "cargo_description": "High Value Pharmaceuticals"
+  }
+}

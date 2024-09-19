@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202411099468",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "244EBN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO LTD",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "GREEN MOUNTAIN IMPORTERS INC",
+      "address": "456 OAK AVENUE, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    },
+    "notifyParty": {
+      "name": "GREEN MOUNTAIN IMPORTERS INC",
+      "address": "456 OAK AVENUE, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85437090",
+  "commodityDescription": "MOTORIZED BLENDER",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "GMBL-20241109-1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORIZED BLENDER - PACKED IN CARTONS",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "12345678901",
+      "marksAndNumbers": "GMBL-20241109-2",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORIZED BLENDER - PACKED IN CARTONS",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "54321678901",
+      "marksAndNumbers": "GMBL-20241109-3",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORIZED BLENDER - PACKED IN CARTONS",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU99999999",
+      "sealNumber": "99999999991",
+      "marksAndNumbers": "GMBL-20241109-4",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORIZED BLENDER - PACKED IN CARTONS",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 400,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "CERT123456789",
+    "originalBLDistribution": {},
+    "originalInvoiceDistribution": {},
+    "onboardDate": "2024-11-15 10:00",
+    "additionalRemarks": "Cargo requires temperature controlled environment during transit."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CMAU1234567",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "876659",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Proper Shipping Name: Corrosive Solid, Inorganic, N.O.S."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

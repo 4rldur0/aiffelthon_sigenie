@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410033770",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2440ESW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC ELECTRONICS CO. LTD",
+      "address": "123 TECH PARK ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 21 555 1234",
+      "email": "SHIPPING@ABCELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, FRANKFURT, 60329, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 555 1212",
+      "email": "SHIPPING@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, FRANKFURT, 60329, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 555 1212",
+      "email": "SHIPPING@GLOBALFREIGHTSOLUTIONS.DE"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85423910",
+  "commodityDescription": "MICROPROCESSOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC-123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROPROCESSOR CHIPS, AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ABC-456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROPROCESSOR CHIPS, AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 FOOT HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 51.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC7890123456789"
+    },
+    "certificateDetails": [
+      "COO-987654321"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, FRANKFURT, 60329, GERMANY",
+      "telephone": "+49 69 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, FRANKFURT, 60329, GERMANY",
+      "telephone": "+49 69 555 1212"
+    },
+    "onboardDate": "2024-10-08 14:00",
+    "additionalRemarks": "Containers require pre-cooling and temperature monitoring during transit."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

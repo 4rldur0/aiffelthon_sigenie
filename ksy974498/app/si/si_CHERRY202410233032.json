@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410233032",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2427WST"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF MANUFACTURING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 Factory Lane, Ningbo, China",
+      "telephone": "+86-574-5678-9012",
+      "fax": "+86-574-3456-7890"
+    },
+    "consignee": {
+      "name": "ABC IMPORTS & EXPORTS LTD.",
+      "address": "5678 Commerce Way, Rotterdam, Netherlands",
+      "companyNumber": "NL12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "9012 Port Way, Rotterdam, Netherlands"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 18000.0,
+      "measurement": 40.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 18000.0,
+      "measurement": 40.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "PALLETS",
+    "containerType": "40' HIGH CUBE DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 80.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC IMPORTS & EXPORTS LTD.",
+      "address": "5678 Commerce Way, Rotterdam, Netherlands",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-9876-5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORTS & EXPORTS LTD.",
+      "address": "5678 Commerce Way, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-10-28 10:00",
+    "additionalRemarks": "PACKAGING: PALLETS, VALUE: USD20,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410237872",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024821E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1754",
+      "address": "123 Main Street, Shanghai, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(HEAD OFFICE)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3289",
+      "address": "456 Friedrichstrasse, Hamburg, GERMANY",
+      "country": "GERMANY",
+      "email": "info@customer3289.de",
+      "telephone": "+49-40-12345678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5621",
+      "address": "789 Mittelstrasse, Hamburg, GERMANY",
+      "country": "GERMANY",
+      "email": "invoices@receiver5621.de",
+      "telephone": "+49-40-98765432"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854442",
+  "commodityDescription": "Transformers for Industrial Machinery",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP1754-202410",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "Transformers for Industrial Machinery - Packed in Crates",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SHIP1754-202410",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "Transformers for Industrial Machinery - Packed in Crates",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER X2)",
+    "totalPackages": 100,
+    "packageType": "CRATES",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "SHIP1754-20241023",
+    "hsCode": "854442",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3289",
+      "address": "456 Friedrichstrasse, Hamburg, GERMANY",
+      "telephone": "+49-40-12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5621",
+      "address": "789 Mittelstrasse, Hamburg, GERMANY",
+      "telephone": "+49-40-98765432"
+    },
+    "onboardDate": "2024-10-28 15:45",
+    "additionalRemarks": "Cargo requires temperature control between 2 and 8 degrees Celsius."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411083803",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024782W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1258",
+      "address": "123 MAIN STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9742",
+      "address": "456 RUE DE PARIS, HAMBURG, GERMANY",
+      "telephone": "+49 40 12 34 56 78",
+      "fax": "+49 40 12 34 56 79"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3987",
+      "address": "789 BOULEVARD DE LA CROIX, BERLIN, GERMANY",
+      "telephone": "+49 30 12 34 56 78",
+      "fax": "+49 30 12 34 56 79"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940330",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 50,
+      "cargoDescription": "WOODEN CHAIRS AS PER INVOICE",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 50,
+      "cargoDescription": "WOODEN CHAIRS AS PER INVOICE",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 10000.0,
+    "totalMeasurement": 20.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT1234567"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9742",
+      "address": "456 RUE DE PARIS, HAMBURG, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3987",
+      "address": "789 BOULEVARD DE LA CROIX, BERLIN, GERMANY",
+      "telephone": "+49 30 12 34 56 78",
+      "fax": "+49 30 12 34 56 79"
+    },
+    "onboardDate": "2024-11-12 12:45",
+    "additionalRemarks": "Containers require pre-cooling before loading."
+  },
+  "dangerousGoods": {
+    "shipping_name": "Miscellaneous dangerous substances and articles",
+    "un_number": "3077",
+    "hazard_class": 9,
+    "packing_group": "III",
+    "packing_instructions": "P650",
+    "emergency_response_guide": "171",
+    "proper_shipping_name": "Environmentally hazardous substance, solid, n.o.s.",
+    "description": "The cargo consists of miscellaneous dangerous substances and articles classified as Class 9. It is packed on pallets and has a declared value of USD 150,000.",
+    "additional_information": [
+      "The specific nature of the hazardous materials within Class 9 is not disclosed in the provided remarks."
+    ]
+  }
+}

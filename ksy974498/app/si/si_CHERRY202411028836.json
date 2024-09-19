@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202411028836",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2411EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA STEEL CORPORATION",
+      "address": "NO. 123, TAIWAN ROAD, TAIPEI CITY, TAIWAN",
+      "country": "TAIWAN",
+      "telephone": "+886 2 2777 1234",
+      "email": "SHIPPING@CHINASTEEL.COM"
+    },
+    "consignee": {
+      "name": "EUROASIA TRADING INC.",
+      "address": "KLOOSTERMANSSTRAAT 12, 3011 GR ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "email": "IMPORT@EUROASIATRADING.COM"
+    },
+    "notifyParty": {
+      "name": "EUROASIA TRADING INC.",
+      "address": "KLOOSTERMANSSTRAAT 12, 3011 GR ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "email": "IMPORT@EUROASIATRADING.COM"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "72089090",
+  "commodityDescription": "STEEL PLATES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "CSC123456",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "STEEL PLATES, SHIPPERS LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PLATES",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "CSC789012",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "STEEL PLATES, SHIPPERS LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PLATES",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "1357924680",
+      "marksAndNumbers": "CSC456789",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "STEEL PLATES, SHIPPERS LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PLATES",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "2468013579",
+      "marksAndNumbers": "CSC987654",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "STEEL PLATES, SHIPPERS LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PLATES",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "3579246801",
+      "marksAndNumbers": "CSC678901",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "STEEL PLATES, SHIPPERS LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PLATES",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 STANDARD DRY CONTAINERS) ONLY",
+    "totalPackages": 500,
+    "totalGrossWeight": 125000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROASIA TRADING INC.",
+      "address": "KLOOSTERMANSSTRAAT 12, 3011 GR ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA TRADING INC.",
+      "address": "KLOOSTERMANSSTRAAT 12, 3011 GR ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456"
+    },
+    "onboardDate": "2024-11-10 14:00",
+    "additionalRemarks": "5 x 20ft Standard Dry Containers, Weight: 25 tonnes each, Value: EUR 30,000"
+  }
+}

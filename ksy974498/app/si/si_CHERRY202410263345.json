@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410263345",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2410E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Hangzhou Suyi Textile Co., Ltd",
+      "address": "123 Textile Street, Hangzhou, Zhejiang, China",
+      "telephone": "+86 571 8888 9999",
+      "fax": "+86 571 8888 6666"
+    },
+    "consignee": {
+      "name": "DB Schenker (Germany)",
+      "address": "Frankfurter Strasse 123, 60329 Frankfurt, Germany",
+      "telephone": "+49 69 79797979",
+      "fax": "+49 69 79797978",
+      "email": "info@dbschenker.de",
+      "contactPerson": "Ms. Anna Schmidt"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "DB Schenker (Hong Kong)",
+      "address": "12th Floor, World Wide House, Central, Hong Kong",
+      "telephone": "+852 2525 8888",
+      "fax": "+852 2525 9999"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "55121900",
+  "commodityDescription": "Woven Fabric",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "HSZ20231026",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Woven Fabric",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "HSZ20231027",
+      "numberOfPackages": 1200,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Woven Fabric",
+      "grossWeight": 16000.0,
+      "measurement": 26.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "HSZ20231028",
+      "numberOfPackages": 800,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Woven Fabric",
+      "grossWeight": 14000.0,
+      "measurement": 24.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "901234",
+      "marksAndNumbers": "HSZ20231029",
+      "numberOfPackages": 1100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Woven Fabric",
+      "grossWeight": 15500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "567890",
+      "marksAndNumbers": "HSZ20231030",
+      "numberOfPackages": 900,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Woven Fabric",
+      "grossWeight": 14500.0,
+      "measurement": 24.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20' STANDARD CONTAINER",
+    "totalPackages": 5000,
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 125.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV202410263345999",
+    "documentNumber": "202410263345999-DOC",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "DB Schenker (Germany)",
+      "address": "Frankfurter Strasse 123, 60329 Frankfurt, Germany",
+      "telephone": "+49 69 79797979",
+      "fax": "+49 69 79797978"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DB Schenker (Hong Kong)",
+      "address": "12th Floor, World Wide House, Central, Hong Kong",
+      "telephone": "+852 2525 8888",
+      "fax": "+852 2525 9999"
+    },
+    "onboardDate": "2024-10-30 14:00",
+    "additionalRemarks": "Shipment requires pre-shipment inspection. Please contact agent for details."
+  }
+}

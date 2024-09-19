@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202409155340",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024378W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7132",
+      "address": "123 Industrial Street, Ningbo, China",
+      "telephone": "+86 574 5678 9012",
+      "email": "shipping@shipper7132.cn"
+    },
+    "consignee": {
+      "name": "GHI Logistics Inc.",
+      "address": "124 Port Road, Rotterdam, Netherlands",
+      "taxId": "NL851234567",
+      "president": "Mr. John Smith",
+      "telephone": "+31 10 555 6666",
+      "fax": "+31 10 555 6667"
+    },
+    "notifyParty": {
+      "name": "ABC Trading Co. Ltd.",
+      "address": "456 Trade Avenue, London, UK",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 8889"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940161",
+  "commodityDescription": "WOODEN CHAIR FRAMES",
+  "containers": [
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER7132-20241104",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "WOODEN CHAIR FRAMES - CIF ROTTERDAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER7132-20241104",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "WOODEN CHAIR FRAMES - CIF ROTTERDAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "135790",
+      "marksAndNumbers": "SHIPPER7132-20241104",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "WOODEN CHAIR FRAMES - CIF ROTTERDAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 20 DRY CONTAINER",
+    "totalPackages": 150,
+    "packageType": "CRATES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CN20241104001",
+    "originalBLDistribution": {
+      "name": "GHI Logistics Inc.",
+      "address": "124 Port Road, Rotterdam, Netherlands",
+      "telephone": "+31 10 555 6666",
+      "fax": "+31 10 555 6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Trading Co. Ltd.",
+      "address": "456 Trade Avenue, London, UK",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 8889"
+    },
+    "onboardDate": "2024-09-22 12:34",
+    "additionalRemarks": "Containers require lashing and dunnage."
+  }
+}
