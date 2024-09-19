@@ -33,13 +33,13 @@ def main():
 
     # Main content
     if menu == "Booking":
-        st.title("Booking Viewer")
+        st.title("SIGenie Booking")
         json_bkg.main()
     elif menu == "Shipping Instructions":
-        st.title("Shipping Instructions Viewer")
+        st.title("SIGenie Shipping Instructions")
         json_si.main()
     elif menu == "Bill of Lading":
-        st.title("Bill of Lading Viewer")
+        st.title("SIGenie Bill of Lading")
         json_bl.main()  # Changed from JSON_BL to json_bl
 
     # Footer 추가
