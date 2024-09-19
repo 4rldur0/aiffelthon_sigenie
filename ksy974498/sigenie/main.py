@@ -20,9 +20,9 @@ custom_font_css = """
 st.markdown(custom_font_css, unsafe_allow_html=True)
 
 # Import modules after setting page config
-import load_json.json_bkg as json_bkg
-import load_json.json_si as json_si
-import load_json.json_bl as json_bl
+import json_bkg
+import json_si
+import json_bl
 
 def main():
     # Sidebar menu
