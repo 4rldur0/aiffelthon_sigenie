@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202409303390",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREENLAND TRADING CO.",
+      "onBehalfOf": "",
+      "address": "No. 234, Industrial Park, Ningbo, Zhejiang, 315000, CHINA",
+      "telephone": "+86-574-9999-0001",
+      "fax": "+86-574-9999-1000"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT LTD.",
+      "address": "112, Keizersgracht, 1016 EA Amsterdam, Netherlands",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT & EXPORT LTD.",
+      "address": "112, Keizersgracht, 1016 EA Amsterdam, Netherlands"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "AUTOMATIC BOTTLE FILLING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "MSKU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC BOTTLE FILLING MACHINE",
+      "grossWeight": 3000.0,
+      "measurement": 10.0,
+      "additionalInfo": "Handle with care. Fragile components inside."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY CONTAINER)",
+    "totalPackages": 1,
+    "packageType": "CRATES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 3000.0,
+    "totalMeasurement": 10.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT LTD.",
+      "address": "112, Keizersgracht, 1016 EA Amsterdam, Netherlands",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREENLAND TRADING CO.",
+      "address": "No. 234, Industrial Park, Ningbo, Zhejiang, 315000, CHINA",
+      "telephone": "+86-574-9999-0001",
+      "fax": "+86-574-9999-1000"
+    },
+    "onboardDate": "2024-10-08 12:00",
+    "additionalRemarks": "7 Days Free Time at Destination. Consignee to arrange customs clearance and inland transportation."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

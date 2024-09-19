@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202411065185",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2421EAW7"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA CHEMICALS LTD.",
+      "onBehalfOf": null,
+      "address": "123 CHEMICAL STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORTS INC.",
+      "address": "123 MAIN STREET, MADRID, SPAIN",
+      "companyNumber": "ESB12345678"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORTS INC.",
+      "address": "123 MAIN STREET, MADRID, SPAIN"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "310430",
+  "commodityDescription": "POTASSIUM SULPHATE",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "BETA CHEMICALS LTD.",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "POTASSIUM SULPHATE, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POTASSIUM SULPHATE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "TCLU7894567",
+      "sealNumber": "876543210",
+      "marksAndNumbers": "BETA CHEMICALS LTD.",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "POTASSIUM SULPHATE, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POTASSIUM SULPHATE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "BETA CHEMICALS LTD.",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "POTASSIUM SULPHATE, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POTASSIUM SULPHATE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "BETA CHEMICALS LTD.",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "POTASSIUM SULPHATE, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POTASSIUM SULPHATE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU7894567",
+      "sealNumber": "8765432109",
+      "marksAndNumbers": "BETA CHEMICALS LTD.",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "POTASSIUM SULPHATE, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POTASSIUM SULPHATE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 x 20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "BAGS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORTS INC.",
+      "address": "123 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34-91-123-4567",
+      "fax": "+34-91-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA CHEMICALS LTD.",
+      "address": "123 CHEMICAL STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "2024-11-12 14:00",
+    "additionalRemarks": "14 Days Free Time at Destination"
+  }
+}

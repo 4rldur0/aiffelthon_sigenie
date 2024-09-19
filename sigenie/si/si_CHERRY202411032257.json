@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202411032257",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024793W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9156",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "INFO@SHIPPER9156.COM"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 4218",
+      "address": "45 CANAL STREET, ALGECIRAS, SPAIN",
+      "taxId": "ES123456789",
+      "president": "MR. JUAN PEREZ",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 3729",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7654 3210",
+      "fax": "+44 20 7654 3211"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854442",
+  "commodityDescription": "Electrical Transformers",
+  "containers": [
+    {
+      "containerNumber": "CGMU9373456",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT-123456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRICAL TRANSFORMERS AS PER COMMERCIAL INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CGMU9373457",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT-123456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRICAL TRANSFORMERS AS PER COMMERCIAL INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CGMU9373458",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GT-123456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRICAL TRANSFORMERS AS PER COMMERCIAL INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X3",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 4218",
+      "address": "45 CANAL STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 3729",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7654 3210",
+      "fax": "+44 20 7654 3211"
+    },
+    "onboardDate": "2024-11-09 14:30",
+    "additionalRemarks": "Please ensure proper fumigation certificates are provided."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410298085",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243SEA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES INC.",
+      "onBehalfOf": "OMEGA TRADING LTD.",
+      "address": "123 CHANGJIANG ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5678-9012",
+      "fax": "+86-21-5678-9010"
+    },
+    "consignee": {
+      "name": "SIGMA CORPORATION PLC.",
+      "address": "124 KALVERSTRAAT, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "OMEGA TRADING LTD.",
+      "address": "125 MAIN STREET, LONDON, UK, W1A 1AA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "SEED CLEANING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "8901234",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SEED CLEANING EQUIPMENT, PACKED IN CRATES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CMAU5678901",
+      "sealNumber": "5678901",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SEED CLEANING EQUIPMENT, PACKED IN CRATES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 DRY HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CRATES",
+    "containerType": "40 DRY HIGH CUBE",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "SIGMA CORPORATION PLC.",
+      "address": "124 KALVERSTRAAT, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA TRADING LTD.",
+      "address": "125 MAIN STREET, LONDON, UK, W1A 1AA",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4560"
+    },
+    "onboardDate": "2024-11-15 14:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+  }
+}

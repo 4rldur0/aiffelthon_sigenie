@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410301237",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024151E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2749",
+      "address": "123 Xinghai Road, Ningbo, Zhejiang Province, China",
+      "telephone": "+86-574-8888-6666",
+      "fax": "+86-574-8888-5555"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8315",
+      "address": "123 Hafenstrasse, Hamburg, Germany",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6123",
+      "address": "123 Bahnhofstrasse, Hamburg, Germany",
+      "telephone": "+49-40-9876-5432",
+      "fax": "+49-40-9876-5431"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "280410",
+  "commodityDescription": "SULPHUR POWDER",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "SULPHUR POWDER AS PER INVOICE",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "SULPHUR POWDER AS PER INVOICE",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 100,
+    "packageType": "BAGS",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "Certificate of Origin, Fumigation Certificate",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8315",
+      "address": "123 Hafenstrasse, Hamburg, Germany",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHIPPER 2749",
+      "address": "123 Xinghai Road, Ningbo, Zhejiang Province, China",
+      "telephone": "+86-574-8888-6666",
+      "fax": "+86-574-8888-5555"
+    },
+    "onboardDate": "2024-10-31 16:00",
+    "additionalRemarks": "Ensure proper ventilation of containers during transit."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

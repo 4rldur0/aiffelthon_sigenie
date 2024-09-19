@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411077232",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2423WQA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TRADING CO.",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "CONTACT PERSON: LI WEI"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTERS LTD.",
+      "address": "456 CANAL STREET, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "GLOBALIMPORTERSLTD@EMAIL.COM",
+      "telephone": "+49 40 555 1234"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTERS LTD.",
+      "address": "456 CANAL STREET, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "GLOBALIMPORTERSLTD@EMAIL.COM",
+      "telephone": "+49 40 555 1234"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940160",
+  "commodityDescription": "CANE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA TRADING CO. MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "CANE CHAIRS, 100 CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIA TRADING CO. MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "CANE CHAIRS, 100 CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HQ) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "hsCode": "940160",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTERS LTD.",
+      "address": "456 CANAL STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 555 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTERS LTD.",
+      "address": "456 CANAL STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 555 1234"
+    },
+    "onboardDate": "2024-11-12 10:00",
+    "additionalRemarks": "2 x 40 HQ containers, Value: USD40,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  }
+}

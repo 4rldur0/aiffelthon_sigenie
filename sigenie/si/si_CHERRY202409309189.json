@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202409309189",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2438GFOR"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO. LTD.",
+      "onBehalfOf": "ALPHA IMPORT & EXPORT INC.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-98765432"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT INC.",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "NL123456789"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT & EXPORT INC.",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85437000",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "ELECTRIC MOTORS PACKED ON WOODEN PALLETS, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": null
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "ELECTRIC MOTORS PACKED ON WOODEN PALLETS, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": null
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY HIGH CUBE) CONTAINER ONLY",
+    "totalPackages": 200,
+    "packageType": "PALLETS",
+    "containerType": "40' DRY HIGH CUBE",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT & EXPORT INC.",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT & EXPORT INC.",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-10 10:00",
+    "additionalRemarks": "ELECTRIC MOTORS TO BE PACKED ON WOODEN PALLETS, VALUE: USD 150,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

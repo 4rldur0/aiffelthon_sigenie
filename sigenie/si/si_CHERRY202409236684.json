@@ -1,0 +1,161 @@
+{
+  "bookingReference": "CHERRY202409236684",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024327A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1258",
+      "address": "1234 INDUSTRIAL AVE, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "(SOUTH DISTRICT)",
+      "telephone": "+86 21 5555 1234",
+      "email": "SHIPPING@SHIPPER1258.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3297",
+      "address": "15 MAIN STREET, HAMBURG, GERMANY 20000",
+      "country": "GERMANY",
+      "email": "INFO@CUSTOMER3297.DE",
+      "telephone": "+49 40 222 1111"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 7543",
+      "address": "123 MAIN STREET, FRANKFURT, GERMANY 60000",
+      "country": "GERMANY",
+      "email": "INVOICE@RECEIVER7543.DE",
+      "telephone": "+49 69 111 2222"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER1258-20240923",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - SHIPPED AS IS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER1258-20240923",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - SHIPPED AS IS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER1258-20240923",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - SHIPPED AS IS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU1357911",
+      "sealNumber": "246813",
+      "marksAndNumbers": "SHIPPER1258-20240923",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - SHIPPED AS IS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU2468135",
+      "sealNumber": "789123",
+      "marksAndNumbers": "SHIPPER1258-20240923",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - SHIPPED AS IS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU6789012",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SHIPPER1258-20240923",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - SHIPPED AS IS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU9012345",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SHIPPER1258-20240923",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - SHIPPED AS IS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "SHIPPER1258-20240923",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - SHIPPED AS IS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "EIGHT (8) 20 DRY CONTAINERS",
+    "totalPackages": 800,
+    "totalGrossWeight": 176000.0,
+    "totalMeasurement": 280.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3297",
+      "address": "15 MAIN STREET, HAMBURG, GERMANY 20000",
+      "telephone": "+49 40 222 1111"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 7543",
+      "address": "123 MAIN STREET, FRANKFURT, GERMANY 60000",
+      "telephone": "+49 69 111 2222"
+    },
+    "onboardDate": "2024-10-15 12:35",
+    "additionalRemarks": "Containers to be loaded on top of hatches."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  }
+}

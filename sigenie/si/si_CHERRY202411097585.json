@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411097585",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "244E32"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SUNRISE STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "124 GLOBAL WAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD",
+      "address": "125 SUNRISE AVE, HONG KONG",
+      "telephone": "+852-2121-2345",
+      "fax": "+852-2121-2346"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "94034000",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "MSCU12345678",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-1",
+      "numberOfPackages": 100,
+      "packageType": "PIECE",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE HUNDRED (100) WOODEN CHAIRS",
+      "grossWeight": 10000,
+      "measurement": 40
+    },
+    {
+      "containerNumber": "MSCU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-2",
+      "numberOfPackages": 100,
+      "packageType": "PIECE",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE HUNDRED (100) WOODEN CHAIRS",
+      "grossWeight": 10000,
+      "measurement": 40
+    },
+    {
+      "containerNumber": "MSCU98765432",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE-3",
+      "numberOfPackages": 100,
+      "packageType": "PIECE",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE HUNDRED (100) WOODEN CHAIRS",
+      "grossWeight": 10000,
+      "measurement": 40
+    },
+    {
+      "containerNumber": "MSCU43216578",
+      "sealNumber": "432165",
+      "marksAndNumbers": "SUNRISE-4",
+      "numberOfPackages": 100,
+      "packageType": "PIECE",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE HUNDRED (100) WOODEN CHAIRS",
+      "grossWeight": 10000,
+      "measurement": 40
+    },
+    {
+      "containerNumber": "MSCU56789012",
+      "sealNumber": "567890",
+      "marksAndNumbers": "SUNRISE-5",
+      "numberOfPackages": 100,
+      "packageType": "PIECE",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE HUNDRED (100) WOODEN CHAIRS",
+      "grossWeight": 10000,
+      "measurement": 40
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) x 40 HIGH CUBE CONTAINER",
+    "totalPackages": 500,
+    "packageType": "PIECE",
+    "totalGrossWeight": 50000,
+    "totalMeasurement": 200
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO2024111001",
+    "salesOrderNumber": "SO2024111002",
+    "lcDetails": {
+      "lcNumber": "LC2024111003"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "124 GLOBAL WAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SUNRISE STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "40' HIGH CUBE CONTAINERS, VALUE: USD25,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

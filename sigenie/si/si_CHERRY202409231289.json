@@ -1,0 +1,88 @@
+{
+  "bookingReference": "CHERRY202409231289",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241023E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "NEW YORK, USA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL LOGISTICS",
+      "address": "215 BROADWAY, NEW YORK, USA"
+    },
+    "consignee": {
+      "name": "SUNRISE GLOBAL LOGISTICS",
+      "address": "123 MAIN STREET, CHICAGO, USA",
+      "telephone": "+1 312 1234567",
+      "fax": "+1 312 8765432"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING GROUP",
+      "address": "215 BROADWAY, NEW YORK, USA",
+      "telephone": "+1 212 1234567",
+      "fax": "+1 212 8765432"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "940330",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA TRADING GROUP",
+      "numberOfPackages": 50,
+      "cargoDescription": "WOODEN CHAIRS - PACKAGED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "DELTA TRADING GROUP",
+      "numberOfPackages": 50,
+      "cargoDescription": "WOODEN CHAIRS - PACKAGED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40' DRY CONTAINERS",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "40DRY",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "9876543210123"
+    },
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL LOGISTICS",
+      "address": "123 MAIN STREET, CHICAGO, USA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING GROUP",
+      "address": "215 BROADWAY, NEW YORK, USA",
+      "telephone": "+1 212 1234567",
+      "fax": "+1 212 8765432"
+    },
+    "onboardDate": "2024-10-05 14:00",
+    "additionalRemarks": "Temperature to be maintained between 10-15 degrees Celsius. Consignee to arrange customs clearance."
+  }
+}

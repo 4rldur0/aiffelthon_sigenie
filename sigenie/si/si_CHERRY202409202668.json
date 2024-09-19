@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202409202668",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2432W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MEDICAL SUPPLIES CO. LTD.",
+      "address": "1234 MEDICAL STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "ZENITH INTERNATIONAL FREIGHT",
+      "address": "5678 AMSTERDAM AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4444-5678",
+      "fax": "+31-10-4444-1234"
+    },
+    "notifyParty": {
+      "name": "ZENITH INTERNATIONAL FREIGHT",
+      "address": "5678 AMSTERDAM AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4444-5678",
+      "fax": "+31-10-4444-1234"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "90189010",
+  "commodityDescription": "SURGICAL ROBOTIC ARMS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SURGICAL ROBOTIC ARMS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SURGICAL ROBOTIC ARMS",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SURGICAL ROBOTIC ARMS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SURGICAL ROBOTIC ARMS",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO678901",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "ZENITH INTERNATIONAL FREIGHT",
+      "address": "5678 AMSTERDAM AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4444-5678",
+      "fax": "+31-10-4444-1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH INTERNATIONAL FREIGHT",
+      "address": "5678 AMSTERDAM AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4444-5678",
+      "fax": "+31-10-4444-1234"
+    },
+    "onboardDate": "2024-09-25 14:00",
+    "additionalRemarks": "URGENT SHIPMENT, REQUIRES PRIORITY HANDLING AT PORTS"
+  }
+}

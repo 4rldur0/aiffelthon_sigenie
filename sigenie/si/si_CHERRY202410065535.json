@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410065535",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2452E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA EXPORTERS LTD.",
+      "address": "1234 EXPORT STREET, NINGBO, CHINA",
+      "telephone": "+86-574-56789012",
+      "fax": "+86-574-34567890"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORTS INC.",
+      "address": "5678 IMPORT AVENUE, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-12345678",
+      "fax": "+34-956-98765432",
+      "email": "ALPHA@IMPORT.COM",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "GAMMA TRADING CO.",
+      "address": "7890 GAMMA STREET, MADRID, SPAIN",
+      "telephone": "+34-911-23456789",
+      "fax": "+34-911-987654321"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84213100",
+  "commodityDescription": "Textile Looms",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "BETA LOOMS 1",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE LOOMS",
+      "grossWeight": 12000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA LOOMS 2",
+      "numberOfPackages": 8,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE LOOMS",
+      "grossWeight": 10500.0,
+      "measurement": 20.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 FOOT HIGH CUBE CONTAINER",
+    "totalPackages": 18,
+    "totalGrossWeight": 22500.0,
+    "totalMeasurement": 42.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202410193372-01",
+    "documentNumber": "202410193372-02",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORTS INC.",
+      "address": "5678 IMPORT AVENUE, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-12345678",
+      "fax": "+34-956-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GAMMA TRADING CO.",
+      "address": "7890 GAMMA STREET, MADRID, SPAIN",
+      "telephone": "+34-911-23456789",
+      "fax": "+34-911-987654321"
+    },
+    "onboardDate": "2024-10-10 12:00",
+    "additionalRemarks": "Ensure proper lashing and securing of cargo inside containers."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

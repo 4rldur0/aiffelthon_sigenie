@@ -1,0 +1,87 @@
+{
+  "bookingReference": "CHERRY202410068480",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024612E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1154",
+      "address": "321 HUAJING ROAD, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "EUROLINE IMPORTS GMBH",
+      "address": "543 PORT STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 555 6666",
+      "fax": "+49 40 555 7777"
+    },
+    "notifyParty": {
+      "name": "EUROLINE IMPORTS GMBH",
+      "address": "543 PORT STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 555 6666",
+      "fax": "+49 40 555 7777"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940171",
+  "commodityDescription": "Metal Table Frames for Indoor Furniture",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "ETI-987",
+      "numberOfPackages": 25,
+      "cargoDescription": "METAL TABLE FRAMES AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "147258",
+      "marksAndNumbers": "ETI-654",
+      "numberOfPackages": 25,
+      "cargoDescription": "METAL TABLE FRAMES AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 18.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 50,
+    "packageType": "PACKAGES",
+    "containerType": "20'DRY",
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 37.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241026002"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROLINE IMPORTS GMBH",
+      "address": "543 PORT STREET, HAMBURG, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROLINE IMPORTS GMBH",
+      "address": "543 PORT STREET, HAMBURG, GERMANY"
+    },
+    "onboardDate": "2024-10-12 12:30",
+    "additionalRemarks": "Cargo requires temperature control between 10-15 degrees Celsius."
+  }
+}

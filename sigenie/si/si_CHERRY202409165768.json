@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202409165768",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024489E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9852",
+      "address": "123 Industrial Avenue, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8666 9852",
+      "email": "shipping@shipper9852.cn"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 7419",
+      "address": "123 Main Street, Hamburg, Germany",
+      "taxId": "DE273951682",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 1274",
+      "address": "123 Business Park, Hamburg, Germany",
+      "telephone": "+49 40 789 0123",
+      "fax": "+49 40 789 0124"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC CONTAINERS",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 120,
+      "packageType": "UNITS",
+      "cargoDescription": "PLASTIC CONTAINERS. SHIPPER'S LOAD AND COUNT. ",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 120,
+      "packageType": "UNITS",
+      "cargoDescription": "PLASTIC CONTAINERS. SHIPPER'S LOAD AND COUNT. ",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY) CONTAINERS",
+    "totalPackages": 240,
+    "packageType": "UNITS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "Certificate of Origin Required",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1274",
+      "address": "123 Business Park, Hamburg, Germany",
+      "telephone": "+49 40 789 0123",
+      "fax": "+49 40 789 0124"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 7419",
+      "address": "123 Main Street, Hamburg, Germany"
+    },
+    "onboardDate": "2024-10-28 17:00",
+    "additionalRemarks": "Please ensure containers are properly sealed."
+  }
+}

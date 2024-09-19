@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410049370",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9542",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "email": "INFO@ALPHATRADING.COM"
+    },
+    "consignee": {
+      "name": "BETA GLOBAL IMPORTS BV",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. JOHN DOE",
+      "telephone": "+31 20 9876 5432",
+      "fax": "+31 20 9876 5431"
+    },
+    "notifyParty": {
+      "name": "BETA GLOBAL IMPORTS BV",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. JOHN DOE",
+      "telephone": "+31 20 9876 5432",
+      "fax": "+31 20 9876 5431"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940560",
+  "commodityDescription": "Decorative Chandeliers",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "DECORATIVE CHANDELIERS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "DECORATIVE CHANDELIERS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 20,
+    "packageType": "CRATES",
+    "containerType": "40' HIGH CUBE DRY CONTAINER",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "BETA GLOBAL IMPORTS BV",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 9876 5432",
+      "fax": "+31 20 9876 5431"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA GLOBAL IMPORTS BV",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 9876 5432",
+      "fax": "+31 20 9876 5431"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "Containers require lashing due to height."
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410226096",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "242514E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LE HAVRE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5698",
+      "address": "123 Any Street, Ningbo 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "Contact Person: Jane Doe"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 1725",
+      "address": "456 Main Street, Le Havre 76600, FRANCE",
+      "country": "FRANCE",
+      "email": "info@invoicereceiver.fr",
+      "telephone": "+33 2 35 12 34 56"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 3271",
+      "address": "789 Logistics Way, Paris 75000, FRANCE",
+      "country": "FRANCE",
+      "email": "info@customer3271.com",
+      "telephone": "+33 1 45 67 89 01"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "940179",
+  "commodityDescription": "Metal Chairs",
+  "containers": [
+    {
+      "containerNumber": "CMAU5987632",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CH226096-1",
+      "numberOfPackages": 100,
+      "packageType": "UNITS",
+      "cargoDescription": "Metal Chairs",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU1122334",
+      "sealNumber": "654321",
+      "marksAndNumbers": "CH226096-2",
+      "numberOfPackages": 100,
+      "packageType": "UNITS",
+      "cargoDescription": "Metal Chairs",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU7788990",
+      "sealNumber": "987654",
+      "marksAndNumbers": "CH226096-3",
+      "numberOfPackages": 100,
+      "packageType": "UNITS",
+      "cargoDescription": "Metal Chairs",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY CONTAINER X3)",
+    "totalPackages": 300,
+    "packageType": "UNITS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "940179",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "None Required",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3271",
+      "address": "789 Logistics Way, Paris 75000, FRANCE",
+      "telephone": "+33 1 45 67 89 01"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1725",
+      "address": "456 Main Street, Le Havre 76600, FRANCE",
+      "telephone": "+33 2 35 12 34 56"
+    },
+    "onboardDate": "2024-10-27 12:30",
+    "additionalRemarks": "Please ensure containers are properly sealed."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

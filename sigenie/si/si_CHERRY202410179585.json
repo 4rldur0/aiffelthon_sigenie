@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202410179585",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2458E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TEXTILE CO. LTD.",
+      "address": "123 Textile Street, Ningbo, China",
+      "telephone": "+86 574 123 4567",
+      "fax": "+86 574 987 6543"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING INC.",
+      "address": "456 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 987 6543",
+      "email": "import@alphatrading.com",
+      "contactPerson": "ANNA SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "55132100",
+  "commodityDescription": "POLYESTER YARN",
+  "containers": [
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT. ALL CARGO MUST BE PROPERLY PACKED AND SECURED FOR SAFE TRANSPORTATION. CONTAINER SEAL NUMBER: ABC123456\" SAID TO CONTAIN: POLYESTER YARN",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 950,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT. ALL CARGO MUST BE PROPERLY PACKED AND SECURED FOR SAFE TRANSPORTATION. CONTAINER SEAL NUMBER: ABC123456\" SAID TO CONTAIN: POLYESTER YARN",
+      "grossWeight": 14500.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "234567",
+      "marksAndNumbers": "GHI789",
+      "numberOfPackages": 1100,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT. ALL CARGO MUST BE PROPERLY PACKED AND SECURED FOR SAFE TRANSPORTATION. CONTAINER SEAL NUMBER: ABC123456\" SAID TO CONTAIN: POLYESTER YARN",
+      "grossWeight": 15500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "765432",
+      "marksAndNumbers": "JKL123",
+      "numberOfPackages": 950,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT. ALL CARGO MUST BE PROPERLY PACKED AND SECURED FOR SAFE TRANSPORTATION. CONTAINER SEAL NUMBER: ABC123456\" SAID TO CONTAIN: POLYESTER YARN",
+      "grossWeight": 14000.0,
+      "measurement": 24.0
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "876543",
+      "marksAndNumbers": "MNO456",
+      "numberOfPackages": 1050,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT. ALL CARGO MUST BE PROPERLY PACKED AND SECURED FOR SAFE TRANSPORTATION. CONTAINER SEAL NUMBER: ABC123456\" SAID TO CONTAIN: POLYESTER YARN",
+      "grossWeight": 15200.0,
+      "measurement": 24.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 DRY",
+    "totalPackages": 5050,
+    "totalGrossWeight": 74200.0,
+    "totalMeasurement": 123.8
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202410179585-1",
+    "documentNumber": "202410179585-2",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING INC.",
+      "address": "456 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 987 6543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TEXTILE CO. LTD.",
+      "address": "123 Textile Street, Ningbo, China",
+      "telephone": "+86 574 123 4567",
+      "fax": "+86 574 987 6543"
+    },
+    "onboardDate": "2024-10-22 14:00",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT. ALL CARGO MUST BE PROPERLY PACKED AND SECURED FOR SAFE TRANSPORTATION. CONTAINER SEAL NUMBER: ABC123456"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

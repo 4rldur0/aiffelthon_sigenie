@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410064814",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432W1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TEXTILES CO.",
+      "address": "1234 SHANGHAI RD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-5678"
+    },
+    "consignee": {
+      "name": "ACME IMPORT & EXPORT LTD.",
+      "address": "4321 FRANKFURTER STR, HAMBURG, GERMANY 20457",
+      "telephone": "+49-40-7777-5678",
+      "fax": "+49-40-7777-9012"
+    },
+    "notifyParty": {
+      "name": "ACME TRADING GMBH",
+      "address": "5678 BERLINER PLATZ, HAMBURG, GERMANY 22081",
+      "telephone": "+49-40-8888-5678",
+      "fax": "+49-40-8888-9012"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "611030",
+  "commodityDescription": "T-SHIRTS, POLO SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992661",
+      "sealNumber": "706718",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SEAL SAID TO CONTAIN: T-SHIRTS",
+      "grossWeight": 2000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU2992662",
+      "sealNumber": "706719",
+      "marksAndNumbers": "SUNRISE124",
+      "numberOfPackages": 100,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SEAL SAID TO CONTAIN: POLO SHIRTS",
+      "grossWeight": 2000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU2992663",
+      "sealNumber": "706720",
+      "marksAndNumbers": "SUNRISE125",
+      "numberOfPackages": 100,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SEAL SAID TO CONTAIN: T-SHIRTS",
+      "grossWeight": 2000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU2992664",
+      "sealNumber": "706721",
+      "marksAndNumbers": "SUNRISE126",
+      "numberOfPackages": 100,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SEAL SAID TO CONTAIN: POLO SHIRTS",
+      "grossWeight": 2000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU2992665",
+      "sealNumber": "706722",
+      "marksAndNumbers": "SUNRISE127",
+      "numberOfPackages": 100,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SEAL SAID TO CONTAIN: T-SHIRTS",
+      "grossWeight": 2000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' STANDARD DRY CONTAINERS)",
+    "totalPackages": 500,
+    "packageType": "UNITS",
+    "totalGrossWeight": 10000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241002",
+    "salesOrderNumber": "SO20241002",
+    "lcDetails": {
+      "lcNumber": "LC20241002"
+    },
+    "certificateDetails": "CN20241002",
+    "originalBLDistribution": {
+      "name": "ACME IMPORT & EXPORT LTD.",
+      "address": "4321 FRANKFURTER STR, HAMBURG, GERMANY 20457",
+      "telephone": "+49-40-7777-5678",
+      "fax": "+49-40-7777-9012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME IMPORT & EXPORT LTD.",
+      "address": "4321 FRANKFURTER STR, HAMBURG, GERMANY 20457",
+      "telephone": "+49-40-7777-5678",
+      "fax": "+49-40-7777-9012"
+    },
+    "onboardDate": "2024-10-18 12:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3077, Packed in cartons"
+  }
+}

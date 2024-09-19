@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202411156094",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2345LKY"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA CORPORATION LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, ZHONGXING DISTRICT, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(ZHONGXING BUILDING)",
+      "telephone": "+86 21 5678 9012",
+      "email": "INFO@DELTACORP.COM.CN"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "HAMBURGER STRASSE 123, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@SUNRISETRADE.DE",
+      "telephone": "+49 40 2345 6789"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "HAMBURGER STRASSE 123, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@SUNRISETRADE.DE",
+      "telephone": "+49 40 2345 6789"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854442",
+  "commodityDescription": "COMMERCIAL REFRIGERATORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMMERCIAL REFRIGERATOR COMPONENTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 x 40' HIGH CUBE) CONTAINER ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-11-18 10:00",
+    "additionalRemarks": "TEMPERATURE SENSITIVE CARGO. Maintain between 0-4 degrees Celsius. Value: USD15,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

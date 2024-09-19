@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409221666",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024421E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4862",
+      "address": "123 Huanghai Road, Ningbo, Zhejiang, China",
+      "country": "CHINA",
+      "additionalInfo": "(Ningbo Free Trade Zone)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7123",
+      "address": "Calle Mayor, 123, 11001 Cadiz, Spain",
+      "country": "SPAIN",
+      "email": "info@customer7123.es",
+      "telephone": "+34 956 123 456"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5971",
+      "address": "1000 Park Avenue, New York, NY 10028, USA",
+      "country": "USA",
+      "email": "info@invoicereceiver5971.com",
+      "telephone": "+1 212 555 1212"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854440",
+  "commodityDescription": "INDUSTRIAL TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP4862-1",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INDUSTRIAL TRANSFORMERS (MODEL IT-2024) 50PCS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIP4862-2",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INDUSTRIAL TRANSFORMERS (MODEL IT-2024) 50PCS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CRATES",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241012-001",
+    "hsCode": "854440",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7123",
+      "address": "Calle Mayor, 123, 11001 Cadiz, Spain",
+      "telephone": "+34 956 123 456"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5971",
+      "address": "1000 Park Avenue, New York, NY 10028, USA",
+      "telephone": "+1 212 555 1212"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "Containers to be loaded on top of hatches."
+  }
+}

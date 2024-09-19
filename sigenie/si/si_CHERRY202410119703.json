@@ -1,0 +1,171 @@
+{
+  "bookingReference": "CHERRY202410119703",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024463E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7185",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3421",
+      "address": "5678 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 987 6543"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2368",
+      "address": "7890 REICHSTAGPLATZ, BERLIN, GERMANY",
+      "telephone": "+49 30 567 8901",
+      "fax": "+49 30 123 4567"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854442",
+  "commodityDescription": "Diesel Engine Components",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK ABC123",
+      "numberOfPackages": 50,
+      "cargoDescription": "Diesel Engine Components Packed in Boxes",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "567890",
+      "marksAndNumbers": "SHIPPER MARK XYZ456",
+      "numberOfPackages": 40,
+      "cargoDescription": "Diesel Engine Components Packed in Crates",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SHIPPER MARK DEF789",
+      "numberOfPackages": 60,
+      "cargoDescription": "Diesel Engine Components Packed in Pallets",
+      "grossWeight": 18000.0,
+      "measurement": 38.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SHIPPER MARK GHI123",
+      "numberOfPackages": 55,
+      "cargoDescription": "Diesel Engine Components Packed in Bags",
+      "grossWeight": 16000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "678901",
+      "marksAndNumbers": "SHIPPER MARK JKL456",
+      "numberOfPackages": 50,
+      "cargoDescription": "Diesel Engine Components Packed in Boxes",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "012345",
+      "marksAndNumbers": "SHIPPER MARK MNO789",
+      "numberOfPackages": 40,
+      "cargoDescription": "Diesel Engine Components Packed in Crates",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SHIPPER MARK PQR123",
+      "numberOfPackages": 60,
+      "cargoDescription": "Diesel Engine Components Packed in Pallets",
+      "grossWeight": 18000.0,
+      "measurement": 38.0
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "890123",
+      "marksAndNumbers": "SHIPPER MARK STU456",
+      "numberOfPackages": 55,
+      "cargoDescription": "Diesel Engine Components Packed in Bags",
+      "grossWeight": 16000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "234567",
+      "marksAndNumbers": "SHIPPER MARK VWX789",
+      "numberOfPackages": 50,
+      "cargoDescription": "Diesel Engine Components Packed in Boxes",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "4567890",
+      "marksAndNumbers": "SHIPPER MARK YZA123",
+      "numberOfPackages": 40,
+      "cargoDescription": "Diesel Engine Components Packed in Crates",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU89012345",
+      "sealNumber": "6789012",
+      "marksAndNumbers": "SHIPPER MARK BCD456",
+      "numberOfPackages": 60,
+      "cargoDescription": "Diesel Engine Components Packed in Pallets",
+      "grossWeight": 18000.0,
+      "measurement": 38.0
+    },
+    {
+      "containerNumber": "CRLU56789012",
+      "sealNumber": "8901234",
+      "marksAndNumbers": "SHIPPER MARK EFGH789",
+      "numberOfPackages": 55,
+      "cargoDescription": "Diesel Engine Components Packed in Bags",
+      "grossWeight": 16000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWELVE (12) 20 DRY CONTAINERS",
+    "totalPackages": 630,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 216000.0,
+    "totalMeasurement": 426.0
+  },
+  "additionalInformation": {
+    "onboardDate": "2024-10-16 12:45",
+    "additionalRemarks": "Containers require pre-trip inspection"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  }
+}

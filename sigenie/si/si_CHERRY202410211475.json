@@ -1,0 +1,88 @@
+{
+  "bookingReference": "CHERRY202410211475",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "3218W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING COMPANY",
+      "address": "UNIT 502, 5TH FLOOR, SHANGHAI WORLD FINANCIAL CENTER, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "EURO IMPORT & EXPORT BVBA",
+      "address": "BEECKMANSSTRAAT 12, 2018 ANTWERP, BELGIUM"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS CO. LTD.",
+      "address": "ROOM 301, 3RD FLOOR, HONGKONG PLAZA, SHANGHAI, CHINA",
+      "telephone": "+86 21 6279 5555",
+      "fax": "+86 21 6279 5588"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "PLASTIC BUILDING BLOCKS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ABC1234",
+      "numberOfPackages": 50,
+      "cargoDescription": "PLASTIC BUILDING BLOCKS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU5432109",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "XYZ1234",
+      "numberOfPackages": 50,
+      "cargoDescription": "PLASTIC BUILDING BLOCKS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY CONTAINER)",
+    "totalPackages": 100,
+    "packageType": "PACKAGES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "000020103374"
+    },
+    "certificateDetails": [
+      "1000020070131X",
+      "1000020070132X"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS CO. LTD.",
+      "address": "ROOM 301, 3RD FLOOR, HONGKONG PLAZA, SHANGHAI, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORT & EXPORT BVBA",
+      "address": "BEECKMANSSTRAAT 12, 2018 ANTWERP, BELGIUM"
+    },
+    "onboardDate": "2024-10-28 10:00",
+    "additionalRemarks": "Cargo requires weatherproof protection."
+  }
+}

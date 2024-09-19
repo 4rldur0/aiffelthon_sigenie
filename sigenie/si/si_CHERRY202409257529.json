@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202409257529",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2433W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS LLC",
+      "address": "123 Huangpu Rd, Shanghai, China 200001",
+      "telephone": "+86-21-6666-1111",
+      "fax": "+86-21-6666-2222"
+    },
+    "consignee": {
+      "name": "EUROTECH DISTRIBUTION NV",
+      "address": "456 Havenlaan, Antwerp, Belgium 2000",
+      "telephone": "+32-3-2222-3333",
+      "fax": "+32-3-2222-4444"
+    },
+    "notifyParty": {
+      "name": "EUROTECH DISTRIBUTION NV",
+      "address": "456 Havenlaan, Antwerp, Belgium 2000",
+      "telephone": "+32-3-2222-3333",
+      "fax": "+32-3-2222-4444"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "852872",
+  "commodityDescription": "LED Televisions - 55 inch",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETV-55-001",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LED TELEVISIONS - 55 INCH",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU1234568",
+      "sealNumber": "123457",
+      "marksAndNumbers": "ETV-55-002",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LED TELEVISIONS - 55 INCH",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY CONTAINER)",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241013-001",
+    "salesOrderNumber": "SO20241013-002",
+    "lcDetails": {
+      "lcNumber": "LC20241013-003"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "EUROTECH DISTRIBUTION NV",
+      "address": "456 Havenlaan, Antwerp, Belgium 2000",
+      "telephone": "+32-3-2222-3333",
+      "fax": "+32-3-2222-4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "123 Huangpu Rd, Shanghai, China 200001",
+      "telephone": "+86-21-6666-1111",
+      "fax": "+86-21-6666-2222"
+    },
+    "onboardDate": "2024-10-28 12:00",
+    "additionalRemarks": "Fragile cargo, Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

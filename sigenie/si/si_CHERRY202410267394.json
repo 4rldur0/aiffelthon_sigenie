@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410267394",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "241027B"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Zenith Manufacturing Inc.",
+      "onBehalfOf": "",
+      "address": "1234 Industrial Avenue, Ningbo, China",
+      "telephone": "+86-574-9999-9999",
+      "fax": "+86-574-9999-9998"
+    },
+    "consignee": {
+      "name": "Acme Trading Corp.",
+      "address": "567 Canal Street, Rotterdam, Netherlands",
+      "companyNumber": "98765432"
+    },
+    "notifyParty": {
+      "name": "Acme Trading Corp.",
+      "address": "890 Trade Street, New York, USA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "FOOD PROCESSING MACHINERY FOR DAIRY PRODUCTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "ZM231026",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FOOD PROCESSING MACHINERY FOR DAIRY PRODUCTS",
+      "grossWeight": 12000.0,
+      "measurement": 12.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "ZM231026",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FOOD PROCESSING MACHINERY FOR DAIRY PRODUCTS",
+      "grossWeight": 12000.0,
+      "measurement": 12.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY X2) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "PALLETS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 24.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": [
+      "4112720070177X"
+    ],
+    "originalBLDistribution": {
+      "name": "Acme Trading Corp.",
+      "address": "567 Canal Street, Rotterdam, Netherlands",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Acme Trading Corp.",
+      "address": "890 Trade Street, New York, USA"
+    },
+    "onboardDate": "2024-10-31 10:00",
+    "additionalRemarks": "2 x 20 GP reefer containers, Food processing machinery for dairy products, Value: USD50,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "bookingReference": "CHERRY202409196459",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "24257S"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC MANUFACTURING CO. LTD.",
+      "address": "1234 MAIN STREET, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8688 9999",
+      "email": "SHIPPER@ABCMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "XYZ GLOBAL TRADING INC.",
+      "address": "5678 ABC AVENUE, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "CONSIGNEE@XYZGLOBAL.COM",
+      "telephone": "+31 10 2222 3333"
+    },
+    "notifyParty": {
+      "name": "XYZ GLOBAL TRADING INC.",
+      "address": "5678 ABC AVENUE, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "NOTIFICATIONS@XYZGLOBAL.COM",
+      "telephone": "+31 10 2222 3333"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "902110",
+  "commodityDescription": "Telecommunication Equipment",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ABC-123456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Telecommunication Equipment, HS CODE 902110",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC-765432",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Telecommunication Equipment, HS CODE 902110",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "ABC-987654",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Telecommunication Equipment, HS CODE 902110",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU4321654",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ABC-432165",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Telecommunication Equipment, HS CODE 902110",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU5432167",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC-543216",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Telecommunication Equipment, HS CODE 902110",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS",
+    "totalPackages": 500,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241025123456"
+    },
+    "certificateDetails": [
+      "CERT1234567"
+    ],
+    "originalBLDistribution": {
+      "name": "XYZ GLOBAL TRADING INC.",
+      "address": "5678 ABC AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222 3333"
+    },
+    "originalInvoiceDistribution": {
+      "name": "XYZ GLOBAL TRADING INC.",
+      "address": "5678 ABC AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222 3333"
+    },
+    "onboardDate": "2024-09-25 12:00",
+    "additionalRemarks": "Shipment requires special handling due to fragile electronics. Please provide appropriate lashing and securing."
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202410259961",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2487W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Electronics Co.",
+      "address": "123 XIAMEN ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 5555 6666",
+      "email": "INFO@SUNRISEELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "Atlas Industries Ltd.",
+      "address": "456 FRANKFURTER STRASSE, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "notifyParty": {
+      "name": "Atlas Industries Ltd.",
+      "address": "456 FRANKFURTER STRASSE, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854140",
+  "commodityDescription": "SEMICONDUCTORS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE ELECTRONICS CO.",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SEMICONDUCTOR DEVICES AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE ELECTRONICS CO.",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SEMICONDUCTOR DEVICES AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER)",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE CONTAINER",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "N/A",
+    "originalBLDistribution": {
+      "name": "Atlas Industries Ltd.",
+      "address": "456 FRANKFURTER STRASSE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Atlas Industries Ltd.",
+      "address": "456 FRANKFURTER STRASSE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "2 x 40' High Cube Containers. Cargo: Semiconductor Devices. Value: USD 50,000"
+  },
+  "dangerousGoods": {
+    "dangerous_goods_description": "Miscellaneous Dangerous Goods",
+    "un_number": "3333",
+    "class": "9",
+    "class_name": "Miscellaneous dangerous substances and articles",
+    "packing_group": "Not specified",
+    "proper_shipping_name": "Miscellaneous dangerous goods",
+    "subsidiary_risks": [],
+    "technical_name": "Not specified",
+    "net_weight": "Not specified",
+    "gross_weight": "Not specified",
+    "quantity": "Not specified",
+    "packaging_type": "Not specified",
+    "emergency_contact_number": "Not specified",
+    "hazard_communication": "UN 3333, Miscellaneous dangerous goods, Class 9. Refer to Material Safety Data Sheet (MSDS) for further details.",
+    "additional_information": "This shipment contains dangerous goods classified as Class 9. It is the responsibility of the shipper to ensure that the packaging, labeling, and documentation comply with all applicable regulations."
+  }
+}

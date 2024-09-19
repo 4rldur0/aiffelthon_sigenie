@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202409225588",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024312E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4523",
+      "address": "123 Export Street, Ningbo, China"
+    },
+    "consignee": {
+      "name": "Oceanview Logistics GmbH",
+      "address": "456 Import Avenue, Hamburg, Germany",
+      "telephone": "+49 40 200 1234",
+      "fax": "+49 40 200 5678"
+    },
+    "notifyParty": {
+      "name": "Global Trading & Co. KG",
+      "address": "789 Trade Center, Frankfurt, Germany",
+      "telephone": "+49 69 300 9876",
+      "fax": "+49 69 300 5432"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE SPINNING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "TCLU9563247",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-1",
+      "numberOfPackages": 15,
+      "cargoDescription": "SPINDLES AND BOBBINS FOR TEXTILE MACHINERY",
+      "grossWeight": 17000.0,
+      "measurement": 58.0
+    },
+    {
+      "containerNumber": "TCLU5789012",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-2",
+      "numberOfPackages": 18,
+      "cargoDescription": "MACHINERY PARTS FOR TEXTILE SPINNING",
+      "grossWeight": 18500.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 33,
+    "packageType": "PACKAGES",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 35500.0,
+    "totalMeasurement": 118.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "PHYTO-20241015"
+    ],
+    "originalBLDistribution": {
+      "name": "Global Trading & Co. KG",
+      "address": "789 Trade Center, Frankfurt, Germany"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Oceanview Logistics GmbH",
+      "address": "456 Import Avenue, Hamburg, Germany",
+      "telephone": "+49 40 200 1234",
+      "fax": "+49 40 200 5678"
+    },
+    "onboardDate": "2024-09-29 12:15",
+    "additionalRemarks": "Containers must be loaded on deck."
+  }
+}
