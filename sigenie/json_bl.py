@@ -1,4 +1,5 @@
 import streamlit as st
+import pymongo
 from pymongo import MongoClient
 import os
 from dotenv import load_dotenv
@@ -286,11 +287,14 @@ def display_container_information(containers):
 def main():
     st.title("Bill of Lading (B/L) Viewer")
 
-    # Fetch all documents from MongoDB's si collection
-    documents = list(collection.find())
+    # Fetch only the booking references from MongoDB
+    documents = collection.find(
+        filter={},
+        projection={'bookingReference': 1},
+        sort=[('bookingReference', pymongo.ASCENDING)]
+    )
 
-    # Create a list of booking references
-    booking_refs = [doc.get('bookingReference', 'Unknown') for doc in documents]
+    booking_refs = [doc['bookingReference'] for doc in documents]
     
     # Create a selectbox for choosing a document by booking reference
     selected_booking_ref = st.selectbox(
@@ -299,8 +303,8 @@ def main():
         format_func=lambda x: f"Booking Ref: {x}"
     )
 
-    # Find the selected document
-    selected_doc = next((doc for doc in documents if doc.get('bookingReference') == selected_booking_ref), None)
+    # Fetch the selected document from MongoDB
+    selected_doc = collection.find_one({'bookingReference': selected_booking_ref})
 
     # Display the selected document as a BL form
     if selected_doc:

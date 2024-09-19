@@ -1,6 +1,7 @@
 import os
 import json
 import streamlit as st
+import pymongo
 from pymongo import MongoClient, InsertOne
 from bson import ObjectId
 from dotenv import load_dotenv
@@ -139,7 +140,13 @@ def main():
         st.success("New BKG documents have been added to the database.")
 
     # Fetch only the booking references from MongoDB
-    booking_references = [doc['bookingReference'] for doc in collection.find({}, {'bookingReference': 1})]
+    documents = collection.find(
+        filter={},
+        projection={'bookingReference': 1},
+        sort=[('bookingReference', pymongo.ASCENDING)]
+    )
+
+    booking_references = [doc['bookingReference'] for doc in documents]
 
     # Create a dropdown to select a booking reference
     selected_ref = st.selectbox(
