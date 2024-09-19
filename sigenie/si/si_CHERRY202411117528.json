@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202411117528",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2426E21N"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GOLDEN SUN LTD",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA 315000",
+      "telephone": "+86-574-123-4567",
+      "fax": "+86-574-123-4568"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS GMBH",
+      "address": "456 AVENIDA DE LA LIBERTAD, ROTTERDAM, NETHERLANDS 3000",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS GMBH",
+      "address": "456 AVENIDA DE LA LIBERTAD, ROTTERDAM, NETHERLANDS 3000",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "620462",
+  "commodityDescription": "WOMEN'S TROUSERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "GOLDEN SUN LTD",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM: WOMEN'S TROUSERS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "7890123",
+      "marksAndNumbers": "GOLDEN SUN LTD",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM: WOMEN'S TROUSERS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "3456789",
+      "marksAndNumbers": "GOLDEN SUN LTD",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM: WOMEN'S TROUSERS",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU11111111",
+      "sealNumber": "1111111",
+      "marksAndNumbers": "GOLDEN SUN LTD",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM: WOMEN'S TROUSERS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU22222222",
+      "sealNumber": "2222222",
+      "marksAndNumbers": "GOLDEN SUN LTD",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM: WOMEN'S TROUSERS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER)",
+    "totalPackages": 600,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 59000.0,
+    "totalMeasurement": 145.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS GMBH",
+      "address": "456 AVENIDA DE LA LIBERTAD, ROTTERDAM, NETHERLANDS 3000",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS GMBH",
+      "address": "456 AVENIDA DE LA LIBERTAD, ROTTERDAM, NETHERLANDS 3000",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    },
+    "onboardDate": "2024-11-18 10:00",
+    "additionalRemarks": "Cargo to be loaded on deck."
+  }
+}

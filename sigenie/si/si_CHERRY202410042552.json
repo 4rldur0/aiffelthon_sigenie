@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410042552",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2422EWL"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE METAL WORKS CO., LTD",
+      "onBehalfOf": "",
+      "address": "1234 INDUSTRIAL PARK, SHANGHAI, CHINA 200333",
+      "telephone": "+86-21-56789012",
+      "fax": "+86-21-34567890"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "256 NETHERLANDS STREET, ROTTERDAM, NETHERLANDS 3011AB",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "EUROTECH IMPORTS BV (GERMANY)",
+      "address": "321 BERLIN STREET, BERLIN, GERMANY 10117"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "73269090",
+  "commodityDescription": "IRON BARS",
+  "containers": [
+    {
+      "containerNumber": "TCLU9908625",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SMW-123",
+      "numberOfPackages": 1000,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: IRON BARS",
+      "grossWeight": 25000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "TCLU9908626",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SMW-124",
+      "numberOfPackages": 1000,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: IRON BARS",
+      "grossWeight": 25000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "TCLU9908627",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SMW-125",
+      "numberOfPackages": 1000,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: IRON BARS",
+      "grossWeight": 25000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY) CONTAINERS",
+    "totalPackages": 3000,
+    "packageType": "BUNDLES",
+    "containerType": "20'DRY",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 105.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "256 NETHERLANDS STREET, ROTTERDAM, NETHERLANDS 3011AB",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-87654321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORTS BV (GERMANY)",
+      "address": "321 BERLIN STREET, BERLIN, GERMANY 10117"
+    },
+    "onboardDate": "2024-10-10 10:00",
+    "additionalRemarks": "URGENT DELIVERY REQUIRED. PLEASE ADVISE ETA UPDATES."
+  }
+}

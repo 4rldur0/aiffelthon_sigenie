@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202409309652",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO. LTD.",
+      "address": "No. 123 Xinghai Road, Ningbo, Zhejiang, China",
+      "country": "CHINA",
+      "telephone": "+86 574 8888 9999",
+      "email": "shipping@asiapacific.com"
+    },
+    "consignee": {
+      "name": "GLOBAL TECH SOLUTIONS INC.",
+      "address": "123 Main Street, Suite 400, New York, NY 10001, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "email": "orders@globaltech.com"
+    },
+    "notifyParty": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "123 Main Street, Suite 400, New York, NY 10001, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "email": "orders@abcinternational.com"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85423010",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CCMU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GTSP123",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "MICROPROCESSORS AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CCMU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GTSP456",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "MICROPROCESSORS AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CCMU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GTSP789",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "MICROPROCESSORS AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CCMU4321098",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GTSP345",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "MICROPROCESSORS AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CCMU6789012",
+      "sealNumber": "901234",
+      "marksAndNumbers": "GTSP678",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "MICROPROCESSORS AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 x 20 DRY)",
+    "totalPackages": 500,
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "Certificate of Origin"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TECH SOLUTIONS INC.",
+      "address": "123 Main Street, Suite 400, New York, NY 10001, USA",
+      "telephone": "+1 212 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TECH SOLUTIONS INC.",
+      "address": "123 Main Street, Suite 400, New York, NY 10001, USA",
+      "telephone": "+1 212 555 1212"
+    },
+    "onboardDate": "2024-10-20 14:00",
+    "additionalRemarks": "CONTAINER NEEDS TO BE LINED WITH PROTECTIVE MATERIAL. PLEASE ADVISE ON ETA FOR DELIVERY."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

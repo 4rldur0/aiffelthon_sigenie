@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410143861",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "9876AB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "APPLE INC.",
+      "address": "1234 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 21 55556666",
+      "fax": "+86 21 77778888"
+    },
+    "consignee": {
+      "name": "EURO IMPORT BV",
+      "address": "5678 IMPORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1111222",
+      "fax": "+31 10 3333444",
+      "email": "IMPORT@EUROIMPORT.NL",
+      "contactPerson": "PETER VAN DER WAL"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "LOGISTICS EUROPE BV",
+      "address": "9012 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 4444555",
+      "fax": "+31 10 6666777",
+      "email": "NOTIFICATIONS@LOGISTICSEUROPE.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84713010",
+  "commodityDescription": "LAPTOP COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TM123",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LAPTOP COMPUTERS",
+      "grossWeight": 6000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "TM456",
+      "numberOfPackages": 145,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LAPTOP COMPUTERS",
+      "grossWeight": 5800.0,
+      "measurement": 24.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 DRY HIGH CUBE CONTAINER",
+    "totalPackages": 295,
+    "totalGrossWeight": 11800.0,
+    "totalMeasurement": 49.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-001",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO IMPORT BV",
+      "address": "5678 IMPORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1111222",
+      "fax": "+31 10 3333444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FINANCE DEPARTMENT, EURO IMPORT BV",
+      "address": "5678 IMPORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1111222",
+      "fax": "+31 10 3333444"
+    },
+    "onboardDate": "2024-10-20 10:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED: 2-8 DEGREES CELSIUS"
+  }
+}

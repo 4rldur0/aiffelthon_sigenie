@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410086336",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Global Trading Co.",
+      "address": "1234 Trade Street, Ningbo, China",
+      "telephone": "+86 574 1234567",
+      "fax": "+86 574 9876543"
+    },
+    "consignee": {
+      "name": "Acme Logistics Inc.",
+      "address": "5678 Logistics Avenue, Algeciras, Spain",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 987654",
+      "email": "operations@acmelogistics.com",
+      "contactPerson": "Maria Sanchez"
+    },
+    "notifyParty": {
+      "name": "Acme Accounting Dept.",
+      "address": "9012 Invoice Street, Algeciras, Spain",
+      "telephone": "+34 956 543210",
+      "fax": "+34 956 123456",
+      "email": "accounting@acmelogistics.com"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854442",
+  "commodityDescription": "High-voltage transformers",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT-001",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: HIGH-VOLTAGE TRANSFORMERS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT-002",
+      "numberOfPackages": 12,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: HIGH-VOLTAGE TRANSFORMERS",
+      "grossWeight": 14500.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "GT-003",
+      "numberOfPackages": 11,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: HIGH-VOLTAGE TRANSFORMERS",
+      "grossWeight": 15500.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20 DRY CONTAINERS",
+    "totalPackages": 33,
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202410086336-01",
+    "documentNumber": "202410086336-DOC",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-202410086336"
+    ],
+    "originalBLDistribution": {
+      "name": "Acme Logistics Inc.",
+      "address": "5678 Logistics Avenue, Algeciras, Spain",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 987654"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Acme Accounting Dept.",
+      "address": "9012 Invoice Street, Algeciras, Spain",
+      "telephone": "+34 956 543210",
+      "fax": "+34 956 123456"
+    },
+    "onboardDate": "2024-10-15 16:00",
+    "additionalRemarks": "Containers to be loaded on deck. Please ensure proper lashing."
+  }
+}

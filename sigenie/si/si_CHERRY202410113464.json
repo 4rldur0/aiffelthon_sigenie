@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410113464",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2423WQB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "NEW YORK, UNITED STATES"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO.",
+      "address": "123 Marina Boulevard, Singapore, 018986",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890456"
+    },
+    "consignee": {
+      "name": "GOLDEN STAR IMPORTS INC.",
+      "address": "456 Broadway, New York, NY 10013, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "notifyParty": {
+      "name": "GOLDEN STAR IMPORTS INC.",
+      "address": "456 Broadway, New York, NY 10013, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "8543708000",
+  "commodityDescription": "BLUETOOTH SPEAKERS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE ELECTRONICS PTE LTD",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "BLUETOOTH SPEAKERS AS PER INVOICE",
+      "grossWeight": 12000,
+      "measurement": 33.3
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE ELECTRONICS PTE LTD",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "BLUETOOTH SPEAKERS AS PER INVOICE",
+      "grossWeight": 12000,
+      "measurement": 33.3
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SUNRISE ELECTRONICS PTE LTD",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "BLUETOOTH SPEAKERS AS PER INVOICE",
+      "grossWeight": 12000,
+      "measurement": 33.3
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' DRY) CONTAINERS ONLY",
+    "totalPackages": 450,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000,
+    "totalMeasurement": 99.9
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC123456789012345"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "GOLDEN STAR IMPORTS INC.",
+      "address": "456 Broadway, New York, NY 10013, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN STAR IMPORTS INC.",
+      "address": "456 Broadway, New York, NY 10013, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-10-14 15:00",
+    "additionalRemarks": "Pre-carriage by truck to port of loading included"
+  }
+}

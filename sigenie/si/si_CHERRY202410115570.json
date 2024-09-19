@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202410115570",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024412A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5492",
+      "address": "123 Industrial Road, Shanghai, China",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "EURO FURNITURE GMBH",
+      "address": "Hauptstrasse 50, 40210 D\u00fcsseldorf, Germany",
+      "telephone": "+49-211-1234-5678",
+      "fax": "+49-211-1234-5679",
+      "email": "info@eurofurniture.de",
+      "contactPerson": "Herr Klaus Schmidt"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "TRANSGLOBAL LOGISTICS",
+      "address": "Frankfurter Strasse 25, 60329 Frankfurt, Germany",
+      "telephone": "+49-69-1234-5678",
+      "fax": "+49-69-1234-5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "442110",
+  "commodityDescription": "OAK TABLE LEGS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "GW20241026",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OAK TABLE LEGS",
+      "grossWeight": 9000.0,
+      "measurement": 26.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "GW20241026",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OAK TABLE LEGS",
+      "grossWeight": 9100.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "54321098",
+      "marksAndNumbers": "GW20241026",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OAK TABLE LEGS",
+      "grossWeight": 9050.0,
+      "measurement": 26.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20 DRY CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 27150.0,
+    "totalMeasurement": 78.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202410263385-001",
+    "documentNumber": "202410263385-002",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EURO FURNITURE GMBH",
+      "address": "Hauptstrasse 50, 40210 D\u00fcsseldorf, Germany",
+      "telephone": "+49-211-1234-5678",
+      "fax": "+49-211-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO FURNITURE GMBH",
+      "address": "Hauptstrasse 50, 40210 D\u00fcsseldorf, Germany",
+      "telephone": "+49-211-1234-5678",
+      "fax": "+49-211-1234-5679"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "Containers must be loaded within 24 hours of arrival at the port."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40 DRY Container"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

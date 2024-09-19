@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410186233",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "1234 TECH PARK AVE, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "(ZHANGJIANG DISTRICT)",
+      "telephone": "+86 21 5555 1234",
+      "email": "SHIPPING@ASIAELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "567 MAIN STREET, FRANKFURT, GERMANY 60329",
+      "country": "GERMANY",
+      "email": "INFO@GLOBALTRADING.DE",
+      "telephone": "+49 69 111 2222"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING INC. - HAMBURG BRANCH",
+      "address": "123 PORT STREET, HAMBURG, GERMANY 20457",
+      "country": "GERMANY",
+      "email": "INVOICE@GLOBALTRADING.DE",
+      "telephone": "+49 40 333 4444"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85444210",
+  "commodityDescription": "COAXIAL CABLE - RG6, 100M SPOOLS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APELECTRONICS-20241018",
+      "numberOfPackages": 100,
+      "packageType": "SPOOLS ON PALLETS",
+      "cargoDescription": "COAXIAL CABLE - RG6, 100M SPOOLS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APELECTRONICS-20241018",
+      "numberOfPackages": 100,
+      "packageType": "SPOOLS ON PALLETS",
+      "cargoDescription": "COAXIAL CABLE - RG6, 100M SPOOLS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) 40 HIGH CUBE DRY CONTAINERS",
+    "totalPackages": 200,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "567 MAIN STREET, FRANKFURT, GERMANY 60329",
+      "telephone": "+49 69 111 2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING INC. - HAMBURG BRANCH",
+      "address": "123 PORT STREET, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 333 4444"
+    },
+    "onboardDate": "2024-10-20 12:00",
+    "additionalRemarks": "CONTAINER SEAL TO BE PROVIDED BY SHIPPER"
+  }
+}

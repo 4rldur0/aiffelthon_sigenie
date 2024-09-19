@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202409242119",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2438WUS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREEN EARTH EXPORTERS LTD.",
+      "address": "No. 101, Yangtze River Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8777 9999",
+      "email": "info@greenearthexporters.com"
+    },
+    "consignee": {
+      "name": "EURO TECH IMPORTS NV",
+      "address": "5 Rue de la Loi, 1000 Brussels, Belgium",
+      "telephone": "+32 2 555 6789",
+      "fax": "+32 2 555 1234"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "21 Rue de la Paix, 1000 Brussels, Belgium",
+      "telephone": "+32 2 888 9999",
+      "fax": "+32 2 888 1234"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "DIGITAL CAMERA LENSES",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "12345678901",
+      "marksAndNumbers": "GREEN EARTH MFG 20241015",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "DIGITAL CAMERA LENSES AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "98765432101",
+      "marksAndNumbers": "GREEN EARTH MFG 20241015",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "DIGITAL CAMERA LENSES AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY X2) CONTAINERS",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "containerType": "20' DRY X2",
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241015002"
+    },
+    "certificateDetails": "CO, Fumigation Certificate",
+    "originalBLDistribution": {
+      "name": "EURO TECH IMPORTS NV",
+      "address": "5 Rue de la Loi, 1000 Brussels, Belgium",
+      "telephone": "+32 2 555 6789",
+      "fax": "+32 2 555 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "21 Rue de la Paix, 1000 Brussels, Belgium",
+      "telephone": "+32 2 888 9999",
+      "fax": "+32 2 888 1234"
+    },
+    "onboardDate": "2024-10-27 17:00",
+    "additionalRemarks": "Free time 5 days at destination. Shipper responsible for container lashing."
+  },
+  "outOfGaugeDimensions": {
+    "length": 13716,
+    "width": 2438,
+    "height": 2698,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

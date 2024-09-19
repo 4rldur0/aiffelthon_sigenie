@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202409272429",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024748E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2347",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6336 8001",
+      "email": "SHIPPER2347@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7192",
+      "address": "456 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 200 1000",
+      "fax": "+31 10 200 1001"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 8531",
+      "address": "789 BRUSSELS AVENUE, BRUSSELS, BELGIUM",
+      "telephone": "+32 2 555 5555",
+      "fax": "+32 2 555 5556"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1500075",
+      "sealNumber": "894108",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU1500076",
+      "sealNumber": "894109",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 X 40 HQ DRY) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "40 HQ DRY X2",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 66.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033752"
+    },
+    "certificateDetails": "1050020070133",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7192",
+      "address": "456 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 200 1000",
+      "fax": "+31 10 200 1001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8531",
+      "address": "789 BRUSSELS AVENUE, BRUSSELS, BELGIUM",
+      "telephone": "+32 2 555 5555",
+      "fax": "+32 2 555 5556"
+    },
+    "onboardDate": "2024-10-12 10:00",
+    "additionalRemarks": "Containers require pre-trip inspection"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

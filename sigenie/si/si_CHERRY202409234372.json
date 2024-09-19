@@ -1,115 +1,127 @@
 {
   "bookingReference": "CHERRY202409234372",
   "voyageDetails": {
-    "vesselName": "CMA CGM GEORG FORSTER",
-    "voyageNumber": "2423EUS"
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "1234W"
   },
   "routeDetails": {
     "placeOfReceipt": "NINGBO, CHINA",
     "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "negotiable",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ACME INTERNATIONAL CORP.",
-      "onBehalfOf": null,
-      "address": "NO. 123 INDUSTRY PARK ROAD, NINGBO, CHINA",
-      "telephone": "+86-574-8888-8888",
-      "fax": "+86-574-8888-8889"
+      "name": "ASIA PACIFIC MANUFACTURERS",
+      "address": "1234 Industrial Park Road, Shanghai, China, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Contact Person: Ms. Li)",
+      "telephone": "+86 21 5555 6666",
+      "email": "li.mei@asiapacificmanufacturers.cn"
     },
     "consignee": {
-      "name": "ACME IMPORTS LTD.",
-      "address": "MARKTPLAATS 12, 3011 AA ROTTERDAM, NETHERLANDS",
-      "companyNumber": "123456789"
+      "name": "ABC TRADING CO.",
+      "address": "5678 Main Street, Hamburg, Germany, 20000",
+      "country": "GERMANY",
+      "email": "info@abctrading.de",
+      "telephone": "+49 40 1234 5678"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "10TH FLOOR, SUNRISE BUILDING, SHANGHAI, CHINA"
+      "name": "ABC TRADING CO.",
+      "address": "5678 Main Street, Hamburg, Germany, 20000",
+      "country": "GERMANY",
+      "email": "info@abctrading.de",
+      "telephone": "+49 40 1234 5678"
     }
   },
-  "shippingTerm": "CFS/CY",
-  "hsCode": "90189010",
-  "commodityDescription": "SURGICAL STAPLER",
+  "shippingTerm": "CY/CY",
+  "hsCode": "85437090",
+  "commodityDescription": "ELECTRIC MOTORS",
   "containers": [
     {
-      "containerNumber": "MSCU5498765",
+      "containerNumber": "CRLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ACME-2024-10",
-      "numberOfPackages": 500,
-      "packageType": "CARTONS",
-      "cargoDescription": "SURGICAL STAPLERS AS PER PACKING LIST",
-      "grossWeight": 12000.0,
-      "measurement": 25.0,
-      "additionalInfo": "TEMPERATURE SENSITIVE CARGO. PLEASE HANDLE WITH CARE."
+      "marksAndNumbers": "APM-20240923",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN",
+      "grossWeight": 9000.0,
+      "measurement": 20.0
     },
     {
-      "containerNumber": "MSCU5498766",
-      "sealNumber": "123457",
-      "marksAndNumbers": "ACME-2024-10",
-      "numberOfPackages": 500,
-      "packageType": "CARTONS",
-      "cargoDescription": "SURGICAL STAPLERS AS PER PACKING LIST",
-      "grossWeight": 12000.0,
-      "measurement": 25.0,
-      "additionalInfo": "TEMPERATURE SENSITIVE CARGO. PLEASE HANDLE WITH CARE."
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APM-20240923",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN",
+      "grossWeight": 9000.0,
+      "measurement": 20.0
     },
     {
-      "containerNumber": "MSCU5498767",
-      "sealNumber": "123458",
-      "marksAndNumbers": "ACME-2024-10",
-      "numberOfPackages": 500,
-      "packageType": "CARTONS",
-      "cargoDescription": "SURGICAL STAPLERS AS PER PACKING LIST",
-      "grossWeight": 12000.0,
-      "measurement": 25.0,
-      "additionalInfo": "TEMPERATURE SENSITIVE CARGO. PLEASE HANDLE WITH CARE."
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "APM-20240923",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN",
+      "grossWeight": 9000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU1112223",
+      "sealNumber": "333444",
+      "marksAndNumbers": "APM-20240923",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN",
+      "grossWeight": 9000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU5556667",
+      "sealNumber": "777888",
+      "marksAndNumbers": "APM-20240923",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN",
+      "grossWeight": 9000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20' STANDARD CONTAINER) CONTAINERS ONLY",
-    "totalPackages": 1500,
-    "packageType": "CARTONS",
-    "containerType": "20' STANDARD",
-    "totalGrossWeight": 36000.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "FIVE (5x20' DRY) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 100.0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC00123456789"
     },
     "certificateDetails": [
-      "CERTIFICATE OF ORIGIN",
-      "HEALTH CERTIFICATE"
+      "CN20241005-001"
     ],
     "originalBLDistribution": {
-      "name": "ACME IMPORTS LTD.",
-      "address": "MARKTPLAATS 12, 3011 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-123-4567",
-      "fax": "+31-10-123-4568"
+      "name": "ABC TRADING CO.",
+      "address": "5678 Main Street, Hamburg, Germany, 20000",
+      "telephone": "+49 40 1234 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "ACME INTERNATIONAL CORP.",
-      "address": "NO. 123 INDUSTRY PARK ROAD, NINGBO, CHINA",
-      "telephone": "+86-574-8888-8888",
-      "fax": "+86-574-8888-8889"
+      "name": "ABC TRADING CO.",
+      "address": "5678 Main Street, Hamburg, Germany, 20000",
+      "telephone": "+49 40 1234 5678"
     },
-    "onboardDate": "2024-10-05 12:00",
-    "additionalRemarks": "Temperature: 2-8 degrees Celsius, No DG"
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+    "onboardDate": "2024-09-26 10:00",
+    "additionalRemarks": "Free Time 5 Days at Port of Discharge"
   }
 }

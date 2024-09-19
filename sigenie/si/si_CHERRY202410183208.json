@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410183208",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024492W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5318",
+      "address": "123 INDUSTRY STREET, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "telephone": "+86 574 8888 8888",
+      "email": "SHIPPER5318@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 9642",
+      "address": "456 MAIN AVENUE, ALGECIRAS, SPAIN, 11001",
+      "country": "SPAIN",
+      "email": "ORDERS@INVOICERECEIVER9642.COM",
+      "telephone": "+34 956 123456"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 1279",
+      "address": "789 COMMERCIAL ROAD, MADRID, SPAIN, 28001",
+      "country": "SPAIN",
+      "email": "CUSTOMER1279@EXAMPLE.COM",
+      "telephone": "+34 91 6789012"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "TEXTILE SPINNING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP5318-1",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE SPINNING MACHINES",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SHIP5318-2",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE SPINNING MACHINES",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIP5318-3",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE SPINNING MACHINES",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3 X 40'HC) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 9642",
+      "address": "456 MAIN AVENUE, ALGECIRAS, SPAIN, 11001",
+      "telephone": "+34 956 123456"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 1279",
+      "address": "789 COMMERCIAL ROAD, MADRID, SPAIN, 28001",
+      "telephone": "+34 91 6789012"
+    },
+    "onboardDate": "2024-10-23 10:00",
+    "additionalRemarks": "Containers to be loaded in the reefer section."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

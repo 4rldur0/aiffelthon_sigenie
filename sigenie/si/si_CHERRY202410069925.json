@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202410069925",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "1234AB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA IMPORT & EXPORT CO. LTD",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86-574-8888-9999",
+      "fax": "+86-574-8888-8888"
+    },
+    "consignee": {
+      "name": "ALPHA TECH LTD",
+      "address": "FRANKFURTER STRASSE 123, FRANKFURT, GERMANY 60311",
+      "companyNumber": "HRB123456"
+    },
+    "notifyParty": {
+      "name": "ALPHA TECH LTD",
+      "address": "FRANKFURTER STRASSE 123, FRANKFURT, GERMANY 60311"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847130",
+  "commodityDescription": "COMPUTER SERVERS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AT123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTER SERVERS",
+      "grossWeight": 7500.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AT456",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTER SERVERS",
+      "grossWeight": 7800.0,
+      "measurement": 32.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AT789",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTER SERVERS",
+      "grossWeight": 7500.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU4567890",
+      "sealNumber": "543210",
+      "marksAndNumbers": "AT101",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTER SERVERS",
+      "grossWeight": 7800.0,
+      "measurement": 32.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU1011123",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "AT111",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTER SERVERS",
+      "grossWeight": 7500.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY X5) CONTAINERS ONLY",
+    "totalPackages": 54,
+    "packageType": "BOXES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 37800.0,
+    "totalMeasurement": 154.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567891"
+    },
+    "certificateDetails": [
+      "COO-CN-1234568"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA TECH LTD",
+      "address": "FRANKFURTER STRASSE 123, FRANKFURT, GERMANY 60311",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA TECH LTD",
+      "address": "FRANKFURTER STRASSE 123, FRANKFURT, GERMANY 60311"
+    },
+    "onboardDate": "2024-10-10 10:00",
+    "additionalRemarks": "Pre-shipment inspection required. Contact consignee 48 hours prior to arrival."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

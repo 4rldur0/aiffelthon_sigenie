@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202410211252",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2443E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH MANUFACTURING GMBH",
+      "address": "FRANZ-JOSEF-STRASSE 23, 80331 M\u00dcNCHEN, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "(MUNICH)",
+      "telephone": "+49 89 1234 5678",
+      "email": "SHIPPING@EUROTECHGMBH.DE"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 WALL STREET, NEW YORK, NY 10005, USA",
+      "country": "USA",
+      "email": "ORDERS@GLOBALTRADINGSOLUTIONS.COM",
+      "telephone": "+1 212 555 1212"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 WALL STREET, NEW YORK, NY 10005, USA",
+      "country": "USA",
+      "email": "ORDERS@GLOBALTRADINGSOLUTIONS.COM",
+      "telephone": "+1 212 555 1212"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84713010",
+  "commodityDescription": "LAPTOP COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EUROTECH-123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS AS PER INVOICE",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EUROTECH-456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS AS PER INVOICE",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "EUROTECH-789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS AS PER INVOICE",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU2468013",
+      "sealNumber": "901234",
+      "marksAndNumbers": "EUROTECH-567",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS AS PER INVOICE",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU5741832",
+      "sealNumber": "567890",
+      "marksAndNumbers": "EUROTECH-890",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS AS PER INVOICE",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 x 20' DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 WALL STREET, NEW YORK, NY 10005, USA",
+      "telephone": "+1 212 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 WALL STREET, NEW YORK, NY 10005, USA",
+      "telephone": "+1 212 555 1212"
+    },
+    "onboardDate": "2024-10-26 10:00",
+    "additionalRemarks": "CONTAINER SEAL NUMBERS: 123456, 789012, 345678, 901234, 567890"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40'HC Container"
+  }
+}

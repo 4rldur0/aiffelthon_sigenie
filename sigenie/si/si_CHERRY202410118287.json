@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410118287",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2433W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING",
+      "address": "1234 FACTORY LANE, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "consignee": {
+      "name": "EURO TECH LTD.",
+      "address": "5678 TECH STREET, FRANKFURT, GERMANY, 60329",
+      "telephone": "+49-69-1234-5678",
+      "fax": "+49-69-1234-5679"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LLC",
+      "address": "9012 IMPORT AVENUE, NEW YORK, USA, 10001",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "EGG SORTING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EUROTECH123",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "EGG SORTING MACHINERY AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FOOT) CONTAINER",
+    "totalPackages": 1,
+    "packageType": "UNITS",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 35.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN NUMBER: CO1234567",
+    "originalBLDistribution": {
+      "name": "EURO TECH LTD.",
+      "address": "5678 TECH STREET, FRANKFURT, GERMANY, 60329",
+      "telephone": "+49-69-1234-5678",
+      "fax": "+49-69-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LLC",
+      "address": "9012 IMPORT AVENUE, NEW YORK, USA, 10001",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "Temperature setting: 2 degrees Celsius"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

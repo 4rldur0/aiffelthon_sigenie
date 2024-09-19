@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202409271044",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2431W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "COLOGNE, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "1234 Shanghai Road, Ningbo, Zhejiang, 315000, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8666 1234",
+      "email": "shipping@asiatrading.com"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT & EXPORT GMBH",
+      "address": "Am Knie 5, 50667 Cologne, GERMANY",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 221 1234567"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL LOGISTICS INC.",
+      "address": "1234 Logistics Way, Hamburg, 20457, GERMANY",
+      "country": "GERMANY",
+      "email": "logistics@sunriseglobal.de",
+      "telephone": "+49 40 12345678"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "903281",
+  "commodityDescription": "PRECISION GAUGES",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APT123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "PRECISION GAUGES (W.300MM H.150MM D.100MM)",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APT123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "PRECISION GAUGES (W.300MM H.150MM D.100MM)",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "APT123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "PRECISION GAUGES (W.300MM H.150MM D.100MM)",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 20 DRY CONTAINER",
+    "totalPackages": 300,
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORT & EXPORT GMBH",
+      "address": "Am Knie 5, 50667 Cologne, GERMANY",
+      "telephone": "+49 221 1234567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORT & EXPORT GMBH",
+      "address": "Am Knie 5, 50667 Cologne, GERMANY",
+      "telephone": "+49 221 1234567"
+    },
+    "onboardDate": "2024-10-02 10:00",
+    "additionalRemarks": "Containers to be loaded on deck. Expedited delivery requested."
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411134277",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024422E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8765",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO ECONOMIC & TECHNOLOGICAL DEVELOPMENT ZONE)"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 2389",
+      "address": "C/MARIA BARBAR\u00c1, 23, ALGECIRAS, SPAIN 11201",
+      "country": "SPAIN",
+      "email": "INFO@INVOICERECEIVER2389.ES",
+      "telephone": "+34 956 789 012"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 3412",
+      "address": "123 MAIN STREET, MADRID, SPAIN 28001",
+      "country": "SPAIN",
+      "email": "INFO@CUSTOMER3412.ES",
+      "telephone": "+34 91 567 8901"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "870899",
+  "commodityDescription": "MOTORCYCLE ENGINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9123456",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER8765 1/2",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE ENGINE PARTS AS PER INVOICE",
+      "grossWeight": 4166.67,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER8765 2/2",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE ENGINE PARTS AS PER INVOICE",
+      "grossWeight": 4166.67,
+      "measurement": 12.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 8333.34,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "870899",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+      "telephone": "03600061234",
+      "fax": "81-3-6000-0001"
+    },
+    "onboardDate": "2024-12-05 11:30",
+    "additionalRemarks": "Please arrange customs clearance at destination."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

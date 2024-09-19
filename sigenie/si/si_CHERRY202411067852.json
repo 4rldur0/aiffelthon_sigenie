@@ -1,0 +1,145 @@
+{
+  "bookingReference": "CHERRY202411067852",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2428E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "No. 123 Sunrise Avenue, Ningbo, China",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-12345679"
+    },
+    "consignee": {
+      "name": "EUROTECH DISTRIBUTION GMBH",
+      "address": "123 Techstrasse, Rotterdam, Netherlands",
+      "telephone": "+31-10-98765432",
+      "fax": "+31-10-98765431"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "No. 123 Sunrise Avenue, Ningbo, China",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-12345679"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85437080",
+  "commodityDescription": "NETWORK SWITCHES",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SMT123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHES, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 1800.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SMT789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHES, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 1800.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SMT456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHES, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 1800.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CMLU3210987",
+      "sealNumber": "321098",
+      "marksAndNumbers": "SMT789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHES, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 1800.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CMLU5432109",
+      "sealNumber": "543210",
+      "marksAndNumbers": "SMT123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHES, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 1800.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 9000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "EUROTECH DISTRIBUTION GMBH",
+      "address": "123 Techstrasse, Rotterdam, Netherlands",
+      "telephone": "+31-10-98765432",
+      "fax": "+31-10-98765431"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "No. 123 Sunrise Avenue, Ningbo, China",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-12345679"
+    },
+    "onboardDate": "2024-11-10 12:00",
+    "additionalRemarks": "CARGO SHOULD BE PACKAGED IN PROTECTIVE MATERIAL TO AVOID DAMAGE DURING TRANSIT."
+  },
+  "reeferSettings": {
+    "reeferSettings": {
+      "temperatureMode": "Constant",
+      "setpoint": {
+        "value": -18,
+        "unit": "Celsius"
+      },
+      "tolerance": {
+        "upperLimit": 0.5,
+        "lowerLimit": 0.5,
+        "unit": "Celsius"
+      },
+      "ventilation": "Closed",
+      "humidityControl": "Off",
+      "preCooling": "Required",
+      "monitoringFrequency": "Every 30 Minutes"
+    },
+    "specialInstructions": "Ensure the container is pre-cooled to the setpoint temperature before loading. Monitor the temperature regularly and adjust settings as needed to maintain the required temperature range. "
+  }
+}

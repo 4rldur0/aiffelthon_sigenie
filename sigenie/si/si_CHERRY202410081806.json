@@ -1,0 +1,83 @@
+{
+  "bookingReference": "CHERRY202410081806",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "4312W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Telegraphic Transfer",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION MACHINERY",
+      "address": "2345 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS NV",
+      "address": "1234 GROTE MARKT, ANTWERP, BELGIUM",
+      "telephone": "+32 3 222 3333",
+      "fax": "+32 3 222 4444",
+      "email": "IMPORT@EUROTECH.BE",
+      "contactPerson": "JEAN DUPONT"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845970",
+  "commodityDescription": "CNC MILLING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EURO2310",
+      "numberOfPackages": 1,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CNC MILLING MACHINE PACKED ON PALLETS, SECURED FOR TRANSIT",
+      "grossWeight": 7500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 X 40DRY CONTAINER",
+    "totalPackages": 1,
+    "totalGrossWeight": 7500.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241015-002",
+    "documentNumber": "20241015002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORTS NV",
+      "address": "1234 GROTE MARKT, ANTWERP, BELGIUM",
+      "telephone": "+32 3 222 3333",
+      "fax": "+32 3 222 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORTS NV",
+      "address": "1234 GROTE MARKT, ANTWERP, BELGIUM",
+      "telephone": "+32 3 222 3333",
+      "fax": "+32 3 222 4444"
+    },
+    "onboardDate": "2024-10-12 10:00",
+    "additionalRemarks": "MACHINE PACKED ON PALLETS, SECURED FOR TRANSIT. GROSS WEIGHT: 7500KG"
+  }
+}

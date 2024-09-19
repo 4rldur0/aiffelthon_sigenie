@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202411099815",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024987A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "Seaway Bill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8529",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-123-4567",
+      "fax": "+86-574-123-4568"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 3145",
+      "address": "456 BROADWAY, NEW YORK, USA",
+      "telephone": "+1-555-987-6543",
+      "fax": "+1-555-987-6544"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 1273",
+      "address": "789 PARK AVENUE, LOS ANGELES, USA",
+      "telephone": "+1-555-567-8901",
+      "fax": "+1-555-567-8902"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "940340",
+  "commodityDescription": "WOODEN BOOKCASES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE BOOKCASES 1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : WOODEN BOOKCASES",
+      "grossWeight": 15000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE BOOKCASES 2",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : WOODEN BOOKCASES",
+      "grossWeight": 7500,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SAMPLE BOOKCASES 3",
+      "numberOfPackages": 150,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : WOODEN BOOKCASES",
+      "grossWeight": 12000,
+      "measurement": 20
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "432109",
+      "marksAndNumbers": "SAMPLE BOOKCASES 4",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : WOODEN BOOKCASES",
+      "grossWeight": 5000,
+      "measurement": 10
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SAMPLE BOOKCASES 5",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : WOODEN BOOKCASES",
+      "grossWeight": 2500,
+      "measurement": 5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 400,
+    "packageType": "MIXED",
+    "totalGrossWeight": 41500,
+    "totalMeasurement": 72.5
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO678901",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1273",
+      "address": "789 PARK AVENUE, LOS ANGELES, USA",
+      "telephone": "+1-555-567-8901",
+      "fax": "+1-555-567-8902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3145",
+      "address": "456 BROADWAY, NEW YORK, USA",
+      "telephone": "+1-555-987-6543",
+      "fax": "+1-555-987-6544"
+    },
+    "onboardDate": "2024-11-12 14:20",
+    "additionalRemarks": "Containers must be sealed with high-security seals."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

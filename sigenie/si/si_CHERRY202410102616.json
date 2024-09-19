@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410102616",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024872W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5481",
+      "address": "12 RUE DE LA PAIX, 76000 ROUEN, FRANCE",
+      "telephone": "+33-2-35-78-90-12",
+      "fax": "+33-2-35-78-90-13"
+    },
+    "consignee": {
+      "name": "CONSIGNEE 3729",
+      "address": "20 ORCHARD BOULEVARD, #01-01, SINGAPORE 238856",
+      "telephone": "+65-6737-8901",
+      "fax": "+65-6737-8902"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1295",
+      "address": "100 UPPER PECKTON ROAD, SINGAPORE 088357",
+      "telephone": "+65-6876-5432",
+      "fax": "+65-6876-5433"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854442",
+  "commodityDescription": "INDUSTRIAL CONTROL UNITS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SRMC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "INDUSTRIAL CONTROL UNITS AS PER INVOICE",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SRMC456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "INDUSTRIAL CONTROL UNITS AS PER INVOICE",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO9876543210",
+    "lcDetails": {
+      "lcNumber": "12345678901234"
+    },
+    "certificateDetails": "CN20241003001",
+    "originalBLDistribution": {
+      "name": "CONSIGNEE 3729",
+      "address": "20 ORCHARD BOULEVARD, #01-01, SINGAPORE 238856",
+      "telephone": "+65-6737-8901",
+      "fax": "+65-6737-8902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1295",
+      "address": "100 UPPER PECKTON ROAD, SINGAPORE 088357",
+      "telephone": "+65-6876-5432",
+      "fax": "+65-6876-5433"
+    },
+    "onboardDate": "2024-10-25 10:30",
+    "additionalRemarks": "Temperature controlled shipment, maintain -18 degrees Celsius"
+  },
+  "reeferSettings": {
+    "containerType": "Reefer",
+    "setpointTemperature": 20,
+    "temperatureRange": {
+      "minimum": 15,
+      "maximum": 25
+    },
+    "ventilationMode": "Controlled",
+    "humidityControl": "On",
+    "humiditySetpoint": 70,
+    "airflow": "Medium"
+  }
+}

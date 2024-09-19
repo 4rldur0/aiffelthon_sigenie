@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411039716",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2411AVH321"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA GLOBAL TRADING CO.",
+      "onBehalfOf": "",
+      "address": "123 NINGBO STREET, NINGBO, CHINA, 315000",
+      "telephone": "+86-574-5555-1234",
+      "fax": "+86-574-5555-5678"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT LTD",
+      "address": "123 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT & EXPORT LTD",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "87163010",
+  "commodityDescription": "REEFER TRAILER UNITS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908631",
+      "sealNumber": "892089",
+      "marksAndNumbers": "DELTA GLOBAL 001",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: REEFER TRAILER UNIT",
+      "grossWeight": 12000.0,
+      "measurement": 40.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908632",
+      "sealNumber": "892090",
+      "marksAndNumbers": "DELTA GLOBAL 002",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: REEFER TRAILER UNIT",
+      "grossWeight": 12000.0,
+      "measurement": 40.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE REEFER CONTAINER X2) CONTAINERS ONLY",
+    "totalPackages": 2,
+    "packageType": "UNIT",
+    "containerType": "40' HIGH CUBE REEFER",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 80.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT LTD",
+      "address": "123 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT LTD",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31-10-5555-1234",
+      "fax": "+31-10-5555-5678"
+    },
+    "onboardDate": "2024-11-07 10:00",
+    "additionalRemarks": "Containers must be pre-cooled to 2 degrees Celsius before loading. "
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}
