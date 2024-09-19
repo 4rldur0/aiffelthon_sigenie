@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410094337",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "345ZKP"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD",
+      "address": "123 ELECTRONICS AVE, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6789",
+      "fax": "+86 21 5555 9876"
+    },
+    "consignee": {
+      "name": "FEDEX INTERNATIONAL",
+      "address": "456 FEDEX WAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "IMPORT@FEDEX.NL",
+      "contactPerson": "PETER VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "name": "FEDEX INTERNATIONAL",
+      "address": "456 FEDEX WAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "IMPORT@FEDEX.NL",
+      "contactPerson": "PETER VAN DER HEIJDEN"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85423990",
+  "commodityDescription": "MEMORY MODULES",
+  "containers": [
+    {
+      "containerNumber": "CMAU2439180",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APEL20241009",
+      "numberOfPackages": 100,
+      "cargoDescription": "MEMORY MODULES AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU2439181",
+      "sealNumber": "789012",
+      "marksAndNumbers": "APEL20241009",
+      "numberOfPackages": 100,
+      "cargoDescription": "MEMORY MODULES AS PER PACKING LIST",
+      "grossWeight": 12500.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CMAU2439182",
+      "sealNumber": "345678",
+      "marksAndNumbers": "APEL20241009",
+      "numberOfPackages": 100,
+      "cargoDescription": "MEMORY MODULES AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU2439183",
+      "sealNumber": "901234",
+      "marksAndNumbers": "APEL20241009",
+      "numberOfPackages": 100,
+      "cargoDescription": "MEMORY MODULES AS PER PACKING LIST",
+      "grossWeight": 12500.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CMAU2439184",
+      "sealNumber": "567890",
+      "marksAndNumbers": "APEL20241009",
+      "numberOfPackages": 100,
+      "cargoDescription": "MEMORY MODULES AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 DRY CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 61000.0,
+    "totalMeasurement": 154.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "APEL20241009001",
+    "documentNumber": "20241009-002",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CO-12345678"
+    ],
+    "originalBLDistribution": {
+      "name": "FEDEX INTERNATIONAL",
+      "address": "456 FEDEX WAY, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FEDEX INTERNATIONAL",
+      "address": "456 FEDEX WAY, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-16 10:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED. SHIPMENT CONTAINS SENSITIVE ELECTRONIC COMPONENTS. PLEASE STORE IN A COOL AND DRY AREA."
+  }
+}

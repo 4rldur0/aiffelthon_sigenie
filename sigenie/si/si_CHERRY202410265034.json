@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202410265034",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024431E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9215",
+      "address": "123 MAIN STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3579",
+      "address": "456 AVENUE DE PARIS, LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 78 90 12"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6832",
+      "address": "789 RUE DE LA LIBERTE, PARIS, FRANCE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940171",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "CHAIR1",
+      "numberOfPackages": 50,
+      "cargoDescription": "OFFICE CHAIRS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU1122334",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "CHAIR2",
+      "numberOfPackages": 50,
+      "cargoDescription": "OFFICE CHAIRS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU5566778",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "CHAIR3",
+      "numberOfPackages": 50,
+      "cargoDescription": "OFFICE CHAIRS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU2233445",
+      "sealNumber": "147852369",
+      "marksAndNumbers": "CHAIR4",
+      "numberOfPackages": 50,
+      "cargoDescription": "OFFICE CHAIRS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU6677889",
+      "sealNumber": "523698741",
+      "marksAndNumbers": "CHAIR5",
+      "numberOfPackages": 50,
+      "cargoDescription": "OFFICE CHAIRS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241026001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3579",
+      "address": "456 AVENUE DE PARIS, LE HAVRE, FRANCE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 6832",
+      "address": "789 RUE DE LA LIBERTE, PARIS, FRANCE"
+    },
+    "onboardDate": "2024-11-05 10:00",
+    "additionalRemarks": "Please ensure containers are secured properly for transit"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

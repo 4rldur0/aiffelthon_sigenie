@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410284535",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24324W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING INC.",
+      "address": "123 Industrial Road, Ningbo, China",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-98765432"
+    },
+    "consignee": {
+      "name": "ALPHA TRADING CO.",
+      "address": "456 Trade Center, Hamburg, Germany",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432",
+      "email": "import@alphatrading.de",
+      "contactPerson": "Peter Schmidt"
+    },
+    "notifyParty": {
+      "name": "ALPHA TRADING CO.",
+      "address": "456 Trade Center, Hamburg, Germany",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432",
+      "email": "import@alphatrading.de",
+      "contactPerson": "Jane Doe"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "SEMI-TRAILERS FOR TRUCKS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BMT123",
+      "numberOfPackages": 1,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SEMI-TRAILER FOR TRUCKS",
+      "grossWeight": 22000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BMT456",
+      "numberOfPackages": 1,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SEMI-TRAILER FOR TRUCKS",
+      "grossWeight": 22000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "BMT789",
+      "numberOfPackages": 1,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SEMI-TRAILER FOR TRUCKS",
+      "grossWeight": 22000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40' DRY CONTAINER",
+    "totalPackages": 3,
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 180.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241028-001",
+    "documentNumber": "20241028-002",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA TRADING CO.",
+      "address": "456 Trade Center, Hamburg, Germany",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA TRADING CO.",
+      "address": "456 Trade Center, Hamburg, Germany",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432"
+    },
+    "onboardDate": "2024-11-03 12:00",
+    "additionalRemarks": "CARGO NEEDS SECUREMENT. Value: EUR75,000"
+  }
+}

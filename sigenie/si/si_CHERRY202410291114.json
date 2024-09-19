@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410291114",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024342A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "MADRID"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4218",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 123 4567",
+      "fax": "+86 574 123 4568"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9857",
+      "address": "456 MADRID STREET, MADRID, SPAIN 28001",
+      "telephone": "+34 911 234 5678",
+      "fax": "+34 911 234 5679",
+      "email": "CUSTOMER9857@EXAMPLE.COM",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 7231",
+      "address": "789 BARCELONA AVENUE, BARCELONA, SPAIN 08001",
+      "telephone": "+34 931 567 8901",
+      "fax": "+34 931 567 8902"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854370",
+  "commodityDescription": "MOTOR DRIVERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTOR DRIVERS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 90,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTOR DRIVERS",
+      "grossWeight": 17000.0,
+      "measurement": 23.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 110,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTOR DRIVERS",
+      "grossWeight": 19000.0,
+      "measurement": 26.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 HIGH CUBE DRY",
+    "totalPackages": 300,
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 74.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV202410291114001",
+    "documentNumber": "DOC202410291114001",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "CERT1234567890",
+      "CERT9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9857",
+      "address": "456 MADRID STREET, MADRID, SPAIN 28001",
+      "telephone": "+34 911 234 5678",
+      "fax": "+34 911 234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 7231",
+      "address": "789 BARCELONA AVENUE, BARCELONA, SPAIN 08001",
+      "telephone": "+34 931 567 8901",
+      "fax": "+34 931 567 8902"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "Containers to be loaded under deck. Consignee requires pre-advice."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

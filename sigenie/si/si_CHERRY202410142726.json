@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410142726",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2442AVOH"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Global Electronics Co.",
+      "address": "1234 Tech Lane, Shanghai, CHINA 200100",
+      "telephone": "+86 21 5555 6789",
+      "fax": "+86 21 5555 6790"
+    },
+    "consignee": {
+      "name": "Acme Technologies LLC",
+      "address": "100 Acme Drive, Rotterdam, NETHERLANDS 3011AA",
+      "telephone": "+31 10 4444 5555",
+      "fax": "+31 10 4444 5556",
+      "email": "info@acmetechnologies.nl",
+      "contactPerson": "Sarah Jones"
+    },
+    "notifyParty": {
+      "name": "Acme Technologies LLC",
+      "address": "100 Acme Drive, Rotterdam, NETHERLANDS 3011AA",
+      "telephone": "+31 10 4444 5555",
+      "fax": "+31 10 4444 5556"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "854239",
+  "commodityDescription": "Microprocessors",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "GT20241014001",
+      "numberOfPackages": 500,
+      "cargoDescription": "Microprocessors",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "1020304050",
+      "marksAndNumbers": "GT20241014002",
+      "numberOfPackages": 500,
+      "cargoDescription": "Microprocessors",
+      "grossWeight": 10500.0,
+      "measurement": 26.0
+    },
+    {
+      "containerNumber": "CMAU6543210",
+      "sealNumber": "5040302010",
+      "marksAndNumbers": "GT20241014003",
+      "numberOfPackages": 500,
+      "cargoDescription": "Microprocessors",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 1500,
+    "totalGrossWeight": 30500.0,
+    "totalMeasurement": 76.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "GT20241014001",
+    "documentNumber": "20241014002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-20241014-001"
+    ],
+    "originalBLDistribution": {
+      "name": "Acme Technologies LLC",
+      "address": "100 Acme Drive, Rotterdam, NETHERLANDS 3011AA",
+      "telephone": "+31 10 4444 5555",
+      "fax": "+31 10 4444 5556"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Acme Technologies LLC",
+      "address": "100 Acme Drive, Rotterdam, NETHERLANDS 3011AA",
+      "telephone": "+31 10 4444 5555",
+      "fax": "+31 10 4444 5556"
+    },
+    "onboardDate": "2024-10-18 12:00",
+    "additionalRemarks": "Containers should be maintained at a temperature of 2-8 degrees Celsius during transit."
+  }
+}

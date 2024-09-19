@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410073462",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2440W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECH SOLUTIONS ASIA LTD.",
+      "address": "UNIT 1208, NO. 888 HUANGPU ROAD, SHANGHAI, CHINA 200001",
+      "telephone": "+86 21 6333 9999",
+      "email": "SHIPMENT@TECHSOLUTIONSASIA.COM"
+    },
+    "consignee": {
+      "name": "DELTA TRADING INC.",
+      "address": "BEIJERLAND 23, 3016 DK ROTTERDAM, NETHERLANDS",
+      "taxId": "NL855678901",
+      "president": "MR. PETER VAN DER HEIJDEN",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING INC.",
+      "address": "BEIJERLAND 23, 3016 DK ROTTERDAM, NETHERLANDS",
+      "taxId": "NL855678901",
+      "president": "MR. PETER VAN DER HEIJDEN",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847130",
+  "commodityDescription": "Servers",
+  "containers": [
+    {
+      "containerNumber": "SUDU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FCA, ROTTERDAM, NETHERLANDS SERVERS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SUDU1234568",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FCA, ROTTERDAM, NETHERLANDS SERVERS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "SUDU1234569",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 20,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FCA, ROTTERDAM, NETHERLANDS SERVERS",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINERS",
+    "totalPackages": 45,
+    "packageType": "MIXED",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 37000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING INC.",
+      "address": "BEIJERLAND 23, 3016 DK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING INC.",
+      "address": "BEIJERLAND 23, 3016 DK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
+    },
+    "onboardDate": "2024-10-10 14:00",
+    "additionalRemarks": "Require pre-slinging for safe loading"
+  }
+}

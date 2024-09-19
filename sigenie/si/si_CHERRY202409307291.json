@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202409307291",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "240930LEH"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Trading Co.",
+      "address": "No. 58, Xingfu Road, Ningbo, China"
+    },
+    "consignee": {
+      "name": "SUNBEAM INDUSTRIES",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 202 1000",
+      "fax": "+31 10 202 1010"
+    },
+    "notifyParty": {
+      "name": "SUNBEAM INDUSTRIES",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 202 1000",
+      "fax": "+31 10 202 1010"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854370",
+  "commodityDescription": "LED LIGHTING FIXTURES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SW20241023",
+      "numberOfPackages": 50,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LED LIGHTING FIXTURES",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SW20241023",
+      "numberOfPackages": 50,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LED LIGHTING FIXTURES",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241023002"
+    },
+    "certificateDetails": [
+      "20241023C002"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNBEAM INDUSTRIES",
+      "address": "123 Main Street, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNBEAM INDUSTRIES",
+      "address": "123 Main Street, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-10-07 15:00",
+    "additionalRemarks": "2 x 40' HQ Dry Containers, Packing: Cartons on Pallets, Value: USD15,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

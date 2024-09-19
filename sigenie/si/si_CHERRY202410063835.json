@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410063835",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024812W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5172",
+      "address": "1234 JURONG ISLAND ROAD, SINGAPORE",
+      "country": "SINGAPORE",
+      "additionalInfo": "(SOUTHERN SECTOR)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5432",
+      "address": "5678 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "CUSTOMER5432@EXAMPLE.COM",
+      "telephone": "+31 10 456 78 90"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6789",
+      "address": "9012 RECEIVER LANE, AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "RECEIVER6789@EXAMPLE.COM",
+      "telephone": "+31 20 876 54 32"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "CNC MILLING MACHINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "WOODEN CRATES",
+      "cargoDescription": "CNC MILLING MACHINE PARTS - PACKED IN WOODEN CRATES",
+      "grossWeight": 7000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 40,
+      "packageType": "WOODEN CRATES",
+      "cargoDescription": "CNC MILLING MACHINE PARTS - PACKED IN WOODEN CRATES",
+      "grossWeight": 6500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY X2) CONTAINERS ONLY",
+    "totalPackages": 90,
+    "packageType": "WOODEN CRATES",
+    "totalGrossWeight": 13500.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO987654321",
+    "hsCode": "847989",
+    "freeTimeAtDestination": "5 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "BANK OF AMERICA",
+      "address": "1000 N.W. 16TH STREET, MIAMI, FLORIDA, USA",
+      "telephone": "+1 305-579-2000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 5432",
+      "address": "5678 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 78 90"
+    },
+    "onboardDate": "2024-10-10 19:47",
+    "additionalRemarks": "Please ensure adequate lashing and securing of the machinery inside the container."
+  }
+}

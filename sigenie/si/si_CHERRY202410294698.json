@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410294698",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2447E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS LTD.",
+      "address": "No. 123 Changjiang Road, Ningbo, 315000, CHINA",
+      "telephone": "+86-574-8689-9876",
+      "fax": "+86-574-8689-9875"
+    },
+    "consignee": {
+      "name": "ABC GLOBAL LOGISTICS INC.",
+      "address": "123 Calle Mayor, Algeciras, 11001, SPAIN",
+      "telephone": "+34-956-520-1234",
+      "fax": "+34-956-520-1235"
+    },
+    "notifyParty": {
+      "name": "ABC GLOBAL LOGISTICS INC.",
+      "address": "123 Calle Mayor, Algeciras, 11001, SPAIN",
+      "telephone": "+34-956-520-1234",
+      "fax": "+34-956-520-1235"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854239",
+  "commodityDescription": "MICROPROCESSOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE ELECTRONICS LTD.",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. MICROPROCESSOR CHIPS. B/L TO BE ISSUED IN ORIGINAL SET OF 3.",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE ELECTRONICS LTD.",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. MICROPROCESSOR CHIPS. B/L TO BE ISSUED IN ORIGINAL SET OF 3.",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "ABC20241030",
+    "salesOrderNumber": "SUNRISE20241030",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ABC GLOBAL LOGISTICS INC.",
+      "address": "123 Calle Mayor, Algeciras, 11001, SPAIN",
+      "telephone": "+34-956-520-1234",
+      "fax": "+34-956-520-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC GLOBAL LOGISTICS INC.",
+      "address": "123 Calle Mayor, Algeciras, 11001, SPAIN",
+      "telephone": "+34-956-520-1234",
+      "fax": "+34-956-520-1235"
+    },
+    "onboardDate": "2024-10-31 14:00",
+    "additionalRemarks": "7 Days Free Time at Destination"
+  }
+}

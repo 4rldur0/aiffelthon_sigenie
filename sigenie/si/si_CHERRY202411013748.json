@@ -1,0 +1,118 @@
+{
+  "bookingReference": "CHERRY202411013748",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2427EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SCHNEIDER ELECTRIC SE",
+      "address": "123 Rue de la R\u00e9publique, 92100 Boulogne-Billancourt, France",
+      "telephone": "+33 1 41 29 70 00",
+      "fax": "+33 1 41 29 70 01"
+    },
+    "consignee": {
+      "name": "ABB GROUP",
+      "address": "Seestrasse 27, 6300 Zug, Switzerland",
+      "telephone": "+41 41 369 71 11",
+      "fax": "+41 41 369 70 00"
+    },
+    "notifyParty": {
+      "name": "ABB GROUP",
+      "address": "Seestrasse 27, 6300 Zug, Switzerland",
+      "telephone": "+41 41 369 71 11",
+      "fax": "+41 41 369 70 00"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85362090",
+  "commodityDescription": "TRANSFORMER COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CMLU55555555",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SCHNEIDER ELECTRIC SE MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRANSFORMER COMPONENTS",
+      "grossWeight": 18000,
+      "measurement": 35
+    },
+    {
+      "containerNumber": "CMLU66666666",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SCHNEIDER ELECTRIC SE MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRANSFORMER COMPONENTS",
+      "grossWeight": 18000,
+      "measurement": 35
+    },
+    {
+      "containerNumber": "CMLU77777777",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SCHNEIDER ELECTRIC SE MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRANSFORMER COMPONENTS",
+      "grossWeight": 18000,
+      "measurement": 35
+    },
+    {
+      "containerNumber": "CMLU88888888",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SCHNEIDER ELECTRIC SE MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRANSFORMER COMPONENTS",
+      "grossWeight": 18000,
+      "measurement": 35
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 400,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 72000,
+    "totalMeasurement": 140
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-20241101-001",
+    "salesOrderNumber": "SO-20241101-002",
+    "originalBLDistribution": {
+      "name": "ABB GROUP",
+      "address": "Seestrasse 27, 6300 Zug, Switzerland",
+      "telephone": "+41 41 369 71 11",
+      "fax": "+41 41 369 70 00"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABB GROUP",
+      "address": "Seestrasse 27, 6300 Zug, Switzerland",
+      "telephone": "+41 41 369 71 11",
+      "fax": "+41 41 369 70 00"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "FRAGILE CARGO - HANDLE WITH CARE"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

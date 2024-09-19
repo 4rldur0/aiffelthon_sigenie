@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202410202216",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24253NW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2189",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "email": "SHIPPING@SHIPPER2189.CN"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7532 GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60329 FRANKFURT AM MAIN, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. HANS MEIER",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 5679"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9876",
+      "address": "10TH FLOOR, OCEAN TOWER, 555 OCEAN STREET, HONG KONG",
+      "telephone": "+852 2121 3456",
+      "fax": "+852 2121 3457"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "TEXTILE MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU5912345",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "TEXTILE MACHINERY AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU5912346",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "TEXTILE MACHINERY AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU5912347",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "TEXTILE MACHINERY AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 3,
+    "packageType": "UNITS",
+    "containerType": "40' HIGH CUBE",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 9876",
+      "address": "10TH FLOOR, OCEAN TOWER, 555 OCEAN STREET, HONG KONG",
+      "telephone": "+852 2121 3456",
+      "fax": "+852 2121 3457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 7532 GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 5679"
+    },
+    "onboardDate": "2024-10-23 14:15",
+    "additionalRemarks": "Containers to be pre-cooled to 5 degrees Celsius before loading."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

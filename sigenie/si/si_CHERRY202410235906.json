@@ -1,0 +1,87 @@
+{
+  "bookingReference": "CHERRY202410235906",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2345W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EURO TRADE CO. GMBH",
+      "address": "Kurf\u00fcrstendamm 61, 10707 Berlin, GERMANY"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "Frankfurter Ring 193, 80807 M\u00fcnchen, GERMANY",
+      "telephone": "+49 89 12345678",
+      "fax": "+49 89 98765432"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "Frankfurter Ring 193, 80807 M\u00fcnchen, GERMANY",
+      "telephone": "+49 89 12345678",
+      "fax": "+49 89 98765432"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "95030090",
+  "commodityDescription": "CHILDREN'S PLASTIC BUILDING BLOCKS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 150,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CHILDREN'S PLASTIC BUILDING BLOCKS (H.1200)",
+      "grossWeight": 12000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "ET456",
+      "numberOfPackages": 160,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CHILDREN'S PLASTIC BUILDING BLOCKS (H.1200)",
+      "grossWeight": 13000.0,
+      "measurement": 52.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC) CONTAINERS ONLY",
+    "totalPackages": 310,
+    "packageType": "PACKAGES",
+    "containerType": "40'HC",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 102.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000201033738"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "Frankfurter Ring 193, 80807 M\u00fcnchen, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TRADE CO. GMBH",
+      "address": "Kurf\u00fcrstendamm 61, 10707 Berlin, GERMANY"
+    },
+    "onboardDate": "2024-10-26 10:00",
+    "additionalRemarks": "CARGO SHOULD BE STOWED AWAY FROM DIRECT SUNLIGHT.  SPECIAL HANDLING REQUIRED FOR FRAGILE ITEMS."
+  }
+}

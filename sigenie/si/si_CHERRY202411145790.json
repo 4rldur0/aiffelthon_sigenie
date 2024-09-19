@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202411145790",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024915E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "CASABLANCA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "TANGER, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Logistics",
+      "onBehalfOf": "ABC Corporation",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8888-8888",
+      "fax": "+86-574-8888-8889"
+    },
+    "consignee": {
+      "name": "ABC Corporation",
+      "address": "124 RABAT STREET, CASABLANCA, MOROCCO",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "ABC Corporation Accounting",
+      "address": "124 RABAT STREET, CASABLANCA, MOROCCO"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "902300",
+  "commodityDescription": "MEDICAL EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL EQUIPMENT - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN MEDICAL EQUIPMENT",
+      "grossWeight": 24000.0,
+      "measurement": 12.0,
+      "additionalInfo": "MAINTAIN TEMPERATURE BETWEEN -20\u00b0C AND -15\u00b0C DURING TRANSIT. REQUIRES FUMIGATION CERTIFICATE."
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL EQUIPMENT - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN MEDICAL EQUIPMENT",
+      "grossWeight": 24000.0,
+      "measurement": 12.0,
+      "additionalInfo": "MAINTAIN TEMPERATURE BETWEEN -20\u00b0C AND -15\u00b0C DURING TRANSIT. REQUIRES FUMIGATION CERTIFICATE."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HQ DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "40 HQ DRY CONTAINER",
+    "totalGrossWeight": 48000.0,
+    "totalMeasurement": 24.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC Corporation Accounting",
+      "address": "124 RABAT STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212-522-1234-5678",
+      "fax": "+212-522-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Corporation",
+      "address": "124 RABAT STREET, CASABLANCA, MOROCCO"
+    },
+    "onboardDate": "2024-11-16 12:00",
+    "additionalRemarks": "Maintain temperature between -20\u00b0C and -15\u00b0C during transit. Requires fumigation certificate."
+  }
+}

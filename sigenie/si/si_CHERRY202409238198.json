@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202409238198",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2332EWA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA INDUSTRIES LTD.",
+      "address": "No. 1234 Huangpu Road, Shanghai, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 5386 5678",
+      "email": "shipping@omegaindustries.com"
+    },
+    "consignee": {
+      "name": "DELTA GLOBAL TRADING INC.",
+      "address": "123 Avenue de la Toison d'Or, 1050 Brussels, Belgium",
+      "country": "BELGIUM",
+      "email": "info@deltaglobaltrading.be",
+      "telephone": "+32 2 555 1234"
+    },
+    "notifyParty": {
+      "name": "DELTA GLOBAL TRADING INC.",
+      "address": "123 Avenue de la Toison d'Or, 1050 Brussels, Belgium",
+      "country": "BELGIUM",
+      "email": "info@deltaglobaltrading.be",
+      "telephone": "+32 2 555 1234"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85366910",
+  "commodityDescription": "ELECTRIC MOTOR CONTROL UNITS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "890123",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTOR CONTROL UNITS AS PER INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "234567",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTOR CONTROL UNITS AS PER INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU2223331",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GHI789",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTOR CONTROL UNITS AS PER INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) x 40' DRY CONTAINERS",
+    "totalPackages": 150,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "4567890123"
+    },
+    "certificateDetails": [
+      "CN789012"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA GLOBAL TRADING INC.",
+      "address": "123 Avenue de la Toison d'Or, 1050 Brussels, Belgium",
+      "telephone": "+32 2 555 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA GLOBAL TRADING INC.",
+      "address": "123 Avenue de la Toison d'Or, 1050 Brussels, Belgium",
+      "telephone": "+32 2 555 1234"
+    },
+    "onboardDate": "2024-10-02 10:00",
+    "additionalRemarks": "CARGO REQUIRES ROOF PROTECTION DURING TRANSIT"
+  }
+}

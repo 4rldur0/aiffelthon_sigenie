@@ -1,0 +1,66 @@
+{
+  "bookingReference": "CHERRY202410306564",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2442W19"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS & EXPORTS",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING & LOGISTICS",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 8901"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING & LOGISTICS",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 8901"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "90211000",
+  "commodityDescription": "DIGITAL REFRACTION UNIT",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE20241030",
+      "numberOfPackages": 1,
+      "cargoDescription": "DIGITAL REFRACTION UNIT - PACKED IN WOODEN CRATE",
+      "grossWeight": 800.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 800.0,
+    "totalMeasurement": 10.0
+  },
+  "additionalInformation": {
+    "onboardDate": "2024-11-02 14:00",
+    "additionalRemarks": "FRAGILE CARGO, HANDLE WITH CARE"
+  }
+}

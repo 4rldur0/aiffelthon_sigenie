@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410285580",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "1234DEF"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "1234 LONGHUA ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1313"
+    },
+    "consignee": {
+      "name": "ACME FURNITURE LTD.",
+      "address": "22 MAIN STREET, HAMBURG, GERMANY, 20359",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "100 BROADWAY, NEW YORK, NY 10004, USA",
+      "telephone": "+1-212-999-9999",
+      "fax": "+1-212-999-9998"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940350",
+  "commodityDescription": "WOODEN DINING TABLES",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ACME FURNITURE LTD. HAMBURG",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN DINING TABLES",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ACME FURNITURE LTD. HAMBURG",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN DINING TABLES",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGLU8765432",
+      "sealNumber": "876543",
+      "marksAndNumbers": "ACME FURNITURE LTD. HAMBURG",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN DINING TABLES",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGLU3216547",
+      "sealNumber": "321654",
+      "marksAndNumbers": "ACME FURNITURE LTD. HAMBURG",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN DINING TABLES",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGLU6547891",
+      "sealNumber": "654789",
+      "marksAndNumbers": "ACME FURNITURE LTD. HAMBURG",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN DINING TABLES",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "CRATES",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-2024-10-28-001",
+    "salesOrderNumber": "SO-2024-10-28-002",
+    "lcDetails": {
+      "lcNumber": "LC-2024-10-28-003"
+    },
+    "certificateDetails": "CN20241028004",
+    "originalBLDistribution": {
+      "name": "ACME FURNITURE LTD.",
+      "address": "22 MAIN STREET, HAMBURG, GERMANY, 20359",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "100 BROADWAY, NEW YORK, NY 10004, USA",
+      "telephone": "+1-212-999-9999",
+      "fax": "+1-212-999-9998"
+    },
+    "onboardDate": "2024-10-31 16:00",
+    "additionalRemarks": "CONTAINER MUST BE SEALED AFTER LOADING. PLEASE PROVIDE CERTIFICATE OF ORIGIN."
+  }
+}

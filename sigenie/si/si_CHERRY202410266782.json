@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410266782",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024156E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1257",
+      "address": "123 Industrial Road, Ningbo, Zhejiang Province, China",
+      "country": "CHINA",
+      "additionalInfo": "(315000)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7381",
+      "address": "456 Avenida del Mar, Algeciras, 11001, Spain",
+      "country": "SPAIN",
+      "email": "info@customer7381.com",
+      "telephone": "+34 956 555 123"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3492",
+      "address": "789 Calle de la Sierra, Algeciras, 11002, Spain",
+      "country": "SPAIN",
+      "email": "invoices@invoicereceiver3492.com",
+      "telephone": "+34 956 666 456"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "271019",
+  "commodityDescription": "Petroleum Crude Oil",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "C7381-1",
+      "numberOfPackages": 0,
+      "packageType": "BULK",
+      "cargoDescription": "Petroleum Crude Oil - CIF ALGECIRAS",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU1122334",
+      "sealNumber": "654321",
+      "marksAndNumbers": "C7381-2",
+      "numberOfPackages": 0,
+      "packageType": "BULK",
+      "cargoDescription": "Petroleum Crude Oil - CIF ALGECIRAS",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU7788990",
+      "sealNumber": "987654",
+      "marksAndNumbers": "C7381-3",
+      "numberOfPackages": 0,
+      "packageType": "BULK",
+      "cargoDescription": "Petroleum Crude Oil - CIF ALGECIRAS",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU2233445",
+      "sealNumber": "432109",
+      "marksAndNumbers": "C7381-4",
+      "numberOfPackages": 0,
+      "packageType": "BULK",
+      "cargoDescription": "Petroleum Crude Oil - CIF ALGECIRAS",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU5566778",
+      "sealNumber": "098765",
+      "marksAndNumbers": "C7381-5",
+      "numberOfPackages": 0,
+      "packageType": "BULK",
+      "cargoDescription": "Petroleum Crude Oil - CIF ALGECIRAS",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20'DV X5) CONTAINERS ONLY",
+    "totalPackages": 0,
+    "packageType": "BULK",
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 165.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241026-001",
+    "freeTimeAtDestination": "7 DAYS FREE TIME AT DESTINATION",
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED",
+    "additionalRemarks": "Require pre-advice for customs clearance.",
+    "onboardDate": "2024-10-31 15:48"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

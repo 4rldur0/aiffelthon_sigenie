@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202409168470",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2420W1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO.",
+      "address": "123 TECH STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678"
+    },
+    "consignee": {
+      "name": "GLOBAL TECH SOLUTIONS LTD.",
+      "address": "456 INNOVATION AVE, MADRID, SPAIN 28001",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 8901",
+      "email": "info@globaltech.es",
+      "contactPerson": "MARIA RODRIGUEZ"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "CUSTOMS BROKER SPAIN SL",
+      "address": "789 LOGISTICS STREET, BARCELONA, SPAIN 08001",
+      "telephone": "+34 93 234 5678",
+      "fax": "+34 93 234 9012"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "854239",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU76543210",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 20200.0,
+      "measurement": 30.5
+    },
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "543216789",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 19800.0,
+      "measurement": 30.2
+    },
+    {
+      "containerNumber": "CRLU43216578",
+      "sealNumber": "876543210",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 19900.0,
+      "measurement": 30.3
+    },
+    {
+      "containerNumber": "CRLU56789012",
+      "sealNumber": "210987654",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 20100.0,
+      "measurement": 30.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 2500,
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 150.4
+  },
+  "additionalInformation": {
+    "invoiceNumber": "GTS20241027",
+    "documentNumber": "20241027002",
+    "lcDetails": {
+      "lcNumber": "LC1234567891"
+    },
+    "certificateDetails": [
+      "CO1234567892"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TECH SOLUTIONS LTD.",
+      "address": "456 INNOVATION AVE, MADRID, SPAIN 28001",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 8901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TECH SOLUTIONS LTD.",
+      "address": "456 INNOVATION AVE, MADRID, SPAIN 28001",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 8901"
+    },
+    "onboardDate": "2024-09-20 14:00",
+    "additionalRemarks": "10 Days Free Time at Destination"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

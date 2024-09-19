@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410236735",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "3456WQB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GAMMA INDUSTRIES LTD.",
+      "address": "4567 BEIJING ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(JINGAN DISTRICT)",
+      "telephone": "+86 21 5876 8910",
+      "email": "INFO@GAMMAINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CORP.",
+      "address": "1234 LONDON BRIDGE STREET, LONDON, UNITED KINGDOM, SE1 9SG",
+      "country": "UNITED KINGDOM",
+      "email": "ORDERS@DELTATRADING.COM",
+      "telephone": "+44 20 7123 4567"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CORP.",
+      "address": "1234 LONDON BRIDGE STREET, LONDON, UNITED KINGDOM, SE1 9SG",
+      "country": "UNITED KINGDOM",
+      "email": "ORDERS@DELTATRADING.COM",
+      "telephone": "+44 20 7123 4567"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "Industrial Cleaning Equipment",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GAMMA 123",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "Industrial Cleaning Equipment - Model A123",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GAMMA 456",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "Industrial Cleaning Equipment - Model B456",
+      "grossWeight": 12200.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 1000,
+    "totalGrossWeight": 24200.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      {
+        "certificateName": "Certificate of Origin",
+        "issuingAuthority": "China Chamber of Commerce"
+      },
+      {
+        "certificateName": "Fumigation Certificate",
+        "issuingAuthority": "Approved Fumigation Company"
+      }
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CORP.",
+      "address": "1234 LONDON BRIDGE STREET, LONDON, UNITED KINGDOM, SE1 9SG",
+      "telephone": "+44 20 7123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CORP.",
+      "address": "1234 LONDON BRIDGE STREET, LONDON, UNITED KINGDOM, SE1 9SG",
+      "telephone": "+44 20 7123 4567"
+    },
+    "onboardDate": "2024-10-26 10:00",
+    "additionalRemarks": "5 Days Free Time at Destination, Documentation Required: Commercial Invoice, Packing List, Bill of Lading, Certificate of Origin, Fumigation Certificate"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

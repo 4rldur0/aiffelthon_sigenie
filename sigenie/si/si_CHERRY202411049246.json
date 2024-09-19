@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411049246",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024937E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING LTD.",
+      "address": "123 Sunrise Avenue, Ningbo, China 315000",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 98765432"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "456 Marina Bay, Rotterdam, Netherlands 3011AB",
+      "telephone": "+31 10 61234567",
+      "fax": "+31 10 69876543",
+      "email": "info@globaltrading.nl",
+      "contactPerson": "John Van Der Meer"
+    },
+    "notifyParty": {
+      "name": "ACME IMPORT EXPORT",
+      "address": "123 Acme Street, Rotterdam, Netherlands 3011AB"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "Egg Grading Machinery",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SM-EGGS-20241104",
+      "numberOfPackages": 100,
+      "cargoDescription": "Egg Grading Machinery Components",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SM-EGGS-20241104",
+      "numberOfPackages": 100,
+      "cargoDescription": "Egg Grading Machinery Components",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40' HIGH CUBE REEFER CONTAINER",
+    "totalPackages": 200,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202411041948-01",
+    "documentNumber": "202411041948-02",
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "456 Marina Bay, Rotterdam, Netherlands 3011AB"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "456 Marina Bay, Rotterdam, Netherlands 3011AB"
+    },
+    "onboardDate": "2024-11-08 10:00",
+    "additionalRemarks": "Containers must maintain temperature between 2-4 degrees Celsius during transit."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9421234",
+    "unClass": "6",
+    "unCode": "No:",
+    "hsCode": "2097.27.86",
+    "flashPoint": "43\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

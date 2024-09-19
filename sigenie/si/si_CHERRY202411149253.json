@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411149253",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024623W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5649",
+      "address": "123 TECH STREET, NINGBO, CHINA",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-98765432"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7312",
+      "address": "456 TECH TOWER, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432",
+      "email": "CUSTOMER@CUSTOMER7312.NL",
+      "contactPerson": "JAN VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3857",
+      "address": "789 INVOICE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-45678901",
+      "fax": "+31-10-98765432"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "940161",
+  "commodityDescription": "Sofa Frames",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "11112222",
+      "marksAndNumbers": "CTT20241115",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Sofa Frames",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "22223333",
+      "marksAndNumbers": "CTT20241115",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Sofa Frames",
+      "grossWeight": 7500.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "33334444",
+      "marksAndNumbers": "CTT20241115",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Sofa Frames",
+      "grossWeight": 8500.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 150,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "CTT20241115001",
+    "documentNumber": "20241115002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "CHINA TECH TRADING LTD",
+      "address": "123 TECH STREET, NINGBO, CHINA",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 7312",
+      "address": "456 TECH TOWER, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "onboardDate": "2024-10-26 16:00",
+    "additionalRemarks": "Require pre-shipment inspection"
+  }
+}

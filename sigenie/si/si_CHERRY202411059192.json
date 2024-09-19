@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411059192",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2437E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO ECONOMIC & TECHNOLOGICAL DEVELOPMENT ZONE)"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY 20457",
+      "country": "GERMANY",
+      "email": "INFO@GLOBALTRADING.DE",
+      "telephone": "+49 40 123 4567"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY 20457",
+      "country": "GERMANY",
+      "email": "INFO@GLOBALTRADING.DE",
+      "telephone": "+49 40 123 4567"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "54075200",
+  "commodityDescription": "POLYESTER FABRICS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ASIA PACIFIC TEXTILES 1/3",
+      "numberOfPackages": 1000,
+      "packageType": "ROLLS",
+      "cargoDescription": "POLYESTER FABRICS AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "ASIA PACIFIC TEXTILES 2/3",
+      "numberOfPackages": 1000,
+      "packageType": "ROLLS",
+      "cargoDescription": "POLYESTER FABRICS AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU4321098",
+      "sealNumber": "98765432",
+      "marksAndNumbers": "ASIA PACIFIC TEXTILES 3/3",
+      "numberOfPackages": 1000,
+      "packageType": "ROLLS",
+      "cargoDescription": "POLYESTER FABRICS AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "ROLLS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO543210",
+    "hsCode": "54075200",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+      "telephone": "03600061234",
+      "fax": "81-3-6000-0001"
+    },
+    "onboardDate": "2024-11-08 10:00",
+    "additionalRemarks": "Free Time 7 Days at Port of Discharge, Fumigation Certificate Required"
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  }
+}

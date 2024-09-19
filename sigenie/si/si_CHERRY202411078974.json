@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202411078974",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "1234ABC"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EAST ASIA TRADING CO.",
+      "address": "123 Trade Street, Shanghai, China, 200002"
+    },
+    "consignee": {
+      "name": "ABC ELECTRONICS INC.",
+      "address": "123 Innovation Avenue, Berlin, Germany, 10117"
+    },
+    "notifyParty": {
+      "name": "ABC ELECTRONICS INC.",
+      "address": "123 Innovation Avenue, Berlin, Germany, 10117"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854440",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EA202311",
+      "numberOfPackages": 100,
+      "cargoDescription": "MICROPROCESSORS - MODEL A123",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EA202311",
+      "numberOfPackages": 100,
+      "cargoDescription": "MICROPROCESSORS - MODEL B456",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "containerType": "40HC DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC ELECTRONICS INC.",
+      "address": "123 Innovation Avenue, Berlin, Germany, 10117"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 Anson Road, #10-01, Singapore 079903"
+    },
+    "onboardDate": "2024-11-10 10:00",
+    "additionalRemarks": "2 x 40' High Cube Reefer containers, carrying temperature-sensitive microprocessors for industrial applications. Value: USD 80,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

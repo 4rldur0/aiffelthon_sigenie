@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202411051409",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "3216WEN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIAN CIRCUIT CO. LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6278 5692",
+      "email": "SALES@ASIANCIRCUIT.COM"
+    },
+    "consignee": {
+      "name": "EURO TECH IMPORTERS",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 203 4567",
+      "fax": "+31 10 203 4568"
+    },
+    "notifyParty": {
+      "name": "EURO TECH IMPORTERS",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 203 4567",
+      "fax": "+31 10 203 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854231",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ETIMP ORDER 12345",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROPROCESSORS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU11223344",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "ETIMP ORDER 12345",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROPROCESSORS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU55667788",
+      "sealNumber": "99887766",
+      "marksAndNumbers": "ETIMP ORDER 12345",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROPROCESSORS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 DRY CONTAINER x3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "BOXES",
+    "containerType": "40 DRY CONTAINER x3",
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED",
+    "originalBLDistribution": {
+      "name": "EURO TECH IMPORTERS",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 203 4567",
+      "fax": "+31 10 203 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TECH IMPORTERS",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 203 4567",
+      "fax": "+31 10 203 4568"
+    },
+    "onboardDate": "2024-11-09 10:00",
+    "additionalRemarks": "Containers must be pre-cooled to 2 degrees Celsius."
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202409225606",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "243W19"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS LLC",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 MAIN STREET, AMSTERDAM, 1012 DZ, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "GLOBAL.TRADING@EXAMPLE.COM",
+      "telephone": "+31-20-1234567"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TOKYO 100-0004, JAPAN",
+      "country": "JAPAN",
+      "email": "RECEIVER@BLUESKYLOGISTICS.COM",
+      "telephone": "+81-3-1234-5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85414000",
+  "commodityDescription": "POWER SUPPLY UNITS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE IMPORTS LLC",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER SUPPLY UNITS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE IMPORTS LLC",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER SUPPLY UNITS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SUNRISE IMPORTS LLC",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER SUPPLY UNITS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU4321654",
+      "sealNumber": "432165",
+      "marksAndNumbers": "SUNRISE IMPORTS LLC",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER SUPPLY UNITS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU5432167",
+      "sealNumber": "165432",
+      "marksAndNumbers": "SUNRISE IMPORTS LLC",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER SUPPLY UNITS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "85414000",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 MAIN STREET, AMSTERDAM, 1012 DZ, NETHERLANDS",
+      "telephone": "+31-20-1234567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY LOGISTICS",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TOKYO 100-0004, JAPAN",
+      "telephone": "+81-3-1234-5678"
+    },
+    "onboardDate": "2024-10-08 12:00",
+    "additionalRemarks": "40' HIGH CUBE CONTAINERS, VALUE: USD150,000"
+  }
+}

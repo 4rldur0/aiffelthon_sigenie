@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202410285007",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "244W123B"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC Manufacturing Group",
+      "address": "1234 Tech Boulevard, Shanghai, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Shanghai Free Trade Zone)"
+    },
+    "consignee": {
+      "name": "XYZ Global Trading Ltd.",
+      "address": "Kaiserstrasse 10, Frankfurt, GERMANY 60311",
+      "country": "GERMANY",
+      "email": "info@xyztrading.de",
+      "telephone": "+49 69 123 4567"
+    },
+    "notifyParty": {
+      "name": "Beta Logistics GmbH",
+      "address": "Hanauer Landstrasse 12, Frankfurt, GERMANY 60314",
+      "country": "GERMANY",
+      "email": "info@betalogistics.de",
+      "telephone": "+49 69 789 0123"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "854370",
+  "commodityDescription": "COMPUTER HARD DRIVES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTER HARD DRIVES, AS PER PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTER HARD DRIVES, AS PER PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU987654321",
+      "sealNumber": "987654",
+      "marksAndNumbers": "XYZ789",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTER HARD DRIVES, AS PER PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU23456789",
+      "sealNumber": "234567",
+      "marksAndNumbers": "XYZ012",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTER HARD DRIVES, AS PER PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU34567890",
+      "sealNumber": "345678",
+      "marksAndNumbers": "XYZ345",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTER HARD DRIVES, AS PER PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 x 40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 140.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "12345ABCDE",
+    "freeTimeAtDestination": "14 DAYS",
+    "originalBLDistribution": {
+      "name": "XYZ Global Trading Ltd.",
+      "address": "Kaiserstrasse 10, Frankfurt, GERMANY 60311",
+      "telephone": "+49 69 123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "XYZ Global Trading Ltd.",
+      "address": "Kaiserstrasse 10, Frankfurt, GERMANY 60311",
+      "telephone": "+49 69 123 4567"
+    },
+    "onboardDate": "2024-11-02 14:00",
+    "additionalRemarks": "CY-CY, Value: USD 35,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40 DRY Container"
+  }
+}
