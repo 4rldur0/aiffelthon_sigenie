@@ -12,10 +12,8 @@ def main():
         search_page.show_search_page()
     elif app_mode == "Bill of Lading Report":
         report_page.show_report_page()
-
     elif app_mode == "Report Page":
         display_report()
-
     elif app_mode == "LLM Summary Report":
         llm_summary_page.show_llm_summary_page()
 
