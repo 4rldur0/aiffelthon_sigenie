@@ -3,6 +3,10 @@ from pymongo import MongoClient
 import pandas as pd
 
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # MongoDB connection setup
 def get_mongodb_client():

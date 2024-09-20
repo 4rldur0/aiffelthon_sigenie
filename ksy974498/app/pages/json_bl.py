@@ -16,6 +16,13 @@ collection = db[COLLECTION_NAME]
 # Custom CSS to style the BL form
 custom_css = """
 <style>
+@font-face {
+    font-family: 'Freesentation';
+    src: url('./fonts/Freesentation.ttf') format('truetype');
+}
+html, body, [class*="st-"] {
+    font-family: 'Freesentation', sans-serif;
+}
     .bl-form {
         font-family: Arial, sans-serif;
         border: 2px solid black;
@@ -91,9 +98,9 @@ def display_bl_form(doc):
                 <h2>BILL OF LADING (B/L)</h2>
             </div>
             <div>
-                <p><strong>Booking Number:</strong> {doc.get('bookingReference', '')}</p>
-                <p><strong>Service Type:</strong> {doc.get('service', '')}</p>
-                <p><strong>B/L Number:</strong> {doc.get('bookingReference', '')}</p>
+                <p class="bl-row"><strong>Booking Number:</strong> {doc.get('bookingReference', '')}</p>
+                <p class="bl-row"><strong>Service Type:</strong> {doc.get('service', '')}</p>
+                <p class="bl-row"><strong>B/L Number:</strong> {doc.get('bookingReference', '')}</p>
             </div>
             <div class="bl-logo">
                 <img src="data:image/jpeg;base64,{logo_base64}" alt="Company Logo">
@@ -101,50 +108,50 @@ def display_bl_form(doc):
         </div>
         <div class="bl-section">
             <h3>SHIPPER / EXPORTER (Full Name and Address)</h3>
-            <p>{doc.get('partyDetails', {}).get('shipper', {}).get('name', '')}</p>
-            <p>{doc.get('partyDetails', {}).get('shipper', {}).get('address', '')}</p>
-            <p>Tel: {doc.get('partyDetails', {}).get('shipper', {}).get('telephone', '')}</p>
+            <p class="bl-row">{doc.get('partyDetails', {}).get('shipper', {}).get('name', '')}</p>
+            <p class="bl-row">{doc.get('partyDetails', {}).get('shipper', {}).get('address', '')}</p>
+            <p class="bl-row">Tel: {doc.get('partyDetails', {}).get('shipper', {}).get('telephone', '')}</p>
         </div>
         <div class="bl-section">
             <h3>CONSIGNEE (Full Name and Address)</h3>
-            <p>{doc.get('partyDetails', {}).get('consignee', {}).get('name', '')}</p>
-            <p>{doc.get('partyDetails', {}).get('consignee', {}).get('address', '')}</p>
-            <p>Tel: {doc.get('partyDetails', {}).get('consignee', {}).get('telephone', '')}</p>
+            <p class="bl-row">{doc.get('partyDetails', {}).get('consignee', {}).get('name', '')}</p>
+            <p class="bl-row">{doc.get('partyDetails', {}).get('consignee', {}).get('address', '')}</p>
+            <p class="bl-row">Tel: {doc.get('partyDetails', {}).get('consignee', {}).get('telephone', '')}</p>
         </div>
         <div class="bl-section">
             <h3>NOTIFY PARTY (Full Name and Address)</h3>
-            <p>{doc.get('partyDetails', {}).get('notifyParty', {}).get('name', '')}</p>
-            <p>{doc.get('partyDetails', {}).get('notifyParty', {}).get('address', '')}</p>
-            <p>Tel: {doc.get('partyDetails', {}).get('notifyParty', {}).get('telephone', '')}</p>
+            <p class="bl-row">{doc.get('partyDetails', {}).get('notifyParty', {}).get('name', '')}</p>
+            <p class="bl-row">{doc.get('partyDetails', {}).get('notifyParty', {}).get('address', '')}</p>
+            <p class="bl-row">Tel: {doc.get('partyDetails', {}).get('notifyParty', {}).get('telephone', '')}</p>
         </div>
         <div class="bl-grid">
             <div class="bl-section">
                 <h3>PLACE OF RECEIPT</h3>
-                <p>{doc.get('routeDetails', {}).get('placeOfReceipt', '')}</p>
+                <p class="bl-row">{doc.get('routeDetails', {}).get('placeOfReceipt', '')}</p>
             </div>
             <div class="bl-section">
                 <h3>PORT OF LOADING</h3>
-                <p>{doc.get('routeDetails', {}).get('portOfLoading', '')}</p>
+                <p class="bl-row">{doc.get('routeDetails', {}).get('portOfLoading', '')}</p>
             </div>
         </div>
         <div class="bl-grid">
             <div class="bl-section">
                 <h3>PORT OF DISCHARGE</h3>
-                <p>{doc.get('routeDetails', {}).get('portOfDischarge', '')}</p>
+                <p class="bl-row">{doc.get('routeDetails', {}).get('portOfDischarge', '')}</p>
             </div>
             <div class="bl-section">
                 <h3>PLACE OF DELIVERY</h3>
-                <p>{doc.get('routeDetails', {}).get('placeOfDelivery', '')}</p>
+                <p class="bl-row">{doc.get('routeDetails', {}).get('placeOfDelivery', '')}</p>
             </div>
         </div>
         <div class="bl-grid">
             <div class="bl-section">
                 <h3>VESSEL NAME</h3>
-                <p>{doc.get('voyageDetails', {}).get('vesselName', '')}</p>
+                <p class="bl-row">{doc.get('voyageDetails', {}).get('vesselName', '')}</p>
             </div>
             <div class="bl-section">
                 <h3>VOYAGE NUMBER</h3>
-                <p>{doc.get('voyageDetails', {}).get('voyageNumber', '')}</p>
+                <p class="bl-row">{doc.get('voyageDetails', {}).get('voyageNumber', '')}</p>
             </div>
         </div>
 
@@ -158,18 +165,18 @@ def display_bl_form(doc):
         {footer_info_html}
     </div>
     <div class="bl-footer">
-        <p class="small-text">The number of containers of packages shown in the 'TOTAL No. OF CONTAINERS OR PACKAGES RECEIVED BY THE CARRIER'S box which are said by the shipper to hold or consolidate the goods described in the PARTICULARS FURNISHED BY SHIPPER - CARRIER NOT RESPONSIBLE box, have been received by CHERRY SHIPPING LINE from the shipper in apparent good order and condition except as otherwise indicated hereon - weight, measure, marks, numbers, quality, quantity, description, contents and value unknown - for Carriage from the Place of Receipt or the Port of loading (whichever is applicable) to the Port of Discharge or the Place of Delivery (whichever is applicable) on the terms and conditions hereof INCLUDING THE TERMS AND CONDITIONS ON THE REVERSE SIDE HEREOF, THE CARRIER'S APPLICABLE TARIFF AND THE TERMS AND CONDITIONS OF THE PRECARRIER AND ONCARRIER AS APPLICABLE IN ACCORDANCE WITH THE TERMS AND CONDITIONS ON THE REVERSE SIDE HEREOF.</p>
+        <p class="small-text">The number of containers of packages shown in the 'TOTAL No. OF CONTAINERS OR PACKAGES RECEIVED BY THE CARRIER's box which are said by the shipper to hold or consolidate the goods described in the PARTICULARS FURNISHED BY SHIPPER - CARRIER NOT RESPONSIBLE box, have been received by CHERRY SHIPPING LINE from the shipper in apparent good order and condition except as otherwise indicated hereon - weight, measure, marks, numbers, quality, quantity, description, contents and value unknown - for Carriage from the Place of Receipt or the Port of loading (whichever is applicable) to the Port of Discharge or the Place of Delivery (whichever is applicable) on the terms and conditions hereof INCLUDING THE TERMS AND CONDITIONS ON THE REVERSE SIDE HEREOF, THE CARRIER'S APPLICABLE TARIFF AND THE TERMS AND CONDITIONS OF THE PRECARRIER AND ONCARRIER AS APPLICABLE IN ACCORDANCE WITH THE TERMS AND CONDITIONS ON THE REVERSE SIDE HEREOF.</p>
         <p class="small-text">IN WITNESS WHEREOF {doc['documentationDetails']['numberOfOriginalBLs']} ({doc['documentationDetails']['numberOfOriginalBLs']} in words) ORIGINAL BILLS OF LADING (unless otherwise stated above) HAVE BEEN SIGNED ALL OF THE SAME TENOR AND DATE, ONE OF WHICH BEING ACCOMPLISHED THE OTHER(S) TO STAND VOID.</p>
         <div class="bl-grid">
             <div>
-                <p><strong>CHERRY SHIPPING LINE</strong></p>
-                <p><strong>as Carrier</strong></p>
-                <p>By ContainerGenie.ai CO., LTD.</p>
+                <p class="bl-row"><strong>CHERRY SHIPPING LINE</strong></p>
+                <p class="bl-row"><strong>as Carrier</strong></p>
+                <p class="bl-row">By ContainerGenie.ai CO., LTD.</p>
                 <p>as Agents only for Carrier</p>
             </div>
             <div>
-                <p><strong>Place Issued: {doc['paymentDetails']['freightPayableAt']}</strong></p>
-                <p><strong>Date Issued: {doc['additionalInformation']['onboardDate']}</strong></p>
+                <p class="bl-row"><strong>Place Issued: {doc['paymentDetails']['freightPayableAt']}</strong></p>
+                <p class="bl-row"><strong>Date Issued: {doc['additionalInformation']['onboardDate']}</strong></p>
             </div>
         </div>
     </div>
@@ -177,6 +184,7 @@ def display_bl_form(doc):
     
     # Render the BL form
     st.html(bl_html)
+
 
 
 def generate_container_rows(containers, doc):
@@ -249,9 +257,9 @@ def main():
         search_results = list(search_results)
 
         if search_results:
-            # Allow users to select a document from search results
-            selected_doc = st.selectbox("Select a booking reference:", search_results, format_func=lambda x: x['bookingReference'])
-
+            # Automatically select the first document (no selectbox visible)
+            selected_doc = search_results[0]  # Auto-select the first result
+            
             if selected_doc:
                 display_bl_form(selected_doc)
         else:
