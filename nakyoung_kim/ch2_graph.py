@@ -73,7 +73,7 @@ Answer: """
 # Create the prompts
 example_prompt = ChatPromptTemplate.from_template(example_prompt)
 
-# ============= chain 정의 예시
+# ============= chain 정의 예시 =============
 # Create the chains
 example_chain = example_prompt | llm | StrOutputParser()
 
