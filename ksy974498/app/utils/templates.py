@@ -2,11 +2,7 @@ summary_template = """
 # Mandatory information required in Shipping Instructions
 Irrespective of the format shipping instructions are presented in, certain details are mandatory. 
 
-## Shipment number
-Each package must have a unique shipment number. One container may have multiple packages with different shipment numbers. This shipment number is important for end-to-end tracking. 
-Every company may follow a different way to format shipment numbers. It is usually alphanumeric. This shipment number will also be shared with the customer expecting order delivery. 
 
- 
 ## Container number
 Container numbers are unique sequences used to identify and track containers as they move between ports. This number is displayed on the container door towards the top right. A container number typically has 4 letters followed by 7 numbers. It has 4 parts. 
 The first three letters reflect the owner’s prefix. For example, all Maersk containers start with MAE while Hapag Lloyd containers have container numbers starting with HAM. 
