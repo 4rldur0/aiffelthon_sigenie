@@ -12,5 +12,5 @@ python db.py ./bkg
 - llm_summary page
 - report page
 
-https://github.com/user-attachments/assets/4159eceb-b3a8-424a-9aa9-4d5a5194c499
+
 
