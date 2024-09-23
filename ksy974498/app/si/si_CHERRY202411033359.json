@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202411033359",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "245EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING LTD.",
+      "address": "1234 INDUSTRIAL PARK RD, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO BRANCH)"
+    },
+    "consignee": {
+      "name": "EUROASIA TRADING CORP.",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "EUROASIA@EXAMPLE.COM",
+      "telephone": "+31 10 1234 5678"
+    },
+    "notifyParty": {
+      "name": "EUROASIA TRADING CORP.",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "EUROASIA@EXAMPLE.COM",
+      "telephone": "+31 10 1234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "AUTOMATIC PACKAGING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE1234",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PACKAGING MACHINES - 50 CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE9876",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PACKAGING MACHINES - 50 CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU2468013",
+      "sealNumber": "130824",
+      "marksAndNumbers": "SUNRISE2468",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PACKAGING MACHINES - 50 CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO202411033359",
+    "hsCode": "847989",
+    "freeTimeAtDestination": "7 CALENDAR DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "EUROASIA TRADING CORP.",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA TRADING CORP.",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "Pre-carriage by truck to loading port.  Demurrage charges apply after 7 calendar days at destination."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  }
+}

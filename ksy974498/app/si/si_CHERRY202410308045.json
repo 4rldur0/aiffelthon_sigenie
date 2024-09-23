@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410308045",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2443E28S"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Electronics Ltd.",
+      "address": "123 Tech Park Avenue, Ningbo, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Manufacturing Division)"
+    },
+    "consignee": {
+      "name": "Acme Logistics Inc.",
+      "address": "456 Port Boulevard, Rotterdam, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@acmelogistics.nl",
+      "telephone": "+31-10-12345678"
+    },
+    "notifyParty": {
+      "name": "Acme Logistics Inc.",
+      "address": "456 Port Boulevard, Rotterdam, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "operations@acmelogistics.nl",
+      "telephone": "+31-10-98765432"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847130",
+  "commodityDescription": "LAPTOP COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SUNRISE202410",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "Laptop Computers - Packed in Cartons",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "432165",
+      "marksAndNumbers": "SUNRISE202410",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "Laptop Computers - Packed in Cartons",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE REEFER CONTAINER X2)",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "SUNRISE20241023",
+    "hsCode": "847130",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "Certificate of Origin required",
+    "originalBLDistribution": {
+      "name": "Acme Logistics Inc.",
+      "address": "456 Port Boulevard, Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Acme Logistics Inc.",
+      "address": "456 Port Boulevard, Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-98765432"
+    },
+    "onboardDate": "2024-11-02 10:00",
+    "additionalRemarks": "Requires temperature control (10-15 degrees Celsius). Value: USD60,000"
+  }
+}

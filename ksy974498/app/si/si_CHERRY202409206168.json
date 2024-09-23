@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202409206168",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24358W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Telegraphic Transfer",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "UNITED TRADING CORPORATION",
+      "address": "1234 Industrial Zone, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 1111",
+      "fax": "+86 574 8888 2222"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT EXPORT GMBH",
+      "address": "5678 Trade Center, Rotterdam, Netherlands",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "info@eurotech.nl",
+      "contactPerson": "Peter Muller"
+    },
+    "notifyParty": {
+      "name": "ABC Logistics BV",
+      "address": "789 Logistics Park, Rotterdam, Netherlands",
+      "telephone": "+31 10 9876 5432",
+      "fax": "+31 10 9876 5433",
+      "email": "logistics@abclogistics.nl"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "PACKAGING MACHINERY (MODEL: PM2024)",
+  "containers": [
+    {
+      "containerNumber": "MSCU3785694",
+      "sealNumber": "123456",
+      "marksAndNumbers": "UTC20240920",
+      "numberOfPackages": 50,
+      "cargoDescription": "PACKAGING MACHINERY (MODEL: PM2024)",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "UTC20240920",
+      "numberOfPackages": 50,
+      "cargoDescription": "PACKAGING MACHINERY (MODEL: PM2024)",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE",
+    "totalPackages": 100,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "UTC20240920-001",
+    "documentNumber": "20240920-UTC-001",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "C-20240920-001",
+      "CO-20240920-002"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORT EXPORT GMBH",
+      "address": "5678 Trade Center, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORT EXPORT GMBH",
+      "address": "5678 Trade Center, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-09-26 10:00",
+    "additionalRemarks": "Temperature Control: Maintain 10-15 degrees Celsius"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

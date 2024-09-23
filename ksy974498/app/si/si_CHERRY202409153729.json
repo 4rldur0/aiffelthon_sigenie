@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409153729",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2427W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Shenzhen Tech Co., Ltd.",
+      "address": "123 Tech Avenue, Shenzhen, Guangdong, China",
+      "telephone": "+86 755 8888 1234",
+      "email": "shipping@shenzhentech.com"
+    },
+    "consignee": {
+      "name": "DB Schenker Logistics (Rotterdam) BV",
+      "address": "Erasmusstraat 10, 3011 AA Rotterdam, Netherlands",
+      "taxId": "NL819999999B01",
+      "president": "Mr. Peter Van der Linden",
+      "telephone": "+31 10 2020 202",
+      "fax": "+31 10 2020 203"
+    },
+    "notifyParty": {
+      "name": "DB Schenker Logistics (Shanghai)",
+      "address": "22F, Shanghai World Financial Center, 100 Century Avenue, Shanghai, China",
+      "telephone": "+86 21 6372 6372",
+      "fax": "+86 21 6372 6373"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85423990",
+  "commodityDescription": "SEMICONDUCTOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTOR CHIPS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTOR CHIPS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "40 HIGH CUBE CONTAINER",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "DB Schenker Logistics (Rotterdam) BV",
+      "address": "Erasmusstraat 10, 3011 AA Rotterdam, Netherlands",
+      "telephone": "+31 10 2020 202",
+      "fax": "+31 10 2020 203"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DB Schenker Logistics (Rotterdam) BV",
+      "address": "Erasmusstraat 10, 3011 AA Rotterdam, Netherlands",
+      "telephone": "+31 10 2020 202",
+      "fax": "+31 10 2020 203"
+    },
+    "onboardDate": "2024-09-20 12:00",
+    "additionalRemarks": "TEMPERATURE CONTROL: 10-15 DEGREES CELSIUS. CARGO TO BE PACKED ON PALLETS. VALUE: USD 50,000"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410166293",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2410GFOR23A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 Tech Avenue, Shanghai, China",
+      "telephone": "+86 21 6666 9999",
+      "fax": "+86 21 6666 6666"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT GMBH",
+      "address": "456 Frankfurt Strasse, Frankfurt, Germany",
+      "telephone": "+49 69 555 1234",
+      "fax": "+49 69 555 5678",
+      "email": "info@eurotechimport.de",
+      "contactPerson": "Peter Schmidt"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true,
+      "name": "EUROTECH IMPORT GMBH",
+      "address": "456 Frankfurt Strasse, Frankfurt, Germany"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85423990",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT - MOBILE PHONE PARTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GDE-110823",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT - MOBILE PHONE PARTS",
+      "grossWeight": 16000.0,
+      "measurement": 22.5
+    },
+    {
+      "containerNumber": "TCLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GDE-110824",
+      "numberOfPackages": 45,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT - MOBILE PHONE PARTS",
+      "grossWeight": 15500.0,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20 STANDARD CONTAINER",
+    "totalPackages": 95,
+    "totalGrossWeight": 31500.0,
+    "totalMeasurement": 44.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV20241108001",
+    "documentNumber": "20241108002",
+    "lcDetails": {
+      "lcNumber": "LC2024102754321"
+    },
+    "certificateDetails": [
+      "Certificate of Origin",
+      "Phytosanitary Certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORT GMBH",
+      "address": "456 Frankfurt Strasse, Frankfurt, Germany",
+      "telephone": "+49 69 555 1234",
+      "fax": "+49 69 555 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN DRAGON ELECTRONICS CO. LTD.",
+      "address": "123 Tech Avenue, Shanghai, China"
+    },
+    "onboardDate": "2024-10-20 10:00",
+    "additionalRemarks": "KINDLY ARRANGE FOR TRUCKING FROM LE HAVRE TO PARIS."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

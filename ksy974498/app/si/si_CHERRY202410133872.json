@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410133872",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "244EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI YINGYU IMPORT & EXPORT CO., LTD",
+      "onBehalfOf": "DHL GLOBAL FORWARDING (SHANGHAI) CO., LTD",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM) BV",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "companyNumber": "12345678901234"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM) BV",
+      "address": "789 AMSTERDAM AVENUE, AMSTERDAM, NETHERLANDS, 1000AA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "95030010",
+  "commodityDescription": "PLASTIC TOYS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. B/L ISSUED TO DHL GLOBAL FORWARDING (ROTTERDAM) BV. SAID TO CONTAIN: PLASTIC TOYS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IS CLEAN AND IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. B/L ISSUED TO DHL GLOBAL FORWARDING (ROTTERDAM) BV. SAID TO CONTAIN: PLASTIC TOYS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IS CLEAN AND IN GOOD CONDITION"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 X 40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM) BV",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM) BV",
+      "address": "456 ROTTERdam STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "onboardDate": "2024-10-18 17:00",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT. B/L ISSUED TO DHL GLOBAL FORWARDING (ROTTERDAM) BV."
+  }
+}

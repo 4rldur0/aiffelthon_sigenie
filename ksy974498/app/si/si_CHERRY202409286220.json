@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202409286220",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024421E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "PORT KLANG, MALAYSIA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1259",
+      "address": "123 SHIPPER STREET, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO INDUSTRIAL ZONE)",
+      "telephone": "+86 574 8888 9999",
+      "email": "SHIPPER1259@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3487",
+      "address": "456 CUSTOMER LANE, PORT KLANG, MALAYSIA, 42000",
+      "country": "MALAYSIA",
+      "email": "CUSTOMER3487@EXAMPLE.COM",
+      "telephone": "+60 3 777 8888"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 8523",
+      "address": "456 RECEIVER LANE, PORT KLANG, MALAYSIA, 42000",
+      "country": "MALAYSIA",
+      "email": "RECEIVER8523@EXAMPLE.COM",
+      "telephone": "+60 3 666 9999"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN DINING TABLES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SR-TABLE123",
+      "numberOfPackages": 60,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN DINING TABLES (60 CARTONS)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "SR-TABLE456",
+      "numberOfPackages": 60,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN DINING TABLES (60 CARTONS)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 x 20 DRY) CONTAINERS ONLY",
+    "totalPackages": 120,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3487",
+      "address": "456 CUSTOMER LANE, PORT KLANG, MALAYSIA, 42000",
+      "telephone": "+60 3 777 8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8523",
+      "address": "456 RECEIVER LANE, PORT KLANG, MALAYSIA, 42000",
+      "telephone": "+60 3 666 9999"
+    },
+    "onboardDate": "2024-10-15 12:45",
+    "additionalRemarks": "Require pre-cooling of containers."
+  }
+}

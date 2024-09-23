@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202410182777",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024335E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing",
+      "onBehalfOf": "",
+      "address": "123 FACTORY STREET, NINGBO, CHINA, 315000",
+      "telephone": "+86-574-88889999",
+      "fax": "+86-574-11112222"
+    },
+    "consignee": {
+      "name": "ABC Trading Co.",
+      "address": "456 RUE DE LA MER, LE HAVRE, FRANCE, 76600",
+      "companyNumber": "12345678901234"
+    },
+    "notifyParty": {
+      "name": "ABC Logistics",
+      "address": "789 LOGISTICS STREET, PARIS, FRANCE, 75000"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871210",
+  "commodityDescription": "Mountain Bikes",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOUNTAIN BIKES - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOUNTAIN BIKES - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOUNTAIN BIKES - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU4321654",
+      "sealNumber": "876543",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOUNTAIN BIKES - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU5432167",
+      "sealNumber": "987654",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOUNTAIN BIKES - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC Trading Co.",
+      "address": "456 RUE DE LA MER, LE HAVRE, FRANCE, 76600"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Logistics",
+      "address": "789 LOGISTICS STREET, PARIS, FRANCE, 75000"
+    },
+    "onboardDate": "2024-10-22 12:00",
+    "additionalRemarks": "Please ensure containers are secured properly for transit."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "bookingReference": "CHERRY202410023741",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EAX"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO.",
+      "address": "123 Sunrise Street, Shanghai, China",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 12345679"
+    },
+    "consignee": {
+      "name": "GREEN VALLEY IMPORTS LTD",
+      "address": "123 Green Valley Rd, Madrid, Spain",
+      "telephone": "+34 91 12345678",
+      "fax": "+34 91 12345679",
+      "email": "info@greenvalleyimports.es",
+      "contactPerson": "Maria Garcia"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "123 Logistics Road, Barcelona, Spain",
+      "telephone": "+34 93 12345678",
+      "fax": "+34 93 12345679",
+      "email": "info@worldwidelogistics.es",
+      "contactPerson": "Pedro Sanchez"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "610910",
+  "commodityDescription": "COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-1",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SUNRISE-2",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE-3",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU4321654",
+      "sealNumber": "432165",
+      "marksAndNumbers": "SUNRISE-4",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU5432167",
+      "sealNumber": "543216",
+      "marksAndNumbers": "SUNRISE-5",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 DRY CONTAINER",
+    "totalPackages": 5000,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-001",
+    "documentNumber": "20241025-002",
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "CO-1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "GREEN VALLEY IMPORTS LTD",
+      "address": "123 Green Valley Rd, Madrid, Spain",
+      "telephone": "+34 91 12345678",
+      "fax": "+34 91 12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN VALLEY IMPORTS LTD",
+      "address": "123 Green Valley Rd, Madrid, Spain",
+      "telephone": "+34 91 12345678",
+      "fax": "+34 91 12345679"
+    },
+    "onboardDate": "2024-10-28 12:00",
+    "additionalRemarks": "10 Days Free Time at Destination"
+  },
+  "dangerousGoods": {
+    "dangerous_goods_description": "Miscellaneous Dangerous Goods",
+    "un_number": "3333",
+    "class": "9",
+    "class_name": "Miscellaneous dangerous substances and articles",
+    "packing_group": "Not specified",
+    "proper_shipping_name": "Miscellaneous dangerous goods",
+    "subsidiary_risks": [],
+    "technical_name": "Not specified",
+    "net_weight": "Not specified",
+    "gross_weight": "Not specified",
+    "quantity": "Not specified",
+    "packaging_type": "Not specified",
+    "emergency_contact_number": "Not specified",
+    "hazard_communication": "UN 3333, Miscellaneous dangerous goods, Class 9. Refer to Material Safety Data Sheet (MSDS) for further details.",
+    "additional_information": "This shipment contains dangerous goods classified as Class 9. It is the responsibility of the shipper to ensure that the packaging, labeling, and documentation comply with all applicable regulations."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410295782",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "24239FV"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA TRADING CO.",
+      "onBehalfOf": "",
+      "address": "123 HONGQI ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "+86 574 8666 1234",
+      "fax": "+86 574 8666 5678"
+    },
+    "consignee": {
+      "name": "BETA IMPORTERS INC.",
+      "address": "22 MARKTSTRASSE, ROTTERDAM, 3011, NETHERLANDS",
+      "companyNumber": "HRB 654321"
+    },
+    "notifyParty": {
+      "name": "ALPHA TRADING CO.",
+      "address": "123 HONGQI ROAD, NINGBO, ZHEJIANG, 315000, CHINA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854442",
+  "commodityDescription": "TELECOMMUNICATION CABLES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA NBG 1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ALPHA NBG 2",
+      "numberOfPackages": 105,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES",
+      "grossWeight": 11500.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 205,
+    "packageType": "CARTONS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 23500.0,
+    "totalMeasurement": 49.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "Certificate of Origin"
+    ],
+    "originalBLDistribution": {
+      "name": "BETA IMPORTERS INC.",
+      "address": "22 MARKTSTRASSE, ROTTERDAM, 3011, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA IMPORTERS INC.",
+      "address": "22 MARKTSTRASSE, ROTTERDAM, 3011, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432"
+    },
+    "onboardDate": "2024-11-07 10:00",
+    "additionalRemarks": "Fragile cargo, handle with care. Stacking prohibited."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202410152033",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "24102E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS LTD",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "ATTN: MR. LI WEI"
+    },
+    "consignee": {
+      "name": "BLUE SKY LOGISTICS LTD",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, 3000AA",
+      "country": "NETHERLANDS",
+      "email": "ROTTERDAM@BLUESKYLOGISTICS.NL",
+      "telephone": "+31 10 6789 0123"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS LTD",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, 3000AA",
+      "country": "NETHERLANDS",
+      "email": "ROTTERDAM@BLUESKYLOGISTICS.NL",
+      "telephone": "+31 10 6789 0123"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "854239",
+  "commodityDescription": "SEMICONDUCTORS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GOLDEN STAR SHANGHAI",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SEMICONDUCTORS PACKED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GOLDEN STAR SHANGHAI",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SEMICONDUCTORS PACKED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GOLDEN STAR SHANGHAI",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SEMICONDUCTORS PACKED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU2468013",
+      "sealNumber": "246801",
+      "marksAndNumbers": "GOLDEN STAR SHANGHAI",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SEMICONDUCTORS PACKED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU5132076",
+      "sealNumber": "513207",
+      "marksAndNumbers": "GOLDEN STAR SHANGHAI",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SEMICONDUCTORS PACKED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20'DV X5) CONTAINERS ONLY",
+    "totalPackages": 2500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345678",
+    "hsCode": "854239",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "BLUE SKY LOGISTICS LTD",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, 3000AA",
+      "telephone": "+31 10 6789 0123"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY LOGISTICS LTD",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, 3000AA",
+      "telephone": "+31 10 6789 0123"
+    },
+    "onboardDate": "2024-10-20 12:00",
+    "additionalRemarks": "Handle with care, Stacking not permitted"
+  }
+}

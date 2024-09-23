@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202409189890",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024427W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LAS PALMAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5849",
+      "onBehalfOf": "CUSTOMER 7312",
+      "address": "123 MAIN STREET, LAS PALMAS, SPAIN",
+      "telephone": "+34 928 123 4567",
+      "fax": "+34 928 123 4568"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 1257",
+      "address": "456 ABC STREET, BUSAN, SOUTH KOREA",
+      "companyNumber": "12345678901234"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7312",
+      "address": "789 XYZ AVENUE, LAS PALMAS, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871160",
+  "commodityDescription": "HONDA CBR600RR",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HONDA CBR600RR",
+      "grossWeight": 250.0,
+      "measurement": 5.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 40 HQ) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "40 HQ",
+    "totalGrossWeight": 250.0,
+    "totalMeasurement": 5.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345678"
+    },
+    "certificateDetails": [
+      "4112720070177X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7312",
+      "address": "789 XYZ AVENUE, LAS PALMAS, SPAIN",
+      "telephone": "+34 928 123 4567",
+      "fax": "+34 928 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1257",
+      "address": "456 ABC STREET, BUSAN, SOUTH KOREA",
+      "telephone": "+82 51 123 4567",
+      "fax": "+82 51 123 4568"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "Ensure reefer unit is set to 4 degrees Celsius"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

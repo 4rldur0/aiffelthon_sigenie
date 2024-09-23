@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202409215266",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 SKYLINE BOULEVARD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 5555 1234",
+      "email": "SHIPPING@GLOBALTRADING.COM"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS GMBH",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY, 20000",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHIMPORTS.DE",
+      "telephone": "+49 40 789 1234"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7821",
+      "address": "1234 SKYLINE BOULEVARD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "email": "SHIPPING@CUSTOMER7821.COM",
+      "telephone": "+86 21 5555 1234"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84138190",
+  "commodityDescription": "PUMPS FOR LIQUIDS, OTHER THAN HYDRAULIC PUMPS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT1234",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "PUMPS AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT7890",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "PUMPS AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY X2) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORTS GMBH",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY, 20000",
+      "telephone": "+49 40 789 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORTS GMBH",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY, 20000",
+      "telephone": "+49 40 789 1234"
+    },
+    "onboardDate": "2024-10-02 14:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED: SET TO 5 DEGREES CELSIUS"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

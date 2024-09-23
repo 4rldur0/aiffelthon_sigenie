@@ -1,0 +1,145 @@
+{
+  "bookingReference": "CHERRY202410246877",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024511E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1732",
+      "address": "123 SHIPMENT STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "email": "SHIPPER1732@MAIL.COM"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 7183",
+      "address": "123 RECEIVING STREET, GDANSK, POLAND",
+      "taxId": "PL1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+48 58 222 3333",
+      "fax": "+48 58 222 4444"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 4259",
+      "address": "123 CUSTOMER STREET, GDANSK, POLAND",
+      "taxId": "PL9876543210",
+      "president": "MS. JANE DOE",
+      "telephone": "+48 58 111 2222",
+      "fax": "+48 58 111 3333"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940390",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CHAIR-SHIP-001",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU1234568",
+      "sealNumber": "789012",
+      "marksAndNumbers": "CHAIR-SHIP-002",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU1234569",
+      "sealNumber": "345678",
+      "marksAndNumbers": "CHAIR-SHIP-003",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU1234570",
+      "sealNumber": "901234",
+      "marksAndNumbers": "CHAIR-SHIP-004",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU1234571",
+      "sealNumber": "567890",
+      "marksAndNumbers": "CHAIR-SHIP-005",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY GENERAL PURPOSE",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00123456789"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 7183",
+      "address": "123 RECEIVING STREET, GDANSK, POLAND",
+      "telephone": "+48 58 222 3333",
+      "fax": "+48 58 222 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 4259",
+      "address": "123 CUSTOMER STREET, GDANSK, POLAND",
+      "telephone": "+48 58 111 2222",
+      "fax": "+48 58 111 3333"
+    },
+    "onboardDate": "2024-10-28 14:00",
+    "additionalRemarks": "Containers to be loaded on deck."
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

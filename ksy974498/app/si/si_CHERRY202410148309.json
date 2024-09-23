@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410148309",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2456E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BOSCH (NINGBO)",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "BOSCH GMBH",
+      "address": "BERLINER STRASSE 10, 70173 STUTTGART, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@BOSCH.DE",
+      "telephone": "+49 711 23456789"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM)",
+      "address": "MAASVLAKTE 123, 3199 KD ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@DHL.NL",
+      "telephone": "+31 10 2345678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "CIRCUIT BREAKERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BOSCH123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIRCUIT BREAKERS, PARTS AND ACCESSORIES",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BOSCH456",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIRCUIT BREAKERS, PARTS AND ACCESSORIES",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU7778889",
+      "sealNumber": "987654",
+      "marksAndNumbers": "BOSCH789",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIRCUIT BREAKERS, PARTS AND ACCESSORIES",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY CONTAINER)",
+    "totalPackages": 150,
+    "packageType": "BOXES",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-20241014-001",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "onboardDate": "2024-10-18 14:00",
+    "additionalRemarks": "DIMENSIONS (LxWxH;mm): 5,898x2,438x2,591, VALUE: USD30,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

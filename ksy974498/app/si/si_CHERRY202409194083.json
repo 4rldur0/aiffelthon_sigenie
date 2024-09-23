@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202409194083",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2421EAS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL CHEMICALS LTD",
+      "address": "568 HUANGPU ROAD, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "225 KLOESTERSTRAAT, ANTWERP, BELGIUM",
+      "telephone": "+32 3 2223334",
+      "fax": "+32 3 5556667"
+    },
+    "notifyParty": {
+      "name": "EURO IMPORTS BV",
+      "address": "225 KLOESTERSTRAAT, ANTWERP, BELGIUM",
+      "telephone": "+32 3 2223334",
+      "fax": "+32 3 5556667"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "290339",
+  "commodityDescription": "TOLUENE",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SUN123",
+      "numberOfPackages": 100,
+      "cargoDescription": "TOLUENE PACKED IN ISO TANK CONTAINERS",
+      "grossWeight": 25000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SUN456",
+      "numberOfPackages": 100,
+      "cargoDescription": "TOLUENE PACKED IN ISO TANK CONTAINERS",
+      "grossWeight": 25000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "9876543210"
+    },
+    "certificateDetails": [
+      "12345678901234"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "225 KLOESTERSTRAAT, ANTWERP, BELGIUM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "225 KLOESTERSTRAAT, ANTWERP, BELGIUM"
+    },
+    "onboardDate": "2024-09-25 10:00",
+    "additionalRemarks": "7 Days Free Time at Destination"
+  }
+}

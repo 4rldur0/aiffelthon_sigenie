@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409189388",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "24243E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORTERS LTD.",
+      "address": "222 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ASIAIMPORTERS.COM, SALES@ASIAIMPORTERS.COM",
+      "telephone": "+31 20 7777777"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC IMPORTERS LTD.",
+      "address": "222 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ASIAIMPORTERS.COM, SALES@ASIAIMPORTERS.COM",
+      "telephone": "+31 20 7777777"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE LOOM SPARE PARTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE20241023",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "TEXTILE LOOM SPARE PARTS - PACKED IN CARTON BOXES",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE20241023",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "TEXTILE LOOM SPARE PARTS - PACKED IN CARTON BOXES",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY CONTAINER)",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241023",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC IMPORTERS LTD.",
+      "address": "222 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 7777777"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORTERS LTD.",
+      "address": "222 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 7777777"
+    },
+    "onboardDate": "2024-10-22 14:00",
+    "additionalRemarks": "CONTAINER REQUIRES VENTILATION. VALUE: USD50,000"
+  }
+}

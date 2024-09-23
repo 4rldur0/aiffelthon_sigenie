@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410193883",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410W32A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Suntech Electronics Co. Ltd.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "consignee": {
+      "name": "Global Tech Distributors LLC",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "notifyParty": {
+      "name": "Global Tech Distributors LLC",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854370",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU8901234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT456",
+      "numberOfPackages": 45,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 11500.0,
+      "measurement": 22.5
+    },
+    {
+      "containerNumber": "MSCU5678901",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GT789",
+      "numberOfPackages": 55,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 13000.0,
+      "measurement": 27.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CRATES",
+    "totalGrossWeight": 36500.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": "CN2345678901",
+    "originalBLDistribution": {
+      "name": "Global Tech Distributors LLC",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Suntech Electronics Co. Ltd.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "Equipment sensitive to moisture, Store in dry conditions."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

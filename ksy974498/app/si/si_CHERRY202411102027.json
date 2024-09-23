@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411102027",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2447W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TEXTILE LTD",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "ABC IMPORT & EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "email": "INFO@ABCIMPORTEXPORT.COM",
+      "telephone": "+1 212 555 1234"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT & EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "email": "INFO@ABCIMPORTEXPORT.COM",
+      "telephone": "+1 212 555 1234"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "620463",
+  "commodityDescription": "WOMEN'S COTTON TROUSERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9998881",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SR-2024-1110-1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOMEN'S COTTON TROUSERS - STYLE A",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9998882",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "SR-2024-1110-2",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOMEN'S COTTON TROUSERS - STYLE B",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "ABC20241110-12345",
+    "hsCode": "620463",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN AVAILABLE",
+    "originalBLDistribution": {
+      "name": "ABC IMPORT & EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TEXTILE LTD",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000",
+      "telephone": "+86 574 888 1234"
+    },
+    "onboardDate": "2024-11-18 10:00",
+    "additionalRemarks": "Two 40' Dry Containers, Item: Women's Cotton Trousers, Value: EUR 35,000"
+  }
+}

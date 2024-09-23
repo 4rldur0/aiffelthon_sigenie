@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410181215",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024921W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8712",
+      "address": "123 RUE DE LA PAIX, 76000 ROUEN, FRANCE",
+      "country": "FRANCE",
+      "additionalInfo": "(VAT FR1234567890)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3421",
+      "address": "234 HUANGPU ROAD, NINGBO, ZHEJIANG, CHINA, 315000",
+      "country": "CHINA",
+      "email": "CUSTOMER3421@EXAMPLE.COM",
+      "telephone": "+86 574 8888 8888"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5683",
+      "address": "456 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "email": "INVOICERECEIVER5683@EXAMPLE.COM",
+      "telephone": "+86 21 5555 5555"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854442",
+  "commodityDescription": "Transformers",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER8712-2024-10-FR",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) TRANSFORMER, MODEL: TR12345",
+      "grossWeight": 1500.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER8712-2024-10-FR",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) TRANSFORMER, MODEL: TR67890",
+      "grossWeight": 1600.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER8712-2024-10-FR",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) TRANSFORMER, MODEL: TR13579",
+      "grossWeight": 1550.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY)",
+    "totalPackages": 3,
+    "packageType": "UNIT",
+    "totalGrossWeight": 4650.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "854442",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "123456789012345678"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3421",
+      "address": "234 HUANGPU ROAD, NINGBO, ZHEJIANG, CHINA, 315000",
+      "telephone": "+86 574 8888 8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5683",
+      "address": "456 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86 21 5555 5555"
+    },
+    "onboardDate": "2024-10-25 12:30",
+    "additionalRemarks": "Containers to be loaded on deck. Please ensure adequate lashing."
+  }
+}

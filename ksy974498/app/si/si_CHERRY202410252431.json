@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410252431",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "4351WSA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. LTD.",
+      "address": "123 Trade Street, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 9999 8888",
+      "email": "shipping@betatrade.cn"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL LOGISTICS",
+      "address": "100 Logistics Drive, Rotterdam, Netherlands",
+      "taxId": "NL854321625B01",
+      "president": "Mr. John Doe",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL LOGISTICS",
+      "address": "100 Logistics Drive, Rotterdam, Netherlands",
+      "telephone": "+31 10 222 3333",
+      "email": "operations@alphaglobal.nl"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "84713090",
+  "commodityDescription": "COMPUTERS & PERIPHERALS",
+  "containers": [
+    {
+      "containerNumber": "SUDU9563723",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "BETA TRADING CO. LTD. - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "COMPUTERS & PERIPHERALS, SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "SUDU9563724",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "BETA TRADING CO. LTD. - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "COMPUTERS & PERIPHERALS, SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER)",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "containerType": "40' HIGH CUBE DRY",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": "CN20241025001",
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL LOGISTICS",
+      "address": "100 Logistics Drive, Rotterdam, Netherlands",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA TRADING CO. LTD.",
+      "address": "123 Trade Street, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 9999 8888",
+      "email": "shipping@betatrade.cn"
+    },
+    "onboardDate": "2024-10-29 14:00",
+    "additionalRemarks": "PRE-SHIPMENT INSPECTION REQUIRED"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

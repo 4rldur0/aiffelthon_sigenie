@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411014619",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432WEN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS INC",
+      "address": "1234 Technology Avenue, Ningbo, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "456 Commercial Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "456 Commercial Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "8504401000",
+  "commodityDescription": "SWITCHING POWER SUPPLIES",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "cargoDescription": "SWITCHING POWER SUPPLIES AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "98765432",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "cargoDescription": "SWITCHING POWER SUPPLIES AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU4567890",
+      "sealNumber": "45678901",
+      "marksAndNumbers": "DEF123",
+      "numberOfPackages": 100,
+      "cargoDescription": "SWITCHING POWER SUPPLIES AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 DRY HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "PACKAGES",
+    "containerType": "40 DRY HIGH CUBE",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 105.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "CN123456789012",
+      "CO123456789012"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "456 Commercial Street, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "456 Commercial Street, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "CONTAINERS MUST BE VENTILATED. CARGO SHOULD BE SECURED ON PALLETS."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  }
+}

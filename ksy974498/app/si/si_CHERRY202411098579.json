@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411098579",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC SHIPPING LTD",
+      "onBehalfOf": "",
+      "address": "NO. 123, SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "consignee": {
+      "name": "EUROTECH DISTRIBUTION GMBH",
+      "address": "23 MAIN STREET, FRANKFURT, GERMANY 60329",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORTS INC.",
+      "address": "150 BROAD STREET, NEW YORK, USA 10004"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85044010",
+  "commodityDescription": "SWITCHGEAR",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SR123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHGEAR - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SWITCHGEAR",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SR456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHGEAR - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SWITCHGEAR",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SR789",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHGEAR - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SWITCHGEAR",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SR567",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHGEAR - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SWITCHGEAR",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU5678901",
+      "sealNumber": "567890",
+      "marksAndNumbers": "SR890",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHGEAR - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SWITCHGEAR",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' STANDARD) CONTAINERS",
+    "totalPackages": 250,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "Certificate of Origin"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC IMPORTS INC.",
+      "address": "150 BROAD STREET, NEW YORK, USA 10004",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH DISTRIBUTION GMBH",
+      "address": "23 MAIN STREET, FRANKFURT, GERMANY 60329",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-98765432"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+  }
+}

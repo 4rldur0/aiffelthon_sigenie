@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202411027043",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "245EWZ"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 OCEAN VIEW STREET, SHANGHAI, CHINA 200010",
+      "telephone": "+86-21-555-1234",
+      "fax": "+86-21-555-5678"
+    },
+    "consignee": {
+      "name": "BLUE OCEAN IMPORT EXPORT LTD",
+      "address": "456 MAIN STREET, ROTTERDAM, NETHERLANDS 3011DE",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "BLUE OCEAN IMPORT EXPORT LTD",
+      "address": "456 MAIN STREET, ROTTERDAM, NETHERLANDS 3011DE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "METAL LATHES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTC123",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL LATHES",
+      "grossWeight": 6000.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "789012",
+      "marksAndNumbers": "APTC456",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL LATHES",
+      "grossWeight": 6000.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "345678",
+      "marksAndNumbers": "APTC789",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL LATHES",
+      "grossWeight": 6000.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU9012345",
+      "sealNumber": "678901",
+      "marksAndNumbers": "APTC123",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL LATHES",
+      "grossWeight": 6000.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "901234",
+      "marksAndNumbers": "APTC456",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL LATHES",
+      "grossWeight": 6000.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY CONTAINER)",
+    "totalPackages": 500,
+    "packageType": "CRATES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "Certificate of Origin"
+    ],
+    "originalBLDistribution": {
+      "name": "BLUE OCEAN IMPORT EXPORT LTD",
+      "address": "456 MAIN STREET, ROTTERDAM, NETHERLANDS 3011DE",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-9876543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE OCEAN IMPORT EXPORT LTD",
+      "address": "456 MAIN STREET, ROTTERDAM, NETHERLANDS 3011DE",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-9876543"
+    },
+    "onboardDate": "2024-11-06 10:00",
+    "additionalRemarks": "SHIPMENT REQUIRES SECURE PACKAGING AND HANDLING"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

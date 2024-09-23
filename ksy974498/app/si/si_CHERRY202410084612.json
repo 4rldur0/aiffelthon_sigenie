@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202410084612",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES INC.",
+      "address": "123 Textile Street, Shanghai, CHINA",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "consignee": {
+      "name": "GLOBAL FASHION HOUSE LTD",
+      "address": "456 Fashion Avenue, Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-7777-8888",
+      "fax": "+31-10-7777-8889"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "789 Shipping Lane, London, UNITED KINGDOM",
+      "telephone": "+44-20-8888-9999",
+      "fax": "+44-20-8888-9998"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "62044300",
+  "commodityDescription": "LADIES WINTER COATS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTI202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LADIES WINTER COATS",
+      "grossWeight": 12000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "789012",
+      "marksAndNumbers": "APTI202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LADIES WINTER COATS",
+      "grossWeight": 12000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "345678",
+      "marksAndNumbers": "APTI202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LADIES WINTER COATS",
+      "grossWeight": 12000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "901234",
+      "marksAndNumbers": "APTI202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LADIES WINTER COATS",
+      "grossWeight": 12000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CRLU9012345",
+      "sealNumber": "567890",
+      "marksAndNumbers": "APTI202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LADIES WINTER COATS",
+      "grossWeight": 12000,
+      "measurement": 30
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 60000,
+    "totalMeasurement": 150
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "salesOrderNumber": "SO9876543210",
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "GLOBAL FASHION HOUSE LTD",
+      "address": "456 Fashion Avenue, Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-7777-8888",
+      "fax": "+31-10-7777-8889"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "789 Shipping Lane, London, UNITED KINGDOM",
+      "telephone": "+44-20-8888-9999",
+      "fax": "+44-20-8888-9998"
+    },
+    "onboardDate": "2024-10-12 14:00",
+    "additionalRemarks": "Cargo packed in individual cartons, please ensure proper stacking to avoid damage."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  }
+}

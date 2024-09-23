@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202409293645",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "3421W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EPSILON MANUFACTURING INC.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-56789012",
+      "fax": "+86-21-34567890"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "5678 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "notifyParty": {
+      "name": "OMEGA LOGISTICS LTD",
+      "address": "7890 BOULEVARD DE LA MADELEINE, PARIS, FRANCE",
+      "telephone": "+33-1-45678901",
+      "fax": "+33-1-23456789"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "903281",
+  "commodityDescription": "TEMPERATURE CONTROL DEVICES",
+  "containers": [
+    {
+      "containerNumber": "CRLU123456789",
+      "sealNumber": "987654",
+      "marksAndNumbers": "TEMP CONTROL 1",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEMPERATURE CONTROL DEVICES",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU987654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "TEMP CONTROL 2",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEMPERATURE CONTROL DEVICES",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU234567890",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TEMP CONTROL 3",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEMPERATURE CONTROL DEVICES",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU345678901",
+      "sealNumber": "789012",
+      "marksAndNumbers": "TEMP CONTROL 4",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEMPERATURE CONTROL DEVICES",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU456789012",
+      "sealNumber": "345678",
+      "marksAndNumbers": "TEMP CONTROL 5",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEMPERATURE CONTROL DEVICES",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINER",
+    "totalPackages": 250,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE NUMBER 123456789",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "5678 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA LOGISTICS LTD",
+      "address": "7890 BOULEVARD DE LA MADELEINE, PARIS, FRANCE",
+      "telephone": "+33-1-45678901",
+      "fax": "+33-1-23456789"
+    },
+    "onboardDate": "2024-10-08 12:00",
+    "additionalRemarks": "Fragile cargo. Handle with care."
+  }
+}

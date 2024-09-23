@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202409191087",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "3217W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES LTD.",
+      "address": "1234 Guangzhou Road, Ningbo, China",
+      "telephone": "+86 574 5678 9012",
+      "email": "shipping@asiapacificindustries.cn"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "124 Hafenstrasse, Hamburg, Germany",
+      "taxId": "DE123456789",
+      "president": "Ms. Anna Schmidt",
+      "telephone": "+49 40 555 6666",
+      "fax": "+49 40 555 6667"
+    },
+    "notifyParty": {
+      "name": "ABC Logistics GmbH",
+      "address": "456 Trade Avenue, Frankfurt, Germany",
+      "telephone": "+49 69 7777 8888",
+      "fax": "+49 69 7777 8889"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "611030",
+  "commodityDescription": "T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA20241104",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "T-SHIRTS - CIF HAMBURG",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIA20241104",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "T-SHIRTS - CIF HAMBURG",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "135790",
+      "marksAndNumbers": "ASIA20241104",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "T-SHIRTS - CIF HAMBURG",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "ASIA20241104",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "T-SHIRTS - CIF HAMBURG",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU5432109",
+      "sealNumber": "369124",
+      "marksAndNumbers": "ASIA20241104",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "T-SHIRTS - CIF HAMBURG",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) X 20 DRY CONTAINER",
+    "totalPackages": 5000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CN20241104001",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "124 Hafenstrasse, Hamburg, Germany",
+      "telephone": "+49 40 555 6666",
+      "fax": "+49 40 555 6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Logistics GmbH",
+      "address": "456 Trade Avenue, Frankfurt, Germany",
+      "telephone": "+49 69 7777 8888",
+      "fax": "+49 69 7777 8889"
+    },
+    "onboardDate": "2024-09-22 10:00",
+    "additionalRemarks": "No hazardous materials.  Fragile goods, handle with care."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

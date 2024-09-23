@@ -1,0 +1,142 @@
+{
+  "bookingReference": "CHERRY202410251670",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2442EUS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIAL GROUP CO.",
+      "address": "123 SUNRISE AVENUE, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN TRADING LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31-10-222-2222",
+      "fax": "+31-10-222-2223"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN TRADING LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31-10-222-2222",
+      "fax": "+31-10-222-2223"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S BUILDING BLOCKS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GS-2024-1025",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHILDREN'S BUILDING BLOCKS AS PER INVOICE",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GS-2024-1025",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHILDREN'S BUILDING BLOCKS AS PER INVOICE",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GS-2024-1025",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHILDREN'S BUILDING BLOCKS AS PER INVOICE",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "901234",
+      "marksAndNumbers": "GS-2024-1025",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHILDREN'S BUILDING BLOCKS AS PER INVOICE",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GS-2024-1025",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHILDREN'S BUILDING BLOCKS AS PER INVOICE",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY) CONTAINERS",
+    "totalPackages": 2500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 62500.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241025",
+    "salesOrderNumber": "SO20241025",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN AVAILABLE",
+    "originalBLDistribution": {
+      "name": "GOLDEN SUN TRADING LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31-10-222-2222",
+      "fax": "+31-10-222-2223"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE INDUSTRIAL GROUP CO.",
+      "address": "123 SUNRISE AVENUE, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "2024-10-27 12:00",
+    "additionalRemarks": "7 Days Free Time at Destination"
+  },
+  "dangerousGoods": {
+    "dangerous_goods": {
+      "proper_shipping_name": "Dangerous Goods in Machinery",
+      "un_number": "3333",
+      "class": "9",
+      "class_description": "Miscellaneous dangerous substances and articles",
+      "packing_group": "II",
+      "sub_risk": null,
+      "flash_point": null,
+      "marine_pollutant": false,
+      "technical_name": null,
+      "hazard_identification_number": "99",
+      "emergency_response_guide": "171"
+    },
+    "cargo_description": "Machinery containing dangerous goods"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410222453",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWG"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTERS LTD.",
+      "address": "123 XINING ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8654 3210",
+      "fax": "+86 574 8654 3211"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 8765 4321",
+      "email": "INFO@GLOBALTRADINGCORP.COM",
+      "contactPerson": "ANNA SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "ASIA PACIFIC IMPORTERS LTD.",
+      "address": "123 XINING ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8654 3210",
+      "fax": "+86 574 8654 3211"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "902110",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU3456789",
+      "sealNumber": "432165",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU5678901",
+      "sealNumber": "165432",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 DRY CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241022245320-INV01",
+    "documentNumber": "20241022245320-DOC01",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 8765 4321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORTERS LTD.",
+      "address": "123 XINING ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8654 3210",
+      "fax": "+86 574 8654 3211"
+    },
+    "onboardDate": "2024-10-26 10:00",
+    "additionalRemarks": "FRAGILE CARGO. PLEASE HANDLE WITH CARE AND STACK PROPERLY."
+  }
+}

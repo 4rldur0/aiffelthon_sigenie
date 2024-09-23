@@ -1,4 +1,5 @@
 import streamlit as st
+import pymongo
 from pymongo import MongoClient
 import os
 from dotenv import load_dotenv
@@ -13,7 +14,7 @@ client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
-# Custom CSS to style the BL form
+# Custom CSS to style the BL form and apply Freesentation font
 custom_css = """
 <style>
 @font-face {
@@ -24,10 +25,10 @@ html, body, [class*="st-"] {
     font-family: 'Freesentation', sans-serif;
 }
     .bl-form {
-        font-family: Arial, sans-serif;
+        font-family: Freesentation, sans-serif;
         border: 2px solid black;
-        padding: 10px;
-        margin-bottom: 20px;
+        padding: 5px;
+        margin-bottom: 10px;
         width: 100%;
     }
     .bl-header {
@@ -35,33 +36,33 @@ html, body, [class*="st-"] {
         justify-content: space-between;
         align-items: flex-start;
         border-bottom: 1px solid black;
-        padding-bottom: 10px;
-        margin-bottom: 10px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
     }
     .bl-title {
-        margin-right: 30px;
+        margin-right: 15px;
     }
     .bl-section {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         border: 1px solid black;
-        padding: 5px;
+        padding: 2px;
     }
     .bl-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 10px;
+        gap: 5px;
     }
     .bl-footer {
         border-top: 1px solid black;
-        padding-top: 10px;
-        margin-top: 10px;
+        padding-top: 5px;
+        margin-top: 5px;
     }
     .bl-logo {
         text-align: right;
         margin-left: auto;
     }
     .bl-logo img {
-        max-width: 250px;
+        max-width: 150px;
         height: auto;
     }
     .bl-table {
@@ -70,9 +71,17 @@ html, body, [class*="st-"] {
     }
     .bl-table th, .bl-table td {
         border: 1px solid black;
-        padding: 5px;
+        padding: 2px;
         text-align: left;
     }
+    .small-text {
+        font-size: 10px;
+    }
+    .bl-row {
+        line-height: 1.0;
+        margin: 0;
+        padding: 0;
+    }    
 </style>
 """
 
@@ -186,84 +195,123 @@ def display_bl_form(doc):
     st.html(bl_html)
 
 
-
 def generate_container_rows(containers, doc):
     particulars_html = f"""
     <h3>PARTICULARS FURNISHED BY SHIPPER - CARRIER NOT RESPONSIBLE</h3>
     <table class="bl-table">
         <tr>
             <th>MARKS AND NUMBERS</th>
-            <th>NO. OF CONTAINERS OR PACKAGES</th>
-            <th>DESCRIPTION OF GOODS</th>
-            <th>GROSS WEIGHT</th>
-            <th>MEASUREMENT</th>
+            <th>NO. OF PKGS.</th>
+            <th>DESCRIPTION OF PACKAGES AND GOODS</th>
+            <th>GROSS WEIGHT (KG)</th>
+            <th>MEASUREMENT (CBM)</th>
         </tr>
+        <tr>
+            <td>{containers[0].get('marksAndNumbers', '')}</td>
+            <td>{doc['totalShipment']['totalPackages']} {containers[0].get('packageType', '')}</td>
+            <td>{doc.get('commodityDescription', '')}</td>
+            <td>{doc['totalShipment'].get('totalGrossWeight', '')}</td>
+            <td>{doc['totalShipment'].get('totalMeasurement', '')}</td>
+        </tr>
+    </table>
     """
-    container_info_html = f"""
-    <h3>TOTAL No. OF CONTAINERS OR PACKAGES RECEIVED BY THE CARRIER</h3>
+
+    container_info_html = """
+    <h3>CONTAINER INFORMATION</h3>
     <table class="bl-table">
         <tr>
-            <th>CONTAINER NUMBERS</th>
-            <th>SEAL NUMBERS</th>
-            <th>SIZE</th>
-            <th>TYPE</th>
+            <th>Container No.</th>
+            <th>Seal No.</th>
+            <th>Marks</th>
+            <th>No. of Pkgs</th>
+            <th>Description</th>
+            <th>Gross Weight (KG)</th>
+            <th>Measurement (CBM)</th>
         </tr>
-    """
-    footer_info_html = f"""
-    <p><strong>Freight Payable at:</strong> {doc['paymentDetails']['freightPayableAt']}</p>
-    <p><strong>Number of Original B/Ls:</strong> {doc['documentationDetails']['numberOfOriginalBLs']}</p>
-    <p><strong>Place of Issue:</strong> {doc['paymentDetails']['freightPayableAt']}</p>
-    <p><strong>Date of Issue:</strong> {doc['additionalInformation']['onboardDate']}</p>
     """
     
     for container in containers:
-        particulars_html += f"""
-        <tr>
-            <td>{container.get('marksAndNumbers', '')}</td>
-            <td>{container.get('numberOfPackages', '')}</td>
-            <td>{container.get('descriptionOfGoods', '')}</td>
-            <td>{container.get('grossWeight', '')}</td>
-            <td>{container.get('measurement', '')}</td>
-        </tr>
-        """
         container_info_html += f"""
         <tr>
             <td>{container.get('containerNumber', '')}</td>
             <td>{container.get('sealNumber', '')}</td>
-            <td>{container.get('containerSize', '')}</td>
-            <td>{container.get('containerType', '')}</td>
+            <td>{container.get('marksAndNumbers', '')}</td>
+            <td>{container.get('numberOfPackages', '')} {container.get('packageType', '')}</td>
+            <td>{container.get('cargoDescription', '')}</td>
+            <td>{container.get('grossWeight', '')}</td>
+            <td>{container.get('measurement', '')}</td>
         </tr>
         """
-
-    particulars_html += "</table>"
     container_info_html += "</table>"
+
+    footer_info_html = f"""
+    <div class="bl-grid">
+        <div>
+            <p class="bl-row"><strong>{doc['shippingTerm']}</strong></p>
+            <p class="bl-row"><strong>"{doc['paymentDetails']['freightPaymentTerms'].upper()}"</strong></p>
+        </div>
+        <div>
+            <p class="bl-row">{doc['totalShipment']['totalContainers']}</p>
+        </div>
+    </div>
+    <p class="bl-row"><strong>TOTAL No. OF CONTAINERS OF PACKAGES RECEIVED BY THE CARRIER: {doc['totalShipment']['totalContainers']}</strong></p>
+    """
+    
     return particulars_html, container_info_html, footer_info_html
 
 
-def search_booking_references(search_query):
-    # Use MongoDB's $regex operator to search for booking references matching the search query
-    search_results = collection.find({"bookingReference": {"$regex": search_query, "$options": "i"}})
-    return search_results
+
+
+
+def display_container_information(containers):
+    st.subheader("CONTAINER INFORMATION")
+    
+    # Create a table header
+    header = ["Container No.", "Seal No.", "Packages", "Description", "Gross Weight (KG)", "Measurement (CBM)"]
+    st.write("<table><tr>{}</tr>".format("".join(f"<th>{col}</th>" for col in header)), unsafe_allow_html=True)
+    
+    # Create table rows for each container
+    for container in containers:
+        row = [
+            container.get('containerNumber', ''),
+            container.get('sealNumber', ''),
+            container.get('packages', ''),
+            container.get('description', ''),
+            container.get('grossWeight', ''),
+            container.get('measurement', '')
+        ]
+        st.write("<tr>{}</tr>".format("".join(f"<td>{cell}</td>" for cell in row)), unsafe_allow_html=True)
+    
+    st.write("</table>", unsafe_allow_html=True)
 
 def main():
-    st.title("Bill of Lading Search")
+    st.title("Bill of Lading (B/L) Viewer")
 
-    # Input field for searching booking reference
-    search_query = st.text_input("Enter booking reference or part of it to search")
+    # Fetch only the booking references from MongoDB
+    documents = collection.find(
+        filter={},
+        projection={'bookingReference': 1},
+        sort=[('bookingReference', pymongo.ASCENDING)]
+    )
 
-    if search_query:
-        # Fetch documents matching the search query
-        search_results = search_booking_references(search_query)
-        search_results = list(search_results)
+    booking_refs = [doc['bookingReference'] for doc in documents]
+    
+    # Create a selectbox for choosing a document by booking reference
+    selected_booking_ref = st.selectbox(
+        "Select a BL document",
+        options=booking_refs,
+        format_func=lambda x: f"Booking Ref: {x}"
+    )
 
-        if search_results:
-            # Automatically select the first document (no selectbox visible)
-            selected_doc = search_results[0]  # Auto-select the first result
-            
-            if selected_doc:
-                display_bl_form(selected_doc)
-        else:
-            st.write("No results found for the given search query.")
+    # Fetch the selected document from MongoDB
+    selected_doc = collection.find_one({'bookingReference': selected_booking_ref})
+
+    # Display the selected document as a BL form
+    if selected_doc:
+        display_bl_form(selected_doc)
+    else:
+        st.warning("No document found for the selected booking reference.")
+
 
 if __name__ == "__main__":
     main()

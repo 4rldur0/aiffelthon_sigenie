@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202411122118",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2411EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTERS LTD.",
+      "address": "No. 1234, Xinghai Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8666 5678",
+      "email": "shipping@asiapacificimporters.cn"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "567 Main Street, Hamburg, Germany",
+      "taxId": "DE123456789",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "567 Main Street, Hamburg, Germany",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT.  21 DAYS FREE TIME AT DESTINATION. Requires refrigeration",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CGLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT.  21 DAYS FREE TIME AT DESTINATION. Stackable",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CGLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT.  21 DAYS FREE TIME AT DESTINATION. Fragile",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CGLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT.  21 DAYS FREE TIME AT DESTINATION",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CGLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT.  21 DAYS FREE TIME AT DESTINATION",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS",
+    "totalPackages": 250,
+    "packageType": "UNITS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 175.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "567 Main Street, Hamburg, Germany",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "567 Main Street, Hamburg, Germany",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-15 10:00",
+    "additionalRemarks": "Requires refrigeration, Stackable, Fragile"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

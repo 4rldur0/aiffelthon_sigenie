@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202411121974",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2422EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE CHEMICALS LTD",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LLC",
+      "address": "456 ABC STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LLC",
+      "address": "456 ABC STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "390730",
+  "commodityDescription": "POLYETHYLENE GRANULES",
+  "containers": [
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-1",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GRANULES",
+      "grossWeight": 20000,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-2",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GRANULES",
+      "grossWeight": 20000,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "890123",
+      "marksAndNumbers": "SUNRISE-3",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GRANULES",
+      "grossWeight": 20000,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "135792",
+      "marksAndNumbers": "SUNRISE-4",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GRANULES",
+      "grossWeight": 20000,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "246813",
+      "marksAndNumbers": "SUNRISE-5",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GRANULES",
+      "grossWeight": 20000,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 STANDARD) CONTAINERS ONLY",
+    "totalPackages": 5000,
+    "packageType": "BAGS",
+    "totalGrossWeight": 100000,
+    "totalMeasurement": 127.5
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LLC",
+      "address": "456 ABC STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LLC",
+      "address": "456 ABC STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "onboardDate": "2024-11-15 16:00",
+    "additionalRemarks": "7 Days Free Time at Destination"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

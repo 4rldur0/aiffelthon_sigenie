@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202409224268",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409ZHE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IRON & STEEL CO. LTD.",
+      "onBehalfOf": "",
+      "address": "123 Steel Road, Shanghai, China",
+      "telephone": "+86-21-55556666",
+      "fax": "+86-21-99998888"
+    },
+    "consignee": {
+      "name": "DELTA TRADING INC.",
+      "address": "456 Trade Center, Rotterdam, Netherlands",
+      "companyNumber": "NL1234567890"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING INC.",
+      "address": "456 Trade Center, Rotterdam, Netherlands"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "72071100",
+  "commodityDescription": "STEEL BLOOMS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APISC1234",
+      "numberOfPackages": 500,
+      "packageType": "BLOOMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. STEEL BLOOMS SECURED ON STEEL RACKS, REQUIRES SPECIAL HANDLING.",
+      "grossWeight": 25000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APISC7890",
+      "numberOfPackages": 500,
+      "packageType": "BLOOMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. STEEL BLOOMS SECURED ON STEEL RACKS, REQUIRES SPECIAL HANDLING.",
+      "grossWeight": 25000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "APISC4567",
+      "numberOfPackages": 500,
+      "packageType": "BLOOMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. STEEL BLOOMS SECURED ON STEEL RACKS, REQUIRES SPECIAL HANDLING.",
+      "grossWeight": 25000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 1500,
+    "packageType": "BLOOMS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO12345678"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING INC.",
+      "address": "456 Trade Center, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IRON & STEEL CO. LTD.",
+      "address": "123 Steel Road, Shanghai, China"
+    },
+    "onboardDate": "2024-10-05 14:00",
+    "additionalRemarks": "STEEL BLOOMS SECURED ON STEEL RACKS, REQUIRES SPECIAL HANDLING"
+  }
+}

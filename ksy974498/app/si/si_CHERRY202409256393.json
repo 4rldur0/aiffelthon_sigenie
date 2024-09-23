@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409256393",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "322E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA IRON & STEEL CORPORATION",
+      "onBehalfOf": "",
+      "address": "UNIT 501, 5/F, GOLDEN CENTRE, 18-22 CHEUNG SHA WAN ROAD, KOWLOON, HONG KONG",
+      "telephone": "+852 2365 1234",
+      "fax": "+852 2365 1235"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60329 FRANKFURT AM MAIN, GERMANY",
+      "companyNumber": "HRB 567890"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "UNIT 501, 5/F, GOLDEN CENTRE, 18-22 CHEUNG SHA WAN ROAD, KOWLOON, HONG KONG"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "CIRCULAR KNITTING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "APTU1234567",
+      "sealNumber": "89012345",
+      "marksAndNumbers": "GEM56789",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIRCULAR KNITTING MACHINES",
+      "grossWeight": 10000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "APTU1234568",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "GEM12345",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIRCULAR KNITTING MACHINES",
+      "grossWeight": 10000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY CONTAINER(S))",
+    "totalPackages": 20,
+    "packageType": "CRATES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60329 FRANKFURT AM MAIN, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "UNIT 501, 5/F, GOLDEN CENTRE, 18-22 CHEUNG SHA WAN ROAD, KOWLOON, HONG KONG"
+    },
+    "onboardDate": "2024-10-01 14:00",
+    "additionalRemarks": "CUSTOMS CLEARANCE REQUIRED AT HAMBURG. B/L: 3 ORIGINALS AND 3 COPIES"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

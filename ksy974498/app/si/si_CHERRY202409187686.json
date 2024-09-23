@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202409187686",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432WE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Shanghai Electronics Co.",
+      "address": "2345 DRAGON STREET, SHANGHAI, CHINA 200100",
+      "telephone": "+86 21 6666 7878",
+      "fax": "+86 21 6666 7979"
+    },
+    "consignee": {
+      "name": "EURO TECH IMPORTS GMBH",
+      "address": "6789 EURO STREET, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "IMPORT@EUROTECH.DE",
+      "contactPerson": "ANNA SCHMIDT"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "ALPHA GLOBAL LOGISTICS GMBH",
+      "address": "7890 ALPHA STREET, HAMBURG, GERMANY 20359",
+      "telephone": "+49 40 5555 6789"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854237",
+  "commodityDescription": "INTEGRATED CIRCUIT BOARDS",
+  "containers": [
+    {
+      "containerNumber": "MSCU7896543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "DELTA-123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: INTEGRATED CIRCUIT BOARDS",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "7890123",
+      "marksAndNumbers": "DELTA-456",
+      "numberOfPackages": 95,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: INTEGRATED CIRCUIT BOARDS",
+      "grossWeight": 14500.0,
+      "measurement": 19.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20 DRY CONTAINER",
+    "totalPackages": 195,
+    "totalGrossWeight": 29500.0,
+    "totalMeasurement": 39.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-001",
+    "documentNumber": "20241025-002",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "COO-20241025-001",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO TECH IMPORTS GMBH",
+      "address": "6789 EURO STREET, HAMBURG, GERMANY 20457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TECH IMPORTS GMBH",
+      "address": "6789 EURO STREET, HAMBURG, GERMANY 20457"
+    },
+    "onboardDate": "2024-09-22 12:00",
+    "additionalRemarks": "Cargo requires temperature controlled environment (15-25\u00b0C)"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

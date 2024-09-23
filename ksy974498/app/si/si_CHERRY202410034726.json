@@ -1,0 +1,143 @@
+{
+  "bookingReference": "CHERRY202410034726",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2433WSE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "onBehalfOf": "",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA",
+      "telephone": "+86-574-1234-5678",
+      "fax": "+86-574-9876-5432"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 GLOBAL AVE, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 GLOBAL AVE, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "OFFICE PRINTER COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE PRINTER COMPONENTS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908630",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE PRINTER COMPONENTS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908631",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE PRINTER COMPONENTS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908632",
+      "sealNumber": "135792",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE PRINTER COMPONENTS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908633",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE PRINTER COMPONENTS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY X5) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 90000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 GLOBAL AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-987-6543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 GLOBAL AVE, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-08 14:00",
+    "additionalRemarks": "CONTAINER WEIGHT SHOULD NOT EXCEED 20 TONNES"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9421234",
+    "unClass": "6",
+    "unCode": "No:",
+    "hsCode": "2097.27.86",
+    "flashPoint": "43\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

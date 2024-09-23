@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202410142558",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2433E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENGINEERING SOLUTIONS",
+      "address": "123, XINHU ROAD, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "123, EUROPA STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "456, NEW YORK STREET, NEW YORK, USA",
+      "telephone": "+1 212 555 1234",
+      "fax": "+1 212 555 1235"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "84213910",
+  "commodityDescription": "CENTRAL HEATING BOILERS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 5,
+      "cargoDescription": "CENTRAL HEATING BOILER SYSTEM - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU4321098",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 5,
+      "cargoDescription": "CENTRAL HEATING BOILER SYSTEM - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "packageType": "PACKAGES",
+    "containerType": "40' HIGH CUBE CONTAINER",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241031001"
+    },
+    "certificateDetails": [
+      "COO20241031001",
+      "fumigation20241031001"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "123, EUROPA STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "456, NEW YORK STREET, NEW YORK, USA"
+    },
+    "onboardDate": "2024-10-22 12:00",
+    "additionalRemarks": "Pre-shipment inspection mandatory. Fumigation certificate required."
+  }
+}

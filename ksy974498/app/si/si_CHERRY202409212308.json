@@ -1,0 +1,88 @@
+{
+  "bookingReference": "CHERRY202409212308",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024876B"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA CHEMICALS LTD",
+      "address": "2345 SHEN NAN ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(JING'AN DISTRICT)"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORP",
+      "address": "STATIONSPLEIN 23, 3013 AK ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADING.NL",
+      "telephone": "+31 10 411 2222"
+    },
+    "notifyParty": {
+      "name": "FINANCE DEPT, GLOBAL TRADING CORP",
+      "address": "STATIONSPLEIN 23, 3013 AK ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "FINANCE@GLOBALTRADING.NL",
+      "telephone": "+31 10 411 2223"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "290219",
+  "commodityDescription": "ACETALDEHYDE",
+  "containers": [
+    {
+      "containerNumber": "CMAU7845612",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT20241028",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: ACETALDEHYDE, 200KG DRUMS, PALLETIZED",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HC) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "12345ICP-2",
+    "hsCode": "290219",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+      "telephone": "03600061234",
+      "fax": "81-3-6000-0001"
+    },
+    "onboardDate": "2024-10-03 12:00",
+    "additionalRemarks": "Maintain temperature between 0\u00b0C and 5\u00b0C during transit."
+  }
+}

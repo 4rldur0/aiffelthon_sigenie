@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202411017255",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "9876AB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "APPLE INC.",
+      "address": "1 Apple Park Way, Cupertino, California, USA",
+      "telephone": "+1-408-996-1010",
+      "fax": "+1-408-996-1011"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (UK) LTD.",
+      "address": "PO Box 751, Slough SL1 4DN, United Kingdom",
+      "telephone": "+44-1753-666666",
+      "fax": "+44-1753-666667"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (UK) LTD.",
+      "address": "PO Box 751, Slough SL1 4DN, United Kingdom",
+      "telephone": "+44-1753-666666",
+      "fax": "+44-1753-666667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84713010",
+  "commodityDescription": "LAPTOPS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APL123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOPS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APL789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOPS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "APL246",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOPS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "APL369",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOPS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU5678901",
+      "sealNumber": "567890",
+      "marksAndNumbers": "APL481",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOPS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 FOOT DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "CN9876543210",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (UK) LTD.",
+      "address": "PO Box 751, Slough SL1 4DN, United Kingdom",
+      "telephone": "+44-1753-666666",
+      "fax": "+44-1753-666667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "APPLE INC.",
+      "address": "1 Apple Park Way, Cupertino, California, USA",
+      "telephone": "+1-408-996-1010",
+      "fax": "+1-408-996-1011"
+    },
+    "onboardDate": "2024-11-05 10:00",
+    "additionalRemarks": "URGENT SHIPMENT REQUIRED. PLEASE PRIORITIZE LOADING."
+  }
+}
