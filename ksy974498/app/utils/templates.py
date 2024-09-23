@@ -47,3 +47,13 @@ Hence, it is important to have the consignee’s full name and address listed in
 Depending on the country the products are being shipped from and the final port or receipt, many other local customs or regulations details may also need to be listed in the shipping instructions. 
 For example, food products being exported from India will need certificates issued by the Export Inspection Council (EIC) that vouch for the safety and quality of the goods. 
 """
+
+rag_prompt_template = """
+# Compliance Verification
+You are an expert in sanctions and compliance regulations.
+Verify whether the following Shipping Instruction (SI) complies with any relevant compliance regulations.
+
+Shipping Instruction: {si_data}
+
+Provide a detailed response, including any relevant regulations, compliance issues, or the absence of any violations.
+"""
