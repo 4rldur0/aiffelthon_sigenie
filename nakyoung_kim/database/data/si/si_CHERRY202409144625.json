@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202409144625",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24098E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI PRECISION TOOLS CO.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
+    },
+    "consignee": {
+      "name": "MALAYSIA TOOLS DISTRIBUTORS SDN. BHD.",
+      "address": "456 ABC LANE, KUALA LUMPUR, MALAYSIA",
+      "country": "MALAYSIA",
+      "email": "customer3334@example.com",
+      "telephone": "+60 3 1234 5678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3691",
+      "address": "789 DEF ROAD, KUALA LUMPUR, MALAYSIA",
+      "country": "MALAYSIA",
+      "email": "invoicereceiver3691@example.com",
+      "telephone": "+60 3 9876 5432"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "820713",
+  "commodityDescription": "DIAMOND-TIPPED DRILL BITS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIAMOND-TIPPED DRILL BITS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU11223344",
+      "sealNumber": "654321",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIAMOND-TIPPED DRILL BITS",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU55667788",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 200,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIAMOND-TIPPED DRILL BITS",
+      "grossWeight": 30000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3)  20' DRY CONTAINERS",
+    "totalPackages": 350,
+    "packageType": "MIXED",
+    "totalGrossWeight": 65000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "820713",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "MALAYSIA TOOLS DISTRIBUTORS SDN. BHD.",
+      "address": "456 ABC LANE, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 1234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3691",
+      "address": "789 DEF ROAD, KUALA LUMPUMR, MALAYSIA",
+      "telephone": "+60 3 9876 5432",
+      "fax": "+60 3 9876 5431"
+    },
+    "onboardDate": "2024-09-18 18:00",
+    "additionalRemarks": "Tools packaged in individual boxes. Value: USD 35,000"
+  }
+}

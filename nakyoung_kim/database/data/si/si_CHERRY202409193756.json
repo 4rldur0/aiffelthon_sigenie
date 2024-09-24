@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202409193756",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "1234AB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "No. 188, Xinhua Road, Shanghai, China 200000",
+      "telephone": "+86-21-65432109",
+      "fax": "+86-21-65432110"
+    },
+    "consignee": {
+      "name": "EURO TECH IMPORT GMBH",
+      "address": "Speicherstadt 1, 20457 Hamburg, Germany",
+      "telephone": "+49-40-33334444",
+      "fax": "+49-40-33334445"
+    },
+    "notifyParty": {
+      "name": "EURO TECH IMPORT GMBH",
+      "address": "Speicherstadt 1, 20457 Hamburg, Germany",
+      "telephone": "+49-40-33334444",
+      "fax": "+49-40-33334445"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85423100",
+  "commodityDescription": "SEMICONDUCTOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTOR CHIPS",
+      "grossWeight": 15000,
+      "measurement": 28
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "432198",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTOR CHIPS",
+      "grossWeight": 15000,
+      "measurement": 28
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CONTAINER) CONTAINER ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 30000,
+    "totalMeasurement": 56
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO789012",
+    "salesOrderNumber": "SO345678",
+    "lcDetails": {
+      "lcNumber": "LC00098765"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "EURO TECH IMPORT GMBH",
+      "address": "Speicherstadt 1, 20457 Hamburg, Germany",
+      "telephone": "+49-40-33334444",
+      "fax": "+49-40-33334445"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TECH IMPORT GMBH",
+      "address": "Speicherstadt 1, 20457 Hamburg, Germany",
+      "telephone": "+49-40-33334444",
+      "fax": "+49-40-33334445"
+    },
+    "onboardDate": "2024-09-24 12:00",
+    "additionalRemarks": "FRAGILE CARGO - HANDLE WITH CARE"
+  }
+}

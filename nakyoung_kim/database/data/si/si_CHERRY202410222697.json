@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410222697",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2435E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA GLOBAL TRADING",
+      "address": "123 XIZHI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS NV",
+      "address": "145 RUE DE LA LOI, ANTWERP, BELGIUM, 2000",
+      "country": "BELGIUM",
+      "email": "IMPORT@EURO-IMPORTS.BE",
+      "telephone": "+32 3 222 3333"
+    },
+    "notifyParty": {
+      "name": "EURO IMPORTS NV",
+      "address": "145 RUE DE LA LOI, ANTWERP, BELGIUM, 2000",
+      "country": "BELGIUM",
+      "email": "IMPORT@EURO-IMPORTS.BE",
+      "telephone": "+32 3 222 3333"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940171",
+  "commodityDescription": "OFFICE SOFAS",
+  "containers": [
+    {
+      "containerNumber": "MSCU2345678",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ESOF2345",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN OFFICE SOFAS, PALLETIZED",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU87654321",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "ESOF2346",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN OFFICE SOFAS, PALLETIZED",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "940171",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS NV",
+      "address": "145 RUE DE LA LOI, ANTWERP, BELGIUM, 2000",
+      "telephone": "+32 3 222 3333"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORTS NV",
+      "address": "145 RUE DE LA LOI, ANTWERP, BELGIUM, 2000",
+      "telephone": "+32 3 222 3333",
+      "fax": "+32 3 222 3334"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "FRAGILE CARGO, HANDLE WITH CARE"
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  }
+}

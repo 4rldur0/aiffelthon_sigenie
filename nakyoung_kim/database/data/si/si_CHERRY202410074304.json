@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202410074304",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2436WEN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TRADING CO.",
+      "address": "No. 123, Huangpu Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 1234",
+      "fax": "+86 574 8888 1235"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS LTD",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "info@euroimportsltd.com",
+      "contactPerson": "John Doe"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "info@globalshipping.com",
+      "contactPerson": "Jane Smith"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "94017100",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9587632",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 22500.0,
+      "measurement": 33.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "147852",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "369852",
+      "marksAndNumbers": "ABC101",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 22500.0,
+      "measurement": 33.5
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "543210",
+      "marksAndNumbers": "ABC111",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20' STANDARD CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 111500.0,
+    "totalMeasurement": 166.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202410231234-1",
+    "documentNumber": "202410231234-2",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS LTD",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORTS LTD",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "onboardDate": "2024-10-18 10:00",
+    "additionalRemarks": "Fragile Goods: Handle with Care"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CMAU9876543",
+    "unClass": "9",
+    "unCode": "3077",
+    "hsCode": "460643",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Requires special handling"
+  }
+}

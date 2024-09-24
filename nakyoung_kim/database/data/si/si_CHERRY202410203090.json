@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410203090",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024923W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5492",
+      "onBehalfOf": "CUSTOMER 3217",
+      "address": "123 CHANGJIANG ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86-574-8612-3456",
+      "fax": "+86-574-8612-3450"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3217",
+      "address": "124 RUE DE PARIS, PARIS, FRANCE, 75001",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1256",
+      "address": "125 MAIN STREET, LONDON, UK, W1A 1AA"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "940161",
+  "commodityDescription": "Metal Chair Parts",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "8901234",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Metal Chair Parts, PACKED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CMAU5678901",
+      "sealNumber": "5678901",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Metal Chair Parts, PACKED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "9012345",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Metal Chair Parts, PACKED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 1256",
+      "address": "125 MAIN STREET, LONDON, UK, W1A 1AA",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4560"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 3217",
+      "address": "124 RUE DE PARIS, PARIS, FRANCE, 75001",
+      "telephone": "+33-1-2345-6789",
+      "fax": "+33-1-2345-6780"
+    },
+    "onboardDate": "2024-10-26 15:00",
+    "additionalRemarks": "Ensure containers are properly sealed and labeled."
+  }
+}

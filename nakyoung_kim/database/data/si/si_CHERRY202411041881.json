@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202411041881",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024891E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5627",
+      "address": "123 Harmony Street, Ningbo, China"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8712",
+      "address": "456 Europa Boulevard, Rotterdam, Netherlands",
+      "telephone": "+31 10 555 1234",
+      "fax": "+31 10 666 5678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9256",
+      "address": "789 Innovation Avenue, Rotterdam, Netherlands",
+      "telephone": "+31 10 777 9012",
+      "fax": "+31 10 888 3456"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "920790",
+  "commodityDescription": "ACOUSTIC GUITARS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GUIT1",
+      "numberOfPackages": 100,
+      "cargoDescription": "ACOUSTIC GUITARS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 5000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "567890",
+      "marksAndNumbers": "GUIT2",
+      "numberOfPackages": 100,
+      "cargoDescription": "ACOUSTIC GUITARS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 5000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "901234",
+      "marksAndNumbers": "GUIT3",
+      "numberOfPackages": 100,
+      "cargoDescription": "ACOUSTIC GUITARS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 5000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8712",
+      "address": "456 Europa Boulevard, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9256",
+      "address": "789 Innovation Avenue, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-11-12 14:00",
+    "additionalRemarks": "Ensure containers are temperature controlled."
+  }
+}

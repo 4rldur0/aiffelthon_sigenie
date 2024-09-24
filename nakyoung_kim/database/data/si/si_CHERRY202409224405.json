@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202409224405",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E8"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Telegraphic Transfer",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "2345 HUAIHAI ROAD, SHANGHAI, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS NV.",
+      "address": "123 RUE DE LA LOI, ANTWERP, BELGIUM 2000",
+      "country": "BELGIUM",
+      "email": "INFO@EUROTECH.BE",
+      "telephone": "+32 3 222 8888"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS BV.",
+      "address": "150 KLOESTERSTRAAT, ANTWERP, BELGIUM 2000",
+      "country": "BELGIUM",
+      "email": "OPERATIONS@GLS.BE",
+      "telephone": "+32 3 555 1212"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "854140",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9998887",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GSS1234",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS 100 CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9998888",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GSS1235",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS 100 CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "854140",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN AVAILABLE",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS BV.",
+      "address": "150 KLOESTERSTRAAT, ANTWERP, BELGIUM 2000",
+      "telephone": "+32 3 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORTS NV.",
+      "address": "123 RUE DE LA LOI, ANTWERP, BELGIUM 2000",
+      "telephone": "+32 3 222 8888"
+    },
+    "onboardDate": "2024-10-29 14:00",
+    "additionalRemarks": "Temperature requirement: 2-8 degrees Celsius"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

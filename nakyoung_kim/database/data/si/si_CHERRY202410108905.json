@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410108905",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2425W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC ELECTRONICS LTD",
+      "address": "123 TECH STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "ATTN: SHIPPING DEPARTMENT"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "456 WAREHOUSE AVE, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "DHL.ROTTERDAM@EXAMPLE.COM",
+      "telephone": "+31 10 555 1234"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "456 WAREHOUSE AVE, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "DHL.ROTTERDAM@EXAMPLE.COM",
+      "telephone": "+31 10 555 1234"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854239",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU987654321",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ABC123456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROPROCESSORS AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU123456789",
+      "sealNumber": "98765432",
+      "marksAndNumbers": "ABC123456",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROPROCESSORS AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY X2) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 38000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO987654321",
+    "hsCode": "854239",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "CERT-123456",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "456 WAREHOUSE AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 555 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "456 WAREHOUSE AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 555 1234",
+      "fax": "+31 10 555 1235"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED: SET TO 5 DEGREES CELSIUS"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

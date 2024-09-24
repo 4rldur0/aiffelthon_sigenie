@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202411177716",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "3219EAS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2468",
+      "address": "123 Industrial Avenue, Ningbo, China",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-12345679"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9873",
+      "address": "456 Commerce Street, Rotterdam, Netherlands",
+      "telephone": "+31-10-9876543",
+      "fax": "+31-10-98765432"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5641",
+      "address": "789 Harbor Lane, Rotterdam, Netherlands",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-12345678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940160",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CH456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "OFFICE CHAIRS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 2250.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "CH789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "OFFICE CHAIRS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 2250.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "CH123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "OFFICE CHAIRS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 2250.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMLU3210987",
+      "sealNumber": "321098",
+      "marksAndNumbers": "CH789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "OFFICE CHAIRS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 2250.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMLU5432109",
+      "sealNumber": "543210",
+      "marksAndNumbers": "CH456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "OFFICE CHAIRS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 2250.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 11250.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9873",
+      "address": "456 Commerce Street, Rotterdam, Netherlands",
+      "telephone": "+31-10-9876543",
+      "fax": "+31-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5641",
+      "address": "789 Harbor Lane, Rotterdam, Netherlands",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-12345678"
+    },
+    "onboardDate": "2024-11-22 14:00",
+    "additionalRemarks": "Containers to be loaded on top of each other, maximum stacking height 4 containers."
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  }
+}

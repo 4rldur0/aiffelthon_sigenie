@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410028710",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024682E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7284",
+      "address": "321 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6328 7592",
+      "email": "SALES@SUNRISETRADING.COM"
+    },
+    "consignee": {
+      "name": "ACE LOGISTICS CO. LTD.",
+      "address": "FRANKFURTER STRASSE 123, ROTTERDAM, NETHERLANDS 3011 KD",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "notifyParty": {
+      "name": "ACE LOGISTICS (HONG KONG)",
+      "address": "234 CANTON ROAD, HONG KONG",
+      "telephone": "+852 2345 6789",
+      "fax": "+852 2345 6780"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871200",
+  "commodityDescription": "ELECTRIC SCOOTERS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9678534",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "GFS-123",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "ELECTRIC SCOOTERS",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "8901234",
+      "marksAndNumbers": "GFS-456",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "ELECTRIC SCOOTERS",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY CONTAINER)",
+    "totalPackages": 200,
+    "packageType": "PACKAGES",
+    "containerType": "20' DRY CONTAINER",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "ACE LOGISTICS CO. LTD.",
+      "address": "FRANKFURTER STRASSE 123, ROTTERDAM, NETHERLANDS 3011 KD",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACE LOGISTICS CO. LTD.",
+      "address": "FRANKFURTER STRASSE 123, ROTTERDAM, NETHERLANDS 3011 KD",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "onboardDate": "2024-09-28 12:15",
+    "additionalRemarks": "Please ensure containers are properly ventilated."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202409206806",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2434WEASZ"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA INTERNATIONAL LTD",
+      "address": "1234 SKYLINE BLVD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)",
+      "telephone": "+86 21 5555 6666",
+      "email": "SHIPPING@OMEGAINTL.COM"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CORPORATION",
+      "address": "5678 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "IMPORT@DELTATRADING.NL",
+      "telephone": "+31 10 2222 3333"
+    },
+    "notifyParty": {
+      "name": "SIGMA DISTRIBUTORS INC.",
+      "address": "9012 HARBOR DRIVE, AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "RECEIVING@SIGMADISTRIBUTORS.COM",
+      "telephone": "+31 20 3333 4444"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "90189010",
+  "commodityDescription": "MEDICAL DEVICES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "MD-20241017",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "MEDICAL DEVICES, HS CODE 90189010",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "MD-20241017",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "MEDICAL DEVICES, HS CODE 90189010",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 STANDARD) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT12345",
+      "CERT67890"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-01 12:00",
+    "additionalRemarks": "Maintain temperature between 2-8 degrees Celsius"
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

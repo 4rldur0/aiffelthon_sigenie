@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202410022110",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "243W147E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH IMPORTS LTD.",
+      "address": "234 SHANGHAI ROAD, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "EURO AUTO GMBH",
+      "address": "567 AUTOSTRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "EURO AUTO GMBH",
+      "address": "567 AUTOSTRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "87089910",
+  "commodityDescription": "MOTORCYCLE ENGINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZENITH-1",
+      "numberOfPackages": 50,
+      "cargoDescription": "MOTORCYCLE ENGINE PARTS, MADE IN CHINA",
+      "grossWeight": 2000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ZENITH-2",
+      "numberOfPackages": 50,
+      "cargoDescription": "MOTORCYCLE ENGINE PARTS, MADE IN CHINA",
+      "grossWeight": 2000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "ZENITH-3",
+      "numberOfPackages": 50,
+      "cargoDescription": "MOTORCYCLE ENGINE PARTS, MADE IN CHINA",
+      "grossWeight": 2000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 6000.0,
+    "totalMeasurement": 99.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CN1234567890",
+      "CN9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO AUTO GMBH",
+      "address": "567 AUTOSTRASSE, HAMBURG, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO AUTO GMBH",
+      "address": "567 AUTOSTRASSE, HAMBURG, GERMANY"
+    },
+    "onboardDate": "2024-10-08 14:00",
+    "additionalRemarks": "CONTAINER SEAL REQUIRED. CARGO TO BE STOWED AWAY FROM HEAT SOURCES."
+  },
+  "dangerousGoods": {
+    "dangerousGoodsDescription": "Corrosive solid, acidic, n.o.s.",
+    "unNumber": "3264",
+    "dangerousGoodsClass": "9",
+    "packingGroup": "II",
+    "properShippingName": "Corrosive solid, acidic, n.o.s.",
+    "subsidiaryRisk": null,
+    "flashPoint": null,
+    "technicalName": null,
+    "hazards": [
+      "Corrosive"
+    ],
+    "precautions": [
+      "Handle with care.",
+      "Wear appropriate protective gear.",
+      "Store in a well-ventilated area.",
+      "Keep away from incompatible materials.",
+      "In case of spillage, follow emergency procedures."
+    ],
+    "emergencyContact": "+1-555-555-5555"
+  }
+}

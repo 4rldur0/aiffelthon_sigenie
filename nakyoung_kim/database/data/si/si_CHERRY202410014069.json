@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410014069",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024613W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5284",
+      "address": "123 SUNRISE STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1212",
+      "email": "INFO@SHIPPER5284.COM"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 7159",
+      "address": "15 QUEEN STREET, LONDON, UK EC4N 8BN",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 7777 1234",
+      "fax": "+44 20 7777 5678"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 3721",
+      "address": "123 MAIN STREET, NEW YORK, USA 10001",
+      "telephone": "+1 212 555 1212",
+      "email": "INFO@CUSTOMER3721.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN TABLES AND CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS WOODEN TABLES AND CHAIRS",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS WOODEN TABLES AND CHAIRS",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS WOODEN TABLES AND CHAIRS",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE DRY",
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 7159",
+      "address": "15 QUEEN STREET, LONDON, UK EC4N 8BN",
+      "telephone": "+44 20 7777 1234",
+      "fax": "+44 20 7777 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 3721",
+      "address": "123 MAIN STREET, NEW YORK, USA 10001",
+      "telephone": "+1 212 555 1212",
+      "email": "INFO@CUSTOMER3721.COM"
+    },
+    "onboardDate": "2024-10-12 14:30",
+    "additionalRemarks": "Cargo to be loaded on deck."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2552605",
+    "unClass": "6",
+    "unCode": "No: 3334",
+    "hsCode": "6050.44.67",
+    "flashPoint": "33\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

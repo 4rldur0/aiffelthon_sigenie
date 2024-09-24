@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409231103",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409WSEA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ORIENTAL TRADING CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 123 4567",
+      "email": "SHIPPER@ORIENTALTRADING.COM"
+    },
+    "consignee": {
+      "name": "UNITED GLOBAL FREIGHT LTD.",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "taxId": "DE1234567890",
+      "president": "MR. HANS MEYER",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 987 6543"
+    },
+    "notifyParty": {
+      "name": "UNITED GLOBAL FREIGHT LTD.",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 111 2222",
+      "fax": "+49 40 333 4444"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "87032310",
+  "commodityDescription": "SUV VEHICLE",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "12345",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG SUV VEHICLE",
+      "grossWeight": 2500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU6789012",
+      "sealNumber": "67890",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG SUV VEHICLE",
+      "grossWeight": 2500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40 FOOT HIGH CUBE CONTAINER",
+    "totalPackages": 2,
+    "packageType": "UNIT",
+    "containerType": "40 FOOT HIGH CUBE DRY",
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "UNITED GLOBAL FREIGHT LTD.",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 987 6543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "UNITED GLOBAL FREIGHT LTD.",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 111 2222",
+      "fax": "+49 40 333 4444"
+    },
+    "onboardDate": "2024-09-27 14:00",
+    "additionalRemarks": "SHIPMENT REQUIRES NO SPECIAL HANDLING. B/L: TO BE ISSUED"
+  }
+}

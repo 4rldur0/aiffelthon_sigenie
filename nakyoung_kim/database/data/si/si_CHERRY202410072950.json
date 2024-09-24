@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410072950",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024487W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1278",
+      "address": "No. 1234, Huangpu Road, Shanghai, 200001, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8888 1234",
+      "email": "INFO@SHIPPER1278.CN"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9852",
+      "address": "12 Rue de la Paix, Paris, 75002, FRANCE",
+      "country": "FRANCE",
+      "email": "SALES@CUSTOMER9852.FR",
+      "telephone": "+33 1 5555 1234"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6329",
+      "address": "10 Boulevard Saint-Germain, Paris, 75005, FRANCE",
+      "country": "FRANCE",
+      "email": "RECEIVABLES@INVOICERECEIVER6329.FR",
+      "telephone": "+33 1 4444 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940160",
+  "commodityDescription": "METAL CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP1278-1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIP1278-2",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SHIP1278-3",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) x 20 DRY CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 105.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC000123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9852",
+      "address": "12 Rue de la Paix, Paris, 75002, FRANCE",
+      "telephone": "+33 1 5555 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 6329",
+      "address": "10 Boulevard Saint-Germain, Paris, 75005, FRANCE",
+      "telephone": "+33 1 4444 5678"
+    },
+    "onboardDate": "2024-10-15 18:30",
+    "additionalRemarks": "Please ensure proper documentation for customs clearance."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

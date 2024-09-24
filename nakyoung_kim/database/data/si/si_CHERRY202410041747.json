@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410041747",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2410GFOR1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS INC.",
+      "address": "1234 TECH PARK BOULEVARD, SHANGHAI, 200123, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 6328 9876",
+      "email": "SALES@SUNRISEELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CORPORATION",
+      "address": "155 GREAT PORTLAND STREET, LONDON, W1W 5LQ, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@DELTATRADING.CO.UK",
+      "telephone": "+44 20 7636 8800"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CORPORATION",
+      "address": "155 GREAT PORTLAND STREET, LONDON, W1W 5LQ, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@DELTATRADING.CO.UK",
+      "telephone": "+44 20 7636 8800"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85423710",
+  "commodityDescription": "SEMICONDUCTOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SEI-1234",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CMLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SEI-1235",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CMLU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SEI-1236",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SEI-1237",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CMLU2345678",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SEI-1238",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) X 20' STANDARD CONTAINERS",
+    "totalPackages": 5000,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CORPORATION",
+      "address": "155 GREAT PORTLAND STREET, LONDON, W1W 5LQ, UNITED KINGDOM",
+      "telephone": "+44 20 7636 8800"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CORPORATION",
+      "address": "155 GREAT PORTLAND STREET, LONDON, W1W 5LQ, UNITED KINGDOM",
+      "telephone": "+44 20 7636 8800"
+    },
+    "onboardDate": "2024-10-07 15:00",
+    "additionalRemarks": "SHIPMENT REQUIRES HANDLING WITH CARE"
+  }
+}

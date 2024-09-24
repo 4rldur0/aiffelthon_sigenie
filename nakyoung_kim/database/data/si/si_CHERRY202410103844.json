@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410103844",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024412E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4321",
+      "address": "1234 Logistics Way, Ningbo, Zhejiang, 315000, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8666 1234",
+      "email": "shipping@shipper4321.com"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9876",
+      "address": "1000 Avenida de la Libertad, 11300 Algeciras, SPAIN",
+      "country": "SPAIN",
+      "email": "info@customer9876.es",
+      "telephone": "+34 956 555 1234"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1234",
+      "address": "1234 Financial Plaza, Algeciras, 11300 SPAIN",
+      "country": "SPAIN",
+      "email": "invoice@receiver1234.es",
+      "telephone": "+34 956 444 5555"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIR LEGS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP4321-1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIR LEGS (W.500MM H.300MM D.200MM)",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIP4321-2",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIR LEGS (W.500MM H.300MM D.200MM)",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40 DRY HIGH CUBE CONTAINERS",
+    "totalPackages": 200,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9876",
+      "address": "1000 Avenida de la Libertad, 11300 Algeciras, SPAIN",
+      "telephone": "+34 956 555 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1234",
+      "address": "1234 Financial Plaza, Algeciras, 11300 SPAIN",
+      "telephone": "+34 956 444 5555"
+    },
+    "onboardDate": "2024-10-20 12:00",
+    "additionalRemarks": "Container to be loaded with moisture absorbent pads."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

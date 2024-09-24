@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202411058589",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "3456E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA IMPORT EXPORT",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 777 8888",
+      "fax": "+31 20 777 9999"
+    },
+    "notifyParty": {
+      "name": "SIGMA LOGISTICS SOLUTIONS",
+      "address": "789 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "902300",
+  "commodityDescription": "MEDICAL SURGICAL INSTRUMENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "MEDICAL INSTRUMENTS - NINGBO",
+      "numberOfPackages": 150,
+      "cargoDescription": "MEDICAL SURGICAL INSTRUMENTS (H.S. CODE: 902300)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "FRAGILE - MEDICAL INSTRUMENTS",
+      "numberOfPackages": 150,
+      "cargoDescription": "MEDICAL SURGICAL INSTRUMENTS (H.S. CODE: 902300)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "MEDICAL INSTRUMENTS - ROTTERDAM",
+      "numberOfPackages": 150,
+      "cargoDescription": "MEDICAL SURGICAL INSTRUMENTS (H.S. CODE: 902300)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "MEDICAL INSTRUMENTS - NINGBO",
+      "numberOfPackages": 150,
+      "cargoDescription": "MEDICAL SURGICAL INSTRUMENTS (H.S. CODE: 902300)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU2468013",
+      "sealNumber": "543210",
+      "marksAndNumbers": "FRAGILE - MEDICAL INSTRUMENTS",
+      "numberOfPackages": 150,
+      "cargoDescription": "MEDICAL SURGICAL INSTRUMENTS (H.S. CODE: 902300)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 x 20 DRY) CONTAINERS ONLY",
+    "totalPackages": 750,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT12345",
+      "CERT67890"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SIGMA LOGISTICS SOLUTIONS",
+      "address": "789 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444"
+    },
+    "onboardDate": "2024-11-12 12:00",
+    "additionalRemarks": "Fragile, Handle with Care"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

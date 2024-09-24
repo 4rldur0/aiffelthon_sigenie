@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202410143601",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2234E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT & EXPORT INC.",
+      "address": "No. 999, Pudong Avenue, Shanghai, China 200131",
+      "country": "CHINA",
+      "additionalInfo": "(Shanghai Free Trade Zone)",
+      "telephone": "+86 21 6666 7890",
+      "email": "sales@deltatrading.com"
+    },
+    "consignee": {
+      "name": "GAMMA LOGISTICS BV",
+      "address": "101 Spido Street, Rotterdam, Netherlands 3011AB",
+      "country": "NETHERLANDS",
+      "email": "info@gammalogistics.nl",
+      "telephone": "+31 10 333 4444"
+    },
+    "notifyParty": {
+      "name": "GAMMA LOGISTICS BV",
+      "address": "101 Spido Street, Rotterdam, Netherlands 3011AB",
+      "country": "NETHERLANDS",
+      "email": "info@gammalogistics.nl",
+      "telephone": "+31 10 333 4444"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "Single-Mode Optical Fiber Cable",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "890123",
+      "marksAndNumbers": "DELTA123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SINGLE-MODE OPTICAL FIBER CABLE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "DELTA456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SINGLE-MODE OPTICAL FIBER CABLE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DELTA789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SINGLE-MODE OPTICAL FIBER CABLE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) x 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GAMMA LOGISTICS BV",
+      "address": "101 Spido Street, Rotterdam, Netherlands 3011AB",
+      "telephone": "+31 10 333 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GAMMA LOGISTICS BV",
+      "address": "101 Spido Street, Rotterdam, Netherlands 3011AB",
+      "telephone": "+31 10 333 4444"
+    },
+    "onboardDate": "2024-10-20 12:00",
+    "additionalRemarks": "Containers to be loaded with proper lashing and dunnage for secure transit."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410137749",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024932W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1732",
+      "address": "123 Marina Boulevard, Singapore 018985",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Near Marina Bay Sands)"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 5821",
+      "address": "Erasmusgracht 23, 3034 AD Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@invoicereceiver5821.nl",
+      "telephone": "+31 10 411 22 33"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 4285",
+      "address": "123 Main Street, London, United Kingdom, W1A 1AA",
+      "country": "UNITED KINGDOM",
+      "email": "info@customer4285.uk",
+      "telephone": "+44 20 7123 4567"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "852871",
+  "commodityDescription": "LCD Monitors",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "INVOICE RECEIVER 5821",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LCD MONITORS 100 PCS 50 CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "INVOICE RECEIVER 5821",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LCD MONITORS 100 PCS 50 CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HQ) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "852871",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 4285",
+      "address": "123 Main Street, London, United Kingdom, W1A 1AA",
+      "telephone": "+44 20 7123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5821",
+      "address": "Erasmusgracht 23, 3034 AD Rotterdam, Netherlands",
+      "telephone": "+31 10 411 22 33"
+    },
+    "onboardDate": "2024-10-18 15:00",
+    "additionalRemarks": "Please ensure all seals are intact upon delivery."
+  }
+}

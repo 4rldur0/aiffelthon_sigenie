@@ -1,0 +1,81 @@
+{
+  "bookingReference": "CHERRY202410117272",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2345W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CFR",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "1234 Industrial Avenue, Ningbo, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "FEDEX TRADE NETWORKS TRANSPORT & BROKERAGE",
+      "address": "456 Commercial Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    },
+    "notifyParty": {
+      "name": "FEDEX TRADE NETWORKS TRANSPORT & BROKERAGE",
+      "address": "456 Commercial Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "94033090",
+  "commodityDescription": "WOODEN DINING TABLE SET",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "cargoDescription": "WOODEN DINING TABLE SET AS PER COMMERCIAL INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 8000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "CN123456789012",
+      "CO123456789012"
+    ],
+    "originalBLDistribution": {
+      "name": "FEDEX TRADE NETWORKS TRANSPORT & BROKERAGE",
+      "address": "456 Commercial Street, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FEDEX TRADE NETWORKS TRANSPORT & BROKERAGE",
+      "address": "456 Commercial Street, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-10-16 14:00",
+    "additionalRemarks": "CARGO REQUIRES TEMPERATURE CONTROLLED ENVIRONMENT. PLEASE HANDLE WITH CARE."
+  }
+}

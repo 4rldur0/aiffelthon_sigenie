@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202410177998",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2438WEC"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING LTD.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "EUROASIA TRADING CO.",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "OPERATIONS@EUROASIA.DE, SALES@EUROASIA.DE",
+      "telephone": "+49 69 7564 1234"
+    },
+    "notifyParty": {
+      "name": "EUROASIA TRADING CO. GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "OPERATIONS@EUROASIA.DE, SALES@EUROASIA.DE",
+      "telephone": "+49 69 7564 1234"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "MOBILE PHONE PARTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GFS-2024-10",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOBILE PHONE PARTS AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GFS-2024-11",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOBILE PHONE PARTS AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE DRY CONTAINER X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GFS-2024-1009",
+    "hsCode": "85444210",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC0012345678"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "originalBLDistribution": {
+      "name": "EUROASIA TRADING CO. GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 7564 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC MANUFACTURING LTD.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, 315000",
+      "telephone": "+86 574 88888888"
+    },
+    "onboardDate": "2024-10-24 14:00",
+    "additionalRemarks": "TEMPERATURE SENSITIVE CARGO. REQUIRES SPECIAL HANDLING."
+  },
+  "reeferSettings": {
+    "temperatureSetpoint": {
+      "value": 2,
+      "unit": "Celsius"
+    },
+    "temperatureRange": {
+      "lowerLimit": 0,
+      "upperLimit": 4,
+      "unit": "Celsius"
+    },
+    "humiditySetpoint": {
+      "value": 90,
+      "unit": "%"
+    },
+    "humidityRange": {
+      "lowerLimit": 85,
+      "upperLimit": 95,
+      "unit": "%"
+    },
+    "ventilationSettings": {
+      "mode": "Passive",
+      "rate": 0
+    },
+    "preCooling": true,
+    "monitoringFrequency": "Continuous"
+  }
+}

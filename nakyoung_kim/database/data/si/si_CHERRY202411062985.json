@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202411062985",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024932W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4782",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA 200001",
+      "telephone": "+86-21-6234-5678",
+      "fax": "+86-21-6234-5679"
+    },
+    "consignee": {
+      "name": "CUSTOMER 1529",
+      "address": "DAMMSTRASSE 15, 20355 HAMBURG, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6218",
+      "address": "123 MAIN STREET, LONDON WC1A 1AA, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847130",
+  "commodityDescription": "Laptop Computers",
+  "containers": [
+    {
+      "containerNumber": "CRLU9987654",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP4782-LAPTOP-001",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. LAPTOP COMPUTERS AS PER PACKING LIST.",
+      "grossWeight": 18000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9987655",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIP4782-LAPTOP-002",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. LAPTOP COMPUTERS AS PER PACKING LIST.",
+      "grossWeight": 18000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC) CONTAINERS",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00012345"
+    },
+    "certificateDetails": [
+      "CO-00123456"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1529",
+      "address": "DAMMSTRASSE 15, 20355 HAMBURG, GERMANY",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 6218",
+      "address": "123 MAIN STREET, LONDON WC1A 1AA, UNITED KINGDOM"
+    },
+    "onboardDate": "2024-11-14 09:15",
+    "additionalRemarks": "Containers require pre-cooling to 4 degrees Celsius."
+  }
+}

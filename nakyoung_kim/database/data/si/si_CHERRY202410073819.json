@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202410073819",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241022-02"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION MACHINERY LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FACTORY)"
+    },
+    "consignee": {
+      "name": "UNITED GLOBAL IMPORTS INC.",
+      "address": "5678 ALICANTE STREET, ALGECIRAS, SPAIN 11001",
+      "country": "SPAIN",
+      "email": "IMPORTS@UNITEDGLOBAL.COM",
+      "telephone": "+34 956 789 012"
+    },
+    "notifyParty": {
+      "name": "UNITED GLOBAL IMPORTS INC.",
+      "address": "5678 ALICANTE STREET, ALGECIRAS, SPAIN 11001",
+      "country": "SPAIN",
+      "email": "IMPORTS@UNITEDGLOBAL.COM",
+      "telephone": "+34 956 789 012"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84663090",
+  "commodityDescription": "TEXTILE LOOM SPARE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA1234",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "TEXTILE LOOM SPARE PARTS, 100 BOXES, 20 KG EACH",
+      "grossWeight": 2000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMAU8901234",
+      "sealNumber": "567890",
+      "marksAndNumbers": "ASIA5678",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "TEXTILE LOOM SPARE PARTS ON PALLETS, 50 PALLETS, 500 KG EACH",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5678901",
+      "sealNumber": "901234",
+      "marksAndNumbers": "ASIA9012",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "TEXTILE LOOM SPARE PARTS IN CRATES, 50 CRATES, 250 KG EACH",
+      "grossWeight": 12500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "678901",
+      "marksAndNumbers": "ASIA2345",
+      "numberOfPackages": 100,
+      "packageType": "BAGS",
+      "cargoDescription": "TEXTILE LOOM SPARE PARTS IN BAGS, 100 BAGS, 10 KG EACH",
+      "grossWeight": 1000.0,
+      "measurement": 5.0
+    },
+    {
+      "containerNumber": "CMAU9012345",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA6789",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "TEXTILE LOOM SPARE PARTS, 50 BOXES, 25 KG EACH",
+      "grossWeight": 1250.0,
+      "measurement": 7.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY X 5) CONTAINERS ONLY",
+    "totalPackages": 350,
+    "packageType": "BOXES, PALLETS, CRATES & BAGS",
+    "totalGrossWeight": 40750.0,
+    "totalMeasurement": 72.5
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "84663090",
+    "freeTimeAtDestination": "5 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "UNITED GLOBAL IMPORTS INC.",
+      "address": "5678 ALICANTE STREET, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34 956 789 012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "UNITED GLOBAL IMPORTS INC.",
+      "address": "5678 ALICANTE STREET, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34 956 789 012",
+      "fax": "+34 956 789 013"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "Free time: 5 days at destination. Shipper to arrange customs clearance."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

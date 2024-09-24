@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202410243447",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2442E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "HANJIN SHIPPING CO., LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "HANJIN SHIPPING CO., LTD.",
+      "address": "456 BROADWAY STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234567",
+      "fax": "+49 40 9876543"
+    },
+    "notifyParty": {
+      "name": "HANJIN SHIPPING CO., LTD.",
+      "address": "789 PARK AVENUE, HAMBURG, GERMANY",
+      "telephone": "+49 40 1111222",
+      "fax": "+49 40 2222111"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "SWITCHGEAR AND CONTROL GEAR",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "HJ SHIPMENT 1",
+      "numberOfPackages": 50,
+      "cargoDescription": "SWITCHGEAR AND CONTROL GEAR, PACKED IN CRATES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "HJ SHIPMENT 2",
+      "numberOfPackages": 40,
+      "cargoDescription": "SWITCHGEAR AND CONTROL GEAR, PACKED IN PALLETS",
+      "grossWeight": 9000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU2468013",
+      "sealNumber": "543210",
+      "marksAndNumbers": "HJ SHIPMENT 3",
+      "numberOfPackages": 30,
+      "cargoDescription": "SWITCHGEAR AND CONTROL GEAR, PACKED IN BOXES",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU5790123",
+      "sealNumber": "012345",
+      "marksAndNumbers": "HJ SHIPMENT 4",
+      "numberOfPackages": 20,
+      "cargoDescription": "SWITCHGEAR AND CONTROL GEAR, PACKED IN BAGS",
+      "grossWeight": 7000.0,
+      "measurement": 18.0
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "987654",
+      "marksAndNumbers": "HJ SHIPMENT 5",
+      "numberOfPackages": 10,
+      "cargoDescription": "SWITCHGEAR AND CONTROL GEAR, PACKED IN CARTONS",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) 20 DRY CONTAINERS",
+    "totalPackages": 150,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT123456",
+      "CERT654321"
+    ],
+    "originalBLDistribution": {
+      "name": "HANJIN SHIPPING CO., LTD.",
+      "address": "456 BROADWAY STREET, HAMBURG, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HANJIN SHIPPING CO., LTD.",
+      "address": "789 PARK AVENUE, HAMBURG, GERMANY",
+      "telephone": "+49 40 1111222",
+      "fax": "+49 40 2222111"
+    },
+    "onboardDate": "2024-11-01 12:00",
+    "additionalRemarks": "VALUE: USD50,000"
+  }
+}

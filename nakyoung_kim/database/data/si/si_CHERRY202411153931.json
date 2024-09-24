@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202411153931",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "1234DEF"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Telegraphic Transfer",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA FURNITURE CO.",
+      "address": "123 Fortune Street, Shanghai, China",
+      "telephone": "+86-21-56789012",
+      "fax": "+86-21-34567890"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS LTD.",
+      "address": "456 Commerce Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-98765432",
+      "fax": "+31-10-12345678",
+      "email": "import@euroimports.nl",
+      "contactPerson": "Peter Jones"
+    },
+    "notifyParty": {
+      "name": "EURO IMPORTS LTD.",
+      "address": "456 Commerce Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-98765432",
+      "fax": "+31-10-12345678",
+      "email": "import@euroimports.nl",
+      "contactPerson": "Jane Smith"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Wooden Chairs",
+      "grossWeight": 15000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIA456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Wooden Chairs",
+      "grossWeight": 15000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "ASIA789",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Wooden Chairs",
+      "grossWeight": 15000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU2468013",
+      "sealNumber": "801357",
+      "marksAndNumbers": "ASIA123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Wooden Chairs",
+      "grossWeight": 15000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU5793124",
+      "sealNumber": "124680",
+      "marksAndNumbers": "ASIA456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Wooden Chairs",
+      "grossWeight": 15000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20' DRY CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 165.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241115-001",
+    "documentNumber": "20241115-002",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS LTD.",
+      "address": "456 Commerce Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-98765432",
+      "fax": "+31-10-12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORTS LTD.",
+      "address": "456 Commerce Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-98765432",
+      "fax": "+31-10-12345678"
+    },
+    "onboardDate": "2024-11-20 10:00",
+    "additionalRemarks": "SHIPMENT REQUIRES TEMPERATURE CONTROL. PLEASE ENSURE ADEQUATE VENTILATION."
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202411158893",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2411ZHEWBE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(BEILUN DISTRICT)",
+      "telephone": "+86 574 5555 1234",
+      "email": "SALES@SUNRISEMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORTS LLC",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@BLUESKYIMPORTS.NL",
+      "telephone": "+31 10 412 3456"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY IMPORTS LLC",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "LOGISTICS@BLUESKYIMPORTS.NL",
+      "telephone": "+31 10 412 3456"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "854370",
+  "commodityDescription": "INDUSTRIAL HEATERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SR20241115",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INDUSTRIAL HEATERS (100 PCS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "123457",
+      "marksAndNumbers": "SR20241115",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INDUSTRIAL HEATERS (100 PCS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "123458",
+      "marksAndNumbers": "SR20241115",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INDUSTRIAL HEATERS (100 PCS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123459",
+      "marksAndNumbers": "SR20241115",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INDUSTRIAL HEATERS (100 PCS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CRLU2468013",
+      "sealNumber": "123460",
+      "marksAndNumbers": "SR20241115",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INDUSTRIAL HEATERS (100 PCS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) X 20' DRY CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY IMPORTS LLC",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 AB, NETHERLANDS",
+      "telephone": "+31 10 412 3456"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY IMPORTS LLC",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 AB, NETHERLANDS",
+      "telephone": "+31 10 412 3456"
+    },
+    "onboardDate": "2024-11-18 12:00",
+    "additionalRemarks": "TEMPERATURE SENSITIVE CARGO. REQUIRES VENTILATION"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202410299809",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4259",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTECHIMPORT.NL",
+      "telephone": "+31 10 123 4567"
+    },
+    "notifyParty": {
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTECHIMPORT.NL",
+      "telephone": "+31 10 123 4567"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "850110",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "PEL2024",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY, 150 CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "PEL2024",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY, 150 CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "543210",
+      "marksAndNumbers": "PEL2024",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY, 150 CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY CONTAINER X3) CONTAINERS ONLY",
+    "totalPackages": 450,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "850110",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890ABC"
+    },
+    "certificateDetails": "1234567890XYZ",
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "telephone": "+31 10 123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "PRECISION ENGINEERING LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86 21 123 4567"
+    },
+    "onboardDate": "2024-10-31 17:00",
+    "additionalRemarks": "Please provide accurate weight and dimensions of the cargo."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

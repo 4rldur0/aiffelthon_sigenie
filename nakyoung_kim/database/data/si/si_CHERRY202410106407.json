@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202410106407",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "342ZKN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING INC.",
+      "address": "1234 Sunshine Avenue, Ningbo, 315000, China",
+      "telephone": "+86-574-8654-1234",
+      "fax": "+86-574-8654-5678"
+    },
+    "consignee": {
+      "name": "DELTA TRADING GROUP",
+      "address": "5678 Hafenstrasse, Hamburg, 20457, Germany",
+      "telephone": "+49-40-3654-8000",
+      "fax": "+49-40-3654-8001",
+      "email": "info@deltatrading.de",
+      "contactPerson": "Klaus Schmidt"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "DELTA TRADING LOGISTICS",
+      "address": "5678 Hafenstrasse, Hamburg, 20457, Germany",
+      "telephone": "+49-40-3654-8002",
+      "fax": "+49-40-3654-8003"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "90328100",
+  "commodityDescription": "DIGITAL CAMERA",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DTG20241010",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DIGITAL CAMERA",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DTG20241010",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DIGITAL CAMERA",
+      "grossWeight": 19900.0,
+      "measurement": 59.5
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "DTG20241010",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DIGITAL CAMERA",
+      "grossWeight": 20100.0,
+      "measurement": 60.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 3000,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 180.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202410106407-001",
+    "documentNumber": "202410106407-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING GROUP",
+      "address": "5678 Hafenstrasse, Hamburg, 20457, Germany",
+      "telephone": "+49-40-3654-8000",
+      "fax": "+49-40-3654-8001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING GROUP",
+      "address": "5678 Hafenstrasse, Hamburg, 20457, Germany",
+      "telephone": "+49-40-3654-8000",
+      "fax": "+49-40-3654-8001"
+    },
+    "onboardDate": "2024-10-25 16:00",
+    "additionalRemarks": "Containers must maintain a temperature of 5 degrees Celsius."
+  },
+  "dangerousGoods": {
+    "dangerousGoods": true,
+    "unNumber": "3334",
+    "properShippingName": "Aviation Regulated Solid - Oxidizing",
+    "class": "9",
+    "packingGroup": "II",
+    "subsidiaryRisk": null,
+    "flashPoint": null,
+    "technicalName": null,
+    "hazards": [
+      "Oxidizing agent"
+    ],
+    "emergencyProcedures": "In case of fire, use dry chemical powder, carbon dioxide, or water spray. Avoid contact with combustible materials. Wear appropriate personal protective equipment.",
+    "storageInstructions": "Store in a cool, dry, well-ventilated area. Keep away from incompatible materials such as reducing agents and flammable substances."
+  }
+}

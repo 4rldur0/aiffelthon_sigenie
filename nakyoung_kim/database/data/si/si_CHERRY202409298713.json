@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202409298713",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2437GFOR"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA TRADING CORPORATION",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
+    },
+    "consignee": {
+      "name": "EUROASIA IMPORTS LLC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROASIAIMPORTS.NL",
+      "telephone": "+31 10 123 4567"
+    },
+    "notifyParty": {
+      "name": "EUROASIA IMPORTS LLC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROASIAIMPORTS.NL",
+      "telephone": "+31 10 123 4567"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "90189090",
+  "commodityDescription": "MEDICAL DIAGNOSTIC EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "CTCN2024",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEDICAL DIAGNOSTIC EQUIPMENT, 100 CARTONS",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CTCN2024",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEDICAL DIAGNOSTIC EQUIPMENT, 100 CARTONS",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "234567",
+      "marksAndNumbers": "CTCN2024",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEDICAL DIAGNOSTIC EQUIPMENT, 100 CARTONS",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE CONTAINER X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "90189090",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890ABC"
+    },
+    "certificateDetails": "1234567890XYZ",
+    "originalBLDistribution": {
+      "name": "EUROASIA IMPORTS LLC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31 10 123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA TRADING CORPORATION",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86 21 123 4567"
+    },
+    "onboardDate": "2024-10-05 10:00",
+    "additionalRemarks": "EQUIPMENT REQUIRES TEMPERATURE CONTROLLED ENVIRONMENT, VALUE: USD 150,000"
+  },
+  "dangerousGoods": {},
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

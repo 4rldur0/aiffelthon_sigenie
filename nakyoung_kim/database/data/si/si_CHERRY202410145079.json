@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410145079",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2429WST"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "No. 1234, Xinghai Road, Ningbo, Zhejiang Province, China",
+      "country": "CHINA",
+      "additionalInfo": "(Ningbo Free Trade Zone)"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "Prinsengracht 123, 1015DZ Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@globalimports.nl",
+      "telephone": "+31 20 6245678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "Prinsengracht 123, 1015DZ Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@globalimports.nl",
+      "telephone": "+31 20 6245678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY BUILDING BLOCKS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 60,
+      "packageType": "CARTONS",
+      "cargoDescription": "TOY BUILDING BLOCKS, PACKED IN CARTONS ON PALLETS",
+      "grossWeight": 15000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-456",
+      "numberOfPackages": 60,
+      "packageType": "CARTONS",
+      "cargoDescription": "TOY BUILDING BLOCKS, PACKED IN CARTONS ON PALLETS",
+      "grossWeight": 15000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY CONTAINER)",
+    "totalPackages": 120,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 120.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "950300",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "None",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "Prinsengracht 123, 1015DZ Amsterdam, Netherlands",
+      "telephone": "+31 20 6245678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "Prinsengracht 123, 1015DZ Amsterdam, Netherlands",
+      "telephone": "+31 20 6245678"
+    },
+    "onboardDate": "2024-10-25 15:00",
+    "additionalRemarks": "Toy building blocks, packed in cartons on pallets. Value: USD 15,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202409254377",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024381W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1856",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS BV",
+      "address": "101 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 AB",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALIMPORTS.NL",
+      "telephone": "+31 20 777 1234"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS BV",
+      "address": "101 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 AB",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALIMPORTS.NL",
+      "telephone": "+31 20 777 1234"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "940161",
+  "commodityDescription": "METAL CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GI20241027",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS, MODEL: A1, COLOR: BLACK",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU8901234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GI20241027",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS, MODEL: A2, COLOR: RED",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE)",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "940161",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS BV",
+      "address": "101 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 AB",
+      "telephone": "+31 20 777 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS BV",
+      "address": "101 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 AB",
+      "telephone": "+31 20 777 1234",
+      "fax": "+31 20 777 1235"
+    },
+    "onboardDate": "2024-10-05 11:30",
+    "additionalRemarks": "Containers to be loaded on deck."
+  }
+}

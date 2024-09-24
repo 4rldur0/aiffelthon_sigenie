@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202409293681",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024352E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9145",
+      "address": "123 SHIPPER AVE., NINGBO 315000, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8654 1234",
+      "email": "SHIPPING@SHIPPER9145.CN"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7239 CO. LTD.",
+      "address": "456 CONSIGNEE ST., ALGECIRAS 11001, SPAIN",
+      "country": "SPAIN",
+      "email": "CONSIGNEE@CUSTOMER7239.ES",
+      "telephone": "+34 956 789 012"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2876 LTD.",
+      "address": "789 RECEIVER ST., ALGECIRAS 11002, SPAIN",
+      "country": "SPAIN",
+      "email": "RECEIVER@INVOICERECEIVER2876.ES",
+      "telephone": "+34 956 478 6592"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "282540",
+  "commodityDescription": "SODIUM HYDROXIDE",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING 1",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "SODIUM HYDROXIDE (25KG BAGS)",
+      "grossWeight": 2500.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "SODIUM HYDROXIDE (25KG BAGS)",
+      "grossWeight": 2500.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "SODIUM HYDROXIDE (25KG BAGS)",
+      "grossWeight": 2500.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU1112223",
+      "sealNumber": "333444",
+      "marksAndNumbers": "SAMPLE MARKING 4",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "SODIUM HYDROXIDE (25KG BAGS)",
+      "grossWeight": 2500.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU5556667",
+      "sealNumber": "777888",
+      "marksAndNumbers": "SAMPLE MARKING 5",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "SODIUM HYDROXIDE (25KG BAGS)",
+      "grossWeight": 2500.0,
+      "measurement": 2.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 12.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-26 12:30",
+    "additionalRemarks": "Cargo requires proper ventilation during transit."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

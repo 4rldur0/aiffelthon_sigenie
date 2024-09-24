@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202409207257",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "240926E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC MANUFACTURING CO. LTD.",
+      "address": "1234 SHIPMENT STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "XYZ GLOBAL TRADING LLC",
+      "address": "5678 RECEIVER AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 9876 5432",
+      "fax": "+31 10 9876 1234"
+    },
+    "notifyParty": {
+      "name": "XYZ GLOBAL TRADING LLC",
+      "address": "9876 NOTIFICATION ROAD, SINGAPORE"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "PAPER MAKING MACHINE COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING 1",
+      "numberOfPackages": 10,
+      "cargoDescription": "PAPER MAKING MACHINE COMPONENTS - 10 PACKAGES",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 15,
+      "cargoDescription": "PAPER MAKING MACHINE COMPONENTS - 15 PACKAGES",
+      "grossWeight": 7500.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 10,
+      "cargoDescription": "PAPER MAKING MACHINE COMPONENTS - 10 PACKAGES",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 35,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 17500.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "CERT-123456"
+    ],
+    "originalBLDistribution": {
+      "name": "XYZ GLOBAL TRADING LLC",
+      "address": "5678 RECEIVER AVENUE, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "XYZ GLOBAL TRADING LLC",
+      "address": "9876 NOTIFICATION ROAD, SINGAPORE",
+      "telephone": "+65 6666 7777",
+      "fax": "+65 6666 8888"
+    },
+    "onboardDate": "2024-09-24 09:00",
+    "additionalRemarks": "URGENT SHIPMENT, REQUIRES IMMEDIATE LOADING. VALUE: USD150,000"
+  }
+}

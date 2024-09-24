@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202409284609",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING INC.",
+      "onBehalfOf": null,
+      "address": "1234 INDUSTRIAL PARK ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-5678-9012",
+      "fax": "+86-574-5678-9013"
+    },
+    "consignee": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "CALLE REAL, 123, ALGECIRAS, SPAIN",
+      "companyNumber": "ES123456789"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "CALLE REAL, 123, ALGECIRAS, SPAIN"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "90230010",
+  "commodityDescription": "MEDICAL INSTRUMENTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU5498768",
+      "sealNumber": "123459",
+      "marksAndNumbers": "OMEGA-2024-10",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL INSTRUMENTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "TEMPERATURE SENSITIVE CARGO. PLEASE HANDLE WITH CARE."
+    },
+    {
+      "containerNumber": "MSCU5498769",
+      "sealNumber": "123460",
+      "marksAndNumbers": "OMEGA-2024-10",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL INSTRUMENTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "TEMPERATURE SENSITIVE CARGO. PLEASE HANDLE WITH CARE."
+    },
+    {
+      "containerNumber": "MSCU5498770",
+      "sealNumber": "123461",
+      "marksAndNumbers": "OMEGA-2024-10",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL INSTRUMENTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "TEMPERATURE SENSITIVE CARGO. PLEASE HANDLE WITH CARE."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' STANDARD CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567891"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "CALLE REAL, 123, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-123-456",
+      "fax": "+34-956-123-457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA MANUFACTURING INC.",
+      "address": "1234 INDUSTRIAL PARK ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-5678-9012",
+      "fax": "+86-574-5678-9013"
+    },
+    "onboardDate": "2024-10-02 16:00",
+    "additionalRemarks": "Temperature controlled shipment required (2-8 degrees Celsius). 5 Days Free Time at Destination."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411091229",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024935E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "FOB",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5694",
+      "address": "123 Industrial Avenue, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8666 5694",
+      "email": "shipping@shipper5694.cn"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 1876",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "taxId": "NL851234567B02",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 3512",
+      "address": "123 Business Park, Rotterdam, Netherlands",
+      "telephone": "+31 10 789 0123",
+      "fax": "+31 10 789 0124"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "940171",
+  "commodityDescription": "Metal Chair Frames",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 120,
+      "packageType": "UNITS",
+      "cargoDescription": "Metal Chair Frames. SHIPPER'S LOAD AND COUNT. ",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 120,
+      "packageType": "UNITS",
+      "cargoDescription": "Metal Chair Frames. SHIPPER'S LOAD AND COUNT. ",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGLU8765432",
+      "sealNumber": "876543",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 120,
+      "packageType": "UNITS",
+      "cargoDescription": "Metal Chair Frames. SHIPPER'S LOAD AND COUNT. ",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 120,
+      "packageType": "UNITS",
+      "cargoDescription": "Metal Chair Frames. SHIPPER'S LOAD AND COUNT. ",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (20 DRY) CONTAINERS",
+    "totalPackages": 480,
+    "packageType": "UNITS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 48000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3512",
+      "address": "123 Business Park, Rotterdam, Netherlands",
+      "telephone": "+31 10 789 0123",
+      "fax": "+31 10 789 0124"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1876",
+      "address": "123 Main Street, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-11-15 12:30",
+    "additionalRemarks": "Require pre-shipment inspection. Please ensure proper packaging for metal components."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}
