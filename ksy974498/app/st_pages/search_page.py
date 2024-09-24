@@ -18,5 +18,3 @@ def show_search_page():
             
         else:
             st.error("No Shipping Instruction found for the provided Booking Reference.")
-
-    
