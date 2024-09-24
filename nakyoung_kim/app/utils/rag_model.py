@@ -97,7 +97,7 @@ class RAGModel:
         question_with_context = f"{si_data}\n\nRelevant Documents:\n{context}"
         
         # Generate a response using the LLM chain
-        return self.chain.astream({'si_data':question_with_context})
+        return self.chain.invoke({'si_data':question_with_context})
 
     def invoke(self, si_data: str):
         """

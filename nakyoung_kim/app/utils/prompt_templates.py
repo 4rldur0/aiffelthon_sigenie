@@ -60,6 +60,8 @@ Container No. | Seal No. | Number of Packages | Gross Weight (kg) | Measurement 
 """
 check_missing_prompt = """ """
 
+check_parties_prompt = """ """
+
 validate_compliance_prompt = """
 # Compliance Verification
 You are an expert in sanctions and compliance regulations.
@@ -71,6 +73,8 @@ Provide a detailed response, including any relevant regulations, compliance issu
 """
 
 summary_prompt = """
+Summarize {source}
+
 # Mandatory information required in Shipping Instructions
 Irrespective of the format shipping instructions are presented in, certain details are mandatory. 
 
