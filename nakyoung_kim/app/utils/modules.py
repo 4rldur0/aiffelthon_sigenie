@@ -5,7 +5,6 @@ from utils.llms import get_llm
 from langchain.prompts import PromptTemplate
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_core.output_parsers.string import StrOutputParser
-from openai import AsyncOpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -13,19 +12,19 @@ load_dotenv()
 llm = get_llm("gpt-4o-mini")
 
 def check_missing(si_data):
-    prompt = PromptTemplate(template=check_missing_prompt, input_variables=["si_data"]) # ChatPromptTemplate 써야햘까?
+    prompt = PromptTemplate(template=check_missing_prompt, input_variables=["si_data"])
     chain =  prompt | llm | StrOutputParser()
     try:
-        response = chain.invoke(si_data)
+        response = chain.invoke({"si_data": si_data})
         return response
     except Exception as e:
         raise RuntimeError(f"Error during checking missing data: {e}")
     
 async def check_parties(si_data):
-    prompt = PromptTemplate(template=check_missing_prompt, input_variables=["si_data"]) # ChatPromptTemplate 써야햘까?
+    prompt = PromptTemplate(template=check_parties_prompt, input_variables=["si_data"])
     chain =  prompt | llm | StrOutputParser()
     try:
-        response = await chain.ainvoke(si_data)
+        response = await chain.ainvoke({"si_data": si_data})
         return response
     except Exception as e:
         raise RuntimeError(f"Error during checking parties: {e}")
@@ -47,16 +46,15 @@ async def validate_compliance(si_data):
     sources = pdf_files + urls
 
     # Initialize the RAG model with sources
-    app = RAGModel(llm=llm, sources=sources, template=validate_compliance_prompt)
+    rag = RAGModel(llm=llm, sources=sources, template=validate_compliance_prompt)
     question = f"Are there any compliance issues with the following shipping instruction: {si_data}?"
     
     try:
         # Directly await the final result from the invoke method
-        response = await app.invoke(question)
+        response = await rag.invoke(question)
         return response
     except Exception as e:
         raise RuntimeError(f"Error during compliance validation: {e}")
-
 
 async def search_news(si_data):
     web_search_tool = TavilySearchResults()
@@ -69,16 +67,11 @@ async def search_news(si_data):
         raise RuntimeError(f"Error during searching news: {e}")
     
 def generate_summary(placeholder, source):
-    client = AsyncOpenAI()
-    stream = client.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[{"role": "system", "content": summary_prompt},
-                  {"role": "user", "content": source},],
-        stream=True
-    )
-    streamed_text = ""
-    for chunk in stream:
-        chunk_content = chunk.choices[0].delta.content
-        if chunk_content is not None:
-            streamed_text = streamed_text + chunk_content
-            placeholder.info(streamed_text)
+    prompt = PromptTemplate(template=summary_prompt, input_variables=["source"])
+    chain = prompt | llm | StrOutputParser()
+    try:
+        # Get the result asynchronously
+        response = chain.invoke({"source": source})
+        placeholder.info(response)  # Display the result in the placeholder
+    except Exception as e:
+        placeholder.error(f"Error generating summary: {e}")
