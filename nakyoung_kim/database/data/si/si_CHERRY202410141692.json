@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202410141692",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24103E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE AUTOMOTIVE LTD.",
+      "address": "NO. 456 INDUSTRY PARK ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA 315000",
+      "telephone": "+86-574-99999999",
+      "fax": "+86-574-99999998"
+    },
+    "consignee": {
+      "name": "AUTOPARTS GMBH",
+      "address": "123 STADTBURG STREET, HAMBURG, GERMANY 20457",
+      "telephone": "+49-40-77777777",
+      "fax": "+49-40-77777778",
+      "email": "IMPORT@AUTOPARTS.DE",
+      "contactPerson": "FRANZ MEIER"
+    },
+    "notifyParty": {
+      "name": "AUTOPARTS GMBH",
+      "address": "123 STADTBURG STREET, HAMBURG, GERMANY 20457",
+      "telephone": "+49-40-77777777",
+      "fax": "+49-40-77777778"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "87116090",
+  "commodityDescription": "MOTORCYCLE PARTS & ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTORCYCLE PARTS & ACCESSORIES",
+      "grossWeight": 18000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 145,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTORCYCLE PARTS & ACCESSORIES",
+      "grossWeight": 17500.0,
+      "measurement": 27.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE DRY CONTAINER",
+    "totalPackages": 295,
+    "totalGrossWeight": 35500.0,
+    "totalMeasurement": 55.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241027-002",
+    "documentNumber": "20001639823",
+    "lcDetails": {
+      "lcNumber": "1234567890123457"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "AUTOPARTS GMBH",
+      "address": "123 STADTBURG STREET, HAMBURG, GERMANY 20457",
+      "telephone": "+49-40-77777777",
+      "fax": "+49-40-77777778"
+    },
+    "originalInvoiceDistribution": {
+      "name": "AUTOPARTS GMBH",
+      "address": "123 STADTBURG STREET, HAMBURG, GERMANY 20457",
+      "telephone": "+49-40-77777777",
+      "fax": "+49-40-77777778"
+    },
+    "onboardDate": "2024-10-19 14:00",
+    "additionalRemarks": "MOTORCYCLE PARTS PACKED IN WOODEN CRATES, VALUE: USD35,000"
+  },
+  "reeferSettings": {
+    "reeferSettings": {
+      "temperatureSetPoint": {
+        "value": 2,
+        "unit": "Celsius"
+      },
+      "temperatureTolerance": {
+        "upperLimit": 4,
+        "lowerLimit": 0
+      },
+      "humiditySetPoint": {
+        "value": 70,
+        "unit": "Percent"
+      },
+      "humidityTolerance": {
+        "upperLimit": 75,
+        "lowerLimit": 65
+      },
+      "ventilation": "Minimum",
+      "co2Monitoring": true,
+      "alarmThresholds": {
+        "temperature": {
+          "high": 5,
+          "low": 1
+        },
+        "humidity": {
+          "high": 80,
+          "low": 60
+        }
+      },
+      "notes": "Maintain a controlled environment to preserve the integrity of the high-value cargo."
+    }
+  }
+}

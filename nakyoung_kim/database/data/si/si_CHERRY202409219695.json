@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202409219695",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2436589D"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1239",
+      "address": "NO. 158, HUANGPU ROAD, SHANGHAI, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "EUROTECH LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHLOGISTICS.DE",
+      "telephone": "+49 40 322 1111"
+    },
+    "notifyParty": {
+      "name": "EUROTECH LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHLOGISTICS.DE",
+      "telephone": "+49 40 322 1111"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "MACHINERY FOR CLEANING, SORTING, OR GRADING EGGS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ETG-2024-10",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "MACHINERY PARTS. SHIPPER'S LOAD AND COUNT. B/L: TO BE ISSUED",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU4321657",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "ETG-2024-10",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "MACHINERY PARTS. SHIPPER'S LOAD AND COUNT. B/L: TO BE ISSUED",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' STANDARD X2) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20241026-ETG-002",
+    "hsCode": "847989",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC123456789012"
+    },
+    "certificateDetails": "C421234567890",
+    "originalBLDistribution": {
+      "name": "EUROTECH LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 322 1111"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA GLOBAL TRADING CO. LTD.",
+      "address": "NO. 158, HUANGPU ROAD, SHANGHAI, 200000, CHINA",
+      "telephone": "+86 21 6322 9999"
+    },
+    "onboardDate": "2024-09-24 12:00",
+    "additionalRemarks": "Maintain temperature between 2 and 5 degrees Celsius."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

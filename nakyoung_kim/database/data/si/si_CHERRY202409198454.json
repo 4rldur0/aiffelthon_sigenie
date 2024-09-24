@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202409198454",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "240927W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "Seaway Bill",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORTS & EXPORTS LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "BETA IMPORTS & EXPORTS LTD.",
+      "address": "456 HANOVER STREET, HAMBURG, GERMANY",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "notifyParty": {
+      "name": "ALPHA TRADING INC.",
+      "address": "789 BROADWAY, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940160",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 10000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 10000,
+      "measurement": 25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 20000,
+    "totalMeasurement": 50
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO54321",
+    "salesOrderNumber": "SO67890",
+    "lcDetails": {},
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "BETA IMPORTS & EXPORTS LTD.",
+      "address": "456 HANOVER STREET, HAMBURG, GERMANY",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA TRADING INC.",
+      "address": "789 BROADWAY, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-09-22 10:00",
+    "additionalRemarks": "Requires careful handling, Stacking: 4 high"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

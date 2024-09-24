@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202411134021",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2422WBW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Asia Electronics Ltd.",
+      "onBehalfOf": "Tech Solutions Inc.",
+      "address": "123 Pudong Road, Shanghai, China, 200121",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "consignee": {
+      "name": "Asia Electronics Ltd.",
+      "address": "456 Amsterdamseweg, Rotterdam, Netherlands, 3011ZB",
+      "companyNumber": "1234567890123"
+    },
+    "notifyParty": {
+      "name": "Tech Solutions Inc.",
+      "address": "101 Park Avenue, New York, USA, 10017"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85423100",
+  "commodityDescription": "Semiconductor Chips",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "AE1234",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: Semiconductor Chips",
+      "grossWeight": 12000.0,
+      "measurement": 15.0,
+      "additionalInfo": "CONTAINER IS PROPERTY OF CHERRY."
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "AE1235",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: Semiconductor Chips",
+      "grossWeight": 12500.0,
+      "measurement": 16.0,
+      "additionalInfo": "CONTAINER IS PROPERTY OF CHERRY."
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "AE1236",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: Semiconductor Chips",
+      "grossWeight": 12000.0,
+      "measurement": 15.0,
+      "additionalInfo": "CONTAINER IS PROPERTY OF CHERRY."
+    },
+    {
+      "containerNumber": "CRLU9908630",
+      "sealNumber": "892088",
+      "marksAndNumbers": "AE1237",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: Semiconductor Chips",
+      "grossWeight": 12500.0,
+      "measurement": 16.0,
+      "additionalInfo": "CONTAINER IS PROPERTY OF CHERRY."
+    },
+    {
+      "containerNumber": "CRLU9908631",
+      "sealNumber": "892089",
+      "marksAndNumbers": "AE1238",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: Semiconductor Chips",
+      "grossWeight": 12000.0,
+      "measurement": 15.0,
+      "additionalInfo": "CONTAINER IS PROPERTY OF CHERRY."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 STANDARD CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20STD",
+    "totalGrossWeight": 61000.0,
+    "totalMeasurement": 82.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567890",
+      " fumigation certificate- 1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "Tech Solutions Inc.",
+      "address": "101 Park Avenue, New York, USA, 10017",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Asia Electronics Ltd.",
+      "address": "123 Pudong Road, Shanghai, China, 200121",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "onboardDate": "2024-11-16 10:00",
+    "additionalRemarks": "Maintain temperature between 5-15 degrees Celsius during transit."
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  }
+}

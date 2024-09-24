@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410038170",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024923W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7692",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "sales@shipper7692.cn"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 3115",
+      "address": "456 ALMA STREET, ALGECIRAS, SPAIN",
+      "taxId": "ES9876543210",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+34 956 555 1234",
+      "fax": "+34 956 555 1235"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 5283",
+      "address": "789 BROADWAY, LONDON, UNITED KINGDOM",
+      "telephone": "+44 207 555 1234",
+      "fax": "+44 207 555 1235"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "901890",
+  "commodityDescription": "MEDICAL DEVICES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER 7692 - ORDER NO. 20241003",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL DEVICES, DIMENSION(LxWxH;mm): 500x400x300",
+      "grossWeight": 1500.0,
+      "measurement": 1.2
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER 7692 - ORDER NO. 20241003",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL DEVICES, DIMENSION(LxWxH;mm): 500x400x300",
+      "grossWeight": 1500.0,
+      "measurement": 1.2
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SHIPPER 7692 - ORDER NO. 20241003",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL DEVICES, DIMENSION(LxWxH;mm): 500x400x300",
+      "grossWeight": 1500.0,
+      "measurement": 1.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 20 DRY CONTAINER",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 4500.0,
+    "totalMeasurement": 3.6
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241003-001"
+    },
+    "certificateDetails": "CO, fumigation certificate",
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 3115",
+      "address": "456 ALMA STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 555 1234",
+      "fax": "+34 956 555 1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 5283",
+      "address": "789 BROADWAY, LONDON, UNITED KINGDOM",
+      "telephone": "+44 207 555 1234",
+      "fax": "+44 207 555 1235"
+    },
+    "onboardDate": "2024-10-10 11:00",
+    "additionalRemarks": "Containers to be maintained at -18\u00b0C during transit. "
+  },
+  "dangerousGoods": {
+    "dangerous_goods_description": "Miscellaneous Dangerous Goods",
+    "un_number": "3333",
+    "class": "9",
+    "class_name": "Miscellaneous dangerous substances and articles",
+    "packing_group": "Not specified",
+    "proper_shipping_name": "Miscellaneous dangerous goods",
+    "subsidiary_risks": [],
+    "technical_name": "Not specified",
+    "net_weight": "Not specified",
+    "gross_weight": "Not specified",
+    "quantity": "Not specified",
+    "packaging_type": "Not specified",
+    "emergency_contact_number": "Not specified",
+    "hazard_communication": "UN 3333, Miscellaneous dangerous goods, Class 9. Refer to Material Safety Data Sheet (MSDS) for further details.",
+    "additional_information": "This shipment contains dangerous goods classified as Class 9. It is the responsibility of the shipper to ensure that the packaging, labeling, and documentation comply with all applicable regulations."
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202409183620",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024823E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5621",
+      "onBehalfOf": "CUSTOMER 1732",
+      "address": "123 SHIPPER STREET, NINGBO, CHINA",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-98765432"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 7514",
+      "address": "456 CONSIGNEE STREET, ALGECIRAS, SPAIN",
+      "companyNumber": "ES123456789"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 1732",
+      "address": "789 CUSTOMER STREET, MADRID, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940161",
+  "commodityDescription": "Automotive Seats",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMOTIVE SEATS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMOTIVE SEATS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40 HIGH CUBE REEFER CONTAINER",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "containerType": "40 HIGH CUBE REEFER",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1732",
+      "address": "789 CUSTOMER STREET, MADRID, SPAIN",
+      "telephone": "+34-91-12345678",
+      "fax": "+34-91-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 7514",
+      "address": "456 CONSIGNEE STREET, ALGECIRAS, SPAIN"
+    },
+    "onboardDate": "2024-10-02 17:45",
+    "additionalRemarks": "Maintain temperature at 4 degrees Celsius."
+  }
+}

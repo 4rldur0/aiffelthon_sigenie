@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410027075",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "EUROLOGISTICS NV",
+      "address": "BOOMSTRAAT 10, 2000 ANTWERP, BELGIUM",
+      "country": "BELGIUM",
+      "email": "INFO@EUROLOG.BE, ORDERS@EUROLOG.BE",
+      "telephone": "+32 3 222 3333"
+    },
+    "notifyParty": {
+      "name": "KAIROS SHIPPING CO. LTD",
+      "address": "321, YONG-SAN STREET, SEOUL, SOUTH KOREA",
+      "country": "SOUTH KOREA",
+      "email": "INFO@KAIRSHIP.KR",
+      "telephone": "+82 2 3456 7890"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "POWER TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9857632",
+      "sealNumber": "123456",
+      "marksAndNumbers": "KAIROS2024",
+      "numberOfPackages": 20,
+      "packageType": "CASES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS - 20PCS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU3456789",
+      "sealNumber": "654321",
+      "marksAndNumbers": "KAIROS2024",
+      "numberOfPackages": 20,
+      "packageType": "CASES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS - 20PCS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER X2) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "packageType": "CASES",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "KAIR20241026",
+    "hsCode": "85444210",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "20241026-CERT-001",
+    "originalBLDistribution": {
+      "name": "KAIROS SHIPPING CO. LTD",
+      "address": "321, YONG-SAN STREET, SEOUL, SOUTH KOREA",
+      "telephone": "+82 2 3456 7890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROLOGISTICS NV",
+      "address": "BOOMSTRAAT 10, 2000 ANTWERP, BELGIUM",
+      "telephone": "+32 3 222 3333"
+    },
+    "onboardDate": "2024-10-05 10:00",
+    "additionalRemarks": "CONTAINER WEIGHT: 15 TONNES EACH, B/L: THREE ORIGINAL AND THREE COPIES"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

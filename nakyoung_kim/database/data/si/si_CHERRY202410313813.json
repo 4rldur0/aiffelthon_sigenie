@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410313813",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TEXTILES LTD.",
+      "address": "123 Textile Street, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 1111",
+      "fax": "+86 574 8888 2222"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING GROUP LLC",
+      "address": "456 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "info@globaltrading.nl",
+      "contactPerson": "Mr. John Doe"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "620462",
+  "commodityDescription": "LADIES' DRESSES",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUN-123",
+      "numberOfPackages": 100,
+      "cargoDescription": "LADIES' DRESSES - PALLETIZED",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SUN-456",
+      "numberOfPackages": 100,
+      "cargoDescription": "LADIES' DRESSES - PALLETIZED",
+      "grossWeight": 12100.0,
+      "measurement": 20.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SUN-789",
+      "numberOfPackages": 100,
+      "cargoDescription": "LADIES' DRESSES - PALLETIZED",
+      "grossWeight": 12050.0,
+      "measurement": 20.2
+    },
+    {
+      "containerNumber": "CRLU1357911",
+      "sealNumber": "911234",
+      "marksAndNumbers": "SUN-012",
+      "numberOfPackages": 100,
+      "cargoDescription": "LADIES' DRESSES - PALLETIZED",
+      "grossWeight": 12150.0,
+      "measurement": 20.8
+    },
+    {
+      "containerNumber": "CRLU2468013",
+      "sealNumber": "543210",
+      "marksAndNumbers": "SUN-567",
+      "numberOfPackages": 100,
+      "cargoDescription": "LADIES' DRESSES - PALLETIZED",
+      "grossWeight": 12020.0,
+      "measurement": 20.3
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20DRY CONTAINERS",
+    "totalPackages": 500,
+    "totalGrossWeight": 60320.0,
+    "totalMeasurement": 101.8
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV-2024-1031-3813",
+    "documentNumber": "202410313813-BL",
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "CN1234567890",
+      "CN9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING GROUP LLC",
+      "address": "456 Trade Street, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TEXTILES LTD.",
+      "address": "123 Textile Street, Ningbo, Zhejiang, China"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "DANGEROUS GOODS, Class: 9, UN No: 3077"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6412580",
+    "unClass": "3",
+    "unCode": "No:",
+    "hsCode": "4918.77.32",
+    "flashPoint": "32\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

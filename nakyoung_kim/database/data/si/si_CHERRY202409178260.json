@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202409178260",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409WZE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "123 Huaihai Road, Shanghai, China, 200000",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-87654321"
+    },
+    "consignee": {
+      "name": "EURO FURNITURE LTD",
+      "address": "Keizersgracht 123, 1016 DW Amsterdam, Netherlands",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-87654321",
+      "email": "info@eurofurniture.nl",
+      "contactPerson": "Peter Jansen"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "123 Huaihai Road, Shanghai, China, 200000"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "94036000",
+  "commodityDescription": "WOODEN DINING CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GTF123",
+      "numberOfPackages": 50,
+      "cargoDescription": "WOODEN DINING CHAIRS - MODEL A123",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "321098",
+      "marksAndNumbers": "GTF456",
+      "numberOfPackages": 50,
+      "cargoDescription": "WOODEN DINING CHAIRS - MODEL B789",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20 DRY CONTAINER",
+    "totalPackages": 100,
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241001-002",
+    "documentNumber": "20001639823",
+    "lcDetails": {
+      "lcNumber": "4567890123"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO FURNITURE LTD",
+      "address": "Keizersgracht 123, 1016 DW Amsterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO FURNITURE LTD",
+      "address": "Keizersgracht 123, 1016 DW Amsterdam, Netherlands"
+    },
+    "onboardDate": "2024-09-22 14:00",
+    "additionalRemarks": " fumigation certificate required"
+  },
+  "reeferSettings": {
+    "reefer_mode": "TEMPERATURE",
+    "setpoint": 17.5,
+    "tolerance": 2.5,
+    "alarm_threshold": 15.0,
+    "high_alarm": 22.0,
+    "low_alarm": 12.0,
+    "ventilation": "AUTOMATIC",
+    "defrost_mode": "PERIODIC",
+    "defrost_frequency": 6,
+    "defrost_duration": 30,
+    "humidity": "NORMAL",
+    "precooling": true
+  }
+}

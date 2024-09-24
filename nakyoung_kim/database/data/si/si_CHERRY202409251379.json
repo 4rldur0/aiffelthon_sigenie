@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202409251379",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024310W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 67890",
+      "address": "1234 BEIJING ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-9876"
+    },
+    "consignee": {
+      "name": "CUSTOMER 67890",
+      "address": "1234 HOLLYWOOD BOULEVARD, LOS ANGELES, USA, 90210",
+      "telephone": "+1-310-555-1234",
+      "fax": "+1-310-555-5678",
+      "email": "IMPORT@CUSTOMER67890.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "IMPORT DEPARTMENT",
+      "address": "CUSTOMER 67890, 1234 HOLLYWOOD BOULEVARD, LOS ANGELES, USA, 90210",
+      "telephone": "+1-310-555-1234",
+      "fax": "+1-310-555-5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "MACHINERY FOR MANUFACTURING TEXTILES",
+  "containers": [
+    {
+      "containerNumber": "CMAU987654321",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SHIP12345-20241015",
+      "numberOfPackages": 5,
+      "cargoDescription": "TEXTILE MANUFACTURING MACHINE PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU123456789",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SHIP12345-20241015",
+      "numberOfPackages": 3,
+      "cargoDescription": "TEXTILE MANUFACTURING MACHINE PARTS",
+      "grossWeight": 10000.0,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20 DRY CONTAINERS",
+    "totalPackages": 8,
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 47.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241015-001",
+    "documentNumber": "20241015-002",
+    "lcDetails": {
+      "lcNumber": "LC987654321"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 67890",
+      "address": "1234 HOLLYWOOD BOULEVARD, LOS ANGELES, USA, 90210",
+      "telephone": "+1-310-555-1234",
+      "fax": "+1-310-555-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 67890",
+      "address": "1234 HOLLYWOOD BOULEVARD, LOS ANGELES, USA, 90210",
+      "telephone": "+1-310-555-1234",
+      "fax": "+1-310-555-5678"
+    },
+    "onboardDate": "2024-10-05 14:00",
+    "additionalRemarks": "Containers require pre-cooling to 5 degrees Celsius."
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

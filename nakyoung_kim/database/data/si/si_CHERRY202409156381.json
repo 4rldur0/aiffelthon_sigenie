@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202409156381",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024523E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1542",
+      "onBehalfOf": "",
+      "address": "123 INDUSTRY STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7239",
+      "address": "456 TRADE CENTER, ALGECIRAS, SPAIN",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3865",
+      "address": "456 TRADE CENTER, ALGECIRAS, SPAIN"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940171",
+  "commodityDescription": "Metal Car Seats",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CAR SEATS - AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CAR SEATS - AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "40HC DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7239",
+      "address": "456 TRADE CENTER, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-1234-5678",
+      "fax": "+34-956-1234-9876"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHIPPER 1542",
+      "address": "123 INDUSTRY STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "2024-09-20 10:45",
+    "additionalRemarks": "Container needs to be loaded on top of other cargo."
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

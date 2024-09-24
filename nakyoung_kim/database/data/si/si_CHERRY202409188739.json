@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202409188739",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024782W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7194",
+      "address": "123 SEOUL TOWER, SEOUL, SOUTH KOREA 12345",
+      "country": "SOUTH KOREA",
+      "additionalInfo": "(GANGNAM DISTRICT)",
+      "telephone": "+82 2 123 4567",
+      "email": "SHIPPING@KOREANTECHS.COM"
+    },
+    "consignee": {
+      "name": "AMERICAN INNOVATIONS INC.",
+      "address": "789 HOLLYWOOD BOULEVARD, LOS ANGELES, CA 90028, USA",
+      "country": "UNITED STATES",
+      "email": "RECEIVING@AMERICANINNOVATIONS.COM",
+      "telephone": "+1 323 555 1212"
+    },
+    "notifyParty": {
+      "name": "KOREAN TECH SOLUTIONS LTD",
+      "address": "123 SEOUL TOWER, SEOUL, SOUTH KOREA 12345",
+      "country": "SOUTH KOREA",
+      "additionalInfo": "(GANGNAM DISTRICT)",
+      "telephone": "+82 2 123 4567",
+      "email": "SHIPPING@KOREANTECHS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854231",
+  "commodityDescription": "ELECTRONIC INTEGRATED CIRCUITS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "KTS20241107A",
+      "numberOfPackages": 500,
+      "packageType": "UNITS",
+      "cargoDescription": "500 ELECTRONIC INTEGRATED CIRCUITS, MODEL: KT-321, YEAR: 2024",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "KTS20241107B",
+      "numberOfPackages": 500,
+      "packageType": "UNITS",
+      "cargoDescription": "500 ELECTRONIC INTEGRATED CIRCUITS, MODEL: KT-321, YEAR: 2024",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000543216789"
+    },
+    "certificateDetails": [
+      "KR1234567890",
+      "KR9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "KOREAN TECH SOLUTIONS LTD",
+      "address": "123 SEOUL TOWER, SEOUL, SOUTH KOREA 12345",
+      "telephone": "+82 2 123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "AMERICAN INNOVATIONS INC.",
+      "address": "789 HOLLYWOOD BOULEVARD, LOS ANGELES, CA 90028, USA",
+      "telephone": "+1 323 555 1212"
+    },
+    "onboardDate": "2024-09-23 11:00",
+    "additionalRemarks": "Containers must be equipped with GPS tracking devices."
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202409205832",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "240922W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TEXTILES CO.",
+      "address": "123 XIAMEN ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORTS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444",
+      "email": "IMPORT@BLUESKYIMPORTS.NL",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "630790",
+  "commodityDescription": "BED LINEN",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "BSI123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: BED LINEN",
+      "grossWeight": 18000.0,
+      "measurement": 26.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "BSI456",
+      "numberOfPackages": 45,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: BED LINEN",
+      "grossWeight": 17500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "11112222",
+      "marksAndNumbers": "BSI789",
+      "numberOfPackages": 55,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: BED LINEN",
+      "grossWeight": 18500.0,
+      "measurement": 26.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 DRY HC",
+    "totalPackages": 150,
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 78.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "BSI-2024-09-11",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "BLUE SKY IMPORTS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY IMPORTS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "onboardDate": "2024-09-23 10:00",
+    "additionalRemarks": "3 x 40 DRY HC containers, Item: BED LINEN, Value: USD150,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

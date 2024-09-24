@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410182677",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "3456WQB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "1234 HUANGPU ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NEAR PEOPLE'S SQUARE)"
+    },
+    "consignee": {
+      "name": "GAMMA IMPORT EXPORT GMBH",
+      "address": "123 MAIN STREET, FRANKFURT, 60329, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@GAMMAIMPORT.DE",
+      "telephone": "+49 69 1234567"
+    },
+    "notifyParty": {
+      "name": "GAMMA IMPORT EXPORT GMBH",
+      "address": "123 MAIN STREET, FRANKFURT, 60329, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@GAMMAIMPORT.DE",
+      "telephone": "+49 69 1234567"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85423990",
+  "commodityDescription": "MICROPROCESSOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GTS20241108",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GTS20241108",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "85423990",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+      "telephone": "03600061234",
+      "fax": "81-3-6000-0001"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "Cargo requires temperature-controlled storage during transit. Please ensure proper ventilation in the container."
+  }
+}

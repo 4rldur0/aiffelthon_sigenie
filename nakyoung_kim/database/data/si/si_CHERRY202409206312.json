@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202409206312",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2409FOR21"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING INC.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(YANGZHOU DISTRICT)",
+      "telephone": "+86 574 5555 1234",
+      "email": "SALES@BETAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "ALPHA TRADING CO.",
+      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ALPHATRADING.NL",
+      "telephone": "+31 10 412 3456"
+    },
+    "notifyParty": {
+      "name": "BETA MANUFACTURING INC.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "email": "LOGISTICS@BETAMANUFACTURING.CN",
+      "telephone": "+86 574 5555 1234"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "90189090",
+  "commodityDescription": "MEDICAL DIAGNOSTIC EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BM20241026",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEDICAL DIAGNOSTIC EQUIPMENT (100 PCS)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 40' HIGH CUBE CONTAINER",
+    "totalPackages": 100,
+    "totalGrossWeight": 22063.0,
+    "totalMeasurement": 35.1
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-09-25 14:00",
+    "additionalRemarks": "1 x 40 HIGH CUBE reefer container. Temperature setting: 2-8 degrees Celsius. Medical diagnostic equipment. Value: EUR 80,000"
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  }
+}

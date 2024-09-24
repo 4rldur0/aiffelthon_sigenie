@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410153892",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2448W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA CORPORATION",
+      "onBehalfOf": "",
+      "address": "123 OCEAN DRIVE, MIAMI BEACH, FLORIDA 33139, USA",
+      "telephone": "+1 305-555-1212",
+      "fax": "+1 305-555-1213"
+    },
+    "consignee": {
+      "name": "SIGMA IMPORTERS",
+      "address": "SCHLESWIGHOFSTRASSE 12, 20354 HAMBURG, GERMANY",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO.",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM WC1A 1AB"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "901890",
+  "commodityDescription": "MEDICAL IMAGING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMAU5929789",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "OM-123",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "MEDICAL IMAGING EQUIPMENT - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 2500.0,
+      "measurement": 10.0,
+      "additionalInfo": "REQUIRES PRE-COOLING TO 5 DEGREES CELSIUS"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "CRATES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 2500.0,
+    "totalMeasurement": 10.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM WC1A 1AB",
+      "telephone": "+44 20 7555 1212",
+      "fax": "+44 20 7555 1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SIGMA IMPORTERS",
+      "address": "SCHLESWIGHOFSTRASSE 12, 20354 HAMBURG, GERMANY"
+    },
+    "onboardDate": "2024-10-22 16:00",
+    "additionalRemarks": "Requires pre-cooling to 5 degrees Celsius."
+  },
+  "dangerousGoods": {
+    "dangerousGoods": true,
+    "unNumber": "3334",
+    "properShippingName": "Aviation Regulated Solid, n.o.s.",
+    "class": "9",
+    "packingGroup": "II",
+    "subsidiaryRisk": null,
+    "flashPoint": null,
+    "specialProvisions": [
+      "A117"
+    ],
+    "technicalName": null,
+    "netQuantity": null,
+    "grossQuantity": null,
+    "packaging": null,
+    "stowageCategory": "C"
+  }
+}

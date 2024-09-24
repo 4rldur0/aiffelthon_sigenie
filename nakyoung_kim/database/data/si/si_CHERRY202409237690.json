@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202409237690",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI DRAGON TRADING CO.",
+      "address": "123 DRAGON STREET, SHANGHAI, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)",
+      "telephone": "+86 21 5555 6666",
+      "email": "SALES@SHANGHAIDRAGON.COM"
+    },
+    "consignee": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "100 MAIN STREET, ROTTERDAM, 3011 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ACMEIMPORT.NL",
+      "telephone": "+31 10 7777 8888"
+    },
+    "notifyParty": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "100 MAIN STREET, ROTTERDAM, 3011 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ACMEIMPORT.NL",
+      "telephone": "+31 10 7777 8888"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "TEXTILE YARN SPINNING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CGBU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "ACME123",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "TEXTILE YARN SPINNING MACHINES AS PER INVOICE NO. 20240923001",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGBU8765432",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ACME123",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "TEXTILE YARN SPINNING MACHINES AS PER INVOICE NO. 20240923001",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGBU9876543",
+      "sealNumber": "23456789",
+      "marksAndNumbers": "ACME123",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "TEXTILE YARN SPINNING MACHINES AS PER INVOICE NO. 20240923001",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3 X 20' STANDARD) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "originalBLDistribution": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "100 MAIN STREET, ROTTERDAM, 3011 AA, NETHERLANDS",
+      "telephone": "+31 10 7777 8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "100 MAIN STREET, ROTTERDAM, 3011 AA, NETHERLANDS",
+      "telephone": "+31 10 7777 8888"
+    },
+    "additionalRemarks": "CARGO REQUIRES SPECIAL HANDLING (FRAGILE), VALUE: USD 150,000",
+    "onboardDate": "2024-10-02 12:00"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202410157580",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "4328E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TechWave Industries",
+      "address": "1234 Industrial Avenue, Ningbo, Zhejiang, 315000, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8678 9012",
+      "email": "shipping@techwaveindustries.com"
+    },
+    "consignee": {
+      "name": "Sunrise Trading Co.",
+      "address": "Prinsestraat 123, 3011 Rotterdam, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "orders@sunrisetrading.nl",
+      "telephone": "+31 10 444 5555"
+    },
+    "notifyParty": {
+      "name": "Global Shipping Solutions Inc.",
+      "address": "1010 Main Street, Suite 500, New York, NY 10001, USA",
+      "country": "USA",
+      "email": "info@globalshippinginc.com",
+      "telephone": "+1 212 555 1212"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85437090",
+  "commodityDescription": "Electric Motors",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TWI-123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS ",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "TWI-456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS ",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "TWI-789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS ",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "totalGrossWeight": 66189.0,
+    "totalMeasurement": 105.3
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "Global Shipping Solutions Inc.",
+      "address": "1010 Main Street, Suite 500, New York, NY 10001, USA",
+      "telephone": "+1 212 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Shipping Solutions Inc.",
+      "address": "1010 Main Street, Suite 500, New York, NY 10001, USA",
+      "telephone": "+1 212 555 1212"
+    },
+    "onboardDate": "2024-10-20 10:00",
+    "additionalRemarks": "Please arrange for fumigation before loading."
+  },
+  "dangerousGoods": {
+    "dangerous_goods": {
+      "proper_shipping_name": "Corrosive Solid, Acidic, Inorganic, N.O.S.",
+      "un_number": "3262",
+      "class": "9",
+      "packing_group": "II",
+      "sub_risk": null,
+      "hazard_identification_number": null,
+      "flash_point": null,
+      "boiling_point": null,
+      "melting_point": null,
+      "density": null,
+      "solubility": null,
+      "flammability": "Not flammable",
+      "corrosivity": "Corrosive to metals",
+      "toxicity": null,
+      "environmental_hazard": "May cause pollution to aquatic life",
+      "stowage": "Separate from foodstuffs and other edibles.",
+      "handling": "Handle with care, wear appropriate personal protective equipment.",
+      "emergency_procedures": "In case of spillage, isolate area, contain spill, and neutralize with appropriate absorbent material. Seek immediate medical attention if exposed.",
+      "additional_information": "This shipment must comply with all applicable regulations for the transportation of dangerous goods."
+    }
+  }
+}

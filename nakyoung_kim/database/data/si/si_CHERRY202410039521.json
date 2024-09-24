@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410039521",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024413W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FURNITURE CO. LTD.",
+      "address": "1234 INDUSTRY STREET, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "consignee": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "5678 MAIN STREET, MADRID, SPAIN, 28001",
+      "telephone": "+34-91-12345678",
+      "fax": "+34-91-98765432"
+    },
+    "notifyParty": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "5678 MAIN STREET, MADRID, SPAIN, 28001",
+      "telephone": "+34-91-12345678",
+      "fax": "+34-91-98765432"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "940330",
+  "commodityDescription": "Wooden Sofa Frames",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE1-1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN SOFA FRAMES",
+      "grossWeight": 6666.66,
+      "measurement": 2.7
+    },
+    {
+      "containerNumber": "TCLU6789012",
+      "sealNumber": "678901",
+      "marksAndNumbers": "SUNRISE1-2",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN SOFA FRAMES",
+      "grossWeight": 6666.66,
+      "measurement": 2.7
+    },
+    {
+      "containerNumber": "TCLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SUNRISE1-3",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN SOFA FRAMES",
+      "grossWeight": 6666.66,
+      "measurement": 2.7
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE1-4",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN SOFA FRAMES",
+      "grossWeight": 6666.66,
+      "measurement": 2.7
+    },
+    {
+      "containerNumber": "TCLU2345678",
+      "sealNumber": "234567",
+      "marksAndNumbers": "SUNRISE1-5",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN SOFA FRAMES",
+      "grossWeight": 6666.66,
+      "measurement": 2.7
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 33333.3,
+    "totalMeasurement": 13.5
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC000123"
+    },
+    "certificateDetails": "CN20241004001",
+    "originalBLDistribution": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "5678 MAIN STREET, MADRID, SPAIN, 28001",
+      "telephone": "+34-91-12345678",
+      "fax": "+34-91-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "5678 MAIN STREET, MADRID, SPAIN, 28001",
+      "telephone": "+34-91-12345678",
+      "fax": "+34-91-98765432"
+    },
+    "onboardDate": "2024-10-25 14:00",
+    "additionalRemarks": "Container to be loaded with fumigation certificate."
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202411124130",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2425W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 5555"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444",
+      "email": "INFO@SUNRISEIMPORT.NL",
+      "contactPerson": "ANNA VAN DER MEER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "62046200",
+  "commodityDescription": "Ladies' Denim Jeans",
+  "containers": [
+    {
+      "containerNumber": "CMAU9662312",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ASIA20241112-1",
+      "numberOfPackages": 1000,
+      "cargoDescription": "Ladies' Denim Jeans as per Commercial Invoice",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "ASIA20241112-2",
+      "numberOfPackages": 1000,
+      "cargoDescription": "Ladies' Denim Jeans as per Commercial Invoice",
+      "grossWeight": 12500.0,
+      "measurement": 34.5
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ASIA20241112-3",
+      "numberOfPackages": 1000,
+      "cargoDescription": "Ladies' Denim Jeans as per Commercial Invoice",
+      "grossWeight": 12200.0,
+      "measurement": 34.8
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "ASIA20241112-4",
+      "numberOfPackages": 1000,
+      "cargoDescription": "Ladies' Denim Jeans as per Commercial Invoice",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "54321098",
+      "marksAndNumbers": "ASIA20241112-5",
+      "numberOfPackages": 1000,
+      "cargoDescription": "Ladies' Denim Jeans as per Commercial Invoice",
+      "grossWeight": 12500.0,
+      "measurement": 34.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 40 HIGH CUBE DRY CONTAINER",
+    "totalPackages": 5000,
+    "totalGrossWeight": 61200.0,
+    "totalMeasurement": 173.8
+  },
+  "additionalInformation": {
+    "invoiceNumber": "SUNRISE20241112-001",
+    "documentNumber": "20241112-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444"
+    },
+    "onboardDate": "2024-11-18 14:00",
+    "additionalRemarks": "Ladies' Denim Jeans packed in individual polybags.  Total value: USD 35,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410231255",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024401E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1258",
+      "onBehalfOf": "",
+      "address": "1234 Automotive Road, Shanghai, China",
+      "telephone": "+86-21-55551212",
+      "fax": "+86-21-99991212"
+    },
+    "consignee": {
+      "name": "EURO AUTO IMPORT BV",
+      "address": "5678 Trade Center, Rotterdam, Netherlands",
+      "companyNumber": "NL1234567890"
+    },
+    "notifyParty": {
+      "name": "EURO AUTO IMPORT BV",
+      "address": "5678 Trade Center, Rotterdam, Netherlands"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "870899",
+  "commodityDescription": "CAR ENGINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "MSKU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AAP1234",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. CAR ENGINE PARTS AS DESCRIBED.",
+      "grossWeight": 15000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSKU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AAP7890",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. CAR ENGINE PARTS AS DESCRIBED.",
+      "grossWeight": 15000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSKU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AAP4567",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. CAR ENGINE PARTS AS DESCRIBED.",
+      "grossWeight": 15000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSKU2468013",
+      "sealNumber": "0132468",
+      "marksAndNumbers": "AAP8765",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. CAR ENGINE PARTS AS DESCRIBED.",
+      "grossWeight": 15000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSKU5791234",
+      "sealNumber": "3457912",
+      "marksAndNumbers": "AAP2345",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. CAR ENGINE PARTS AS DESCRIBED.",
+      "grossWeight": 15000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY) CONTAINERS",
+    "totalPackages": 2500,
+    "packageType": "BOXES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "CO12345678"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO AUTO IMPORT BV",
+      "address": "5678 Trade Center, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA AUTO PARTS LTD.",
+      "address": "1234 Automotive Road, Shanghai, China"
+    },
+    "onboardDate": "2024-11-05 08:30",
+    "additionalRemarks": "Containers to be loaded on deck."
+  }
+}

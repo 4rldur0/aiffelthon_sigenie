@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411018465",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445W13E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1156",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA, 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7329",
+      "address": "101 PARIS STREET, LE HAVRE, FRANCE, 76600",
+      "telephone": "+33-2-35-1111111",
+      "fax": "+33-2-35-1111112",
+      "email": "IMPORT@CUSTOMER7329.FR",
+      "contactPerson": "PIERRE DUPONT"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "INVOICE RECEIVER 9287",
+      "address": "101 MARSEILLE STREET, PARIS, FRANCE, 75000",
+      "telephone": "+33-1-44-222222",
+      "fax": "+33-1-44-222223"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "842131",
+  "commodityDescription": "COMMERCIAL MIXERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SHIP115620241101",
+      "numberOfPackages": 10,
+      "cargoDescription": "COMMERCIAL MIXERS AS PER INVOICE",
+      "grossWeight": 2000.0,
+      "measurement": 11.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "SHIP115620241101",
+      "numberOfPackages": 10,
+      "cargoDescription": "COMMERCIAL MIXERS AS PER INVOICE",
+      "grossWeight": 2000.0,
+      "measurement": 11.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20 DRY CONTAINER",
+    "totalPackages": 20,
+    "totalGrossWeight": 4000.0,
+    "totalMeasurement": 22.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241101-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "LC20241215-002"
+    },
+    "certificateDetails": [
+      "CO-234567891"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7329",
+      "address": "101 PARIS STREET, LE HAVRE, FRANCE, 76600",
+      "telephone": "+33-2-35-1111111",
+      "fax": "+33-2-35-1111112"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9287",
+      "address": "101 MARSEILLE STREET, PARIS, FRANCE, 75000",
+      "telephone": "+33-1-44-222222",
+      "fax": "+33-1-44-222223"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "Please ensure proper fumigation of containers."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202411148871",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2445W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "2588, ZHUJIANG ROAD, SHANGHAI, CHINA, 200011",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1313"
+    },
+    "consignee": {
+      "name": "ACME IMPORTERS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3011AA",
+      "telephone": "+31-10-256-7890",
+      "fax": "+31-10-256-7891"
+    },
+    "notifyParty": {
+      "name": "ACME IMPORTERS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3011AA",
+      "telephone": "+31-10-256-7890",
+      "fax": "+31-10-256-7891"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "842123",
+  "commodityDescription": "INDUSTRIAL HYDRAULIC PRESSES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLB20241114",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HYDRAULIC PRESS COMPONENTS",
+      "grossWeight": 18000.0,
+      "measurement": 6.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GLB20241114",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HYDRAULIC PRESS COMPONENTS",
+      "grossWeight": 18000.0,
+      "measurement": 6.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CRATES",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 12.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241114-001",
+    "salesOrderNumber": "SO20241114-002",
+    "lcDetails": {
+      "lcNumber": "LC20241114-003"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "ACME IMPORTERS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3011AA",
+      "telephone": "+31-10-256-7890",
+      "fax": "+31-10-256-7891"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME IMPORTERS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3011AA",
+      "telephone": "+31-10-256-7890",
+      "fax": "+31-10-256-7891"
+    },
+    "onboardDate": "2024-11-18 10:00",
+    "additionalRemarks": "Heavy machinery, requires special handling. Value: USD120,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

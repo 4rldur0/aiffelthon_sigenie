@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202411108899",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "1234SEA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHENZHEN ELECTRONICS FACTORY",
+      "address": "No. 123 Technology Park Road, Shenzhen, Guangdong, China",
+      "telephone": "+86-755-88888888",
+      "fax": "+86-755-88888889"
+    },
+    "consignee": {
+      "name": "ATLANTIC DISTRIBUTION INC.",
+      "address": "123 Hafenstrasse, Hamburg, Germany",
+      "telephone": "+49-40-1234567",
+      "fax": "+49-40-12345678"
+    },
+    "notifyParty": {
+      "name": "EURO TECH IMPORTERS LTD.",
+      "address": "123 Commerce Street, London, United Kingdom",
+      "telephone": "+44-20-12345678",
+      "fax": "+44-20-12345679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854239",
+  "commodityDescription": "MOTHERBOARDS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SZMB123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTHERBOARDS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SZMB789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTHERBOARDS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SZMB456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTHERBOARDS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SZMB789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTHERBOARDS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMLU6789012",
+      "sealNumber": "678901",
+      "marksAndNumbers": "SZMB123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTHERBOARDS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMLU2345678",
+      "sealNumber": "234567",
+      "marksAndNumbers": "SZMB456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTHERBOARDS, SHIPPER'S LOAD, COUNT AND WEIGHT",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "SIX (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 600,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 108000.0,
+    "totalMeasurement": 210.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "ATLANTIC DISTRIBUTION INC.",
+      "address": "123 Hafenstrasse, Hamburg, Germany",
+      "telephone": "+49-40-1234567",
+      "fax": "+49-40-12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TECH IMPORTERS LTD.",
+      "address": "123 Commerce Street, London, United Kingdom",
+      "telephone": "+44-20-12345678",
+      "fax": "+44-20-12345679"
+    },
+    "onboardDate": "2024-11-18 12:00",
+    "additionalRemarks": "Please provide BL number once issued"
+  }
+}

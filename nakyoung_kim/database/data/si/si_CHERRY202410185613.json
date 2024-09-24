@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410185613",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "3215W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EASTERN TRADING COMPANY",
+      "address": "1234 SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8888 1234",
+      "email": "SHIPPING@EASTERNTRADING.CN"
+    },
+    "consignee": {
+      "name": "EURO AMERICAN DISTRIBUTORS GMBH",
+      "address": "456 FRANKFURTER STRASSE, FRANKFURT, 60329, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROAMERICAN.DE",
+      "telephone": "+49 69 777 1212"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY IMPORTS LLC",
+      "address": "789 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "email": "IMPORT@BLUESKYIMPORTS.COM",
+      "telephone": "+1 212 555 1234"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "901890",
+  "commodityDescription": "MEDICAL DEVICES",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EASTERN-12345",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL DEVICES - MODEL MD200",
+      "grossWeight": 12000.0,
+      "measurement": 16.0
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EASTERN-67890",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL DEVICES - MODEL MD200",
+      "grossWeight": 12000.0,
+      "measurement": 16.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) x 20' DRY CONTAINER",
+    "totalPackages": 200,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 32.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO AMERICAN DISTRIBUTORS GMBH",
+      "address": "456 FRANKFURTER STRASSE, FRANKFURT, 60329, GERMANY",
+      "telephone": "+49 69 777 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO AMERICAN DISTRIBUTORS GMBH",
+      "address": "456 FRANKFURTER STRASSE, FRANKFURT, 60329, GERMANY",
+      "telephone": "+49 69 777 1212"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "Maintain temperature between 2-8 degrees Celsius"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  }
+}

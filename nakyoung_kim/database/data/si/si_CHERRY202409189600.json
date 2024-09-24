@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202409189600",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "240927E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS LTD.",
+      "onBehalfOf": "ASIA PACIFIC IMPORTS LTD.",
+      "address": "222 Huayuan Road, Ningbo, China",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "111 Maasboulevard, Rotterdam, Netherlands",
+      "companyNumber": "NL123456789"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC IMPORTS LTD.",
+      "address": "222 Huayuan Road, Ningbo, China"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847130",
+  "commodityDescription": "NETWORK SERVERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "APIL123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SERVERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "APIL123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SERVERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "APIL123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SERVERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "APIL123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SERVERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CRLU9908630",
+      "sealNumber": "892088",
+      "marksAndNumbers": "APIL123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SERVERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) TWENTY FOOT CONTAINERS",
+    "totalPackages": 50,
+    "packageType": "CRATES",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT1234567890",
+      "CERT9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "111 Maasboulevard, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORTS LTD.",
+      "address": "222 Huayuan Road, Ningbo, China"
+    },
+    "onboardDate": "2024-09-22 12:00",
+    "additionalRemarks": "Fragile goods. Handling with care required."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

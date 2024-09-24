@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410262909",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2427W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BLUE SKY MANUFACTURING CO.",
+      "address": "1234 INDUSTRIAL AVE, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "(SOUTH DISTRICT)",
+      "telephone": "+86 21 5555 1234",
+      "email": "SHIPPING@BLUESKYMFG.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE GLOBAL TRADING LTD",
+      "address": "15 MAIN STREET, TOKYO, JAPAN 10000",
+      "country": "JAPAN",
+      "email": "INFO@SUNRISEGLOBAL.JP",
+      "telephone": "+81 3 222 1111"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING LTD - TOKYO BRANCH",
+      "address": "123 MAIN STREET, FRANKFURT, GERMANY 60000",
+      "country": "GERMANY",
+      "email": "INVOICE@SUNRISETOKYO.DE",
+      "telephone": "+49 69 111 2222"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "84798990",
+  "commodityDescription": "EGG SORTING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BLUESKYMFG-20241026",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "EGG SORTING MACHINE PARTS - SHIPPED AS IS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BLUESKYMFG-20241026",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "EGG SORTING MACHINE PARTS - SHIPPED AS IS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "BLUESKYMFG-20241026",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "EGG SORTING MACHINE PARTS - SHIPPED AS IS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1357911",
+      "sealNumber": "246813",
+      "marksAndNumbers": "BLUESKYMFG-20241026",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "EGG SORTING MACHINE PARTS - SHIPPED AS IS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU2468135",
+      "sealNumber": "789123",
+      "marksAndNumbers": "BLUESKYMFG-20241026",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "EGG SORTING MACHINE PARTS - SHIPPED AS IS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) 20 DRY CONTAINERS",
+    "totalPackages": 250,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL TRADING LTD",
+      "address": "15 MAIN STREET, TOKYO, JAPAN 10000",
+      "telephone": "+81 3 222 1111"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING LTD - TOKYO BRANCH",
+      "address": "123 MAIN STREET, FRANKFURT, GERMANY 60000",
+      "telephone": "+49 69 111 2222"
+    },
+    "onboardDate": "2024-11-02 16:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3166"
+  }
+}

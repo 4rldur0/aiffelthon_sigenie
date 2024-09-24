@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410056174",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241006W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Beta Manufacturing Corp.",
+      "address": "123 YUANMEN ROAD, SHANGHAI, CHINA, 200080",
+      "country": "CHINA",
+      "telephone": "+86 21 6288 1234",
+      "email": "SHIPPING@DELTATRADING.CN"
+    },
+    "consignee": {
+      "name": "OMEGA IMPORTS NV",
+      "address": "215 KLEINE STRAAT, ANTWERP, BELGIUM, 2000",
+      "country": "BELGIUM",
+      "email": "IMPORT@OMEGAIMPORTS.BE",
+      "telephone": "+32 3 234 5678"
+    },
+    "notifyParty": {
+      "name": "OMEGA IMPORTS NV",
+      "address": "215 KLEINE STRAAT, ANTWERP, BELGIUM, 2000",
+      "country": "BELGIUM",
+      "email": "IMPORT@OMEGAIMPORTS.BE",
+      "telephone": "+32 3 234 5678"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85013110",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GR123",
+      "numberOfPackages": 60,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 60 CARTONS OF ELECTRIC MOTORS FOR INDUSTRIAL USE",
+      "grossWeight": 18000.0,
+      "measurement": 28.5
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GR456",
+      "numberOfPackages": 60,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 60 CARTONS OF ELECTRIC MOTORS FOR INDUSTRIAL USE",
+      "grossWeight": 18000.0,
+      "measurement": 28.5
+    },
+    {
+      "containerNumber": "MSCU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GR789",
+      "numberOfPackages": 60,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 60 CARTONS OF ELECTRIC MOTORS FOR INDUSTRIAL USE",
+      "grossWeight": 18000.0,
+      "measurement": 28.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 40' STANDARD CONTAINERS",
+    "totalPackages": 180,
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 85.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-CN1234567890",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "OMEGA IMPORTS NV",
+      "address": "215 KLEINE STRAAT, ANTWERP, BELGIUM, 2000",
+      "telephone": "+32 3 234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA IMPORTS NV",
+      "address": "215 KLEINE STRAAT, ANTWERP, BELGIUM, 2000",
+      "telephone": "+32 3 234 5678"
+    },
+    "onboardDate": "2024-10-12 12:00",
+    "additionalRemarks": "DANGEROUS GOODS, Class: 9, UN No: 3264"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2889486",
+    "unClass": "8",
+    "unCode": "No:",
+    "hsCode": "4788.40.63",
+    "flashPoint": "39\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  }
+}

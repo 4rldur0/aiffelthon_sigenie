@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202410287924",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410W2EZ"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GOLDEN SUN ENTERPRISES",
+      "address": "1234 SUNRISE AVE, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "consignee": {
+      "name": "DIAMOND SPORTS LTD.",
+      "address": "5678 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "notifyParty": {
+      "name": "DIAMOND SPORTS LTD.",
+      "address": "5678 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950691",
+  "commodityDescription": "TABLE TENNIS RACKETS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GS123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TABLE TENNIS RACKETS",
+      "grossWeight": 6666.66,
+      "measurement": 2.7
+    },
+    {
+      "containerNumber": "TCLU6789012",
+      "sealNumber": "678901",
+      "marksAndNumbers": "GS456",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TABLE TENNIS RACKETS",
+      "grossWeight": 6666.66,
+      "measurement": 2.7
+    },
+    {
+      "containerNumber": "TCLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GS789",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TABLE TENNIS RACKETS",
+      "grossWeight": 6666.66,
+      "measurement": 2.7
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 3000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 8.1
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC000123"
+    },
+    "certificateDetails": "CN20241004001",
+    "originalBLDistribution": {
+      "name": "DIAMOND SPORTS LTD.",
+      "address": "5678 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DIAMOND SPORTS LTD.",
+      "address": "5678 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "onboardDate": "2024-11-05 15:30",
+    "additionalRemarks": "3 x 40 HIGH CUBE Containers, Commodity: TABLE TENNIS RACKETS"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411065397",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "244E51N"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "2345 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "ZENITH LOGISTICS INC.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    },
+    "notifyParty": {
+      "name": "ZENITH LOGISTICS INC.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85444210",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GP123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRANSFORMERS",
+      "grossWeight": 8000,
+      "measurement": 27
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GP456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRANSFORMERS",
+      "grossWeight": 8000,
+      "measurement": 27
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GP789",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRANSFORMERS",
+      "grossWeight": 8000,
+      "measurement": 27
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'X1) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000,
+    "totalMeasurement": 81
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GT20241106-01",
+    "salesOrderNumber": "20241106-02",
+    "lcDetails": {},
+    "certificateDetails": "20241106-03",
+    "originalBLDistribution": {
+      "name": "ZENITH LOGISTICS INC.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "2345 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "2024-11-10 14:00",
+    "additionalRemarks": "SHIPMENT REQUIRES TEMPERATURE CONTROL. B/L INSTRUCTIONS: SHIPPER'S LOAD AND COUNT, DELIVERED AT PLACE (DAP)"
+  }
+}

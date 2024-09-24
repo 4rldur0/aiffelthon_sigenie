@@ -1,0 +1,141 @@
+{
+  "bookingReference": "CHERRY202411028659",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2411VDE03"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION MACHINERY WORKS INC.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN TRADING CO. LTD.",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY, 20457",
+      "country": "GERMANY",
+      "email": "INFO@GOLDENSUNT.DE",
+      "telephone": "+49 40 123 4567"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN TRADING CO. LTD.",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY, 20457",
+      "country": "GERMANY",
+      "email": "INFO@GOLDENSUNT.DE",
+      "telephone": "+49 40 123 4567"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84663090",
+  "commodityDescription": "GEARBOX COMPONENTS FOR AUTOMOBILES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "PMW2024",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GEARBOX COMPONENTS FOR AUTOMOBILES, 100 CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1122334",
+      "sealNumber": "654321",
+      "marksAndNumbers": "PMW2024",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GEARBOX COMPONENTS FOR AUTOMOBILES, 100 CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5566778",
+      "sealNumber": "987654",
+      "marksAndNumbers": "PMW2024",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GEARBOX COMPONENTS FOR AUTOMOBILES, 100 CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8899001",
+      "sealNumber": "334455",
+      "marksAndNumbers": "PMW2024",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GEARBOX COMPONENTS FOR AUTOMOBILES, 100 CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU2233445",
+      "sealNumber": "778899",
+      "marksAndNumbers": "PMW2024",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GEARBOX COMPONENTS FOR AUTOMOBILES, 100 CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY CONTAINER X5) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CRATES",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "84663090",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890ABC"
+    },
+    "certificateDetails": "1234567890XYZ",
+    "originalBLDistribution": {
+      "name": "GOLDEN SUN TRADING CO. LTD.",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY, 20457",
+      "telephone": "+49 40 123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "PRECISION MACHINERY WORKS INC.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86 21 123 4567"
+    },
+    "onboardDate": "2024-11-05 10:00",
+    "additionalRemarks": "FRAGILE CARGO - HANDLE WITH CARE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

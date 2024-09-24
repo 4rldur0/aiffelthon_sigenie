@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411024886",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING LTD.",
+      "address": "2345 LONGHUA ROAD, NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8765 4321",
+      "email": "SHIPPING@ASIAMFG.CN"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT EXPORT GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60329 FRANKFURT",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHIMPORT.DE",
+      "telephone": "+49 69 1234 5678"
+    },
+    "notifyParty": {
+      "name": "EUROTECH LOGISTICS LTD",
+      "address": "123 MAIN STREET, LONDON, SW1A 1AA",
+      "country": "UNITED KINGDOM",
+      "email": "NOTIFICATIONS@EUROTECHLOGISTICS.CO.UK",
+      "telephone": "+44 20 7123 4567"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85437090",
+  "commodityDescription": "MOTOR WINDING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET202411",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTOR WINDING MACHINES AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET202411",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTOR WINDING MACHINES AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ET202411",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTOR WINDING MACHINES AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "432198",
+      "marksAndNumbers": "ET202411",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTOR WINDING MACHINES AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "876543",
+      "marksAndNumbers": "ET202411",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTOR WINDING MACHINES AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 x 20 DRY)",
+    "totalPackages": 100,
+    "totalGrossWeight": 90000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": [
+      "COO-DE"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH LOGISTICS LTD",
+      "address": "123 MAIN STREET, LONDON, SW1A 1AA",
+      "telephone": "+44 20 7123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORT EXPORT GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60329 FRANKFURT",
+      "telephone": "+49 69 1234 5678"
+    },
+    "onboardDate": "2024-11-06 14:00",
+    "additionalRemarks": "10 Days Free Time at Destination, Demurrage and Detention Charges Apply"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

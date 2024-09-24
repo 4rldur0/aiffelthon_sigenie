@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202409269285",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410WST"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHENZHEN IRON & STEEL CO. LTD.",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "consignee": {
+      "name": "WESTERNS LOGISTICS INC.",
+      "address": "12 MAIN STREET, BERLIN, GERMANY 10117",
+      "companyNumber": "DE123456789"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LLC",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "72083700",
+  "commodityDescription": "HOT ROLLED STEEL PLATE",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "HOT ROLLED STEEL PLATE - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 25000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "678901",
+      "marksAndNumbers": "GT-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "HOT ROLLED STEEL PLATE - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 25000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "234567",
+      "marksAndNumbers": "GT-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "HOT ROLLED STEEL PLATE - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 25000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 DRY CONTAINER) CONTAINERS",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "40 DRY CONTAINER",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WESTERNS LOGISTICS INC.",
+      "address": "12 MAIN STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-12345678",
+      "fax": "+49-30-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LLC",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "onboardDate": "2024-10-01 14:00",
+    "additionalRemarks": "CONTAINER WEIGHT: 25 TONNES, B/L: TO BE ISSUED"
+  }
+}

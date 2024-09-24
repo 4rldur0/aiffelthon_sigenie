@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202409203739",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409ZHEWBD"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO.",
+      "address": "123 TECH STREET, NINGBO, CHINA 315000",
+      "telephone": "+86-574-98765432",
+      "fax": "+86-574-98765431"
+    },
+    "consignee": {
+      "name": "GLOBAL TECH SOLUTIONS LTD.",
+      "address": "456 INNOVATION AVENUE, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31-10-98765432",
+      "fax": "+31-10-98765431",
+      "email": "ORDERS@GLOBALTECHSOLUTIONS.NL",
+      "contactPerson": "ANNA VAN DER LINDE"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85423900",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 15000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 480,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 14800.0,
+      "measurement": 27.5
+    },
+    {
+      "containerNumber": "TCLU5432109",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 520,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 15200.0,
+      "measurement": 28.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20 DRY CONTAINERS",
+    "totalPackages": 1500,
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 84.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241026-001",
+    "documentNumber": "20241026-002",
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "CN20241026-001"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TECH SOLUTIONS LTD.",
+      "address": "456 INNOVATION AVENUE, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31-10-98765432",
+      "fax": "+31-10-98765431"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TECH SOLUTIONS LTD.",
+      "address": "456 INNOVATION AVENUE, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31-10-98765432",
+      "fax": "+31-10-98765431"
+    },
+    "onboardDate": "2024-10-02 14:00",
+    "additionalRemarks": "Containers require fumigation before loading."
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

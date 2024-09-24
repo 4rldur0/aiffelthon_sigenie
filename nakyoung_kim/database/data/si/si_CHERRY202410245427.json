@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202410245427",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "243EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Trade Avenue, Ningbo, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "UNITED GLOBAL IMPORTS LLC",
+      "address": "456 Port Boulevard, Rotterdam, Netherlands",
+      "telephone": "+31 10 555 1212",
+      "fax": "+31 10 555 1213"
+    },
+    "notifyParty": {
+      "name": "Global Shipping Solutions Inc.",
+      "address": "456 Main Street, New York, USA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "EGG GRADING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTC123",
+      "numberOfPackages": 1,
+      "cargoDescription": "EGG GRADING MACHINE",
+      "grossWeight": 4000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "UGI456",
+      "numberOfPackages": 1,
+      "cargoDescription": "EGG GRADING MACHINE",
+      "grossWeight": 4000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 2,
+    "packageType": "UNITS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 8000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CN20241028123",
+      "CN20241028456"
+    ],
+    "originalBLDistribution": {
+      "name": "UNITED GLOBAL IMPORTS LLC",
+      "address": "456 Port Boulevard, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Shipping Solutions Inc.",
+      "address": "456 Main Street, New York, USA"
+    },
+    "onboardDate": "2024-10-28 10:00",
+    "additionalRemarks": "Maintain temperature between 2-5 degrees Celsius during transit."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410298702",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024876F"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5432",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9876",
+      "address": "456 ORCHARD ROAD, SINGAPORE",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1234",
+      "address": "789 bukit batok street, SINGAPORE",
+      "telephone": "+65-6789-0125",
+      "fax": "+65-6789-0126"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940171",
+  "commodityDescription": "Aircraft Seats",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SAMPLE MARKING 1",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AIRCRAFT SEATS",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMAU87654321",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 40,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AIRCRAFT SEATS",
+      "grossWeight": 6000.0,
+      "measurement": 12.0
+    },
+    {
+      "containerNumber": "CMAU98765432",
+      "sealNumber": "1023456789",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 30,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AIRCRAFT SEATS",
+      "grossWeight": 4000.0,
+      "measurement": 9.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINER(S)",
+    "totalPackages": 120,
+    "packageType": "CRATES AND PALLETS",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 36.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9876",
+      "address": "456 ORCHARD ROAD, SINGAPORE",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1234",
+      "address": "789 bukit batok street, SINGAPORE",
+      "telephone": "+65-6789-0125",
+      "fax": "+65-6789-0126"
+    },
+    "onboardDate": "2024-11-05 08:30",
+    "additionalRemarks": "Containers require lashing points for securing aircraft seats."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

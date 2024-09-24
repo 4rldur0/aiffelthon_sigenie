@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410303747",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "1234WQB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ORIENTAL TRADING LTD.",
+      "onBehalfOf": "",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "ACME CORPORATION",
+      "address": "456 BROADWAY STREET, NEW YORK, USA",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "ACME CORPORATION - LOGISTICS DEPARTMENT",
+      "address": "456 BROADWAY STREET, NEW YORK, USA"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "PACKAGING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMLU9976541",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ACME123",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "PACKAGING MACHINERY, SHIPPERS LOAD, COUNT AND SEAL, SAID TO CONTAIN PACKAGING MACHINERY",
+      "grossWeight": 7500.0,
+      "measurement": 12.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU9976542",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ACME123",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "PACKAGING MACHINERY, SHIPPERS LOAD, COUNT AND SEAL, SAID TO CONTAIN PACKAGING MACHINERY",
+      "grossWeight": 7500.0,
+      "measurement": 12.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS",
+    "totalPackages": 100,
+    "packageType": "CRATES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 24.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ACME CORPORATION",
+      "address": "456 BROADWAY STREET, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ORIENTAL TRADING LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "PACKAGING MACHINERY, REQUIRES SECURE FASTENING TO AVOID DAMAGE DURING TRANSIT"
+  }
+}

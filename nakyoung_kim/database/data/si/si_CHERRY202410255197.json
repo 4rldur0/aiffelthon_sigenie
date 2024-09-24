@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410255197",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423F"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA GLOBAL LOGISTICS",
+      "address": "1234 LOGISTICS STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1313"
+    },
+    "consignee": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "5678 TRADE STREET, ROTTERDAM, NETHERLANDS 3011AB",
+      "telephone": "+31-10-6666-7878",
+      "fax": "+31-10-6666-7979"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "5678 TRADE STREET, ROTTERDAM, NETHERLANDS 3011AB",
+      "telephone": "+31-10-6666-7878",
+      "fax": "+31-10-6666-7979"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "94016000",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELT2423F",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS IN CARTONS",
+      "grossWeight": 10000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DELT2423F",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS IN CARTONS",
+      "grossWeight": 10000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "213456",
+      "marksAndNumbers": "DELT2423F",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS IN CARTONS",
+      "grossWeight": 10000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CMAU3456789",
+      "sealNumber": "987654",
+      "marksAndNumbers": "DELT2423F",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS IN CARTONS",
+      "grossWeight": 10000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CMAU6789012",
+      "sealNumber": "345678",
+      "marksAndNumbers": "DELT2423F",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS IN CARTONS",
+      "grossWeight": 10000,
+      "measurement": 30
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 STANDARD CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 50000,
+    "totalMeasurement": 150
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO678901",
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": "CERT-20241025",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "5678 TRADE STREET, ROTTERDAM, NETHERLANDS 3011AB",
+      "telephone": "+31-10-6666-7878",
+      "fax": "+31-10-6666-7979"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "5678 TRADE STREET, ROTTERDAM, NETHERLANDS 3011AB",
+      "telephone": "+31-10-6666-7878",
+      "fax": "+31-10-6666-7979"
+    },
+    "onboardDate": "2024-10-27 12:00",
+    "additionalRemarks": "Free time: 5 Days at Destination. Consignee to arrange customs clearance."
+  }
+}

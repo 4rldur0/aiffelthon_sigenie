@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410288388",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "ABC IMPORT EXPORT LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 4567890",
+      "fax": "+31 20 9876543"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT EXPORT LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 4567890",
+      "fax": "+31 20 9876543"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85437000",
+  "commodityDescription": "TELECOMMUNICATION SWITCHING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SWB123",
+      "numberOfPackages": 10,
+      "cargoDescription": "TELECOMMUNICATION SWITCHING EQUIPMENT - PACKED ON PALLETS",
+      "grossWeight": 15000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "SWB456",
+      "numberOfPackages": 12,
+      "cargoDescription": "TELECOMMUNICATION SWITCHING EQUIPMENT - PACKED ON PALLETS",
+      "grossWeight": 14500.0,
+      "measurement": 48.0
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "3456789",
+      "marksAndNumbers": "SWB789",
+      "numberOfPackages": 8,
+      "cargoDescription": "TELECOMMUNICATION SWITCHING EQUIPMENT - PACKED ON PALLETS",
+      "grossWeight": 13000.0,
+      "measurement": 45.0
+    },
+    {
+      "containerNumber": "CMLU5678901",
+      "sealNumber": "9012345",
+      "marksAndNumbers": "SWB101",
+      "numberOfPackages": 10,
+      "cargoDescription": "TELECOMMUNICATION SWITCHING EQUIPMENT - PACKED ON PALLETS",
+      "grossWeight": 15000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMLU2345678",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SWB111",
+      "numberOfPackages": 12,
+      "cargoDescription": "TELECOMMUNICATION SWITCHING EQUIPMENT - PACKED ON PALLETS",
+      "grossWeight": 14500.0,
+      "measurement": 48.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' DRY) CONTAINERS ONLY",
+    "totalPackages": 50,
+    "packageType": "PACKAGES",
+    "containerType": "40' DRY",
+    "totalGrossWeight": 72000.0,
+    "totalMeasurement": 241.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "1234567890123",
+      "9876543210123"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC IMPORT EXPORT LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA"
+    },
+    "onboardDate": "2024-11-05 10:00",
+    "additionalRemarks": "TELECOMMUNICATION SWITCHING EQUIPMENT PACKED ON PALLETS, VALUE: USD120,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202409134825",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409EWA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA ELECTRONICS INC",
+      "onBehalfOf": "",
+      "address": "1234 YUANMEN ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-7777"
+    },
+    "consignee": {
+      "name": "OMEGA ELECTRONICS GMBH",
+      "address": "567 FRANKFURTER STRASSE, HAMBURG, GERMANY 20000",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "OMEGA ELECTRONICS GMBH",
+      "address": "567 FRANKFURTER STRASSE, HAMBURG, GERMANY 20000"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "MSCU3456789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DTCL2345",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROPROCESSORS. SHIPPER'S LOAD & COUNT.",
+      "grossWeight": 12000.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU3456790",
+      "sealNumber": "123457",
+      "marksAndNumbers": "DTCL2346",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROPROCESSORS. SHIPPER'S LOAD & COUNT.",
+      "grossWeight": 12000.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU3456791",
+      "sealNumber": "123458",
+      "marksAndNumbers": "DTCL2347",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROPROCESSORS. SHIPPER'S LOAD & COUNT.",
+      "grossWeight": 12000.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "BOXES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 84.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "OMEGA ELECTRONICS GMBH",
+      "address": "567 FRANKFURTER STRASSE, HAMBURG, GERMANY 20000",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA ELECTRONICS GMBH",
+      "address": "567 FRANKFURTER STRASSE, HAMBURG, GERMANY 20000",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-12345679"
+    },
+    "onboardDate": "2024-09-16 10:00",
+    "additionalRemarks": "Free time 5 days at destination port.  Delivery order required."
+  }
+}

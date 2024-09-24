@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202411122392",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2429SAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO. LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8888 9999",
+      "email": "SALES@ASIAELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "UNITED IMPORTS & EXPORTS LLC",
+      "address": "250 PARK AVENUE, NEW YORK, NY 10167",
+      "country": "UNITED STATES",
+      "email": "INFO@UNITEDIMPORTS.COM, ORDERS@UNITEDIMPORTS.COM",
+      "telephone": "+1 212 555 1234"
+    },
+    "notifyParty": {
+      "name": "UNITED IMPORTS & EXPORTS LLC",
+      "address": "250 PARK AVENUE, NEW YORK, NY 10167",
+      "country": "UNITED STATES",
+      "email": "INFO@UNITEDIMPORTS.COM, ORDERS@UNITEDIMPORTS.COM",
+      "telephone": "+1 212 555 1234"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85437090",
+  "commodityDescription": "DIGITAL CAMERAS",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "123456789012",
+      "marksAndNumbers": "UIE-DC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL CAMERAS",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU78901234",
+      "sealNumber": "987654321012",
+      "marksAndNumbers": "UIE-DC456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL CAMERAS",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU99086257",
+      "sealNumber": "765432109876",
+      "marksAndNumbers": "UIE-DC789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL CAMERAS",
+      "grossWeight": 8000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3 X 40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "SHIPMENT REQUIRES SPECIAL HANDLING: FRAGILE ITEMS."
+  }
+}
