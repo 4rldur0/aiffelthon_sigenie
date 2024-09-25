@@ -10,16 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 llm = get_llm("gpt-4o-mini")
-
-def check_missing(si_data):
-    prompt = PromptTemplate(template=check_missing_prompt, input_variables=["si_data"])
-    chain =  prompt | llm | StrOutputParser()
-    try:
-        response = chain.invoke({"si_data": si_data})
-        return response
-    except Exception as e:
-        raise RuntimeError(f"Error during checking missing data: {e}")
-    
+   
 async def check_parties(si_data):
     prompt = PromptTemplate(template=check_parties_prompt, input_variables=["si_data"])
     chain =  prompt | llm | StrOutputParser()
@@ -28,7 +19,7 @@ async def check_parties(si_data):
         return response
     except Exception as e:
         raise RuntimeError(f"Error during checking parties: {e}")
-
+    
 async def validate_compliance(si_data):
     """
     Function to validate shipping instruction data against compliance.
@@ -46,12 +37,12 @@ async def validate_compliance(si_data):
     sources = pdf_files + urls
 
     # Initialize the RAG model with sources
-    rag = RAGModel(llm=llm, sources=sources, template=validate_compliance_prompt)
-    question = f"Are there any compliance issues with the following shipping instruction: {si_data}?"
+    prompt = PromptTemplate(template=validate_compliance_prompt, input_variables=["si_data"])
+    rag = RAGModel(llm=llm, sources=sources, template=prompt)
     
     try:
         # Directly await the final result from the invoke method
-        response = await rag.invoke(question)
+        response = await rag.invoke({"si_data": si_data})
         return response
     except Exception as e:
         raise RuntimeError(f"Error during compliance validation: {e}")
@@ -59,13 +50,13 @@ async def validate_compliance(si_data):
 async def search_news(si_data):
     web_search_tool = TavilySearchResults()
 
-    query = f"search news about {si_data['routeDetails']['portOfLoading']} port and {si_data['voyageDetails']['vesselName']} vessel"
+    query = f"News about {si_data['routeDetails']['portOfLoading']} port and {si_data['voyageDetails']['vesselName']} vessel"
     try:
         response = await web_search_tool.ainvoke(query)
         return response
     except Exception as e:
         raise RuntimeError(f"Error during searching news: {e}")
-    
+
 def generate_summary(placeholder, source):
     prompt = PromptTemplate(template=summary_prompt, input_variables=["source"])
     chain = prompt | llm | StrOutputParser()
