@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202411146007",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2411W187A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO. LTD",
+      "onBehalfOf": "",
+      "address": "12345 SUNRISE STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "124 CANAL STREET, 3012 AA ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "124 CANAL STREET, 3012 AA ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854442",
+  "commodityDescription": "POWER TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMLU9998765",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BT-1",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER WEIGHT: 2500KG"
+    },
+    {
+      "containerNumber": "CMLU9998766",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BT-2",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER WEIGHT: 2500KG"
+    },
+    {
+      "containerNumber": "CMLU9998767",
+      "sealNumber": "112233",
+      "marksAndNumbers": "BT-3",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER WEIGHT: 2500KG"
+    },
+    {
+      "containerNumber": "CMLU9998768",
+      "sealNumber": "445566",
+      "marksAndNumbers": "BT-4",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER WEIGHT: 2500KG"
+    },
+    {
+      "containerNumber": "CMLU9998769",
+      "sealNumber": "778899",
+      "marksAndNumbers": "BT-5",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER WEIGHT: 2500KG"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) 20 DRY CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CN1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "124 CANAL STREET, 3012 AA ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA MANUFACTURING CO. LTD",
+      "address": "12345 SUNRISE STREET, SHANGHAI, CHINA"
+    },
+    "onboardDate": "2024-11-16 14:00",
+    "additionalRemarks": "Five 20' Dry containers carrying power transformers. Value: USD 150,000."
+  }
+}

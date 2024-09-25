@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410266251",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024783B"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LE HAVRE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7932",
+      "address": "1234 SHIPPER ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-6789-1234",
+      "fax": "+86-21-6789-5678"
+    },
+    "consignee": {
+      "name": "CUSTOMER 1248",
+      "address": "1234 CUSTOMER STREET, LE HAVRE, FRANCE, 76600",
+      "telephone": "+33-2-35-2222-1234",
+      "fax": "+33-2-35-2222-5678",
+      "email": "IMPORT@CUSTOMER1248.FR",
+      "contactPerson": "JANE DOE"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 4583",
+      "address": "1234 RECEIVER STREET, PARIS, FRANCE, 75000",
+      "telephone": "+33-1-45-2222-6789",
+      "fax": "+33-1-45-2222-9876"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847170",
+  "commodityDescription": "Pressure Gauges",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIP7932-20241026",
+      "numberOfPackages": 50,
+      "cargoDescription": "PRESSURE GAUGES IN BOXES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SHIP7932-20241026",
+      "numberOfPackages": 50,
+      "cargoDescription": "PRESSURE GAUGES IN BOXES",
+      "grossWeight": 10100.0,
+      "measurement": 25.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE DRY CONTAINERS",
+    "totalPackages": 100,
+    "totalGrossWeight": 20100.0,
+    "totalMeasurement": 50.2
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241026-001",
+    "documentNumber": "20241026-002",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1248",
+      "address": "1234 CUSTOMER STREET, LE HAVRE, FRANCE, 76600",
+      "telephone": "+33-2-35-2222-1234",
+      "fax": "+33-2-35-2222-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 4583",
+      "address": "1234 RECEIVER STREET, PARIS, FRANCE, 75000",
+      "telephone": "+33-1-45-2222-6789",
+      "fax": "+33-1-45-2222-9876"
+    },
+    "onboardDate": "2024-11-05 15:30",
+    "additionalRemarks": "Containers require pre-trip inspection."
+  }
+}

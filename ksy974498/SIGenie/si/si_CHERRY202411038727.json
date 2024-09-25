@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411038727",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024812E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Tech Solutions Ltd.",
+      "address": "123 Tech Street, Shanghai, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678"
+    },
+    "consignee": {
+      "name": "Acme Logistics Inc.",
+      "address": "456 Main Street, Madrid, SPAIN",
+      "telephone": "+34 91 555 9876",
+      "fax": "+34 91 555 5432",
+      "email": "logistics@acme.com",
+      "contactPerson": "Maria Sanchez"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "Finance Department, Acme Logistics Inc.",
+      "address": "456 Main Street, Madrid, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847130",
+  "commodityDescription": "COMPUTER SERVERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TSL202411",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COMPUTER SERVERS",
+      "grossWeight": 22000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "TSL202411",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COMPUTER SERVERS",
+      "grossWeight": 21500.0,
+      "measurement": 27.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE REEFER CONTAINERS",
+    "totalPackages": 100,
+    "totalGrossWeight": 43500.0,
+    "totalMeasurement": 55.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241103-001",
+    "documentNumber": "20241103-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "Acme Logistics Inc.",
+      "address": "456 Main Street, Madrid, SPAIN",
+      "telephone": "+34 91 555 9876",
+      "fax": "+34 91 555 5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Finance Department, Acme Logistics Inc.",
+      "address": "456 Main Street, Madrid, SPAIN"
+    },
+    "onboardDate": "2024-11-12 10:00",
+    "additionalRemarks": "Containers require pre-cooling to 2 degrees Celsius before loading. Please provide relevant phytosanitary certificates."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

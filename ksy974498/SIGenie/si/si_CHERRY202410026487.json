@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202410026487",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2455E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREEN TECH SOLUTIONS LTD.",
+      "address": "No. 125 Technology Blvd., Ningbo, Zhejiang, China",
+      "telephone": "+86-574-87654323",
+      "fax": "+86-574-87654324"
+    },
+    "consignee": {
+      "name": "GREEN TECH SOLUTIONS LTD.",
+      "address": "Unit 10, Innovation Park, Rotterdam, Netherlands",
+      "telephone": "+31-10-47654323",
+      "fax": "+31-10-47654324",
+      "email": "info@greentechsolutions.nl",
+      "contactPerson": "Peter Van der Meer"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "850440",
+  "commodityDescription": "VOLTAGE REGULATORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GTS123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: VOLTAGE REGULATORS - MODEL VT-1200",
+      "grossWeight": 12000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "GTS456",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: VOLTAGE REGULATORS - MODEL VT-1500",
+      "grossWeight": 12000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GTS789",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: VOLTAGE REGULATORS - MODEL VT-2000",
+      "grossWeight": 12000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GTS012",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: VOLTAGE REGULATORS - MODEL VT-2500",
+      "grossWeight": 12000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GTS345",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: VOLTAGE REGULATORS - MODEL VT-3000",
+      "grossWeight": 12000.0,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 DRY CONTAINER",
+    "totalPackages": 250,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 110.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241023-001",
+    "documentNumber": "20241023-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GREEN TECH SOLUTIONS LTD.",
+      "address": "Unit 10, Innovation Park, Rotterdam, Netherlands",
+      "telephone": "+31-10-47654323",
+      "fax": "+31-10-47654324"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN TECH SOLUTIONS LTD.",
+      "address": "Unit 10, Innovation Park, Rotterdam, Netherlands",
+      "telephone": "+31-10-47654323",
+      "fax": "+31-10-47654324"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "5 x 20 DRY Containers, Commodity: Voltage Regulators, Value: USD30,000"
+  }
+}

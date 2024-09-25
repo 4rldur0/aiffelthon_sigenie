@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202409266259",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EWW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TEXTILE SOLUTIONS",
+      "address": "NO. 1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 DE",
+      "country": "NETHERLANDS",
+      "email": "INFO@ALPHAIMPORT.NL",
+      "telephone": "+31 20 123 4567"
+    },
+    "notifyParty": {
+      "name": "BETA TRADING CO.",
+      "address": "125 MARKET STREET, FRANKFURT, GERMANY 60311",
+      "country": "GERMANY",
+      "email": "INFO@BETATRADING.DE",
+      "telephone": "+49 69 123 4567"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "620462",
+  "commodityDescription": "LADIES' WOOL COATS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GTS123",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "LADIES' WOOL COATS, AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "GTS456",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "LADIES' WOOL COATS, AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 STANDARD CONTAINER X2) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "12345ABCDE",
+    "hsCode": "620462",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "FUMIGATION CERTIFICATE REQUIRED",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 DE",
+      "telephone": "+31 20 123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 DE",
+      "telephone": "+31 20 123 4567"
+    },
+    "onboardDate": "2024-10-01 14:00",
+    "additionalRemarks": "KINDLY ENSURE SMOOTH TRANSIT AND TIMELY DELIVERY."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

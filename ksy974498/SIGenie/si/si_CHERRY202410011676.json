@@ -1,0 +1,150 @@
+{
+  "bookingReference": "CHERRY202410011676",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "248W19"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI WOODCRAFT CO.",
+      "address": "123 CHANGJIANG ROAD, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS LTD.",
+      "address": "456 ANNAstraat, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 9876543"
+    },
+    "notifyParty": {
+      "name": "EURO IMPORTS LTD.",
+      "address": "456 ANNAstraat, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 9876543"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "940330",
+  "commodityDescription": "BEDROOM SETS (WOOD)",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "BED123",
+      "numberOfPackages": 10,
+      "cargoDescription": "BEDROOM SET - KING SIZE - PROTECTIVE PACKING",
+      "grossWeight": 1200.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU4567890",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "BED456",
+      "numberOfPackages": 12,
+      "cargoDescription": "BEDROOM SET - QUEEN SIZE - PROTECTIVE PACKING",
+      "grossWeight": 1150.0,
+      "measurement": 24.0
+    },
+    {
+      "containerNumber": "CMLU7890123",
+      "sealNumber": "45678901",
+      "marksAndNumbers": "BED789",
+      "numberOfPackages": 8,
+      "cargoDescription": "BEDROOM SET - SINGLE SIZE - PROTECTIVE PACKING",
+      "grossWeight": 1000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "78901234",
+      "marksAndNumbers": "BED123",
+      "numberOfPackages": 10,
+      "cargoDescription": "BEDROOM SET - KING SIZE - PROTECTIVE PACKING",
+      "grossWeight": 1200.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "BED456",
+      "numberOfPackages": 12,
+      "cargoDescription": "BEDROOM SET - QUEEN SIZE - PROTECTIVE PACKING",
+      "grossWeight": 1150.0,
+      "measurement": 24.0
+    },
+    {
+      "containerNumber": "CMLU4567890",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "BED789",
+      "numberOfPackages": 8,
+      "cargoDescription": "BEDROOM SET - SINGLE SIZE - PROTECTIVE PACKING",
+      "grossWeight": 1000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CMLU7890123",
+      "sealNumber": "45678901",
+      "marksAndNumbers": "BED123",
+      "numberOfPackages": 10,
+      "cargoDescription": "BEDROOM SET - KING SIZE - PROTECTIVE PACKING",
+      "grossWeight": 1200.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "78901234",
+      "marksAndNumbers": "BED456",
+      "numberOfPackages": 12,
+      "cargoDescription": "BEDROOM SET - QUEEN SIZE - PROTECTIVE PACKING",
+      "grossWeight": 1150.0,
+      "measurement": 24.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "EIGHT (20' STANDARD DRY) CONTAINERS ONLY",
+    "totalPackages": 80,
+    "packageType": "PACKAGES",
+    "containerType": "20'STD DRY",
+    "totalGrossWeight": 9000.0,
+    "totalMeasurement": 190.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "1234567890123",
+      "9876543210123"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS LTD.",
+      "address": "456 ANNAstraat, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORTS LTD.",
+      "address": "456 ANNAstraat, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-05 14:00",
+    "additionalRemarks": "Sets are packed in individual boxes with protective padding. Value: USD80,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

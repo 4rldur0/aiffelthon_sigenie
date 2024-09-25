@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202410229841",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "3452E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT & EXPORT LTD.",
+      "address": "123 TRADE STREET, NINGBO, CHINA",
+      "telephone": "+86 574 1234 5678",
+      "fax": "+86 574 1234 5679"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "456 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@ALPHA GLOBALTRADING.NL",
+      "contactPerson": "DAVID LEE"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "CUSTOMS BROKER LTD",
+      "address": "789 DUTCH STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 9876 5432",
+      "fax": "+31 10 9876 5431"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85444210",
+  "commodityDescription": "High Voltage Circuit Breakers",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "ABC123456",
+      "marksAndNumbers": "BETA IMPORT & EXPORT LTD.",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: HIGH VOLTAGE CIRCUIT BREAKERS",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "DEF123456",
+      "marksAndNumbers": "BETA IMPORT & EXPORT LTD.",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: HIGH VOLTAGE CIRCUIT BREAKERS",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "GHI123456",
+      "marksAndNumbers": "BETA IMPORT & EXPORT LTD.",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: HIGH VOLTAGE CIRCUIT BREAKERS",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 300,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 105.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202410229842-INV01",
+    "documentNumber": "202410229842-DOC01",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "456 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "456 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "onboardDate": "2024-10-27 12:00",
+    "additionalRemarks": "Containers to be loaded with lashing straps and dunnage for secure transit."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

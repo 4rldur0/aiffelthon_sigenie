@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410171562",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024657W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5123",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9247",
+      "address": "DE BRIJNSTRAAT 10, 3011 AB ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@CUSTOMER9247.NL",
+      "telephone": "+31 10 7777777"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 7531",
+      "address": "SINGEL 250, 1012 AB AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@INVOICERECEIVER7531.NL",
+      "telephone": "+31 20 8888888"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SHIP5123-1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SHIP5123-2",
+      "numberOfPackages": 120,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 23500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "21436587",
+      "marksAndNumbers": "SHIP5123-3",
+      "numberOfPackages": 110,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 22500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HQ CONTAINER)",
+    "totalPackages": 330,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 68000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-20241017-001",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "onboardDate": "2024-10-22 10:15",
+    "additionalRemarks": "Please provide Fumigation Certificate and Bill of Lading copy."
+  }
+}

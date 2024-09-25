@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202411152996",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2424W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS LTD.",
+      "address": "123 HONGQIAO ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO OFFICE)"
+    },
+    "consignee": {
+      "name": "SUNRISE ELECTRONICS EUROPE BV",
+      "address": "1234 CANALSIDE STREET, ROTTERDAM, 3011, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@SUNRISEELECTRONICS.NL",
+      "telephone": "+31 10 5555 1212"
+    },
+    "notifyParty": {
+      "name": "SUNRISE ELECTRONICS LTD.",
+      "address": "123 HONGQIAO ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "email": "OPERATIONS@SUNRISEELECTRONICS.CN",
+      "telephone": "+86 574 8888 9999"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "8544421000",
+  "commodityDescription": "TELECOMMUNICATION CABLES",
+  "containers": [
+    {
+      "containerNumber": "CRLU9762317",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SUNRISE ELECTRONICS LTD.",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES, 25KG PER CARTON",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9762318",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SUNRISE ELECTRONICS LTD.",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES, 25KG PER CARTON",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9762319",
+      "sealNumber": "13579246",
+      "marksAndNumbers": "SUNRISE ELECTRONICS LTD.",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES, 25KG PER CARTON",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' DRY HC X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241210",
+    "hsCode": "8544421000",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+      "telephone": "03600061234",
+      "fax": "81-3-6000-0001"
+    },
+    "onboardDate": "2024-12-05 10:00",
+    "additionalRemarks": "3 x 40 DRY HC Containers, Weight: 25 tons per container, Value: USD 150,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

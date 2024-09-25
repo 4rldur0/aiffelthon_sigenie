@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410233096",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024985F"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9857",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "CUSTOMER 7312",
+      "address": "123 MARKET STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@customer7312.nl",
+      "telephone": "+31 10 200 1234"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2384",
+      "address": "123 INVOICE STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@invoicereceiver2384.nl",
+      "telephone": "+31 10 200 1235"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950430",
+  "commodityDescription": "Typists' and office workers' typewriters, including portable typewriters",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER 9857",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Typists' and office workers' typewriters - 100 CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER 9857",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Typists' and office workers' typewriters - 100 CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER 9857",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Typists' and office workers' typewriters - 100 CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO202410233096",
+    "hsCode": "950430",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {},
+    "certificateDetails": "Certificate of Origin required",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7312",
+      "address": "123 MARKET STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 200 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2384",
+      "address": "123 INVOICE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 200 1235",
+      "fax": "+31 10 200 1236"
+    },
+    "onboardDate": "2024-10-27 15:30",
+    "additionalRemarks": "Ensure containers are loaded with adequate ventilation."
+  }
+}

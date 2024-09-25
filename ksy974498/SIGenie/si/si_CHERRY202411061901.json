@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411061901",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024327E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "123 Global Imports Rd, Ningbo, China"
+    },
+    "consignee": {
+      "name": "ACME CORP",
+      "address": "456 Acme Ave, Hamburg, Germany",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "FINANCE DEPARTMENT, GLOBAL IMPORTS LTD",
+      "address": "789 Finance Dept Rd, Ningbo, China",
+      "telephone": "+86 574 123 4567",
+      "fax": "+86 574 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "441211",
+  "commodityDescription": "Pine Lumber",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GI-20241106-1",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PINE LUMBER",
+      "grossWeight": 22000.0,
+      "measurement": 65.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "432156",
+      "marksAndNumbers": "GI-20241106-2",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PINE LUMBER",
+      "grossWeight": 22000.0,
+      "measurement": 65.0
+    },
+    {
+      "containerNumber": "CMAU3456789",
+      "sealNumber": "765432",
+      "marksAndNumbers": "GI-20241106-3",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PINE LUMBER",
+      "grossWeight": 22000.0,
+      "measurement": 65.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GI-20241106-4",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PINE LUMBER",
+      "grossWeight": 22000.0,
+      "measurement": 65.0
+    },
+    {
+      "containerNumber": "CMAU6789012",
+      "sealNumber": "567890",
+      "marksAndNumbers": "GI-20241106-5",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PINE LUMBER",
+      "grossWeight": 22000.0,
+      "measurement": 65.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 2500,
+    "packageType": "PIECES",
+    "containerType": "40' HIGH CUBE DRY CONTAINER",
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 325.0
+  },
+  "additionalInformation": {
+    "lcDetails": {},
+    "certificateDetails": [
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "ACME CORP",
+      "address": "456 Acme Ave, Hamburg, Germany"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FINANCE DEPARTMENT, GLOBAL IMPORTS LTD",
+      "address": "789 Finance Dept Rd, Ningbo, China",
+      "telephone": "+86 574 123 4567",
+      "fax": "+86 574 123 4568"
+    },
+    "onboardDate": "2024-11-15 10:30",
+    "additionalRemarks": "Containers to be loaded on deck. Ensure proper lashing."
+  }
+}

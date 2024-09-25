@@ -1,0 +1,84 @@
+{
+  "bookingReference": "CHERRY202409231430",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2435W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "onBehalfOf": "",
+      "address": "123 Main Street, Hong Kong, China",
+      "telephone": "+852 1234 5678",
+      "fax": "+852 9876 5432"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "456 Elm Street, Rotterdam, Netherlands",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Main Street, Hong Kong, China"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85437080",
+  "commodityDescription": "ELECTRICAL GENERATOR",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTC123",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ELECTRICAL GENERATOR AS PER PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' DRY) CONTAINER",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "40' DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC4567890123"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Main Street, Hong Kong, China",
+      "telephone": "+852 1234 5678",
+      "fax": "+852 9876 5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Main Street, Hong Kong, China",
+      "telephone": "+852 1234 5678",
+      "fax": "+852 9876 5432"
+    },
+    "onboardDate": "2024-09-27 10:00",
+    "additionalRemarks": "Inspect container seals upon arrival."
+  }
+}

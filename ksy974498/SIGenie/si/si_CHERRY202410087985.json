@@ -1,0 +1,171 @@
+{
+  "bookingReference": "CHERRY202410087985",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "1234ZX"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "address": "123 Samsung Blvd, Suwon, South Korea"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 Trade Center, Rotterdam, Netherlands",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 Trade Center, Rotterdam, Netherlands",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "SMARTPHONES",
+  "containers": [
+    {
+      "containerNumber": "CRLU7637427",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMSUNG-1",
+      "numberOfPackages": 100,
+      "cargoDescription": "SMARTPHONES - MODEL S23 ULTRA",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU0713993",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMSUNG-2",
+      "numberOfPackages": 120,
+      "cargoDescription": "SMARTPHONES - MODEL S23+",
+      "grossWeight": 26000.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SAMSUNG-3",
+      "numberOfPackages": 110,
+      "cargoDescription": "SMARTPHONES - MODEL S23",
+      "grossWeight": 24500.0,
+      "measurement": 31.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SAMSUNG-4",
+      "numberOfPackages": 105,
+      "cargoDescription": "SMARTPHONES - MODEL S23",
+      "grossWeight": 24750.0,
+      "measurement": 31.5
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMSUNG-5",
+      "numberOfPackages": 95,
+      "cargoDescription": "SMARTPHONES - MODEL S23+",
+      "grossWeight": 25250.0,
+      "measurement": 30.5
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SAMSUNG-6",
+      "numberOfPackages": 115,
+      "cargoDescription": "SMARTPHONES - MODEL S23 ULTRA",
+      "grossWeight": 25500.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMSUNG-7",
+      "numberOfPackages": 100,
+      "cargoDescription": "SMARTPHONES - MODEL S23+",
+      "grossWeight": 25750.0,
+      "measurement": 31.0
+    },
+    {
+      "containerNumber": "CRLU0123456",
+      "sealNumber": "567890",
+      "marksAndNumbers": "SAMSUNG-8",
+      "numberOfPackages": 90,
+      "cargoDescription": "SMARTPHONES - MODEL S23",
+      "grossWeight": 24250.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SAMSUNG-9",
+      "numberOfPackages": 115,
+      "cargoDescription": "SMARTPHONES - MODEL S23 ULTRA",
+      "grossWeight": 25500.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SAMSUNG-10",
+      "numberOfPackages": 105,
+      "cargoDescription": "SMARTPHONES - MODEL S23+",
+      "grossWeight": 25250.0,
+      "measurement": 31.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TEN (40 FOOT HIGH CUBE CONTAINER)",
+    "totalPackages": 1040,
+    "packageType": "PACKAGES",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 246000.0,
+    "totalMeasurement": 308.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 Trade Center, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 Trade Center, Rotterdam, Netherlands",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 5678"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

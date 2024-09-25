@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202411124190",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "244W150E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH GLOBAL TRADING CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "consignee": {
+      "name": "ZENITH GLOBAL TRADING CO.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "notifyParty": {
+      "name": "ZENITH GLOBAL TRADING CO.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "SPINNING MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZGSP123",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPINNING MACHINE PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ZGSP456",
+      "numberOfPackages": 45,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPINNING MACHINE PARTS",
+      "grossWeight": 11500.0,
+      "measurement": 2.25
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ZGSP789",
+      "numberOfPackages": 55,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPINNING MACHINE PARTS",
+      "grossWeight": 13000.0,
+      "measurement": 2.75
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "135791",
+      "marksAndNumbers": "ZGSP111",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPINNING MACHINE PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "246801",
+      "marksAndNumbers": "ZGSP222",
+      "numberOfPackages": 45,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPINNING MACHINE PARTS",
+      "grossWeight": 11500.0,
+      "measurement": 2.25
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "357912",
+      "marksAndNumbers": "ZGSP333",
+      "numberOfPackages": 55,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPINNING MACHINE PARTS",
+      "grossWeight": 13000.0,
+      "measurement": 2.75
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "SIX (40' HIGH CUBE DRY) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CRATES",
+    "totalGrossWeight": 72000.0,
+    "totalMeasurement": 15.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": "CN2345678901",
+    "originalBLDistribution": {
+      "name": "ZENITH GLOBAL TRADING CO.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH GLOBAL TRADING CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "CARGO REQUIRES CLIMATE CONTROLLED STORAGE. PLEASE PROVIDE ADEQUATE VENTILATION."
+  }
+}

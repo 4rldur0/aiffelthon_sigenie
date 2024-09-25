@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202410068524",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "3456E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROCHEM GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "(VAT NO. DE123456789)"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "3456 BROADWAY, NEW YORK, NY 10018, USA",
+      "country": "USA",
+      "email": "INFO@APTRADING.COM",
+      "telephone": "+1 212 555 1234"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "3456 BROADWAY, NEW YORK, NY 10018, USA",
+      "country": "USA",
+      "email": "INFO@APTRADING.COM",
+      "telephone": "+1 212 555 1234"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381230",
+  "commodityDescription": "CARBON BLACK, FURNACE GRADE",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EC-CB1",
+      "numberOfPackages": 25,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CARBON BLACK, FURNACE GRADE IN BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EC-CB2",
+      "numberOfPackages": 25,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CARBON BLACK, FURNACE GRADE IN BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "EC-CB3",
+      "numberOfPackages": 25,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CARBON BLACK, FURNACE GRADE IN BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "234567",
+      "marksAndNumbers": "EC-CB4",
+      "numberOfPackages": 25,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CARBON BLACK, FURNACE GRADE IN BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "876543",
+      "marksAndNumbers": "EC-CB5",
+      "numberOfPackages": 25,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CARBON BLACK, FURNACE GRADE IN BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' STANDARD CONTAINER X5) CONTAINERS ONLY",
+    "totalPackages": 125,
+    "packageType": "BAGS",
+    "totalGrossWeight": 125000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "hsCode": "381230",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890123456",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "3456 BROADWAY, NEW YORK, NY 10018, USA",
+      "telephone": "+1 212 555 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "3456 BROADWAY, NEW YORK, NY 10018, USA",
+      "telephone": "+1 212 555 1234"
+    },
+    "onboardDate": "2024-10-15 10:00",
+    "additionalRemarks": "Containers to be loaded on deck"
+  }
+}

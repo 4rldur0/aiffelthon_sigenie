@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202410279731",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24377EA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CFR",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3215",
+      "address": "12 Rue de la Paix, Le Havre, France"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 5692",
+      "address": "Avenida Juan Carlos I, 10, Algeciras, Spain",
+      "telephone": "+34 956 55 55 55",
+      "fax": "+34 956 55 55 56"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7529",
+      "address": "1234 Main Street, Anytown, USA"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "441199",
+  "commodityDescription": "SAMPLE COMMODITY 85",
+  "containers": [
+    {
+      "containerNumber": "CMAU9752134",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP3215-1",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 85 - PACKAGING MATERIALS",
+      "grossWeight": 15000.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CMAU7896543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIP3215-2",
+      "numberOfPackages": 120,
+      "cargoDescription": "SAMPLE COMMODITY 85 - FINISHED GOODS",
+      "grossWeight": 16500.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 220,
+    "packageType": "PACKAGES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 31500.0,
+    "totalMeasurement": 67.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 5692",
+      "address": "Avenida Juan Carlos I, 10, Algeciras, Spain"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 7529",
+      "address": "1234 Main Street, Anytown, USA"
+    },
+    "onboardDate": "2024-11-10 17:22",
+    "additionalRemarks": "Please ensure containers are pre-cooled before loading."
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  }
+}

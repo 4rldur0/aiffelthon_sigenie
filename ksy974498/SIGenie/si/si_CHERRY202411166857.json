@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411166857",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2448W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA PRECISION INDUSTRIES CO.",
+      "address": "258 Huayuan Road, Ningbo, 315000, China",
+      "telephone": "+86-574-8765-4321",
+      "fax": "+86-574-8765-5678"
+    },
+    "consignee": {
+      "name": "EUROTECH LTD.",
+      "address": "125 West Street, Rotterdam, 3011GD, Netherlands",
+      "telephone": "+31-10-246-8000",
+      "fax": "+31-10-246-8001",
+      "email": "info@eurotech.nl",
+      "contactPerson": "Peter Jansen"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "EUROTECH LOGISTICS",
+      "address": "125 West Street, Rotterdam, 3011GD, Netherlands",
+      "telephone": "+31-10-246-8002",
+      "fax": "+31-10-246-8003"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854239",
+  "commodityDescription": "PCB ASSEMBLIES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EUL20241116",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PCB ASSEMBLIES",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EUL20241116",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PCB ASSEMBLIES",
+      "grossWeight": 17900.0,
+      "measurement": 32.5
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "EUL20241116",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PCB ASSEMBLIES",
+      "grossWeight": 18100.0,
+      "measurement": 33.5
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "543210",
+      "marksAndNumbers": "EUL20241116",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PCB ASSEMBLIES",
+      "grossWeight": 17800.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CMAU0987654",
+      "sealNumber": "098765",
+      "marksAndNumbers": "EUL20241116",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PCB ASSEMBLIES",
+      "grossWeight": 18200.0,
+      "measurement": 34.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 DRY CONTAINER",
+    "totalPackages": 5000,
+    "totalGrossWeight": 90000.0,
+    "totalMeasurement": 165.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202411166857-001",
+    "documentNumber": "202411166857-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROTECH LTD.",
+      "address": "125 West Street, Rotterdam, 3011GD, Netherlands",
+      "telephone": "+31-10-246-8000",
+      "fax": "+31-10-246-8001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH USA INC.",
+      "address": "123 Main Street, New York, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-11-20 10:00",
+    "additionalRemarks": "NONE"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

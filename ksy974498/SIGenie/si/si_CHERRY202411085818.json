@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411085818",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2451W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS LTD.",
+      "address": "123 Tech Park Drive, Ningbo, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "EUROTECH DISTRIBUTION BV",
+      "address": "Postbus 1234, 3000 AD Rotterdam, Netherlands",
+      "telephone": "+31 10 222 1234",
+      "fax": "+31 10 222 1235"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "101 Logistics House, London, UK",
+      "telephone": "+44 20 7555 4567",
+      "fax": "+44 20 7555 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847160",
+  "commodityDescription": "NETWORK SERVERS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GTS123",
+      "numberOfPackages": 10,
+      "cargoDescription": "NETWORK SERVERS - SHIPPERS LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GTS789",
+      "numberOfPackages": 10,
+      "cargoDescription": "NETWORK SERVERS - SHIPPERS LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GTS456",
+      "numberOfPackages": 10,
+      "cargoDescription": "NETWORK SERVERS - SHIPPERS LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GTS781",
+      "numberOfPackages": 10,
+      "cargoDescription": "NETWORK SERVERS - SHIPPERS LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU5678901",
+      "sealNumber": "567890",
+      "marksAndNumbers": "GTS234",
+      "numberOfPackages": 10,
+      "cargoDescription": "NETWORK SERVERS - SHIPPERS LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 50,
+    "packageType": "PACKAGES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "Cert123456"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH DISTRIBUTION BV",
+      "address": "Postbus 1234, 3000 AD Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "101 Logistics House, London, UK"
+    },
+    "onboardDate": "2024-11-18 10:00",
+    "additionalRemarks": "FRAGILE CARGO - HANDLE WITH CARE"
+  }
+}

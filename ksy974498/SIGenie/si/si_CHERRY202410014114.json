@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202410014114",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024421E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3418",
+      "onBehalfOf": "",
+      "address": "1234 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890124"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV.",
+      "address": "125 CANAL STREET, ROTTERDAM 3011 DE, NETHERLANDS",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "EURO IMPORTS BV. (ATTN: MR. PETER SMITH)",
+      "address": "125 CANAL STREET, ROTTERDAM 3011 DE, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "ELECTRIC FANS",
+  "containers": [
+    {
+      "containerNumber": "GRSU9908626",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GTL-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC FANS",
+      "grossWeight": 12000.0,
+      "measurement": 36.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "GRSU9908627",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GTL-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC FANS",
+      "grossWeight": 12000.0,
+      "measurement": 36.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "GRSU9908628",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GTL-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC FANS",
+      "grossWeight": 12000.0,
+      "measurement": 36.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40'HC X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 108.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241018001"
+    },
+    "certificateDetails": [
+      "CN1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV.",
+      "address": "125 CANAL STREET, ROTTERDAM 3011 DE, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "1234 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890124"
+    },
+    "onboardDate": "2024-10-15 10:00",
+    "additionalRemarks": "Containers need to be set at -10 degrees Celsius. Goods are fragile, handle with care."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2839728",
+    "unClass": "3",
+    "unCode": "No: 3334",
+    "hsCode": "1544.86.81",
+    "flashPoint": "66\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

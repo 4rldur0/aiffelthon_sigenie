@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202411149908",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2443W12A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 Xinghai Road, Ningbo, Zhejiang, China, 315000"
+    },
+    "consignee": {
+      "name": "DELTA IMPORT & EXPORT INC.",
+      "address": "123 Commerce Street, Rotterdam, Netherlands, 3011 AB"
+    },
+    "notifyParty": {
+      "name": "DELTA IMPORT & EXPORT INC.",
+      "address": "123 Commerce Street, Rotterdam, Netherlands, 3011 AB"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRIC MOTORS - MODEL A12",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRIC MOTORS - MODEL B23",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRIC MOTORS - MODEL C34",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SUNRISE012",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRIC MOTORS - MODEL A12",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU6789012",
+      "sealNumber": "678901",
+      "marksAndNumbers": "SUNRISE345",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRIC MOTORS - MODEL B23",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CRATES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA IMPORT & EXPORT INC.",
+      "address": "123 Commerce Street, Rotterdam, Netherlands, 3011 AB"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 Anson Road, #10-01, Singapore 079903"
+    },
+    "onboardDate": "2024-11-18 18:00",
+    "additionalRemarks": "Five 20' Dry Containers, Value: USD25,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2552605",
+    "unClass": "6",
+    "unCode": "No: 3334",
+    "hsCode": "6050.44.67",
+    "flashPoint": "33\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

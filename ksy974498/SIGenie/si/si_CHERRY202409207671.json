@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202409207671",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "244E-123"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "No. 188, Pudong Avenue, Shanghai, China",
+      "telephone": "+86 21 6666 8888",
+      "email": "info@aptech.com"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Gustav Mahlerlaan 3001, 1081 Amsterdam, Netherlands",
+      "telephone": "+31 20 777 5555",
+      "fax": "+31 20 777 6666"
+    },
+    "notifyParty": {
+      "name": "EUROTECH LOGISTICS",
+      "address": "Koninginnegracht 12, 1015 AX Amsterdam, Netherlands",
+      "telephone": "+31 20 333 7777",
+      "fax": "+31 20 333 8888"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84713080",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456789012",
+      "marksAndNumbers": "APTS 20241018",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "TELECOMMUNICATION EQUIPMENT AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "987654321012",
+      "marksAndNumbers": "APTS 20241018",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "TELECOMMUNICATION EQUIPMENT AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' STANDARD X2) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "containerType": "40' STANDARD X2",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241018002"
+    },
+    "certificateDetails": "CO, Fumigation Certificate",
+    "originalBLDistribution": {
+      "name": "EUROTECH LOGISTICS",
+      "address": "Koninginnegracht 12, 1015 AX Amsterdam, Netherlands",
+      "telephone": "+31 20 333 7777",
+      "fax": "+31 20 333 8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Gustav Mahlerlaan 3001, 1081 Amsterdam, Netherlands",
+      "telephone": "+31 20 777 5555",
+      "fax": "+31 20 777 6666"
+    },
+    "onboardDate": "2024-10-03 16:00",
+    "additionalRemarks": "10 Days Free Time at Destination, Container Weight: 20 Metric Tons"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

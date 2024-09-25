@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411133878",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2432W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS LTD.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5678 9013",
+      "email": "SALES@ASIAPACIFICIMPORTS.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE INTERNATIONAL TRADING CO.",
+      "address": "123 HIGH STREET, LONDON, UK, W1A 1AA",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 7678 9014",
+      "fax": "+44 20 7678 9015"
+    },
+    "notifyParty": {
+      "name": "SUNRISE INTERNATIONAL TRADING CO.",
+      "address": "123 HIGH STREET, LONDON, UK, W1A 1AA",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 7678 9014",
+      "fax": "+44 20 7678 9015"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "90309990",
+  "commodityDescription": "SURVEYING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS SURVEYING EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU1234568",
+      "sealNumber": "123457",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS SURVEYING EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 X 40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40 HIGH CUBE DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "123456789012345",
+    "originalBLDistribution": {
+      "name": "SUNRISE INTERNATIONAL TRADING CO.",
+      "address": "123 HIGH STREET, LONDON, UK, W1A 1AA",
+      "telephone": "+44 20 7678 9014",
+      "fax": "+44 20 7678 9015"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE INTERNATIONAL TRADING CO.",
+      "address": "123 HIGH STREET, LONDON, UK, W1A 1AA",
+      "telephone": "+44 20 7678 9014",
+      "fax": "+44 20 7678 9015"
+    },
+    "onboardDate": "2024-11-17 12:00",
+    "additionalRemarks": "CARGO REQUIRES HANDLING WITH CARE, VALUE: USD25,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

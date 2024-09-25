@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202409154785",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2433WSE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 Jade Street, Ningbo, China 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 9999"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 Tulip Avenue, Rotterdam, Netherlands 3011 AA",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999",
+      "email": "info@globalimports.nl",
+      "contactPerson": "ANNA SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 Tulip Avenue, Rotterdam, Netherlands 3011 AA",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999",
+      "email": "info@globalimports.nl"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "AUTOMATIC BOTTLE FILLING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 1,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: AUTOMATIC BOTTLE FILLING MACHINE",
+      "grossWeight": 15000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 1,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: AUTOMATIC BOTTLE FILLING MACHINE",
+      "grossWeight": 15000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY",
+    "totalPackages": 2,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 66.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241002-001",
+    "documentNumber": "20241002-002",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 Tulip Avenue, Rotterdam, Netherlands 3011 AA",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 Tulip Avenue, Rotterdam, Netherlands 3011 AA",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999"
+    },
+    "onboardDate": "2024-10-01 14:00",
+    "additionalRemarks": "CONTAINER MUST BE MAINTAINED AT 10 DEGREES CELSIUS"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

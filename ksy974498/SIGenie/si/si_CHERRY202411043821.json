@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202411043821",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2432WQB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIES LTD.",
+      "address": "1234 YUANQING ROAD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)",
+      "telephone": "+86 21 65432100",
+      "email": "SHIPPING@SUNRISEINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO.",
+      "address": "567 HANSEATIKSTRASSE, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "IMPORT@DELTATRADING.DE",
+      "telephone": "+49 40 35678901"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO.",
+      "address": "567 HANSEATIKSTRASSE, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "RECEIVING@DELTATRADING.DE",
+      "telephone": "+49 40 35678901"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85437090",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "123456",
+      "marksAndNumbers": "STIM12345",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "CRLU78901234",
+      "sealNumber": "567890",
+      "marksAndNumbers": "STIM12345",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "CRLU56789012",
+      "sealNumber": "901234",
+      "marksAndNumbers": "STIM12345",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "CRLU34567890",
+      "sealNumber": "345678",
+      "marksAndNumbers": "STIM12345",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "CRLU90123456",
+      "sealNumber": "789012",
+      "marksAndNumbers": "STIM12345",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 18.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) x 20 DRY CONTAINER",
+    "totalPackages": 250,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 92.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "567 HANSEATIKSTRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 35678901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "567 HANSEATIKSTRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 35678901"
+    },
+    "onboardDate": "2024-11-08 14:00",
+    "additionalRemarks": "Please ensure containers are sealed properly to prevent moisture ingress."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

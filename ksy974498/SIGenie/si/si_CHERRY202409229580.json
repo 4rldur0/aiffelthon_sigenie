@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202409229580",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2436WQT"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Electronics Co. Ltd.",
+      "onBehalfOf": "",
+      "address": "1234 Tech Lane, Ningbo, China",
+      "telephone": "+86-574-5678-9012",
+      "fax": "+86-574-3456-7890"
+    },
+    "consignee": {
+      "name": "Tech Solutions International LLC - Berlin Branch",
+      "address": "5678 Hafenstrasse, Berlin, Germany",
+      "companyNumber": "DE123456789"
+    },
+    "notifyParty": {
+      "name": "Tech Solutions International LLC",
+      "address": "9012 Business Park, Frankfurt, Germany"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854230",
+  "commodityDescription": "SEMICONDUCTOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTOR CHIPS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTOR CHIPS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "GHI789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTOR CHIPS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "Tech Solutions International LLC",
+      "address": "9012 Business Park, Frankfurt, Germany"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Tech Solutions International LLC - Berlin Branch",
+      "address": "5678 Hafenstrasse, Berlin, Germany"
+    },
+    "onboardDate": "2024-10-05 15:00",
+    "additionalRemarks": "Cargo requires temperature-controlled environment. Maintain 15-20\u00b0C."
+  },
+  "dangerousGoods": {
+    "dangerousGoods": {
+      "class": "9",
+      "unNumber": "3334",
+      "properShippingName": "Aviation Regulated Liquid, N.O.S.",
+      "packingGroup": "II",
+      "subsidiaryRisk": null,
+      "hazards": [
+        "Flammable",
+        "Toxic"
+      ],
+      "flashPoint": "45\u00b0C",
+      "boilingPoint": "120\u00b0C",
+      "specificGravity": "0.95",
+      "packaging": {
+        "type": "UN approved drums",
+        "material": "Steel"
+      },
+      "quantity": "1000 kg"
+    },
+    "shipper": {
+      "name": "Acme Chemicals Inc.",
+      "address": "123 Main Street, Anytown, USA"
+    },
+    "consignee": {
+      "name": "Beta Laboratories Ltd.",
+      "address": "456 Elm Street, Othertown, Canada"
+    },
+    "emergencyContact": {
+      "name": "John Smith",
+      "phone": "+1 555 123 4567"
+    }
+  }
+}

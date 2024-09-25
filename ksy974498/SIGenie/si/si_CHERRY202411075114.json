@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202411075114",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2433E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA TRADING INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "SIGMA LOGISTICS GMBH",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@SIGMALOGISTICS.DE",
+      "telephone": "+49 40 1234 5678"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "1234 LONDON ROAD, LONDON, EC1A 1AA, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@DELTASHIPPING.CO.UK",
+      "telephone": "+44 20 7123 4567"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "903281",
+  "commodityDescription": "TELESCOPE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9758231",
+      "sealNumber": "123456",
+      "marksAndNumbers": "OSBV-1",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "TELESCOPE PARTS, PACKAGED IN INDIVIDUAL BOXES, PALLETIZED",
+      "grossWeight": 2000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU7891234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "OSBV-2",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "TELESCOPE PARTS, PACKAGED IN INDIVIDUAL BOXES, PALLETIZED",
+      "grossWeight": 2000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "987654",
+      "marksAndNumbers": "OSBV-3",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "TELESCOPE PARTS, PACKAGED IN INDIVIDUAL BOXES, PALLETIZED",
+      "grossWeight": 2000.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "BOXES",
+    "totalGrossWeight": 6000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "903281",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "OMEGA TRADING INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8888 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SIGMA LOGISTICS GMBH",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "Fragile, Handle with Care"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  }
+}

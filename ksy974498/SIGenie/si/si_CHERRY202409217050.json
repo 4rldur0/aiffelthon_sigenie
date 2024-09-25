@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202409217050",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024151W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9876",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200011",
+      "telephone": "+86 21 6288 9876",
+      "fax": "+86 21 6288 5678"
+    },
+    "consignee": {
+      "name": "EURO IMPORT & EXPORT BV",
+      "address": "C/O ROTTERDAM STREET 12, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31 10 789 1234",
+      "fax": "+31 10 789 4567",
+      "email": "IMPORT@EIE.NL",
+      "contactPerson": "PETER VAN DER LINDE"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "EURO LOGISTICS BV",
+      "address": "C/O AMSTERDAM SQUARE 5, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "telephone": "+31 20 567 8901",
+      "fax": "+31 20 567 8902"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "854442",
+  "commodityDescription": "Electrical Transformers",
+  "containers": [
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "1709999",
+      "marksAndNumbers": "EIE1234",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRICAL TRANSFORMERS",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "1708888",
+      "marksAndNumbers": "EIE1235",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRICAL TRANSFORMERS",
+      "grossWeight": 22500.0,
+      "measurement": 32.5
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "1707777",
+      "marksAndNumbers": "EIE1236",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRICAL TRANSFORMERS",
+      "grossWeight": 21500.0,
+      "measurement": 33.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 3000,
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 99.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "EIE202410279102",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242",
+      "issuingBank": "HSBC NETHERLANDS",
+      "expiryDate": "2025-01-31"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO IMPORT & EXPORT BV",
+      "address": "C/O ROTTERDAM STREET 12, ROTTERDAM, NETHERLANDS, 3000 AA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORT & EXPORT BV",
+      "address": "C/O ROTTERDAM STREET 12, ROTTERDAM, NETHERLANDS, 3000 AA"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "Please ensure containers are properly sealed and labeled."
+  },
+  "outOfGaugeDimensions": {
+    "length": 13716,
+    "width": 2438,
+    "height": 2698,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

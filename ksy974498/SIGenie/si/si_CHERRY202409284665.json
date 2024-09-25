@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202409284665",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "240928WSA3"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING GMBH",
+      "address": "Industriestrasse 12, 4021 Basel, Switzerland"
+    },
+    "consignee": {
+      "name": "OMEGA IMPORT EXPORT LTD",
+      "address": "123 Main Street, London EC1A 1BB, United Kingdom",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568"
+    },
+    "notifyParty": {
+      "name": "ALPHA LOGISTICS LTD",
+      "address": "456 Commercial Road, London E1 0HX, United Kingdom",
+      "telephone": "+44 20 7654 3210",
+      "fax": "+44 20 7654 3211"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "PACKAGING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DMG-SH230928",
+      "numberOfPackages": 20,
+      "cargoDescription": "PACKAGING MACHINES AS DETAILED IN PACKING LIST",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "DMG-SH230928",
+      "numberOfPackages": 20,
+      "cargoDescription": "PACKAGING MACHINES AS DETAILED IN PACKING LIST",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "TCLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DMG-SH230928",
+      "numberOfPackages": 20,
+      "cargoDescription": "PACKAGING MACHINES AS DETAILED IN PACKING LIST",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20FR) CONTAINERS ONLY",
+    "totalPackages": 60,
+    "packageType": "PACKAGES",
+    "containerType": "20FR",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20231005789"
+    },
+    "certificateDetails": [
+      "CO-230928-001",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "OMEGA IMPORT EXPORT LTD",
+      "address": "123 Main Street, London EC1A 1BB, United Kingdom"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS LTD",
+      "address": "456 Commercial Road, London E1 0HX, United Kingdom"
+    },
+    "onboardDate": "2024-10-02 12:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED: SET TO 5 DEGREES CELSIUS"
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}
