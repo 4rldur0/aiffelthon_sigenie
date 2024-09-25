@@ -1,4 +1,4 @@
-from utils.rag_model import RAGModel
+from utils.rag_model import async_RAGModel
 from glob import glob
 from utils.prompt_templates import *
 from utils.llms import get_llm
@@ -6,21 +6,26 @@ from langchain.prompts import PromptTemplate
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_core.output_parsers.string import StrOutputParser
 from dotenv import load_dotenv
+import asyncio
+import time
 
 load_dotenv()
 
-llm = get_llm("gpt-4o-mini")
+llm = get_llm("gemini-1.5-flash")
    
 async def check_parties(si_data):
+    start = time.time()
     prompt = PromptTemplate(template=check_parties_prompt, input_variables=["si_data"])
     chain =  prompt | llm | StrOutputParser()
     try:
         response = await chain.ainvoke({"si_data": si_data})
+        print(f"check_parties ended at {time.time()} - Duration: {time.time() - start}")
         return response
     except Exception as e:
         raise RuntimeError(f"Error during checking parties: {e}")
     
 async def validate_compliance(si_data):
+    start = time.time()
     """
     Function to validate shipping instruction data against compliance.
     Args:
@@ -37,22 +42,24 @@ async def validate_compliance(si_data):
     sources = pdf_files + urls
 
     # Initialize the RAG model with sources
-    prompt = PromptTemplate(template=validate_compliance_prompt, input_variables=["si_data"])
-    rag = RAGModel(llm=llm, sources=sources, template=prompt)
+    rag = async_RAGModel(llm=llm, sources=sources, template=validate_compliance_prompt)
     
     try:
         # Directly await the final result from the invoke method
-        response = await rag.invoke({"si_data": si_data})
+        response = await asyncio.to_thread(rag.ainvoke, si_data)
+        print(f"validate_compliance ended at {time.time()} - Duration: {time.time() - start}")
         return response
     except Exception as e:
         raise RuntimeError(f"Error during compliance validation: {e}")
 
 async def search_news(si_data):
+    start = time.time()
     web_search_tool = TavilySearchResults()
 
     query = f"News about {si_data['routeDetails']['portOfLoading']} port and {si_data['voyageDetails']['vesselName']} vessel"
     try:
         response = await web_search_tool.ainvoke(query)
+        print(f"search_news ended at {time.time()} - Duration: {time.time() - start}")    
         return response
     except Exception as e:
         raise RuntimeError(f"Error during searching news: {e}")

@@ -10,14 +10,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-llm = get_llm("gpt-4o-mini")
+llm = get_llm("gemini-1.5-flash")
 
 class State(TypedDict):
     parties_answer: str
     policy_answer: str
     news_answer: str
     summary_answer: str
-    si_data: dict  # Changed from str to dict to reflect nested data structure in si_data
+    si_data: dict
     next: str
 
 def check_parties(state: State) -> State:
