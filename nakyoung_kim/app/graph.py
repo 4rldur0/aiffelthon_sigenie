@@ -33,7 +33,7 @@ def main():
             st.session_state["si_data"] = si_data
             st.success("Shipping Instruction found!")
             # After successful search, run async check
-            response = graph.invoke({"si_data":si_data})
+            response = graph.invoke({"si_data": si_data})
             st.title("LLM Summary Report")
             st.info(response['summary_answer'])
         else:
