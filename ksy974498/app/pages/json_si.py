@@ -25,7 +25,7 @@ def get_base64_encoded_font(font_path):
         return base64.b64encode(font_file.read()).decode('utf-8')
 
 # Load and encode the Freesentation font
-font_base64 = get_base64_encoded_font("./fonts/Freesentation.ttf")
+font_base64 = get_base64_encoded_font("./ui/fonts/Freesentation.ttf")
 
 # Apply custom CSS to use Freesentation font
 st.markdown(f"""
@@ -167,14 +167,6 @@ def create_list_input_fields(data_list, prefix):
 
 def main():
     st.title("Shipping Instruction (SI) Editor")
-
-    # Load JSON files from the 'si' directory
-    json_files = load_json_files('./si/')
-
-    # Save new JSON data to MongoDB
-    new_files_added = save_new_documents(json_files)
-    if new_files_added:
-        st.success("New SI documents have been added to the database.")
 
     # Fetch only the booking references from MongoDB
     documents = collection.find(

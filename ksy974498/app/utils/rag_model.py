@@ -1,20 +1,12 @@
 import os
-import streamlit as st
-import datetime
-import uuid
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
 from langchain_community.document_loaders import WebBaseLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.chains import LLMChain
-from langchain.chat_models import ChatOpenAI  # If you're using OpenAI's ChatGPT API
 from typing import List
-from glob import glob
-from utils.openai_llm import llm
-from utils.templates import rag_prompt_template
 from langchain_core.output_parsers import StrOutputParser
-from openai import AsyncOpenAI
+import asyncio
 
 # Assuming you have an `llm` instance (OpenAI model) already defined in `utils.openai_llm`
 
@@ -78,18 +70,15 @@ def load_vectorstore(sources: List[str]):
 
 # Step 4: Build Retrieval-Augmented Generation Pipeline
 class RAGModel:
-    def __init__(self, sources: List[str]):
+    def __init__(self, llm, sources: List[str], template):
         self.vectorstore = load_vectorstore(sources)
         
         # Initialize your LLM
         self.llm = llm
-
-        # Define a prompt template for compliance checking
-        self.rag_prompt_template = rag_prompt_template
         
         # Setup the prompt template and chain
-        self.prompt = PromptTemplate(template=self.rag_prompt_template, input_variables=["si_data"])
-        self.chain = self.prompt | llm | StrOutputParser()
+        self.prompt = PromptTemplate(template=template, input_variables=["si_data"])
+        self.chain = self.prompt | self.llm | StrOutputParser()
 
     def retrieve_documents(self, question: str):
         """
@@ -108,7 +97,7 @@ class RAGModel:
         question_with_context = f"{si_data}\n\nRelevant Documents:\n{context}"
         
         # Generate a response using the LLM chain
-        return self.chain.astream({'si_data':question_with_context})
+        return self.chain.invoke({'si_data':question_with_context})
 
     def invoke(self, si_data: str):
         """
@@ -119,24 +108,5 @@ class RAGModel:
         
         # Step 2: Generate response based on SI data and retrieved documents
         response = self.generate_response(si_data, retrieved_docs)
-        
+        print(response)
         return response
-
-# # Example usage
-# if __name__ == "__main__":
-# Define the list of URLs and local PDF files to load
-urls = [
-    "https://www.ilovesea.or.kr/dictionary/list.do",  # Replace with your URLs
-]
-pdf_files = glob('./docs/*.pdf')  # Adjust path to your PDF files
-sources = pdf_files + urls
-
-# Initialize the RAG model with sources
-app = RAGModel(sources=sources)
-
-# # Example SI data (replace with real data)
-# si_data_example = "Example Shipping Instruction"
-
-# # Generate the compliance response
-# response = app.invoke(si_data_example)
-# print(response)
