@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409199956",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024583E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Global Auto Parts Ltd.",
+      "address": "1234 Zhejiang Road, Ningbo, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Manufacturing Division)"
+    },
+    "consignee": {
+      "name": "Acme Logistics Inc.",
+      "address": "5678 Maasboulevard, Rotterdam, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@acmelogistics.nl",
+      "telephone": "+31-10-12345678"
+    },
+    "notifyParty": {
+      "name": "Acme Logistics Inc.",
+      "address": "5678 Maasboulevard, Rotterdam, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "operations@acmelogistics.nl",
+      "telephone": "+31-10-98765432"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871190",
+  "commodityDescription": "MOTORCYCLE ASSEMBLIES",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GAP202410",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "Motorcycle Assemblies - Packed in Crates",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "321654",
+      "marksAndNumbers": "GAP202410",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "Motorcycle Assemblies - Packed in Crates",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY CONTAINER X2)",
+    "totalPackages": 100,
+    "packageType": "CRATES",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GAP20241026",
+    "hsCode": "871190",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": "Certificate of Origin required",
+    "originalBLDistribution": {
+      "name": "Acme Logistics Inc.",
+      "address": "5678 Maasboulevard, Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Acme Logistics Inc.",
+      "address": "5678 Maasboulevard, Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-98765432"
+    },
+    "onboardDate": "2024-09-22 12:00",
+    "additionalRemarks": "Containers must be equipped with GPS trackers and sealed with high-security locks."
+  }
+}

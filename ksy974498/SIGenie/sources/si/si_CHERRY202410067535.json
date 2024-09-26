@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410067535",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2410E387"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "non-negotiable",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FURNITURE LTD.",
+      "address": "3456 INTERNATIONAL TRADE AVE, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1111",
+      "email": "info@goldenskytrading.com"
+    },
+    "consignee": {
+      "name": "BLUE OCEAN IMPORTS NV",
+      "address": "7890 MAIN STREET, ANTWERP, BELGIUM",
+      "taxId": "BE0479815621",
+      "president": "MS. ANNA SMITH",
+      "telephone": "+32 3 2222 3333",
+      "fax": "+32 3 2222 4444"
+    },
+    "notifyParty": {
+      "name": "BLUE OCEAN IMPORTS NV",
+      "address": "7890 MAIN STREET, ANTWERP, BELGIUM",
+      "taxId": "BE0479815621",
+      "president": "MS. ANNA SMITH",
+      "telephone": "+32 3 2222 3333",
+      "fax": "+32 3 2222 4444"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940350",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "BLUE OCEAN IMPORTS NV",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS, SHIPPED AS PER INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BLUE OCEAN IMPORTS NV",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS, SHIPPED AS PER INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY) CONTAINERS",
+    "totalPackages": 400,
+    "packageType": "CARTONS",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN, FUMIGATION CERTIFICATE",
+    "originalBLDistribution": {
+      "name": "BLUE OCEAN IMPORTS NV",
+      "address": "7890 MAIN STREET, ANTWERP, BELGIUM",
+      "telephone": "+32 3 2222 3333",
+      "fax": "+32 3 2222 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE OCEAN IMPORTS NV",
+      "address": "7890 MAIN STREET, ANTWERP, BELGIUM",
+      "telephone": "+32 3 2222 3333",
+      "fax": "+32 3 2222 4444"
+    },
+    "onboardDate": "2024-10-15 10:00",
+    "additionalRemarks": "Tables packed in corrugated cardboard boxes. Value: USD45,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

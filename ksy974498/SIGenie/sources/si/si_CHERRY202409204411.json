@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202409204411",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "3217W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Reliable Manufacturing Co.",
+      "address": "123 Manufacturer Lane, Ningbo, China, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(Ningbo Industrial Zone)",
+      "telephone": "+86 574 8888 9999",
+      "email": "shipper@reliablemfg.com"
+    },
+    "consignee": {
+      "name": "Sunrise International Corp.",
+      "address": "456 Sunrise Ave, Rotterdam, Netherlands, 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "consignee@sunrisecorp.com",
+      "telephone": "+31 10 777 8888"
+    },
+    "notifyParty": {
+      "name": "Euro Traders Ltd.",
+      "address": "789 Receiver St, Rotterdam, Netherlands, 3010 BB",
+      "country": "NETHERLANDS",
+      "email": "info@eurotraders.nl, invoices@eurotraders.nl",
+      "telephone": "+31 10 666 9999"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85437090",
+  "commodityDescription": "Electric Motors",
+  "containers": [
+    {
+      "containerNumber": "SEGU4567890",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SHIPPER MARK 123",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "Electric Motors (20 CARTONS)",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "SEGU9876543",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "SHIPPER MARK 456",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "Electric Motors (20 CARTONS)",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "SEGU1234567",
+      "sealNumber": "1020304050",
+      "marksAndNumbers": "SHIPPER MARK 789",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "Electric Motors (20 CARTONS)",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3 x 20 DRY) CONTAINERS ONLY",
+    "totalPackages": 60,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410265402"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-09-25 12:00",
+    "additionalRemarks": "Requires Careful Handling"
+  }
+}

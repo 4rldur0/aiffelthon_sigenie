@@ -1,0 +1,141 @@
+{
+  "bookingReference": "CHERRY202409215797",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2448E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA, 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT LTD.",
+      "address": "101 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011XD",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223",
+      "email": "IMPORT@ALPHAIMPORT.NL",
+      "contactPerson": "ANNA VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "ALPHA IMPORT & EXPORT (EUROPE) GMBH",
+      "address": "101 FRANKFURT STREET, FRANKFURT, GERMANY, 60311",
+      "telephone": "+49-69-66777777",
+      "fax": "+49-69-66777778"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "94016000",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "BM20240921",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "BM20240921",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU1111111",
+      "sealNumber": "1111111",
+      "marksAndNumbers": "BM20240921",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU2222222",
+      "sealNumber": "2222222",
+      "marksAndNumbers": "BM20240921",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU3333333",
+      "sealNumber": "3333333",
+      "marksAndNumbers": "BM20240921",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 DRY CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 110.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20240921-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "LC20241025-002"
+    },
+    "certificateDetails": [
+      "CO-234567891"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD.",
+      "address": "101 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011XD",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT & EXPORT (EUROPE) GMBH",
+      "address": "101 FRANKFURT STREET, FRANKFURT, GERMANY, 60311",
+      "telephone": "+49-69-66777777",
+      "fax": "+49-69-66777778"
+    },
+    "onboardDate": "2024-09-26 17:00",
+    "additionalRemarks": "Fragile cargo, handle with care"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7708794",
+    "unClass": "2",
+    "unCode": "No: 3335",
+    "hsCode": "9565.72.32",
+    "flashPoint": "97\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

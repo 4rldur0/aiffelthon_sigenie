@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202411079776",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "3214W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "email": "SALES@ASIAPACIFIC.COM"
+    },
+    "consignee": {
+      "name": "DELTA IMPORTS LTD",
+      "address": "FRANKFURTER STRASSE 12, FRANKFURT, GERMANY 60311",
+      "country": "GERMANY",
+      "email": "INFO@DELTAIMPORTS.DE",
+      "telephone": "+49 69 1234 5678"
+    },
+    "notifyParty": {
+      "name": "DELTA IMPORTS LTD",
+      "address": "FRANKFURTER STRASSE 12, FRANKFURT, GERMANY 60311",
+      "country": "GERMANY",
+      "email": "INFO@DELTAIMPORTS.DE",
+      "telephone": "+49 69 1234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847160",
+  "commodityDescription": "NETWORK SWITCHES",
+  "containers": [
+    {
+      "containerNumber": "CMAU7896543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHES - FRAGILE",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "890123",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHES - FRAGILE",
+      "grossWeight": 22000.0,
+      "measurement": 33.5
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "456789",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHES - FRAGILE",
+      "grossWeight": 22000.0,
+      "measurement": 34.2
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "234567",
+      "marksAndNumbers": "ABC234",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHES - FRAGILE",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ABC678",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHES - FRAGILE",
+      "grossWeight": 22000.0,
+      "measurement": 33.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) 20' STANDARD CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 166.7
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA IMPORTS LTD",
+      "address": "FRANKFURTER STRASSE 12, FRANKFURT, GERMANY 60311",
+      "telephone": "+49 69 1234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA IMPORTS LTD",
+      "address": "FRANKFURTER STRASSE 12, FRANKFURT, GERMANY 60311",
+      "telephone": "+49 69 1234 5678"
+    },
+    "onboardDate": "2024-11-09 14:00",
+    "additionalRemarks": "Containers to be loaded on deck."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

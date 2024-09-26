@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410199582",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "244W-12"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "FOB",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "23 SHANGHAI ROAD,NINGBO, CHINA",
+      "telephone": "+86 574 8888 7777",
+      "email": "SUNRISE@TRADING.CN"
+    },
+    "consignee": {
+      "name": "GOLDEN GATE IMPORTS LLC",
+      "address": "555 MARKET STREET, SAN FRANCISCO, CA 94105, USA",
+      "taxId": "123456789",
+      "telephone": "+1 415 555 5555",
+      "fax": "+1 415 555 5556"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (SHANGHAI)",
+      "address": "123 BUND STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 6666 7777",
+      "fax": "+86 21 6666 7778"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "87113090",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "CBOX2234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE TRADING CO. LTD. - NINGBO, CHINA",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "MOTORCYCLES - FOB NINGBO",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CBOX2234568",
+      "sealNumber": "123457",
+      "marksAndNumbers": "SUNRISE TRADING CO. LTD. - NINGBO, CHINA",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "MOTORCYCLES - FOB NINGBO",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CBOX2234569",
+      "sealNumber": "123458",
+      "marksAndNumbers": "SUNRISE TRADING CO. LTD. - NINGBO, CHINA",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "MOTORCYCLES - FOB NINGBO",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CBOX2234570",
+      "sealNumber": "123459",
+      "marksAndNumbers": "SUNRISE TRADING CO. LTD. - NINGBO, CHINA",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "MOTORCYCLES - FOB NINGBO",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CBOX2234571",
+      "sealNumber": "123460",
+      "marksAndNumbers": "SUNRISE TRADING CO. LTD. - NINGBO, CHINA",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "MOTORCYCLES - FOB NINGBO",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "UNITS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "23456789012345"
+    },
+    "certificateDetails": "CN20240929001",
+    "originalBLDistribution": {
+      "name": "GOLDEN GATE IMPORTS LLC",
+      "address": "555 MARKET STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1 415 555 5555",
+      "fax": "+1 415 555 5556"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN GATE IMPORTS LLC",
+      "address": "555 MARKET STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1 415 555 5555",
+      "fax": "+1 415 555 5556"
+    },
+    "onboardDate": "2024-11-05 10:00",
+    "additionalRemarks": "D/G, Class: 6.1, UN No: 1950"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

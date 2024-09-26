@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410163108",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "432QSM"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO.",
+      "address": "123 TECH PARK ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8887",
+      "email": "IMPORT@GLOBALIMPORTSLTD.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85423910",
+  "commodityDescription": "MICROPROCESSOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9763521",
+      "sealNumber": "170999",
+      "marksAndNumbers": "APEC-123",
+      "numberOfPackages": 125,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "171000",
+      "marksAndNumbers": "APEC-456",
+      "numberOfPackages": 130,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 20500.0,
+      "measurement": 33.5
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "171001",
+      "marksAndNumbers": "APEC-789",
+      "numberOfPackages": 120,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 19500.0,
+      "measurement": 32.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40DRY",
+    "totalPackages": 375,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 99.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241016-001",
+    "documentNumber": "20241016-002",
+    "lcDetails": {
+      "lcNumber": "123456789012345678"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8887"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8887"
+    },
+    "onboardDate": "2024-10-20 12:00",
+    "additionalRemarks": "FRAGILE CARGO - HANDLE WITH CARE."
+  }
+}

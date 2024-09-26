@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410232259",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2425ZHX"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING",
+      "address": "234 BEIJING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-6666-1111",
+      "fax": "+86-21-6666-2222"
+    },
+    "consignee": {
+      "name": "EURO TRADING GROUP NV",
+      "address": "123 RUE DE PARIS, ANTWERP, BELGIUM 2000",
+      "telephone": "+32-3-222-3333",
+      "fax": "+32-3-222-4444"
+    },
+    "notifyParty": {
+      "name": "EURO TRADING GROUP NV",
+      "address": "123 RUE DE PARIS, ANTWERP, BELGIUM 2000",
+      "telephone": "+32-3-222-3333",
+      "fax": "+32-3-222-4444"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "94033000",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE IMPORT & EXPORT CO. LTD.",
+      "numberOfPackages": 150,
+      "packageType": "PACKAGES",
+      "cargoDescription": "WOODEN CHAIRS - SHIPMENT TO BE DELIVERED ON TRUCK",
+      "grossWeight": 18000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "432165",
+      "marksAndNumbers": "SUNRISE IMPORT & EXPORT CO. LTD.",
+      "numberOfPackages": 150,
+      "packageType": "PACKAGES",
+      "cargoDescription": "WOODEN CHAIRS - SHIPMENT TO BE DELIVERED ON TRUCK",
+      "grossWeight": 18000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 300,
+    "packageType": "PACKAGES",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 56.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO45678",
+    "salesOrderNumber": "SO98765",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "EURO TRADING GROUP NV",
+      "address": "123 RUE DE PARIS, ANTWERP, BELGIUM 2000",
+      "telephone": "+32-3-222-3333",
+      "fax": "+32-3-222-4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT CO. LTD.",
+      "address": "234 BEIJING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-6666-1111",
+      "fax": "+86-21-6666-2222"
+    },
+    "onboardDate": "2024-11-05 09:00",
+    "additionalRemarks": "CONTAINER SEAL NUMBER: 123456789"
+  }
+}

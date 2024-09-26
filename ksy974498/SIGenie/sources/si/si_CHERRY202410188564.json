@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410188564",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241026W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Pacific Components Manufacturing",
+      "address": "1234, HUANGPU ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "consignee": {
+      "name": "EUROTECH DISTRIBUTION GMBH",
+      "address": "567, ALBERT STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31-10-45678901",
+      "fax": "+31-10-45678902"
+    },
+    "notifyParty": {
+      "name": "EUROTECH DISTRIBUTION GMBH",
+      "address": "567, ALBERT STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31-10-45678901",
+      "fax": "+31-10-45678902"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85423910",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SECL-123456",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 15000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "TCLU1112223",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SECL-654321",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 15000,
+      "measurement": 25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS",
+    "totalPackages": 2000,
+    "packageType": "BOXES",
+    "totalGrossWeight": 30000,
+    "totalMeasurement": 50
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "1234567890123456789",
+    "originalBLDistribution": {
+      "name": "EUROTECH DISTRIBUTION GMBH",
+      "address": "567, ALBERT STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31-10-45678901",
+      "fax": "+31-10-45678902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH DISTRIBUTION GMBH",
+      "address": "567, ALBERT STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31-10-45678901",
+      "fax": "+31-10-45678902"
+    },
+    "onboardDate": "2024-10-22 10:00",
+    "additionalRemarks": "Requires protection from moisture."
+  },
+  "dangerousGoods": {
+    "dangerous_goods_description": "Environmentally hazardous substance, solid, n.o.s.",
+    "un_number": "3077",
+    "dangerous_goods_class": "9",
+    "class_description": "Miscellaneous dangerous substances and articles",
+    "packing_group": "III",
+    "subsidiary_risks": [],
+    "flash_point": "Not applicable",
+    "proper_shipping_name": "Environmentally hazardous substance, solid, n.o.s.",
+    "technical_name": "Not applicable",
+    "hazard_label": "9"
+  }
+}

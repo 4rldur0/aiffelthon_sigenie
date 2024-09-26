@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202409244172",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2409W2"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA IMPORT EXPORT CO. LTD.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-86789012",
+      "fax": "+86-574-86789013"
+    },
+    "consignee": {
+      "name": "EUROTECH TRADING GMBH",
+      "address": "HAMBURGER STRASSE 50, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-37312345",
+      "fax": "+49-40-37312346",
+      "email": "IMPORT@EUROTECHTRADING.DE",
+      "contactPerson": "PETER SCHMIDT"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "DELTA LOGISTICS GMBH",
+      "address": "SPITALERSTRASSE 12, 20099 HAMBURG, GERMANY",
+      "telephone": "+49-40-22621234",
+      "fax": "+49-40-22621235"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR PACKING, ETC.",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "CHINA-TECH-123",
+      "numberOfPackages": 150,
+      "cargoDescription": "AUTOMATIC PACKAGING MACHINES",
+      "grossWeight": 22000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "21436587",
+      "marksAndNumbers": "CHINA-TECH-456",
+      "numberOfPackages": 150,
+      "cargoDescription": "AUTOMATIC PACKAGING MACHINES",
+      "grossWeight": 21800.0,
+      "measurement": 67.5
+    },
+    {
+      "containerNumber": "MSCU2345678",
+      "sealNumber": "36587901",
+      "marksAndNumbers": "CHINA-TECH-789",
+      "numberOfPackages": 150,
+      "cargoDescription": "AUTOMATIC PACKAGING MACHINES",
+      "grossWeight": 21900.0,
+      "measurement": 67.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 450,
+    "totalGrossWeight": 65700.0,
+    "totalMeasurement": 203.3
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-001",
+    "documentNumber": "20241025-002",
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROTECH TRADING GMBH",
+      "address": "HAMBURGER STRASSE 50, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-37312345",
+      "fax": "+49-40-37312346"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH TRADING GMBH",
+      "address": "HAMBURGER STRASSE 50, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-37312345",
+      "fax": "+49-40-37312346"
+    },
+    "onboardDate": "2024-09-27 14:00",
+    "additionalRemarks": "3 X 40' HC CONTAINERS, VALUE: EUR 60,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 12192,
+    "width": 2438,
+    "height": 2696,
+    "overWidth": 200,
+    "overHeight": 300
+  }
+}

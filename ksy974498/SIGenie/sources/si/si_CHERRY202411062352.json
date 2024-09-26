@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411062352",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2440E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "NO. 123, CHANGJIANG ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8666 1234",
+      "email": "SUNRISE@SUNRISEELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@BLUESKYIMPORTS.NL",
+      "telephone": "+31 10 456 7890"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@BLUESKYIMPORTS.NL",
+      "telephone": "+31 10 456 7890"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "84713090",
+  "commodityDescription": "LAPTOP COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BSI LAPTOP 1-10",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS - MODEL: SUNRISE-X20 - MADE IN CHINA",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "BSI LAPTOP 11-20",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS - MODEL: SUNRISE-X20 - MADE IN CHINA",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "BSI LAPTOP 21-30",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS - MODEL: SUNRISE-X20 - MADE IN CHINA",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "BSI LAPTOP 31-40",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS - MODEL: SUNRISE-X20 - MADE IN CHINA",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU6543210",
+      "sealNumber": "369124",
+      "marksAndNumbers": "BSI LAPTOP 41-50",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS - MODEL: SUNRISE-X20 - MADE IN CHINA",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 X 20 DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "totalGrossWeight": 120000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234"
+    },
+    "certificateDetails": [
+      "CN1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "BLUE SKY IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "telephone": "+31 10 456 7890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "telephone": "+31 10 456 7890"
+    },
+    "onboardDate": "2024-11-12 14:00",
+    "additionalRemarks": "CARGO FRAGILE. PACKING: INDIVIDUAL BOXES. VALUE: USD 75,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

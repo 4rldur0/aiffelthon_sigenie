@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202410091068",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024945W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1732",
+      "address": "567 JIANGSU ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "telephone": "+86 21 6354 7890",
+      "email": "ASIA@ASIATRADING.COM"
+    },
+    "consignee": {
+      "name": "EUROFASHION IMPORT BV",
+      "address": "WESTPOORT 123, 3015 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROFASHIONIMPORT.NL",
+      "telephone": "+31 10 2345678"
+    },
+    "notifyParty": {
+      "name": "ASIA TRADING LTD.",
+      "address": "567 JIANGSU ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "email": "ASIA@ASIATRADING.COM",
+      "telephone": "+86 21 6354 7890"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "620462",
+  "commodityDescription": "MEN'S COTTON JACKETS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "ASIA789",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON JACKETS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 15000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ASIA456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON JACKETS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 15000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 51.0
+  },
+  "additionalInformation": {
+    "originalBLDistribution": {
+      "name": "EUROFASHION IMPORT BV",
+      "address": "WESTPOORT 123, 3015 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA TRADING LTD.",
+      "address": "567 JIANGSU ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86 21 6354 7890"
+    },
+    "onboardDate": "2024-10-17 12:35",
+    "additionalRemarks": "Containers require pre-cooling to 5 degrees Celsius"
+  }
+}

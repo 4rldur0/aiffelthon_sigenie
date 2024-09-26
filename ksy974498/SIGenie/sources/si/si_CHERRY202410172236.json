@@ -1,0 +1,166 @@
+{
+  "bookingReference": "CHERRY202410172236",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024489E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2415",
+      "address": "1234 MAIN STREET, NINGBO 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8888 0123",
+      "email": "SHIPPER2415@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7629",
+      "address": "456 PORT ROAD, ROTTERDAM, 3011 XK",
+      "country": "NETHERLANDS",
+      "email": "CUSTOMER7629@EXAMPLE.COM",
+      "telephone": "+31 10 3456 7890"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 8542",
+      "address": "789 INVOICE STREET, AMSTERDAM, 1012 WX",
+      "country": "NETHERLANDS",
+      "email": "RECEIVER8542@EXAMPLE.COM",
+      "telephone": "+31 20 9876 5432"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940160",
+  "commodityDescription": "METAL CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS",
+      "grossWeight": 20000.0,
+      "measurement": 30.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS",
+      "grossWeight": 20000.0,
+      "measurement": 30.1
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "1357924680",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS",
+      "grossWeight": 20000.0,
+      "measurement": 30.1
+    },
+    {
+      "containerNumber": "CRLU1111111",
+      "sealNumber": "2222222222",
+      "marksAndNumbers": "SAMPLE MARKING 4",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS",
+      "grossWeight": 20000.0,
+      "measurement": 30.1
+    },
+    {
+      "containerNumber": "CRLU2222222",
+      "sealNumber": "3333333333",
+      "marksAndNumbers": "SAMPLE MARKING 5",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS",
+      "grossWeight": 20000.0,
+      "measurement": 30.1
+    },
+    {
+      "containerNumber": "CRLU3333333",
+      "sealNumber": "4444444444",
+      "marksAndNumbers": "SAMPLE MARKING 6",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS",
+      "grossWeight": 20000.0,
+      "measurement": 30.1
+    },
+    {
+      "containerNumber": "CRLU4444444",
+      "sealNumber": "5555555555",
+      "marksAndNumbers": "SAMPLE MARKING 7",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS",
+      "grossWeight": 20000.0,
+      "measurement": 30.1
+    },
+    {
+      "containerNumber": "CRLU5555555",
+      "sealNumber": "6666666666",
+      "marksAndNumbers": "SAMPLE MARKING 8",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CHAIRS",
+      "grossWeight": 20000.0,
+      "measurement": 30.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "EIGHT (20 DRY X8) CONTAINERS ONLY",
+    "totalPackages": 800,
+    "totalGrossWeight": 160000.0,
+    "totalMeasurement": 240.8
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-25 12:18",
+    "additionalRemarks": "Require pre-shipment inspection"
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202410214942",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410ZHEN1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF IMPORT EXPORT INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "telephone": "+86 574 8686 1234",
+      "email": "INFO@DEFIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "ABC TRADING COMPANY LTD.",
+      "address": "123 MAIN STREET, SUITE 500, LONDON, UK",
+      "country": "UNITED KINGDOM",
+      "email": "ORDERS@ABCTRADING.COM",
+      "telephone": "+44 20 7555 1212"
+    },
+    "notifyParty": {
+      "name": "ABC TRADING COMPANY LTD.",
+      "address": "123 MAIN STREET, SUITE 500, LONDON, UK",
+      "country": "UNITED KINGDOM",
+      "email": "ORDERS@ABCTRADING.COM",
+      "telephone": "+44 20 7555 1212"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "94035000",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DEF123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS (MODEL: CH-2024)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS (MODEL: CH-2024)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "234567",
+      "marksAndNumbers": "DEF789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS (MODEL: CH-2024)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "876543",
+      "marksAndNumbers": "DEF101",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS (MODEL: CH-2024)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "432109",
+      "marksAndNumbers": "DEF111",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS (MODEL: CH-2024)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) x 20' DRY CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 110315.0,
+    "totalMeasurement": 175.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567890",
+      "fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC TRADING COMPANY LTD.",
+      "address": "123 MAIN STREET, SUITE 500, LONDON, UK",
+      "telephone": "+44 20 7555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC TRADING COMPANY LTD.",
+      "address": "123 MAIN STREET, SUITE 500, LONDON, UK",
+      "telephone": "+44 20 7555 1212"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "SPECIAL INSTRUCTIONS: FRAGILE CARGO, HANDLE WITH CARE"
+  }
+}

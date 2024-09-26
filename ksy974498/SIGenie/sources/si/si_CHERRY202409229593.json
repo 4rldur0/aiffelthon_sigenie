@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202409229593",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2345WQB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ALGECIRAS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA STEEL CORPORATION",
+      "address": "123 Steel Road, Shanghai, China",
+      "telephone": "+86-21-555-123-4567",
+      "fax": "+86-21-555-123-4568"
+    },
+    "consignee": {
+      "name": "EUROASIA SHIPPING LTD",
+      "address": "456 Oak Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-555-987-6543",
+      "fax": "+31-10-555-987-6542"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 2443",
+      "address": "789 Pine Lane, Amsterdam, Netherlands",
+      "telephone": "+31-20-555-567-8901",
+      "fax": "+31-20-555-567-8902"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "72089000",
+  "commodityDescription": "STEEL PLATES FOR INDUSTRIAL MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CHINA STEEL CORP - SHIPMENT 123456",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PLATES FOR INDUSTRIAL MACHINERY",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "CHINA STEEL CORP - SHIPMENT 7654321",
+      "numberOfPackages": 50,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PLATES FOR INDUSTRIAL MACHINERY",
+      "grossWeight": 10000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "BUNDLES",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT123456789",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 2443",
+      "address": "789 Pine Lane, Amsterdam, Netherlands",
+      "telephone": "+31-20-555-567-8901",
+      "fax": "+31-20-555-567-8902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA SHIPPING LTD",
+      "address": "456 Oak Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-555-987-6543",
+      "fax": "+31-10-555-987-6542"
+    },
+    "onboardDate": "2024-09-25 15:00",
+    "additionalRemarks": "CONTAINERS MUST BE SEALED AND SECURED FOR TRANSPORTATION."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

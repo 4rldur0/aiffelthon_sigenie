@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409188193",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2410VSCWBE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GOLDEN SUN TRADING CO.",
+      "onBehalfOf": "",
+      "address": "UNIT 201, 2/F, OCEAN PLAZA, 238 HONG KONG ROAD, KOWLOON, HONG KONG",
+      "telephone": "+852 2789 6543",
+      "fax": "+852 2789 6544"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN TRADING CO.",
+      "address": "STRASSENSTRASSE 10, 20099 HAMBURG, GERMANY",
+      "companyNumber": "HRB 1234567"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY CORPORATION",
+      "address": "UNIT 201, 2/F, OCEAN PLAZA, 238 HONG KONG ROAD, KOWLOON, HONG KONG"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "94016000",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "BSC1234",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU8901234",
+      "sealNumber": "89012345",
+      "marksAndNumbers": "BSC5678",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINER(S)",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GOLDEN SUN TRADING CO.",
+      "address": "STRASSENSTRASSE 10, 20099 HAMBURG, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY CORPORATION",
+      "address": "UNIT 201, 2/F, OCEAN PLAZA, 238 HONG KONG ROAD, KOWLOON, HONG KONG"
+    },
+    "onboardDate": "2024-10-02 10:00",
+    "additionalRemarks": "Cargo requires careful handling due to delicate nature."
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  }
+}

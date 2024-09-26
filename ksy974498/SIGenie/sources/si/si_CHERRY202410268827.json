@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410268827",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "241027VDA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Telegraphic Transfer",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EASTERN TRADING COMPANY LTD.",
+      "address": "158 HUANGPU ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS LTD",
+      "address": "105 RUE DE LA MONNAIE, ANTWERP, BELGIUM, 2000",
+      "country": "BELGIUM",
+      "email": "IMPORT@EURO-IMPORTS.BE",
+      "telephone": "+32 3 222 3333"
+    },
+    "notifyParty": {
+      "name": "EURO IMPORTS LTD",
+      "address": "105 RUE DE LA MONNAIE, ANTWERP, BELGIUM, 2000",
+      "country": "BELGIUM",
+      "email": "IMPORT@EURO-IMPORTS.BE",
+      "telephone": "+32 3 222 3333"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "87089910",
+  "commodityDescription": "CAR BRAKE PADS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "EITP2345",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN CAR BRAKE PADS, PALLETIZED",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU87654321",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "EITP2346",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN CAR BRAKE PADS, PALLETIZED",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "BOXES",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "87089910",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS LTD",
+      "address": "105 RUE DE LA MONNAIE, ANTWERP, BELGIUM, 2000",
+      "telephone": "+32 3 222 3333"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORTS LTD",
+      "address": "105 RUE DE LA MONNAIE, ANTWERP, BELGIUM, 2000",
+      "telephone": "+32 3 222 3333",
+      "fax": "+32 3 222 3334"
+    },
+    "onboardDate": "2024-10-29 14:00",
+    "additionalRemarks": "CUSTOMS CLEARANCE REQUIRED AT ROTTERDAM. VALUE: USD 15,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 45 HIGH CUBE Container"
+  }
+}

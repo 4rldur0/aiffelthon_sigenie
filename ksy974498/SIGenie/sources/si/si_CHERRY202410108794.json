@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202410108794",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "HANJIN STEEL CO. LTD.",
+      "address": "123 STEEL STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "email": "INFO@HANJINSTEEL.COM"
+    },
+    "consignee": {
+      "name": "BLUE OCEAN LOGISTICS LTD.",
+      "address": "124 WAREHOUSE LANE, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. JOHAN VAN DER LEE",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432"
+    },
+    "notifyParty": {
+      "name": "BLUE OCEAN LOGISTICS LTD.",
+      "address": "124 WAREHOUSE LANE, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. JOHAN VAN DER LEE",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "72089000",
+  "commodityDescription": "STEEL SHEETS",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "CMA4567890",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "PLATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. CONTAINER SEAL: CMA4567890 SAID TO CONTAIN: STEEL SHEETS",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGLU1234568",
+      "sealNumber": "CMA4567891",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "PLATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. CONTAINER SEAL: CMA4567891 SAID TO CONTAIN: STEEL SHEETS",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGLU1234569",
+      "sealNumber": "CMA4567892",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "PLATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. CONTAINER SEAL: CMA4567892 SAID TO CONTAIN: STEEL SHEETS",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGLU1234570",
+      "sealNumber": "CMA4567893",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "PLATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. CONTAINER SEAL: CMA4567893 SAID TO CONTAIN: STEEL SHEETS",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGLU1234571",
+      "sealNumber": "CMA4567894",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "PLATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. CONTAINER SEAL: CMA4567894 SAID TO CONTAIN: STEEL SHEETS",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 FOOT DRY) CONTAINERS",
+    "totalPackages": 2500,
+    "packageType": "PLATES",
+    "containerType": "20 FOOT DRY",
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "BLUE OCEAN LOGISTICS LTD.",
+      "address": "124 WAREHOUSE LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE OCEAN LOGISTICS LTD.",
+      "address": "124 WAREHOUSE LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432"
+    },
+    "onboardDate": "2024-10-15 10:00",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT. CONTAINER SEAL: CMA4567890"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9006854",
+    "unClass": "8",
+    "unCode": "No: 3334",
+    "hsCode": "7705.31.86",
+    "flashPoint": "90\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

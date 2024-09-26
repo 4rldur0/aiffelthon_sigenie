@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202409204496",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445W1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIES INC.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO ECONOMIC & TECHNOLOGICAL DEVELOPMENT ZONE)",
+      "telephone": "+86 574 8888 1234",
+      "email": "SHIPPING@SUNRISE.CN"
+    },
+    "consignee": {
+      "name": "DELTA INTERNATIONAL TRADING CO. LTD",
+      "address": "52, RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "country": "FRANCE",
+      "email": "IMPORT@DELTAINTL.COM, ORDERS@DELTAINTL.COM",
+      "telephone": "+33 1 42 46 78 90"
+    },
+    "notifyParty": {
+      "name": "DELTA INTERNATIONAL TRADING CO. LTD",
+      "address": "52, RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "country": "FRANCE",
+      "email": "IMPORT@DELTAINTL.COM, ORDERS@DELTAINTL.COM",
+      "telephone": "+33 1 42 46 78 90"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854442",
+  "commodityDescription": "INSULATED CABLES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "INSULATED CABLES - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE HUNDRED (100) CARTONS OF INSULATED CABLES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE234",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "INSULATED CABLES - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE HUNDRED (100) CARTONS OF INSULATED CABLES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC000123456789"
+    },
+    "certificateDetails": [
+      "CN20241026001",
+      "CN20241026002"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA INTERNATIONAL TRADING CO. LTD",
+      "address": "52, RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "telephone": "+33 1 42 46 78 90"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA INTERNATIONAL TRADING CO. LTD",
+      "address": "52, RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "telephone": "+33 1 42 46 78 90"
+    },
+    "onboardDate": "2024-10-26 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3334"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410119551",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ORIENTAL TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 TRADE STREET, NINGBO, CHINA",
+      "telephone": "+86-574-9999-9999",
+      "fax": "+86-574-9999-9998"
+    },
+    "consignee": {
+      "name": "EUROTECH LOGISTICS GMBH",
+      "address": "567 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "98765432"
+    },
+    "notifyParty": {
+      "name": "ACME INTERNATIONAL CORP",
+      "address": "890 TRADE STREET, NEW YORK, USA"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "84798990",
+  "commodityDescription": "EGG SORTING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: EGG SORTING MACHINES",
+      "grossWeight": 12000.0,
+      "measurement": 12.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: EGG SORTING MACHINES",
+      "grossWeight": 12000.0,
+      "measurement": 12.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908630",
+      "sealNumber": "892088",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: EGG SORTING MACHINES",
+      "grossWeight": 12000.0,
+      "measurement": 12.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "PALLETS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 36.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": [
+      "4112720070177X"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH LOGISTICS GMBH",
+      "address": "567 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME INTERNATIONAL CORP",
+      "address": "890 TRADE STREET, NEW YORK, USA"
+    },
+    "onboardDate": "2024-10-28 12:00",
+    "additionalRemarks": "REQUIRES TEMPERATURE CONTROLLED STORAGE (15-20 DEGREES CELSIUS)"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

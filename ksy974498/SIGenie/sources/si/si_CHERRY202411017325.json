@@ -1,0 +1,88 @@
+{
+  "bookingReference": "CHERRY202411017325",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024919W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Telegraphic Transfer",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2743",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 8963",
+      "address": "123 ALCAZAR STREET, ALGECIRAS, SPAIN, 11001",
+      "country": "SPAIN",
+      "email": "INFO@INVOICERECEIVER.ES, ORDERS@INVOICERECEIVER.ES",
+      "telephone": "+34 956 789012"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 5182",
+      "address": "123 GRANDA STREET, MADRID, SPAIN, 28001",
+      "country": "SPAIN",
+      "email": "INFO@CUSTOMER5182.ES",
+      "telephone": "+34 915 678901"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "902300",
+  "commodityDescription": "TESTING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TESTING EQUIPMENT (100 UNITS) AS PER INVOICE AND PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 STANDARD REEFER CONTAINER) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "ABC123456789",
+    "hsCode": "902300",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "BANKIA SA",
+      "address": "123 GRAN VIA, MADRID, SPAIN, 28001",
+      "telephone": "+34 915 678901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8963",
+      "address": "123 ALCAZAR STREET, ALGECIRAS, SPAIN, 11001",
+      "telephone": "+34 956 789012",
+      "fax": "+34 956 789013"
+    },
+    "onboardDate": "2024-11-05 16:00",
+    "additionalRemarks": "Maintain temperature between 2-8 degrees Celsius during transit."
+  }
+}

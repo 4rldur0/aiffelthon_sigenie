@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202410136432",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "4782E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 1234567",
+      "fax": "+86 574 1234568"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "1545 FRANKFURTER STRASSE, FRANKFURT, GERMANY",
+      "telephone": "+49 69 1234567",
+      "fax": "+49 69 1234568",
+      "email": "IMPORT@GLOBALTRADING.DE",
+      "contactPerson": "PETER MEYER"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "1545 FRANKFURTER STRASSE, FRANKFURT, GERMANY",
+      "telephone": "+49 69 1234567",
+      "fax": "+49 69 1234568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "87032310",
+  "commodityDescription": "PASSENGER VEHICLES",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APEC123",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 1 X PASSENGER VEHICLE",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "APEC456",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 1 X PASSENGER VEHICLE",
+      "grossWeight": 17500.0,
+      "measurement": 34.5
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "APEC789",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 1 X PASSENGER VEHICLE",
+      "grossWeight": 17000.0,
+      "measurement": 34.0
+    },
+    {
+      "containerNumber": "TCLU2345678",
+      "sealNumber": "901234",
+      "marksAndNumbers": "APEC246",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 1 X PASSENGER VEHICLE",
+      "grossWeight": 18500.0,
+      "measurement": 35.5
+    },
+    {
+      "containerNumber": "TCLU5678901",
+      "sealNumber": "456789",
+      "marksAndNumbers": "APEC578",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 1 X PASSENGER VEHICLE",
+      "grossWeight": 17800.0,
+      "measurement": 34.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20' STANDARD CONTAINER",
+    "totalPackages": 25,
+    "totalGrossWeight": 89800.0,
+    "totalMeasurement": 173.8
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241015-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "1545 FRANKFURTER STRASSE, FRANKFURT, GERMANY",
+      "telephone": "+49 69 1234567",
+      "fax": "+49 69 1234568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ELECTRONICS CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 1234567",
+      "fax": "+86 574 1234568"
+    },
+    "onboardDate": "2024-10-17 12:00",
+    "additionalRemarks": "FRAGILE CARGO. Handle with care. Value: USD 500,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410232448",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24278W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "NO. 258 JIANGSU ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)",
+      "telephone": "+86 21 6666 6666",
+      "email": "INFO@GLOBALTECHSOLUTIONS.CN"
+    },
+    "consignee": {
+      "name": "EURO TECH IMPORT NV",
+      "address": "BEIRENSTRAAT 15, 2000 ANTWERP, BELGIUM",
+      "country": "BELGIUM",
+      "email": "ORDERS@EUROTECHIMPORT.BE",
+      "telephone": "+32 3 222 2222"
+    },
+    "notifyParty": {
+      "name": "EURO TECH IMPORT NV",
+      "address": "BEIRENSTRAAT 15, 2000 ANTWERP, BELGIUM",
+      "country": "BELGIUM",
+      "email": "ORDERS@EUROTECHIMPORT.BE",
+      "telephone": "+32 3 222 2222"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85423910",
+  "commodityDescription": "COMPUTER HARDWARE",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GTS-123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "COMPUTER HARDWARE AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GTS-456",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "COMPUTER HARDWARE AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 x 20' DRY) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334238"
+    },
+    "certificateDetails": [
+      "411252403578Y"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO TECH IMPORT NV",
+      "address": "BEIRENSTRAAT 15, 2000 ANTWERP, BELGIUM",
+      "telephone": "+32 3 222 2220"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TECH IMPORT NV",
+      "address": "BEIRENSTRAAT 15, 2000 ANTWERP, BELGIUM",
+      "telephone": "+32 3 222 2220"
+    },
+    "onboardDate": "2024-10-26 12:00",
+    "additionalRemarks": "FRAGILE CARGO, HANDLE WITH CARE"
+  },
+  "dangerousGoods": {
+    "dangerousGoodsDescription": "Corrosive solid, acidic, n.o.s.",
+    "unNumber": "3264",
+    "class": "9",
+    "packingGroup": "II",
+    "subsidiaryRisk": null,
+    "properShippingName": "Corrosive solid, acidic, n.o.s.",
+    "technicalName": null,
+    "netWeight": null,
+    "grossWeight": null,
+    "quantity": null,
+    "packaging": null,
+    "emergencyResponseGuideNumber": "172"
+  }
+}

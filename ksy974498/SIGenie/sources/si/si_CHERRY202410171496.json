@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410171496",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24238EW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MEDICAL EQUIPMENT LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO BRANCH)"
+    },
+    "consignee": {
+      "name": "ALPHA MEDICAL SUPPLIES INC.",
+      "address": "5678 FRANKFURTER STRASSE, HAMBURG, 20457, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@ALPHAMEDICAL.DE",
+      "telephone": "+49 40 1234 5678"
+    },
+    "notifyParty": {
+      "name": "ALPHA MEDICAL SUPPLIES INC.",
+      "address": "5678 FRANKFURTER STRASSE, HAMBURG, 20457, GERMANY",
+      "country": "GERMANY",
+      "email": "OPERATIONS@ALPHAMEDICAL.DE",
+      "telephone": "+49 40 9876 5432"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "901890",
+  "commodityDescription": "SURGICAL INSTRUMENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9762317",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "BETA MED LTD NINGBO",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SURGICAL INSTRUMENTS, 5KG PER CARTON",
+      "grossWeight": 2500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9762318",
+      "sealNumber": "6543210",
+      "marksAndNumbers": "BETA MED LTD NINGBO",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SURGICAL INSTRUMENTS, 5KG PER CARTON",
+      "grossWeight": 2500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241015-AMS",
+    "hsCode": "901890",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "ALPHA MEDICAL SUPPLIES INC.",
+      "address": "5678 FRANKFURTER STRASSE, HAMBURG, 20457, GERMANY",
+      "telephone": "+49 40 1234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA MEDICAL SUPPLIES INC.",
+      "address": "5678 FRANKFURTER STRASSE, HAMBURG, 20457, GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433"
+    },
+    "onboardDate": "2024-10-22 10:00",
+    "additionalRemarks": "Fragile cargo, handle with utmost care. Stacking not permitted."
+  }
+}

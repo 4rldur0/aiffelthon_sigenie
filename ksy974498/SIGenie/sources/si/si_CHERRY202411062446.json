@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411062446",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2411ZHE03"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CFR",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING ASIA LTD.",
+      "address": "25 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 7778",
+      "email": "PRECISION@ENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "123 FRANKFURTER STRASSE, FRANKFURT, GERMANY",
+      "taxId": "DE123456789",
+      "telephone": "+49 69 555 5555",
+      "fax": "+49 69 555 5556"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (NINGBO)",
+      "address": "123 BUND STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 6666 7779",
+      "fax": "+86 21 6666 7778"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84663090",
+  "commodityDescription": "MOTOR WINDINGS",
+  "containers": [
+    {
+      "containerNumber": "CBOX22345671",
+      "sealNumber": "123456",
+      "marksAndNumbers": "PRECISION ENGINEERING ASIA LTD. - NINGBO, CHINA",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "MOTOR WINDINGS - CFR HAMBURG",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CBOX22345672",
+      "sealNumber": "123457",
+      "marksAndNumbers": "PRECISION ENGINEERING ASIA LTD. - NINGBO, CHINA",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "MOTOR WINDINGS - CFR HAMBURG",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CBOX22345673",
+      "sealNumber": "123458",
+      "marksAndNumbers": "PRECISION ENGINEERING ASIA LTD. - NINGBO, CHINA",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "MOTOR WINDINGS - CFR HAMBURG",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CBOX22345674",
+      "sealNumber": "123459",
+      "marksAndNumbers": "PRECISION ENGINEERING ASIA LTD. - NINGBO, CHINA",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "MOTOR WINDINGS - CFR HAMBURG",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CBOX22345675",
+      "sealNumber": "123460",
+      "marksAndNumbers": "PRECISION ENGINEERING ASIA LTD. - NINGBO, CHINA",
+      "numberOfPackages": 50,
+      "packageType": "UNITS",
+      "cargoDescription": "MOTOR WINDINGS - CFR HAMBURG",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "UNITS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "23456789012345"
+    },
+    "certificateDetails": "CN20240929001",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "123 FRANKFURTER STRASSE, FRANKFURT, GERMANY",
+      "telephone": "+49 69 555 5555",
+      "fax": "+49 69 555 5556"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "123 FRANKFURTER STRASSE, FRANKFURT, GERMANY",
+      "telephone": "+49 69 555 5555",
+      "fax": "+49 69 555 5556"
+    },
+    "onboardDate": "2024-11-10 10:00",
+    "additionalRemarks": "FRAGILE CARGO - HANDLE WITH CARE"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  }
+}

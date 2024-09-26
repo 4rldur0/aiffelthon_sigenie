@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410084845",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410ZHE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI METAL WORKS CO.",
+      "onBehalfOf": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-98765432"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "456 CONSIGNEE STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "NL123456789"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "789 CUSTOMER STREET, LONDON, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "73021090",
+  "commodityDescription": "STEEL ARMOUR PLATE",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "PLATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL ARMOUR PLATE",
+      "grossWeight": 28000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "PLATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL ARMOUR PLATE",
+      "grossWeight": 28000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "PLATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL ARMOUR PLATE",
+      "grossWeight": 28000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 40 HIGH CUBE DRY CONTAINER",
+    "totalPackages": 300,
+    "packageType": "PLATES",
+    "containerType": "40 HIGH CUBE DRY CONTAINER",
+    "totalGrossWeight": 84000.0,
+    "totalMeasurement": 105.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033739"
+    },
+    "certificateDetails": [
+      "4112720070179X",
+      "4112720070180X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "789 CUSTOMER STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-12345678",
+      "fax": "+44-20-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "456 CONSIGNEE STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "3 x 40ft High Cube Dry Containers, Weight: 28 tonnes each, Value: USD 45,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

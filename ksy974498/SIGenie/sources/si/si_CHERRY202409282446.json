@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202409282446",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2321W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "email": "shipping@asiapacifictrading.com"
+    },
+    "consignee": {
+      "name": "NORTH SEA SHIPPING INC.",
+      "address": "105 WATER STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL856789012B01",
+      "president": "MR. PETER JOHNSON",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT & EXPORT LTD.",
+      "address": "12 CANARY WARF, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7777 5555",
+      "fax": "+44 20 7777 6666"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85437000",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "TCLU5678901",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS ELECTRIC MOTORS",
+      "grossWeight": 18500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "TCLU5678902",
+      "sealNumber": "6543210",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS ELECTRIC MOTORS",
+      "grossWeight": 18500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "TCLU5678903",
+      "sealNumber": "9876543",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS ELECTRIC MOTORS",
+      "grossWeight": 18500.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 DRY CONTAINER) CONTAINERS",
+    "totalPackages": 150,
+    "packageType": "CRATES",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 55500.0,
+    "totalMeasurement": 76.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": "1234567890123",
+    "originalBLDistribution": {
+      "name": "NORTH SEA SHIPPING INC.",
+      "address": "105 WATER STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT LTD.",
+      "address": "12 CANARY WARF, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7777 5555",
+      "fax": "+44 20 7777 6666"
+    },
+    "onboardDate": "2024-10-03 10:00",
+    "additionalRemarks": "CARGO REQUIRES SECURE HANDLING AND STACKING."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

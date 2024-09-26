@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410113839",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241011WSA1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA, 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "101 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011XD",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223",
+      "email": "IMPORT@ALPHAGLOBAL.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "ALPHA GLOBAL TRADING CO. LTD - LOGISTICS DEPT",
+      "address": "101 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011XD",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "902110",
+  "commodityDescription": "BEVERAGE PRODUCTION LINE",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "BETA12345",
+      "numberOfPackages": 100,
+      "cargoDescription": "BEVERAGE PRODUCTION LINE PARTS AS PER INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "BETA12346",
+      "numberOfPackages": 100,
+      "cargoDescription": "BEVERAGE PRODUCTION LINE PARTS AS PER INVOICE",
+      "grossWeight": 10000.0,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE DRY CONTAINERS",
+    "totalPackages": 200,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 44.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241011-001",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "LC20241025-001"
+    },
+    "certificateDetails": [
+      "CO-234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "101 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011XD",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "101 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011XD",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "FRAGILE CARGO - HANDLE WITH CARE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

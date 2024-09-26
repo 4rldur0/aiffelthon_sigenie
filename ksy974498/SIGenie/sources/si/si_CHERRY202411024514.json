@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202411024514",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA IRON & STEEL CO.",
+      "onBehalfOf": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 STEELWORKS ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 6666"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "456 PORT STREET, LE HAVRE, FRANCE",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "456 PORT STREET, LE HAVRE, FRANCE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "72083700",
+  "commodityDescription": "STEEL PLATES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA STEEL",
+      "numberOfPackages": 1000,
+      "packageType": "PLATES",
+      "cargoDescription": "STEEL PLATES AS PER COMMERCIAL INVOICE AND PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 33.0,
+      "additionalInfo": null
+    },
+    {
+      "containerNumber": "CMAU9876544",
+      "sealNumber": "123457",
+      "marksAndNumbers": "DELTA STEEL",
+      "numberOfPackages": 1000,
+      "packageType": "PLATES",
+      "cargoDescription": "STEEL PLATES AS PER COMMERCIAL INVOICE AND PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 33.0,
+      "additionalInfo": null
+    },
+    {
+      "containerNumber": "CMAU9876545",
+      "sealNumber": "123458",
+      "marksAndNumbers": "DELTA STEEL",
+      "numberOfPackages": 1000,
+      "packageType": "PLATES",
+      "cargoDescription": "STEEL PLATES AS PER COMMERCIAL INVOICE AND PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 33.0,
+      "additionalInfo": null
+    },
+    {
+      "containerNumber": "CMAU9876546",
+      "sealNumber": "123459",
+      "marksAndNumbers": "DELTA STEEL",
+      "numberOfPackages": 1000,
+      "packageType": "PLATES",
+      "cargoDescription": "STEEL PLATES AS PER COMMERCIAL INVOICE AND PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 33.0,
+      "additionalInfo": null
+    },
+    {
+      "containerNumber": "CMAU9876547",
+      "sealNumber": "123460",
+      "marksAndNumbers": "DELTA STEEL",
+      "numberOfPackages": 1000,
+      "packageType": "PLATES",
+      "cargoDescription": "STEEL PLATES AS PER COMMERCIAL INVOICE AND PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 33.0,
+      "additionalInfo": null
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS",
+    "totalPackages": 5000,
+    "packageType": "PLATES",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 165.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "456 PORT STREET, LE HAVRE, FRANCE",
+      "telephone": "+33 235 7890 1234",
+      "fax": "+33 235 7890 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "456 PORT STREET, LEHAVRE, FRANCE",
+      "telephone": "+33 235 7890 1234",
+      "fax": "+33 235 7890 5678"
+    },
+    "onboardDate": "2024-11-05 10:00",
+    "additionalRemarks": "CONTAINER WEIGHT: 20 TONNES, B/L: 3 ORIGINALS, 3 NON-NEGOTIABLE COPIES"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

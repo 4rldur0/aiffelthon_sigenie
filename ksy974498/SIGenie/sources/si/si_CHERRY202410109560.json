@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202410109560",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TEXTILES LTD",
+      "onBehalfOf": "",
+      "address": "UNIT 201, 5/F, SHANGHAI PLAZA, 1388 NANJING ROAD WEST, SHANGHAI, CHINA",
+      "telephone": "+86 21 6287 9123",
+      "fax": "+86 21 6287 9124"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS INC",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TEXTILES LTD",
+      "address": "UNIT 201, 5/F, SHANGHAI PLAZA, 1388 NANJING ROAD WEST, SHANGHAI, CHINA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "620342",
+  "commodityDescription": "MEN'S SHORTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "GT1234",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEN'S SHORTS",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU9876544",
+      "sealNumber": "89012345",
+      "marksAndNumbers": "GT5678",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEN'S SHORTS",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINER(S)",
+    "totalPackages": 2000,
+    "packageType": "CARTONS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 48.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS INC",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TEXTILES LTD",
+      "address": "UNIT 201, 5/F, SHANGHAI PLAZA, 1388 NANJING ROAD WEST, SHANGHAI, CHINA"
+    },
+    "onboardDate": "2024-10-20 16:00",
+    "additionalRemarks": "Two 40' High Cube Dry Containers, Item: Men's Shorts, Value: USD 35,000"
+  }
+}

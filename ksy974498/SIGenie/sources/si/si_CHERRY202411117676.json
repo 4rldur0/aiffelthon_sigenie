@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411117676",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "1234E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "DAP",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Tech Solutions Ltd",
+      "address": "123 Tech Lane, Ningbo, China",
+      "telephone": "+86 574 12345678",
+      "email": "shipping@techsolutionsltd.com"
+    },
+    "consignee": {
+      "name": "Tech Solutions International",
+      "address": "123 Innovation Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432"
+    },
+    "notifyParty": {
+      "name": "Global Logistics Solutions Inc.",
+      "address": "123 Logistics Blvd, New York, USA",
+      "telephone": "+1 212 12345678",
+      "fax": "+1 212 98765432"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847130",
+  "commodityDescription": "COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TECHSOL123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTERS AS PER PACKING LIST",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "TECHSOL789",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTERS AS PER PACKING LIST",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "TECHSOL456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTERS AS PER PACKING LIST",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE DRY) CONTAINER ONLY",
+    "totalPackages": 1500,
+    "packageType": "CARTONS",
+    "containerType": "40 HIGH CUBE DRY CONTAINER",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": "CN20241111001",
+    "originalBLDistribution": {
+      "name": "Tech Solutions International",
+      "address": "123 Innovation Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Logistics Solutions Inc.",
+      "address": "123 Logistics Blvd, New York, USA",
+      "telephone": "+1 212 12345678",
+      "fax": "+1 212 98765432"
+    },
+    "onboardDate": "2024-11-20 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3264, Special handling required: Fragile"
+  }
+}

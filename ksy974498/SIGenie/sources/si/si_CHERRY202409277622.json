@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202409277622",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "1234WQA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORTERS INC.",
+      "address": "AVENUE DE PARIS, 123, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "IMPORTERS@BLUESKY.NL",
+      "telephone": "+31 10 789 0123"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY IMPORTERS INC.",
+      "address": "AVENUE DE PARIS, 123, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "IMPORTERS@BLUESKY.NL",
+      "telephone": "+31 10 789 0123"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847130",
+  "commodityDescription": "LAPTOP COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "MSCU2765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GI20241029",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS - AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GI20241029",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS - AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GI20241029",
+    "hsCode": "847130",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "BLUE SKY IMPORTERS INC.",
+      "address": "AVENUE DE PARIS, 123, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 789 0123"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY IMPORTERS INC.",
+      "address": "AVENUE DE PARIS, 123, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 789 0123"
+    },
+    "onboardDate": "2024-10-05 10:00",
+    "additionalRemarks": "Value: USD50,000. Special Instructions: Requires refrigerated storage during transit."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410296744",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024922W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC GARMENTS CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "DEF IMPORT & EXPORT INC.",
+      "address": "101 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011XD",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223",
+      "email": "IMPORT@DEFIMPORT.NL",
+      "contactPerson": "JOHANNES VAN DER MEIJDEN"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "DEF IMPORT & EXPORT INC. - LOGISTICS DEPT",
+      "address": "101 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011XD",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "620462",
+  "commodityDescription": "WOMEN'S WINTER COATS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC12345",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOMEN'S WINTER COATS AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "ABC12346",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOMEN'S WINTER COATS AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 DRY CONTAINERS",
+    "totalPackages": 200,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241029-001",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "LC20241125-001"
+    },
+    "certificateDetails": [
+      "CO-234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "DEF IMPORT & EXPORT INC.",
+      "address": "101 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011XD",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DEF IMPORT & EXPORT INC.",
+      "address": "101 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011XD",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223"
+    },
+    "onboardDate": "2024-11-08 18:00",
+    "additionalRemarks": "Containers to be sealed with shipper's own seal."
+  }
+}

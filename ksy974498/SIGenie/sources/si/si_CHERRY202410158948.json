@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410158948",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2422EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CORPORATION",
+      "address": "1234 INDUSTRIAL STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+862155558888",
+      "fax": "+862155559999"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "4567 COMMERCIAL ROAD, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+311012345678",
+      "fax": "+311012345679",
+      "email": "info@alphaimport.nl",
+      "contactPerson": "PETER SMITH"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "4567 COMMERCIAL ROAD, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+311012345678",
+      "fax": "+311012345679",
+      "email": "finance@alphaimport.nl"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84212300",
+  "commodityDescription": "LATHE MACHINES",
+  "containers": [
+    {
+      "containerNumber": "TCLU9578126",
+      "sealNumber": "123459",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Lathe Machines",
+      "grossWeight": 18000.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "TCLU9578127",
+      "sealNumber": "123460",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Lathe Machines",
+      "grossWeight": 18500.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40DRY",
+    "totalPackages": 30,
+    "totalGrossWeight": 36500.0,
+    "totalMeasurement": 65.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241015-001",
+    "documentNumber": "20001639823",
+    "lcDetails": {
+      "lcNumber": "00001010339244"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "4567 COMMERCIAL ROAD, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+311012345678",
+      "fax": "+311012345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "4567 COMMERCIAL ROAD, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+311012345678",
+      "fax": "+311012345679"
+    },
+    "onboardDate": "2024-10-20 12:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED FOR HEAVY MACHINERY. B/L: TO BE ISSUED"
+  }
+}

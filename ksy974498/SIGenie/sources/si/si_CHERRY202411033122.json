@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202411033122",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT EXPORT LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO BRANCH)",
+      "telephone": "+86 574 8654 3210",
+      "email": "BETA@BETAIMPORTEXTPORT.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "ALPHA@ALPHA GLOBALTRADING.COM",
+      "telephone": "+31 10 35678901"
+    },
+    "notifyParty": {
+      "name": "DELTA LOGISTICS INC.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 BB",
+      "country": "NETHERLANDS",
+      "email": "DELTA@DELTALOGISTICS.COM",
+      "telephone": "+31 10 35678902"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "EGG SORTING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "SUDU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "EGG SORTING MACHINES, ASSEMBLED",
+      "grossWeight": 5000.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "SUDU4321098",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "EGG SORTING MACHINES, ASSEMBLED",
+      "grossWeight": 5000.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "SUDU7890123",
+      "sealNumber": "3456789",
+      "marksAndNumbers": "BETA789",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "EGG SORTING MACHINES, ASSEMBLED",
+      "grossWeight": 5000.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "SUDU2345678",
+      "sealNumber": "9876543",
+      "marksAndNumbers": "BETA234",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "EGG SORTING MACHINES, ASSEMBLED",
+      "grossWeight": 5000.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "SUDU5678901",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "BETA567",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "EGG SORTING MACHINES, ASSEMBLED",
+      "grossWeight": 5000.0,
+      "measurement": 15.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 50,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 77.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC23456789012345"
+    },
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31 10 35678901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA LOGISTICS INC.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 BB",
+      "telephone": "+31 10 35678902"
+    },
+    "onboardDate": "2024-11-05 16:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: OVERWEIGHT CARGO"
+  }
+}
