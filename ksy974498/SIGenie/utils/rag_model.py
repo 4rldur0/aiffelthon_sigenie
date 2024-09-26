@@ -121,7 +121,7 @@ class RAGModel:
 # if __name__ == "__main__":
 # Define the list of URLs and local PDF files to load
 urls = [
-    "https://www.ilovesea.or.kr/dictionary/list.do",  # Replace with your URLs
+    "https://www.ilovesea.or.kr/dictionary/list.do",
 ]
 pdf_files = glob('./docs/*.pdf')  # Adjust path to your PDF files
 sources = pdf_files + urls

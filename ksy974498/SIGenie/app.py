@@ -1,6 +1,10 @@
 import streamlit as st
+
+st.set_page_config(layout="wide")
+
 from st_pages import search_page, report_page, llm_summary_page, validation_check_page, summary_page
 from pages import json_bkg, json_bl, json_si, load_bl
+
 
 
 def main():

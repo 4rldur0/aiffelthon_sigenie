@@ -84,7 +84,7 @@ def display_bl_form(doc):
     <div class="bl-form">
         <div class="bl-header">
             <div class="bl-title">
-                <h2>BILL OF LADING (B/L)</h2>
+                <h2>BILL OF LADING (B/L)(Draft)</h2>
             </div>
             <div>
                 <p class="bl-row"><strong>Booking Number:</strong> {doc.get('bookingReference', '')}</p>

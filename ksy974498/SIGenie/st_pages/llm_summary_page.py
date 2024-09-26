@@ -13,7 +13,12 @@ def check_missing(si_data):
     Function to check for missing data in the shipping instruction using an LLM prompt.
     """
     prompt = PromptTemplate(
-        template="Are there any missing data with the following shipping instruction: {si_data}?",
+        template="""
+                Are there any missing data with the following shipping instruction:
+                Except for Additional Information is needed.
+                Find from following data :\n{si_data}.
+                Just say `OK` or `MISSING` per group.
+                """,
         input_variables=["si_data"]
     )
     
@@ -44,7 +49,7 @@ def generate_response(si_data, missing_data_result):
     
     # Prepare the final summary report by combining the prompt and the template
     prompt = PromptTemplate(
-        template=report + summary_prompt,
+        template=report, #summary_prompt,
         input_variables=['si_data', 'missing_data_result']
     )
     
