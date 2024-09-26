@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202409256625",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2345WB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADERS INC.",
+      "address": "No. 1234, Xinghai Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8654 3210",
+      "email": "shipping@asiapacifictraders.com"
+    },
+    "consignee": {
+      "name": "SUNRISE INTERNATIONAL LOGISTICS",
+      "address": "123 Thames Street, London, EC3N 2ES, United Kingdom",
+      "telephone": "+44 20 7946 5678",
+      "fax": "+44 20 7946 5679"
+    },
+    "notifyParty": {
+      "name": "SUNRISE INTERNATIONAL LOGISTICS",
+      "address": "123 Thames Street, London, EC3N 2ES, United Kingdom",
+      "telephone": "+44 20 7946 5678",
+      "fax": "+44 20 7946 5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "903281",
+  "commodityDescription": "HAND TOOLS FOR CONSTRUCTION",
+  "containers": [
+    {
+      "containerNumber": "MSCU5123456",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APT-1234-HT001",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "HAND TOOLS AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 12.0
+    },
+    {
+      "containerNumber": "MSCU6789012",
+      "sealNumber": "678901",
+      "marksAndNumbers": "APT-1234-HT002",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "HAND TOOLS AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 12.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "APT-1234-HT003",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "HAND TOOLS AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 12.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "APT-1234-HT004",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "HAND TOOLS AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 12.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "876543",
+      "marksAndNumbers": "APT-1234-HT005",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "HAND TOOLS AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 12.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY X5) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY X5",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "CC123456789",
+    "originalBLDistribution": {
+      "name": "SUNRISE INTERNATIONAL LOGISTICS",
+      "address": "123 Thames Street, London, EC3N 2ES, United Kingdom",
+      "telephone": "+44 20 7946 5678",
+      "fax": "+44 20 7946 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE INTERNATIONAL LOGISTICS",
+      "address": "123 Thames Street, London, EC3N 2ES, United Kingdom",
+      "telephone": "+44 20 7946 5678",
+      "fax": "+44 20 7946 5679"
+    },
+    "onboardDate": "2024-09-28 10:00",
+    "additionalRemarks": "Cargo to be stowed below deck."
+  }
+}

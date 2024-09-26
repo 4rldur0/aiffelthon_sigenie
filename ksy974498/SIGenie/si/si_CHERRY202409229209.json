@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202409229209",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024333E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1298",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "SALES@SHIPPER1298.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3572",
+      "address": "123 HANOVER STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 204 5678",
+      "fax": "+49 40 204 5679"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6741",
+      "address": "123 FRANKFURT STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 204 5678",
+      "fax": "+49 40 204 5679"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "611030",
+  "commodityDescription": "COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1500067",
+      "sealNumber": "894100",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG, GERMANY COTTON T-SHIRTS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU1500068",
+      "sealNumber": "894101",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG, GERMANY COTTON T-SHIRTS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE) CONTAINERS",
+    "totalPackages": 2000,
+    "packageType": "CARTONS",
+    "containerType": "40 HIGH CUBE",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3572",
+      "address": "123 HANOVER STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 204 5678",
+      "fax": "+49 40 204 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 6741",
+      "address": "123 FRANKFURT STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 204 5678",
+      "fax": "+49 40 204 5679"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "Cargo requires temperature controlled environment of 2-8 degrees Celsius."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

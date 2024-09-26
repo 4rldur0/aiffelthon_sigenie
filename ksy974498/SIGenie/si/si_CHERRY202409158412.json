@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202409158412",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024213W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "2345 Huangpu Road, Shanghai, China",
+      "country": "CHINA",
+      "additionalInfo": "(Head Office)"
+    },
+    "consignee": {
+      "name": "ACME CORPORATION",
+      "address": "1234 Main Street, Brussels, Belgium",
+      "country": "BELGIUM",
+      "email": "info@acmecorp.be",
+      "telephone": "+32-2-555-1212"
+    },
+    "notifyParty": {
+      "name": "FINANCE DEPARTMENT",
+      "address": "ACME CORPORATION, 1234 Main Street, Brussels, Belgium",
+      "country": "BELGIUM",
+      "email": "finance@acmecorp.be",
+      "telephone": "+32-2-555-1212"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854370",
+  "commodityDescription": "SWITCHING POWER SUPPLIES FOR INDUSTRIAL MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "GRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ACME-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHING POWER SUPPLIES FOR INDUSTRIAL MACHINERY - PACKED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "GRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "ACME-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHING POWER SUPPLIES FOR INDUSTRIAL MACHINERY - PACKED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY CONTAINER X2)",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "ACME20241026",
+    "hsCode": "854370",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "9876543210"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN REQUIRED",
+    "originalBLDistribution": {
+      "name": "FINANCE DEPARTMENT",
+      "address": "ACME CORPORATION, 1234 Main Street, Brussels, Belgium",
+      "telephone": "+32-2-555-1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME CORPORATION",
+      "address": "1234 Main Street, Brussels, Belgium",
+      "telephone": "+32-2-555-1212"
+    },
+    "onboardDate": "2024-10-05 15:00",
+    "additionalRemarks": "Containers to be loaded on deck. Please ensure proper lashing."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

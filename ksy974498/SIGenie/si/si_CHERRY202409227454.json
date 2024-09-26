@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202409227454",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2409EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GOLDEN DRAGON TRADING CO LTD",
+      "address": "1234 DRAGON STREET, NINGBO, CHINA",
+      "telephone": "+86 574 1234567",
+      "fax": "+86 574 6543210"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS INC",
+      "address": "456 SUNRISE AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 78901234",
+      "fax": "+31 10 78904321",
+      "email": "shipping@sunriseimports.nl",
+      "contactPerson": "JANE DOE"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "SUNRISE IMPORTS INC",
+      "address": "456 SUNRISE AVENUE, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "854442",
+  "commodityDescription": "TRANSFORMER UNITS",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SUNRISE1234",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TRANSFORMER UNITS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "DRAGON2024",
+      "numberOfPackages": 12,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TRANSFORMER UNITS",
+      "grossWeight": 21000.0,
+      "measurement": 32.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 DRY HIGH CUBE",
+    "totalPackages": 22,
+    "totalGrossWeight": 41000.0,
+    "totalMeasurement": 62.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241027817223-INV",
+    "documentNumber": "20241027817223-DOC",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS INC",
+      "address": "456 SUNRISE AVENUE, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS INC",
+      "address": "456 SUNRISE AVENUE, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-01 14:00",
+    "additionalRemarks": "To be loaded in container(s) stowed below deck. Value: USD45,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202409224509",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2421WQN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MACHINERY LTD.",
+      "address": "238 LIU CHENG ROAD, SHANGHAI, CHINA, 200001",
+      "telephone": "+86-21-6312-3456",
+      "fax": "+86-21-6312-3457"
+    },
+    "consignee": {
+      "name": "UNITED TRADING COMPANY LLC",
+      "address": "123 CANAL STREET, BRUSSELS, BELGIUM, 1000",
+      "telephone": "+32-2-503-1234",
+      "fax": "+32-2-503-1235"
+    },
+    "notifyParty": {
+      "name": "UNITED TRADING COMPANY LLC",
+      "address": "123 CANAL STREET, BRUSSELS, BELGIUM, 1000",
+      "telephone": "+32-2-503-1234",
+      "fax": "+32-2-503-1235"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85366910",
+  "commodityDescription": "SWITCHGEAR COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA2345",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHGEAR COMPONENTS AS PER PROFORMA INVOICE NO. 20241015-001",
+      "grossWeight": 18000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIA7890",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHGEAR COMPONENTS AS PER PROFORMA INVOICE NO. 20241015-001",
+      "grossWeight": 18000,
+      "measurement": 30
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000,
+    "totalMeasurement": 60
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20241015-PO001",
+    "salesOrderNumber": "20241015-SO001",
+    "lcDetails": {},
+    "certificateDetails": "20241015-CERT001",
+    "originalBLDistribution": {
+      "name": "UNITED TRADING COMPANY LLC",
+      "address": "123 CANAL STREET, BRUSSELS, BELGIUM, 1000",
+      "telephone": "+32-2-503-1234",
+      "fax": "+32-2-503-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "UNITED TRADING COMPANY LLC",
+      "address": "123 CANAL STREET, BRUSSELS, BELGIUM, 1000",
+      "telephone": "+32-2-503-1234",
+      "fax": "+32-2-503-1235"
+    },
+    "onboardDate": "2024-09-26 14:00",
+    "additionalRemarks": "Cargo to be loaded on deck. Proper lashing required."
+  }
+}

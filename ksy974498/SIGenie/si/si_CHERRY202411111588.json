@@ -1,0 +1,170 @@
+{
+  "bookingReference": "CHERRY202411111588",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024503E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5431",
+      "address": "123 MAIN STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 2105",
+      "address": "456 OCEAN DRIVE, HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 98765432"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7892",
+      "address": "789 BROADWAY, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "BOARD GAMES PACKAGED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF789",
+      "numberOfPackages": 1000,
+      "cargoDescription": "BOARD GAMES PACKAGED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU2468013",
+      "sealNumber": "543210",
+      "marksAndNumbers": "GHI456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "BOARD GAMES PACKAGED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU5432109",
+      "sealNumber": "012345",
+      "marksAndNumbers": "JKL789",
+      "numberOfPackages": 1000,
+      "cargoDescription": "BOARD GAMES PACKAGED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "987654",
+      "marksAndNumbers": "MNO123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "BOARD GAMES PACKAGED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "432109",
+      "marksAndNumbers": "PQR456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "BOARD GAMES PACKAGED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "STU789",
+      "numberOfPackages": 1000,
+      "cargoDescription": "BOARD GAMES PACKAGED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9012345",
+      "sealNumber": "210987",
+      "marksAndNumbers": "VWX123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "BOARD GAMES PACKAGED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "654321",
+      "marksAndNumbers": "YZ123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "BOARD GAMES PACKAGED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1098765",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 1000,
+      "cargoDescription": "BOARD GAMES PACKAGED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TEN (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 10000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 120000.0,
+    "totalMeasurement": 250.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "1000020070131X",
+      "1000020070132X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7892",
+      "address": "789 BROADWAY, NEW YORK, USA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2105",
+      "address": "456 OCEAN DRIVE, HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 98765432"
+    },
+    "onboardDate": "2024-11-15 10:00",
+    "additionalRemarks": "Please ensure proper documentation for customs clearance."
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410085894",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "244WCS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TOYOTA TSUSHO CORPORATION",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "TOYOTA MOTOR EUROPE NV/SA",
+      "address": "456 EUROPABOULEVARD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    },
+    "notifyParty": {
+      "name": "MAERSK LOGISTICS (SINGAPORE) PTE LTD",
+      "address": "789 MARINA BAY, SINGAPORE"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "87032310",
+  "commodityDescription": "PICKUP TRUCKS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TOYOTA123",
+      "numberOfPackages": 1,
+      "cargoDescription": "PICKUP TRUCK",
+      "grossWeight": 25000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "TOYOTA456",
+      "numberOfPackages": 1,
+      "cargoDescription": "PICKUP TRUCK",
+      "grossWeight": 25000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "TOYOTA789",
+      "numberOfPackages": 1,
+      "cargoDescription": "PICKUP TRUCK",
+      "grossWeight": 25000.0,
+      "measurement": 68.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 3,
+    "packageType": "UNITS",
+    "containerType": "40HC",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 204.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241015"
+    },
+    "certificateDetails": [
+      "CERT20240912A",
+      "CERT20240912B"
+    ],
+    "originalBLDistribution": {
+      "name": "TOYOTA MOTOR EUROPE NV/SA",
+      "address": "456 EUROPABOULEVARD, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TOYOTA TSUSHO CORPORATION",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED BETWEEN 10-15 DEGREES CELSIUS. SHIPMENT CONTAINS FRAGILE ELECTRONIC COMPONENTS. PLEASE HANDLE WITH CARE."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

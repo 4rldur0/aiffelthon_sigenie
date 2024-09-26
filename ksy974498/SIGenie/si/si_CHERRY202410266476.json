@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410266476",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024921E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Zenith Manufacturing Co.",
+      "address": "500 Zenith Avenue, Rotterdam, NETHERLANDS",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6790"
+    },
+    "consignee": {
+      "name": "ACME TRADING & CO.",
+      "address": "123 Marina Boulevard, Singapore",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "notifyParty": {
+      "name": "ACME TRADING & CO.",
+      "address": "123 Marina Boulevard, Singapore",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85423710",
+  "commodityDescription": "ELECTRONIC INTEGRATED CIRCUITS",
+  "containers": [
+    {
+      "containerNumber": "TCLU5518563",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZEN-1234",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRONIC INTEGRATED CIRCUITS - PACKED IN BOXES - CONTAINER TEMPERATURE SET TO 5 DEGREES CELSIUS",
+      "grossWeight": 20000.0,
+      "measurement": 66.0
+    },
+    {
+      "containerNumber": "TCLU5518564",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ZEN-1235",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRONIC INTEGRATED CIRCUITS - PACKED IN BOXES - CONTAINER TEMPERATURE SET TO 5 DEGREES CELSIUS",
+      "grossWeight": 20000.0,
+      "measurement": 66.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 132.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO7654321",
+    "salesOrderNumber": "SO1234567",
+    "lcDetails": {},
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "ACME TRADING & CO.",
+      "address": "123 Marina Boulevard, Singapore",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME TRADING & CO.",
+      "address": "123 Marina Boulevard, Singapore",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "onboardDate": "2024-11-02 16:00",
+    "additionalRemarks": "Containers to be loaded with temperature set at 5 degrees Celsius.  Pre-trip inspection required."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

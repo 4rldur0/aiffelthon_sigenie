@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410299518",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432EWL"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES",
+      "address": "123 Textile Lane, Shanghai, China",
+      "telephone": "+86-21-55556789",
+      "fax": "+86-21-55551234"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 Import Street, Hamburg, Germany",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432",
+      "email": "consignee@globalimports.de",
+      "contactPerson": "PETER SCHULTZ"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "FREIGHT FORWARDERS GMBH",
+      "address": "789 Forwarding Avenue, Hamburg, Germany",
+      "telephone": "+49-40-23456789",
+      "fax": "+49-40-34567890"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "551292",
+  "commodityDescription": "COTTON FABRIC",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COTTON FABRIC",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 600,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COTTON FABRIC",
+      "grossWeight": 21000.0,
+      "measurement": 62.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 550,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COTTON FABRIC",
+      "grossWeight": 20500.0,
+      "measurement": 61.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 DRY HC CONTAINER",
+    "totalPackages": 1650,
+    "totalGrossWeight": 61500.0,
+    "totalMeasurement": 183.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV202410291234",
+    "documentNumber": "DOC202410291234",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "CERT12345678"
+    ],
+    "originalBLDistribution": {
+      "name": "FREIGHT FORWARDERS GMBH",
+      "address": "789 Forwarding Avenue, Hamburg, Germany",
+      "telephone": "+49-40-23456789",
+      "fax": "+49-40-34567890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 Import Street, Hamburg, Germany",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "3 x 40 DRY HC containers, Value: USD45,000"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410201913",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "24104E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS LTD",
+      "address": "UNIT 502, 5/F, TOWER 1, NO. 1234 SHANGHAI ROAD, SHANGHAI, 200085, CHINA",
+      "telephone": "+86-21-6345-6789",
+      "fax": "+86-21-6345-6790"
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORTERS INC.",
+      "address": "C.O. DE GROOT PLAATS 12, 3011 XK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-204-5678",
+      "fax": "+31-10-204-5679",
+      "email": "IMPORT@BLUESKYIMPORT.NL",
+      "contactPerson": "ANNA VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84713010",
+  "commodityDescription": "COMPUTER SERVERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BTS123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COMPUTER SERVERS",
+      "grossWeight": 6000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "BTS456",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COMPUTER SERVERS",
+      "grossWeight": 6000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 100,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-001",
+    "documentNumber": "20241025-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY IMPORTERS INC.",
+      "address": "C.O. DE GROOT PLAATS 12, 3011 XK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-204-5678",
+      "fax": "+31-10-204-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY IMPORTERS INC.",
+      "address": "C.O. DE GROOT PLAATS 12, 3011 XK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-204-5678",
+      "fax": "+31-10-204-5679"
+    },
+    "onboardDate": "2024-10-22 10:00",
+    "additionalRemarks": "2 x 20ft DRY containers, COMPUTER SERVERS, Weight: 12,000 kg"
+  }
+}

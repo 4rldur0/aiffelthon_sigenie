@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410027505",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2447E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC IMPORT & EXPORT CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 MAIN STREET, NINGBO, CHINA 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "consignee": {
+      "name": "KUEHNE + NAGEL INC.",
+      "address": "555 GRAND STREET, HAMBURG, GERMANY 20359",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "KUEHNE + NAGEL INC.",
+      "address": "555 GRAND STREET, HAMBURG, GERMANY 20359"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "90230010",
+  "commodityDescription": "PUMPS AND PUMP PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "KN-2024-10",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PUMPS AND PUMP PARTS",
+      "grossWeight": 12500.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "KN-2024-10",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PUMPS AND PUMP PARTS",
+      "grossWeight": 12500.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "KN-2024-10",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PUMPS AND PUMP PARTS",
+      "grossWeight": 12500.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 37500.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "KUEHNE + NAGEL INC.",
+      "address": "555 GRAND STREET, HAMBURG, GERMANY 20359",
+      "telephone": "+49-40-1234567",
+      "fax": "+49-40-12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KUEHNE + NAGEL INC.",
+      "address": "555 GRAND STREET, HAMBURG, GERMANY 20359",
+      "telephone": "+49-40-1234567",
+      "fax": "+49-40-12345678"
+    },
+    "onboardDate": "2024-10-28 15:00",
+    "additionalRemarks": "INSURANCE: USD 10,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

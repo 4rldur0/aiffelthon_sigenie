@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202411019995",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2411WSEA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA ELECTRONICS LTD.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "OMEGA DISTRIBUTORS INC.",
+      "address": "10 DOWNING STREET, LONDON SW1A 2AA, UNITED KINGDOM",
+      "telephone": "+44-20-7930-5000",
+      "fax": "+44-20-7930-5001"
+    },
+    "notifyParty": {
+      "name": "OMEGA DISTRIBUTORS INC.",
+      "address": "10 DOWNING STREET, LONDON SW1A 2AA, UNITED KINGDOM",
+      "telephone": "+44-20-7930-5000",
+      "fax": "+44-20-7930-5001"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85423000",
+  "commodityDescription": "MICROPROCESSOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "CCLU2576895",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DEL-123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "CCLU2576896",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEL-456",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 12.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER)",
+    "totalPackages": 2000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20241101-001",
+    "salesOrderNumber": "20241101-002",
+    "lcDetails": {
+      "lcNumber": "00002010339242"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "OMEGA DISTRIBUTORS INC.",
+      "address": "10 DOWNING STREET, LONDON SW1A 2AA, UNITED KINGDOM",
+      "telephone": "+44-20-7930-5000",
+      "fax": "+44-20-7930-5001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA DISTRIBUTORS INC.",
+      "address": "10 DOWNING STREET, LONDON SW1A 2AA, UNITED KINGDOM",
+      "telephone": "+44-20-7930-5000",
+      "fax": "+44-20-7930-5001"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "SHIPMENT REQUIRES TEMPERATURE CONTROL: 0-5 DEGREES CELSIUS"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202411146111",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2432W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GHI IMPORT EXPORT INC.",
+      "address": "123 HUANGPU ROAD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "DEF GLOBAL TRADING",
+      "address": "456 AVENIDA DE LA ESPA\u00d1A, ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "email": "DEF.GLOBAL.TRADING@EXAMPLE.COM",
+      "telephone": "+34 956 789012"
+    },
+    "notifyParty": {
+      "name": "DEF GLOBAL TRADING",
+      "address": "456 AVENIDA DE LA ESPA\u00d1A, ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "email": "DEF.GLOBAL.TRADING@EXAMPLE.COM",
+      "telephone": "+34 956 789012"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854442",
+  "commodityDescription": "CIRCUIT BREAKERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK 1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "CIRCUIT BREAKERS - 100 CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIPPER MARK 2",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "CIRCUIT BREAKERS - 50 PALLETS",
+      "grossWeight": 5000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SHIPPER MARK 3",
+      "numberOfPackages": 200,
+      "packageType": "BAGS",
+      "cargoDescription": "CIRCUIT BREAKERS - 200 BAGS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4321098",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SHIPPER MARK 4",
+      "numberOfPackages": 150,
+      "packageType": "DRUMS",
+      "cargoDescription": "CIRCUIT BREAKERS - 150 DRUMS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "567890",
+      "marksAndNumbers": "SHIPPER MARK 5",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "cargoDescription": "CIRCUIT BREAKERS - 80 BOXES",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY X5) CONTAINERS ONLY",
+    "totalPackages": 580,
+    "packageType": "VARIOUS",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 120.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "hsCode": "854442",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "DEF GLOBAL TRADING",
+      "address": "456 AVENIDA DE LA ESPA\u00d1A, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 789012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DEF GLOBAL TRADING",
+      "address": "456 AVENIDA DE LA ESPA\u00d1A, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 789012"
+    },
+    "onboardDate": "2024-11-16 16:00",
+    "additionalRemarks": "CONTAINER SEAL REQUIRED. TEMPERATURE SENSITIVE CARGO: 15-25 DEGREES CELSIUS"
+  }
+}

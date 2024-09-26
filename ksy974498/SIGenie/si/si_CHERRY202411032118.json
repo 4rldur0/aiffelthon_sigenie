@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202411032118",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24110311"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS INC.",
+      "address": "123 YINCHUAN STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "456 EUROPA STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 890 1234"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "789 WORLD STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 567 8901",
+      "fax": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "MOBILE PHONE ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SUNRISE 123",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOBILE PHONE ACCESSORIES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "543210",
+      "marksAndNumbers": "SUNRISE 456",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOBILE PHONE ACCESSORIES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE 789",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOBILE PHONE ACCESSORIES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE 101",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOBILE PHONE ACCESSORIES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE 112",
+      "numberOfPackages": 500,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOBILE PHONE ACCESSORIES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINER ONLY",
+    "totalPackages": 2500,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "CERT-123456",
+      "CERT-789012"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "456 EUROPA STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "789 WORLD STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 567 8901",
+      "fax": "+31 10 234 5678"
+    },
+    "onboardDate": "2024-11-07 14:00",
+    "additionalRemarks": "7 Days Free Time at Destination"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410014224",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "241022C16"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Seamless Logistics Ltd.",
+      "address": "123 Harbor Road, Shanghai, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
+    },
+    "consignee": {
+      "name": "Techno Industries Inc.",
+      "address": "456 Innovation Blvd, Rotterdam, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "techno.industries@example.com",
+      "telephone": "+31 10 2345678"
+    },
+    "notifyParty": {
+      "name": "Global Trading Solutions",
+      "address": "789 Trade Center, Rotterdam, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "global.trading@example.com",
+      "telephone": "+31 10 8765432"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "Wooden Garden Chairs",
+  "containers": [
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "CHAIR-SHIP1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN GARDEN CHAIRS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU11223344",
+      "sealNumber": "65432109",
+      "marksAndNumbers": "CHAIR-SHIP2",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN GARDEN CHAIRS",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU55667788",
+      "sealNumber": "98765432",
+      "marksAndNumbers": "CHAIR-SHIP3",
+      "numberOfPackages": 200,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN GARDEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU88990011",
+      "sealNumber": "33221144",
+      "marksAndNumbers": "CHAIR-SHIP4",
+      "numberOfPackages": 150,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN GARDEN CHAIRS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU22334455",
+      "sealNumber": "77889966",
+      "marksAndNumbers": "CHAIR-SHIP5",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN GARDEN CHAIRS",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40HQ) CONTAINERS ONLY",
+    "totalPackages": 550,
+    "packageType": "MIXED",
+    "totalGrossWeight": 56000.0,
+    "totalMeasurement": 115.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "hsCode": "940360",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "Techno Industries Inc.",
+      "address": "456 Innovation Blvd, Rotterdam, NETHERLANDS",
+      "telephone": "+31 10 2345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Trading Solutions",
+      "address": "789 Trade Center, Rotterdam, NETHERLANDS",
+      "telephone": "+31 10 8765432",
+      "fax": "+31 10 8765431"
+    },
+    "onboardDate": "2024-10-05 14:00",
+    "additionalRemarks": "Require fumigation certificate for wooden furniture."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  }
+}

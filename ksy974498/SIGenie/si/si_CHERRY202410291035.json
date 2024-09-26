@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410291035",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024246E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5971",
+      "address": "123 SHIPPER STREET, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "email": "SHIPPER5971@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8243",
+      "address": "456 CUSTOMER AVENUE, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "CUSTOMER8243@EXAMPLE.COM",
+      "telephone": "+31 10 246 8000"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2137",
+      "address": "789 RECEIVER ROAD, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "RECEIVER2137@EXAMPLE.COM",
+      "telephone": "+31 10 456 7890"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940179",
+  "commodityDescription": "Wooden Chair Seats",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING 1",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "Wooden Chair Seats, packed in cartons",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "Wooden Chair Seats, packed in cartons",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "Wooden Chair Seats, packed in cartons",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU1357911",
+      "sealNumber": "314159",
+      "marksAndNumbers": "SAMPLE MARKING 4",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "Wooden Chair Seats, packed in cartons",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU2648013",
+      "sealNumber": "698745",
+      "marksAndNumbers": "SAMPLE MARKING 5",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "Wooden Chair Seats, packed in cartons",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY X5) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "totalGrossWeight": 90000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-11-15 14:30",
+    "additionalRemarks": "Please ensure containers are stacked properly for safe transportation."
+  }
+}

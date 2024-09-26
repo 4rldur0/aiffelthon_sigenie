@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202410126792",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS LTD",
+      "onBehalfOf": "",
+      "address": "123 TECH STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "ACME GLOBAL LOGISTICS",
+      "address": "456 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "SUNRISE ELECTRONICS LTD",
+      "address": "123 TECH STREET, SHANGHAI, CHINA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854230",
+  "commodityDescription": "SEMICONDUCTOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "CULD12345678",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SEMI-123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SEMICONDUCTOR CHIPS, HANDLE WITH CARE",
+      "grossWeight": 12500.0,
+      "measurement": 18.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CULD87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SEMI-456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SEMICONDUCTOR CHIPS, HANDLE WITH CARE",
+      "grossWeight": 12500.0,
+      "measurement": 18.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE DRY) CONTAINERS",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 36.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ACME GLOBAL LOGISTICS",
+      "address": "456 MAIN STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE ELECTRONICS LTD",
+      "address": "123 TECH STREET, SHANGHAI, CHINA"
+    },
+    "onboardDate": "2024-10-29 10:00",
+    "additionalRemarks": "Reefer Container required to maintain temperature between 5-10 degrees Celsius. Value: USD 50,000"
+  }
+}

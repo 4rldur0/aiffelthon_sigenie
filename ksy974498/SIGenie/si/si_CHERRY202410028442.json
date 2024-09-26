@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410028442",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2423WEC"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI PRECISION MACHINERY CO.",
+      "onBehalfOf": "",
+      "address": "5678 OCEAN VIEW BOULEVARD, SHANGHAI, CHINA 200020",
+      "telephone": "+86-21-9876543",
+      "fax": "+86-21-98765432"
+    },
+    "consignee": {
+      "name": "EUROASIA IMPORTS LTD.",
+      "address": "345 MAIN STREET, ROTTERDAM, NETHERLANDS 3011DE",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "EUROASIA IMPORTS LTD.",
+      "address": "345 MAIN STREET, ROTTERDAM, NETHERLANDS 3011DE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "82079090",
+  "commodityDescription": "METAL CUTTING TOOLS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SPTC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CUTTING TOOLS",
+      "grossWeight": 1200.0,
+      "measurement": 5.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SPTC456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METAL CUTTING TOOLS",
+      "grossWeight": 1200.0,
+      "measurement": 5.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY CONTAINER)",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 2400.0,
+    "totalMeasurement": 10.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "9876543210"
+    },
+    "certificateDetails": [
+      "Certificate of Origin",
+      "Phytosanitary Certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROASIA IMPORTS LTD.",
+      "address": "345 MAIN STREET, ROTTERDAM, NETHERLANDS 3011DE",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-9876543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA IMPORTS LTD.",
+      "address": "345 MAIN STREET, ROTTERDAM, NETHERLANDS 3011DE",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-9876543"
+    },
+    "onboardDate": "2024-10-08 12:00",
+    "additionalRemarks": "SHIPMENT REQUIRES SPECIAL HANDLING: FRAGILE."
+  }
+}

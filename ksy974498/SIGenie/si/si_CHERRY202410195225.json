@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202410195225",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24103W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Furniture Manufacturing",
+      "address": "123 Sunshine Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 123 4567",
+      "email": "SUNRISE.FURNITURE@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "Global Furniture Solutions GmbH",
+      "address": "456 Hafenstrasse, Hamburg, Germany",
+      "taxId": "DE123456789",
+      "president": "MR. PETER SCHMITZ",
+      "telephone": "+49 40 987 6543",
+      "fax": "+49 40 123 4567"
+    },
+    "notifyParty": {
+      "name": "Sunrise Logistics Group",
+      "address": "789 Logistics Blvd, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 111 2222",
+      "fax": "+86 574 333 4444"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940170",
+  "commodityDescription": "METAL CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "12345",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG METAL CHAIRS",
+      "grossWeight": 2500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "67890",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG METAL CHAIRS",
+      "grossWeight": 2500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU3456789",
+      "sealNumber": "98765",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG METAL CHAIRS",
+      "grossWeight": 2500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU6789012",
+      "sealNumber": "34567",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG METAL CHAIRS",
+      "grossWeight": 2500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU9012345",
+      "sealNumber": "78901",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG METAL CHAIRS",
+      "grossWeight": 2500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) X 20 DRY CONTAINER",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "Global Furniture Solutions GmbH",
+      "address": "456 Hafenstrasse, Hamburg, Germany",
+      "telephone": "+49 40 987 6543",
+      "fax": "+49 40 123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Sunrise Logistics Group",
+      "address": "789 Logistics Blvd, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 111 2222",
+      "fax": "+86 574 333 4444"
+    },
+    "onboardDate": "2024-11-02 17:00",
+    "additionalRemarks": "Pre-slinging required, Door delivery"
+  }
+}

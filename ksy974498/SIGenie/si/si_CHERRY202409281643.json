@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202409281643",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409W11"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO.",
+      "address": "1234 EXPORT STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "5678 IMPORT AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 555 1212",
+      "fax": "+31 10 555 1213"
+    },
+    "notifyParty": {
+      "name": "ALPHA LOGISTICS LTD.",
+      "address": "9012 LOGISTICS LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 555 1313",
+      "fax": "+31 10 555 1314"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85414000",
+  "commodityDescription": "SILICON DIODES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 500,
+      "cargoDescription": "SILICON DIODES PACKAGED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SUNRISE-456",
+      "numberOfPackages": 500,
+      "cargoDescription": "SILICON DIODES PACKAGED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE-789",
+      "numberOfPackages": 500,
+      "cargoDescription": "SILICON DIODES PACKAGED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU1357911",
+      "sealNumber": "135791",
+      "marksAndNumbers": "SUNRISE-135",
+      "numberOfPackages": 500,
+      "cargoDescription": "SILICON DIODES PACKAGED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU2468013",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SUNRISE-246",
+      "numberOfPackages": 500,
+      "cargoDescription": "SILICON DIODES PACKAGED IN CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 2500,
+    "packageType": "CARTONS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT12345"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "5678 IMPORT AVENUE, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS LTD.",
+      "address": "9012 LOGISTICS LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 555 1313",
+      "fax": "+31 10 555 1314"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "5 x 20' DRY containers, Silicon Diodes, Value: USD 15,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  }
+}
