@@ -60,14 +60,23 @@ Container No. | Seal No. | Number of Packages | Gross Weight (kg) | Measurement 
 """
 check_missing_prompt = """ """
 
-check_parties_prompt = """ """
+check_parties_prompt = """ 
+# Check Parties
+Verify the Parties' information in the following Shipping Instruction (SI) 
+
+Shipping Instruction: {si_data}
+
+Provide a detailed response.
+"""
 
 validate_compliance_prompt = """
 # Compliance Verification
 You are an expert in sanctions and compliance regulations.
 Verify whether the following Shipping Instruction (SI) complies with any relevant compliance regulations.
 
-Shipping Instruction: {si_data}
+Shipping Instruction: {query}
+
+Relevant Compliance Regulations: {context}
 
 Provide a detailed response, including any relevant regulations, compliance issues, or the absence of any violations.
 """

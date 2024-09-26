@@ -8,8 +8,6 @@ from typing import List
 from langchain_core.output_parsers import StrOutputParser
 import asyncio
 
-# Assuming you have an `llm` instance (OpenAI model) already defined in `utils.openai_llm`
-
 # Step 1: Load documents from web or local sources (PDFs and URLs)
 def load_documents(sources: List[str]) -> List:
     """
@@ -70,7 +68,7 @@ def load_vectorstore(sources: List[str]):
 
 # Step 4: Build Retrieval-Augmented Generation Pipeline
 class RAGModel:
-    def __init__(self, llm, sources: List[str], template):
+    def __init__(self, llm, sources: List[str], template: str):
         self.vectorstore = load_vectorstore(sources)
         
         # Initialize your LLM
@@ -80,24 +78,23 @@ class RAGModel:
         self.prompt = PromptTemplate(template=template, input_variables=["si_data"])
         self.chain = self.prompt | self.llm | StrOutputParser()
 
-    def retrieve_documents(self, question: str):
+    def retrieve_documents(self, query: str):
         """
         Function to retrieve relevant documents from the vectorstore based on the question (SI data).
         """
         retriever = self.vectorstore.as_retriever(search_kwargs={'k': 5})  # Retrieve top 5 relevant documents
-        relevant_docs = retriever.get_relevant_documents(question)
+        relevant_docs = retriever.invoke(str(query))
         return relevant_docs
 
-    def generate_response(self, si_data: str, retrieved_docs: list):
+    def generate_response(self, query: str, retrieved_docs: list):
         """
         Generate a response using the retrieved documents and the language model.
         """
         # Concatenate document contents to include in the prompt
         context = "\n\n".join([doc.page_content for doc in retrieved_docs])
-        question_with_context = f"{si_data}\n\nRelevant Documents:\n{context}"
         
         # Generate a response using the LLM chain
-        return self.chain.invoke({'si_data':question_with_context})
+        return self.chain.invoke({'query':query, 'context': context})
 
     def invoke(self, si_data: str):
         """
@@ -108,5 +105,45 @@ class RAGModel:
         
         # Step 2: Generate response based on SI data and retrieved documents
         response = self.generate_response(si_data, retrieved_docs)
-        print(response)
+        return response
+    
+class async_RAGModel:
+    def __init__(self, llm, sources: List[str], template: str):
+        self.vectorstore = load_vectorstore(sources)
+        
+        # Initialize your LLM
+        self.llm = llm
+        
+        # Setup the prompt template and chain
+        self.prompt = PromptTemplate(template=template, input_variables=["si_data"])
+        self.chain = self.prompt | self.llm | StrOutputParser()
+
+    async def retrieve_documents(self, query: str):
+        """
+        Async function to retrieve relevant documents from the vectorstore based on the question (SI data).
+        """
+        retriever = self.vectorstore.as_retriever(search_kwargs={'k': 5})  # Retrieve top 5 relevant documents
+        relevant_docs = await asyncio.to_thread(retriever.invoke, str(query))  # Offload to thread
+        return relevant_docs
+
+    async def generate_response(self, query: str, retrieved_docs: list):
+        """
+        Async function to generate a response using the retrieved documents and the language model.
+        """
+        # Concatenate document contents to include in the prompt
+        context = "\n\n".join([doc.page_content for doc in retrieved_docs])
+        
+        # Generate a response using the LLM chain
+        response = await asyncio.to_thread(self.chain.invoke, {'query': query, 'context': context})  # Offload to thread
+        return response
+
+    async def ainvoke(self, si_data: str):
+        """
+        Async main function to retrieve documents and generate a response for compliance validation.
+        """
+        # Step 1: Retrieve relevant compliance documents asynchronously
+        retrieved_docs = await self.retrieve_documents(si_data)
+        
+        # Step 2: Generate response based on SI data and retrieved documents
+        response = await self.generate_response(si_data, retrieved_docs)
         return response

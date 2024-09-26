@@ -1,9 +1,26 @@
 import streamlit as st
 from utils.mongo import fetch_shipping_instruction
-from utils.modules import *
-import asyncio
-       
-async def main():
+from utils.nodes import *
+from langgraph.graph import StateGraph, END
+    
+workflow = StateGraph(State)
+
+# Add nodes
+workflow.add_node("check_parties", check_parties)
+workflow.add_node("validate_compliance", validate_compliance)
+workflow.add_node("search_news", search_news)
+workflow.add_node("generate_summary", generate_summary)
+
+# Add edges
+workflow.set_entry_point("check_parties")
+workflow.add_edge("check_parties", "validate_compliance")
+workflow.add_edge("validate_compliance", "search_news")
+workflow.add_edge("search_news", "generate_summary")
+workflow.add_edge("generate_summary", END)
+
+graph = workflow.compile()
+
+def main():
     # Input field to enter the booking reference
     booking_reference = st.text_input("Enter Booking Reference")
 
@@ -16,20 +33,12 @@ async def main():
             st.session_state["si_data"] = si_data
             st.success("Shipping Instruction found!")
             # After successful search, run async check
-            start_time = time.time()
-            outputs = await asyncio.gather(
-                check_parties(si_data),
-                validate_compliance(si_data),
-                search_news(si_data)
-            )
-            print(f"All tasks completed in {time.time() - start_time} seconds")
+            response = graph.invoke({"si_data": si_data})
             st.title("LLM Summary Report")
-            box = st.empty()
-            generate_summary(box, outputs)
-            print(f"Summary completed in {time.time() - start_time} seconds")
+            st.info(response['summary_answer'])
         else:
             st.error("No Shipping Instruction found for the provided Booking Reference.")
 
 # Run the streamlit function
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
