@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411118910",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2411W17B"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA EXPORTERS LTD.",
+      "address": "123 SHANGHAI STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-55556666",
+      "fax": "+86-21-99998888"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO.",
+      "address": "456 ROTTERDAM ROAD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-77778888",
+      "fax": "+31-10-66665555",
+      "email": "info@deltatrading.nl",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "ALPHA IMPORTS BV",
+      "address": "789 AMSTERDAM AVENUE, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-44445555",
+      "fax": "+31-20-33332222"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "902300",
+  "commodityDescription": "DIGITAL MULTIMETER",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Digital Multimeter",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 120,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Digital Multimeter",
+      "grossWeight": 13000.0,
+      "measurement": 36.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 FOOT HIGH CUBE REEFER",
+    "totalPackages": 220,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 71.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV202411267890",
+    "documentNumber": "DOC202411267890",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "CERT12345678"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "456 ROTTERDAM ROAD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-77778888",
+      "fax": "+31-10-66665555"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA EXPORTERS LTD.",
+      "address": "123 SHANGHAI STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-55556666",
+      "fax": "+86-21-99998888"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "Containers to be pre-cooled to 2 degrees Celsius before loading."
+  }
+}

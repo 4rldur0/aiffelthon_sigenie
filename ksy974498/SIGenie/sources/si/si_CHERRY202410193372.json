@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410193372",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2439WBE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FASHION LTD",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-98765432"
+    },
+    "consignee": {
+      "name": "EUROTEXTILES GMBH",
+      "address": "456 HAMBURG STREET, HAMBURG, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432",
+      "email": "EUROTEXTILES@EMAIL.COM",
+      "contactPerson": "ANNA MEIER"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "789 BLUE SKY AVENUE, SHANGHAI, CHINA",
+      "telephone": "+86-21-9876543210",
+      "fax": "+86-21-1234567890"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "620462",
+  "commodityDescription": "LADIES' WINTER COATS",
+  "containers": [
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE COATS 1",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' WINTER COATS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE COATS 2",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' WINTER COATS",
+      "grossWeight": 19500.0,
+      "measurement": 27.5
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SUNRISE COATS 3",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' WINTER COATS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 FOOT HIGH CUBE CONTAINER",
+    "totalPackages": 350,
+    "totalGrossWeight": 55500.0,
+    "totalMeasurement": 77.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202410193372-01",
+    "documentNumber": "202410193372-02",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROTEXTILES GMBH",
+      "address": "456 HAMBURG STREET, HAMBURG, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "789 BLUE SKY AVENUE, SHANGHAI, CHINA",
+      "telephone": "+86-21-9876543210",
+      "fax": "+86-21-1234567890"
+    },
+    "onboardDate": "2024-10-23 14:00",
+    "additionalRemarks": "CARGO TO BE STOWED AWAY FROM DIRECT SUNLIGHT"
+  }
+}

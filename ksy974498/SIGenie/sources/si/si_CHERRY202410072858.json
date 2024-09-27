@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410072858",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2450E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING LTD.",
+      "address": "NO. 888, JINGSU ROAD, SHANGHAI, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "SHANGHAI FREE TRADE ZONE"
+    },
+    "consignee": {
+      "name": "BETA TRADING GMBH",
+      "address": "22, Hafenstrasse, 20457 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@betatrading.de",
+      "telephone": "+49 40 3695 2000"
+    },
+    "notifyParty": {
+      "name": "BETA TRADING GMBH",
+      "address": "22, Hafenstrasse, 20457 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@betatrading.de",
+      "telephone": "+49 40 3695 2000"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85423990",
+  "commodityDescription": "Integrated Circuits",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "ALPHA123",
+      "numberOfPackages": 250,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INTEGRATED CIRCUITS",
+      "grossWeight": 18000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA456",
+      "numberOfPackages": 250,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INTEGRATED CIRCUITS",
+      "grossWeight": 18000.0,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "BOXES",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 44.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "BT20241026",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "00007896543210"
+    },
+    "originalBLDistribution": {
+      "name": "BETA TRADING GMBH",
+      "address": "22, Hafenstrasse, 20457 Hamburg, Germany",
+      "telephone": "+49 40 3695 2000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA TRADING GMBH",
+      "address": "22, Hafenstrasse, 20457 Hamburg, Germany",
+      "telephone": "+49 40 3695 2000"
+    },
+    "onboardDate": "2024-10-12 14:00",
+    "additionalRemarks": "Proper ventilation required during transit"
+  }
+}

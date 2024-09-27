@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202409251626",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024352E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1275",
+      "address": "No. 1024, Xinghai Road, Ningbo, Zhejiang, 315000, CHINA",
+      "telephone": "+86-574-88888899",
+      "fax": "+86-574-88888898"
+    },
+    "consignee": {
+      "name": "POLAND FITNESS CENTER",
+      "address": "Ul. Mickiewicza 123, 80-200 Gda\u0144sk, POLAND",
+      "telephone": "+48-58-7777777",
+      "fax": "+48-58-77777777"
+    },
+    "notifyParty": {
+      "name": "POLAND FITNESS CENTER",
+      "address": "Ul. Mickiewicza 123, 80-200 Gda\u0144sk, POLAND",
+      "telephone": "+48-58-7777777",
+      "fax": "+48-58-77777777"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950691",
+  "commodityDescription": "EXERCISE BIKES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "890123",
+      "marksAndNumbers": "GS1234",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: EXERCISE BIKES",
+      "grossWeight": 10000,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GS5678",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: EXERCISE BIKES",
+      "grossWeight": 10000,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 20000,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241003",
+    "salesOrderNumber": "SO20241003",
+    "lcDetails": {
+      "lcNumber": "LC20241003001"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN NUMBER: CO20241003",
+    "originalBLDistribution": {
+      "name": "POLAND FITNESS CENTER",
+      "address": "Ul. Mickiewicza 123, 80-200 Gda\u0144sk, POLAND",
+      "telephone": "+48-58-7777777",
+      "fax": "+48-58-77777777"
+    },
+    "originalInvoiceDistribution": {
+      "name": "POLAND FITNESS CENTER",
+      "address": "Ul. Mickiewicza 123, 80-200 Gda\u0144sk, POLAND",
+      "telephone": "+48-58-7777777",
+      "fax": "+48-58-77777777"
+    },
+    "onboardDate": "2024-10-07 12:35",
+    "additionalRemarks": "Please ensure the containers are properly sealed and labeled."
+  }
+}

@@ -20,3 +20,5 @@ def fetch_shipping_instruction(booking_reference):
     Fetch the shipping instruction from MongoDB based on the booking reference.
     """
     return collection.find_one({'bookingReference': booking_reference})
+
+# ========= 예약 번호 말고 다른 정보로도 조회할 수 있는 방법 추가하면 좋을 듯 =========

@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202409297831",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024158E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3715",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8439",
+      "address": "2nd FLOOR, 123 MAIN STREET, LONDON, UK EC1A 1BX",
+      "telephone": "+44-20-7777-8888",
+      "fax": "+44-20-7777-9999"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1892",
+      "address": "1234 LONDON ROAD, LONDON, UK EC1A 1BX",
+      "telephone": "+44-20-7777-8888",
+      "fax": "+44-20-7777-9999"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871130",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER 3715",
+      "numberOfPackages": 500,
+      "packageType": "PACKAGES",
+      "cargoDescription": "MOTORCYCLE PARTS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIPPER 3715",
+      "numberOfPackages": 500,
+      "packageType": "PACKAGES",
+      "cargoDescription": "MOTORCYCLE PARTS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 DRY HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "PACKAGES",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO9876543",
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8439",
+      "address": "2nd FLOOR, 123 MAIN STREET, LONDON, UK EC1A 1BX",
+      "telephone": "+44-20-7777-8888",
+      "fax": "+44-20-7777-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHIPPER 3715",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "2024-10-15 16:30",
+    "additionalRemarks": "Containers require lashing and securing."
+  },
+  "outOfGaugeDimensions": {
+    "length": 12192,
+    "width": 2438,
+    "height": 2696,
+    "overWidth": 200,
+    "overHeight": 300
+  }
+}

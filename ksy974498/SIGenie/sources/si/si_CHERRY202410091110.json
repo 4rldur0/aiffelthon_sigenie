@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410091110",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "4321E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CFR",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Industries Ltd.",
+      "address": "1234 SHENZHEN ROAD, SHENZHEN, CHINA",
+      "telephone": "+86-755-5555-1234",
+      "fax": "+86-755-5555-5678"
+    },
+    "consignee": {
+      "name": "Global Trade Solutions Inc.",
+      "address": "123 MAIN STREET, BRUSSELS, BELGIUM",
+      "telephone": "+32-2-1234-5678",
+      "fax": "+32-2-1234-9012"
+    },
+    "notifyParty": {
+      "name": "Sunset Logistics LLC",
+      "address": "456 RUE DE LA LOI, BRUSSELS, BELGIUM",
+      "telephone": "+32-2-5678-9012",
+      "fax": "+32-2-5678-1234"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85437090",
+  "commodityDescription": "Electric Motors",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GP123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : ELECTRIC MOTORS",
+      "grossWeight": 6000,
+      "measurement": 15
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GP456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : ELECTRIC MOTORS",
+      "grossWeight": 6000,
+      "measurement": 15
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GP789",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : ELECTRIC MOTORS",
+      "grossWeight": 6000,
+      "measurement": 15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'X1) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 18000,
+    "totalMeasurement": 45
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GTS20241026-01",
+    "salesOrderNumber": "20241026-02",
+    "lcDetails": {},
+    "certificateDetails": "20241026-03",
+    "originalBLDistribution": {
+      "name": "Global Trade Solutions Inc.",
+      "address": "123 MAIN STREET, BRUSSELS, BELGIUM",
+      "telephone": "+32-2-1234-5678",
+      "fax": "+32-2-1234-9012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Sunrise Industries Ltd.",
+      "address": "1234 SHENZHEN ROAD, SHENZEN, CHINA",
+      "telephone": "+86-755-5555-1234",
+      "fax": "+86-755-5555-5678"
+    },
+    "onboardDate": "2024-10-12 14:00",
+    "additionalRemarks": "Requires Temperature Control (2-8 degrees Celsius)"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  }
+}

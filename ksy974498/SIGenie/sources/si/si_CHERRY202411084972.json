@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411084972",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "123 Sunshine Avenue, Ningbo, China",
+      "telephone": "+86-574-1234-5678",
+      "fax": "+86-574-9876-5432"
+    },
+    "consignee": {
+      "name": "ACME GLOBAL IMPORTS LTD.",
+      "address": "456 Elm Street, Rotterdam, Netherlands",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-9876-5432"
+    },
+    "notifyParty": {
+      "name": "ACME GLOBAL IMPORTS LTD.",
+      "address": "456 Elm Street, Rotterdam, Netherlands",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-9876-5432"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85437090",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GI20241108",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GI20241108",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "20241108-CERT001",
+    "originalBLDistribution": {
+      "name": "ACME GLOBAL IMPORTS LTD.",
+      "address": "456 Elm Street, Rotterdam, Netherlands",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-9876-5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME GLOBAL IMPORTS LTD.",
+      "address": "456 Elm Street, Rotterdam, Netherlands",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-9876-5432"
+    },
+    "onboardDate": "2024-11-10 14:00",
+    "additionalRemarks": "10 Days Free Time at Destination"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4882603",
+    "unClass": "6",
+    "unCode": "Number 3264",
+    "hsCode": "6811.40.23",
+    "flashPoint": "-1\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

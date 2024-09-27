@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202410222609",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2442EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING LTD.",
+      "onBehalfOf": "",
+      "address": "1234 OMEGA STREET, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-98765432",
+      "fax": "+86-21-12345678"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO.",
+      "address": "456 SKYLINE STREET, AMSTERDAM, NETHERLANDS, 1012AB",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO.",
+      "address": "456 SKYLINE STREET, AMSTERDAM, NETHERLANDS, 1012AB"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "90328100",
+  "commodityDescription": "COMPUTER PROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "OM123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTER PROCESSORS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 5000.0,
+      "measurement": 12.5,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "OM123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTER PROCESSORS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 5000.0,
+      "measurement": 12.5,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "OM123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTER PROCESSORS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 5000.0,
+      "measurement": 12.5,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU4567890",
+      "sealNumber": "876543",
+      "marksAndNumbers": "OM123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTER PROCESSORS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 5000.0,
+      "measurement": 12.5,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU1357924",
+      "sealNumber": "987654",
+      "marksAndNumbers": "OM123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTER PROCESSORS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 5000.0,
+      "measurement": 12.5,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 62.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "456 SKYLINE STREET, AMSTERDAM, NETHERLANDS, 1012AB"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "456 SKYLINE STREET, AMSTERDAM, NETHERLANDS, 1012AB"
+    },
+    "onboardDate": "2024-10-26 10:00",
+    "additionalRemarks": "14 Days Free Time at Destination, Bill of Lading to be Issued in Original"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

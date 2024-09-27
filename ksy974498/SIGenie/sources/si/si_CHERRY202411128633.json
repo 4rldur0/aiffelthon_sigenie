@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202411128633",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024501W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3521",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 123 4567",
+      "fax": "+86 574 876 5432"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8417",
+      "address": "456 ABC AVENUE, ALGEICRAS, SPAIN",
+      "telephone": "+34 956 123 4567",
+      "fax": "+34 956 876 5432",
+      "email": "CUSTOMER8417@EXAMPLE.COM",
+      "contactPerson": "MARIA FERNANDEZ"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "INVOICE RECEIVER 5874",
+      "address": "789 DEF LANE, ALGEICRAS, SPAIN",
+      "telephone": "+34 956 987 6543",
+      "fax": "+34 956 432 1098"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940161",
+  "commodityDescription": "WOODEN CHAIRS, READY TO ASSEMBLE",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE REEFER CONTAINERS",
+    "totalPackages": 200,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241112863320-INV01",
+    "documentNumber": "20241112863320-DOC01",
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8417",
+      "address": "456 ABC AVENUE, ALGEICRAS, SPAIN",
+      "telephone": "+34 956 123 4567",
+      "fax": "+34 956 876 5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 8417",
+      "address": "456 ABC AVENUE, ALGEICRAS, SPAIN",
+      "telephone": "+34 956 123 4567",
+      "fax": "+34 956 876 5432"
+    },
+    "onboardDate": "2024-10-25 14:30",
+    "additionalRemarks": "Containers to be pre-cooled to 4 degrees Celsius before loading."
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

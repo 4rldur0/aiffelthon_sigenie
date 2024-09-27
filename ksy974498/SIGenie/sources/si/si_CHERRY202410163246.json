@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410163246",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024612W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "CASABLANCA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "TANGER, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Global Logistics Inc.",
+      "address": "1234 YUAN STREET, NINGBO, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 5678 9012",
+      "email": "GLOBAL@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "Acme Trading Co.",
+      "address": "5678 HARBOR STREET, CASABLANCA, MOROCCO",
+      "country": "MOROCCO",
+      "telephone": "+212 522 3456 7890",
+      "email": "ACME@EXAMPLE.COM"
+    },
+    "notifyParty": {
+      "name": "Acme Finance Department",
+      "address": "5678 HARBOR STREET, CASABLANCA, MOROCCO",
+      "country": "MOROCCO",
+      "telephone": "+212 522 3456 7890",
+      "email": "FINANCE@ACME.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN TABLES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GL123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN TABLES (W.1200MM H.800MM)",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GL456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN TABLES (W.1200MM H.800MM)",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GL789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN TABLES (W.1200MM H.800MM)",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 40 HQ CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345678"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "Acme Trading Co.",
+      "address": "5678 HARBOR STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 3456 7890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Acme Finance Department",
+      "address": "5678 HARBOR STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 3456 7890"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "Containers require pre-cooling."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9006854",
+    "unClass": "8",
+    "unCode": "No: 3334",
+    "hsCode": "7705.31.86",
+    "flashPoint": "90\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202410081956",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "321 HONGQI ROAD, YIWU, ZHEJIANG, CHINA",
+      "telephone": "+86 579 8888 7777",
+      "email": "INFO@SUNRISEELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORTS LTD.",
+      "address": "SPANDAUER DAMM 23-25, 14059 BERLIN, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MRS. ANNA MEIER",
+      "telephone": "+49 30 12345678",
+      "fax": "+49 30 12345679"
+    },
+    "notifyParty": {
+      "name": "SUNRISE DISTRIBUTION INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "email": "INFO@SUNRISEDISTRIBUTION.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854239",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CGMU5241035",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE ELECTRONICS CO. - ORDER NO. 20241008",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR HAMBURG, GERMANY MICROPROCESSORS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGMU5241036",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE ELECTRONICS CO. - ORDER NO. 20241008",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR HAMBURG, GERMANY MICROPROCESSORS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGMU5241037",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SUNRISE ELECTRONICS CO. - ORDER NO. 20241008",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR HAMBURG, GERMANY MICROPROCESSORS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGMU5241038",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SUNRISE ELECTRONICS CO. - ORDER NO. 20241008",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR HAMBURG, GERMANY MICROPROCESSORS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGMU5241039",
+      "sealNumber": "567890",
+      "marksAndNumbers": "SUNRISE ELECTRONICS CO. - ORDER NO. 20241008",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR HAMBURG, GERMANY MICROPROCESSORS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) x 20' DRY CONTAINER",
+    "totalPackages": 5000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "321 HONGQI ROAD, YIWU, ZHEJIANG, CHINA",
+      "telephone": "+86 579 8888 7777",
+      "fax": "+86 579 8888 6666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "321 HONGQI ROAD, YIWU, ZHEJIANG, CHINA",
+      "telephone": "+86 579 8888 7777",
+      "fax": "+86 579 8888 6666"
+    },
+    "onboardDate": "2024-10-12 16:00",
+    "additionalRemarks": "Containers to be sealed at shipper's premises. "
+  }
+}

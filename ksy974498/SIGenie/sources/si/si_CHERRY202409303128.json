@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202409303128",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2421EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING COMPANY",
+      "address": "No. 123, Huaihai Road, Shanghai, China 200010",
+      "telephone": "+86-21-65432111",
+      "fax": "+86-21-65432112"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "2nd Floor, 55-57 Moorgate, London, EC2M 7TS, United Kingdom",
+      "telephone": "+44-20-7614-1234",
+      "fax": "+44-20-7614-5678"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "2nd Floor, 55-57 Moorgate, London, EC2M 7TS, United Kingdom",
+      "telephone": "+44-20-7614-1234",
+      "fax": "+44-20-7614-5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "ENGINE COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ENGINE COMPONENTS",
+      "grossWeight": 15000,
+      "measurement": 28
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "432198",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ENGINE COMPONENTS",
+      "grossWeight": 15000,
+      "measurement": 28
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ENGINE COMPONENTS",
+      "grossWeight": 15000,
+      "measurement": 28
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE CONTAINER) CONTAINER ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 45000,
+    "totalMeasurement": 84
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO7890123",
+    "salesOrderNumber": "SO3456789",
+    "lcDetails": {
+      "lcNumber": "LC00098765"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "2nd Floor, 55-57 Moorgate, London, EC2M 7TS, United Kingdom",
+      "telephone": "+44-20-7614-1234",
+      "fax": "+44-20-7614-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "2nd Floor, 55-57 Moorgate, London, EC2M 7TS, United Kingdom",
+      "telephone": "+44-20-7614-1234",
+      "fax": "+44-20-7614-5678"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "SHIPMENT REQUIRES TEMPERATURE CONTROLLED TRANSPORTATION. B/L: TO BE ISSUED"
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202410063258",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024512W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8624",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-6268-1234",
+      "fax": "+86-21-6268-5678"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3712",
+      "address": "5678 ALCALDE STREET, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34-956-789-1234",
+      "fax": "+34-956-789-5678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9287",
+      "address": "9012 PLAZA STREET, MADRID, SPAIN 28001",
+      "telephone": "+34-91-567-1234",
+      "fax": "+34-91-567-5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940170",
+  "commodityDescription": "PLASTIC CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER 8624 NINGBO",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC CHAIRS SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC CHAIRS",
+      "grossWeight": 10000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER 8624 NINGBO",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC CHAIRS SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC CHAIRS",
+      "grossWeight": 10000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SHIPPER 8624 NINGBO",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC CHAIRS SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC CHAIRS",
+      "grossWeight": 10000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMAU3210987",
+      "sealNumber": "321098",
+      "marksAndNumbers": "SHIPPER 8624 NINGBO",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC CHAIRS SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC CHAIRS",
+      "grossWeight": 10000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMAU6543210",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER 8624 NINGBO",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC CHAIRS SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC CHAIRS",
+      "grossWeight": 10000,
+      "measurement": 25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 50000,
+    "totalMeasurement": 125
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "salesOrderNumber": "9876543210",
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3712",
+      "address": "5678 ALCALDE STREET, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34-956-789-1234",
+      "fax": "+34-956-789-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9287",
+      "address": "9012 PLAZA STREET, MADRID, SPAIN 28001",
+      "telephone": "+34-91-567-1234",
+      "fax": "+34-91-567-5678"
+    },
+    "onboardDate": "2024-10-12 12:00",
+    "additionalRemarks": "Containers require pre-trip inspection."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

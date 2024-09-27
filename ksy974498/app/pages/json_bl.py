@@ -19,7 +19,7 @@ custom_css = """
 <style>
 @font-face {
     font-family: 'Freesentation';
-    src: url('./fonts/Freesentation.ttf') format('truetype');
+    src: url('./ui/fonts/Freesentation.ttf') format('truetype');
 }
 html, body, [class*="st-"] {
     font-family: 'Freesentation', sans-serif;
@@ -94,7 +94,7 @@ def display_bl_form(doc):
     st.markdown(custom_css, unsafe_allow_html=True)
     
     # Load and encode the logo
-    logo_base64 = get_base64_encoded_image("./img/containergenie.png")
+    logo_base64 = get_base64_encoded_image("./ui/img/containergenie.png")
     
     # Generate container information HTML
     particulars_html, container_info_html, footer_info_html = generate_container_rows(doc['containers'], doc)

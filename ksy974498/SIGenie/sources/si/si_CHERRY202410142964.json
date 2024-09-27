@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410142964",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024417E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3284",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "telephone": "+86 21 1234 5678",
+      "email": "SHIPPING@SHIPPER3284.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9751",
+      "address": "456 AVENIDA ESPA\u00d1A, ALGECIRAS, SPAIN, 11001",
+      "country": "SPAIN",
+      "telephone": "+34 956 7890 12",
+      "email": "ORDERS@CUSTOMER9751.COM"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5182",
+      "address": "789 PLAZA CENTRAL, MADRID, SPAIN, 28001",
+      "country": "SPAIN",
+      "telephone": "+34 91 345 6789",
+      "email": "INVOICES@INVOICERE5182.COM"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "854370",
+  "commodityDescription": "COMPUTER HARD DRIVES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "SHIP32841014",
+      "marksAndNumbers": "SHIP3284-1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTER HARD DRIVES (AS PER PACKING LIST)",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "SHIP32841014",
+      "marksAndNumbers": "SHIP3284-2",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTER HARD DRIVES (AS PER PACKING LIST)",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "SHIP32841014",
+      "marksAndNumbers": "SHIP3284-3",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTER HARD DRIVES (AS PER PACKING LIST)",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 105.3
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L00001234567"
+    },
+    "certificateDetails": [
+      "COO-CN-001234"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9751",
+      "address": "456 AVENIDA ESPA\u00d1A, ALGECIRAS, SPAIN, 11001",
+      "telephone": "+34 956 7890 12"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5182",
+      "address": "789 PLAZA CENTRAL, MADRID, SPAIN, 28001",
+      "telephone": "+34 91 345 6789"
+    },
+    "onboardDate": "2024-10-19 12:15",
+    "additionalRemarks": "Temperature to be maintained at 5 degrees Celsius"
+  }
+}

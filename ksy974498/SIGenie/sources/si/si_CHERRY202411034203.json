@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411034203",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024932E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6148",
+      "onBehalfOf": "CUSTOMER 8752",
+      "address": "321 Huangpu Road, Shanghai, China",
+      "telephone": "+86-21-5321-9876",
+      "fax": "+86-21-5321-5432"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 3827",
+      "address": "Calle Mayor 123, 11001 C\u00e1diz, Spain",
+      "companyNumber": "ES123456789"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 8752 - LOGISTICS",
+      "address": "Calle Mayor 123, 11001 C\u00e1diz, Spain"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "GP12345",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BOARD GAMES",
+      "grossWeight": 8000.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "GP12346",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BOARD GAMES",
+      "grossWeight": 8000.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "GP12347",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BOARD GAMES",
+      "grossWeight": 8000.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINER(S)",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033739"
+    },
+    "certificateDetails": [
+      "4112720070179X"
+    ],
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 3827",
+      "address": "Calle Mayor 123, 11001 C\u00e1diz, Spain",
+      "telephone": "+34-956-123-456",
+      "fax": "+34-956-123-890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 8752",
+      "address": "Calle Mayor 123, 11001 C\u00e1diz, Spain",
+      "telephone": "+34-956-123-456",
+      "fax": "+34-956-123-890"
+    },
+    "onboardDate": "2024-11-12 14:00",
+    "additionalRemarks": "Containers to be loaded on top of each other. Please ensure proper stacking and securing."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

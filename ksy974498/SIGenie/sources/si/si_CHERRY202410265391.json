@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410265391",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2436W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "onBehalfOf": "",
+      "address": "238 HENGYUAN ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-8765-4321",
+      "fax": "+86-574-8765-4322"
+    },
+    "consignee": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "PO BOX 1234, 3000 ROTTERDAM, NETHERLANDS",
+      "companyNumber": "9876543210"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "PO BOX 1234, 3000 ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85423110",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CMLU9987658",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE2024-1",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU9987659",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE2024-2",
+      "numberOfPackages": 550,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 10500.0,
+      "measurement": 27.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU9987660",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE2024-3",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 1550,
+    "packageType": "CARTONS",
+    "containerType": "40 HIGH CUBE DRY CONTAINER",
+    "totalGrossWeight": 30500.0,
+    "totalMeasurement": 77.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033739"
+    },
+    "certificateDetails": [
+      "4112720070179X"
+    ],
+    "originalBLDistribution": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "PO BOX 1234, 3000 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "PO BOX 1234, 3000 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    },
+    "onboardDate": "2024-11-02 10:00",
+    "additionalRemarks": "CARGO WEIGHT: 30 TONNES, DANGEROUS GOODS DECLARATION REQUIRED, TEMPERATURE SENSITIVE CARGO"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4422221",
+    "unClass": "9",
+    "unCode": "Unknown",
+    "hsCode": "8641.37.95",
+    "flashPoint": "76\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

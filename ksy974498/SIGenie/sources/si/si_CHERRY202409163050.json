@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202409163050",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024783D"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4762",
+      "address": "456 EAST STREET, SHANGHAI, CHINA 200001",
+      "telephone": "+86 21 6387 5678",
+      "fax": "+86 21 6387 5679"
+    },
+    "consignee": {
+      "name": "EUROTECH LTD",
+      "address": "456 MARKET STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001",
+      "email": "INFO@EUROTECHLTD.COM",
+      "contactPerson": "JOHN DOE"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "789 CANAL STREET, AMSTERDAM, NETHERLANDS 1012AB",
+      "telephone": "+31 20 300 4000",
+      "fax": "+31 20 300 4001"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "EXCAVATOR BUCKET",
+  "containers": [
+    {
+      "containerNumber": "MSCU5768123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ATCO123",
+      "numberOfPackages": 500,
+      "cargoDescription": "EXCAVATOR BUCKET",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ATCO456",
+      "numberOfPackages": 500,
+      "cargoDescription": "EXCAVATOR BUCKET",
+      "grossWeight": 12500.0,
+      "measurement": 26.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 1000,
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 51.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "AT20241026001",
+    "documentNumber": "20241026002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-20241026-001"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH LTD",
+      "address": "456 MARKET STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH LTD",
+      "address": "456 MARKET STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001"
+    },
+    "onboardDate": "2024-10-05 11:42",
+    "additionalRemarks": "Containers require pre-cooling to 5 degrees Celsius."
+  }
+}

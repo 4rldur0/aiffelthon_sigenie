@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410301258",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2431E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES INC",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 HAMBURG STREET, HAMBURG, GERMANY 20457",
+      "telephone": "+49-40-123-4567",
+      "fax": "+49-40-123-8901"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 HAMBURG STREET, HAMBURG, GERMANY 20457",
+      "telephone": "+49-40-123-4567",
+      "fax": "+49-40-123-8901"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "620462",
+  "commodityDescription": "LADIES' COTTON TROUSERS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA PACIFIC TEXTILES INC",
+      "numberOfPackages": 150,
+      "packageType": "PACKAGES",
+      "cargoDescription": "LADIES' COTTON TROUSERS - SHIPMENT TO BE DELIVERED ON TRUCK",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIA PACIFIC TEXTILES INC",
+      "numberOfPackages": 150,
+      "packageType": "PACKAGES",
+      "cargoDescription": "LADIES' COTTON TROUSERS - SHIPMENT TO BE DELIVERED ON TRUCK",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "ASIA PACIFIC TEXTILES INC",
+      "numberOfPackages": 150,
+      "packageType": "PACKAGES",
+      "cargoDescription": "LADIES' COTTON TROUSERS - SHIPMENT TO BE DELIVERED ON TRUCK",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 450,
+    "packageType": "PACKAGES",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 HAMBURG STREET, HAMBURG, GERMANY 20457",
+      "telephone": "+49-40-123-4567",
+      "fax": "+49-40-123-8901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TEXTILES INC",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "onboardDate": "2024-11-05 10:00",
+    "additionalRemarks": "CONTAINER SEAL: ABC123456789"
+  }
+}

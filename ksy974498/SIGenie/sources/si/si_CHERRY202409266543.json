@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202409266543",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2431EWL"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TEXTILES CO.",
+      "address": "No. 1234 Xinghai Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8654 3210",
+      "email": "shipping@sunrisetextiles.com"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "123 Thames Street, London, EC3N 2ES, United Kingdom",
+      "telephone": "+44 20 7946 5678",
+      "fax": "+44 20 7946 5679"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "123 Thames Street, London, EC3N 2ES, United Kingdom",
+      "telephone": "+44 20 7946 5678",
+      "fax": "+44 20 7946 5679"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "551321",
+  "commodityDescription": "COTTON FABRIC",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE-2024-CN001",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "COTTON FABRIC AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "432109",
+      "marksAndNumbers": "SUNRISE-2024-CN002",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "COTTON FABRIC AS PER INVOICE",
+      "grossWeight": 15500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "109876",
+      "marksAndNumbers": "SUNRISE-2024-CN003",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "COTTON FABRIC AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40'HC X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "BAGS",
+    "containerType": "40'HC X3",
+    "totalGrossWeight": 45500.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "CC123456789",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "123 Thames Street, London, EC3N 2ES, United Kingdom",
+      "telephone": "+44 20 7946 5678",
+      "fax": "+44 20 7946 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "123 Thames Street, London, EC3N 2ES, United Kingdom",
+      "telephone": "+44 20 7946 5678",
+      "fax": "+44 20 7946 5679"
+    },
+    "onboardDate": "2024-10-02 14:00",
+    "additionalRemarks": "3 x 40 HIGH CUBE containers, Value: USD50,000"
+  }
+}

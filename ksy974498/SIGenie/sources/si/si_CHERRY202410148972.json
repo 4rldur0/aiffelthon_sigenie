@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202410148972",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2431EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO.",
+      "address": "123 FUJIAN ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8675 3456",
+      "email": "SHIPPING@ASIAELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "ABC GLOBAL TRADING LTD.",
+      "address": "456 HANOVER STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. PETER SMITH",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 987 6543"
+    },
+    "notifyParty": {
+      "name": "ABC GLOBAL TRADING LTD.",
+      "address": "456 HANOVER STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 987 6543"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85423700",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "98765432",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU4321098",
+      "sealNumber": "43210987",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU5678901",
+      "sealNumber": "56789012",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": "CN123456789012345",
+    "originalBLDistribution": {
+      "name": "ABC GLOBAL TRADING LTD.",
+      "address": "456 HANOVER STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 987 6543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC GLOBAL TRADING LTD.",
+      "address": "456 HANOVER STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 987 6543"
+    },
+    "onboardDate": "2024-10-20 10:00",
+    "additionalRemarks": "SHIPMENT REQUIRES CUSTOMS INSPECTION AT PORT OF DISCHARGE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410095812",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2432W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING LTD.",
+      "address": "1234 Industrial Avenue, Shanghai, China",
+      "telephone": "+86 21 5678 9012",
+      "email": "shipping@betamanufacturing.com"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT INC.",
+      "address": "5678 Trade Street, Rotterdam, Netherlands",
+      "taxId": "NL123456789",
+      "president": "Mr. John Doe",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "notifyParty": {
+      "name": "GAMMA TRADING CO.",
+      "address": "9876 Commerce Avenue, Hong Kong, China",
+      "telephone": "+852 2198 7654",
+      "email": "logistics@gammatrading.com"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "TEXTILE LOOM MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS TEXTILE LOOM MACHINERY",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS TEXTILE LOOM MACHINERY",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' STANDARD CONTAINER X2) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD CONTAINER X2",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CO, FORM A",
+    "originalBLDistribution": {
+      "name": "GAMMA TRADING CO.",
+      "address": "9876 Commerce Avenue, Hong Kong, China",
+      "telephone": "+852 2198 7654",
+      "fax": "+852 2198 7655"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT & EXPORT INC.",
+      "address": "5678 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "CARGO REQUIRES TEMPERATURE CONTROLLED ENVIRONMENT (15-20 DEGREES CELSIUS)"
+  }
+}

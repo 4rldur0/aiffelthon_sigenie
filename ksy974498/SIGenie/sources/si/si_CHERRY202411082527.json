@@ -1,0 +1,142 @@
+{
+  "bookingReference": "CHERRY202411082527",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2443W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "APPLE INC.",
+      "address": "ONE APPLE PARK WAY, CUPERTINO, CA 95014, USA",
+      "country": "USA",
+      "telephone": "+1 408 996 1010",
+      "email": "SHIPPING@APPLE.COM"
+    },
+    "consignee": {
+      "name": "MAERSK LOGISTICS GMBH",
+      "address": "STRASSENSEE 1, 20097 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 36132 0",
+      "email": "INFO@MAERSKLOGISTICS.DE"
+    },
+    "notifyParty": {
+      "name": "APPLE INC. GERMANY",
+      "address": "MUNICHER STRASSE 2, 80802 MUNICH, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 89 552 76 600",
+      "email": "GERMANYSUPPORT@APPLE.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84713080",
+  "commodityDescription": "LAPTOP COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "AP123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "AP456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "2109876543",
+      "marksAndNumbers": "AP789",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "TCLU2468013",
+      "sealNumber": "5432109876",
+      "marksAndNumbers": "AP135",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "TCLU3698521",
+      "sealNumber": "6789012345",
+      "marksAndNumbers": "AP246",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "TCLU4812573",
+      "sealNumber": "7890123456",
+      "marksAndNumbers": "AP378",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "SIX (6 x 40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "totalGrossWeight": 108000.0,
+    "totalMeasurement": 210.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "MAERSK LOGISTICS GMBH",
+      "address": "STRASSENSEE 1, 20097 HAMBURG, GERMANY",
+      "telephone": "+49 40 36132 0"
+    },
+    "originalInvoiceDistribution": {
+      "name": "APPLE INC.",
+      "address": "ONE APPLE PARK WAY, CUPERTINO, CA 95014, USA",
+      "telephone": "+1 408 996 1010"
+    },
+    "onboardDate": "2024-11-12 14:00",
+    "additionalRemarks": "CONTAINER SEAL NUMBERS: 123456, 654321, 789012, 135790, 246801"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

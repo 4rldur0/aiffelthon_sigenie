@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202411047828",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24073W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "BERLIN, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ORIENTAL TEXTILES LTD",
+      "address": "123 Textile Street, Ningbo, China",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 98765432"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO.",
+      "address": "456 Friedrichstrasse, Berlin, Germany",
+      "telephone": "+49 30 67890123",
+      "fax": "+49 30 45678901"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO.",
+      "address": "456 Friedrichstrasse, Berlin, Germany",
+      "telephone": "+49 30 67890123",
+      "fax": "+49 30 45678901"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "61103000",
+  "commodityDescription": "COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ORIENTAL TEXTILES LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU6543210",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ORIENTAL TEXTILES LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1098765",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ORIENTAL TEXTILES LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU4321098",
+      "sealNumber": "321098",
+      "marksAndNumbers": "ORIENTAL TEXTILES LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "432109",
+      "marksAndNumbers": "ORIENTAL TEXTILES LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 x 20 DRY) CONTAINERS ONLY",
+    "totalPackages": 5000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "salesOrderNumber": "SO9876543210",
+    "lcDetails": {
+      "lcNumber": "LC000123456789"
+    },
+    "certificateDetails": "CERT-000123",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "456 Friedrichstrasse, Berlin, Germany"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "456 Friedrichstrasse, Berlin, Germany"
+    },
+    "onboardDate": "2024-11-08 12:00",
+    "additionalRemarks": "CARGO SHOULD BE PACKED IN STANDARD EXPORT PACKING AND LABELED WITH SHIPMENT DETAILS"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2897886",
+    "unClass": "1",
+    "unCode": "No:",
+    "hsCode": "5944.70.27",
+    "flashPoint": "0\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  }
+}

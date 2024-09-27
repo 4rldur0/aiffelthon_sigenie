@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409182260",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423W1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "EURO TECH LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "EURO TECH LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854230",
+  "commodityDescription": "LCD PANELS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "cargoDescription": "LCD PANELS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN LCD PANELS",
+      "grossWeight": 18000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 100,
+      "cargoDescription": "LCD PANELS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN LCD PANELS",
+      "grossWeight": 18000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "PACKAGES",
+    "containerType": "40DR",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 80.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024102656789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO TECH LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TECH LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY"
+    },
+    "onboardDate": "2024-10-27 14:00",
+    "additionalRemarks": "Temperature setpoint: 5\u00b0C. Value: USD45,000"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

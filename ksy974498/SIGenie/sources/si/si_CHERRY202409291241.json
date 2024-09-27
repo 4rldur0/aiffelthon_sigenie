@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409291241",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2438E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IRON & STEEL CO. LTD",
+      "address": "234 Nanjing Road East, Shanghai, 200002, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 5386 5678",
+      "email": "shipping@chinaeastern.com"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS GMBH",
+      "address": "Speicherstadt 1, 20457 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 3119 1234"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "Kurf\u00fcrstenstra\u00dfe 55, 10707 Berlin, Germany",
+      "country": "GERMANY",
+      "email": "shipping@dhl.de",
+      "telephone": "+49 30 2262 1234"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "MSCU7891234",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TRANSFORMERS AS PER INVOICE",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "6543218",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TRANSFORMERS AS PER INVOICE",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) x 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 200,
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567891"
+    },
+    "certificateDetails": [
+      "CN1234567"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORTS GMBH",
+      "address": "Speicherstadt 1, 20457 Hamburg, Germany",
+      "telephone": "+49 40 3119 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORTS GMBH",
+      "address": "Speicherstadt 1, 20457 Hamburg, Germany",
+      "telephone": "+49 40 3119 1234"
+    },
+    "onboardDate": "2024-10-06 16:00",
+    "additionalRemarks": "CONTAINERS TO BE SEALED AT ORIGIN. PLEASE ADVISE ETA AT DISCHARGE PORT."
+  }
+}

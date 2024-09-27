@@ -1,0 +1,86 @@
+{
+  "bookingReference": "CHERRY202410155602",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2441W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. LTD",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5678-1234",
+      "fax": "+86-21-5678-1235"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORTS INC.",
+      "address": "456 BROADWAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL IMPORTS INC.",
+      "address": "456 BROADWAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "901890",
+  "commodityDescription": "MEDICAL IMAGING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, 100 CRATES OF MEDICAL IMAGING EQUIPMENT",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER",
+    "totalPackages": 100,
+    "packageType": "CRATES",
+    "totalGrossWeight": 10000.0,
+    "totalMeasurement": 20.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL IMPORTS INC.",
+      "address": "456 BROADWAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL IMPORTS INC.",
+      "address": "456 BROADWAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "onboardDate": "2024-10-22 12:00",
+    "additionalRemarks": "Temperature: 2-8 degrees Celsius"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411073757",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2442W14N"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREENFIELD MANUFACTURING LTD",
+      "address": "NO. 1234 SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORT EXPORT INC",
+      "address": "FRANKFURTER STRASSE 5, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@BLUESKYIMPORT.DE, INFO@BLUESKYIMPORT.DE",
+      "telephone": "+49 40 367890"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY IMPORT EXPORT INC",
+      "address": "FRANKFURTER STRASSE 5, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@BLUESKYIMPORT.DE, INFO@BLUESKYIMPORT.DE",
+      "telephone": "+49 40 367890"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940161",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS, 100 PCS, PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS, 100 PCS, PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "12345ABC",
+    "hsCode": "940161",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "BLUE SKY IMPORT EXPORT INC",
+      "address": "FRANKFURTER STRASSE 5, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 367890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY IMPORT EXPORT INC",
+      "address": "FRANKFURTER STRASSE 5, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 367890",
+      "fax": "+49 40 367891"
+    },
+    "onboardDate": "2024-11-15 16:00",
+    "additionalRemarks": "2 x 40 HIGH CUBE containers, Value: USD 25,000"
+  }
+}

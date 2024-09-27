@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202409189068",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432EUS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORT LTD.",
+      "address": "UNIT 102, 3/F, NO. 288 YONGHE ROAD, NINGBO FREE TRADE ZONE, CHINA"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "SCHUYLKILL STREET 55, 1059 AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 555 5555",
+      "fax": "+31 20 555 5556"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49 69 123 4567",
+      "fax": "+49 69 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "94016000",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SR-NB230918",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS DETAILED IN PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SR-NB230918",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS DETAILED IN PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SR-NB230918",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS DETAILED IN PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU9012345",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SR-NB230918",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS DETAILED IN PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU6789012",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SR-NB230918",
+      "numberOfPackages": 100,
+      "cargoDescription": "OFFICE CHAIRS AS DETAILED IN PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20FR) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "PACKAGES",
+    "containerType": "20FR",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20231005789"
+    },
+    "certificateDetails": [
+      "CO-230918-001",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "SCHUYLKILL STREET 55, 1059 AMSTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT, GERMANY"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "Stackable, Packed on Pallets"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

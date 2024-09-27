@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202410291754",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2435E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO BRANCH)"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "GLOBALIMPORTS@EXAMPLE.COM",
+      "telephone": "+31 10 555 1234"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "5678 AMSTERDAM AVENUE, AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "SUNRISETRADINGINC@EXAMPLE.COM",
+      "telephone": "+31 20 666 7890"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "903033",
+  "commodityDescription": "MICROSCOPES",
+  "containers": [
+    {
+      "containerNumber": "CRLU3016645",
+      "sealNumber": "173227",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROSCOPES - 100 PCS, PACKAGED IN INDIVIDUAL BOXES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU3016646",
+      "sealNumber": "173228",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROSCOPES - 100 PCS, PACKAGED IN INDIVIDUAL BOXES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU3016647",
+      "sealNumber": "173229",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROSCOPES - 100 PCS, PACKAGED IN INDIVIDUAL BOXES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU3016648",
+      "sealNumber": "173230",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROSCOPES - 100 PCS, PACKAGED IN INDIVIDUAL BOXES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU3016649",
+      "sealNumber": "173231",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "MICROSCOPES - 100 PCS, PACKAGED IN INDIVIDUAL BOXES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS",
+    "totalPackages": 500,
+    "packageType": "BOXES",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "903033",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+      "telephone": "03600061234",
+      "fax": "81-3-6000-0001"
+    },
+    "onboardDate": "2024-11-12 18:00",
+    "additionalRemarks": "FRAGILE GOODS, HANDLE WITH CARE"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}
