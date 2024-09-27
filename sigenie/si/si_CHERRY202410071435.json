@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410071435",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI PRECISION MACHINERY CO. LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 1235",
+      "email": "INFO@SHANGHAIPRECISION.COM"
+    },
+    "consignee": {
+      "name": "GOLDEN STAR IMPORTS LTD.",
+      "address": "NO. 5678, ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL85321200765109788X",
+      "president": "MR. JAN VAN DER SLOOT",
+      "telephone": "+31 10 2222 1234",
+      "fax": "+31 10 2222 1235",
+      "email": "INFO@GOLDENSTARIMPORTS.NL"
+    },
+    "notifyParty": {
+      "name": "GOLDEN STAR LOGISTICS BV",
+      "address": "NO. 9012, AMSTERDAM AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 3333 1234",
+      "fax": "+31 10 3333 1235",
+      "email": "INFO@GOLDENSTARLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "845970",
+  "commodityDescription": "MACHINERY FOR MANUFACTURING OR PROCESSING TEXTILES, APPAREL AND RELATED GOODS",
+  "containers": [
+    {
+      "containerNumber": "CMAU2421737",
+      "sealNumber": "318925",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "MACHINES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 1 X PRECISION TEXTILE MACHINE",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "MACHINES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 15.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-10-17 16:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 3331, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8661012",
+    "unClass": "6",
+    "unCode": "3331,",
+    "hsCode": "9172.57.87",
+    "flashPoint": "94\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202411188138",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS LTD.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GLOBALLOGISTICS.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GLOBALLOGISTICS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN SALMON FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4571916",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "PALLETS",
+      "cargoDescription": "FROZEN SALMON FILLETS",
+      "grossWeight": 25000.0,
+      "measurement": 58.0,
+      "reeferSettings": {
+        "setTemperature": "6",
+        "temperatureUnit": "CELSIUS"
+      }
+    },
+    {
+      "containerNumber": "CRLU4595018",
+      "sealNumber": "724918",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "PALLETS",
+      "cargoDescription": "FROZEN SALMON FILLETS",
+      "grossWeight": 25000.0,
+      "measurement": 58.0,
+      "reeferSettings": {
+        "setTemperature": "6",
+        "temperatureUnit": "CELSIUS"
+      }
+    },
+    {
+      "containerNumber": "CRLU4529806",
+      "sealNumber": "724921",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "PALLETS",
+      "cargoDescription": "FROZEN SALMON FILLETS",
+      "grossWeight": 25000.0,
+      "measurement": 58.0,
+      "reeferSettings": {
+        "setTemperature": "6",
+        "temperatureUnit": "CELSIUS"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 40' HIGH CUBIC REEFER CONTAINERS",
+    "totalPackages": 3000,
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 174.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-26 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 6\u00b0C, VALUE: USD397,417"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2063892",
+    "temperature": "6\u00b0C",
+    "minTemperature": "4\u00b0C",
+    "maxTemperature": "8\u00b0C",
+    "ventilation": "45%",
+    "humidity": "69%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

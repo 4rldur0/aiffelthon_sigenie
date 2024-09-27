@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202411189092",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION INDUSTRIES LTD.",
+      "address": "123 RUE DE L'INDUSTRIE, 76600 LE HAVRE, FRANCE",
+      "country": "FRANCE",
+      "additionalInfo": "",
+      "telephone": "+33 2 35 22 55 00",
+      "fax": "+33 2 35 22 55 01",
+      "email": "INFO@PRECISIONINDUSTRIES.FR"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "100 Anson ROAD, #02-01 INTERNATIONAL PLAZA, SINGAPORE 079900",
+      "country": "SINGAPORE",
+      "telephone": "+65 6221 1234",
+      "fax": "+65 6221 1235",
+      "email": "INFO@GLOBALLOGISTICS.SG",
+      "personincharge": "LEE CHUN YEN"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "100 Anson ROAD, #02-01 INTERNATIONAL PLAZA, SINGAPORE 079900",
+      "country": "SINGAPORE",
+      "telephone": "+65 6221 1234",
+      "fax": "+65 6221 1235",
+      "email": "INFO@GLOBALLOGISTICS.SG"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "PEROXIDE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "PRECISION INDUSTRIES LTD. - SHIPMENT 12345",
+      "numberOfPackages": 20,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PEROXIDE SOLUTION (UN 1870)",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 20 DRY CONTAINER",
+    "totalPackages": 20,
+    "totalpackageType": "DRUMS",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "DG CERTIFICATE NO. DG1234567"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "100 Anson ROAD, #02-01 INTERNATIONAL PLAZA, SINGAPORE 079900",
+      "telephone": "+65 6221 1234",
+      "fax": "+65 6221 1235",
+      "email": "INFO@GLOBALLOGISTICS.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "100 Anson ROAD, #02-01 INTERNATIONAL PLAZA, SINGAPORE 079900",
+      "telephone": "+65 6221 1234",
+      "fax": "+65 6221 1235",
+      "email": "INFO@GLOBALLOGISTICS.SG"
+    },
+    "onboardDate": "2024-11-21 09:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 1870, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4816031",
+    "unClass": "4",
+    "unCode": "1870,",
+    "hsCode": "1629.63.41",
+    "flashPoint": "17\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

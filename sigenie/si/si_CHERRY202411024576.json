@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411024576",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING CO. LTD",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7631-2345",
+      "fax": "+44-20-7631-2346",
+      "email": "INFO@OMEGASHIPPING.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "290311",
+  "commodityDescription": "BENZOIC ACID",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289451",
+      "sealNumber": 345901,
+      "marksAndNumbers": "DM-123",
+      "numberOfPackages": 20,
+      "packageType": "DRUMS",
+      "cargoDescription": "BENZOIC ACID - INDUSTRIAL GRADE",
+      "grossWeight": 18500.0,
+      "measurement": 25.2,
+      "dangerousGoods": {
+        "unNumber": "1024",
+        "class": "8",
+        "packingGroup": "III"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 X 40) FULL CONTAINER ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 18500.0,
+    "totalMeasurement": 25.2
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241102-1001",
+    "documentNumber": "20241102-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7631-2345",
+      "fax": "+44-20-7631-2346"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7631-2345",
+      "fax": "+44-20-7631-2346"
+    },
+    "onboardDate": "2024-11-12 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 1024, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3512702",
+    "unClass": "8",
+    "unCode": "1024,",
+    "hsCode": "4236.22.33",
+    "flashPoint": "72\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

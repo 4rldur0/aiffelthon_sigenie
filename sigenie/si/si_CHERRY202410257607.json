@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202410257607",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA IMPORT EXPORT CO.",
+      "address": "NO. 1234, JINGANG ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(JINGANG BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@DELTAIMPORTEXPORT.COM.CN"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "123 PORT STREET, ALGECIRAS, 11001",
+      "country": "SPAIN",
+      "email": "ORDERS@OMEGASHIPPING.ES",
+      "telephone": "+34 956 7890 12"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "123 PORT STREET, ALGECIRAS, 11001",
+      "country": "SPAIN",
+      "email": "ORDERS@OMEGASHIPPING.ES",
+      "telephone": "+34 956 7890 12"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030199",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4571916",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "FROZEN FISH FILLETS",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "reeferSettings": {
+        "setTemperature": "3.0",
+        "temperatureUnit": "CELSIUS"
+      }
+    },
+    {
+      "containerNumber": "CRLU4595018",
+      "sealNumber": "724918",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "FROZEN FISH FILLETS",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "reeferSettings": {
+        "setTemperature": "3.0",
+        "temperatureUnit": "CELSIUS"
+      }
+    },
+    {
+      "containerNumber": "CRLU4529806",
+      "sealNumber": "724921",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "FROZEN FISH FILLETS",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "reeferSettings": {
+        "setTemperature": "3.0",
+        "temperatureUnit": "CELSIUS"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HC X 3) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 300,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 174.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "123 PORT STREET, ALGECIRAS, 11001",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "ORDERS@OMEGASHIPPING.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "123 PORT STREET, ALGECIRAS, 11001",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "ORDERS@OMEGASHIPPING.ES"
+    },
+    "onboardDate": "2024-11-05 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 3\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4612287",
+    "temperature": "3\u00b0C",
+    "minTemperature": "1\u00b0C",
+    "maxTemperature": "5\u00b0C",
+    "ventilation": "58%",
+    "humidity": "65%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

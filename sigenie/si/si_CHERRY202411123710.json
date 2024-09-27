@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411123710",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA MANUFACTURING LTD.",
+      "address": "123 INDUSTRIAL PARK, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "consignee": {
+      "name": "BETA IMPORT & EXPORT CO.",
+      "address": "456 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 COMMERCE STREET, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871630",
+  "commodityDescription": "SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "ALPHA204",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "containerType": "40 DRY CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SEAL SAID TO CONTAIN - SEMI-TRAILER",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 DRY) CONTAINER",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "40 DRY CONTAINER",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411123710"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 COMMERCE STREET, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA IMPORT & EXPORT CO.",
+      "address": "456 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, THIS SIDE UP"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

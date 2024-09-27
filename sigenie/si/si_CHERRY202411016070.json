@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411016070",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8654-1234",
+      "fax": "+86-574-8654-1235"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213",
+      "email": "INFO@GLOBALSHIPPINGSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854230",
+  "commodityDescription": "WIND TURBINE BLADES",
+  "containers": [
+    {
+      "containerNumber": "CGAU7896543",
+      "sealNumber": 123456,
+      "marksAndNumbers": "SR-1234",
+      "numberOfPackages": 1,
+      "packageType": "PIECE",
+      "cargoDescription": "WIND TURBINE BLADE",
+      "grossWeight": 25000.0,
+      "measurement": 60.0,
+      "outOfGaugeDimensions": {
+        "length": 9051,
+        "width": 2368,
+        "height": 2896
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 X 2) OPEN TOP CONTAINER ONLY",
+    "totalPackages": 1,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241105-1001",
+    "documentNumber": "20241105-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-11-12 18:00:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 9051x2368x2896, VALUE: USD413,835"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9051",
+    "width": "2368",
+    "height": "2896",
+    "overWidth": "0",
+    "overHeight": "306"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

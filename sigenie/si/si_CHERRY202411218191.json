@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411218191",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8877 6655",
+      "fax": "+86 574 8877 6600",
+      "email": "INFO@ASIAINDUSTRY.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL CARGO SOLUTIONS LTD.",
+      "address": "124 JAN VAN NASSAU STREET, ROTTERDAM, NETHERLANDS 3011 NL",
+      "taxId": "NL854321675B01",
+      "president": "MR. PETER VAN DER LINDE",
+      "telephone": "+31 10 203 8654",
+      "fax": "+31 10 203 8600",
+      "email": "PETER.VANDERLINDE@GLOBALCARGOSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "125 KOEKEN STREET, ROTTERDAM, NETHERLANDS 3012 NL",
+      "taxId": "NL859876543B01",
+      "president": "MS. ANNA DE VRIES",
+      "telephone": "+31 10 777 8567",
+      "fax": "+31 10 777 8500"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "ETHYLENE OXIDE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "DRUMS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "ETHYLENE OXIDE SOLUTION - AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 33.176
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY CONTAINER)",
+    "totalPackages": 5,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 33.176
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241121001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2172"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4039182",
+    "unClass": "3",
+    "unCode": "2172",
+    "hsCode": "2543.89.63",
+    "flashPoint": "60\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202411026138",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BASF SE",
+      "address": "CARL-BOSSE-STRASSE 1, 67056 LUDWIGSHAFEN, GERMANY",
+      "telephone": "+49-621-60-30500",
+      "fax": "+49-621-60-30501"
+    },
+    "consignee": {
+      "name": "KUEHNE + NAGEL LTD.",
+      "address": "111 SOMERSET ROAD, #19-01, SINGAPORE 218164",
+      "telephone": "+65-6337-1666",
+      "fax": "+65-6337-1677",
+      "email": "KN.SINGAPORE@KUEHNE-NAGEL.COM",
+      "contactPerson": "JANET LEE"
+    },
+    "notifyParty": {
+      "name": "KUEHNE + NAGEL LTD.",
+      "address": "111 SOMERSET ROAD, #19-01, SINGAPORE 218164"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "ETHYLENE OXIDE",
+  "containers": [
+    {
+      "containerNumber": "CMAU7564912",
+      "sealNumber": 987654,
+      "marksAndNumbers": "BASF-EO123",
+      "numberOfPackages": 1,
+      "packageType": "DRUMS",
+      "cargoDescription": "ETHYLENE OXIDE - CLASS 3, UN 1285",
+      "grossWeight": 22000.0,
+      "measurement": 33.0,
+      "dangerousGoods": {
+        "unNumber": "1285",
+        "imoClass": "3",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 X 2) HIGH CUBIC CONTAINER ONLY",
+    "totalPackages": 1,
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "BASF-20241102-001",
+    "documentNumber": "BASF-20241102-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      {
+        "certificateType": "CERTIFICATE OF ORIGIN",
+        "issuingAuthority": "CHAMBER OF COMMERCE AND INDUSTRY, HAMBURG"
+      },
+      {
+        "certificateType": "SAFETY DATA SHEET",
+        "issuingAuthority": "BASF SE"
+      }
+    ],
+    "originalBLDistribution": {
+      "name": "KUEHNE + NAGEL LTD.",
+      "address": "111 SOMERSET ROAD, #19-01, SINGAPORE 218164",
+      "telephone": "+65-6337-1666",
+      "fax": "+65-6337-1677"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KUEHNE + NAGEL LTD.",
+      "address": "111 SOMERSET ROAD, #19-01, SINGAPORE 218164",
+      "telephone": "+65-6337-1666",
+      "fax": "+65-6337-1677"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1285"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3733809",
+    "unClass": "4",
+    "unCode": "1285",
+    "hsCode": "2623.73.35",
+    "flashPoint": "21\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410231429",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEUTSCHE BAHN AG",
+      "address": "POTSDAMER PLATZ 1, 10117 BERLIN, GERMANY",
+      "telephone": "+49 30 2501 0",
+      "fax": "+49 30 2501 2501",
+      "email": "INFO@DEUTSCHEBAHN.COM"
+    },
+    "consignee": {
+      "name": "CHINA RAILWAY GROUP LTD.",
+      "address": "NO. 6 CHENGFU ROAD, BEIJING 100031, CHINA",
+      "taxId": "91310000713333293Z",
+      "president": "MR. GUO YING",
+      "telephone": "+86 10 5129 8888",
+      "fax": "+86 10 5129 8889",
+      "email": "GUOYING@CRGROUP.COM.CN"
+    },
+    "notifyParty": {
+      "name": "CHINA SHIPPING AGENCY (NINGBO) CO., LTD.",
+      "address": "2ND FLOOR, OFFICE BUILDING NO. 3, NINGBO PORT, NO. 195 DONGQIANG ROAD, NINGBO, CHINA",
+      "taxId": "330301000035393",
+      "president": "MS. LIN MEI",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "860691",
+  "commodityDescription": "RAILWAY LOCOMOTIVE",
+  "containers": [
+    {
+      "containerNumber": "CMAU9856734",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "LOCOMOTIVE",
+      "containerType": "OPEN TOP",
+      "cargoDescription": "RAILWAY LOCOMOTIVE - AS PER PACKING LIST",
+      "grossWeight": 120000.0,
+      "measurement": 100.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 OT) OPEN TOP CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "LOCOMOTIVE",
+    "containerType": "OPEN TOP",
+    "totalGrossWeight": 120000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRIEDRICH-EBERT-PLATZ 1, 60325 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 7939 0",
+      "fax": "+49 69 7939 100",
+      "email": "INFO@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRIEDRICH-EBERT-PLATZ 1, 60325 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 7939 0",
+      "fax": "+49 69 7939 100",
+      "email": "INFO@DHL.COM"
+    },
+    "onboardDate": "2024-10-27 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 6795x2598x2626"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6795",
+    "width": "2598",
+    "height": "2626",
+    "overWidth": "158",
+    "overHeight": "36"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

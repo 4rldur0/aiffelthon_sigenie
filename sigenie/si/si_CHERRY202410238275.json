@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410238275",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FOODS CO. LTD.",
+      "address": "1234 SUNRISE ROAD, NINGBO, ZHEJIANG, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@SUNRISEFOODS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 200, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN SALMON FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4708217",
+      "sealNumber": "912373",
+      "marksAndNumbers": "SHIP3812025",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FROZEN SALMON FILLETS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' HC) HIGH CUBIC CONTAINER ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 200, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-11-06 20:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -13\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2817379",
+    "temperature": "-13\u00b0C",
+    "minTemperature": "-15\u00b0C",
+    "maxTemperature": "-11\u00b0C",
+    "ventilation": "35%",
+    "humidity": "72%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

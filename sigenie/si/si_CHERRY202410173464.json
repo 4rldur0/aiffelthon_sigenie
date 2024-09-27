@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410173464",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 ELECTRONICS RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@SUNRISEELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "888 GLOBAL TRADE CENTER, ROTTERDAM, NETHERLANDS 3000 AA",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GLOBALLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "888 GLOBAL TRADE CENTER, ROTTERDAM, NETHERLANDS 3000 AA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "090121",
+  "commodityDescription": "COFFEE BEANS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9675321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "COFFEE BEANS - SUNRISE ELECTRONICS",
+      "numberOfPackages": 100,
+      "packageType": "BAGS",
+      "cargoDescription": "COFFEE BEANS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 25000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9852311",
+      "sealNumber": "654321",
+      "marksAndNumbers": "COFFEE BEANS - SUNRISE ELECTRONICS",
+      "numberOfPackages": 100,
+      "packageType": "BAGS",
+      "cargoDescription": "COFFEE BEANS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 25000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9738125",
+      "sealNumber": "987654",
+      "marksAndNumbers": "COFFEE BEANS - SUNRISE ELECTRONICS",
+      "numberOfPackages": 100,
+      "packageType": "BAGS",
+      "cargoDescription": "COFFEE BEANS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 25000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 FR)",
+    "totalPackages": 300,
+    "packageType": "BAGS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 105.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "888 GLOBAL TRADE CENTER, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "1234 ELECTRONICS RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-10-25 18:00:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 2\u00b0C, VALUE: USD985,383"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1342427",
+    "temperature": "2\u00b0C",
+    "minTemperature": "0\u00b0C",
+    "maxTemperature": "4\u00b0C",
+    "ventilation": "66%",
+    "humidity": "63%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

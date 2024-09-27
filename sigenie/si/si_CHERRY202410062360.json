@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410062360",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO.",
+      "address": "123 SUNRISE ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SHIPPING@SUNRISEMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "101 WATERLOO ROAD, LONDON, ENGLAND SE1 8NU",
+      "taxId": "GB123456789",
+      "president": "Mr. JOHN SMITH",
+      "telephone": "+44 20 7999 8888",
+      "fax": "+44 20 7999 8887",
+      "email": "JOHN.SMITH@GLOBALS HIPPINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST NETHERLANDS LOGISTICS BV",
+      "address": "124 EUROPABOULEVARD, ROTTERDAM, NETHERLANDS 3011AA",
+      "taxId": "NL1234567890",
+      "president": "Ms. ANNA JONES",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5554"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871690",
+  "commodityDescription": "OUT-OF-GAUGE MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "containerType": "OPEN TOP",
+      "cargoDescription": "OUT-OF-GAUGE MACHINERY - AS PER PACKING LIST",
+      "grossWeight": 25000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 OT) OPEN TOP CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "OPEN TOP",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 72.732
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST NETHERLANDS LOGISTICS BV",
+      "address": "124 EUROPABOULEVARD, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5554",
+      "email": "ANNA.JONES@FIRSTNETHERLANDSLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "101 WATERLOO ROAD, LONDON, ENGLAND SE1 8NU",
+      "telephone": "+44 20 7999 8888",
+      "fax": "+44 20 7999 8887",
+      "email": "JOHN.SMITH@GLOBALS HIPPINGSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 9223x2686x2209, 21 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9223",
+    "width": "2686",
+    "height": "2209",
+    "overWidth": "246",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

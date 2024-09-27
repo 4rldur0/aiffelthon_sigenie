@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411223808",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HARVE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA PRECISION ENGINEERING CO LTD",
+      "address": "123 TAI SOON STREET, SINGAPORE 482123",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "consignee": {
+      "name": "DELTA GLOBAL LOGISTICS LTD",
+      "address": "10 RUE DE LA PAIX, 75000 PARIS, FRANCE",
+      "telephone": "+33-1-4567-8901",
+      "fax": "+33-1-4567-8902"
+    },
+    "notifyParty": {
+      "name": "DELTA GLOBAL LOGISTICS LTD",
+      "address": "10 RUE DE LA PAIX, 75000 PARIS, FRANCE",
+      "telephone": "+33-1-4567-8901",
+      "fax": "+33-1-4567-8902"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "SPECIALISED MANUFACTURING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "FRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPECIALISED MANUFACTURING EQUIPMENT",
+      "grossWeight": 25000.0,
+      "measurement": 80.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' FLAT RACK)",
+    "totalPackages": 1,
+    "packageType": "UNITS",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 80.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "salesOrderNumber": "SO9876543210",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA GLOBAL LOGISTICS LTD",
+      "address": "10 RUE DE LA PAIX, 75000 PARIS, FRANCE",
+      "telephone": "+33-1-4567-8901",
+      "fax": "+33-1-4567-8902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA GLOBAL LOGISTICS LTD",
+      "address": "10 RUE DE LA PAIX, 75000 PARIS, FRANCE",
+      "telephone": "+33-1-4567-8901",
+      "fax": "+33-1-4567-8902"
+    },
+    "onboardDate": "2024-12-03 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 2769x2029x2224, 14 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE",
+    "outOfGaugeDimensions": {
+      "length": 2769,
+      "width": 2029,
+      "height": 2224
+    }
+  },
+  "outOfGaugeDimensions": {
+    "length": "2769",
+    "width": "2029",
+    "height": "2224",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

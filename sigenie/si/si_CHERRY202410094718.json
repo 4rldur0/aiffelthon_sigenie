@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410094718",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TEXTILE CO., LTD.",
+      "onBehalfOf": "",
+      "address": "1234 CHEMICAL RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8654 3210",
+      "fax": "+86 574 8654 3211",
+      "email": "LI.MING@NINGBOCHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "MAASLANDERWEG 10, 3115 GR ROTTERDAM, NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "JANSSEN.PETER@EUROCHEM.NL"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN LOGISTICS BV",
+      "address": "WATERLOOSTRAAT 123, 3012 AB ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS - SODIUM HYPOCHLORITE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "SUDU9876543",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "DANGER CHEMICALS - SODIUM HYPOCHLORITE SOLUTION",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SODIUM HYPOCHLORITE SOLUTION - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "SUDU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "DANGER CHEMICALS - SODIUM HYPOCHLORITE SOLUTION",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SODIUM HYPOCHLORITE SOLUTION - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 FR X 2) DRY CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "DRUMS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241012001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "NINGBO CHEMICALS LTD.",
+      "address": "1234 CHEMICAL RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8654 3210",
+      "fax": "+86 574 8654 3211"
+    },
+    "onboardDate": "2024-10-17 16:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2958, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6297958",
+    "unClass": "8",
+    "unCode": "2958,",
+    "hsCode": "5721.42.18",
+    "flashPoint": "-11\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

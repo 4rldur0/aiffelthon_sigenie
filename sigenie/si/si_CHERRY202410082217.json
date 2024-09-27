@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410082217",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA ENTERPRISES INC.",
+      "address": "23 SHANXI ROAD, NINGBO, ZHEJIANG, CHINA 315040",
+      "lei": "987654321098765456",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "SHIPPING@BETAENTERPRISES.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING LTD",
+      "address": "22 CASTILLA STREET, MADRID, SPAIN 28001",
+      "usci": "ESB123456789",
+      "president": "JUAN PEREZ",
+      "telephone": "+34 91 567 8901",
+      "fax": "+34 91 567 8902",
+      "email": "INFO@ALPHAGLOBALTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL TRADING LTD",
+      "address": "22 CASTILLA STREET, MADRID, SPAIN 28001",
+      "usci": "ESB123456789",
+      "telephone": "+34 91 567 8901",
+      "fax": "+34 91 567 8902",
+      "email": "INFO@ALPHAGLOBALTRADING.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DANGEROUS CHEMICALS (UN 3115)",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-17 09:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 3115, VALUE: USD539,391"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4056143",
+    "unClass": "4",
+    "unCode": "3115,",
+    "hsCode": "5449.60.80",
+    "flashPoint": "-4\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

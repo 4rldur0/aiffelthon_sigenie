@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410037874",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO.",
+      "address": "123 INDUSTRIAL BOULEVARD, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@ASIAPACIFICMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "12 RUE DE LA LIBERTE, 76600 LE HAVRE, FRANCE",
+      "country": "FRANCE",
+      "email": "ORDERS@GLOBALIMPORTEXPORT.FR",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS FRANCE",
+      "address": "15 QUAI DE LA RIVIERE, 76600 LE HAVRE, FRANCE",
+      "country": "FRANCE",
+      "email": "NOTIFICATIONS@GLOBALLOGISTICSFRANCE.FR",
+      "telephone": "+33 2 35 78 90 12",
+      "fax": "+33 2 35 78 90 13"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL MERCHANDISE",
+  "containers": [
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "GENERAL MERCHANDISE",
+      "grossWeight": 20000.0,
+      "measurement": 56.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "GENERAL MERCHANDISE",
+      "grossWeight": 20000.0,
+      "measurement": 56.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY X 2)",
+    "totalPackages": 2000,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 112.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "12 RUE DE LA LIBERTE, 76600 LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "ORDERS@GLOBALIMPORTEXPORT.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "12 RUE DE LA LIBERTE, 76600 LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "ORDERS@GLOBALIMPORTEXPORT.FR"
+    },
+    "onboardDate": "2024-10-16 12:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

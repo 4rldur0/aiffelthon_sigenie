@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410158161",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS GMBH",
+      "address": "123 TECH STREET, FRANKFURT, 60311, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 69 1234 5678",
+      "email": "INFO@GLOBALTECHSOLUTIONS.DE"
+    },
+    "consignee": {
+      "name": "EUROASIA IMPORT EXPORT LTD",
+      "address": "123 TRADE AVENUE, LONDON, EC1A 2BS, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "IMPORT@EUROASIAIMPORTEXPORT.CO.UK",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568"
+    },
+    "notifyParty": {
+      "name": "EUROASIA LOGISTICS LTD",
+      "address": "123 LOGISTICS WAY, MANCHESTER, M1 1AE, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "OPERATIONS@EUROASIALOGISTICS.CO.UK",
+      "telephone": "+44 161 653 4567",
+      "fax": "+44 161 653 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "INFLAMMABLE LIQUIDS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DANGER - INFLAMMABLE",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "INFLAMMABLE LIQUIDS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER",
+    "totalPackages": 100,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241015-001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROASIA IMPORT EXPORT LTD",
+      "address": "123 TRADE AVENUE, LONDON, EC1A 2BS, UNITED KINGDOM",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "IMPORT@EUROASIAIMPORTEXPORT.CO.UK"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA IMPORT EXPORT LTD",
+      "address": "123 TRADE AVENUE, LONDON, EC1A 2BS, UNITED KINGDOM",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "IMPORT@EUROASIAIMPORTEXPORT.CO.UK"
+    },
+    "onboardDate": "2024-10-22 16:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2923"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2045658",
+    "unClass": "8",
+    "unCode": "2923",
+    "hsCode": "1516.53.85",
+    "flashPoint": "-3\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

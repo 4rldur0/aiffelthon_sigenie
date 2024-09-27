@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410188741",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI STEEL WORKS CO. LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "INFO@SHANGHAISTEELWORKS.CN"
+    },
+    "consignee": {
+      "name": "GREEN MOUNTAIN IMPORTS INC.",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "INFO@GREENMOUNTAINIMPORTS.NL",
+      "personincharge": "JAN SMITH"
+    },
+    "notifyParty": {
+      "name": "GREEN MOUNTAIN LOGISTICS BV",
+      "address": "9012 ROTTERDAM AVENUE, ROTTERDAM, NETHERLANDS, 3100AB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 5555 6789",
+      "fax": "+31 10 9999 1234",
+      "email": "CONTACT@GREENMOUNTAINLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "730210",
+  "commodityDescription": "STEEL BEAMS",
+  "containers": [
+    {
+      "containerNumber": "FRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "BULK",
+      "cargoDescription": "STEEL BEAMS",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) FLAT RACK CONTAINER",
+    "totalPackages": 1,
+    "totalpackageType": "BULK",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GREEN MOUNTAIN IMPORTS INC.",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "INFO@GREENMOUNTAINIMPORTS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN MOUNTAIN IMPORTS INC.",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "INFO@GREENMOUNTAINIMPORTS.NL"
+    },
+    "onboardDate": "2024-10-27 20:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 4178x2602x2702"
+  },
+  "outOfGaugeDimensions": {
+    "length": "4178",
+    "width": "2602",
+    "height": "2702",
+    "overWidth": "162",
+    "overHeight": "112"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

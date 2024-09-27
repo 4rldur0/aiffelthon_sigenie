@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410236206",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE PRECISION TECHNOLOGIES PTE LTD",
+      "address": "15 CHANGI BUSINESS PARK CRESCENT, #05-01 HONEYWELL BUILDING, SINGAPORE 486006",
+      "telephone": "+65 7588 9155",
+      "fax": "+65 7588 9200",
+      "email": "LIM.KWANGHEE@SGPRECISIONTECH.COM.SG"
+    },
+    "consignee": {
+      "name": "GENERAL AUTOMATION SYSTEMS S.A.S.",
+      "address": "25 RUE DE L'INNOVATION, PARC INDUSTRIEL DE L'ESTUAIRE, 76600 LE HAVRE, FRANCE",
+      "taxId": "",
+      "president": "Mr. Juan Perez",
+      "telephone": "+33 2 35 12 78 59",
+      "fax": "+33 2 35 12 80 01",
+      "email": "MARIE.DUBOIS@HAVREAUTOMATION.FR"
+    },
+    "notifyParty": {
+      "name": "LE HAVRE IMPORT SERVICES SARL",
+      "address": "10 QUAI DE SOUTHAMPTON, CENTRE D'AFFAIRES OC\u00c9ANE, 76600 LE HAVRE, FRANCE",
+      "taxId": "",
+      "president": "Ms. Maria Rodriguez",
+      "telephone": "33 2 35 20 33 77",
+      "fax": "+33 2 35 20 33 88"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "containerType": "40 DRY CONTAINER",
+      "cargoDescription": "DANGEROUS CHEMICALS - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 DRY CONTAINER)",
+    "totalPackages": 5,
+    "packageType": "PALLETS",
+    "containerType": "40 DRY CONTAINER",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 72.732
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-05 17:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2898"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8547271",
+    "unClass": "9",
+    "unCode": "2898",
+    "hsCode": "6483.67.79",
+    "flashPoint": "47\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

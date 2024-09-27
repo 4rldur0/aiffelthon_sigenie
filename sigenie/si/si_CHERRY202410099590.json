@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410099590",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC HEAVY INDUSTRIES",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4876543",
+      "sealNumber": "239127",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRAILERS AND SEMI-TRAILERS",
+      "grossWeight": 25000.0,
+      "measurement": 100.0,
+      "outOfGaugeDimensions": {
+        "length": 2299,
+        "width": 2716,
+        "height": 2653
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' FLAT RACK)",
+    "totalPackages": 1,
+    "packageType": "UNITS",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-10-16 16:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 2299x2716x2653"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2299",
+    "width": "2716",
+    "height": "2653",
+    "overWidth": "276",
+    "overHeight": "63"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

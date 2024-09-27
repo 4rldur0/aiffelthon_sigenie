@@ -1,130 +1,90 @@
 {
   "bookingReference": "CHERRY202411163229",
   "voyageDetails": {
-    "vesselName": "CMA CGM ZHENG HE",
-    "voyageNumber": "2024915W"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
   },
   "routeDetails": {
     "placeOfReceipt": "NINGBO",
     "portOfLoading": "NINGBO",
-    "portOfDischarge": "HAMBURG",
-    "placeOfDelivery": "HAMBURG"
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Telegraphic Transfer",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHIPPER 3185",
-      "address": "123 Industrial Zone, Ningbo, Zhejiang, China",
-      "telephone": "+86 574 8888 1111",
-      "fax": "+86 574 8888 2222"
+      "name": "ASIA PACIFIC MACHINERY CO.",
+      "onBeHalfOf": "",
+      "address": "1234 PRECISION ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "LIU.YONG@PRECISIONENGINEERING.CN"
     },
     "consignee": {
-      "name": "INVOICE RECEIVER 1579",
-      "address": "456 Trade Center, Hamburg, Germany",
-      "telephone": "+49 40 1234 5678",
-      "fax": "+49 40 1234 5679",
-      "email": "info@invoicereceiver.de",
-      "contactPerson": "Peter Smith"
+      "name": "EUROTECH MACHINERY BV",
+      "address": "INDUSTRIESTRAAT 10, 3065 NL ROTTERDAM, NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 4567 8901",
+      "fax": "+31 10 4567 8902",
+      "email": "INFO@EUROTECHMACHINERY.NL"
     },
     "notifyParty": {
-      "name": "CUSTOMER 7529",
-      "address": "789 Logistics Park, Hamburg, Germany",
-      "telephone": "+49 40 9876 5432",
-      "fax": "+49 40 9876 5433",
-      "email": "logistics@customer7529.de"
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "888 WORLDWIDE ROAD, ROTTERDAM, NETHERLANDS"
     }
   },
   "shippingTerm": "CY/CY",
-  "hsCode": "852580",
-  "commodityDescription": "RADIO TRANSMITTERS",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES, NUMERICALLY CONTROLLED",
   "containers": [
     {
-      "containerNumber": "MSCU3785694",
-      "sealNumber": "123456",
-      "marksAndNumbers": "CHERRY202411163229",
-      "numberOfPackages": 100,
-      "cargoDescription": "RADIO TRANSMITTERS",
-      "grossWeight": 22000.0,
-      "measurement": 30.0
-    },
-    {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "789012",
-      "marksAndNumbers": "CHERRY202411163229",
-      "numberOfPackages": 100,
-      "cargoDescription": "RADIO TRANSMITTERS",
-      "grossWeight": 22000.0,
-      "measurement": 30.0
-    },
-    {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "345678",
-      "marksAndNumbers": "CHERRY202411163229",
-      "numberOfPackages": 100,
-      "cargoDescription": "RADIO TRANSMITTERS",
-      "grossWeight": 22000.0,
-      "measurement": 30.0
-    },
-    {
-      "containerNumber": "MSCU8901234",
-      "sealNumber": "567890",
-      "marksAndNumbers": "CHERRY202411163229",
-      "numberOfPackages": 100,
-      "cargoDescription": "RADIO TRANSMITTERS",
-      "grossWeight": 22000.0,
-      "measurement": 30.0
-    },
-    {
-      "containerNumber": "MSCU5678901",
-      "sealNumber": "901234",
-      "marksAndNumbers": "CHERRY202411163229",
-      "numberOfPackages": 100,
-      "cargoDescription": "RADIO TRANSMITTERS",
-      "grossWeight": 22000.0,
-      "measurement": 30.0
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "MILLING MACHINES - NINGBO PRECISION",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "MILLING MACHINE - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "5 X 20' DRY CONTAINER",
-    "totalPackages": 500,
-    "totalGrossWeight": 110000.0,
-    "totalMeasurement": 150.0
+    "totalContainers": "ONE (20' DRY)",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
   "additionalInformation": {
-    "invoiceNumber": "ABC20241116-001",
-    "documentNumber": "20241116-SHIPPER3185-001",
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "C-20241116-001",
-      "CO-20241116-002"
-    ],
+    "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "INVOICE RECEIVER 1579",
-      "address": "456 Trade Center, Hamburg, Germany"
+      "name": "EUROTECH MACHINERY BV",
+      "address": "INDUSTRIESTRAAT 10, 3065 NL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 4567 8901",
+      "fax": "+31 10 4567 8902",
+      "email": "INFO@EUROTECHMACHINERY.NL"
     },
     "originalInvoiceDistribution": {
-      "name": "CUSTOMER 7529",
-      "address": "789 Logistics Park, Hamburg, Germany"
+      "name": "CHINA PRECISION ENGINEERING CO., LTD.",
+      "address": "1234 PRECISION ROAD, NINGBO, ZHEJIANG, 315000, CHINA"
     },
-    "onboardDate": "2024-11-22 12:15",
-    "additionalRemarks": "Cargo requires careful handling to avoid damage to delicate components."
+    "onboardDate": "2024-11-18 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC"
   },
-  "dangerousGoods": {
-    "containerNumber": "CRLU2992659",
-    "unClass": "3",
-    "unCode": "1263",
-    "hsCode": "3208.90",
-    "flashPoint": "Below 250 \u00b0C",
-    "additionalInfo": "Attached MSDS"
+  "containerDetails": {
+    "type": "DRY CONTAINER"
   }
 }

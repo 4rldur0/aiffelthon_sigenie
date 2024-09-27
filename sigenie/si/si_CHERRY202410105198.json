@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410105198",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA FOODS LTD",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL TRADING CO.",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@OMEGATRADING.DE",
+      "contactPerson": "KLAUS MUELLER"
+    },
+    "notifyParty": {
+      "name": "OMEGA GLOBAL TRADING CO."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030890",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "REFR4567890",
+      "sealNumber": 123456,
+      "marksAndNumbers": "DF-123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN FISH FILLETS - COD",
+      "grossWeight": 18500.0,
+      "measurement": 25.2,
+      "reeferSettings": {
+        "setTemperature": "-13",
+        "temperatureUnit": "CELSIUS"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' X 40') REEFER CONTAINER ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 18500.0,
+    "totalMeasurement": 25.2
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241010-1001",
+    "documentNumber": "20241010-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL TRADING CO.",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL TRADING CO.",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "onboardDate": "2024-10-26 09:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 13\u00b0C, VALUE: USD226,600"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3791642",
+    "temperature": "13\u00b0C",
+    "minTemperature": "11\u00b0C",
+    "maxTemperature": "15\u00b0C",
+    "ventilation": "71%",
+    "humidity": "67%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

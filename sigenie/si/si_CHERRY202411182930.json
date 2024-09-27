@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411182930",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "854239",
+  "commodityDescription": "CIRCUIT BREAKERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "APL202412",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - CIRCUIT BREAKERS",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411182345"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-12-03 20:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 3019, VALUE: USD815,681"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3785763",
+    "unClass": "4",
+    "unCode": "3019,",
+    "hsCode": "5396.46.74",
+    "flashPoint": "21\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

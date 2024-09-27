@@ -1,0 +1,138 @@
+{
+  "bookingReference": "CHERRY202410102329",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES CO.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GLOBALFREIGHTSOLUTIONS.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "SODIUM HYPOCHLORITE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CRLU4571916",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "SODIUM HYPOCHLORITE SOLUTION",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "dangerousGoods": {
+        "unNumber": "1406",
+        "class": "8",
+        "packingGroup": "II"
+      }
+    },
+    {
+      "containerNumber": "CRLU4595018",
+      "sealNumber": "724918",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "SODIUM HYPOCHLORITE SOLUTION",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "dangerousGoods": {
+        "unNumber": "1406",
+        "class": "8",
+        "packingGroup": "II"
+      }
+    },
+    {
+      "containerNumber": "CRLU4529806",
+      "sealNumber": "724921",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "SODIUM HYPOCHLORITE SOLUTION",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "dangerousGoods": {
+        "unNumber": "1406",
+        "class": "8",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HC X 3) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 300,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 174.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1406"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3352960",
+    "unClass": "8",
+    "unCode": "1406",
+    "hsCode": "1134.70.61",
+    "flashPoint": "47\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

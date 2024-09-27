@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410226059",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INTERNATIONAL TRADING CO.",
+      "onBeHalfOf": "",
+      "address": "1234 YONGFU ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "SALES@DELTAINTERNATIONAL.CN"
+    },
+    "consignee": {
+      "name": "OMEGA FREIGHT SOLUTIONS LTD.",
+      "address": "1234 PORT STREET, CASABLANCA, MOROCCO, 20250",
+      "companyNumber": "1234567890",
+      "telephone": "+212 522 9876 5432",
+      "fax": "+212 522 9876 5433",
+      "email": "OPERATIONS@OMEGAFREIGHT.COM"
+    },
+    "notifyParty": {
+      "name": "OMEGA FREIGHT SOLUTIONS LTD.",
+      "address": "1234 PORT STREET, CASABLANCA, MOROCCO, 20250"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030710",
+  "commodityDescription": "FRESH FISH",
+  "containers": [
+    {
+      "containerNumber": "CMAU3678952",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA FISH - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "FRESH FISH - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DELTA FISH - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "FRESH FISH - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 20' REEFER CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20' REEFER",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241026001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA FREIGHT SOLUTIONS LTD.",
+      "address": "1234 PORT STREET, CASABLANCA, MOROCCO, 20250",
+      "telephone": "+212 522 9876 5432",
+      "fax": "+212 522 9876 5433",
+      "email": "OPERATIONS@OMEGAFREIGHT.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA INTERNATIONAL TRADING CO.",
+      "address": "1234 YONGFU ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "SALES@DELTAINTERNATIONAL.CN"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 5\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4765560",
+    "temperature": "5\u00b0C",
+    "minTemperature": "3\u00b0C",
+    "maxTemperature": "7\u00b0C",
+    "ventilation": "10%",
+    "humidity": "79%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

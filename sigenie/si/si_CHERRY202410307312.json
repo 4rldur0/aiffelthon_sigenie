@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410307312",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL IMPORTERS LTD.",
+      "address": "222 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "additionalInfo": "",
+      "telephone": "+31 20 777 88 99",
+      "fax": "+31 20 777 88 66",
+      "email": "INFO@GLOBALIMPORTERS.NL"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD.",
+      "address": "250 TAMASEK BOULEVARD #08-01, SUNTEC TOWER THREE, SINGAPORE 038584",
+      "country": "SINGAPORE",
+      "telephone": "+65 6273 8888",
+      "fax": "+65 6273 9999",
+      "email": "DHL@DHL.COM.SG"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (UK) LTD.",
+      "address": "205 FIELDING STREET, LONDON, ENGLAND W1W 6LJ",
+      "country": "UNITED KINGDOM",
+      "telephone": "+44 20 7399 5555",
+      "fax": "+44 20 7399 6666",
+      "email": "INFO@DHL.CO.UK"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "381300",
+  "commodityDescription": "PARTS AND ACCESSORIES OF OTHER MACHINES AND MECHANICAL APPLIANCES.",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP3812025",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "DANGEROUS GOODS, CLASS: 3, UN NO: 1133. SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PARTS AND ACCESSORIES OF OTHER MACHINES AND MECHANICAL APPLIANCES.",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20FT DRY)",
+    "totalPackages": 10,
+    "totalGrossWeight": 10000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "DHL20241030001"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "DANGEROUS GOODS DECLARATION"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD.",
+      "address": "250 TAMASEK BOULEVARD #08-01, SUNTEC TOWER THREE, SINGAPORE 038584",
+      "country": "SINGAPORE",
+      "telephone": "+65 6273 8888",
+      "fax": "+65 6273 9999",
+      "email": "DHL@DHL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (UK) LTD.",
+      "address": "205 FIELDING STREET, LONDON, ENGLAND W1W 6LJ",
+      "country": "UNITED KINGDOM",
+      "telephone": "+44 20 7399 5555",
+      "fax": "+44 20 7399 6666",
+      "email": "INFO@DHL.CO.UK"
+    },
+    "onboardDate": "2024-11-05 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1133"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4145986",
+    "unClass": "6",
+    "unCode": "1133",
+    "hsCode": "8922.67.39",
+    "flashPoint": "5\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

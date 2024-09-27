@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410314167",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ IMPORT EXPORT LTD.",
+      "address": "288 HUANGPU ROAD, NINGBO 315010, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@XYZIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "ABC TRADING CO.",
+      "address": "123 ANNASTRAAT, 3011 CK ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457",
+      "email": "ORDERS@ABCTRADINGCO.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "456 CANAL STREET, 3012 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 765 4321",
+      "fax": "+31 10 765 4322",
+      "email": "OPERATIONS@WORLDWIDE-LOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950691",
+  "commodityDescription": "ARTICLES AND EQUIPMENT FOR GENERAL PHYSICAL EXERCISE, GYMNASTICS, SWIMMING, CAMPING, OR OTHER OUTDOOR ACTIVITIES",
+  "containers": [
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123456789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPORTS EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 FT DRY CONTAINER)",
+    "totalPackages": 100,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC TRADING CO.",
+      "address": "123 ANNASTRAAT, 3011 CK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457",
+      "email": "ORDERS@ABCTRADINGCO.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC TRADING CO.",
+      "address": "123 ANNASTRAAT, 3011 CK ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457",
+      "email": "ORDERS@ABCTRADINGCO.NL"
+    },
+    "onboardDate": "2024-11-13 20:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

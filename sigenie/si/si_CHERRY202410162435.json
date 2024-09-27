@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410162435",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL FOODS LTD.",
+      "address": "258 HUAIHAI ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86 21 6327 8888",
+      "fax": "+86 21 6327 9999",
+      "email": "INFO@SHANGHAIGLOBALFOODS.COM"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 GX, NETHERLANDS",
+      "taxId": "NL85674123456789",
+      "president": "MR. PETER VAN DER LINDEN",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@GOLDENSUNIMPORTS.COM"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 GX, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@GOLDENSUNIMPORTS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "318925",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN FISH - 1000 CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-10-30 08:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 1\u00b0C, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4404038",
+    "temperature": "1\u00b0C",
+    "minTemperature": "-1\u00b0C",
+    "maxTemperature": "3\u00b0C",
+    "ventilation": "7%",
+    "humidity": "70%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410252587",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 OCEAN VIEW STREET, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "email": "ZENLEE@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "888 CENTURY BOULEVARD, GDANSK, 80-802, POLAND",
+      "country": "POLAND",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4445"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS SP. Z O.O.",
+      "address": "123 HARBOR STREET, GDANSK, 80-803, POLAND",
+      "country": "POLAND",
+      "email": "INFO@BLUESKYLOGISTICS.PL",
+      "telephone": "+48 58 222 3333",
+      "fax": "+48 58 222 3334"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "190190",
+  "commodityDescription": "FLOUR",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "713198",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 800,
+      "packageType": "BAGS",
+      "cargoDescription": "FLOUR",
+      "grossWeight": 20000.0,
+      "measurement": 56.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "713199",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 800,
+      "packageType": "BAGS",
+      "cargoDescription": "FLOUR",
+      "grossWeight": 20000.0,
+      "measurement": 56.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HC X 2) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 1600,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 112.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "888 CENTURY BOULEVARD, GDANSK, 80-802, POLAND",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4445",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "888 CENTURY BOULEVARD, GDANSK, 80-802, POLAND",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4445",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-03 21:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 3406, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7040208",
+    "unClass": "7",
+    "unCode": "3406,",
+    "hsCode": "9526.26.72",
+    "flashPoint": "-6\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

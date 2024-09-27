@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410151203",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FROZEN DELIGHTS INC",
+      "address": "123 ICE COLD STREET, NINGBO, 315000",
+      "country": "CHINA",
+      "telephone": "+86 574 8654 3210",
+      "email": "ORDERS@FROZENDELIGHTS.COM"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN TRADING CO LTD",
+      "address": "234 HANSEATISCHE STRASSE, HAMBURG, 20457",
+      "country": "GERMANY",
+      "email": "INFO@GOLDENSUNTRADING.DE",
+      "telephone": "+49 40 3456 7890"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN TRADING CO LTD",
+      "address": "234 HANSEATISCHE STRASSE, HAMBURG, 20457",
+      "country": "GERMANY",
+      "email": "INFO@GOLDENSUNTRADING.DE",
+      "telephone": "+49 40 3456 7890"
+    }
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN SHRIMP",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "FROZEN SHRIMP CARGO - HANDLE WITH CARE",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN SHRIMP",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "FROZEN SHRIMP CARGO - HANDLE WITH CARE",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN SHRIMP",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "FROZEN SHRIMP CARGO - HANDLE WITH CARE",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN SHRIMP",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 40' REEFER CONTAINERS",
+    "totalPackages": 3000,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 105.0
+  },
+  "additionalInformation": {
+    "reeferSettings": {
+      "setTemperature": "-6\u00b0C",
+      "ventilation": "MINIMAL"
+    },
+    "onboardDate": "2024-10-22 16:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -6\u00b0C, VALUE: USD928,176"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8978014",
+    "temperature": "-6\u00b0C",
+    "minTemperature": "-8\u00b0C",
+    "maxTemperature": "-4\u00b0C",
+    "ventilation": "40%",
+    "humidity": "79%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

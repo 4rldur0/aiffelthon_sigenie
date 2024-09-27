@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410309522",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "HENKEL GMBH",
+      "address": "HENKELSTRASSE 67, 40589 DUSSELDORF, GERMANY",
+      "lei": "52990023W784V1C2L879",
+      "telephone": "+49 211 797 0",
+      "fax": "+49 211 798 4457",
+      "email": "INFO@HENKEL.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (CHINA) CO., LTD.",
+      "address": "UNIT 1001, 10F, SHANGHAI IFC TOWER, 8 CENTURY AVENUE, PUDONG, SHANGHAI 200120, CHINA",
+      "usci": "91320000MA11264X31",
+      "telephone": "+86 21 6123 8888",
+      "fax": "+86 21 6123 8899",
+      "email": "CUSTOMERSERVICE.CHINA@DHL.COM"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (GERMANY) GMBH & CO. KG",
+      "address": "POSTFACH 1204, 60006 FRANKFURT AM MAIN, GERMANY",
+      "usci": "91320000MA11264X31",
+      "telephone": "+49 69 5006 1000",
+      "fax": "+49 69 5006 1001",
+      "email": "CUSTOMERSERVICE.GERMANY@DHL.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU2200153",
+      "sealNumber": "100915",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OUT OF GAUGE TRAILER",
+      "grossWeight": 25000.0,
+      "measurement": 50.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 20 OPEN TOP) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "1 X 20 OPEN TOP",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (CHINA) CO., LTD.",
+      "address": "UNIT 1001, 10F, SHANGHAI IFC TOWER, 8 CENTURY AVENUE, PUDONG, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 8888",
+      "fax": "+86 21 6123 8899",
+      "email": "CUSTOMERSERVICE.CHINA@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (GERMANY) GMBH & CO. KG",
+      "address": "POSTFACH 1204, 60006 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 5006 1000",
+      "fax": "+49 69 5006 1001",
+      "email": "CUSTOMERSERVICE.GERMANY@DHL.COM"
+    },
+    "onboardDate": "2024-11-02 15:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 4019x2399x2778, VALUE: USD143,441, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "4019",
+    "width": "2399",
+    "height": "2778",
+    "overWidth": "0",
+    "overHeight": "188"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410053852",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE PRECISION MACHINERY PTE LTD",
+      "onBehalfOf": "",
+      "address": "NO. 1234, FENGHUA ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@NINGBOPRECISION.CN"
+    },
+    "consignee": {
+      "name": "EUROTECH ENGINEERING GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60329 FRANKFURT, GERMANY",
+      "companyNumber": "1234567890",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 5679",
+      "email": "SCHMIDT.PETER@EUROTECHENGINEERING.DE"
+    },
+    "notifyParty": {
+      "name": "EUROTECH LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60329 FRANKFURT, GERMANY"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "84798990",
+  "commodityDescription": "INDUSTRIAL ROBOT ARM - 6 AXIS",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "123456",
+      "marksAndNumbers": "NINGBO PRECISION ROBOT ARM - SHIPMENT 12345",
+      "numberOfPackages": 1,
+      "packageType": "CRATE",
+      "cargoDescription": "ONE (1) INDUSTRIAL ROBOT ARM - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 65.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) 20' FLAT RACK CONTAINER",
+    "totalPackages": 1,
+    "packageType": "CRATE",
+    "containerType": "20' FLAT RACK",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 65.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "NINGBO PRECISION ENGINEERING CO. LTD.",
+      "address": "NO. 1234, FENGHUA ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-10-18 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 9625x2228x2113"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9625",
+    "width": "2228",
+    "height": "2113",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

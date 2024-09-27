@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410199338",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC PRECISION ENGINEERING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 PRECISION RD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8666 7890",
+      "fax": "+86 574 8666 7891",
+      "email": "INFO@ASIAENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "EURO ROBOTICS BV",
+      "address": "WEGGEZICHT 123, 3068 AM ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@EUROROBOTICS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 WORLDWIDE WAY, NEW YORK, NY 10001, USA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84663090",
+  "commodityDescription": "INDUSTRIAL ROBOTIC ARMS AND COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "ROBOTIC ARMS - NINGBO PRECISION",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "ROBOTIC ARMS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 45.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9876544",
+      "sealNumber": "1234567891",
+      "marksAndNumbers": "ROBOTIC ARMS - NINGBO PRECISION",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "ROBOTIC ARMS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 45.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 FR X 2) FLAT RACK CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "CRATES",
+    "containerType": "20' FLAT RACK",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC PRECISION ENGINEERING CO. LTD.",
+      "address": "1234 PRECISION RD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8666 7890",
+      "fax": "+86 574 8666 7891"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 9870x2318x2838, VALUE: USD104,490"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9870",
+    "width": "2318",
+    "height": "2838",
+    "overWidth": "0",
+    "overHeight": "248"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

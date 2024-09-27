@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410094524",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA PRECISION ENGINEERING LTD.",
+      "address": "INDUSTRIAL STREET 12, FRANKFURT, GERMANY",
+      "telephone": "+49 69 79810000",
+      "fax": "+49 69 79810001",
+      "email": "SHIPPING@ALPHAENGINEERING.DE"
+    },
+    "consignee": {
+      "name": "BETA IMPORT & EXPORT CO. LTD.",
+      "address": "NINGBO PORT FREE TRADE ZONE, NINGBO, CHINA",
+      "taxId": "91321200765109788X",
+      "president": "MR. LIU JIANSHENG",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "IMPORT@BETAIMPORT.CN"
+    },
+    "notifyParty": {
+      "name": "ZENITH GLOBAL LOGISTICS GMBH",
+      "address": "HAMBURGER STRA\u00dfe 10, HAMBURG, GERMANY",
+      "telephone": "+49 40 3030 4000",
+      "fax": "+49 40 3030 4001",
+      "email": "OPERATIONS@ZENITHGLOBAL.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "ETHYLENE GLYCOL",
+  "containers": [
+    {
+      "containerNumber": "CMAU2421737",
+      "sealNumber": "318925",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "STEEL DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, YANTIAN, CHINA SAMPLE COMMODITY 17",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "STEEL DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 15.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "ZENITH GLOBAL LOGISTICS GMBH",
+      "address": "HAMBURGER STRA\u00dfe 10, HAMBURG, GERMANY",
+      "telephone": "+49 40 3030 4000",
+      "fax": "+49 40 3030 4001",
+      "email": "OPERATIONS@ZENITHGLOBAL.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH GLOBAL LOGISTICS GMBH",
+      "address": "HAMBURGER STRA\u00dfe 10, HAMBURG, GERMANY",
+      "telephone": "+49 40 3030 4000",
+      "fax": "+49 40 3030 4001",
+      "email": "OPERATIONS@ZENITHGLOBAL.DE"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 1883"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9189754",
+    "unClass": "3",
+    "unCode": "1883",
+    "hsCode": "9449.51.91",
+    "flashPoint": "75\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

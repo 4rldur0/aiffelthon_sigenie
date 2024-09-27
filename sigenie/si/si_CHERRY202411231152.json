@@ -1,0 +1,87 @@
+{
+  "bookingReference": "CHERRY202411231152",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION MACHINERY LTD.",
+      "address": "123 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33-1-4567-8901",
+      "fax": "+33-1-4567-8902"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS GMBH",
+      "address": "124 FRANKFURTER ALLE, BERLIN, GERMANY",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-5679",
+      "email": "INFO@GLOBALLOGISTICS.DE",
+      "contactPerson": "PETER SCHMIDT"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS GMBH"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CGXU9876543",
+      "sealNumber": 123456,
+      "marksAndNumbers": "PM1234",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "MILLING MACHINE - MODEL MM1000",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 X 2) HIGH CUBIC CONTAINER ONLY",
+    "totalPackages": 1,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241123-001",
+    "documentNumber": "20241123-001",
+    "lcDetails": {
+      "lcNumber": "LC202411231234"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS GMBH",
+      "address": "124 FRANKFURTER ALLE, BERLIN, GERMANY",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS GMBH",
+      "address": "124 FRANKFURTER ALLE, BERLIN, GERMANY",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-5679"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

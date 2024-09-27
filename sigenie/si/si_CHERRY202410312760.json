@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410312760",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA INTERNATIONAL TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 OCEAN ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "LIU.WEI@OMEGATRADING.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "1111 PORT ROAD, TANGER MED, MOROCCO",
+      "companyNumber": "1234567890",
+      "telephone": "+212 528 9999 1111",
+      "fax": "+212 528 9999 2222",
+      "email": "ZHANG.YONG@DELTASHIPPING.MA"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "1111 PORT ROAD, TANGER MED, MOROCCO"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030211",
+  "commodityDescription": "FROZEN SALMON FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "FROZEN SALMON - NINGBO",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN SALMON FILLETS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 25000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 20' REEFER CONTAINER",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20' REEFER",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 35.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "1111 PORT ROAD, TANGER MED, MOROCCO",
+      "telephone": "+212 528 9999 1111",
+      "fax": "+212 528 9999 2222",
+      "email": "ZHANG.YONG@DELTASHIPPING.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA INTERNATIONAL TRADING CO.",
+      "address": "1234 OCEAN ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "LIU.WEI@OMEGATRADING.CN"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 0\u00b0C, VALUE: USD458,520, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6730076",
+    "temperature": "0\u00b0C",
+    "minTemperature": "-2\u00b0C",
+    "maxTemperature": "2\u00b0C",
+    "ventilation": "71%",
+    "humidity": "67%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

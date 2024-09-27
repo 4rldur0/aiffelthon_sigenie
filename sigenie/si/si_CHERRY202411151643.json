@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411151643",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIES CO. LTD.",
+      "address": "123 SUNRISE STREET, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3000 AA, NETHERLANDS",
+      "taxId": "NL857563912B01",
+      "president": "MR. PETER SMITH",
+      "telephone": "+31 10 202 0202",
+      "fax": "+31 10 202 0203",
+      "email": "PETER.SMITH@GLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3000 AA, NETHERLANDS",
+      "taxId": "NL857563912B01",
+      "president": "MR. JOHN WILLIAMS",
+      "telephone": "+31 10 202 0202",
+      "fax": "+31 10 202 0203",
+      "email": "JOHN.WILLIAMS@GLOBALLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871630",
+  "commodityDescription": "OUT-OF-GAUGE MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "containerType": "40 OPEN TOP",
+      "cargoDescription": "OUT-OF-GAUGE MACHINERY - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    },
+    {
+      "containerNumber": "CMAU9751372",
+      "sealNumber": "517121",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "containerType": "40 OPEN TOP",
+      "cargoDescription": "OUT-OF-GAUGE MACHINERY - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 OT X 2) OPEN TOP CONTAINERS ONLY",
+    "totalPackages": 10,
+    "packageType": "PALLETS",
+    "containerType": "40 OPEN TOP",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 145.464
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241115001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-22 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 10355x2432x2447"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10355",
+    "width": "2432",
+    "height": "2447",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

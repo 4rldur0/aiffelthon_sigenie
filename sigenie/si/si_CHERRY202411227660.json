@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411227660",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREENLEAF IMPORT EXPORT",
+      "address": "2345 HUANGPU ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@GREENLEAFIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "EUROASIA COLD STORAGE",
+      "address": "UL. PORTOWA 12, 80-223 GDANSK, POLAND",
+      "taxId": "PL1234567890",
+      "president": "MR. JAN KOWALSKI",
+      "telephone": "+48 58 666 7777",
+      "fax": "+48 58 666 7778",
+      "email": "JAN.KOWALSKI@EUROASIACOLDSTORAGE.PL"
+    },
+    "notifyParty": {
+      "name": "EUROASIA FREIGHT FORWARDERS",
+      "address": "UL. WARSAWSKA 25, 00-500 WARSAW, POLAND",
+      "taxId": "PL9876543210",
+      "president": "MS. ANNA NOWAK",
+      "telephone": "+48 22 555 6666",
+      "fax": "+48 22 555 6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "containerType": "20 REEFER",
+      "cargoDescription": "FROZEN FISH - AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU9751372",
+      "sealNumber": "517121",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "containerType": "20 REEFER",
+      "cargoDescription": "FROZEN FISH - AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 REEFER X 2) REEFER CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20 REEFER",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 66.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "EUROASIA FREIGHT FORWARDERS",
+      "address": "UL. WARSAWSKA 25, 00-500 WARSAW, POLAND",
+      "telephone": "+48 22 555 6666",
+      "fax": "+48 22 555 6667",
+      "email": "ANNA.NOWAK@EUROASIACOLDSTORAGE.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA FREIGHT FORWARDERS",
+      "address": "UL. WARSAWSKA 25, 00-500 WARSAW, POLAND",
+      "telephone": "+48 22 555 6666",
+      "fax": "+48 22 555 6667",
+      "email": "ANNA.NOWAK@EUROASIACOLDSTORAGE.PL"
+    },
+    "onboardDate": "2024-12-11 20:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -18\u00b0C, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6050534",
+    "temperature": "-18\u00b0C",
+    "minTemperature": "-20\u00b0C",
+    "maxTemperature": "-16\u00b0C",
+    "ventilation": "56%",
+    "humidity": "90%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

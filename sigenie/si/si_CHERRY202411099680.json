@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411099680",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREEN TECH INDUSTRIES INC",
+      "onBeHalfOf": "",
+      "address": "1234 TECH WAY, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@GREENTECHINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING LTD.",
+      "address": "FRANKFURTER ALLEE 12, 20457 HAMBURG, GERMANY",
+      "companyNumber": "123456789",
+      "telephone": "+49 40 3333 7000",
+      "fax": "+49 40 3333 7001",
+      "email": "JANSSEN.EMMA@ASIAPACIFICTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILER FOR HEAVY EQUIPMENT TRANSPORT",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "TRAILER - GREEN TECH INDUSTRIES",
+      "numberOfPackages": 1,
+      "packageType": "TRAILER",
+      "cargoDescription": "OUT OF GAUGE TRAILER - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 25000.0,
+      "measurement": 96.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) x 40' FLAT RACK",
+    "totalPackages": 1,
+    "packageType": "TRAILER",
+    "containerType": "40' FLAT RACK",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 96.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING LTD.",
+      "address": "FRANKFURTER ALLEE 12, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 3333 7000",
+      "fax": "+49 40 3333 7001",
+      "email": "JANSSEN.EMMA@ASIAPACIFICTRADING.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN TECH INDUSTRIES INC.",
+      "address": "1234 TECH WAY, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@GREENTECHINDUSTRIES.CN"
+    },
+    "onboardDate": "2024-11-14 20:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 9527x2546x2007, VALUE: USD23,051"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9527",
+    "width": "2546",
+    "height": "2007",
+    "overWidth": "106",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

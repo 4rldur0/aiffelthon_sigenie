@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410264547",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI HEAVY INDUSTRIES CO., LTD.",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "SUNRISE GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@SUNRISEGLOBAL.NL",
+      "contactPerson": "JAN VAN DER MEER"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL LOGISTICS INC."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILER, OUT OF GAUGE",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289451",
+      "sealNumber": 345901,
+      "marksAndNumbers": "SHI-123",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "TRAILER - OUT OF GAUGE",
+      "grossWeight": 25000.0,
+      "measurement": 80.0,
+      "outOfGaugeDimensions": {
+        "length": 3038,
+        "width": 2251,
+        "height": 2060
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 X 2) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 1,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 80.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241026-1001",
+    "documentNumber": "20241026-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241026-001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 3038x2251x2060, VALUE: USD822,027, 14 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3038",
+    "width": "2251",
+    "height": "2060",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

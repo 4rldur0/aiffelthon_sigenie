@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410013533",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TAIHAN GLOBAL CO. LTD.",
+      "address": "1234 MAIN STREET, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 1234567",
+      "fax": "+86 574 1234568",
+      "email": "SHIPPING@TAIHANGLOBAL.COM"
+    },
+    "consignee": {
+      "name": "ALPHA TRADING CO. LTD.",
+      "address": "5678 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8556789012345",
+      "president": "MR. JAN SMITH",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 1234568",
+      "email": "INFO@ALPHATRADING.NL"
+    },
+    "notifyParty": {
+      "name": "ALPHA TRADING LOGISTICS",
+      "address": "9012 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 9876543",
+      "fax": "+31 10 9876544",
+      "email": "LOGISTICS@ALPHATRADING.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "310210",
+  "commodityDescription": "UREA",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 20,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: UREA",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 20,
+    "packageType": "BAGS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2325, VALUE: USD801,848, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2234005",
+    "unClass": "2",
+    "unCode": "2325,",
+    "hsCode": "5267.28.51",
+    "flashPoint": "53\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

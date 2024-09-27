@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411039925",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENGINEERING LTD.",
+      "address": "123 ASIA PACIFIC AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "ENGINEERING@ASIA-PACIFIC.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 GLOBAL WAY, GDANSK, 80-855, POLAND",
+      "country": "POLAND",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "telephone": "+48 58 765 4321",
+      "fax": "+48 58 765 4322"
+    },
+    "notifyParty": {
+      "name": "POLISH LOGISTICS GROUP SP. Z O.O.",
+      "address": "123 POLSKA STREET, GDANSK, 80-855, POLAND",
+      "country": "POLAND",
+      "email": "POLISHLOGISTICS@GMAIL.COM",
+      "telephone": "+48 58 987 6543",
+      "fax": "+48 58 987 6544"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "MACHINERY FOR WORKING METAL, NOT SPECIFIED ELSEWHERE IN THIS CHAPTER.",
+  "containers": [
+    {
+      "containerNumber": "CRLU4927001",
+      "sealNumber": "713194",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 1,
+      "packageType": "PIECE",
+      "cargoDescription": "INDUSTRIAL MACHINERY",
+      "grossWeight": 25000.0,
+      "measurement": 100.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 40') CONTAINER",
+    "totalPackages": 1,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241103001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 GLOBAL WAY, GDANSK, 80-855, POLAND",
+      "telephone": "+48 58 765 4321",
+      "fax": "+48 58 765 4322",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 GLOBAL WAY, GDANSK, 80-855, POLAND",
+      "telephone": "+48 58 765 4321",
+      "fax": "+48 58 765 4322",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-11 19:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 11384x2842x2601, VALUE: USD593,021, UNDER DECK TOP STOWAGE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "11384",
+    "width": "2842",
+    "height": "2601",
+    "overWidth": "402",
+    "overHeight": "11"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

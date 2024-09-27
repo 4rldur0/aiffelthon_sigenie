@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411157550",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "NESTLE SA",
+      "address": "AVENUE NESTLE 55, VEVEY 1800, SWITZERLAND",
+      "country": "SWITZERLAND",
+      "additionalInfo": "",
+      "telephone": "+41 21 924 11 11",
+      "email": "INFO@NESTLE.COM"
+    },
+    "consignee": {
+      "name": "DANONE INTERNATIONAL B.V.",
+      "address": "ZUIDERHOEK 12, 1213 BG, HILLVERSSUM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@DANONE.COM",
+      "telephone": "+31 20 632 46 00",
+      "fax": "+31 20 632 46 99"
+    },
+    "notifyParty": {
+      "name": "DANONE INTERNATIONAL B.V. - LOGISTICS DEPARTMENT",
+      "address": "ZUIDERHOEK 12, 1213 BG, HILLVERSSUM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "LOGISTICS@DANONE.COM",
+      "telephone": "+31 20 632 46 00",
+      "fax": "+31 20 632 46 99"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "180632",
+  "commodityDescription": "CHOCOLATE POWDER",
+  "containers": [
+    {
+      "containerNumber": "CRLU4927001",
+      "sealNumber": "713194",
+      "marksAndNumbers": "NESTLE CHOCOLATE POWDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHOCOLATE POWDER",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU4961926",
+      "sealNumber": "713176",
+      "marksAndNumbers": "NESTLE CHOCOLATE POWDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHOCOLATE POWDER",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU4976543",
+      "sealNumber": "713180",
+      "marksAndNumbers": "NESTLE CHOCOLATE POWDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHOCOLATE POWDER",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY CONTAINER)",
+    "totalPackages": 3000,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 99.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DANONE INTERNATIONAL B.V.",
+      "address": "ZUIDERHOEK 12, 1213 BG, HILLVERSSUM, NETHERLANDS",
+      "telephone": "+31 20 632 46 00",
+      "fax": "+31 20 632 46 99",
+      "email": "LOGISTICS@DANONE.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DANONE INTERNATIONAL B.V.",
+      "address": "ZUIDERHOEK 12, 1213 BG, HILLVERSSUM, NETHERLANDS",
+      "telephone": "+31 20 632 46 00",
+      "fax": "+31 20 632 46 99",
+      "email": "LOGISTICS@DANONE.COM"
+    },
+    "onboardDate": "2024-11-20 22:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

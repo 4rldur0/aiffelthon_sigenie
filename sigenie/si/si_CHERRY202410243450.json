@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410243450",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING PTE LTD",
+      "address": "1234 TAIWAN STREET, SINGAPORE 546789",
+      "country": "SINGAPORE",
+      "additionalInfo": "(BLOCK 10, UNIT 12)",
+      "telephone": "+65 6789 0123",
+      "email": "SALES@PRECISIONENGINEERING.COM.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "4567 PARIS BOULEVARD, PARIS, 75001, FRANCE",
+      "country": "FRANCE",
+      "email": "ORDERS@GLOBALLOGISTICS.FR",
+      "telephone": "+33 1 2345 6789"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "4567 PARIS BOULEVARD, PARIS, 75001, FRANCE",
+      "country": "FRANCE",
+      "email": "ORDERS@GLOBALLOGISTICS.FR",
+      "telephone": "+33 1 2345 6789"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "902110",
+  "commodityDescription": "THERMOSTATS FOR TEMPERATURE REGULATION",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "PRECISION ENGINEERING PTE LTD",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "THERMOSTATS FOR TEMPERATURE REGULATION",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 40' REEFER CONTAINER",
+    "totalPackages": 100,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 35.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000123456789"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "4567 PARIS BOULEVARD, PARIS, 75001, FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6790",
+      "email": "ORDERS@GLOBALLOGISTICS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "4567 PARIS BOULEVARD, PARIS, 75001, FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6790",
+      "email": "ORDERS@GLOBALLOGISTICS.FR"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 19\u00b0C, 30 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6127773",
+    "temperature": "19\u00b0C",
+    "minTemperature": "17\u00b0C",
+    "maxTemperature": "21\u00b0C",
+    "ventilation": "93%",
+    "humidity": "76%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

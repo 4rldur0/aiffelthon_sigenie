@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411026976",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA CHEMICALS CO. LTD.",
+      "address": "123 CHEMICAL STREET, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@BETACHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORTS LTD.",
+      "address": "124 IMPORT STREET, ROTTERDAM, SOUTH HOLLAND, NETHERLANDS",
+      "taxId": "NL854321678",
+      "president": "MR. JAN VAN DER LEEUW",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@ALPHAIMPORTS.NL"
+    },
+    "notifyParty": {
+      "name": "DELTA LOGISTICS B.V.",
+      "address": "125 WAREHOUSE STREET, ROTTERDAM, SOUTH HOLLAND, NETHERLANDS",
+      "telephone": "+31 10 333 3333",
+      "fax": "+31 10 333 3334",
+      "email": "INFO@DELTA-LOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "381700",
+  "commodityDescription": "MIXTURES OF ODORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MIXTURES OF ODORS",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 15.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411026976"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL IMPORTS LTD.",
+      "address": "124 IMPORT STREET, ROTTERDAM, SOUTH HOLLAND, NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@ALPHAIMPORTS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL IMPORTS LTD.",
+      "address": "124 IMPORT STREET, ROTTERDAM, SOUTH HOLLAND, NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@ALPHAIMPORTS.NL"
+    },
+    "onboardDate": "2024-11-12 16:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2684"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7431742",
+    "unClass": "5",
+    "unCode": "2684",
+    "hsCode": "4729.82.91",
+    "flashPoint": "79\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

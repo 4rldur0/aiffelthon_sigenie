@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410198789",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679",
+      "email": "SHIPMENT@ASIAPACIFIC.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 EUROPESE STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8123456789",
+      "president": "MR. PETER SMITH",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "SHIPPING@GLOBALFREIGHT.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 EUROPESE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "SHIPPING@GLOBALFREIGHT.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "TRAILER",
+      "cargoDescription": "OUT OF GAUGE TRAILER",
+      "grossWeight": 15000.0,
+      "measurement": 65.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "TRAILER",
+    "containerType": "FLAT RACK",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 65.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 EUROPESE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "SHIPPING@GLOBALFREIGHT.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 EUROPESE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "SHIPPING@GLOBALFREIGHT.COM"
+    },
+    "onboardDate": "2024-11-07 15:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 6989x2148x2915"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6989",
+    "width": "2148",
+    "height": "2915",
+    "overWidth": "0",
+    "overHeight": "325"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

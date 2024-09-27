@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410026965",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson ROAD, SINGAPORE 079903",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "EURO GLOBAL LOGISTICS S.A.",
+      "address": "CALLE DE LA ZONA INDUSTRIAL 12, 11300 CADIZ, SPAIN",
+      "telephone": "+34-956-123-456",
+      "fax": "+34-956-123-457",
+      "email": "INFO@EUROGLOBAL.ES",
+      "contactPerson": "MARIA RODRIGUEZ"
+    },
+    "notifyParty": {
+      "name": "PANAMA INTERNATIONAL LOGISTICS INC.",
+      "address": "123 BROADWAY, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "FCIU8756321",
+      "sealNumber": 123456,
+      "marksAndNumbers": "APTL-123",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "OUT-OF-GAUGE TRAILER - MODEL ST2000",
+      "grossWeight": 25000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' FLAT RACK)",
+    "totalPackages": 1,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241027-1001",
+    "documentNumber": "20241027-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EURO GLOBAL LOGISTICS S.A.",
+      "address": "CALLE DE LA ZONA INDUSTRIAL 12, 11300 CADIZ, SPAIN",
+      "telephone": "+34-956-123-456",
+      "fax": "+34-956-123-457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "PANAMA INTERNATIONAL LOGISTICS INC.",
+      "address": "123 BROADWAY, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 2062x2034x2783, VALUE: USD409,503, 30 DAYS FREE TIME AT DESTINATION",
+    "outOfGaugeDimensions": {
+      "length": 20620,
+      "width": 2034,
+      "height": 2783
+    }
+  },
+  "outOfGaugeDimensions": {
+    "length": "2062",
+    "width": "2034",
+    "height": "2783",
+    "overWidth": "0",
+    "overHeight": "193"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

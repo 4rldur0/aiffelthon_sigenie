@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410137417",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BAUMANN GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 12345678",
+      "email": "INFO@BAUMANN.DE"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "ZINFELSER STRASSE 123, 60487 FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 12345678",
+      "email": "INFO@DHL.COM"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "ZINFELSER STRASSE 123, 60487 FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 12345678",
+      "email": "INFO@DHL.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "LATHE MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "LATHE MACHINE 1",
+      "numberOfPackages": 1,
+      "packageType": "PIECES",
+      "cargoDescription": "LATHE MACHINE",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "LATHE MACHINE 2",
+      "numberOfPackages": 1,
+      "packageType": "PIECES",
+      "cargoDescription": "LATHE MACHINE",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "LATHE MACHINE 3",
+      "numberOfPackages": 1,
+      "packageType": "PIECES",
+      "cargoDescription": "LATHE MACHINE",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 20' OPEN TOP CONTAINERS",
+    "totalPackages": 3,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 180.0
+  },
+  "additionalInformation": {
+    "outOfGaugeDimensions": {
+      "length": 11288,
+      "width": 2485,
+      "height": 2928
+    },
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "ZINFELSER STRASSE 123, 60487 FRANKFURT, GERMANY",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679",
+      "email": "INFO@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "ZINFELSER STRASSE 123, 60487 FRANKFURT, GERMANY",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679",
+      "email": "INFO@DHL.COM"
+    },
+    "onboardDate": "2024-10-19 21:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 11288x2485x2928, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "11288",
+    "width": "2485",
+    "height": "2928",
+    "overWidth": "45",
+    "overHeight": "338"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

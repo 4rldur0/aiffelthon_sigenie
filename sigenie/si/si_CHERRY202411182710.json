@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411182710",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "TANGER MED, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA FOODS EXPORTERS CO. LTD",
+      "address": "NO. 23, HONGQIAO ROAD, BEILUN DISTRICT, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8625 7890",
+      "fax": "+86 574 8625 7891",
+      "email": "EXPORT@DELTAFOODS.COM.CN"
+    },
+    "consignee": {
+      "name": "OMEGA INTERNATIONAL LOGISTICS LTD",
+      "address": "12 RUE MOHAMMED V, CASABLANCA, MOROCCO",
+      "taxId": "12345678901234",
+      "president": "MR. ABDELHAMID MOHAMED",
+      "telephone": "+212 522 456789",
+      "fax": "+212 522 456780",
+      "email": "INFO@OMEGAINTLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "MARINE CARGO SERVICES S.A.",
+      "address": "PORT TANGER MED FREE ZONE, BUILDING B, OFFICE 302, TANGER MED, MOROCCO",
+      "telephone": "+212 539 987654",
+      "fax": "+212 539 987653",
+      "email": "OPERATIONS@MARINECARGOSERVICES.MA"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030811",
+  "commodityDescription": "FROZEN SQUID",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA FOODS EXPORTERS CO. LTD",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN SQUID, SQUID, -12\u00b0C",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' REEFER X 1) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20' REEFER",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED BY THE CHAMBER OF COMMERCE, NINGBO",
+    "originalBLDistribution": {
+      "name": "OMEGA INTERNATIONAL LOGISTICS LTD",
+      "address": "12 RUE MOHAMMED V, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 456789",
+      "fax": "+212 522 456780",
+      "email": "INFO@OMEGAINTLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA INTERNATIONAL LOGISTICS LTD",
+      "address": "12 RUE MOHAMMED V, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 456789",
+      "fax": "+212 522 456780",
+      "email": "INFO@OMEGAINTLOGISTICS.COM"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -12\u00b0C, VALUE: USD656,367, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6903872",
+    "temperature": "-12\u00b0C",
+    "minTemperature": "-14\u00b0C",
+    "maxTemperature": "-10\u00b0C",
+    "ventilation": "63%",
+    "humidity": "82%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410084551",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA FOOD IMPORT & EXPORT CO. LTD",
+      "address": "NO. 123 HAIMEN ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8756 9000",
+      "fax": "+86 574 8756 9001",
+      "email": "LI.WEN@CHINAFOODIMPORTEXPORT.CN"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "WALDHUFTSTRASSE 23, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 3613 8300",
+      "fax": "+49 40 3613 8301",
+      "email": "CONTACT@DHL-GLOBALFORWARDING.DE",
+      "personincharge": "ANNA SCHMIDT"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "WALDHUFTSTRASSE 23, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 3613 8300",
+      "fax": "+49 40 3613 8301",
+      "email": "CONTACT@DHL-GLOBALFORWARDING.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "900378",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FROZEN FISH",
+      "grossWeight": 25000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 40' REEFER) CONTAINER ONLY",
+    "totalPackages": 500,
+    "totalpackageType": "CARTONS",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 35.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC231024001"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "WALDHUFTSTRASSE 23, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 3613 8300",
+      "fax": "+49 40 3613 8301",
+      "email": "CONTACT@DHL-GLOBALFORWARDING.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "WALDHUFTSTRASSE 23, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 3613 8300",
+      "fax": "+49 40 3613 8301",
+      "email": "CONTACT@DHL-GLOBALFORWARDING.DE"
+    },
+    "onboardDate": "2024-10-13 20:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 6\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4623162",
+    "temperature": "6\u00b0C",
+    "minTemperature": "4\u00b0C",
+    "maxTemperature": "8\u00b0C",
+    "ventilation": "15%",
+    "humidity": "78%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

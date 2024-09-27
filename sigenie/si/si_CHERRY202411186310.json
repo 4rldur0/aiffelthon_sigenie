@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411186310",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FOODS LTD.",
+      "address": "123 OCEAN VIEW STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SUNRISEFOODS@SUNRISEFOODS.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 MARKET STREET, GDANSK, POLAND 80-801",
+      "taxId": "PL1234567890",
+      "president": "MR. JAN KOWALSKI",
+      "telephone": "+48 58 777 7777",
+      "fax": "+48 58 777 7778",
+      "email": "JAN.KOWALSKI@GLOBALLOGISTICS.PL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 MARKET STREET, GDANSK, POLAND 80-801",
+      "taxId": "PL1234567890",
+      "president": "MR. JAN KOWALSKI",
+      "telephone": "+48 58 777 7777",
+      "fax": "+48 58 777 7778",
+      "email": "JAN.KOWALSKI@GLOBALLOGISTICS.PL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "containerType": "40' REEFER",
+      "cargoDescription": "FROZEN FISH - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' REEFER)",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "40' REEFER",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 72.732
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 MARKET STREET, GDANSK, POLAND 80-801",
+      "telephone": "+48 58 777 7777",
+      "fax": "+48 58 777 7778",
+      "email": "JAN.KOWALSKI@GLOBALLOGISTICS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 MARKET STREET, GDANSK, POLAND 80-801",
+      "telephone": "+48 58 777 7777",
+      "fax": "+48 58 777 7778",
+      "email": "JAN.KOWALSKI@GLOBALLOGISTICS.PL"
+    },
+    "onboardDate": "2024-11-23 22:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 2\u00b0C, VALUE: USD832,810, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4578721",
+    "temperature": "2\u00b0C",
+    "minTemperature": "0\u00b0C",
+    "maxTemperature": "4\u00b0C",
+    "ventilation": "1%",
+    "humidity": "64%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

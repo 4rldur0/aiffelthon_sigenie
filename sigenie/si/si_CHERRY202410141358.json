@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410141358",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TECH CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 TECH STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "INFO@SUNRISETECH.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3011 AA",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3011 AA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871630",
+  "commodityDescription": "OUT-OF-GAUGE CONSTRUCTION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SUNRISE TECH - NINGBO",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "OUT-OF-GAUGE CONSTRUCTION EQUIPMENT",
+      "grossWeight": 20000.0,
+      "measurement": 65.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 40' OPEN TOP CONTAINER",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "OPEN TOP",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 65.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TECH CO. LTD.",
+      "address": "1234 TECH STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "INFO@SUNRISETECH.CN"
+    },
+    "onboardDate": "2024-10-24 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 3565x2351x2462, VALUE: USD623,831, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3565",
+    "width": "2351",
+    "height": "2462",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

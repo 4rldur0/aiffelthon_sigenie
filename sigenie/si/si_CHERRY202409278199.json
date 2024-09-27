@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202409278199",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "AVENIDA DE ESPA\u00d1A, 123, MADRID, SPAIN",
+      "telephone": "+34-91-234-5678",
+      "fax": "+34-91-234-5679",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "38249990",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289453",
+      "sealNumber": 345902,
+      "marksAndNumbers": "BM-123",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS - MODEL DC1000",
+      "grossWeight": 15000.0,
+      "measurement": 20.0,
+      "dangerousGoods": {
+        "unNumber": "2009",
+        "class": "8",
+        "packingGroup": "II"
+      }
+    },
+    {
+      "containerNumber": "CGXU4289454",
+      "sealNumber": 279568,
+      "marksAndNumbers": "BM-124",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS - MODEL DC1000",
+      "grossWeight": 15000.0,
+      "measurement": 20.0,
+      "dangerousGoods": {
+        "unNumber": "2009",
+        "class": "8",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 X 40) CONTAINER ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1002",
+    "documentNumber": "20241004-1002",
+    "lcDetails": {
+      "lcNumber": "LC20241004"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "AVENIDA DE ESPA\u00d1A, 123, MADRID, SPAIN",
+      "telephone": "+34-91-234-5678",
+      "fax": "+34-91-234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "AVENIDA DE ESPA\u00d1A, 123, MADRID, SPAIN",
+      "telephone": "+34-91-234-5678",
+      "fax": "+34-91-234-5679"
+    },
+    "onboardDate": "2024-10-14 10:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2009, HANDLE WITH CARE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9224668",
+    "unClass": "7",
+    "unCode": "2009,",
+    "hsCode": "2539.41.18",
+    "flashPoint": "6\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

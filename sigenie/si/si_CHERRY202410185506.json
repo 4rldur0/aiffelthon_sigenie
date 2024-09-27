@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202410185506",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI DRAGON IMPORTS CO. LTD.",
+      "address": "NO. 123, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-87654321",
+      "fax": "+86-21-87654322"
+    },
+    "consignee": {
+      "name": "SILVER STAR TRADING LLC",
+      "address": "NO. 456, ZHIYONG ROAD, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-87654321",
+      "fax": "+31-10-87654322"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 789, ZHONGLI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-87654323",
+      "fax": "+86-21-87654324"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4876543",
+      "sealNumber": "239127",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DANGEROUS CHEMICALS",
+      "grossWeight": 12000.0,
+      "measurement": 54.0,
+      "dangerousGoods": {
+        "unNumber": "2256",
+        "class": "8",
+        "packingGroup": "II"
+      }
+    },
+    {
+      "containerNumber": "CRLU4843210",
+      "sealNumber": "239129",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DANGEROUS CHEMICALS",
+      "grossWeight": 12000.0,
+      "measurement": 54.0,
+      "dangerousGoods": {
+        "unNumber": "2256",
+        "class": "8",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY X 2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 108.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "SILVER STAR TRADING LLC",
+      "address": "NO. 456, ZHIYONG ROAD, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-87654321",
+      "fax": "+31-10-87654322"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SILVER STAR TRADING LLC",
+      "address": "NO. 456, ZHIYONG ROAD, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-87654321",
+      "fax": "+31-10-87654322"
+    },
+    "onboardDate": "2024-10-28 09:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2256, 7 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5961594",
+    "unClass": "9",
+    "unCode": "2256,",
+    "hsCode": "2805.35.48",
+    "flashPoint": "69\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

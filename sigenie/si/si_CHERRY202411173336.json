@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202411173336",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "GINGER GLOBAL LOGISTICS LTD.",
+      "address": "555 JALAN TUN RAZAK, KUALA LUMPUR, 50400, MALAYSIA",
+      "country": "MALAYSIA",
+      "email": "ORDERS@GINGERGLOBAL.COM.MY",
+      "telephone": "+60 3 2163 5678"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871680",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4571916",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "TRAILER",
+      "grossWeight": 25000.0,
+      "measurement": 85.0,
+      "outOfGaugeDimensions": {
+        "length": 12000,
+        "width": 2500,
+        "height": 3000
+      }
+    },
+    {
+      "containerNumber": "CRLU4595018",
+      "sealNumber": "724918",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "TRAILER",
+      "grossWeight": 25000.0,
+      "measurement": 85.0,
+      "outOfGaugeDimensions": {
+        "length": 12000,
+        "width": 2500,
+        "height": 3000
+      }
+    },
+    {
+      "containerNumber": "CRLU4529806",
+      "sealNumber": "724921",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "TRAILER",
+      "grossWeight": 25000.0,
+      "measurement": 85.0,
+      "outOfGaugeDimensions": {
+        "length": 12000,
+        "width": 2500,
+        "height": 3000
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE X 3)",
+    "totalPackages": 3,
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 255.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 5090x2229x2570, VALUE: USD268,053"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5090",
+    "width": "2229",
+    "height": "2570",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

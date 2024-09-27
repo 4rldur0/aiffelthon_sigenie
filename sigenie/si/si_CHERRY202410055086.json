@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410055086",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS PTE LTD",
+      "address": "123 JURONG EAST STREET 31, SINGAPORE 609505",
+      "country": "SINGAPORE",
+      "additionalInfo": "ATTN: MR. LEE CHENG",
+      "telephone": "+65 6567 8901",
+      "fax": "+65 6567 8902",
+      "email": "LEE.CHENG@APCHEM.SG"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "DE KOEIJEN 12, 3061 BE ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@EUROCHEM.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "12345 HONG KONG STREET, SINGAPORE 012345",
+      "country": "SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@GLOBALTRADING.SG"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "NITRIC ACID SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CMAU9567832",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "GTCL20241027",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NITRIC ACID SOLUTION",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY)",
+    "totalPackages": 100,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "MSDS"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROCHEM BV",
+      "address": "DE KOEIJEN 12, 3061 BE ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@EUROCHEM.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "12345 HONG KONG STREET, SINGAPORE 012345",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@GLOBALTRADING.SG"
+    },
+    "onboardDate": "2024-10-21 02:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1797, KEEP DRY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4859311",
+    "unClass": "4",
+    "unCode": "1797,",
+    "hsCode": "7134.21.56",
+    "flashPoint": "-10\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

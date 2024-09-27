@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411256972",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI HEAVY MACHINERY CO., LTD.",
+      "address": "NO. 123, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-87654321",
+      "fax": "+86-21-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "NO. 456, BROADWAY STREET, NEW YORK, USA 10001",
+      "telephone": "+1-212-555-6666",
+      "fax": "+1-212-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "843149",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4876543",
+      "sealNumber": "239127",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 54.0,
+      "outOfGaugeDimensions": {
+        "length": 4325,
+        "width": 2759,
+        "height": 2423
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' OPEN TOP)",
+    "totalPackages": 10,
+    "packageType": "CRATES",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 54.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-07 16:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 4325x2759x2423"
+  },
+  "outOfGaugeDimensions": {
+    "length": "4325",
+    "width": "2759",
+    "height": "2423",
+    "overWidth": "319",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

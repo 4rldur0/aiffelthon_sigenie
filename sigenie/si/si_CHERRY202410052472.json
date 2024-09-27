@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410052472",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT EXPORT LTD.",
+      "address": "2345 HONGKONG ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6543 2100",
+      "fax": "+86 21 6543 2101",
+      "email": "INFO@BETAIMPORTEXTPORT.CN"
+    },
+    "consignee": {
+      "name": "ALPHA TRADING CORPORATION",
+      "address": "CALLE DE LA INDUSTRIA 45, PARQUE EMPRESARIAL BAHIA DE ALGECIRAS, 11205 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 613 900",
+      "fax": "+34 956 613 901",
+      "email": "JAVIER.MORENO@ESTRECHOEXPORT.ES"
+    },
+    "notifyParty": {
+      "name": "SPANISH LOGISTICS SERVICES SL",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "340213",
+  "commodityDescription": "ORGANIC SURFACE-ACTIVE AGENTS (OTHER THAN SOAP)",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS GOODS - ETHYLENE GLYCOL MONOBUTYL ETHER, UN 3231",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "SPANISH LOGISTICS SERVICES SL",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SPANISH LOGISTICS SERVICES SL",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 3231, VALUE: USD697,151"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9107850",
+    "unClass": "3",
+    "unCode": "3231,",
+    "hsCode": "8441.36.84",
+    "flashPoint": "7\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

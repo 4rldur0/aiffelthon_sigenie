@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411069211",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES INC.",
+      "onBehalfOf": "",
+      "address": "1234 DELTA RD, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679",
+      "email": "INFO@DELTAINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "ZENITH GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@ZENITHGLOBAL.COM"
+    },
+    "notifyParty": {
+      "name": "ZENITH GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILER COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TRAILER PARTS - DELTA INDUSTRIES",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "TRAILER PARTS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR)",
+    "totalPackages": 10,
+    "packageType": "CRATES",
+    "containerType": "OPEN TOP",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "onboardDate": "2024-11-17 15:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 3124x2686x2301, VALUE: USD442,639, 7 DAYS FREE TIME AT DESTINATION, FRAGILE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3124",
+    "width": "2686",
+    "height": "2301",
+    "overWidth": "246",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

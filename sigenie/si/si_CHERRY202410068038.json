@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410068038",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60311 FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 69 79876543",
+      "fax": "+49 69 79876544",
+      "email": "INFO@GLOBALTECHSOLUTIONS.DE"
+    },
+    "consignee": {
+      "name": "EUROASIA TRADING CO LTD",
+      "address": "ZURICHstrasse 12, 8001 ZURICH, SWITZERLAND",
+      "country": "SWITZERLAND",
+      "telephone": "+41 44 2123456",
+      "fax": "+41 44 2123457",
+      "email": "INFO@EUROASIATRADING.CH"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "HAMBURGER STRASSE 23, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 39876543",
+      "fax": "+49 40 39876544",
+      "email": "INFO@WORLDWIDELOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "853669",
+  "commodityDescription": "ELECTRICAL APPARATUS FOR SWITCHING OR PROTECTING ELECTRICAL CIRCUITS OR FOR MAKING CONNECTIONS TO OR IN ELECTRICAL CIRCUITS, FOR A VOLTAGE NOT EXCEEDING 1,000 VOLTS; PARTS OF SUCH APPARATUS",
+  "containers": [
+    {
+      "containerNumber": "FLRA1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "GTS20241006",
+      "numberOfPackages": 1,
+      "packageType": "LOOSE",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INDUSTRIAL EQUIPMENT",
+      "grossWeight": 15000.0,
+      "measurement": 45.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 x 40 FT FLAT RACK) FLAT RACK CONTAINER ONLY",
+    "totalPackages": 1,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "HAMBURGER STRASSE 23, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 39876543",
+      "fax": "+49 40 39876544",
+      "email": "INFO@WORLDWIDELOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA TRADING CO LTD",
+      "address": "ZURICHstrasse 12, 8001 ZURICH, SWITZERLAND",
+      "country": "SWITZERLAND",
+      "telephone": "+41 44 2123456",
+      "fax": "+41 44 2123457",
+      "email": "INFO@EUROASIATRADING.CH"
+    },
+    "onboardDate": "2024-10-17 20:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 3601x2403x2726, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3601",
+    "width": "2403",
+    "height": "2726",
+    "overWidth": "0",
+    "overHeight": "136"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

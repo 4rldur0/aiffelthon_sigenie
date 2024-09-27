@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410158472",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "123 FENGHUA ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8756 3210",
+      "fax": "+86 574 8756 3211",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL850612345",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679",
+      "email": "JOHN.SMITH@GLOBALIMPORTEXPORT.COM"
+    },
+    "notifyParty": {
+      "name": "BENSON LOGISTICS BV",
+      "address": "125 WATERLOOSTRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@BENSONLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382490",
+  "commodityDescription": "ETHYLENE GLYCOL",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "BENSON LOGISTICS BV",
+      "address": "125 WATERLOOSTRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@BENSONLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 FENGHUA ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8756 3210",
+      "fax": "+86 574 8756 3211",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
+    },
+    "onboardDate": "2024-10-23 16:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 3024, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7816585",
+    "unClass": "3",
+    "unCode": "3024,",
+    "hsCode": "4538.91.23",
+    "flashPoint": "49\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

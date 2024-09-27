@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202411126244",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES LTD.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "33049900",
+  "commodityDescription": "PERFUMES AND TOILET WATER",
+  "containers": [
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654019",
+      "marksAndNumbers": "SUNRISE205",
+      "numberOfPackages": 15000,
+      "packageType": "PLASTIC TRAYS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - PERFUMES AND TOILET WATER",
+      "grossWeight": 18000.0,
+      "measurement": 52.0
+    },
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "SUNRISE204",
+      "numberOfPackages": 15000,
+      "packageType": "PLASTIC TRAYS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - PERFUMES AND TOILET WATER",
+      "grossWeight": 18000.0,
+      "measurement": 52.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY CONTAINER X 2) CONTAINER ONLY",
+    "totalPackages": 30000,
+    "packageType": "PLASTIC TRAYS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 104.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "MSDS CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRANSPORTATION LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TECH LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-19 09:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1899, VALUE: USD887,645"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2370128",
+    "unClass": "9",
+    "unCode": "1899,",
+    "hsCode": "2492.38.88",
+    "flashPoint": "2\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

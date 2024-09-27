@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410042504",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "288 XINGHU ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8682 5678",
+      "fax": "+86 574 8682 5698",
+      "email": "SHIPPING@ASIAELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "POLISH IMPORT & EXPORT CO. LTD.",
+      "address": "UL. NOWA 123, GDANSK, POLAND, 80-200",
+      "taxId": "PL1234567890",
+      "president": "MR. JAN NOWAK",
+      "telephone": "+48 58 301 2345",
+      "fax": "+48 58 301 2367",
+      "email": "JAN.NOWAK@POLISHIMPORT.PL"
+    },
+    "notifyParty": {
+      "name": "FIRST GLOBAL LOGISTICS GDANSK",
+      "address": "UL. STARE MIASTO 56, GDANSK, POLAND, 80-800",
+      "taxId": "PL9876543210",
+      "president": "MS. ANNA KOWALSKA",
+      "telephone": "+48 58 300 1234",
+      "fax": "+48 58 300 1256"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "854239",
+  "commodityDescription": "ELECTRONIC INTEGRATED CIRCUITS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "ELECTRONIC INTEGRATED CIRCUITS - AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY)",
+    "totalPackages": 5,
+    "packageType": "PALLETS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241004001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "123 MAIN STREET, SUITE 100, LONDON, UNITED KINGDOM, EC1A 1BB",
+      "telephone": "+44 20 7555 1234",
+      "fax": "+44 20 7555 1256",
+      "email": "SHIPPING@GLOBALLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "123 MAIN STREET, SUITE 100, LONDON, UNITED KINGDOM, EC1A 1BB",
+      "telephone": "+44 20 7555 1234",
+      "fax": "+44 20 7555 1256",
+      "email": "SHIPPING@GLOBALLOGISTICS.COM"
+    },
+    "onboardDate": "2024-10-16 20:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 3104, VALUE: USD470,974"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6000288",
+    "unClass": "7",
+    "unCode": "3104,",
+    "hsCode": "7050.85.47",
+    "flashPoint": "53\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

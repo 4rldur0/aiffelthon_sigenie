@@ -1,0 +1,87 @@
+{
+  "bookingReference": "CHERRY202411195605",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ORIENTAL TRADING CO.",
+      "address": "NO. 1234, HONGQIAO ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-5678-9012",
+      "fax": "+86-21-5678-9013"
+    },
+    "consignee": {
+      "name": "STARLIGHT LOGISTICS INC.",
+      "address": "WILLEMSSTRAAT 123, 3011 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@STARLIGHTLOGISTICS.NL",
+      "contactPerson": "JAN VAN DER MEER"
+    },
+    "notifyParty": {
+      "name": "STARLIGHT LOGISTICS INC."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CGXU1234567",
+      "sealNumber": 123456,
+      "marksAndNumbers": "OT-1234",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - MODEL CHERRY-2024",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241205-1001",
+    "documentNumber": "20241205-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "STARLIGHT LOGISTICS INC.",
+      "address": "WILLEMSSTRAAT 123, 3011 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "STARLIGHT LOGISTICS INC.",
+      "address": "WILLEMSSTRAAT 123, 3011 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-12-07 22:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, 14 DAYS FREE TIME AT DESTINATION, KEEP DRY"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

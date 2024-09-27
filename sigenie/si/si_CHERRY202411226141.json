@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411226141",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA INDUSTRIES INC.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8654 1234",
+      "fax": "+86 574 8654 5678",
+      "email": "INFO@OMEGAINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "124 AVENIDA DEL SOL, ALGECIRAS, SPAIN 11001",
+      "taxId": "ES1234567890",
+      "president": "MR. JUAN RAMIREZ",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 34",
+      "email": "JUAN.RAMIREZ@DELTASHIPPING.ES"
+    },
+    "notifyParty": {
+      "name": "EUROLOGISTICS S.A.",
+      "address": "234 CALLE REAL, ALGECIRAS, SPAIN 11002",
+      "taxId": "ES9876543210",
+      "president": "MS. MARIA FERNANDEZ",
+      "telephone": "+34 956 5432 10",
+      "fax": "+34 956 5432 20"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785637",
+      "sealNumber": "5171238",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "containerType": "HC 40' DRY",
+      "cargoDescription": "CHILDREN'S TOYS - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 40' DRY) CONTAINER",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "HC 40' DRY",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 72.732
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "124 AVENIDA DEL SOL, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 34",
+      "email": "JUAN.RAMIREZ@DELTASHIPPING.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "124 AVENIDA DEL SOL, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 34",
+      "email": "JUAN.RAMIREZ@DELTASHIPPING.ES"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

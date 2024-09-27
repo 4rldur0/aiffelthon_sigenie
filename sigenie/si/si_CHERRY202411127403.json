@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411127403",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL PRECISION ENGINEERING GMBH",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "consignee": {
+      "name": "MAERSK LOGISTICS LTD.",
+      "address": "101 ROBINSON ROAD, #12-01, SINGAPORE 068902",
+      "telephone": "+65-6230-5555",
+      "fax": "+65-6230-6666",
+      "email": "INFO@MAERSKLOGISTICS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "MAERSK LOGISTICS LTD.",
+      "address": "101 ROBINSON ROAD, #12-01, SINGAPORE 068902"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "845610",
+  "commodityDescription": "CNC MILLING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "FRSU9587631",
+      "sealNumber": 123456,
+      "marksAndNumbers": "GPE-20241112",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "CNC MILLING MACHINE - MODEL CMX-3000",
+      "grossWeight": 12500.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 X 2) FLAT RACK CONTAINER ONLY",
+    "totalPackages": 1,
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 35.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241112-0001",
+    "documentNumber": "20241112-0001",
+    "lcDetails": {
+      "lcNumber": "LC2024111212345"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "MAERSK LOGISTICS LTD.",
+      "address": "101 ROBINSON ROAD, #12-01, SINGAPORE 068902",
+      "telephone": "+65-6230-5555",
+      "fax": "+65-6230-6666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MAERSK LOGISTICS LTD.",
+      "address": "101 ROBINSON ROAD, #12-01, SINGAPORE 068902",
+      "telephone": "+65-6230-5555",
+      "fax": "+65-6230-6666"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 3194x2259x2460, VALUE: USD615,912, 7 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE",
+    "outOfGaugeDimensions": {
+      "length": 3194,
+      "width": 2259,
+      "height": 2460
+    }
+  },
+  "outOfGaugeDimensions": {
+    "length": "3194",
+    "width": "2259",
+    "height": "2460",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

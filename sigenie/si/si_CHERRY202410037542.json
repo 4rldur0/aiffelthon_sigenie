@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410037542",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 GLOBAL ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 12345679",
+      "email": "INFO@SHANGHAIGLOBaltrading.CN"
+    },
+    "consignee": {
+      "name": "GREEN EARTH LOGISTICS LLC",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY",
+      "companyNumber": "1234567890",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@GREENEARTHLOGISTICS.DE"
+    },
+    "notifyParty": {
+      "name": "GREEN EARTH LOGISTICS LLC",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "GECV1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GENERAL CARGO - SHANGHAI GLOBAL TRADING CO.",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "GENERAL CARGO - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY)",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GREEN EARTH LOGISTICS LLC",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@GREENEARTHLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN EARTH LOGISTICS LLC",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679"
+    },
+    "onboardDate": "2024-10-12 08:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

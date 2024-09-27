@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410025456",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF TRADING LTD.",
+      "onBehalfOf": "",
+      "address": "1234 YONGFU ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "LIU.YUN@DEFTADINGLTD.CN"
+    },
+    "consignee": {
+      "name": "ABC IMPORT & EXPORT CO.",
+      "address": "1234 KIELSTRAAT, 3011 GR ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 4567 8901",
+      "fax": "+31 10 4567 8902",
+      "email": "JANSSEN.PETER@ABCIMPORTEXPORT.NL"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT & EXPORT CO.",
+      "address": "1234 KIELSTRAAT, 3011 GR ROTTERDAM, THE NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "PLASTIC TOYS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TOY SHIPMENT - NINGBO TO ROTTERDAM",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC TOYS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.5,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "TOY SHIPMENT - NINGBO TO ROTTERDAM",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC TOYS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.5,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 FR)",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 51.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DEF TRADING LTD.",
+      "address": "1234 YONGFU ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    },
+    "onboardDate": "2024-10-19 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DO NOT STACK"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411136572",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE PHARMACEUTICAL CORPORATION PTE LTD",
+      "address": "123 BIOPOLIS WAY, SINGAPORE 138667",
+      "telephone": "+65 6555 5555",
+      "fax": "+65 6555 5556",
+      "email": "INFO@SINGAPOREPHARMACEUTICAL.COM.SG"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING FRANCE SAS",
+      "address": "12 RUE DE LA PAIX, 75010 PARIS, FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEAN.DUPONT@DHL.COM"
+    },
+    "notifyParty": {
+      "name": "SINGAPORE PHARMACEUTICAL CORPORATION PTE LTD",
+      "address": "123 BIOPOLIS WAY, SINGAPORE 138667",
+      "telephone": "+65 6555 5555",
+      "fax": "+65 6555 5556",
+      "email": "INFO@SINGAPOREPHARMACEUTICAL.COM.SG"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "300490",
+  "commodityDescription": "PHARMACEUTICAL PRODUCTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "PHARMACEUTICAL PRODUCTS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 10000.0,
+    "totalMeasurement": 20.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118554",
+      "telephone": "+65 6555 5555",
+      "fax": "+65 6555 5556",
+      "email": "DHL.SINGAPORE@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE PHARMACEUTICAL CORPORATION PTE LTD",
+      "address": "123 BIOPOLIS WAY, SINGAPORE 138667",
+      "telephone": "+65 6555 5555",
+      "fax": "+65 6555 5556",
+      "email": "INFO@SINGAPOREPHARMACEUTICAL.COM.SG"
+    },
+    "onboardDate": "2024-11-21 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -10\u00b0C, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1906727",
+    "temperature": "-10\u00b0C",
+    "minTemperature": "-12\u00b0C",
+    "maxTemperature": "-8\u00b0C",
+    "ventilation": "87%",
+    "humidity": "68%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

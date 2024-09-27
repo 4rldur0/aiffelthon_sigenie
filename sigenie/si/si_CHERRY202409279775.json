@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202409279775",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING LTD.",
+      "address": "238 HUANGPU ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAMFG.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "12 RUE DE LA SORBONNE, PARIS, 75005, FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEAN.DUPONT@GLOBALLOGISTICS.FR"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "12 RUE DE LA SORBONNE, PARIS, 75005, FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEAN.DUPONT@GLOBALLOGISTICS.FR"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN TUNA",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "containerType": "40' REEFER",
+      "cargoDescription": "FROZEN TUNA - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' REEFER)",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40' REEFER",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 72.732
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -1\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4550715",
+    "temperature": "-1\u00b0C",
+    "minTemperature": "-3\u00b0C",
+    "maxTemperature": "1\u00b0C",
+    "ventilation": "23%",
+    "humidity": "91%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

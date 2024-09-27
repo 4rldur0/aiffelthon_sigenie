@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410182336",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS LTD.",
+      "address": "1234 OCEAN BOULEVARD, NINGBO, ZHEJIANG, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8686 8888",
+      "fax": "+86 574 8686 8889",
+      "email": "INFO@ASIAPACIFICFOODS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "1234 PORT STREET, HAMBURG, GERMANY",
+      "usci": "91321200765109788X",
+      "president": "PETER MEIER",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 4445",
+      "email": "PETER.MEIER@GLOBALSHIPPINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "1234 PORT STREET, HAMBURG, GERMANY",
+      "usci": "91321200765109788X",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 4445",
+      "email": "PETER.MEIER@GLOBALSHIPPINGSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030890",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CMAU2200153",
+      "sealNumber": "100915",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FROZEN FISH",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINERS ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X 1",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-26 09:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 5\u00b0C, VALUE: USD25,122, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4543304",
+    "temperature": "5\u00b0C",
+    "minTemperature": "3\u00b0C",
+    "maxTemperature": "7\u00b0C",
+    "ventilation": "42%",
+    "humidity": "93%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

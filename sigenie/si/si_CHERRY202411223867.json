@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411223867",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH FOODS LTD.",
+      "address": "123 MEAT STREET, HAMBURG, 20095, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 40 1234 5678",
+      "email": "INFO@ZENITHFOODS.DE"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "456 LOGISTICS AVENUE, SINGAPORE 608612",
+      "country": "SINGAPORE",
+      "email": "SALES@GLOBALFREIGHTSOLUTIONS.SG",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "notifyParty": {
+      "name": "ZENITH FOODS LTD.",
+      "address": "123 MEAT STREET, HAMBURG, 20095, GERMANY",
+      "country": "GERMANY",
+      "email": "LOGISTICS@ZENITHFOODS.DE",
+      "telephone": "+49 40 1234 5679",
+      "fax": "+49 40 1234 5680"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030219",
+  "commodityDescription": "BEEF, FRESH OR CHILLED",
+  "containers": [
+    {
+      "containerNumber": "CRLU9785623",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZENITH FOODS LTD.",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "BEEF",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9785624",
+      "sealNumber": "123457",
+      "marksAndNumbers": "ZENITH FOODS LTD.",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "BEEF",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9785625",
+      "sealNumber": "123458",
+      "marksAndNumbers": "ZENITH FOODS LTD.",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "BEEF",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' REEFERS)",
+    "totalPackages": 3000,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "456 LOGISTICS AVENUE, SINGAPORE 608612",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SALES@GLOBALFREIGHTSOLUTIONS.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "456 LOGISTICS AVENUE, SINGAPORE 608612",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SALES@GLOBALFREIGHTSOLUTIONS.SG"
+    },
+    "onboardDate": "2024-12-06 20:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -16\u00b0C, 7 DAYS FREE TIME AT DESTINATION, FRAGILE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6829088",
+    "temperature": "-16\u00b0C",
+    "minTemperature": "-18\u00b0C",
+    "maxTemperature": "-14\u00b0C",
+    "ventilation": "79%",
+    "humidity": "64%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

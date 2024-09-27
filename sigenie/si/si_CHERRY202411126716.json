@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411126716",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BASF SE",
+      "address": "CARL-BOSSE-STRASSE 2, LUDWIGSHAFEN, GERMANY",
+      "telephone": "+49 621 60-0",
+      "fax": "+49 621 60-2500"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "DHL GLOBAL FORWARDING GMBH, LORENZ-WEINHOLD-STRASSE 1, 80636 MUNICH, GERMANY",
+      "telephone": "+49 89 373-1000",
+      "fax": "+49 89 373-1200"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "DHL GLOBAL FORWARDING GMBH, LORENZ-WEINHOLD-STRASSE 1, 80636 MUNICH, GERMANY",
+      "telephone": "+49 89 373-1000",
+      "fax": "+49 89 373-1200"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "282110",
+  "commodityDescription": "IRON OXIDE PIGMENT",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BASF20241112",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - IRON OXIDE PIGMENT",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "BAGS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "DHL20241112"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "SAFETY DATA SHEET"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "DHL GLOBAL FORWARDING GMBH, LORENZ-WEINHOLD-STRASSE 1, 80636 MUNICH, GERMANY",
+      "telephone": "+49 89 373-1000",
+      "fax": "+49 89 373-1200"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BASF SE",
+      "address": "CARL-BOSSE-STRASSE 2, LUDWIGSHAFEN, GERMANY",
+      "telephone": "+49 621 60-0",
+      "fax": "+49 621 60-2500"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1806"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2113144",
+    "unClass": "2",
+    "unCode": "1806",
+    "hsCode": "5169.29.75",
+    "flashPoint": "-1\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411171502",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FROZEN FOODS INC",
+      "address": "1234 MAIN STREET, SHANGHAI, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(BUILDING A)",
+      "telephone": "+86 21 5555 6666",
+      "email": "INFO@FROZENFOODSINC.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "123 FRANKFURTER STRASSE, HAMBURG, 20457, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@GLOBALTRADING.DE",
+      "telephone": "+49 40 1234 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "123 FRANKFURTER STRASSE, HAMBURG, 20457, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@GLOBALTRADING.DE",
+      "telephone": "+49 40 1234 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030310",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "FROZEN SALMON",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN SALMON",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "reeferSettings": {
+        "temperature": "-18"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' X 1)",
+    "totalPackages": 1000,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-22 10:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 1\u00b0C, VALUE: USD297,500"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8504885",
+    "temperature": "1\u00b0C",
+    "minTemperature": "-1\u00b0C",
+    "maxTemperature": "3\u00b0C",
+    "ventilation": "26%",
+    "humidity": "71%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

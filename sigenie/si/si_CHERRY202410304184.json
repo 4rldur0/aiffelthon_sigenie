@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410304184",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. INC.",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8666 1234",
+      "fax": "+86 574 8666 5678",
+      "email": "INFO@BETATRADINGCO.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "5678 ALGEICIRAS STREET, ALGEICIRAS, SPAIN",
+      "companyNumber": "123456789",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 789012",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "5678 ALGEICIRAS STREET, ALGEICIRAS, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030211",
+  "commodityDescription": "FROZEN BEEF",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "123456",
+      "marksAndNumbers": "FROZEN BEEF - BETA TRADING CO. INC.",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN BEEF - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 22000.0,
+      "measurement": 33.696,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR)",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 33.696
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "5678 ALGEICIRAS STREET, ALGEICIRAS, SPAIN",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 789012",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "5678 ALGEICIRAS STREET, ALGEICIRAS, SPAIN",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 789012"
+    },
+    "onboardDate": "2024-11-08 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -17\u00b0C, 21 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8577136",
+    "temperature": "-17\u00b0C",
+    "minTemperature": "-19\u00b0C",
+    "maxTemperature": "-15\u00b0C",
+    "ventilation": "43%",
+    "humidity": "95%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

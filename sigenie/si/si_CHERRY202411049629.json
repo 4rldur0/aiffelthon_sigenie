@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411049629",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENGINEERING LTD.",
+      "address": "UNIT 502, SHANGHAI TOWER, 501 YIN CHENG ROAD, SHANGHAI, 200086, CHINA",
+      "telephone": "+86 21 6327 8900",
+      "fax": "+86 21 6327 8901",
+      "email": "LI.WEI@ASIAENGINEERING.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 300, AMSTERDAM, 1012 DE, NETHERLANDS",
+      "taxId": "NL854219983B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 20 624 5678",
+      "fax": "+31 20 624 5679",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "BENelux LOGISTICS BV",
+      "address": "STATIONSPLEIN 1, 3013 AK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 5600",
+      "fax": "+31 10 414 5601",
+      "email": "INFO@BENELUXLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "BATTERY ELECTROLYTE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 20,
+      "packageType": "STEEL DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS BATTERY ELECTROLYTE SOLUTION",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 20,
+    "packageType": "STEEL DRUMS",
+    "containerType": "20 DRY HC",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 300, AMSTERDAM, 1012 DE, NETHERLANDS",
+      "telephone": "+31 20 624 5678",
+      "fax": "+31 20 624 5679",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 300, AMSTERDAM, 1012 DE, NETHERLANDS",
+      "telephone": "+31 20 624 5678",
+      "fax": "+31 20 624 5679",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 3236"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6712197",
+    "unClass": "9",
+    "unCode": "3236",
+    "hsCode": "6749.80.88",
+    "flashPoint": "97\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

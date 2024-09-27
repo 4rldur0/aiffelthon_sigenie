@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410044075",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL ELECTRONICS CO.",
+      "onBehalfOf": "",
+      "address": "1234 ELECTRONICS RD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "LIU.WEIMIN@SUNRISEGLOBAL.COM"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT & EXPORT LTD.",
+      "address": "MARKTSTRAAT 123, 3011 AB ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@EUROTECH.NL"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854230",
+  "commodityDescription": "FROZEN SEAFOOD",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "FROZEN SEAFOOD - SUNRISE GLOBAL ELECTRONICS CO.",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN SEAFOOD - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU5517315",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "FROZEN SEAFOOD - SUNRISE GLOBAL ELECTRONICS CO.",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN SEAFOOD - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 20 FR X 2",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 56.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORT & EXPORT LTD.",
+      "address": "MARKTSTRAAT 123, 3011 AB ROTTERDAM, THE NETHERLANDS",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@EUROTECH.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL ELECTRONICS CO.",
+      "address": "1234 ELECTRONICS RD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -20\u00b0C, VALUE: USD889,242, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2335030",
+    "temperature": "-20\u00b0C",
+    "minTemperature": "-22\u00b0C",
+    "maxTemperature": "-18\u00b0C",
+    "ventilation": "56%",
+    "humidity": "85%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

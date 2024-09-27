@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410232084",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. INC.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORT LTD",
+      "address": "NO. 4567, ALAND STREET, ALICANTE, 03001, SPAIN",
+      "country": "SPAIN",
+      "email": "ORDERS@ALPHAIMPORT.ES",
+      "telephone": "+34 965 6789 0123"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL IMPORT LTD",
+      "address": "NO. 4567, ALAND STREET, ALICANTE, 03001, SPAIN",
+      "country": "SPAIN",
+      "email": "ORDERS@ALPHAIMPORT.ES",
+      "telephone": "+34 965 6789 0123"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN MACKEREL",
+  "containers": [
+    {
+      "containerNumber": "CRLU4571916",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "FROZEN MACKEREL",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "reeferSettings": {
+        "setTemperature": 6,
+        "temperatureUnit": "CELSIUS"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' HC)",
+    "totalPackages": 100,
+    "totalGrossWeight": 6000.0,
+    "totalMeasurement": 58.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-10-29 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 6\u00b0C, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7091055",
+    "temperature": "6\u00b0C",
+    "minTemperature": "4\u00b0C",
+    "maxTemperature": "8\u00b0C",
+    "ventilation": "74%",
+    "humidity": "83%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202411129058",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BEIJING CHEMICAL CO. LTD.",
+      "address": "NO. 123, CHANG AN STREET, BEIJING, CHINA",
+      "telephone": "+86-10-6351-2345",
+      "fax": "+86-10-6351-2346"
+    },
+    "consignee": {
+      "name": "SUNRISE GLOBAL TRADING",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@SUNRISEGLOBALTRADING.DE",
+      "contactPerson": "PETER MEYER"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "282749",
+  "commodityDescription": "ZINC OXIDE AND ZINC PEROXIDE",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289451",
+      "sealNumber": 345901,
+      "marksAndNumbers": "BC-123",
+      "numberOfPackages": 20,
+      "packageType": "DRUMS",
+      "cargoDescription": "ZINC OXIDE AND ZINC PEROXIDE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "dangerousGoods": {
+        "unNumber": "2267",
+        "imoClass": "8.0"
+      }
+    },
+    {
+      "containerNumber": "CGXU4289452",
+      "sealNumber": 279567,
+      "marksAndNumbers": "BC-124",
+      "numberOfPackages": 20,
+      "packageType": "DRUMS",
+      "cargoDescription": "ZINC OXIDE AND ZINC PEROXIDE",
+      "grossWeight": 20200.0,
+      "measurement": 30.0,
+      "dangerousGoods": {
+        "unNumber": "2267",
+        "imoClass": "8.0"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 X 2) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 40,
+    "totalGrossWeight": 40200.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241112-1001",
+    "documentNumber": "20241112-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241112-123456"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL TRADING",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "onboardDate": "2024-11-17 09:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2267, VALUE: USD62,826, 30 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7964208",
+    "unClass": "5",
+    "unCode": "2267,",
+    "hsCode": "3967.15.11",
+    "flashPoint": "42\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

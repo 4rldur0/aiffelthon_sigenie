@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202409263653",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS LTD",
+      "address": "123 FISH MARKET STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "EURO FOODS LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": "",
+      "telephone": "",
+      "fax": ""
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "ASIA204",
+      "numberOfPackages": 15000,
+      "packageType": "CARTONS",
+      "containerType": "45 HIGH CUBIC REEFER CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - FROZEN FISH",
+      "grossWeight": 18000.0,
+      "measurement": 52.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654019",
+      "marksAndNumbers": "ASIA205",
+      "numberOfPackages": 15000,
+      "packageType": "CARTONS",
+      "containerType": "45 HIGH CUBIC REEFER CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - FROZEN FISH",
+      "grossWeight": 18000.0,
+      "measurement": 52.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (45 RF X 2) REEFER CONTAINERS ONLY",
+    "totalPackages": 30000,
+    "packageType": "CARTONS",
+    "containerType": "45 REEFER CONTAINER",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 104.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRANSPORTATION LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO FOODS LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-10-11 22:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 8\u00b0C, VALUE: USD894,744, 7 DAYS FREE TIME AT DESTINATION, KEEP DRY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5717583",
+    "temperature": "8\u00b0C",
+    "minTemperature": "6\u00b0C",
+    "maxTemperature": "10\u00b0C",
+    "ventilation": "92%",
+    "humidity": "73%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

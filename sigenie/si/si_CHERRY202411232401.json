@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202411232401",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "281123",
+  "commodityDescription": "SODIUM CHLORIDE",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "APC20241123",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - SODIUM CHLORIDE",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654019",
+      "marksAndNumbers": "APC20241123",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - SODIUM CHLORIDE",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY X 2) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "BAGS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 66.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241123001"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF ANALYSIS"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-12-07 20:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 1686, VALUE: USD186,011, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1287663",
+    "unClass": "2",
+    "unCode": "1686,",
+    "hsCode": "8043.77.43",
+    "flashPoint": "9\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410279931",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISE-ELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "BEETSTRAAT 25, 3011 AA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL852999999B01",
+      "president": "MR. JAN VAN DER LEEUW",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 1235",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "SUNRISE LOGISTICS BV.",
+      "address": "BEEMSTERSTRAAT 50, 1013 KC AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 777 8888",
+      "fax": "+31 20 777 8889",
+      "email": "INFO@SUNRISELOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "310210",
+  "commodityDescription": "DIAMMONIUM PHOSPHATE",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 20,
+      "packageType": "BAGS",
+      "cargoDescription": "DIAMMONIUM PHOSPHATE AS PER SHIPPER'S INSTRUCTIONS",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 20,
+    "packageType": "BAGS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410279931"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "BEETSTRAAT 25, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 1235",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISE-ELECTRONICS.CN"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 1451"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1414307",
+    "unClass": "2",
+    "unCode": "1451",
+    "hsCode": "8715.33.86",
+    "flashPoint": "48\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

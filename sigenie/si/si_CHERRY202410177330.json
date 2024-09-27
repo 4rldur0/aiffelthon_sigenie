@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410177330",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES CO. LTD",
+      "address": "123 JIANGLI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@DELTAINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING SOLUTIONS LTD",
+      "address": "150 RUE DE LA PAIX, CASABLANCA, MOROCCO",
+      "taxId": "MA1234567890",
+      "president": "MR. ABDUL AZIZ",
+      "telephone": "+212 5 22 45 67 89",
+      "fax": "+212 5 22 45 67 90",
+      "email": "INFO@OMEGASHIPPING.MA"
+    },
+    "notifyParty": {
+      "name": "TANGER MED LOGISTICS",
+      "address": "TANGER MED PORT COMPLEX, MOROCCO",
+      "taxId": "MA9876543210",
+      "president": "MS. FATIMA BENALI",
+      "telephone": "+212 5 28 89 76 54",
+      "fax": "+212 5 28 89 76 55"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871630",
+  "commodityDescription": "SEMI-TRAILER, FLATBED",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "containerType": "FLAT RACK",
+      "cargoDescription": "SEMI-TRAILER, FLATBED - AS PER PACKING LIST",
+      "grossWeight": 25000.0,
+      "measurement": 150.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) FLAT RACK CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "FLAT RACK",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING SOLUTIONS LTD",
+      "address": "150 RUE DE LA PAIX, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 22 45 67 89",
+      "fax": "+212 5 22 45 67 90",
+      "email": "INFO@OMEGASHIPPING.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING SOLUTIONS LTD",
+      "address": "150 RUE DE LA PAIX, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 22 45 67 89",
+      "fax": "+212 5 22 45 67 90",
+      "email": "INFO@OMEGASHIPPING.MA"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 6668x2885x2595"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6668",
+    "width": "2885",
+    "height": "2595",
+    "overWidth": "445",
+    "overHeight": "5"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

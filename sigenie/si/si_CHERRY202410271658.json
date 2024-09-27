@@ -1,0 +1,118 @@
+{
+  "bookingReference": "CHERRY202410271658",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "NO. 555, SHENYANG ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD.",
+      "address": "HOOFDDORP, NETHERLANDS",
+      "telephone": "+31-20-777-8888",
+      "fax": "+31-20-777-8889",
+      "email": "INFO@ALPHA-GLOBAL.NL",
+      "contactPerson": "JAN VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD.",
+      "address": "HOOFDDORP, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "340213",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289451",
+      "sealNumber": 345901,
+      "marksAndNumbers": "SR-123",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS - UN 1254",
+      "grossWeight": 18500.0,
+      "measurement": 25.2,
+      "dangerousGoods": {
+        "unNumber": "1254",
+        "properShippingName": "DANGEROUS CHEMICALS",
+        "hazardClass": "3",
+        "packingGroup": "II"
+      }
+    },
+    {
+      "containerNumber": "CGXU4289452",
+      "sealNumber": 279567,
+      "marksAndNumbers": "SR-124",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS - UN 1254",
+      "grossWeight": 18700.0,
+      "measurement": 25.2,
+      "dangerousGoods": {
+        "unNumber": "1254",
+        "properShippingName": "DANGEROUS CHEMICALS",
+        "hazardClass": "3",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 X 40) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 37200.0,
+    "totalMeasurement": 50.4
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD.",
+      "address": "HOOFDDORP, NETHERLANDS",
+      "telephone": "+31-20-777-8888",
+      "fax": "+31-20-777-8889"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD.",
+      "address": "HOOFDDORP, NETHERLANDS",
+      "telephone": "+31-20-777-8888",
+      "fax": "+31-20-777-8889"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1254, VALUE: USD475,061"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1035871",
+    "unClass": "4",
+    "unCode": "1254,",
+    "hsCode": "3991.63.91",
+    "flashPoint": "27\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

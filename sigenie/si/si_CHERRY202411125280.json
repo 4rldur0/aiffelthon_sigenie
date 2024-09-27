@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202411125280",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "INNOVATIVE TECH SOLUTIONS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 TECH PARK RD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@INNOVATIVETECH.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE SHIPPING INC.",
+      "address": "1234 WORLDWIDE WAY, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@WORLDWIDESHIPPING.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE SHIPPING INC.",
+      "address": "1234 WORLDWIDE WAY, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DANGER CHEMICALS - NINGBO",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.696,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU5517315",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DANGER CHEMICALS - NINGBO",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.696,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 FR)",
+    "totalPackages": 20,
+    "packageType": "DRUMS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 51.392
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INNOVATIVE TECH SOLUTIONS LTD.",
+      "address": "1234 TECH PARK RD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-11-19 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2073, VALUE: USD136,241, 7 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2613527",
+    "unClass": "6",
+    "unCode": "2073,",
+    "hsCode": "3343.11.10",
+    "flashPoint": "10\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

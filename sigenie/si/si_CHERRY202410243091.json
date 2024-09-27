@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410243091",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SIEMENS ENERGY GLOBAL GMBH & CO. KG",
+      "address": "FREISTATTER STRASSE 1, 91056 ERLANGEN, GERMANY",
+      "telephone": "+49-9131-766600",
+      "fax": "+49-9131-766601"
+    },
+    "consignee": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "P.O. BOX 232, 3191 KONGSBERG, NORWAY",
+      "telephone": "+47-32-83-30-00",
+      "fax": "+47-32-83-30-01",
+      "email": "INFO@KONGSBERG.COM",
+      "contactPerson": "JAN ERIK HANSEN"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "843390",
+  "commodityDescription": "TURBINE GENERATOR",
+  "containers": [
+    {
+      "containerNumber": "FRTU1234567",
+      "sealNumber": 123456,
+      "marksAndNumbers": "SIEMENS-TG123",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "TURBINE GENERATOR - MODEL TG1000",
+      "grossWeight": 45000.0,
+      "measurement": 80.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 40' FLAT RACK CONTAINER",
+    "totalPackages": 1,
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 80.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241024-001",
+    "documentNumber": "20241024-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "P.O. BOX 232, 3191 KONGSBERG, NORWAY",
+      "telephone": "+47-32-83-30-00",
+      "fax": "+47-32-83-30-01"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "P.O. BOX 232, 3191 KONGSBERG, NORWAY",
+      "telephone": "+47-32-83-30-00",
+      "fax": "+47-32-83-30-01"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 8048x2072x2488, 7 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE",
+    "outOfGaugeDimensions": {
+      "length": 8048,
+      "width": 2072,
+      "height": 2488
+    }
+  },
+  "outOfGaugeDimensions": {
+    "length": "8048",
+    "width": "2072",
+    "height": "2488",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

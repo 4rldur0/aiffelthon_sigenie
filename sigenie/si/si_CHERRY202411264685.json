@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202411264685",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO. INC.",
+      "address": "123 ABC STREET, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@BETAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "123 DEF STREET, ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "email": "INFO@ALPHAIMPORTEXPORT.COM",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 654321"
+    },
+    "notifyParty": {
+      "name": "GAMMA TRADING CO.",
+      "address": "123 GHI STREET, ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "email": "INFO@GAMMATRADING.COM",
+      "telephone": "+34 956 789012",
+      "fax": "+34 956 345678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "333310",
+  "commodityDescription": "PERFUMES",
+  "containers": [
+    {
+      "containerNumber": "CRLU4927001",
+      "sealNumber": "713194",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 800,
+      "packageType": "CARTONS",
+      "cargoDescription": "PERFUMES",
+      "grossWeight": 15000.0,
+      "measurement": 56.0
+    },
+    {
+      "containerNumber": "CRLU4961926",
+      "sealNumber": "713176",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 800,
+      "packageType": "CARTONS",
+      "cargoDescription": "PERFUMES",
+      "grossWeight": 15000.0,
+      "measurement": 56.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY)",
+    "totalPackages": 1600,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 112.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "123 DEF STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 654321",
+      "email": "INFO@ALPHAIMPORTEXPORT.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "123 DEF STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 654321",
+      "email": "INFO@ALPHAIMPORTEXPORT.COM"
+    },
+    "onboardDate": "2024-12-12 09:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2746, VALUE: USD333,457"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6288561",
+    "unClass": "3",
+    "unCode": "2746,",
+    "hsCode": "2464.91.67",
+    "flashPoint": "37\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

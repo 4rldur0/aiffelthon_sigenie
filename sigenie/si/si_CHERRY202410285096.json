@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410285096",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA GLOBAL TRADING INC.",
+      "address": "12345 MAIN STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@BETAGLOBALTRADING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "67890 ALICANTE STREET, MADRID, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 91 111 2222",
+      "fax": "+34 91 111 3333",
+      "email": "INFO@ALPHAIMPORTEXPORT.COM"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "101112 BARCELONA BOULEVARD, BARCELONA, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 93 222 3333",
+      "fax": "+34 93 222 4444",
+      "email": "INFO@WORLDWIDELOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030261",
+  "commodityDescription": "FROZEN BEEF",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA20241028",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FROZEN BEEF",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' HQ) HIGH CUBE CONTAINER ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241028001"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "67890 ALICANTE STREET, MADRID, SPAIN",
+      "telephone": "+34 91 111 2222",
+      "fax": "+34 91 111 3333",
+      "email": "INFO@ALPHAIMPORTEXPORT.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "67890 ALICANTE STREET, MADRID, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 91 111 2222",
+      "fax": "+34 91 111 3333",
+      "email": "INFO@ALPHAIMPORTEXPORT.COM"
+    },
+    "onboardDate": "2024-11-07 09:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -12\u00b0C, VALUE: USD80,753"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8957281",
+    "temperature": "-12\u00b0C",
+    "minTemperature": "-14\u00b0C",
+    "maxTemperature": "-10\u00b0C",
+    "ventilation": "73%",
+    "humidity": "76%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

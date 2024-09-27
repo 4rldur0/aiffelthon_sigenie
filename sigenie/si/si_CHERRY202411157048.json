@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202411157048",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL ELECTRONICS INC",
+      "address": "1234 TECH PARK BOULEVARD, SHANGHAI 200120, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5888 7193",
+      "fax": "+86 21 5888 7778",
+      "email": "ZHANG.WEI@GLOBALELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "5678 FRANKFURTER STRASSE, HAMBURG 20001, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 812 73 25",
+      "fax": "+49 40 812 73 90",
+      "email": "MAREK.KOWALSKI@ASIA-PACIFIC-LOGISTICS.DE"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "392690",
+  "commodityDescription": "OTHER ARTICLES OF PLASTICS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4708217",
+      "sealNumber": "912373",
+      "marksAndNumbers": "SHIP3812025",
+      "numberOfPackages": 100,
+      "packageType": "WOODEN CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DANGEROUS CHEMICALS",
+      "grossWeight": 16000.0,
+      "measurement": 53.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY CONTAINER)",
+    "totalPackages": 100,
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 53.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "FUMIGATION CERTIFICATE",
+      "CERTIFICATE OF ORIGIN",
+      "MATERIAL SAFETY DATA SHEET (MSDS)"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "5678 FRANKFURTER STRASSE, HAMBURG 20001, GERMANY",
+      "telephone": "+49 40 812 73 25",
+      "fax": "+49 40 812 73 90",
+      "email": "MAREK.KOWALSKI@ASIA-PACIFIC-LOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "5678 FRANKFURTER STRASSE, HAMBURG 20001, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 812 73 25",
+      "fax": "+49 40 812 73 90",
+      "email": "MAREK.KOWALSKI@ASIA-PACIFIC-LOGISTICS.DE"
+    },
+    "onboardDate": "2024-11-21 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2354, VALUE: USD408,303"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2704459",
+    "unClass": "1",
+    "unCode": "2354,",
+    "hsCode": "4519.52.90",
+    "flashPoint": "-16\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

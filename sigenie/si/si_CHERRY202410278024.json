@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410278024",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHEMTECH SOLUTIONS INC",
+      "address": "NO. 999, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING GROUP LTD",
+      "address": "DAMRAK 123, 1012 ZJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-2345-6789",
+      "fax": "+31-20-2345-6780",
+      "email": "INFO@GLOBALTRADING.NL",
+      "contactPerson": "PIETER VAN DER LINDE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING GROUP LTD"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "381700",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289453",
+      "sealNumber": 345901,
+      "marksAndNumbers": "GT-125",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS - MODEL DC1000",
+      "grossWeight": 18500.0,
+      "measurement": 25.2
+    },
+    {
+      "containerNumber": "CGXU4289454",
+      "sealNumber": 279567,
+      "marksAndNumbers": "GT-126",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS - MODEL DC1000",
+      "grossWeight": 18700.0,
+      "measurement": 25.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 X 40) DRY CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 37200.0,
+    "totalMeasurement": 50.4
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING GROUP LTD",
+      "address": "DAMRAK 123, 1012 ZJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-2345-6789",
+      "fax": "+31-20-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING GROUP LTD",
+      "address": "DAMRAK 123, 1012 ZJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-2345-6789",
+      "fax": "+31-20-2345-6780"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1208, VALUE: USD495,085",
+    "dangerousGoods": {
+      "unNumber": "1208",
+      "properShippingName": "DANGEROUS CHEMICALS",
+      "hazardClass": "3"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3055783",
+    "unClass": "4",
+    "unCode": "1208,",
+    "hsCode": "9458.58.97",
+    "flashPoint": "80\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

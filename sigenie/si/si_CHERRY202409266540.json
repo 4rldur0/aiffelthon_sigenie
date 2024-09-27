@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202409266540",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BEIJING PRECISION INSTRUMENTS LTD.",
+      "address": "123 CHANGJIANG ROAD, BEIJING, CHINA 100080",
+      "telephone": "+86 10 8888 9999",
+      "fax": "+86 10 8888 9998",
+      "email": "INFO@BEIJINGPRECISION.COM.CN"
+    },
+    "consignee": {
+      "name": "UNIVERSAL FREIGHT SOLUTIONS GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT AM MAIN, GERMANY",
+      "taxId": "DE123456789",
+      "president": "Mr. PETER SCHMIDT",
+      "telephone": "+49 69 7987 6543",
+      "fax": "+49 69 7987 6542",
+      "email": "PETER.SCHMIDT@UNIVERSALFREIGHT.DE"
+    },
+    "notifyParty": {
+      "name": "FREIGHTLOG GMBH",
+      "address": "HAMBURGER STRASSE 55, 20095 HAMBURG, GERMANY",
+      "taxId": "DE987654321",
+      "president": "Ms. ANNA MEYER",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 4445"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "903180",
+  "commodityDescription": "LABORATORY EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "containerType": "40 REEFER",
+      "cargoDescription": "LABORATORY EQUIPMENT - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' RF) REEFER CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "PALLETS",
+    "containerType": "40 REEFER",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 72.732
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-09-30 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 7\u00b0C, VALUE: USD322,088"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1099390",
+    "temperature": "7\u00b0C",
+    "minTemperature": "5\u00b0C",
+    "maxTemperature": "9\u00b0C",
+    "ventilation": "70%",
+    "humidity": "76%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}
