@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410191368",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2410E12"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO.",
+      "onBehalfOf": null,
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-98765432"
+    },
+    "consignee": {
+      "name": "ASIA IMPORT LTD",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "NL123456789"
+    },
+    "notifyParty": {
+      "name": "ASIA IMPORT LTD",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "854442",
+  "commodityDescription": "TELECOMMUNICATION CABLES",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 200,
+      "packageType": "REELS",
+      "cargoDescription": "TELECOMMUNICATION CABLES PACKED ON REELS, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": null
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 200,
+      "packageType": "REELS",
+      "cargoDescription": "TELECOMMUNICATION CABLES PACKED ON REELS, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": null
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 200,
+      "packageType": "REELS",
+      "cargoDescription": "TELECOMMUNICATION CABLES PACKED ON REELS, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": null
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE DRY) CONTAINER ONLY",
+    "totalPackages": 600,
+    "packageType": "REELS",
+    "containerType": "40' HIGH CUBE DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA IMPORT LTD",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA IMPORT LTD",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-22 15:00",
+    "additionalRemarks": "3 x 40' HIGH CUBE CONTAINERS, Item: TELECOMMUNICATION CABLES, Value: USD80,000"
+  }
+}

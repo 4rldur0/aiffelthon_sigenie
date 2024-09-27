@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202410266391",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241027E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "onBehalfOf": "WORLDWIDE LOGISTICS INC.",
+      "address": "UNIT 1001, 10/F, SHANGHAI TOWER, 501 YIN CHENG ROAD, SHANGHAI 200085, CHINA",
+      "telephone": "+86-21-5386-9876",
+      "fax": "+86-21-5386-5678"
+    },
+    "consignee": {
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "DELDELFTSEWEG 12, 3029 BL ROTTERDAM, NETHERLANDS",
+      "companyNumber": "63291873"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 200, NEW YORK, NY 10001, USA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "87089910",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE PARTS, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLE PARTS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": "HIGH-SECURITY SEAL REQUIRED AS PER SHIPMENT REMARKS."
+    },
+    {
+      "containerNumber": "TCLU7894567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE PARTS, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLE PARTS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": "HIGH-SECURITY SEAL REQUIRED AS PER SHIPMENT REMARKS."
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "98765432",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE PARTS, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLE PARTS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": "HIGH-SECURITY SEAL REQUIRED AS PER SHIPMENT REMARKS."
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "14785236",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE PARTS, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLE PARTS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": "HIGH-SECURITY SEAL REQUIRED AS PER SHIPMENT REMARKS."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (4 x 20GP) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 200, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "UNIT 1001, 10/F, SHANGHAI TOWER, 501 YIN CHENG ROAD, SHANGHAI 200085, CHINA",
+      "telephone": "+86-21-5386-9876",
+      "fax": "+86-21-5386-5678"
+    },
+    "onboardDate": "2024-10-28 10:00",
+    "additionalRemarks": "URGENT SHIPMENT. PLEASE EXPEDITATE HANDLING. CONTAINER NEEDS TO BE SEALED WITH A HIGH-SECURITY SEAL."
+  }
+}

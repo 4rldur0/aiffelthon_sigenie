@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202411148875",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423ZGH"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO.",
+      "address": "No. 1234, Xinghai Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 6666",
+      "email": "info@asiapacificmanufacturing.com"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LLC",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "taxId": "NL123456789",
+      "president": "Mr. John Smith",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 1234568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LLC",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "taxId": "NL123456789",
+      "president": "Mr. John Smith",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 1234568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "AUTOMATIC BOTTLE FILLING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS AUTOMATIC BOTTLE FILLING MACHINE",
+      "grossWeight": 6000.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS AUTOMATIC BOTTLE FILLING MACHINE",
+      "grossWeight": 6000.0,
+      "measurement": 12.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY CONTAINER X2) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY CONTAINER X2",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN20241102002",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LLC",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 1234568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LLC",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 7890123",
+      "fax": "+31 10 7890124"
+    },
+    "onboardDate": "2024-11-17 16:00",
+    "additionalRemarks": "FRAGILE GOODS: HANDLE WITH CARE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

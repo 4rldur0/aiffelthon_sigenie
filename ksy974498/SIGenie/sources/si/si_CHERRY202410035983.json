@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410035983",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2425EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 1,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADE SOLUTIONS INC.",
+      "address": "5678 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADE SOLUTIONS INC.",
+      "address": "5678 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "LATHE MACHINES",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "API-202410",
+      "numberOfPackages": 10,
+      "cargoDescription": "LATHE MACHINES PACKED IN WOODEN CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "API-202410",
+      "numberOfPackages": 10,
+      "cargoDescription": "LATHE MACHINES PACKED IN WOODEN CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU4567890",
+      "sealNumber": "135792",
+      "marksAndNumbers": "API-202410",
+      "numberOfPackages": 10,
+      "cargoDescription": "LATHE MACHINES PACKED IN WOODEN CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "246813",
+      "marksAndNumbers": "API-202410",
+      "numberOfPackages": 10,
+      "cargoDescription": "LATHE MACHINES PACKED IN WOODEN CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU2468135",
+      "sealNumber": "753186",
+      "marksAndNumbers": "API-202410",
+      "numberOfPackages": 10,
+      "cargoDescription": "LATHE MACHINES PACKED IN WOODEN CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 50,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 175.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADE SOLUTIONS INC.",
+      "address": "5678 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADE SOLUTIONS INC.",
+      "address": "5678 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-10-10 10:00",
+    "additionalRemarks": "SHIPMENT REQUIRES TEMPERATURE CONTROL: 15-25 DEGREES CELSIUS."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

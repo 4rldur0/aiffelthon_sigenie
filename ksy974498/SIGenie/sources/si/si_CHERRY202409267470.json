@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202409267470",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2310EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Pacific Garments Co. Ltd.",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-9876-5432",
+      "fax": "+86-574-9876-5431"
+    },
+    "consignee": {
+      "name": "Sunrise Trading Inc.",
+      "address": "100 CANAL STREET, ROTTERDAM, NETHERLANDS 3011 DD",
+      "companyNumber": "987654321"
+    },
+    "notifyParty": {
+      "name": "Global Freight Solutions",
+      "address": "123 RECEIVER ROAD, ROTTERDAM, NETHERLANDS 3012 DD"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "620463",
+  "commodityDescription": "MEN'S COTTON PANTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "PACGAR-1",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEN'S COTTON PANTS",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "PACGAR-2",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEN'S COTTON PANTS",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "432165",
+      "marksAndNumbers": "PACGAR-3",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEN'S COTTON PANTS",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU5432167",
+      "sealNumber": "765432",
+      "marksAndNumbers": "PACGAR-4",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEN'S COTTON PANTS",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU87654321",
+      "sealNumber": "216543",
+      "marksAndNumbers": "PACGAR-5",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEN'S COTTON PANTS",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) 40' HIGH CUBE DRY CONTAINER",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40DRH",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 120.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "Sunrise Trading Inc.",
+      "address": "100 CANAL STREET, ROTTERDAM, NETHERLANDS 3011 DD",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Freight Solutions",
+      "address": "123 RECEIVER ROAD, ROTTERDAM, NETHERLANDS 3012 DD",
+      "telephone": "+31-10-555-5555",
+      "fax": "+31-10-555-5556"
+    },
+    "onboardDate": "2024-10-01 12:00",
+    "additionalRemarks": "D/G, Class: 8, UN No: 1866"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "bookingReference": "CHERRY202410178508",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024913E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3862",
+      "address": "1234 INDUSTRY STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9257",
+      "address": "5678 MERCHANT ROAD, ROTTERDAM, NETHERLANDS"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1475",
+      "address": "9012 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5677"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854140",
+  "commodityDescription": "Transformers",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER3862 MARK",
+      "numberOfPackages": 25,
+      "cargoDescription": "TRANSFORMERS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SHIPPER3862 MARK",
+      "numberOfPackages": 25,
+      "cargoDescription": "TRANSFORMERS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HQ) CONTAINERS ONLY",
+    "totalPackages": 50,
+    "packageType": "PACKAGES",
+    "containerType": "40 HQ REEFER",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "onboardDate": "2024-10-25 12:35",
+    "additionalRemarks": "Containers require pre-cooling before loading. "
+  }
+}

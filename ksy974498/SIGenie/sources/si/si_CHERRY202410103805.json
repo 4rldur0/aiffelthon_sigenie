@@ -1,0 +1,159 @@
+{
+  "bookingReference": "CHERRY202410103805",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024632W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4283",
+      "onBehalfOf": "",
+      "address": "567 Plastic Road, Ningbo, China",
+      "telephone": "+86-574-88889999",
+      "fax": "+86-574-77776666"
+    },
+    "consignee": {
+      "name": "EURO PLASTICS BV",
+      "address": "890 Trade Center, Rotterdam, Netherlands",
+      "companyNumber": "NL1234567890"
+    },
+    "notifyParty": {
+      "name": "EURO PLASTICS BV",
+      "address": "890 Trade Center, Rotterdam, Netherlands"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "39206200",
+  "commodityDescription": "POLYPROPYLENE SHEETS",
+  "containers": [
+    {
+      "containerNumber": "SEGU4567891",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SP1234",
+      "numberOfPackages": 500,
+      "packageType": "SHEETS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. POLYPROPYLENE SHEETS AS DESCRIBED.",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "SEGU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SP7890",
+      "numberOfPackages": 500,
+      "packageType": "SHEETS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. POLYPROPYLENE SHEETS AS DESCRIBED.",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "SEGU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SP4567",
+      "numberOfPackages": 500,
+      "packageType": "SHEETS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. POLYPROPYLENE SHEETS AS DESCRIBED.",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "SEGU2468013",
+      "sealNumber": "0132468",
+      "marksAndNumbers": "SP8765",
+      "numberOfPackages": 500,
+      "packageType": "SHEETS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. POLYPROPYLENE SHEETS AS DESCRIBED.",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "SEGU5791234",
+      "sealNumber": "3457912",
+      "marksAndNumbers": "SP2345",
+      "numberOfPackages": 500,
+      "packageType": "SHEETS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. POLYPROPYLENE SHEETS AS DESCRIBED.",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY) CONTAINERS",
+    "totalPackages": 2500,
+    "packageType": "SHEETS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "CO12345678"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO PLASTICS BV",
+      "address": "890 Trade Center, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE PLASTICS CO. LTD.",
+      "address": "567 Plastic Road, Ningbo, China"
+    },
+    "onboardDate": "2024-10-22 12:35",
+    "additionalRemarks": "Please ensure containers are sealed properly before delivery."
+  },
+  "reeferSettings": {
+    "reeferSettings": {
+      "temperatureSetPoint": {
+        "value": 2,
+        "unit": "Celsius"
+      },
+      "temperatureTolerance": {
+        "upperLimit": 4,
+        "lowerLimit": 0
+      },
+      "humiditySetPoint": {
+        "value": 70,
+        "unit": "Percent"
+      },
+      "humidityTolerance": {
+        "upperLimit": 75,
+        "lowerLimit": 65
+      },
+      "ventilation": "Minimum",
+      "co2Monitoring": true,
+      "alarmThresholds": {
+        "temperature": {
+          "high": 5,
+          "low": 1
+        },
+        "humidity": {
+          "high": 80,
+          "low": 60
+        }
+      },
+      "notes": "Maintain a controlled environment to preserve the integrity of the high-value cargo."
+    }
+  }
+}

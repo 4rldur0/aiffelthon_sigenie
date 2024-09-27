@@ -16,6 +16,8 @@ You are asked to provide detailed answers based on the provided document context
 8. If the question is unclear, ask the user to clarify.
 9. Do not speculate or provide an answer if no relevant information is found.
 10. List all sources without reference information at the end in a markdown table format.
+11. Reference sources as SOURCE[number] (e.g., SOURCE[1] (policy.pdf, page 5) or SOURCE[2] (URL)).
+12. At the end of your response, list all the sources used with their full reference information.
 
 -----------
 # Question: {si_data}

@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202410097780",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWC"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH ELECTRONICS LTD",
+      "address": "NO. 1234, JINYU ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "ACME IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "country": "NETHERLANDS",
+      "email": "INFO@ACMEIMPORTS.NL",
+      "telephone": "+31 10 411 6666"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS (SHANGHAI)",
+      "address": "UNIT 1203, NO. 258, YINCHENG ROAD, SHANGHAI, CHINA 200120",
+      "country": "CHINA",
+      "email": "INFO@GFS-SHANGHAI.COM",
+      "telephone": "+86 21 6333 8888"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85414010",
+  "commodityDescription": "SEMICONDUCTOR COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU8563124",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ZEN123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SEMICONDUCTOR COMPONENTS, SEALED AT FACTORY",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU7894562",
+      "sealNumber": "7890123",
+      "marksAndNumbers": "ZEN456",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "cargoDescription": "SEMICONDUCTOR COMPONENTS, SEALED AT FACTORY",
+      "grossWeight": 16500.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU2345678",
+      "sealNumber": "4567890",
+      "marksAndNumbers": "ZEN789",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "cargoDescription": "SEMICONDUCTOR COMPONENTS, SEALED AT FACTORY",
+      "grossWeight": 15000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY CONTAINER)",
+    "totalPackages": 120,
+    "packageType": "BOXES",
+    "totalGrossWeight": 49500.0,
+    "totalMeasurement": 99.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GFS20241025",
+    "hsCode": "85414010",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "ACME IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31 10 411 6666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS (SHANGHAI)",
+      "address": "UNIT 1203, NO. 258, YINCHENG ROAD, SHANGHAI, CHINA 200120",
+      "telephone": "+86 21 6333 8888"
+    },
+    "onboardDate": "2024-10-15 17:00",
+    "additionalRemarks": "3 x 20' Dry Containers. Semiconductor components for manufacturing electronic devices. Value: USD 35,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

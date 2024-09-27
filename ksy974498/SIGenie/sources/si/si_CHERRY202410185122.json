@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410185122",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI DRAGON IMPORTS & EXPORTS CO. LTD.",
+      "address": "123 Dragon Rd, Shanghai, China 200000",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-2323"
+    },
+    "consignee": {
+      "name": "KUEHNE + NAGEL (SINGAPORE) PTE LTD",
+      "address": "456 Harbourfront Centre, Singapore 018956",
+      "telephone": "+65-6276-1234",
+      "fax": "+65-6276-5678"
+    },
+    "notifyParty": {
+      "name": "DANZAS AEI (SHANGHAI)",
+      "address": "789 Bund Rd, Shanghai, China 200001",
+      "telephone": "+86-21-6666-7878",
+      "fax": "+86-21-6666-8989"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "90311090",
+  "commodityDescription": "POWER GENERATORS",
+  "containers": [
+    {
+      "containerNumber": "CCLU3567890",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SD-GEN123",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER GENERATORS FOR INDUSTRIAL USE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CCLU3567891",
+      "sealNumber": "123457",
+      "marksAndNumbers": "SD-GEN456",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER GENERATORS FOR INDUSTRIAL USE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CCLU3567892",
+      "sealNumber": "123458",
+      "marksAndNumbers": "SD-GEN789",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER GENERATORS FOR INDUSTRIAL USE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CCLU3567893",
+      "sealNumber": "123459",
+      "marksAndNumbers": "SD-GEN1011",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER GENERATORS FOR INDUSTRIAL USE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CCLU3567894",
+      "sealNumber": "123460",
+      "marksAndNumbers": "SD-GEN1213",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER GENERATORS FOR INDUSTRIAL USE",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY CONTAINER)",
+    "totalPackages": 25,
+    "packageType": "CRATES",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO987654321",
+    "salesOrderNumber": "SO123456789",
+    "lcDetails": {
+      "lcNumber": "LC20241018-001"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "KUEHNE + NAGEL (SINGAPORE) PTE LTD",
+      "address": "456 Harbourfront Centre, Singapore 018956",
+      "telephone": "+65-6276-1234",
+      "fax": "+65-6276-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI DRAGON IMPORTS & EXPORTS CO. LTD.",
+      "address": "123 Dragon Rd, Shanghai, China 200000",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-2323"
+    },
+    "onboardDate": "2024-10-22 14:00",
+    "additionalRemarks": "CARGO REQUIRES PROPER HANDLING AND SECUREMENT. VALUE: USD 120,000"
+  }
+}

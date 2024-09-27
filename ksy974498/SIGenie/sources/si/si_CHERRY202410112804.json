@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410112804",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241026W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Telegraphic Transfer",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "2345 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777"
+    },
+    "consignee": {
+      "name": "WORLDWIDE IMPORT EXPORT INC",
+      "address": "1234 AMSTERDAMSE STRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "IMPORT@WORLDWIDEIMPORT.NL",
+      "contactPerson": "PETER VAN DER SLOOT"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE IMPORT EXPORT INC",
+      "address": "1234 AMSTERDAMSE STRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "IMPORT@WORLDWIDEIMPORT.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "903110",
+  "commodityDescription": "Telephone Switching Equipment",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "WWIE2310",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TELEPHONE SWITCHING EQUIPMENT",
+      "grossWeight": 8000.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "WWIE2310",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TELEPHONE SWITCHING EQUIPMENT",
+      "grossWeight": 8000.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "WWIE2310",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TELEPHONE SWITCHING EQUIPMENT",
+      "grossWeight": 8000.0,
+      "measurement": 18.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20DRY CONTAINERS",
+    "totalPackages": 150,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 55.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241011-001",
+    "documentNumber": "20241011001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE IMPORT EXPORT INC",
+      "address": "1234 AMSTERDAMSE STRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE IMPORT EXPORT INC",
+      "address": "1234 AMSTERDAMSE STRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444"
+    },
+    "onboardDate": "2024-10-12 12:00",
+    "additionalRemarks": "Pre-shipment inspection required, 7 Days Free Time at Destination"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

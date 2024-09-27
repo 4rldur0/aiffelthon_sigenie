@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202410174911",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241027A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "MITSUBISHI CORPORATION",
+      "address": "2-3-1 Marunouchi, Chiyoda-ku, Tokyo 100-8310, JAPAN",
+      "country": "JAPAN",
+      "additionalInfo": "(TOKYO METROPOLITAN AREA)"
+    },
+    "consignee": {
+      "name": "VOLKSWAGEN GROUP SERVICES GMBH",
+      "address": "Friedrich-List-Stra\u00dfe 1, 38100 Braunschweig, GERMANY",
+      "country": "GERMANY",
+      "email": "info@volkswagen.de",
+      "telephone": "+49 531 209-0"
+    },
+    "notifyParty": {
+      "name": "VOLKSWAGEN GROUP SERVICES GMBH",
+      "address": "Friedrich-List-Stra\u00dfe 1, 38100 Braunschweig, GERMANY",
+      "country": "GERMANY",
+      "email": "info@volkswagen.de",
+      "telephone": "+49 531 209-0"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "870899",
+  "commodityDescription": "AUTOMOTIVE ENGINE COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9857632",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "MITSU20241017A",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "AUTOMOTIVE ENGINE COMPONENTS - AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9753214",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "MITSU20241017B",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "AUTOMOTIVE ENGINE COMPONENTS - AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9682547",
+      "sealNumber": "147852369",
+      "marksAndNumbers": "MITSU20241017C",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "AUTOMOTIVE ENGINE COMPONENTS - AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9571428",
+      "sealNumber": "963852741",
+      "marksAndNumbers": "MITSU20241017D",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "AUTOMOTIVE ENGINE COMPONENTS - AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9460319",
+      "sealNumber": "2147852369",
+      "marksAndNumbers": "MITSU20241017E",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "AUTOMOTIVE ENGINE COMPONENTS - AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 STANDARD CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "BOXES",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20241017-VW001",
+    "hsCode": "870899",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "VOLKSWAGEN GROUP SERVICES GMBH",
+      "address": "Friedrich-List-Stra\u00dfe 1, 38100 Braunschweig, GERMANY",
+      "telephone": "+49 531 209-0"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MITSUBISHI CORPORATION",
+      "address": "2-3-1 Marunouchi, Chiyoda-ku, Tokyo 100-8310, JAPAN",
+      "telephone": "+81 3 5252 5861",
+      "fax": "+81 3 5252 5862"
+    },
+    "onboardDate": "2024-10-22 16:00",
+    "additionalRemarks": "7 Days Free Time at Destination"
+  }
+}

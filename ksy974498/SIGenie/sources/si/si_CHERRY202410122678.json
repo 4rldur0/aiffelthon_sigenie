@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202410122678",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2438EW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA TRADING COMPANY LTD",
+      "address": "No. 888, Xinghai Road, Ningbo, Zhejiang, China",
+      "country": "CHINA",
+      "additionalInfo": "(Ningbo Free Trade Zone)",
+      "telephone": "+86 574 8888 9999",
+      "email": "shipping@chinatrading.com"
+    },
+    "consignee": {
+      "name": "UNIVERSAL LOGISTICS INC.",
+      "address": "Speicherstadt 1, Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "operations@universallogistics.de",
+      "telephone": "+49 40 3333 4444"
+    },
+    "notifyParty": {
+      "name": "UNIVERSAL LOGISTICS INC.",
+      "address": "Speicherstadt 1, Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "operations@universallogistics.de",
+      "telephone": "+49 40 3333 4444"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85423910",
+  "commodityDescription": "SWITCHGEAR PANELS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SWP-123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHGEAR PANELS - MODEL A123",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SWP-456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHGEAR PANELS - MODEL B789",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "23456789",
+      "marksAndNumbers": "SWP-789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHGEAR PANELS - MODEL C123",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 20 DRY CONTAINER",
+    "totalPackages": 300,
+    "totalGrossWeight": 72000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "CO_1234567890",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "UNIVERSAL LOGISTICS INC.",
+      "address": "Speicherstadt 1, Hamburg, Germany",
+      "telephone": "+49 40 3333 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA TRADING COMPANY LTD",
+      "address": "No. 888, Xinghai Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 9999"
+    },
+    "onboardDate": "2024-10-16 10:00",
+    "additionalRemarks": "FRAGILE CARGO: HANDLE WITH CARE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "MSCU3789562",
+    "unClass": "9",
+    "unCode": "3333",
+    "hsCode": "870323",
+    "flashPoint": "Not applicable",
+    "additionalInfo": "Batteries contained within the motorcycles"
+  }
+}

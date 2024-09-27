@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202409293776",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2424E112"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO.",
+      "onBehalfOf": "",
+      "address": "1234 HUANGPU ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-6329-8765",
+      "fax": "+86-21-6329-8766"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS LTD.",
+      "address": "MARKTSTRAAT 123, 3012 Rotterdam, Netherlands",
+      "companyNumber": "HRB 12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "LANDSTRASSE 56, 20359 HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "854231",
+  "commodityDescription": "SEMICONDUCTORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "APEC-2024-10-01",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTORS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "APEC-2024-10-02",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SEMICONDUCTORS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE DRY) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "CARTONS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORTS LTD.",
+      "address": "MARKTSTRAAT 123, 3012 Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ELECTRONICS CO.",
+      "address": "1234 HUANGPU ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-6329-8765",
+      "fax": "+86-21-6329-8766"
+    },
+    "onboardDate": "2024-10-05 16:00",
+    "additionalRemarks": "Value: USD 80,000"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

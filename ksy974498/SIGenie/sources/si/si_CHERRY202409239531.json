@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202409239531",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024932E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TOYS LTD",
+      "address": "1234 SUNRISE STREET, NINGBO, CHINA",
+      "telephone": "+86-574-8888-9999",
+      "fax": "+86-574-8888-0000"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "456 GLOBAL TRADE CENTER, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-7777-8888",
+      "fax": "+34-956-7777-9999"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "456 GLOBAL TRADE CENTER, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-7777-8888",
+      "fax": "+34-956-7777-9999"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "95030090",
+  "commodityDescription": "PLUSH TOYS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLUSH TOYS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLUSH TOYS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "213456",
+      "marksAndNumbers": "GHI789",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLUSH TOYS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "Certificate of Origin Issued",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "456 GLOBAL TRADE CENTER, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-7777-8888",
+      "fax": "+34-956-7777-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "456 GLOBAL TRADE CENTER, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-7777-8888",
+      "fax": "+34-956-7777-9999"
+    },
+    "onboardDate": "2024-10-05 14:00",
+    "additionalRemarks": "Containers to be loaded with fragile toys. Proper stacking and cushioning required. Seal intact upon arrival."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

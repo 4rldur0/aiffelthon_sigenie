@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410156053",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2422E106"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Zenith Trading Co.",
+      "address": "NO. 100, HUAIHAI ROAD, SHANGHAI, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "22 HANOVER STREET, HAMBURG, 20457, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHGMBH.DE",
+      "telephone": "+49 40 1234 5678"
+    },
+    "notifyParty": {
+      "name": "EUROTECH GMBH",
+      "address": "22 HANOVER STREET, HAMBURG, 20457, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHGMBH.DE",
+      "telephone": "+49 40 1234 5678"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "852580",
+  "commodityDescription": "TELEVISION SETS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ETV-2024-10",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TELEVISION SETS. SHIPPER'S LOAD AND COUNT. B/L: TO BE ISSUED",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "432165",
+      "marksAndNumbers": "ETV-2024-10",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TELEVISION SETS. SHIPPER'S LOAD AND COUNT. B/L: TO BE ISSUED",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20241027-TV-001",
+    "hsCode": "852580",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C421234567890",
+    "originalBLDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "22 HANOVER STREET, HAMBURG, 20457, GERMANY",
+      "telephone": "+49 40 1234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA TRADING CO. LTD.",
+      "address": "NO. 100, HUAIHAI ROAD, SHANGHAI, 200000, CHINA",
+      "telephone": "+86 21 1234 5678"
+    },
+    "onboardDate": "2024-10-22 14:00",
+    "additionalRemarks": "10 x 20' DRY Containers. Cargo: Assorted Mobile Phones. Value: USD 80,000"
+  }
+}

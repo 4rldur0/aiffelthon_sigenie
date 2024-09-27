@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202411132190",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2458W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Zenith Manufacturing Corp.",
+      "address": "1234 Shanghai Road, Ningbo, China 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888887"
+    },
+    "consignee": {
+      "name": "Atlas Trading Company",
+      "address": "456 Hamburg Strasse, Hamburg, Germany 20457",
+      "telephone": "+49-40-2222222",
+      "fax": "+49-40-2222223"
+    },
+    "notifyParty": {
+      "name": "Seawise Logistics",
+      "address": "789 Frankfurt Avenue, Frankfurt, Germany 60329",
+      "telephone": "+49-69-3333333",
+      "fax": "+49-69-3333334"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "902300",
+  "commodityDescription": "DIGITAL PRESSURE GAUGES",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZMC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL PRESSURE GAUGES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ZMC456",
+      "numberOfPackages": 80,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL PRESSURE GAUGES",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE) CONTAINERS",
+    "totalPackages": 180,
+    "packageType": "CARTONS & PALLETS",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "Atlas Trading Company",
+      "address": "456 Hamburg Strasse, Hamburg, Germany 20457",
+      "telephone": "+49-40-2222222",
+      "fax": "+49-40-2222223"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Seawise Logistics",
+      "address": "789 Frankfurt Avenue, Frankfurt, Germany 60329",
+      "telephone": "+49-69-3333333",
+      "fax": "+49-69-3333334"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "DANGEROUS GOODS, Class: 9, UN No: 3264"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1316483",
+    "unClass": "6",
+    "unCode": "No:",
+    "hsCode": "5533.32.16",
+    "flashPoint": "83\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

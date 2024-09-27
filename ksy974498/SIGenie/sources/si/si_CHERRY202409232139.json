@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202409232139",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2438EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA MANUFACTURING INC.",
+      "address": "1234 INDUSTRY STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+862155556666",
+      "fax": "+862155557777"
+    },
+    "consignee": {
+      "name": "BETA GLOBAL TRADING CO.",
+      "address": "4567 COMMERCIAL ROAD, AMSTERDAM, NETHERLANDS 1000AA",
+      "telephone": "+31201234567",
+      "fax": "+31201234568",
+      "email": "info@betaglobal.nl",
+      "contactPerson": "JAN SMITH"
+    },
+    "notifyParty": {
+      "name": "BETA GLOBAL TRADING CO.",
+      "address": "4567 COMMERCIAL ROAD, AMSTERDAM, NETHERLANDS 1000AA",
+      "telephone": "+31201234567",
+      "fax": "+31201234568",
+      "email": "finance@betaglobal.nl"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "85437090",
+  "commodityDescription": "Industrial Electric Motor",
+  "containers": [
+    {
+      "containerNumber": "TCLU9578123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA123",
+      "numberOfPackages": 30,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Industrial Electric Motors",
+      "grossWeight": 18500.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU9578124",
+      "sealNumber": "123457",
+      "marksAndNumbers": "ALPHA123",
+      "numberOfPackages": 35,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Industrial Electric Motors",
+      "grossWeight": 19000.0,
+      "measurement": 26.5
+    },
+    {
+      "containerNumber": "TCLU9578125",
+      "sealNumber": "123458",
+      "marksAndNumbers": "ALPHA123",
+      "numberOfPackages": 25,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Industrial Electric Motors",
+      "grossWeight": 17500.0,
+      "measurement": 24.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20DRY",
+    "totalPackages": 90,
+    "totalGrossWeight": 55000.0,
+    "totalMeasurement": 79.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241005-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "BETA GLOBAL TRADING CO.",
+      "address": "4567 COMMERCIAL ROAD, AMSTERDAM, NETHERLANDS 1000AA",
+      "telephone": "+31201234567",
+      "fax": "+31201234568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA GLOBAL TRADING CO.",
+      "address": "4567 COMMERCIAL ROAD, AMSTERDAM, NETHERLANDS 1000AA",
+      "telephone": "+31201234567",
+      "fax": "+31201234568"
+    },
+    "onboardDate": "2024-09-25 12:00",
+    "additionalRemarks": "7 Days Free Time at Destination, Documentation Required: Commercial Invoice, Packing List, Bill of Lading, Certificate of Origin"
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  }
+}

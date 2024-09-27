@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202409252439",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "3421NWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "1234 Nanjing Road, Shanghai, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 6354 7890",
+      "email": "shipping@sunrisetrading.cn"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING & LOGISTICS INC.",
+      "address": "250 West Broadway, New York, USA",
+      "country": "USA",
+      "email": "info@deltashippinglogistics.com",
+      "telephone": "+1 212 555 1234"
+    },
+    "notifyParty": {
+      "name": "KRAFT LOGISTICS GMBH",
+      "address": "Hermannstra\u00dfe 42, 60487 Frankfurt am Main, GERMANY",
+      "country": "GERMANY",
+      "email": "shipping@kraftlogistics.de",
+      "telephone": "+49 69 95765432"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "62112000",
+  "commodityDescription": "TEXTILE GARMENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "TSHIRT123",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE GARMENTS PACKED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "7890123",
+      "marksAndNumbers": "TRACKSUIT456",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE GARMENTS PACKED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "4567890",
+      "marksAndNumbers": "SWEATER789",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE GARMENTS PACKED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9012345",
+      "sealNumber": "9012345",
+      "marksAndNumbers": "SHIRT101",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE GARMENTS PACKED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "2345678",
+      "marksAndNumbers": "PANTS1234",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE GARMENTS PACKED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) x 20 DRY CONTAINER",
+    "totalPackages": 250,
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING & LOGISTICS INC.",
+      "address": "250 West Broadway, New York, USA",
+      "telephone": "+1 212 555 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING & LOGISTICS INC.",
+      "address": "250 West Broadway, New York, USA",
+      "telephone": "+1 212 555 1234"
+    },
+    "onboardDate": "2024-10-01 12:00",
+    "additionalRemarks": "CUSTOMS CLEARANCE REQUIRED AT DESTINATION"
+  }
+}

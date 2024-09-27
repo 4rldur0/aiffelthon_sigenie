@@ -1,0 +1,88 @@
+{
+  "bookingReference": "CHERRY202409272026",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024952E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL FURNITURE LTD",
+      "address": "123 Furniture Lane, Ningbo, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "ACME INTERNATIONAL TRADING",
+      "address": "456 Trade Street, Algeciras, Spain",
+      "telephone": "+34 956 555 1212",
+      "fax": "+34 956 555 1213"
+    },
+    "notifyParty": {
+      "name": "ACME LOGISTICS",
+      "address": "789 Logistics Drive, Madrid, Spain"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940370",
+  "commodityDescription": "WOODEN OFFICE DESKS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GFL123",
+      "numberOfPackages": 20,
+      "cargoDescription": "OFFICE DESKS",
+      "grossWeight": 18000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GFL456",
+      "numberOfPackages": 20,
+      "cargoDescription": "OFFICE DESKS",
+      "grossWeight": 18000.0,
+      "measurement": 68.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "packageType": "UNITS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 136.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CN20241029123",
+      "CN20241029456"
+    ],
+    "originalBLDistribution": {
+      "name": "ACME INTERNATIONAL TRADING",
+      "address": "456 Trade Street, Algeciras, Spain"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME LOGISTICS",
+      "address": "789 Logistics Drive, Madrid, Spain"
+    },
+    "onboardDate": "2024-10-28 10:00",
+    "additionalRemarks": "Containers must be sealed before delivery to port of loading."
+  }
+}

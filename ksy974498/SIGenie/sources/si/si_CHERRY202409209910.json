@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202409209910",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "1234W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENGINEERING SOLUTIONS",
+      "onBehalfOf": "",
+      "address": "12345 SUNRISE STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "ACME INTERNATIONAL TRADING",
+      "address": "124 CANAL STREET, 3012 AA ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC ENGINEERING SOLUTIONS",
+      "address": "12345 SUNRISE STREET, SHANGHAI, CHINA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "853669",
+  "commodityDescription": "Circuit Breakers",
+  "containers": [
+    {
+      "containerNumber": "CMLU9998765",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AP-1",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIRCUIT BREAKERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER WEIGHT: 2500KG"
+    },
+    {
+      "containerNumber": "CMLU9998766",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AP-2",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIRCUIT BREAKERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER WEIGHT: 2500KG"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CN1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "ACME INTERNATIONAL TRADING",
+      "address": "124 CANAL STREET, 3012 AA ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ENGINEERING SOLUTIONS",
+      "address": "12345 SUNRISE STREET, SHANGHAI, CHINA"
+    },
+    "onboardDate": "2024-09-23 12:00",
+    "additionalRemarks": "CONTAINERS SHOULD BE MAINTAINED AT 15 DEGREES CELSIUS. Value: USD50,000"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410067742",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024871W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6381",
+      "address": "123 SHANGHAI ROAD, 310000 SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(INDUSTRIAL ZONE)",
+      "telephone": "+86 21 5678 9012",
+      "email": "SHIPPING@SHIPPER6381.CN"
+    },
+    "consignee": {
+      "name": "CUSTOMER 4821 GMBH",
+      "address": "FRANKFURTER STRASSE 24, 60314 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@CUSTOMER4821.DE",
+      "telephone": "+49 69 45678910"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2513",
+      "address": "POSTFACH 456, 10115 BERLIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INVOICE@RECEIVER2513.DE",
+      "telephone": "+49 30 78901234"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - PACKED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU78901234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER MARK DEF456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - PACKED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SHIPPER MARK GHI789",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - PACKED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3 x 40 HC) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "Cargo requires careful handling"
+  },
+  "dangerousGoods": {},
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

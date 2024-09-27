@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410245192",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2345W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SAMSUNG ELECTRONICS CO., LTD",
+      "address": "123 SAMSUNG STREET, SEOUL, SOUTH KOREA 06164",
+      "telephone": "+82 2 777 7777",
+      "fax": "+82 2 777 7778"
+    },
+    "consignee": {
+      "name": "KIA MOTORS CORPORATION",
+      "address": "456 KIA AVENUE, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 3333 3333",
+      "fax": "+49 40 3333 3334",
+      "email": "IMPORT@KIAMOTORS.DE",
+      "contactPerson": "FRANZ SCHMIDT"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "DIGITAL CAMERA MODULES",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "111111",
+      "marksAndNumbers": "SAMPLE MARKINGS 111",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DIGITAL CAMERA MODULES",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876544",
+      "sealNumber": "222222",
+      "marksAndNumbers": "SAMPLE MARKINGS 222",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DIGITAL CAMERA MODULES",
+      "grossWeight": 17500.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU9876545",
+      "sealNumber": "333333",
+      "marksAndNumbers": "SAMPLE MARKINGS 333",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DIGITAL CAMERA MODULES",
+      "grossWeight": 17500.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU9876546",
+      "sealNumber": "444444",
+      "marksAndNumbers": "SAMPLE MARKINGS 444",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DIGITAL CAMERA MODULES",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876547",
+      "sealNumber": "555555",
+      "marksAndNumbers": "SAMPLE MARKINGS 555",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DIGITAL CAMERA MODULES",
+      "grossWeight": 17500.0,
+      "measurement": 24.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 DRY",
+    "totalPackages": 500,
+    "totalGrossWeight": 90500.0,
+    "totalMeasurement": 124.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241024-001",
+    "documentNumber": "20241024-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "KIA MOTORS CORPORATION",
+      "address": "456 KIA AVENUE, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 3333 3333",
+      "fax": "+49 40 3333 3334"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KIA MOTORS CORPORATION",
+      "address": "456 KIA AVENUE, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 3333 3333",
+      "fax": "+49 40 3333 3334"
+    },
+    "onboardDate": "2024-10-28 14:00",
+    "additionalRemarks": "DOOR DELIVERY REQUIRED AT HAMBURG"
+  }
+}

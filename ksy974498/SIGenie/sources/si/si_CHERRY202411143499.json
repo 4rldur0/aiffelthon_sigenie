@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202411143499",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2411W153"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TECH SOLUTIONS LTD",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-5555-1234",
+      "fax": "+86-574-5555-1235"
+    },
+    "consignee": {
+      "name": "EUROTRANS LOGISTICS GmbH",
+      "address": "456 FRANKFURTER STRASSE, FRANKFURT, GERMANY 60329",
+      "telephone": "+49-69-5555-5678",
+      "fax": "+49-69-5555-5679",
+      "email": "IMPORT@EUROTRANSLOGISTICS.DE",
+      "contactPerson": "ANNA MEYER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847130",
+  "commodityDescription": "NETWORK ROUTERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2036784",
+      "sealNumber": "170768",
+      "marksAndNumbers": "EUROTRANS2411W1531",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: HP PROLIANT DL380 GEN11 NETWORK ROUTERS",
+      "grossWeight": 19121.0,
+      "measurement": 20.618
+    },
+    {
+      "containerNumber": "CRLU2037812",
+      "sealNumber": "170658",
+      "marksAndNumbers": "EUROTRANS2411W1532",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DELL POWEREDGE R750 NETWORK ROUTERS",
+      "grossWeight": 18643.0,
+      "measurement": 20.071
+    },
+    {
+      "containerNumber": "CRLU2038947",
+      "sealNumber": "170789",
+      "marksAndNumbers": "EUROTRANS2411W1533",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CISCO UCS C220 M5 NETWORK ROUTERS",
+      "grossWeight": 19121.0,
+      "measurement": 20.618
+    },
+    {
+      "containerNumber": "CRLU2039256",
+      "sealNumber": "170678",
+      "marksAndNumbers": "EUROTRANS2411W1534",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: HUAWEI CLOUDENGINE 5700 NETWORK ROUTERS",
+      "grossWeight": 18643.0,
+      "measurement": 20.071
+    },
+    {
+      "containerNumber": "CRLU2040123",
+      "sealNumber": "170798",
+      "marksAndNumbers": "EUROTRANS2411W1535",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ARUBA 7200 SERIES NETWORK ROUTERS",
+      "grossWeight": 19121.0,
+      "measurement": 20.618
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20DRY CONTAINERS",
+    "totalPackages": 500,
+    "totalGrossWeight": 93525.0,
+    "totalMeasurement": 102.349
+  },
+  "additionalInformation": {
+    "invoiceNumber": "3669224-06",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROTRANS LOGISTICS GmbH",
+      "address": "456 FRANKFURTER STRASSE, FRANKFURT, GERMANY 60329",
+      "telephone": "+49-69-5555-5678",
+      "fax": "+49-69-5555-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTRANS LOGISTICS GmbH",
+      "address": "456 FRANKFURTER STRASSE, FRANKFURT, GERMANY 60329",
+      "telephone": "+49-69-5555-5678",
+      "fax": "+49-69-5555-5679"
+    },
+    "onboardDate": "2024-11-16 10:00",
+    "additionalRemarks": "Cargo needs to be handled with care due to sensitive electronic components."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

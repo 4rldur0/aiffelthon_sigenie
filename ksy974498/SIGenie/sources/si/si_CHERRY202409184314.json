@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202409184314",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423W115"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TECH SOLUTIONS LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8888 9999",
+      "email": "SHIPPER@ASIA-PACIFIC-TECH.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "email": "CONSIGNEE@GLOBALTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "email": "NOTIFICATIONS@GLOBALTRADING.DE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847130",
+  "commodityDescription": "LAPTOPS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "LAPTOP SHIPMENT",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOPS, HS CODE 847130",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "LAPTOP SHIPMENT",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOPS, HS CODE 847130",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU5432109",
+      "sealNumber": "109876",
+      "marksAndNumbers": "LAPTOP SHIPMENT",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOPS, HS CODE 847130",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "321098",
+      "marksAndNumbers": "LAPTOP SHIPMENT",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOPS, HS CODE 847130",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU2109876",
+      "sealNumber": "765432",
+      "marksAndNumbers": "LAPTOP SHIPMENT",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOPS, HS CODE 847130",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT12345",
+      "CERT67890"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678"
+    },
+    "onboardDate": "2024-10-02 12:00",
+    "additionalRemarks": "Insurance required. Value: USD 50,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

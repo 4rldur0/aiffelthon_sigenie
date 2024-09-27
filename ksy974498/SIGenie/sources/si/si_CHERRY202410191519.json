@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410191519",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2453W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREENWICH TRADING CO.",
+      "address": "123 GREENWICH STREET, NINGBO, 315000"
+    },
+    "consignee": {
+      "name": "ACME IMPORTERS LTD.",
+      "address": "456 ACME AVENUE, ROTTERDAM, 3011AB",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 9876543"
+    },
+    "notifyParty": {
+      "name": "ACME IMPORTERS LTD. - ATTN: IMPORT DEPARTMENT",
+      "address": "789 NOTIFY STREET, ROTTERDAM, 3011AB",
+      "telephone": "+31 10 1111222",
+      "fax": "+31 10 2222333"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940160",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ACME-1",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. PACKAGES CONTAINING OFFICE CHAIRS.",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "ACME-2",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. PACKAGES CONTAINING OFFICE CHAIRS.",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40 DRY CONTAINER(S)",
+    "totalPackages": 200,
+    "packageType": "PACKAGES",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC9876543210"
+    },
+    "certificateDetails": [
+      "CERT123456",
+      "CERT789012"
+    ],
+    "originalBLDistribution": {
+      "name": "ACME IMPORTERS LTD.",
+      "address": "456 ACME AVENUE, ROTTERDAM, 3011AB"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME IMPORTERS LTD. - ATTN: ACCOUNTS DEPARTMENT",
+      "address": "789 NOTIFY STREET, ROTTERDAM, 3011AB",
+      "telephone": "+31 10 1111222",
+      "fax": "+31 10 2222333"
+    },
+    "onboardDate": "2024-10-29 14:00",
+    "additionalRemarks": "Pre-shipment inspection required. Value: USD50,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

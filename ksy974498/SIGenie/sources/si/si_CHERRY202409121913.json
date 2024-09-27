@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202409121913",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2431W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO. LTD.",
+      "address": "1234 INDUSTRIAL PARK, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "1 MAIN STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-5679"
+    },
+    "notifyParty": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "1 MAIN STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854442",
+  "commodityDescription": "POWER TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE MANUFACTURING CO. LTD.",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE MANUFACTURING CO. LTD.",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SUNRISE MANUFACTURING CO. LTD.",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SUNRISE MANUFACTURING CO. LTD.",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU5432109",
+      "sealNumber": "567890",
+      "marksAndNumbers": "SUNRISE MANUFACTURING CO. LTD.",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "PACKAGES",
+    "totalGrossWeight": 90000.0,
+    "totalMeasurement": 165.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO9876543",
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "ACME IMPORT EXPORT INC.",
+      "address": "1 MAIN STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE MANUFACTURING CO. LTD.",
+      "address": "1234 INDUSTRIAL PARK, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "2024-09-16 12:00",
+    "additionalRemarks": "CONTAINER WEIGHT NOT TO EXCEED 20 TONNES. Value: USD80,000"
+  }
+}

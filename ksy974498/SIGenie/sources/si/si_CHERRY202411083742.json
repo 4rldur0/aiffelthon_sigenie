@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202411083742",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241123W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECHNO IMPORT EXPORT INC.",
+      "address": "123 TECH STREET, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS",
+      "address": "4567 IMPORT STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALFORWARDINGSOLUTIONS.COM",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FORWARDING SOLUTIONS",
+      "address": "1234 GLOBAL LANE, LONDON, UNITED KINGDOM EC1A 1AA",
+      "country": "UNITED KINGDOM",
+      "email": "NOTIFICATIONS@GLOBALFORWARDINGSOLUTIONS.COM",
+      "telephone": "+44 20 7654 3210"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "847130",
+  "commodityDescription": "NETWORK SERVERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "NETWORK SERVERS SHIPMENT",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SERVERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234568",
+      "sealNumber": "123457",
+      "marksAndNumbers": "NETWORK SERVERS SHIPMENT",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SERVERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234569",
+      "sealNumber": "123458",
+      "marksAndNumbers": "NETWORK SERVERS SHIPMENT",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SERVERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234570",
+      "sealNumber": "123459",
+      "marksAndNumbers": "NETWORK SERVERS SHIPMENT",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SERVERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234571",
+      "sealNumber": "123460",
+      "marksAndNumbers": "NETWORK SERVERS SHIPMENT",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SERVERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 FOOT CONTAINER) CONTAINER ONLY",
+    "totalPackages": 250,
+    "packageType": "BOXES",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO987654321",
+    "hsCode": "847130",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS",
+      "address": "4567 IMPORT STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS",
+      "address": "1234 GLOBAL LANE, LONDON, UNITED KINGDOM EC1A 1AA",
+      "telephone": "+44 20 7654 3210",
+      "fax": "+44 20 7654 3211"
+    },
+    "onboardDate": "2024-11-12 10:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED: 15-25 DEGREES CELSIUS"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

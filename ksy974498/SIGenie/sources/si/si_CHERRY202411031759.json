@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411031759",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "24387E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO LTD",
+      "address": "123 BROADWAY STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 9876 5432"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS INC",
+      "address": "456 EUROPASE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "SUNRISE.IMPORTS@EXAMPLE.COM",
+      "contactPerson": "JANE SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "789 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 9876 5432"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "SEED CLEANING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE TRADING CO LTD - SHANGHAI",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SEED CLEANING MACHINERY",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE TRADING CO LTD - SHANGHAI",
+      "numberOfPackages": 12,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SEED CLEANING MACHINERY",
+      "grossWeight": 12500.0,
+      "measurement": 26.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 DRY HIGH CUBE CONTAINER",
+    "totalPackages": 22,
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 51.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV202411031759999",
+    "documentNumber": "202411031759999-DOC",
+    "lcDetails": {
+      "lcNumber": "LC202411031759"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS INC",
+      "address": "456 EUROPASE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "789 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 9876 5432"
+    },
+    "onboardDate": "2024-11-07 10:00",
+    "additionalRemarks": "Stacking Instructions: Do Not Stack"
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

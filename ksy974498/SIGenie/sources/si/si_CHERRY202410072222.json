@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410072222",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024498E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "MADRID"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6213",
+      "address": "123 Export Street, Ningbo, China",
+      "telephone": "+86 574 9876543",
+      "email": "shipping@shipper6213.cn"
+    },
+    "consignee": {
+      "name": "CUSTOMER 4387",
+      "address": "456 Import Avenue, Madrid, Spain",
+      "telephone": "+34 91 1234567",
+      "fax": "+34 91 9876543"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1749",
+      "address": "789 Invoice Street, Madrid, Spain",
+      "telephone": "+34 91 5678901",
+      "fax": "+34 91 2345678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940390",
+  "commodityDescription": "WOODEN DINING TABLE",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER 6213 - WOODEN DINING TABLE",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "WOODEN DINING TABLE - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 HIGH CUBE REEFER) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "40 HIGH CUBE REEFER",
+    "totalGrossWeight": 500.0,
+    "totalMeasurement": 15.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CN2024102501",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 4387",
+      "address": "456 Import Avenue, Madrid, Spain",
+      "telephone": "+34 91 1234567",
+      "fax": "+34 91 9876543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1749",
+      "address": "789 Invoice Street, Madrid, Spain",
+      "telephone": "+34 91 5678901",
+      "fax": "+34 91 2345678"
+    },
+    "onboardDate": "2024-10-15 14:30",
+    "additionalRemarks": "Require fumigation certificate"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

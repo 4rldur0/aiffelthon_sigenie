@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202411106204",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2411EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES CO.",
+      "onBehalfOf": "",
+      "address": "123 YARN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-6789",
+      "fax": "+86-21-5555-1234"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "456 TRADE CENTER, AMSTERDAM, NETHERLANDS",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "456 TRADE CENTER, AMSTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "55121900",
+  "commodityDescription": "Polyester Filament Yarn",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTX123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "POLYESTER FILAMENT YARN - AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CGLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APTX456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "POLYESTER FILAMENT YARN - AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CGLU2468013",
+      "sealNumber": "801357",
+      "marksAndNumbers": "APTX789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "POLYESTER FILAMENT YARN - AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CGLU5432109",
+      "sealNumber": "109876",
+      "marksAndNumbers": "APTX123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "POLYESTER FILAMENT YARN - AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CGLU7654321",
+      "sealNumber": "210987",
+      "marksAndNumbers": "APTX456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "POLYESTER FILAMENT YARN - AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20DR",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "456 TRADE CENTER, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-9876"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TEXTILES CO.",
+      "address": "123 YARN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-6789",
+      "fax": "+86-21-5555-1234"
+    },
+    "onboardDate": "2024-11-13 10:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED: 10-15 DEGREES CELSIUS"
+  }
+}

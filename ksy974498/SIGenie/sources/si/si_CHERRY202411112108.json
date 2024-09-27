@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202411112108",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024837W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "Original Bill of Lading",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1583",
+      "address": "123 SHIPPER STREET, NINGBO 315000, CHINA",
+      "telephone": "+86-1234-5678",
+      "fax": "+86-1234-5679"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3472",
+      "address": "456 CONSIGNEE AVE, ROTTERDAM 3000 AA, NETHERLANDS",
+      "telephone": "+31-1234-5678",
+      "fax": "+31-1234-5679"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9876",
+      "address": "789 NOTIFY ST, AMSTERDAM 1012 AB, NETHERLANDS",
+      "telephone": "+31-1234-5678",
+      "fax": "+31-1234-5679"
+    }
+  },
+  "shippingTerm": "DOOR/DOOR",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC GENERATOR SET",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKS",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC GENERATOR SET",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKS",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC GENERATOR SET",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT12345",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3472",
+      "address": "456 CONSIGNEE AVE, ROTTERDAM 3000 AA, NETHERLANDS",
+      "telephone": "+31-1234-5678",
+      "fax": "+31-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9876",
+      "address": "789 NOTIFY ST, AMSTERDAM 1012 AB, NETHERLANDS",
+      "telephone": "+31-1234-5678",
+      "fax": "+31-1234-5679"
+    },
+    "onboardDate": "2024-11-15 15:30",
+    "additionalRemarks": "Containers require pre-cooling before loading."
+  }
+}

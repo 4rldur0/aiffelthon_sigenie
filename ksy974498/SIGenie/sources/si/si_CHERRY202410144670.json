@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410144670",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024320E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5678",
+      "address": "123 INDUSTRIAL STREET, NINGBO, 315000, CHINA",
+      "telephone": "+86 574 8888 3333",
+      "fax": "+86 574 8888 4444"
+    },
+    "consignee": {
+      "name": "CUSTOMER 1234",
+      "address": "AVENIDA DE LA ESPA\u00d1A 100, ALGECIRAS, 11001, SPAIN",
+      "telephone": "+34 956 7777 8888",
+      "fax": "+34 956 7777 9999",
+      "email": "CUSTOMER1234@EXAMPLE.COM",
+      "contactPerson": "JUAN GARCIA"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9012",
+      "address": "Calle Mayor 50, Madrid, 28013, SPAIN"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "INDUSTRIAL HYDRAULIC PRESS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER123",
+      "numberOfPackages": 1,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: INDUSTRIAL HYDRAULIC PRESS - MODEL X5000",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SHIPPER456",
+      "numberOfPackages": 1,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: INDUSTRIAL HYDRAULIC PRESS - MODEL X5000",
+      "grossWeight": 11500.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU9012345",
+      "sealNumber": "678901",
+      "marksAndNumbers": "SHIPPER789",
+      "numberOfPackages": 1,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: INDUSTRIAL HYDRAULIC PRESS - MODEL X5000",
+      "grossWeight": 11000.0,
+      "measurement": 24.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20 DRY CONTAINER",
+    "totalPackages": 3,
+    "totalGrossWeight": 34500.0,
+    "totalMeasurement": 73.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241014-001",
+    "documentNumber": "20241014-CN",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CE20241014001"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1234",
+      "address": "AVENIDA DE LA ESPA\u00d1A 100, ALGECIRAS, 11001, SPAIN",
+      "telephone": "+34 956 7777 8888",
+      "fax": "+34 956 7777 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9012",
+      "address": "Calle Mayor 50, Madrid, 28013, SPAIN"
+    },
+    "onboardDate": "2024-10-25 16:00",
+    "additionalRemarks": "Require pre-shipment inspection"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9889810",
+    "unClass": "2",
+    "unCode": "No: 3264",
+    "hsCode": "2596.80.86",
+    "flashPoint": "-5\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

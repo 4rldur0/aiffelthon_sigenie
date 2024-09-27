@@ -1,0 +1,138 @@
+{
+  "bookingReference": "CHERRY202411093615",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2411EAS23"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CFR",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "onBehalfOf": "",
+      "address": "125 GLOBAL STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-55551234",
+      "fax": "+86-21-55556789"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT EXPORT GMBH",
+      "address": "126 EURO STREET, HAMBURG, GERMANY",
+      "companyNumber": "DE123456789"
+    },
+    "notifyParty": {
+      "name": "EUROTECH WAREHOUSE INC.",
+      "address": "125 GLOBAL STREET, NEW YORK, USA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85444210",
+  "commodityDescription": "DISTRIBUTION TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ASIA PACIFIC ELECTRONICS LTD.",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DISTRIBUTION TRANSFORMERS",
+      "grossWeight": 2500.0,
+      "measurement": 8.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU1234568",
+      "sealNumber": "12345679",
+      "marksAndNumbers": "ASIA PACIFIC ELECTRONICS LTD.",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DISTRIBUTION TRANSFORMERS",
+      "grossWeight": 2500.0,
+      "measurement": 8.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU1234569",
+      "sealNumber": "12345680",
+      "marksAndNumbers": "ASIA PACIFIC ELECTRONICS LTD.",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DISTRIBUTION TRANSFORMERS",
+      "grossWeight": 2500.0,
+      "measurement": 8.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU1234570",
+      "sealNumber": "12345681",
+      "marksAndNumbers": "ASIA PACIFIC ELECTRONICS LTD.",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DISTRIBUTION TRANSFORMERS",
+      "grossWeight": 2500.0,
+      "measurement": 8.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU1234571",
+      "sealNumber": "12345682",
+      "marksAndNumbers": "ASIA PACIFIC ELECTRONICS LTD.",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DISTRIBUTION TRANSFORMERS",
+      "grossWeight": 2500.0,
+      "measurement": 8.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY X5) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234"
+    },
+    "certificateDetails": [
+      "4112720070177X"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORT EXPORT GMBH",
+      "address": "126 EURO STREET, HAMBURG, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH WAREHOUSE INC.",
+      "address": "125 GLOBAL STREET, NEW YORK, USA",
+      "telephone": "+1-212-555-1234",
+      "fax": "+1-212-555-6789"
+    },
+    "onboardDate": "2024-11-15 10:00",
+    "additionalRemarks": "Fragile cargo, handle with care. Customs clearance handled by consignee"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

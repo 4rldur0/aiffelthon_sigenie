@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202410068472",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024317E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Global Traders Ltd.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
+    },
+    "consignee": {
+      "name": "Acme Logistics Inc.",
+      "address": "456 ABC LANE, FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "email": "customer4567@example.com",
+      "telephone": "+49 69 1234 5678"
+    },
+    "notifyParty": {
+      "name": "Acme Logistics Inc.",
+      "address": "456 ABC LANE, FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "email": "customer4567@example.com",
+      "telephone": "+49 69 1234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854442",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU11223344",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU55667788",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 2000,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 30000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU88776655",
+      "sealNumber": "445566",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU22334455",
+      "sealNumber": "778899",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5)  40 HIGH CUBE DRY CONTAINERS",
+    "totalPackages": 5000,
+    "packageType": "MIXED",
+    "totalGrossWeight": 90000.0,
+    "totalMeasurement": 120.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345678",
+    "hsCode": "854442",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "Acme Logistics Inc.",
+      "address": "456 ABC LANE, FRANKFURT, GERMANY",
+      "telephone": "+49 69 1234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Acme Logistics Inc.",
+      "address": "456 ABC LANE, FRANKFURT, GERMANY",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 5679"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "Containers to be loaded on deck. Fumigation certificate required."
+  }
+}
