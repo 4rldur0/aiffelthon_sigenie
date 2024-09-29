@@ -75,9 +75,6 @@ SIGenie is an early access version (v0.02) of a comprehensive shipping document 
 ### bkg/ and si/
 These directories contain JSON files for Booking and Shipping Instruction documents, respectively. Each file represents a single document and follows a specific structure. The application reads these files to populate the database and display information.
 
-### bkg_new/ and si_new/
-These directories are used for storing new Booking and Shipping Instruction JSON files that are yet to be processed and added to the main directories.
-
 ## Contributing
 
 This is an early access version. For major changes, please open an issue first to discuss what you would like to change.
@@ -105,7 +102,7 @@ This is an early access version. For major changes, please open an issue first t
 
 - v0.03 (2024-09-29): 
   - dataset 3263
-  - draft watermark
+  - draft watermark 
 ---
 
 

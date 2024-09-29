@@ -77,11 +77,11 @@ custom_css = """
     }    
     .watermark {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) rotate(-45deg);
+        top: 20%;
+        left: 75%;
+        transform: translate(-50%, -50%) rotate(45deg);
         font-size: 180px;  /* 크기를 180px로 증가 */
-        color: rgba(255, 0, 0, 0.15);  /* 투명도를 0.15로 낮춤 */
+        color: rgba(255, 0, 0, 0.11);  /* 투명도를 0.15로 낮춤 */
         pointer-events: none;
         z-index: 1000;
         user-select: none;
