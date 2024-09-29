@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411073052",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING COMPANY",
+      "address": "123 GLOBAL TRADE CENTER, HAICHAO DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@BETATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "234 PLAZA DE ESPA\u00d1A, ALGECIRAS, 11203, SPAIN",
+      "country": "SPAIN",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES",
+      "telephone": "+34 956 7890 1234",
+      "fax": "+34 956 7890 1235"
+    },
+    "notifyParty": {
+      "name": "GAMMA LOGISTICS S.L.",
+      "address": "AVDA. DE LA LIBERTAD 123, ALGECIRAS, 11204, SPAIN",
+      "country": "SPAIN",
+      "email": "OPERATIONS@GAMMALOGISTICS.ES",
+      "telephone": "+34 956 5432 1000",
+      "fax": "+34 956 5432 1001"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "961590",
+  "commodityDescription": "DESK CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT8094678",
+      "sealNumber": "SEAL422761",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 9342.67,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CONT6625551",
+      "sealNumber": "SEAL230468",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 6394.65,
+      "measurement": 25.91
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 77,
+    "totalGrossWeight": 15737.32,
+    "totalMeasurement": 51.01
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "234 PLAZA DE ESPA\u00d1A, ALGECIRAS, 11203, SPAIN",
+      "telephone": "+34 956 7890 1234",
+      "fax": "+34 956 7890 1235",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "234 PLAZA DE ESPA\u00d1A, ALGECIRAS, 11203, SPAIN",
+      "telephone": "+34 956 7890 1234",
+      "fax": "+34 956 7890 1235",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES"
+    },
+    "onboardDate": "2024-11-17 09:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION, HANDLE WITH CARE"
+  }
+}

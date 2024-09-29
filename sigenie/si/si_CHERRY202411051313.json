@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411051313",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "KUALA LUMPUR, MALAYSIA",
+    "portOfLoading": "PORT KLANG, MALAYSIA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "KUALA LUMPUR"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREEN FIELD FARMS SDN. BHD.",
+      "address": "LOT 5678, JALAN TANJUNG, 43000 KAJANG, SELANGOR, MALAYSIA",
+      "telephone": "+60 3 8737 9854",
+      "fax": "+60 3 8737 9855",
+      "email": "INFO@GREENFIELDFARMS.COM.MY"
+    },
+    "consignee": {
+      "name": "EUROASIA LOGISTICS LTD.",
+      "address": "123 ANNA STRAAT, 3011 AB ROTTERDAM, NETHERLANDS",
+      "taxId": "",
+      "president": "MR. JAN VAN DER HEIJDEN",
+      "telephone": "+31 10 475 6789",
+      "fax": "+31 10 475 6790",
+      "email": "JAN.VANDERHEIJDEN@EUROASIA-LOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "EUROASIA LOGISTICS LTD.",
+      "address": "123 ANNA STRAAT, 3011 AB ROTTERDAM, NETHERLANDS",
+      "taxId": "",
+      "president": "MS. ANNA VAN DER HOEVEN",
+      "telephone": "+31 10 475 6788",
+      "fax": "+31 10 475 6799",
+      "email": "ANNA.VANDERHOEVEN@EUROASIA-LOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "070110",
+  "commodityDescription": "POTATOES, FRESH OR CHILLED",
+  "containers": [
+    {
+      "containerNumber": "CONT1181524",
+      "sealNumber": "SEAL249499",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 16354.12,
+      "measurement": 29.13
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 65,
+    "totalGrossWeight": 16354.12,
+    "totalMeasurement": 29.13
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241105123456"
+    },
+    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO: MY20241105001",
+    "originalBLDistribution": {
+      "name": "EUROASIA LOGISTICS LTD.",
+      "address": "123 ANNA STRAAT, 3011 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 475 6789",
+      "fax": "+31 10 475 6790",
+      "email": "JAN.VANDERHEIJDEN@EUROASIA-LOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA LOGISTICS LTD.",
+      "address": "123 ANNA STRAAT, 3011 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 475 6789",
+      "fax": "+31 10 475 6790",
+      "email": "JAN.VANDERHEIJDEN@EUROASIA-LOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-12 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -6\u00b0C, VALUE: USD504,552"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6460402",
+    "temperature": "-6\u00b0C",
+    "minTemperature": "-8\u00b0C",
+    "maxTemperature": "-4\u00b0C",
+    "ventilation": "21%",
+    "humidity": "61%"
+  }
+}

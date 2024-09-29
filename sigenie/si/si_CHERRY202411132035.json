@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202411132035",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES CO. LTD",
+      "address": "1234 MAIN STREET, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@DELTAINDUSTRIES.COM.CN"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL TRADING",
+      "address": "15 RUE DE LA LIBERTE, CASABLANCA, MOROCCO 20000",
+      "taxId": "",
+      "president": "Mr. ALI BEN ABDALLAH",
+      "telephone": "+212 522 9999 00",
+      "fax": "+212 522 9999 01",
+      "email": "ALI.BENABDALLAH@OMEGAGLOBAL.MA"
+    },
+    "notifyParty": {
+      "name": "TANGER MED LOGISTICS",
+      "address": "PORT TANGER MED, TANGIER, MOROCCO 90000",
+      "taxId": "",
+      "president": "Ms. FATIMA BOUZIDI",
+      "telephone": "+212 539 9999 02",
+      "fax": "+212 539 9999 03"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871630",
+  "commodityDescription": "SEMI-TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT4290757",
+      "sealNumber": "SEAL492464",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 11823.74,
+      "measurement": 25.79
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD FLAT RACK",
+    "totalPackages": 84,
+    "totalGrossWeight": 11823.74,
+    "totalMeasurement": 25.79
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL TRADING",
+      "address": "15 RUE DE LA LIBERTE, CASABLANCA, MOROCCO 20000",
+      "telephone": "+212 522 9999 00",
+      "fax": "+212 522 9999 01",
+      "email": "ALI.BENABDALLAH@OMEGAGLOBAL.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL TRADING",
+      "address": "15 RUE DE LA LIBERTE, CASABLANCA, MOROCCO 20000",
+      "telephone": "+212 522 9999 00",
+      "fax": "+212 522 9999 01",
+      "email": "ALI.BENABDALLAH@OMEGAGLOBAL.MA"
+    },
+    "onboardDate": "2024-11-21 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 11651x2654x2767, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "11651",
+    "width": "2654",
+    "height": "2767",
+    "overWidth": "214",
+    "overHeight": "177"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411244406",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING CORP.",
+      "onBehalfOf": "",
+      "address": "1234 ARTIFICIAL STREET, NINGBO, CHINA",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "INFO@OMEGAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "5678 SHIPPING WAY, ALGECIRAS, SPAIN",
+      "companyNumber": "123456789",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "ORDERS@DELTASHIPPING.ES"
+    },
+    "notifyParty": {
+      "name": "OMEGA MANUFACTURING CORP.",
+      "address": "1234 ARTIFICIAL STREET, NINGBO, CHINA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950691",
+  "commodityDescription": "ARTIFICIAL STONE STATUES",
+  "containers": [
+    {
+      "containerNumber": "CONT5536530",
+      "sealNumber": "SEAL346227",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 8683.16,
+      "measurement": 32.66
+    },
+    {
+      "containerNumber": "CONT5606249",
+      "sealNumber": "SEAL870698",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 5848.29,
+      "measurement": 20.49
+    },
+    {
+      "containerNumber": "CONT8448018",
+      "sealNumber": "SEAL508029",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 12439.78,
+      "measurement": 35.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 87,
+    "totalGrossWeight": 26971.23,
+    "totalMeasurement": 88.17
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "5678 SHIPPING WAY, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "ORDERS@DELTASHIPPING.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA MANUFACTURING CORP.",
+      "address": "1234 ARTIFICIAL STREET, NINGBO, CHINA"
+    },
+    "onboardDate": "2024-12-12 15:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION, KEEP DRY"
+  }
+}

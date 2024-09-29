@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202410184891",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA IMPORTS & EXPORTS INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "SUNRISE GLOBAL TRADING LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-4444-5678",
+      "fax": "+31-20-4444-5679",
+      "email": "INFO@SUNRISEGLOBAL.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "070110",
+  "commodityDescription": "FRESH POTATOES",
+  "containers": [
+    {
+      "containerNumber": "CONT8942661",
+      "sealNumber": "SEAL209080",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 10478.44,
+      "measurement": 24.31
+    },
+    {
+      "containerNumber": "CONT3249888",
+      "sealNumber": "SEAL915749",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 6944.99,
+      "measurement": 37.21
+    },
+    {
+      "containerNumber": "CONT2346115",
+      "sealNumber": "SEAL216496",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 18135.91,
+      "measurement": 29.63
+    },
+    {
+      "containerNumber": "CONT2612125",
+      "sealNumber": "SEAL523453",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 12272.86,
+      "measurement": 28.7
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE REEFER",
+    "totalPackages": 187,
+    "totalGrossWeight": 47832.2,
+    "totalMeasurement": 119.85
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241018-001",
+    "documentNumber": "20241018-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL TRADING LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-4444-5678",
+      "fax": "+31-20-4444-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-4444-5678",
+      "fax": "+31-20-4444-5679"
+    },
+    "onboardDate": "2024-11-06 19:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 19\u00b0C, VALUE: USD828,556, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1133066",
+    "temperature": "19\u00b0C",
+    "minTemperature": "17\u00b0C",
+    "maxTemperature": "21\u00b0C",
+    "ventilation": "20%",
+    "humidity": "74%"
+  }
+}

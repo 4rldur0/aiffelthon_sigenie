@@ -1,0 +1,142 @@
+{
+  "bookingReference": "CHERRY202411093922",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC ELECTRONICS LTD",
+      "address": "NO. 1234, CHANGSHU ROAD, JIANGSU PROVINCE, 215600",
+      "country": "CHINA",
+      "additionalInfo": "(ABC BUILDING)",
+      "telephone": "+86 512 8765 4321",
+      "email": "SALES@ABCELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING PTE LTD",
+      "address": "111 ROBINSON ROAD, #09-01, SGP PLAZA, SINGAPORE 068902",
+      "country": "SINGAPORE",
+      "email": "ORDERS@DHLGLOBALFORWARDING.SG",
+      "telephone": "+65 6222 2222"
+    },
+    "notifyParty": {
+      "name": "ABC ELECTRONICS LTD",
+      "address": "NO. 1234, CHANGSHU ROAD, JIANGSU PROVINCE, 215600",
+      "country": "CHINA",
+      "email": "LOGISTICS@ABCELECTRONICS.CN",
+      "telephone": "+86 512 8765 4321"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847130",
+  "commodityDescription": "REEFER CONTAINERS",
+  "containers": [
+    {
+      "containerNumber": "CONT9646189",
+      "sealNumber": "SEAL646097",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 13267.12,
+      "measurement": 34.13
+    },
+    {
+      "containerNumber": "CONT9357835",
+      "sealNumber": "SEAL368228",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 11721.1,
+      "measurement": 36.45
+    },
+    {
+      "containerNumber": "CONT5708691",
+      "sealNumber": "SEAL853014",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 7630.2,
+      "measurement": 39.89
+    },
+    {
+      "containerNumber": "CONT6444159",
+      "sealNumber": "SEAL282321",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 13840.87,
+      "measurement": 25.28
+    },
+    {
+      "containerNumber": "CONT8470661",
+      "sealNumber": "SEAL957127",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 9892.83,
+      "measurement": 37.92
+    },
+    {
+      "containerNumber": "CONT5563944",
+      "sealNumber": "SEAL898069",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 10183.74,
+      "measurement": 39.95
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD REEFER",
+    "totalPackages": 330,
+    "totalGrossWeight": 66535.86,
+    "totalMeasurement": 213.62
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING PTE LTD",
+      "address": "111 ROBINSON ROAD, #09-01, SGP PLAZA, SINGAPORE 068902",
+      "telephone": "+65 6222 2222",
+      "fax": "+65 6222 2223",
+      "email": "ORDERS@DHLGLOBALFORWARDING.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING PTE LTD",
+      "address": "111 ROBINSON ROAD, #09-01, SGP PLAZA, SINGAPORE 068902",
+      "telephone": "+65 6222 2222",
+      "fax": "+65 6222 2223",
+      "email": "ORDERS@DHLGLOBALFORWARDING.SG"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 14\u00b0C, VALUE: USD199,756",
+    "reeferSettings": {
+      "setTemperature": 14,
+      "temperatureUnit": "CELSIUS"
+    }
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5169473",
+    "temperature": "14\u00b0C",
+    "minTemperature": "12\u00b0C",
+    "maxTemperature": "16\u00b0C",
+    "ventilation": "64%",
+    "humidity": "75%"
+  }
+}

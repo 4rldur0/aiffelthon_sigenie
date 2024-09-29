@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202409292279",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTERS INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL ENTERPRISE LTD.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GLOBALENTERPRISE.NL",
+      "contactPerson": "PETER VAN DER BURG"
+    },
+    "notifyParty": {
+      "name": "GLOBAL ENTERPRISE LTD."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT1371259",
+      "sealNumber": "SEAL370462",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 19225.72,
+      "measurement": 36.55
+    },
+    {
+      "containerNumber": "CONT3753241",
+      "sealNumber": "SEAL609481",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 18289.26,
+      "measurement": 34.32
+    },
+    {
+      "containerNumber": "CONT7612647",
+      "sealNumber": "SEAL214391",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 15046.36,
+      "measurement": 35.06
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE REEFER",
+    "totalPackages": 244,
+    "totalGrossWeight": 52561.34,
+    "totalMeasurement": 105.93
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL ENTERPRISE LTD.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL ENTERPRISE LTD.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -4\u00b0C, VALUE: USD421,105, KEEP DRY",
+    "reeferSettings": {
+      "setTemperature": "-4",
+      "ventilationSetting": "CLOSED"
+    }
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2202003",
+    "temperature": "-4\u00b0C",
+    "minTemperature": "-6\u00b0C",
+    "maxTemperature": "-2\u00b0C",
+    "ventilation": "57%",
+    "humidity": "67%"
+  }
+}

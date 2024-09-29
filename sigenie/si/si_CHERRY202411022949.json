@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411022949",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH CHEMICALS GMBH",
+      "address": "INDUSTRIAL STREET 123, FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 69 7987 6543",
+      "fax": "+49 69 7987 6544",
+      "email": "INFO@EUROTECHCHEMICALS.DE"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "HAMBURG PORT BOULEVARD 45, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 3789 1234",
+      "fax": "+49 40 3789 1235",
+      "email": "ORDERS@GLOBALIMPORTEXPORT.DE",
+      "personincharge": "FRANZ SCHULZ"
+    },
+    "notifyParty": {
+      "name": "SEA LOGISTICS GMBH",
+      "address": "hafenstrasse 10, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 3765 4321",
+      "fax": "+49 40 3765 4322",
+      "email": "OPERATIONS@SEALOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "282749",
+  "commodityDescription": "SODIUM HYDROXIDE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT9039640",
+      "sealNumber": "SEAL749281",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 18401.48,
+      "measurement": 25.58
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD GENERAL",
+    "totalPackages": 22,
+    "totalGrossWeight": 18401.48,
+    "totalMeasurement": 25.58
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "SDS CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-07 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2747"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8527499",
+    "unClass": "9",
+    "unCode": "2747",
+    "hsCode": "2604.14.10",
+    "flashPoint": "-9\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

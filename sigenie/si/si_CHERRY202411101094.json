@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411101094",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING INC.",
+      "address": "123 BEIJING ROAD, SHANGHAI, CHINA 200001",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "INFO@BETAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT CO.",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "",
+      "president": "MR. HANS VAN DER MEER",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@SUNRISEIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "FIRST GLOBAL LOGISTICS BV",
+      "address": "125 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 BB",
+      "taxId": "",
+      "president": "MS. ANNA DE VRIES",
+      "telephone": "+31 10 333 3333",
+      "fax": "+31 10 333 3334"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "340213",
+  "commodityDescription": "DETERGENT POWDER",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "DETERGENT POWDER - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY CONTAINER)",
+    "totalPackages": 50,
+    "packageType": "BAGS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-16 19:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1680"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4200710",
+    "unClass": "1",
+    "unCode": "1680",
+    "hsCode": "4105.37.85",
+    "flashPoint": "100\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

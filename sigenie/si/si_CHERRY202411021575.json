@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202411021575",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH MANUFACTURING GMBH",
+      "address": "BERLINER STRASSE 123, 10117 BERLIN, GERMANY",
+      "telephone": "+49 30 12345678",
+      "fax": "+49 30 12345679",
+      "email": "INFO@EUROTECHMANUFACTURING.DE"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS CO. LTD.",
+      "address": "ROTTERDAMSEWEG 10, 3011 AA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "president": "MR. JAN VAN DER SLUIS",
+      "telephone": "+31 10 2345678",
+      "fax": "+31 10 2345679",
+      "email": "JAN.VANDERSLUIS@ASIAPACIFICLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "EUROTECH LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679",
+      "email": "LOGISTICS@EUROTECHLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "MACHINERY FOR WORKING TEXTILE YARNS, FABRICS OR OTHER TEXTILE MATERIALS",
+  "containers": [
+    {
+      "containerNumber": "CONT9132841",
+      "sealNumber": "SEAL545051",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 15782.38,
+      "measurement": 26.18
+    },
+    {
+      "containerNumber": "CONT7961676",
+      "sealNumber": "SEAL292104",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 16766.82,
+      "measurement": 23.62
+    },
+    {
+      "containerNumber": "CONT8250590",
+      "sealNumber": "SEAL344521",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 9288.86,
+      "measurement": 26.22
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD FLAT RACK",
+    "totalPackages": 145,
+    "totalGrossWeight": 41838.06,
+    "totalMeasurement": 76.02
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED BY CHAMBER OF COMMERCE, BERLIN",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS CO. LTD.",
+      "address": "ROTTERDAMSEWEG 10, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2345678",
+      "fax": "+31 10 2345679",
+      "email": "JAN.VANDERSLUIS@ASIAPACIFICLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH MANUFACTURING GMBH",
+      "address": "BERLINER STRASSE 123, 10117 BERLIN, GERMANY",
+      "telephone": "+49 30 12345678",
+      "fax": "+49 30 12345679",
+      "email": "INFO@EUROTECHMANUFACTURING.DE"
+    },
+    "onboardDate": "2024-11-17 16:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 9242x2726x2863, VALUE: USD81,539, 21 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9242",
+    "width": "2726",
+    "height": "2863",
+    "overWidth": "286",
+    "overHeight": "273"
+  }
+}

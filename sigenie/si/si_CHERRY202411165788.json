@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202411165788",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "123 GLOBAL TRADE CENTER, GDANSK, POLAND",
+      "country": "POLAND",
+      "email": "ORDERS@ZENITHGLOBAL.PL",
+      "telephone": "+48 58 333 4444"
+    },
+    "notifyParty": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "123 GLOBAL TRADE CENTER, GDANSK, POLAND",
+      "country": "POLAND",
+      "email": "ORDERS@ZENITHGLOBAL.PL",
+      "telephone": "+48 58 333 4444"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT9052562",
+      "sealNumber": "SEAL433748",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 18665.29,
+      "measurement": 24.71
+    },
+    {
+      "containerNumber": "CONT7320814",
+      "sealNumber": "SEAL815836",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 9798.84,
+      "measurement": 29.77
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 122,
+    "totalGrossWeight": 28464.13,
+    "totalMeasurement": 54.48
+  },
+  "additionalInformation": {
+    "dangerousGoods": {
+      "unNumber": "3464",
+      "properShippingName": "PLASTIC COMPONENTS CONTAINING FLAMMABLE LIQUIDS",
+      "class": "3",
+      "packingGroup": "II",
+      "flashPoint": "38\u00b0C"
+    },
+    "onboardDate": "2024-11-26 15:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3464, 30 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3506093",
+    "unClass": "6",
+    "unCode": "3464,",
+    "hsCode": "6612.98.10",
+    "flashPoint": "69\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,101 +1,119 @@
 {
   "bookingReference": "CHERRY202410167913",
   "voyageDetails": {
-    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
-    "voyageNumber": "241023E"
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Letter of Credit",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 5
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PRECISION MACHINERY CO.",
-      "address": "No. 123, Changjiang Road, Ningbo, Zhejiang, China, 315000",
-      "telephone": "+86-574-88889999",
-      "fax": "+86-574-88887777"
+      "name": "ASIA PACIFIC ENGINEERING",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
     },
     "consignee": {
-      "name": "GLOBAL IMPORTS LTD",
-      "address": "123 Main Street, Rotterdam, Netherlands, 3000 AA",
-      "telephone": "+31-10-12345678",
-      "fax": "+31-10-12345679",
-      "email": "imports@globalimportsltd.nl",
-      "contactPerson": "John Doe"
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE",
+      "contactPerson": "PETER SCHMIDT"
     },
     "notifyParty": {
-      "name": "GLOBAL IMPORTS LTD",
-      "address": "123 Main Street, Rotterdam, Netherlands, 3000 AA"
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY"
     }
   },
-  "shippingTerm": "DOOR/DOOR",
-  "hsCode": "846630",
-  "commodityDescription": "METAL FABRICATION EQUIPMENT PARTS",
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER",
   "containers": [
     {
-      "containerNumber": "CRLU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "ASIA123",
-      "numberOfPackages": 100,
-      "cargoDescription": "METAL FABRICATION EQUIPMENT PARTS - PART 1",
-      "grossWeight": 18000.0,
-      "measurement": 30.0
+      "containerNumber": "CONT6556513",
+      "sealNumber": "SEAL499999",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 11773.32,
+      "measurement": 23.71
     },
     {
-      "containerNumber": "CRLU9876543",
-      "sealNumber": "765432",
-      "marksAndNumbers": "ASIA456",
-      "numberOfPackages": 80,
-      "cargoDescription": "METAL FABRICATION EQUIPMENT PARTS - PART 2",
-      "grossWeight": 16000.0,
-      "measurement": 28.0
+      "containerNumber": "CONT8538973",
+      "sealNumber": "SEAL178172",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 5153.44,
+      "measurement": 23.53
     },
     {
-      "containerNumber": "CRLU2468013",
-      "sealNumber": "543210",
-      "marksAndNumbers": "ASIA789",
-      "numberOfPackages": 120,
-      "cargoDescription": "METAL FABRICATION EQUIPMENT PARTS - PART 3",
-      "grossWeight": 19000.0,
-      "measurement": 32.0
+      "containerNumber": "CONT5921149",
+      "sealNumber": "SEAL845448",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 9428.33,
+      "measurement": 31.92
+    },
+    {
+      "containerNumber": "CONT8260778",
+      "sealNumber": "SEAL452818",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 7723.98,
+      "measurement": 38.95
     }
   ],
   "totalShipment": {
-    "totalContainers": "3 X 40DRY CONTAINERS",
-    "totalPackages": 300,
-    "totalGrossWeight": 53000.0,
-    "totalMeasurement": 90.0
+    "totalContainers": "4 x 20 STANDARD FLAT RACK",
+    "totalPackages": 271,
+    "totalGrossWeight": 34079.07,
+    "totalMeasurement": 118.11
   },
   "additionalInformation": {
-    "invoiceNumber": "20241016-001",
-    "documentNumber": "20241016-002",
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": ""
     },
-    "certificateDetails": [
-      "CERTIFICATE OF ORIGIN",
-      "CERTIFICATE OF INSPECTION"
-    ],
+    "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "GLOBAL IMPORTS LTD",
-      "address": "123 Main Street, Rotterdam, Netherlands, 3000 AA"
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL IMPORTS LTD",
-      "address": "123 Main Street, Rotterdam, Netherlands, 3000 AA"
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
     },
-    "onboardDate": "2024-10-18 15:00",
-    "additionalRemarks": "Cargo requires special handling. LCL shipment. Value: USD 150,000"
+    "onboardDate": "2024-11-03 08:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 11252x2857x2153, 30 DAYS FREE TIME AT DESTINATION",
+    "outOfGaugeDimensions": {
+      "length": 11252,
+      "width": 2857,
+      "height": 2153
+    }
+  },
+  "outOfGaugeDimensions": {
+    "length": "11252",
+    "width": "2857",
+    "height": "2153",
+    "overWidth": "417",
+    "overHeight": "0"
   }
 }

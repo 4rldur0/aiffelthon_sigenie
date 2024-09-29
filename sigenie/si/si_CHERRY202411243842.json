@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411243842",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE, FRANCE",
+    "portOfLoading": "LE HAVRE, FRANCE",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 RUE DE LA PAIX, PARIS, FRANCE, 75001",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+33 1 42 43 56 78",
+      "fax": "+33 1 42 43 56 79",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING LTD.",
+      "address": "LEVEL 15, MENARA HLA, Jalan Raja Laut, 50650 KUALA LUMPUR, MALAYSIA",
+      "usci": "91321200765109788X",
+      "president": "MICHAEL LEE",
+      "telephone": "+60 3 2692 5000",
+      "fax": "+60 3 2692 5001",
+      "email": "MICHAEL.LEE@DHL.COM"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING LTD.",
+      "address": "LEVEL 15, MENARA HLA, Jalan Raja Laut, 50650 KUALA LUMPUR, MALAYSIA",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+60 3 2692 5000",
+      "fax": "+60 3 2692 5001",
+      "email": "JOHNDOE@DHL.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "281740",
+  "commodityDescription": "ZINC OXIDE",
+  "containers": [
+    {
+      "containerNumber": "CONT1695835",
+      "sealNumber": "SEAL745307",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 8211.01,
+      "measurement": 22.93
+    },
+    {
+      "containerNumber": "CONT4198109",
+      "sealNumber": "SEAL945001",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 18149.84,
+      "measurement": 25.11
+    },
+    {
+      "containerNumber": "CONT7005956",
+      "sealNumber": "SEAL159072",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 9459.94,
+      "measurement": 24.79
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 97,
+    "totalGrossWeight": 35820.79,
+    "totalMeasurement": 72.83
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING LTD.",
+      "address": "LEVEL 15, MENARA HLA, Jalan Raja Laut, 50650 KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2692 5000",
+      "fax": "+60 3 2692 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING LTD.",
+      "address": "LEVEL 15, MENARA HLA, Jalan Raja Laut, 50650 KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2692 5000",
+      "fax": "+60 3 2692 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3185, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4131089",
+    "unClass": "5",
+    "unCode": "3185,",
+    "hsCode": "9800.27.16",
+    "flashPoint": "51\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}
