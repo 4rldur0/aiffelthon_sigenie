@@ -132,7 +132,7 @@ def main():
                 st.text_input("Shipper Full Name", selected_doc.get('shipperName', ''))
             with col2:
                 st.text_input("Invoice Recipient", selected_doc.get('invoiceReceiver', ''))
-                st.text_input("Shipping Terms (e.g., FOB, CIF)", selected_doc.get('shippingTerm', ''))
+                st.text_input("Shipping Terms (e.g., DOOR, CY, CFS)", selected_doc.get('shippingTerm', ''))
 
             st.write("---")
 

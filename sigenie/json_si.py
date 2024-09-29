@@ -204,7 +204,7 @@ def main():
 
             with col3:
                 st.subheader("Shipping Details")
-                shipping_term = st.text_input("Shipping Terms (e.g., FOB, CIF)", selected_doc.get('shippingTerm', ''))
+                shipping_term = st.text_input("Shipping Terms (e.g., DOOR, CY, CFS)", selected_doc.get('shippingTerm', ''))
                 hs_code = st.text_input("HS Code (Harmonized System)", selected_doc.get('hsCode', ''))
                 commodity_description = st.text_area("Commodity Description", selected_doc.get('commodityDescription', ''))
                 
