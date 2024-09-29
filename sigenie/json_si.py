@@ -5,7 +5,6 @@ import pymongo
 from pymongo import MongoClient, InsertOne
 from bson import ObjectId
 from dotenv import load_dotenv
-import base64
 
 # Load environment variables from .env file
 load_dotenv()
@@ -20,25 +19,7 @@ client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
-def get_base64_encoded_font(font_path):
-    with open(font_path, "rb") as font_file:
-        return base64.b64encode(font_file.read()).decode('utf-8')
-
-# Load and encode the Freesentation font
-font_base64 = get_base64_encoded_font("./fonts/Freesentation.ttf")
-
-# Apply custom CSS to use Freesentation font
-st.markdown(f"""
-    <style>
-    @font-face {{
-        font-family: 'Freesentation';
-        src: url(data:font/ttf;base64,{font_base64}) format('truetype');
-    }}
-    html, body, [class*="st-"] {{
-        font-family: 'Freesentation', sans-serif;
-    }}
-    </style>
-    """, unsafe_allow_html=True)
+# 폰트 관련 코드 제거
 
 PROCESSED_FILES_JSON = 'processed_si_files.json'
 

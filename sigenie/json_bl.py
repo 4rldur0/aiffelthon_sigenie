@@ -14,18 +14,10 @@ client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
-# Custom CSS to style the BL form and apply Freesentation font
+# Custom CSS to style the BL form
 custom_css = """
 <style>
-@font-face {
-    font-family: 'Freesentation';
-    src: url('./fonts/Freesentation.ttf') format('truetype');
-}
-html, body, [class*="st-"] {
-    font-family: 'Freesentation', sans-serif;
-}
     .bl-form {
-        font-family: Freesentation, sans-serif;
         border: 2px solid black;
         padding: 5px;
         margin-bottom: 10px;
