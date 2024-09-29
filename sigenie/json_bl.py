@@ -22,6 +22,7 @@ custom_css = """
         padding: 5px;
         margin-bottom: 10px;
         width: 100%;
+        position: relative;
     }
     .bl-header {
         display: flex;
@@ -74,6 +75,19 @@ custom_css = """
         margin: 0;
         padding: 0;
     }    
+    .watermark {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+        font-size: 180px;  /* 크기를 180px로 증가 */
+        color: rgba(255, 0, 0, 0.15);  /* 투명도를 0.15로 낮춤 */
+        pointer-events: none;
+        z-index: 1000;
+        user-select: none;
+        font-weight: bold;
+        white-space: nowrap;  /* 텍스트가 줄바꿈되지 않도록 설정 */
+    }
 </style>
 """
 
@@ -94,6 +108,7 @@ def display_bl_form(doc):
     # Create the BL form HTML
     bl_html = f"""
     <div class="bl-form">
+        <div class="watermark">DRAFT</div>
         <div class="bl-header">
             <div class="bl-title">
                 <h2>BILL OF LADING (B/L)</h2>

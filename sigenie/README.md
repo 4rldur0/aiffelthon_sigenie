@@ -103,7 +103,9 @@ This is an early access version. For major changes, please open an issue first t
   - Performance optimizations for large datasets
   - Implemented Poetry for dependency management
 
-- v0.03 (2024-09-29): dataset 3263
+- v0.03 (2024-09-29): 
+  - dataset 3263
+  - draft watermark
 ---
 
 
