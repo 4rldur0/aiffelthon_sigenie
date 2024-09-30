@@ -1,6 +1,6 @@
 import streamlit as st
-from utils.rag_pipeline import validate_compliance
-from utils.modules import check_missing, check_parties
+from ksy974498.sigenie.utils.validation_check.rag_pipeline import validate_compliance
+from ksy974498.sigenie.utils.base.modules import check_missing, check_parties
 from dotenv import load_dotenv
 import asyncio
 

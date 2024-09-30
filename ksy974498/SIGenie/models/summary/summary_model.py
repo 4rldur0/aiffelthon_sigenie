@@ -1,7 +1,9 @@
 import streamlit as st
 from glob import glob
-from utils.prompt_templates import summary_prompt
+
+from models.summary.prompt import summary_prompt
 from utils.llms import get_llm
+
 from langchain.prompts import PromptTemplate
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_core.output_parsers.string import StrOutputParser

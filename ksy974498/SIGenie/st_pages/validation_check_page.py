@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.rag_pipeline import validate_compliance
+from ksy974498.sigenie.utils.validation_check.rag_pipeline import validate_compliance
 import asyncio
 
 async def validate_compliance_async(question: str):
