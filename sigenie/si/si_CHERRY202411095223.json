@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411095223",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORT EXPORT CO.",
+      "address": "123 TRADE STREET, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "070110",
+  "commodityDescription": "POTATOES, FRESH OR CHILLED",
+  "containers": [
+    {
+      "containerNumber": "CONT6207248",
+      "sealNumber": "SEAL193074",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 15870.37,
+      "measurement": 20.29
+    },
+    {
+      "containerNumber": "CONT9937376",
+      "sealNumber": "SEAL770708",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 6962.62,
+      "measurement": 23.17
+    },
+    {
+      "containerNumber": "CONT6649453",
+      "sealNumber": "SEAL906596",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 12765.6,
+      "measurement": 27.68
+    },
+    {
+      "containerNumber": "CONT2011160",
+      "sealNumber": "SEAL729228",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 13768.93,
+      "measurement": 35.28
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD REEFER",
+    "totalPackages": 149,
+    "totalGrossWeight": 49367.52,
+    "totalMeasurement": 106.42
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241109001"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORT EXPORT CO.",
+      "address": "123 TRADE STREET, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 20\u00b0C, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1814182",
+    "temperature": "20\u00b0C",
+    "minTemperature": "18\u00b0C",
+    "maxTemperature": "22\u00b0C",
+    "ventilation": "40%",
+    "humidity": "60%"
+  }
+}

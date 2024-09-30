@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411182033",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG, MALAYSIA",
+    "portOfLoading": "PORT KLANG, MALAYSIA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORT & EXPORT CO.",
+      "address": "123 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2282 1234",
+      "fax": "+60 3 2282 5678"
+    },
+    "consignee": {
+      "name": "EURO TRUCKING GMBH",
+      "address": "150 INDUSTRIAL STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871640",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CONT4154383",
+      "sealNumber": "SEAL725995",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 7866.5,
+      "measurement": 32.14
+    },
+    {
+      "containerNumber": "CONT4260225",
+      "sealNumber": "SEAL926379",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 14154.14,
+      "measurement": 38.44
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD FLAT RACK",
+    "totalPackages": 140,
+    "totalGrossWeight": 22020.64,
+    "totalMeasurement": 70.58
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSURANCE"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO TRUCKING GMBH",
+      "address": "150 INDUSTRIAL STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "onboardDate": "2024-12-03 16:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 3985x2386x2957, VALUE: USD159,694"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3985",
+    "width": "2386",
+    "height": "2957",
+    "overWidth": "0",
+    "overHeight": "367"
+  }
+}

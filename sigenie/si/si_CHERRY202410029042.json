@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410029042",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA GLOBAL LTD.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT4152012",
+      "sealNumber": "SEAL242866",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 15118.12,
+      "measurement": 33.48
+    },
+    {
+      "containerNumber": "CONT8420018",
+      "sealNumber": "SEAL830245",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 14570.11,
+      "measurement": 31.97
+    },
+    {
+      "containerNumber": "CONT9710704",
+      "sealNumber": "SEAL819787",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 11653.78,
+      "measurement": 23.65
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD REEFER",
+    "totalPackages": 92,
+    "totalGrossWeight": 41342.01,
+    "totalMeasurement": 89.1
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRANSPORTATION LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-10-20 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -15\u00b0C, VALUE: USD426,577, 21 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2452224",
+    "temperature": "-15\u00b0C",
+    "minTemperature": "-17\u00b0C",
+    "maxTemperature": "-13\u00b0C",
+    "ventilation": "83%",
+    "humidity": "80%"
+  }
+}

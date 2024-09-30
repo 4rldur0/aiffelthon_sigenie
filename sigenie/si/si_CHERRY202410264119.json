@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410264119",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA EXPORTERS INC.",
+      "address": "1234 HONGQI ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8623 7193",
+      "fax": "+86 574 8623 7778",
+      "email": "LI.WEI@BETAEXPORTERS.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORTERS LTD",
+      "address": "C/ FERNANDEZ DE LA RED, 15 28001 MADRID, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 91 588 73 25",
+      "fax": "+34 91 588 73 90",
+      "email": "MARIA.RODRIGUEZ@ALPHAIMPORTERS.ES"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORTERS LTD",
+      "address": "C/ FERNANDEZ DE LA RED, 15 28001 MADRID, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 91 588 73 25",
+      "fax": "+34 91 588 73 90",
+      "email": "MARIA.RODRIGUEZ@ALPHAIMPORTERS.ES"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030231",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT3889076",
+      "sealNumber": "SEAL349624",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 12070.33,
+      "measurement": 26.08
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 27,
+    "totalGrossWeight": 12070.33,
+    "totalMeasurement": 26.08
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORTERS LTD",
+      "address": "C/ FERNANDEZ DE LA RED, 15 28001 MADRID, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 91 588 73 25",
+      "fax": "+34 91 588 73 90",
+      "email": "MARIA.RODRIGUEZ@ALPHAIMPORTERS.ES"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -6\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9425719",
+    "temperature": "-6\u00b0C",
+    "minTemperature": "-8\u00b0C",
+    "maxTemperature": "-4\u00b0C",
+    "ventilation": "54%",
+    "humidity": "78%"
+  }
+}

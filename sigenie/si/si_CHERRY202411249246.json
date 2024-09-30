@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411249246",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING COMPANY INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "INFO@BETATRADING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORT EXPORT LTD",
+      "address": "456 ALVAREZ STREET, MADRID, SPAIN 28001",
+      "taxId": "ES123456789",
+      "president": "MR. JUAN GARCIA",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 8901",
+      "email": "JUAN.GARCIA@ALPHAIMPORT.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST GLOBAL LOGISTICS SL",
+      "address": "789 PORT STREET, ALGEICRAS, SPAIN 11001",
+      "taxId": "ES987654321",
+      "president": "MS. MARIA RODRIGUEZ",
+      "telephone": "+34 91 234 5678",
+      "fax": "+34 91 234 9012"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "630900",
+  "commodityDescription": "COTTON BED SHEETS",
+  "containers": [
+    {
+      "containerNumber": "CONT1001951",
+      "sealNumber": "SEAL172644",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 19928.77,
+      "measurement": 21.29
+    },
+    {
+      "containerNumber": "CONT6526314",
+      "sealNumber": "SEAL597640",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 8992.96,
+      "measurement": 37.13
+    },
+    {
+      "containerNumber": "CONT6309106",
+      "sealNumber": "SEAL969678",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 7869.92,
+      "measurement": 25.49
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 156,
+    "totalGrossWeight": 36791.65,
+    "totalMeasurement": 83.91
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241201"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST GLOBAL LOGISTICS SL",
+      "address": "789 PORT STREET, ALGEICRAS, SPAIN 11001",
+      "telephone": "+34 91 234 5678",
+      "fax": "+34 91 234 9012",
+      "email": "INFO@FIRSTGLOBAL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL IMPORT EXPORT LTD",
+      "address": "456 ALVAREZ STREET, MADRID, SPAIN 28001",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 8901",
+      "email": "JUAN.GARCIA@ALPHAIMPORT.COM"
+    },
+    "onboardDate": "2024-12-07 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

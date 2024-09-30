@@ -1,0 +1,141 @@
+{
+  "bookingReference": "CHERRY202411055631",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "1234 FACTORY LANE, NINGBO, ZHEJIANG PROVINCE, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "SHIPPING@BETAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "5678 PORT STREET, ALGEICRAS, SPAIN 11001",
+      "country": "SPAIN",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "IMPORT@ALPHAIMPORTEXPORT.ES"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS S.A.",
+      "address": "9012 WAREHOUSE LANE, ALGEICRAS, SPAIN 11002",
+      "country": "SPAIN",
+      "telephone": "+34 956 789 012",
+      "fax": "+34 956 789 013",
+      "email": "INFO@WORLDWIDELOGISTICS.ES"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "CHEMICAL PRODUCTS N.E.S.O.I.",
+  "containers": [
+    {
+      "containerNumber": "CONT7617991",
+      "sealNumber": "SEAL241966",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 10150.41,
+      "measurement": 25.15
+    },
+    {
+      "containerNumber": "CONT3538721",
+      "sealNumber": "SEAL417299",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 14592.05,
+      "measurement": 39.36
+    },
+    {
+      "containerNumber": "CONT6387570",
+      "sealNumber": "SEAL188428",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 19497.17,
+      "measurement": 37.12
+    },
+    {
+      "containerNumber": "CONT5315628",
+      "sealNumber": "SEAL619295",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 13633.65,
+      "measurement": 28.87
+    },
+    {
+      "containerNumber": "CONT6808978",
+      "sealNumber": "SEAL295773",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 14386.99,
+      "measurement": 38.0
+    },
+    {
+      "containerNumber": "CONT8420473",
+      "sealNumber": "SEAL767301",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 9548.73,
+      "measurement": 38.14
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE TANK",
+    "totalPackages": 311,
+    "totalGrossWeight": 81809.0,
+    "totalMeasurement": 206.64
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411055631"
+    },
+    "certificateDetails": [
+      " FUMIGATION CERTIFICATE",
+      " CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "5678 PORT STREET, ALGEICRAS, SPAIN 11001",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "IMPORT@ALPHAIMPORTEXPORT.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "5678 PORT STREET, ALGEICRAS, SPAIN 11001",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "IMPORT@ALPHAIMPORTEXPORT.ES"
+    },
+    "onboardDate": "2024-11-14 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1682, VALUE: USD467,678"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2670025",
+    "unClass": "4",
+    "unCode": "1682,",
+    "hsCode": "6177.33.62",
+    "flashPoint": "56\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410099371",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI MEGATEX LTD.",
+      "address": "1234 MEGATEX ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN TRADING LLC",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN TRADING LLC",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940350",
+  "commodityDescription": "FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT7350170",
+      "sealNumber": "SEAL606857",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 19873.81,
+      "measurement": 20.8
+    },
+    {
+      "containerNumber": "CONT4454239",
+      "sealNumber": "SEAL795060",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 9076.49,
+      "measurement": 26.38
+    },
+    {
+      "containerNumber": "CONT9656707",
+      "sealNumber": "SEAL976678",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 7304.64,
+      "measurement": 23.08
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 145,
+    "totalGrossWeight": 36254.94,
+    "totalMeasurement": 70.26
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GOLDEN SUN TRADING LLC",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN SUN TRADING LLC",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-10-17 20:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

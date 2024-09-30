@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410088518",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC PRECISION MACHINES LTD",
+      "address": "NO. 1234, SHANGHAI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(ASIA PACIFIC BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "SALES@ASIA-PRECISION.COM.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE LOGISTICS SOLUTIONS PTE LTD",
+      "address": "500 ALEXANDRA ROAD, SINGAPORE 118164",
+      "country": "SINGAPORE",
+      "email": "ORDERS@WORLDWIDE-LOGISTICS.COM.SG",
+      "telephone": "+65 6280 5555"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, LE HAVRE, 76600 NL",
+      "country": "FRANCE",
+      "email": "ORDERS@BETAIMPORTERS.FR",
+      "telephone": "+33 2 32 45 67 89"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS GOODS",
+  "containers": [
+    {
+      "containerNumber": "CONT3649704",
+      "sealNumber": "SEAL246354",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 16722.02,
+      "measurement": 30.34
+    },
+    {
+      "containerNumber": "CONT1776866",
+      "sealNumber": "SEAL728677",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 18780.62,
+      "measurement": 23.84
+    },
+    {
+      "containerNumber": "CONT3892268",
+      "sealNumber": "SEAL425140",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 19548.19,
+      "measurement": 36.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 118,
+    "totalGrossWeight": 55050.83,
+    "totalMeasurement": 90.18
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS SOLUTIONS PTE LTD",
+      "address": "500 ALEXANDRA ROAD, SINGAPORE 118164",
+      "telephone": "+65 6280 5555",
+      "fax": "+65 6280 5556",
+      "email": "LISA.CHEN@WORLDWIDE-LOGISTICS.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE LOGISTICS SOLUTIONS PTE LTD",
+      "address": "500 ALEXANDRA ROAD, SINGAPORE 118164",
+      "telephone": "+65 6280 5555",
+      "fax": "+65 6280 5556",
+      "email": "LISA.CHEN@WORLDWIDE-LOGISTICS.COM.SG"
+    },
+    "onboardDate": "2024-10-19 08:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1287, VALUE: USD567,284",
+    "dangerousGoods": {
+      "unNumber": "1287",
+      "properShippingName": "DANGEROUS GOODS",
+      "class": "3",
+      "packingGroup": "II",
+      "imdgs": "YES"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8308055",
+    "unClass": "4",
+    "unCode": "1287,",
+    "hsCode": "9711.38.83",
+    "flashPoint": "-9\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

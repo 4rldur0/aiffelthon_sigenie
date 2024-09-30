@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410128744",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORT EXPORT CO.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "NO. 456, DAM SQUARE, AMSTERDAM, NETHERLANDS 1012 NL",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-12345679"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "070110",
+  "commodityDescription": "FRESH POTATOES",
+  "containers": [
+    {
+      "containerNumber": "CONT7270947",
+      "sealNumber": "SEAL465899",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 5207.71,
+      "measurement": 23.9
+    },
+    {
+      "containerNumber": "CONT8999842",
+      "sealNumber": "SEAL708350",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 14156.09,
+      "measurement": 31.48
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 105,
+    "totalGrossWeight": 19363.8,
+    "totalMeasurement": 55.38
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "NO. 456, DAM SQUARE, AMSTERDAM, NETHERLANDS 1012 NL",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "NO. 456, DAM SQUARE, AMSTERDAM, NETHERLANDS 1012 NL",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-12345679"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 20\u00b0C, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4096425",
+    "temperature": "20\u00b0C",
+    "minTemperature": "18\u00b0C",
+    "maxTemperature": "22\u00b0C",
+    "ventilation": "38%",
+    "humidity": "87%"
+  }
+}

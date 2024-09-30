@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410052506",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURERS CO.",
+      "address": "1234 INDUSTRY STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "SHIPPING@APMCO.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "taxId": "12345678901234",
+      "president": "MR. ABDUL KARIM",
+      "telephone": "+212 5 2222 1234",
+      "fax": "+212 5 2222 5678",
+      "email": "SHIPPING@GLOBALTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "MOROCCO LOGISTICS SERVICES",
+      "address": "456 PORT STREET, TANGER MED, MOROCCO",
+      "telephone": "+212 6 1111 1234",
+      "fax": "+212 6 1111 5678",
+      "email": "INFO@MOROCCOLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CARS",
+  "containers": [
+    {
+      "containerNumber": "CONT3450193",
+      "sealNumber": "SEAL143673",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 18269.32,
+      "measurement": 38.5
+    },
+    {
+      "containerNumber": "CONT2065308",
+      "sealNumber": "SEAL746891",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 15291.19,
+      "measurement": 26.72
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE TANK",
+    "totalPackages": 74,
+    "totalGrossWeight": 33560.51,
+    "totalMeasurement": 65.22
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 2222 1234",
+      "fax": "+212 5 2222 5678",
+      "email": "SHIPPING@GLOBALTRADING.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 2222 1234",
+      "fax": "+212 5 2222 5678",
+      "email": "SHIPPING@GLOBALTRADING.COM"
+    },
+    "onboardDate": "2024-10-16 20:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

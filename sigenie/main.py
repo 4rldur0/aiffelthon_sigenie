@@ -21,11 +21,22 @@ custom_font_css = f"""
     src: url(data:font/ttf;base64,{font_base64}) format('truetype');
 }}
 
-* {{
+/* 모든 Streamlit 컴포넌트에 대한 스타일 */
+.stTextInput, .stSelectbox, .stMultiselect, .stDateInput, .stTimeInput,
+.stNumber, .stText, .stMarkdown, .stTable, .stDataFrame, .stButton,
+.stRadio, .stCheckbox, .stMetric, .stProgress, .stSlider, .stFileUploader,
+.stImage, .stAudio, .stVideo, .stPlotly, .stVega, .stPydeck, .stMap,
+.stCode, .stEcho, .stSpinner, .stBalloons, .stSuccess, .stInfo, .stWarning, .stError {{
     font-family: 'Freesentation', sans-serif !important;
 }}
 
-.stMarkdown {{
+/* 헤더와 사이드바에 대한 스타일 */
+.stSidebar, .stSidebar *, .stHeader, .stHeader * {{
+    font-family: 'Freesentation', sans-serif !important;
+}}
+
+/* 모든 텍스트 요소에 대한 스타일 */
+body, p, h1, h2, h3, h4, h5, h6, span, div {{
     font-family: 'Freesentation', sans-serif !important;
 }}
 </style>
@@ -93,7 +104,7 @@ def main():
     st.markdown("---")
     st.markdown(
         "<div style='text-align: center; color: gray; padding: 10px; font-family: Freesentation, sans-serif;'>"
-        "Copyright © 2024 SIGenie 0.03-3331 - Early Access Version. All rights reserved."
+        "Copyright © 2024 SIGenie 0.03-3518 - Early Access Version. All rights reserved."
         "</div>",
         unsafe_allow_html=True
     )

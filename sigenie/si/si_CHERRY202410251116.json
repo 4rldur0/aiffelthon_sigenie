@@ -1,0 +1,143 @@
+{
+  "bookingReference": "CHERRY202410251116",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FROZEN FOODS INTERNATIONAL INC",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@FROZENFOODSINTERNATIONAL.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "123 HAMBURG STREET, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "123 BERLIN STREET, BERLIN, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 30 9876 5432",
+      "fax": "+49 30 9876 5433",
+      "email": "INFO@GLOBALLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT3591054",
+      "sealNumber": "SEAL143196",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 19609.13,
+      "measurement": 30.85
+    },
+    {
+      "containerNumber": "CONT8279680",
+      "sealNumber": "SEAL119713",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 7143.82,
+      "measurement": 37.55
+    },
+    {
+      "containerNumber": "CONT2585952",
+      "sealNumber": "SEAL765844",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 11252.22,
+      "measurement": 22.86
+    },
+    {
+      "containerNumber": "CONT4374679",
+      "sealNumber": "SEAL773907",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 14964.9,
+      "measurement": 21.03
+    },
+    {
+      "containerNumber": "CONT1827502",
+      "sealNumber": "SEAL574730",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 17825.3,
+      "measurement": 32.49
+    },
+    {
+      "containerNumber": "CONT9211916",
+      "sealNumber": "SEAL625522",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 11384.86,
+      "measurement": 36.79
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD REEFER",
+    "totalPackages": 392,
+    "totalGrossWeight": 82180.23,
+    "totalMeasurement": 181.57
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "123 HAMBURG STREET, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALTRADING.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "123 HAMBURG STREET, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALTRADING.DE"
+    },
+    "onboardDate": "2024-11-07 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -18\u00b0C, VALUE: USD18,123"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3722352",
+    "temperature": "-18\u00b0C",
+    "minTemperature": "-20\u00b0C",
+    "maxTemperature": "-16\u00b0C",
+    "ventilation": "73%",
+    "humidity": "65%"
+  }
+}

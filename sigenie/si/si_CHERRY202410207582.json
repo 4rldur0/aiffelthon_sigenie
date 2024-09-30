@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202410207582",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORT & EXPORT CO.",
+      "onBehalfOf": "",
+      "address": "1234 SUNRISE ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@SUNRISEIMPORT.CN"
+    },
+    "consignee": {
+      "name": "KOBAYASHI ENTERPRISE LTD.",
+      "address": "8888 KOBAYASHI STREET, ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@KOBAYASHIENTERPRISE.NL"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": ""
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "87169090",
+  "commodityDescription": "OUT-OF-GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT1038752",
+      "sealNumber": "SEAL751800",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 10972.77,
+      "measurement": 38.63
+    },
+    {
+      "containerNumber": "CONT4080927",
+      "sealNumber": "SEAL106768",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 7247.16,
+      "measurement": 27.07
+    },
+    {
+      "containerNumber": "CONT2675204",
+      "sealNumber": "SEAL653911",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 17227.33,
+      "measurement": 26.77
+    },
+    {
+      "containerNumber": "CONT7515468",
+      "sealNumber": "SEAL436908",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 15295.11,
+      "measurement": 32.64
+    },
+    {
+      "containerNumber": "CONT5509993",
+      "sealNumber": "SEAL181492",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 8978.78,
+      "measurement": 35.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD PLATFORM",
+    "totalPackages": 276,
+    "totalGrossWeight": 59721.15,
+    "totalMeasurement": 160.51
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT CO.",
+      "address": "1234 SUNRISE ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6551",
+      "fax": "+86 574 8888 6560"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 11415x2490x2806"
+  },
+  "outOfGaugeDimensions": {
+    "length": "11415",
+    "width": "2490",
+    "height": "2806",
+    "overWidth": "50",
+    "overHeight": "216"
+  }
+}

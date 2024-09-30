@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410316340",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE ELECTRONICS CORPORATION PTE LTD",
+      "address": "10 Anson ROAD, #27-01 INTERNATIONAL PLAZA, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(MAIN OFFICE)",
+      "telephone": "+65 6221 1234",
+      "email": "SALES@SINGAPOREELECTRONICS.COM.SG"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "25 RUE DE LA BANQUE, 75002 PARIS, FRANCE",
+      "country": "FRANCE",
+      "email": "ORDERS@ASIA-PACIFICLOGISTICS.FR",
+      "telephone": "+33 1 42 33 76 54"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "25 RUE DE LA BANQUE, 75002 PARIS, FRANCE",
+      "country": "FRANCE",
+      "email": "ORDERS@ASIA-PACIFICLOGISTICS.FR",
+      "telephone": "+33 1 42 33 76 54"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854140",
+  "commodityDescription": "SEMICONDUCTOR DEVICES",
+  "containers": [
+    {
+      "containerNumber": "CONT3803294",
+      "sealNumber": "SEAL404098",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 16268.41,
+      "measurement": 23.54
+    },
+    {
+      "containerNumber": "CONT1263770",
+      "sealNumber": "SEAL815839",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 18164.07,
+      "measurement": 34.33
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 96,
+    "totalGrossWeight": 34432.48,
+    "totalMeasurement": 57.87
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345678"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "25 RUE DE LA BANQUE, 75002 PARIS, FRANCE",
+      "telephone": "+33 1 42 33 76 54",
+      "fax": "+33 1 42 33 76 55",
+      "email": "ORDERS@ASIA-PACIFICLOGISTICS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "25 RUE DE LA BANQUE, 75002 PARIS, FRANCE",
+      "telephone": "+33 1 42 33 76 54",
+      "fax": "+33 1 42 33 76 55",
+      "email": "ORDERS@ASIA-PACIFICLOGISTICS.FR"
+    },
+    "onboardDate": "2024-11-05 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -13\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6630916",
+    "temperature": "-13\u00b0C",
+    "minTemperature": "-15\u00b0C",
+    "maxTemperature": "-11\u00b0C",
+    "ventilation": "80%",
+    "humidity": "89%"
+  }
+}

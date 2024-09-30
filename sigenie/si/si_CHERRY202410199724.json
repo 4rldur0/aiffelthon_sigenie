@@ -1,18 +1,18 @@
 {
   "bookingReference": "CHERRY202410199724",
   "voyageDetails": {
-    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
-    "voyageNumber": "2024428W"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
   },
   "routeDetails": {
-    "placeOfReceipt": "TANGER",
-    "portOfLoading": "TANGER",
-    "portOfDischarge": "PORT KLANG",
-    "placeOfDelivery": "PORT KLANG"
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "PORT KLANG"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
@@ -21,116 +21,104 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHIPPER 1836",
-      "onBehalfOf": "CUSTOMER 5561",
-      "address": "123 MAIN STREET, ANYTOWN, USA",
-      "telephone": "+1-555-123-4567",
-      "fax": "+1-555-123-4568"
+      "name": "ASIA PACIFIC PRODUCTS INC.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
     },
     "consignee": {
-      "name": "IMPORTERS LTD.",
-      "address": "456 COMMERCIAL STREET, KUALA LUMPUR, MALAYSIA",
-      "companyNumber": "1234567"
+      "name": "INTERNATIONAL TRADING COMPANY",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
     },
     "notifyParty": {
-      "name": "LOGISTICS CO.",
-      "address": "789 INDUSTRIAL PARK, PORT KLANG, MALAYSIA"
+      "name": "INTERNATIONAL TRADING COMPANY",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
     }
   },
   "shippingTerm": "CY/CY",
-  "hsCode": "445693",
-  "commodityDescription": "SAMPLE COMMODITY 69",
+  "hsCode": "940160",
+  "commodityDescription": "SEATS",
   "containers": [
     {
-      "containerNumber": "CRLU9908625",
-      "sealNumber": "892083",
-      "marksAndNumbers": "NO MARK",
-      "numberOfPackages": 10,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 69",
-      "grossWeight": 4829.0,
-      "measurement": 12.0,
-      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. THE CONTAINER IS PROPERTY OF CHERRY."
+      "containerNumber": "CONT9021285",
+      "sealNumber": "SEAL378851",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 18078.56,
+      "measurement": 32.99
     },
     {
-      "containerNumber": "CRLU9908626",
-      "sealNumber": "892084",
-      "marksAndNumbers": "NO MARK",
-      "numberOfPackages": 10,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 69",
-      "grossWeight": 4829.0,
-      "measurement": 12.0,
-      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. THE CONTAINER IS PROPERTY OF CHERRY."
+      "containerNumber": "CONT8493193",
+      "sealNumber": "SEAL250610",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 10784.66,
+      "measurement": 20.34
     },
     {
-      "containerNumber": "CRLU9908627",
-      "sealNumber": "892085",
-      "marksAndNumbers": "NO MARK",
-      "numberOfPackages": 10,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 69",
-      "grossWeight": 4829.0,
-      "measurement": 12.0,
-      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. THE CONTAINER IS PROPERTY OF CHERRY."
+      "containerNumber": "CONT6176046",
+      "sealNumber": "SEAL848077",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 19866.16,
+      "measurement": 29.26
     },
     {
-      "containerNumber": "CRLU9908628",
-      "sealNumber": "892086",
-      "marksAndNumbers": "NO MARK",
-      "numberOfPackages": 10,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 69",
-      "grossWeight": 4829.0,
-      "measurement": 12.0,
-      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. THE CONTAINER IS PROPERTY OF CHERRY."
+      "containerNumber": "CONT6923807",
+      "sealNumber": "SEAL849628",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 12469.42,
+      "measurement": 35.75
+    },
+    {
+      "containerNumber": "CONT8005543",
+      "sealNumber": "SEAL352503",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 14855.67,
+      "measurement": 37.29
+    },
+    {
+      "containerNumber": "CONT9144702",
+      "sealNumber": "SEAL740420",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 6155.05,
+      "measurement": 22.79
     }
   ],
   "totalShipment": {
-    "totalContainers": "FOUR (45 HIGH CUBE REEFER X4) CONTAINER ONLY",
-    "totalPackages": 40,
-    "packageType": "CARTONS",
-    "containerType": "45RHX4",
-    "totalGrossWeight": 19316.0,
-    "totalMeasurement": 48.0
-  },
-  "reeferSettings": {
-    "containerNumber": "CRLU9908625",
-    "temperature": "+5.0\u00baC",
-    "minTemperature": "+2.0\u00b0C",
-    "maxTemperature": "+7.0\u00b0C",
-    "ventilation": "Closed",
-    "humidity": "50% ~ 60%"
+    "totalContainers": "6 x 40 STANDARD TANK",
+    "totalPackages": 219,
+    "totalGrossWeight": 82209.52,
+    "totalMeasurement": 178.42
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000101033738"
+      "lcNumber": "LC202410199724"
     },
     "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
     ],
     "originalBLDistribution": {
-      "name": "SHIPPER 1836",
-      "address": "123 MAIN STREET, ANYTOWN, USA",
-      "telephone": "+1-555-123-4567",
-      "fax": "+1-555-123-4568"
+      "name": "INTERNATIONAL TRADING COMPANY",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
     },
     "originalInvoiceDistribution": {
-      "name": "CUSTOMER 5561",
-      "address": "456 COMMERCIAL STREET, KUALA LUMPUR, MALAYSIA",
-      "telephone": "+60-3-1234-5678",
-      "fax": "+60-3-1234-5679"
+      "name": "ASIA PACIFIC PRODUCTS INC.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
     },
-    "onboardDate": "2024-09-16 02:08",
-    "additionalRemarks": "No special instructions"
-  },
-  "dangerousGoods": {
-    "containerNumber": "CRLU2992659",
-    "unClass": "3",
-    "unCode": "1263",
-    "hsCode": "3208.90",
-    "flashPoint": "Below 250 \u00b0C",
-    "additionalInfo": "Attached MSDS"
+    "onboardDate": "2024-11-07 12:00",
+    "additionalRemarks": "KEEP DRY"
   }
 }
