@@ -24,6 +24,10 @@ custom_font_css = f"""
 * {{
     font-family: 'Freesentation', sans-serif !important;
 }}
+
+.stMarkdown {{
+    font-family: 'Freesentation', sans-serif !important;
+}}
 </style>
 """
 st.markdown(custom_font_css, unsafe_allow_html=True)
@@ -32,12 +36,14 @@ st.markdown(custom_font_css, unsafe_allow_html=True)
 import json_bkg
 import json_si
 import json_bl 
+from search_booking import search_booking
+from search_si import search_shipping_instructions
 
 def main():
     # Sidebar menu
     menu = st.sidebar.selectbox(
         "Select Document Type",
-        ["Booking", "Shipping Instructions", "Bill of Lading"]
+        ["Booking", "Shipping Instructions", "Bill of Lading", "Booking Search", "Shipping Instruction Search"]
     )
 
     # Main content
@@ -50,12 +56,44 @@ def main():
     elif menu == "Bill of Lading":
         st.title("SIGenie Bill of Lading")
         json_bl.main()
+    elif menu == "Booking Search":
+        st.title("Booking Search")
+        query = st.text_input("Enter search query for Booking")
+        if query:
+            results = search_booking(query)
+            for result in results:
+                st.markdown(f"""
+                <div style='font-family: Freesentation, sans-serif;'>
+                <strong>Booking Reference:</strong> {result['bookingReference']}<br>
+                <strong>Customer Name:</strong> {result['customerName']}<br>
+                <strong>Container Count:</strong> {result['containerCount']}<br>
+                <strong>Cargo Description:</strong> {result['chapterDescription']}<br>
+                <strong>Similarity Score:</strong> {result['similarity']:.2f}
+                </div>
+                <hr>
+                """, unsafe_allow_html=True)
+    elif menu == "Shipping Instruction Search":
+        st.title("Shipping Instruction Search")
+        query = st.text_input("Enter search query for Shipping Instructions")
+        if query:
+            results = search_shipping_instructions(query)
+            for result in results:
+                st.markdown(f"""
+                <div style='font-family: Freesentation, sans-serif;'>
+                <strong>Booking Reference:</strong> {result['bookingReference']}<br>
+                <strong>Shipper Name:</strong> {result['shipperName']}<br>
+                <strong>Container Count:</strong> {result['containerCount']}<br>
+                <strong>Cargo Description:</strong> {result['cargoDescription']}<br>
+                <strong>Similarity Score:</strong> {result['similarity']:.2f}
+                </div>
+                <hr>
+                """, unsafe_allow_html=True)
 
     # Footer 추가
     st.markdown("---")
     st.markdown(
-        "<div style='text-align: center; color: gray; padding: 10px;'>"
-        "Copyright © 2024 SIGenie 0.03 - Early Access Version. All rights reserved."
+        "<div style='text-align: center; color: gray; padding: 10px; font-family: Freesentation, sans-serif;'>"
+        "Copyright © 2024 SIGenie 0.03-3331 - Early Access Version. All rights reserved."
         "</div>",
         unsafe_allow_html=True
     )

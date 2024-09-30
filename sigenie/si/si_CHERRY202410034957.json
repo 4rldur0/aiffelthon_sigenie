@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202410034957",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "456 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3000AA",
+      "taxId": "NL856798123B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "JOHN.SMITH@GLOBALIMPORTEXPORT.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST NETHERLANDS LOGISTICS BV",
+      "address": "789 PORT STREET, ROTTERDAM, NETHERLANDS 3015AA",
+      "taxId": "NL123456789B01",
+      "president": "MS. ANNA JONES",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "854230",
+  "commodityDescription": "OUT-OF-GAUGE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT4797837",
+      "sealNumber": "SEAL815265",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 6476.8,
+      "measurement": 22.32
+    },
+    {
+      "containerNumber": "CONT6813730",
+      "sealNumber": "SEAL662298",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 5846.66,
+      "measurement": 21.45
+    },
+    {
+      "containerNumber": "CONT9856106",
+      "sealNumber": "SEAL744287",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 7766.51,
+      "measurement": 26.9
+    },
+    {
+      "containerNumber": "CONT3657112",
+      "sealNumber": "SEAL589717",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 7313.96,
+      "measurement": 29.61
+    },
+    {
+      "containerNumber": "CONT8187271",
+      "sealNumber": "SEAL270891",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 19716.55,
+      "measurement": 37.82
+    },
+    {
+      "containerNumber": "CONT1152971",
+      "sealNumber": "SEAL331910",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 14460.46,
+      "measurement": 39.07
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD OPEN TOP",
+    "totalPackages": 391,
+    "totalGrossWeight": 61580.94,
+    "totalMeasurement": 177.17
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST NETHERLANDS LOGISTICS BV",
+      "address": "789 PORT STREET, ROTTERDAM, NETHERLANDS 3015AA",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "INFO@FIRSTNEDERLANDSLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "456 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "JOHN.SMITH@GLOBALIMPORTEXPORT.COM"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 4645x2382x2373"
+  },
+  "outOfGaugeDimensions": {
+    "length": "4645",
+    "width": "2382",
+    "height": "2373",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411267227",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "1234 ZHONGSHAN ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "SHIPPING@SUNRISEELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "UNITED GLOBAL LOGISTICS",
+      "address": "1234 AMSTERDAMSEWEG, ROTTERDAM, NETHERLANDS 3000 AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8889",
+      "email": "INFO@UNITEDGLOBALLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "UNITED GLOBAL LOGISTICS",
+      "address": "1234 AMSTERDAMSEWEG, ROTTERDAM, NETHERLANDS 3000 AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8889",
+      "email": "INFO@UNITEDGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030211",
+  "commodityDescription": "FROZEN TUNA",
+  "containers": [
+    {
+      "containerNumber": "CONT5701420",
+      "sealNumber": "SEAL468686",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 16089.85,
+      "measurement": 32.88
+    },
+    {
+      "containerNumber": "CONT6339044",
+      "sealNumber": "SEAL261333",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 17638.83,
+      "measurement": 22.21
+    },
+    {
+      "containerNumber": "CONT4443327",
+      "sealNumber": "SEAL221284",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 16923.72,
+      "measurement": 37.05
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD REEFER",
+    "totalPackages": 171,
+    "totalGrossWeight": 50652.4,
+    "totalMeasurement": 92.14
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "UNITED GLOBAL LOGISTICS",
+      "address": "1234 AMSTERDAMSEWEG, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8889",
+      "email": "INFO@UNITEDGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "UNITED GLOBAL LOGISTICS",
+      "address": "1234 AMSTERDAMSEWEG, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8889",
+      "email": "INFO@UNITEDGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-12-07 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 7\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1729061",
+    "temperature": "7\u00b0C",
+    "minTemperature": "5\u00b0C",
+    "maxTemperature": "9\u00b0C",
+    "ventilation": "55%",
+    "humidity": "91%"
+  }
+}

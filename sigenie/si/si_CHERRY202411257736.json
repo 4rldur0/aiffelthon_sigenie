@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411257736",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "usci": "91321200765109788X",
+      "president": "PETER SMITH",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT9131195",
+      "sealNumber": "SEAL165123",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 12373.41,
+      "measurement": 24.07
+    },
+    {
+      "containerNumber": "CONT6448807",
+      "sealNumber": "SEAL637825",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 9218.26,
+      "measurement": 32.5
+    },
+    {
+      "containerNumber": "CONT8152550",
+      "sealNumber": "SEAL982048",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 17502.17,
+      "measurement": 32.73
+    },
+    {
+      "containerNumber": "CONT4760046",
+      "sealNumber": "SEAL354650",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 16088.63,
+      "measurement": 28.77
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD REEFER",
+    "totalPackages": 279,
+    "totalGrossWeight": 55182.47,
+    "totalMeasurement": 118.07
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-12-06 17:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -16\u00b0C, VALUE: USD179,932, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7960441",
+    "temperature": "-16\u00b0C",
+    "minTemperature": "-18\u00b0C",
+    "maxTemperature": "-14\u00b0C",
+    "ventilation": "95%",
+    "humidity": "90%"
+  }
+}

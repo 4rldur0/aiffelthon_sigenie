@@ -1,0 +1,145 @@
+{
+  "bookingReference": "CHERRY202411113478",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO LTD",
+      "address": "123 TECH AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JOHN.LI@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE LOGISTICS SOLUTIONS LTD",
+      "address": "234 BOULEVARD DE LA DEFENSE, PARIS LA DEFENSE, 92042, FRANCE",
+      "country": "FRANCE",
+      "email": "PIERRE_DUPONT@WWLSOLUTIONS.FR",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02"
+    },
+    "notifyParty": {
+      "name": "EUROFREIGHT FORWARDING LTD",
+      "address": "12 RUE DE LA PAIX, PARIS, 75001, FRANCE",
+      "country": "FRANCE",
+      "email": "MARIE.MARTIN@EUROFREIGHT.FR",
+      "telephone": "+33 1 23 45 67 89",
+      "fax": "+33 1 23 45 67 90"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRIC GENERATORS AND ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CONT8531559",
+      "sealNumber": "SEAL845346",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 10820.21,
+      "measurement": 36.46
+    },
+    {
+      "containerNumber": "CONT9931321",
+      "sealNumber": "SEAL819688",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 11598.72,
+      "measurement": 20.95
+    },
+    {
+      "containerNumber": "CONT2472643",
+      "sealNumber": "SEAL155823",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 17085.59,
+      "measurement": 29.31
+    },
+    {
+      "containerNumber": "CONT2417654",
+      "sealNumber": "SEAL346477",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 18436.93,
+      "measurement": 39.75
+    },
+    {
+      "containerNumber": "CONT3895162",
+      "sealNumber": "SEAL633099",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 19505.97,
+      "measurement": 28.1
+    },
+    {
+      "containerNumber": "CONT2855179",
+      "sealNumber": "SEAL525652",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 7854.9,
+      "measurement": 26.62
+    },
+    {
+      "containerNumber": "CONT4810908",
+      "sealNumber": "SEAL145437",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 9944.61,
+      "measurement": 30.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 HIGH CUBE REEFER",
+    "totalPackages": 377,
+    "totalGrossWeight": 95246.93,
+    "totalMeasurement": 211.81
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS SOLUTIONS LTD",
+      "address": "234 BOULEVARD DE LA DEFENSE, PARIS LA DEFENSE, 92042, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "PIERRE_DUPONT@WWLSOLUTIONS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE LOGISTICS SOLUTIONS LTD",
+      "address": "234 BOULEVARD DE LA DEFENSE, PARIS LA DEFENSE, 92042, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "PIERRE_DUPONT@WWLSOLUTIONS.FR"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -1\u00b0C, 14 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9513058",
+    "temperature": "-1\u00b0C",
+    "minTemperature": "-3\u00b0C",
+    "maxTemperature": "1\u00b0C",
+    "ventilation": "26%",
+    "humidity": "83%"
+  }
+}

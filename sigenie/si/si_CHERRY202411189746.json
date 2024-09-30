@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411189746",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION MACHINERY CO. LTD.",
+      "address": "NO. 1234, JIANGUO ROAD, SHANGHAI, CHINA, 200001",
+      "telephone": "+86 21 6328 9000",
+      "fax": "+86 21 6328 9001",
+      "email": "INFO@PRECISIONMACHINERY.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "WATERLOO PLACE, LONDON, ENGLAND, SW1Y 4AR",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 7930 5000",
+      "fax": "+44 20 7930 5001",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "WATERLOO PLACE, LONDON, ENGLAND, SW1Y 4AR",
+      "telephone": "+44 20 7930 5000",
+      "fax": "+44 20 7930 5001",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT7243256",
+      "sealNumber": "SEAL797471",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 15664.3,
+      "measurement": 22.01
+    },
+    {
+      "containerNumber": "CONT7104090",
+      "sealNumber": "SEAL803019",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 7674.39,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CONT6764464",
+      "sealNumber": "SEAL475501",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 12234.23,
+      "measurement": 39.59
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE REEFER",
+    "totalPackages": 186,
+    "totalGrossWeight": 35572.92,
+    "totalMeasurement": 81.6
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411275629"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "WATERLOO PLACE, LONDON, ENGLAND, SW1Y 4AR",
+      "telephone": "+44 20 7930 5000",
+      "fax": "+44 20 7930 5001",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "WATERLOO PLACE, LONDON, ENGLAND, SW1Y 4AR",
+      "telephone": "+44 20 7930 5000",
+      "fax": "+44 20 7930 5001",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-21 18:00",
+    "additionalRemarks": "MAINTAIN HUMIDITY"
+  }
+}
