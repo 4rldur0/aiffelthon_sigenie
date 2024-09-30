@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202409285386",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING SOLUTIONS PTE LTD",
+      "address": "123 TAI SENG AVENUE, #05-01 TAI SENG CENTRE, SINGAPORE 534225",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0456",
+      "email": "INFO@PRECISIONENGINEERING.COM.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING AND LOGISTICS LTD",
+      "address": "124 STADHUISSTRAAT, 3011 LW ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8123456789B01",
+      "president": "MR. PETER VAN DER MEER",
+      "telephone": "+31 10 246 8790",
+      "fax": "+31 10 246 8791",
+      "email": "INFO@GLOBALTRADINGLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "CARGO HANDLING SERVICES BV",
+      "address": "125 WAALHAVEN, 3011 LJ ROTTERDAM, NETHERLANDS",
+      "taxId": "NL890123456789A01",
+      "president": "MS. ANNA DE GROOT",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "842839",
+  "commodityDescription": "FORKLIFT TRUCK",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "containerType": "OPEN TOP",
+      "cargoDescription": "FORKLIFT TRUCK - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 OT) OPEN TOP CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "OPEN TOP",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 72.732
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024102654321"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-28 10:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 10669x2107x2088, VALUE: USD926,020"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10669",
+    "width": "2107",
+    "height": "2088",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

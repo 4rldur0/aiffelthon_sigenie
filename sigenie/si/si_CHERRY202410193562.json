@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410193562",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "INDUSTRIAL MACHINERY CORP",
+      "address": "123 FACTORY STREET, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@INDUSTRIALMACHINERYCORP.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "555 TRADE CENTER STREET, HAMBURG, GERMANY, 20457",
+      "country": "GERMANY",
+      "email": "GERHARD.SCHMIDT@GLOBALTRADINGSOLUTIONS.DE",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS GMBH",
+      "address": "444 PORT STREET, HAMBURG, GERMANY, 20359",
+      "country": "GERMANY",
+      "email": "INFO@BLUESKYLOGISTICS.DE",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5431"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "843149",
+  "commodityDescription": "PARTS FOR MACHINERY FOR GENERATING, DISTRIBUTING AND TRANSFORMING ELECTRICITY",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "IMCORP123",
+      "numberOfPackages": 1,
+      "packageType": "PIECES",
+      "cargoDescription": "WIND TURBINE GENERATOR",
+      "grossWeight": 25000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (OPEN TOP 20FT)",
+    "totalPackages": 1,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "555 TRADE CENTER STREET, HAMBURG, GERMANY, 20457",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "GERHARD.SCHMIDT@GLOBALTRADINGSOLUTIONS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "555 TRADE CENTER STREET, HAMBURG, GERMANY, 20457",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "GERHARD.SCHMIDT@GLOBALTRADINGSOLUTIONS.DE"
+    },
+    "onboardDate": "2024-10-28 10:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 6202x2143x2680"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6202",
+    "width": "2143",
+    "height": "2680",
+    "overWidth": "0",
+    "overHeight": "90"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

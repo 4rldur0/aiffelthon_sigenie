@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410315695",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CORP.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 98765432",
+      "email": "INFO@DELTATRADING.COM"
+    },
+    "consignee": {
+      "name": "ZENITH LOGISTICS LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 20 12345678",
+      "fax": "+31 20 98765432",
+      "email": "INFO@ZENITHLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "ZENITH LOGISTICS LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 12345678",
+      "fax": "+31 20 98765432",
+      "email": "INFO@ZENITHLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940161",
+  "commodityDescription": "CHAIR SEATS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "CHAIR SEATS - ZENITH LOGISTICS LTD.",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHAIR SEATS - SHIPPED ON PALLETS - HANDLE WITH CARE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ZENITH LOGISTICS LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 12345678",
+      "fax": "+31 20 98765432",
+      "email": "INFO@ZENITHLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH LOGISTICS LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 12345678",
+      "fax": "+31 20 98765432",
+      "email": "INFO@ZENITHLOGISTICS.COM"
+    },
+    "onboardDate": "2024-11-16 21:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, 21 DAYS FREE TIME AT DESTINATION, HANDLE WITH CARE"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

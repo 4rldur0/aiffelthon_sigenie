@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202411187060",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROFOODS GMBH",
+      "onBehalfOf": "",
+      "address": "1234 SEAFOOD STREET, ROTTERDAM 3012 AA, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@BLUEOCEANSEAFOOD.NL"
+    },
+    "consignee": {
+      "name": "SEAFOOD IMPORTERS PTE LTD.",
+      "address": "1234 FISH STREET, SINGAPORE 123456",
+      "companyNumber": "201234567",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SALES@SEAFOODIMPORTERS.SG"
+    },
+    "notifyParty": {
+      "name": "BLUE OCEAN SEAFOOD LTD.",
+      "address": "1234 SEAFOOD STREET, ROTTERDAM 3012 AA, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030199",
+  "commodityDescription": "FROZEN COD FILLETS",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BLUE OCEAN SEAFOOD LTD. - FROZEN COD",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN COD FILLETS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "TCLU9876544",
+      "sealNumber": "123457",
+      "marksAndNumbers": "BLUE OCEAN SEAFOOD LTD. - FROZEN COD",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN COD FILLETS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 20' REEFER CONTAINERS",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20' REEFER",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 GLOBAL STREET, LONDON WC2H 9JQ, UNITED KINGDOM",
+      "telephone": "+44 20 7580 8000",
+      "fax": "+44 20 7580 8001",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE OCEAN SEAFOOD LTD.",
+      "address": "1234 SEAFOOD STREET, ROTTERDAM 3012 AA, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    },
+    "onboardDate": "2024-11-21 19:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 6\u00b0C, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9763547",
+    "temperature": "6\u00b0C",
+    "minTemperature": "4\u00b0C",
+    "maxTemperature": "8\u00b0C",
+    "ventilation": "2%",
+    "humidity": "71%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

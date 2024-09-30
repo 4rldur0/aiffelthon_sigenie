@@ -2,88 +2,103 @@
   "bookingReference": "CHERRY202410069492",
   "voyageDetails": {
     "vesselName": "APL VANDA",
-    "voyageNumber": "2024470E"
+    "voyageNumber": "OFLQHW1MA"
   },
   "routeDetails": {
-    "placeOfReceipt": "ALGECIRAS",
-    "portOfLoading": "ALGECIRAS",
-    "portOfDischarge": "YANTIAN",
-    "placeOfDelivery": "YANTIAN"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "YANTIAN, CHINA"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 7
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHIPPER 2222",
-      "address": "123 Main Street, Anytown, SPAIN",
-      "telephone": "+34 123 456 7890",
-      "fax": "+34 123 456 7891"
+      "name": "DEF MANUFACTURING CO. LTD",
+      "address": "123 ABC STREET, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "SHIPPING@DEFMANUFACTURING.CN"
     },
     "consignee": {
-      "name": "CUSTOMER 8273",
-      "address": "456 Elm Street, Anycity, CHINA",
-      "telephone": "+86 123 456 7892",
-      "fax": "+86 123 456 7893",
-      "email": "customer8273@email.com",
-      "contactPerson": "Jane Doe"
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "123 RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "country": "FRANCE",
+      "email": "JEREMY.LEE@ABCGLOBAL.FR",
+      "telephone": "+33 1 5555 6666",
+      "fax": "+33 1 5555 6667"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "INVOICE RECEIVER 1304",
-      "address": "789 Oak Street, Anytown, CHINA",
-      "telephone": "+86 123 456 7894",
-      "fax": "+86 123 456 7895"
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "123 RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "country": "FRANCE",
+      "email": "JEREMY.LEE@ABCGLOBAL.FR",
+      "telephone": "+33 1 5555 6666",
+      "fax": "+33 1 5555 6667"
     }
   },
-  "shippingTerm": "DOOR/DOOR",
-  "hsCode": "401143",
-  "commodityDescription": "SAMPLE COMMODITY 32",
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
   "containers": [
     {
-      "containerNumber": "CRLU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "SAMPLE MARKING",
-      "numberOfPackages": 100,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 32",
-      "grossWeight": 15000.0,
-      "measurement": 25.0
+      "containerNumber": "CRLU4927001",
+      "sealNumber": "713194",
+      "marksAndNumbers": "DEF-20241006",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "TOYS",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4961926",
+      "sealNumber": "713176",
+      "marksAndNumbers": "DEF-20241006",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "GAMES",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "1 X 45 HIGH CUBE OPEN TOP CONTAINER",
-    "totalPackages": 100,
-    "totalGrossWeight": 15000.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20 DRY CONTAINER)",
+    "totalPackages": 1000,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 60.0
   },
   "additionalInformation": {
-    "invoiceNumber": "20241006-001",
-    "documentNumber": "20241006-002",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "CERT-123456"
-    ],
+    "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "CUSTOMER 8273",
-      "address": "456 Elm Street, Anycity, CHINA",
-      "telephone": "+86 123 456 7892",
-      "fax": "+86 123 456 7893"
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "123 RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "telephone": "+33 1 5555 6666",
+      "fax": "+33 1 5555 6667",
+      "email": "JEREMY.LEE@ABCGLOBAL.FR"
     },
     "originalInvoiceDistribution": {
-      "name": "INVOICE RECEIVER 1304",
-      "address": "789 Oak Street, Anytown, CHINA",
-      "telephone": "+86 123 456 7894",
-      "fax": "+86 123 456 7895"
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "123 RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "telephone": "+33 1 5555 6666",
+      "fax": "+33 1 5555 6667",
+      "email": "JEREMY.LEE@ABCGLOBAL.FR"
     },
-    "onboardDate": "2024-09-24 02:37",
-    "additionalRemarks": "No special instructions"
+    "onboardDate": "2024-10-19 16:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, 14 DAYS FREE TIME AT DESTINATION, KEEP DRY"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
   }
 }

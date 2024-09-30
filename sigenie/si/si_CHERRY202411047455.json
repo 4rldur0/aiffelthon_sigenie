@@ -1,0 +1,138 @@
+{
+  "bookingReference": "CHERRY202411047455",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "SPANISH GLOBAL FREIGHT LTD.",
+      "address": "1234, LA RAMBLA, BARCELONA, 08002",
+      "country": "SPAIN",
+      "email": "ORDERS@SPANISHGLOBAL.ES",
+      "telephone": "+34 93 234 5678"
+    },
+    "notifyParty": {
+      "name": "SPANISH GLOBAL FREIGHT LTD.",
+      "address": "1234, LA RAMBLA, BARCELONA, 08002",
+      "country": "SPAIN",
+      "email": "ORDERS@SPANISHGLOBAL.ES",
+      "telephone": "+34 93 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "381300",
+  "commodityDescription": "DANGEROUS GOODS, LIQUIFIED GAS, N.O.S.",
+  "containers": [
+    {
+      "containerNumber": "CRLU4571916",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "DANGEROUS GOODS, LIQUIFIED GAS, N.O.S.",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "dangerousGoods": {
+        "unNumber": "1914",
+        "class": "2.2",
+        "packingGroup": "II"
+      }
+    },
+    {
+      "containerNumber": "CRLU4595018",
+      "sealNumber": "724918",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "DANGEROUS GOODS, LIQUIFIED GAS, N.O.S.",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "dangerousGoods": {
+        "unNumber": "1914",
+        "class": "2.2",
+        "packingGroup": "II"
+      }
+    },
+    {
+      "containerNumber": "CRLU4529806",
+      "sealNumber": "724921",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "DANGEROUS GOODS, LIQUIFIED GAS, N.O.S.",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "dangerousGoods": {
+        "unNumber": "1914",
+        "class": "2.2",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 20' DRY CONTAINER",
+    "totalPackages": 300,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 174.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "SPANISH GLOBAL FREIGHT LTD.",
+      "address": "1234, LA RAMBLA, BARCELONA, 08002",
+      "telephone": "+34 93 234 5678",
+      "fax": "+34 93 234 5679",
+      "email": "ORDERS@SPANISHGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SPANISH GLOBAL FREIGHT LTD.",
+      "address": "1234, LA RAMBLA, BARCELONA, 08002",
+      "telephone": "+34 93 234 5678",
+      "fax": "+34 93 234 5679",
+      "email": "ORDERS@SPANISHGLOBAL.ES"
+    },
+    "onboardDate": "2024-11-11 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1914, VALUE: USD120,445, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2673046",
+    "unClass": "9",
+    "unCode": "1914,",
+    "hsCode": "3608.39.25",
+    "flashPoint": "15\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

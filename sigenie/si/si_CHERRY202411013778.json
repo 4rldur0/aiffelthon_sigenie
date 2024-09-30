@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411013778",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI OCEANIC TEXTILE CO., LTD.",
+      "address": "123 OCEANIC STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORT & EXPORT",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "GREEN FIELD IMPORT & EXPORT",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030311",
+  "commodityDescription": "SEAFOOD - FRESH FISH",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "SEAFOOD2024",
+      "numberOfPackages": 5000,
+      "packageType": "CARTONS",
+      "containerType": "40' REEFER CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - SEAFOOD - FRESH FISH",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' RF) REEFER CONTAINER ONLY",
+    "totalPackages": 5000,
+    "packageType": "CARTONS",
+    "containerType": "40' REEFER CONTAINER",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GREEN FIELD IMPORT & EXPORT",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN FIELD IMPORT & EXPORT",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-11-10 16:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 19\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3727510",
+    "temperature": "19\u00b0C",
+    "minTemperature": "17\u00b0C",
+    "maxTemperature": "21\u00b0C",
+    "ventilation": "93%",
+    "humidity": "71%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410228010",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS GOODS, LIQUIDS N.O.S.",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289453",
+      "sealNumber": 123456,
+      "marksAndNumbers": "GT-125",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS GOODS, LIQUIDS N.O.S.",
+      "grossWeight": 12000.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "CGXU4289454",
+      "sealNumber": 654321,
+      "marksAndNumbers": "GT-126",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS GOODS, LIQUIDS N.O.S.",
+      "grossWeight": 12200.0,
+      "measurement": 15.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 X 40) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 24200.0,
+    "totalMeasurement": 31.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241022-1001",
+    "documentNumber": "20241022-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-11-06 20:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 3232",
+    "dangerousGoods": {
+      "unNumber": "3232",
+      "properShippingName": "DANGEROUS GOODS, LIQUIDS N.O.S.",
+      "class": "9",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7022100",
+    "unClass": "5",
+    "unCode": "3232",
+    "hsCode": "4688.55.74",
+    "flashPoint": "-17\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

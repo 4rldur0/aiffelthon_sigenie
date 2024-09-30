@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411088225",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TECH CO. LTD.",
+      "address": "NO. 555, ZHONGYUAN ROAD, NINGBO, ZHEJIANG, CHINA",
+      "lei": "984500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISETECH.COM"
+    },
+    "consignee": {
+      "name": "ATLAS GLOBAL LOGISTICS INC.",
+      "address": "2505 N. CHARLES STREET, BALTIMORE, MD 21218, USA",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+1 410 555 1212",
+      "fax": "+1 410 555 1213",
+      "email": "INFO@ATLASGLOBAL.COM"
+    },
+    "notifyParty": {
+      "name": "ATLAS GLOBAL LOGISTICS INC.",
+      "address": "2505 N. CHARLES STREET, BALTIMORE, MD 21218, USA",
+      "usci": "91321200765109788X",
+      "telephone": "+1 410 555 1212",
+      "fax": "+1 410 555 1213",
+      "email": "INFO@ATLASGLOBAL.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "300490",
+  "commodityDescription": "MEDICAMENTS (INCLUDING VETERINARY MEDI CATIONS) ",
+  "containers": [
+    {
+      "containerNumber": "CMAU2200153",
+      "sealNumber": "100915",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 14,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DANGEROUS GOODS - UN 1759",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 14,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-17 12:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 1759, 21 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4910569",
+    "unClass": "1",
+    "unCode": "1759,",
+    "hsCode": "1241.94.90",
+    "flashPoint": "84\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

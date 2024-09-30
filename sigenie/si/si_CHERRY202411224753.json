@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411224753",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS INC.",
+      "address": "123 ORCHARD ROAD, #10-01 ORCHARD TOWERS, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0456",
+      "email": "INFO@ASIAFOODS.COM.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "15 BARCELONA STREET, #02-01 BARCELONA PLAZA, MADRID, SPAIN 28001",
+      "taxId": "B54789652",
+      "president": "Mr. Miguel Garcia",
+      "telephone": "+34 91 567 8901",
+      "fax": "+34 91 567 8902",
+      "email": "MIGUEL.GARCIA@GLOBALTRADING.ES"
+    },
+    "notifyParty": {
+      "name": "PORT LOGISTICS SPAIN S.L.",
+      "address": "23 ALICANTE STREET, #03-01 ALICANTE TOWER, ALICANTE, SPAIN 03001",
+      "taxId": "A23456789",
+      "president": "Ms. Carmen Sanchez",
+      "telephone": "+34 96 567 8903",
+      "fax": "+34 96 567 8904"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN SNAPPER",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "containerType": "20' REEFER",
+      "cargoDescription": "FROZEN SNAPPER - AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' REEFER)",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20' REEFER",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024120154321"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SINGAPORE PTE LTD",
+      "address": "100 PASIR PANJANG ROAD, #05-01 THE PLAZA, SINGAPORE 118529",
+      "telephone": "+65 6876 5432",
+      "fax": "+65 6876 5431",
+      "email": "TAN.MEILING@GLOBALLOGISTICS.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SINGAPORE PTE LTD",
+      "address": "100 PASIR PANJANG ROAD, #05-01 THE PLAZA, SINGAPORE 118529",
+      "telephone": "+65 6876 5432",
+      "fax": "+65 6876 5431",
+      "email": "TAN.MEILING@GLOBALLOGISTICS.SG"
+    },
+    "onboardDate": "2024-12-06 09:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 6\u00b0C, VALUE: USD66,884"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1678392",
+    "temperature": "6\u00b0C",
+    "minTemperature": "4\u00b0C",
+    "maxTemperature": "8\u00b0C",
+    "ventilation": "40%",
+    "humidity": "62%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

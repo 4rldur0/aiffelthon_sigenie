@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411195803",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING INC",
+      "onBehalfOf": "",
+      "address": "1234 PRECISION RD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@OMEGAMFG.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "companyNumber": "123456789",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "EMPTY TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EMPTY TRAILER - NINGBO",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "EMPTY TRAILER - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 22000.0,
+      "measurement": 85.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR X 1) FLAT RACK CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "20' FLAT RACK",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 85.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA MANUFACTURING INC.",
+      "address": "1234 PRECISION RD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@OMEGAMFG.CN"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 2670x2812x2916, VALUE: USD127,873, KEEP DRY"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2670",
+    "width": "2812",
+    "height": "2916",
+    "overWidth": "372",
+    "overHeight": "326"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

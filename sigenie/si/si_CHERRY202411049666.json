@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411049666",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "BEIJING, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BEIJING ELECTRONICS CO., LTD.",
+      "address": "NO. 123, CHANG'AN STREET, BEIJING, CHINA, 100001",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 10 8888 9999",
+      "fax": "+86 10 8888 9998",
+      "email": "SALES@BEIJINGELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "WATERLOOPLEIN 123, 1011 BZ ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 3332",
+      "email": "INFO@SUNRISEIMPORTS.NL",
+      "personincharge": "PETER VAN DER MARK"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "DE KOOPVAARDER 25, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 4444 5555",
+      "fax": "+31 10 4444 5554",
+      "email": "OPERATIONS@GLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRICAL DISTRIBUTORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2798373",
+      "sealNumber": "900375",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRICAL DISTRIBUTORS AS PER INVOICE AND PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 40 DRY) CONTAINER ONLY",
+    "totalPackages": 100,
+    "totalpackageType": "CARTONS",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 28.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-12 16:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

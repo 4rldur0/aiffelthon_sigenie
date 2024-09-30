@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202411079053",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING INC.",
+      "address": "FRANKFURTER STRASSE 123, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 40 12345678",
+      "email": "INFO@PRECISIONENGINEERING.DE"
+    },
+    "consignee": {
+      "name": "GLOBAL CARGO SOLUTIONS LTD.",
+      "address": "UNIT 101, 888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "country": "CHINA",
+      "email": "INFO@GLOBALCARGOSOLUTIONS.CN",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "country": "CHINA",
+      "email": "ZENLEE@BLUESKYTRADING.CN",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "CHEMICAL PRODUCTS N.E.C. IN TRADE CLASSIFICATIONS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "DANGER CHEMICALS",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS, UN 2569",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY)",
+    "totalPackages": 100,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241114001"
+    },
+    "certificateDetails": [
+      {
+        "certificateType": "DANGEROUS GOODS CERTIFICATE",
+        "certificateNumber": "DG20241114001"
+      }
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL CARGO SOLUTIONS LTD.",
+      "address": "UNIT 101, 888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@GLOBALCARGOSOLUTIONS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL CARGO SOLUTIONS LTD.",
+      "address": "UNIT 101, 888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@GLOBALCARGOSOLUTIONS.CN"
+    },
+    "onboardDate": "2024-11-13 21:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2569, VALUE: USD898,674"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9707944",
+    "unClass": "2",
+    "unCode": "2569,",
+    "hsCode": "5943.20.56",
+    "flashPoint": "12\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

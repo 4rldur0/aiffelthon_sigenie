@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410122257",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES INC.",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "OMEGA TRANSPORT LTD",
+      "address": "DAMRAK 123, 1012 ZJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-624-5678",
+      "fax": "+31-20-624-5679",
+      "email": "INFO@OMEGATRANS.NL",
+      "contactPerson": "JAN VAN DER ZEE"
+    },
+    "notifyParty": {
+      "name": "OMEGA TRANSPORT LTD"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "SPECIAL PURPOSE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "FRNU1234567",
+      "sealNumber": 123456,
+      "marksAndNumbers": "DI-123",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SPECIAL PURPOSE TRAILER - MODEL SP2000",
+      "grossWeight": 25000.0,
+      "measurement": 100.0,
+      "outOfGaugeDimensions": {
+        "length": 8024,
+        "width": 2516,
+        "height": 2766
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 X 2) FLAT RACK CONTAINER ONLY",
+    "totalPackages": 1,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241012-1001",
+    "documentNumber": "20241012-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241012-1234"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA TRANSPORT LTD",
+      "address": "DAMRAK 123, 1012 ZJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-624-5678",
+      "fax": "+31-20-624-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA TRANSPORT LTD",
+      "address": "DAMRAK 123, 1012 ZJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-624-5678",
+      "fax": "+31-20-624-5679"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 8024x2516x2766, VALUE: USD675,326, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8024",
+    "width": "2516",
+    "height": "2766",
+    "overWidth": "76",
+    "overHeight": "176"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202409276761",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO FREE TRADE ZONE, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8688 5555",
+      "fax": "+86 574 8688 5556",
+      "email": "INFO@ASIAPACIFICCHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "555 POLAND STREET, GDANSK, POMORSKIE VOIVODESHIP 80-801, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 301 2345",
+      "fax": "+48 58 301 2346",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.PL",
+      "personincharge": "ANNA ZAJAC"
+    },
+    "notifyParty": {
+      "name": "POLAND LOGISTICS SERVICES LTD.",
+      "address": "123 GDANSK PORT ROAD, GDANSK, POMORSKIE VOIVODESHIP 80-801, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 301 1234",
+      "fax": "+48 58 301 1235",
+      "email": "CONTACT@POLANDLOGISTICS.PL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382490",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2798373",
+      "sealNumber": "900375",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DANGEROUS CHEMICALS; UN 1478",
+      "grossWeight": 18000.0,
+      "measurement": 21.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 20 DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "totalpackageType": "DRUMS",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 21.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-10-12 09:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1478, HANDLE WITH CARE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1334466",
+    "unClass": "5",
+    "unCode": "1478,",
+    "hsCode": "9326.37.99",
+    "flashPoint": "70\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

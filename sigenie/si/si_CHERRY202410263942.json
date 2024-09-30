@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410263942",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING INDUSTRIES LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "INFO@PRECISIONENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "1234 EUROPESE STREET, ROTTERDAM, SOUTH HOLLAND, 3011 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679",
+      "email": "INFO@GLOBALLOGISTICS.NL",
+      "personincharge": "PETER VAN DER HORST"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "1234 EUROPESE STREET, ROTTERDAM, SOUTH HOLLAND, 3011 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "HEAVY INDUSTRIAL MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "FRLU1234567",
+      "sealNumber": "900375",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "LOOSE",
+      "cargoDescription": "INDUSTRIAL MACHINERY AS PER SHIPPERS INSTRUCTIONS",
+      "grossWeight": 25000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) FLAT RACK CONTAINER ONLY",
+    "totalPackages": 1,
+    "totalpackageType": "LOOSE",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "1234 EUROPESE STREET, ROTTERDAM, SOUTH HOLLAND, 3011 AB, NETHERLANDS",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "1234 EUROPESE STREET, ROTTERDAM, SOUTH HOLLAND, 3011 AB, NETHERLANDS",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-13 16:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 3215x2223x2975"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3215",
+    "width": "2223",
+    "height": "2975",
+    "overWidth": "0",
+    "overHeight": "385"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

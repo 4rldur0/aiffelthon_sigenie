@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410222427",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HARVE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE PRECISION ENGINEERING PTE LTD",
+      "address": "123 TAI SOON STREET, SINGAPORE 488262",
+      "country": "SINGAPORE",
+      "additionalInfo": "(HEAD OFFICE)",
+      "telephone": "+65 6789 0123",
+      "email": "INFO@SPEPTE.COM.SG"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (FRANCE) SAS",
+      "address": "25 RUE DU GENERAL LECLERC, 92130 ISSY-LES-MOULINEAUX, FRANCE",
+      "country": "FRANCE",
+      "email": "DHL.FRANCE@DHL.COM",
+      "telephone": "+33 1 45 11 12 13"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "201 TEMPEST ROAD, SINGAPORE 638560",
+      "country": "SINGAPORE",
+      "email": "DHL.SINGAPORE@DHL.COM",
+      "telephone": "+65 6566 6666"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847990",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "MACHINERY PARTS",
+      "grossWeight": 6000.0,
+      "measurement": 58.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "MACHINERY PARTS",
+      "grossWeight": 6000.0,
+      "measurement": 58.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) HIGH CUBE CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 116.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "201 TEMPEST ROAD, SINGAPORE 638560",
+      "telephone": "+65 6566 6666",
+      "fax": "+65 6566 6667",
+      "email": "DHL.SINGAPORE@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "201 TEMPEST ROAD, SINGAPORE 638560",
+      "telephone": "+65 6566 6666",
+      "fax": "+65 6566 6667",
+      "email": "DHL.SINGAPORE@DHL.COM"
+    },
+    "onboardDate": "2024-11-03 19:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 2000x2812x2723, VALUE: USD871,325"
+  },
+  "cargoType": "OUT_OF_GAUGE",
+  "outOfGaugeDimensions": {
+    "length": "2000",
+    "width": "2812",
+    "height": "2723",
+    "overWidth": "372",
+    "overHeight": "133"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

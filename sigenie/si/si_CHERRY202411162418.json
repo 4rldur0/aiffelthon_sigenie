@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202411162418",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH PRECISION LTD",
+      "address": "EINSTRASSE 123, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 40 1234 5678",
+      "email": "INFO@EUROTECHPRECISION.DE"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "UNIT 123, SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "email": "ORDERS@GLOBALFORWARDINGSOLUTIONS.CN",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "UNIT 123, SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "email": "ORDERS@GLOBALFORWARDINGSOLUTIONS.CN",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "903180",
+  "commodityDescription": "CRYOGENIC FREEZERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EUROTECH-20241116",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "CRYOGENIC FREEZERS",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "EUROTECH-20241116",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "CRYOGENIC FREEZERS",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' REEFER)",
+    "totalPackages": 20,
+    "totalGrossWeight": 10000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "UNIT 123, SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ORDERS@GLOBALFORWARDINGSOLUTIONS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "UNIT 123, SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ORDERS@GLOBALFORWARDINGSOLUTIONS.CN"
+    },
+    "onboardDate": "2024-11-21 20:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -20\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1580775",
+    "temperature": "-20\u00b0C",
+    "minTemperature": "-22\u00b0C",
+    "maxTemperature": "-18\u00b0C",
+    "ventilation": "58%",
+    "humidity": "79%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202411029431",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUIT FRESH IMPORT EXPORT",
+      "address": "123 ORCHARD STREET, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@FRUITFRESH.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "124 MERCHANT STREET, HAMBURG 20457, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@GLOBALTRADING.DE",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "notifyParty": {
+      "name": "SEA LOGISTICS GMBH",
+      "address": "23 PORT STREET, HAMBURG 20359, GERMANY",
+      "country": "GERMANY",
+      "email": "OPERATIONS@SEALOGISTICS.DE",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080550",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CRLU4927001",
+      "sealNumber": "713194",
+      "marksAndNumbers": "FRUITFRESH 123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "ORANGES",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4961926",
+      "sealNumber": "713176",
+      "marksAndNumbers": "FRUITFRESH 124",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "ORANGES",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY CONTAINER)",
+    "totalPackages": 2000,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411029431"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "124 MERCHANT STREET, HAMBURG 20457, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "ORDERS@GLOBALTRADING.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "124 MERCHANT STREET, HAMBURG 20457, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "ORDERS@GLOBALTRADING.DE"
+    },
+    "onboardDate": "2024-11-10 20:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -1\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8799490",
+    "temperature": "-1\u00b0C",
+    "minTemperature": "-3\u00b0C",
+    "maxTemperature": "1\u00b0C",
+    "ventilation": "69%",
+    "humidity": "92%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

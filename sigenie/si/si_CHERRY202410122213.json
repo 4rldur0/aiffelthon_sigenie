@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410122213",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA ELECTRONICS INC.",
+      "address": "123 TECH PARK LANE, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "SHIPPING@BETAELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "GAMMA IMPORTERS BV",
+      "address": "124 CANAL STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "taxId": "NL852345678",
+      "president": "MR. JAN VAN DER MEER",
+      "telephone": "+31 10 2222 1234",
+      "fax": "+31 10 2222 5678",
+      "email": "INFO@GAMMAIMPORTERS.NL"
+    },
+    "notifyParty": {
+      "name": "ALPHA INTERNATIONAL LOGISTICS",
+      "address": "101 TOWER BRIDGE ROAD, LONDON, UNITED KINGDOM SE1 2UP",
+      "taxId": "GB123456789",
+      "president": "MS. SARAH JONES",
+      "telephone": "+44 20 7777 1234",
+      "fax": "+44 20 7777 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "containerType": "20 DRY",
+      "cargoDescription": "BOARD GAMES - AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241012001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "ALPHA INTERNATIONAL LOGISTICS",
+      "address": "101 TOWER BRIDGE ROAD, LONDON, UNITED KINGDOM SE1 2UP",
+      "telephone": "+44 20 7777 1234",
+      "fax": "+44 20 7777 5678",
+      "email": "INFO@ALPHAINTLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GAMMA IMPORTERS BV",
+      "address": "124 CANAL STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31 10 2222 1234",
+      "fax": "+31 10 2222 5678",
+      "email": "INFO@GAMMAIMPORTERS.NL"
+    },
+    "onboardDate": "2024-10-22 16:00:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

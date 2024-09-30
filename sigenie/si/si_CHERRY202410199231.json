@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202410199231",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TEXTILE CORPORATION",
+      "address": "NO. 1234, NANJING ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI TEXTILE BUILDING)",
+      "telephone": "+86 21 8765 4321",
+      "email": "INFO@SHANGHAITEXTILE.COM.CN"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORT EXPORT LTD.",
+      "address": "1234 HAMBURG STREET, HAMBURG, 20095",
+      "country": "GERMANY",
+      "email": "ORDERS@GREENFIELDIMPORT.DE",
+      "telephone": "+49 40 234 5678"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, HAMBURG, 20145",
+      "country": "GERMANY",
+      "email": "ORDERS@BETAIMPORTERS.DE",
+      "telephone": "+49 40 567 8901"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030390",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CRLU4571916",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "FROZEN FISH",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "reeferSettings": {
+        "setTemperature": "-3",
+        "temperatureUnit": "CELSIUS"
+      }
+    },
+    {
+      "containerNumber": "CRLU4595018",
+      "sealNumber": "724918",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "FROZEN FISH",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "reeferSettings": {
+        "setTemperature": "-3",
+        "temperatureUnit": "CELSIUS"
+      }
+    },
+    {
+      "containerNumber": "CRLU4529806",
+      "sealNumber": "724921",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "FROZEN FISH",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "reeferSettings": {
+        "setTemperature": "-3",
+        "temperatureUnit": "CELSIUS"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (45 HC X 3) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 300,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 174.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "GREEN FIELD IMPORT EXPORT LTD.",
+      "address": "1234 HAMBURG STREET, HAMBURG, 20095",
+      "telephone": "+49 40 234 5678",
+      "fax": "+49 40 234 5679",
+      "email": "INFO@GREENFIELDIMPORT.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN FIELD IMPORT EXPORT LTD.",
+      "address": "1234 HAMBURG STREET, HAMBURG, 20095",
+      "telephone": "+49 40 234 5678",
+      "fax": "+49 40 234 5679",
+      "email": "INFO@GREENFIELDIMPORT.DE"
+    },
+    "onboardDate": "2024-10-28 16:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -3\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9930381",
+    "temperature": "-3\u00b0C",
+    "minTemperature": "-5\u00b0C",
+    "maxTemperature": "-1\u00b0C",
+    "ventilation": "77%",
+    "humidity": "67%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

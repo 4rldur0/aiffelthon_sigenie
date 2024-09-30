@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202411139218",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8765 4321",
+      "email": "MALONG@APELTD.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "888 GDANSK PORT ROAD, GDANSK, 80-888",
+      "country": "POLAND",
+      "email": "ORDERS@GLOBALFREIGHTSOLUTIONS.PL",
+      "telephone": "+48 58 234 5678"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, GDANSK, 80-111",
+      "country": "POLAND",
+      "email": "ORDERS@BETAIMPORTERS.PL",
+      "telephone": "+48 58 234 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "854230",
+  "commodityDescription": "SEMICONDUCTORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4571916",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "SEMICONDUCTORS",
+      "grossWeight": 6000.0,
+      "measurement": 58.0
+    },
+    {
+      "containerNumber": "CRLU4595018",
+      "sealNumber": "724918",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "SEMICONDUCTORS",
+      "grossWeight": 6000.0,
+      "measurement": 58.0
+    },
+    {
+      "containerNumber": "CRLU4529806",
+      "sealNumber": "724921",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "SEMICONDUCTORS",
+      "grossWeight": 6000.0,
+      "measurement": 58.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 20' DRY CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 174.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-18 09:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2546, VALUE: USD957,578, 21 DAYS FREE TIME AT DESTINATION",
+    "dangerousGoods": {
+      "unNumber": "2546",
+      "properShippingName": "SEMICONDUCTOR DEVICES"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9845528",
+    "unClass": "6",
+    "unCode": "2546,",
+    "hsCode": "1945.37.57",
+    "flashPoint": "37\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202411097398",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE AIRLINES CARGO PTE LTD",
+      "address": "380 AIRPORT ROAD, SINGAPORE CHANGI AIRPORT, SINGAPORE 819656",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6541 8888",
+      "email": "CARGO@SINGAPOREAIRLINES.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "101 MIDDLE ROAD, #10-00, DHL GLOBAL FORWARDING BUILDING, SINGAPORE 188966",
+      "country": "SINGAPORE",
+      "email": "DHLGF@DHL.COM",
+      "telephone": "+65 6838 1800",
+      "fax": "+65 6838 1801"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "101 MIDDLE ROAD, #10-00, DHL GLOBAL FORWARDING BUILDING, SINGAPORE 188966",
+      "country": "SINGAPORE",
+      "email": "DHLGF@DHL.COM",
+      "telephone": "+65 6838 1800",
+      "fax": "+65 6838 1801"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DHLGF12345",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN FISH FILLETS",
+      "grossWeight": 20000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HC)",
+    "totalPackages": 1000,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "DHLGF20241109"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "101 MIDDLE ROAD, #10-00, DHL GLOBAL FORWARDING BUILDING, SINGAPORE 188966",
+      "telephone": "+65 6838 1800",
+      "fax": "+65 6838 1801",
+      "email": "DHLGF@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "101 MIDDLE ROAD, #10-00, DHL GLOBAL FORWARDING BUILDING, SINGAPORE 188966",
+      "telephone": "+65 6838 1800",
+      "fax": "+65 6838 1801",
+      "email": "DHLGF@DHL.COM"
+    },
+    "onboardDate": "2024-11-17 02:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 20\u00b0C, VALUE: USD261,658, UNDER DECK TOP STOWAGE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4191570",
+    "temperature": "20\u00b0C",
+    "minTemperature": "18\u00b0C",
+    "maxTemperature": "22\u00b0C",
+    "ventilation": "53%",
+    "humidity": "62%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

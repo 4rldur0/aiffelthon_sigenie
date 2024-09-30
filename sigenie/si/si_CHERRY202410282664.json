@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410282664",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS LTD.",
+      "address": "388 YONGFU ROAD, SHANGHAI, CHINA 200031",
+      "telephone": "+86 21 6288 9555",
+      "fax": "+86 21 6288 9666",
+      "email": "INFO@ASIAFOODS.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "25 HAMMERSMITH ROAD, LONDON, W6 9EJ, UNITED KINGDOM",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 7602 3456",
+      "fax": "+44 20 7602 3457",
+      "email": "SALES@GLOBALFREIGHT.CO.UK"
+    },
+    "notifyParty": {
+      "name": "DUTCH COLD CHAIN LOGISTICS",
+      "address": "WESTPOORT 133, 3130 BE ROTTERDAM, NETHERLANDS",
+      "taxId": "NL123456789012",
+      "president": "MS. ANNA VAN DER MEER",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN SALMON FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "containerType": "20' REEFER",
+      "cargoDescription": "FROZEN SALMON FILLETS - AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' REEFER) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20' REEFER",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "25 HAMMERSMITH ROAD, LONDON, W6 9EJ, UNITED KINGDOM",
+      "telephone": "+44 20 7602 3456",
+      "fax": "+44 20 7602 3457",
+      "email": "SALES@GLOBALFREIGHT.CO.UK"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 20\u00b0C, VALUE: USD481,632"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3105462",
+    "temperature": "20\u00b0C",
+    "minTemperature": "18\u00b0C",
+    "maxTemperature": "22\u00b0C",
+    "ventilation": "10%",
+    "humidity": "85%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

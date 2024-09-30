@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410144110",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI DELICIOUS FOODS CO., LTD.",
+      "address": "123 FOOD STREET, JING'AN DISTRICT, SHANGHAI, 200040, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 1234 5678",
+      "email": "INFO@SHANGHAIDELICIOUS.CN"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 TRADING WAY, AMSTERDAM, 1097 GG, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@SUNRISETRADING.NL",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 1234 5679"
+    },
+    "notifyParty": {
+      "name": "DUTCH COLD CHAIN LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@DUTCHCOLDCHAIN.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CRLU9754321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "FROZEN FISH",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN FISH",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9754322",
+      "sealNumber": "123457",
+      "marksAndNumbers": "FROZEN FISH",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN FISH",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9754323",
+      "sealNumber": "123458",
+      "marksAndNumbers": "FROZEN FISH",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN FISH",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' REEFERS)",
+    "totalPackages": 3000,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 TRADING WAY, AMSTERDAM, 1097 GG, NETHERLANDS",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 1234 5679",
+      "email": "ORDERS@SUNRISETRADING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 TRADING WAY, AMSTERDAM, 1097 GG, NETHERLANDS",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 1234 5679",
+      "email": "ORDERS@SUNRISETRADING.NL"
+    },
+    "onboardDate": "2024-10-23 09:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 8\u00b0C, VALUE: USD715,606, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3341320",
+    "temperature": "8\u00b0C",
+    "minTemperature": "6\u00b0C",
+    "maxTemperature": "10\u00b0C",
+    "ventilation": "73%",
+    "humidity": "74%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

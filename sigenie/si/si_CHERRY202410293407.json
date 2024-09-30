@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410293407",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FRUIT DISTRIBUTORS INC",
+      "address": "123 ORCHARD STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080590",
+  "commodityDescription": "FRESH ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "ASIA20241029",
+      "numberOfPackages": 10000,
+      "packageType": "CARTONS",
+      "containerType": "40 HIGH CUBIC REEFER CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - FRESH ORANGES",
+      "grossWeight": 18000.0,
+      "measurement": 48.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654019",
+      "marksAndNumbers": "ASIA20241029",
+      "numberOfPackages": 10000,
+      "packageType": "CARTONS",
+      "containerType": "40 HIGH CUBIC REEFER CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - FRESH ORANGES",
+      "grossWeight": 18000.0,
+      "measurement": 48.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 RF X 2) REEFER CONTAINERS ONLY",
+    "totalPackages": 20000,
+    "packageType": "CARTONS",
+    "containerType": "40 REEFER CONTAINER",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 96.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410295678"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 17\u00b0C, VALUE: USD599,179, 30 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2243826",
+    "temperature": "17\u00b0C",
+    "minTemperature": "15\u00b0C",
+    "maxTemperature": "19\u00b0C",
+    "ventilation": "85%",
+    "humidity": "82%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

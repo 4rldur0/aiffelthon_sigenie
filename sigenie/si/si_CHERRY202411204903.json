@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411204903",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE POWER LTD",
+      "address": "1600 BUANGKOK GREEN, SINGAPORE 780160",
+      "telephone": "+65-6777-7777",
+      "fax": "+65-6777-7778"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING FRANCE SAS",
+      "address": "25 RUE DU PORT, 92130 ISSY-LES-MOULINEAUX, FRANCE",
+      "telephone": "+33-1-46-31-50-00",
+      "fax": "+33-1-46-31-50-01"
+    },
+    "notifyParty": {
+      "name": "SINGAPORE POWER LTD",
+      "address": "1600 BUANGKOK GREEN, SINGAPORE 780160",
+      "telephone": "+65-6777-7777",
+      "fax": "+65-6777-7778"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854370",
+  "commodityDescription": "TRANSFORMER",
+  "containers": [
+    {
+      "containerNumber": "FRSU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SINGAPORE POWER LTD",
+      "numberOfPackages": 1,
+      "packageType": "LOOSE",
+      "cargoDescription": "TRANSFORMER AS PER PACKING LIST",
+      "grossWeight": 25000.0,
+      "measurement": 150.0,
+      "outOfGaugeDimensions": {
+        "length": 9534,
+        "width": 2158,
+        "height": 2644
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' FLAT RACK)",
+    "totalPackages": 1,
+    "packageType": "LOOSE",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING FRANCE SAS",
+      "address": "25 RUE DU PORT, 92130 ISSY-LES-MOULINEAUX, FRANCE",
+      "telephone": "+33-1-46-31-50-00",
+      "fax": "+33-1-46-31-50-01"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE POWER LTD",
+      "address": "1600 BUANGKOK GREEN, SINGAPORE 780160",
+      "telephone": "+65-6777-7777",
+      "fax": "+65-6777-7778"
+    },
+    "onboardDate": "2024-12-06 15:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 9534x2158x2644"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9534",
+    "width": "2158",
+    "height": "2644",
+    "overWidth": "0",
+    "overHeight": "54"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

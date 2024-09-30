@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202409275535",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TECH CO. LTD.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "TO ORDER OF DEUTSCHE GLOBAL BANK AG",
+      "address": "",
+      "country": "",
+      "email": "",
+      "telephone": ""
+    },
+    "notifyParty": {
+      "name": "GLOBAL EXPRESS LOGISTICS",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "080290",
+  "commodityDescription": "WATERMELONS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4571916",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "PALLETS",
+      "cargoDescription": "WATERMELONS",
+      "grossWeight": 20000.0,
+      "measurement": 35.0,
+      "reeferSettings": {
+        "temperature": "12",
+        "humidity": "85%"
+      }
+    },
+    {
+      "containerNumber": "CRLU4595018",
+      "sealNumber": "724918",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "PALLETS",
+      "cargoDescription": "WATERMELONS",
+      "grossWeight": 20000.0,
+      "measurement": 35.0,
+      "reeferSettings": {
+        "temperature": "12",
+        "humidity": "85%"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40FT REEFER",
+    "totalPackages": 2000,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-10-13 16:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 12\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1732329",
+    "temperature": "12\u00b0C",
+    "minTemperature": "10\u00b0C",
+    "maxTemperature": "14\u00b0C",
+    "ventilation": "44%",
+    "humidity": "85%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

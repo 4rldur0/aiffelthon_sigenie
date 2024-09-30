@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411183166",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO.",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "DE BRIJNSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@OMEGASHIPPING.NL",
+      "contactPerson": "JAN VAN DER KOOI"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "190590",
+  "commodityDescription": "POTATOES",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289451",
+      "sealNumber": 345901,
+      "marksAndNumbers": "DT-123",
+      "numberOfPackages": 2000,
+      "packageType": "BAGS",
+      "cargoDescription": "POTATOES - VARIETY: RED DELICIOUS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0,
+      "dangerousGoods": {
+        "unNumber": "1454",
+        "class": "3",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 X HC) CONTAINER ONLY",
+    "totalPackages": 2000,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241118-1001",
+    "documentNumber": "20241118-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "DE BRIJNSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "DE BRIJNSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-12-04 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1454, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3852008",
+    "unClass": "7",
+    "unCode": "1454,",
+    "hsCode": "5815.73.63",
+    "flashPoint": "36\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

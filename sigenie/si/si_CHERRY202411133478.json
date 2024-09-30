@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411133478",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA TRADING INC.",
+      "address": "538 YUANXING ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8732 5678",
+      "fax": "+86 574 8732 5679",
+      "email": "INFO@OMEGATRADINGINC.COM"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING CO. LTD.",
+      "address": "12 RUE MOHAMMED V, CASABLANCA, MOROCCO",
+      "usci": "91321200765109788X",
+      "president": "MOHAMED BEN ALI",
+      "telephone": "+212 522 456 789",
+      "fax": "+212 522 456 780",
+      "email": "INFO@DELTASHIPPING.COM"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING CO. LTD.",
+      "address": "12 RUE MOHAMMED V, CASABLANCA, MOROCCO",
+      "usci": "91321200765109788X",
+      "telephone": "+212 522 456 789",
+      "fax": "+212 522 456 780",
+      "email": "INFO@DELTASHIPPING.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940140",
+  "commodityDescription": "INDUSTRIAL SEATING",
+  "containers": [
+    {
+      "containerNumber": "CMAU2200153",
+      "sealNumber": "100915",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INDUSTRIAL SEATING",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU2000999",
+      "sealNumber": "100917",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INDUSTRIAL SEATING",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 OPEN TOP X 2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CRATES",
+    "containerType": "20 OPEN TOP X 2",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-19 22:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 10275x2534x2293, VALUE: USD180,413, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10275",
+    "width": "2534",
+    "height": "2293",
+    "overWidth": "94",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

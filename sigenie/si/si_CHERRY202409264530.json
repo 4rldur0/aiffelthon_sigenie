@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202409264530",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION MANUFACTURING CO. LTD.",
+      "address": "1234 INDUSTRY PARK, NINGBO, ZHEJIANG 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "LI.WEI@ASIANPRECISION.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS LTD.",
+      "address": "1234 TRADE STREET, ROTTERDAM, 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 777 7777",
+      "fax": "+31 10 777 7778",
+      "email": "INFO@WORLDWIDESHIPPING.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS LTD.",
+      "address": "1234 TRADE STREET, ROTTERDAM, 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 777 7777",
+      "fax": "+31 10 777 7778",
+      "email": "INFO@WORLDWIDESHIPPING.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES, NUMERICALLY CONTROLLED",
+  "containers": [
+    {
+      "containerNumber": "REFR4567890",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SHIP3812029",
+      "numberOfPackages": 1,
+      "packageType": "LOOSE",
+      "cargoDescription": "MILLING MACHINE, NUMERICALLY CONTROLLED",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40FT) REEFER CONTAINER ONLY",
+    "totalPackages": 1,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 35.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS LTD.",
+      "address": "1234 TRADE STREET, ROTTERDAM, 3000 AA, NETHERLANDS",
+      "telephone": "+31 10 777 7777",
+      "fax": "+31 10 777 7778",
+      "email": "INFO@WORLDWIDESHIPPING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS LTD.",
+      "address": "1234 TRADE STREET, ROTTERDAM, 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 777 7777",
+      "fax": "+31 10 777 7778",
+      "email": "INFO@WORLDWIDESHIPPING.NL"
+    },
+    "onboardDate": "2024-10-02 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -15\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7152894",
+    "temperature": "-15\u00b0C",
+    "minTemperature": "-17\u00b0C",
+    "maxTemperature": "-13\u00b0C",
+    "ventilation": "14%",
+    "humidity": "94%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

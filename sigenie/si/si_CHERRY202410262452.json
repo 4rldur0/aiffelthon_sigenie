@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410262452",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "PARIS, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORT EXPORT INC.",
+      "address": "123 OCEAN VIEW DRIVE, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "EURO SEAFOOD LTD.",
+      "address": "150 RUE DE LA MER, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030890",
+  "commodityDescription": "FROZEN COD FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "COD202410",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "containerType": "40 HIGH CUBIC REEFER CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - FROZEN COD FILLETS",
+      "grossWeight": 20000.0,
+      "measurement": 38.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'RF) REEFER CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40' REEFER CONTAINER",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 38.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024102612345"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO SEAFOOD LTD.",
+      "address": "150 RUE DE LA MER, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 3\u00b0C, VALUE: USD776,517"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7590707",
+    "temperature": "3\u00b0C",
+    "minTemperature": "1\u00b0C",
+    "maxTemperature": "5\u00b0C",
+    "ventilation": "60%",
+    "humidity": "93%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

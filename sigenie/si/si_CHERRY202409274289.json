@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202409274289",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA ENGINEERING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SHANGHAI, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(BUILDING A)",
+      "telephone": "+86 21 1234 5678",
+      "email": "SHIPPING@OMEGAENGINEERS.COM"
+    },
+    "consignee": {
+      "name": "DELTA TRANSPORT LTD.",
+      "address": "456 PORT STREET, CASABLANCA, 20000, MOROCCO",
+      "country": "MOROCCO",
+      "email": "ORDERS@DELTATRANSPORT.MA",
+      "telephone": "+212 5 2233 4455"
+    },
+    "notifyParty": {
+      "name": "BETA LOGISTICS LTD.",
+      "address": "789 WAREHOUSE STREET, TANGIER, 90000, MOROCCO",
+      "country": "MOROCCO",
+      "email": "INFO@BETALOGISTICS.MA",
+      "telephone": "+212 6 6789 0123"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871630",
+  "commodityDescription": "CONSTRUCTION EQUIPMENT TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "724935",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "LOOSE",
+      "cargoDescription": "CONSTRUCTION EQUIPMENT TRAILER",
+      "grossWeight": 25000.0,
+      "measurement": 70.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 40' OPEN TOP)",
+    "totalPackages": 1,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "000010103343"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA TRANSPORT LTD.",
+      "address": "456 PORT STREET, CASABLANCA, 20000, MOROCCO",
+      "telephone": "+212 5 2233 4455",
+      "fax": "+212 5 2233 4456",
+      "email": "LISA.CHEN@DELTATRANSPORT.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRANSPORT LTD.",
+      "address": "456 PORT STREET, CASABLANCA, 20000, MOROCCO",
+      "telephone": "+212 5 2233 4455",
+      "fax": "+212 5 2233 4456",
+      "email": "LISA.CHEN@DELTATRANSPORT.MA"
+    },
+    "onboardDate": "2024-10-14 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 10862x2051x2840, 30 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10862",
+    "width": "2051",
+    "height": "2840",
+    "overWidth": "0",
+    "overHeight": "250"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

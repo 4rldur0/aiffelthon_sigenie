@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411053814",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 ELECTRONICS RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "INFO@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "555 LOGISTICS DR, ROTTERDAM, NETHERLANDS 3011AA",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 3334",
+      "email": "ORDERS@GLOBALSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "555 LOGISTICS DR, ROTTERDAM, NETHERLANDS 3011AA"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "903110",
+  "commodityDescription": "MEASURING INSTRUMENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9999999",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "ASIA PACIFIC ELECTRONICS - NINGBO",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEASURING INSTRUMENTS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR)",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 28.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "555 LOGISTICS DR, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 3334",
+      "email": "ORDERS@GLOBALSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "1234 ELECTRONICS RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667"
+    },
+    "onboardDate": "2024-11-12 19:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1028, VALUE: USD301,766, FRAGILE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9917812",
+    "unClass": "5",
+    "unCode": "1028,",
+    "hsCode": "2955.58.41",
+    "flashPoint": "-2\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

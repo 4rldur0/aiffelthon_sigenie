@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410013043",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "BEIJING, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BEIJING PRECISION MACHINERY CO. LTD.",
+      "address": "NO. 1234, CHANGPING ROAD, BEIJING, CHINA",
+      "telephone": "+86-10-5555-6789",
+      "fax": "+86-10-5555-6780"
+    },
+    "consignee": {
+      "name": "SUNRISE GLOBAL TRADING LLC",
+      "address": "ZUIDERWATER 11, 3072 AT ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-7777-8901",
+      "fax": "+31-10-7777-8902",
+      "email": "INFO@SUNRISEGLOBALTRADING.COM",
+      "contactPerson": "ANNA SMITH"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING LLC"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "846630",
+  "commodityDescription": "MACHINERY PARTS FOR HEAVY EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "TCLU8675321",
+      "sealNumber": 123456,
+      "marksAndNumbers": "BPM-123",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "MACHINERY PARTS - MODEL MP1000",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU8675322",
+      "sealNumber": 789012,
+      "marksAndNumbers": "BPM-124",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "MACHINERY PARTS - MODEL MP1000",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT DRY CONTAINERS)",
+    "totalPackages": 10,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241002-1001",
+    "documentNumber": "20241002-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241002-SUNRISE"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL TRADING LLC",
+      "address": "ZUIDERWATER 11, 3072 AT ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-7777-8901",
+      "fax": "+31-10-7777-8902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING LLC",
+      "address": "ZUIDERWATER 11, 3072 AT ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-7777-8901",
+      "fax": "+31-10-7777-8902"
+    },
+    "onboardDate": "2024-10-17 16:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 3254x2638x2703, VALUE: USD373,871",
+    "outOfGaugeDimensions": {
+      "length": 3254,
+      "width": 2638,
+      "height": 2703
+    }
+  },
+  "outOfGaugeDimensions": {
+    "length": "3254",
+    "width": "2638",
+    "height": "2703",
+    "overWidth": "198",
+    "overHeight": "113"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

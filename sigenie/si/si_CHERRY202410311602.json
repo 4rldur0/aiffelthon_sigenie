@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410311602",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TEXTILES LTD.",
+      "address": "NO. 123, HONGQIAO ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86 21 6288 5566",
+      "fax": "+86 21 6288 5577",
+      "email": "INFO@SHANGHAIGLOBALTEXTILES.COM"
+    },
+    "consignee": {
+      "name": "GREEN MOUNTAIN LOGISTICS INC.",
+      "address": "KEIZERSTRAAT 54, 3012 AA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL854321678",
+      "president": "MR. ROBERT VAN DER MEER",
+      "telephone": "+31 10 411 6000",
+      "fax": "+31 10 411 6001",
+      "email": "ROBERT.VANDERMEER@GREENMOUNTAINLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "GREEN MOUNTAIN LOGISTICS INC.",
+      "address": "KEIZERSTRAAT 54, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 411 6000",
+      "fax": "+31 10 411 6001",
+      "email": "INFO@GREENMOUNTAINLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "330499",
+  "commodityDescription": "COSMETICS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "COSMETICS - SHIPPERS LOAD AND COUNT, SEAL SAID TO CONTAIN AS PER SHIPPERS DECLARATION",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GREEN MOUNTAIN LOGISTICS INC.",
+      "address": "KEIZERSTRAAT 54, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 411 6000",
+      "fax": "+31 10 411 6001",
+      "email": "ROBERT.VANDERMEER@GREENMOUNTAINLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN MOUNTAIN LOGISTICS INC.",
+      "address": "KEIZERSTRAAT 54, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 411 6000",
+      "fax": "+31 10 411 6001",
+      "email": "ROBERT.VANDERMEER@GREENMOUNTAINLOGISTICS.COM"
+    },
+    "onboardDate": "2024-11-07 21:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 3091, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6556410",
+    "unClass": "8",
+    "unCode": "3091,",
+    "hsCode": "9950.50.36",
+    "flashPoint": "30\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

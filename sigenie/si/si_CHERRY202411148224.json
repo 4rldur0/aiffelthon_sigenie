@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411148224",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL PRECISION ENGINEERING GMBH",
+      "address": "INDUSTRIEstrasse 12, 20355 HAMBURG, GERMANY",
+      "telephone": "+49-40-6789-0123",
+      "fax": "+49-40-6789-0124"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "SINGAPORE BUSINESS PARK, 123 TAMAN JURONG, SINGAPORE 608725",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124",
+      "email": "INFO@APLOGISTICS.COM.SG",
+      "contactPerson": "MICHAEL TAN"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "SINGAPORE BUSINESS PARK, 123 TAMAN JURONG, SINGAPORE 608725"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICAL",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289453",
+      "sealNumber": 345902,
+      "marksAndNumbers": "GPE-123",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICAL - UN 2398",
+      "grossWeight": 18500.0,
+      "measurement": 25.2,
+      "dangerousGoods": {
+        "unNumber": "2398",
+        "properShippingName": "DANGEROUS CHEMICAL",
+        "hazardClass": "6.1",
+        "packingGroup": "II"
+      }
+    },
+    {
+      "containerNumber": "CGXU4289454",
+      "sealNumber": 279568,
+      "marksAndNumbers": "GPE-124",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICAL - UN 2398",
+      "grossWeight": 18700.0,
+      "measurement": 25.2,
+      "dangerousGoods": {
+        "unNumber": "2398",
+        "properShippingName": "DANGEROUS CHEMICAL",
+        "hazardClass": "6.1",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 X 4) DRY CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 37200.0,
+    "totalMeasurement": 50.4
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241114-1001",
+    "documentNumber": "20241114-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "SINGAPORE BUSINESS PARK, 123 TAMAN JURONG, SINGAPORE 608725"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "SINGAPORE BUSINESS PARK, 123 TAMAN JURONG, SINGAPORE 608725"
+    },
+    "onboardDate": "2024-11-18 23:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2398, VALUE: USD402,455, 14 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9987371",
+    "unClass": "5",
+    "unCode": "2398,",
+    "hsCode": "3926.25.97",
+    "flashPoint": "12\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

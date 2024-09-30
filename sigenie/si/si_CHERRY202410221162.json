@@ -1,0 +1,141 @@
+{
+  "bookingReference": "CHERRY202410221162",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INTERNATIONAL INC.",
+      "address": "NO. 1234, SHANGHAI ROAD, HAIZHU DISTRICT, GUANGZHOU, 510300",
+      "country": "CHINA",
+      "additionalInfo": "(DELTA TOWER)",
+      "telephone": "+86 20 8765 4321",
+      "email": "INFO@DELTAINT.COM.CN"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "1234 PORT STREET, CASABLANCA, 20250",
+      "country": "MOROCCO",
+      "email": "ORDERS@OMEGASHIPPING.MA",
+      "telephone": "+212 5 2234 5678"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORTERS LTD",
+      "address": "BUSINESS PARK, 123 NETHERLANDS STREET, RABAT, 10000",
+      "country": "MOROCCO",
+      "email": "ORDERS@ALPHAIMPORTERS.MA",
+      "telephone": "+212 5 3456 7890"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4571916",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "DANGEROUS CHEMICALS",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "dangerousGoods": {
+        "unNumber": "2242",
+        "properShippingName": "DANGEROUS CHEMICALS",
+        "hazardClass": "3",
+        "packingGroup": "II"
+      }
+    },
+    {
+      "containerNumber": "CRLU4595018",
+      "sealNumber": "724918",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "DANGEROUS CHEMICALS",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "dangerousGoods": {
+        "unNumber": "2242",
+        "properShippingName": "DANGEROUS CHEMICALS",
+        "hazardClass": "3",
+        "packingGroup": "II"
+      }
+    },
+    {
+      "containerNumber": "CRLU4529806",
+      "sealNumber": "724921",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "DANGEROUS CHEMICALS",
+      "grossWeight": 6000.0,
+      "measurement": 58.0,
+      "dangerousGoods": {
+        "unNumber": "2242",
+        "properShippingName": "DANGEROUS CHEMICALS",
+        "hazardClass": "3",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3)",
+    "totalPackages": 300,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 174.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2242"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6703818",
+    "unClass": "3",
+    "unCode": "2242",
+    "hsCode": "5957.17.66",
+    "flashPoint": "9\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

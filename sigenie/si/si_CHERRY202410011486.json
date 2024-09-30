@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410011486",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC FOODS LTD.",
+      "address": "123 MAIN STREET, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "INFO@ABCFOODSLTD.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "456 BROADWAY AVENUE, ROTTERDAM, NETHERLANDS 3011AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 246 8000",
+      "fax": "+31 10 246 8001",
+      "email": "INFO@GLOBALS HIPPINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "456 BROADWAY AVENUE, ROTTERDAM, NETHERLANDS 3011AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 246 8000",
+      "fax": "+31 10 246 8001",
+      "email": "INFO@GLOBALS HIPPINGSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030211",
+  "commodityDescription": "MEAT OF BOVINE ANIMALS, FRESH OR CHILLED",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "ABC1234567",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BEEF",
+      "grossWeight": 16000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' Reefer)",
+    "totalPackages": 100,
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "456 BROADWAY AVENUE, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 246 8000",
+      "fax": "+31 10 246 8001",
+      "email": "INFO@GLOBALS HIPPINGSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "456 BROADWAY AVENUE, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 246 8000",
+      "fax": "+31 10 246 8001",
+      "email": "INFO@GLOBALS HIPPINGSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -7\u00b0C, VALUE: USD539,805, HANDLE WITH CARE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8065743",
+    "temperature": "-7\u00b0C",
+    "minTemperature": "-9\u00b0C",
+    "maxTemperature": "-5\u00b0C",
+    "ventilation": "81%",
+    "humidity": "65%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

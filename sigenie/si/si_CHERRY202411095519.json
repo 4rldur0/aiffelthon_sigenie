@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202411095519",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING CO. INC.",
+      "address": "NO. 123, FUJIAN ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SHIPPING@DELTAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "OMEGA LOGISTICS LTD.",
+      "address": "WEESPSTRAAT 100, 2972 LP, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL853612345",
+      "president": "MR. PETER VAN DER LINDEN",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@OMEGALOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "OMEGA LOGISTICS LTD.",
+      "address": "WEESPSTRAAT 100, 2972 LP, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@OMEGALOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER FOR HEAVY EQUIPMENT TRANSPORT",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "TRAILER FOR HEAVY EQUIPMENT TRANSPORT",
+      "grossWeight": 25000.0,
+      "measurement": 50.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 40' OPEN TOP) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "OPEN TOP 40'",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241113-001"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "OMEGA LOGISTICS LTD.",
+      "address": "WEESPSTRAAT 100, 2972 LP, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@OMEGALOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA LOGISTICS LTD.",
+      "address": "WEESPSTRAAT 100, 2972 LP, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@OMEGALOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 5170x2367x2042, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5170",
+    "width": "2367",
+    "height": "2042",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

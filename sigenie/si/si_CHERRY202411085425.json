@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202411085425",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC COLD STORAGE",
+      "address": "123 COLD STORAGE LANE, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "EURO COLD CHAIN LTD.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030199",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "APCS204",
+      "numberOfPackages": 1500,
+      "packageType": "CARTONS",
+      "containerType": "40 HIGH CUBIC REEFER CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - FROZEN FISH FILLETS",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654019",
+      "marksAndNumbers": "APCS205",
+      "numberOfPackages": 1500,
+      "packageType": "CARTONS",
+      "containerType": "40 HIGH CUBIC REEFER CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - FROZEN FISH FILLETS",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'RF X 2) REEFER CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "CARTONS",
+    "containerType": "40 REEFER CONTAINER",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 66.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO COLD CHAIN LTD.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "onboardDate": "2024-11-16 20:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 2\u00b0C, VALUE: USD97,886, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6154289",
+    "temperature": "2\u00b0C",
+    "minTemperature": "0\u00b0C",
+    "maxTemperature": "4\u00b0C",
+    "ventilation": "70%",
+    "humidity": "70%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

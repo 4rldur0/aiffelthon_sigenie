@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410023100",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA TRADING CO.",
+      "address": "123 MAIN STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ALPHATRADING.COM"
+    },
+    "consignee": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "456 INDUSTRIAL AVENUE, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "NL850212345",
+      "president": "MR. HAN KIM",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@TAIHANGLOBAL.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST GLOBAL LOGISTICS",
+      "address": "789 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS 3010 AB",
+      "taxId": "NL850412345",
+      "president": "MS. ANNA VAN DER LEE",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5554"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "123456",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "DRUMS",
+      "containerType": "20' DRY CONTAINER",
+      "cargoDescription": "DANGEROUS CHEMICALS - AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY CONTAINER)",
+    "totalPackages": 5,
+    "packageType": "DRUMS",
+    "containerType": "20' DRY CONTAINER",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1963, VALUE: USD832,707, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1076067",
+    "unClass": "4",
+    "unCode": "1963,",
+    "hsCode": "5353.84.48",
+    "flashPoint": "16\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411223561",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC MANUFACTURING INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING COMPANY LTD",
+      "address": "100 MARKET STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679",
+      "email": "INFO@GLOBALTRADING.NL",
+      "contactPerson": "PETER VAN DER MARK"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING COMPANY LTD"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN COD",
+  "containers": [
+    {
+      "containerNumber": "REFU1234567",
+      "sealNumber": 123456,
+      "marksAndNumbers": "ABC-123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN COD - 5KG PACKETS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "reeferSettings": {
+        "setTemperature": 9.0,
+        "ventilationSetting": "NORMAL"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 X 2) HIGH CUBIC REEFER CONTAINER ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241122-1001",
+    "documentNumber": "20241122-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING COMPANY LTD",
+      "address": "100 MARKET STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING COMPANY LTD",
+      "address": "100 MARKET STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "onboardDate": "2024-11-26 09:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 9\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2834148",
+    "temperature": "9\u00b0C",
+    "minTemperature": "7\u00b0C",
+    "maxTemperature": "11\u00b0C",
+    "ventilation": "7%",
+    "humidity": "81%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

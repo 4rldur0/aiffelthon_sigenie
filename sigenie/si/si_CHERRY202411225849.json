@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202411225849",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO LTD",
+      "address": "228 HUANGPU ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO BRANCH)",
+      "telephone": "+86 574 8765 4321",
+      "email": "SHIPPING@ASIAPACIFIC.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 RUE DE LA LIBERTE, PARIS, 75001",
+      "country": "FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.FR"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT LTD",
+      "address": "123 RUE DE LA Paix, PARIS, 75002",
+      "country": "FRANCE",
+      "email": "ORDERS@ALPHAIMPORT.FR",
+      "telephone": "+33 1 45 67 89 10"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030211",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "FROZEN FISH CARGO",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN SALMON",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "FROZEN FISH CARGO",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN SALMON",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40'REEFER CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "ORIGIN CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 RUE DE LA LIBERTE, PARIS, 75001",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 RUE DE LA LIBERTE, PARIS, 75001",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.FR"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 12\u00b0C, VALUE: USD33,185, FRAGILE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6887647",
+    "temperature": "12\u00b0C",
+    "minTemperature": "10\u00b0C",
+    "maxTemperature": "14\u00b0C",
+    "ventilation": "42%",
+    "humidity": "73%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202410212724",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TEXTILES LTD.",
+      "address": "1234 HONGQIAO ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN IMPORT EXPORT CO.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GOLDENSUNIMPORT.NL",
+      "contactPerson": "JAN VAN DER MARK"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN IMPORT EXPORT CO."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS GOODS",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289451",
+      "sealNumber": 345901,
+      "marksAndNumbers": "GS-123",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "CHEMICAL PRODUCT - UN 1831",
+      "grossWeight": 18500.0,
+      "measurement": 25.2,
+      "dangerousGoods": {
+        "unNumber": "1831",
+        "properShippingName": "CHEMICAL PRODUCT N.E.C.",
+        "class": "9",
+        "packingGroup": "II"
+      }
+    },
+    {
+      "containerNumber": "CGXU4289452",
+      "sealNumber": 279567,
+      "marksAndNumbers": "GS-124",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "CHEMICAL PRODUCT - UN 1831",
+      "grossWeight": 18700.0,
+      "measurement": 25.2,
+      "dangerousGoods": {
+        "unNumber": "1831",
+        "properShippingName": "CHEMICAL PRODUCT N.E.C.",
+        "class": "9",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 X 40) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 37200.0,
+    "totalMeasurement": 50.4
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241021-1001",
+    "documentNumber": "20241021-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GOLDEN SUN IMPORT EXPORT CO.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN SUN IMPORT EXPORT CO.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-11-07 09:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1831"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4335820",
+    "unClass": "7",
+    "unCode": "1831",
+    "hsCode": "3127.13.49",
+    "flashPoint": "21\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

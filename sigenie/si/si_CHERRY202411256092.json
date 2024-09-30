@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411256092",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MACHINERY CO.",
+      "onBehalfOf": "",
+      "address": "1234 SUNRISE RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8686 5555",
+      "fax": "+86 574 8686 5556",
+      "email": "SUNRISE.MACHINERY@SUNRISEGROUP.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS INC.",
+      "address": "1234 GLOBAL RD, ROTTERDAM, NETHERLANDS 3000AA",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 2345 6789",
+      "fax": "+31 10 2345 6788",
+      "email": "GLOBAL.FORWARDING@GLOBALLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "SUNRISE MACHINERY CO.",
+      "address": "1234 SUNRISE RD, NINGBO, CHINA 315000"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "843311",
+  "commodityDescription": "OUT-OF-GAUGE HARVESTING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "HARVESTER - SUNRISE MACHINERY",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "HARVESTING MACHINE - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 25000.0,
+      "measurement": 60.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR X 1) OPEN TOP CONTAINER",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "20' OPEN TOP",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS INC.",
+      "address": "1234 GLOBAL RD, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 2345 6789",
+      "fax": "+31 10 2345 6788",
+      "email": "GLOBAL.FORWARDING@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE MACHINERY CO.",
+      "address": "1234 SUNRISE RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8686 5555",
+      "fax": "+86 574 8686 5556",
+      "email": "SUNRISE.MACHINERY@SUNRISEGROUP.CN"
+    },
+    "onboardDate": "2024-12-12 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 7978x2593x2556, VALUE: USD694,905, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "7978",
+    "width": "2593",
+    "height": "2556",
+    "overWidth": "153",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

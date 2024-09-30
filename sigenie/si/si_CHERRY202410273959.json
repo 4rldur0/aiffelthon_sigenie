@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410273959",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION MACHINERY LTD.",
+      "address": "NO. 123, JIANGLI ROAD, BEILUN DISTRICT, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SALES@ASIAMACHINERY.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. PETER MEIER",
+      "telephone": "+49 69 7563 4567",
+      "fax": "+49 69 7563 4568",
+      "email": "PETER.MEIER@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49 69 7563 4567",
+      "fax": "+49 69 7563 4568",
+      "email": "PETER.MEIER@GLOBALFREIGHTSOLUTIONS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES, NUMERICALLY CONTROLLED",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "MACHINES",
+      "cargoDescription": "MILLING MACHINES, NUMERICALLY CONTROLLED, SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "MACHINES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN AVAILABLE",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49 69 7563 4567",
+      "fax": "+49 69 7563 4568",
+      "email": "PETER.MEIER@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49 69 7563 4567",
+      "fax": "+49 69 7563 4568",
+      "email": "PETER.MEIER@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "onboardDate": "2024-10-29 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 19\u00b0C, UNDER DECK TOP STOWAGE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5212854",
+    "temperature": "19\u00b0C",
+    "minTemperature": "17\u00b0C",
+    "maxTemperature": "21\u00b0C",
+    "ventilation": "74%",
+    "humidity": "61%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

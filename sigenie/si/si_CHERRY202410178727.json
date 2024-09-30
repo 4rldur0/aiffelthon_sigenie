@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202410178727",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC EXPORTERS INC.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "NO. 456, FUXING ROAD, MADRID, SPAIN 28001",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "381300",
+  "commodityDescription": "PLANT-GROWTH REGULATORS, DISINFECTANTS AND SIMILAR PRODUCTS, PUT UP IN FORMS OR PACKINGS FOR RETAIL SALE OR AS PREPARATIONS OR ARTICLES (FOR EXAMPLE, SULPHUR-TREATED BANDS, WICKS AND CANDLES, AND FLY-PAPERS); OTHER",
+  "containers": [
+    {
+      "containerNumber": "CRLU4876543",
+      "sealNumber": "239127",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLANT-GROWTH REGULATORS, DISINFECTANTS AND SIMILAR PRODUCTS",
+      "grossWeight": 12000.0,
+      "measurement": 54.0,
+      "dangerousGoods": {
+        "unNumber": "2886",
+        "properShippingName": "PLANT GROWTH REGULATOR",
+        "class": "9",
+        "packingGroup": "III"
+      }
+    },
+    {
+      "containerNumber": "CRLU4843210",
+      "sealNumber": "239129",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLANT-GROWTH REGULATORS, DISINFECTANTS AND SIMILAR PRODUCTS",
+      "grossWeight": 12000.0,
+      "measurement": 54.0,
+      "dangerousGoods": {
+        "unNumber": "2886",
+        "properShippingName": "PLANT GROWTH REGULATOR",
+        "class": "9",
+        "packingGroup": "III"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (45 HC X 2) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "PALLETS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 108.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2886, VALUE: USD839,529, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8957269",
+    "unClass": "1",
+    "unCode": "2886,",
+    "hsCode": "9457.34.96",
+    "flashPoint": "81\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

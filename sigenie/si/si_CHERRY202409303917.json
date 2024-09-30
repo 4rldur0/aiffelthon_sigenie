@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202409303917",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8887",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, GDANSK, POLAND",
+      "taxId": "PL1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GENERAL CARGO",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

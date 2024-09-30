@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410086450",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA TRADING CO.",
+      "address": "288 FUJIAN ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "SALES@ALPHATRADING.CN"
+    },
+    "consignee": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "DE HEERWEG 10, 3011 AC ROTTERDAM, NETHERLANDS",
+      "taxId": "NL856742385B01",
+      "president": "MR. JAN VAN DER WIEL",
+      "telephone": "+31 10 414 5678",
+      "fax": "+31 10 414 5679",
+      "email": "INFO@TAIHANGLOBAL.NL"
+    },
+    "notifyParty": {
+      "name": "FIRST GLOBAL LOGISTICS BV",
+      "address": "WATERFRONT 10, 3011 AA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL821742385B01",
+      "president": "MS. ANNA VAN DER ZEE",
+      "telephone": "+31 10 414 5680",
+      "fax": "+31 10 414 5681"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "containerType": "FLAT RACK",
+      "cargoDescription": "OUT OF GAUGE TRAILER - AS PER PACKING LIST",
+      "grossWeight": 25000.0,
+      "measurement": 100.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X FLAT RACK) FLAT RACK CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "FLAT RACK",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241023-001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST GLOBAL LOGISTICS BV",
+      "address": "WATERFRONT 10, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 5680",
+      "fax": "+31 10 414 5681",
+      "email": "INFO@FIRSTGLOBAL.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "DE HEERWEG 10, 3011 AC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 5678",
+      "fax": "+31 10 414 5679",
+      "email": "INFO@TAIHANGLOBAL.NL"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 9015x2929x2954, VALUE: USD28,594"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9015",
+    "width": "2929",
+    "height": "2954",
+    "overWidth": "489",
+    "overHeight": "364"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

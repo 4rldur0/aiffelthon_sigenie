@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202409298528",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@SUNRISEELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "456 GLOBAL STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "456 GLOBAL STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030729",
+  "commodityDescription": "FROZEN COD FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "SUNRISE12345",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FROZEN COD FISH FILLETS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "reeferSettings": {
+        "setTemperature": "-7",
+        "temperatureUnit": "CELSIUS"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40FT REEFER)",
+    "totalPackages": 1000,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "456 GLOBAL STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "456 GLOBAL STREET, ROTTERDAM, NETHERLANDS, 3000AA",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL"
+    },
+    "onboardDate": "2024-10-14 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -7\u00b0C, VALUE: USD357,373"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4849827",
+    "temperature": "-7\u00b0C",
+    "minTemperature": "-9\u00b0C",
+    "maxTemperature": "-5\u00b0C",
+    "ventilation": "20%",
+    "humidity": "90%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

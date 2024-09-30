@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202411189577",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROCHEM INDUSTRIES LTD",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "456 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33-1-2345-6789",
+      "fax": "+33-1-2345-6780",
+      "email": "INFO@GLOBALTRADING.FR",
+      "contactPerson": "JEAN DUPONT"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CORPORATION"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "HAZARDOUS CHEMICAL SUBSTANCE",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289451",
+      "sealNumber": 345901,
+      "marksAndNumbers": "EC-123",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "HAZARDOUS CHEMICAL SUBSTANCE - MODEL HC1000",
+      "grossWeight": 18500.0,
+      "measurement": 25.2,
+      "dangerousGoods": {
+        "unNumber": "2867",
+        "properShippingName": "HAZARDOUS CHEMICAL SUBSTANCE, LIQUID, N.O.S.",
+        "class": "6.1",
+        "packingGroup": "II"
+      }
+    },
+    {
+      "containerNumber": "CGXU4289452",
+      "sealNumber": 279567,
+      "marksAndNumbers": "EC-124",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "HAZARDOUS CHEMICAL SUBSTANCE - MODEL HC1000",
+      "grossWeight": 18700.0,
+      "measurement": 25.2,
+      "dangerousGoods": {
+        "unNumber": "2867",
+        "properShippingName": "HAZARDOUS CHEMICAL SUBSTANCE, LIQUID, N.O.S.",
+        "class": "6.1",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 X 40) DRY CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 37200.0,
+    "totalMeasurement": 50.4
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241205-1001",
+    "documentNumber": "20241205-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "456 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33-1-2345-6789",
+      "fax": "+33-1-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "456 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33-1-2345-6789",
+      "fax": "+33-1-2345-6780"
+    },
+    "onboardDate": "2024-12-07 21:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2867, VALUE: USD212,141"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2647483",
+    "unClass": "9",
+    "unCode": "2867,",
+    "hsCode": "8225.23.64",
+    "flashPoint": "35\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

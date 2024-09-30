@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411253165",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 PORT ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIA pacific logistics.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "123 MAIN STREET, ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GLOBALTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": ""
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "123456",
+      "marksAndNumbers": "FROZEN FISH FILLETS - NINGBO",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN FISH FILLETS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 33.696,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR)",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20' REEFER",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 33.696
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "1234 PORT ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-12-06 22:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -19\u00b0C, ON DECK TOP STOWAGE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9974376",
+    "temperature": "-19\u00b0C",
+    "minTemperature": "-21\u00b0C",
+    "maxTemperature": "-17\u00b0C",
+    "ventilation": "61%",
+    "humidity": "75%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

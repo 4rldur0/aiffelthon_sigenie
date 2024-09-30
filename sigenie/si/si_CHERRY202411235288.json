@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202411235288",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING INC.",
+      "address": "NO. 1234, SHANGHAI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@BETATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT CO. LTD",
+      "address": "",
+      "country": "",
+      "email": "",
+      "telephone": ""
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT CO. LTD",
+      "address": "DUTCH BUSINESS PARK, 123 SPAIN STREET, ALGECIRAS, 11001 NL",
+      "country": "SPAIN",
+      "email": "ORDERS@ALPHAIMPORT.ES",
+      "telephone": "+34 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030231",
+  "commodityDescription": "FROZEN TUNA FISH",
+  "containers": [
+    {
+      "containerNumber": "CRLU4571916",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN TUNA FISH",
+      "grossWeight": 20000.0,
+      "measurement": 58.0
+    },
+    {
+      "containerNumber": "CRLU4595018",
+      "sealNumber": "724918",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN TUNA FISH",
+      "grossWeight": 20000.0,
+      "measurement": 58.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' X 2)",
+    "totalPackages": 2000,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 116.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-30 09:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -2\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6256543",
+    "temperature": "-2\u00b0C",
+    "minTemperature": "-4\u00b0C",
+    "maxTemperature": "0\u00b0C",
+    "ventilation": "16%",
+    "humidity": "72%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202411074538",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES INC.",
+      "address": "123 OCEAN VIEW DRIVE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@DELTAINDUSTRIESINC.CN"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "123 PORT BOULEVARD, ALGECIRAS, SPAIN, 11001",
+      "country": "SPAIN",
+      "email": "SHIPPING@OMEGASHIPPINGLTD.ES",
+      "telephone": "+34 956 789 012",
+      "fax": "+34 956 789 013"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS S.L.",
+      "address": "123 MARINA STREET, ALGECIRAS, SPAIN, 11002",
+      "country": "SPAIN",
+      "email": "NOTIFICATIONS@BLUESKYLOGISTICS.ES",
+      "telephone": "+34 956 456 7890",
+      "fax": "+34 956 456 7891"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4927001",
+      "sealNumber": "713194",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 800,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN FISH FILLETS",
+      "grossWeight": 15000.0,
+      "measurement": 56.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HC)",
+    "totalPackages": 800,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 56.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "123 PORT BOULEVARD, ALGECIRAS, SPAIN, 11001",
+      "telephone": "+34 956 789 012",
+      "fax": "+34 956 789 013",
+      "email": "SHIPPING@OMEGASHIPPINGLTD.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "123 PORT BOULEVARD, ALGECIRAS, SPAIN, 11001",
+      "telephone": "+34 956 789 012",
+      "fax": "+34 956 789 013",
+      "email": "SHIPPING@OMEGASHIPPINGLTD.ES"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 1\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1397848",
+    "temperature": "1\u00b0C",
+    "minTemperature": "-1\u00b0C",
+    "maxTemperature": "3\u00b0C",
+    "ventilation": "48%",
+    "humidity": "92%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

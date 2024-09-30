@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410105962",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "consignee": {
+      "name": "SOUTH EAST ASIA LOGISTICS SDN BHD",
+      "address": "LEVEL 12, MENARA KLANG, PORT KLANG, MALAYSIA",
+      "telephone": "+60-3-3345-6789",
+      "fax": "+60-3-3345-6780",
+      "email": "INFO@SEA-LOGISTICS.COM.MY",
+      "contactPerson": "LIM AH KUAN"
+    },
+    "notifyParty": {
+      "name": "EURO-ASIA LOGISTICS GMBH",
+      "address": "FRANKFURTER ALLE 12, 60329 FRANKFURT, GERMANY"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289453",
+      "sealNumber": 345902,
+      "marksAndNumbers": "GTS-1234",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "TRAILER - MODEL TS1000",
+      "grossWeight": 25000.0,
+      "measurement": 60.0,
+      "outOfGaugeDimensions": {
+        "length": 12000,
+        "width": 2500,
+        "height": 3000
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 X 2) HIGH CUBIC CONTAINER ONLY",
+    "totalPackages": 1,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241010-001",
+    "documentNumber": "20241010-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EURO-ASIA LOGISTICS GMBH",
+      "address": "FRANKFURTER ALLE 12, 60329 FRANKFURT, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO-ASIA LOGISTICS GMBH",
+      "address": "FRANKFURTER ALLE 12, 60329 FRANKFURT, GERMANY"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 11730x2347x2802, VALUE: USD871,945"
+  },
+  "outOfGaugeDimensions": {
+    "length": "11730",
+    "width": "2347",
+    "height": "2802",
+    "overWidth": "0",
+    "overHeight": "212"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

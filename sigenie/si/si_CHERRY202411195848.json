@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202411195848",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES LTD",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAINDUSTRY.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY",
+      "companyNumber": "1234567890",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS - BUILDING BLOCKS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CHILDREN'S TOYS - NINGBO",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "BUILDING BLOCKS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 33.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 20') CONTAINER",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC INDUSTRIES LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAINDUSTRY.CN"
+    },
+    "onboardDate": "2024-12-06 20:00",
+    "additionalRemarks": "CONTAINER TYPE: HC"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

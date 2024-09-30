@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202409272606",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TECHNOLOGIES",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8887",
+      "email": "INFO@ASIAPACIFICTECH.COM"
+    },
+    "consignee": {
+      "name": "EUROASIA SHIPPING CO.",
+      "address": "234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL850123456B01",
+      "president": "MR. JAN VAN DER MARK",
+      "telephone": "+31 10 7777 7777",
+      "fax": "+31 10 7777 7776",
+      "email": "INFO@EUROASIASHIPPING.NL"
+    },
+    "notifyParty": {
+      "name": "CUSTOMS BROKER N.V.",
+      "address": "111 CUSTOMS HOUSE SQUARE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 8888 8888",
+      "fax": "+31 10 8888 8887",
+      "email": "INFO@CUSTOMSBROKER.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "340111",
+  "commodityDescription": "SOAP; ORGANIC SURFACE-ACTIVE AGENTS, WHETHER OR NOT IN COMBINATION WITH OTHER INGREDIENTS AND PREPARED FOR USE IN ANY INDUSTRY",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DANGEROUS GOODS, LIQUIDS, UN 3310",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 15.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "EUROASIA SHIPPING CO.",
+      "address": "234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 7777 7777",
+      "fax": "+31 10 7777 7776",
+      "email": "INFO@EUROASIASHIPPING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA SHIPPING CO.",
+      "address": "234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 7777 7777",
+      "fax": "+31 10 7777 7776",
+      "email": "INFO@EUROASIASHIPPING.NL"
+    },
+    "onboardDate": "2024-10-16 16:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 3310"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4633055",
+    "unClass": "9",
+    "unCode": "3310",
+    "hsCode": "1270.24.54",
+    "flashPoint": "94\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

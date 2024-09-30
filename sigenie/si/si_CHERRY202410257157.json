@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202410257157",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GAMMA INDUSTRIES INC.",
+      "address": "NO. 987, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING CO. LTD.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212-5-2222-3333",
+      "fax": "+212-5-2222-3334",
+      "email": "INFO@DELTAShipping.MA",
+      "contactPerson": "MOHAMED ALI"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING CO. LTD."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS, N.O.S.",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289451",
+      "sealNumber": 345901,
+      "marksAndNumbers": "GI-123",
+      "numberOfPackages": 20,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS, N.O.S.",
+      "grossWeight": 18500.0,
+      "measurement": 25.2,
+      "dangerousGoods": {
+        "unNumber": "1128",
+        "properShippingName": "DANGEROUS CHEMICALS, N.O.S.",
+        "class": "3",
+        "packingGroup": "II"
+      }
+    },
+    {
+      "containerNumber": "CGXU4289452",
+      "sealNumber": 279567,
+      "marksAndNumbers": "GI-124",
+      "numberOfPackages": 20,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS, N.O.S.",
+      "grossWeight": 18700.0,
+      "measurement": 25.2,
+      "dangerousGoods": {
+        "unNumber": "1128",
+        "properShippingName": "DANGEROUS CHEMICALS, N.O.S.",
+        "class": "3",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 X 40) DRY CONTAINERS ONLY",
+    "totalPackages": 40,
+    "totalGrossWeight": 37200.0,
+    "totalMeasurement": 50.4
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING CO. LTD.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212-5-2222-3333",
+      "fax": "+212-5-2222-3334"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING CO. LTD.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212-5-2222-3333",
+      "fax": "+212-5-2222-3334"
+    },
+    "onboardDate": "2024-11-06 19:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1128, MAINTAIN HUMIDITY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3158610",
+    "unClass": "9",
+    "unCode": "1128,",
+    "hsCode": "8545.45.28",
+    "flashPoint": "49\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

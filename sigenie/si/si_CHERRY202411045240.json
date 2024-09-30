@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202411045240",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC MANUFACTURING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 PRODUCTION STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ABCMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "4567 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3011AB",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "4567 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3011AB"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940350",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC-123 - WOODEN CHAIRS",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 20' DRY CONTAINER",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "4567 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3011AB",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC MANUFACTURING CO. LTD.",
+      "address": "1234 PRODUCTION STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ABCMANUFACTURING.CN"
+    },
+    "onboardDate": "2024-11-11 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

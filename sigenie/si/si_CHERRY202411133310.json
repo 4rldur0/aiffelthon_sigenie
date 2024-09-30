@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411133310",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA ENTERPRISES LTD.",
+      "address": "1234 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 56789012",
+      "fax": "+86 574 56789013",
+      "email": "INFO@BETAENTERPRISES.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "5678 ALICANTE STREET, ALGECIRAS, SPAIN",
+      "taxId": "ES1234567890",
+      "president": "MR. JUAN PEREZ",
+      "telephone": "+34 956 12345678",
+      "fax": "+34 956 12345679",
+      "email": "JUAN.PEREZ@ALPHAGLOBAL.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST ALGECIRAS LOGISTICS",
+      "address": "9012 PORT STREET, ALGECIRAS, SPAIN",
+      "taxId": "ES9876543210",
+      "president": "MS. MARIA RODRIGUEZ",
+      "telephone": "+34 956 98765432",
+      "fax": "+34 956 98765433"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "630790",
+  "commodityDescription": "BED LINEN",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "containerType": "40 DRY",
+      "cargoDescription": "BED LINEN - AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 68.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 DRY)",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 68.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-19 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

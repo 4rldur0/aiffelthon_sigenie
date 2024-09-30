@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410287081",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "TANGER MED, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA TRADING CO. INC.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@OMEGATRADING.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "5678 PORT ROAD, CASABLANCA, MOROCCO 20200",
+      "country": "MOROCCO",
+      "telephone": "+212 5 2222 3333",
+      "fax": "+212 5 2222 4444",
+      "email": "SHIPPING@DELTASHIPPING.MA"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "5678 PORT ROAD, CASABLANCA, MOROCCO 20200",
+      "country": "MOROCCO",
+      "telephone": "+212 5 2222 3333",
+      "fax": "+212 5 2222 4444",
+      "email": "SHIPPING@DELTASHIPPING.MA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030710",
+  "commodityDescription": "WHEAT FLOUR",
+  "containers": [
+    {
+      "containerNumber": "RFSU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "OMEGA20241028",
+      "numberOfPackages": 500,
+      "packageType": "BULK",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WHEAT FLOUR",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40FT REEFER CONTAINER)",
+    "totalPackages": 500,
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 35.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "PHYTOSANITARY CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "5678 PORT ROAD, CASABLANCA, MOROCCO 20200",
+      "telephone": "+212 5 2222 3333",
+      "fax": "+212 5 2222 4444",
+      "email": "SHIPPING@DELTASHIPPING.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "5678 PORT ROAD, CASABLANCA, MOROCCO 20200",
+      "telephone": "+212 5 2222 3333",
+      "fax": "+212 5 2222 4444",
+      "email": "SHIPPING@DELTASHIPPING.MA"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 19\u00b0C, 21 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6796232",
+    "temperature": "19\u00b0C",
+    "minTemperature": "17\u00b0C",
+    "maxTemperature": "21\u00b0C",
+    "ventilation": "5%",
+    "humidity": "76%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

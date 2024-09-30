@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410319413",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG, GERMANY",
+    "portOfLoading": "HAMBURG, GERMANY",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SIEMENS AG",
+      "address": "WITTHAUSSTRASSE 16, 80336 MUNICH, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 89 636-30000",
+      "email": "INFO@SIEMENS.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "POSTFACH 1205, 53021 BONN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@DHL.COM",
+      "telephone": "+49 228 182-0"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "POSTFACH 1205, 53021 BONN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@DHL.COM",
+      "telephone": "+49 228 182-0"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "84798990",
+  "commodityDescription": "WIND TURBINE BLADE",
+  "containers": [
+    {
+      "containerNumber": "CMAU9987654",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SIEMENS BLADE 123",
+      "numberOfPackages": 1,
+      "packageType": "PIECE",
+      "cargoDescription": "WIND TURBINE BLADE",
+      "grossWeight": 35000.0,
+      "measurement": 100.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 40' FLAT RACK",
+    "totalPackages": 1,
+    "totalGrossWeight": 35000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "POSTFACH 1205, 53021 BONN, GERMANY",
+      "telephone": "+49 228 182-0",
+      "fax": "",
+      "email": "INFO@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "POSTFACH 1205, 53021 BONN, GERMANY",
+      "telephone": "+49 228 182-0",
+      "fax": "",
+      "email": "INFO@DHL.COM"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 9840x2384x2077, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9840",
+    "width": "2384",
+    "height": "2077",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

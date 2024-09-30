@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410119494",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH INDUSTRIES GMBH",
+      "address": "KLEINENKIRCHENER STRASSE 123, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 40 12345678",
+      "email": "JOHANN.SCHMIDT@EUROTECHINDUSTRIES.DE"
+    },
+    "consignee": {
+      "name": "NINGBO GLOBAL LOGISTICS CO., LTD.",
+      "address": "123 HONGQI ROAD, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "email": "LI.WANG@NINGBOGLOBALLOGISTICS.CN",
+      "telephone": "+86 574 98765432",
+      "fax": "+86 574 98765431"
+    },
+    "notifyParty": {
+      "name": "MAERSK LOGISTICS LTD.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "country": "CHINA",
+      "email": "ZENLEE@BLUESKYTRADING.CN",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4927001",
+      "sealNumber": "713194",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 1,
+      "packageType": "TRAILER",
+      "cargoDescription": "OUT OF GAUGE TRAILER",
+      "grossWeight": 15000.0,
+      "measurement": 56.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 40') OPEN TOP CONTAINER ONLY",
+    "totalPackages": 1,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 56.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "MAERSK LOGISTICS LTD.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MAERSK LOGISTICS LTD.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 6562x2788x2546, VALUE: USD684,236, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6562",
+    "width": "2788",
+    "height": "2546",
+    "overWidth": "348",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

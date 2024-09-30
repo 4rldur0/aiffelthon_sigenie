@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202409272218",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO. LTD.",
+      "address": "123 INDUSTRIAL AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "CONTACT: MR. DAVID WANG",
+      "telephone": "+86 574 8765 4321",
+      "email": "DAVID.WANG@OMEGAHEAVY.CN"
+    },
+    "consignee": {
+      "name": "GAMMA LOGISTICS S.L.",
+      "address": "AVENIDA DE LA ESPA\u00d1A 123, 11002 CADIZ, SPAIN",
+      "country": "SPAIN",
+      "email": "JUAN.LOPEZ@GAMMALOGISTICS.ES",
+      "telephone": "+34 956 234 567",
+      "fax": "+34 956 234 5678"
+    },
+    "notifyParty": {
+      "name": "SIGMA TRANSPORTES S.A.",
+      "address": "CALLE DE LA RAMBLA 456, 11300 ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "email": "MARIA.RODRIGUEZ@SIGMATRANS.ES",
+      "telephone": "+34 956 123 4567",
+      "fax": "+34 956 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER, HEAVY-DUTY, FOR CONSTRUCTION EQUIPMENT TRANSPORT",
+  "containers": [
+    {
+      "containerNumber": "CRLU4976543",
+      "sealNumber": "713180",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 1,
+      "packageType": "TRAILER",
+      "cargoDescription": "HEAVY-DUTY CONSTRUCTION TRAILER",
+      "grossWeight": 25000.0,
+      "measurement": 80.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' FLAT RACK)",
+    "totalPackages": 1,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 80.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC-2024-10-27-001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT & EXPORT INC.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT & EXPORT INC.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "onboardDate": "2024-10-13 09:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 2255x2248x2947, VALUE: USD336,442"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2255",
+    "width": "2248",
+    "height": "2947",
+    "overWidth": "0",
+    "overHeight": "357"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

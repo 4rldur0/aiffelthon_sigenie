@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411208141",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SIEMENS AG",
+      "address": "FREUDSTRASSE 13, 91056 ERLANGEN, GERMANY",
+      "telephone": "+49 9131 8880000",
+      "fax": "+49 9131 8880001"
+    },
+    "consignee": {
+      "name": "SIEMENS LTD.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 21 6666 8888",
+      "fax": "+86 21 6666 8889"
+    },
+    "notifyParty": {
+      "name": "SIEMENS LTD.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 21 6666 8888",
+      "fax": "+86 21 6666 8889"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTOR",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "SIEM204",
+      "numberOfPackages": 1,
+      "packageType": "NONE",
+      "containerType": "OPEN TOP",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - ELECTRIC MOTOR",
+      "grossWeight": 25000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' OPEN TOP) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "NONE",
+    "containerType": "40' OPEN TOP",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 36, 60323 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 79507000",
+      "fax": "+49 69 79507001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SIEMENS LTD.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 21 6666 8888",
+      "fax": "+86 21 6666 8889"
+    },
+    "onboardDate": "2024-11-23 09:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 8052x2266x2897, VALUE: USD965,984, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8052",
+    "width": "2266",
+    "height": "2897",
+    "overWidth": "0",
+    "overHeight": "307"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

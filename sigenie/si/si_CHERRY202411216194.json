@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411216194",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUITEX INTERNATIONAL LTD.",
+      "address": "2345 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6354 9876",
+      "fax": "+86 21 6354 9877",
+      "email": "INFO@FRUITEXINTERNATIONAL.COM"
+    },
+    "consignee": {
+      "name": "SCHUPLER GMBH & CO. KG",
+      "address": "AM HAMBURGER BANNHOF 12, 20097 HAMBURG, GERMANY",
+      "taxId": "DE273476581",
+      "president": "MR. HANS SCHUPLER",
+      "telephone": "+49 40 3076 8000",
+      "fax": "+49 40 3076 8001",
+      "email": "HANS.SCHUPLER@SCHUPLER.DE"
+    },
+    "notifyParty": {
+      "name": "SCHUPLER GMBH & CO. KG",
+      "address": "AM HAMBURGER BANNHOF 12, 20097 HAMBURG, GERMANY",
+      "telephone": "+49 40 3076 8000",
+      "fax": "+49 40 3076 8001",
+      "email": "HANS.SCHUPLER@SCHUPLER.DE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080550",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ORANGES",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "SCHUPLER GMBH & CO. KG",
+      "address": "AM HAMBURGER BANNHOF 12, 20097 HAMBURG, GERMANY",
+      "telephone": "+49 40 3076 8000",
+      "fax": "+49 40 3076 8001",
+      "email": "HANS.SCHUPLER@SCHUPLER.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SCHUPLER GMBH & CO. KG",
+      "address": "AM HAMBURGER BANNHOF 12, 20097 HAMBURG, GERMANY",
+      "telephone": "+49 40 3076 8000",
+      "fax": "+49 40 3076 8001",
+      "email": "HANS.SCHUPLER@SCHUPLER.DE"
+    },
+    "onboardDate": "2024-11-23 06:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 11\u00b0C, VALUE: USD504,577"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2012585",
+    "temperature": "11\u00b0C",
+    "minTemperature": "9\u00b0C",
+    "maxTemperature": "13\u00b0C",
+    "ventilation": "14%",
+    "humidity": "95%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

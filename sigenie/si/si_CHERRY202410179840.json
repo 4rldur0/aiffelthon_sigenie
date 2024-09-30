@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410179840",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ENTERPRISES INC.",
+      "address": "123 SUNRISE STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1213",
+      "email": "INFO@SUNRISEENTERPRISES.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING CO. LTD",
+      "address": "123 ALFA STREET, MADRID, SPAIN",
+      "taxId": "ESB123456789",
+      "president": "MR. JUAN GARCIA",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@ALPHAGLOBALTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS SOLUTIONS SPAIN S.L.",
+      "address": "123 LOGISTICS STREET, BARCELONA, SPAIN",
+      "telephone": "+34 93 234 5678",
+      "fax": "+34 93 234 5679",
+      "email": "INFO@LOGISTICSSOLUTIONSSYSTEMS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "STEEL DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DANGEROUS CHEMICALS, UN 2974",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "STEEL DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-10-27 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2974, VALUE: USD950,429, 21 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6984037",
+    "unClass": "3",
+    "unCode": "2974,",
+    "hsCode": "4136.55.63",
+    "flashPoint": "68\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

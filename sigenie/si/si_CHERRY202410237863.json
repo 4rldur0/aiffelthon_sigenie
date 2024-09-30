@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410237863",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BEIJING HEAVY INDUSTRIES CO., LTD.",
+      "onBehalfOf": "",
+      "address": "1234 HEAVY INDUSTRY RD, BEIJING, CHINA",
+      "telephone": "+86 10 1234 5678",
+      "fax": "+86 10 1234 5679",
+      "email": "LI.WANG@BEIJINGINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "GREEN FIELD LOGISTICS INC.",
+      "address": "1234 GREENFIELD AVE, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GREENFIELDLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "GREEN FIELD LOGISTICS INC.",
+      "address": "1234 GREENFIELD AVE, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "",
+      "marksAndNumbers": "TRAILER - BEIJING HEAVY INDUSTRIES CO., LTD.",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "TRAILER - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 25000.0,
+      "measurement": 68.79,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 40' FLAT RACK",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "40' FLAT RACK",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 68.79
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GREEN FIELD LOGISTICS INC.",
+      "address": "1234 GREENFIELD AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GREENFIELDLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN FIELD LOGISTICS INC.",
+      "address": "1234 GREENFIELD AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "onboardDate": "2024-10-30 16:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 6979x2642x2408, VALUE: USD238,158, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6979",
+    "width": "2642",
+    "height": "2408",
+    "overWidth": "202",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

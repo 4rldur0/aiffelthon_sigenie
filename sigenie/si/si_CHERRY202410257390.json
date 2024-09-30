@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410257390",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES LTD",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.NL",
+      "contactPerson": "JAN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940350",
+  "commodityDescription": "OTHER FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289453",
+      "sealNumber": 345902,
+      "marksAndNumbers": "API-123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SOFAS AND CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CGXU4289454",
+      "sealNumber": 279568,
+      "marksAndNumbers": "API-124",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TABLES AND DESKS",
+      "grossWeight": 13000.0,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 X 40) DRY CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 42.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-1001",
+    "documentNumber": "20241025-1001",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

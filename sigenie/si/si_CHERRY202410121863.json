@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410121863",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING INC.",
+      "address": "123 INDUSTRIAL PARK ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 1235",
+      "email": "INFO@OMEGAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "456 COMMERCIAL STREET, MADRID, SPAIN",
+      "taxId": "B12345678",
+      "president": "MR. JUAN GARCIA",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "JUAN.GARCIA@DELTATRADING.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SPAIN S.L.",
+      "address": "789 PORT AVENUE, BARCELONA, SPAIN",
+      "telephone": "+34 93 234 5678",
+      "fax": "+34 93 234 5679",
+      "email": "INFO@GLOBALLOGISTICSSPAIN.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DANGEROUS CHEMICALS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "456 COMMERCIAL STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "JUAN.GARCIA@DELTATRADING.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "456 COMMERCIAL STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "JUAN.GARCIA@DELTATRADING.COM"
+    },
+    "onboardDate": "2024-10-26 15:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2885"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3500427",
+    "unClass": "6",
+    "unCode": "2885",
+    "hsCode": "1989.74.91",
+    "flashPoint": "67\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

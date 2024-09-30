@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202411032975",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8651-2345",
+      "fax": "+86-574-8651-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@GLOBALFORWARDINGSOLUTIONS.DE",
+      "contactPerson": "PETER MEIER"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FORWARDING SOLUTIONS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC SHEETING",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289453",
+      "sealNumber": 345902,
+      "marksAndNumbers": "APE-123",
+      "numberOfPackages": 500,
+      "packageType": "ROLLS",
+      "cargoDescription": "PLASTIC SHEETING - 2MM THICKNESS",
+      "grossWeight": 12000.0,
+      "measurement": 20.5,
+      "dangerousGoods": {
+        "unNumber": "1111",
+        "properShippingName": "PLASTIC SHEETING WITH FLAMMABLE LIQUID",
+        "hazardClass": "3"
+      }
+    },
+    {
+      "containerNumber": "CGXU4289454",
+      "sealNumber": 279568,
+      "marksAndNumbers": "APE-124",
+      "numberOfPackages": 500,
+      "packageType": "ROLLS",
+      "cargoDescription": "PLASTIC SHEETING - 2MM THICKNESS",
+      "grossWeight": 12200.0,
+      "measurement": 20.5,
+      "dangerousGoods": {
+        "unNumber": "1111",
+        "properShippingName": "PLASTIC SHEETING WITH FLAMMABLE LIQUID",
+        "hazardClass": "3"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 X 40) DRY CONTAINER ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 24200.0,
+    "totalMeasurement": 41.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241103-1001",
+    "documentNumber": "20241103-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "onboardDate": "2024-11-11 19:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1111, 7 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9325891",
+    "unClass": "3",
+    "unCode": "1111,",
+    "hsCode": "8874.50.13",
+    "flashPoint": "68\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

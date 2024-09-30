@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410252009",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO. LTD",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-1235"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "CALLE DEL SOL 12, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-7890-12",
+      "fax": "+34-956-7890-13",
+      "email": "INFO@ALPHA GLOBALTRADING.ES",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "CALLE DEL SOL 12, ALGECIRAS, SPAIN"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030211",
+  "commodityDescription": "BEEF",
+  "containers": [
+    {
+      "containerNumber": "RFRU1234567",
+      "sealNumber": 123456,
+      "marksAndNumbers": "ALPHA-BEEF-1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN BEEF - 2KG CARTONS",
+      "grossWeight": 22000.0,
+      "measurement": 30.0,
+      "reeferSettings": {
+        "temperature": -18,
+        "ventilation": "NORMAL"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' HIGH CUBE) REEFER CONTAINER",
+    "totalPackages": 100,
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "AGT20241025-001",
+    "documentNumber": "AGT20241025-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "CALLE DEL SOL 12, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-7890-12",
+      "fax": "+34-956-7890-13"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "CALLE DEL SOL 12, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-7890-12",
+      "fax": "+34-956-7890-13"
+    },
+    "onboardDate": "2024-11-07 09:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 0\u00b0C, VALUE: USD813,533, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3238502",
+    "temperature": "0\u00b0C",
+    "minTemperature": "-2\u00b0C",
+    "maxTemperature": "2\u00b0C",
+    "ventilation": "72%",
+    "humidity": "78%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

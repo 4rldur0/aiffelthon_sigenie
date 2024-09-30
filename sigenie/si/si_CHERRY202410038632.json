@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410038632",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA FOODS CO. LTD",
+      "onBehalfOf": "",
+      "address": "1234 FOOD STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8686 5555",
+      "fax": "+86 574 8686 5556",
+      "email": "INFO@DELTAFOODS.CN"
+    },
+    "consignee": {
+      "name": "OMEGA INTERNATIONAL FREIGHT LTD",
+      "address": "1234 LOGISTICS AVE, TANGER, MOROCCO 90000",
+      "companyNumber": "123456789",
+      "telephone": "+212 522 555 555",
+      "fax": "+212 522 555 556",
+      "email": "INFO@OMEGAFREIGHT.MA"
+    },
+    "notifyParty": {
+      "name": "OMEGA INTERNATIONAL FREIGHT LTD",
+      "address": "1234 LOGISTICS AVE, TANGER, MOROCCO 90000"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030741",
+  "commodityDescription": "WHEAT FLOUR",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA FOODS CO. LTD - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "BAGS",
+      "cargoDescription": "WHEAT FLOUR - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 25000.0,
+      "measurement": 33.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 40' REEFER CONTAINER",
+    "totalPackages": 100,
+    "packageType": "BAGS",
+    "containerType": "40' REEFER",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA INTERNATIONAL FREIGHT LTD",
+      "address": "1234 LOGISTICS AVE, TANGER, MOROCCO 90000",
+      "telephone": "+212 522 555 555",
+      "fax": "+212 522 555 556",
+      "email": "INFO@OMEGAFREIGHT.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA INTERNATIONAL FREIGHT LTD",
+      "address": "1234 LOGISTICS AVE, TANGER, MOROCCO 90000",
+      "telephone": "+212 522 555 555",
+      "fax": "+212 522 555 556",
+      "email": "INFO@OMEGAFREIGHT.MA"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 10\u00b0C, VALUE: USD533,328, ON DECK TOP STOWAGE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2545401",
+    "temperature": "10\u00b0C",
+    "minTemperature": "8\u00b0C",
+    "maxTemperature": "12\u00b0C",
+    "ventilation": "37%",
+    "humidity": "70%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

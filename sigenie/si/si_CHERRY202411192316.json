@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411192316",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "NO. 123, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44-20-7555-1234",
+      "fax": "+44-20-7555-1235",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.CO.UK",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "630790",
+  "commodityDescription": "CLOTHING AND TEXTILE ARTICLES",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289451",
+      "sealNumber": 345901,
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "CLOTHING AND TEXTILE ARTICLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.2
+    },
+    {
+      "containerNumber": "CGXU4289452",
+      "sealNumber": 279567,
+      "marksAndNumbers": "GT-124",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "CLOTHING AND TEXTILE ARTICLES",
+      "grossWeight": 12200.0,
+      "measurement": 25.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 24200.0,
+    "totalMeasurement": 50.4
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241119-1001",
+    "documentNumber": "20241119-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44-20-7555-1234",
+      "fax": "+44-20-7555-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44-20-7555-1234",
+      "fax": "+44-20-7555-1235"
+    },
+    "onboardDate": "2024-12-11 16:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, FRAGILE"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

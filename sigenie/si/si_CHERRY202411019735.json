@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411019735",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL ENTERPRISES",
+      "address": "456 AVENIDA PRINCIPAL, MADRID, SPAIN",
+      "telephone": "+34-91-234-5678",
+      "fax": "+34-91-234-5679",
+      "email": "INFO@ALPHAENTERPRISES.COM",
+      "contactPerson": "JUAN PEREZ"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL ENTERPRISES",
+      "address": "456 AVENIDA PRINCIPAL, MADRID, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "38249990",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289453",
+      "sealNumber": 345902,
+      "marksAndNumbers": "BT-123",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS - UN 2982",
+      "grossWeight": 18500.0,
+      "measurement": 25.2,
+      "dangerousGoods": {
+        "unNumber": "2982",
+        "imoClass": "8",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 X 40) HIGH CUBIC CONTAINER ONLY",
+    "totalPackages": 10,
+    "totalGrossWeight": 18500.0,
+    "totalMeasurement": 25.2
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241101-1001",
+    "documentNumber": "20241101-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL ENTERPRISES",
+      "address": "456 AVENIDA PRINCIPAL, MADRID, SPAIN",
+      "telephone": "+34-91-234-5678",
+      "fax": "+34-91-234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL ENTERPRISES",
+      "address": "456 AVENIDA PRINCIPAL, MADRID, SPAIN",
+      "telephone": "+34-91-234-5678",
+      "fax": "+34-91-234-5679"
+    },
+    "onboardDate": "2024-11-17 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2982"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8210100",
+    "unClass": "8",
+    "unCode": "2982",
+    "hsCode": "5958.74.85",
+    "flashPoint": "-4\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

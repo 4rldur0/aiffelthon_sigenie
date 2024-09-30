@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411016441",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING LTD.",
+      "address": "NO. 123, JIANGUO ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6288 7777",
+      "fax": "+86 21 6288 7778",
+      "email": "INFO@BETAMFG.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "NO. 456, AMSTELVEEN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL857632145",
+      "president": "MR. JAN VAN DER MEER",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3334",
+      "email": "JAN.VANDERMEER@ALPHA GLOBALTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "DELTA LOGISTICS B.V.",
+      "address": "NO. 789, ROTTERDAM PORT BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "INFO@DELTA LOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "340111",
+  "commodityDescription": "SOAP POWDER",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SOAP POWDER AS PER PURCHASE ORDER NO. 12345",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "NO. 456, AMSTELVEEN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3334",
+      "email": "JAN.VANDERMEER@ALPHA GLOBALTRADING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA MANUFACTURING LTD.",
+      "address": "NO. 123, JIANGUO ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6288 7777",
+      "fax": "+86 21 6288 7778",
+      "email": "INFO@BETAMFG.COM"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 3430, VALUE: USD967,114, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3010642",
+    "unClass": "9",
+    "unCode": "3430,",
+    "hsCode": "7976.56.60",
+    "flashPoint": "54\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411116085",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI DRAGON TEXTILE CO.",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 1235",
+      "email": "INFO@SHANGHAIDRA GONTEXTILE.COM"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORT EXPORT LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL854632145",
+      "president": "MR. PETER SMITH",
+      "telephone": "+31 10 222 1111",
+      "fax": "+31 10 222 1112",
+      "email": "PETER.SMITH@GREENFIELDIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "GREEN FIELD LOGISTICS BV",
+      "address": "234 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 333 2222",
+      "fax": "+31 10 333 2223",
+      "email": "INFO@GREENFIELDLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "CHEMICAL PRODUCTS N.E.S.",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "STEEL DRUMS",
+      "cargoDescription": "DANGEROUS GOODS, UN 2243, SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "STEEL DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 15.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-11-17 16:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2243, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8459979",
+    "unClass": "2",
+    "unCode": "2243,",
+    "hsCode": "2954.27.55",
+    "flashPoint": "52\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

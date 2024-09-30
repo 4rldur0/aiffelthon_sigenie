@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410181398",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREENFIELD AGRO PRODUCTS LTD.",
+      "address": "123 GREEN FIELD ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "WORLDWIDE TRADING CORP.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE TRADING CORP.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "070110",
+  "commodityDescription": "TARO ROOT",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "GF2024OCT",
+      "numberOfPackages": 15000,
+      "packageType": "PLASTIC TRAYS",
+      "containerType": "40 HIGH CUBIC REEFER CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - TARO ROOT",
+      "grossWeight": 18000.0,
+      "measurement": 52.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 RF) REEFER CONTAINER ONLY",
+    "totalPackages": 15000,
+    "packageType": "PLASTIC TRAYS",
+    "containerType": "40 REEFER CONTAINER",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 52.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241018001"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRADING CORP.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE TRADING CORP.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -8\u00b0C, VALUE: USD976,168"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1930480",
+    "temperature": "-8\u00b0C",
+    "minTemperature": "-10\u00b0C",
+    "maxTemperature": "-6\u00b0C",
+    "ventilation": "61%",
+    "humidity": "82%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

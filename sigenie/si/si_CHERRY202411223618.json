@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202411223618",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FRUITS LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "NO. 456, MAIN STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-12345678",
+      "fax": "+49-30-12345679"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "080590",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CRLU4876543",
+      "sealNumber": "239127",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ORANGES",
+      "grossWeight": 12000.0,
+      "measurement": 54.0,
+      "reeferSettings": {
+        "temperature": "-1"
+      }
+    },
+    {
+      "containerNumber": "CRLU4843210",
+      "sealNumber": "239129",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ORANGES",
+      "grossWeight": 12000.0,
+      "measurement": 54.0,
+      "reeferSettings": {
+        "temperature": "-1"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (45 HC X 2) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "PALLETS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 108.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-07 20:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -1\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3117103",
+    "temperature": "-1\u00b0C",
+    "minTemperature": "-3\u00b0C",
+    "maxTemperature": "1\u00b0C",
+    "ventilation": "51%",
+    "humidity": "82%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

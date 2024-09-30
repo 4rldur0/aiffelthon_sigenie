@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410123029",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTERS INC.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 1111",
+      "email": "INFO@ASIAIMPORTERS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "124 DAM SQUARE, ROTTERDAM, NETHERLANDS 3011",
+      "taxId": "NL00123456789",
+      "president": "MR. PETER VAN DER LINDEN",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "PETER.VANDERVANDEN@GLOBALTRADINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "125 EUROPA STREET, ROTTERDAM, NETHERLANDS 3012",
+      "taxId": "NL00987654321",
+      "president": "MS. ANNA DE GROOT",
+      "telephone": "+31 10 555 6666",
+      "fax": "+31 10 555 7777"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030221",
+  "commodityDescription": "FROZEN TUNA",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "containerType": "40' REEFER",
+      "cargoDescription": "FROZEN TUNA - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' REEFER)",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "40' REEFER",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 72.732
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-26 09:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -11\u00b0C, VALUE: USD715,015"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2331318",
+    "temperature": "-11\u00b0C",
+    "minTemperature": "-13\u00b0C",
+    "maxTemperature": "-9\u00b0C",
+    "ventilation": "13%",
+    "humidity": "65%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

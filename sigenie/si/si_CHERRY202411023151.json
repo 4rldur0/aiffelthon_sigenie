@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202411023151",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE ELECTRONICS MANUFACTURING PTE LTD",
+      "onBehalfOf": "",
+      "address": "3288 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8678 9012",
+      "fax": "+86 574 8678 9013",
+      "email": "LI.WEI@NINGBOIMPORTEXPORT.CN"
+    },
+    "consignee": {
+      "name": "ROTTERDAM MACHINERY TRADING B.V.",
+      "address": "POSTBUS 1234, 3000 AA ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "987654321",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "JANSSEN.PETER@ROTTERDAMTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, THE NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "850130",
+  "commodityDescription": "ELECTRIC GENERATORS FOR INDUSTRIAL USE",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GENERATORS - NINGBO IMPORT & EXPORT",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC GENERATORS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 7000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU5517315",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GENERATORS - NINGBO IMPORT & EXPORT",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC GENERATORS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 7000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 FR X 2)",
+    "totalPackages": 10,
+    "packageType": "CRATES",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 14000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "NINGBO IMPORT & EXPORT CO., LTD.",
+      "address": "3288 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8678 9012",
+      "fax": "+86 574 8678 9013"
+    },
+    "onboardDate": "2024-11-11 02:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 4031x2935x2035, VALUE: USD42,534, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "4031",
+    "width": "2935",
+    "height": "2035",
+    "overWidth": "495",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

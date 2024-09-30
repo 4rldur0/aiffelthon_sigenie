@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410119232",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENGINEERING LTD.",
+      "address": "123 TECH PARK ROAD, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JASON.WANG@ASIAENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 COMMERCE STREET, SUITE 100, NEW YORK, NY 10004, UNITED STATES",
+      "country": "UNITED STATES",
+      "email": "MICHAEL.BROWN@GLOBALFREIGHTSOLUTIONS.COM",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "SYNTHETIC RESIN SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CRLU4927001",
+      "sealNumber": "713194",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 80,
+      "packageType": "DRUMS",
+      "cargoDescription": "SYNTHETIC RESIN SOLUTION",
+      "grossWeight": 15000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY)",
+    "totalPackages": 80,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 28.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241025"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 COMMERCE STREET, SUITE 100, NEW YORK, NY 10004, UNITED STATES",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "MICHAEL.BROWN@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 COMMERCE STREET, SUITE 100, NEW YORK, NY 10004, UNITED STATES",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "MICHAEL.BROWN@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2395"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4015763",
+    "unClass": "1",
+    "unCode": "2395",
+    "hsCode": "8762.16.52",
+    "flashPoint": "49\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410198310",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "TANGER MED, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA FOODS INC.",
+      "address": "123 MAIN STREET, BEIJING, CHINA",
+      "telephone": "+86 10 12345678",
+      "fax": "+86 10 98765432",
+      "email": "INFO@DELTAFOODS.COM"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL TRADING LTD",
+      "address": "456 OCEAN VIEW DRIVE, CASABLANCA, MOROCCO",
+      "taxId": "12345678901234",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+212 5 22223333",
+      "fax": "+212 5 22224444",
+      "email": "JOHN.SMITH@OMEGAGLOBAL.COM"
+    },
+    "notifyParty": {
+      "name": "MARITIME LOGISTICS SERVICES",
+      "address": "789 PORT ROAD, TANGER, MOROCCO",
+      "telephone": "+212 6 11112222",
+      "fax": "+212 6 11113333",
+      "email": "INFO@MARITIMELOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030710",
+  "commodityDescription": "FROZEN TUNA",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FROZEN TUNA",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL TRADING LTD",
+      "address": "456 OCEAN VIEW DRIVE, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 22223333",
+      "fax": "+212 5 22224444",
+      "email": "JOHN.SMITH@OMEGAGLOBAL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL TRADING LTD",
+      "address": "456 OCEAN VIEW DRIVE, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 22223333",
+      "fax": "+212 5 22224444",
+      "email": "JOHN.SMITH@OMEGAGLOBAL.COM"
+    },
+    "onboardDate": "2024-10-26 16:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 1\u00b0C, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9007100",
+    "temperature": "1\u00b0C",
+    "minTemperature": "-1\u00b0C",
+    "maxTemperature": "3\u00b0C",
+    "ventilation": "5%",
+    "humidity": "86%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411211824",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ABC STREET, SINGAPORE 123456",
+      "telephone": "+65 1234 5678",
+      "fax": "+65 1234 5679",
+      "email": "SHIPPING@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD.",
+      "address": "456 DEF STREET, MADRID 28001, SPAIN",
+      "taxId": "ES123456789",
+      "president": "MR. JUAN PEREZ",
+      "telephone": "+34 911 234 567",
+      "fax": "+34 911 234 568",
+      "email": "SHIPPING@GLOBALFORWARDINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS SERVICES SPAIN S.L.",
+      "address": "789 GHI STREET, ALGECIRAS 11001, SPAIN",
+      "taxId": "ES987654321",
+      "president": "MS. MARIA RODRIGUEZ",
+      "telephone": "+34 956 789 012",
+      "fax": "+34 956 789 013"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381300",
+  "commodityDescription": "FORMALDEHYDE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "DRUMS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "FORMALDEHYDE SOLUTION - AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY)",
+    "totalPackages": 5,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 3221"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7182134",
+    "unClass": "6",
+    "unCode": "3221",
+    "hsCode": "8822.18.72",
+    "flashPoint": "-11\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

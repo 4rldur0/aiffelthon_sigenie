@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410068768",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIES LTD.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SHIPPING@SUNRISEINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "124 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 202 0202",
+      "fax": "+31 10 202 0203",
+      "email": "SHIPPING@GLOBALLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE FREIGHT FORWARDERS BV",
+      "address": "125 FORWARDING STREET, ROTTERDAM, NETHERLANDS 3000 AB",
+      "taxId": "",
+      "president": "MS. JANE DOE",
+      "telephone": "+31 10 303 0303",
+      "fax": "+31 10 303 0304"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "containerType": "FLAT RACK",
+      "cargoDescription": "OUT-OF-GAUGE TRAILER - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) FLAT RACK",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "FLAT RACK",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 72.732
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "124 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 202 0202",
+      "fax": "+31 10 202 0203",
+      "email": "SHIPPING@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "124 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 202 0202",
+      "fax": "+31 10 202 0203",
+      "email": "SHIPPING@GLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 7617x2628x2695, 7 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  },
+  "outOfGaugeDimensions": {
+    "length": "7617",
+    "width": "2628",
+    "height": "2695",
+    "overWidth": "188",
+    "overHeight": "105"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

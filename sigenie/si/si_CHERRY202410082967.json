@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410082967",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TECH LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "SALES@ASIATECHLTD.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@WORLDWIDEFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@WORLDWIDEFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "CHEMICAL PRODUCTS N.E.C.",
+  "containers": [
+    {
+      "containerNumber": "CRLU9123456",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "SHIP3812026",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DANGEROUS GOODS, UN 1782",
+      "grossWeight": 16000.0,
+      "measurement": 53.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY CONTAINER)",
+    "totalPackages": 100,
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 53.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      " DANGEROUS GOODS CERTIFICATE",
+      " MSDS"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@WORLDWIDEFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@WORLDWIDEFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-10-18 08:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 1782, VALUE: USD934,740"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4956875",
+    "unClass": "3",
+    "unCode": "1782,",
+    "hsCode": "6167.58.53",
+    "flashPoint": "25\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

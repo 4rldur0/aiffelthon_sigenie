@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202411167710",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI METAL WORKS LTD.",
+      "address": "123 METAL STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 8768 4500",
+      "fax": "+86 21 8768 4501"
+    },
+    "consignee": {
+      "name": "DONG FENG MOTOR GROUP CO. LTD.",
+      "address": "150 MOTORWAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "DONG FENG MOTOR GROUP CO. LTD.",
+      "address": "150 MOTORWAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "720720",
+  "commodityDescription": "IRON RODS",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "SMW20241116",
+      "numberOfPackages": 1500,
+      "packageType": "BUNDLES",
+      "containerType": "20' DRY CONTAINER HIGH CUBE",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - IRON RODS",
+      "grossWeight": 24000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654019",
+      "marksAndNumbers": "SMW20241116",
+      "numberOfPackages": 1500,
+      "packageType": "BUNDLES",
+      "containerType": "20' DRY CONTAINER HIGH CUBE",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - IRON RODS",
+      "grossWeight": 24000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY X 2) HIGH CUBE CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "BUNDLES",
+    "containerType": "20' DRY CONTAINER HIGH CUBE",
+    "totalGrossWeight": 48000.0,
+    "totalMeasurement": 66.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241116DFMG"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRANSPORTATION LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DONG FENG MOTOR GROUP CO. LTD.",
+      "address": "150 MOTORWAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-11-18 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1554"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3853250",
+    "unClass": "6",
+    "unCode": "1554",
+    "hsCode": "2212.52.63",
+    "flashPoint": "66\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

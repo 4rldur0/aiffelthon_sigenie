@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410283429",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE PRECISION TOOLS PTE LTD",
+      "address": "123 TECH PARK, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "consignee": {
+      "name": "EURO TECH LTD.",
+      "address": "150 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6780"
+    },
+    "notifyParty": {
+      "name": "DELIVER GLOBAL LOGISTICS LTD",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "903281",
+  "commodityDescription": "SPECIAL PURPOSE MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "SPTL204",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "containerType": "40' HIGH CUBE REEFER CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - SPECIAL PURPOSE MACHINERY",
+      "grossWeight": 15000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' HC RF) REEFER CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "CRATES",
+    "containerType": "40' HIGH CUBE REEFER CONTAINER",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241027"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO TECH LTD.",
+      "address": "150 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELIVER GLOBAL LOGISTICS LTD",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "onboardDate": "2024-11-06 16:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -8\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9150934",
+    "temperature": "-8\u00b0C",
+    "minTemperature": "-10\u00b0C",
+    "maxTemperature": "-6\u00b0C",
+    "ventilation": "37%",
+    "humidity": "61%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

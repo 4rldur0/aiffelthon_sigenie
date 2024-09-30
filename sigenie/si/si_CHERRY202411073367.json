@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202411073367",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CORP.",
+      "onBeHalfOf": "",
+      "address": "1234 GLOBAL TRADE STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@GLOBALTRADINGCORP.CN"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "123 SUNRISE BOULEVARD, ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@SUNRISEIMPORTS.NL"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "123 SUNRISE BOULEVARD, ROTTERDAM, THE NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CARS",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "",
+      "marksAndNumbers": "TOY CARS - NINGBO",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "TOY CARS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 33.696,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR)",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 33.696
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "123 SUNRISE BOULEVARD, ROTTERDAM, THE NETHERLANDS",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

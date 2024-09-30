@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202411225686",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TECHNOLOGIES LTD.",
+      "onBehalfOf": "",
+      "address": "1234 SUNRISE ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8655 7788",
+      "fax": "+86 574 8655 7799",
+      "email": "INFO@SUNRISETECH.COM"
+    },
+    "consignee": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "555 GLOBAL WAY, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 1235",
+      "email": "INFO@WORLDWIDEGLOBAL.COM"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TECHNOLOGIES LTD.",
+      "address": "1234 SUNRISE ROAD, NINGBO, ZHEJIANG, CHINA"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE GAMES - NINGBO",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "BOARD GAMES - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.5,
+      "additionalInfo": "FRAGILE CARGO"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR)",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "555 GLOBAL WAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 1235",
+      "email": "INFO@WORLDWIDEGLOBAL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TECHNOLOGIES LTD.",
+      "address": "1234 SUNRISE ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8655 7788",
+      "fax": "+86 574 8655 7799",
+      "email": "INFO@SUNRISETECH.COM"
+    },
+    "onboardDate": "2024-12-07 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, 21 DAYS FREE TIME AT DESTINATION, FRAGILE"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

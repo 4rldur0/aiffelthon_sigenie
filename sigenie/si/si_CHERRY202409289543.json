@@ -1,0 +1,118 @@
+{
+  "bookingReference": "CHERRY202409289543",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE CHEMICAL INDUSTRIES LTD",
+      "address": "123 CHEMICAL STREET, SINGAPORE 659999",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@SINGAPORECHEMICAL.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING FRANCE SARL",
+      "address": "12 RUE DE LA DOUANE, 76600 LE HAVRE, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 2 35 40 50 60",
+      "fax": "+33 2 35 40 50 61",
+      "email": "CONTACT@DHL-FRANCE.COM",
+      "personincharge": "JEAN DUPONT"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "201 ROBINSON ROAD, #12-01, ROBINSON 77, SINGAPORE 068919",
+      "country": "SINGAPORE",
+      "telephone": "+65 6536 2600",
+      "fax": "+65 6536 2699",
+      "email": "SINGAPORE@DHL.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "281123",
+  "commodityDescription": "SODIUM HYDROXIDE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CRLU2798373",
+      "sealNumber": "900375",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SODIUM HYDROXIDE SOLUTION",
+      "grossWeight": 18000.0,
+      "measurement": 21.0
+    },
+    {
+      "containerNumber": "CRLU2698357",
+      "sealNumber": "900376",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SODIUM HYDROXIDE SOLUTION",
+      "grossWeight": 18000.0,
+      "measurement": 21.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY X 2) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "totalpackageType": "DRUMS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 42.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC23456789012"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "MSDS-SODIUMHYDROXIDE-2024"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "201 ROBINSON ROAD, #12-01, ROBINSON 77, SINGAPORE 068919",
+      "telephone": "+65 6536 2600",
+      "fax": "+65 6536 2699",
+      "email": "SINGAPORE@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "201 ROBINSON ROAD, #12-01, ROBINSON 77, SINGAPORE 068919",
+      "telephone": "+65 6536 2600",
+      "fax": "+65 6536 2699",
+      "email": "SINGAPORE@DHL.COM"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1378, 14 DAYS FREE TIME AT DESTINATION, FRAGILE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5021972",
+    "unClass": "8",
+    "unCode": "1378,",
+    "hsCode": "4639.31.10",
+    "flashPoint": "62\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

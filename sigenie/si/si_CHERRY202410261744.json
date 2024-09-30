@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410261744",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INTERNATIONAL LTD.",
+      "address": "123 MAIN STREET, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@DELTAINTERNATIONAL.CN"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CORP.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@SUNRISETRADING.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "789 RIVER STREET, ROTTERDAM, NETHERLANDS 3021 AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 713 29 39",
+      "fax": "+31 10 713 29 44",
+      "email": "ANNA.NOWAK@WORLDWIDELOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP3812029",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FROZEN FISH FILLETS",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' HC) HIGH CUBIC CONTAINER ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CORP.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@SUNRISETRADING.NL"
+    },
+    "onboardDate": "2024-11-06 19:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -18\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6189246",
+    "temperature": "-18\u00b0C",
+    "minTemperature": "-20\u00b0C",
+    "maxTemperature": "-16\u00b0C",
+    "ventilation": "22%",
+    "humidity": "72%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

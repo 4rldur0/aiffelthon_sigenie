@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411058780",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE ELECTRONICS MANUFACTURING CO LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "12345 SEMBAWANG ROAD, SINGAPORE 759993",
+      "telephone": "+65-6777-7777",
+      "fax": "+65-6777-7778"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING HAMBURG GMBH",
+      "address": "BEHNKE STR. 11, 20457 HAMBURG, GERMANY",
+      "telephone": "+49-40-30303030",
+      "fax": "+49-40-30303031"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRICAL AND ELECTRONIC APPARATUS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4876543",
+      "sealNumber": "239127",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC APPARATUS",
+      "grossWeight": 12000.0,
+      "measurement": 54.0
+    },
+    {
+      "containerNumber": "CRLU4843210",
+      "sealNumber": "239129",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC APPARATUS",
+      "grossWeight": 12000.0,
+      "measurement": 54.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (45 HC X 2) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "PALLETS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 108.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "12345 SEMBAWANG ROAD, SINGAPORE 759993",
+      "telephone": "+65-6777-7777",
+      "fax": "+65-6777-7778"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "12345 SEMBAWANG ROAD, SINGAPORE 759993",
+      "telephone": "+65-6777-7777",
+      "fax": "+65-6777-7778"
+    },
+    "onboardDate": "2024-11-11 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, 21 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

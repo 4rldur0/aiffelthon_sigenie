@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202409298938",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE PRECISION ENGINEERING PTE LTD",
+      "address": "123 INDUSTRIAL DRIVE, SINGAPORE 628345",
+      "country": "SINGAPORE",
+      "additionalInfo": "(SINGAPORE BUSINESS PARK)",
+      "telephone": "+65 6789 0123",
+      "email": "SHIPMENTS@SPEL.COM.SG"
+    },
+    "consignee": {
+      "name": "FIRST GLOBAL LOGISTICS LTD",
+      "address": "456 RUE DE LA LOGISTIQUE, PARIS 75008, FRANCE",
+      "country": "FRANCE",
+      "email": "ORDERS@FIRSTGLOBALLOGISTICS.FR",
+      "telephone": "+33 1 40 40 40 40"
+    },
+    "notifyParty": {
+      "name": "SINGAPORE PRECISION ENGINEERING PTE LTD",
+      "address": "123 INDUSTRIAL DRIVE, SINGAPORE 628345",
+      "country": "SINGAPORE",
+      "email": "ORDERS@SPEL.COM.SG",
+      "telephone": "+65 6789 0123"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940330",
+  "commodityDescription": "REFRIGERATED DISPLAY CASES",
+  "containers": [
+    {
+      "containerNumber": "CRLU4571916",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "REFRIGERATED DISPLAY CASES",
+      "grossWeight": 6000.0,
+      "measurement": 58.0
+    },
+    {
+      "containerNumber": "CRLU4595018",
+      "sealNumber": "724918",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "REFRIGERATED DISPLAY CASES",
+      "grossWeight": 6000.0,
+      "measurement": 58.0
+    },
+    {
+      "containerNumber": "CRLU4529806",
+      "sealNumber": "724921",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "REFRIGERATED DISPLAY CASES",
+      "grossWeight": 6000.0,
+      "measurement": 58.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 40'HC REEFER CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 174.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "FIRST GLOBAL LOGISTICS LTD",
+      "address": "456 RUE DE LA LOGISTIQUE, PARIS 75008, FRANCE",
+      "telephone": "+33 1 40 40 40 40",
+      "fax": "+33 1 40 40 40 41",
+      "email": "ORDERS@FIRSTGLOBALLOGISTICS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE PRECISION ENGINEERING PTE LTD",
+      "address": "123 INDUSTRIAL DRIVE, SINGAPORE 628345",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SHIPMENTS@SPEL.COM.SG"
+    },
+    "onboardDate": "2024-10-22 21:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 7\u00b0C, VALUE: USD58,325"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6682119",
+    "temperature": "7\u00b0C",
+    "minTemperature": "5\u00b0C",
+    "maxTemperature": "9\u00b0C",
+    "ventilation": "100%",
+    "humidity": "75%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

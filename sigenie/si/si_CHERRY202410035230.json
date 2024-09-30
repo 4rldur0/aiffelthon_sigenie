@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410035230",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO.",
+      "address": "1234 INDUSTRIAL STREET, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 98765432",
+      "email": "INFO@SUNRISEMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS, SEMI-TRAILER",
+  "containers": [
+    {
+      "containerNumber": "FCLH1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SUNRISE20241003",
+      "numberOfPackages": 1,
+      "packageType": "SEMI-TRAILER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) SEMI-TRAILER",
+      "grossWeight": 18000.0,
+      "measurement": 80.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 40' FLAT RACK",
+    "totalPackages": 1,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 80.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "FUMIGATION CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 10331x2426x2531, FRAGILE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10331",
+    "width": "2426",
+    "height": "2531",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410264093",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENGINEERING LTD.",
+      "onBehalfOf": "ASIA PACIFIC GROUP",
+      "address": "2345 HONGQIAO ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8668 1234",
+      "fax": "+86 574 8668 1235",
+      "email": "LIU.JING@ASIAENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "EUROTECH TRADING B.V.",
+      "address": "DE KOEPLIJN 130, 3011 GE ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 487 9000",
+      "fax": "+31 10 487 9001",
+      "email": "VAN.DER.MEER@EUROTECHTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 WORLD TRADE CENTER, NEW YORK, NY 10001, USA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS - OUT OF GAUGE",
+  "containers": [
+    {
+      "containerNumber": "CRLU5678912",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "TRAILER #1 - NINGBO TO ROTTERDAM",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "TRAILER - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 25000.0,
+      "measurement": 65.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU5765432",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "TRAILER #2 - NINGBO TO ROTTERDAM",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "TRAILER - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 25000.0,
+      "measurement": 65.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) FLAT RACKS",
+    "totalPackages": 2,
+    "packageType": "UNITS",
+    "containerType": "FLAT RACK",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 130.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024102634567"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ENGINEERING LTD.",
+      "address": "2345 HONGQIAO ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8668 1234",
+      "fax": "+86 574 8668 1235"
+    },
+    "onboardDate": "2024-11-16 20:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 10268x2607x2937, VALUE: USD18,754"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10268",
+    "width": "2607",
+    "height": "2937",
+    "overWidth": "167",
+    "overHeight": "347"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}
