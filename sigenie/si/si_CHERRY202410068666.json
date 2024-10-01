@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410068666",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ACME PRECISION ENGINEERING CO.",
+      "onBehalfOf": "",
+      "address": "1234 PRECISION RD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ACMEENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "companyNumber": "123456789",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": ""
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT1221834",
+      "sealNumber": "SEAL347656",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 5468.64,
+      "measurement": 25.04
+    },
+    {
+      "containerNumber": "CONT9962642",
+      "sealNumber": "SEAL365445",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 8149.65,
+      "measurement": 32.81
+    },
+    {
+      "containerNumber": "CONT5832825",
+      "sealNumber": "SEAL487490",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 16378.73,
+      "measurement": 27.83
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 158,
+    "totalGrossWeight": 29997.02,
+    "totalMeasurement": 85.68
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ACME PRECISION ENGINEERING CO.",
+      "address": "1234 PRECISION RD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ACMEENGINEERING.CN"
+    },
+    "onboardDate": "2024-10-19 21:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1396, VALUE: USD723,094"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1204267",
+    "unClass": "5",
+    "unCode": "1396,",
+    "hsCode": "9620.99.40",
+    "flashPoint": "98\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

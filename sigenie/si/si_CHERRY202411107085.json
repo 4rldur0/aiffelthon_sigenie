@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411107085",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GAMMA INDUSTRIES LTD",
+      "onBehalfOf": "",
+      "address": "1234 GANGLI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "LI.WEI@GAMMAINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING CO.",
+      "address": "1234 ABCD STREET, CASABLANCA, MOROCCO",
+      "companyNumber": "123456789",
+      "telephone": "+212 522 123456",
+      "fax": "+212 522 123457",
+      "email": "ZHANG.JIA@DELTASHIPPING.MA"
+    },
+    "notifyParty": {
+      "name": "ALPHA TRADING LTD",
+      "address": "1234 DEF STREET, CASABLANCA, MOROCCO"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "381400",
+  "commodityDescription": "ORGANIC PEROXIDE - UN 3392",
+  "containers": [
+    {
+      "containerNumber": "CONT8068944",
+      "sealNumber": "SEAL216087",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 7144.17,
+      "measurement": 28.81
+    },
+    {
+      "containerNumber": "CONT7282541",
+      "sealNumber": "SEAL714712",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 7517.72,
+      "measurement": 20.22
+    },
+    {
+      "containerNumber": "CONT3604861",
+      "sealNumber": "SEAL767475",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 12490.03,
+      "measurement": 28.05
+    },
+    {
+      "containerNumber": "CONT4867029",
+      "sealNumber": "SEAL480084",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 7285.52,
+      "measurement": 35.6
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD TANK",
+    "totalPackages": 197,
+    "totalGrossWeight": 34437.44,
+    "totalMeasurement": 112.68
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GAMMA INDUSTRIES LTD",
+      "address": "1234 GANGLI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667"
+    },
+    "onboardDate": "2024-11-15 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3392, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4872732",
+    "unClass": "7",
+    "unCode": "3392,",
+    "hsCode": "1741.95.20",
+    "flashPoint": "42\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

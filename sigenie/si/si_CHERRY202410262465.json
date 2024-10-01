@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410262465",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC PRECISION LTD.",
+      "address": "NO. 1234, YINGZONG ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(YONGHUA BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ASIAPRECISION.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "2355 N. LAKE SHORE DRIVE, CHICAGO, IL 60614, USA",
+      "country": "USA",
+      "telephone": "+1 312 555 1212",
+      "email": "ORDERS@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICAL SUBSTANCE",
+  "containers": [
+    {
+      "containerNumber": "CONT6962759",
+      "sealNumber": "SEAL402847",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 10000.42,
+      "measurement": 25.99
+    },
+    {
+      "containerNumber": "CONT5127499",
+      "sealNumber": "SEAL282343",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 9190.52,
+      "measurement": 28.82
+    },
+    {
+      "containerNumber": "CONT4408225",
+      "sealNumber": "SEAL666373",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 7042.21,
+      "measurement": 30.02
+    },
+    {
+      "containerNumber": "CONT6255994",
+      "sealNumber": "SEAL465440",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 6823.84,
+      "measurement": 29.64
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD TANK",
+    "totalPackages": 210,
+    "totalGrossWeight": 33056.99,
+    "totalMeasurement": 114.47
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "2355 N. LAKE SHORE DRIVE, CHICAGO, IL 60614, USA",
+      "telephone": "+1 312 555 1212",
+      "fax": "+1 312 555 1213",
+      "email": "ORDERS@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "2355 N. LAKE SHORE DRIVE, CHICAGO, IL 60614, USA",
+      "telephone": "+1 312 555 1212",
+      "fax": "+1 312 555 1213",
+      "email": "ORDERS@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2425"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9078553",
+    "unClass": "5",
+    "unCode": "2425",
+    "hsCode": "1692.26.72",
+    "flashPoint": "81\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

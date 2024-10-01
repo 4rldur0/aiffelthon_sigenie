@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410178464",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC COLD STORAGE CO.",
+      "address": "123 YONGJIANG ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8666 7890",
+      "fax": "+86 574 8666 7891",
+      "email": "LI.MEI@APCS.CN"
+    },
+    "consignee": {
+      "name": "GREEN EARTH IMPORTS LTD.",
+      "address": "124 HARBOUR STREET, ROTTERDAM, 3011GD, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 246 5678",
+      "fax": "+31 10 246 5679",
+      "email": "INFO@GREENEARTHIMPORTS.NL",
+      "personincharge": "PETER VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "name": "GREEN EARTH LOGISTICS BV",
+      "address": "126 HARBOUR STREET, ROTTERDAM, 3011GD, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 246 8901",
+      "fax": "+31 10 246 8902",
+      "email": "INFO@GREENEARTHLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030319",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT7429819",
+      "sealNumber": "SEAL187668",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 19377.96,
+      "measurement": 24.75
+    },
+    {
+      "containerNumber": "CONT7096310",
+      "sealNumber": "SEAL385485",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 15484.86,
+      "measurement": 30.89
+    },
+    {
+      "containerNumber": "CONT5234458",
+      "sealNumber": "SEAL350223",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 18020.6,
+      "measurement": 34.13
+    },
+    {
+      "containerNumber": "CONT9595551",
+      "sealNumber": "SEAL762921",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 10755.41,
+      "measurement": 33.92
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD REEFER",
+    "totalPackages": 156,
+    "totalGrossWeight": 63638.83,
+    "totalMeasurement": 123.69
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-10-26 10:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -19\u00b0C, VALUE: USD901,406, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2519662",
+    "temperature": "-19\u00b0C",
+    "minTemperature": "-21\u00b0C",
+    "maxTemperature": "-17\u00b0C",
+    "ventilation": "47%",
+    "humidity": "89%"
+  }
+}

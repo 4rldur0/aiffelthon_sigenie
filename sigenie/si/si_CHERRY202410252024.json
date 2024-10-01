@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410252024",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO. LTD.",
+      "address": "1234 INDUSTRIAL STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "NL850123456B01",
+      "president": "MR. PETER JOHNSON",
+      "telephone": "+31 10 202 2222",
+      "fax": "+31 10 202 2223",
+      "email": "PETER.JOHNSON@GLOBALTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST DUTCH LOGISTICS BV",
+      "address": "456 PORT STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "taxId": "NL812345678B01",
+      "president": "MS. ANNA SMITH",
+      "telephone": "+31 10 333 3333",
+      "fax": "+31 10 333 3334"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871630",
+  "commodityDescription": "OUT-OF-GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT5662500",
+      "sealNumber": "SEAL359192",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 11501.75,
+      "measurement": 23.98
+    },
+    {
+      "containerNumber": "CONT2081338",
+      "sealNumber": "SEAL914925",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 10433.74,
+      "measurement": 37.3
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD OPEN TOP",
+    "totalPackages": 148,
+    "totalGrossWeight": 21935.49,
+    "totalMeasurement": 61.28
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST DUTCH LOGISTICS BV",
+      "address": "456 PORT STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31 10 333 3333",
+      "fax": "+31 10 333 3334",
+      "email": "INFO@FIRSTDUTCHLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST DUTCH LOGISTICS BV",
+      "address": "456 PORT STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31 10 333 3333",
+      "fax": "+31 10 333 3334",
+      "email": "INFO@FIRSTDUTCHLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8489x2724x2309, VALUE: USD528,071, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8489",
+    "width": "2724",
+    "height": "2309",
+    "overWidth": "284",
+    "overHeight": "0"
+  }
+}

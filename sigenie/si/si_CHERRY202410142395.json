@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410142395",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@PRECISIONENGINEERINGLTD.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY 20000",
+      "taxId": "DE123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "JOHN.SMITH@GLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS GMBH",
+      "address": "123 FRANKFURTER STRASSE, HAMBURG, GERMANY 22000",
+      "taxId": "DE987654321",
+      "president": "MS. ANNA MILLER",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5431"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS AND GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT4831500",
+      "sealNumber": "SEAL633283",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 15585.87,
+      "measurement": 21.36
+    },
+    {
+      "containerNumber": "CONT3355697",
+      "sealNumber": "SEAL647203",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 14055.83,
+      "measurement": 33.13
+    },
+    {
+      "containerNumber": "CONT5057996",
+      "sealNumber": "SEAL558344",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 5153.83,
+      "measurement": 38.74
+    },
+    {
+      "containerNumber": "CONT5825093",
+      "sealNumber": "SEAL531573",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 15771.07,
+      "measurement": 39.41
+    },
+    {
+      "containerNumber": "CONT2975329",
+      "sealNumber": "SEAL687652",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 18249.37,
+      "measurement": 38.08
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 353,
+    "totalGrossWeight": 68815.97,
+    "totalMeasurement": 170.72
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

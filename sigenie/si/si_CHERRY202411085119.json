@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411085119",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "FRANKFURT",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEUTSCHE TELEKOM AG",
+      "address": "LANDESBERICHT 1, 53113 BONN, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 228 1830 0",
+      "fax": "+49 228 1830 1111",
+      "email": "INFO@TELEKOM.DE"
+    },
+    "consignee": {
+      "name": "KUEHNE + NAGEL INTERNATIONAL AG",
+      "address": "ZURICHstrasse 14, 8001 ZURICH, SWITZERLAND",
+      "country": "SWITZERLAND",
+      "telephone": "+41 44 257 11 11",
+      "fax": "+41 44 257 11 12",
+      "email": "INFO@KN-GROUP.COM"
+    },
+    "notifyParty": {
+      "name": "KUEHNE + NAGEL INTERNATIONAL AG",
+      "address": "ZURICHstrasse 14, 8001 ZURICH, SWITZERLAND",
+      "country": "SWITZERLAND",
+      "telephone": "+41 44 257 11 11",
+      "fax": "+41 44 257 11 12",
+      "email": "INFO@KN-GROUP.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854442",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT5145199",
+      "sealNumber": "SEAL479880",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 17186.66,
+      "measurement": 23.04
+    },
+    {
+      "containerNumber": "CONT5973552",
+      "sealNumber": "SEAL258728",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 11237.8,
+      "measurement": 24.47
+    },
+    {
+      "containerNumber": "CONT9396871",
+      "sealNumber": "SEAL554104",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 9256.65,
+      "measurement": 35.77
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD OPEN TOP",
+    "totalPackages": 123,
+    "totalGrossWeight": 37681.11,
+    "totalMeasurement": 83.28
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "KUEHNE + NAGEL INTERNATIONAL AG",
+      "address": "ZURICHstrasse 14, 8001 ZURICH, SWITZERLAND",
+      "telephone": "+41 44 257 11 11",
+      "fax": "+41 44 257 11 12",
+      "email": "INFO@KN-GROUP.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KUEHNE + NAGEL INTERNATIONAL AG",
+      "address": "ZURICHstrasse 14, 8001 ZURICH, SWITZERLAND",
+      "telephone": "+41 44 257 11 11",
+      "fax": "+41 44 257 11 12",
+      "email": "INFO@KN-GROUP.COM"
+    },
+    "onboardDate": "2024-11-17 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5800x2126x2227, VALUE: USD501,447, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5800",
+    "width": "2126",
+    "height": "2227",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

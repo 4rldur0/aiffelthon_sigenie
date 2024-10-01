@@ -14,22 +14,72 @@ client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
-# Custom CSS to style the BL form and apply Freesentation font
+# 폰트 로딩 및 적용
+def load_custom_font():
+    font_path = "./fonts/Freesentation.ttf"
+    with open(font_path, "rb") as font_file:
+        font_base64 = base64.b64encode(font_file.read()).decode('utf-8')
+    
+    st.markdown(f"""
+    <style>
+    @font-face {{
+        font-family: 'Freesentation';
+        src: url(data:font/ttf;base64,{font_base64}) format('truetype');
+    }}
+    * {{
+        font-family: 'Freesentation', sans-serif !important;
+    }}
+    </style>
+    """, unsafe_allow_html=True)
+
+
+# Custom CSS to style the BL form
 custom_css = """
 <style>
-@font-face {
-    font-family: 'Freesentation';
-    src: url('./fonts/Freesentation.ttf') format('truetype');
-}
-html, body, [class*="st-"] {
-    font-family: 'Freesentation', sans-serif;
-}
+    @font-face {{
+        font-family: 'Freesentation';
+        src: url(data:font/ttf;base64,{font_base64}) format('truetype');
+    }}
+
+    * {{
+        font-family: 'Freesentation', sans-serif !important;
+    }}
+
+    /* 모든 선(border)에 대한 스타일 */
+    * {
+        border-color: #808080 !important; /* 중간 회색 */
+    }
+
+    /* 특정 Streamlit 컴포넌트의 테두리 스타일 */
+    .stTextInput, .stSelectbox, .stMultiselect, .stDateInput, .stTimeInput,
+    .stNumber, .stText, .stDataFrame, .stTable {
+        border: 1px solid #808080 !important;
+    }
+
+    /* 구분선 스타일 */
+    hr {
+        border-top: 1px solid #808080 !important;
+    }
+
+    /* 테이블 테두리 스타일 */
+    table {
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #808080 !important;
+    }
+
+    /* 사이드바 구분선 스타일 */
+    .stSidebar .stSidebarNav {
+        border-right-color: #808080 !important;
+    }
+
     .bl-form {
-        font-family: Freesentation, sans-serif;
         border: 2px solid black;
         padding: 5px;
         margin-bottom: 10px;
         width: 100%;
+        position: relative;
     }
     .bl-header {
         display: flex;
@@ -82,6 +132,19 @@ html, body, [class*="st-"] {
         margin: 0;
         padding: 0;
     }    
+    .watermark {
+        position: absolute;
+        top: 20%;
+        left: 75%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        font-size: 180px;  /* 크기를 180px로 증가 */
+        color: rgba(255, 0, 0, 0.11);  /* 투명도를 0.15로 낮춤 */
+        pointer-events: none;
+        z-index: 1000;
+        user-select: none;
+        font-weight: bold;
+        white-space: nowrap;  /* 텍스트가 줄바꿈되지 않도록 설정 */
+    }
 </style>
 """
 
@@ -102,6 +165,7 @@ def display_bl_form(doc):
     # Create the BL form HTML
     bl_html = f"""
     <div class="bl-form">
+        <div class="watermark">DRAFT</div>
         <div class="bl-header">
             <div class="bl-title">
                 <h2>BILL OF LADING (B/L)</h2>
@@ -285,6 +349,7 @@ def display_container_information(containers):
     st.write("</table>", unsafe_allow_html=True)
 
 def main():
+    load_custom_font()
     st.title("Bill of Lading (B/L) Viewer")
 
     # Fetch only the booking references from MongoDB

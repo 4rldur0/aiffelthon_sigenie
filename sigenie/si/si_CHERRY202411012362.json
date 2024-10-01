@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411012362",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CORP.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "330499",
+  "commodityDescription": "PERFUME",
+  "containers": [
+    {
+      "containerNumber": "CONT8859856",
+      "sealNumber": "SEAL992827",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 11910.75,
+      "measurement": 32.51
+    },
+    {
+      "containerNumber": "CONT4013846",
+      "sealNumber": "SEAL978391",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 19551.7,
+      "measurement": 39.93
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 55,
+    "totalGrossWeight": 31462.45,
+    "totalMeasurement": 72.44
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "MSDS"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRANSPORTATION LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-16 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1691, VALUE: USD901,137"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8818671",
+    "unClass": "7",
+    "unCode": "1691,",
+    "hsCode": "8553.56.71",
+    "flashPoint": "30\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

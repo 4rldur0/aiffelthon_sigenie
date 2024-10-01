@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410178179",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO LTD",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "UNITED GLOBAL LOGISTICS LTD",
+      "address": "456 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33-1-4444-5678",
+      "fax": "+33-1-4444-5679",
+      "email": "INFO@UNITEDGLOBALLOGISTICS.FR",
+      "contactPerson": "JEAN DUPONT"
+    },
+    "notifyParty": {
+      "name": "UNITED GLOBAL LOGISTICS LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES, AND SPORTING GOODS",
+  "containers": [
+    {
+      "containerNumber": "CONT5302903",
+      "sealNumber": "SEAL559489",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 15213.65,
+      "measurement": 25.12
+    },
+    {
+      "containerNumber": "CONT4094766",
+      "sealNumber": "SEAL398747",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 19767.05,
+      "measurement": 35.6
+    },
+    {
+      "containerNumber": "CONT1371561",
+      "sealNumber": "SEAL950006",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 8124.59,
+      "measurement": 39.79
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 185,
+    "totalGrossWeight": 43105.29,
+    "totalMeasurement": 100.51
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241017-1001",
+    "documentNumber": "20241017-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "UNITED GLOBAL LOGISTICS LTD",
+      "address": "456 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33-1-4444-5678",
+      "fax": "+33-1-4444-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "UNITED GLOBAL LOGISTICS LTD",
+      "address": "456 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33-1-4444-5678",
+      "fax": "+33-1-4444-5679"
+    },
+    "onboardDate": "2024-10-26 08:00",
+    "additionalRemarks": "UNDER DECK TOP STOWAGE"
+  }
+}

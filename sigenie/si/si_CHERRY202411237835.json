@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411237835",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING LIMITED",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI 200000, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@PRECISIONENGINEERING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "1234 ORCHARD ROAD, SINGAPORE 238888",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+65 6777 8888",
+      "fax": "+65 6777 9999",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "1234 ORCHARD ROAD, SINGAPORE 238888",
+      "usci": "91321200765109788X",
+      "telephone": "+65 6777 8888",
+      "fax": "+65 6777 9999",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "961700",
+  "commodityDescription": "STATIONERY, INCLUDING DRAWING BOOKS AND NOTEBOOKS",
+  "containers": [
+    {
+      "containerNumber": "CONT5664243",
+      "sealNumber": "SEAL539283",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 13778.5,
+      "measurement": 34.67
+    },
+    {
+      "containerNumber": "CONT5132092",
+      "sealNumber": "SEAL219327",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 16317.16,
+      "measurement": 34.94
+    },
+    {
+      "containerNumber": "CONT7158279",
+      "sealNumber": "SEAL696435",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 18689.15,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 256,
+    "totalGrossWeight": 48784.81,
+    "totalMeasurement": 91.61
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "1234 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6777 8888",
+      "fax": "+65 6777 9999",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "1234 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6777 8888",
+      "fax": "+65 6777 9999",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

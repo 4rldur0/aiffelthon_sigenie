@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202410097347",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES CO., LTD.",
+      "address": "123 YUAN SHAN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 8768 4500",
+      "fax": "+86 21 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382490",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT7625917",
+      "sealNumber": "SEAL917080",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 15766.98,
+      "measurement": 37.24
+    },
+    {
+      "containerNumber": "CONT4181884",
+      "sealNumber": "SEAL598399",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 7406.9,
+      "measurement": 32.91
+    },
+    {
+      "containerNumber": "CONT9329248",
+      "sealNumber": "SEAL679627",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 15785.46,
+      "measurement": 30.61
+    },
+    {
+      "containerNumber": "CONT3220339",
+      "sealNumber": "SEAL572357",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 12166.13,
+      "measurement": 23.79
+    },
+    {
+      "containerNumber": "CONT8105118",
+      "sealNumber": "SEAL916727",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 9305.12,
+      "measurement": 22.36
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 232,
+    "totalGrossWeight": 60430.59,
+    "totalMeasurement": 146.91
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC23456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-10-20 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3325, VALUE: USD853,611"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2201659",
+    "unClass": "6",
+    "unCode": "3325,",
+    "hsCode": "2065.93.20",
+    "flashPoint": "99\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

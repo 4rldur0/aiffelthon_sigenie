@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410039080",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISETRADING.COM"
+    },
+    "consignee": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 3332",
+      "email": "INFO@WORLDWIDE-LOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "",
+      "president": "MS. JANE DOE",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 3332",
+      "email": "INFO@WORLDWIDE-LOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940170",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT7059032",
+      "sealNumber": "SEAL662339",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 13581.84,
+      "measurement": 21.35
+    },
+    {
+      "containerNumber": "CONT1303595",
+      "sealNumber": "SEAL922388",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 19674.04,
+      "measurement": 36.41
+    },
+    {
+      "containerNumber": "CONT3379239",
+      "sealNumber": "SEAL476849",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 15319.63,
+      "measurement": 24.01
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 194,
+    "totalGrossWeight": 48575.51,
+    "totalMeasurement": 81.77
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "bookingReference": "CHERRY202409309163",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING CO.",
+      "address": "NO. 1234, HONGWU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "25 RUE DE PARIS, CASABLANCA, MOROCCO",
+      "telephone": "+212-522-345-6789",
+      "fax": "+212-522-345-6780",
+      "email": "INFO@OMEGAShipping.MA",
+      "contactPerson": "MOHAMED ALI"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT8271522",
+      "sealNumber": "SEAL227647",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 9302.07,
+      "measurement": 25.51
+    },
+    {
+      "containerNumber": "CONT8187799",
+      "sealNumber": "SEAL208358",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 18100.9,
+      "measurement": 30.58
+    },
+    {
+      "containerNumber": "CONT3088401",
+      "sealNumber": "SEAL533218",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 11164.23,
+      "measurement": 33.77
+    },
+    {
+      "containerNumber": "CONT3682912",
+      "sealNumber": "SEAL895476",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 9772.68,
+      "measurement": 29.44
+    },
+    {
+      "containerNumber": "CONT3913334",
+      "sealNumber": "SEAL864785",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 7716.53,
+      "measurement": 24.02
+    },
+    {
+      "containerNumber": "CONT6728408",
+      "sealNumber": "SEAL310891",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 14596.61,
+      "measurement": 29.91
+    },
+    {
+      "containerNumber": "CONT3647342",
+      "sealNumber": "SEAL710424",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 16859.37,
+      "measurement": 26.24
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 363,
+    "totalGrossWeight": 87512.39,
+    "totalMeasurement": 199.47
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241001-1001",
+    "documentNumber": "20241001-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241001-001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "25 RUE DE PARIS, CASABLANCA, MOROCCO",
+      "telephone": "+212-522-345-6789",
+      "fax": "+212-522-345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "25 RUE DE PARIS, CASABLANCA, MOROCCO",
+      "telephone": "+212-522-345-6789",
+      "fax": "+212-522-345-6780"
+    },
+    "onboardDate": "2024-10-16 19:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2196"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4774964",
+    "unClass": "8",
+    "unCode": "2196",
+    "hsCode": "9334.81.21",
+    "flashPoint": "79\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

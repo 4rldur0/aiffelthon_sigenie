@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410116584",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE, FRANCE",
+    "portOfLoading": "LE HAVRE, FRANCE",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC TRADING CO. LTD.",
+      "address": "12 RUE DE LA LIBERTE, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@ABC-TRADING.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. HANS MEIER",
+      "telephone": "+49 69 79 89 01 23",
+      "fax": "+49 69 79 89 01 24",
+      "email": "HANS.MEIER@DHL.COM"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. HANS MEIER",
+      "telephone": "+49 69 79 89 01 23",
+      "fax": "+49 69 79 89 01 24",
+      "email": "HANS.MEIER@DHL.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "870899",
+  "commodityDescription": "PARTS AND ACCESSORIES FOR VEHICLES OF OTHER HEADINGS",
+  "containers": [
+    {
+      "containerNumber": "CONT8046625",
+      "sealNumber": "SEAL980683",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 17205.05,
+      "measurement": 37.08
+    },
+    {
+      "containerNumber": "CONT9569419",
+      "sealNumber": "SEAL186669",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 5544.29,
+      "measurement": 23.34
+    },
+    {
+      "containerNumber": "CONT4991019",
+      "sealNumber": "SEAL664013",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 16556.72,
+      "measurement": 29.51
+    },
+    {
+      "containerNumber": "CONT2149889",
+      "sealNumber": "SEAL266925",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 13069.37,
+      "measurement": 31.22
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD PLATFORM",
+    "totalPackages": 142,
+    "totalGrossWeight": 52375.43,
+    "totalMeasurement": 121.15
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49 69 79 89 01 23",
+      "fax": "+49 69 79 89 01 24",
+      "email": "HANS.MEIER@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49 69 79 89 01 23",
+      "fax": "+49 69 79 89 01 24",
+      "email": "HANS.MEIER@DHL.COM"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 6628x2739x2825"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6628",
+    "width": "2739",
+    "height": "2825",
+    "overWidth": "299",
+    "overHeight": "235"
+  }
+}

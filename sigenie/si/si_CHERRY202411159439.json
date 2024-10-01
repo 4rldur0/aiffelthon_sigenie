@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202411159439",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "123 GLOBAL STREET, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "INFO@GLOBALTRADINGCORP.CN"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "456 EUROPA STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@APLLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "456 EUROPA STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "ANNA.NOWAK@APLLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL MERCHANDISE",
+  "containers": [
+    {
+      "containerNumber": "CONT8633430",
+      "sealNumber": "SEAL765902",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 5410.61,
+      "measurement": 33.4
+    },
+    {
+      "containerNumber": "CONT1808441",
+      "sealNumber": "SEAL719021",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 16863.46,
+      "measurement": 25.85
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 104,
+    "totalGrossWeight": 22274.07,
+    "totalMeasurement": 59.25
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "456 EUROPA STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@APLLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "456 EUROPA STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@APLLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-21 16:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  }
+}

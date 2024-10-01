@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202409293563",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG, MALAYSIA",
+    "portOfLoading": "PORT KLANG, MALAYSIA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2222 3333",
+      "fax": "+60 3 2222 4444",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "123 LONDON ROAD, LONDON, UNITED KINGDOM",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 9999",
+      "email": "INFO@GLOBALFORWARDINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "123 BIRMINGHAM STREET, BIRMINGHAM, UNITED KINGDOM",
+      "telephone": "+44 121 666 7777",
+      "fax": "+44 121 666 8888",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS; OTHER VEHICLES, NOT SPECIFIED OR INCLUDED ELSEWHERE IN THIS CHAPTER; PARTS THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT1011381",
+      "sealNumber": "SEAL667122",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 5928.96,
+      "measurement": 35.5
+    },
+    {
+      "containerNumber": "CONT1452603",
+      "sealNumber": "SEAL753480",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 5753.92,
+      "measurement": 37.43
+    },
+    {
+      "containerNumber": "CONT2410705",
+      "sealNumber": "SEAL305062",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 6977.04,
+      "measurement": 24.19
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD PLATFORM",
+    "totalPackages": 139,
+    "totalGrossWeight": 18659.92,
+    "totalMeasurement": 97.12
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 4537x2038x2426, VALUE: USD494,795, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "4537",
+    "width": "2038",
+    "height": "2426",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202410031302",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "123 SUNRISE AVENUE, YINZHOU DISTRICT, SHANGHAI CITY, SHANGHAI PROVINCE, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 1234 5678",
+      "email": "SUNRISE@SHANGHAISUNRISEIMPORT.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 GLOBAL TRADE CENTER, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.NL",
+      "telephone": "+31 10 987 6543",
+      "fax": "+31 10 987 6542"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "330190",
+  "commodityDescription": "ESSENTIAL OILS AND RESINOIDS; OLEORESINS; CONCENTRATES OF ESSENTIAL OILS, IN WHICH THE CONTENT OF THE ESSENTIAL OIL IS NOT LESS THAN 15%",
+  "containers": [
+    {
+      "containerNumber": "CONT1732919",
+      "sealNumber": "SEAL493248",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 8727.97,
+      "measurement": 27.23
+    },
+    {
+      "containerNumber": "CONT4248106",
+      "sealNumber": "SEAL329088",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 5295.94,
+      "measurement": 23.11
+    },
+    {
+      "containerNumber": "CONT2893283",
+      "sealNumber": "SEAL955433",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 19538.23,
+      "measurement": 24.38
+    },
+    {
+      "containerNumber": "CONT2329759",
+      "sealNumber": "SEAL414478",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 17948.64,
+      "measurement": 38.7
+    },
+    {
+      "containerNumber": "CONT9951321",
+      "sealNumber": "SEAL898010",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 6017.39,
+      "measurement": 29.04
+    },
+    {
+      "containerNumber": "CONT3776685",
+      "sealNumber": "SEAL815109",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 18712.31,
+      "measurement": 36.31
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE TANK",
+    "totalPackages": 363,
+    "totalGrossWeight": 76240.48,
+    "totalMeasurement": 178.77
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241003-001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 GLOBAL TRADE CENTER, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "telephone": "+31 10 987 6543",
+      "fax": "+31 10 987 6542",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 GLOBAL TRADE CENTER, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "telephone": "+31 10 987 6543",
+      "fax": "+31 10 987 6542",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-10-12 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2258, 21 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2511533",
+    "unClass": "9",
+    "unCode": "2258,",
+    "hsCode": "5687.97.72",
+    "flashPoint": "87\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

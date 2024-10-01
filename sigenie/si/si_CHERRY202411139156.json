@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202411139156",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE, FRANCE",
+    "portOfLoading": "LE HAVRE, FRANCE",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "AGRO SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, PARIS, FRANCE 75001",
+      "telephone": "+33-1-45678901",
+      "fax": "+33-1-45678902"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-79876543",
+      "fax": "+49-69-79876544"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT1422448",
+      "sealNumber": "SEAL366461",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 19574.44,
+      "measurement": 36.33
+    },
+    {
+      "containerNumber": "CONT8351700",
+      "sealNumber": "SEAL287944",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 6239.59,
+      "measurement": 21.81
+    },
+    {
+      "containerNumber": "CONT9788959",
+      "sealNumber": "SEAL304705",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 14224.67,
+      "measurement": 29.86
+    },
+    {
+      "containerNumber": "CONT5073615",
+      "sealNumber": "SEAL766060",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 13842.1,
+      "measurement": 29.75
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD TANK",
+    "totalPackages": 239,
+    "totalGrossWeight": 53880.8,
+    "totalMeasurement": 117.75
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "THIS SIDE UP"
+  }
+}

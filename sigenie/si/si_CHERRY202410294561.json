@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202410294561",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 7777",
+      "email": "INFO@DELTATRADING.CN"
+    },
+    "consignee": {
+      "name": "SUNRISE INTERNATIONAL INC.",
+      "address": "1234 EUROPEAN BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444",
+      "email": "INFO@SUNRISEINTERNATIONAL.NL"
+    },
+    "notifyParty": {
+      "name": "SUNRISE INTERNATIONAL INC.",
+      "address": "1234 EUROPEAN BOULEVARD, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER - OUT-OF-GAUGE",
+  "containers": [
+    {
+      "containerNumber": "CONT8082867",
+      "sealNumber": "SEAL664849",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 9862.63,
+      "measurement": 20.57
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD FLAT RACK",
+    "totalPackages": 81,
+    "totalGrossWeight": 9862.63,
+    "totalMeasurement": 20.57
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 7777"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 7261x2382x2150"
+  },
+  "outOfGaugeDimensions": {
+    "length": "7261",
+    "width": "2382",
+    "height": "2150",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

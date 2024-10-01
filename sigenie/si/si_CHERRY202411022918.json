@@ -1,0 +1,139 @@
+{
+  "bookingReference": "CHERRY202411022918",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUITEX IMPORTS LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "MARKTPLATZ 1, 20354 HAMBURG, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-12345679"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080590",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT2109842",
+      "sealNumber": "SEAL882064",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 11328.85,
+      "measurement": 35.86
+    },
+    {
+      "containerNumber": "CONT4414269",
+      "sealNumber": "SEAL940003",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 15803.11,
+      "measurement": 32.59
+    },
+    {
+      "containerNumber": "CONT9224985",
+      "sealNumber": "SEAL103566",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 8154.97,
+      "measurement": 33.31
+    },
+    {
+      "containerNumber": "CONT3459338",
+      "sealNumber": "SEAL415997",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 18629.22,
+      "measurement": 31.62
+    },
+    {
+      "containerNumber": "CONT5645848",
+      "sealNumber": "SEAL137004",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 19946.33,
+      "measurement": 29.08
+    },
+    {
+      "containerNumber": "CONT3318996",
+      "sealNumber": "SEAL624645",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 11704.43,
+      "measurement": 22.65
+    },
+    {
+      "containerNumber": "CONT7394846",
+      "sealNumber": "SEAL390242",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 5077.58,
+      "measurement": 30.57
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 HIGH CUBE REEFER",
+    "totalPackages": 334,
+    "totalGrossWeight": 90644.49,
+    "totalMeasurement": 215.68
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-10 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -5\u00b0C, 21 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3091447",
+    "temperature": "-5\u00b0C",
+    "minTemperature": "-7\u00b0C",
+    "maxTemperature": "-3\u00b0C",
+    "ventilation": "71%",
+    "humidity": "93%"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411228860",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TECH SOLUTIONS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 TECH PARK RD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "INFO@ASIATECHS.CN"
+    },
+    "consignee": {
+      "name": "UNITED GLOBAL LOGISTICS INC.",
+      "address": "150 BROADWAY, NEW YORK, NY 10006, USA",
+      "companyNumber": "1234567890",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@UNITEDGLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "UNITED GLOBAL LOGISTICS INC.",
+      "address": "150 BROADWAY, NEW YORK, NY 10006, USA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847130",
+  "commodityDescription": "COMPUTER SERVERS",
+  "containers": [
+    {
+      "containerNumber": "CONT7916302",
+      "sealNumber": "SEAL130360",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 13494.6,
+      "measurement": 25.55
+    },
+    {
+      "containerNumber": "CONT7403458",
+      "sealNumber": "SEAL841637",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 6962.28,
+      "measurement": 24.41
+    },
+    {
+      "containerNumber": "CONT2494160",
+      "sealNumber": "SEAL859887",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 15436.1,
+      "measurement": 37.39
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE REEFER",
+    "totalPackages": 123,
+    "totalGrossWeight": 35892.98,
+    "totalMeasurement": 87.35
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "UNITED GLOBAL LOGISTICS INC.",
+      "address": "150 BROADWAY, NEW YORK, NY 10006, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@UNITEDGLOBALLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA TECH SOLUTIONS LTD.",
+      "address": "1234 TECH PARK RD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "INFO@ASIATECHS.CN"
+    },
+    "onboardDate": "2024-12-07 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 20\u00b0C, FRAGILE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5312816",
+    "temperature": "20\u00b0C",
+    "minTemperature": "18\u00b0C",
+    "maxTemperature": "22\u00b0C",
+    "ventilation": "64%",
+    "humidity": "66%"
+  }
+}

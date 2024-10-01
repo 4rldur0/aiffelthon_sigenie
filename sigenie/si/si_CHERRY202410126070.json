@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410126070",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "address": "12345 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 0000",
+      "email": "INFO@ASIAPACIFICCHEMICALS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, GDANSK, POLAND 80-000",
+      "taxId": "PL1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+48 58 777 8888",
+      "fax": "+48 58 777 9999",
+      "email": "INFO@GLOBALLOGISTICSINC.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST NINGBO LOGISTICS LTD.",
+      "address": "123 NINGBO ROAD, NINGBO, CHINA 315000",
+      "taxId": "CN1234567890",
+      "president": "MS. JANE LEE",
+      "telephone": "+86 574 6666 7777",
+      "fax": "+86 574 6666 8888"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "282110",
+  "commodityDescription": "IRON OXIDE",
+  "containers": [
+    {
+      "containerNumber": "CONT2658839",
+      "sealNumber": "SEAL328810",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 7002.27,
+      "measurement": 37.44
+    },
+    {
+      "containerNumber": "CONT2558827",
+      "sealNumber": "SEAL209048",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 17085.69,
+      "measurement": 33.43
+    },
+    {
+      "containerNumber": "CONT8369815",
+      "sealNumber": "SEAL354873",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 11226.83,
+      "measurement": 38.63
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 145,
+    "totalGrossWeight": 35314.79,
+    "totalMeasurement": 109.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST NINGBO LOGISTICS LTD.",
+      "address": "123 NINGBO ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 6666 7777",
+      "fax": "+86 574 6666 8888",
+      "email": "INFO@FIRSTNINGBO.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, GDANSK, POLAND 80-000",
+      "telephone": "+48 58 777 8888",
+      "fax": "+48 58 777 9999",
+      "email": "INFO@GLOBALLOGISTICSINC.COM"
+    },
+    "onboardDate": "2024-10-21 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2352"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4437714",
+    "unClass": "6",
+    "unCode": "2352",
+    "hsCode": "3692.69.29",
+    "flashPoint": "-3\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

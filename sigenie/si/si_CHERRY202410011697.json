@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410011697",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEUTSCHE PRECISION GMBH",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346",
+      "email": "INFO@ASIATRADING.CN",
+      "contactPerson": "LI WEI"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CONT1609941",
+      "sealNumber": "SEAL601790",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 7084.47,
+      "measurement": 30.31
+    },
+    {
+      "containerNumber": "CONT3470168",
+      "sealNumber": "SEAL334130",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 12252.3,
+      "measurement": 39.41
+    },
+    {
+      "containerNumber": "CONT4728987",
+      "sealNumber": "SEAL910566",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 14956.71,
+      "measurement": 31.61
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD FLAT RACK",
+    "totalPackages": 175,
+    "totalGrossWeight": 34293.48,
+    "totalMeasurement": 101.33
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241023-1001",
+    "documentNumber": "20241023-1001",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "onboardDate": "2024-10-06 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 10136x2108x2695",
+    "outOfGaugeDimensions": "LxWxH(mm): 10136x2108x2695"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10136",
+    "width": "2108",
+    "height": "2695",
+    "overWidth": "0",
+    "overHeight": "105"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411161552",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE CHEMICALS LTD.",
+      "address": "NO. 123 INDUSTRY ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8686 7193",
+      "fax": "+86 574 8686 7778",
+      "email": "ZHANG.WEI@SUNRISECHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, WARSAW, POLAND 00-001",
+      "country": "POLAND",
+      "telephone": "+48 22 812 73 25",
+      "fax": "+48 22 812 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALFREIGHTSOLUTIONS.PL"
+    },
+    "notifyParty": {
+      "name": "POLSKI TRANSPORT LOGISTYCZNY S.A.",
+      "address": "UL. SPEDYCYJNA 123, 31-266 KRAK\u00d3W, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 12 713 29 39",
+      "fax": "+48 12 713 29 44",
+      "email": "ANNA.NOWAK@PTL-LOGISTYKA.PL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "282735",
+  "commodityDescription": "NITROUS OXIDE; OTHER NON-METAL OXIDES; OTHER NON-METAL HALIDES",
+  "containers": [
+    {
+      "containerNumber": "CONT8272114",
+      "sealNumber": "SEAL756659",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 18065.11,
+      "measurement": 25.74
+    },
+    {
+      "containerNumber": "CONT5531402",
+      "sealNumber": "SEAL446778",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 19329.18,
+      "measurement": 20.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 77,
+    "totalGrossWeight": 37394.29,
+    "totalMeasurement": 45.9
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      " DANGERIOUS GOODS CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, WARSAW, POLAND 00-001",
+      "country": "POLAND",
+      "telephone": "+48 22 812 73 25",
+      "fax": "+48 22 812 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALFREIGHTSOLUTIONS.PL"
+    },
+    "onboardDate": "2024-12-04 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2164, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9104524",
+    "unClass": "6",
+    "unCode": "2164,",
+    "hsCode": "6190.37.47",
+    "flashPoint": "80\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

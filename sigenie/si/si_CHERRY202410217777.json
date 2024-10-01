@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410217777",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT EXPORT LTD.",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "456 MAIN AVENUE, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": "",
+      "telephone": "",
+      "fax": ""
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS GOODS",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "BETA202410",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - DANGEROUS GOODS, UN 2179",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC23456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "DANGEROUS GOODS DECLARATION"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "456 MAIN AVENUE, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA IMPORT EXPORT LTD.",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "onboardDate": "2024-10-29 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2179, VALUE: USD881,126"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6348469",
+    "unClass": "6",
+    "unCode": "2179,",
+    "hsCode": "9872.44.68",
+    "flashPoint": "43\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

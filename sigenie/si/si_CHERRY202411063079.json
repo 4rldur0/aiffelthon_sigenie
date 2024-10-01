@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411063079",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ MANUFACTURING CO.",
+      "address": "123 INDUSTRY STREET, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "telephone": "+86 574 8668 9155",
+      "fax": "+86 574 8668 9200",
+      "email": "INFO@XYZMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ABC INTERNATIONAL LOGISTICS LTD.",
+      "address": "124 CANAL STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "taxId": "NL855734123B01",
+      "president": "MR. PETER VAN DER LEEUW",
+      "telephone": "+31 10 202 78 59",
+      "fax": "+31 10 202 80 01",
+      "email": "INFO@ABCINTERNATIONALLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "ROTTERDAM CUSTOMS BROKERS BV",
+      "address": "125 WAREHOUSE STREET, ROTTERDAM, 3012 NL, NETHERLANDS",
+      "taxId": "NL856278145B01",
+      "president": "MS. ANNA DEKKER",
+      "telephone": "+31 10 202 33 77",
+      "fax": "+31 10 202 33 88"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT2301608",
+      "sealNumber": "SEAL100138",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 6484.13,
+      "measurement": 38.98
+    },
+    {
+      "containerNumber": "CONT4919927",
+      "sealNumber": "SEAL742453",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 13505.71,
+      "measurement": 20.14
+    },
+    {
+      "containerNumber": "CONT4724715",
+      "sealNumber": "SEAL836478",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 5536.38,
+      "measurement": 32.34
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 190,
+    "totalGrossWeight": 25526.22,
+    "totalMeasurement": 91.46
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "THIS SIDE UP"
+  }
+}

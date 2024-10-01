@@ -1,50 +1,9 @@
 import streamlit as st
 import base64
 
-import os
-from pymongo import MongoClient
-from dotenv import load_dotenv
-
-# ========= 수정 필요 ==========
-class SearchPage:
-    def fetch_shipping_instruction(self, booking_reference):
-        # Load environment variables from .env file
-        load_dotenv()
-
-        # Set up MongoDB connection using environment variables
-        MONGO_URI = os.getenv("MONGODB_URI")
-        DB_NAME = os.getenv("MONGODB_DB_NAME")
-        COLLECTION_NAME = "si"  # Collection storing shipping instructions
-
-        # Create MongoDB client and connect to the specific database and collection
-        client = MongoClient(MONGO_URI)
-        db = client[DB_NAME]
-        collection = db[COLLECTION_NAME]
-        """
-        Fetch the shipping instruction from MongoDB based on the booking reference.
-        """
-        return collection.find_one({'bookingReference': booking_reference})
-
-    def show_search_page(self):
-        st.title("Search for Shipping Instruction")
-
-        # Input field to enter the booking reference
-        booking_reference = st.text_input("Enter Booking Reference")
-
-        if st.button("Search"):
-            # Fetch the SI data from MongoDB
-            si_data = self.fetch_shipping_instruction(booking_reference)
-
-            if si_data:
-                # Save SI data in session state for use in the validation check page
-                st.session_state["si_data"] = si_data
-                st.success("Shipping Instruction found!")
-                
-            else:
-                st.error("No Shipping Instruction found for the provided Booking Reference.")
-
 class BLDraftPage:
-    def __init__(self):
+    def __init__(self, si_data):
+        self.si_data = si_data
         self.logo_img = "./layouts/imgs/containergenie.png"
         # Custom CSS to style the Bill of Lading
         self.custom_css = """
@@ -271,40 +230,7 @@ class BLDraftPage:
     def show_bl_draft_page(self):
         st.title("Bill of Lading Report Draft")
         
-        if "si_data" in st.session_state:
-            si_data = st.session_state["si_data"]
-            self.display_bl_form(si_data)
-        else:
-            st.warning("Please search for a Shipping Instruction first.")
-      
-
-class SummaryPage:
-    def __init__(self, chapter_name, graph):
-        self.chapter_name = chapter_name
-        self.graph = graph
-    
-    def generate_summary(self, si_data):
-        with st.spinner("Running..."):
-            try:
-                self.graph.invoke()
-            except Exception as e:
-                st.error(f"An error occurred while generating the summary: {e}")
-        
-    def show_summary_page(self):
-        st.title(self.chapter_name)
-
-        # Check if 'si_data' is present in session state
-        if "si_data" not in st.session_state:
-            st.error("No Shipping Instruction data found. Please perform a search first.")
-            return
-
-        # Retrieve the SI data from session state
-        si_data = st.session_state["si_data"]
-
-        # Button to initiate the validation check
-        if st.button("Run"):
-            # Run the asynchronous summary generation function
-            self.generate_summary(si_data)
-            st.success("Summary completed!")
+        if self.si_data:
+            self.display_bl_form(self.si_data)
         else:
             st.warning("Please search for a Shipping Instruction first.")

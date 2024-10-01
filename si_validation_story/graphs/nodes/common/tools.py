@@ -12,13 +12,11 @@ from typing import List
 load_dotenv()
 
 class MongoDB:
-    def __init__(self):
+    def __init__(self, collection_name: str):
         # Set up MongoDB connection using environment variables
-        self.client = MongoClient(os.getenv("MONGODB_URI"))
-        self.db = self.client[os.getenv("MONGODB_DB_NAME")]
-
-    def load_collection(self, collection_name):
-        self.collection = self.db[collection_name]
+        client = MongoClient(os.getenv("MONGODB_URI"))
+        db = client[os.getenv("MONGODB_DB_NAME")]
+        self.collection = db[collection_name]
 
     def find_one_booking_reference(self, booking_reference):
         return self.collection.find_one({'bookingReference': booking_reference})
@@ -29,7 +27,7 @@ class Faiss:
         self.embedding_model = OpenAIEmbeddings()
 
     # Load documents from web or local sources (PDFs and URLs)
-    def load_documents(self, sources: List[str]) -> List:
+    def _load_documents(self, sources: List[str]) -> List:
         """
         Load documents from the provided sources (PDFs or URLs).
         """
@@ -53,7 +51,7 @@ class Faiss:
         return docs
     
     # Create the FAISS vector store
-    def create_vectorstore(self, documents):
+    def _create_vectorstore(self, documents):
         """
         Create and save the FAISS vector store for document retrieval.
         """        
@@ -81,8 +79,8 @@ class Faiss:
         else:
             print("Vector store not found. Loading documents and creating a new vector store.")
             # Load documents from the provided sources (URLs or PDFs)
-            documents = self.load_documents(sources)
-            return self.create_vectorstore(documents)
+            documents = self._load_documents(sources)
+            return self._create_vectorstore(documents)
         
 class TavilySearch:
     def __call__():

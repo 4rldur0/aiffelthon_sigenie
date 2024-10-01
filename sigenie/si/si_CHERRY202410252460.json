@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410252460",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC SHIPPING LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SHIPPING@ASIA-PACIFIC.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL ENTERPRISE INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "taxId": "NL851234567B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8889",
+      "email": "JOHN.SMITH@GLOBALENTERPRISE.NL"
+    },
+    "notifyParty": {
+      "name": "FIRST DUTCH LOGISTICS BV",
+      "address": "125 MAAS RIVER BOULEVARD, ROTTERDAM, NETHERLANDS 3011AA",
+      "taxId": "NL856789012C01",
+      "president": "MS. ANNA VAN DER MEER",
+      "telephone": "+31 10 666 9999",
+      "fax": "+31 10 666 9998"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "300490",
+  "commodityDescription": "MEDICAMENTS (EXCLUDING GOODS OF HEADING 3002, 3005 OR 3006) CONSISTING OF MIXED OR UNMIXED PRODUCTS FOR THERAPEUTIC OR PROPHYLACTIC USES, PUT UP IN MEASURED DOSES OR IN FORMS OR PACKINGS FOR RETAIL SALE",
+  "containers": [
+    {
+      "containerNumber": "CONT6776307",
+      "sealNumber": "SEAL607955",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 14531.24,
+      "measurement": 30.59
+    },
+    {
+      "containerNumber": "CONT4145406",
+      "sealNumber": "SEAL392116",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 8350.35,
+      "measurement": 24.8
+    },
+    {
+      "containerNumber": "CONT6651128",
+      "sealNumber": "SEAL701628",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 14056.4,
+      "measurement": 35.66
+    },
+    {
+      "containerNumber": "CONT5184789",
+      "sealNumber": "SEAL178364",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 11625.66,
+      "measurement": 21.95
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 229,
+    "totalGrossWeight": 48563.65,
+    "totalMeasurement": 113.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241025001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST DUTCH LOGISTICS BV",
+      "address": "125 MAAS RIVER BOULEVARD, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 666 9999",
+      "fax": "+31 10 666 9998",
+      "email": "INFO@FIRSTDUTCHLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL ENTERPRISE INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8889",
+      "email": "JOHN.SMITH@GLOBALENTERPRISE.NL"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2338, VALUE: USD540,687, THIS SIDE UP"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6244887",
+    "unClass": "8",
+    "unCode": "2338,",
+    "hsCode": "3490.50.46",
+    "flashPoint": "66\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -6,7 +6,7 @@ from .si_validation_state import State
 # ========= 수정 예정(인섭님) ==========
 class CheckParties:
     def __init__(self):
-        self.llm = gpt_4o_mini
+        self.llm = gemini_1_5_flash
         self.prompt = check_parties_prompt
         self.chain = BasicChain(llm = self.llm, prompt = self.prompt, input_variables=["si_data"])
 

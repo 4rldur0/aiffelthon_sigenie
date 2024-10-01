@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411264476",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORT EXPORT CO.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "NO. 456, OXFORD STREET, LONDON, UNITED KINGDOM W1D 1AQ",
+      "telephone": "+44-20-7636-1234",
+      "fax": "+44-20-7636-5678"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS AND GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT9934354",
+      "sealNumber": "SEAL594156",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 10168.21,
+      "measurement": 20.99
+    },
+    {
+      "containerNumber": "CONT5014576",
+      "sealNumber": "SEAL391389",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 16722.26,
+      "measurement": 26.79
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 60,
+    "totalGrossWeight": 26890.47,
+    "totalMeasurement": 47.78
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-06 17:00",
+    "additionalRemarks": "KEEP DRY"
+  }
+}

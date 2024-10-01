@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411109151",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE PRECISION INDUSTRIES LTD",
+      "address": "123 TECH PARK, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "consignee": {
+      "name": "DPDHL GLOBAL FORWARDING FRANCE",
+      "address": "150 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 40 12 34 56",
+      "fax": "+33 1 40 12 34 57"
+    },
+    "notifyParty": {
+      "name": "SINGAPORE PRECISION INDUSTRIES LTD",
+      "address": "123 TECH PARK, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "8479899000",
+  "commodityDescription": "AUTOMATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT3335805",
+      "sealNumber": "SEAL887145",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 12254.38,
+      "measurement": 33.54
+    },
+    {
+      "containerNumber": "CONT3019568",
+      "sealNumber": "SEAL315021",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 17772.56,
+      "measurement": 34.93
+    },
+    {
+      "containerNumber": "CONT8076777",
+      "sealNumber": "SEAL988489",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 8469.02,
+      "measurement": 21.43
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD PLATFORM",
+    "totalPackages": 156,
+    "totalGrossWeight": 38495.96,
+    "totalMeasurement": 89.9
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "DPDHL GLOBAL FORWARDING FRANCE",
+      "address": "150 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 40 12 34 56",
+      "fax": "+33 1 40 12 34 57"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE PRECISION INDUSTRIES LTD",
+      "address": "123 TECH PARK, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "onboardDate": "2024-11-19 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5849x2659x2151, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5849",
+    "width": "2659",
+    "height": "2151",
+    "overWidth": "219",
+    "overHeight": "0"
+  }
+}

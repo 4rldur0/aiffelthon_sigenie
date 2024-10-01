@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202410189689",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ENTERPRISES LTD.",
+      "onBehalfOf": "",
+      "address": "2345 EAST YONGFENG RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8685 1234",
+      "fax": "+86 574 8685 5678",
+      "email": "LIU.MING@SUNRISEENTERPRISES.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "AVENIDA DEL PUERTO 123, ALGECIRAS 11002, SPAIN",
+      "companyNumber": "B12345678",
+      "telephone": "+34 956 789 012",
+      "fax": "+34 956 789 034",
+      "email": "GONZALEZ.MARIA@GLOBALTRADING.ES"
+    },
+    "notifyParty": {
+      "name": "SUNRISE ENTERPRISES LTD.",
+      "address": "2345 EAST YONGFENG RD, NINGBO, CHINA 315000"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "340213",
+  "commodityDescription": "ORGANIC SURFACE-ACTIVE AGENTS (OTHER THAN SOAP)",
+  "containers": [
+    {
+      "containerNumber": "CONT1728136",
+      "sealNumber": "SEAL394017",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 19428.31,
+      "measurement": 31.47
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 31,
+    "totalGrossWeight": 19428.31,
+    "totalMeasurement": 31.47
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE ENTERPRISES LTD.",
+      "address": "2345 EAST YONGFENG RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8685 1234",
+      "fax": "+86 574 8685 5678",
+      "email": "LIU.MING@SUNRISEENTERPRISES.CN"
+    },
+    "onboardDate": "2024-10-27 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3270, VALUE: USD501,891"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4223638",
+    "unClass": "5",
+    "unCode": "3270,",
+    "hsCode": "2040.17.95",
+    "flashPoint": "29\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

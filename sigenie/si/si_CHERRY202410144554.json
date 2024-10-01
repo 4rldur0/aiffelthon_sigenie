@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202410144554",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HARVE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING SOLUTIONS PTE LTD",
+      "address": "1012 bukit merah central, #03-01, singapore 159877",
+      "telephone": "+65 6278 8990",
+      "fax": "+65 6278 8991",
+      "email": "INFO@PRECISIONENGINEERINGSOLUTIONS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "12 RUE DE LA PAIX, PARIS, FRANCE 75001",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEAN.DUPONT@GLOBALTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "INTERNATIONAL LOGISTICS SERVICES",
+      "address": "10 RUE DE LA LIBERTE, PARIS, FRANCE 75002",
+      "telephone": "+33 1 45 67 89 03",
+      "fax": "+33 1 45 67 89 04",
+      "email": "INFO@INTERNATIONALLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT2413166",
+      "sealNumber": "SEAL237599",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 8658.03,
+      "measurement": 27.76
+    },
+    {
+      "containerNumber": "CONT2230468",
+      "sealNumber": "SEAL643060",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 19111.97,
+      "measurement": 20.52
+    },
+    {
+      "containerNumber": "CONT5337241",
+      "sealNumber": "SEAL989859",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 13697.11,
+      "measurement": 25.2
+    },
+    {
+      "containerNumber": "CONT3642274",
+      "sealNumber": "SEAL915957",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 15238.59,
+      "measurement": 24.57
+    },
+    {
+      "containerNumber": "CONT7608600",
+      "sealNumber": "SEAL908227",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 6173.28,
+      "measurement": 28.78
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD REEFER",
+    "totalPackages": 277,
+    "totalGrossWeight": 62878.98,
+    "totalMeasurement": 126.83
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -20\u00b0C, VALUE: USD735,683"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6730325",
+    "temperature": "-20\u00b0C",
+    "minTemperature": "-22\u00b0C",
+    "maxTemperature": "-18\u00b0C",
+    "ventilation": "19%",
+    "humidity": "63%"
+  }
+}

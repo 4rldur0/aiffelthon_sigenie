@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202411083077",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FROZEN FOODS LTD.",
+      "address": "123 OCEAN DRIVE, SHANGHAI, CHINA",
+      "telephone": "+86 21 8768 4500",
+      "fax": "+86 21 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL COLD CHAIN LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "101 TOWER ROAD, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7876 5432",
+      "fax": "+44 20 7876 5433"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN SALMON FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT4884762",
+      "sealNumber": "SEAL129994",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 14316.17,
+      "measurement": 22.34
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 18,
+    "totalGrossWeight": 14316.17,
+    "totalMeasurement": 22.34
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411083077"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "101 TOWER ROAD, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7876 5432",
+      "fax": "+44 20 7876 5433"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL COLD CHAIN LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 8\u00b0C, VALUE: USD420,992, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7476358",
+    "temperature": "8\u00b0C",
+    "minTemperature": "6\u00b0C",
+    "maxTemperature": "10\u00b0C",
+    "ventilation": "72%",
+    "humidity": "65%"
+  }
+}

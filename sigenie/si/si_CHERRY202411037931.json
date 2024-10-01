@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411037931",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BAIER GMBH & CO. KG",
+      "address": "BERLINER STRASSE 123, 10117 BERLIN, GERMANY",
+      "telephone": "+49-30-12345678",
+      "fax": "+49-30-12345679"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (NINGBO) CO. LTD.",
+      "address": "ROOM 1601, NINGBO WORLD TRADE CENTER, NO. 200, NINGBO, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "846693",
+  "commodityDescription": "OUT-OF-GAUGE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT6788445",
+      "sealNumber": "SEAL667846",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 15870.81,
+      "measurement": 23.8
+    },
+    {
+      "containerNumber": "CONT9275862",
+      "sealNumber": "SEAL665876",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 7783.91,
+      "measurement": 29.82
+    },
+    {
+      "containerNumber": "CONT4739167",
+      "sealNumber": "SEAL978261",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 17382.1,
+      "measurement": 20.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD FLAT RACK",
+    "totalPackages": 214,
+    "totalGrossWeight": 41036.82,
+    "totalMeasurement": 73.71
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    },
+    "onboardDate": "2024-11-06 10:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 10709x2186x2494, VALUE: USD327,800"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10709",
+    "width": "2186",
+    "height": "2494",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

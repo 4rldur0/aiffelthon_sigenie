@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410241512",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 YONGAN ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS",
+      "address": "UL. MIELZYNSKIEGO 12, 80-295 GDANSK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 300 12 34",
+      "fax": "+48 58 300 12 35",
+      "email": "INFO@GLOBALFORWARDINGSOLUTIONS.PL",
+      "personincharge": "ANNA NOWAK"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 YONGAN ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAPACIFICTRADING.CN"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT8812756",
+      "sealNumber": "SEAL463146",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 5165.98,
+      "measurement": 38.81
+    },
+    {
+      "containerNumber": "CONT4606400",
+      "sealNumber": "SEAL519323",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 6602.89,
+      "measurement": 24.93
+    },
+    {
+      "containerNumber": "CONT6283632",
+      "sealNumber": "SEAL945407",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 12413.38,
+      "measurement": 33.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 170,
+    "totalGrossWeight": 24182.25,
+    "totalMeasurement": 96.76
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS",
+      "address": "UL. MIELZYNSKIEGO 12, 80-295 GDANSK, POLAND",
+      "telephone": "+48 58 300 12 34",
+      "fax": "+48 58 300 12 35",
+      "email": "INFO@GLOBALFORWARDINGSOLUTIONS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS",
+      "address": "UL. MIELZYNSKIEGO 12, 80-295 GDANSK, POLAND",
+      "telephone": "+48 58 300 12 34",
+      "fax": "+48 58 300 12 35",
+      "email": "INFO@GLOBALFORWARDINGSOLUTIONS.PL"
+    },
+    "onboardDate": "2024-10-29 20:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

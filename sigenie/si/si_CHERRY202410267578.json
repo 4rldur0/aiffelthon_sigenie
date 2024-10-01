@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410267578",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHEJIANG SKYSEA FOOD CO., LTD.",
+      "address": "NO. 123 HUAHAI ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA",
+      "lei": "98765432109876545678",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@SKYSEAFOOD.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+31 10 201 2345",
+      "fax": "+31 10 201 2346",
+      "email": "JOHN.SMITH@SUNRISEIMPORTS.COM"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030261",
+  "commodityDescription": "FROZEN FISH, FILLETS, BONELESS, OF SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT5632670",
+      "sealNumber": "SEAL453319",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 9426.15,
+      "measurement": 25.82
+    },
+    {
+      "containerNumber": "CONT6993450",
+      "sealNumber": "SEAL438392",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 7239.41,
+      "measurement": 30.09
+    },
+    {
+      "containerNumber": "CONT1439408",
+      "sealNumber": "SEAL579997",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 16324.98,
+      "measurement": 23.69
+    },
+    {
+      "containerNumber": "CONT3123727",
+      "sealNumber": "SEAL218689",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 8463.14,
+      "measurement": 29.19
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE REEFER",
+    "totalPackages": 247,
+    "totalGrossWeight": 41453.68,
+    "totalMeasurement": 108.79
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 201 2345",
+      "fax": "+31 10 201 2346",
+      "email": "JOHN.SMITH@SUNRISEIMPORTS.COM"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -4\u00b0C, VALUE: USD693,659, 21 DAYS FREE TIME AT DESTINATION, FRAGILE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8877343",
+    "temperature": "-4\u00b0C",
+    "minTemperature": "-6\u00b0C",
+    "maxTemperature": "-2\u00b0C",
+    "ventilation": "40%",
+    "humidity": "74%"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202411113034",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL FOODS INC",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "INFO@GLOBALFOODS.CN"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORTERS LTD",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY, 20000",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 9012",
+      "email": "INFO@ASIAIMPORTERS.DE"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC IMPORTERS LTD",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY, 20000",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 9012",
+      "email": "INFO@ASIAIMPORTERS.DE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN SALMON FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT4213995",
+      "sealNumber": "SEAL944267",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 8235.98,
+      "measurement": 38.4
+    },
+    {
+      "containerNumber": "CONT6987363",
+      "sealNumber": "SEAL422498",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 12000.67,
+      "measurement": 26.04
+    },
+    {
+      "containerNumber": "CONT7539767",
+      "sealNumber": "SEAL367006",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 9654.02,
+      "measurement": 22.57
+    },
+    {
+      "containerNumber": "CONT8682351",
+      "sealNumber": "SEAL972233",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 17035.05,
+      "measurement": 29.71
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD REEFER",
+    "totalPackages": 199,
+    "totalGrossWeight": 46925.72,
+    "totalMeasurement": 116.72
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORTERS LTD",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY, 20000",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 9012",
+      "email": "INFO@ASIAIMPORTERS.DE"
+    },
+    "onboardDate": "2024-11-17 10:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -6\u00b0C, VALUE: USD620,810, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6224025",
+    "temperature": "-6\u00b0C",
+    "minTemperature": "-8\u00b0C",
+    "maxTemperature": "-4\u00b0C",
+    "ventilation": "12%",
+    "humidity": "67%"
+  }
+}

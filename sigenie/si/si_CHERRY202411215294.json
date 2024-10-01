@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202411215294",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TECH SOLUTIONS CO., LTD.",
+      "address": "NO. 1234 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@SHANGHAITECHSOLUTIONS.COM"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORT EXPORT LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "NL853812345",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@GREENFIELDIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "GREEN FIELD LOGISTICS BV",
+      "address": "456 PORT STREET, ROTTERDAM, NETHERLANDS 3010 AB",
+      "taxId": "NL853812346",
+      "president": "MS. ANNA JONES",
+      "telephone": "+31 10 555 6666",
+      "fax": "+31 10 555 7777"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382590",
+  "commodityDescription": "CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT2856905",
+      "sealNumber": "SEAL549874",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 13064.83,
+      "measurement": 26.1
+    },
+    {
+      "containerNumber": "CONT8152773",
+      "sealNumber": "SEAL541241",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 8343.51,
+      "measurement": 25.43
+    },
+    {
+      "containerNumber": "CONT5673953",
+      "sealNumber": "SEAL349107",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 19615.85,
+      "measurement": 37.06
+    },
+    {
+      "containerNumber": "CONT8440814",
+      "sealNumber": "SEAL626781",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 7991.05,
+      "measurement": 22.57
+    },
+    {
+      "containerNumber": "CONT8587942",
+      "sealNumber": "SEAL646821",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 12322.36,
+      "measurement": 34.84
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD GENERAL",
+    "totalPackages": 273,
+    "totalGrossWeight": 61337.6,
+    "totalMeasurement": 146.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241121001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GREEN FIELD IMPORT EXPORT LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@GREENFIELDIMPORT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN FIELD IMPORT EXPORT LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@GREENFIELDIMPORT.NL"
+    },
+    "onboardDate": "2024-12-07 10:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1115, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8216459",
+    "unClass": "3",
+    "unCode": "1115,",
+    "hsCode": "4791.52.10",
+    "flashPoint": "80\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

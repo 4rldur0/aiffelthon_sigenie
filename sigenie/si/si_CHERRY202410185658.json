@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410185658",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL MANUFACTURING LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@GLOBALMANUFACTURINGLTD.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE IMPORT EXPORT INC.",
+      "address": "1234 BOULEVARD DU PORT, LE HAVRE 76600, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "INFO@WORLDWIDEIMPORTEXPORTINC.FR",
+      "personincharge": "PIERRE DUPONT"
+    },
+    "notifyParty": {
+      "name": "FREIGHT FORWARDING SERVICES SARL",
+      "address": "1234 RUE DU COMMERCE, LE HAVRE 76600, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 2 35 98 76 54",
+      "fax": "+33 2 35 98 76 55",
+      "email": "CONTACT@FREIGHTFORWARDINGSERVICES.FR"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOY BUILDING SETS",
+  "containers": [
+    {
+      "containerNumber": "CONT1654972",
+      "sealNumber": "SEAL907928",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 11171.45,
+      "measurement": 25.46
+    },
+    {
+      "containerNumber": "CONT5441631",
+      "sealNumber": "SEAL890111",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 10940.54,
+      "measurement": 22.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 151,
+    "totalGrossWeight": 22111.99,
+    "totalMeasurement": 47.55
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-10-27 22:00",
+    "additionalRemarks": "UNDER DECK TOP STOWAGE"
+  }
+}

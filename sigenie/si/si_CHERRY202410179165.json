@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410179165",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHEJIANG DONGXING IMPORT & EXPORT CO.",
+      "address": "123 YINZHOU STREET, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@ZHEJIANGDONGXING.CN"
+    },
+    "consignee": {
+      "name": "UNIVERSAL GLOBAL SHIPPING",
+      "address": "UL. KRZYCKA 123, 80-123 GDANSK, POLAND",
+      "country": "POLAND",
+      "email": "INFO@UNIVERSALGLOBALS.PL",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    },
+    "notifyParty": {
+      "name": "POLAND LOGISTICS GROUP",
+      "address": "UL. SOLIDARNO\u015aCI 100, 80-200 GDANSK, POLAND",
+      "country": "POLAND",
+      "email": "INFO@POLANDLOGISTICS.PL",
+      "telephone": "+48 58 987 6543",
+      "fax": "+48 58 987 6544"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT4161723",
+      "sealNumber": "SEAL722738",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 17134.54,
+      "measurement": 27.88
+    },
+    {
+      "containerNumber": "CONT7488498",
+      "sealNumber": "SEAL601557",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 6970.93,
+      "measurement": 24.44
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 117,
+    "totalGrossWeight": 24105.47,
+    "totalMeasurement": 52.32
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "UNIVERSAL GLOBAL SHIPPING",
+      "address": "UL. KRZYCKA 123, 80-123 GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568",
+      "email": "INFO@UNIVERSALGLOBALS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "UNIVERSAL GLOBAL SHIPPING",
+      "address": "UL. KRZYCKA 123, 80-123 GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568",
+      "email": "INFO@UNIVERSALGLOBALS.PL"
+    },
+    "onboardDate": "2024-10-23 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 19\u00b0C, VALUE: USD490,165, 7 DAYS FREE TIME AT DESTINATION, HANDLE WITH CARE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5195316",
+    "temperature": "19\u00b0C",
+    "minTemperature": "17\u00b0C",
+    "maxTemperature": "21\u00b0C",
+    "ventilation": "56%",
+    "humidity": "64%"
+  }
+}
