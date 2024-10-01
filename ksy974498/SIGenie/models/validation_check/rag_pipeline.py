@@ -1,4 +1,4 @@
-from utils.rag_model import app
+from models.validation_check.rag_model import app
 
 def validate_compliance(question: str):
     """

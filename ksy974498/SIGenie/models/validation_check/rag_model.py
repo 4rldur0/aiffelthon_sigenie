@@ -13,10 +13,9 @@ from langchain.chat_models import ChatOpenAI  # If you're using OpenAI's ChatGPT
 from typing import List
 from glob import glob
 
-from openai import AsyncOpenAI
 
 from utils.llms import get_llm
-from utils.prompt.prompt_templates import rag_prompt_template
+from models.validation_check.prompt import rag_prompt_template
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -78,6 +77,10 @@ def load_vectorstore(sources: List[str]):
         # Load documents from the provided sources (URLs or PDFs)
         documents = load_documents(sources)
         return create_vectorstore(documents)
+
+# # web search
+# def search_web():
+#     pass
 
 # Step 4: Build Retrieval-Augmented Generation Pipeline
 class RAGModel:

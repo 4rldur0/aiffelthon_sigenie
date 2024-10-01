@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.mongo import fetch_shipping_instruction
+from ksy974498.sigenie.utils.base.mongo import fetch_shipping_instruction
 
 def show_search_page():
     st.title("Search for Shipping Instruction")
