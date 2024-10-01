@@ -1,4 +1,13 @@
-# Step 0 : Import Libraries
+"""
+# 주요 업데이트
+1. 비동기 검색 : 'aiohttp' 라이브러리를 사용해 비동기적 웹 검색을 수행
+검색된 제재 리스트 정보를 'retrieve_updated_sanction_list' 메서드를 통해 확인
+
+2. 문서 검색 및 웹 검색 통합 : RAG 모델을 통해 문서와 
+웹 검색 결과를 결합해, 최신 정보를 반영한 답변을 생성
+"""
+
+# Step 0 : 필수 라이브러리 불러오기
 import os
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -8,12 +17,12 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from typing import List, Dict, Any
 from langchain_core.output_parsers import StrOutputParser
 import asyncio
-from web_search import WebSearch # web_search module from other file "web_search.py"
+from web_search import WebSearch # web_search 모듈에서 불러오기
 
-# Step 1: Load documents from web or local sources (PDFs and URLs)
+# Step 1: 회사 정책 문서를 불러오는 함수 (PDF나 URL 지원)
 def load_documents(sources: List[str]) -> List:
     """
-    Load documents from the provided sources (PDFs or URLs).
+    주어진 소스 리스트에서 문서를 불러오기
     """
     docs = []
     for source in sources:
@@ -32,138 +41,110 @@ def load_documents(sources: List[str]) -> List:
             print(f"Error loading from {source}: {e}")
     return docs
 
-# Step 2: Create the FAISS vector store
+# Step 2: FAISS 벡터 스토어 생성하는 함수
 def create_vectorstore(documents):
     """
-    Create and save the FAISS vector store for document retrieval.
+    주어진 문서에서 FAISS 벡터 스토어를 생성하여 로컬에 저장
     """
     embedding_model = OpenAIEmbeddings()
+
+    # 긴 문서를 조각내고, 효율적으로 검색할 수 있도록 설정하기
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
     split_docs = text_splitter.split_documents(documents)
+
+    # FAISS 벡터 스토어 생성하기
     vectorstore = FAISS.from_documents(split_docs, embedding_model)
+
+    # 로컬에 저장하기
     vectorstore.save_local("faiss_index")
     print("Vector store created and saved locally at 'faiss_index'.")
     return vectorstore
 
-# Step 3: Load existing vectorstore or create a new one
+# Step 3: 벡터 스토어 하수 불러오기 또는 새로 생성하기
 def load_vectorstore(sources: List[str]):
     """
-    Load the vector store from disk if it exists.
-    If not, load documents and create a new vector store.
+    로컬에 저장된 벡터 스토어를 불러오거나,
+    존재하지 않을 경우 새로 생성하기
     """
+    # 로칼에 저징된 벡터 스토어가 있는 경우 불러오기
     if os.path.exists("faiss_index/index.faiss"):
         print("Loading existing vector store from 'faiss_index'.")
         return FAISS.load_local("faiss_index", OpenAIEmbeddings(), allow_dangerous_deserialization=True)
+    # 존재하지 않을 경우 새로 벡터 스토어 생성하기
     else:
         print("Vector store not found. Loading documents and creating a new vector store.")
         documents = load_documents(sources)
         return create_vectorstore(documents)
 
-# Step 4: Web search for updated sanction lists
-def perform_web_search(si_data: Dict[str, Any], include_urls: List[str], exclude_urls: List[str]) -> List[Dict[str, str]]:
-    """
-    Perform a web search to find updated sanction lists related to SI data.
-    """
-    search_results = []
-    try:
-        search_query = f"Find sanction list related to {si_data['SHIPPER']}, {si_data['CONSIGNEE']}, {si_data['NOTIFY']}, {si_data['HS_CODE']}, {si_data['CARGO_ITEM']}"
-        search_engine = WebSearch()  # Initialize web search module
-        search_results = search_engine.search(
-            query=search_query, include_urls=include_urls, exclude_urls=exclude_urls
-        )
-    except Exception as e:
-        print(f"Error performing web search: {e}")
-    return search_results
-
-
-# SI data validation function with web search
-def validate_si_data(si_data: Dict[str, Any], compliance_docs: List[str], include_urls: List[str], exclude_urls: List[str]) -> List[str]:
-    """
-    Validate the SI data against CHERRY shipping line's company policy using both RAG and web search.
-    """
-    issues = []
-    # Check with RAG (local compliance documents)
-    sanctioned_keywords = ["sanctioned entity", "restricted item"]  # Example keywords
-    for field in ['SHIPPER', 'CONSIGNEE', 'NOTIFY', 'HS_CODE', 'CARGO_ITEM']:
-        if any(keyword in si_data.get(field, "").upper() for keyword in sanctioned_keywords):
-            issues.append(f"{field} against the Sanctions of UN, EU or USA")
-
-    # Check Description of Packages and Goods
-    if "COMMERCIAL VALUE" in si_data.get('DESCRIPTION_OF_PACKAGES', "").upper():
-        issues.append("Commercial value should not be included in cargo description.")
-    
-    # Check Embargo items at Port of Loading and Discharging
-    embargo_items = ["restricted item", "embargoed goods"]  # Example keywords
-    if any(item in si_data.get('DESCRIPTION_OF_PACKAGES', "").upper() for item in embargo_items):
-        issues.append("Articles under the embargo at Port of Loading and Port of Discharging.")
-    
-    # Check Weight and Measurement notation
-    if not validate_weight_and_measurement(si_data.get('CARGO_WEIGHT'), si_data.get('CARGO_MEASUREMENT')):
-        issues.append("Cargo weight and measurement should be formatted to three decimal places.")
-    
-    # Check with web search (updated sanction lists)
-    web_search_results = perform_web_search(si_data, include_urls, exclude_urls)
-    if web_search_results:
-        for result in web_search_results:
-            if "sanction" in result['content'].lower():
-                issues.append(f"Updated sanction found in web search: {result['title']} - {result['url']}")
-    
-    return issues
-
-# Helper function for weight and measurement validation
-def validate_weight_and_measurement(weight: str, measurement: str) -> bool:
-    """
-    Validate weight and measurement format to ensure three decimal places.
-    """
-    try:
-        weight_valid = abs(float(weight) - round(float(weight), 3)) < 1e-9
-        measurement_valid = abs(float(measurement) - round(float(measurement), 3)) < 1e-9
-        return weight_valid and measurement_valid
-    except (ValueError, TypeError):
-        return False
-
-# Step 5: Build Retrieval-Augmented Generation Pipeline
+# Step 4: RAG 모델 클래스 만들기
 class RAGModel:
-    def __init__(self, llm, sources: List[str], template, include_urls: List[str], exclude_urls: List[str]):
+    def __init__(self, llm, sources: List[str], template):
+        """
+        RAG 모델 초기화: 벡터 스토어 및 프롬프트 템플릿 설정
+        """
         self.vectorstore = load_vectorstore(sources)
         self.llm = llm
         self.prompt = PromptTemplate(template=template, input_variables=["si_data"])
         self.chain = self.prompt | self.llm | StrOutputParser()
-        self.include_urls = include_urls
-        self.exclude_urls = exclude_urls
 
     def retrieve_documents(self, question: str):
         """
-        Retrieve relevant documents from the vectorstore based on the question (SI data).
+        벡터 스토어에서 주어진 질문과 관련된 문서를 검색
         """
         retriever = self.vectorstore.as_retriever(search_kwargs={'k': 5})
         relevant_docs = retriever.get_relevant_documents(question)
         return relevant_docs
 
-    def generate_response(self, si_data: str, retrieved_docs: list):
+    async def retrieve_updated_sanction_list(self, si_data: dict):
         """
-        Generate a response using the retrieved documents and the language model.
+        SI 데이터(SHIPPER, CONSIGNEE, 등)에 연관된 제재 리스트를 
+        웹 검색을 통해 업데이트된 정보로 확인
         """
+        # aiohttp 세션 생성하기
+        async with aiohttp.ClientSession() as session:
+            web_search = WebSearch(session)
+            
+            # 검색어 동적으로 생성하기
+            query = (
+                f"Find sanction list related to {si_data['SHIPPER']}, "
+                f"{si_data['CONSIGNEE']}, {si_data['NOTIFY_PARTIES']}, "
+                f"{si_data['HS_CODE']}, {si_data['CARGO_ITEM']}"
+            )
+            
+            # 포함/제외 URL 설정하기 (예시)
+            """
+            실시간 검색에서 포함/제외할 URL을 설정하는 것으로, 위의 RAG 생성 코드와는 다름
+            """
+            web_search.set_include_urls(['https://해당 주소를 포함해 주세요.com'])  # 포함 URL 설정하기 (예시)
+            web_search.set_exclude_urls(['https://해당 주소는 제외해 주세요.com'])  # 제외 URL 설정하기 (예시)
+            
+            # 웹 검색 수행하기
+            results = await web_search.search(query)
+            return results
+
+    def generate_response(self, si_data: str, retrieved_docs: list, sanction_updates: list):
+        """
+        검색된 문서와 웹 검색 결과를 바탕으로 응답을 생성하기
+        """
+        # 문서와 제재 업데이트 내용을 결합하여 컨텍스트 생성하기
         context = "\n\n".join([doc.page_content for doc in retrieved_docs])
-        question_with_context = f"{si_data}\n\nRelevant Documents:\n{context}"
+        sanction_info = "\n".join(sanction_updates)
+        question_with_context = f"{si_data}\n\nRelevant Documents:\n{context}\n\nUpdated Sanction List:\n{sanction_info}"
+        
+        # LLM을 사용하여 응답 생성
         return self.chain.invoke({'si_data': question_with_context})
 
-    def validate_and_generate(self, si_data: Dict[str, Any]):
+    async def invoke(self, si_data: dict):
         """
-        Validate SI data and generate response for compliance validation using RAG and web search.
+        주어진 SI 데이터에 대해 문서를 검색하고, 웹 검색을 통해 최신 제재 리스트를 확인한 후 응답을 생성하는 메인 함수
         """
-        # Step 5-1: Validate SI data against policy using both RAG and web search
-        issues = validate_si_data(si_data, self.vectorstore, self.include_urls, self.exclude_urls)
-        if issues:
-            print("Found the following issues in SI data:")
-            for issue in issues:
-                print(f"- {issue}")
-            return {"issues": issues}
+        # 1. 벡터 스토어에서 관련 문서 검색하기
+        retrieved_docs = self.retrieve_documents(si_data['SHIPPER'])
         
-        # Step 5-2: Retrieve relevant compliance documents
-        retrieved_docs = self.retrieve_documents(si_data['DESCRIPTION_OF_PACKAGES'])
+        # 2. 웹 검색을 통해 최신 제재 리스트 확인하기
+        sanction_updates = await self.retrieve_updated_sanction_list(si_data)
         
-        # Step 5-3: Generate response based on SI data and retrieved documents
-        response = self.generate_response(si_data['DESCRIPTION_OF_PACKAGES'], retrieved_docs)
+        # 3. 문서와 웹 검색 결과를 바탕으로 응답 생성하기
+        response = self.generate_response(si_data, retrieved_docs, sanction_updates)
         print(response)
         return response
