@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202411248653",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG, GERMANY",
+    "portOfLoading": "HAMBURG, GERMANY",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY, 20359",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 40 1234 5678",
+      "email": "INFO@GLOBALTRADING.DE"
+    },
+    "consignee": {
+      "name": "SEA LION LOGISTICS LTD.",
+      "address": "456 ALGEZIRAS AVENUE, ALGECIRAS, SPAIN, 11001",
+      "country": "SPAIN",
+      "email": "INFO@SEALIONLOGISTICS.ES",
+      "telephone": "+34 956 1234 5678",
+      "fax": "+34 956 1234 5679"
+    },
+    "notifyParty": {
+      "name": "SEA LION LOGISTICS LTD.",
+      "address": "456 ALGEZIRAS AVENUE, ALGECIRAS, SPAIN, 11001",
+      "country": "SPAIN",
+      "email": "INFO@SEALIONLOGISTICS.ES",
+      "telephone": "+34 956 1234 5678",
+      "fax": "+34 956 1234 5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS; OTHER VEHICLES, NOT SPECIFIED OR INCLUDED ELSEWHERE IN THIS CHAPTER; PARTS THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT6219915",
+      "sealNumber": "SEAL305387",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 10190.87,
+      "measurement": 30.6
+    },
+    {
+      "containerNumber": "CONT7153202",
+      "sealNumber": "SEAL944680",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 11613.02,
+      "measurement": 25.38
+    },
+    {
+      "containerNumber": "CONT4460873",
+      "sealNumber": "SEAL173328",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 15511.19,
+      "measurement": 38.51
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD PLATFORM",
+    "totalPackages": 180,
+    "totalGrossWeight": 37315.08,
+    "totalMeasurement": 94.49
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SEA LION LOGISTICS LTD.",
+      "address": "456 ALGEZIRAS AVENUE, ALGECIRAS, SPAIN, 11001",
+      "telephone": "+34 956 1234 5678",
+      "fax": "+34 956 1234 5679",
+      "email": "INFO@SEALIONLOGISTICS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SEA LION LOGISTICS LTD.",
+      "address": "456 ALGEZIRAS AVENUE, ALGECIRAS, SPAIN, 11001",
+      "telephone": "+34 956 1234 5678",
+      "fax": "+34 956 1234 5679",
+      "email": "INFO@SEALIONLOGISTICS.ES"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5355x2318x2324, THIS SIDE UP"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5355",
+    "width": "2318",
+    "height": "2324",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

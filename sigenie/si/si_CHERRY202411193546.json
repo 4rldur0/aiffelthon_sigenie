@@ -1,0 +1,153 @@
+{
+  "bookingReference": "CHERRY202411193546",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES LTD.",
+      "address": "123 DIGITAL AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JEREMY.LEE@ASIAINDUSTRY.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, GERMANY",
+      "country": "GERMANY",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALFREIGHTSOLUTIONS.DE",
+      "telephone": "+49 15 987 6910",
+      "fax": "+49 15 987 6913"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "340520",
+  "commodityDescription": "POTASSIUM HYDROXIDE",
+  "containers": [
+    {
+      "containerNumber": "CONT8887322",
+      "sealNumber": "SEAL694911",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 18080.76,
+      "measurement": 29.31
+    },
+    {
+      "containerNumber": "CONT6684161",
+      "sealNumber": "SEAL599993",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 8406.05,
+      "measurement": 22.68
+    },
+    {
+      "containerNumber": "CONT4965049",
+      "sealNumber": "SEAL238149",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 14542.54,
+      "measurement": 37.8
+    },
+    {
+      "containerNumber": "CONT4636946",
+      "sealNumber": "SEAL499590",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 11516.79,
+      "measurement": 22.33
+    },
+    {
+      "containerNumber": "CONT2226637",
+      "sealNumber": "SEAL532941",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 9440.62,
+      "measurement": 39.61
+    },
+    {
+      "containerNumber": "CONT9020189",
+      "sealNumber": "SEAL676216",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 17628.68,
+      "measurement": 33.32
+    },
+    {
+      "containerNumber": "CONT2912812",
+      "sealNumber": "SEAL926895",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 11847.92,
+      "measurement": 39.7
+    },
+    {
+      "containerNumber": "CONT6414242",
+      "sealNumber": "SEAL469339",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 19209.79,
+      "measurement": 38.73
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "8 x 40 STANDARD GENERAL",
+    "totalPackages": 394,
+    "totalGrossWeight": 110673.15,
+    "totalMeasurement": 263.48
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, GERMANY",
+      "telephone": "+49 15 987 6910",
+      "fax": "+49 15 987 6913",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, GERMANY",
+      "telephone": "+49 15 987 6910",
+      "fax": "+49 15 987 6913",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "onboardDate": "2024-11-22 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2245"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6801340",
+    "unClass": "6",
+    "unCode": "2245",
+    "hsCode": "6028.19.68",
+    "flashPoint": "41\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202411229958",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TEXTILE MANUFACTURING CO.",
+      "address": "1234 CENTURY AVENUE, PUDONG NEW AREA, SHANGHAI 200122, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "ATTN: MR. LI WEI",
+      "telephone": "+86 21 5888 7193",
+      "fax": "+86 21 5888 7778",
+      "email": "WEI.LI@SHANGHAITEXTILE.CN"
+    },
+    "consignee": {
+      "name": "GREEN VALLEY IMPORTS LTD.",
+      "address": "15 ST. JAMES STREET, ROTTERDAM 3011 BG, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 841 23 45",
+      "fax": "+31 10 841 23 46",
+      "email": "INFO@GREENVALLEYIMPORTS.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "4567 DAM SQUARE, AMSTERDAM 1012 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 624 78 90",
+      "fax": "+31 20 624 78 91",
+      "email": "CONTACT@WORLDWIDE-LOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS, CLASS: 3, UN NUMBER: 1549",
+  "containers": [
+    {
+      "containerNumber": "CONT3875573",
+      "sealNumber": "SEAL634486",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 7334.47,
+      "measurement": 38.4
+    },
+    {
+      "containerNumber": "CONT9604565",
+      "sealNumber": "SEAL783217",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 19431.87,
+      "measurement": 38.28
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 90,
+    "totalGrossWeight": 26766.34,
+    "totalMeasurement": 76.68
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC23456789012"
+    },
+    "certificateDetails": [
+      " DANGEROUS GOODS CERTIFICATE",
+      " MSDS CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "4567 DAM SQUARE, AMSTERDAM 1012 NL, NETHERLANDS",
+      "telephone": "+31 20 624 78 90",
+      "fax": "+31 20 624 78 91",
+      "email": "CONTACT@WORLDWIDE-LOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN VALLEY IMPORTS LTD.",
+      "address": "15 ST. JAMES STREET, ROTTERDAM 3011 BG, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 841 23 45",
+      "fax": "+31 10 841 23 46",
+      "email": "INFO@GREENVALLEYIMPORTS.NL"
+    },
+    "onboardDate": "2024-12-07 10:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1549, VALUE: USD18,256"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5972009",
+    "unClass": "9",
+    "unCode": "1549,",
+    "hsCode": "1808.75.68",
+    "flashPoint": "40\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

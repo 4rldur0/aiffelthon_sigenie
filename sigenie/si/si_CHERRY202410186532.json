@@ -1,0 +1,118 @@
+{
+  "bookingReference": "CHERRY202410186532",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "COOLFRESH FOODS INC",
+      "address": "1234 OCEAN DRIVE, NINGBO, ZHEJIANG 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "INFO@COOLFRESHFOODS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING ENTERPRISE LTD",
+      "address": "10 HAMBURG STREET, HAMBURG 20095, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "ORDERS@GLOBALTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING ENTERPRISE LTD",
+      "address": "10 HAMBURG STREET, HAMBURG 20095, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "ORDERS@GLOBALTRADING.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN ATLANTIC SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT9767210",
+      "sealNumber": "SEAL709036",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 11024.88,
+      "measurement": 27.12
+    },
+    {
+      "containerNumber": "CONT2271835",
+      "sealNumber": "SEAL483385",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 19741.21,
+      "measurement": 26.35
+    },
+    {
+      "containerNumber": "CONT3356873",
+      "sealNumber": "SEAL153766",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 8870.05,
+      "measurement": 21.23
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 187,
+    "totalGrossWeight": 39636.14,
+    "totalMeasurement": 74.7
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241018001"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING ENTERPRISE LTD",
+      "address": "10 HAMBURG STREET, HAMBURG 20095, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "ORDERS@GLOBALTRADING.DE"
+    },
+    "onboardDate": "2024-10-27 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 14\u00b0C, VALUE: USD528,854"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8435007",
+    "temperature": "14\u00b0C",
+    "minTemperature": "12\u00b0C",
+    "maxTemperature": "16\u00b0C",
+    "ventilation": "5%",
+    "humidity": "85%"
+  }
+}

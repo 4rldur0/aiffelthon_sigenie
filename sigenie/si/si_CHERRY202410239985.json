@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410239985",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "CASABLANCA, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@DELTAINDUSTRIESINC.COM"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "country": "MOROCCO",
+      "telephone": "+212 522 4567 8901",
+      "fax": "+212 522 4567 8902",
+      "email": "INFO@OMEGASHIPPINGLTD.COM"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "country": "MOROCCO",
+      "telephone": "+212 522 4567 8901",
+      "fax": "+212 522 4567 8902",
+      "email": "INFO@OMEGASHIPPINGLTD.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "295110",
+  "commodityDescription": "ORGANIC CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT9832142",
+      "sealNumber": "SEAL698359",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 8307.81,
+      "measurement": 34.72
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 50,
+    "totalGrossWeight": 8307.81,
+    "totalMeasurement": 34.72
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "DANGEROUS GOODS CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 4567 8901",
+      "fax": "+212 522 4567 8902",
+      "email": "INFO@OMEGASHIPPINGLTD.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "country": "MOROCCO",
+      "telephone": "+212 522 4567 8901",
+      "fax": "+212 522 4567 8902",
+      "email": "INFO@OMEGASHIPPINGLTD.COM"
+    },
+    "onboardDate": "2024-10-26 19:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2951, VALUE: USD10,252, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1077603",
+    "unClass": "1",
+    "unCode": "2951,",
+    "hsCode": "3263.92.31",
+    "flashPoint": "86\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

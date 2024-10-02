@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202411091080",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL IMPORTS INC.",
+      "onBehalfOf": "",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@GLOBALIMPORTSINC.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING LTD.",
+      "address": "456 BROADWAY, LONDON, WC2R 1EJ, UNITED KINGDOM",
+      "companyNumber": "12345678",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "INFO@SUNRISETRADINGLTD.COM"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING LTD.",
+      "address": "456 BROADWAY, LONDON, WC2R 1EJ, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940350",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT8862108",
+      "sealNumber": "SEAL209316",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 5444.17,
+      "measurement": 35.37
+    },
+    {
+      "containerNumber": "CONT3139609",
+      "sealNumber": "SEAL440276",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 15243.15,
+      "measurement": 30.42
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 65,
+    "totalGrossWeight": 20687.32,
+    "totalMeasurement": 65.79
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING LTD.",
+      "address": "456 BROADWAY, LONDON, WC2R 1EJ, UNITED KINGDOM",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568"
+    },
+    "onboardDate": "2024-11-19 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411265663",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA TRADING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@TAIHANGLOBAL.NL",
+      "contactPerson": "JAN HENDRIKS"
+    },
+    "notifyParty": {
+      "name": "TAIHAN GLOBAL CO., LTD."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT4559209",
+      "sealNumber": "SEAL640499",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 10863.69,
+      "measurement": 24.48
+    },
+    {
+      "containerNumber": "CONT7510696",
+      "sealNumber": "SEAL242543",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 19160.41,
+      "measurement": 22.75
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 66,
+    "totalGrossWeight": 30024.1,
+    "totalMeasurement": 47.23
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241126-1001",
+    "documentNumber": "20241126-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -14\u00b0C, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4007220",
+    "temperature": "-14\u00b0C",
+    "minTemperature": "-16\u00b0C",
+    "maxTemperature": "-12\u00b0C",
+    "ventilation": "94%",
+    "humidity": "78%"
+  }
+}

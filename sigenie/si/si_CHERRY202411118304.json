@@ -1,0 +1,118 @@
+{
+  "bookingReference": "CHERRY202411118304",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS",
+      "address": "NO. 888, SHANGHAI ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "SHIPPING@ASIAPACIFICCHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "EUROCHEM IMPORT BV",
+      "address": "VAN DER WAALSSTRAAT 12, 3011 BK ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@EUROCHEMIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 TOWER BRIDGE ROAD, LONDON SE1 2AA, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "telephone": "+44 20 7940 5678",
+      "fax": "+44 20 7940 5679",
+      "email": "OPERATIONS@GLOBALFREIGHTSOLUTIONS.CO.UK"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382490",
+  "commodityDescription": "OTHER CHEMICAL PRODUCTS, N.O.S.",
+  "containers": [
+    {
+      "containerNumber": "CONT8695990",
+      "sealNumber": "SEAL631138",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 14353.27,
+      "measurement": 23.36
+    },
+    {
+      "containerNumber": "CONT8229676",
+      "sealNumber": "SEAL159025",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 13579.34,
+      "measurement": 29.55
+    },
+    {
+      "containerNumber": "CONT2935731",
+      "sealNumber": "SEAL862530",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 15972.98,
+      "measurement": 25.79
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 141,
+    "totalGrossWeight": 43905.59,
+    "totalMeasurement": 78.7
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF ANALYSIS"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROCHEM IMPORT BV",
+      "address": "VAN DER WAALSSTRAAT 12, 3011 BK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@EUROCHEMIMPORT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROCHEM IMPORT BV",
+      "address": "VAN DER WAALSSTRAAT 12, 3011 BK ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@EUROCHEMIMPORT.NL"
+    },
+    "onboardDate": "2024-11-16 10:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1817, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5895934",
+    "unClass": "7",
+    "unCode": "1817,",
+    "hsCode": "4652.97.64",
+    "flashPoint": "-4\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

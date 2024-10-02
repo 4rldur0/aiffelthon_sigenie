@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410317640",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 YONGFU ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "LEVEL 20, 101 COLLINS STREET, MELBOURNE, VIC 3000, AUSTRALIA",
+      "taxId": "ABN 12 345 678 901",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+61 3 9652 1234",
+      "fax": "+61 3 9652 1235",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM.AU"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "LEVEL 20, 101 COLLINS STREET, MELBOURNE, VIC 3000, AUSTRALIA",
+      "taxId": "ABN 12 345 678 901",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+61 3 9652 1234",
+      "fax": "+61 3 9652 1235",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM.AU"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT1185316",
+      "sealNumber": "SEAL888549",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 17619.87,
+      "measurement": 38.45
+    },
+    {
+      "containerNumber": "CONT9836990",
+      "sealNumber": "SEAL483465",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 19858.14,
+      "measurement": 24.69
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD PLATFORM",
+    "totalPackages": 144,
+    "totalGrossWeight": 37478.01,
+    "totalMeasurement": 63.14
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "LEVEL 20, 101 COLLINS STREET, MELBOURNE, VIC 3000, AUSTRALIA",
+      "telephone": "+61 3 9652 1234",
+      "fax": "+61 3 9652 1235",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM.AU"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "LEVEL 20, 101 COLLINS STREET, MELBOURNE, VIC 3000, AUSTRALIA",
+      "telephone": "+61 3 9652 1234",
+      "fax": "+61 3 9652 1235",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM.AU"
+    },
+    "onboardDate": "2024-11-12 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5919x2922x2803, ON DECK TOP STOWAGE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5919",
+    "width": "2922",
+    "height": "2803",
+    "overWidth": "482",
+    "overHeight": "213"
+  }
+}

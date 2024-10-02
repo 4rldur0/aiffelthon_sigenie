@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202411205615",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL LOGISTICS",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212-5-2222-3333",
+      "fax": "+212-5-2222-3334",
+      "email": "INFO@OMEGALOGISTICS.MA",
+      "contactPerson": "MOHAMED ALI"
+    },
+    "notifyParty": {
+      "name": "OMEGA GLOBAL LOGISTICS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "2819",
+  "commodityDescription": "SODIUM HYPOCHLORITE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT4048920",
+      "sealNumber": "SEAL784646",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 12856.13,
+      "measurement": 20.61
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 33,
+    "totalGrossWeight": 12856.13,
+    "totalMeasurement": 20.61
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL LOGISTICS",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212-5-2222-3333",
+      "fax": "+212-5-2222-3334"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL LOGISTICS",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212-5-2222-3333",
+      "fax": "+212-5-2222-3334"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2819, VALUE: USD487,394, 21 DAYS FREE TIME AT DESTINATION",
+    "dangerousGoods": {
+      "unNumber": "2819",
+      "class": "8",
+      "packingGroup": "III"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1223009",
+    "unClass": "6",
+    "unCode": "2819,",
+    "hsCode": "8712.13.61",
+    "flashPoint": "-9\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

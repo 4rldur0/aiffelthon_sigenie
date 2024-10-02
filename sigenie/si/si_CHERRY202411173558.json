@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411173558",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HARVE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE CHEMICAL INDUSTRIES LTD",
+      "address": "100 PASIR PANJANG ROAD, SINGAPORE 118524",
+      "lei": "549300F492D3B3F2E998",
+      "telephone": "+65 6265 1234",
+      "fax": "+65 6265 5678",
+      "email": "INFO@SINGAPORECHEMICAL.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (FRANCE) SAS",
+      "address": "14 RUE DE LA LIBERTE, 92150 SURESNES, FRANCE",
+      "usci": "343123456789012",
+      "president": "PIERRE DUPONT",
+      "telephone": "+33 1 46 49 50 00",
+      "fax": "+33 1 46 49 50 01",
+      "email": "PIERRE.DUPONT@DHL.COM"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "201 ROBINSON ROAD, #12-01, SHANGRI-LA HOTEL, SINGAPORE 068963",
+      "usci": "913123456789012",
+      "telephone": "+65 6395 6666",
+      "fax": "+65 6395 6667",
+      "email": "INFO@DHL.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "281010",
+  "commodityDescription": "BORIC ACID POWDER",
+  "containers": [
+    {
+      "containerNumber": "CONT5819983",
+      "sealNumber": "SEAL965280",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 13612.29,
+      "measurement": 34.94
+    },
+    {
+      "containerNumber": "CONT6768661",
+      "sealNumber": "SEAL945449",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 5746.09,
+      "measurement": 37.42
+    },
+    {
+      "containerNumber": "CONT6333932",
+      "sealNumber": "SEAL257072",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 17675.67,
+      "measurement": 31.92
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 225,
+    "totalGrossWeight": 37034.05,
+    "totalMeasurement": 104.28
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (FRANCE) SAS",
+      "address": "14 RUE DE LA LIBERTE, 92150 SURESNES, FRANCE",
+      "telephone": "+33 1 46 49 50 00",
+      "fax": "+33 1 46 49 50 01",
+      "email": "PIERRE.DUPONT@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "201 ROBINSON ROAD, #12-01, SHANGRI-LA HOTEL, SINGAPORE 068963",
+      "telephone": "+65 6395 6666",
+      "fax": "+65 6395 6667",
+      "email": "INFO@DHL.COM"
+    },
+    "onboardDate": "2024-12-03 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2692, VALUE: USD39,338, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1965081",
+    "unClass": "9",
+    "unCode": "2692,",
+    "hsCode": "9659.38.17",
+    "flashPoint": "24\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202410031260",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "NO. 1234, YONGHUA ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO OFFICE)",
+      "telephone": "+86 574 8765 4321",
+      "email": "SALES@SUNRISEELECTRONICS.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GLOBALLOGISTICS.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GLOBALLOGISTICS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "340213",
+  "commodityDescription": "ACETIC ACID",
+  "containers": [
+    {
+      "containerNumber": "CONT9956823",
+      "sealNumber": "SEAL907981",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 11584.03,
+      "measurement": 37.48
+    },
+    {
+      "containerNumber": "CONT2761453",
+      "sealNumber": "SEAL105634",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 11278.09,
+      "measurement": 39.05
+    },
+    {
+      "containerNumber": "CONT6763693",
+      "sealNumber": "SEAL725238",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 19971.5,
+      "measurement": 21.37
+    },
+    {
+      "containerNumber": "CONT4994764",
+      "sealNumber": "SEAL675140",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 11958.82,
+      "measurement": 36.26
+    },
+    {
+      "containerNumber": "CONT7422069",
+      "sealNumber": "SEAL678719",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 13167.8,
+      "measurement": 29.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD GENERAL",
+    "totalPackages": 81,
+    "totalGrossWeight": 67960.24,
+    "totalMeasurement": 163.66
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "ORDERS@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "ORDERS@GLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-12 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2334, VALUE: USD41,082"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5074323",
+    "unClass": "7",
+    "unCode": "2334,",
+    "hsCode": "5058.65.66",
+    "flashPoint": "61\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

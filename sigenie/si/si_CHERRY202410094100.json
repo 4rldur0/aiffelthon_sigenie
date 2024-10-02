@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202410094100",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SHIPPING@APMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "100 BROADWAY, NEW YORK, NY 10004, USA",
+      "taxId": "123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "JOHN.SMITH@GSSINC.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS CO.",
+      "address": "150 PARK AVENUE, NEW YORK, NY 10017, USA",
+      "taxId": "987654321",
+      "president": "MS. JANE DOE",
+      "telephone": "+1 212 555 2323",
+      "fax": "+1 212 555 2324"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT8817125",
+      "sealNumber": "SEAL228601",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 18188.1,
+      "measurement": 33.49
+    },
+    {
+      "containerNumber": "CONT8924247",
+      "sealNumber": "SEAL164230",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 16355.74,
+      "measurement": 29.81
+    },
+    {
+      "containerNumber": "CONT5788322",
+      "sealNumber": "SEAL714137",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 15811.83,
+      "measurement": 31.98
+    },
+    {
+      "containerNumber": "CONT2089973",
+      "sealNumber": "SEAL980355",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 7924.09,
+      "measurement": 39.79
+    },
+    {
+      "containerNumber": "CONT4537047",
+      "sealNumber": "SEAL850081",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 16014.02,
+      "measurement": 34.13
+    },
+    {
+      "containerNumber": "CONT5384528",
+      "sealNumber": "SEAL439851",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 8591.43,
+      "measurement": 24.84
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD GENERAL",
+    "totalPackages": 290,
+    "totalGrossWeight": 82885.21,
+    "totalMeasurement": 194.04
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS CO.",
+      "address": "150 PARK AVENUE, NEW YORK, NY 10017, USA",
+      "telephone": "+1 212 555 2323",
+      "fax": "+1 212 555 2324",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "100 BROADWAY, NEW YORK, NY 10004, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "JOHN.SMITH@GSSINC.COM"
+    },
+    "onboardDate": "2024-10-20 09:00",
+    "additionalRemarks": "KEEP DRY"
+  }
+}

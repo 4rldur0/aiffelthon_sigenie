@@ -27,7 +27,6 @@ This is the summarized report on SI cherry202409072244:
 		- FREIGHT TERMS: OK (COLLECT)
     5. ...
 """
-
 validation_report_prompt = """
 
 """
@@ -58,4 +57,10 @@ Provide a detailed response, including any relevant regulations, compliance issu
 
 verify_company_policy_prompt = """
 
+"""
+validation_report_prompt = """
+Summarize data below
+
+Data: 
+{sources}
 """

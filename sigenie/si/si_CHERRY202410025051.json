@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202410025051",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECHNO INDUSTRIES CO. LTD.",
+      "address": "1234 SHENNAN ROAD, NINGBO 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@TECHNOINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "101 PARK AVENUE, NEW YORK, NY 10017, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE SHIPPING AND LOGISTICS",
+      "address": "555 BROADWAY, NEW YORK, NY 10003, USA",
+      "country": "USA",
+      "telephone": "+1 646 555 6789",
+      "fax": "+1 646 555 6790",
+      "email": "NOTIFICATIONS@WORLDWIDESHIPPINGLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "CHEMICAL PRODUCTS N.E.C.",
+  "containers": [
+    {
+      "containerNumber": "CONT1009169",
+      "sealNumber": "SEAL476563",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 16939.23,
+      "measurement": 26.11
+    },
+    {
+      "containerNumber": "CONT5976176",
+      "sealNumber": "SEAL708536",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 9004.16,
+      "measurement": 23.02
+    },
+    {
+      "containerNumber": "CONT3942391",
+      "sealNumber": "SEAL156620",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 8026.7,
+      "measurement": 39.7
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 77,
+    "totalGrossWeight": 33970.09,
+    "totalMeasurement": 88.83
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024102312345"
+    },
+    "certificateDetails": [
+      "FUMIGATION CERTIFICATE",
+      "CERTIFICATE OF ORIGIN",
+      "DANGEROUS GOODS CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "101 PARK AVENUE, NEW YORK, NY 10017, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2331, VALUE: USD785,317"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4772446",
+    "unClass": "9",
+    "unCode": "2331,",
+    "hsCode": "5044.98.18",
+    "flashPoint": "72\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

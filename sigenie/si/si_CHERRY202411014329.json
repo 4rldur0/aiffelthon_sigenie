@@ -1,0 +1,166 @@
+{
+  "bookingReference": "CHERRY202411014329",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": " SIEMENS AG",
+      "address": "BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@DHL.COM",
+      "contactPerson": "PETER SCHMIDT"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "39269092",
+  "commodityDescription": "DANGEROUS GOODS",
+  "containers": [
+    {
+      "containerNumber": "CONT3875180",
+      "sealNumber": "SEAL188069",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 6804.53,
+      "measurement": 31.96
+    },
+    {
+      "containerNumber": "CONT3228650",
+      "sealNumber": "SEAL109202",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 16599.14,
+      "measurement": 28.35
+    },
+    {
+      "containerNumber": "CONT9068277",
+      "sealNumber": "SEAL895120",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 19955.84,
+      "measurement": 21.95
+    },
+    {
+      "containerNumber": "CONT8035018",
+      "sealNumber": "SEAL433263",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 19132.82,
+      "measurement": 39.31
+    },
+    {
+      "containerNumber": "CONT3001558",
+      "sealNumber": "SEAL391097",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 19570.0,
+      "measurement": 33.95
+    },
+    {
+      "containerNumber": "CONT4559205",
+      "sealNumber": "SEAL679493",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 14209.73,
+      "measurement": 36.59
+    },
+    {
+      "containerNumber": "CONT7794390",
+      "sealNumber": "SEAL378144",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 14379.76,
+      "measurement": 29.4
+    },
+    {
+      "containerNumber": "CONT2732643",
+      "sealNumber": "SEAL284819",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 17711.62,
+      "measurement": 27.29
+    },
+    {
+      "containerNumber": "CONT7444426",
+      "sealNumber": "SEAL384091",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 9659.74,
+      "measurement": 37.35
+    },
+    {
+      "containerNumber": "CONT5299835",
+      "sealNumber": "SEAL977234",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 15908.03,
+      "measurement": 31.63
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "10 x 40 HIGH CUBE TANK",
+    "totalPackages": 590,
+    "totalGrossWeight": 153931.21,
+    "totalMeasurement": 317.78
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241101-1001",
+    "documentNumber": "20241101-1001",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "onboardDate": "2024-11-06 22:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1441",
+    "dangerousGoods": {
+      "unNumber": "1441",
+      "properShippingName": "ETHYLENE OXIDE"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2312940",
+    "unClass": "8",
+    "unCode": "1441",
+    "hsCode": "5470.66.67",
+    "flashPoint": "100\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

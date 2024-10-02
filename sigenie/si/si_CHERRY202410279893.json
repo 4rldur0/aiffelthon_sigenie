@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202410279893",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GAMMA INDUSTRIES CO.",
+      "onBeHalfOf": "",
+      "address": "1234 INDUSTRY RD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@GAMMAINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "888 OCEAN VIEW RD, CASABLANCA, MOROCCO, 20200",
+      "companyNumber": "123456789",
+      "telephone": "+212 522 498 7000",
+      "fax": "+212 522 498 7001",
+      "email": "JANSSEN.EMMA@OMEGASHIPPING.MA"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "888 OCEAN VIEW RD, CASABLANCA, MOROCCO, 20200"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN SALMON FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT9722082",
+      "sealNumber": "SEAL656490",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 17100.55,
+      "measurement": 38.79
+    },
+    {
+      "containerNumber": "CONT3531421",
+      "sealNumber": "SEAL632219",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 19078.18,
+      "measurement": 28.05
+    },
+    {
+      "containerNumber": "CONT9230713",
+      "sealNumber": "SEAL511707",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 12948.11,
+      "measurement": 28.45
+    },
+    {
+      "containerNumber": "CONT9274360",
+      "sealNumber": "SEAL771990",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 12081.28,
+      "measurement": 31.99
+    },
+    {
+      "containerNumber": "CONT3619723",
+      "sealNumber": "SEAL260007",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 18499.71,
+      "measurement": 26.85
+    },
+    {
+      "containerNumber": "CONT4597119",
+      "sealNumber": "SEAL604125",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 17544.47,
+      "measurement": 22.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD REEFER",
+    "totalPackages": 275,
+    "totalGrossWeight": 97252.3,
+    "totalMeasurement": 176.75
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "888 OCEAN VIEW RD, CASABLANCA, MOROCCO, 20200"
+    },
+    "onboardDate": "2024-11-06 15:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -13\u00b0C, VALUE: USD968,231"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6675008",
+    "temperature": "-13\u00b0C",
+    "minTemperature": "-15\u00b0C",
+    "maxTemperature": "-11\u00b0C",
+    "ventilation": "91%",
+    "humidity": "87%"
+  }
+}

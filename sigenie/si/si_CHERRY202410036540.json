@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410036540",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. INC.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 7193",
+      "fax": "+86 21 5555 7778",
+      "email": "ZHANG.WEI@BETATRADING.CN"
+    },
+    "consignee": {
+      "name": "ALPHA INTERNATIONAL LTD",
+      "address": "5678 ALICANTE STREET, ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "MARIA.LOPEZ@ALPHAINTERNATIONAL.ES"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS S.A.",
+      "address": "9012 PORT STREET, ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 956 789 123",
+      "fax": "+34 956 789 124",
+      "email": "ANNA.NOVAK@WORLDWIDE-LOGISTICS.ES"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "333499",
+  "commodityDescription": "OTHER WINE OF GRAPE, NESOI",
+  "containers": [
+    {
+      "containerNumber": "CONT6530724",
+      "sealNumber": "SEAL503374",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 9099.51,
+      "measurement": 33.65
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 32,
+    "totalGrossWeight": 9099.51,
+    "totalMeasurement": 33.65
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      " FUMIGATION CERTIFICATE",
+      " CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA INTERNATIONAL LTD",
+      "address": "5678 ALICANTE STREET, ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "MARIA.LOPEZ@ALPHAINTERNATIONAL.ES"
+    },
+    "onboardDate": "2024-10-20 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1759, VALUE: USD406,005, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7581488",
+    "unClass": "1",
+    "unCode": "1759,",
+    "hsCode": "9655.73.52",
+    "flashPoint": "-6\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

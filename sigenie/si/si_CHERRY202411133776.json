@@ -1,0 +1,138 @@
+{
+  "bookingReference": "CHERRY202411133776",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FRESH PRODUCE CO LTD",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "DELTA GLOBAL LOGISTICS LTD",
+      "address": "12 RUE DE LA PAIX, PARIS, 75001",
+      "country": "FRANCE",
+      "email": "ORDERS@DELTAGLOBALLOGISTICS.FR",
+      "telephone": "+33 1 42 46 57 89"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "070990",
+  "commodityDescription": "FRESH MANGOES",
+  "containers": [
+    {
+      "containerNumber": "CONT9422171",
+      "sealNumber": "SEAL928655",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 18999.47,
+      "measurement": 23.02
+    },
+    {
+      "containerNumber": "CONT6384782",
+      "sealNumber": "SEAL966189",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 13269.65,
+      "measurement": 27.28
+    },
+    {
+      "containerNumber": "CONT4555146",
+      "sealNumber": "SEAL119092",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 8120.72,
+      "measurement": 39.88
+    },
+    {
+      "containerNumber": "CONT2969419",
+      "sealNumber": "SEAL517983",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 19584.04,
+      "measurement": 30.72
+    },
+    {
+      "containerNumber": "CONT7992050",
+      "sealNumber": "SEAL745474",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 7014.7,
+      "measurement": 20.46
+    },
+    {
+      "containerNumber": "CONT1378496",
+      "sealNumber": "SEAL113892",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 18223.08,
+      "measurement": 29.05
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD REEFER",
+    "totalPackages": 262,
+    "totalGrossWeight": 85211.66,
+    "totalMeasurement": 170.41
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-19 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 0\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5609121",
+    "temperature": "0\u00b0C",
+    "minTemperature": "-2\u00b0C",
+    "maxTemperature": "2\u00b0C",
+    "ventilation": "60%",
+    "humidity": "72%"
+  }
+}

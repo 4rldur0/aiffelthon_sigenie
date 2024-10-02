@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202410232720",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA FOODS EXPORTERS INC.",
+      "address": "123 OCEAN VIEW DRIVE, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORTERS LTD",
+      "address": "456 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL IMPORTERS LTD",
+      "address": "456 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN SALMON FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT1523781",
+      "sealNumber": "SEAL803712",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 5835.67,
+      "measurement": 29.54
+    },
+    {
+      "containerNumber": "CONT3742962",
+      "sealNumber": "SEAL597840",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 14105.74,
+      "measurement": 22.4
+    },
+    {
+      "containerNumber": "CONT7707510",
+      "sealNumber": "SEAL470799",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 6778.17,
+      "measurement": 21.58
+    },
+    {
+      "containerNumber": "CONT5674245",
+      "sealNumber": "SEAL371164",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 7656.99,
+      "measurement": 25.01
+    },
+    {
+      "containerNumber": "CONT6109743",
+      "sealNumber": "SEAL849052",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 15828.91,
+      "measurement": 37.95
+    },
+    {
+      "containerNumber": "CONT7220990",
+      "sealNumber": "SEAL924102",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 7094.04,
+      "measurement": 35.44
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD REEFER",
+    "totalPackages": 342,
+    "totalGrossWeight": 57299.52,
+    "totalMeasurement": 171.92
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410230123"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL IMPORTERS LTD",
+      "address": "456 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL IMPORTERS LTD",
+      "address": "456 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "onboardDate": "2024-10-28 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -15\u00b0C, 21 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8619563",
+    "temperature": "-15\u00b0C",
+    "minTemperature": "-17\u00b0C",
+    "maxTemperature": "-13\u00b0C",
+    "ventilation": "31%",
+    "humidity": "78%"
+  }
+}

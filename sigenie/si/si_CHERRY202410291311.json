@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410291311",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA INTERNATIONAL CORP.",
+      "address": "123 GLOBAL TRADE CENTER, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "330210",
+  "commodityDescription": "PERFUMES",
+  "containers": [
+    {
+      "containerNumber": "CONT9176945",
+      "sealNumber": "SEAL399737",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 12293.45,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CONT4770527",
+      "sealNumber": "SEAL678339",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 6223.84,
+      "measurement": 35.97
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 125,
+    "totalGrossWeight": 18517.29,
+    "totalMeasurement": 60.47
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410291311"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSURANCE"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "onboardDate": "2024-11-07 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2175"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7752627",
+    "unClass": "4",
+    "unCode": "2175",
+    "hsCode": "7571.91.58",
+    "flashPoint": "48\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

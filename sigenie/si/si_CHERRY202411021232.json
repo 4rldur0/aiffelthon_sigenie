@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411021232",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA INTERNATIONAL INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO. LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-6351-2345",
+      "fax": "+31-20-6351-2346",
+      "email": "INFO@DELTATRADING.NL",
+      "contactPerson": "PETER VAN DER MARK"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-6351-2345",
+      "fax": "+31-20-6351-2346"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CONSTRUCTION SETS",
+  "containers": [
+    {
+      "containerNumber": "CONT6253439",
+      "sealNumber": "SEAL522979",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 7907.25,
+      "measurement": 37.81
+    },
+    {
+      "containerNumber": "CONT8689343",
+      "sealNumber": "SEAL869161",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 18955.58,
+      "measurement": 23.84
+    },
+    {
+      "containerNumber": "CONT3101083",
+      "sealNumber": "SEAL542711",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 18392.73,
+      "measurement": 20.35
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 152,
+    "totalGrossWeight": 45255.56,
+    "totalMeasurement": 82.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-6351-2345",
+      "fax": "+31-20-6351-2346"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-6351-2345",
+      "fax": "+31-20-6351-2346"
+    },
+    "onboardDate": "2024-11-16 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

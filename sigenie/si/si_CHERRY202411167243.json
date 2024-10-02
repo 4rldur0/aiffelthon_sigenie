@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202411167243",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENGINEERING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8887",
+      "email": "INFO@ASIAENGINEERING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "5678 WARSAW STREET, GDANSK, POLAND",
+      "taxId": "PL9999999999",
+      "president": "MR. JAN NOWAK",
+      "telephone": "+48 58 555 55 55",
+      "fax": "+48 58 555 55 56",
+      "email": "INFO@GLOBALFREIGHT.PL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "5678 WARSAW STREET, GDANSK, POLAND",
+      "telephone": "+48 58 555 55 55",
+      "fax": "+48 58 555 55 56",
+      "email": "INFO@GLOBALFREIGHT.PL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT7671260",
+      "sealNumber": "SEAL659171",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 5409.74,
+      "measurement": 26.12
+    },
+    {
+      "containerNumber": "CONT3195683",
+      "sealNumber": "SEAL789428",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 6927.95,
+      "measurement": 28.73
+    },
+    {
+      "containerNumber": "CONT9657486",
+      "sealNumber": "SEAL307551",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 12277.65,
+      "measurement": 27.16
+    },
+    {
+      "containerNumber": "CONT6937686",
+      "sealNumber": "SEAL105569",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 9698.69,
+      "measurement": 31.29
+    },
+    {
+      "containerNumber": "CONT1459333",
+      "sealNumber": "SEAL746902",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 15552.21,
+      "measurement": 35.7
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD OPEN TOP",
+    "totalPackages": 303,
+    "totalGrossWeight": 49866.24,
+    "totalMeasurement": 149.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "5678 WARSAW STREET, GDANSK, POLAND",
+      "telephone": "+48 58 555 55 55",
+      "fax": "+48 58 555 55 56",
+      "email": "INFO@GLOBALFREIGHT.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "5678 WARSAW STREET, GDANSK, POLAND",
+      "telephone": "+48 58 555 55 55",
+      "fax": "+48 58 555 55 56",
+      "email": "INFO@GLOBALFREIGHT.PL"
+    },
+    "onboardDate": "2024-11-26 19:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 2529x2776x2010, VALUE: USD47,250, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2529",
+    "width": "2776",
+    "height": "2010",
+    "overWidth": "336",
+    "overHeight": "0"
+  }
+}

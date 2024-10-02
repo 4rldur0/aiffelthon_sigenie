@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411249964",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA FRESH PRODUCE CO. LTD",
+      "onBehalfOf": "",
+      "address": "1234 FRESH PRODUCE RD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAFRESHPRODUCE.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FOOD TRADING LTD",
+      "address": "1234 GLOBAL TRADE ST, HAMBURG, GERMANY",
+      "companyNumber": "123456789",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "JANSSEN.EMMA@GLOBALFOODTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FOOD TRADING LTD",
+      "address": "1234 GLOBAL TRADE ST, HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080550",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT1953393",
+      "sealNumber": "SEAL160683",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 13429.85,
+      "measurement": 23.61
+    },
+    {
+      "containerNumber": "CONT1599419",
+      "sealNumber": "SEAL528850",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 13958.7,
+      "measurement": 31.92
+    },
+    {
+      "containerNumber": "CONT7759649",
+      "sealNumber": "SEAL878044",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 17003.84,
+      "measurement": 36.35
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD REEFER",
+    "totalPackages": 162,
+    "totalGrossWeight": 44392.39,
+    "totalMeasurement": 91.88
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA FRESH PRODUCE CO. LTD",
+      "address": "1234 FRESH PRODUCE RD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAFRESHPRODUCE.CN"
+    },
+    "onboardDate": "2024-12-07 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 11\u00b0C, VALUE: USD860,685"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3717615",
+    "temperature": "11\u00b0C",
+    "minTemperature": "9\u00b0C",
+    "maxTemperature": "13\u00b0C",
+    "ventilation": "91%",
+    "humidity": "83%"
+  }
+}

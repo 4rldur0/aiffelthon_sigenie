@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411204965",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA IMPORTS CO.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "BETA SHIPPING LTD.",
+      "address": "NO. 456, AL-MASIRA STREET, RABAT, MOROCCO 10000",
+      "telephone": "+212-537-654321",
+      "fax": "+212-537-654322"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030211",
+  "commodityDescription": "FROZEN TUNA",
+  "containers": [
+    {
+      "containerNumber": "CONT8012266",
+      "sealNumber": "SEAL636610",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 9062.33,
+      "measurement": 35.3
+    },
+    {
+      "containerNumber": "CONT2229338",
+      "sealNumber": "SEAL600708",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 11031.04,
+      "measurement": 22.38
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 105,
+    "totalGrossWeight": 20093.37,
+    "totalMeasurement": 57.68
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "BETA SHIPPING LTD.",
+      "address": "NO. 456, AL-MASIRA STREET, RABAT, MOROCCO 10000",
+      "telephone": "+212-537-654321",
+      "fax": "+212-537-654322"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA SHIPPING LTD.",
+      "address": "NO. 456, AL-MASIRA STREET, RABAT, MOROCCO 10000",
+      "telephone": "+212-537-654321",
+      "fax": "+212-537-654322"
+    },
+    "onboardDate": "2024-11-26 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -11\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6053444",
+    "temperature": "-11\u00b0C",
+    "minTemperature": "-13\u00b0C",
+    "maxTemperature": "-9\u00b0C",
+    "ventilation": "86%",
+    "humidity": "94%"
+  }
+}

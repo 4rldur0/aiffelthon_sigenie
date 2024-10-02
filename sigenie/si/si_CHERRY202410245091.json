@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410245091",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "PORT KLANG, MALAYSIA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 OCEAN AVE, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8666 1234",
+      "fax": "+86 574 8666 5678",
+      "email": "SHIPPING@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "555 PORT KLANG ROAD, PORT KLANG, MALAYSIA 42000",
+      "companyNumber": "1234567890",
+      "telephone": "+60 3 3333 4567",
+      "fax": "+60 3 3333 8765",
+      "email": "OPERATIONS@GLOBALSHIPPING.COM.MY"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "555 PORT KLANG ROAD, PORT KLANG, MALAYSIA 42000"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080550",
+  "commodityDescription": "CITRUS FRUIT",
+  "containers": [
+    {
+      "containerNumber": "CONT9080521",
+      "sealNumber": "SEAL883846",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 11286.32,
+      "measurement": 36.93
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 27,
+    "totalGrossWeight": 11286.32,
+    "totalMeasurement": 36.93
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "555 PORT KLANG ROAD, PORT KLANG, MALAYSIA 42000",
+      "telephone": "+60 3 3333 4567",
+      "fax": "+60 3 3333 8765",
+      "email": "OPERATIONS@GLOBALSHIPPING.COM.MY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 OCEAN AVE, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8666 1234",
+      "fax": "+86 574 8666 5678"
+    },
+    "onboardDate": "2024-10-29 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 3\u00b0C, VALUE: USD863,866"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5937305",
+    "temperature": "3\u00b0C",
+    "minTemperature": "1\u00b0C",
+    "maxTemperature": "5\u00b0C",
+    "ventilation": "63%",
+    "humidity": "92%"
+  }
+}

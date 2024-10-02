@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411085817",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 6767",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "1234 CANAL STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "ORDERS@GLOBALLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "1234 CANAL STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "ORDERS@GLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT1022015",
+      "sealNumber": "SEAL233062",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 14502.61,
+      "measurement": 20.55
+    },
+    {
+      "containerNumber": "CONT6853924",
+      "sealNumber": "SEAL514040",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 12957.84,
+      "measurement": 26.67
+    },
+    {
+      "containerNumber": "CONT2121217",
+      "sealNumber": "SEAL613421",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 6537.6,
+      "measurement": 37.45
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE TANK",
+    "totalPackages": 165,
+    "totalGrossWeight": 33998.05,
+    "totalMeasurement": 84.67
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "1234 CANAL STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "ORDERS@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "1234 CANAL STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "ORDERS@GLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-18 02:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

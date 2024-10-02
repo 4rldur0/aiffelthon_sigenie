@@ -1,0 +1,153 @@
+{
+  "bookingReference": "CHERRY202410262368",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ACME CHEMICALS INC",
+      "address": "1234 CHEMICAL WAY, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "telephone": "+86 21 5555 1234",
+      "email": "INFO@ACMECHEMICALS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "10 RUE DE LA MER, PARIS, FRANCE, 75001",
+      "country": "FRANCE",
+      "telephone": "+33 1 4444 5678",
+      "email": "ORDERS@GLOBALSHIPPINGSOLUTIONS.FR"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "10 RUE DE LA MER, PARIS, FRANCE, 75001",
+      "country": "FRANCE",
+      "telephone": "+33 1 4444 5678",
+      "email": "ORDERS@GLOBALSHIPPINGSOLUTIONS.FR"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "281010",
+  "commodityDescription": "BORIC ACID POWDER",
+  "containers": [
+    {
+      "containerNumber": "CONT1407875",
+      "sealNumber": "SEAL113748",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 11645.4,
+      "measurement": 27.31
+    },
+    {
+      "containerNumber": "CONT7542559",
+      "sealNumber": "SEAL752651",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 12744.35,
+      "measurement": 29.39
+    },
+    {
+      "containerNumber": "CONT1000656",
+      "sealNumber": "SEAL986562",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 10267.19,
+      "measurement": 39.77
+    },
+    {
+      "containerNumber": "CONT8738452",
+      "sealNumber": "SEAL638396",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 13746.82,
+      "measurement": 38.82
+    },
+    {
+      "containerNumber": "CONT2111509",
+      "sealNumber": "SEAL192813",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 6339.2,
+      "measurement": 39.35
+    },
+    {
+      "containerNumber": "CONT7264057",
+      "sealNumber": "SEAL463881",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 19693.19,
+      "measurement": 31.08
+    },
+    {
+      "containerNumber": "CONT3023822",
+      "sealNumber": "SEAL980931",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 5761.23,
+      "measurement": 22.3
+    },
+    {
+      "containerNumber": "CONT5447202",
+      "sealNumber": "SEAL878109",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 7240.51,
+      "measurement": 32.3
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "8 x 40 STANDARD TANK",
+    "totalPackages": 550,
+    "totalGrossWeight": 87437.89,
+    "totalMeasurement": 260.32
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-07 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1960, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4579992",
+    "unClass": "5",
+    "unCode": "1960,",
+    "hsCode": "4036.90.21",
+    "flashPoint": "91\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

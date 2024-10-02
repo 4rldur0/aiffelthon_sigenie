@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410228477",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUIT FRESH IMPORT EXPORT INC",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@FRUITFRESHIMPORT.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "1 MAIN STREET, HAMBURG 20095, GERMANY",
+      "taxId": "DE1234567890",
+      "president": "MR. HANS MEIER",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "HANS.MEIER@GLOBALTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "FREIGHT FORWARDERS GMBH",
+      "address": "2 PORT STREET, HAMBURG 20359, GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433",
+      "email": "INFO@FREIGHTFORWARDERS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "080590",
+  "commodityDescription": "FRESH ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT2231924",
+      "sealNumber": "SEAL387270",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 5846.09,
+      "measurement": 35.07
+    },
+    {
+      "containerNumber": "CONT7338267",
+      "sealNumber": "SEAL255636",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 19536.21,
+      "measurement": 31.45
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 117,
+    "totalGrossWeight": 25382.3,
+    "totalMeasurement": 66.52
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "FREIGHT FORWARDERS GMBH",
+      "address": "2 PORT STREET, HAMBURG 20359, GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433",
+      "email": "INFO@FREIGHTFORWARDERS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FREIGHT FORWARDERS GMBH",
+      "address": "2 PORT STREET, HAMBURG 20359, GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433",
+      "email": "INFO@FREIGHTFORWARDERS.DE"
+    },
+    "onboardDate": "2024-10-28 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -20\u00b0C, DO NOT STACK"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5842759",
+    "temperature": "-20\u00b0C",
+    "minTemperature": "-22\u00b0C",
+    "maxTemperature": "-18\u00b0C",
+    "ventilation": "41%",
+    "humidity": "65%"
+  }
+}

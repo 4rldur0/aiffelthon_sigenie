@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410188573",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8651-2345",
+      "fax": "+86-574-8651-2346"
+    },
+    "consignee": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "2500 BLOOMINGTON ROAD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@WORLDWIDELOGISTICS.NL",
+      "contactPerson": "JAN VAN DER HELM"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS INC."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030211",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT2859495",
+      "sealNumber": "SEAL781122",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 14912.22,
+      "measurement": 37.1
+    },
+    {
+      "containerNumber": "CONT1480278",
+      "sealNumber": "SEAL108338",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 11541.91,
+      "measurement": 26.13
+    },
+    {
+      "containerNumber": "CONT2582529",
+      "sealNumber": "SEAL964879",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 18327.85,
+      "measurement": 26.9
+    },
+    {
+      "containerNumber": "CONT9563347",
+      "sealNumber": "SEAL897769",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 6797.37,
+      "measurement": 31.15
+    },
+    {
+      "containerNumber": "CONT7729421",
+      "sealNumber": "SEAL990150",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 8477.47,
+      "measurement": 21.21
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD REEFER",
+    "totalPackages": 234,
+    "totalGrossWeight": 60056.82,
+    "totalMeasurement": 142.49
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241026-1001",
+    "documentNumber": "20241026-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241026-12345"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "2500 BLOOMINGTON ROAD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "2500 BLOOMINGTON ROAD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-10-27 17:00:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -18\u00b0C, VALUE: USD739,076, 14 DAYS FREE TIME AT DESTINATION",
+    "reeferSettings": {
+      "setTemperature": "-18",
+      "temperatureUnit": "CELSIUS"
+    }
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2465262",
+    "temperature": "-18\u00b0C",
+    "minTemperature": "-20\u00b0C",
+    "maxTemperature": "-16\u00b0C",
+    "ventilation": "0%",
+    "humidity": "86%"
+  }
+}

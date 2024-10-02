@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410099320",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ENGINEERING CO. LTD.",
+      "address": "NO. 1234, HUAHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@SUNRISEENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 MAIN STREET, HAMBURG, GERMANY, 20457",
+      "taxId": "DE123456789",
+      "president": "MR. PETER SCHMITZ",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "PETER.SCHMITZ@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "GERMAN LOGISTICS GMBH",
+      "address": "567 PORT STREET, HAMBURG, GERMANY, 20359",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433",
+      "email": "INFO@GERMANLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "842710",
+  "commodityDescription": "INDUSTRIAL PUMPING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT9787037",
+      "sealNumber": "SEAL819627",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 17822.36,
+      "measurement": 33.53
+    },
+    {
+      "containerNumber": "CONT8084877",
+      "sealNumber": "SEAL731386",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 14047.39,
+      "measurement": 25.69
+    },
+    {
+      "containerNumber": "CONT2808774",
+      "sealNumber": "SEAL701555",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 16228.69,
+      "measurement": 35.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD OPEN TOP",
+    "totalPackages": 226,
+    "totalGrossWeight": 48098.44,
+    "totalMeasurement": 94.84
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L/C 1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 MAIN STREET, HAMBURG, GERMANY, 20457",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "PETER.SCHMITZ@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 MAIN STREET, HAMBURG, GERMANY, 20457",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "PETER.SCHMITZ@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 4688x2938x2718, VALUE: USD162,229, THIS SIDE UP"
+  },
+  "outOfGaugeDimensions": {
+    "length": "4688",
+    "width": "2938",
+    "height": "2718",
+    "overWidth": "498",
+    "overHeight": "128"
+  }
+}

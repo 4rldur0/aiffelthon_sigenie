@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411037153",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC PRECISION LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SALES@ASIA-PACIFIC.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "125 ROBINSON ROAD, #13-01, ROBINSON TOWER, SINGAPORE 068901",
+      "country": "SINGAPORE",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678",
+      "email": "OPERATIONS@GLOBAL-LOGISTICS.COM.SG",
+      "personincharge": "ANNA LI"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "125 ROBINSON ROAD, #13-01, ROBINSON TOWER, SINGAPORE 068901",
+      "country": "SINGAPORE",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678",
+      "email": "OPERATIONS@GLOBAL-LOGISTICS.COM.SG"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030729",
+  "commodityDescription": "FROZEN TUNA",
+  "containers": [
+    {
+      "containerNumber": "CONT6471584",
+      "sealNumber": "SEAL122579",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 5318.64,
+      "measurement": 25.41
+    },
+    {
+      "containerNumber": "CONT3954305",
+      "sealNumber": "SEAL248132",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 7090.18,
+      "measurement": 34.87
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE REEFER",
+    "totalPackages": 92,
+    "totalGrossWeight": 12408.82,
+    "totalMeasurement": 60.28
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241103ABC123"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "125 ROBINSON ROAD, #13-01, ROBINSON TOWER, SINGAPORE 068901",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678",
+      "email": "OPERATIONS@GLOBAL-LOGISTICS.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "125 ROBINSON ROAD, #13-01, ROBINSON TOWER, SINGAPORE 068901",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678",
+      "email": "OPERATIONS@GLOBAL-LOGISTICS.COM.SG"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 9\u00b0C, VALUE: USD156,661"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5197577",
+    "temperature": "9\u00b0C",
+    "minTemperature": "7\u00b0C",
+    "maxTemperature": "11\u00b0C",
+    "ventilation": "51%",
+    "humidity": "88%"
+  }
+}

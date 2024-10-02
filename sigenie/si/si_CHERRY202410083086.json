@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410083086",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TECHNOLOGIES INC.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAPACIFICTECH.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011GD, NETHERLANDS",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "125 WAREHOUSE STREET, ROTTERDAM, 3012AA, NETHERLANDS",
+      "taxId": "",
+      "president": "MS. JANE DOE",
+      "telephone": "+31 10 333 3333",
+      "fax": "+31 10 333 3334"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950430",
+  "commodityDescription": "TYPING MACHINES, ELECTRIC OR ELECTRO-MECHANICAL",
+  "containers": [
+    {
+      "containerNumber": "CONT4955500",
+      "sealNumber": "SEAL774482",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 7777.57,
+      "measurement": 31.35
+    },
+    {
+      "containerNumber": "CONT3769200",
+      "sealNumber": "SEAL363339",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 11795.74,
+      "measurement": 36.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 140,
+    "totalGrossWeight": 19573.31,
+    "totalMeasurement": 67.51
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "125 WAREHOUSE STREET, ROTTERDAM, 3012AA, NETHERLANDS",
+      "telephone": "+31 10 333 3333",
+      "fax": "+31 10 333 3334",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011GD, NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  }
+}

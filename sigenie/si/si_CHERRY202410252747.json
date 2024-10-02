@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410252747",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA ENGINEERING SOLUTIONS",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "CALLE REAL 10, 11300 CADIZ, SPAIN",
+      "telephone": "+34-956-2345-6789",
+      "fax": "+34-956-2345-6780",
+      "email": "INFO@ALPHAGLOBAL.ES",
+      "contactPerson": "MARIA RODRIGUEZ"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL TRADING"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "OUT OF GAUGE INDUSTRIAL LOOM",
+  "containers": [
+    {
+      "containerNumber": "CONT4717917",
+      "sealNumber": "SEAL145672",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 9945.36,
+      "measurement": 23.23
+    },
+    {
+      "containerNumber": "CONT8058717",
+      "sealNumber": "SEAL252945",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 8037.46,
+      "measurement": 36.77
+    },
+    {
+      "containerNumber": "CONT7220134",
+      "sealNumber": "SEAL695640",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 11742.25,
+      "measurement": 36.05
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD PLATFORM",
+    "totalPackages": 167,
+    "totalGrossWeight": 29725.07,
+    "totalMeasurement": 96.05
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-1001",
+    "documentNumber": "20241025-1001",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "CALLE REAL 10, 11300 CADIZ, SPAIN",
+      "telephone": "+34-956-2345-6789",
+      "fax": "+34-956-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "CALLE REAL 10, 11300 CADIZ, SPAIN",
+      "telephone": "+34-956-2345-6789",
+      "fax": "+34-956-2345-6780"
+    },
+    "onboardDate": "2024-10-30 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5728x2228x2151, VALUE: USD479,010",
+    "outOfGaugeDimensions": "LENGTH: 5728 MM, WIDTH: 2228 MM, HEIGHT: 2151 MM"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5728",
+    "width": "2228",
+    "height": "2151",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

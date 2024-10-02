@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202410149683",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTERS INC.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "NO. 456, DE ZUYTER STREET, ROTTERDAM, NETHERLANDS 3011EB",
+      "telephone": "+31-10-4567890",
+      "fax": "+31-10-4567891"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030261",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT2309397",
+      "sealNumber": "SEAL255851",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 13646.37,
+      "measurement": 21.4
+    },
+    {
+      "containerNumber": "CONT3895300",
+      "sealNumber": "SEAL420331",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 10653.66,
+      "measurement": 24.28
+    },
+    {
+      "containerNumber": "CONT8934556",
+      "sealNumber": "SEAL997182",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 16407.61,
+      "measurement": 26.81
+    },
+    {
+      "containerNumber": "CONT2380462",
+      "sealNumber": "SEAL436514",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 16863.93,
+      "measurement": 22.94
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD REEFER",
+    "totalPackages": 198,
+    "totalGrossWeight": 57571.57,
+    "totalMeasurement": 95.43
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-10-25 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -14\u00b0C, 30 DAYS FREE TIME AT DESTINATION, KEEP DRY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7699357",
+    "temperature": "-14\u00b0C",
+    "minTemperature": "-16\u00b0C",
+    "maxTemperature": "-12\u00b0C",
+    "ventilation": "63%",
+    "humidity": "83%"
+  }
+}

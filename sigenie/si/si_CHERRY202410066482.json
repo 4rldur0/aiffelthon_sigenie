@@ -1,0 +1,118 @@
+{
+  "bookingReference": "CHERRY202410066482",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC",
+      "address": "1500 FRANKFURTER STRASSE, HAMBURG 20457, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "1111 HAMBURG ALLEE, HAMBURG 22081, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 9999 1234",
+      "fax": "+49 40 9999 5678",
+      "email": "INFO@WORLDWIDELOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT4436073",
+      "sealNumber": "SEAL326126",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 8760.4,
+      "measurement": 25.29
+    },
+    {
+      "containerNumber": "CONT5119520",
+      "sealNumber": "SEAL769267",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 8651.77,
+      "measurement": 26.5
+    },
+    {
+      "containerNumber": "CONT8958842",
+      "sealNumber": "SEAL280714",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 11534.99,
+      "measurement": 21.01
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 165,
+    "totalGrossWeight": 28947.16,
+    "totalMeasurement": 72.8
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "FUMIGATION CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC",
+      "address": "1500 FRANKFURTER STRASSE, HAMBURG 20457, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "onboardDate": "2024-10-13 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1262, FRAGILE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8933468",
+    "unClass": "2",
+    "unCode": "1262,",
+    "hsCode": "7723.72.41",
+    "flashPoint": "82\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

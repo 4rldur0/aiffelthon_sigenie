@@ -1,0 +1,161 @@
+{
+  "bookingReference": "CHERRY202410235637",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SIEMENS AG",
+      "address": "FREUDENSCHEINSTRASSE 1, 91058 ERLANGEN, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "ATTN: EXPORT DEPARTMENT",
+      "telephone": "+49 9131 880000",
+      "email": "EXPORT@SIEMENS.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "BERLINER RING 4, 63303 MAINFRAKEN, GERMANY",
+      "country": "GERMANY",
+      "email": "IMPORT@DHL.COM",
+      "telephone": "+49 69 50796360"
+    },
+    "notifyParty": {
+      "name": "SIEMENS AG",
+      "address": "FREUDENSCHEINSTRASSE 1, 91058 ERLANGEN, GERMANY",
+      "country": "GERMANY",
+      "email": "IMPORT@SIEMENS.COM",
+      "telephone": "+49 9131 880000"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "842123",
+  "commodityDescription": "INDUSTRIAL FURNACE",
+  "containers": [
+    {
+      "containerNumber": "CONT8727566",
+      "sealNumber": "SEAL317434",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 11737.97,
+      "measurement": 38.19
+    },
+    {
+      "containerNumber": "CONT3373702",
+      "sealNumber": "SEAL676486",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 18017.91,
+      "measurement": 31.05
+    },
+    {
+      "containerNumber": "CONT7515421",
+      "sealNumber": "SEAL695592",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 15323.02,
+      "measurement": 26.77
+    },
+    {
+      "containerNumber": "CONT8336883",
+      "sealNumber": "SEAL777286",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 11507.45,
+      "measurement": 21.57
+    },
+    {
+      "containerNumber": "CONT1551893",
+      "sealNumber": "SEAL757165",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 8778.2,
+      "measurement": 31.42
+    },
+    {
+      "containerNumber": "CONT4653466",
+      "sealNumber": "SEAL863595",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 19709.41,
+      "measurement": 33.58
+    },
+    {
+      "containerNumber": "CONT7012774",
+      "sealNumber": "SEAL519179",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 5177.79,
+      "measurement": 31.07
+    },
+    {
+      "containerNumber": "CONT5935196",
+      "sealNumber": "SEAL765566",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 8023.54,
+      "measurement": 39.88
+    },
+    {
+      "containerNumber": "CONT5140554",
+      "sealNumber": "SEAL612028",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 6459.17,
+      "measurement": 37.57
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "9 x 40 STANDARD PLATFORM",
+    "totalPackages": 631,
+    "totalGrossWeight": 104734.46,
+    "totalMeasurement": 291.1
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "BERLINER RING 4, 63303 MAINFRAKEN, GERMANY",
+      "telephone": "+49 69 50796360",
+      "fax": "+49 69 50796361",
+      "email": "IMPORT@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SIEMENS AG",
+      "address": "FREUDENSCHEINSTRASSE 1, 91058 ERLANGEN, GERMANY",
+      "telephone": "+49 9131 880000",
+      "fax": "+49 9131 880001",
+      "email": "EXPORT@SIEMENS.COM"
+    },
+    "onboardDate": "2024-10-27 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 3007x2099x2438"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3007",
+    "width": "2099",
+    "height": "2438",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

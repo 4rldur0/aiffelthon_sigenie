@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410256106",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "123 SUNRISE STREET, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SUNRISE@SUNRISE-ELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "EUROASIA SHIPPING INC.",
+      "address": "124 EUROASIA STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "EUROASIA@EUROASIA-SHIPPING.COM"
+    },
+    "notifyParty": {
+      "name": "DUTCH CARGO SERVICES BV",
+      "address": "125 DUTCH STREET, ROTTERDAM, NETHERLANDS 3010 AA",
+      "taxId": "",
+      "president": "MS. ANNA JONES",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5554"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "340510",
+  "commodityDescription": "MOTOR OIL",
+  "containers": [
+    {
+      "containerNumber": "CONT1897301",
+      "sealNumber": "SEAL685926",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 19101.32,
+      "measurement": 20.46
+    },
+    {
+      "containerNumber": "CONT7430444",
+      "sealNumber": "SEAL816303",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 9377.98,
+      "measurement": 37.76
+    },
+    {
+      "containerNumber": "CONT8111413",
+      "sealNumber": "SEAL474502",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 19304.93,
+      "measurement": 38.36
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 128,
+    "totalGrossWeight": 47784.23,
+    "totalMeasurement": 96.58
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2310, VALUE: USD397,674"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4706098",
+    "unClass": "5",
+    "unCode": "2310,",
+    "hsCode": "1935.71.20",
+    "flashPoint": "96\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

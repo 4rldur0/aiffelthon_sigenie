@@ -1,0 +1,84 @@
+{
+  "bookingReference": "CHERRY202411106203",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURERS INC",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "INFO@APM-INC.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "4567 PARIS BOULEVARD, PARIS, FRANCE",
+      "companyNumber": "FR1234567890",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@GLOBALTRADINGLTD.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "4567 PARIS BOULEVARD, PARIS, FRANCE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "961700",
+  "commodityDescription": "STATIONERY, BOOKS, MAPS AND SIMILAR PRINTED MATTER",
+  "containers": [
+    {
+      "containerNumber": "CONT2177098",
+      "sealNumber": "SEAL923702",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 17751.02,
+      "measurement": 26.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 14,
+    "totalGrossWeight": 17751.02,
+    "totalMeasurement": 26.81
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "4567 PARIS BOULEVARD, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@GLOBALTRADINGLTD.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC MANUFACTURERS INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

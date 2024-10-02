@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202411197018",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENGINEERING CO. LTD.",
+      "address": "NO. 58, SHANGCHENG ROAD, NINGBO FREE TRADE ZONE, 315030 NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8666 8888",
+      "fax": "+86 574 8666 8889",
+      "email": "SALES@APE.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "2222 PARK AVENUE, NEW YORK, NY 10029, USA",
+      "taxId": "123456789",
+      "president": "JOHN SMITH",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "DUTCH CARGO HANDLING BV",
+      "address": "WESTWEG 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 205 6789",
+      "fax": "+31 10 205 6790",
+      "email": "INFO@DUTCHCARGOHANDLING.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "INDUSTRIAL FOOD PROCESSING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT9252386",
+      "sealNumber": "SEAL993009",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 16684.65,
+      "measurement": 27.51
+    },
+    {
+      "containerNumber": "CONT4070691",
+      "sealNumber": "SEAL949306",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 15620.88,
+      "measurement": 31.47
+    },
+    {
+      "containerNumber": "CONT7980875",
+      "sealNumber": "SEAL440205",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 5588.15,
+      "measurement": 36.07
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD OPEN TOP",
+    "totalPackages": 102,
+    "totalGrossWeight": 37893.68,
+    "totalMeasurement": 95.05
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "2222 PARK AVENUE, NEW YORK, NY 10029, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "2222 PARK AVENUE, NEW YORK, NY 10029, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 10683x2902x2037, 7 DAYS FREE TIME AT DESTINATION, FRAGILE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10683",
+    "width": "2902",
+    "height": "2037",
+    "overWidth": "462",
+    "overHeight": "0"
+  }
+}

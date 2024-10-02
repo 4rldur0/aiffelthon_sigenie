@@ -1,0 +1,148 @@
+{
+  "bookingReference": "CHERRY202410314165",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE PRECISION TECHNOLOGIES PTE LTD",
+      "onBehalfOf": "",
+      "address": "1234 PRECISION ROAD, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SALES@SINGAPOREPRECISION.COM"
+    },
+    "consignee": {
+      "name": "FIRST GLOBAL LOGISTICS PTE LTD",
+      "address": "5678 GLOBAL ROAD, SINGAPORE 567890",
+      "companyNumber": "202312345678",
+      "telephone": "+65 6123 4567",
+      "fax": "+65 6123 4568",
+      "email": "OPERATIONS@FIRSTGLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST GLOBAL LOGISTICS PTE LTD",
+      "address": "5678 GLOBAL ROAD, SINGAPORE 567890"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "123456",
+  "commodityDescription": "LIQUID CHEMICAL",
+  "containers": [
+    {
+      "containerNumber": "CONT7076891",
+      "sealNumber": "SEAL191459",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 9875.21,
+      "measurement": 26.81
+    },
+    {
+      "containerNumber": "CONT2961687",
+      "sealNumber": "SEAL857476",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 11575.4,
+      "measurement": 30.31
+    },
+    {
+      "containerNumber": "CONT5049448",
+      "sealNumber": "SEAL565182",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 9486.0,
+      "measurement": 28.44
+    },
+    {
+      "containerNumber": "CONT2438354",
+      "sealNumber": "SEAL680129",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 15315.24,
+      "measurement": 36.09
+    },
+    {
+      "containerNumber": "CONT9532292",
+      "sealNumber": "SEAL932647",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 7273.45,
+      "measurement": 38.17
+    },
+    {
+      "containerNumber": "CONT5239418",
+      "sealNumber": "SEAL731116",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 12186.21,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CONT4195205",
+      "sealNumber": "SEAL787555",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 11036.83,
+      "measurement": 24.9
+    },
+    {
+      "containerNumber": "CONT8812544",
+      "sealNumber": "SEAL152674",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 12834.68,
+      "measurement": 27.63
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "8 x 40 HIGH CUBE TANK",
+    "totalPackages": 366,
+    "totalGrossWeight": 89583.02,
+    "totalMeasurement": 236.85
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241026123456"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "FIRST GLOBAL LOGISTICS PTE LTD",
+      "address": "5678 GLOBAL ROAD, SINGAPORE 567890",
+      "telephone": "+65 6123 4567",
+      "fax": "+65 6123 4568",
+      "email": "OPERATIONS@FIRSTGLOBALLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE PRECISION TECHNOLOGIES PTE LTD",
+      "address": "1234 PRECISION ROAD, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "onboardDate": "2024-11-06 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3292, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4704256",
+    "unClass": "1",
+    "unCode": "3292,",
+    "hsCode": "8257.43.47",
+    "flashPoint": "98\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

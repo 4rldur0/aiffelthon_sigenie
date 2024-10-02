@@ -1,0 +1,160 @@
+{
+  "bookingReference": "CHERRY202411109327",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "123 MAIN STREET, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8889",
+      "email": "INFO@TAIHANGLOBAL.COM"
+    },
+    "consignee": {
+      "name": "ALPHA TRADING CO.",
+      "address": "124 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "taxId": "NL851234567B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 2222 2222",
+      "fax": "+31 10 2222 2223",
+      "email": "INFO@ALPHATRADING.NL"
+    },
+    "notifyParty": {
+      "name": "ALPHA TRADING CO.",
+      "address": "124 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "telephone": "+31 10 2222 2222",
+      "fax": "+31 10 2222 2223",
+      "email": "INFO@ALPHATRADING.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "1906",
+  "commodityDescription": "DANGEROUS GOODS, N.O.S.",
+  "containers": [
+    {
+      "containerNumber": "CONT3389520",
+      "sealNumber": "SEAL260035",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 18956.76,
+      "measurement": 35.08
+    },
+    {
+      "containerNumber": "CONT8173205",
+      "sealNumber": "SEAL394811",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 5256.79,
+      "measurement": 33.1
+    },
+    {
+      "containerNumber": "CONT9371041",
+      "sealNumber": "SEAL121215",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 16251.88,
+      "measurement": 38.6
+    },
+    {
+      "containerNumber": "CONT6443351",
+      "sealNumber": "SEAL634286",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 9589.39,
+      "measurement": 33.78
+    },
+    {
+      "containerNumber": "CONT3198038",
+      "sealNumber": "SEAL573950",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 15359.69,
+      "measurement": 24.21
+    },
+    {
+      "containerNumber": "CONT5595188",
+      "sealNumber": "SEAL203281",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 15602.47,
+      "measurement": 21.09
+    },
+    {
+      "containerNumber": "CONT7761728",
+      "sealNumber": "SEAL697801",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 6719.97,
+      "measurement": 25.86
+    },
+    {
+      "containerNumber": "CONT3012409",
+      "sealNumber": "SEAL616793",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 10595.72,
+      "measurement": 30.29
+    },
+    {
+      "containerNumber": "CONT1489704",
+      "sealNumber": "SEAL752302",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 18566.97,
+      "measurement": 24.08
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "9 x 20 STANDARD GENERAL",
+    "totalPackages": 551,
+    "totalGrossWeight": 116899.64,
+    "totalMeasurement": 266.09
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "123456789012345",
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "123 MAIN STREET, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8889",
+      "email": "INFO@TAIHANGLOBAL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "123 MAIN STREET, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8889",
+      "email": "INFO@TAIHANGLOBAL.COM"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1906, VALUE: USD924,961, KEEP DRY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8086121",
+    "unClass": "9",
+    "unCode": "1906,",
+    "hsCode": "2995.14.60",
+    "flashPoint": "20\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

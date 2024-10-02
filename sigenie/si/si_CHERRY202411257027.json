@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411257027",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES CO.",
+      "address": "NO. 123, HUAHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 25, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-234-5678",
+      "fax": "+34-91-234-5679",
+      "email": "INFO@OMEGASHIPPING.ES",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 25, 28001 MADRID, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS, N.O.S.",
+  "containers": [
+    {
+      "containerNumber": "CONT9726650",
+      "sealNumber": "SEAL974648",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 8106.37,
+      "measurement": 30.91
+    },
+    {
+      "containerNumber": "CONT4553421",
+      "sealNumber": "SEAL974088",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 15768.53,
+      "measurement": 37.33
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 54,
+    "totalGrossWeight": 23874.9,
+    "totalMeasurement": 68.24
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241125-1001",
+    "documentNumber": "20241125-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241125-001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 25, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-234-5678",
+      "fax": "+34-91-234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 25, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-234-5678",
+      "fax": "+34-91-234-5679"
+    },
+    "onboardDate": "2024-12-16 19:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2067, VALUE: USD44,185",
+    "dangerousGoods": {
+      "unNumber": "2067",
+      "properShippingName": "DANGEROUS CHEMICALS, N.O.S.",
+      "class": "3",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1385056",
+    "unClass": "8",
+    "unCode": "2067,",
+    "hsCode": "5784.12.70",
+    "flashPoint": "62\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

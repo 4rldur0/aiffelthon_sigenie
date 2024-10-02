@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202409293746",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "101 EUROPEAN STREET, ROTTERDAM, SOUTH HOLLAND 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 256 7890",
+      "fax": "+31 10 256 7891",
+      "email": "ORDERS@GLOBALLOGISTICSINC.NL",
+      "personincharge": "JAN VAN DER MEER"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT & EXPORT LTD.",
+      "address": "1234 DUTCH BOULEVARD, ROTTERDAM, SOUTH HOLLAND 3010 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 345 6789",
+      "fax": "+31 10 345 6788",
+      "email": "IMPORT@ALPHAIMPORTEXPORT.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN SALMON FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT7743013",
+      "sealNumber": "SEAL672714",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 15840.42,
+      "measurement": 25.34
+    },
+    {
+      "containerNumber": "CONT3659226",
+      "sealNumber": "SEAL646312",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 8763.33,
+      "measurement": 28.56
+    },
+    {
+      "containerNumber": "CONT7807729",
+      "sealNumber": "SEAL224152",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 15197.57,
+      "measurement": 29.03
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE REEFER",
+    "totalPackages": 183,
+    "totalGrossWeight": 39801.32,
+    "totalMeasurement": 82.93
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-10-14 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -8\u00b0C, VALUE: USD649,349"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5374102",
+    "temperature": "-8\u00b0C",
+    "minTemperature": "-10\u00b0C",
+    "maxTemperature": "-6\u00b0C",
+    "ventilation": "99%",
+    "humidity": "67%"
+  }
+}
