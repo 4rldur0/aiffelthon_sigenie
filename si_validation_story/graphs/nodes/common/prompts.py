@@ -27,8 +27,11 @@ This is the summarized report on SI cherry202409072244:
 		- FREIGHT TERMS: OK (COLLECT)
     5. ...
 """
-validation_report_prompt = """
+intake_report_prompt="""
+Summarize data below
 
+Data: 
+{sources}
 """
 check_parties_prompt = """
 Found following issues in shipper, consignee, and notify parties' data
@@ -45,7 +48,7 @@ Notify:OK.
     - E-mail Mark is an option.
 """
 
-validate_compliance_prompt = """
+verify_company_policy_prompt = """
 # Compliance Verification
 You are an expert in sanctions and compliance regulations.
 Verify whether the following Shipping Instruction (SI) complies with any relevant compliance regulations.
@@ -55,9 +58,6 @@ Shipping Instruction: {si_data}
 Provide a detailed response, including any relevant regulations, compliance issues, or the absence of any violations.
 """
 
-verify_company_policy_prompt = """
-
-"""
 validation_report_prompt = """
 Summarize data below
 

@@ -4,12 +4,12 @@ from graphs.si_validation_graph import SIValidation
 
 graph = SIValidation()
 
-def generate_summary(self):
+def generate_summary(summary_result):
     with st.spinner("Running..."):
         placeholder = st.empty()
         try:
             streamed_text = ''
-            for chunk in self.summary_result:
+            for chunk in summary_result:
                 if chunk is not None:
                     streamed_text += chunk
                     placeholder.info(streamed_text)
@@ -17,14 +17,11 @@ def generate_summary(self):
             st.error(f"An error occurred while generating the summary: {e}")
 
 def main():
-    st.title("Search for Shipping Instruction")
+    graph.state["si_data"] = st.session_state["si_data"]
 
-    # Input field to enter the booking reference
-    booking_reference = st.text_input("Enter Booking Reference")
-
+    st.title("Ch 2: Sipping Instruction Validation")
     result = None
-    if st.button("Search"):
-        graph.state["booking_reference"] = booking_reference
+    if st.button("Generate Report"):
         try:
             result = graph.invoke()
         except Exception as e:
@@ -42,9 +39,7 @@ def main():
             with col1:
                 bl_draft_page.show_bl_draft_page()
             with col2:
-                st.title("Ch2: Shipping Instruction Validation")
+                st.title("Shipping Instruction Validation Report")
                 generate_summary(result.get("summary_answer", "No summary available"))
         else:
             st.warning("No shipping instruction data found for the given booking reference.")
-    else:
-        st.info("Please enter a booking reference and click 'Search'.")
