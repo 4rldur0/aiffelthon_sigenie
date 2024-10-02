@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411248936",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH INDUSTRIAL CORPORATION",
+      "onBehalfOf": "MS. ANNA LEE",
+      "address": "2345 HUALONG ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "ANNA.LEE@ZENITHINDUSTRY.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 MAIN STREET, ROTTERDAM, NETHERLANDS 3011AB",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 4567 8000",
+      "fax": "+31 10 4567 8001",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "ZENITH INDUSTRIAL CORPORATION",
+      "address": "2345 HUALONG ROAD, NINGBO, CHINA 315000"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT7126011",
+      "sealNumber": "SEAL578873",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 8135.54,
+      "measurement": 31.67
+    },
+    {
+      "containerNumber": "CONT5581161",
+      "sealNumber": "SEAL570579",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 8592.03,
+      "measurement": 35.27
+    },
+    {
+      "containerNumber": "CONT7720098",
+      "sealNumber": "SEAL882248",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 10089.71,
+      "measurement": 33.26
+    },
+    {
+      "containerNumber": "CONT4748657",
+      "sealNumber": "SEAL871638",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 16245.05,
+      "measurement": 27.51
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD FLAT RACK",
+    "totalPackages": 225,
+    "totalGrossWeight": 43062.33,
+    "totalMeasurement": 127.71
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH INDUSTRIAL CORPORATION",
+      "address": "2345 HUALONG ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "ANNA.LEE@ZENITHINDUSTRY.COM"
+    },
+    "onboardDate": "2024-12-11 19:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8141x2257x2841, VALUE: USD358,559"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8141",
+    "width": "2257",
+    "height": "2841",
+    "overWidth": "0",
+    "overHeight": "251"
+  }
+}

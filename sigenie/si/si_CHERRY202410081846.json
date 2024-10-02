@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410081846",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TRADING COMPANY",
+      "address": "1234 HUANGPU ROAD, SHANGHAI, 200000, CHINA",
+      "lei": "98765432101234567890",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 98765432",
+      "email": "INFO@SHANGHAITRADING.COM"
+    },
+    "consignee": {
+      "name": "GREEN EARTH IMPORTS LTD.",
+      "address": "5678 GREEN STREET, HAMBURG, 20000, GERMANY",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 98765432",
+      "email": "INFO@GREENEARTHIMPORTS.COM"
+    },
+    "notifyParty": {
+      "name": "GREEN EARTH LOGISTICS GMBH",
+      "address": "9012 LOGISTICS STREET, HAMBURG, 22000, GERMANY",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+49 40 123456789",
+      "fax": "+49 40 987654321",
+      "email": "INFO@GREENEARTHLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950699",
+  "commodityDescription": "TOYS AND MODELS, DESIGNED TO BE USED AS TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT5475727",
+      "sealNumber": "SEAL479347",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 18750.03,
+      "measurement": 32.81
+    },
+    {
+      "containerNumber": "CONT9240226",
+      "sealNumber": "SEAL708841",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 8368.61,
+      "measurement": 24.19
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 146,
+    "totalGrossWeight": 27118.64,
+    "totalMeasurement": 57.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-17 20:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

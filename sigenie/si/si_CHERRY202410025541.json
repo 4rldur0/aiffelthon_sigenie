@@ -1,0 +1,118 @@
+{
+  "bookingReference": "CHERRY202410025541",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA FOOD IMPORTERS LTD.",
+      "address": "258 YONGKANG ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8756 9000",
+      "fax": "+86 574 8756 9001",
+      "email": "ZHANG.WEI@CHINAFOODIMPORTERS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "UL. \u015aWI\u0118TEGO JAKUBA 34, 80-802 GDA\u0143SK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 301 5000",
+      "fax": "+48 58 301 5001",
+      "email": "ANNA.NOWAK@GLOBALFREIGHTSOLUTIONS.PL",
+      "personincharge": "ANNA NOWAK"
+    },
+    "notifyParty": {
+      "name": "POLISH COLD STORAGE LTD.",
+      "address": "UL. PORTOWA 10, 81-450 GDANSK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 666 6000",
+      "fax": "+48 58 666 6001",
+      "email": "PIOTR.NOWAK@POLISHCOLDSTORAGE.PL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT5486781",
+      "sealNumber": "SEAL237063",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 11043.99,
+      "measurement": 33.1
+    },
+    {
+      "containerNumber": "CONT4415074",
+      "sealNumber": "SEAL196881",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 12950.15,
+      "measurement": 31.12
+    },
+    {
+      "containerNumber": "CONT8344712",
+      "sealNumber": "SEAL381421",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 9304.83,
+      "measurement": 27.38
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 210,
+    "totalGrossWeight": 33298.97,
+    "totalMeasurement": 91.6
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410025541"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "ORIGIN CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "UL. \u015aWI\u0118TEGO JAKUBA 34, 80-802 GDA\u0143SK, POLAND",
+      "telephone": "+48 58 301 5000",
+      "fax": "+48 58 301 5001",
+      "email": "ANNA.NOWAK@GLOBALFREIGHTSOLUTIONS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "UL. \u015aWI\u0118TEGO JAKUBA 34, 80-802 GDA\u0143SK, POLAND",
+      "telephone": "+48 58 301 5000",
+      "fax": "+48 58 301 5001",
+      "email": "ANNA.NOWAK@GLOBALFREIGHTSOLUTIONS.PL"
+    },
+    "onboardDate": "2024-10-16 15:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -5\u00b0C, VALUE: USD152,957, FRAGILE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4809264",
+    "temperature": "-5\u00b0C",
+    "minTemperature": "-7\u00b0C",
+    "maxTemperature": "-3\u00b0C",
+    "ventilation": "14%",
+    "humidity": "85%"
+  }
+}

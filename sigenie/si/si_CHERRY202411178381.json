@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411178381",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORTERS LTD.",
+      "address": "DE BRIJNSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@ALPHAIMPORTERS.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL IMPORTERS LTD."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940161",
+  "commodityDescription": "RATTAN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT7134466",
+      "sealNumber": "SEAL990472",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 8524.41,
+      "measurement": 32.46
+    },
+    {
+      "containerNumber": "CONT6368043",
+      "sealNumber": "SEAL109265",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 16493.5,
+      "measurement": 28.36
+    },
+    {
+      "containerNumber": "CONT3679826",
+      "sealNumber": "SEAL382768",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 9828.13,
+      "measurement": 29.28
+    },
+    {
+      "containerNumber": "CONT9877640",
+      "sealNumber": "SEAL302312",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 18464.46,
+      "measurement": 29.13
+    },
+    {
+      "containerNumber": "CONT4898645",
+      "sealNumber": "SEAL914970",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 9929.85,
+      "measurement": 35.06
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 45 HIGH CUBE TANK",
+    "totalPackages": 245,
+    "totalGrossWeight": 63240.35,
+    "totalMeasurement": 154.29
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241117-1001",
+    "documentNumber": "20241117-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL IMPORTERS LTD.",
+      "address": "DE BRIJNSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL IMPORTERS LTD.",
+      "address": "DE BRIJNSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-11-26 18:00",
+    "additionalRemarks": "THIS SIDE UP"
+  }
+}

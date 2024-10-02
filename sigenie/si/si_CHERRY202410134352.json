@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410134352",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF INDUSTRIES PTE LTD",
+      "address": "123 INDUSTRIAL STREET, SINGAPORE 628123",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SHIPPING@DEFINDUSTRIES.COM.SG"
+    },
+    "consignee": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "456 RUE DE LA MER, LE HAVRE, FRANCE 76600",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "SHIPPING@ABCGLOBAL.FR"
+    },
+    "notifyParty": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "456 RUE DE LA MER, LE HAVRE, FRANCE 76600",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "SHIPPING@ABCGLOBAL.FR"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "340211",
+  "commodityDescription": "ORGANIC SURFACE-ACTIVE AGENTS (OTHER THAN SOAP)",
+  "containers": [
+    {
+      "containerNumber": "CONT5131247",
+      "sealNumber": "SEAL772559",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 18508.47,
+      "measurement": 31.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD GENERAL",
+    "totalPackages": 64,
+    "totalGrossWeight": 18508.47,
+    "totalMeasurement": 31.4
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "456 RUE DE LA MER, LE HAVRE, FRANCE 76600",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "SHIPPING@ABCGLOBAL.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "456 RUE DE LA MER, LE HAVRE, FRANCE 76600",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "SHIPPING@ABCGLOBAL.FR"
+    },
+    "onboardDate": "2024-10-21 23:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1825, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8521692",
+    "unClass": "3",
+    "unCode": "1825,",
+    "hsCode": "2775.40.42",
+    "flashPoint": "2\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

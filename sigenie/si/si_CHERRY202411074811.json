@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411074811",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FRUITS LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "1455 MARKET STREET, SAN FRANCISCO, CA 94102, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213",
+      "email": "INFO@WORLDWIDELOGISTICS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "1455 MARKET STREET, SAN FRANCISCO, CA 94102, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080590",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT5588398",
+      "sealNumber": "SEAL485382",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 15693.14,
+      "measurement": 23.4
+    },
+    {
+      "containerNumber": "CONT8952625",
+      "sealNumber": "SEAL728344",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 5309.51,
+      "measurement": 22.77
+    },
+    {
+      "containerNumber": "CONT7295031",
+      "sealNumber": "SEAL247338",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 18251.8,
+      "measurement": 31.63
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 155,
+    "totalGrossWeight": 39254.45,
+    "totalMeasurement": 77.8
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241107-1001",
+    "documentNumber": "20241107-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      {
+        "certificateType": "PHYTOSANITARY CERTIFICATE",
+        "issuedBy": "CHINESE MINISTRY OF AGRICULTURE"
+      }
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "1455 MARKET STREET, SAN FRANCISCO, CA 94102, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "1455 MARKET STREET, SAN FRANCISCO, CA 94102, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213"
+    },
+    "onboardDate": "2024-11-16 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 2\u00b0C, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2132308",
+    "temperature": "2\u00b0C",
+    "minTemperature": "0\u00b0C",
+    "maxTemperature": "4\u00b0C",
+    "ventilation": "56%",
+    "humidity": "67%"
+  }
+}

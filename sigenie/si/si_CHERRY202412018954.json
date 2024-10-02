@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202412018954",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ MANUFACTURING CO.",
+      "address": "123 FUJIAN ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8866 1234",
+      "fax": "+86 574 8866 5678",
+      "email": "INFO@XYZMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ABC IMPORT EXPORT LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 AB",
+      "taxId": "NL85678912345",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 20 6789 1234",
+      "fax": "+31 20 6789 5678",
+      "email": "JOHN.SMITH@ABCIMPORTEXPORT.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST GLOBAL LOGISTICS N.V.",
+      "address": "123 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "taxId": "NL12345678901",
+      "president": "MS. ANNA JONES",
+      "telephone": "+31 10 2345 6789",
+      "fax": "+31 10 2345 1234"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "PLASTIC TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT2833958",
+      "sealNumber": "SEAL708744",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 15560.97,
+      "measurement": 29.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD GENERAL",
+    "totalPackages": 99,
+    "totalGrossWeight": 15560.97,
+    "totalMeasurement": 29.16
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST GLOBAL LOGISTICS N.V.",
+      "address": "123 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31 10 2345 6789",
+      "fax": "+31 10 2345 1234",
+      "email": "INFO@FIRSTGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT EXPORT LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 AB",
+      "telephone": "+31 20 6789 1234",
+      "fax": "+31 20 6789 5678",
+      "email": "JOHN.SMITH@ABCIMPORTEXPORT.COM"
+    },
+    "onboardDate": "2024-12-16 19:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

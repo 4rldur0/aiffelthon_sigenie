@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410261304",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "EURO ASIA LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "854230",
+  "commodityDescription": "OUT OF GAUGE CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT5561161",
+      "sealNumber": "SEAL271691",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 14919.49,
+      "measurement": 20.37
+    },
+    {
+      "containerNumber": "CONT3814200",
+      "sealNumber": "SEAL537129",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 8242.23,
+      "measurement": 32.45
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD OPEN TOP",
+    "totalPackages": 150,
+    "totalGrossWeight": 23161.72,
+    "totalMeasurement": 52.82
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-07 08:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 7439x2120x2893",
+    "outOfGaugeDimensions": "LXWXH(MM): 7439X2120X2893"
+  },
+  "outOfGaugeDimensions": {
+    "length": "7439",
+    "width": "2120",
+    "height": "2893",
+    "overWidth": "0",
+    "overHeight": "303"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "bookingReference": "CHERRY202411289150",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.COM",
+      "telephone": "+1 212 555 1212"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "381700",
+  "commodityDescription": "DANGEROUS CHEMICAL MIXTURE",
+  "containers": [
+    {
+      "containerNumber": "CONT6901713",
+      "sealNumber": "SEAL821947",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 7454.31,
+      "measurement": 27.5
+    },
+    {
+      "containerNumber": "CONT1790994",
+      "sealNumber": "SEAL651587",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 15627.71,
+      "measurement": 38.42
+    },
+    {
+      "containerNumber": "CONT8290691",
+      "sealNumber": "SEAL870929",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 14478.38,
+      "measurement": 38.13
+    },
+    {
+      "containerNumber": "CONT9481148",
+      "sealNumber": "SEAL137187",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 8969.36,
+      "measurement": 34.72
+    },
+    {
+      "containerNumber": "CONT9624581",
+      "sealNumber": "SEAL981933",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 6959.95,
+      "measurement": 21.63
+    },
+    {
+      "containerNumber": "CONT5200057",
+      "sealNumber": "SEAL849211",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 12488.45,
+      "measurement": 21.51
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD GENERAL",
+    "totalPackages": 378,
+    "totalGrossWeight": 65978.16,
+    "totalMeasurement": 181.91
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3476, VALUE: USD209,082, 7 DAYS FREE TIME AT DESTINATION",
+    "dangerousGoods": {
+      "unNumber": "3476",
+      "properShippingName": "DANGEROUS CHEMICAL MIXTURE",
+      "class": "9",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2939686",
+    "unClass": "5",
+    "unCode": "3476,",
+    "hsCode": "9234.52.34",
+    "flashPoint": "95\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

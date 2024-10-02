@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411115222",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "HONG KONG PRECISION MACHINERY LTD.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667",
+      "email": "INFO@HONGKONGPRECISIONMACHINERY.CN"
+    },
+    "consignee": {
+      "name": "GERMAN ENGINEERING SOLUTIONS GMBH",
+      "address": "222 HAMBURG STREET, HAMBURG, GERMANY 20000",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "ORDERS@GERMANENGINEERINGSOLUTIONS.DE",
+      "personincharge": "FRANZ MEIER"
+    },
+    "notifyParty": {
+      "name": "MAERSK LOGISTICS GMBH",
+      "address": "333 HAMBURG PORT BOULEVARD, HAMBURG, GERMANY 20000",
+      "country": "GERMANY",
+      "telephone": "+49 40 9999 0000",
+      "fax": "+49 40 9999 0001",
+      "email": "INFO@MAERSKLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINE, NUMERICALLY CONTROLLED",
+  "containers": [
+    {
+      "containerNumber": "CONT8453629",
+      "sealNumber": "SEAL357923",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 6185.7,
+      "measurement": 30.9
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE REEFER",
+    "totalPackages": 39,
+    "totalGrossWeight": 6185.7,
+    "totalMeasurement": 30.9
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "MAERSK LOGISTICS GMBH",
+      "address": "333 HAMBURG PORT BOULEVARD, HAMBURG, GERMANY 20000",
+      "telephone": "+49 40 9999 0000",
+      "fax": "+49 40 9999 0001",
+      "email": "INFO@MAERSKLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MAERSK LOGISTICS GMBH",
+      "address": "333 HAMBURG PORT BOULEVARD, HAMBURG, GERMANY 20000",
+      "telephone": "+49 40 9999 0000",
+      "fax": "+49 40 9999 0001",
+      "email": "INFO@MAERSKLOGISTICS.DE"
+    },
+    "onboardDate": "2024-11-17 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 1\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7482486",
+    "temperature": "1\u00b0C",
+    "minTemperature": "-1\u00b0C",
+    "maxTemperature": "3\u00b0C",
+    "ventilation": "9%",
+    "humidity": "74%"
+  }
+}

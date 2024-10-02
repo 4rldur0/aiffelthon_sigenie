@@ -1,0 +1,142 @@
+{
+  "bookingReference": "CHERRY202411188451",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI METAL WORKS CO., LTD.",
+      "address": "1234 SHANGHAI INDUSTRIAL ZONE, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "INFO@SHANGHAIMETALWORKS.COM"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORTS LTD.",
+      "address": "1234 ROTTERDAM PORT BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 2222 1234",
+      "fax": "+31 10 2222 5678",
+      "email": "INFO@GREENFIELDIMPORTS.NL",
+      "personincharge": "PETER VAN DER HOEK"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS BV",
+      "address": "1234 ROTTERDAM WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 3333 1234",
+      "fax": "+31 10 3333 5678",
+      "email": "INFO@ABCLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "732690",
+  "commodityDescription": "IRON AND STEEL ARTICLES",
+  "containers": [
+    {
+      "containerNumber": "CONT4139833",
+      "sealNumber": "SEAL142482",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 19958.05,
+      "measurement": 29.58
+    },
+    {
+      "containerNumber": "CONT8089475",
+      "sealNumber": "SEAL655602",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 11815.3,
+      "measurement": 30.74
+    },
+    {
+      "containerNumber": "CONT4397334",
+      "sealNumber": "SEAL683266",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 19062.33,
+      "measurement": 20.11
+    },
+    {
+      "containerNumber": "CONT5851603",
+      "sealNumber": "SEAL384204",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 16059.1,
+      "measurement": 25.74
+    },
+    {
+      "containerNumber": "CONT6395809",
+      "sealNumber": "SEAL622570",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 19189.27,
+      "measurement": 24.64
+    },
+    {
+      "containerNumber": "CONT6952323",
+      "sealNumber": "SEAL790902",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 12640.88,
+      "measurement": 33.53
+    },
+    {
+      "containerNumber": "CONT3671047",
+      "sealNumber": "SEAL564051",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 17720.84,
+      "measurement": 24.79
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 STANDARD TANK",
+    "totalPackages": 476,
+    "totalGrossWeight": 116445.77,
+    "totalMeasurement": 189.13
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GREEN FIELD IMPORTS LTD.",
+      "address": "1234 ROTTERDAM PORT BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222 1234",
+      "fax": "+31 10 2222 5678",
+      "email": "INFO@GREENFIELDIMPORTS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN FIELD IMPORTS LTD.",
+      "address": "1234 ROTTERDAM PORT BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222 1234",
+      "fax": "+31 10 2222 5678",
+      "email": "INFO@GREENFIELDIMPORTS.NL"
+    },
+    "onboardDate": "2024-12-07 16:00",
+    "additionalRemarks": "THIS SIDE UP"
+  }
+}

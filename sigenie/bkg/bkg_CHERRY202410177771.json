@@ -1,34 +1,35 @@
 {
   "bookingReference": "CHERRY202410177771",
-  "customerName": "CUSTOMER 7729",
-  "shipperName": "SHIPPER 1352",
-  "invoiceReceiver": "INVOICE RECEIVER 5184",
+  "customerName": "GLOBAL LOGISTICS SOLUTIONS INC.",
+  "shipperName": "ASIA PACIFIC FOODS LTD.",
+  "invoiceReceiver": "GLOBAL LOGISTICS SOLUTIONS INC.",
   "voyageDetails": {
-    "vesselName": "CMA CGM BOUGAINVILLE",
-    "voyageNumber": "2024912W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
   },
   "cargoDetails": {
-    "hsCode": "481820",
-    "chapterDescription": "PAPER AND PAPERBOARD, WOVEN FABRICS OF PAPER OR PAPERBOARD",
-    "commodity": "WRAPPING PAPER"
+    "hsCode": "030812",
+    "chapterDescription": "FROZEN FISH",
+    "commodity": "FROZEN SALMON FILLETS"
   },
   "containerDetails": {
-    "size": "40 HC",
-    "type": "DRY",
-    "quantity": 2
+    "size": "20 STANDARD",
+    "type": "REEFER",
+    "quantity": 6
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO",
-    "portOfLoading": "NINGBO",
-    "portOfDischarge": "HAMBURG",
-    "placeOfDelivery": "HAMBURG"
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
   },
   "scheduleDetails": {
-    "estimatedArrivalAtLoadingPort": "2024-10-20 12:15",
-    "estimatedDepartureFromLoadingPort": "2024-10-22 08:30",
-    "estimatedArrivalAtDischargePort": "2024-11-09 16:00"
+    "estimatedArrivalAtLoadingPort": "2024-10-22 10:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-23 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-07 08:00"
   },
-  "emptyContainerPickupLocation": "HAMBURG, GERMANY",
-  "shippingTerm": "CIF",
-  "remarks": "Containers to be loaded on deck."
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CY/CY",
+  "remarks": "TEMPERATURE CONTROLLED CARGO: -6\u00b0C",
+  "cargoType": "REEFER"
 }

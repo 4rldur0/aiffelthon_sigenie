@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411207722",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SAUBER TECHNOLOGIES LTD",
+      "address": "1 RUE DE LA MONTAGNE, 75001 PARIS, FRANCE",
+      "country": "FRANCE",
+      "additionalInfo": "",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@SAUBERTECHNOLOGIES.COM"
+    },
+    "consignee": {
+      "name": "ZENITH LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 79 87 65 43",
+      "fax": "+49 69 79 87 65 44",
+      "email": "INFO@ZENITHLOGISTICS.DE"
+    },
+    "notifyParty": {
+      "name": "ZENITH LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 79 87 65 43",
+      "fax": "+49 69 79 87 65 44",
+      "email": "INFO@ZENITHLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950611",
+  "commodityDescription": "MOTOR VEHICLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT7422416",
+      "sealNumber": "SEAL251764",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 8304.67,
+      "measurement": 27.29
+    },
+    {
+      "containerNumber": "CONT2405327",
+      "sealNumber": "SEAL321516",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 15394.98,
+      "measurement": 25.69
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 171,
+    "totalGrossWeight": 23699.65,
+    "totalMeasurement": 52.98
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ZENITH LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49 69 79 87 65 43",
+      "fax": "+49 69 79 87 65 44",
+      "email": "INFO@ZENITHLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 79 87 65 43",
+      "fax": "+49 69 79 87 65 44",
+      "email": "INFO@ZENITHLOGISTICS.DE"
+    },
+    "onboardDate": "2024-11-23 20:30",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

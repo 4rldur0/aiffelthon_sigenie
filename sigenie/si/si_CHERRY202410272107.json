@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202410272107",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE",
+      "contactPerson": "PETER SCHMIDT"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940160",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT5698290",
+      "sealNumber": "SEAL581813",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 9330.62,
+      "measurement": 25.59
+    },
+    {
+      "containerNumber": "CONT5609485",
+      "sealNumber": "SEAL241833",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 19024.52,
+      "measurement": 37.32
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 112,
+    "totalGrossWeight": 28355.14,
+    "totalMeasurement": 62.91
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241027-1001",
+    "documentNumber": "20241027-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "onboardDate": "2024-11-05 19:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410289922",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI OCEANIC FOODS CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 OCEANIC RD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667",
+      "email": "INFO@SHANGHAOOCEANICFOODS.COM"
+    },
+    "consignee": {
+      "name": "GREEN VALLEY IMPORTS INC.",
+      "address": "1234 GREEN VALLEY RD, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 3334",
+      "email": "IMPORT@GREENVALLEYIMPORTS.NL"
+    },
+    "notifyParty": {
+      "name": "GREEN VALLEY IMPORTS INC.",
+      "address": "1234 GREEN VALLEY RD, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT3400366",
+      "sealNumber": "SEAL694671",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 11309.73,
+      "measurement": 23.29
+    },
+    {
+      "containerNumber": "CONT8995742",
+      "sealNumber": "SEAL769526",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 7141.95,
+      "measurement": 38.27
+    },
+    {
+      "containerNumber": "CONT1785737",
+      "sealNumber": "SEAL892153",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 10488.11,
+      "measurement": 23.18
+    },
+    {
+      "containerNumber": "CONT7068899",
+      "sealNumber": "SEAL779148",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 8869.8,
+      "measurement": 37.52
+    },
+    {
+      "containerNumber": "CONT3336214",
+      "sealNumber": "SEAL866953",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 15156.09,
+      "measurement": 36.07
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD REEFER",
+    "totalPackages": 225,
+    "totalGrossWeight": 52965.68,
+    "totalMeasurement": 158.33
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410289922"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN VALLEY IMPORTS INC.",
+      "address": "1234 GREEN VALLEY RD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 3334"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -13\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9613393",
+    "temperature": "-13\u00b0C",
+    "minTemperature": "-15\u00b0C",
+    "maxTemperature": "-11\u00b0C",
+    "ventilation": "15%",
+    "humidity": "89%"
+  }
+}

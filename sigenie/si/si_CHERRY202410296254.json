@@ -1,0 +1,149 @@
+{
+  "bookingReference": "CHERRY202410296254",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 YONGJIANG STREET, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "FRUIT IMPORT S.A.",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 123, ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "INFO@FRUITIMPORT.ES",
+      "personincharge": "MARIA FERNANDEZ"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 ST. JAMES STREET, LONDON, SW1A 1AA, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "telephone": "+44 207 123 4567",
+      "fax": "+44 207 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080550",
+  "commodityDescription": "FRESH ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT2225080",
+      "sealNumber": "SEAL757318",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 6108.08,
+      "measurement": 35.21
+    },
+    {
+      "containerNumber": "CONT6763997",
+      "sealNumber": "SEAL876603",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 5221.55,
+      "measurement": 24.85
+    },
+    {
+      "containerNumber": "CONT5446998",
+      "sealNumber": "SEAL416623",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 15001.97,
+      "measurement": 28.44
+    },
+    {
+      "containerNumber": "CONT6162019",
+      "sealNumber": "SEAL304982",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 9628.84,
+      "measurement": 31.5
+    },
+    {
+      "containerNumber": "CONT6240861",
+      "sealNumber": "SEAL516909",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 16922.22,
+      "measurement": 30.97
+    },
+    {
+      "containerNumber": "CONT6495830",
+      "sealNumber": "SEAL721787",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 10850.53,
+      "measurement": 24.73
+    },
+    {
+      "containerNumber": "CONT9759085",
+      "sealNumber": "SEAL142044",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 13229.07,
+      "measurement": 30.82
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 20 STANDARD REEFER",
+    "totalPackages": 316,
+    "totalGrossWeight": 76962.26,
+    "totalMeasurement": 206.52
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L/C NO. 234567890"
+    },
+    "certificateDetails": [
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 ST. JAMES STREET, LONDON, SW1A 1AA, UNITED KINGDOM",
+      "telephone": "+44 207 123 4567",
+      "fax": "+44 207 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 ST. JAMES STREET, LONDON, SW1A 1AA, UNITED KINGDOM",
+      "telephone": "+44 207 123 4567",
+      "fax": "+44 207 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-06 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 3\u00b0C, MAINTAIN HUMIDITY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3871524",
+    "temperature": "3\u00b0C",
+    "minTemperature": "1\u00b0C",
+    "maxTemperature": "5\u00b0C",
+    "ventilation": "75%",
+    "humidity": "60%"
+  }
+}

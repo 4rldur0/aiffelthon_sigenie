@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202410209065",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GAMMA INDUSTRIES INC.",
+      "onBehalfOf": "",
+      "address": "1234 PRODUCTION LANE, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "INFO@GAMMAINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING COMPANY LTD.",
+      "address": "5555 TRADE STREET, CASABLANCA, MOROCCO 20250",
+      "companyNumber": "1234567890",
+      "telephone": "+212 522 5555 6666",
+      "fax": "+212 522 5555 6667",
+      "email": "ORDERS@DELTAShipping.COM"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING COMPANY LTD.",
+      "address": "5555 TRADE STREET, CASABLANCA, MOROCCO 20250"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "620462",
+  "commodityDescription": "LADIES' WINTER COATS",
+  "containers": [
+    {
+      "containerNumber": "CONT4432203",
+      "sealNumber": "SEAL452875",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 11548.18,
+      "measurement": 32.66
+    },
+    {
+      "containerNumber": "CONT7749909",
+      "sealNumber": "SEAL886339",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 17499.93,
+      "measurement": 21.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 116,
+    "totalGrossWeight": 29048.11,
+    "totalMeasurement": 54.28
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410209065"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING COMPANY LTD.",
+      "address": "5555 TRADE STREET, CASABLANCA, MOROCCO 20250",
+      "telephone": "+212 522 5555 6666",
+      "fax": "+212 522 5555 6667",
+      "email": "ORDERS@DELTAShipping.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GAMMA INDUSTRIES INC.",
+      "address": "1234 PRODUCTION LANE, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "INFO@GAMMAINDUSTRIES.CN"
+    },
+    "onboardDate": "2024-10-26 19:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

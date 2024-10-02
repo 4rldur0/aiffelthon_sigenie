@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411286776",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SKYWAY TRADING CO., LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@SKYWAYTRADING.CN"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORT & EXPORT LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "ORDERS@GREENFIELDIMPORT.NL",
+      "personincharge": "JOHAN VAN DER MEER"
+    },
+    "notifyParty": {
+      "name": "GREEN FIELD LOGISTICS BV",
+      "address": "456 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS, 3010 AB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 888 9999",
+      "fax": "+31 10 888 0000",
+      "email": "LOGISTICS@GREENFIELDLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "333401",
+  "commodityDescription": "BEAUTY OR MAKE-UP PREPARATIONS AND SIMILAR ARTICLES",
+  "containers": [
+    {
+      "containerNumber": "CONT3943052",
+      "sealNumber": "SEAL652603",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 12462.06,
+      "measurement": 20.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD GENERAL",
+    "totalPackages": 54,
+    "totalGrossWeight": 12462.06,
+    "totalMeasurement": 20.02
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-12-12 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2926, 30 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2070486",
+    "unClass": "5",
+    "unCode": "2926,",
+    "hsCode": "1071.51.19",
+    "flashPoint": "38\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

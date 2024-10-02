@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202410179420",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTERS LTD.",
+      "address": "123 YONGFU ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAIMPORTERS.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS INC.",
+      "address": "2345 ALAMEDA STREET, MADRID, 28014, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 91 567 8901",
+      "fax": "+34 91 567 8902",
+      "email": "INFO@WORLDWIDEFREIGHT.ES",
+      "personincharge": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS SPAIN S.A.",
+      "address": "5678 GRAN VIA, BARCELONA, 08007, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 93 456 7890",
+      "fax": "+34 93 456 7891",
+      "email": "INFO@LOGISTICSSOUTH.ES"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "87169090",
+  "commodityDescription": "OUT-OF-GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT3732793",
+      "sealNumber": "SEAL719359",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 12579.25,
+      "measurement": 25.49
+    },
+    {
+      "containerNumber": "CONT2840339",
+      "sealNumber": "SEAL980539",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 5656.8,
+      "measurement": 35.28
+    },
+    {
+      "containerNumber": "CONT5189292",
+      "sealNumber": "SEAL189806",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 18545.0,
+      "measurement": 39.36
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD FLAT RACK",
+    "totalPackages": 170,
+    "totalGrossWeight": 36781.05,
+    "totalMeasurement": 100.13
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L987654321"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS INC.",
+      "address": "2345 ALAMEDA STREET, MADRID, 28014, SPAIN",
+      "telephone": "+34 91 567 8901",
+      "fax": "+34 91 567 8902",
+      "email": "INFO@WORLDWIDEFREIGHT.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS INC.",
+      "address": "2345 ALAMEDA STREET, MADRID, 28014, SPAIN",
+      "telephone": "+34 91 567 8901",
+      "fax": "+34 91 567 8902",
+      "email": "INFO@WORLDWIDEFREIGHT.ES"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 6073x2149x2372, VALUE: USD200,255"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6073",
+    "width": "2149",
+    "height": "2372",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

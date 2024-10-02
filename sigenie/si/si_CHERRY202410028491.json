@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202410028491",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "NO. 123, ZHONGBU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "EUROTECH DISTRIBUTION GMBH",
+      "address": "HEIJENOORD 123, 3011 NL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@EUROTECH.NL",
+      "contactPerson": "PETER VAN DER SLOOT"
+    },
+    "notifyParty": {
+      "name": "EUROTECH DISTRIBUTION GMBH"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRICAL CAPACITORS, FIXED, VARIABLE OR ADJUSTABLE",
+  "containers": [
+    {
+      "containerNumber": "CONT6803894",
+      "sealNumber": "SEAL135130",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 8380.75,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CONT8817984",
+      "sealNumber": "SEAL196683",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 16076.78,
+      "measurement": 26.84
+    },
+    {
+      "containerNumber": "CONT2507445",
+      "sealNumber": "SEAL904926",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 12597.22,
+      "measurement": 20.08
+    },
+    {
+      "containerNumber": "CONT9202243",
+      "sealNumber": "SEAL439433",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 5721.01,
+      "measurement": 27.64
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD TANK",
+    "totalPackages": 323,
+    "totalGrossWeight": 42775.76,
+    "totalMeasurement": 99.06
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241026-1001",
+    "documentNumber": "20241026-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROTECH DISTRIBUTION GMBH",
+      "address": "HEIJENOORD 123, 3011 NL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH DISTRIBUTION GMBH",
+      "address": "HEIJENOORD 123, 3011 NL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-10-16 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1018, VALUE: USD212,382",
+    "dangerousGoods": {
+      "unNumber": "1018",
+      "class": "3",
+      "packingGroup": "II",
+      "properShippingName": "CAPACITORS, ELECTRIC, WITH DANGEROUS GOODS"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2533387",
+    "unClass": "6",
+    "unCode": "1018,",
+    "hsCode": "2803.58.33",
+    "flashPoint": "81\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}
