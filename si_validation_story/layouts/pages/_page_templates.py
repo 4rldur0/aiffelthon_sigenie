@@ -1,6 +1,7 @@
 import streamlit as st
 import base64
 
+# 현재 SI를 기반으로 draft B/L을 보여주는 페이지
 class BLDraftPage:
     def __init__(self, si_data):
         self.si_data = si_data
@@ -68,10 +69,11 @@ class BLDraftPage:
         </style>
         """
 
-    def get_base64_encoded_image(self, image_path):
+    # 로고 이미지 가져오기 및 출력 형식 지정
+    def _get_base64_encoded_image(self, image_path):
         with open(image_path, "rb") as img_file:
             return base64.b64encode(img_file.read()).decode('utf-8')
-    def generate_container_rows(self, containers, doc):
+    def _generate_container_rows(self, containers, doc):
         particulars_html = f"""
         <h3>PARTICULARS FURNISHED BY SHIPPER - CARRIER NOT RESPONSIBLE</h3>
         <table class="bl-table">
@@ -122,15 +124,15 @@ class BLDraftPage:
         particulars_html += "</table>"
         container_info_html += "</table>"
         return particulars_html, container_info_html, footer_info_html   
-    def display_bl_form(self, doc):
+    def _display_bl_form(self, doc):
         # Apply custom CSS
         st.markdown(self.custom_css, unsafe_allow_html=True)
         
         # Load and encode the logo
-        logo_base64 = self.get_base64_encoded_image(self.logo_img)
+        logo_base64 = self._get_base64_encoded_image(self.logo_img)
         
         # Generate container information HTML
-        particulars_html, container_info_html, footer_info_html = self.generate_container_rows(doc['containers'], doc)
+        particulars_html, container_info_html, footer_info_html = self._generate_container_rows(doc['containers'], doc)
 
         # Create the BL form HTML
         bl_html = f"""
@@ -227,10 +229,34 @@ class BLDraftPage:
         # Render the BL form
         st.html(bl_html)
 
+    # 화면에 보여질 실제 페이지
     def show_bl_draft_page(self):
         st.title("Bill of Lading Report Draft")
         
         if self.si_data:
-            self.display_bl_form(self.si_data)
+            self._display_bl_form(self.si_data)
         else:
             st.warning("Please search for a Shipping Instruction first.")
+
+# 최종 요약 텍스트를 보여주는 페이지
+class ReportPage:
+    def __init__(self, report_name, text):
+        self.report_name = report_name
+        self.text = text
+
+    # 최종 report를 스트리밍 형식으로 보여줌(실제 답변이 스트리밍되는 것은 아님)
+    def generate_report(self, placeholder, text):
+        try:
+            streamed_text = ''
+            for chunk in text:
+                if chunk is not None:
+                    streamed_text += chunk
+                    placeholder.info(streamed_text)
+        except Exception as e:
+            st.error(f"An error occurred while generating the summary: {e}")
+
+    # 화면에 보여질 실제 페이지        
+    def show_report_page(self):
+        st.title(self.report_name)
+        placeholder = st.empty()
+        self.generate_report(placeholder, self.text)
