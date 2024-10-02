@@ -27,11 +27,8 @@ This is the summarized report on SI cherry202409072244:
 		- FREIGHT TERMS: OK (COLLECT)
     5. ...
 """
-intake_report_prompt = """
-Summarize data below
+validation_report_prompt = """
 
-Data: 
-{sources}
 """
 check_parties_prompt = """
 Found following issues in shipper, consignee, and notify parties' data
