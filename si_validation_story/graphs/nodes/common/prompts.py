@@ -1,9 +1,33 @@
 check_missing_prompt="""
-    Are there any missing data with the following shipping instruction:
-    Except for Additional Information is needed.
-    Find from following data :\n{si_data}.
-    Just say `OK` or `MISSING` per group.
+Analyze the following Shipping Instruction (SI) data, focusing on missing or incomplete information in key sections excluding the ‘Additional Information’ field. Assess each section for completeness: ‘Voyage & Route Details,’ ‘Payment & Documentation,’ ‘Party Details,’ ‘Shipping Information,’ ‘Containers,’ and ‘Total Shipment.’ For missing or incomplete details, return a summary highlighting which data is missing or invalid. Provide a concise and structured output similar to the example below.
+
+Data:
+{si_data}
+
+Example Output:
+
+This is the summarized report on SI cherry202409072244:
+
+	1. VESSEL VOYAGE BOUND: OK (APL TEMASEK, 2024581E)
+	2. PARTIES
+		- SHIPPER: OK
+		- CONSIGNEE: OK
+		- NOTIFY PARTY: OK
+	3. PLACE OF RECEIPT: OK
+		- PORT OF LOADING: OK
+		- PORT OF DISCHARGING: OK
+		- PLACE OF DELIVERY: OK
+	4. DESCRIPTIONS OF GOODS
+		- CONTAINER/SEAL NO: OK
+		- CONTAINER UNIT: OK
+		- MARKS AND NUMBERS: OK
+		- NUMBER AND PACKAGE TYPE: OK
+		- COMMODITY: OK (POWER TRANSFORMERS)
+		- SHIPPING TERMS: OK (CIF)
+		- FREIGHT TERMS: OK (COLLECT)
+    5. ...
 """
+
 validation_report_prompt = """
 
 """
