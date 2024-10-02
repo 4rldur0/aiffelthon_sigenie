@@ -115,8 +115,10 @@ class RAGModel:
             """
             실시간 검색에서 포함/제외할 URL을 설정하는 것으로, 위의 RAG 생성 코드와는 다름
             """
-            web_search.set_include_urls(['https://해당 주소를 포함해 주세요.com'])  # 포함 URL 설정하기 (예시)
-            web_search.set_exclude_urls(['https://해당 주소는 제외해 주세요.com'])  # 제외 URL 설정하기 (예시)
+            web_search.set_include_urls(['https://ofac.treasury.gov/'])  # 포함 URL 설정하기 (예시)
+            web_search.set_include_urls(['https://docs.fcdo.gov.uk/docs/UK-Sanctions-List.html'])  # 포함 URL 설정하기 (예시)
+            web_search.set_include_urls(['https://scsanctions.un.org/1u4khen-al-qaida.html'])  # 포함 URL 설정하기 (예시)
+            web_search.set_include_urls(['https://scsanctions.un.org/4b497en-al-qaida.html'])  # 포함 URL 설정하기 (예시)
             
             # 웹 검색 수행하기
             results = await web_search.search(query)
