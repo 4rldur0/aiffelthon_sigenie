@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411267878",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FREIGHT FORWARDERS INC.",
+      "address": "1234 ASIA PACIFIC ROAD, SINGAPORE, 123456",
+      "country": "SINGAPORE",
+      "additionalInfo": "(ASIA PACIFIC BUILDING)",
+      "telephone": "+65 6789 0123",
+      "email": "SHIPPING@ASIAFREIGHT.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "123 GLOBAL STREET, ALGECIRAS, SPAIN, 11111",
+      "country": "SPAIN",
+      "email": "ORDERS@GLOBALLOGISTICS.ES",
+      "telephone": "+34 956 123 456"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "123 GLOBAL STREET, ALGECIRAS, SPAIN, 11111",
+      "country": "SPAIN",
+      "email": "ORDERS@GLOBALLOGISTICS.ES",
+      "telephone": "+34 956 123 456"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940170",
+  "commodityDescription": "SEATS FOR AUTOMOBILES",
+  "containers": [
+    {
+      "containerNumber": "CONT6809232",
+      "sealNumber": "SEAL814306",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 18547.45,
+      "measurement": 33.12
+    },
+    {
+      "containerNumber": "CONT4758676",
+      "sealNumber": "SEAL622263",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 12431.57,
+      "measurement": 22.16
+    },
+    {
+      "containerNumber": "CONT4263758",
+      "sealNumber": "SEAL586234",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 14645.36,
+      "measurement": 35.99
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 160,
+    "totalGrossWeight": 45624.38,
+    "totalMeasurement": 91.27
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "123 GLOBAL STREET, ALGECIRAS, SPAIN, 11111",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "ORDERS@GLOBALLOGISTICS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "123 GLOBAL STREET, ALGECIRAS, SPAIN, 11111",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "ORDERS@GLOBALLOGISTICS.ES"
+    },
+    "onboardDate": "2025-01-06 18:00",
+    "additionalRemarks": "ON DECK TOP STOWAGE"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "bookingReference": "CHERRY202411242511",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO.",
+      "address": "1234, SHANGHAI ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(OFFICE BUILDING)",
+      "telephone": "+86 21 5678 9012",
+      "email": "INFO@SHANGHAITRADING.COM"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORT EXPORT",
+      "address": "123 ABC STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GREENFIELDIMPORT.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "GREEN FIELD IMPORT EXPORT",
+      "address": "123 ABC STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GREENFIELDIMPORT.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT9066652",
+      "sealNumber": "SEAL839542",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 16704.49,
+      "measurement": 39.38
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD GENERAL",
+    "totalPackages": 69,
+    "totalGrossWeight": 16704.49,
+    "totalMeasurement": 39.38
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GREEN FIELD IMPORT EXPORT",
+      "address": "123 ABC STREET, ROTTERDAM, 3011 NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "",
+      "email": "ORDERS@GREENFIELDIMPORT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN FIELD IMPORT EXPORT",
+      "address": "123 ABC STREET, ROTTERDAM, 3011 NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "",
+      "email": "ORDERS@GREENFIELDIMPORT.NL"
+    },
+    "onboardDate": "2024-12-07 16:00",
+    "additionalRemarks": "KEEP DRY"
+  }
+}

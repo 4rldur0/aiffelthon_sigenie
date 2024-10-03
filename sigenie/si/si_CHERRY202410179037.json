@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410179037",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 SUNRISE ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "INFO@SUNRISETRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "1234 GLOBAL WAY, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 4567 8901",
+      "fax": "+31 10 4567 8902",
+      "email": "INFO@GLOBALIMPORTS.NL"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "1234 SUNRISE ROAD, NINGBO, CHINA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CARS",
+  "containers": [
+    {
+      "containerNumber": "CONT3910559",
+      "sealNumber": "SEAL619102",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 10790.26,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CONT6605316",
+      "sealNumber": "SEAL856572",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 18547.63,
+      "measurement": 21.1
+    },
+    {
+      "containerNumber": "CONT9165915",
+      "sealNumber": "SEAL367235",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 19542.05,
+      "measurement": 37.48
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 180,
+    "totalGrossWeight": 48879.94,
+    "totalMeasurement": 91.58
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "1234 SUNRISE ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

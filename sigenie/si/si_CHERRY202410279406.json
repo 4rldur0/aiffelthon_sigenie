@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202410279406",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI INTERNATIONAL TEXTILES CO.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 21 5037 8888",
+      "fax": "+86 21 5037 8889",
+      "email": "WANG.LEI@SHANGHAIADVANCED.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "123 LONDON ROAD, LONDON, UNITED KINGDOM",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+44 20 7000 0000",
+      "fax": "+44 20 7000 0001",
+      "email": "JOHNSMITH@GLOBALTRADINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT4363198",
+      "sealNumber": "SEAL485768",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 5555.56,
+      "measurement": 23.43
+    },
+    {
+      "containerNumber": "CONT4209242",
+      "sealNumber": "SEAL646706",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 14150.38,
+      "measurement": 33.8
+    },
+    {
+      "containerNumber": "CONT6807273",
+      "sealNumber": "SEAL645627",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 11559.88,
+      "measurement": 24.1
+    },
+    {
+      "containerNumber": "CONT5972158",
+      "sealNumber": "SEAL836078",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 11470.29,
+      "measurement": 27.35
+    },
+    {
+      "containerNumber": "CONT2830013",
+      "sealNumber": "SEAL991132",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 18775.94,
+      "measurement": 21.65
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE TANK",
+    "totalPackages": 323,
+    "totalGrossWeight": 61512.05,
+    "totalMeasurement": 130.33
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-07 21:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3259, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6592219",
+    "unClass": "2",
+    "unCode": "3259,",
+    "hsCode": "1771.44.71",
+    "flashPoint": "22\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

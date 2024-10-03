@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410171375",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ACME ENGINEERING WORKS LTD.",
+      "address": "123 FACTORY LANE, NINGBO, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ACMEENGINEERING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 WAREHOUSE STREET, LE HAVRE, FRANCE",
+      "usci": "91321200765109788X",
+      "president": "JEAN DUPONT",
+      "telephone": "+33 2 35 20 21 22",
+      "fax": "+33 2 35 20 21 23",
+      "email": "JEAN.DUPONT@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 WAREHOUSE STREET, LE HAVRE, FRANCE",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+33 2 35 20 21 22",
+      "fax": "+33 2 35 20 21 23",
+      "email": "JEAN.DUPONT@GLOBALFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "846630",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT5766595",
+      "sealNumber": "SEAL372737",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 9060.08,
+      "measurement": 26.14
+    },
+    {
+      "containerNumber": "CONT2009490",
+      "sealNumber": "SEAL813473",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 17348.2,
+      "measurement": 27.38
+    },
+    {
+      "containerNumber": "CONT2716574",
+      "sealNumber": "SEAL976718",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 18578.58,
+      "measurement": 23.86
+    },
+    {
+      "containerNumber": "CONT6498812",
+      "sealNumber": "SEAL283515",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 19178.07,
+      "measurement": 25.78
+    },
+    {
+      "containerNumber": "CONT5514685",
+      "sealNumber": "SEAL414115",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 17743.75,
+      "measurement": 31.56
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD TANK",
+    "totalPackages": 210,
+    "totalGrossWeight": 81908.68,
+    "totalMeasurement": 134.72
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

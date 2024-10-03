@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410182998",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENGINEERING LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 1111",
+      "email": "INFO@ASIAENGINEERING.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "125 WARSAW STREET, GDANSK, POLAND 80-200",
+      "taxId": "PL1234567890",
+      "president": "MR. JAN NOWAK",
+      "telephone": "+48 58 555 55 55",
+      "fax": "+48 58 555 55 56",
+      "email": "JAN.NOWAK@GLOBALFREIGHTSOLUTIONS.PL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "125 WARSAW STREET, GDANSK, POLAND 80-200",
+      "taxId": "PL1234567890",
+      "president": "MR. JAN NOWAK",
+      "telephone": "+48 58 555 55 55",
+      "fax": "+48 58 555 55 56",
+      "email": "JAN.NOWAK@GLOBALFREIGHTSOLUTIONS.PL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381700",
+  "commodityDescription": "PERFUMES",
+  "containers": [
+    {
+      "containerNumber": "CONT9096090",
+      "sealNumber": "SEAL414789",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 16412.04,
+      "measurement": 28.03
+    },
+    {
+      "containerNumber": "CONT9062777",
+      "sealNumber": "SEAL221602",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 11776.68,
+      "measurement": 30.74
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 99,
+    "totalGrossWeight": 28188.72,
+    "totalMeasurement": 58.77
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241018-001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-26 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2864, VALUE: USD467,252, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2312793",
+    "unClass": "1",
+    "unCode": "2864,",
+    "hsCode": "2433.15.63",
+    "flashPoint": "27\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

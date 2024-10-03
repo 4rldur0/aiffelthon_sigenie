@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410314954",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA INDUSTRIES INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@OMEGAINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "5678 GRAN VIA DE LAS CORTES, ALGECIRAS, SPAIN 11001",
+      "country": "SPAIN",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "SHIPPING@ALPHAIMPORTEXPORT.ES",
+      "personincharge": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS SPAIN S.A.",
+      "address": "9012 AVENIDA DE LA TECNOLOGIA, ALGECIRAS, SPAIN 11002",
+      "country": "SPAIN",
+      "telephone": "+34 956 4567 89",
+      "fax": "+34 956 4567 90",
+      "email": "OPERATIONS@LOGISTICSS\u041d\u0430\u043f\u043e\u043c\u043d\u0438\u043c.ES"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871630",
+  "commodityDescription": "OUT-OF-GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT2227470",
+      "sealNumber": "SEAL403164",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 5302.93,
+      "measurement": 36.08
+    },
+    {
+      "containerNumber": "CONT4846366",
+      "sealNumber": "SEAL582482",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 16714.85,
+      "measurement": 21.01
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD FLAT RACK",
+    "totalPackages": 107,
+    "totalGrossWeight": 22017.78,
+    "totalMeasurement": 57.09
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ALPHA20241031"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "5678 GRAN VIA DE LAS CORTES, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "SHIPPING@ALPHAIMPORTEXPORT.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "5678 GRAN VIA DE LAS CORTES, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "SHIPPING@ALPHAIMPORTEXPORT.ES"
+    },
+    "onboardDate": "2024-11-17 19:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 7690x2003x2126, VALUE: USD683,454"
+  },
+  "outOfGaugeDimensions": {
+    "length": "7690",
+    "width": "2003",
+    "height": "2126",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

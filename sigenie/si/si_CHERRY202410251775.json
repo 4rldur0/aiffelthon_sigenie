@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410251775",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SCHNEIDER ELECTRIC GMBH",
+      "address": "SCHNEIDERSTRASSE 1, 22335 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 40 3333 1234",
+      "fax": "+49 40 3333 1235",
+      "email": "CONTACT@SCHNEIDER-ELECTRIC.DE"
+    },
+    "consignee": {
+      "name": "EVERGREEN LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 9999 1234",
+      "fax": "+49 69 9999 1235",
+      "email": "CONTACT@EVERGREENLOGISTICS.DE",
+      "personincharge": "ANNA MEIER"
+    },
+    "notifyParty": {
+      "name": "SCHNEIDER ELECTRIC GMBH",
+      "address": "SCHNEIDERSTRASSE 1, 22335 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 3333 1234",
+      "fax": "+49 40 3333 1235",
+      "email": "CONTACT@SCHNEIDER-ELECTRIC.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "853669",
+  "commodityDescription": "SWITCHGEAR",
+  "containers": [
+    {
+      "containerNumber": "CONT9596563",
+      "sealNumber": "SEAL957404",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 14692.43,
+      "measurement": 22.5
+    },
+    {
+      "containerNumber": "CONT3208886",
+      "sealNumber": "SEAL128639",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 15010.65,
+      "measurement": 34.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 134,
+    "totalGrossWeight": 29703.08,
+    "totalMeasurement": 56.52
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "EVERGREEN LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49 69 9999 1234",
+      "fax": "+49 69 9999 1235",
+      "email": "CONTACT@EVERGREENLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EVERGREEN LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49 69 9999 1234",
+      "fax": "+49 69 9999 1235",
+      "email": "CONTACT@EVERGREENLOGISTICS.DE"
+    },
+    "onboardDate": "2024-10-28 18:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

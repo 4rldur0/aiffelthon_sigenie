@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202411206805",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE ELECTRONICS MANUFACTURING PTE LTD",
+      "address": "123 TECH PARK BOULEVARD, SINGAPORE 658790",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SHIPPING@SEMPL.COM.SG"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM) B.V.",
+      "address": "EINDHOVENSEWEG 5, 3072 ME ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 207 5000",
+      "fax": "+31 10 207 5001",
+      "email": "DUTCH.IMPORT@DHL.COM",
+      "personincharge": "JAN VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "50 LORONG 23 GEYLANG, SINGAPORE 388376",
+      "country": "SINGAPORE",
+      "telephone": "+65 6222 2222",
+      "fax": "+65 6222 2223",
+      "email": "OPERATIONS@DHL.COM.SG"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "392690",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT5132203",
+      "sealNumber": "SEAL693451",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 15164.4,
+      "measurement": 22.53
+    },
+    {
+      "containerNumber": "CONT8505112",
+      "sealNumber": "SEAL480761",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 5679.69,
+      "measurement": 27.41
+    },
+    {
+      "containerNumber": "CONT6430968",
+      "sealNumber": "SEAL245254",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 14458.73,
+      "measurement": 33.29
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 212,
+    "totalGrossWeight": 35302.82,
+    "totalMeasurement": 83.23
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LCL202411206805"
+    },
+    "certificateDetails": [
+      "SGS202411206805"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "50 LORONG 23 GEYLANG, SINGAPORE 388376",
+      "telephone": "+65 6222 2222",
+      "fax": "+65 6222 2223",
+      "email": "OPERATIONS@DHL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE ELECTRONICS MANUFACTURING PTE LTD",
+      "address": "123 TECH PARK BOULEVARD, SINGAPORE 658790",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SHIPPING@SEMPL.COM.SG"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1737, VALUE: USD418,431, 21 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1995432",
+    "unClass": "3",
+    "unCode": "1737,",
+    "hsCode": "9386.25.87",
+    "flashPoint": "51\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

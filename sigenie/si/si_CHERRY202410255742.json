@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202410255742",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC PRECISION TOOLS LTD",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200001",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 21 5037 8888",
+      "fax": "+86 21 5037 8889",
+      "email": "WANG.LEI@ASIA-PACIFICTOOLS.CN"
+    },
+    "consignee": {
+      "name": "KENTZ GLOBAL LOGISTICS PTE LTD",
+      "address": "1001 LONGDONG AVENUE, PUDONG NEW AREA, SHANGHAI 201203, CHINA",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+65 6733 1111",
+      "fax": "+65 6733 2222",
+      "email": "JOHNDOE@KENTZGLOBAL.COM.SG"
+    },
+    "notifyParty": {
+      "name": "KENTZ GLOBAL LOGISTICS PTE LTD",
+      "address": "1001 LONGDONG AVENUE, PUDONG NEW AREA, SHANGHAI 201203, CHINA",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+65 6733 1111",
+      "fax": "+65 6733 2222",
+      "email": "JOHNDOE@KENTZGLOBAL.COM.SG"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "820540",
+  "commodityDescription": "METALWORKING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CONT6459043",
+      "sealNumber": "SEAL961183",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 11065.08,
+      "measurement": 22.01
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD TANK",
+    "totalPackages": 53,
+    "totalGrossWeight": 11065.08,
+    "totalMeasurement": 22.01
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "THIS SIDE UP"
+  }
+}

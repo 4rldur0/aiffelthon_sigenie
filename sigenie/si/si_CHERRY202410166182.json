@@ -1,0 +1,142 @@
+{
+  "bookingReference": "CHERRY202410166182",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TEXTILE CO., LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@SHANGHAITEXTILE.COM"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORTERS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@GREENFIELDIMPORTERS.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "456 AMSTERDAM AVENUE, ROTTERDAM 3011 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 888 9999",
+      "fax": "+31 10 888 0000",
+      "email": "INFO@WORLDWIDELOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030389",
+  "commodityDescription": "FROZEN FISH, NOT SPECIFIED ELSEWHERE",
+  "containers": [
+    {
+      "containerNumber": "CONT2434902",
+      "sealNumber": "SEAL306209",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 19316.94,
+      "measurement": 35.56
+    },
+    {
+      "containerNumber": "CONT3264178",
+      "sealNumber": "SEAL160209",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 6946.69,
+      "measurement": 33.25
+    },
+    {
+      "containerNumber": "CONT6759146",
+      "sealNumber": "SEAL677344",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 19661.38,
+      "measurement": 27.25
+    },
+    {
+      "containerNumber": "CONT6545248",
+      "sealNumber": "SEAL293183",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 10303.26,
+      "measurement": 20.01
+    },
+    {
+      "containerNumber": "CONT3223608",
+      "sealNumber": "SEAL470885",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 18912.48,
+      "measurement": 30.61
+    },
+    {
+      "containerNumber": "CONT3642219",
+      "sealNumber": "SEAL449121",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 6925.55,
+      "measurement": 39.95
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD REEFER",
+    "totalPackages": 316,
+    "totalGrossWeight": 82066.3,
+    "totalMeasurement": 186.63
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      " HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN FIELD IMPORTERS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@GREENFIELDIMPORTERS.NL"
+    },
+    "onboardDate": "2024-10-24 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -7\u00b0C, VALUE: USD422,497, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4924637",
+    "temperature": "-7\u00b0C",
+    "minTemperature": "-9\u00b0C",
+    "maxTemperature": "-5\u00b0C",
+    "ventilation": "73%",
+    "humidity": "71%"
+  }
+}

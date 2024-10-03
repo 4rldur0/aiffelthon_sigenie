@@ -1,0 +1,151 @@
+{
+  "bookingReference": "CHERRY202410115417",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE CHEMICAL INDUSTRIES PTE LTD",
+      "address": "123 ABC STREET, SINGAPORE 123456",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (GERMANY) GMBH",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@DHL.DE",
+      "contactPerson": "PETER MEYER"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 DEF STREET, SINGAPORE 678901"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "281010",
+  "commodityDescription": "BORAX DECAHYDRATE",
+  "containers": [
+    {
+      "containerNumber": "CONT4492894",
+      "sealNumber": "SEAL584008",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 17999.62,
+      "measurement": 21.38
+    },
+    {
+      "containerNumber": "CONT5831132",
+      "sealNumber": "SEAL397367",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 15124.3,
+      "measurement": 23.65
+    },
+    {
+      "containerNumber": "CONT6651813",
+      "sealNumber": "SEAL154031",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 18676.13,
+      "measurement": 36.29
+    },
+    {
+      "containerNumber": "CONT6404232",
+      "sealNumber": "SEAL148746",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 7867.0,
+      "measurement": 25.14
+    },
+    {
+      "containerNumber": "CONT3788600",
+      "sealNumber": "SEAL426658",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 17723.15,
+      "measurement": 24.53
+    },
+    {
+      "containerNumber": "CONT1067740",
+      "sealNumber": "SEAL661889",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 11491.01,
+      "measurement": 33.86
+    },
+    {
+      "containerNumber": "CONT6132893",
+      "sealNumber": "SEAL110727",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 11025.08,
+      "measurement": 33.69
+    },
+    {
+      "containerNumber": "CONT8931433",
+      "sealNumber": "SEAL170049",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 15419.99,
+      "measurement": 23.15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "8 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 402,
+    "totalGrossWeight": 115326.28,
+    "totalMeasurement": 221.69
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (GERMANY) GMBH",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 DEF STREET, SINGAPORE 678901"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1312, MAINTAIN HUMIDITY",
+    "dangerousGoods": {
+      "unNumber": "1312",
+      "properShippingName": "BORAX DECAHYDRATE",
+      "class": "8",
+      "packingGroup": "III"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8581739",
+    "unClass": "5",
+    "unCode": "1312,",
+    "hsCode": "1448.51.26",
+    "flashPoint": "53\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

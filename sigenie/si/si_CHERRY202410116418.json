@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410116418",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC IMPORT EXPORT CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "961610",
+  "commodityDescription": "STATIONERY",
+  "containers": [
+    {
+      "containerNumber": "CONT6455918",
+      "sealNumber": "SEAL452714",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 10268.39,
+      "measurement": 32.03
+    },
+    {
+      "containerNumber": "CONT4874996",
+      "sealNumber": "SEAL165865",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 9458.27,
+      "measurement": 26.69
+    },
+    {
+      "containerNumber": "CONT6985223",
+      "sealNumber": "SEAL469686",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 5210.3,
+      "measurement": 36.21
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 97,
+    "totalGrossWeight": 24936.96,
+    "totalMeasurement": 94.93
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT EXPORT CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

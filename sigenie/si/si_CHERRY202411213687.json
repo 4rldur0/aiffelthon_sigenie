@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411213687",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA PRECISION ENGINEERING PTE LTD",
+      "address": "123 ANY STREET, SINGAPORE, SINGAPORE 123456",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890124"
+    },
+    "consignee": {
+      "name": "DELTA GLOBAL LOGISTICS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM W1A 1AA",
+      "telephone": "+44-2079876543",
+      "fax": "+44-2079876544"
+    },
+    "notifyParty": {
+      "name": "DELTA GLOBAL LOGISTICS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM W1A 1AA",
+      "telephone": "+44-2079876543",
+      "fax": "+44-2079876544"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "MACHINERY FOR CLEANING, FILLING, CLOSING, SEALING OR LABELLING",
+  "containers": [
+    {
+      "containerNumber": "CONT2677212",
+      "sealNumber": "SEAL406197",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 6634.79,
+      "measurement": 28.01
+    },
+    {
+      "containerNumber": "CONT1309749",
+      "sealNumber": "SEAL769363",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 14241.57,
+      "measurement": 36.45
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 119,
+    "totalGrossWeight": 20876.36,
+    "totalMeasurement": 64.46
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA GLOBAL LOGISTICS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM W1A 1AA",
+      "telephone": "+44-2079876543",
+      "fax": "+44-2079876544"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA GLOBAL LOGISTICS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM W1A 1AA",
+      "telephone": "+44-2079876543",
+      "fax": "+44-2079876544"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

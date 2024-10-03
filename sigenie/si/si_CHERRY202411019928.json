@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411019928",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "123 INTERNATIONAL ROAD, SINGAPORE 456789",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@GLOBALTRADING.SG"
+    },
+    "consignee": {
+      "name": "MARINE LOGISTICS LTD.",
+      "address": "1234 PORT BOULEVARD, ROTTERDAM 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 203 4567",
+      "fax": "+31 10 203 4568",
+      "email": "ORDERS@MARINELOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "5678 WAREHOUSE STREET, ROTTERDAM 3010 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 345 6789",
+      "fax": "+31 10 345 6780",
+      "email": "NOTIFICATIONS@GLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "870899",
+  "commodityDescription": "PARTS AND ACCESSORIES FOR VEHICLES OF HEADINGS 8701 TO 8705",
+  "containers": [
+    {
+      "containerNumber": "CONT9856448",
+      "sealNumber": "SEAL931033",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 14249.54,
+      "measurement": 26.34
+    },
+    {
+      "containerNumber": "CONT7143240",
+      "sealNumber": "SEAL769589",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 10004.63,
+      "measurement": 37.57
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 40,
+    "totalGrossWeight": 24254.17,
+    "totalMeasurement": 63.91
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "MARINE LOGISTICS LTD.",
+      "address": "1234 PORT BOULEVARD, ROTTERDAM 3000 AA, NETHERLANDS",
+      "telephone": "+31 10 203 4567",
+      "fax": "+31 10 203 4568",
+      "email": "ORDERS@MARINELOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "123 INTERNATIONAL ROAD, SINGAPORE 456789",
+      "country": "SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@GLOBALTRADING.SG"
+    },
+    "onboardDate": "2024-11-12 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

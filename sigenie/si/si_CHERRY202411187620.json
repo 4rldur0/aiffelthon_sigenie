@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411187620",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FOODS LTD.",
+      "address": "1234 MAIN STREET, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 98765432",
+      "email": "INFO@SUNRISEFOODS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "5678 WESTERN AVENUE, GDANSK, POLAND, 80-200",
+      "country": "POLAND",
+      "telephone": "+48 58 12345678",
+      "fax": "+48 58 98765432",
+      "email": "INFO@GLOBALLOGISTICS.PL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "5678 WESTERN AVENUE, GDANSK, POLAND, 80-200",
+      "country": "POLAND",
+      "telephone": "+48 58 12345678",
+      "fax": "+48 58 98765432",
+      "email": "INFO@GLOBALLOGISTICS.PL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT5851991",
+      "sealNumber": "SEAL823772",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 11606.9,
+      "measurement": 20.61
+    },
+    {
+      "containerNumber": "CONT2675367",
+      "sealNumber": "SEAL415773",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 13992.82,
+      "measurement": 36.56
+    },
+    {
+      "containerNumber": "CONT5692712",
+      "sealNumber": "SEAL667328",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 10130.35,
+      "measurement": 29.19
+    },
+    {
+      "containerNumber": "CONT2934985",
+      "sealNumber": "SEAL133323",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 8863.33,
+      "measurement": 20.68
+    },
+    {
+      "containerNumber": "CONT1351369",
+      "sealNumber": "SEAL506787",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 15822.91,
+      "measurement": 21.46
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD REEFER",
+    "totalPackages": 185,
+    "totalGrossWeight": 60416.31,
+    "totalMeasurement": 128.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "5678 WESTERN AVENUE, GDANSK, POLAND, 80-200",
+      "telephone": "+48 58 12345678",
+      "fax": "+48 58 98765432",
+      "email": "INFO@GLOBALLOGISTICS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "5678 WESTERN AVENUE, GDANSK, POLAND, 80-200",
+      "telephone": "+48 58 12345678",
+      "fax": "+48 58 98765432",
+      "email": "INFO@GLOBALLOGISTICS.PL"
+    },
+    "onboardDate": "2024-11-23 19:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 0\u00b0C, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5707054",
+    "temperature": "0\u00b0C",
+    "minTemperature": "-2\u00b0C",
+    "maxTemperature": "2\u00b0C",
+    "ventilation": "23%",
+    "humidity": "60%"
+  }
+}

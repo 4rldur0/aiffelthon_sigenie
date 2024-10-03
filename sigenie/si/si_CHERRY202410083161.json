@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410083161",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "country": "NETHERLANDS",
+      "additionalInfo": "",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 987 6543",
+      "email": "INFO@ASIAPACIFICTRADING.NL"
+    },
+    "consignee": {
+      "name": "MARITIME LOGISTICS LTD.",
+      "address": "456 PORT ROAD, PORT KLANG, MALAYSIA, 42000",
+      "country": "MALAYSIA",
+      "telephone": "+60 3 123 4567",
+      "fax": "+60 3 987 6543",
+      "email": "INFO@MARITIMELOGISTICS.MY"
+    },
+    "notifyParty": {
+      "name": "MARITIME LOGISTICS LTD.",
+      "address": "456 PORT ROAD, PORT KLANG, MALAYSIA, 42000",
+      "country": "MALAYSIA",
+      "telephone": "+60 3 123 4567",
+      "fax": "+60 3 987 6543",
+      "email": "INFO@MARITIMELOGISTICS.MY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "381300",
+  "commodityDescription": "ORGANO-INORGANIC COMPOUNDS; HETEROCYCLIC COMPOUNDS WITH OTHER ELEMENTS; THEIR DERIVATIVES; AND THEIR PREPARED FORMULATIONS; OTHER",
+  "containers": [
+    {
+      "containerNumber": "CONT3467136",
+      "sealNumber": "SEAL811595",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 8008.17,
+      "measurement": 34.24
+    },
+    {
+      "containerNumber": "CONT3069215",
+      "sealNumber": "SEAL171532",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 6826.21,
+      "measurement": 35.08
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 83,
+    "totalGrossWeight": 14834.38,
+    "totalMeasurement": 69.32
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241008001"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "DANGEROUS GOODS CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "MARITIME LOGISTICS LTD.",
+      "address": "456 PORT ROAD, PORT KLANG, MALAYSIA, 42000",
+      "telephone": "+60 3 123 4567",
+      "fax": "+60 3 987 6543",
+      "email": "INFO@MARITIMELOGISTICS.MY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MARITIME LOGISTICS LTD.",
+      "address": "456 PORT ROAD, PORT KLANG, MALAYSIA, 42000",
+      "telephone": "+60 3 123 4567",
+      "fax": "+60 3 987 6543",
+      "email": "INFO@MARITIMELOGISTICS.MY"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2890, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3326369",
+    "unClass": "2",
+    "unCode": "2890,",
+    "hsCode": "8480.73.81",
+    "flashPoint": "28\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

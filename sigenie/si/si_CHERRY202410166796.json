@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410166796",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING GROUP",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@DELTATRADINGGROUP.COM"
+    },
+    "consignee": {
+      "name": "PAN PACIFIC IMPORT & EXPORT LTD.",
+      "address": "124 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@PANPACIFICIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "PAN PACIFIC IMPORT & EXPORT LTD.",
+      "address": "124 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "usci": "91321200765109788X",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@PANPACIFICIMPORT.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030241",
+  "commodityDescription": "FROZEN SALMON FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT2738064",
+      "sealNumber": "SEAL463354",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 19161.02,
+      "measurement": 29.31
+    },
+    {
+      "containerNumber": "CONT2522191",
+      "sealNumber": "SEAL634793",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 5049.2,
+      "measurement": 33.54
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE REEFER",
+    "totalPackages": 116,
+    "totalGrossWeight": 24210.22,
+    "totalMeasurement": 62.85
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-26 22:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 12\u00b0C, VALUE: USD996,981, DO NOT STACK"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9754263",
+    "temperature": "12\u00b0C",
+    "minTemperature": "10\u00b0C",
+    "maxTemperature": "14\u00b0C",
+    "ventilation": "53%",
+    "humidity": "78%"
+  }
+}

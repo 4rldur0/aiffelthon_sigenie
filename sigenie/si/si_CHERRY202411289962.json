@@ -1,0 +1,88 @@
+{
+  "bookingReference": "CHERRY202411289962",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ACME MANUFACTURING CO. LTD.",
+      "address": "NO. 123, INDUSTRIAL ZONE EAST, NINGBO, CHINA",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8889",
+      "email": "INFO@ACMEMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 100, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL856789123",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 2222 222",
+      "fax": "+31 10 2222 223",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 100, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222 222",
+      "fax": "+31 10 2222 223",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT6178379",
+      "sealNumber": "SEAL792381",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 19473.77,
+      "measurement": 28.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 81,
+    "totalGrossWeight": 19473.77,
+    "totalMeasurement": 28.62
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN NUMBER 12345678",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 100, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222 222",
+      "fax": "+31 10 2222 223",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 100, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222 222",
+      "fax": "+31 10 2222 223",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-12-06 09:00",
+    "additionalRemarks": "DO NOT STACK"
+  }
+}

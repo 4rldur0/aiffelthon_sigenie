@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411205824",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ACME INDUSTRIES LTD.",
+      "onBehalfOf": "",
+      "address": "1234 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "INFO@ACMEINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "555 SKYWAY BLVD, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 12345679",
+      "email": "INFO@BLUESKYLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "555 SKYWAY BLVD, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY VEHICLES",
+  "containers": [
+    {
+      "containerNumber": "CONT8879212",
+      "sealNumber": "SEAL393931",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 18355.62,
+      "measurement": 25.02
+    },
+    {
+      "containerNumber": "CONT9777932",
+      "sealNumber": "SEAL806035",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 12098.45,
+      "measurement": 22.82
+    },
+    {
+      "containerNumber": "CONT6339860",
+      "sealNumber": "SEAL615879",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 9304.55,
+      "measurement": 24.78
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 129,
+    "totalGrossWeight": 39758.62,
+    "totalMeasurement": 72.62
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "555 SKYWAY BLVD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 12345679",
+      "email": "INFO@BLUESKYLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "555 SKYWAY BLVD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 12345679"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411201271",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS INC.",
+      "onBehalfOf": "",
+      "address": "1234 SCIENCE PARK ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "EUROFREIGHT LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60329 FRANKFURT, GERMANY",
+      "companyNumber": "1234567890",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 5679",
+      "email": "INFO@EUROFREIGHT.DE"
+    },
+    "notifyParty": {
+      "name": "EUROFREIGHT LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60329 FRANKFURT, GERMANY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "300490",
+  "commodityDescription": "PHARMACEUTICAL PRODUCTS",
+  "containers": [
+    {
+      "containerNumber": "CONT1341470",
+      "sealNumber": "SEAL190336",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 5090.95,
+      "measurement": 35.41
+    },
+    {
+      "containerNumber": "CONT1543998",
+      "sealNumber": "SEAL407601",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 9579.36,
+      "measurement": 37.02
+    },
+    {
+      "containerNumber": "CONT6739329",
+      "sealNumber": "SEAL901596",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 5284.43,
+      "measurement": 26.74
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 109,
+    "totalGrossWeight": 19954.74,
+    "totalMeasurement": 99.17
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROFREIGHT LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 5679",
+      "email": "INFO@EUROFREIGHT.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ELECTRONICS INC.",
+      "address": "1234 SCIENCE PARK ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAELECTRONICS.CN"
+    },
+    "onboardDate": "2024-12-07 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1448, VALUE: USD632,964"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1485766",
+    "unClass": "3",
+    "unCode": "1448,",
+    "hsCode": "7890.89.53",
+    "flashPoint": "23\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

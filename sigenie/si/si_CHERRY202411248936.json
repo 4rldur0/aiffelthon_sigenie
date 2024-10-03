@@ -5,10 +5,10 @@
     "voyageNumber": "OFLQHW1MA"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO",
-    "portOfLoading": "NINGBO",
-    "portOfDischarge": "GDANSK",
-    "placeOfDelivery": "GDANSK"
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
@@ -17,100 +17,101 @@
   "documentationDetails": {
     "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 7
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZENITH INDUSTRIAL CORPORATION",
-      "onBehalfOf": "MS. ANNA LEE",
-      "address": "2345 HUALONG ROAD, NINGBO, CHINA 315000",
-      "telephone": "+86 574 8888 6159",
-      "fax": "+86 574 8888 6200",
-      "email": "ANNA.LEE@ZENITHINDUSTRY.COM"
+      "name": "BETA TRADING COMPANY INC.",
+      "address": "123 NINGBO PORT ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 2583 9000",
+      "fax": "+86 574 2583 9001",
+      "email": "ZHIYEUN.HA@BETATRADING.CN"
     },
     "consignee": {
-      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
-      "address": "1234 MAIN STREET, ROTTERDAM, NETHERLANDS 3011AB",
-      "companyNumber": "1234567890",
-      "telephone": "+31 10 4567 8000",
-      "fax": "+31 10 4567 8001",
-      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "124 ALGEICIRAS PORT BOULEVARD, ALGEICIRAS, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 956 540 500",
+      "fax": "+34 956 540 501",
+      "email": "CONTACT@ALPHAIMPORTEXPORT.ES",
+      "personincharge": "MARIA RODRIGUEZ"
     },
     "notifyParty": {
-      "name": "ZENITH INDUSTRIAL CORPORATION",
-      "address": "2345 HUALONG ROAD, NINGBO, CHINA 315000"
+      "name": "LOGISTICS SPAIN S.A.",
+      "address": "125 ALGEICIRAS PORT ZONE, ALGEICIRAS, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 956 404 000",
+      "fax": "+34 956 404 001",
+      "email": "OMAR.BENALI@LOGISTICSSSPAIN.ES"
     }
   },
-  "shippingTerm": "CFS/CY",
-  "hsCode": "871630",
-  "commodityDescription": "TRAILER",
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "842121",
+  "commodityDescription": "PAPER MAKING MACHINE PARTS",
   "containers": [
     {
-      "containerNumber": "CONT7126011",
-      "sealNumber": "SEAL578873",
-      "numberOfPackages": 59,
+      "containerNumber": "CONT8718207",
+      "sealNumber": "SEAL483897",
+      "numberOfPackages": 85,
       "packageType": "BOXES",
-      "grossWeight": 8135.54,
-      "measurement": 31.67
+      "grossWeight": 5732.47,
+      "measurement": 30.86
     },
     {
-      "containerNumber": "CONT5581161",
-      "sealNumber": "SEAL570579",
-      "numberOfPackages": 33,
+      "containerNumber": "CONT1381557",
+      "sealNumber": "SEAL729869",
+      "numberOfPackages": 65,
       "packageType": "BOXES",
-      "grossWeight": 8592.03,
-      "measurement": 35.27
+      "grossWeight": 8586.64,
+      "measurement": 33.01
     },
     {
-      "containerNumber": "CONT7720098",
-      "sealNumber": "SEAL882248",
-      "numberOfPackages": 57,
+      "containerNumber": "CONT8467849",
+      "sealNumber": "SEAL698703",
+      "numberOfPackages": 34,
       "packageType": "BOXES",
-      "grossWeight": 10089.71,
-      "measurement": 33.26
+      "grossWeight": 16263.69,
+      "measurement": 24.61
     },
     {
-      "containerNumber": "CONT4748657",
-      "sealNumber": "SEAL871638",
-      "numberOfPackages": 76,
+      "containerNumber": "CONT7572215",
+      "sealNumber": "SEAL874500",
+      "numberOfPackages": 84,
       "packageType": "BOXES",
-      "grossWeight": 16245.05,
-      "measurement": 27.51
+      "grossWeight": 5577.9,
+      "measurement": 20.56
     }
   ],
   "totalShipment": {
-    "totalContainers": "4 x 40 STANDARD FLAT RACK",
-    "totalPackages": 225,
-    "totalGrossWeight": 43062.33,
-    "totalMeasurement": 127.71
+    "totalContainers": "4 x 40 STANDARD GENERAL",
+    "totalPackages": 268,
+    "totalGrossWeight": 36160.7,
+    "totalMeasurement": 109.04
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC123456789"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [],
+    "certificateDetails": [
+      "411252403578X"
+    ],
     "originalBLDistribution": {
-      "name": "WORLDWIDE LOGISTICS LTD.",
-      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
-      "telephone": "+86 21 2175 6551",
-      "fax": "+86 21 2175 6560",
-      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 NINGBO PORT ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 2556 7890",
+      "fax": "+86 574 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
     },
     "originalInvoiceDistribution": {
-      "name": "ZENITH INDUSTRIAL CORPORATION",
-      "address": "2345 HUALONG ROAD, NINGBO, CHINA 315000",
-      "telephone": "+86 574 8888 6159",
-      "fax": "+86 574 8888 6200",
-      "email": "ANNA.LEE@ZENITHINDUSTRY.COM"
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 NINGBO PORT ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 2556 7890",
+      "fax": "+86 574 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
     },
-    "onboardDate": "2024-12-11 19:00",
-    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8141x2257x2841, VALUE: USD358,559"
-  },
-  "outOfGaugeDimensions": {
-    "length": "8141",
-    "width": "2257",
-    "height": "2841",
-    "overWidth": "0",
-    "overHeight": "251"
+    "onboardDate": "2024-12-07 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
   }
 }

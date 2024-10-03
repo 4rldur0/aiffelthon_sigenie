@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202411294850",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 ELECTRONICS ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 12345679",
+      "email": "SALES@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS NETWORK",
+      "address": "1234 WAREHOUSE LANE, GDANSK, POLAND",
+      "companyNumber": "123456789",
+      "telephone": "+48 58 1234567",
+      "fax": "+48 58 12345678",
+      "email": "INFO@GLOBALLOGISTICS.PL"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "1234 ELECTRONICS ROAD, SHANGHAI, CHINA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854140",
+  "commodityDescription": "CIRCUIT BREAKERS",
+  "containers": [
+    {
+      "containerNumber": "CONT8703551",
+      "sealNumber": "SEAL319564",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 19348.07,
+      "measurement": 30.83
+    },
+    {
+      "containerNumber": "CONT4293960",
+      "sealNumber": "SEAL295183",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 15725.34,
+      "measurement": 35.14
+    },
+    {
+      "containerNumber": "CONT7367169",
+      "sealNumber": "SEAL937297",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 7558.59,
+      "measurement": 39.85
+    },
+    {
+      "containerNumber": "CONT7175686",
+      "sealNumber": "SEAL619357",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 14831.1,
+      "measurement": 28.86
+    },
+    {
+      "containerNumber": "CONT9749132",
+      "sealNumber": "SEAL773604",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 7829.93,
+      "measurement": 37.68
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD TANK",
+    "totalPackages": 305,
+    "totalGrossWeight": 65293.03,
+    "totalMeasurement": 172.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS NETWORK",
+      "address": "1234 WAREHOUSE LANE, GDANSK, POLAND",
+      "telephone": "+48 58 1234567",
+      "fax": "+48 58 12345678",
+      "email": "INFO@GLOBALLOGISTICS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "1234 ELECTRONICS ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 12345679"
+    },
+    "onboardDate": "2024-12-11 15:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1420, VALUE: USD393,266, ON DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8640153",
+    "unClass": "4",
+    "unCode": "1420,",
+    "hsCode": "8006.36.30",
+    "flashPoint": "28\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

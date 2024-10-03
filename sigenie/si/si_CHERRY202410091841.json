@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410091841",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HARVE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS INC.",
+      "address": "123 TECH STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 6234 5678",
+      "fax": "+86 21 6234 5679",
+      "email": "INFO@GLOBALTECH.COM"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC SHIPPING LTD",
+      "address": "15 RUE DE LA PAIX, PARIS, FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 1 4567 8901",
+      "fax": "+33 1 4567 8902",
+      "email": "INFO@ASIAPACIFICSHIPPING.COM"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS",
+      "address": "20 RUE DE LA LIBERTE, MARSEILLE, FRANCE",
+      "telephone": "+33 4 9123 4567",
+      "fax": "+33 4 9123 4568",
+      "email": "NOTIFICATIONS@APLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "ACETONE",
+  "containers": [
+    {
+      "containerNumber": "CONT6068014",
+      "sealNumber": "SEAL630078",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 14635.07,
+      "measurement": 23.36
+    },
+    {
+      "containerNumber": "CONT4650840",
+      "sealNumber": "SEAL204977",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 17717.16,
+      "measurement": 32.06
+    },
+    {
+      "containerNumber": "CONT8628251",
+      "sealNumber": "SEAL838456",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 19575.12,
+      "measurement": 30.01
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 99,
+    "totalGrossWeight": 51927.35,
+    "totalMeasurement": 85.43
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410091841"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-10-20 15:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1102"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2033468",
+    "unClass": "6",
+    "unCode": "1102",
+    "hsCode": "3763.96.16",
+    "flashPoint": "48\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

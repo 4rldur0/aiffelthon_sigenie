@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410162865",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES CO. LTD",
+      "address": "NO. 123, HONGQIAO ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 8888",
+      "email": "SALES@ASIAPACIFICINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "UNIT 12, 5TH FLOOR, TOWER BRIDGE BUSINESS COMPLEX, LONDON SE1 2UP, UNITED KINGDOM",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.CO.UK"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "UNIT 12, 5TH FLOOR, TOWER BRIDGE BUSINESS COMPLEX, LONDON SE1 2UP, UNITED KINGDOM",
+      "usci": "91321200765109788X",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.CO.UK"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871680",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT3338771",
+      "sealNumber": "SEAL684619",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 6771.5,
+      "measurement": 39.36
+    },
+    {
+      "containerNumber": "CONT7713287",
+      "sealNumber": "SEAL713463",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 7860.32,
+      "measurement": 30.47
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD FLAT RACK",
+    "totalPackages": 98,
+    "totalGrossWeight": 14631.82,
+    "totalMeasurement": 69.83
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-03 19:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 3430x2082x2890, VALUE: USD713,820, DO NOT STACK"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3430",
+    "width": "2082",
+    "height": "2890",
+    "overWidth": "0",
+    "overHeight": "300"
+  }
+}

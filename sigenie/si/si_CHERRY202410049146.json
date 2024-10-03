@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410049146",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC PRECISION LTD.",
+      "address": "1234 JIANGSU ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "SALES@ASIA-PRECISION.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "1234 WATERLOO STREET, ROTTERDAM, 3011 BR, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999",
+      "email": "OPERATIONS@GLOBALSHIPPING.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "1234 WATERLOO STREET, ROTTERDAM, 3011 BR, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999",
+      "email": "OPERATIONS@GLOBALSHIPPING.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "PARTS OF REFRIGERATORS, FREEZERS, ICE-MAKING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT6667590",
+      "sealNumber": "SEAL492005",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 11119.64,
+      "measurement": 34.14
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD REEFER",
+    "totalPackages": 78,
+    "totalGrossWeight": 11119.64,
+    "totalMeasurement": 34.14
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410049146"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "1234 WATERLOO STREET, ROTTERDAM, 3011 BR, NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999",
+      "email": "OPERATIONS@GLOBALSHIPPING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "1234 WATERLOO STREET, ROTTERDAM, 3011 BR, NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999",
+      "email": "OPERATIONS@GLOBALSHIPPING.NL"
+    },
+    "onboardDate": "2024-10-07 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -7\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9996189",
+    "temperature": "-7\u00b0C",
+    "minTemperature": "-9\u00b0C",
+    "maxTemperature": "-5\u00b0C",
+    "ventilation": "70%",
+    "humidity": "90%"
+  }
+}

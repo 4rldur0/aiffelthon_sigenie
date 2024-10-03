@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410255820",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI MEGA INDUSTRIES CO., LTD.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORTERS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "email": "INFO@GREENFIELDIMPORTERS.COM",
+      "telephone": "+1 212 555 1212"
+    },
+    "notifyParty": {
+      "name": "GREEN FIELD IMPORTERS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "email": "ORDERS@GREENFIELDIMPORTERS.COM",
+      "telephone": "+1 212 555 1212"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CONT3931183",
+      "sealNumber": "SEAL931379",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 13596.47,
+      "measurement": 20.63
+    },
+    {
+      "containerNumber": "CONT4791247",
+      "sealNumber": "SEAL331043",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 14005.95,
+      "measurement": 37.29
+    },
+    {
+      "containerNumber": "CONT8361599",
+      "sealNumber": "SEAL288068",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 9135.92,
+      "measurement": 36.69
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD FLAT RACK",
+    "totalPackages": 200,
+    "totalGrossWeight": 36738.34,
+    "totalMeasurement": 94.61
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "GREEN FIELD IMPORTERS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@GREENFIELDIMPORTERS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN FIELD IMPORTERS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@GREENFIELDIMPORTERS.COM"
+    },
+    "onboardDate": "2024-11-01 08:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 2067x2639x2282, VALUE: USD680,727, 14 DAYS FREE TIME AT DESTINATION, FRAGILE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2067",
+    "width": "2639",
+    "height": "2282",
+    "overWidth": "199",
+    "overHeight": "0"
+  }
+}
