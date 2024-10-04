@@ -14,7 +14,6 @@ class GenerateIntakeReport:
             response = self.chain.invoke(
                 {
                     "missing_info": state["missing_answer"],
-                    #"data": state["si_data"]
                 }
             )
             state['summary_answer'] = response
