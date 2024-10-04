@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410206929",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "NO. 1234, XIANGLIAO ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING CO. LTD.",
+      "address": "DAMRAK 35, 1012 LJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-624-5678",
+      "fax": "+31-20-624-5679",
+      "email": "INFO@DELTAShipping.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CARS",
+  "containers": [
+    {
+      "containerNumber": "CONT7812919",
+      "sealNumber": "SEAL584939",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 9687.56,
+      "measurement": 21.84
+    },
+    {
+      "containerNumber": "CONT5455041",
+      "sealNumber": "SEAL591389",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 6559.16,
+      "measurement": 36.36
+    },
+    {
+      "containerNumber": "CONT7947413",
+      "sealNumber": "SEAL406390",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 14670.94,
+      "measurement": 38.81
+    },
+    {
+      "containerNumber": "CONT9091787",
+      "sealNumber": "SEAL688728",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 5944.19,
+      "measurement": 32.51
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 45 HIGH CUBE TANK",
+    "totalPackages": 152,
+    "totalGrossWeight": 36861.85,
+    "totalMeasurement": 129.52
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241020-1001",
+    "documentNumber": "20241020-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING CO. LTD.",
+      "address": "DAMRAK 35, 1012 LJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-624-5678",
+      "fax": "+31-20-624-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING CO. LTD.",
+      "address": "DAMRAK 35, 1012 LJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-624-5678",
+      "fax": "+31-20-624-5679"
+    },
+    "onboardDate": "2024-11-07 10:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

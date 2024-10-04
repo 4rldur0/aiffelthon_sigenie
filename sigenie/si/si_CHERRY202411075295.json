@@ -1,0 +1,150 @@
+{
+  "bookingReference": "CHERRY202411075295",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI DRAGON ENTERPRISE CO., LTD.",
+      "address": "NO. 1234, DRAGON ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(DRAGON BUILDING)",
+      "telephone": "+86 21 8765 4321",
+      "email": "MALONG@DRAGONENTERPRISE.COM.CN"
+    },
+    "consignee": {
+      "name": "TO ORDER OF DEUTSCHE GLOBAL BANK AG",
+      "address": "",
+      "country": "",
+      "email": "",
+      "telephone": ""
+    },
+    "notifyParty": {
+      "name": "GREEN TREE LOGISTICS LTD.",
+      "address": "HAMBURG BUSINESS PARK, 123 NETHERLANDS STREET, HAMBURG, 20095",
+      "country": "GERMANY",
+      "email": "ORDERS@GREENTREELOGISTICS.DE",
+      "telephone": "+49 40 234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "300490",
+  "commodityDescription": "MEDICAMENTS (EXCLUDING GOODS OF HEADING 3002, 3005 OR 3006) CONSISTING OF MIXTURES OF CHEMICAL PRODUCTS",
+  "containers": [
+    {
+      "containerNumber": "CONT3267006",
+      "sealNumber": "SEAL360954",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 10572.92,
+      "measurement": 37.51
+    },
+    {
+      "containerNumber": "CONT3280523",
+      "sealNumber": "SEAL870178",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 5517.33,
+      "measurement": 25.23
+    },
+    {
+      "containerNumber": "CONT6510997",
+      "sealNumber": "SEAL660053",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 16229.91,
+      "measurement": 34.17
+    },
+    {
+      "containerNumber": "CONT6337876",
+      "sealNumber": "SEAL287222",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 19157.81,
+      "measurement": 25.45
+    },
+    {
+      "containerNumber": "CONT6897306",
+      "sealNumber": "SEAL460005",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 16993.02,
+      "measurement": 20.8
+    },
+    {
+      "containerNumber": "CONT9778504",
+      "sealNumber": "SEAL409498",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 14689.14,
+      "measurement": 21.71
+    },
+    {
+      "containerNumber": "CONT8493499",
+      "sealNumber": "SEAL699751",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 17503.62,
+      "measurement": 27.94
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 320,
+    "totalGrossWeight": 100663.75,
+    "totalMeasurement": 192.81
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "GREEN TREE LOGISTICS LTD.",
+      "address": "HAMBURG BUSINESS PARK, 123 NETHERLANDS STREET, HAMBURG, 20095",
+      "telephone": "+49 40 234 5678",
+      "fax": "+49 40 234 5679",
+      "email": "ORDERS@GREENTREELOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN TREE LOGISTICS LTD.",
+      "address": "HAMBURG BUSINESS PARK, 123 NETHERLANDS STREET, HAMBURG, 20095",
+      "telephone": "+49 40 234 5678",
+      "fax": "+49 40 234 5679",
+      "email": "ORDERS@GREENTREELOGISTICS.DE"
+    },
+    "onboardDate": "2024-11-14 08:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2058, VALUE: USD686,849, 21 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  },
+  "dangerousGoodsDetails": {
+    "unNumber": "2058",
+    "properShippingName": "DANGEROUS GOODS"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8405063",
+    "unClass": "4",
+    "unCode": "2058,",
+    "hsCode": "8271.99.12",
+    "flashPoint": "-16\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410308014",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT LTD.",
+      "address": "1234 ALHAMBRA STREET, ALGECIRAS, SPAIN 11001",
+      "companyNumber": "B12345678",
+      "telephone": "+34 956 789 012",
+      "fax": "+34 956 789 013",
+      "email": "IMPORT@GLOBALIMPORTEXPORT.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT EXPORT LTD.",
+      "address": "1234 ALHAMBRA STREET, ALGECIRAS, SPAIN 11001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "381300",
+  "commodityDescription": "DANGEROUS GOODS, UN 1697",
+  "containers": [
+    {
+      "containerNumber": "CONT4281457",
+      "sealNumber": "SEAL335688",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 15082.06,
+      "measurement": 35.27
+    },
+    {
+      "containerNumber": "CONT1597678",
+      "sealNumber": "SEAL768704",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 15176.63,
+      "measurement": 29.92
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 95,
+    "totalGrossWeight": 30258.69,
+    "totalMeasurement": 65.19
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "onboardDate": "2024-11-11 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1697, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2794348",
+    "unClass": "3",
+    "unCode": "1697,",
+    "hsCode": "6146.10.57",
+    "flashPoint": "72\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

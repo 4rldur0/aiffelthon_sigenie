@@ -5,7 +5,6 @@ from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import WebBaseLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.tools.tavily_search import TavilySearchResults
 from typing import List
 
 # Load environment variables from .env file
@@ -81,7 +80,4 @@ class Faiss:
             # Load documents from the provided sources (URLs or PDFs)
             documents = self._load_documents(sources)
             return self._create_vectorstore(documents)
-        
-class TavilySearch:
-    def __call__():
-        return TavilySearchResults()
+            

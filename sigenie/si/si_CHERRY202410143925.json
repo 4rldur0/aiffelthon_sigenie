@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410143925",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "150 WEST STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "100 NORTH STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7654 3210",
+      "fax": "+44 20 7654 3211"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940360",
+  "commodityDescription": "FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT4367831",
+      "sealNumber": "SEAL849902",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 7515.26,
+      "measurement": 32.02
+    },
+    {
+      "containerNumber": "CONT3443021",
+      "sealNumber": "SEAL917734",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 5160.53,
+      "measurement": 25.01
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 99,
+    "totalGrossWeight": 12675.79,
+    "totalMeasurement": 57.03
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "150 WEST STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679"
+    },
+    "onboardDate": "2024-10-26 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

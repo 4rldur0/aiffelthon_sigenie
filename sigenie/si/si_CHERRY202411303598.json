@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411303598",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "NORTH SEA FISHERIES LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM W1A 1AA",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS INC",
+      "address": "456 BROADWAY, NEW YORK, NY 10013, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN ATLANTIC COD",
+  "containers": [
+    {
+      "containerNumber": "CONT6384503",
+      "sealNumber": "SEAL400000",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 14458.17,
+      "measurement": 33.98
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 13,
+    "totalGrossWeight": 14458.17,
+    "totalMeasurement": 33.98
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-07 10:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 12\u00b0C, VALUE: USD267,735"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8947741",
+    "temperature": "12\u00b0C",
+    "minTemperature": "10\u00b0C",
+    "maxTemperature": "14\u00b0C",
+    "ventilation": "10%",
+    "humidity": "79%"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202411236648",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "123 HONGQIAO ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6327 8888",
+      "fax": "+86 21 6327 8889",
+      "email": "INFO@DELTATRADING.CN"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "25 RUE DE L'IND\u00c9PENDANCE, CASABLANCA, MOROCCO",
+      "taxId": "12345678901234",
+      "president": "MR. MOHAMED ALI",
+      "telephone": "+212 5 2222 1111",
+      "fax": "+212 5 2222 1112",
+      "email": "INFO@OMEGASHIPPING.MA"
+    },
+    "notifyParty": {
+      "name": "OMEGA LOGISTICS LTD.",
+      "address": "10 AVENUE MOHAMED V, RABAT, MOROCCO",
+      "telephone": "+212 5 3737 2222",
+      "fax": "+212 5 3737 2223",
+      "email": "INFO@OMEGALOGISTICS.MA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT7097939",
+      "sealNumber": "SEAL222660",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 10121.2,
+      "measurement": 22.66
+    },
+    {
+      "containerNumber": "CONT7835681",
+      "sealNumber": "SEAL115201",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 16178.58,
+      "measurement": 38.21
+    },
+    {
+      "containerNumber": "CONT6129365",
+      "sealNumber": "SEAL771831",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 9406.93,
+      "measurement": 32.09
+    },
+    {
+      "containerNumber": "CONT1063558",
+      "sealNumber": "SEAL956116",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 18723.94,
+      "measurement": 24.88
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD REEFER",
+    "totalPackages": 238,
+    "totalGrossWeight": 54430.65,
+    "totalMeasurement": 117.84
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "123456789012345",
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "25 RUE DE L'IND\u00c9PENDANCE, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 2222 1111",
+      "fax": "+212 5 2222 1112",
+      "email": "INFO@OMEGASHIPPING.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "25 RUE DE L'IND\u00c9PENDANCE, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 2222 1111",
+      "fax": "+212 5 2222 1112",
+      "email": "INFO@OMEGASHIPPING.MA"
+    },
+    "onboardDate": "2024-12-06 21:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 12\u00b0C, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5734837",
+    "temperature": "12\u00b0C",
+    "minTemperature": "10\u00b0C",
+    "maxTemperature": "14\u00b0C",
+    "ventilation": "77%",
+    "humidity": "64%"
+  }
+}

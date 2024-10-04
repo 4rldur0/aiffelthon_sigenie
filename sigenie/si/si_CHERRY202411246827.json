@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411246827",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO LTD",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8887",
+      "email": "INFO@SUNRISEMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT INC",
+      "address": "FRANKFURTER STRASSE 25, HAMBURG, 20457, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. HANS SCHMIDT",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALIMPORTEXPORT.DE"
+    },
+    "notifyParty": {
+      "name": "HAMBURG LOGISTICS SERVICES GMBH",
+      "address": "hafenstrasse 10, HAMBURG, 20359, GERMANY",
+      "telephone": "+49 40 9999 0000",
+      "fax": "+49 40 9999 0001",
+      "email": "INFO@HAMBURGLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY BUILDING BLOCKS",
+  "containers": [
+    {
+      "containerNumber": "CONT5293396",
+      "sealNumber": "SEAL761753",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 16008.85,
+      "measurement": 27.38
+    },
+    {
+      "containerNumber": "CONT6451716",
+      "sealNumber": "SEAL959111",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 19741.36,
+      "measurement": 38.29
+    },
+    {
+      "containerNumber": "CONT6687219",
+      "sealNumber": "SEAL893944",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 9790.55,
+      "measurement": 28.14
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 132,
+    "totalGrossWeight": 45540.76,
+    "totalMeasurement": 93.81
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L123456789"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC",
+      "address": "FRANKFURTER STRASSE 25, HAMBURG, 20457, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALIMPORTEXPORT.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC",
+      "address": "FRANKFURTER STRASSE 25, HAMBURG, 20457, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALIMPORTEXPORT.DE"
+    },
+    "onboardDate": "2024-12-07 16:00",
+    "additionalRemarks": "HANDLE WITH CARE"
+  }
+}

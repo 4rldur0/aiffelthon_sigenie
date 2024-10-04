@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202411114309",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL MACHINERY CO., LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@SHANGHAIGLOBALMACHINERY.COM"
+    },
+    "consignee": {
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "555 MARKET STREET, SAN FRANCISCO, CA 94105, USA",
+      "taxId": "123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 415 555 1212",
+      "fax": "+1 415 555 1313",
+      "email": "INFO@GOLDENGATEIMPORTS.COM"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE LOGISTICS",
+      "address": "444 GOLDEN GATE AVE, SAN FRANCISCO, CA 94102, USA",
+      "taxId": "",
+      "president": "MS. JANE DOE",
+      "telephone": "+1 415 555 2222",
+      "fax": "+1 415 555 2323"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "843311",
+  "commodityDescription": "INDUSTRIAL MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CONT5771922",
+      "sealNumber": "SEAL942145",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 8478.65,
+      "measurement": 35.4
+    },
+    {
+      "containerNumber": "CONT8494886",
+      "sealNumber": "SEAL907542",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 7124.8,
+      "measurement": 27.07
+    },
+    {
+      "containerNumber": "CONT3331649",
+      "sealNumber": "SEAL813311",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 10571.3,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CONT1117606",
+      "sealNumber": "SEAL214863",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 12126.53,
+      "measurement": 28.62
+    },
+    {
+      "containerNumber": "CONT5638408",
+      "sealNumber": "SEAL319354",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 6768.12,
+      "measurement": 27.83
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD OPEN TOP",
+    "totalPackages": 274,
+    "totalGrossWeight": 45069.4,
+    "totalMeasurement": 146.92
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-17 09:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 9570x2322x2130, VALUE: USD457,703, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9570",
+    "width": "2322",
+    "height": "2130",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

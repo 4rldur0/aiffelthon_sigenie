@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202412025419",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "KOREA STEEL CO.",
+      "address": "123 MAIN STREET, SEOUL, SOUTH KOREA 12345",
+      "telephone": "+82-2-123-4567",
+      "fax": "+82-2-123-4568"
+    },
+    "consignee": {
+      "name": "HANJIN SHIPPING CO. LTD.",
+      "address": "123 PORT STREET, ROTTERDAM, NETHERLANDS 3000",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "070110",
+  "commodityDescription": "POTATOES",
+  "containers": [
+    {
+      "containerNumber": "CONT6413417",
+      "sealNumber": "SEAL641188",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 14651.4,
+      "measurement": 37.13
+    },
+    {
+      "containerNumber": "CONT3724597",
+      "sealNumber": "SEAL211219",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 12712.43,
+      "measurement": 38.17
+    },
+    {
+      "containerNumber": "CONT9044234",
+      "sealNumber": "SEAL507031",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 14546.94,
+      "measurement": 37.91
+    },
+    {
+      "containerNumber": "CONT9291898",
+      "sealNumber": "SEAL657041",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 6767.23,
+      "measurement": 30.88
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD REEFER",
+    "totalPackages": 281,
+    "totalGrossWeight": 48678.0,
+    "totalMeasurement": 144.09
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "HANJIN SHIPPING CO. LTD.",
+      "address": "123 PORT STREET, ROTTERDAM, NETHERLANDS 3000",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HANJIN SHIPPING CO. LTD.",
+      "address": "123 PORT STREET, ROTTERDAM, NETHERLANDS 3000",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    },
+    "onboardDate": "2024-12-11 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 13\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4848209",
+    "temperature": "13\u00b0C",
+    "minTemperature": "11\u00b0C",
+    "maxTemperature": "15\u00b0C",
+    "ventilation": "44%",
+    "humidity": "82%"
+  }
+}

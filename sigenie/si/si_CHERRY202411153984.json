@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411153984",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI DRAGON TEXTILES CO., LTD.",
+      "address": "NO. 123, SHANGHAI ROAD, PUTUO DISTRICT, SHANGHAI, 200062, CHINA",
+      "telephone": "+86 21 6158 7000",
+      "fax": "+86 21 6158 7001",
+      "email": "INFO@SHANGHAIDRAGONTEX.COM"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN TRADING INC.",
+      "address": "HAMBURG STREET, 56, 20457 HAMBURG, GERMANY",
+      "taxId": "DE1234567890",
+      "president": "MR. PETER SCHMIDT",
+      "telephone": "+49 40 3698 7000",
+      "fax": "+49 40 3698 7001",
+      "email": "INFO@GOLDENSUNT.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SERVICES GMBH",
+      "address": "FRANKFURTER STRASSE 15, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 2789 8500",
+      "fax": "+49 40 2789 8501",
+      "email": "INFO@GLOBALLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT7307480",
+      "sealNumber": "SEAL740424",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 8061.54,
+      "measurement": 26.73
+    },
+    {
+      "containerNumber": "CONT7279339",
+      "sealNumber": "SEAL791300",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 9143.12,
+      "measurement": 26.46
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 139,
+    "totalGrossWeight": 17204.66,
+    "totalMeasurement": 53.19
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-11-20 10:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2109, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5588012",
+    "unClass": "7",
+    "unCode": "2109,",
+    "hsCode": "9152.33.26",
+    "flashPoint": "17\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

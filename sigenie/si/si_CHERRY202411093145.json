@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411093145",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT EXPORT LTD.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "HOOFDDORPSTRAAT 123, 2132 HH HOOFDDORP, NETHERLANDS",
+      "telephone": "+31-23-555-6789",
+      "fax": "+31-23-555-6780",
+      "email": "INFO@ASIATRADING.NL",
+      "contactPerson": "PIETER VAN DER WIEL"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING CO."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN COD FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT1994510",
+      "sealNumber": "SEAL891527",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 13065.69,
+      "measurement": 30.58
+    },
+    {
+      "containerNumber": "CONT9245914",
+      "sealNumber": "SEAL898352",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 8722.19,
+      "measurement": 35.27
+    },
+    {
+      "containerNumber": "CONT7864791",
+      "sealNumber": "SEAL671396",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 15076.31,
+      "measurement": 27.5
+    },
+    {
+      "containerNumber": "CONT6748870",
+      "sealNumber": "SEAL470415",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 12347.42,
+      "measurement": 34.89
+    },
+    {
+      "containerNumber": "CONT9176795",
+      "sealNumber": "SEAL930604",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 13870.29,
+      "measurement": 34.36
+    },
+    {
+      "containerNumber": "CONT9688294",
+      "sealNumber": "SEAL180220",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 14395.53,
+      "measurement": 29.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD REEFER",
+    "totalPackages": 345,
+    "totalGrossWeight": 77477.43,
+    "totalMeasurement": 192.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241109-1001",
+    "documentNumber": "20241109-1001",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "HOOFDDORPSTRAAT 123, 2132 HH HOOFDDORP, NETHERLANDS",
+      "telephone": "+31-23-555-6789",
+      "fax": "+31-23-555-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "HOOFDDORPSTRAAT 123, 2132 HH HOOFDDORP, NETHERLANDS",
+      "telephone": "+31-23-555-6789",
+      "fax": "+31-23-555-6780"
+    },
+    "onboardDate": "2024-11-15 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -6\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2936517",
+    "temperature": "-6\u00b0C",
+    "minTemperature": "-8\u00b0C",
+    "maxTemperature": "-4\u00b0C",
+    "ventilation": "26%",
+    "humidity": "78%"
+  }
+}

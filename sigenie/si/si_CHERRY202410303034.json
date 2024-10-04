@@ -1,0 +1,141 @@
+{
+  "bookingReference": "CHERRY202410303034",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "1234 MADRID STREET, ALGEICRAS, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 956 7777 8888",
+      "fax": "+34 956 7777 8887",
+      "email": "SHIPPING@GLOBALSHIPPINGSOLUTIONS.COM",
+      "personincharge": "JUAN GARCIA"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS GLOBAL S.A.",
+      "address": "1234 ALGEICRAS PORT ROAD, ALGEICRAS, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 956 6666 7777",
+      "fax": "+34 956 6666 7776",
+      "email": "LOGISTICS@LOGISTICSGLOBAL.ES"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381300",
+  "commodityDescription": "DANGEROUS GOODS, UN 3344",
+  "containers": [
+    {
+      "containerNumber": "CONT5583087",
+      "sealNumber": "SEAL887335",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 8137.85,
+      "measurement": 28.23
+    },
+    {
+      "containerNumber": "CONT8037033",
+      "sealNumber": "SEAL915184",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 7481.05,
+      "measurement": 21.3
+    },
+    {
+      "containerNumber": "CONT2229397",
+      "sealNumber": "SEAL905874",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 19536.02,
+      "measurement": 26.16
+    },
+    {
+      "containerNumber": "CONT8813643",
+      "sealNumber": "SEAL889829",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 16286.55,
+      "measurement": 23.73
+    },
+    {
+      "containerNumber": "CONT1662710",
+      "sealNumber": "SEAL799854",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 14752.06,
+      "measurement": 32.09
+    },
+    {
+      "containerNumber": "CONT9573823",
+      "sealNumber": "SEAL588056",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 16203.67,
+      "measurement": 31.44
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD TANK",
+    "totalPackages": 297,
+    "totalGrossWeight": 82397.2,
+    "totalMeasurement": 162.95
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-06 22:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3344"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2429341",
+    "unClass": "5",
+    "unCode": "3344",
+    "hsCode": "8890.59.45",
+    "flashPoint": "93\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

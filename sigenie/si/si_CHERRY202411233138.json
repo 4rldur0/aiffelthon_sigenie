@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411233138",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURERS LTD",
+      "address": "123 MAIN STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 1111",
+      "email": "SHIPPING@APM.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LLC",
+      "address": "456 HANOVER STREET, HAMBURG, GERMANY 20457",
+      "taxId": "DE123456789",
+      "president": "Mr. JOHN SMITH",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "JOHN.SMITH@GLOBALIMPORTS.DE"
+    },
+    "notifyParty": {
+      "name": "EUROPEAN LOGISTICS SERVICES GMBH",
+      "address": "789 FRANKFURTER STRASSE, HAMBURG, GERMANY 22081",
+      "taxId": "DE987654321",
+      "president": "Ms. ANNA MEIER",
+      "telephone": "+49 40 98765432",
+      "fax": "+49 40 98765433"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT3462813",
+      "sealNumber": "SEAL409185",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 12302.88,
+      "measurement": 23.32
+    },
+    {
+      "containerNumber": "CONT5762880",
+      "sealNumber": "SEAL527120",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 19812.75,
+      "measurement": 29.78
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 164,
+    "totalGrossWeight": 32115.63,
+    "totalMeasurement": 53.1
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-07 20:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

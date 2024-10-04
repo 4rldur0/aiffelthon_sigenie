@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202410154029",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING INC",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "12 RUE DE LA PAIX, 75008 PARIS, FRANCE",
+      "telephone": "+33-1-2345-6789",
+      "fax": "+33-1-2345-6780",
+      "email": "INFO@GLOBALTRADING.FR",
+      "contactPerson": "JEAN DUPONT"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "12 RUE DE LA PAIX, 75008 PARIS, FRANCE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT4800978",
+      "sealNumber": "SEAL875243",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 16812.98,
+      "measurement": 36.38
+    },
+    {
+      "containerNumber": "CONT5005005",
+      "sealNumber": "SEAL974440",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 16060.01,
+      "measurement": 31.59
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 117,
+    "totalGrossWeight": 32872.99,
+    "totalMeasurement": 67.97
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241015-1001",
+    "documentNumber": "20241015-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "12 RUE DE LA PAIX, 75008 PARIS, FRANCE",
+      "telephone": "+33-1-2345-6789",
+      "fax": "+33-1-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "12 RUE DE LA PAIX, 75008 PARIS, FRANCE",
+      "telephone": "+33-1-2345-6789",
+      "fax": "+33-1-2345-6780"
+    },
+    "onboardDate": "2024-10-22 10:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

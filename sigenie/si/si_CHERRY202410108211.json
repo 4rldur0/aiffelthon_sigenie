@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202410108211",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TECH CO. LTD.",
+      "address": "123 TECH STREET, NINGBO, CHINA 315000",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8889",
+      "email": "INFO@ASIAPACIFICTECH.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3000AA",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS, UN 1738",
+  "containers": [
+    {
+      "containerNumber": "CONT5942128",
+      "sealNumber": "SEAL332054",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 5159.16,
+      "measurement": 25.77
+    },
+    {
+      "containerNumber": "CONT5955885",
+      "sealNumber": "SEAL107762",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 14316.19,
+      "measurement": 21.65
+    },
+    {
+      "containerNumber": "CONT7291932",
+      "sealNumber": "SEAL474717",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 17264.28,
+      "measurement": 34.06
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 142,
+    "totalGrossWeight": 36739.63,
+    "totalMeasurement": 81.48
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1738, VALUE: USD309,142, 14 DAYS FREE TIME AT DESTINATION, HANDLE WITH CARE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1859673",
+    "unClass": "2",
+    "unCode": "1738,",
+    "hsCode": "1889.44.12",
+    "flashPoint": "40\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

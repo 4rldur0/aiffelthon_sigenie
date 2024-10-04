@@ -1,0 +1,83 @@
+{
+  "bookingReference": "CHERRY202411288628",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO. LTD.",
+      "address": "NO. 123, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-87654321",
+      "fax": "+86-21-87654322"
+    },
+    "consignee": {
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940390",
+  "commodityDescription": "FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT6524060",
+      "sealNumber": "SEAL713878",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 5328.54,
+      "measurement": 21.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 52,
+    "totalGrossWeight": 5328.54,
+    "totalMeasurement": 21.02
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-12 20:00",
+    "additionalRemarks": "DO NOT STACK"
+  }
+}

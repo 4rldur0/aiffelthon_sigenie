@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202412013845",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "address": "123 CHEMICAL PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "281123",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT2551630",
+      "sealNumber": "SEAL912743",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 13062.93,
+      "measurement": 39.13
+    },
+    {
+      "containerNumber": "CONT1944621",
+      "sealNumber": "SEAL606232",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 12258.39,
+      "measurement": 39.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 120,
+    "totalGrossWeight": 25321.32,
+    "totalMeasurement": 78.29
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202412013845"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "MATERIAL SAFETY DATA SHEET (MSDS)"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    },
+    "onboardDate": "2024-12-16 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1593, 30 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3364369",
+    "unClass": "7",
+    "unCode": "1593,",
+    "hsCode": "5409.37.11",
+    "flashPoint": "72\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

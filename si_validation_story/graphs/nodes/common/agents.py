@@ -1,7 +1,14 @@
 from .tools import *
 from langchain.prompts import PromptTemplate
-from typing import List
 from langchain_core.output_parsers import StrOutputParser
+from langchain.tools.retriever import create_retriever_tool
+from langchain_community.vectorstores import FAISS
+from langchain_core.prompts import PromptTemplate
+from langchain_openai import OpenAIEmbeddings
+from langchain_community.tools.tavily_search import TavilySearchResults
+from langchain.agents import create_openai_functions_agent, AgentExecutor
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_community.document_loaders import PyPDFLoader
 
 class BasicChain:
     def __init__(self, llm, prompt, input_variables):
@@ -20,36 +27,49 @@ class BasicChain:
     
 # Build Retrieval-Augmented Generation Pipeline
 class RAGAgent:
-    def __init__(self, sources: List[str], generate_response_chain):
-        faiss = Faiss()
-        self.vectorstore = faiss.load_vectorstore(sources=sources)
-        self.chain = generate_response_chain
+    def __init__(self, prompt, llm):
+        self.search = TavilySearchResults(k=5)
+        self.llm = llm
+        self.prompt = PromptTemplate.from_template(prompt)
+        self.PDF_retriever_tool = self.retrieve_documents()
+        self.rag_agent, self.tools = self.create_agent()
 
-    def retrieve_documents(self, query: str):
-        """
-        Function to retrieve relevant documents from the vectorstore based on the question (SI data).
-        """
-        retriever = self.vectorstore.as_retriever(search_kwargs={'k': 5})  # Retrieve top 5 relevant documents
-        relevant_docs = retriever.invoke(str(query))
-        return relevant_docs
-
-    def generate_response(self, query: str, retrieved_docs: list):
-        """
-        Generate a response using the retrieved documents and the language model.
-        """
-        # Concatenate document contents to include in the prompt
-        context = "\n\n".join([doc.page_content for doc in retrieved_docs])
+    def retrieve_documents(self):
+        # ======
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        pdf_path = os.path.join(current_dir, "cherry_comliance.pdf")
+        # ======
+        PDF_loader = PyPDFLoader(pdf_path)
         
-        # Generate a response using the LLM chain
-        return self.chain.invoke({'query':query, 'context': context})
-
-    def __call__(self, si_data: str):
-        """
-        Main function to retrieve documents and generate a response for compliance validation.
-        """
-        # Step 1: Retrieve relevant compliance documents
-        retrieved_docs = self.retrieve_documents(si_data)
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100, length_function=len, separators=["\n\n", "\n", " ", ""])
+        PDF_split_docs = PDF_loader.load_and_split(text_splitter)
         
-        # Step 2: Generate response based on SI data and retrieved documents
-        response = self.generate_response(si_data, retrieved_docs)
+        embeddings = OpenAIEmbeddings()
+        
+        PDF_vector = FAISS.from_documents(documents=PDF_split_docs, embedding=embeddings)
+        
+        PDF_retriever = PDF_vector.as_retriever()
+        
+        PDF_retriever_tool = create_retriever_tool(
+            PDF_retriever,
+            name="pdf_search",
+            description="Use this tool for compliance for shipper, consignee, and notifyParty" \
+                        "including checking what info is required for each entity" \
+                        "based on the requirements of both the company and relevant countries",
+        )
+        
+        return PDF_retriever_tool
+
+    def create_agent(self):
+        tools = [self.search, self.PDF_retriever_tool]
+        agent = create_openai_functions_agent(self.llm, tools, self.prompt)
+        return agent, tools
+
+    def generate_response(self, si_data):
+        agent_executor = AgentExecutor(agent=self.rag_agent, tools=self.tools, verbose=True)
+        result = agent_executor.invoke({'si_data': si_data})
+        return result
+
+    def invoke(self, si_data):
+        response = self.generate_response(si_data)
         return response

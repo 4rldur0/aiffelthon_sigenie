@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202410035369",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ACME PRECISION ENGINEERING INC.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1213",
+      "email": "INFO@ACMEPRECISION.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL",
+      "personincharge": "JAN VAN DER SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "845970",
+  "commodityDescription": "METALWORKING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CONT2934961",
+      "sealNumber": "SEAL500395",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 17004.23,
+      "measurement": 20.32
+    },
+    {
+      "containerNumber": "CONT5645954",
+      "sealNumber": "SEAL175869",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 12306.82,
+      "measurement": 20.62
+    },
+    {
+      "containerNumber": "CONT2430092",
+      "sealNumber": "SEAL767400",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 10595.62,
+      "measurement": 25.67
+    },
+    {
+      "containerNumber": "CONT5548408",
+      "sealNumber": "SEAL649810",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 5708.75,
+      "measurement": 23.43
+    },
+    {
+      "containerNumber": "CONT6325213",
+      "sealNumber": "SEAL188604",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 13958.25,
+      "measurement": 29.74
+    },
+    {
+      "containerNumber": "CONT5077142",
+      "sealNumber": "SEAL515648",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 12606.84,
+      "measurement": 25.44
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD TANK",
+    "totalPackages": 194,
+    "totalGrossWeight": 72180.51,
+    "totalMeasurement": 145.22
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-10-07 09:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

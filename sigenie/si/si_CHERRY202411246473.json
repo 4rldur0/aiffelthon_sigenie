@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202411246473",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "FRANKFURT"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION TECHNOLOGIES INC.",
+      "address": "1234 TECH PARK DRIVE, SILICON VALLEY, CA 94043, USA",
+      "country": "USA",
+      "additionalInfo": "",
+      "telephone": "+1 408 555 1212",
+      "fax": "+1 408 555 1213",
+      "email": "SHIPMENTS@PRECISIONTECH.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "4567 LOGISTICS WAY, FRANKFURT, 60329, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "4567 LOGISTICS WAY, FRANKFURT, 60329, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "300490",
+  "commodityDescription": "PHARMACEUTICAL PRODUCTS",
+  "containers": [
+    {
+      "containerNumber": "CONT3738639",
+      "sealNumber": "SEAL124585",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 11875.33,
+      "measurement": 33.05
+    },
+    {
+      "containerNumber": "CONT6315288",
+      "sealNumber": "SEAL837733",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 9017.4,
+      "measurement": 26.81
+    },
+    {
+      "containerNumber": "CONT9702765",
+      "sealNumber": "SEAL737078",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 9509.41,
+      "measurement": 39.86
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 168,
+    "totalGrossWeight": 30402.14,
+    "totalMeasurement": 99.72
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241124001"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "4567 LOGISTICS WAY, FRANKFURT, 60329, GERMANY",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "4567 LOGISTICS WAY, FRANKFURT, 60329, GERMANY",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "onboardDate": "2024-11-27 10:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2714, VALUE: USD268,793, 21 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4064638",
+    "unClass": "3",
+    "unCode": "2714,",
+    "hsCode": "1194.27.70",
+    "flashPoint": "89\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

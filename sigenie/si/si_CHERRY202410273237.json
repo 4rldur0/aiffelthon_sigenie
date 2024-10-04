@@ -1,8 +1,8 @@
 {
   "bookingReference": "CHERRY202410273237",
   "voyageDetails": {
-    "vesselName": "CMA CGM ZHENG HE",
-    "voyageNumber": "241027W12"
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
   },
   "routeDetails": {
     "placeOfReceipt": "NINGBO, CHINA",
@@ -11,125 +11,104 @@
     "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "negotiable",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 5
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TEXTILES LTD",
-      "address": "1234 HONG KONG ROAD, SHANGHAI, CHINA",
-      "telephone": "+86 21 5555 6666",
-      "email": "INFO@ASIAPACIFICTEXTILES.COM"
+      "name": "SHANGHAI DRAGON INDUSTRIES CO.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
     },
     "consignee": {
-      "name": "SUNRISE IMPORTS INC.",
-      "address": "5678 SUNRISE BOULEVARD, LOS ANGELES, USA",
-      "taxId": "12-3456789",
-      "president": "MR. DAVID SMITH",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "GREEN FIELD LOGISTICS LTD.",
+      "address": "NO. 456, SHANGHAI ROAD, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-555-6666",
+      "fax": "+31-10-555-6667"
     },
     "notifyParty": {
-      "name": "SUNRISE IMPORTS INC.",
-      "address": "5678 SUNRISE BOULEVARD, LOS ANGELES, USA",
-      "taxId": "12-3456789",
-      "president": "MR. DAVID SMITH",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
     }
   },
-  "shippingTerm": "CY/CY",
-  "hsCode": "55133100",
-  "commodityDescription": "SYNTHETIC SATIN FABRIC",
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
   "containers": [
     {
-      "containerNumber": "TCLU7865432",
-      "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 500,
-      "packageType": "ROLLS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS SYNTHETIC SATIN FABRIC",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "containerNumber": "CONT7620967",
+      "sealNumber": "SEAL148955",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 10491.69,
+      "measurement": 38.74
     },
     {
-      "containerNumber": "TCLU7865433",
-      "sealNumber": "654321",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 500,
-      "packageType": "ROLLS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS SYNTHETIC SATIN FABRIC",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "containerNumber": "CONT7794850",
+      "sealNumber": "SEAL157841",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 7114.11,
+      "measurement": 31.54
     },
     {
-      "containerNumber": "TCLU7865434",
-      "sealNumber": "135792",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 500,
-      "packageType": "ROLLS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS SYNTHETIC SATIN FABRIC",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "containerNumber": "CONT6121936",
+      "sealNumber": "SEAL850099",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 12965.62,
+      "measurement": 32.0
     },
     {
-      "containerNumber": "TCLU7865435",
-      "sealNumber": "246813",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 500,
-      "packageType": "ROLLS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS SYNTHETIC SATIN FABRIC",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "TCLU7865436",
-      "sealNumber": "358914",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 500,
-      "packageType": "ROLLS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS SYNTHETIC SATIN FABRIC",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "containerNumber": "CONT7018948",
+      "sealNumber": "SEAL959571",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 14591.9,
+      "measurement": 22.69
     }
   ],
   "totalShipment": {
-    "totalContainers": "FIVE (5 x 20 DRY CONTAINER) CONTAINER ONLY",
-    "totalPackages": 2500,
-    "packageType": "ROLLS",
-    "containerType": "20 DRY CONTAINER",
-    "totalGrossWeight": 60000.0,
-    "totalMeasurement": 125.0
+    "totalContainers": "4 x 20 STANDARD FLAT RACK",
+    "totalPackages": 216,
+    "totalGrossWeight": 45163.32,
+    "totalMeasurement": 124.97
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": ""
     },
-    "certificateDetails": "CN1234567890",
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "SUNRISE IMPORTS INC.",
-      "address": "5678 SUNRISE BOULEVARD, LOS ANGELES, USA",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "GREEN FIELD LOGISTICS LTD.",
+      "address": "NO. 456, SHANGHAI ROAD, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-555-6666",
+      "fax": "+31-10-555-6667"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE IMPORTS INC.",
-      "address": "5678 SUNRISE BOULEVARD, LOS ANGELES, USA",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "GREEN FIELD LOGISTICS LTD.",
+      "address": "NO. 456, SHANGHAI ROAD, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-555-6666",
+      "fax": "+31-10-555-6667"
     },
-    "onboardDate": "2024-10-30 10:00",
-    "additionalRemarks": "Cargo should be properly packaged and labelled for easy identification."
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 6487x2177x2783, 21 DAYS FREE TIME AT DESTINATION"
   },
   "outOfGaugeDimensions": {
-    "length": 11200,
-    "width": 2100,
-    "height": 2561,
-    "overHeight": 561
+    "length": "6487",
+    "width": "2177",
+    "height": "2783",
+    "overWidth": "0",
+    "overHeight": "193"
   }
 }

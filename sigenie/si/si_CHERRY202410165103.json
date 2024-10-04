@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410165103",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TAIWAN GLOBAL MACHINERY CO.",
+      "address": "123 TECH PARK, TAIPEI, TAIWAN",
+      "telephone": "+886 2 8768 4500",
+      "fax": "+886 2 8768 4501"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "843311",
+  "commodityDescription": "MACHINERY FOR PRINTING OR BOOK-BINDING",
+  "containers": [
+    {
+      "containerNumber": "CONT7630360",
+      "sealNumber": "SEAL144346",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 11900.36,
+      "measurement": 25.31
+    },
+    {
+      "containerNumber": "CONT2440694",
+      "sealNumber": "SEAL756612",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 14892.51,
+      "measurement": 26.2
+    },
+    {
+      "containerNumber": "CONT1122734",
+      "sealNumber": "SEAL121975",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 16563.17,
+      "measurement": 23.95
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD FLAT RACK",
+    "totalPackages": 206,
+    "totalGrossWeight": 43356.04,
+    "totalMeasurement": 75.46
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRANSPORTATION LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-10-30 20:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 10937x2743x2384, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10937",
+    "width": "2743",
+    "height": "2384",
+    "overWidth": "303",
+    "overHeight": "0"
+  }
+}

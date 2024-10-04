@@ -1,0 +1,146 @@
+{
+  "bookingReference": "CHERRY202410073455",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA FRESH PRODUCE CO. LTD.",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213",
+      "email": "INFO@GLOBALSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "070110",
+  "commodityDescription": "TARO ROOT",
+  "containers": [
+    {
+      "containerNumber": "CONT4364247",
+      "sealNumber": "SEAL825946",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 14818.51,
+      "measurement": 30.54
+    },
+    {
+      "containerNumber": "CONT5530246",
+      "sealNumber": "SEAL213006",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 5365.37,
+      "measurement": 32.58
+    },
+    {
+      "containerNumber": "CONT9867951",
+      "sealNumber": "SEAL949207",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 10761.76,
+      "measurement": 20.11
+    },
+    {
+      "containerNumber": "CONT6283727",
+      "sealNumber": "SEAL201813",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 15060.03,
+      "measurement": 22.09
+    },
+    {
+      "containerNumber": "CONT9850943",
+      "sealNumber": "SEAL191805",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 5707.62,
+      "measurement": 34.26
+    },
+    {
+      "containerNumber": "CONT3532081",
+      "sealNumber": "SEAL935207",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 13032.78,
+      "measurement": 33.71
+    },
+    {
+      "containerNumber": "CONT2209243",
+      "sealNumber": "SEAL871378",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 18580.53,
+      "measurement": 33.22
+    },
+    {
+      "containerNumber": "CONT9732709",
+      "sealNumber": "SEAL535486",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 10293.27,
+      "measurement": 38.36
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "8 x 40 HIGH CUBE REEFER",
+    "totalPackages": 474,
+    "totalGrossWeight": 93619.87,
+    "totalMeasurement": 244.87
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241007-1001",
+    "documentNumber": "20241007-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241007ABC"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-10-13 22:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -16\u00b0C, 21 DAYS FREE TIME AT DESTINATION, FRAGILE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3105758",
+    "temperature": "-16\u00b0C",
+    "minTemperature": "-18\u00b0C",
+    "maxTemperature": "-14\u00b0C",
+    "ventilation": "29%",
+    "humidity": "95%"
+  }
+}

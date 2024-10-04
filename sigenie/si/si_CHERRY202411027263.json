@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202411027263",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "NO. 123, JINGUO ROAD, HAIMEN CITY, JIANGSU PROVINCE, 226100, CHINA",
+      "telephone": "+86 513 5558 6666",
+      "fax": "+86 513 5558 6667",
+      "email": "SHIPPING@TAIHANGLOBAL.COM"
+    },
+    "consignee": {
+      "name": "ALPHA TRADING CORP.",
+      "address": "ERKENWEDERSTRASSE 12, 20457 HAMBURG, GERMANY",
+      "taxId": "DE811234567890",
+      "president": "MR. PETER SCHULTZ",
+      "telephone": "+49 40 2345 6789",
+      "fax": "+49 40 2345 6788",
+      "email": "PETER.SCHULTZ@ALPHATRADING.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SERVICES GMBH",
+      "address": "FRANKFURTER STRASSE 56, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "282110",
+  "commodityDescription": "IRON OXIDE",
+  "containers": [
+    {
+      "containerNumber": "CONT6790007",
+      "sealNumber": "SEAL919777",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 17544.09,
+      "measurement": 28.03
+    },
+    {
+      "containerNumber": "CONT5586942",
+      "sealNumber": "SEAL518623",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 8443.96,
+      "measurement": 35.36
+    },
+    {
+      "containerNumber": "CONT1737744",
+      "sealNumber": "SEAL383396",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 12670.48,
+      "measurement": 37.78
+    },
+    {
+      "containerNumber": "CONT7456011",
+      "sealNumber": "SEAL675040",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 10979.4,
+      "measurement": 20.58
+    },
+    {
+      "containerNumber": "CONT2241335",
+      "sealNumber": "SEAL252005",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 13970.04,
+      "measurement": 30.29
+    },
+    {
+      "containerNumber": "CONT3302509",
+      "sealNumber": "SEAL816259",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 8997.67,
+      "measurement": 26.99
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD GENERAL",
+    "totalPackages": 396,
+    "totalGrossWeight": 72605.64,
+    "totalMeasurement": 179.03
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411027263"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SERVICES GMBH",
+      "address": "FRANKFURTER STRASSE 56, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA TRADING CORP.",
+      "address": "ERKENWEDERSTRASSE 12, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 2345 6789",
+      "fax": "+49 40 2345 6788",
+      "email": "PETER.SCHULTZ@ALPHATRADING.DE"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2502"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7986222",
+    "unClass": "2",
+    "unCode": "2502",
+    "hsCode": "5635.61.68",
+    "flashPoint": "33\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

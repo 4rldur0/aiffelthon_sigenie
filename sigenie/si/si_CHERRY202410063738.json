@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410063738",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@SUNRISEELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL CARGO SOLUTIONS INC.",
+      "address": "1555 EUROPALEIN, ROTTERDAM 3011, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 202 73 25",
+      "fax": "+31 10 202 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALCARGOSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "1000 FRANKFURTER STREET, ROTTERDAM 3011, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 713 29 39",
+      "fax": "+31 10 713 29 44",
+      "email": "ANNA.NOWAK@PTL-LOGISTYKA.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "310510",
+  "commodityDescription": "CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT4949591",
+      "sealNumber": "SEAL145164",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 19890.61,
+      "measurement": 25.46
+    },
+    {
+      "containerNumber": "CONT6011051",
+      "sealNumber": "SEAL850079",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 15721.66,
+      "measurement": 35.93
+    },
+    {
+      "containerNumber": "CONT7321668",
+      "sealNumber": "SEAL533681",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 9196.15,
+      "measurement": 28.63
+    },
+    {
+      "containerNumber": "CONT9146369",
+      "sealNumber": "SEAL444493",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 11071.41,
+      "measurement": 33.57
+    },
+    {
+      "containerNumber": "CONT5357269",
+      "sealNumber": "SEAL289558",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 16873.32,
+      "measurement": 20.34
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 343,
+    "totalGrossWeight": 72753.15,
+    "totalMeasurement": 143.93
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      " FUMIGATION CERTIFICATE",
+      " CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL CARGO SOLUTIONS INC.",
+      "address": "1555 EUROPALEIN, ROTTERDAM 3011, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 202 73 25",
+      "fax": "+31 10 202 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALCARGOSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3284"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1593543",
+    "unClass": "5",
+    "unCode": "3284",
+    "hsCode": "3321.91.56",
+    "flashPoint": "47\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410226038",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "330111",
+  "commodityDescription": "ESSENTIAL OIL - ROSEMARY",
+  "containers": [
+    {
+      "containerNumber": "CONT3795069",
+      "sealNumber": "SEAL667310",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 12073.57,
+      "measurement": 35.63
+    },
+    {
+      "containerNumber": "CONT8707426",
+      "sealNumber": "SEAL102808",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 14524.62,
+      "measurement": 27.88
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 62,
+    "totalGrossWeight": 26598.19,
+    "totalMeasurement": 63.51
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L/C 123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-07 12:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2238, VALUE: USD506,548"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2012329",
+    "unClass": "6",
+    "unCode": "2238,",
+    "hsCode": "7783.83.50",
+    "flashPoint": "-17\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

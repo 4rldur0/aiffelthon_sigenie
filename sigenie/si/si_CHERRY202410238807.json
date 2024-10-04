@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410238807",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING PTE LTD",
+      "address": "123 TECH PARK ROAD, SINGAPORE",
+      "telephone": "+65-6789-1234",
+      "fax": "+65-6789-1235"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "456 PORT STREET, LONDON, UK",
+      "telephone": "+44-20-7678-9012",
+      "fax": "+44-20-7678-9013",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "846630",
+  "commodityDescription": "ROBOTIC ARM ASSEMBLY",
+  "containers": [
+    {
+      "containerNumber": "CONT6865123",
+      "sealNumber": "SEAL555420",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 12523.24,
+      "measurement": 30.78
+    },
+    {
+      "containerNumber": "CONT2453807",
+      "sealNumber": "SEAL714668",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 9737.26,
+      "measurement": 29.41
+    },
+    {
+      "containerNumber": "CONT8995837",
+      "sealNumber": "SEAL407748",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 19408.53,
+      "measurement": 37.74
+    },
+    {
+      "containerNumber": "CONT5478024",
+      "sealNumber": "SEAL686636",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 11589.22,
+      "measurement": 31.4
+    },
+    {
+      "containerNumber": "CONT7257073",
+      "sealNumber": "SEAL928183",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 15512.14,
+      "measurement": 33.25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD PLATFORM",
+    "totalPackages": 364,
+    "totalGrossWeight": 68770.39,
+    "totalMeasurement": 162.58
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241023-1001",
+    "documentNumber": "20241023-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "456 PORT STREET, LONDON, UK",
+      "telephone": "+44-20-7678-9012",
+      "fax": "+44-20-7678-9013"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "456 PORT STREET, LONDON, UK",
+      "telephone": "+44-20-7678-9012",
+      "fax": "+44-20-7678-9013"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8322x2157x2620"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8322",
+    "width": "2157",
+    "height": "2620",
+    "overWidth": "0",
+    "overHeight": "30"
+  }
+}

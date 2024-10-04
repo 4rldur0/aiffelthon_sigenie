@@ -1,0 +1,83 @@
+{
+  "bookingReference": "CHERRY202411243985",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING INC.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "870899",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT1314405",
+      "sealNumber": "SEAL311081",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 15485.28,
+      "measurement": 22.31
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 80,
+    "totalGrossWeight": 15485.28,
+    "totalMeasurement": 22.31
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-04 19:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

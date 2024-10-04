@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410045765",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ENTERPRISES LTD.",
+      "onBehalfOf": "",
+      "address": "1234 SUNRISE STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "SUNRISE@SUNRISEENTERPRISES.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE TRADING INC.",
+      "address": "1234 WORLDWIDE WAY, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 12345679",
+      "email": "INFO@WORLDWIDETRADING.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE TRADING INC.",
+      "address": "1234 WORLDWIDE WAY, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940161",
+  "commodityDescription": "SEATS",
+  "containers": [
+    {
+      "containerNumber": "CONT8358013",
+      "sealNumber": "SEAL655460",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 10022.28,
+      "measurement": 30.65
+    },
+    {
+      "containerNumber": "CONT9244026",
+      "sealNumber": "SEAL708092",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 6803.69,
+      "measurement": 33.94
+    },
+    {
+      "containerNumber": "CONT5446856",
+      "sealNumber": "SEAL465090",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 7428.82,
+      "measurement": 37.98
+    },
+    {
+      "containerNumber": "CONT2612800",
+      "sealNumber": "SEAL588411",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 10472.79,
+      "measurement": 36.87
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD GENERAL",
+    "totalPackages": 235,
+    "totalGrossWeight": 34727.58,
+    "totalMeasurement": 139.44
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE ENTERPRISES LTD.",
+      "address": "1234 SUNRISE STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679"
+    },
+    "onboardDate": "2024-10-28 09:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  }
+}

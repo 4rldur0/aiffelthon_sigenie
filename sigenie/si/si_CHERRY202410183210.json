@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410183210",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.COM"
+    },
+    "consignee": {
+      "name": "MARINE TRANSPORT INTERNATIONAL LTD.",
+      "address": "152 QUEEN STREET, LONDON EC4V 3AX, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "SALES@MARINETRANS.CO.UK",
+      "telephone": "+44 20 7936 1234",
+      "fax": "+44 20 7936 1235"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS LTD.",
+      "address": "234 CANARY WHARF, LONDON E14 5HP, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "OPERATIONS@BLUESKYLOGISTICS.CO.UK",
+      "telephone": "+44 20 7876 5432",
+      "fax": "+44 20 7876 5433"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080550",
+  "commodityDescription": "ORANGE",
+  "containers": [
+    {
+      "containerNumber": "CONT3903622",
+      "sealNumber": "SEAL337933",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 16776.94,
+      "measurement": 21.27
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE REEFER",
+    "totalPackages": 16,
+    "totalGrossWeight": 16776.94,
+    "totalMeasurement": 21.27
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "MARINE TRANSPORT INTERNATIONAL LTD.",
+      "address": "152 QUEEN STREET, LONDON EC4V 3AX, UNITED KINGDOM",
+      "telephone": "+44 20 7936 1234",
+      "fax": "+44 20 7936 1235",
+      "email": "SALES@MARINETRANS.CO.UK"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MARINE TRANSPORT INTERNATIONAL LTD.",
+      "address": "152 QUEEN STREET, LONDON EC4V 3AX, UNITED KINGDOM",
+      "telephone": "+44 20 7936 1234",
+      "fax": "+44 20 7936 1235",
+      "email": "SALES@MARINETRANS.CO.UK"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 20\u00b0C, VALUE: USD342,795, ON DECK TOP STOWAGE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5776070",
+    "temperature": "20\u00b0C",
+    "minTemperature": "18\u00b0C",
+    "maxTemperature": "22\u00b0C",
+    "ventilation": "78%",
+    "humidity": "68%"
+  }
+}

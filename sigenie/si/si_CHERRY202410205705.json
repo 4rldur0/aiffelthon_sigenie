@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410205705",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL TRADING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "123 SUNRISE ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@SUNRISETRADE.CN"
+    },
+    "consignee": {
+      "name": "COSCO SHIPPING LINES (EUROPE) GMBH",
+      "address": "888 DONGFANG ROAD, HAMBURG, GERMANY 20457",
+      "companyNumber": "123456789",
+      "telephone": "+49 40 3756 7000",
+      "fax": "+49 40 3756 7001",
+      "email": "JANSSEN.EMMA@COSCOSHIP.DE"
+    },
+    "notifyParty": {
+      "name": "COSCO SHIPPING LINES (EUROPE) GMBH",
+      "address": "888 DONGFANG ROAD, HAMBURG, GERMANY 20457"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "080510",
+  "commodityDescription": "CITRUS FRUIT - ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT6139975",
+      "sealNumber": "SEAL859283",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 11043.59,
+      "measurement": 21.24
+    },
+    {
+      "containerNumber": "CONT4662022",
+      "sealNumber": "SEAL896369",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 11783.63,
+      "measurement": 37.36
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 89,
+    "totalGrossWeight": 22827.22,
+    "totalMeasurement": 58.6
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING CO. LTD.",
+      "address": "123 SUNRISE ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 20\u00b0C, MAINTAIN HUMIDITY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2606044",
+    "temperature": "20\u00b0C",
+    "minTemperature": "18\u00b0C",
+    "maxTemperature": "22\u00b0C",
+    "ventilation": "17%",
+    "humidity": "63%"
+  }
+}

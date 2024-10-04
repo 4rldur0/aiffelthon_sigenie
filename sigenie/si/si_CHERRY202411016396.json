@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411016396",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURERS LTD",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "456 OAK AVE, BERLIN, GERMANY",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-5679",
+      "email": "INFO@GLOBALIMPORTS.DE",
+      "contactPerson": "ANNA MEIER"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS INC"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "PLASTIC BUILDING BLOCKS",
+  "containers": [
+    {
+      "containerNumber": "CONT4860193",
+      "sealNumber": "SEAL182616",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 12439.2,
+      "measurement": 34.64
+    },
+    {
+      "containerNumber": "CONT6760043",
+      "sealNumber": "SEAL174314",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 7410.44,
+      "measurement": 32.25
+    },
+    {
+      "containerNumber": "CONT3662841",
+      "sealNumber": "SEAL584876",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 8997.51,
+      "measurement": 32.26
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 184,
+    "totalGrossWeight": 28847.15,
+    "totalMeasurement": 99.15
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241101-001",
+    "documentNumber": "20241101-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "456 OAK AVE, BERLIN, GERMANY",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "456 OAK AVE, BERLIN, GERMANY",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-5679"
+    },
+    "onboardDate": "2024-11-07 16:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  }
+}

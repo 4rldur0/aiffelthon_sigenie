@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202411089088",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EVERGREEN FRESH PRODUCE CO.",
+      "address": "123 ORCHARD STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN IMPORTS LTD.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN IMPORTS LTD.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080550",
+  "commodityDescription": "FROZEN MANGOES",
+  "containers": [
+    {
+      "containerNumber": "CONT8394208",
+      "sealNumber": "SEAL373897",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 9107.57,
+      "measurement": 24.85
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD REEFER",
+    "totalPackages": 42,
+    "totalGrossWeight": 9107.57,
+    "totalMeasurement": 24.85
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411089088"
+    },
+    "certificateDetails": [
+      "PHYTOSANITARY CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GOLDEN SUN IMPORTS LTD.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN SUN IMPORTS LTD.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "onboardDate": "2024-11-17 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -17\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1607944",
+    "temperature": "-17\u00b0C",
+    "minTemperature": "-19\u00b0C",
+    "maxTemperature": "-15\u00b0C",
+    "ventilation": "85%",
+    "humidity": "63%"
+  }
+}

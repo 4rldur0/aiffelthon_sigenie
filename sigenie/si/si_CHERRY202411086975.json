@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411086975",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BASF SE",
+      "address": "67056 LUDWIGSHAFEN, GERMANY",
+      "lei": "5493002X5H9U7F2W7374",
+      "telephone": "+49 621 60-0",
+      "fax": "+49 621 60-3333",
+      "email": "INFO@BASF.COM"
+    },
+    "consignee": {
+      "name": "BASF SOUTH EAST ASIA PTE LTD",
+      "address": "12 TAI SENG DRIVE, SINGAPORE 534954",
+      "usci": "91321200765109788X",
+      "president": "MR. LEE CHENG",
+      "telephone": "+65 6345 6789",
+      "fax": "+65 6345 6790",
+      "email": "LEE.CHENG@BASF.COM.SG"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "POSTFACH 1206, 60006 FRANKFURT AM MAIN, GERMANY",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+49 69 5004 3500",
+      "fax": "+49 69 5004 3501",
+      "email": "INFO@DHL.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382490",
+  "commodityDescription": "ETHYLENE GLYCOL",
+  "containers": [
+    {
+      "containerNumber": "CONT2907147",
+      "sealNumber": "SEAL446424",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 19572.98,
+      "measurement": 26.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD GENERAL",
+    "totalPackages": 82,
+    "totalGrossWeight": 19572.98,
+    "totalMeasurement": 26.4
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-13 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1819, VALUE: USD550,202, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9732010",
+    "unClass": "9",
+    "unCode": "1819,",
+    "hsCode": "4275.90.56",
+    "flashPoint": "-15\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

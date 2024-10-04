@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411159053",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES LTD.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "SUNRISE GLOBAL TRADING",
+      "address": "PROFESSOR STREET 123, 3012 BD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@SUNRISEGLOBAL.NL",
+      "contactPerson": "PETER VAN DER MEIJ"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING",
+      "address": "PROFESSOR STREET 123, 3012 BD ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "630790",
+  "commodityDescription": "MADE UP TEXTILE ARTICLES",
+  "containers": [
+    {
+      "containerNumber": "CONT1958676",
+      "sealNumber": "SEAL214632",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 18046.28,
+      "measurement": 21.21
+    },
+    {
+      "containerNumber": "CONT2415860",
+      "sealNumber": "SEAL140641",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 15661.83,
+      "measurement": 34.8
+    },
+    {
+      "containerNumber": "CONT9387104",
+      "sealNumber": "SEAL703015",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 11753.95,
+      "measurement": 28.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 138,
+    "totalGrossWeight": 45462.06,
+    "totalMeasurement": 84.21
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241115-1001",
+    "documentNumber": "20241115-1001",
+    "lcDetails": {
+      "lcNumber": "LCC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL TRADING",
+      "address": "PROFESSOR STREET 123, 3012 BD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING",
+      "address": "PROFESSOR STREET 123, 3012 BD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-11-22 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

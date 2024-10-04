@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410251571",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING CORPORATION",
+      "address": "123 INNOVATION STREET, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@PRECISIONENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118512, SINGAPORE",
+      "country": "SINGAPORE",
+      "email": "OPERATIONS@GLOBALSOLUTIONS.SG",
+      "telephone": "+65 6234 5678",
+      "fax": "+65 6234 5679"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118512, SINGAPORE",
+      "country": "SINGAPORE",
+      "email": "OPERATIONS@GLOBALSOLUTIONS.SG",
+      "telephone": "+65 6234 5678",
+      "fax": "+65 6234 5679"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "CHEMICAL PRODUCTS N.E.S.",
+  "containers": [
+    {
+      "containerNumber": "CONT8093347",
+      "sealNumber": "SEAL876052",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 5583.53,
+      "measurement": 28.63
+    },
+    {
+      "containerNumber": "CONT5606417",
+      "sealNumber": "SEAL349482",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 16479.15,
+      "measurement": 21.61
+    },
+    {
+      "containerNumber": "CONT9783229",
+      "sealNumber": "SEAL772398",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 19793.65,
+      "measurement": 32.7
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 161,
+    "totalGrossWeight": 41856.33,
+    "totalMeasurement": 82.94
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241025001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118512, SINGAPORE",
+      "telephone": "+65 6234 5678",
+      "fax": "+65 6234 5679",
+      "email": "OPERATIONS@GLOBALSOLUTIONS.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118512, SINGAPORE",
+      "telephone": "+65 6234 5678",
+      "fax": "+65 6234 5679",
+      "email": "OPERATIONS@GLOBALSOLUTIONS.SG"
+    },
+    "onboardDate": "2024-11-06 08:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1894, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5601424",
+    "unClass": "3",
+    "unCode": "1894,",
+    "hsCode": "8151.50.47",
+    "flashPoint": "-9\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

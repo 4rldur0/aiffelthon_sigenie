@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411197735",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "1234 INDUSTRIAL AVE, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1213"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "5678 PORT ROAD, MADRID, SPAIN",
+      "telephone": "+34-91-123-4567",
+      "fax": "+34-91-123-4568",
+      "email": "INFO@ALPHAIMPORT.ES",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "870899",
+  "commodityDescription": "PARTS & ACCESSORIES FOR VEHICLES",
+  "containers": [
+    {
+      "containerNumber": "CONT5729423",
+      "sealNumber": "SEAL136743",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 5851.74,
+      "measurement": 33.1
+    },
+    {
+      "containerNumber": "CONT3592071",
+      "sealNumber": "SEAL221382",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 9767.96,
+      "measurement": 38.08
+    },
+    {
+      "containerNumber": "CONT2305267",
+      "sealNumber": "SEAL450500",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 7936.07,
+      "measurement": 38.25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 149,
+    "totalGrossWeight": 23555.77,
+    "totalMeasurement": 109.43
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241119-001",
+    "documentNumber": "20241119-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "5678 PORT ROAD, MADRID, SPAIN",
+      "telephone": "+34-91-123-4567",
+      "fax": "+34-91-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "5678 PORT ROAD, MADRID, SPAIN",
+      "telephone": "+34-91-123-4567",
+      "fax": "+34-91-123-4568"
+    },
+    "onboardDate": "2024-12-07 18:00",
+    "additionalRemarks": "KEEP DRY"
+  }
+}

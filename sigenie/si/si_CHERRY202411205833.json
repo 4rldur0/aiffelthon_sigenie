@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202411205833",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA INDUSTRIES INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679",
+      "email": "INFO@OMEGAINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL853924312B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 1234 5679",
+      "email": "INFO@DELTASHIPPING.NL"
+    },
+    "notifyParty": {
+      "name": "ALPHA LOGISTICS BV",
+      "address": "789 Prinsestraat, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@ALPHALOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "333401",
+  "commodityDescription": "LIQUID DETERGENT",
+  "containers": [
+    {
+      "containerNumber": "CONT3476282",
+      "sealNumber": "SEAL288311",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 17132.63,
+      "measurement": 22.89
+    },
+    {
+      "containerNumber": "CONT3099100",
+      "sealNumber": "SEAL356472",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 17510.51,
+      "measurement": 30.91
+    },
+    {
+      "containerNumber": "CONT8986934",
+      "sealNumber": "SEAL590642",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 5266.62,
+      "measurement": 33.66
+    },
+    {
+      "containerNumber": "CONT7863320",
+      "sealNumber": "SEAL646583",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 16864.07,
+      "measurement": 25.56
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD TANK",
+    "totalPackages": 208,
+    "totalGrossWeight": 56773.83,
+    "totalMeasurement": 113.02
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 1234 5679",
+      "email": "INFO@DELTASHIPPING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 1234 5679",
+      "email": "INFO@DELTASHIPPING.NL"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3394, VALUE: USD573,399"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2265995",
+    "unClass": "8",
+    "unCode": "3394,",
+    "hsCode": "3604.14.92",
+    "flashPoint": "-15\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

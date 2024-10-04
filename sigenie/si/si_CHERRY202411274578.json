@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202411274578",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF MANUFACTURING PTE LTD",
+      "address": "12345 INDUSTRY ROAD, SINGAPORE 654321",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "ABC IMPORT EXPORT CO LTD",
+      "address": "6789 RUE DE PARIS, PARIS 75001, FRANCE",
+      "telephone": "+33-1-2345-6789",
+      "fax": "+33-1-2345-6780",
+      "email": "INFO@ABCIMPORTEXPORT.FR",
+      "contactPerson": "JEAN DUPONT"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT EXPORT CO LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "330190",
+  "commodityDescription": "ESSENTIAL OILS AND RESINOIDS",
+  "containers": [
+    {
+      "containerNumber": "CONT2896580",
+      "sealNumber": "SEAL925096",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 16574.19,
+      "measurement": 23.94
+    },
+    {
+      "containerNumber": "CONT6551462",
+      "sealNumber": "SEAL154258",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 15358.61,
+      "measurement": 39.6
+    },
+    {
+      "containerNumber": "CONT6661195",
+      "sealNumber": "SEAL682827",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 8537.94,
+      "measurement": 33.41
+    },
+    {
+      "containerNumber": "CONT5493961",
+      "sealNumber": "SEAL135964",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 18435.0,
+      "measurement": 26.24
+    },
+    {
+      "containerNumber": "CONT3206955",
+      "sealNumber": "SEAL473042",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 10190.17,
+      "measurement": 21.5
+    },
+    {
+      "containerNumber": "CONT5433005",
+      "sealNumber": "SEAL354121",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 19164.55,
+      "measurement": 28.46
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE TANK",
+    "totalPackages": 324,
+    "totalGrossWeight": 88260.46,
+    "totalMeasurement": 173.15
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241210-001",
+    "documentNumber": "20241210-001",
+    "lcDetails": {
+      "lcNumber": "ABC123456"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC IMPORT EXPORT CO LTD",
+      "address": "6789 RUE DE PARIS, PARIS 75001, FRANCE",
+      "telephone": "+33-1-2345-6789",
+      "fax": "+33-1-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT EXPORT CO LTD",
+      "address": "6789 RUE DE PARIS, PARIS 75001, FRANCE",
+      "telephone": "+33-1-2345-6789",
+      "fax": "+33-1-2345-6780"
+    },
+    "onboardDate": "2024-12-11 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3294",
+    "dangerousGoods": {
+      "unNumber": "3294",
+      "properShippingName": "ESSENTIAL OIL"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3522543",
+    "unClass": "5",
+    "unCode": "3294",
+    "hsCode": "7430.80.28",
+    "flashPoint": "70\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

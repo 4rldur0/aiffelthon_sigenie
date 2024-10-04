@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411239153",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING INC.",
+      "onBehalfOf": "",
+      "address": "1234 FACTORY ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "SALES@DELTAMFG.COM"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL SHIPPING LTD",
+      "address": "888 WORLD TRADE CENTER, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 12345679",
+      "email": "IMPORT@OMEGAGLOBAL.NL"
+    },
+    "notifyParty": {
+      "name": "OMEGA GLOBAL SHIPPING LTD",
+      "address": "888 WORLD TRADE CENTER, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "620462",
+  "commodityDescription": "WOMEN'S RAINCOATS",
+  "containers": [
+    {
+      "containerNumber": "CONT9885576",
+      "sealNumber": "SEAL406439",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 5101.55,
+      "measurement": 25.52
+    },
+    {
+      "containerNumber": "CONT2316190",
+      "sealNumber": "SEAL412406",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 15786.34,
+      "measurement": 32.52
+    },
+    {
+      "containerNumber": "CONT7617083",
+      "sealNumber": "SEAL953936",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 8996.22,
+      "measurement": 38.04
+    },
+    {
+      "containerNumber": "CONT6098958",
+      "sealNumber": "SEAL153320",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 7137.74,
+      "measurement": 36.24
+    },
+    {
+      "containerNumber": "CONT2699196",
+      "sealNumber": "SEAL114283",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 11863.86,
+      "measurement": 28.78
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD GENERAL",
+    "totalPackages": 196,
+    "totalGrossWeight": 48885.71,
+    "totalMeasurement": 161.1
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024122312345"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL SHIPPING LTD",
+      "address": "888 WORLD TRADE CENTER, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 12345679",
+      "email": "IMPORT@OMEGAGLOBAL.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA MANUFACTURING INC.",
+      "address": "1234 FACTORY ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "MAINTAIN HUMIDITY"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202411092471",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC MANUFACTURING PTE LTD",
+      "address": "123 TAI SOON STREET, SINGAPORE 638021",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0456",
+      "email": "SHIPPING@ABCMANUFACTURING.SG"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING FRANCE",
+      "address": "2 RUE DE LA LIBERTE, 75001 PARIS, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6790",
+      "email": "OPERATIONS@DHLFRANCE.FR"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "12345Marina Bay Sands, SINGAPORE 018955",
+      "country": "SINGAPORE",
+      "telephone": "+65 6888 1111",
+      "fax": "+65 6888 2222",
+      "email": "NOTIFICATIONS@DHL.COM.SG"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080510",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT1245155",
+      "sealNumber": "SEAL587468",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 8404.9,
+      "measurement": 33.91
+    },
+    {
+      "containerNumber": "CONT7040537",
+      "sealNumber": "SEAL820732",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 11679.11,
+      "measurement": 28.92
+    },
+    {
+      "containerNumber": "CONT8207670",
+      "sealNumber": "SEAL238643",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 13080.32,
+      "measurement": 26.05
+    },
+    {
+      "containerNumber": "CONT6735968",
+      "sealNumber": "SEAL139431",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 14807.19,
+      "measurement": 20.11
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD REEFER",
+    "totalPackages": 132,
+    "totalGrossWeight": 47971.52,
+    "totalMeasurement": 108.99
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      " PHYTOSANITARY CERTIFICATE",
+      " CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "12345Marina Bay Sands, SINGAPORE 018955",
+      "telephone": "+65 6888 1111",
+      "fax": "+65 6888 2222",
+      "email": "OPERATIONS@DHL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING FRANCE",
+      "address": "2 RUE DE LA LIBERTE, 75001 PARIS, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6790",
+      "email": "OPERATIONS@DHLFRANCE.FR"
+    },
+    "onboardDate": "2024-11-16 10:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -3\u00b0C, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2176422",
+    "temperature": "-3\u00b0C",
+    "minTemperature": "-5\u00b0C",
+    "maxTemperature": "-1\u00b0C",
+    "ventilation": "15%",
+    "humidity": "92%"
+  }
+}

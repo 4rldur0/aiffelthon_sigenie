@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202411012993",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SIEMENS AG",
+      "address": "WITTHAUSSTRASSE 16, 80336 MUNICH, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "VAT NO. DE126591823",
+      "telephone": "+49 89 636-40000",
+      "email": "SHIPPING@SIEMENS.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "2222 NINGBO ROAD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "email": "SHIPPING@DHL-GF.CN",
+      "telephone": "+86 21 6326 2000",
+      "fax": "+86 21 6326 2001"
+    },
+    "notifyParty": {
+      "name": "SIEMENS CHINA CO., LTD.",
+      "address": "2222 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "email": "SHIPPING@SIEMENS.CN",
+      "telephone": "+86 21 6326 3000",
+      "fax": "+86 21 6326 3001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "841869",
+  "commodityDescription": "REFRIGERATORS, COMBINED HEAT-AND-COOLING UNITS",
+  "containers": [
+    {
+      "containerNumber": "CONT7859857",
+      "sealNumber": "SEAL713539",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 14691.68,
+      "measurement": 38.96
+    },
+    {
+      "containerNumber": "CONT9020001",
+      "sealNumber": "SEAL426101",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 14201.85,
+      "measurement": 31.79
+    },
+    {
+      "containerNumber": "CONT7909545",
+      "sealNumber": "SEAL297481",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 6156.62,
+      "measurement": 30.45
+    },
+    {
+      "containerNumber": "CONT6517810",
+      "sealNumber": "SEAL847668",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 12680.74,
+      "measurement": 21.77
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD REEFER",
+    "totalPackages": 195,
+    "totalGrossWeight": 47730.89,
+    "totalMeasurement": 122.97
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "2222 NINGBO ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6326 2000",
+      "fax": "+86 21 6326 2001",
+      "email": "SHIPPING@DHL-GF.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SIEMENS AG",
+      "address": "WITTHAUSSTRASSE 16, 80336 MUNICH, GERMANY",
+      "telephone": "+49 89 636-40000",
+      "fax": "",
+      "email": "SHIPPING@SIEMENS.COM"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 18\u00b0C, VALUE: USD852,791"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3733371",
+    "temperature": "18\u00b0C",
+    "minTemperature": "16\u00b0C",
+    "maxTemperature": "20\u00b0C",
+    "ventilation": "10%",
+    "humidity": "80%"
+  }
+}

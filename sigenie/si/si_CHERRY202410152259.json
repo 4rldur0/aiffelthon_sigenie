@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410152259",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING LTD.",
+      "onBehalfOf": "",
+      "address": "1234 PRECISION RD, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-12345679",
+      "email": "INFO@APMFG.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "555 LOGISTICS DR, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568",
+      "email": "ORDERS@GLOBALLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "555 LOGISTICS DR, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT5996782",
+      "sealNumber": "SEAL697428",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 8442.21,
+      "measurement": 25.14
+    },
+    {
+      "containerNumber": "CONT6911647",
+      "sealNumber": "SEAL105714",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 16628.93,
+      "measurement": 22.29
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 52,
+    "totalGrossWeight": 25071.14,
+    "totalMeasurement": 47.43
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "555 LOGISTICS DR, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568",
+      "email": "ORDERS@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC MANUFACTURING LTD.",
+      "address": "1234 PRECISION RD, SHANGanghai, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-12345679"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "MAINTAIN HUMIDITY"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410089394",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT EXPORT LTD.",
+      "address": "UNIT 5, 1234 INDUSTRIAL PARK, NINGBO, 315000",
+      "country": "CHINA",
+      "telephone": "+86 574 8654 3210",
+      "email": "INFO@BETAIMPORTEXPORT.CN"
+    },
+    "consignee": {
+      "name": "ALPHA TRADING CO.",
+      "address": "2345 MAIN STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 2345 6789",
+      "email": "ORDERS@ALPHATRADING.NL"
+    },
+    "notifyParty": {
+      "name": "ACME INTERNATIONAL TRADING",
+      "address": "1234 BUSINESS PARK, LONDON, WC2A 3AA",
+      "country": "UNITED KINGDOM",
+      "email": "CONTACT@ACMEINTERNATIONAL.COM",
+      "telephone": "+44 20 7123 4567"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT1130542",
+      "sealNumber": "SEAL527071",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 6142.02,
+      "measurement": 21.76
+    },
+    {
+      "containerNumber": "CONT3264302",
+      "sealNumber": "SEAL334648",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 8811.72,
+      "measurement": 34.6
+    },
+    {
+      "containerNumber": "CONT3535476",
+      "sealNumber": "SEAL595321",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 15891.34,
+      "measurement": 21.09
+    },
+    {
+      "containerNumber": "CONT3384577",
+      "sealNumber": "SEAL659855",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 19130.2,
+      "measurement": 34.07
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD TANK",
+    "totalPackages": 281,
+    "totalGrossWeight": 49975.28,
+    "totalMeasurement": 111.52
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-10-23 09:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  }
+}

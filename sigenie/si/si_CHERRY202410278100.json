@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410278100",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA CORPORATION INC.",
+      "address": "NO. 555, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING LTD.",
+      "address": "SINGEL 456, 3013 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@SUNRISETRADING.NL",
+      "contactPerson": "PETER VAN DER MEIJ"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING LTD.",
+      "address": "SINGEL 456, 3013 AA ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382490",
+  "commodityDescription": "NITRIC ACID SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT5517199",
+      "sealNumber": "SEAL303376",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 12512.01,
+      "measurement": 37.51
+    },
+    {
+      "containerNumber": "CONT6086681",
+      "sealNumber": "SEAL803949",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 11523.79,
+      "measurement": 33.86
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 82,
+    "totalGrossWeight": 24035.8,
+    "totalMeasurement": 71.37
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING LTD.",
+      "address": "SINGEL 456, 3013 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING LTD.",
+      "address": "SINGEL 456, 3013 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1773, VALUE: USD274,172",
+    "dangerousGoods": {
+      "unNumber": "1773",
+      "class": "8",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6720931",
+    "unClass": "5",
+    "unCode": "1773,",
+    "hsCode": "3339.47.51",
+    "flashPoint": "91\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

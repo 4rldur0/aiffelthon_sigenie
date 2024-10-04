@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410243017",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD",
+      "onBehalfOf": "",
+      "address": "1234 CHEMICAL RD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@APC.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE IMPORT EXPORT INC",
+      "address": "1234 IMPORT RD, HAMBURG, GERMANY",
+      "companyNumber": "123456789",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "JANSSEN.EMMA@WIEINC.DE"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE IMPORT EXPORT INC",
+      "address": "1234 IMPORT RD, HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "282760",
+  "commodityDescription": "PHENOL CRYSTALS",
+  "containers": [
+    {
+      "containerNumber": "CONT6232603",
+      "sealNumber": "SEAL488441",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 11870.97,
+      "measurement": 20.43
+    },
+    {
+      "containerNumber": "CONT5043237",
+      "sealNumber": "SEAL595398",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 6161.41,
+      "measurement": 38.65
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 133,
+    "totalGrossWeight": 18032.38,
+    "totalMeasurement": 59.08
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241024001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE IMPORT EXPORT INC",
+      "address": "1234 IMPORT RD, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "onboardDate": "2024-10-30 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3167, VALUE: USD878,988, 14 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2024797",
+    "unClass": "6",
+    "unCode": "3167,",
+    "hsCode": "8899.50.46",
+    "flashPoint": "-2\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

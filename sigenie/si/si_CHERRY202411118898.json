@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411118898",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA IMPORTS INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679",
+      "email": "INFO@GLOBALTRADING.NL",
+      "contactPerson": "JAN SMIT"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING LTD."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940390",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT8971376",
+      "sealNumber": "SEAL911928",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 19884.42,
+      "measurement": 27.93
+    },
+    {
+      "containerNumber": "CONT7559838",
+      "sealNumber": "SEAL313620",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 15751.49,
+      "measurement": 30.88
+    },
+    {
+      "containerNumber": "CONT4484869",
+      "sealNumber": "SEAL306223",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 9138.14,
+      "measurement": 38.08
+    },
+    {
+      "containerNumber": "CONT7957908",
+      "sealNumber": "SEAL530781",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 13673.67,
+      "measurement": 38.59
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 221,
+    "totalGrossWeight": 58447.72,
+    "totalMeasurement": 135.48
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241111-1001",
+    "documentNumber": "20241111-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

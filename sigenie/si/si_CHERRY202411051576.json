@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411051576",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRANKFURT PRECISION ENGINEERING LTD.",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "consignee": {
+      "name": "DELTA GLOBAL LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 15, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-1234-5678",
+      "fax": "+49-69-1234-5679",
+      "email": "INFO@DELTA-LOGISTICS.DE",
+      "contactPerson": "PETER SCHMITZ"
+    },
+    "notifyParty": {
+      "name": "DELTA GLOBAL LOGISTICS GMBH"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT3472017",
+      "sealNumber": "SEAL467926",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 5410.75,
+      "measurement": 25.65
+    },
+    {
+      "containerNumber": "CONT5053547",
+      "sealNumber": "SEAL769032",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 14418.9,
+      "measurement": 39.62
+    },
+    {
+      "containerNumber": "CONT2649755",
+      "sealNumber": "SEAL306465",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 18726.2,
+      "measurement": 31.82
+    },
+    {
+      "containerNumber": "CONT2536382",
+      "sealNumber": "SEAL537612",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 9366.16,
+      "measurement": 35.57
+    },
+    {
+      "containerNumber": "CONT7738492",
+      "sealNumber": "SEAL679818",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 6884.97,
+      "measurement": 28.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 45 HIGH CUBE TANK",
+    "totalPackages": 304,
+    "totalGrossWeight": 54806.98,
+    "totalMeasurement": 161.06
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241105-001",
+    "documentNumber": "20241105-001",
+    "lcDetails": {
+      "lcNumber": "LC20241105-ABC123"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA GLOBAL LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 15, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-1234-5678",
+      "fax": "+49-69-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA GLOBAL LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 15, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-1234-5678",
+      "fax": "+49-69-1234-5679"
+    },
+    "onboardDate": "2024-11-08 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

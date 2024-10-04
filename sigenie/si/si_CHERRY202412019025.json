@@ -1,0 +1,85 @@
+{
+  "bookingReference": "CHERRY202412019025",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA GLOBAL TRADING INC.",
+      "onBehalfOf": "",
+      "address": "1234 GLOBAL STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@BETAGLOBALTRADING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "5678 IMPORT EXPORT STREET, MADRID, SPAIN",
+      "companyNumber": "123456789",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@ALPHAIMPORTEXPORT.COM"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "5678 IMPORT EXPORT STREET, MADRID, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT1126720",
+      "sealNumber": "SEAL913473",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 9785.86,
+      "measurement": 25.93
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD GENERAL",
+    "totalPackages": 56,
+    "totalGrossWeight": 9785.86,
+    "totalMeasurement": 25.93
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "5678 IMPORT EXPORT STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@ALPHAIMPORTEXPORT.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA GLOBAL TRADING INC.",
+      "address": "1234 GLOBAL STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@BETAGLOBALTRADING.COM"
+    },
+    "onboardDate": "2024-12-12 12:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

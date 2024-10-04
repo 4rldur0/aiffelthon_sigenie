@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202410299718",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA INTERNATIONAL TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 YONGFU ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "LIU.YANG@BETATRADING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD.",
+      "address": "4567 ALCALA STREET, MADRID 28028, SPAIN",
+      "companyNumber": "123456789",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 876 5432",
+      "email": "GONZALEZ.MARIA@ALPHAGLOBALLOGISTICS.ES"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD.",
+      "address": "4567 ALCALA STREET, MADRID 28028, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT2272714",
+      "sealNumber": "SEAL853001",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 9007.11,
+      "measurement": 29.31
+    },
+    {
+      "containerNumber": "CONT1492277",
+      "sealNumber": "SEAL949437",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 8981.46,
+      "measurement": 23.52
+    },
+    {
+      "containerNumber": "CONT9829225",
+      "sealNumber": "SEAL917257",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 13082.31,
+      "measurement": 24.78
+    },
+    {
+      "containerNumber": "CONT3249571",
+      "sealNumber": "SEAL695301",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 13409.2,
+      "measurement": 25.19
+    },
+    {
+      "containerNumber": "CONT7523109",
+      "sealNumber": "SEAL460155",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 6449.08,
+      "measurement": 24.16
+    },
+    {
+      "containerNumber": "CONT5457732",
+      "sealNumber": "SEAL980528",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 13426.49,
+      "measurement": 32.72
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD PLATFORM",
+    "totalPackages": 425,
+    "totalGrossWeight": 64355.65,
+    "totalMeasurement": 159.68
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC-234567890123"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD.",
+      "address": "4567 ALCALA STREET, MADRID 28028, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 876 5432",
+      "email": "GONZALEZ.MARIA@ALPHAGLOBALLOGISTICS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA INTERNATIONAL TRADING CO.",
+      "address": "1234 YONGFU ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    },
+    "onboardDate": "2024-11-17 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8010x2389x2772, VALUE: USD497,130, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8010",
+    "width": "2389",
+    "height": "2772",
+    "overWidth": "0",
+    "overHeight": "182"
+  }
+}

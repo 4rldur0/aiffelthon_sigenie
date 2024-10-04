@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411179624",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "ACETIC ACID SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT5446757",
+      "sealNumber": "SEAL623525",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 10776.57,
+      "measurement": 28.11
+    },
+    {
+      "containerNumber": "CONT2864051",
+      "sealNumber": "SEAL286665",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 13952.64,
+      "measurement": 23.34
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 55,
+    "totalGrossWeight": 24729.21,
+    "totalMeasurement": 51.45
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-02 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2889, VALUE: USD16,563, 21 DAYS FREE TIME AT DESTINATION",
+    "dangerousGoods": {
+      "unNumber": "2889",
+      "properShippingName": "ACETIC ACID SOLUTION",
+      "class": "8",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2475157",
+    "unClass": "5",
+    "unCode": "2889,",
+    "hsCode": "8695.97.36",
+    "flashPoint": "5\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

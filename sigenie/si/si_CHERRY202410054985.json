@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410054985",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS INC",
+      "address": "123 CHEMICAL STREET, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT EXPORT LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382490",
+  "commodityDescription": "SODIUM HYPOCHLORITE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT1701988",
+      "sealNumber": "SEAL752240",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 13466.12,
+      "measurement": 23.69
+    },
+    {
+      "containerNumber": "CONT5879115",
+      "sealNumber": "SEAL807630",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 11425.1,
+      "measurement": 29.21
+    },
+    {
+      "containerNumber": "CONT9481382",
+      "sealNumber": "SEAL394771",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 15342.62,
+      "measurement": 32.9
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 165,
+    "totalGrossWeight": 40233.84,
+    "totalMeasurement": 85.8
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF ANALYSIS"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT EXPORT LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-10-14 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3411, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1123420",
+    "unClass": "3",
+    "unCode": "3411,",
+    "hsCode": "5791.46.10",
+    "flashPoint": "63\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}
