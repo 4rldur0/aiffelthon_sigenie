@@ -8,6 +8,7 @@ class SIValidation:
         self.verify_vessel_port_situation_node = verify_vessel_port_situation.VerifyVesselPortSituation()
         self.generate_validation_report_node = generate_validation_report.GenerateValidationReport()
         self.graph = self.generate_graph()
+        self.state = si_validation_state.State()
 
     def generate_graph(self):
         workflow = StateGraph(si_validation_state.State)
@@ -25,9 +26,7 @@ class SIValidation:
         workflow.add_edge("verify_vessel_port_situation", "generate_validation_report")
         workflow.add_edge("generate_validation_report", END)
 
-        self.graph = workflow.compile()
+        return workflow.compile()
     
-    def invoke(self, si_data):
-        initial_state = si_validation_state.State()
-        initial_state["si_data"] = si_data
-        return self.graph.invoke(initial_state)
+    def invoke(self):
+        return self.graph.invoke(self.state)

@@ -5,7 +5,7 @@ from .si_intake_state import State
 
 class CheckMissingData:
     def __init__(self):
-        self.llm = gpt_4o_mini
+        self.llm = gemini_1_5_flash
         self.prompt = check_missing_prompt
         self.chain = BasicChain(llm = self.llm, prompt = self.prompt, input_variables=["si_data"])
     

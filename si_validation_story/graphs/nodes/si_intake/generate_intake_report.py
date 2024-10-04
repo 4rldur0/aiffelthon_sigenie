@@ -12,7 +12,7 @@ class GenerateIntakeReport:
     def __call__(self, state: State) -> State:
         try:
             response = self.chain.invoke(
-                {"sources": state["missing_answer"]}
+                {"missing_info": state["missing_answer"]}
             )
             state['summary_answer'] = response
         except Exception as e:

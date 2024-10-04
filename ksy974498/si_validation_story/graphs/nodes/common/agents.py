@@ -1,4 +1,3 @@
-import os
 from .tools import *
 from langchain.prompts import PromptTemplate
 from typing import List
@@ -13,13 +12,17 @@ class BasicChain:
         self.prompt = PromptTemplate(template=prompt, input_variables=input_variables)
         self.chain = self.prompt | self.llm | StrOutputParser()
     
-    def __call__(self):
-        return self.chain
-
+    def __call__(self, *args, **kwargs):
+        return self.chain(*args, **kwargs)
+    
+    def invoke(self, *args, **kwargs):
+        return self.chain.invoke(*args, **kwargs)
+    
 # Build Retrieval-Augmented Generation Pipeline
 class RAGAgent:
     def __init__(self, sources: List[str], generate_response_chain):
-        self.vectorstore = Faiss.load_vectorstore(sources)
+        faiss = Faiss()
+        self.vectorstore = faiss.load_vectorstore(sources=sources)
         self.chain = generate_response_chain
 
     def retrieve_documents(self, query: str):

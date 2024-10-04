@@ -1,38 +1,31 @@
 check_missing_prompt="""
-Analyze the following Shipping Instruction (SI) data, focusing on missing or incomplete information in key sections excluding the ‘Additional Information’ field. Assess each section for completeness: ‘Voyage & Route Details,’ ‘Payment & Documentation,’ ‘Party Details,’ ‘Shipping Information,’ ‘Containers,’ and ‘Total Shipment.’ For missing or incomplete details, return a summary highlighting which data is missing or invalid. Provide a concise and structured output similar to the example below.
+Analyze the following Shipping Instruction (SI) data, focusing on missing or incomplete information in key sections excluding the ‘Additional Information’ field.
+For missing or incomplete details, return a summary highlighting which data is missing or invalid(`:red[MISSING]`).
+Provide a concise and structured output similar to the example below.
 
 Data:
 {si_data}
 
-Example Output:
+Response Format:
 
-This is the summarized report on SI cherry202409072244:
+	1.	Vessel & Route Details: OK
+	2.	Payment & Documentation: OK
+	3.	Party Information: OK
+	4.	Shipping Details: OK
+	5.	Container Information: OK
+	6.	Total Shipment Summary: OK
+	7.	Additional Information: OK
+	8.	Special Cargo Information: OK
 
-	1. VESSEL VOYAGE BOUND: OK (APL TEMASEK, 2024581E)
-	2. PARTIES
-		- SHIPPER: OK
-		- CONSIGNEE: OK
-		- NOTIFY PARTY: OK
-	3. PLACE OF RECEIPT: OK
-		- PORT OF LOADING: OK
-		- PORT OF DISCHARGING: OK
-		- PLACE OF DELIVERY: OK
-	4. DESCRIPTIONS OF GOODS
-		- CONTAINER/SEAL NO: OK
-		- CONTAINER UNIT: OK
-		- MARKS AND NUMBERS: OK
-		- NUMBER AND PACKAGE TYPE: OK
-		- COMMODITY: OK (POWER TRANSFORMERS)
-		- SHIPPING TERMS: OK (CIF)
-		- FREIGHT TERMS: OK (COLLECT)
-    5. ...
 """
-intake_report_prompt="""
-Summarize data below
 
-Data: 
-{sources}
+intake_report_prompt = """
+Add Summarization of the missing information.
+Write Summarziation before Missing Information.
+
+Missing Information: {missing_info}
 """
+
 check_parties_prompt = """
 Found following issues in shipper, consignee, and notify parties' data
 
