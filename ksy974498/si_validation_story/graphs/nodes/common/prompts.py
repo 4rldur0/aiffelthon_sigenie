@@ -1,41 +1,21 @@
+# json 형식으로 prompting
 check_missing_prompt="""
-Analyze the following Shipping Instruction (SI) data, focusing on missing or incomplete information in key sections excluding the ‘Additional Information’ field.
-For missing or incomplete details, return a summary highlighting which data is missing or invalid(`:red[MISSING]`,'`:blue[WARNING]`).
-Provide a concise and structured output similar to the example below.
+    Analyze the following Shipping Instruction (SI) data, focusing on missing or incomplete information in key sections excluding the ‘Additional Information’ field.
+    \n{format_instructions}
+    \n{si_data}\n
+"""
 
-Data:
+intake_report_prompt =  """
+You are a report generator AI. Your task is to summarize any issues or missing data in key sections.
+
+{format_instructions}
+
+Here is the shipment data:
 {si_data}
 
-Response Format:
-
-	1.	Vessel & Route Details: OK
-	2.	Payment & Documentation: OK
-	3.	Party Information: OK
-	4.	Shipping Details: OK
-	5.	Container Information: OK
-	6.	Total Shipment Summary: OK
-	7.	Additional Information: OK
-	8.	Special Cargo Information: OK
-
+Missing or problematic information:
+{missing_info}
 """
-
-# json 형식으로 prompting
-# add: function calling
-## check : value, 이유 - 정확도 측면에서 
-
-intake_report_prompt = """
-Add Summarization of the missing information.
-Write Summarziation before Missing Information.
-
-Missing Information: {missing_info}
-"""
-
-# intake_report_prompt="""
-# Summarize data below
-
-# Data: 
-# {sources}
-# """
 
 check_parties_prompt = """
 Found following issues in shipper, consignee, and notify parties' data

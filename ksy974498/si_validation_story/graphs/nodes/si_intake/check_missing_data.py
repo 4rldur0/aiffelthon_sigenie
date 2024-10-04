@@ -1,13 +1,24 @@
 from ..common.models import *
 from ..common.prompts import check_missing_prompt
-from ..common.agents import BasicChain
+# from ..common.agents import BasicChain
 from .si_intake_state import State
+
+from langchain.prompts import PromptTemplate
+from langchain_core.output_parsers import JsonOutputParser
+from ..common.schemas import ShipmentStatus
 
 class CheckMissingData:
     def __init__(self):
-        self.llm = gemini_1_5_flash
-        self.prompt = check_missing_prompt
-        self.chain = BasicChain(llm = self.llm, prompt = self.prompt, input_variables=["si_data"])
+        self.output_parser = JsonOutputParser(pydantic_object=ShipmentStatus)
+        self.llm = gpt_4o_mini
+        self.prompt = PromptTemplate(
+            template=check_missing_prompt,
+            input_variables=["si_data"],
+            partial_variables={
+                "format_instructions": self.output_parser.get_format_instructions()
+            },
+        )
+        self.chain = self.prompt | self.llm | self.output_parser
     
     def __call__(self, state: State) -> State:
         try:

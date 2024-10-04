@@ -58,8 +58,7 @@ class PartyInformation(BaseModel):
 
     @root_validator(pre=True)
     def calculate_total_status(cls, values):
-        values['total_status'] = values['status'].status
-        return values
+        return {'total_status': values['status'].status}
 
 class ShippingDetails(BaseModel):
     status: StatusWithReason = Field(..., description="Status of Shipping Details")
@@ -67,8 +66,7 @@ class ShippingDetails(BaseModel):
 
     @root_validator(pre=True)
     def calculate_total_status(cls, values):
-        values['total_status'] = values['status'].status
-        return values
+        return {'total_status': values['status'].status}
 
 class ContainerInformation(BaseModel):
     status: StatusWithReason = Field(..., description="Status of Container Information")
@@ -76,8 +74,7 @@ class ContainerInformation(BaseModel):
 
     @root_validator(pre=True)
     def calculate_total_status(cls, values):
-        values['total_status'] = values['status'].status
-        return values
+        return {'total_status': values['status'].status}
 
 class TotalShipmentSummary(BaseModel):
     status: StatusWithReason = Field(..., description="Status of Total Shipment Summary")
@@ -85,8 +82,7 @@ class TotalShipmentSummary(BaseModel):
 
     @root_validator(pre=True)
     def calculate_total_status(cls, values):
-        values['total_status'] = values['status'].status
-        return values
+        return {'total_status': values['status'].status}
 
 class AdditionalInformation(BaseModel):
     status: StatusWithReason = Field(..., description="Status of Additional Information")
@@ -94,8 +90,7 @@ class AdditionalInformation(BaseModel):
 
     @root_validator(pre=True)
     def calculate_total_status(cls, values):
-        values['total_status'] = values['status'].status
-        return values
+        return {'total_status': values['status'].status}
 
 class SpecialCargoInformation(BaseModel):
     status: StatusWithReason = Field(..., description="Status of Special Cargo Information")
@@ -103,8 +98,7 @@ class SpecialCargoInformation(BaseModel):
 
     @root_validator(pre=True)
     def calculate_total_status(cls, values):
-        values['total_status'] = values['status'].status
-        return values
+        return {'total_status': values['status'].status}
 
 class ShipmentStatus(BaseModel):
     vessel_route_details: VesselRouteDetails = Field(..., description="Details of Vessel and Route status")
@@ -120,17 +114,24 @@ class ShipmentStatus(BaseModel):
     @root_validator(pre=True)
     def calculate_total_status(cls, values):
         sub_statuses = [
-            values['vessel_route_details'].total_status,
-            values['payment_documentation'].total_status,
-            values['party_information'].total_status,
-            values['shipping_details'].total_status,
-            values['container_information'].total_status,
-            values['total_shipment_summary'].total_status,
-            values['additional_information'].total_status,
-            values['special_cargo_information'].total_status
+            values['vessel_route_details'].get('total_status'),
+            values['payment_documentation'].get('total_status'),
+            values['party_information'].get('total_status'),
+            values['shipping_details'].get('total_status'),
+            values['container_information'].get('total_status'),
+            values['total_shipment_summary'].get('total_status'),
+            values['additional_information'].get('total_status'),
+            values['special_cargo_information'].get('total_status')
         ]
-        if "Warning" in sub_statuses:
+        if "Warning" in sub_statuses or "Missing" in sub_statuses:
             values['total_status'] = "Warning"
         else:
             values['total_status'] = "OK"
         return values
+
+
+class ShipmentSummary(BaseModel):
+    overall_status: str = Field(description="The overall status of the shipment")
+    issues_found: str = Field(description="List of issues found in the shipment")
+    missing_summary: str = Field(description="Summary of missing or incomplete information")
+    conclusion: str = Field(description="Conclusion of the shipment report")

@@ -3,16 +3,28 @@ from ..common.prompts import intake_report_prompt
 from ..common.agents import BasicChain
 from .si_intake_state import State
 
+from langchain.prompts import PromptTemplate
+from langchain_core.output_parsers import JsonOutputParser
+from ..common.schemas import ShipmentSummary
+
 class GenerateIntakeReport:
     def __init__(self):
-        self.llm = gemini_1_5_flash
-        self.prompt = intake_report_prompt
-        self.chain = BasicChain(llm = self.llm, prompt = self.prompt, input_variables=["sources"])
+        self.output_parser = JsonOutputParser(pydantic_object=ShipmentSummary)
+        self.llm = gpt_4o_mini
+        self.prompt = PromptTemplate(
+            template=intake_report_prompt,
+            input_variables=["si_data", "missing_info"],
+            partial_variables={
+                "format_instructions": self.output_parser.get_format_instructions()
+            },
+        )
+        self.chain = self.prompt | self.llm | self.output_parser
 
     def __call__(self, state: State) -> State:
         try:
             response = self.chain.invoke(
-                {
+                {   
+                    "si_data" : state['si_data'],
                     "missing_info": state["missing_answer"],
                 }
             )
