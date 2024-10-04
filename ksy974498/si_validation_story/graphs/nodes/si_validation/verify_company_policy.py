@@ -7,7 +7,7 @@ import glob
 # ========== 수정 예정(대현님) ==========
 class VerifyCompanyPolicy:
     def __init__(self):
-        self.llm = gpt_4o_mini
+        self.llm = gemini_1_5_flash
         self.prompt = verify_company_policy_prompt
         self.chain = BasicChain(llm = self.llm, prompt = self.prompt, input_variables=["si_data"])
         self.rag = self.get_RAG_agent()

@@ -8,6 +8,7 @@ class SIIntake:
         self.check_missing_data_node = check_missing_data.CheckMissingData()
         self.generate_intake_report_node = generate_intake_report.GenerateIntakeReport()
         self.graph = self.generate_graph()
+        self.state = si_intake_state.State()
 
     def generate_graph(self):
         workflow = StateGraph(si_intake_state.State)
@@ -25,8 +26,7 @@ class SIIntake:
         workflow.add_edge("check_missing_data", "generate_intake_report")
         workflow.add_edge("generate_intake_report", END)
 
-        self.graph = workflow.compile()
+        return workflow.compile()
     
     def invoke(self):
-        initial_state = si_intake_state.State()
-        return self.graph.invoke(initial_state)
+        return self.graph.invoke(self.state)
