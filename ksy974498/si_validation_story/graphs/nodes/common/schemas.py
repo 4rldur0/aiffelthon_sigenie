@@ -1,35 +1,110 @@
-from pydantic import BaseModel, Field
+from typing import Optional
+from pydantic import BaseModel, Field, root_validator
+
+class StatusWithReason(BaseModel):
+    status: str = Field(..., description="The status of the field (OK/Missing/Warning)")
+    reason: Optional[str] = Field(None, description="The reason for Missing or Warning status, if applicable")
+
+    def is_problematic(self) -> bool:
+        return self.status in ["Missing", "Warning"]
 
 class VesselRouteDetails(BaseModel):
-    vessel_name: str = Field(..., description="Status of Vessel Name (OK/Missing/Warning)")
-    voyage_number: str = Field(..., description="Status of Voyage Number (OK/Missing/Warning)")
-    place_of_receipt: str = Field(..., description="Status of Place of Receipt (OK/Missing/Warning)")
-    port_of_loading: str = Field(..., description="Status of Port of Loading (OK/Missing/Warning)")
-    port_of_discharge: str = Field(..., description="Status of Port of Discharge (OK/Missing/Warning)")
-    place_of_delivery: str = Field(..., description="Status of Place of Delivery (OK/Missing/Warning)")
+    vessel_name: StatusWithReason = Field(..., description="Status of Vessel Name")
+    voyage_number: StatusWithReason = Field(..., description="Status of Voyage Number")
+    place_of_receipt: StatusWithReason = Field(..., description="Status of Place of Receipt")
+    port_of_loading: StatusWithReason = Field(..., description="Status of Port of Loading")
+    port_of_discharge: StatusWithReason = Field(..., description="Status of Port of Discharge")
+    place_of_delivery: StatusWithReason = Field(..., description="Status of Place of Delivery")
+    total_status: str = Field(..., description="Overall status of Vessel Route Details")
+
+    @root_validator(pre=True)
+    def calculate_total_status(cls, values):
+        statuses = [
+            values.get('vessel_name'),
+            values.get('voyage_number'),
+            values.get('place_of_receipt'),
+            values.get('port_of_loading'),
+            values.get('port_of_discharge'),
+            values.get('place_of_delivery')
+        ]
+        if any(status.is_problematic() for status in statuses if status):
+            values['total_status'] = "Warning"
+        else:
+            values['total_status'] = "OK"
+        return values
 
 class PaymentDocumentation(BaseModel):
-    freight_payment_terms: str = Field(..., description="Status of Freight Payment Terms (OK/Missing/Warning)")
-    bl_type: str = Field(..., description="Status of Bill of Lading Type (OK/Missing/Warning)")
-    number_of_original_bls: str = Field(..., description="Status of Number of Original BLs (OK/Missing/Warning)")
+    freight_payment_terms: StatusWithReason = Field(..., description="Status of Freight Payment Terms")
+    bl_type: StatusWithReason = Field(..., description="Status of Bill of Lading Type")
+    number_of_original_bls: StatusWithReason = Field(..., description="Status of Number of Original BLs")
+    total_status: str = Field(..., description="Overall status of Payment Documentation")
+
+    @root_validator(pre=True)
+    def calculate_total_status(cls, values):
+        statuses = [
+            values.get('freight_payment_terms'),
+            values.get('bl_type'),
+            values.get('number_of_original_bls')
+        ]
+        if any(status.is_problematic() for status in statuses if status):
+            values['total_status'] = "Warning"
+        else:
+            values['total_status'] = "OK"
+        return values
 
 class PartyInformation(BaseModel):
-    status: str = Field(..., description="Status of Party Information (OK/Missing/Warning)")
+    status: StatusWithReason = Field(..., description="Status of Party Information")
+    total_status: str = Field(..., description="Overall status of Party Information")
+
+    @root_validator(pre=True)
+    def calculate_total_status(cls, values):
+        values['total_status'] = values['status'].status
+        return values
 
 class ShippingDetails(BaseModel):
-    status: str = Field(..., description="Status of Shipping Details (OK/Missing/Warning)")
+    status: StatusWithReason = Field(..., description="Status of Shipping Details")
+    total_status: str = Field(..., description="Overall status of Shipping Details")
+
+    @root_validator(pre=True)
+    def calculate_total_status(cls, values):
+        values['total_status'] = values['status'].status
+        return values
 
 class ContainerInformation(BaseModel):
-    status: str = Field(..., description="Status of Container Information (OK/Missing/Warning)")
+    status: StatusWithReason = Field(..., description="Status of Container Information")
+    total_status: str = Field(..., description="Overall status of Container Information")
+
+    @root_validator(pre=True)
+    def calculate_total_status(cls, values):
+        values['total_status'] = values['status'].status
+        return values
 
 class TotalShipmentSummary(BaseModel):
-    status: str = Field(..., description="Status of Total Shipment Summary (OK/Missing/Warning)")
+    status: StatusWithReason = Field(..., description="Status of Total Shipment Summary")
+    total_status: str = Field(..., description="Overall status of Total Shipment Summary")
+
+    @root_validator(pre=True)
+    def calculate_total_status(cls, values):
+        values['total_status'] = values['status'].status
+        return values
 
 class AdditionalInformation(BaseModel):
-    status: str = Field(..., description="Status of Additional Information (OK/Missing/Warning)")
+    status: StatusWithReason = Field(..., description="Status of Additional Information")
+    total_status: str = Field(..., description="Overall status of Additional Information")
+
+    @root_validator(pre=True)
+    def calculate_total_status(cls, values):
+        values['total_status'] = values['status'].status
+        return values
 
 class SpecialCargoInformation(BaseModel):
-    status: str = Field(..., description="Status of Special Cargo Information (OK/Missing/Warning)")
+    status: StatusWithReason = Field(..., description="Status of Special Cargo Information")
+    total_status: str = Field(..., description="Overall status of Special Cargo Information")
+
+    @root_validator(pre=True)
+    def calculate_total_status(cls, values):
+        values['total_status'] = values['status'].status
+        return values
 
 class ShipmentStatus(BaseModel):
     vessel_route_details: VesselRouteDetails = Field(..., description="Details of Vessel and Route status")
@@ -40,3 +115,22 @@ class ShipmentStatus(BaseModel):
     total_shipment_summary: TotalShipmentSummary = Field(..., description="Details of Total Shipment Summary status")
     additional_information: AdditionalInformation = Field(..., description="Details of Additional Information status")
     special_cargo_information: SpecialCargoInformation = Field(..., description="Details of Special Cargo Information status")
+    total_status: str = Field(..., description="Overall status of the Shipment")
+
+    @root_validator(pre=True)
+    def calculate_total_status(cls, values):
+        sub_statuses = [
+            values['vessel_route_details'].total_status,
+            values['payment_documentation'].total_status,
+            values['party_information'].total_status,
+            values['shipping_details'].total_status,
+            values['container_information'].total_status,
+            values['total_shipment_summary'].total_status,
+            values['additional_information'].total_status,
+            values['special_cargo_information'].total_status
+        ]
+        if "Warning" in sub_statuses:
+            values['total_status'] = "Warning"
+        else:
+            values['total_status'] = "OK"
+        return values
