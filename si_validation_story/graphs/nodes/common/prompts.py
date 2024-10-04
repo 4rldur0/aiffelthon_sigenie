@@ -1,6 +1,6 @@
 check_missing_prompt="""
 Analyze the following Shipping Instruction (SI) data, focusing on missing or incomplete information in key sections excluding the ‘Additional Information’ field.
-For missing or incomplete details, return a summary highlighting which data is missing or invalid(`:red[MISSING]`).
+For missing or incomplete details, return a summary highlighting which data is missing(`:red[MISSING]`) or invalid(`:blue[WARNING]`).
 Provide a concise and structured output similar to the example below.
 
 Data:
