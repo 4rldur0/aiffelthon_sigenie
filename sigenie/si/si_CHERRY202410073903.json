@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410073903",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 TRADE STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "INFO@BETATRADING.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "1234 IMPORT STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "ORDERS@ALPHAIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "1234 IMPORT STREET, ROTTERDAM, NETHERLANDS 3011 AB"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "FROZEN FISH - BETA TRADING CO.",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN FISH FILLETS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9876544",
+      "sealNumber": "123457",
+      "marksAndNumbers": "FROZEN FISH - BETA TRADING CO.",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN FISH FILLETS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 20' REEFER CONTAINERS",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20' REEFER",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 56.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "1234 IMPORT STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -13\u00b0C, VALUE: USD260,059, DO NOT STACK"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6089062",
+    "temperature": "-13\u00b0C",
+    "minTemperature": "-15\u00b0C",
+    "maxTemperature": "-11\u00b0C",
+    "ventilation": "70%",
+    "humidity": "74%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

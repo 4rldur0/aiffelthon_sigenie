@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410068411",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TEXTILE FACTORY CO.",
+      "address": "123 YUANMING ROAD, PUTUO DISTRICT, SHANGHAI, 200333, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 6666 7777",
+      "email": "INFO@SHANGHAITEXTILE.CN"
+    },
+    "consignee": {
+      "name": "GREEN EARTH IMPORTS LTD.",
+      "address": "111 GREEN STREET, ROTTERDAM, 3011 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GREENEARTHIMPORTS.NL",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS B.V.",
+      "address": "SPUIBOULEVARD 300, ROTTERDAM, 3011 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "OPERATIONS@GLOBALLOGISTICS.NL",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3334"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "630790",
+  "commodityDescription": "OTHER MADE UP TEXTILE ARTICLES; SETS; WORN CLOTHING AND GARMENTS OTHER THAN THOSE OF HEADING 6309",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GREENEARTH123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "CLOTHING",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GREENEARTH456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "CLOTHING",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241006123456"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GREEN EARTH IMPORTS LTD.",
+      "address": "111 GREEN STREET, ROTTERDAM, 3011 AA, NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "INFO@GREENEARTHIMPORTS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN EARTH IMPORTS LTD.",
+      "address": "111 GREEN STREET, ROTTERDAM, 3011 AA, NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "INFO@GREENEARTHIMPORTS.NL"
+    },
+    "onboardDate": "2024-10-12 20:00",
+    "additionalRemarks": "CONTAINER TYPE: HC"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

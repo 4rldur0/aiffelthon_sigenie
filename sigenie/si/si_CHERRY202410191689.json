@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202410191689",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "123 DIGITAL AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JEREMY.LEE@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, GERMANY",
+      "country": "GERMANY",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALFREIGHTSOLUTIONS.DE",
+      "telephone": "+49 15 987 6910",
+      "fax": "+49 15 987 6913"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.DE",
+      "telephone": "+49 10 289 4000",
+      "fax": "+49 10 289 4001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT8386452",
+      "sealNumber": "SEAL454252",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 14788.47,
+      "measurement": 35.29
+    },
+    {
+      "containerNumber": "CONT7597823",
+      "sealNumber": "SEAL528715",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 5449.74,
+      "measurement": 26.81
+    },
+    {
+      "containerNumber": "CONT3241241",
+      "sealNumber": "SEAL625600",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 6243.71,
+      "measurement": 25.12
+    },
+    {
+      "containerNumber": "CONT4628315",
+      "sealNumber": "SEAL983107",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 7517.62,
+      "measurement": 35.55
+    },
+    {
+      "containerNumber": "CONT4567349",
+      "sealNumber": "SEAL911951",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 19559.39,
+      "measurement": 33.73
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD TANK",
+    "totalPackages": 267,
+    "totalGrossWeight": 53558.93,
+    "totalMeasurement": 156.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "++86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "onboardDate": "2024-10-27 14:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1099, VALUE: USD209,974"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7418315",
+    "unClass": "2",
+    "unCode": "1099,",
+    "hsCode": "7845.59.99",
+    "flashPoint": "69\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

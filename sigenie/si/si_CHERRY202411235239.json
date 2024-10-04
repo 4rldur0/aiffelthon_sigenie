@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411235239",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL PRECISION ENGINEERING CO. LTD",
+      "address": "123 TECH PARK DRIVE, SINGAPORE 658765",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "INTERNATIONAL FREIGHT SOLUTIONS PTE LTD",
+      "address": "123 ROBINSON ROAD, SINGAPORE 048545",
+      "telephone": "+65-6543-2100",
+      "fax": "+65-6543-2101"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847990",
+  "commodityDescription": "INDUSTRIAL AUTOMATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU4876543",
+      "sealNumber": "239127",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INDUSTRIAL AUTOMATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 54.0,
+      "outOfGaugeDimensions": {
+        "length": 8796,
+        "width": 2037,
+        "height": 2287
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' OPEN TOP)",
+    "totalPackages": 500,
+    "packageType": "PALLETS",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 54.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-29 12:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 8796x2037x2287, VALUE: USD700,974, DO NOT STACK"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8796",
+    "width": "2037",
+    "height": "2287",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

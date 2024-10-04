@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410277181",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 GLOBAL STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@GLOBALIMPORTS.CN"
+    },
+    "consignee": {
+      "name": "ZENITH TRADING CO.",
+      "address": "1234 ZENITH AVE, ROTTERDAM, THE NETHERLANDS 3000 AA",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@ZENITHTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "ZENITH TRADING CO.",
+      "address": "1234 ZENITH AVE, ROTTERDAM, THE NETHERLANDS 3000 AA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "280411",
+  "commodityDescription": "SODIUM HYDROXIDE",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SODIUM HYDROXIDE - DANGEROUS GOODS",
+      "numberOfPackages": 20,
+      "packageType": "DRUMS",
+      "cargoDescription": "SODIUM HYDROXIDE - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 20000.0,
+      "measurement": 33.696,
+      "additionalInfo": "UN 2643"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR)",
+    "totalPackages": 20,
+    "packageType": "DRUMS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 33.696
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH TRADING CO.",
+      "address": "1234 ZENITH AVE, ROTTERDAM, THE NETHERLANDS 3000 AA",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2643, VALUE: USD660,036, 7 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1704996",
+    "unClass": "1",
+    "unCode": "2643,",
+    "hsCode": "6955.44.58",
+    "flashPoint": "97\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

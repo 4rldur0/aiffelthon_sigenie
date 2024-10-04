@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410295540",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #15-01 Anson Centre, SINGAPORE 079903",
+      "telephone": "+65 6222 9155",
+      "fax": "+65 6222 9200",
+      "email": "KWANG.LIM@ASIAPACIFICTRADING.COM.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "LEVEL 10, TOWER A, 101 JALAN TUN RAZAK, KUALA LUMPUR, 50400, MALAYSIA",
+      "taxId": "",
+      "president": "Mr. JOHN SMITH",
+      "telephone": "+60 3 2778 8888",
+      "fax": "+60 3 2778 8887",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SDN BHD",
+      "address": "SUITE 202, LEVEL 2, MENARA KEPONG, NO. 5 Jalan Kepong Baru, KUALA LUMPUR, 52100, MALAYSIA",
+      "taxId": "",
+      "president": "MS. SARAH LEE",
+      "telephone": "+60 3 6251 6666",
+      "fax": "+60 3 6251 6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "381590",
+  "commodityDescription": "DANGEROUS GOODS, SOLID, N.O.S.",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "DRUMS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "DANGEROUS GOODS, SOLID, N.O.S. - AS PER PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241029001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SDN BHD",
+      "address": "SUITE 202, LEVEL 2, MENARA KEPONG, NO. 5 Jalan Kepong Baru, KUALA LUMPUR, 52100, MALAYSIA",
+      "telephone": "+60 3 6251 6666",
+      "fax": "+60 3 6251 6667",
+      "email": "INFO@GLOBALLOGISTICS.COM.MY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "LEVEL 10, TOWER A, 101 JALAN TUN RAZAK, KUALA LUMPUR, 50400, MALAYSIA",
+      "telephone": "+60 3 2778 8888",
+      "fax": "+60 3 2778 8887",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 3281, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1532932",
+    "unClass": "1",
+    "unCode": "3281,",
+    "hsCode": "5820.74.11",
+    "flashPoint": "27\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

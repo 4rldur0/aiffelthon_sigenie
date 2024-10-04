@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410086859",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "onBehalfOf": "ALPHA IMPORT EXPORT INC.",
+      "address": "1234 SUNRISE AVENUE, HONG KONG, CHINA",
+      "telephone": "+852 2123 4567",
+      "fax": "+852 2123 4568",
+      "email": "INFO@SUNRISEGLOBAL.COM"
+    },
+    "consignee": {
+      "name": "BETA IMPORT EXPORT S.L.",
+      "address": "CALLE REAL 123, ALGECIRAS, SPAIN",
+      "companyNumber": "B12345678",
+      "telephone": "+34 956 789012",
+      "fax": "+34 956 789013",
+      "email": "INFO@BETAIMPORT.ES"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING LTD",
+      "address": "1234 SUNRISE AVENUE, HONG KONG, CHINA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "630790",
+  "commodityDescription": "BED LINEN",
+  "containers": [
+    {
+      "containerNumber": "CONT1318915",
+      "sealNumber": "SEAL784335",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 15497.19,
+      "measurement": 33.57
+    },
+    {
+      "containerNumber": "CONT2808555",
+      "sealNumber": "SEAL652548",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 16748.43,
+      "measurement": 26.35
+    },
+    {
+      "containerNumber": "CONT2730385",
+      "sealNumber": "SEAL498167",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 14380.79,
+      "measurement": 32.52
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 191,
+    "totalGrossWeight": 46626.41,
+    "totalMeasurement": 92.44
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL TRADING LTD",
+      "address": "1234 SUNRISE AVENUE, HONG KONG, CHINA",
+      "telephone": "+852 2123 4567",
+      "fax": "+852 2123 4568",
+      "email": "INFO@SUNRISEGLOBAL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING LTD",
+      "address": "1234 SUNRISE AVENUE, HONG KONG, CHINA",
+      "telephone": "+852 2123 4567",
+      "fax": "+852 2123 4568"
+    },
+    "onboardDate": "2024-10-18 09:00",
+    "additionalRemarks": "UNDER DECK TOP STOWAGE"
+  }
+}

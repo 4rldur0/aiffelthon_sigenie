@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411232282",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF MANUFACTURING CO. LTD",
+      "address": "NO. 1234, HONGQI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-5678-9012",
+      "fax": "+86-21-5678-9013"
+    },
+    "consignee": {
+      "name": "ABC GLOBAL TRADING PTE LTD",
+      "address": "12345 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124",
+      "email": "INFO@ABCGLOBAL.COM.SG",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "ABC GLOBAL TRADING PTE LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "340212",
+  "commodityDescription": "CLEANING SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT9613860",
+      "sealNumber": "SEAL803178",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 10001.4,
+      "measurement": 30.67
+    },
+    {
+      "containerNumber": "CONT6917251",
+      "sealNumber": "SEAL287388",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 15704.43,
+      "measurement": 37.85
+    },
+    {
+      "containerNumber": "CONT6190199",
+      "sealNumber": "SEAL899687",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 9697.76,
+      "measurement": 31.1
+    },
+    {
+      "containerNumber": "CONT6518419",
+      "sealNumber": "SEAL192078",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 14759.73,
+      "measurement": 34.27
+    },
+    {
+      "containerNumber": "CONT1004583",
+      "sealNumber": "SEAL723098",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 15011.23,
+      "measurement": 20.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD TANK",
+    "totalPackages": 267,
+    "totalGrossWeight": 65174.55,
+    "totalMeasurement": 154.05
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241205-1001",
+    "documentNumber": "20241205-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241205001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC GLOBAL TRADING PTE LTD",
+      "address": "12345 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC GLOBAL TRADING PTE LTD",
+      "address": "12345 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3160"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8416617",
+    "unClass": "2",
+    "unCode": "3160",
+    "hsCode": "6788.62.87",
+    "flashPoint": "70\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

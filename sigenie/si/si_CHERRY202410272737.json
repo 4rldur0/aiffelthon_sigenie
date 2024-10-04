@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410272737",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SILK IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "",
+      "address": "1234 GOLDEN SUN ROAD, SHANGHAI, CHINA 200122",
+      "telephone": "+86 21 5888 6159",
+      "fax": "+86 21 5888 6200",
+      "email": "LIU.WEIMIN@GOLDENSUNTRADING.CN"
+    },
+    "consignee": {
+      "name": "SHANGHAI SILK IMPORT & EXPORT CO., LTD.",
+      "address": "5678 SILK ROAD, SHANGHAI, CHINA 200123",
+      "companyNumber": "123456789",
+      "telephone": "+86 21 498 7000",
+      "fax": "+86 21 498 7001",
+      "email": "JANSSEN.EMMA@SHANGHAISILK.CN"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030510",
+  "commodityDescription": "SEAFOOD - FRESH SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT6581805",
+      "sealNumber": "SEAL802057",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 7456.0,
+      "measurement": 28.33
+    },
+    {
+      "containerNumber": "CONT2430179",
+      "sealNumber": "SEAL304109",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 13559.23,
+      "measurement": 27.93
+    },
+    {
+      "containerNumber": "CONT9903693",
+      "sealNumber": "SEAL284044",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 17853.41,
+      "measurement": 29.29
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 94,
+    "totalGrossWeight": 38868.64,
+    "totalMeasurement": 85.55
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN SUN TRADING CO.",
+      "address": "1234 GOLDEN SUN ROAD, SHANGHAI, CHINA 200122",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-12345679"
+    },
+    "onboardDate": "2024-11-06 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 13\u00b0C, 14 DAYS FREE TIME AT DESTINATION, KEEP DRY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1059247",
+    "temperature": "13\u00b0C",
+    "minTemperature": "11\u00b0C",
+    "maxTemperature": "15\u00b0C",
+    "ventilation": "56%",
+    "humidity": "95%"
+  }
+}

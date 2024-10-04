@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410294599",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE DAIRY INDUSTRIES PTE LTD",
+      "address": "123 JURONG STREET, JURONG INDUSTRIAL ESTATE, SINGAPORE 628876",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@SINGAPOREDAIRY.COM.SG"
+    },
+    "consignee": {
+      "name": "DUTCH DAIRY IMPORTERS BV",
+      "address": "WATERLOO PLAATS 123, 3011 Rotterdam, NETHERLANDS",
+      "taxId": "NL8556789012",
+      "president": "MR. JAN VAN DER MEER",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "INFO@DUTCHDAIRY.NL"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM)",
+      "address": "DIJKZIJDE 123, 3016 Rotterdam, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@DHL.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "040110",
+  "commodityDescription": "MILK POWDER",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MILK POWDER",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "BAGS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118512",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@DHL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118512",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@DHL.COM.SG"
+    },
+    "onboardDate": "2024-11-06 02:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 15\u00b0C, VALUE: USD730,705"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4635870",
+    "temperature": "15\u00b0C",
+    "minTemperature": "13\u00b0C",
+    "maxTemperature": "17\u00b0C",
+    "ventilation": "20%",
+    "humidity": "65%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

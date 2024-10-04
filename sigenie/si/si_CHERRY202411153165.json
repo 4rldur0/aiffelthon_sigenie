@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411153165",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "RED DRAGON IMPORT EXPORT",
+      "address": "123 DRAGON STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "BLUE SKY TRADING LTD.",
+      "address": "123 SKY STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679",
+      "email": "INFO@BLUESKYTRADING.NL",
+      "contactPerson": "PETER VAN DER SKY"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY TRADING LTD.",
+      "address": "123 SKY STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "300490",
+  "commodityDescription": "MEDICINES",
+  "containers": [
+    {
+      "containerNumber": "CGXU9876543",
+      "sealNumber": 123456,
+      "marksAndNumbers": "BS-123",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "MEDICINES - PAIN RELIEF",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "dangerousGoods": {
+        "unNumber": "2829",
+        "class": "6.1",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' DRY) CONTAINER",
+    "totalPackages": 100,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 20.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241115-1001",
+    "documentNumber": "20241115-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY TRADING LTD.",
+      "address": "123 SKY STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY TRADING LTD.",
+      "address": "123 SKY STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "onboardDate": "2024-11-23 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2829"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4965741",
+    "unClass": "6",
+    "unCode": "2829",
+    "hsCode": "2500.10.17",
+    "flashPoint": "100\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

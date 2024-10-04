@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202410291568",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "COLD CHAIN SOLUTIONS INC",
+      "address": "123 COLD STORAGE LANE, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "EUROASIA TRADING GROUP",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "EUROASIA TRADING GROUP",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030241",
+  "commodityDescription": "FROZEN SALMON FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT1325064",
+      "sealNumber": "SEAL356124",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 15595.24,
+      "measurement": 38.25
+    },
+    {
+      "containerNumber": "CONT8355444",
+      "sealNumber": "SEAL873757",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 18975.31,
+      "measurement": 26.17
+    },
+    {
+      "containerNumber": "CONT1030574",
+      "sealNumber": "SEAL405491",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 16279.6,
+      "measurement": 33.87
+    },
+    {
+      "containerNumber": "CONT8804506",
+      "sealNumber": "SEAL430324",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 19969.56,
+      "measurement": 38.02
+    },
+    {
+      "containerNumber": "CONT9573920",
+      "sealNumber": "SEAL246455",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 19135.37,
+      "measurement": 21.45
+    },
+    {
+      "containerNumber": "CONT8782138",
+      "sealNumber": "SEAL176755",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 8257.6,
+      "measurement": 21.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD REEFER",
+    "totalPackages": 279,
+    "totalGrossWeight": 98212.68,
+    "totalMeasurement": 179.56
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241029001"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROASIA TRADING GROUP",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA TRADING GROUP",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 12\u00b0C, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1878900",
+    "temperature": "12\u00b0C",
+    "minTemperature": "10\u00b0C",
+    "maxTemperature": "14\u00b0C",
+    "ventilation": "15%",
+    "humidity": "74%"
+  }
+}

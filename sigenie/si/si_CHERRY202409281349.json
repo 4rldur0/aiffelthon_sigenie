@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202409281349",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HARVE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE PRECISION TECHNOLOGIES PTE LTD",
+      "address": "123 TAI SOON STREET, SINGAPORE 638123",
+      "country": "SINGAPORE",
+      "additionalInfo": "(SINGAPORE SCIENCE PARK)",
+      "telephone": "+65 6777 8888",
+      "email": "SHIPPING@SPT.COM.SG"
+    },
+    "consignee": {
+      "name": "TO ORDER OF DEUTSCHE GLOBAL BANK AG",
+      "address": "",
+      "country": "",
+      "email": "",
+      "telephone": ""
+    },
+    "notifyParty": {
+      "name": "MAERSK LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #32-01 International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "email": "OPERATIONS@MAERSKLOGISTICS.COM.SG",
+      "telephone": "+65 6223 3000"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SPT-12345",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "TRAILER",
+      "grossWeight": 25000.0,
+      "measurement": 120.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 40' FLAT RACK)",
+    "totalPackages": 1,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 120.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "MAERSK LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #32-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6223 3000",
+      "fax": "+65 6223 3001",
+      "email": "OPERATIONS@MAERSKLOGISTICS.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MAERSK LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #32-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6223 3000",
+      "fax": "+65 6223 3001",
+      "email": "FINANCE@MAERSKLOGISTICS.COM.SG"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 8264x2842x2644, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "specialCargoInfo": {
+    "outOfGaugeDimensions": {
+      "length": 8264,
+      "width": 2842,
+      "height": 2644,
+      "unit": "MM"
+    },
+    "dangerousGoods": "NONE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8264",
+    "width": "2842",
+    "height": "2644",
+    "overWidth": "402",
+    "overHeight": "54"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

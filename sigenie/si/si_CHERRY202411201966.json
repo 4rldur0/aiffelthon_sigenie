@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202411201966",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ TRADING CO.",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 1111",
+      "email": "SALES@XYZTRADING.COM"
+    },
+    "consignee": {
+      "name": "ABC IMPORT EXPORT LTD.",
+      "address": "456 MARKET STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8567890123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444",
+      "email": "INFO@ABCIMPORTEXPORT.COM"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS BV",
+      "address": "789 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 5555 6666",
+      "fax": "+31 10 5555 7777",
+      "email": "OPERATIONS@ABCLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030211",
+  "commodityDescription": "FRESH SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT6509622",
+      "sealNumber": "SEAL549486",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 13637.19,
+      "measurement": 29.05
+    },
+    {
+      "containerNumber": "CONT2077666",
+      "sealNumber": "SEAL652312",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 10157.71,
+      "measurement": 26.39
+    },
+    {
+      "containerNumber": "CONT7832100",
+      "sealNumber": "SEAL609348",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 6225.59,
+      "measurement": 22.97
+    },
+    {
+      "containerNumber": "CONT2233422",
+      "sealNumber": "SEAL451269",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 7535.32,
+      "measurement": 22.74
+    },
+    {
+      "containerNumber": "CONT7609210",
+      "sealNumber": "SEAL355725",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 10246.32,
+      "measurement": 36.84
+    },
+    {
+      "containerNumber": "CONT8326674",
+      "sealNumber": "SEAL139870",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 8841.43,
+      "measurement": 23.85
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD REEFER",
+    "totalPackages": 388,
+    "totalGrossWeight": 56643.56,
+    "totalMeasurement": 161.84
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "ABC LOGISTICS BV",
+      "address": "789 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 5555 6666",
+      "fax": "+31 10 5555 7777",
+      "email": "OPERATIONS@ABCLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT EXPORT LTD.",
+      "address": "456 MARKET STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444",
+      "email": "INFO@ABCIMPORTEXPORT.COM"
+    },
+    "onboardDate": "2024-12-06 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 15\u00b0C, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3871548",
+    "temperature": "15\u00b0C",
+    "minTemperature": "13\u00b0C",
+    "maxTemperature": "17\u00b0C",
+    "ventilation": "84%",
+    "humidity": "70%"
+  }
+}

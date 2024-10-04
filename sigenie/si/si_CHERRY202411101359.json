@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202411101359",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI 200000, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "SALES@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "15 RUE DE LA PAIX, 76000 ROUEN, FRANCE",
+      "companyNumber": "FR12345678901",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "INFO@GLOBALLOGISTICS.FR"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "15 RUE DE LA PAIX, 76000 ROUEN, FRANCE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950699",
+  "commodityDescription": "GENERAL SPORTS EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA PACIFIC TRADING CO. SHANGHAI",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "GENERAL SPORTS EQUIPMENT - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR)",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 28.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "15 RUE DE LA PAIX, 76000 ROUEN, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "INFO@GLOBALLOGISTICS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI 200000, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

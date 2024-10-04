@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410109970",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE AIRLINES CARGO",
+      "address": "CHANGI AIRPORT, SINGAPORE",
+      "telephone": "+65 6541 5111",
+      "fax": "+65 6541 5112"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (FRANCE) SARL",
+      "address": "1 RUE DE LA LIBERTE, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+65 6541 5113",
+      "fax": "+65 6541 5114"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030229",
+  "commodityDescription": "FRESH FISH",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "SINGAIR204",
+      "numberOfPackages": 15000,
+      "packageType": "CARTONS",
+      "containerType": "45 HIGH CUBIC REEFER CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - FRESH FISH",
+      "grossWeight": 18000.0,
+      "measurement": 52.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654019",
+      "marksAndNumbers": "SINGAIR205",
+      "numberOfPackages": 15000,
+      "packageType": "CARTONS",
+      "containerType": "45 HIGH CUBIC REEFER CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - FRESH FISH",
+      "grossWeight": 18000.0,
+      "measurement": 52.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (45 RF X 2) REEFER CONTAINERS ONLY",
+    "totalPackages": 30000,
+    "packageType": "CARTONS",
+    "containerType": "45 REEFER CONTAINER",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 104.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (FRANCE) SARL",
+      "address": "1 RUE DE LA LIBERTE, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+65 6541 5113",
+      "fax": "+65 6541 5114"
+    },
+    "onboardDate": "2024-10-21 16:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -5\u00b0C, VALUE: USD109,595, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9936652",
+    "temperature": "-5\u00b0C",
+    "minTemperature": "-7\u00b0C",
+    "maxTemperature": "-3\u00b0C",
+    "ventilation": "13%",
+    "humidity": "78%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

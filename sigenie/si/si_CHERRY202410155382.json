@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410155382",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION TECHNOLOGIES LTD",
+      "address": "1234 SHANGHAI PORT ROAD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 1235",
+      "email": "SHIPMENT@ASIAPRECISION.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "1234 ROTTERDAM PORT BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALLOGISTICS.NL",
+      "personincharge": "ANNA VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "1234 ROTTERDAM PORT BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "902290",
+  "commodityDescription": "MACHINES FOR RECEPTION, CONVERSION AND TRANSMISSION OR REGENERATION OF VOICE, IMAGES OR OTHER DATA",
+  "containers": [
+    {
+      "containerNumber": "CRLU2798373",
+      "sealNumber": "900375",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINES FOR RECEPTION, CONVERSION AND TRANSMISSION OR REGENERATION OF VOICE, IMAGES OR OTHER DATA",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 40 DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "totalpackageType": "CARTONS",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "1234 ROTTERDAM PORT BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "1234 ROTTERDAM PORT BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-27 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 8\u00b0C, VALUE: USD617,848, 7 DAYS FREE TIME AT DESTINATION",
+    "reeferSettings": {
+      "setTemperature": "8\u00b0C",
+      "humidityControl": "FALSE"
+    }
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3643629",
+    "temperature": "8\u00b0C",
+    "minTemperature": "6\u00b0C",
+    "maxTemperature": "10\u00b0C",
+    "ventilation": "6%",
+    "humidity": "67%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

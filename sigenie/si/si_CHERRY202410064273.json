@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410064273",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH PRECISION ENGINEERING CO.",
+      "address": "1234 JIANGNING ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8612 3456",
+      "fax": "+86 574 8612 3457",
+      "email": "INFO@ZENITHPRECISION.CN"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "EUROPORT ROTTERDAM, ROTTERDAM, SOUTH HOLLAND 3013, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 201 2345",
+      "fax": "+31 10 201 2346",
+      "email": "ROTTERDAM.OPS@DHL.COM",
+      "personincharge": "ANNA VAN DER WIEL"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "EUROPORT ROTTERDAM, ROTTERDAM, SOUTH HOLLAND 3013, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 201 2345",
+      "fax": "+31 10 201 2346",
+      "email": "ROTTERDAM.OPS@DHL.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "846630",
+  "commodityDescription": "LARGE PRECISION MACHINE TOOLING",
+  "containers": [
+    {
+      "containerNumber": "CONT5289040",
+      "sealNumber": "SEAL536204",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 5208.93,
+      "measurement": 36.52
+    },
+    {
+      "containerNumber": "CONT1327444",
+      "sealNumber": "SEAL414683",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 7642.51,
+      "measurement": 31.49
+    },
+    {
+      "containerNumber": "CONT5001313",
+      "sealNumber": "SEAL409218",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 12411.18,
+      "measurement": 22.25
+    },
+    {
+      "containerNumber": "CONT9385737",
+      "sealNumber": "SEAL230555",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 16045.53,
+      "measurement": 25.34
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD FLAT RACK",
+    "totalPackages": 197,
+    "totalGrossWeight": 41308.15,
+    "totalMeasurement": 115.6
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "EUROPORT ROTTERDAM, ROTTERDAM, SOUTH HOLLAND 3013, NETHERLANDS",
+      "telephone": "+31 10 201 2345",
+      "fax": "+31 10 201 2346",
+      "email": "ROTTERDAM.OPS@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "EUROPORT ROTTERDAM, ROTTERDAM, SOUTH HOLLAND 3013, NETHERLANDS",
+      "telephone": "+31 10 201 2345",
+      "fax": "+31 10 201 2346",
+      "email": "ROTTERDAM.OPS@DHL.COM"
+    },
+    "onboardDate": "2024-10-20 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 10970x2552x2022, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10970",
+    "width": "2552",
+    "height": "2022",
+    "overWidth": "112",
+    "overHeight": "0"
+  }
+}

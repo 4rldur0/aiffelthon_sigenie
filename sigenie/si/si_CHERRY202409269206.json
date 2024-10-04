@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202409269206",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA FOODS LTD",
+      "address": "123 HONGQI ROAD, YONGKANG DISTRICT, NINGBO, ZHEJIANG PROVINCE, CHINA, 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@DELTAFOODS.CN"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL TRADING",
+      "address": "123 RUE MOHAMMED V, CASABLANCA, MOROCCO, 20000",
+      "taxId": "12345678901234",
+      "president": "MR. ABDELMALEK MOHAMED",
+      "telephone": "+212 522 4567 8901",
+      "fax": "+212 522 4567 8902",
+      "email": "INFO@OMEGAGLOBAL.MA"
+    },
+    "notifyParty": {
+      "name": "OMEGA GLOBAL TRADING",
+      "address": "123 RUE MOHAMMED V, CASABLANCA, MOROCCO, 20000",
+      "telephone": "+212 522 4567 8901",
+      "fax": "+212 522 4567 8902",
+      "email": "INFO@OMEGAGLOBAL.MA"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030241",
+  "commodityDescription": "FROZEN HERRING",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN HERRING, SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, CASABLANCA, MOROCCO SAMPLE COMMODITY 17",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 REEFER X 1) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20 REEFER",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL TRADING",
+      "address": "123 RUE MOHAMMED V, CASABLANCA, MOROCCO, 20000",
+      "telephone": "+212 522 4567 8901",
+      "fax": "+212 522 4567 8902",
+      "email": "INFO@OMEGAGLOBAL.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL TRADING",
+      "address": "123 RUE MOHAMMED V, CASABLANCA, MOROCCO, 20000",
+      "telephone": "+212 522 4567 8901",
+      "fax": "+212 522 4567 8902",
+      "email": "INFO@OMEGAGLOBAL.MA"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 5\u00b0C, VALUE: USD616,066"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6870669",
+    "temperature": "5\u00b0C",
+    "minTemperature": "3\u00b0C",
+    "maxTemperature": "7\u00b0C",
+    "ventilation": "25%",
+    "humidity": "83%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

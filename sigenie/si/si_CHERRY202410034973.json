@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410034973",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA ELECTRONICS LTD.",
+      "address": "123 TECH STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 1235",
+      "email": "SHIPPING@BETAELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "123 WAREHOUSE LANE, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8567891234",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 5555 5678",
+      "fax": "+31 10 5555 5679",
+      "email": "SHIPPING@ALPHALOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "BETA ELECTRONICS LTD.",
+      "address": "123 TECH STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 1235",
+      "email": "SHIPPING@BETAELECTRONICS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "340213",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT1858120",
+      "sealNumber": "SEAL918484",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 15524.14,
+      "measurement": 34.94
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD GENERAL",
+    "totalPackages": 13,
+    "totalGrossWeight": 15524.14,
+    "totalMeasurement": 34.94
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "123 WAREHOUSE LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 5555 5678",
+      "fax": "+31 10 5555 5679",
+      "email": "SHIPPING@ALPHALOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "123 WAREHOUSE LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 5555 5678",
+      "fax": "+31 10 5555 5679",
+      "email": "SHIPPING@ALPHALOGISTICS.COM"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1659, VALUE: USD676,090, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9693650",
+    "unClass": "7",
+    "unCode": "1659,",
+    "hsCode": "6379.92.52",
+    "flashPoint": "-3\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

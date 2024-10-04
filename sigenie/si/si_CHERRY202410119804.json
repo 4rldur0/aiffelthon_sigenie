@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410119804",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO.",
+      "onBehalfOf": "",
+      "address": "555 GUANGZHOU ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LI.WEN@NINGBOEVERGREEN.CN"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN IMPORT EXPORT LTD.",
+      "address": "1234 EUROPA STREET, 3012 AB ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GOLDENSUN.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940390",
+  "commodityDescription": "WOODEN FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT7526139",
+      "sealNumber": "SEAL960740",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 12003.73,
+      "measurement": 36.21
+    },
+    {
+      "containerNumber": "CONT1711898",
+      "sealNumber": "SEAL141987",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 9885.37,
+      "measurement": 25.56
+    },
+    {
+      "containerNumber": "CONT2320047",
+      "sealNumber": "SEAL804949",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 13974.22,
+      "measurement": 26.11
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 154,
+    "totalGrossWeight": 35863.32,
+    "totalMeasurement": 87.88
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GOLDEN SUN IMPORT EXPORT LTD.",
+      "address": "1234 EUROPA STREET, 3012 AB ROTTERDAM, THE NETHERLANDS",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GOLDENSUN.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "NINGBO EVERGREEN TRADING CO. LTD.",
+      "address": "555 GUANGZHOU ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LI.WEN@NINGBOEVERGREEN.CN"
+    },
+    "onboardDate": "2024-10-22 16:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

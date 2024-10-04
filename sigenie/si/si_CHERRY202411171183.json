@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411171183",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA INDUSTRIES LTD",
+      "address": "1234 MAIN STREET, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234567",
+      "fax": "+86 574 12345678",
+      "email": "INFO@OMEGAINDUSTRIESLTD.COM"
+    },
+    "consignee": {
+      "name": "DELTA TRADING LLC",
+      "address": "5678 ABC AVENUE, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234567",
+      "fax": "+49 40 12345678",
+      "email": "INFO@DELTATRADINGLLC.COM"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING LLC",
+      "address": "5678 ABC AVENUE, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234567",
+      "fax": "+49 40 12345678",
+      "email": "INFO@DELTATRADINGLLC.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940171",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "OMEGA12345",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' HC)",
+    "totalPackages": 100,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING LLC",
+      "address": "5678 ABC AVENUE, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234567",
+      "fax": "+49 40 12345678",
+      "email": "INFO@DELTATRADINGLLC.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING LLC",
+      "address": "5678 ABC AVENUE, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234567",
+      "fax": "+49 40 12345678",
+      "email": "INFO@DELTATRADINGLLC.COM"
+    },
+    "onboardDate": "2024-11-23 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

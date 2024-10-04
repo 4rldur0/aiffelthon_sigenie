@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202411167473",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS INC",
+      "address": "123 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 1234",
+      "fax": "+86 574 8888 1235",
+      "email": "INFO@ASIA-PACIFICCHEMICALS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "10 RUE DE LA PAIX, PARIS, FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEAN.DUPONT@GLOBALTRADINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "EUROFREIGHT LOGISTICS",
+      "address": "25 RUE DE LA LIBERTE, LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "INFO@EUROFREIGHT.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382490",
+  "commodityDescription": "ACETIC ACID SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT8252048",
+      "sealNumber": "SEAL857420",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 19483.72,
+      "measurement": 29.73
+    },
+    {
+      "containerNumber": "CONT1544043",
+      "sealNumber": "SEAL776484",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 14859.83,
+      "measurement": 25.6
+    },
+    {
+      "containerNumber": "CONT4583002",
+      "sealNumber": "SEAL269501",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 8621.03,
+      "measurement": 23.03
+    },
+    {
+      "containerNumber": "CONT2391779",
+      "sealNumber": "SEAL132941",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 12636.38,
+      "measurement": 38.24
+    },
+    {
+      "containerNumber": "CONT8701171",
+      "sealNumber": "SEAL281142",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 11287.48,
+      "measurement": 29.3
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE TANK",
+    "totalPackages": 219,
+    "totalGrossWeight": 66888.44,
+    "totalMeasurement": 145.9
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "10 RUE DE LA LIBERTE, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "10 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEAN.DUPONT@GLOBALTRADINGSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-21 12:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2939, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8597210",
+    "unClass": "9",
+    "unCode": "2939,",
+    "hsCode": "8348.79.69",
+    "flashPoint": "19\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

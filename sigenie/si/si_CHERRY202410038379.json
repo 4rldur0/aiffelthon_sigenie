@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410038379",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "NO. 555, HUANGLONG ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "EUROCHEM IMPORT EXPORT GMBH",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@EUROCHEM.DE",
+      "contactPerson": "PETER SCHULZ"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM IMPORT EXPORT GMBH"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "ORGANIC CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT9554491",
+      "sealNumber": "SEAL864011",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 9657.6,
+      "measurement": 29.92
+    },
+    {
+      "containerNumber": "CONT5827158",
+      "sealNumber": "SEAL321534",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 11156.92,
+      "measurement": 37.77
+    },
+    {
+      "containerNumber": "CONT4985210",
+      "sealNumber": "SEAL428334",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 15512.92,
+      "measurement": 31.21
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 131,
+    "totalGrossWeight": 36327.44,
+    "totalMeasurement": 98.9
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241024-1001",
+    "documentNumber": "20241024-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      {
+        "certificateName": "CERTIFICATE OF ORIGIN",
+        "certificateNumber": "20241024COO1"
+      },
+      {
+        "certificateName": "SAFETY DATA SHEET",
+        "certificateNumber": "20241024SDS1"
+      }
+    ],
+    "originalBLDistribution": {
+      "name": "EUROCHEM IMPORT EXPORT GMBH",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROCHEM IMPORT EXPORT GMBH",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2706",
+    "dangerousGoods": {
+      "unNumber": "1993",
+      "properShippingName": "FLAMMABLE LIQUID, N.O.S.",
+      "class": "3",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9042396",
+    "unClass": "5",
+    "unCode": "2706",
+    "hsCode": "3363.85.82",
+    "flashPoint": "30\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

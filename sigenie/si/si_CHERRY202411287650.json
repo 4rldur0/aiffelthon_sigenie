@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202411287650",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, NEW YORK, USA",
+      "telephone": "+1-212-555-5678",
+      "fax": "+1-212-555-5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL MERCHANDISE",
+  "containers": [
+    {
+      "containerNumber": "CONT9790245",
+      "sealNumber": "SEAL225853",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 19320.53,
+      "measurement": 35.69
+    },
+    {
+      "containerNumber": "CONT3230173",
+      "sealNumber": "SEAL460120",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 5030.89,
+      "measurement": 20.88
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 67,
+    "totalGrossWeight": 24351.42,
+    "totalMeasurement": 56.57
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241205-001",
+    "documentNumber": "20241205-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, NEW YORK, USA",
+      "telephone": "+1-212-555-5678",
+      "fax": "+1-212-555-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, NEW YORK, USA",
+      "telephone": "+1-212-555-5678",
+      "fax": "+1-212-555-5679"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

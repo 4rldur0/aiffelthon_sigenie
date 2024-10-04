@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410314754",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TECH CO. LTD.",
+      "address": "1234 HUA QIANG ROAD, NINGBO 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "ATTN: MR. LI WEI",
+      "telephone": "+86 574 8678 9012",
+      "fax": "+86 574 8678 9013",
+      "email": "WEI.LI@SUNRISETECH.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 MAIN STREET, ROTTERDAM 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6788",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 MAIN STREET, ROTTERDAM 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6788",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN ATLANTIC SALMON",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE231031",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN ATLANTIC SALMON",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40FT REEFER)",
+    "totalPackages": 100,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 MAIN STREET, ROTTERDAM 3000 AA, NETHERLANDS",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6788",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 MAIN STREET, ROTTERDAM 3000 AA, NETHERLANDS",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6788",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-11-12 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -18\u00b0C, KEEP DRY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1504680",
+    "temperature": "-18\u00b0C",
+    "minTemperature": "-20\u00b0C",
+    "maxTemperature": "-16\u00b0C",
+    "ventilation": "47%",
+    "humidity": "90%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

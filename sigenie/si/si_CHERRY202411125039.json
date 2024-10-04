@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202411125039",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH IMPORTS LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "NO. 456, FUXING ROAD, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-12345678",
+      "fax": "+49-30-12345679"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080510",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT4725983",
+      "sealNumber": "SEAL525648",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 14815.35,
+      "measurement": 26.54
+    },
+    {
+      "containerNumber": "CONT9731080",
+      "sealNumber": "SEAL265428",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 16916.02,
+      "measurement": 25.69
+    },
+    {
+      "containerNumber": "CONT2485452",
+      "sealNumber": "SEAL558895",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 17692.64,
+      "measurement": 29.49
+    },
+    {
+      "containerNumber": "CONT1819228",
+      "sealNumber": "SEAL350864",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 13550.43,
+      "measurement": 36.99
+    },
+    {
+      "containerNumber": "CONT1697784",
+      "sealNumber": "SEAL748265",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 12659.84,
+      "measurement": 36.54
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD REEFER",
+    "totalPackages": 328,
+    "totalGrossWeight": 75634.28,
+    "totalMeasurement": 155.25
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 20\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9535785",
+    "temperature": "20\u00b0C",
+    "minTemperature": "18\u00b0C",
+    "maxTemperature": "22\u00b0C",
+    "ventilation": "77%",
+    "humidity": "72%"
+  }
+}

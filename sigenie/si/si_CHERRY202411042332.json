@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411042332",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TECH LTD",
+      "address": "123 DIGITAL AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JEREMY.LEE@ASIAPACIFICTECH.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS PTE LTD.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, SINGAPORE",
+      "country": "SINGAPORE",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALFREIGHTSOLUTIONS.SG",
+      "telephone": "+65 6598 7654",
+      "fax": "+65 6598 7653"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "CHEMICAL PRODUCTS N.E.C. IN CHAPTER 28",
+  "containers": [
+    {
+      "containerNumber": "CONT3208642",
+      "sealNumber": "SEAL141491",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 18695.93,
+      "measurement": 28.69
+    },
+    {
+      "containerNumber": "CONT8075491",
+      "sealNumber": "SEAL982508",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 10319.58,
+      "measurement": 35.67
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 149,
+    "totalGrossWeight": 29015.51,
+    "totalMeasurement": 64.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS PTE LTD.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, SINGAPORE",
+      "telephone": "+65 6598 7654",
+      "fax": "+65 6598 7653",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALFREIGHTSOLUTIONS.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS PTE LTD.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, SINGAPORE",
+      "telephone": "+65 6598 7654",
+      "fax": "+65 6598 7653",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALFREIGHTSOLUTIONS.SG"
+    },
+    "onboardDate": "2024-11-11 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4999066",
+    "unClass": "2",
+    "unCode": "2000",
+    "hsCode": "7033.86.97",
+    "flashPoint": "47\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

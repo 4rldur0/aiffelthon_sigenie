@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202411202475",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 87654321",
+      "fax": "+86 574 87654322",
+      "email": "INFO@ASIAPACIFIC.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "123 DWORZEC STREET, GDANSK, POLAND",
+      "taxId": "PL1234567890",
+      "president": "MR. JAN KOWALSKI",
+      "telephone": "+48 58 76543210",
+      "fax": "+48 58 76543211",
+      "email": "INFO@GLOBALSOLUTIONS.PL"
+    },
+    "notifyParty": {
+      "name": "POLISH LOGISTICS LTD",
+      "address": "123 GDYNIA STREET, GDANSK, POLAND",
+      "telephone": "+48 58 76543212",
+      "fax": "+48 58 76543213",
+      "email": "INFO@POLISHLOGISTICS.PL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT6563765",
+      "sealNumber": "SEAL865618",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 17022.38,
+      "measurement": 26.67
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD OPEN TOP",
+    "totalPackages": 69,
+    "totalGrossWeight": 17022.38,
+    "totalMeasurement": 26.67
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "123 DWORZEC STREET, GDANSK, POLAND",
+      "telephone": "+48 58 76543210",
+      "fax": "+48 58 76543211",
+      "email": "INFO@GLOBALSOLUTIONS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "123 DWORZEC STREET, GDANSK, POLAND",
+      "telephone": "+48 58 76543210",
+      "fax": "+48 58 76543211",
+      "email": "INFO@GLOBALSOLUTIONS.PL"
+    },
+    "onboardDate": "2024-11-26 19:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 2777x2196x2123, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2777",
+    "width": "2196",
+    "height": "2123",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

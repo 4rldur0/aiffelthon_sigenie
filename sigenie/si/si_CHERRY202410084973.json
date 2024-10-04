@@ -1,0 +1,161 @@
+{
+  "bookingReference": "CHERRY202410084973",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 1234 5678",
+      "email": "INFO@DELTAIMPOREXPORT.CN"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "country": "NETHERLANDS",
+      "email": "INFO@SUNRISETRADING.NL",
+      "telephone": "+31 10 9876 5432",
+      "fax": "+31 10 9876 5433"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "070110",
+  "commodityDescription": "FRESH POTATOES",
+  "containers": [
+    {
+      "containerNumber": "CONT9709842",
+      "sealNumber": "SEAL807733",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 12843.73,
+      "measurement": 31.22
+    },
+    {
+      "containerNumber": "CONT1630851",
+      "sealNumber": "SEAL969541",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 9586.05,
+      "measurement": 38.8
+    },
+    {
+      "containerNumber": "CONT1407340",
+      "sealNumber": "SEAL192266",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 10493.59,
+      "measurement": 32.99
+    },
+    {
+      "containerNumber": "CONT7090978",
+      "sealNumber": "SEAL654784",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 7400.45,
+      "measurement": 31.76
+    },
+    {
+      "containerNumber": "CONT4789162",
+      "sealNumber": "SEAL259267",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 13389.26,
+      "measurement": 23.66
+    },
+    {
+      "containerNumber": "CONT3839096",
+      "sealNumber": "SEAL120404",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 9775.78,
+      "measurement": 31.71
+    },
+    {
+      "containerNumber": "CONT2724068",
+      "sealNumber": "SEAL165387",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 7573.98,
+      "measurement": 34.89
+    },
+    {
+      "containerNumber": "CONT4880571",
+      "sealNumber": "SEAL665520",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 6969.92,
+      "measurement": 27.43
+    },
+    {
+      "containerNumber": "CONT9459023",
+      "sealNumber": "SEAL114833",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 11321.67,
+      "measurement": 31.25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "9 x 40 STANDARD REEFER",
+    "totalPackages": 529,
+    "totalGrossWeight": 89354.43,
+    "totalMeasurement": 283.71
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410234567"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "telephone": "+31 10 9876 5432",
+      "fax": "+31 10 9876 5433",
+      "email": "INFO@SUNRISETRADING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "telephone": "+31 10 9876 5432",
+      "fax": "+31 10 9876 5433",
+      "email": "INFO@SUNRISETRADING.NL"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 7\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5911149",
+    "temperature": "7\u00b0C",
+    "minTemperature": "5\u00b0C",
+    "maxTemperature": "9\u00b0C",
+    "ventilation": "42%",
+    "humidity": "80%"
+  }
+}

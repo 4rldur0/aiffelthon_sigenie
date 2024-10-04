@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411093332",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING LTD.",
+      "address": "1234 NINGBO INDUSTRIAL PARK, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 2888 9000",
+      "fax": "+86 574 2888 9001",
+      "email": "INFO@PRECISIONENGINEERINGLTD.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, SOUTH HOLLAND 3011 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8889",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONSINC.NL",
+      "personincharge": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS BV.",
+      "address": "1234 ROTTERDAM PORT BOULEVARD, ROTTERDAM, SOUTH HOLLAND 3012 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 666 7777",
+      "fax": "+31 10 666 7778",
+      "email": "INFO@GLOBALLOGISTICSBV.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "330190",
+  "commodityDescription": "DANGEROUS GOODS, UN 1479",
+  "containers": [
+    {
+      "containerNumber": "CONT4230866",
+      "sealNumber": "SEAL270275",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 19445.21,
+      "measurement": 23.35
+    },
+    {
+      "containerNumber": "CONT6142123",
+      "sealNumber": "SEAL436470",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 12996.37,
+      "measurement": 26.99
+    },
+    {
+      "containerNumber": "CONT7245247",
+      "sealNumber": "SEAL893554",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 16424.1,
+      "measurement": 29.27
+    },
+    {
+      "containerNumber": "CONT6890803",
+      "sealNumber": "SEAL692924",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 7248.24,
+      "measurement": 21.98
+    },
+    {
+      "containerNumber": "CONT8142026",
+      "sealNumber": "SEAL408216",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 9879.7,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD TANK",
+    "totalPackages": 324,
+    "totalGrossWeight": 65993.62,
+    "totalMeasurement": 129.59
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-12-06 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1479, VALUE: USD869,288, ON DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8362436",
+    "unClass": "3",
+    "unCode": "1479,",
+    "hsCode": "1150.53.84",
+    "flashPoint": "33\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

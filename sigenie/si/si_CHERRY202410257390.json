@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202410257390",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "MEGA TECH CORPORATION LTD",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@MEGATECHCORP.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS INC",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. HANS MEYER",
+      "telephone": "+49 40 12345 6789",
+      "fax": "+49 40 12345 6788",
+      "email": "HANS.MEYER@GLOBALTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "125 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 98765 4321",
+      "fax": "+49 40 98765 4320",
+      "email": "INFO@GLOBALLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "381210",
+  "commodityDescription": "CARBON BLACK, INCLUDING CARBON BLACKS AND CARBON BLACK PASTES, MADE BY THE PROCESS OF FURIOUS BURNING OF FUEL OIL OR NATURAL GAS AND CARBON BLACKS PRODUCED FROM OTHER SOURCES, WHETHER OR NOT MIXED WITH OTHER SUBSTANCES",
+  "containers": [
+    {
+      "containerNumber": "CONT5804224",
+      "sealNumber": "SEAL421940",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 18781.12,
+      "measurement": 39.8
+    },
+    {
+      "containerNumber": "CONT5825295",
+      "sealNumber": "SEAL294431",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 19705.23,
+      "measurement": 25.46
+    },
+    {
+      "containerNumber": "CONT3448140",
+      "sealNumber": "SEAL943257",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 17612.02,
+      "measurement": 31.54
+    },
+    {
+      "containerNumber": "CONT5077527",
+      "sealNumber": "SEAL588397",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 11942.71,
+      "measurement": 23.46
+    },
+    {
+      "containerNumber": "CONT7142016",
+      "sealNumber": "SEAL259023",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 8013.88,
+      "measurement": 30.02
+    },
+    {
+      "containerNumber": "CONT8259306",
+      "sealNumber": "SEAL322298",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 5366.81,
+      "measurement": 23.95
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD GENERAL",
+    "totalPackages": 183,
+    "totalGrossWeight": 81421.77,
+    "totalMeasurement": 174.23
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241025001"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "125 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 98765 4321",
+      "fax": "+49 40 98765 4320",
+      "email": "INFO@GLOBALLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 12345 6789",
+      "fax": "+49 40 12345 6788",
+      "email": "HANS.MEYER@GLOBALTRADING.DE"
+    },
+    "onboardDate": "2024-10-31 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2057, 7 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7916729",
+    "unClass": "5",
+    "unCode": "2057,",
+    "hsCode": "6463.16.47",
+    "flashPoint": "-19\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

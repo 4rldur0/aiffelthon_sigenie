@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410165981",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "123 FACTORY STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 6666",
+      "email": "SHIPPING@BETAMFG.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORTS LTD",
+      "address": "456 COMMERCIAL ROAD, ALGECIRAS, SPAIN 11001",
+      "taxId": "ES123456789",
+      "president": "Mr. JUAN RODRIGUEZ",
+      "telephone": "+34 956 11 22 33",
+      "fax": "+34 956 11 22 44",
+      "email": "JUAN.RODRIGUEZ@ALPHAGLOBAL.ES"
+    },
+    "notifyParty": {
+      "name": "FIRST LOGISTICS S.L.",
+      "address": "789 PORT STREET, ALGECIRAS, SPAIN 11002",
+      "taxId": "ES987654321",
+      "president": "Ms. MARIA FERNANDEZ",
+      "telephone": "+34 956 55 66 77",
+      "fax": "+34 956 55 66 88"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "DRUMS",
+      "containerType": "20 DRY",
+      "cargoDescription": "DANGEROUS CHEMICALS - UN2732 - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY)",
+    "totalPackages": 50,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-27 10:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2732, VALUE: USD702,095, KEEP DRY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7697483",
+    "unClass": "2",
+    "unCode": "2732,",
+    "hsCode": "9425.19.41",
+    "flashPoint": "31\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

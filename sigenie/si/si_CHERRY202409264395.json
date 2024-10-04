@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202409264395",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES INC.",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8787 6543",
+      "fax": "+86 574 8787 6544",
+      "email": "LIU.WEI@DELTAINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "1234 TANGIER STREET, TANGIER, MOROCCO",
+      "companyNumber": "123456789",
+      "telephone": "+212 523 456789",
+      "fax": "+212 523 456788",
+      "email": "ZAKI.MOHAMMAD@OMEGASHIPPING.MA"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "1234 TANGIER STREET, TANGIER, MOROCCO"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "38249996",
+  "commodityDescription": "NITRILES, DANGEROUS",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA INDUSTRIES NINGBO",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "NITRILES, DANGEROUS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU5517315",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DELTA INDUSTRIES NINGBO",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "NITRILES, DANGEROUS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 FR)",
+    "totalPackages": 20,
+    "packageType": "DRUMS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 56.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "1234 TANGIER STREET, TANGIER, MOROCCO",
+      "telephone": "+212 523 456789",
+      "fax": "+212 523 456788",
+      "email": "ZAKI.MOHAMMAD@OMEGASHIPPING.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA INDUSTRIES INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8787 6543",
+      "fax": "+86 574 8787 6544"
+    },
+    "onboardDate": "2024-10-17 09:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2031, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9005326",
+    "unClass": "9",
+    "unCode": "2031,",
+    "hsCode": "8566.30.20",
+    "flashPoint": "-6\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

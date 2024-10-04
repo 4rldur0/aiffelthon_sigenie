@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411242731",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIES GMBH",
+      "onBehalfOf": "",
+      "address": "FRANKFURTER STRASSE 123, FRANKFURT, GERMANY",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679",
+      "email": "INFO@SUNRISEINDUSTRIES.DE"
+    },
+    "consignee": {
+      "name": "EUROASIA TRADING CO. LTD",
+      "address": "12 RUE DE LA PAIX, PARIS, FRANCE",
+      "companyNumber": "FR1234567890",
+      "telephone": "+33 1 45678901",
+      "fax": "+33 1 45678902",
+      "email": "INFO@EUROASIATRADING.FR"
+    },
+    "notifyParty": {
+      "name": "EUROASIA TRADING CO. LTD",
+      "address": "12 RUE DE LA PAIX, PARIS, FRANCE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "PLASTIC TOYS",
+  "containers": [
+    {
+      "containerNumber": "CMAU5678912",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE TOYS - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC TOYS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 35.5,
+      "additionalInfo": "FRAGILE"
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE TOYS - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC TOYS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 35.5,
+      "additionalInfo": "FRAGILE"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 20' DRY CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 71.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROASIA TRADING CO. LTD",
+      "address": "12 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 45678901",
+      "fax": "+33 1 45678902",
+      "email": "INFO@EUROASIATRADING.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE INDUSTRIES GMBH",
+      "address": "FRANKFURTER STRASSE 123, FRANKFURT, GERMANY",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679",
+      "email": "INFO@SUNRISEINDUSTRIES.DE"
+    },
+    "onboardDate": "2024-12-17 16:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, FRAGILE"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

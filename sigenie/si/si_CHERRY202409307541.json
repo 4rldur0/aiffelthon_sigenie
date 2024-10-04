@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202409307541",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA CHEMICAL ENTERPRISE",
+      "address": "NO. 123, CHANGJIANG ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8876 5432",
+      "fax": "+86 574 8876 5433",
+      "email": "INFO@ASIACHEMICAL.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "UL. ZAWISZY 12, 80-329 GDANSK, POLAND",
+      "taxId": "PL9999999999",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+48 58 333 2222",
+      "fax": "+48 58 333 2223",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "POLISH SHIPPING SERVICES LTD.",
+      "address": "UL. MORSKA 10, 80-805 GDANSK, POLAND",
+      "telephone": "+48 58 666 7777",
+      "fax": "+48 58 666 7778",
+      "email": "INFO@POLISHSHIPPING.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381210",
+  "commodityDescription": "CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "STEEL DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CHEMICALS, UN 3221",
+      "grossWeight": 18000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "STEEL DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 20.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC23456789012345"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-10-16 22:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 3221, VALUE: USD762,772, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1012544",
+    "unClass": "7",
+    "unCode": "3221,",
+    "hsCode": "4988.97.12",
+    "flashPoint": "99\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

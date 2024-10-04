@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410202389",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "FRANKFURT"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "address": "123 TECH PARK, SEOUL, SOUTH KOREA",
+      "telephone": "+82 2 123 4567",
+      "fax": "+82 2 123 4568"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 50, FRANKFURT, GERMANY",
+      "telephone": "+49 69 123 4567",
+      "fax": "+49 69 123 4568"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 50, FRANKFURT, GERMANY",
+      "telephone": "+49 69 123 4567",
+      "fax": "+49 69 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "854239",
+  "commodityDescription": "INTEGRATED CIRCUITS",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "SAMSUNG204",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - INTEGRATED CIRCUITS",
+      "grossWeight": 15000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654019",
+      "marksAndNumbers": "SAMSUNG205",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - INTEGRATED CIRCUITS",
+      "grossWeight": 15000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY X 2) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 66.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 50, FRANKFURT, GERMANY",
+      "telephone": "+49 69 123 4567",
+      "fax": "+49 69 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 50, FRANKFURT, GERMANY",
+      "telephone": "+49 69 123 4567",
+      "fax": "+49 69 123 4568"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "bookingReference": "CHERRY202411258417",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IRON & STEEL CO. LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 98765432",
+      "email": "INFO@SHANGHAIIRONSTEEL.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. JOHN DOE",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "JOHN.DOE@GLOBALTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "JOHN.DOE@GLOBALTRADING.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "720890",
+  "commodityDescription": "FLAT-ROLLED PRODUCTS OF IRON OR NON-ALLOY STEEL, OF A WIDTH OF 600 MM OR MORE",
+  "containers": [
+    {
+      "containerNumber": "CONT6356790",
+      "sealNumber": "SEAL104336",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 11298.43,
+      "measurement": 29.69
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE TANK",
+    "totalPackages": 20,
+    "totalGrossWeight": 11298.43,
+    "totalMeasurement": 29.69
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "1234 GLOBAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 98765432",
+      "fax": "+31 10 12345678",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "JOHN.DOE@GLOBALTRADING.COM"
+    },
+    "onboardDate": "2024-12-07 21:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

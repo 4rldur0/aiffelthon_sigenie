@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411235121",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 CHEMICAL RD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "INFO@APC.COM"
+    },
+    "consignee": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "UL. ZAWISZY 10, 80-328 GDANSK, POLAND",
+      "companyNumber": "123456789",
+      "telephone": "+48 58 1234567",
+      "fax": "+48 58 12345678",
+      "email": "INFO@ZENITHGLOBAL.PL"
+    },
+    "notifyParty": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "UL. ZAWISZY 10, 80-328 GDANSK, POLAND"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "CHEMICAL SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APC CHEMICALS - NINGBO",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "CHEMICAL SOLUTION - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 20000.0,
+      "measurement": 33.696,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR)",
+    "totalPackages": 10,
+    "packageType": "DRUMS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 33.696
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "UL. ZAWISZY 10, 80-328 GDANSK, POLAND",
+      "telephone": "+48 58 1234567",
+      "fax": "+48 58 12345678",
+      "email": "INFO@ZENITHGLOBAL.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "address": "1234 CHEMICAL RD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679"
+    },
+    "onboardDate": "2024-11-29 20:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2091, VALUE: USD13,610"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3184107",
+    "unClass": "1",
+    "unCode": "2091,",
+    "hsCode": "5381.37.28",
+    "flashPoint": "-12\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

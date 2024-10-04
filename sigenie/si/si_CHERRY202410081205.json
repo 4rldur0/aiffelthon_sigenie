@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410081205",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC ELECTRONICS PTE LTD",
+      "address": "123 Anson Road, #22-01, International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678",
+      "email": "SALES@ABC-ELECTRONICS.COM.SG"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "210 Middle Road, #13-01, The Singapore Centre, SINGAPORE 188995",
+      "country": "SINGAPORE",
+      "telephone": "+65 6536 1111",
+      "fax": "+65 6536 2222",
+      "email": "DHL.SINGAPORE@DHL.COM"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "210 Middle Road, #13-01, The Singapore Centre, SINGAPORE 188995",
+      "country": "SINGAPORE",
+      "telephone": "+65 6536 1111",
+      "fax": "+65 6536 2222",
+      "email": "DHL.SINGAPORE@DHL.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "38249990",
+  "commodityDescription": "LITHIUM ION BATTERY ELECTROLYTE",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123456",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LITHIUM ION BATTERY ELECTROLYTE",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER",
+    "totalPackages": 100,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "MSDS"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "210 Middle Road, #13-01, The Singapore Centre, SINGAPORE 188995",
+      "telephone": "+65 6536 1111",
+      "fax": "+65 6536 2222",
+      "email": "DHL.SINGAPORE@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "210 Middle Road, #13-01, The Singapore Centre, SINGAPORE 188995",
+      "telephone": "+65 6536 1111",
+      "fax": "+65 6536 2222",
+      "email": "DHL.SINGAPORE@DHL.COM"
+    },
+    "onboardDate": "2024-10-20 09:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1596, VALUE: USD273,589, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7649321",
+    "unClass": "7",
+    "unCode": "1596,",
+    "hsCode": "7921.62.28",
+    "flashPoint": "35\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

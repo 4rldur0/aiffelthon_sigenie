@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202410235196",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HARVE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION MACHINERY CO LTD",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 1235",
+      "email": "INFO@ASIAPRECISIONMACHINERY.CN"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "456 PARIS STREET, LE HAVRE, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "INFO@ASIAPACIFICLOGISTICS.FR",
+      "personincharge": "JEAN DUPONT"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "789 RUE DE LA MER, LE HAVRE, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 2 35 67 89 01",
+      "fax": "+33 2 35 67 89 02",
+      "email": "CONTACT@GLOBALLOGISTICSSOLUTIONS.FR"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "841869",
+  "commodityDescription": "REEFER UNITS",
+  "containers": [
+    {
+      "containerNumber": "CONT2460886",
+      "sealNumber": "SEAL320659",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 19771.08,
+      "measurement": 36.08
+    },
+    {
+      "containerNumber": "CONT2893341",
+      "sealNumber": "SEAL840943",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 6586.74,
+      "measurement": 39.89
+    },
+    {
+      "containerNumber": "CONT5091281",
+      "sealNumber": "SEAL923299",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 6534.75,
+      "measurement": 23.92
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE REEFER",
+    "totalPackages": 168,
+    "totalGrossWeight": 32892.57,
+    "totalMeasurement": 99.89
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "456 PARIS STREET, LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "INFO@ASIAPACIFICLOGISTICS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "456 PARIS STREET, LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "INFO@ASIAPACIFICLOGISTICS.FR"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -11\u00b0C, DO NOT STACK"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7764697",
+    "temperature": "-11\u00b0C",
+    "minTemperature": "-13\u00b0C",
+    "maxTemperature": "-9\u00b0C",
+    "ventilation": "55%",
+    "humidity": "63%"
+  }
+}

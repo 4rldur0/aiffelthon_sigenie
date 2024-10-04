@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202411117917",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREEN TECH INDUSTRIES INC",
+      "address": "123 GREEN TECH AVENUE, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 1235",
+      "email": "SHIPPING@GREENTECH.CN"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "456 FRANKFURTER STRASSE, FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 9999 1234",
+      "fax": "+49 69 9999 1235",
+      "email": "ORDERS@ASIAPACIFIC.DE",
+      "personincharge": "FRANZ MEIER"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS SOLUTIONS GMBH",
+      "address": "789 HAMBURG PORT BOULEVARD, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 8888 1234",
+      "fax": "+49 40 8888 1235",
+      "email": "INFO@LOGISTICSOLUTIONS.DE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "330510",
+  "commodityDescription": "ORANGE OIL",
+  "containers": [
+    {
+      "containerNumber": "CONT3108178",
+      "sealNumber": "SEAL229262",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 5384.29,
+      "measurement": 39.54
+    },
+    {
+      "containerNumber": "CONT8447581",
+      "sealNumber": "SEAL940503",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 16296.87,
+      "measurement": 38.34
+    },
+    {
+      "containerNumber": "CONT2204265",
+      "sealNumber": "SEAL140676",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 14984.26,
+      "measurement": 30.08
+    },
+    {
+      "containerNumber": "CONT8484317",
+      "sealNumber": "SEAL916842",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 15247.3,
+      "measurement": 31.15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD TANK",
+    "totalPackages": 240,
+    "totalGrossWeight": 51912.72,
+    "totalMeasurement": 139.11
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-17 10:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1590, VALUE: USD470,791"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5155304",
+    "unClass": "2",
+    "unCode": "1590,",
+    "hsCode": "2635.86.37",
+    "flashPoint": "17\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

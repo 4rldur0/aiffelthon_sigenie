@@ -1,0 +1,140 @@
+{
+  "bookingReference": "CHERRY202410297026",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA INDUSTRIES LTD.",
+      "onBehalfOf": "GLOBAL TRADING CORPORATION",
+      "address": "1234 PRECISION RD, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-12345679",
+      "email": "INFO@ALPHAINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "BETA IMPORT EXPORT",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "INFO@BETAIMPORTEXPORT.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "1234 GLOBAL WAY, LONDON, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICAL SUBSTANCE",
+  "containers": [
+    {
+      "containerNumber": "CONT5764676",
+      "sealNumber": "SEAL621312",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 9879.74,
+      "measurement": 39.48
+    },
+    {
+      "containerNumber": "CONT3475035",
+      "sealNumber": "SEAL178707",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 8602.69,
+      "measurement": 25.26
+    },
+    {
+      "containerNumber": "CONT8537571",
+      "sealNumber": "SEAL480959",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 10703.44,
+      "measurement": 20.77
+    },
+    {
+      "containerNumber": "CONT6636774",
+      "sealNumber": "SEAL924939",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 12663.75,
+      "measurement": 22.09
+    },
+    {
+      "containerNumber": "CONT4246869",
+      "sealNumber": "SEAL659843",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 10630.55,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CONT5254846",
+      "sealNumber": "SEAL713894",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 18265.1,
+      "measurement": 39.06
+    },
+    {
+      "containerNumber": "CONT4410113",
+      "sealNumber": "SEAL915253",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 19101.72,
+      "measurement": 29.7
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 20 STANDARD GENERAL",
+    "totalPackages": 355,
+    "totalGrossWeight": 89846.99,
+    "totalMeasurement": 201.86
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241029-001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA INDUSTRIES LTD.",
+      "address": "1234 PRECISION RD, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-12345679"
+    },
+    "onboardDate": "2024-11-12 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2256, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1726261",
+    "unClass": "3",
+    "unCode": "2256,",
+    "hsCode": "8704.94.63",
+    "flashPoint": "24\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

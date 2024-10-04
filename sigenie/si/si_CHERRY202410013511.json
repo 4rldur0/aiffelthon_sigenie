@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410013511",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI PRECISION MACHINERY CO., LTD.",
+      "address": "1234 SHANGHAI INDUSTRIAL PARK, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667",
+      "email": "SALES@SHANGHAIPRECISION.CN"
+    },
+    "consignee": {
+      "name": "GREEN EARTH IMPORTERS LTD.",
+      "address": "2345 ROTTERDAM INDUSTRIAL AREA, ROTTERDAM, NETHERLANDS 3000AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8889",
+      "email": "IMPORT@GREENEARTHIMPORTERS.NL",
+      "personincharge": "JAN VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS BV",
+      "address": "5678 ROTTERDAM LOGISTICS CENTER, ROTTERDAM, NETHERLANDS 3015 AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 888 9999",
+      "fax": "+31 10 888 9998",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "846630",
+  "commodityDescription": "MACHINERY PARTS FOR INDUSTRIAL PRESSES",
+  "containers": [
+    {
+      "containerNumber": "CONT4157414",
+      "sealNumber": "SEAL589998",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 12196.26,
+      "measurement": 23.14
+    },
+    {
+      "containerNumber": "CONT4967534",
+      "sealNumber": "SEAL463213",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 6906.59,
+      "measurement": 32.29
+    },
+    {
+      "containerNumber": "CONT6371163",
+      "sealNumber": "SEAL219455",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 6556.74,
+      "measurement": 38.44
+    },
+    {
+      "containerNumber": "CONT8477460",
+      "sealNumber": "SEAL925299",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 10236.77,
+      "measurement": 29.32
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD TANK",
+    "totalPackages": 141,
+    "totalGrossWeight": 35896.36,
+    "totalMeasurement": 123.19
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410231245"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-10-10 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1676, MAINTAIN HUMIDITY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5731360",
+    "unClass": "9",
+    "unCode": "1676,",
+    "hsCode": "1493.72.44",
+    "flashPoint": "-17\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202410114823",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA FOODS LTD",
+      "address": "123 YONGFU ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAFOODS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "UL. WIODOWA 12, 80-235 GDANSK, POLAND",
+      "taxId": "PL1234567890",
+      "president": "MR. JAN KOWALSKI",
+      "telephone": "+48 58 333 22 22",
+      "fax": "+48 58 333 22 23",
+      "email": "INFO@GLOBALLOGISTICS.PL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "UL. WIODOWA 12, 80-235 GDANSK, POLAND",
+      "taxId": "",
+      "president": "MR. JAN KOWALSKI",
+      "telephone": "+48 58 333 22 22",
+      "fax": "+48 58 333 22 23"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT6857710",
+      "sealNumber": "SEAL217175",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 11883.93,
+      "measurement": 21.77
+    },
+    {
+      "containerNumber": "CONT2358162",
+      "sealNumber": "SEAL737439",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 9264.77,
+      "measurement": 21.13
+    },
+    {
+      "containerNumber": "CONT8897016",
+      "sealNumber": "SEAL318075",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 17338.8,
+      "measurement": 24.03
+    },
+    {
+      "containerNumber": "CONT3199634",
+      "sealNumber": "SEAL778493",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 6648.61,
+      "measurement": 28.46
+    },
+    {
+      "containerNumber": "CONT3411186",
+      "sealNumber": "SEAL630892",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 13164.36,
+      "measurement": 33.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD REEFER",
+    "totalPackages": 309,
+    "totalGrossWeight": 58300.47,
+    "totalMeasurement": 128.48
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "UL. WIODOWA 12, 80-235 GDANSK, POLAND",
+      "telephone": "+48 58 333 22 22",
+      "fax": "+48 58 333 22 23",
+      "email": "INFO@GLOBALLOGISTICS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "UL. WIODOWA 12, 80-235 GDANSK, POLAND",
+      "telephone": "+48 58 333 22 22",
+      "fax": "+48 58 333 22 23",
+      "email": "INFO@GLOBALLOGISTICS.PL"
+    },
+    "onboardDate": "2024-10-21 19:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 8\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4917116",
+    "temperature": "8\u00b0C",
+    "minTemperature": "6\u00b0C",
+    "maxTemperature": "10\u00b0C",
+    "ventilation": "41%",
+    "humidity": "85%"
+  }
+}

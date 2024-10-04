@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410271850",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA CHEMICALS INC.",
+      "address": "1234 CHEMICAL STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "INFO@BETACHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "4567 IMPORT STREET, MADRID, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 9876",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS",
+      "address": "8901 LOGISTICS AVENUE, BARCELONA, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 93 234 5678",
+      "fax": "+34 93 234 9876",
+      "email": "INFO@WORLDWIDE-LOGISTICS.ES"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "381700",
+  "commodityDescription": "MIXTURES OF ODORS",
+  "containers": [
+    {
+      "containerNumber": "CONT1394924",
+      "sealNumber": "SEAL850110",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 10300.3,
+      "measurement": 30.03
+    },
+    {
+      "containerNumber": "CONT2896557",
+      "sealNumber": "SEAL132995",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 8035.69,
+      "measurement": 26.91
+    },
+    {
+      "containerNumber": "CONT9773466",
+      "sealNumber": "SEAL402987",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 12182.42,
+      "measurement": 28.32
+    },
+    {
+      "containerNumber": "CONT1461315",
+      "sealNumber": "SEAL596015",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 18174.41,
+      "measurement": 39.56
+    },
+    {
+      "containerNumber": "CONT8743401",
+      "sealNumber": "SEAL312373",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 19568.31,
+      "measurement": 20.83
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD GENERAL",
+    "totalPackages": 272,
+    "totalGrossWeight": 68261.13,
+    "totalMeasurement": 145.65
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "FUMIGATION CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS",
+      "address": "8901 LOGISTICS AVENUE, BARCELONA, SPAIN",
+      "telephone": "+34 93 234 5678",
+      "fax": "+34 93 234 9876",
+      "email": "INFO@WORLDWIDE-LOGISTICS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "4567 IMPORT STREET, MADRID, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 9876",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES"
+    },
+    "onboardDate": "2024-11-07 19:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3118"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9276031",
+    "unClass": "8",
+    "unCode": "3118",
+    "hsCode": "7835.96.38",
+    "flashPoint": "-6\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

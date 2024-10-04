@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411075145",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "123 DIGITAL AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JEREMY.LEE@SUNRISEELECTRONICS.CO.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "country": "CHINA",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALSHIPPINGSOLUTIONS.CN",
+      "telephone": "+86 574 987 6910",
+      "fax": "+86 574 987 6913"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "340211",
+  "commodityDescription": "ORGANIC CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CRLU4927001",
+      "sealNumber": "713194",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 800,
+      "packageType": "CARTONS",
+      "cargoDescription": "DANGEROUS GOODS",
+      "grossWeight": 15000.0,
+      "measurement": 56.0
+    },
+    {
+      "containerNumber": "CRLU4961926",
+      "sealNumber": "713176",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 800,
+      "packageType": "CARTONS",
+      "cargoDescription": "DANGEROUS GOODS",
+      "grossWeight": 15000.0,
+      "measurement": 56.0
+    },
+    {
+      "containerNumber": "CRLU4976543",
+      "sealNumber": "713180",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 800,
+      "packageType": "CARTONS",
+      "cargoDescription": "DANGEROUS GOODS",
+      "grossWeight": 15000.0,
+      "measurement": 56.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (45 HC X 3) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 2400,
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 168.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "++86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "onboardDate": "2024-11-17 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2072"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3992123",
+    "unClass": "3",
+    "unCode": "2072",
+    "hsCode": "4039.19.29",
+    "flashPoint": "20\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

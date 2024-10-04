@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202410129816",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI DRAGON IMPORTS & EXPORTS CO. LTD.",
+      "address": "NO. 158, SHANGHAI ROAD, YONGKANG CITY, ZHEJIANG PROVINCE, CHINA 325100",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 579 8613 7295",
+      "fax": "+86 579 8613 7298",
+      "email": "LI.WEI@SHENGXINGCHEMICAL.CN"
+    },
+    "consignee": {
+      "name": "CHEM-TECH GMBH",
+      "address": "HAMBURGER STRASSE 55, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 3119 73 25",
+      "fax": "+49 40 3119 73 90",
+      "email": "PETER.SCHMIDT@CHEM-TECH.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "REINHARDSTRASSE 10, 20459 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 226 71 39",
+      "fax": "+49 40 226 71 44",
+      "email": "ANNA.MEIER@GLOBALLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "330499",
+  "commodityDescription": "SOAP, ORGANIC SURFACE-ACTIVE AGENTS, WASHING PREPARATIONS, LUBRICATING PREPARATIONS, ARTIFICIAL WAXES, DETERGENTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU8745123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIP3812031",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SOAP SOLUTION",
+      "grossWeight": 16000.0,
+      "measurement": 53.0
+    },
+    {
+      "containerNumber": "MSCU8692745",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIP3812032",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SOAP SOLUTION",
+      "grossWeight": 16000.0,
+      "measurement": 53.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 32000.0,
+    "totalMeasurement": 106.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410271234"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "CHEM-TECH GMBH",
+      "address": "HAMBURGER STRASSE 55, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 3119 73 25",
+      "fax": "+49 40 3119 73 90",
+      "email": "PETER.SCHMIDT@CHEM-TECH.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHEM-TECH GMBH",
+      "address": "HAMBURGER STRASSE 55, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 3119 73 25",
+      "fax": "+49 40 3119 73 90",
+      "email": "PETER.SCHMIDT@CHEM-TECH.DE"
+    },
+    "onboardDate": "2024-10-22 20:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 1030, VALUE: USD901,693"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9074968",
+    "unClass": "8",
+    "unCode": "1030,",
+    "hsCode": "2251.38.93",
+    "flashPoint": "59\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

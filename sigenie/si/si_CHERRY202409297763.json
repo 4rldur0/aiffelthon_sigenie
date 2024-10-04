@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202409297763",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ENGINEERING CO.",
+      "address": "1234 SUNRISE AVE., NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@SUNRISEENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "MEGA SHIPPING INC.",
+      "address": "1234 MAIN ST., ROTTERDAM, NETHERLANDS 3011AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@MEGAShippingINC.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS BV.",
+      "address": "1234 CANAL ST., ROTTERDAM, NETHERLANDS 3011BB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 713 29 39",
+      "fax": "+31 10 713 29 44",
+      "email": "ANNA.NOWAK@WORLDWIDE-LOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "CONSTRUCTION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU4708217",
+      "sealNumber": "912373",
+      "marksAndNumbers": "SHIP3812025",
+      "numberOfPackages": 1,
+      "packageType": "LOOSE",
+      "cargoDescription": "CONSTRUCTION EQUIPMENT - OUT OF GAUGE",
+      "grossWeight": 25000.0,
+      "measurement": 80.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 FT FLAT RACK)",
+    "totalPackages": 1,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 80.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "MEGA SHIPPING INC.",
+      "address": "1234 MAIN ST., ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@MEGAShippingINC.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MEGA SHIPPING INC.",
+      "address": "1234 MAIN ST., ROTTERDAM, NETHERLANDS 3011AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@MEGAShippingINC.NL"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 6048x2686x2142, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6048",
+    "width": "2686",
+    "height": "2142",
+    "overWidth": "246",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

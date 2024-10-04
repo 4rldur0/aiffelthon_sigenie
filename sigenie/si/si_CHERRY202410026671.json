@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202410026671",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "address": "128, SAMSUNG-RO, YEONGTONG-GU, SUWON-SI, GYEONGGI-DO, 16678, SOUTH KOREA",
+      "country": "SOUTH KOREA",
+      "additionalInfo": "",
+      "telephone": "+82 31 287 6000",
+      "fax": "+82 31 287 6001",
+      "email": "SAMSUNG.SHIPPING@SAMSUNG.COM"
+    },
+    "consignee": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "PO BOX 272, N-3191 H\u00d8YSNES, NORWAY",
+      "country": "NORWAY",
+      "telephone": "+47 33 03 60 00",
+      "fax": "+47 33 03 60 01",
+      "email": "INFO@KONGSBERGM.COM",
+      "personincharge": "JOHAN HANSEN"
+    },
+    "notifyParty": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "PO BOX 272, N-3191 H\u00d8YSNES, NORWAY",
+      "country": "NORWAY",
+      "telephone": "+47 33 03 60 00",
+      "fax": "+47 33 03 60 01",
+      "email": "INFO@KONGSBERGM.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381400",
+  "commodityDescription": "ETHYLENE GLYCOL",
+  "containers": [
+    {
+      "containerNumber": "CRLU2798373",
+      "sealNumber": "900375",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL",
+      "grossWeight": 18000.0,
+      "measurement": 21.0
+    },
+    {
+      "containerNumber": "CRLU2698357",
+      "sealNumber": "900376",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL",
+      "grossWeight": 18000.0,
+      "measurement": 21.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY X 2) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "totalpackageType": "DRUMS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 42.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-10-21 16:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2719"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1160085",
+    "unClass": "4",
+    "unCode": "2719",
+    "hsCode": "5768.68.18",
+    "flashPoint": "79\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

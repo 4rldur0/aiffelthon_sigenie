@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411038652",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA GLOBAL TRADING CO.",
+      "onBehalfOf": "GAMMA TRADING CO.",
+      "address": "1234 PORT ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "LI.ZHAO@DELTA-LOGISTICS.CN"
+    },
+    "consignee": {
+      "name": "OMEGA IMPORT & EXPORT SL",
+      "address": "CALLE REAL, 123, ALGECIRAS, SPAIN 11001",
+      "companyNumber": "B12345678",
+      "telephone": "+34 956 7777 8888",
+      "fax": "+34 956 7777 8889",
+      "email": "GONZALEZ.MARIA@OMEGA-IMPORT.ES"
+    },
+    "notifyParty": {
+      "name": "ALPHA SHIPPING AGENCY SL",
+      "address": "CALLE MARINA, 456, ALGECIRAS, SPAIN 11002"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER FOR HEAVY MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TRAILER - NINGBO",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "TRAILER - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 30000.0,
+      "measurement": 120.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR)",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "20' FLAT RACK",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 120.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA IMPORT & EXPORT SL",
+      "address": "CALLE REAL, 123, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34 956 7777 8888",
+      "fax": "+34 956 7777 8889",
+      "email": "GONZALEZ.MARIA@OMEGA-IMPORT.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA GLOBAL LOGISTICS LTD.",
+      "address": "1234 PORT ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "LI.ZHAO@DELTA-LOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-14 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 3433x2034x2591, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3433",
+    "width": "2034",
+    "height": "2591",
+    "overWidth": "0",
+    "overHeight": "1"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

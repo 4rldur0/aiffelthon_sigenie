@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411226748",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS PTE LTD",
+      "address": "123 TECH PARK STREET, SINGAPORE 123456",
+      "country": "SINGAPORE",
+      "additionalInfo": "(TECH BUILDING)",
+      "telephone": "+65 6789 0123",
+      "email": "INFO@GLOBALTECH.COM.SG"
+    },
+    "consignee": {
+      "name": "TO ORDER OF DEUTSCHE GLOBAL BANK AG",
+      "address": "",
+      "country": "",
+      "email": "",
+      "telephone": ""
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "456 LOGISTICS CENTER, SINGAPORE 654321",
+      "country": "SINGAPORE",
+      "email": "ORDERS@ASIAPACIFICLOGISTICS.COM",
+      "telephone": "+65 1234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "AUTOMATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "MACHINES",
+      "cargoDescription": "AUTOMATION EQUIPMENT",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 40' OPEN TOP CONTAINER",
+    "totalPackages": 1,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 35.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "456 LOGISTICS CENTER, SINGAPORE 654321",
+      "telephone": "+65 1234 5678",
+      "fax": "+65 1234 5679",
+      "email": "LISA.CHEN@ASIAPACIFICLOGISTICS.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "456 LOGISTICS CENTER, SINGAPORE 654321",
+      "telephone": "+65 1234 5678",
+      "fax": "+65 1234 5679",
+      "email": "LISA.CHEN@ASIAPACIFICLOGISTICS.COM.SG"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 4774x2342x2717, VALUE: USD427,962"
+  },
+  "cargoValue": 427962,
+  "outOfGaugeDimensions": {
+    "length": "4774",
+    "width": "2342",
+    "height": "2717",
+    "overWidth": "0",
+    "overHeight": "127"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202410133731",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC COLD CHAIN",
+      "address": "123 COLD CHAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS GMBH",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS GMBH",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT9696675",
+      "sealNumber": "SEAL845670",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 19507.58,
+      "measurement": 39.03
+    },
+    {
+      "containerNumber": "CONT6210432",
+      "sealNumber": "SEAL133924",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 18514.29,
+      "measurement": 28.54
+    },
+    {
+      "containerNumber": "CONT5238686",
+      "sealNumber": "SEAL817003",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 11903.68,
+      "measurement": 37.9
+    },
+    {
+      "containerNumber": "CONT4016203",
+      "sealNumber": "SEAL271871",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 19654.37,
+      "measurement": 38.55
+    },
+    {
+      "containerNumber": "CONT1878650",
+      "sealNumber": "SEAL689896",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 7975.47,
+      "measurement": 28.51
+    },
+    {
+      "containerNumber": "CONT6812915",
+      "sealNumber": "SEAL835305",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 12218.66,
+      "measurement": 36.32
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE REEFER",
+    "totalPackages": 358,
+    "totalGrossWeight": 89774.05,
+    "totalMeasurement": 208.85
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS GMBH",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS GMBH",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-10-21 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 14\u00b0C, VALUE: USD619,997, 21 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6469436",
+    "temperature": "14\u00b0C",
+    "minTemperature": "12\u00b0C",
+    "maxTemperature": "16\u00b0C",
+    "ventilation": "3%",
+    "humidity": "80%"
+  }
+}

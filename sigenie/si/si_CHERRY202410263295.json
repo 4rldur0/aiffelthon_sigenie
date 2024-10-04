@@ -1,0 +1,145 @@
+{
+  "bookingReference": "CHERRY202410263295",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO.",
+      "address": "123 OCEAN AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@DELTATRADING.CN"
+    },
+    "consignee": {
+      "name": "OMEGA FREIGHT FORWARDERS LTD.",
+      "address": "456 EUROPA BOULEVARD, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "SHIPPING@OMEGAFREIGHT.NL",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913"
+    },
+    "notifyParty": {
+      "name": "OMEGA FREIGHT FORWARDERS LTD.",
+      "address": "456 EUROPA BOULEVARD, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "SHIPPING@OMEGAFREIGHT.NL",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN SQUID",
+  "containers": [
+    {
+      "containerNumber": "CONT3240332",
+      "sealNumber": "SEAL377662",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 19967.09,
+      "measurement": 25.03
+    },
+    {
+      "containerNumber": "CONT3579303",
+      "sealNumber": "SEAL400354",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 19797.79,
+      "measurement": 27.9
+    },
+    {
+      "containerNumber": "CONT8671998",
+      "sealNumber": "SEAL366837",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 17123.44,
+      "measurement": 29.39
+    },
+    {
+      "containerNumber": "CONT2896161",
+      "sealNumber": "SEAL368997",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 17446.31,
+      "measurement": 24.44
+    },
+    {
+      "containerNumber": "CONT2270913",
+      "sealNumber": "SEAL627123",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 16730.93,
+      "measurement": 34.49
+    },
+    {
+      "containerNumber": "CONT1548806",
+      "sealNumber": "SEAL589197",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 9442.56,
+      "measurement": 33.81
+    },
+    {
+      "containerNumber": "CONT5440086",
+      "sealNumber": "SEAL536080",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 9145.95,
+      "measurement": 24.36
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 STANDARD REEFER",
+    "totalPackages": 288,
+    "totalGrossWeight": 109654.07,
+    "totalMeasurement": 199.42
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241026001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA FREIGHT FORWARDERS LTD.",
+      "address": "456 EUROPA BOULEVARD, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913",
+      "email": "SHIPPING@OMEGAFREIGHT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA FREIGHT FORWARDERS LTD.",
+      "address": "456 EUROPA BOULEVARD, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913",
+      "email": "SHIPPING@OMEGAFREIGHT.NL"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -12\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2542844",
+    "temperature": "-12\u00b0C",
+    "minTemperature": "-14\u00b0C",
+    "maxTemperature": "-10\u00b0C",
+    "ventilation": "59%",
+    "humidity": "93%"
+  }
+}

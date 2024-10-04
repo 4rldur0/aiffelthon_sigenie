@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411097754",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BEIJING GLOBAL MACHINERY CO., LTD.",
+      "address": "NO. 1234, XINHU ROAD, BEIJING, CHINA 100000",
+      "telephone": "+86 10 1234 5678",
+      "fax": "+86 10 9876 5432",
+      "email": "INFO@BEIJINGMACHINERY.COM"
+    },
+    "consignee": {
+      "name": "GREEN FIELD LOGISTICS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "NL123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "INFO@GREENFIELDLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "GREEN FIELD LOGISTICS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "NL123456789",
+      "president": "MS. JANE DOE",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "NOTIFICATIONS@GREENFIELDLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR WORKING STONE, SAND, ORE ETC. - OTHER",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "containerType": "40 OPEN TOP",
+      "cargoDescription": "MACHINERY FOR WORKING STONE, SAND, ORE ETC. - OTHER - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    },
+    {
+      "containerNumber": "CMAU9751372",
+      "sealNumber": "517121",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "containerType": "40 OPEN TOP",
+      "cargoDescription": "MACHINERY FOR WORKING STONE, SAND, ORE ETC. - OTHER - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 OT X 2) OPEN TOP CONTAINERS ONLY",
+    "totalPackages": 10,
+    "packageType": "PALLETS",
+    "containerType": "40 OPEN TOP",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 145.464
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GREEN FIELD LOGISTICS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "INFO@GREENFIELDLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN FIELD LOGISTICS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "INFO@GREENFIELDLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-17 16:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 8327x2942x2856, VALUE: USD301,564"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8327",
+    "width": "2942",
+    "height": "2856",
+    "overWidth": "502",
+    "overHeight": "266"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

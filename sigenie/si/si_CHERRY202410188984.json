@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202410188984",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING CO. LTD",
+      "address": "NO. 1234, YONGHUA ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(YONGHUA BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@OMEGAMANUFACTURING.COM.CN"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CORP.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@DELTA TRADING.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CORP.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@DELTA TRADING.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "381210",
+  "commodityDescription": "CARBON BLACK",
+  "containers": [
+    {
+      "containerNumber": "CRLU4571916",
+      "sealNumber": "724914",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "CARBON BLACK",
+      "grossWeight": 6000.0,
+      "measurement": 58.0
+    },
+    {
+      "containerNumber": "CRLU4595018",
+      "sealNumber": "724918",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "CARBON BLACK",
+      "grossWeight": 6000.0,
+      "measurement": 58.0
+    },
+    {
+      "containerNumber": "CRLU4529806",
+      "sealNumber": "724921",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "CARBON BLACK",
+      "grossWeight": 6000.0,
+      "measurement": 58.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 20' DRY CONTAINER(S)",
+    "totalPackages": 300,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 174.0
+  },
+  "additionalInformation": {
+    "dangerousGoods": {
+      "unNumber": "2246",
+      "properShippingName": "CARBON BLACK",
+      "hazardClass": "4.2",
+      "packingGroup": "II"
+    },
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CORP.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "ORDERS@DELTA TRADING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CORP.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "ORDERS@DELTA TRADING.NL"
+    },
+    "onboardDate": "2024-10-26 16:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2246, VALUE: USD519,577, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7091658",
+    "unClass": "1",
+    "unCode": "2246,",
+    "hsCode": "9300.38.17",
+    "flashPoint": "93\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410276407",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, SINGAPORE 123456",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "456 ORCHARD ROAD, SINGAPORE 654321",
+      "telephone": "+65-6543-2100",
+      "fax": "+65-6543-2101"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "789 NORTH BRIDGE ROAD, SINGAPORE 543210",
+      "telephone": "+65-6321-4321",
+      "fax": "+65-6321-4322"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030319",
+  "commodityDescription": "FROZEN FISH - TUNA",
+  "containers": [
+    {
+      "containerNumber": "GRLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "FROZEN FISH - TUNA",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FROZEN FISH - TUNA",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "reeferSettings": {
+        "setTemperature": "-2.0",
+        "setVentilation": "LOW"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' REEFER)",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "789 NORTH BRIDGE ROAD, SINGAPORE 543210",
+      "telephone": "+65-6321-4321",
+      "fax": "+65-6321-4322"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "789 NORTH BRIDGE ROAD, SINGAPORE 543210",
+      "telephone": "+65-6321-4321",
+      "fax": "+65-6321-4322"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 2\u00b0C, VALUE: USD278,937, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1301204",
+    "temperature": "2\u00b0C",
+    "minTemperature": "0\u00b0C",
+    "maxTemperature": "4\u00b0C",
+    "ventilation": "93%",
+    "humidity": "61%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410045923",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS INC.",
+      "address": "123 OCEAN AVENUE, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1213",
+      "email": "INFO@ASIAFOODS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "10 ST. JAMES STREET, LONDON, ENGLAND SW1A 1EF",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 7777 1111",
+      "fax": "+44 20 7777 1112",
+      "email": "INFO@GLOBALTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "SEA FREIGHT LOGISTICS LTD.",
+      "address": "15 QUEEN STREET, LONDON, ENGLAND EC4N 8JD",
+      "telephone": "+44 20 7888 2222",
+      "fax": "+44 20 7888 2223",
+      "email": "NOTIFICATIONS@SEAFRIGHTLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030890",
+  "commodityDescription": "FROZEN COD",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN COD FILLETS - 20KG CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "10 ST. JAMES STREET, LONDON, ENGLAND SW1A 1EF",
+      "telephone": "+44 20 7777 1111",
+      "fax": "+44 20 7777 1112",
+      "email": "INFO@GLOBALTRADING.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "10 ST. JAMES STREET, LONDON, ENGLAND SW1A 1EF",
+      "telephone": "+44 20 7777 1111",
+      "fax": "+44 20 7777 1112",
+      "email": "INFO@GLOBALTRADING.COM"
+    },
+    "onboardDate": "2024-10-07 21:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -15\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2034531",
+    "temperature": "-15\u00b0C",
+    "minTemperature": "-17\u00b0C",
+    "maxTemperature": "-13\u00b0C",
+    "ventilation": "16%",
+    "humidity": "81%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

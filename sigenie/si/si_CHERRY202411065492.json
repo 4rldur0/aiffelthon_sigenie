@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411065492",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION ENGINEERING CO. LTD.",
+      "address": "1234 NINGBO INDUSTRIAL PARK, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 5678 9000",
+      "fax": "+86 574 5678 9001",
+      "email": "INFO@ASIAPRECISION.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, 1012 DZ, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 777 8888",
+      "fax": "+31 20 777 8889",
+      "email": "OPERATIONS@GLOBALFREIGHTSOLUTIONS.NL",
+      "personincharge": "JAN VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "name": "DENNIS LOGISTICS B.V.",
+      "address": "234 ROTTERDAM PORT BOULEVARD, ROTTERDAM, 3011 AX, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "INFO@DENNISLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "84663090",
+  "commodityDescription": "HEAVY DUTY INDUSTRIAL PRESSES",
+  "containers": [
+    {
+      "containerNumber": "FRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HEAVY DUTY INDUSTRIAL PRESSES",
+      "grossWeight": 35000.0,
+      "measurement": 80.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) FLAT RACK CONTAINER ONLY",
+    "totalPackages": 1,
+    "totalpackageType": "UNITS",
+    "totalGrossWeight": 35000.0,
+    "totalMeasurement": 80.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, 1012 DZ, NETHERLANDS",
+      "telephone": "+31 20 777 8888",
+      "fax": "+31 20 777 8889",
+      "email": "OPERATIONS@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, 1012 DZ, NETHERLANDS",
+      "telephone": "+31 20 777 8888",
+      "fax": "+31 20 777 8889",
+      "email": "OPERATIONS@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 10025x2508x2737, 21 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10025",
+    "width": "2508",
+    "height": "2737",
+    "overWidth": "68",
+    "overHeight": "147"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

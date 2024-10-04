@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411084186",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA PRECISION ENGINEERING LTD.",
+      "address": "NO. 23, JINLONG ROAD, JIANGNING DISTRICT, NINGBO, ZHEJIANG, 315014, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "INFO@DELTAENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "2500 W. UNIVERSITY AVE., SUITE 300, GAINESVILLE, FL 32608, USA",
+      "taxId": "123456789012345",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 352 336 7777",
+      "fax": "+1 352 336 7778",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "2500 W. UNIVERSITY AVE., SUITE 300, GAINESVILLE, FL 32608, USA",
+      "telephone": "+1 352 336 7777",
+      "fax": "+1 352 336 7778",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "DELTA PRECISION ENGINEERING LTD.",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS, UN 2511, VALUE: USD934,343",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 15.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "2500 W. UNIVERSITY AVE., SUITE 300, GAINESVILLE, FL 32608, USA",
+      "telephone": "+1 352 336 7777",
+      "fax": "+1 352 336 7778",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "2500 W. UNIVERSITY AVE., SUITE 300, GAINESVILLE, FL 32608, USA",
+      "telephone": "+1 352 336 7777",
+      "fax": "+1 352 336 7778",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2511, VALUE: USD934,343"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1427217",
+    "unClass": "2",
+    "unCode": "2511,",
+    "hsCode": "5498.87.25",
+    "flashPoint": "45\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411222744",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES INC.",
+      "onBehalfOf": "",
+      "address": "1234 INDUSTRIAL AVE, NINGBO, CHINA",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "INFO@DELTAINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL LOGISTICS LTD.",
+      "address": "5555 GLOBAL WAY, TANGER, MOROCCO",
+      "companyNumber": "1234567890",
+      "telephone": "+212 522 5678 9012",
+      "fax": "+212 522 5678 9013",
+      "email": "INFO@OMEGAGLOBALLOGISTICS.MA"
+    },
+    "notifyParty": {
+      "name": "OMEGA GLOBAL LOGISTICS LTD.",
+      "address": "5555 GLOBAL WAY, TANGER, MOROCCO"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "110419",
+  "commodityDescription": "RICE",
+  "containers": [
+    {
+      "containerNumber": "CMAU7896543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "DELTA RICE SHIPMENT",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "RICE - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 25000.0,
+      "measurement": 33.696,
+      "additionalInfo": "DANGEROUS GOODS"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 20 DRY)",
+    "totalPackages": 1000,
+    "packageType": "BAGS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 33.696
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL LOGISTICS LTD.",
+      "address": "5555 GLOBAL WAY, TANGER, MOROCCO",
+      "telephone": "+212 522 5678 9012",
+      "fax": "+212 522 5678 9013",
+      "email": "INFO@OMEGAGLOBALLOGISTICS.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA INDUSTRIES INC.",
+      "address": "1234 INDUSTRIAL AVE, NINGBO, CHINA",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1247, VALUE: USD822,466"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5757659",
+    "unClass": "3",
+    "unCode": "1247,",
+    "hsCode": "2468.81.74",
+    "flashPoint": "15\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

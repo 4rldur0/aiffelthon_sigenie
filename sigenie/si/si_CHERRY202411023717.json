@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411023717",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH MANUFACTURING CO. LTD",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ZENITHMANUFACTURING.COM.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING COMPANY LTD",
+      "address": "123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@DELTASHIPPING.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "ZENITH MANUFACTURING CO. LTD",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "email": "ORDERS@ZENITHMANUFACTURING.COM.CN",
+      "telephone": "+86 571 8765 4321"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOY TRUCKS",
+  "containers": [
+    {
+      "containerNumber": "CONT9598677",
+      "sealNumber": "SEAL626994",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 19845.69,
+      "measurement": 33.73
+    },
+    {
+      "containerNumber": "CONT9632272",
+      "sealNumber": "SEAL126371",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 16246.89,
+      "measurement": 32.7
+    },
+    {
+      "containerNumber": "CONT5242425",
+      "sealNumber": "SEAL749696",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 16784.54,
+      "measurement": 32.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 291,
+    "totalGrossWeight": 52877.12,
+    "totalMeasurement": 99.24
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING COMPANY LTD",
+      "address": "123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "ORDERS@DELTASHIPPING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING COMPANY LTD",
+      "address": "123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "ORDERS@DELTASHIPPING.NL"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

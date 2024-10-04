@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410301446",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO.",
+      "onBehalfOf": "",
+      "address": "1234 ELECTRONICS AVE, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "INTERNATIONAL FREIGHT SOLUTIONS LTD.",
+      "address": "888 LOGISTICS RD, GDANSK, POLAND",
+      "companyNumber": "123456789",
+      "telephone": "+48 58 777 7000",
+      "fax": "+48 58 777 7001",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.PL"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": ""
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "854140",
+  "commodityDescription": "SWITCHING APPARATUS",
+  "containers": [
+    {
+      "containerNumber": "CONT3115432",
+      "sealNumber": "SEAL742124",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 13624.13,
+      "measurement": 23.09
+    },
+    {
+      "containerNumber": "CONT1321479",
+      "sealNumber": "SEAL562729",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 10445.91,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 191,
+    "totalGrossWeight": 24070.04,
+    "totalMeasurement": 51.09
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ELECTRONICS CO.",
+      "address": "1234 ELECTRONICS AVE, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-11-06 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3437, VALUE: USD441,115"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2831448",
+    "unClass": "9",
+    "unCode": "3437,",
+    "hsCode": "1145.19.92",
+    "flashPoint": "59\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410141214",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ TRADING CO.",
+      "address": "NO. 123, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ABC IMPORT & EXPORT LTD.",
+      "address": "KEIZERSGRACHT 123, 1016 DW AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-6351-2345",
+      "fax": "+31-20-6351-2346",
+      "email": "INFO@ABCIMPORT.NL",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT & EXPORT LTD.",
+      "address": "KEIZERSGRACHT 123, 1016 DW AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-6351-2345",
+      "fax": "+31-20-6351-2346"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT1212745",
+      "sealNumber": "SEAL814917",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 15842.24,
+      "measurement": 36.46
+    },
+    {
+      "containerNumber": "CONT1641601",
+      "sealNumber": "SEAL682712",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 8733.37,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CONT9773976",
+      "sealNumber": "SEAL277250",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 15464.23,
+      "measurement": 27.07
+    },
+    {
+      "containerNumber": "CONT5595765",
+      "sealNumber": "SEAL251871",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 8778.0,
+      "measurement": 22.71
+    },
+    {
+      "containerNumber": "CONT7614597",
+      "sealNumber": "SEAL648057",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 12026.02,
+      "measurement": 31.98
+    },
+    {
+      "containerNumber": "CONT7612751",
+      "sealNumber": "SEAL132359",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 13389.92,
+      "measurement": 29.71
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD TANK",
+    "totalPackages": 308,
+    "totalGrossWeight": 74233.78,
+    "totalMeasurement": 177.93
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241014-1001",
+    "documentNumber": "20241014-1001",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC IMPORT & EXPORT LTD.",
+      "address": "KEIZERSGRACHT 123, 1016 DW AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-6351-2345",
+      "fax": "+31-20-6351-2346"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT & EXPORT LTD.",
+      "address": "KEIZERSGRACHT 123, 1016 DW AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-6351-2345",
+      "fax": "+31-20-6351-2346"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

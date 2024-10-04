@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410039111",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA FOODS LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 9876 5432",
+      "email": "INFO@OMEGAFOODS.COM"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO.",
+      "address": "456 BOULEVARD STREET, RABAT, MOROCCO",
+      "taxId": "12345678901234",
+      "president": "MR. MOHAMED ALI",
+      "telephone": "+212 5 2233 4455",
+      "fax": "+212 5 2233 4466",
+      "email": "MOHAMED.ALI@DELTATRADING.COM"
+    },
+    "notifyParty": {
+      "name": "MARITIME LOGISTICS SERVICES",
+      "address": "789 PORT STREET, TANGER, MOROCCO",
+      "telephone": "+212 6 1122 3344",
+      "fax": "+212 6 1122 3355",
+      "email": "INFO@MARITIMELOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT7506865",
+      "sealNumber": "SEAL411436",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 11272.91,
+      "measurement": 32.96
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE REEFER",
+    "totalPackages": 71,
+    "totalGrossWeight": 11272.91,
+    "totalMeasurement": 32.96
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "456 BOULEVARD STREET, RABAT, MOROCCO",
+      "telephone": "+212 5 2233 4455",
+      "fax": "+212 5 2233 4466",
+      "email": "MOHAMED.ALI@DELTATRADING.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "456 BOULEVARD STREET, RABAT, MOROCCO",
+      "telephone": "+212 5 2233 4455",
+      "fax": "+212 5 2233 4466",
+      "email": "MOHAMED.ALI@DELTATRADING.COM"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -2\u00b0C, KEEP DRY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4774223",
+    "temperature": "-2\u00b0C",
+    "minTemperature": "-4\u00b0C",
+    "maxTemperature": "0\u00b0C",
+    "ventilation": "70%",
+    "humidity": "81%"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410028974",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE CHEMICAL SOLUTIONS PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 159918",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "DIJKMAN STREET 123, 3011 XA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891",
+      "email": "INFO@EUROCHEM.NL",
+      "contactPerson": "PETER VAN DER MARK"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "281090",
+  "commodityDescription": "SODIUM PERBORATE",
+  "containers": [
+    {
+      "containerNumber": "CGXU9876543",
+      "sealNumber": 123456,
+      "marksAndNumbers": "SCS-20241023",
+      "numberOfPackages": 20,
+      "packageType": "BAGS",
+      "cargoDescription": "SODIUM PERBORATE - UN 2409",
+      "grossWeight": 20000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 X 40) CONTAINER ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 25.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241023-0001",
+    "documentNumber": "20241023-0001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      {
+        "certificateType": "DANGEROUS GOODS CERTIFICATE",
+        "certificateNumber": "DG20241023001"
+      }
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 159918",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROCHEM BV",
+      "address": "DIJKMAN STREET 123, 3011 XA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
+    },
+    "onboardDate": "2024-10-17 12:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2409, 7 DAYS FREE TIME AT DESTINATION",
+    "dangerousGoods": {
+      "unNumber": "2409",
+      "class": "5.1",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3928739",
+    "unClass": "1",
+    "unCode": "2409,",
+    "hsCode": "3088.35.24",
+    "flashPoint": "83\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

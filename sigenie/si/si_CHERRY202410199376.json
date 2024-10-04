@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410199376",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE, FRANCE",
+    "portOfLoading": "LE HAVRE, FRANCE",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "PORT KLANG, MALAYSIA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "NESTLE SA",
+      "address": "123 RUE DE PARIS, 75001 PARIS, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEAN.DUPONT@DANONE.COM"
+    },
+    "consignee": {
+      "name": "NESTLE SA",
+      "address": "124 SWISS ROAD, CH-1800 VEVEY, SWITZERLAND",
+      "country": "SWITZERLAND",
+      "telephone": "+41 21 924 22 22",
+      "fax": "+41 21 924 22 23",
+      "email": "PETER.SCHMIDT@NESTLE.COM"
+    },
+    "notifyParty": {
+      "name": "DANONE LOGISTICS LTD.",
+      "address": "125 QUEEN STREET, LONDON WC2N 5BL, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "telephone": "+44 20 7836 55 55",
+      "fax": "+44 20 7836 55 56",
+      "email": "MARY.BROWN@DANONELOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "040110",
+  "commodityDescription": "MILK POWDER",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "DN1234567",
+      "numberOfPackages": 1000,
+      "packageType": "PLASTIC BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MILK POWDER",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HC) HIGH CUBIC CONTAINER ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "NESTLE SA",
+      "address": "124 SWISS ROAD, CH-1800 VEVEY, SWITZERLAND",
+      "telephone": "+41 21 924 22 22",
+      "fax": "+41 21 924 22 23",
+      "email": "PETER.SCHMIDT@NESTLE.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DANONE S.A.",
+      "address": "123 RUE DE PARIS, 75001 PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEAN.DUPONT@DANONE.COM"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 6\u00b0C, VALUE: USD614,374"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7930972",
+    "temperature": "6\u00b0C",
+    "minTemperature": "4\u00b0C",
+    "maxTemperature": "8\u00b0C",
+    "ventilation": "44%",
+    "humidity": "74%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

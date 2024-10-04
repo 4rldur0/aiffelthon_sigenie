@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410115737",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING INC.",
+      "onBehalfOf": "",
+      "address": "1234 INDUSTRY AVE, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8686 9999",
+      "fax": "+86 574 8686 9998",
+      "email": "SHIPPING@DELTAMFG.CN"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "1234 PORT RD, ROTTERDAM, NETHERLANDS 3011 AB",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679",
+      "email": "SHIPPING@OMEGA.NL"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "1234 PORT RD, ROTTERDAM, NETHERLANDS 3011 AB"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "870899",
+  "commodityDescription": "MOTOR VEHICLE BRAKE PARTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA BRAKE PARTS - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "MOTOR VEHICLE BRAKE PARTS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 20000.0,
+      "measurement": 33.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DELTA BRAKE PARTS - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "MOTOR VEHICLE BRAKE PARTS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 20000.0,
+      "measurement": 33.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 20' DRY CONTAINER",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 66.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "1234 PORT RD, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679",
+      "email": "SHIPPING@OMEGA.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA MANUFACTURING INC.",
+      "address": "1234 INDUSTRY AVE, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8686 9999",
+      "fax": "+86 574 8686 9998"
+    },
+    "onboardDate": "2024-10-23 20:00",
+    "additionalRemarks": "CONTAINER TYPE: HC"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

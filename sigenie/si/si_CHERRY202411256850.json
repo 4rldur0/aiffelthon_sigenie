@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411256850",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "PARIS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENTERPRISES PTE LTD",
+      "address": "123 ASIA STREET, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "consignee": {
+      "name": "DELTA LOGISTICS LTD",
+      "address": "456 EUROPE STREET, PARIS, FRANCE",
+      "telephone": "+33 1 4567 8901",
+      "fax": "+33 1 4567 8902"
+    },
+    "notifyParty": {
+      "name": "DELTA LOGISTICS LTD",
+      "address": "456 EUROPE STREET, PARIS, FRANCE",
+      "telephone": "+33 1 4567 8901",
+      "fax": "+33 1 4567 8902"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030231",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APE20241125",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "containerType": "40 FOOT REEFER CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - FROZEN FISH",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 RF) REEFER CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40 FOOT REEFER CONTAINER",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA LOGISTICS LTD",
+      "address": "456 EUROPE STREET, PARIS, FRANCE",
+      "telephone": "+33 1 4567 8901",
+      "fax": "+33 1 4567 8902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA LOGISTICS LTD",
+      "address": "456 EUROPE STREET, PARIS, FRANCE",
+      "telephone": "+33 1 4567 8901",
+      "fax": "+33 1 4567 8902"
+    },
+    "onboardDate": "2024-12-06 16:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 20\u00b0C, VALUE: USD872,303"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6858844",
+    "temperature": "20\u00b0C",
+    "minTemperature": "18\u00b0C",
+    "maxTemperature": "22\u00b0C",
+    "ventilation": "80%",
+    "humidity": "74%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

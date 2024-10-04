@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411016336",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SCHLUMBERGER OILFIELD SERVICES LTD.",
+      "address": "123 MAIN STREET, THE HAGUE, NETHERLANDS",
+      "telephone": "+31-70-366-6666",
+      "fax": "+31-70-366-6667"
+    },
+    "consignee": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "124 KONGSBERG STREET, KONGSBERG, NORWAY",
+      "telephone": "+47-32-78-90-12",
+      "fax": "+47-32-78-90-13",
+      "email": "INFO@KONGSBERGMARITIME.NO",
+      "contactPerson": "JAN SMITH"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "38249999",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": 123456,
+      "marksAndNumbers": "SCHL-2024-11-01",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS CHEMICALS - UN 2758",
+      "grossWeight": 15000.0,
+      "measurement": 20.0,
+      "dangerousGoods": {
+        "unNumber": "2758",
+        "properShippingName": "CHEMICAL SOLUTION, N.O.S.",
+        "class": "8",
+        "packingGroup": "II"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 X 40) CONTAINER",
+    "totalPackages": 10,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 20.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241101-1001",
+    "documentNumber": "20241101-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241101-001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "124 KONGSBERG STREET, KONGSBERG, NORWAY",
+      "telephone": "+47-32-78-90-12",
+      "fax": "+47-32-78-90-13"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "124 KONGSBERG STREET, KONGSBERG, NORWAY",
+      "telephone": "+47-32-78-90-12",
+      "fax": "+47-32-78-90-13"
+    },
+    "onboardDate": "2024-11-06 21:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2758, VALUE: USD657,454, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5406589",
+    "unClass": "6",
+    "unCode": "2758,",
+    "hsCode": "3383.65.91",
+    "flashPoint": "1\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

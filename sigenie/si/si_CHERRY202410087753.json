@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410087753",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA INDUSTRIES CO. LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "DELTA GLOBAL SHIPPING LLC",
+      "address": "NO. 456, SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA GLOBAL SHIPPING LLC",
+      "address": "NO. 789, FUJIAN ROAD, FUZHOU, CHINA 350000",
+      "telephone": "+86-591-8888-9999",
+      "fax": "+86-591-8888-9998"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871690",
+  "commodityDescription": "OUT-OF-GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT5019615",
+      "sealNumber": "SEAL980490",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 9177.96,
+      "measurement": 23.74
+    },
+    {
+      "containerNumber": "CONT6702541",
+      "sealNumber": "SEAL431234",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 8758.4,
+      "measurement": 38.58
+    },
+    {
+      "containerNumber": "CONT4424349",
+      "sealNumber": "SEAL319653",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 17532.76,
+      "measurement": 32.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD OPEN TOP",
+    "totalPackages": 260,
+    "totalGrossWeight": 35469.12,
+    "totalMeasurement": 94.48
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA GLOBAL SHIPPING LLC",
+      "address": "NO. 456, SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA GLOBAL SHIPPING LLC",
+      "address": "NO. 456, SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 4734x2432x2989, VALUE: USD785,827",
+    "outOfGaugeDimensions": {
+      "length": 4734,
+      "width": 2432,
+      "height": 2989
+    }
+  },
+  "outOfGaugeDimensions": {
+    "length": "4734",
+    "width": "2432",
+    "height": "2989",
+    "overWidth": "0",
+    "overHeight": "399"
+  }
+}

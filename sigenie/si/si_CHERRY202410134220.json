@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410134220",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI FINE TEXTILES CO., LTD.",
+      "onBeHalfOf": "",
+      "address": "1234 FINE TEXTILES RD, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 12345679",
+      "email": "LIU.WEIMIN@FINE TEXTILES.CN"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN TRADING LLC.",
+      "address": "1234 SUNRISE AVE, HAMBURG, GERMANY",
+      "companyNumber": "123456789",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "JANSSEN.EMMA@GOLDENSUNTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": ""
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "392690",
+  "commodityDescription": "DANGEROUS GOODS - PLASTIC ARTICLES",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "DANGEROUS GOODS - SHANGHAI FINE TEXTILES",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "PLASTIC ARTICLES - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 13000.0,
+      "measurement": 33.696,
+      "additionalInfo": "UN 1360"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR)",
+    "totalPackages": 10,
+    "packageType": "CRATES",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 13000.0,
+    "totalMeasurement": 33.696
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN SUN TRADING LLC.",
+      "address": "1234 SUNRISE AVE, HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679"
+    },
+    "onboardDate": "2024-10-30 09:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 1360, VALUE: USD518,034"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6924608",
+    "unClass": "3",
+    "unCode": "1360,",
+    "hsCode": "9000.63.34",
+    "flashPoint": "58\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

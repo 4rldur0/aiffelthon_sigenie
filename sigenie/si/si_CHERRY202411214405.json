@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202411214405",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA IMPORT EXPORT CO.",
+      "address": "123 INTERNATIONAL TRADE CENTRE, TANJONG PAGAR ROAD, SINGAPORE 088491",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6532 1234",
+      "email": "SALES@ASIAIMPORTEXTPORT.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "456 LOGISTICS PARK, AVENIDA DE LA ESPA\u00d1A, 29002 MALAGA, SPAIN",
+      "country": "SPAIN",
+      "email": "INFO@GLOBALLOGISTICS.ES",
+      "telephone": "+34 952 123 456",
+      "fax": "+34 952 789 012"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "456 LOGISTICS PARK, AVENIDA DE LA ESPA\u00d1A, 29002 MALAGA, SPAIN",
+      "country": "SPAIN",
+      "email": "OPERATIONS@GLOBALLOGISTICS.ES",
+      "telephone": "+34 952 123 456",
+      "fax": "+34 952 789 012"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030199",
+  "commodityDescription": "FROZEN BEEF",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "FROZEN BEEF - LOT A123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN BEEF",
+      "grossWeight": 25000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HC)",
+    "totalPackages": 1000,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241215001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "456 LOGISTICS PARK, AVENIDA DE LA ESPA\u00d1A, 29002 MALAGA, SPAIN",
+      "telephone": "+34 952 123 456",
+      "fax": "+34 952 789 012",
+      "email": "OPERATIONS@GLOBALLOGISTICS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "456 LOGISTICS PARK, AVENIDA DE LA ESPA\u00d1A, 29002 MALAGA, SPAIN",
+      "telephone": "+34 952 123 456",
+      "fax": "+34 952 789 012",
+      "email": "FINANCE@GLOBALLOGISTICS.ES"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 9\u00b0C, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5497470",
+    "temperature": "9\u00b0C",
+    "minTemperature": "7\u00b0C",
+    "maxTemperature": "11\u00b0C",
+    "ventilation": "15%",
+    "humidity": "88%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411206068",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "1234 HONGQIAO ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@APLOGISTICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "1234 AMSTERDAMSEWEG, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL857123456B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@GLOBALTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "FIRST NETHERLANDS LOGISTICS BV",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL827654321B01",
+      "president": "MS. ANNA JONES",
+      "telephone": "+31 10 555 6666",
+      "fax": "+31 10 555 7777"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030211",
+  "commodityDescription": "BEEF",
+  "containers": [
+    {
+      "containerNumber": "CONT8317439",
+      "sealNumber": "SEAL977079",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 18574.43,
+      "measurement": 22.56
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 86,
+    "totalGrossWeight": 18574.43,
+    "totalMeasurement": 22.56
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411206068"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST NETHERLANDS LOGISTICS BV",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 555 6666",
+      "fax": "+31 10 555 7777",
+      "email": "INFO@FIRSTNL.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST NETHERLANDS LOGISTICS BV",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 555 6666",
+      "fax": "+31 10 555 7777",
+      "email": "INFO@FIRSTNL.NL"
+    },
+    "onboardDate": "2024-12-04 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -17\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1220019",
+    "temperature": "-17\u00b0C",
+    "minTemperature": "-19\u00b0C",
+    "maxTemperature": "-15\u00b0C",
+    "ventilation": "24%",
+    "humidity": "78%"
+  }
+}

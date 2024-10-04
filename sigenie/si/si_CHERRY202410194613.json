@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410194613",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "onBehalfOf": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 ELECTRONICS STREET, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 WAREHOUSE LANE, GDANSK, POLAND",
+      "companyNumber": "123456789",
+      "telephone": "+48 58 777 7000",
+      "fax": "+48 58 777 7001",
+      "email": "JANSSEN.EMMA@GLOBALFREIGHT.PL"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "1234 ELECTRONICS STREET, NINGBO, ZHEJIANG, CHINA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "903033",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TELECOM EQUIPMENT - NINGBO",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "TELECOMMUNICATION EQUIPMENT - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.5,
+      "additionalInfo": "DANGEROUS GOODS, UN 2790"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 20' DRY CONTAINER",
+    "totalPackages": 10,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "1234 ELECTRONICS STREET, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-11-03 20:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2790"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8476239",
+    "unClass": "6",
+    "unCode": "2790",
+    "hsCode": "4185.54.93",
+    "flashPoint": "95\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411132799",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 ELECTRONICS WAY, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "2222 LOGISTICS DR, HAMBURG 20457, GERMANY",
+      "companyNumber": "123456789",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568",
+      "email": "JANSSEN.EMMA@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "2222 LOGISTICS DR, HAMBURG 20457, GERMANY"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT9361226",
+      "sealNumber": "SEAL595276",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 17938.82,
+      "measurement": 21.72
+    },
+    {
+      "containerNumber": "CONT6843970",
+      "sealNumber": "SEAL562692",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 10262.33,
+      "measurement": 33.02
+    },
+    {
+      "containerNumber": "CONT9321821",
+      "sealNumber": "SEAL901569",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 17115.18,
+      "measurement": 22.56
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 203,
+    "totalGrossWeight": 45316.33,
+    "totalMeasurement": 77.3
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L/C 1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "2222 LOGISTICS DR, HAMBURG 20457, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568",
+      "email": "JANSSEN.EMMA@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "1234 ELECTRONICS WAY, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAELECTRONICS.CN"
+    },
+    "onboardDate": "2024-12-03 19:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2550, VALUE: USD21,717, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4443895",
+    "unClass": "9",
+    "unCode": "2550,",
+    "hsCode": "5194.48.18",
+    "flashPoint": "56\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

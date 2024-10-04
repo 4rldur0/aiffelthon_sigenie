@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202410185178",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE ELECTRONICS MANUFACTURING PTE LTD",
+      "address": "123 ELECTRONICS STREET, SINGAPORE 659678",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SALES@SINGAPOREELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@DHL-GF.DE",
+      "personincharge": "FRANZ MEIER"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "123 LOGISTICS STREET, SINGAPORE 659679",
+      "country": "SINGAPORE",
+      "telephone": "+65 6789 0125",
+      "fax": "+65 6789 0126",
+      "email": "NOTIFICATIONS@DHL-GF.SG"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "392690",
+  "commodityDescription": "DANGEROUS GOODS - PLASTIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2798373",
+      "sealNumber": "900375",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CHLORATES; SODIUM CHLORATE",
+      "grossWeight": 18000.0,
+      "measurement": 21.0
+    },
+    {
+      "containerNumber": "CRLU2698357",
+      "sealNumber": "900376",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CHLORATES; SODIUM CHLORATE",
+      "grossWeight": 18000.0,
+      "measurement": 21.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY X 2) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "totalpackageType": "DRUMS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 42.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-10-26 13:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2031, VALUE: USD792,062, 30 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1827705",
+    "unClass": "5",
+    "unCode": "2031,",
+    "hsCode": "1406.93.51",
+    "flashPoint": "91\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

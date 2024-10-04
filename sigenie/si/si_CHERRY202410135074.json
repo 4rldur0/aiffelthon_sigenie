@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410135074",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TRADING CORPORATION",
+      "address": "1234 HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL",
+      "contactPerson": "PETER SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT & EXPORT LTD."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "961610",
+  "commodityDescription": "STATIONERY ITEMS",
+  "containers": [
+    {
+      "containerNumber": "CONT9173251",
+      "sealNumber": "SEAL520765",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 11937.59,
+      "measurement": 35.23
+    },
+    {
+      "containerNumber": "CONT4374166",
+      "sealNumber": "SEAL158308",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 12633.48,
+      "measurement": 24.97
+    },
+    {
+      "containerNumber": "CONT6634243",
+      "sealNumber": "SEAL667536",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 13698.91,
+      "measurement": 26.03
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 151,
+    "totalGrossWeight": 38269.98,
+    "totalMeasurement": 86.23
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-10-22 16:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

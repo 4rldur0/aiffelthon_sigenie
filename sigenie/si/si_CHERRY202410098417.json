@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410098417",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA PRECISION ENGINEERING GMBH",
+      "address": "25 HANOVER STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "consignee": {
+      "name": "BETA PRECISION ENGINEERING CO. LTD.",
+      "address": "150 JINGAO ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6288 1234",
+      "fax": "+86 21 6288 1235"
+    },
+    "notifyParty": {
+      "name": "GAMMA IMPORT EXPORT LTD.",
+      "address": "200 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 1235"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA202410",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - MILLING MACHINES",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY CONTAINER)",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 8000.0,
+    "totalMeasurement": 20.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410278901"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "BETA PRECISION ENGINEERING CO. LTD.",
+      "address": "150 JINGAO ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6288 1234",
+      "fax": "+86 21 6288 1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING CO. LTD.",
+      "address": "25 HANOVER STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-10-13 22:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

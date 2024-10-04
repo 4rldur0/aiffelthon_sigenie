@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411094809",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE AEROSPACE MANUFACTURING LTD",
+      "address": "123 AEROSPACE DRIVE, SINGAPORE 648361",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SHIPPING@SAEROSPACEMFG.COM"
+    },
+    "consignee": {
+      "name": "AIRBUS FRANCE SAS",
+      "address": "10 RUE DE LA BOETIE, 75008 PARIS, FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. Guillaume Faury",
+      "telephone": "+33 1 44 44 44 44",
+      "fax": "+33 1 44 44 44 45",
+      "email": "GUillaume.Faury@AIRBUS.COM"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (FRANCE) SARL",
+      "address": "15 RUE DU FAUBOURG SAINT-HONOR\u00c9, 75008 PARIS, FRANCE",
+      "telephone": "+33 1 55 55 55 55",
+      "fax": "+33 1 55 55 55 56",
+      "email": "SHIPPING.FR@DHL.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "392690",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DANGEROUS CHEMICALS",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 15.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
+      "telephone": "+65 6220 6666",
+      "fax": "+65 6220 6667",
+      "email": "SHIPPING@DHL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
+      "telephone": "+65 6220 6666",
+      "fax": "+65 6220 6667",
+      "email": "SHIPPING@DHL.COM.SG"
+    },
+    "onboardDate": "2024-11-16 23:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2840, VALUE: USD918,768, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5769575",
+    "unClass": "5",
+    "unCode": "2840,",
+    "hsCode": "9570.38.10",
+    "flashPoint": "44\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

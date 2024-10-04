@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202411114532",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "456 AVENIDA DEL SOL, MADRID, SPAIN",
+      "telephone": "+34-91-123-4567",
+      "fax": "+34-91-123-4568",
+      "email": "INFO@GLOBALTRADING.ES",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN PORK",
+  "containers": [
+    {
+      "containerNumber": "CONT3459343",
+      "sealNumber": "SEAL780603",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 17393.43,
+      "measurement": 31.96
+    },
+    {
+      "containerNumber": "CONT7809063",
+      "sealNumber": "SEAL595377",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 10472.32,
+      "measurement": 31.15
+    },
+    {
+      "containerNumber": "CONT8877541",
+      "sealNumber": "SEAL486092",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 5270.68,
+      "measurement": 30.18
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 250,
+    "totalGrossWeight": 33136.43,
+    "totalMeasurement": 93.29
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241111-001",
+    "documentNumber": "20241111-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "456 AVENIDA DEL SOL, MADRID, SPAIN",
+      "telephone": "+34-91-123-4567",
+      "fax": "+34-91-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "456 AVENIDA DEL SOL, MADRID, SPAIN",
+      "telephone": "+34-91-123-4567",
+      "fax": "+34-91-123-4568"
+    },
+    "onboardDate": "2024-11-17 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 8\u00b0C, VALUE: USD182,697, 14 DAYS FREE TIME AT DESTINATION",
+    "reeferSettings": {
+      "setTemperature": 8,
+      "temperatureTolerance": 1
+    }
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4212621",
+    "temperature": "8\u00b0C",
+    "minTemperature": "6\u00b0C",
+    "maxTemperature": "10\u00b0C",
+    "ventilation": "60%",
+    "humidity": "88%"
+  }
+}

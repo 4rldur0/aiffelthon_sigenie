@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202411226505",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "POWERTECH ENGINEERING CO. LTD",
+      "address": "NO. 123, CHANGJIANG ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 1235",
+      "email": "SALES@POWERTECHENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "BERLINER STRASSE 56, 20357 HAMBURG, GERMANY",
+      "taxId": "DE1234567890",
+      "president": "MR. HANS MEIER",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "GERMAN LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 10, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 9999 1234",
+      "fax": "+49 40 9999 1235",
+      "email": "OPERATIONS@GERMANLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "850440",
+  "commodityDescription": "ELECTRICAL TRANSFORMER, STATIC CONVERTER, CIRCUIT BREAKER",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "OUT-OF-GAUGE POWER TRANSFORMER, SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 25000.0,
+      "measurement": 50.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 OPEN TOP X 1) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "20 OPEN TOP",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "BERLINER STRASSE 56, 20357 HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "BERLINER STRASSE 56, 20357 HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.DE"
+    },
+    "onboardDate": "2024-12-07 20:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 9347x2432x2192"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9347",
+    "width": "2432",
+    "height": "2192",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

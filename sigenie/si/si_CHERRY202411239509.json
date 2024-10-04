@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411239509",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "1234 MAIN STREET, NINGBO, ZHEJIANG, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@SUNRISETRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 EUROPEAN BOULEVARD, ROTTERDAM, NETHERLANDS, 3000AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 EUROPEAN BOULEVARD, ROTTERDAM, NETHERLANDS, 3000AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALFREIGHTSOLUTIONS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940390",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT9501986",
+      "sealNumber": "SEAL336628",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 5136.26,
+      "measurement": 38.34
+    },
+    {
+      "containerNumber": "CONT3453749",
+      "sealNumber": "SEAL681129",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 19238.64,
+      "measurement": 35.59
+    },
+    {
+      "containerNumber": "CONT8786844",
+      "sealNumber": "SEAL900966",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 11389.92,
+      "measurement": 20.6
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 204,
+    "totalGrossWeight": 35764.82,
+    "totalMeasurement": 94.53
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411239509"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 EUROPEAN BOULEVARD, ROTTERDAM, NETHERLANDS, 3000AA",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 EUROPEAN BOULEVARD, ROTTERDAM, NETHERLANDS, 3000AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-12-07 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

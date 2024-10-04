@@ -1,0 +1,138 @@
+{
+  "bookingReference": "CHERRY202412021493",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "456 AVENIDA DE LAS FLORES, MADRID, SPAIN",
+      "telephone": "+34-91-234-5678",
+      "fax": "+34-91-234-5679",
+      "email": "INFO@ALPHAIMPORT.ES",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030319",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT5480510",
+      "sealNumber": "SEAL878895",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 14975.72,
+      "measurement": 22.11
+    },
+    {
+      "containerNumber": "CONT3414324",
+      "sealNumber": "SEAL354460",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 13845.66,
+      "measurement": 27.34
+    },
+    {
+      "containerNumber": "CONT5044525",
+      "sealNumber": "SEAL782702",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 10510.08,
+      "measurement": 30.75
+    },
+    {
+      "containerNumber": "CONT1079525",
+      "sealNumber": "SEAL339257",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 6304.51,
+      "measurement": 20.59
+    },
+    {
+      "containerNumber": "CONT9780651",
+      "sealNumber": "SEAL794022",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 8079.48,
+      "measurement": 38.01
+    },
+    {
+      "containerNumber": "CONT4382894",
+      "sealNumber": "SEAL953646",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 10606.49,
+      "measurement": 39.53
+    },
+    {
+      "containerNumber": "CONT6580691",
+      "sealNumber": "SEAL356326",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 16130.39,
+      "measurement": 22.93
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 HIGH CUBE REEFER",
+    "totalPackages": 369,
+    "totalGrossWeight": 80452.33,
+    "totalMeasurement": 201.26
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241202-1001",
+    "documentNumber": "20241202-1001",
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "456 AVENIDA DE LAS FLORES, MADRID, SPAIN",
+      "telephone": "+34-91-234-5678",
+      "fax": "+34-91-234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "456 AVENIDA DE LAS FLORES, MADRID, SPAIN",
+      "telephone": "+34-91-234-5678",
+      "fax": "+34-91-234-5679"
+    },
+    "onboardDate": "2024-12-12 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -5\u00b0C, VALUE: USD836,523"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2303604",
+    "temperature": "-5\u00b0C",
+    "minTemperature": "-7\u00b0C",
+    "maxTemperature": "-3\u00b0C",
+    "ventilation": "71%",
+    "humidity": "88%"
+  }
+}

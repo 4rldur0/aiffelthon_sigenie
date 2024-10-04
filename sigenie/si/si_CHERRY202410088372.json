@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410088372",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO LTD",
+      "address": "123 TECH STREET, SHANGHAI CITY, SHANGHAI PROVINCE, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 1234 5678",
+      "email": "SALES@ASIAELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "125 HAMBURG STREET, HAMBURG, 20457, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@GLOBALSOLUTIONS.DE",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433"
+    },
+    "notifyParty": {
+      "name": "EUROLOGISTICS GMBH",
+      "address": "127 PORT STREET, HAMBURG, 20359, GERMANY",
+      "country": "GERMANY",
+      "email": "OPERATIONS@EUROLOGISTICS.DE",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "854370",
+  "commodityDescription": "REFRIGERATION UNITS",
+  "containers": [
+    {
+      "containerNumber": "CONT8072241",
+      "sealNumber": "SEAL682554",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 9719.38,
+      "measurement": 37.41
+    },
+    {
+      "containerNumber": "CONT3039223",
+      "sealNumber": "SEAL945700",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 15852.3,
+      "measurement": 34.24
+    },
+    {
+      "containerNumber": "CONT8205860",
+      "sealNumber": "SEAL769890",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 15843.03,
+      "measurement": 28.79
+    },
+    {
+      "containerNumber": "CONT5109755",
+      "sealNumber": "SEAL826943",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 7159.41,
+      "measurement": 20.03
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE REEFER",
+    "totalPackages": 216,
+    "totalGrossWeight": 48574.12,
+    "totalMeasurement": 120.47
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "125 HAMBURG STREET, HAMBURG, 20457, GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433",
+      "email": "INFO@GLOBALSOLUTIONS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "125 HAMBURG STREET, HAMBURG, 20457, GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433",
+      "email": "INFO@GLOBALSOLUTIONS.DE"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 16\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2928329",
+    "temperature": "16\u00b0C",
+    "minTemperature": "14\u00b0C",
+    "maxTemperature": "18\u00b0C",
+    "ventilation": "33%",
+    "humidity": "83%"
+  }
+}

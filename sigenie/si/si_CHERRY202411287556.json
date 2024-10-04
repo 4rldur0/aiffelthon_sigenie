@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411287556",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING LTD.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6289 5678",
+      "fax": "+86 21 6289 5679",
+      "email": "INFO@BETAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "456 MADRID STREET, MADRID, SPAIN",
+      "taxId": "ESB123456789",
+      "president": "MR. JUAN PEREZ",
+      "telephone": "+34 91 567 8901",
+      "fax": "+34 91 567 8902",
+      "email": "JUAN.PEREZ@ALPHAGLOBAL.COM"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL LOGISTICS S.L.",
+      "address": "789 BARCELONA AVENUE, BARCELONA, SPAIN",
+      "telephone": "+34 93 456 7890",
+      "fax": "+34 93 456 7891",
+      "email": "LOGISTICS@ALPHAGLOBAL.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "621120",
+  "commodityDescription": "TRACK SUITS, SWEATSHIRTS, SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CONT2441868",
+      "sealNumber": "SEAL533888",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 16469.89,
+      "measurement": 22.23
+    },
+    {
+      "containerNumber": "CONT7385976",
+      "sealNumber": "SEAL209437",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 7990.21,
+      "measurement": 21.68
+    },
+    {
+      "containerNumber": "CONT8359708",
+      "sealNumber": "SEAL407867",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 10570.92,
+      "measurement": 31.15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 192,
+    "totalGrossWeight": 35031.02,
+    "totalMeasurement": 75.06
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-12-17 09:00",
+    "additionalRemarks": "ON DECK TOP STOWAGE"
+  }
+}

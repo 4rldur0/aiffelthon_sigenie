@@ -1,0 +1,83 @@
+{
+  "bookingReference": "CHERRY202410221629",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING INC.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-1235"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GLOBALTRADING.NL",
+      "contactPerson": "PETER VAN DER KLEIJ"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS ASSORTMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT3969654",
+      "sealNumber": "SEAL370645",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 7916.78,
+      "measurement": 35.73
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD GENERAL",
+    "totalPackages": 75,
+    "totalGrossWeight": 7916.78,
+    "totalMeasurement": 35.73
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241022-1001",
+    "documentNumber": "20241022-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

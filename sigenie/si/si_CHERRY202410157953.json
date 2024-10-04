@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410157953",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INTERNATIONAL TRADING CO.",
+      "address": "1234 MAIN STREET, NINGBO, ZHEJIANG, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "ATTN: MR. LI WEI",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "LI.WEI@DELTAINTERNATIONAL.CN"
+    },
+    "consignee": {
+      "name": "OMEGA FREIGHT SOLUTIONS LTD.",
+      "address": "1234 EUROPA STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 8888 73 25",
+      "fax": "+31 10 8888 73 90",
+      "email": "JOHN.DOE@OMEGAFREIGHT.NL"
+    },
+    "notifyParty": {
+      "name": "OMEGA FREIGHT SOLUTIONS LTD.",
+      "address": "1234 EUROPA STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 8888 73 25",
+      "fax": "+31 10 8888 73 90",
+      "email": "JOHN.DOE@OMEGAFREIGHT.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "SODIUM HYPOCHLORITE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA20241015",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SODIUM HYPOCHLORITE SOLUTION",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY CONTAINER)",
+    "totalPackages": 100,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241015001"
+    },
+    "certificateDetails": [
+      "MSDS",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "OMEGA FREIGHT SOLUTIONS LTD.",
+      "address": "1234 EUROPA STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 8888 73 25",
+      "fax": "+31 10 8888 73 90",
+      "email": "JOHN.DOE@OMEGAFREIGHT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA FREIGHT SOLUTIONS LTD.",
+      "address": "1234 EUROPA STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 8888 73 25",
+      "fax": "+31 10 8888 73 90",
+      "email": "JOHN.DOE@OMEGAFREIGHT.NL"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 1314"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9332893",
+    "unClass": "5",
+    "unCode": "1314",
+    "hsCode": "5147.83.33",
+    "flashPoint": "-8\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

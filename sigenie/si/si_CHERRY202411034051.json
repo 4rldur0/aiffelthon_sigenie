@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411034051",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO. LTD.",
+      "address": "NO. 1234, HUAHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ACME GLOBAL LOGISTICS",
+      "address": "MARKTPLATZ 1, 30171 HANNOVER, GERMANY",
+      "telephone": "+49-511-2345-6789",
+      "fax": "+49-511-2345-6780",
+      "email": "INFO@ACMEGLOBAL.DE",
+      "contactPerson": "JOHANNA MEIER"
+    },
+    "notifyParty": {
+      "name": "ACME GLOBAL LOGISTICS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950430",
+  "commodityDescription": "TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT5207680",
+      "sealNumber": "SEAL692722",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 17006.84,
+      "measurement": 29.93
+    },
+    {
+      "containerNumber": "CONT6952698",
+      "sealNumber": "SEAL175628",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 7892.73,
+      "measurement": 38.21
+    },
+    {
+      "containerNumber": "CONT1984581",
+      "sealNumber": "SEAL698816",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 8867.71,
+      "measurement": 26.78
+    },
+    {
+      "containerNumber": "CONT4298728",
+      "sealNumber": "SEAL246941",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 6857.59,
+      "measurement": 23.1
+    },
+    {
+      "containerNumber": "CONT6105842",
+      "sealNumber": "SEAL386483",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 6182.75,
+      "measurement": 23.89
+    },
+    {
+      "containerNumber": "CONT7935335",
+      "sealNumber": "SEAL800249",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 9461.67,
+      "measurement": 24.8
+    },
+    {
+      "containerNumber": "CONT7516147",
+      "sealNumber": "SEAL180877",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 15428.49,
+      "measurement": 28.85
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 20 STANDARD GENERAL",
+    "totalPackages": 383,
+    "totalGrossWeight": 71697.78,
+    "totalMeasurement": 195.56
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241104-1001",
+    "documentNumber": "20241104-1001",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ACME GLOBAL LOGISTICS",
+      "address": "MARKTPLATZ 1, 30171 HANNOVER, GERMANY",
+      "telephone": "+49-511-2345-6789",
+      "fax": "+49-511-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ELECTRONICS CO. LTD.",
+      "address": "NO. 1234, HUAHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "onboardDate": "2024-11-14 18:00:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

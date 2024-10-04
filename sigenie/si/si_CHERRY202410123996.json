@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410123996",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TOYOTA MOTOR CORPORATION",
+      "address": "1 TOYOTA-CHO, TOYOTA CITY, AICHI 471-8571, JAPAN",
+      "country": "JAPAN",
+      "additionalInfo": "",
+      "telephone": "+81 565 28 2111",
+      "email": "INFO@TOYOTAMOTOR.CO.JP"
+    },
+    "consignee": {
+      "name": "KUEHNE + NAGEL INTERNATIONAL LTD.",
+      "address": "WILHELMINAKADE 123, 3072 AP ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@KN-INTL.NL",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "392690",
+  "commodityDescription": "OTHER ARTICLES OF PLASTICS",
+  "containers": [
+    {
+      "containerNumber": "CONT7091222",
+      "sealNumber": "SEAL841181",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 15181.71,
+      "measurement": 32.03
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 57,
+    "totalGrossWeight": 15181.71,
+    "totalMeasurement": 32.03
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410256832"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "KUEHNE + NAGEL INTERNATIONAL LTD.",
+      "address": "WILHELMINAKADE 123, 3072 AP ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@KN-INTL.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TOYOTA MOTOR CORPORATION",
+      "address": "1 TOYOTA-CHO, TOYOTA CITY, AICHI 471-8571, JAPAN",
+      "telephone": "+81 565 28 2111",
+      "email": "INFO@TOYOTAMOTOR.CO.JP"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2495, VALUE: USD365,386, 7 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7293303",
+    "unClass": "8",
+    "unCode": "2495,",
+    "hsCode": "5993.36.76",
+    "flashPoint": "64\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

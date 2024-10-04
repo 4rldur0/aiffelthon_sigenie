@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410145606",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SCHAEFER GMBH & CO. KG",
+      "address": "GEWERBSTRASSE 15, 20097 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "ATTN: MR. PETER MEYER",
+      "telephone": "+49 40 3789 1234",
+      "fax": "+49 40 3789 5678",
+      "email": "PETER.MEYER@SCHAEFER- GMBH.DE"
+    },
+    "consignee": {
+      "name": "GTI LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "telephone": "+65 6222 8888",
+      "fax": "+65 6222 9999",
+      "email": "OPERATIONS@GTILOGISTICS.COM.SG"
+    },
+    "notifyParty": {
+      "name": "GTI LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 9876",
+      "email": "NOTIFICATIONS@GTILOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT7041919",
+      "sealNumber": "SEAL923261",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 8980.85,
+      "measurement": 20.96
+    },
+    {
+      "containerNumber": "CONT8611921",
+      "sealNumber": "SEAL144761",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 12737.54,
+      "measurement": 24.92
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD FLAT RACK",
+    "totalPackages": 169,
+    "totalGrossWeight": 21718.39,
+    "totalMeasurement": 45.88
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GTI LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 9876",
+      "email": "NOTIFICATIONS@GTILOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GTI LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 9876",
+      "email": "NOTIFICATIONS@GTILOGISTICS.DE"
+    },
+    "onboardDate": "2024-10-18 09:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 3753x2266x2197, VALUE: USD32,514, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3753",
+    "width": "2266",
+    "height": "2197",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

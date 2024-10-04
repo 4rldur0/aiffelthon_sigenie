@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410125621",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBE EXPORTERS INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 87654321",
+      "email": "INFO@GLOBEEXPORTERS.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL12345678901234",
+      "president": "MR. JAN VAN DER MEER",
+      "telephone": "+31 20 12345678",
+      "fax": "+31 20 87654321",
+      "email": "INFO@SUNRISEIMPORTS.NL"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 12345678",
+      "fax": "+31 20 87654321",
+      "email": "INFO@SUNRISEIMPORTS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CARS",
+  "containers": [
+    {
+      "containerNumber": "CONT4262358",
+      "sealNumber": "SEAL997728",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 10893.79,
+      "measurement": 22.31
+    },
+    {
+      "containerNumber": "CONT4364299",
+      "sealNumber": "SEAL678593",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 10524.06,
+      "measurement": 24.89
+    },
+    {
+      "containerNumber": "CONT8261197",
+      "sealNumber": "SEAL742299",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 14480.53,
+      "measurement": 29.99
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 204,
+    "totalGrossWeight": 35898.38,
+    "totalMeasurement": 77.19
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 12345678",
+      "fax": "+31 20 87654321",
+      "email": "INFO@SUNRISEIMPORTS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 12345678",
+      "fax": "+31 20 87654321",
+      "email": "INFO@SUNRISEIMPORTS.NL"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

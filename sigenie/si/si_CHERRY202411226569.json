@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411226569",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION MACHINERY CO. LTD.",
+      "address": "NO. 88, SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "VAT NO: 9112123456789",
+      "telephone": "+86 574 8689 1234",
+      "fax": "+86 574 8689 5678",
+      "email": "INFO@ASIAPRECISIONMACHINERY.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, 1012 DB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, 1012 DB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES, NUMERICALLY CONTROLLED",
+  "containers": [
+    {
+      "containerNumber": "CONT1564121",
+      "sealNumber": "SEAL720303",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 12857.88,
+      "measurement": 38.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE REEFER",
+    "totalPackages": 58,
+    "totalGrossWeight": 12857.88,
+    "totalMeasurement": 38.81
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, 1012 DB, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, 1012 DB, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-11-26 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 18\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7829804",
+    "temperature": "18\u00b0C",
+    "minTemperature": "16\u00b0C",
+    "maxTemperature": "20\u00b0C",
+    "ventilation": "3%",
+    "humidity": "88%"
+  }
+}

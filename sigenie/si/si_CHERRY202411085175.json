@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411085175",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA PRECISION ENGINEERING CO.",
+      "address": "NO. 123, YONGJIN ROAD, YONGJIN INDUSTRIAL PARK, NINGBO, ZHEJIANG, CHINA",
+      "lei": "91321200765109788X",
+      "telephone": "+86 574 8667 1234",
+      "fax": "+86 574 8667 1235",
+      "email": "SHIPPING@CHINA-PRECISION.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "UNIT 5, 10TH FLOOR, 48-50 KENSINGTON HIGH STREET, LONDON W8 5SE, UNITED KINGDOM",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+44 20 7602 1234",
+      "fax": "+44 20 7602 1235",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS - UN 2663",
+  "containers": [
+    {
+      "containerNumber": "CONT9904370",
+      "sealNumber": "SEAL590639",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 9400.46,
+      "measurement": 25.82
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 86,
+    "totalGrossWeight": 9400.46,
+    "totalMeasurement": 25.82
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "UNIT 5, 10TH FLOOR, 48-50 KENSINGTON HIGH STREET, LONDON W8 5SE, UNITED KINGDOM",
+      "telephone": "+44 20 7602 1234",
+      "fax": "+44 20 7602 1235",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-16 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2663, VALUE: USD364,858, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3265936",
+    "unClass": "9",
+    "unCode": "2663,",
+    "hsCode": "1915.19.74",
+    "flashPoint": "51\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

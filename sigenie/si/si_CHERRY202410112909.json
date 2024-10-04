@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410112909",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GOLDEN STAR TRADING CO.",
+      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GOLDENSTAR.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "GOLDEN STAR TRADING CO."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940330",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CGLU4289451",
+      "sealNumber": 345901,
+      "marksAndNumbers": "GS-123",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - MODEL CH-100",
+      "grossWeight": 12000.0,
+      "measurement": 25.2
+    },
+    {
+      "containerNumber": "CGLU4289452",
+      "sealNumber": 279567,
+      "marksAndNumbers": "GS-124",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS - MODEL CH-100",
+      "grossWeight": 12200.0,
+      "measurement": 25.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 X 2) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 400,
+    "totalGrossWeight": 24200.0,
+    "totalMeasurement": 50.4
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GOLDEN STAR TRADING CO.",
+      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN STAR TRADING CO.",
+      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

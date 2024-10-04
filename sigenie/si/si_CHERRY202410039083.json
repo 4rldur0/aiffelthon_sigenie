@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410039083",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING LTD",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIA pacificmanufacturing.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC",
+      "address": "555 FRANKFURTER STRASSE, HAMBURG, GERMANY, 20457",
+      "companyNumber": "123456789",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "JANSSEN.EMMA@GLOBALTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": ""
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CHILDREN'S TOYS - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHILDREN'S TOYS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU5517315",
+      "sealNumber": "654321",
+      "marksAndNumbers": "CHILDREN'S TOYS - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHILDREN'S TOYS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 FR)",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 56.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC MANUFACTURING LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIA pacificmanufacturing.CN"
+    },
+    "onboardDate": "2024-10-09 16:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, 21 DAYS FREE TIME AT DESTINATION, HANDLE WITH CARE"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

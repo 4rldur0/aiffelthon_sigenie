@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410146508",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "TANGER MED, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES CO. LTD",
+      "onBehalfOf": "",
+      "address": "1234 DELTA RD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "INFO@DELTAINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "5678 OMEGA AVE, TANGIER, MOROCCO",
+      "companyNumber": "1234567890",
+      "telephone": "+212 523 12345678",
+      "fax": "+212 523 12345679",
+      "email": "INFO@OMEGASHIPPING.COM"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "5678 OMEGA AVE, TANGIER, MOROCCO"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871630",
+  "commodityDescription": "SEMI-TRAILER FOR HEAVY HAULAGE",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "DELTA INDUSTRIES - SEMI-TRAILER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SEMI-TRAILER FOR HEAVY HAULAGE - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 25000.0,
+      "measurement": 75.0,
+      "additionalInfo": "OUT OF GAUGE CARGO"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 FR X 1) FLAT RACK CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "20' FLAT RACK",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "5678 OMEGA AVE, TANGIER, MOROCCO",
+      "telephone": "+212 523 12345678",
+      "fax": "+212 523 12345679",
+      "email": "INFO@OMEGASHIPPING.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "5678 OMEGA AVE, TANGIER, MOROCCO",
+      "telephone": "+212 523 12345678",
+      "fax": "+212 523 12345679"
+    },
+    "onboardDate": "2024-10-27 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 8218x2937x2992, 21 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8218",
+    "width": "2937",
+    "height": "2992",
+    "overWidth": "497",
+    "overHeight": "402"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

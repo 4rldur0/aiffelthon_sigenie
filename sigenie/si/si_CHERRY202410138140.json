@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410138140",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING COMPANY",
+      "address": "1234 MAIN STREET, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "CONTACT PERSON: MR. LI",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "LI.WEI@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "5678 EUROPA STREET, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "5678 EUROPA STREET, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, MODELS, AND OTHER ARTICLES FOR USE IN RECREATION AND ENTERTAINMENT.",
+  "containers": [
+    {
+      "containerNumber": "CMAU8756321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GFS20241013",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TOYS",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "5678 EUROPA STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING COMPANY",
+      "address": "1234 MAIN STREET, NINGBO, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "LI.WEI@ASIAPACIFICTRADING.CN"
+    },
+    "onboardDate": "2024-10-21 16:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, FRAGILE"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

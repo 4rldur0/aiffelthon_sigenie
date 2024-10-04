@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202410159329",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FOODS LTD",
+      "address": "123 OCEAN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030771",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT7134003",
+      "sealNumber": "SEAL524148",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 9315.11,
+      "measurement": 34.77
+    },
+    {
+      "containerNumber": "CONT8367692",
+      "sealNumber": "SEAL247380",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 12095.17,
+      "measurement": 23.55
+    },
+    {
+      "containerNumber": "CONT7646084",
+      "sealNumber": "SEAL595746",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 10438.58,
+      "measurement": 20.6
+    },
+    {
+      "containerNumber": "CONT7215905",
+      "sealNumber": "SEAL802546",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 6775.61,
+      "measurement": 20.65
+    },
+    {
+      "containerNumber": "CONT3261771",
+      "sealNumber": "SEAL578087",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 15409.96,
+      "measurement": 24.36
+    },
+    {
+      "containerNumber": "CONT5947323",
+      "sealNumber": "SEAL598804",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 13246.48,
+      "measurement": 26.66
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD REEFER",
+    "totalPackages": 282,
+    "totalGrossWeight": 67280.91,
+    "totalMeasurement": 150.59
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE FOODS LTD",
+      "address": "123 OCEAN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679"
+    },
+    "onboardDate": "2024-10-23 21:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -6\u00b0C, FRAGILE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3514330",
+    "temperature": "-6\u00b0C",
+    "minTemperature": "-8\u00b0C",
+    "maxTemperature": "-4\u00b0C",
+    "ventilation": "60%",
+    "humidity": "66%"
+  }
+}

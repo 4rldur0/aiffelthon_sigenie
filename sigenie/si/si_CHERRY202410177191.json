@@ -1,0 +1,144 @@
+{
+  "bookingReference": "CHERRY202410177191",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC EXPORTERS INC.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 98765432",
+      "email": "INFO@ASIAEXPORTERS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "5678 KLANG ROAD, PORT KLANG, MALAYSIA",
+      "taxId": "12345678901234",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+60 3 12345678",
+      "fax": "+60 3 98765432",
+      "email": "INFO@GLOBALLOGISTICS.COM.MY"
+    },
+    "notifyParty": {
+      "name": "MALAYSIAN INTEGRATED LOGISTICS SERVICES SDN BHD",
+      "address": "BLOCK A, NORTHPORT DISTRIPARK, PERSIARAN PELABUHAN UTARA, 42000 PORT KLANG, SELANGOR, MALAYSIA",
+      "telephone": "+60 3 3169 8500",
+      "fax": "+60 3 3169 8501",
+      "email": "ONG.LIHUI@MILSERVICES.COM.MY"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030710",
+  "commodityDescription": "WHEAT AND MESLIN, WHETHER OR NOT GROUND OR ROLLED, BUT NOT FURTHER PROCESSED OR PREPARED",
+  "containers": [
+    {
+      "containerNumber": "CONT8235685",
+      "sealNumber": "SEAL105632",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 8722.29,
+      "measurement": 27.96
+    },
+    {
+      "containerNumber": "CONT6415319",
+      "sealNumber": "SEAL318002",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 6489.78,
+      "measurement": 24.4
+    },
+    {
+      "containerNumber": "CONT1952862",
+      "sealNumber": "SEAL581179",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 12897.5,
+      "measurement": 34.07
+    },
+    {
+      "containerNumber": "CONT7838355",
+      "sealNumber": "SEAL792310",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 15127.43,
+      "measurement": 34.33
+    },
+    {
+      "containerNumber": "CONT4186602",
+      "sealNumber": "SEAL499893",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 11469.74,
+      "measurement": 23.74
+    },
+    {
+      "containerNumber": "CONT5112586",
+      "sealNumber": "SEAL221645",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 16224.48,
+      "measurement": 26.53
+    },
+    {
+      "containerNumber": "CONT2325341",
+      "sealNumber": "SEAL422085",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 13832.43,
+      "measurement": 33.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 HIGH CUBE REEFER",
+    "totalPackages": 287,
+    "totalGrossWeight": 84763.65,
+    "totalMeasurement": 204.84
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "5678 KLANG ROAD, PORT KLANG, MALAYSIA",
+      "telephone": "+60 3 12345678",
+      "fax": "+60 3 98765432",
+      "email": "INFO@GLOBALLOGISTICS.COM.MY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "5678 KLANG ROAD, PORT KLANG, MALAYSIA",
+      "telephone": "+60 3 12345678",
+      "fax": "+60 3 98765432",
+      "email": "INFO@GLOBALLOGISTICS.COM.MY"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 4\u00b0C, VALUE: USD268,023"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3406065",
+    "temperature": "4\u00b0C",
+    "minTemperature": "2\u00b0C",
+    "maxTemperature": "6\u00b0C",
+    "ventilation": "54%",
+    "humidity": "90%"
+  }
+}

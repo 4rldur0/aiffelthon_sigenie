@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410092359",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION ENGINEERING CO. LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8688 9155",
+      "fax": "+86 574 8688 9200",
+      "email": "LI.WENJUN@ASIAENGINEERING.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "",
+      "president": "MR. PETER SMITH",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "PETER.SMITH@GLOBALFORWARDING.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FORWARDING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "",
+      "president": "MR. JOHN JONES",
+      "telephone": "+31 10 234 5680",
+      "fax": "+31 10 234 5681"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "846630",
+  "commodityDescription": "SPECIALIZED MACHINE TOOLS",
+  "containers": [
+    {
+      "containerNumber": "CONT5872794",
+      "sealNumber": "SEAL895669",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 6818.59,
+      "measurement": 30.24
+    },
+    {
+      "containerNumber": "CONT2152787",
+      "sealNumber": "SEAL410261",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 12521.89,
+      "measurement": 35.17
+    },
+    {
+      "containerNumber": "CONT6414381",
+      "sealNumber": "SEAL110025",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 16184.4,
+      "measurement": 39.07
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD FLAT RACK",
+    "totalPackages": 104,
+    "totalGrossWeight": 35524.88,
+    "totalMeasurement": 104.48
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 4147x2367x2592, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "4147",
+    "width": "2367",
+    "height": "2592",
+    "overWidth": "0",
+    "overHeight": "2"
+  }
+}

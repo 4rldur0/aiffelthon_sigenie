@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202410164495",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA IMPORT EXPORT INC.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "OMEGA IMPORT EXPORT INC.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030211",
+  "commodityDescription": "FROZEN MACKEREL",
+  "containers": [
+    {
+      "containerNumber": "CONT9188398",
+      "sealNumber": "SEAL507864",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 19636.17,
+      "measurement": 36.91
+    },
+    {
+      "containerNumber": "CONT5118045",
+      "sealNumber": "SEAL611888",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 14431.25,
+      "measurement": 31.78
+    },
+    {
+      "containerNumber": "CONT1978519",
+      "sealNumber": "SEAL957226",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 8514.15,
+      "measurement": 36.36
+    },
+    {
+      "containerNumber": "CONT6398839",
+      "sealNumber": "SEAL368364",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 19865.73,
+      "measurement": 30.88
+    },
+    {
+      "containerNumber": "CONT1920173",
+      "sealNumber": "SEAL452572",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 19368.93,
+      "measurement": 26.71
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD REEFER",
+    "totalPackages": 261,
+    "totalGrossWeight": 81816.23,
+    "totalMeasurement": 162.64
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 13\u00b0C, VALUE: USD939,570"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2364785",
+    "temperature": "13\u00b0C",
+    "minTemperature": "11\u00b0C",
+    "maxTemperature": "15\u00b0C",
+    "ventilation": "4%",
+    "humidity": "61%"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410154681",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ALPHA STREET, CENTRAL BUSINESS DISTRICT, SINGAPORE 018978",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "email": "INFO@ASIAPACIFICTRADING.COM.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 BETA AVENUE, LONDON, UNITED KINGDOM, EC2A 4QT",
+      "country": "UNITED KINGDOM",
+      "email": "ORDERS@GLOBALFREIGHTSOLUTIONS.CO.UK",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568"
+    },
+    "notifyParty": {
+      "name": "SEA LOGISTICS LTD.",
+      "address": "789 GAMMA STREET, BARCELONA, SPAIN, 08005",
+      "country": "SPAIN",
+      "email": "OPERATIONS@SEALOGISTICS.ES",
+      "telephone": "+34 93 456 7890",
+      "fax": "+34 93 456 7891"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "38249090",
+  "commodityDescription": "DANGEROUS GOODS, LIQUIDS N.O.S.",
+  "containers": [
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DG-2024-10",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "DANGEROUS GOODS LIQUIDS N.O.S.",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER",
+    "totalPackages": 200,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 BETA AVENUE, LONDON, UNITED KINGDOM, EC2A 4QT",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "ORDERS@GLOBALFREIGHTSOLUTIONS.CO.UK"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 BETA AVENUE, LONDON, UNITED KINGDOM, EC2A 4QT",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "ORDERS@GLOBALFREIGHTSOLUTIONS.CO.UK"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2865, VALUE: USD444,089, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3962042",
+    "unClass": "8",
+    "unCode": "2865,",
+    "hsCode": "6875.72.37",
+    "flashPoint": "17\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411277894",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TEXTILE COMPANY",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 1234 5678",
+      "email": "SHIPPING@SHANGHAITEXTILE.COM"
+    },
+    "consignee": {
+      "name": "ALPHA TRADING LTD.",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "INFO@ALPHATRADING.NL",
+      "telephone": "+31 10 987 6543",
+      "fax": "+31 10 987 6544"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS BV",
+      "address": "789 HARBOR BOULEVARD, ROTTERDAM, NETHERLANDS, 3010 AA",
+      "country": "NETHERLANDS",
+      "email": "NOTIFICATIONS@BLUESKYLOGISTICS.NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "630790",
+  "commodityDescription": "OTHER MADE UP TEXTILE ARTICLES; PARTS OF SUCH ARTICLES",
+  "containers": [
+    {
+      "containerNumber": "CONT4610808",
+      "sealNumber": "SEAL114361",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 7159.81,
+      "measurement": 23.52
+    },
+    {
+      "containerNumber": "CONT6915377",
+      "sealNumber": "SEAL310515",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 8730.88,
+      "measurement": 27.34
+    },
+    {
+      "containerNumber": "CONT3350656",
+      "sealNumber": "SEAL899237",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 19271.31,
+      "measurement": 24.77
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 147,
+    "totalGrossWeight": 35162.0,
+    "totalMeasurement": 75.63
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA TRADING LTD.",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31 10 987 6543",
+      "fax": "+31 10 987 6544",
+      "email": "INFO@ALPHATRADING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA TRADING LTD.",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31 10 987 6543",
+      "fax": "+31 10 987 6544",
+      "email": "INFO@ALPHATRADING.NL"
+    },
+    "onboardDate": "2024-12-17 16:00",
+    "additionalRemarks": "MAINTAIN HUMIDITY"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410128708",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MACHINERY LTD.",
+      "address": "NO. 555, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 200, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 200, NEW YORK, USA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "846620",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT5893705",
+      "sealNumber": "SEAL609139",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 15652.35,
+      "measurement": 27.75
+    },
+    {
+      "containerNumber": "CONT4265583",
+      "sealNumber": "SEAL504496",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 8250.89,
+      "measurement": 23.62
+    },
+    {
+      "containerNumber": "CONT8750463",
+      "sealNumber": "SEAL742604",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 17753.74,
+      "measurement": 26.01
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 184,
+    "totalGrossWeight": 41656.98,
+    "totalMeasurement": 77.38
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241012-1001",
+    "documentNumber": "20241012-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 200, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 200, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "MAINTAIN HUMIDITY"
+  }
+}

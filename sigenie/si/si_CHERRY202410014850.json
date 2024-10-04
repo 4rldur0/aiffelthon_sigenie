@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410014850",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING INC.",
+      "address": "123 INDUSTRIAL PARK ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "SHIPPING@BETAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "10 AVENIDA DE LA ESPERANZA, MADRID, SPAIN 28001",
+      "taxId": "ES123456789",
+      "president": "Mr. Luis Rodriguez",
+      "telephone": "+34 91 555 1234",
+      "fax": "+34 91 555 5678",
+      "email": "LUIS.RODRIGUEZ@ALPHAIMPORTEXPORT.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SPAIN S.L.",
+      "address": "CALLE DE LA LOGISTICA 5, BARCELONA, SPAIN 08001",
+      "taxId": "ES987654321",
+      "president": "Ms. Carmen Garcia",
+      "telephone": "+34 93 555 1234",
+      "fax": "+34 93 555 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "FRSU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA TRAILER 2024",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "containerType": "FLAT RACK",
+      "cargoDescription": "OUT OF GAUGE TRAILER - AS PER PACKING LIST",
+      "grossWeight": 25000.0,
+      "measurement": 150.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 FR X 1) FLAT RACK CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "FLAT RACK",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 6243x2524x2564, VALUE: USD133,446, DO NOT STACK"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6243",
+    "width": "2524",
+    "height": "2564",
+    "overWidth": "84",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

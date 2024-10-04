@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410272243",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8889",
+      "email": "INFO@ABCTRADING.COM"
+    },
+    "consignee": {
+      "name": "DEF IMPORT EXPORT INC.",
+      "address": "456 BROADWAY, ROTTERDAM, SOUTH HOLLAND, NETHERLANDS 3011 AA",
+      "taxId": "NL8556789012345",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 2222 2222",
+      "fax": "+31 10 2222 2223",
+      "email": "SALES@DEFIMPORT.COM"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS BV",
+      "address": "789 CANAL STREET, ROTTERDAM, SOUTH HOLLAND, NETHERLANDS 3012 AA",
+      "telephone": "+31 10 3333 3333",
+      "fax": "+31 10 3333 3334",
+      "email": "OPERATIONS@ABCLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940171",
+  "commodityDescription": "GARDEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT8515262",
+      "sealNumber": "SEAL813291",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 5563.3,
+      "measurement": 22.25
+    },
+    {
+      "containerNumber": "CONT4193373",
+      "sealNumber": "SEAL167147",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 5273.65,
+      "measurement": 26.67
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 113,
+    "totalGrossWeight": 10836.95,
+    "totalMeasurement": 48.92
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ABC LOGISTICS BV",
+      "address": "789 CANAL STREET, ROTTERDAM, SOUTH HOLLAND, NETHERLANDS 3012 AA",
+      "telephone": "+31 10 3333 3333",
+      "fax": "+31 10 3333 3334",
+      "email": "OPERATIONS@ABCLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DEF IMPORT EXPORT INC.",
+      "address": "456 BROADWAY, ROTTERDAM, SOUTH HOLLAND, NETHERLANDS 3011 AA",
+      "telephone": "+31 10 2222 2222",
+      "fax": "+31 10 2222 2223",
+      "email": "SALES@DEFIMPORT.COM"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "THIS SIDE UP"
+  }
+}

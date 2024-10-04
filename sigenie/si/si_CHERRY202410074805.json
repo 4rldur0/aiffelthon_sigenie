@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410074805",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES PTE LTD",
+      "onBehalfOf": "",
+      "address": "1234 INDUSTRY ROAD, SINGAPORE 609556",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0456",
+      "email": "INFO@ASIA-PACIFIC.COM.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "5678 RUE DE LA PAIX, PARIS 75008, FRANCE",
+      "companyNumber": "123456789",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6780",
+      "email": "INFO@GLOBALTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "5678 RUE DE LA PAIX, PARIS 75008, FRANCE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950691",
+  "commodityDescription": "STONE ARTICLES",
+  "containers": [
+    {
+      "containerNumber": "MSCU7896543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA PACIFIC INDUSTRIES - NINGBO",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "STONE ARTICLES - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 20000.0,
+      "measurement": 33.696,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIA PACIFIC INDUSTRIES - NINGBO",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "STONE ARTICLES - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 20000.0,
+      "measurement": 33.696,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 20' DRY CONTAINER",
+    "totalPackages": 100,
+    "packageType": "CRATES",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 67.392
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "1234 GLOBAL STREET, SINGAPORE 654321",
+      "telephone": "+65 9876 5432",
+      "fax": "+65 9876 5431",
+      "email": "INFO@GLOBALLOGISTICS.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC INDUSTRIES PTE LTD",
+      "address": "1234 INDUSTRY ROAD, SINGAPORE 609556"
+    },
+    "onboardDate": "2024-10-16 15:00",
+    "additionalRemarks": "CONTAINER TYPE: HC"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

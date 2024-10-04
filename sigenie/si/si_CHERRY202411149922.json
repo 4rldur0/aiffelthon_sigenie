@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411149922",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 JIANGLIANG ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8712 3456",
+      "fax": "+86 574 8712 7890",
+      "email": "INFO@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, KUALA LUMPUR, MALAYSIA 50450",
+      "taxId": "1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+60 3 2282 1111",
+      "fax": "+60 3 2282 2222",
+      "email": "INFO@GLOBALSHiPPINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "KUALA LUMPUR LOGISTICS LTD.",
+      "address": "456 Jalan Sultan Ismail, Kuala Lumpur, Malaysia 50250",
+      "taxId": "9876543210",
+      "president": "MS. ANNA LEE",
+      "telephone": "+60 3 2387 6543",
+      "fax": "+60 3 2387 5432"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "FRTU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "TRAILER UNIT",
+      "containerType": "FLAT RACK",
+      "cargoDescription": "TRAILER UNIT - AS PER PACKING LIST",
+      "grossWeight": 25000.0,
+      "measurement": 85.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X FLAT RACK) FLAT RACK CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "TRAILER UNIT",
+    "containerType": "FLAT RACK",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 85.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-21 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 11813x2360x2441, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "11813",
+    "width": "2360",
+    "height": "2441",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

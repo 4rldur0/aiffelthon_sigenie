@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202411036569",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS LTD.",
+      "address": "123 YUAN ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAIMPORTS.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE TRADING INC.",
+      "address": "123 AMSTELVEENSTRAAT, ROTTERDAM, 3011, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 5555",
+      "fax": "+31 10 222 5554",
+      "email": "INFO@WORLDWIDETRADING.NL",
+      "personincharge": "ANNA VAN DER LEEUW"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "125 EUROPASTRAAT, ROTTERDAM, 3031, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 333 6666",
+      "fax": "+31 10 333 6665",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "33049900",
+  "commodityDescription": "PERFUME",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PERFUME",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 20 DRY CONTAINER",
+    "totalPackages": 100,
+    "totalpackageType": "CARTONS",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "SDS1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "125 EUROPASTRAAT, ROTTERDAM, 3031, NETHERLANDS",
+      "telephone": "+31 10 333 6666",
+      "fax": "+31 10 333 6665",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE TRADING INC.",
+      "address": "123 AMSTELVEENSTRAAT, ROTTERDAM, 3011, NETHERLANDS",
+      "telephone": "+31 10 222 5555",
+      "fax": "+31 10 222 5554",
+      "email": "INFO@WORLDWIDETRADING.NL"
+    },
+    "onboardDate": "2024-11-13 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 3161, VALUE: USD658,082, FRAGILE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3864825",
+    "unClass": "9",
+    "unCode": "3161,",
+    "hsCode": "5506.61.15",
+    "flashPoint": "88\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

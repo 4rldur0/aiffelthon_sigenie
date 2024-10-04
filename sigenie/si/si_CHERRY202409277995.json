@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202409277995",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@ASIAFOODS.CN"
+    },
+    "consignee": {
+      "name": "ZENITH LOGISTICS INC.",
+      "address": "1234 KRAKOW STREET, GDANSK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 812 73 25",
+      "fax": "+48 58 812 73 90",
+      "email": "MAREK.KOWALSKI@ZENITHLOGISTICS.PL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS",
+      "address": "1234 DONGFANG ROAD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@WORLDWIDELOGISTICS.CN"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT2225025",
+      "sealNumber": "SEAL758302",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 5670.35,
+      "measurement": 37.48
+    },
+    {
+      "containerNumber": "CONT5843972",
+      "sealNumber": "SEAL316533",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 6618.0,
+      "measurement": 35.82
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 117,
+    "totalGrossWeight": 12288.35,
+    "totalMeasurement": 73.3
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ZENITH LOGISTICS INC.",
+      "address": "1234 KRAKOW STREET, GDANSK, POLAND",
+      "telephone": "+48 58 812 73 25",
+      "fax": "+48 58 812 73 90",
+      "email": "MAREK.KOWALSKI@ZENITHLOGISTICS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH LOGISTICS INC.",
+      "address": "1234 KRAKOW STREET, GDANSK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 812 73 25",
+      "fax": "+48 58 812 73 90",
+      "email": "MAREK.KOWALSKI@ZENITHLOGISTICS.PL"
+    },
+    "onboardDate": "2024-10-13 15:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -16\u00b0C, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3516294",
+    "temperature": "-16\u00b0C",
+    "minTemperature": "-18\u00b0C",
+    "maxTemperature": "-14\u00b0C",
+    "ventilation": "19%",
+    "humidity": "84%"
+  }
+}

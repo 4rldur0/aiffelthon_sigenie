@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410219496",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BERLIN ENGINEERING SOLUTIONS GMBH",
+      "onBehalfOf": "BERLIN ENGINEERING SOLUTIONS GMBH",
+      "address": "AM SANDTORKAI 25, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 3119 1000",
+      "fax": "+49 40 3119 1001",
+      "email": "INFO@SCHUETTE-LOGISTICS.DE"
+    },
+    "consignee": {
+      "name": "SINGAPORE ENGINEERING WORKS PTE LTD",
+      "address": "1234 TECH PARK CRESCENT, SINGAPORE 638123",
+      "companyNumber": "200104768K",
+      "telephone": "+65 6789 1234",
+      "fax": "+65 6789 5678",
+      "email": "PURCHASING@SEW.SG"
+    },
+    "notifyParty": {
+      "name": "BERLIN ENGINEERING SOLUTIONS GMBH",
+      "address": "FRANKFURTER ALLEE 32, 10557 BERLIN, GERMANY"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "842139",
+  "commodityDescription": "HAND TOOLS",
+  "containers": [
+    {
+      "containerNumber": "CSCU9987654",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SCHUETTE - HAMBURG",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "HAND TOOLS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CSCU1122334",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SCHUETTE - HAMBURG",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "HAND TOOLS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 FR)",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20' STANDARD",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024102612345"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SINGAPORE ENGINEERING WORKS PTE LTD",
+      "address": "1234 TECH PARK CRESCENT, SINGAPORE 638123",
+      "telephone": "+65 6789 1234",
+      "fax": "+65 6789 5678",
+      "email": "PURCHASING@SEW.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SCHUETTE INTERNATIONAL LOGISTICS GMBH",
+      "address": "AM SANDTORKAI 25, 20457 HAMBURG, GERMANY"
+    },
+    "onboardDate": "2024-10-25 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

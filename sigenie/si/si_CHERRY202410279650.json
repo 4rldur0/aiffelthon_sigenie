@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410279650",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GAMMA INDUSTRIES CO.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871630",
+  "commodityDescription": "SEMI-TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT6614553",
+      "sealNumber": "SEAL591792",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 19473.59,
+      "measurement": 27.68
+    },
+    {
+      "containerNumber": "CONT1685750",
+      "sealNumber": "SEAL441039",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 5384.72,
+      "measurement": 21.68
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD FLAT RACK",
+    "totalPackages": 130,
+    "totalGrossWeight": 24858.31,
+    "totalMeasurement": 49.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRANSPORTATION LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-05 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 10188x2926x2090, VALUE: USD566,854, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10188",
+    "width": "2926",
+    "height": "2090",
+    "overWidth": "486",
+    "overHeight": "0"
+  }
+}

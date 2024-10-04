@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410244944",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC PHARMACEUTICALS INC.",
+      "onBehalfOf": "",
+      "address": "1234 PHARMACEUTICAL WAY, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ABCPHARMA.CN"
+    },
+    "consignee": {
+      "name": "BAXTER INTERNATIONAL",
+      "address": "BAXTERlaan 1, 2030 Antwerpen, BELGIUM",
+      "companyNumber": "123456789",
+      "telephone": "+32 3 247 7000",
+      "fax": "+32 3 247 7001",
+      "email": "JANSSEN.EMMA@BAXTER.BE"
+    },
+    "notifyParty": {
+      "name": "BAXTER INTERNATIONAL",
+      "address": "BAXTERlaan 1, 2030 Antwerpen, BELGIUM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "300490",
+  "commodityDescription": "PHARMACEUTICAL PRODUCTS",
+  "containers": [
+    {
+      "containerNumber": "CONT9963697",
+      "sealNumber": "SEAL554840",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 19526.76,
+      "measurement": 23.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 23,
+    "totalGrossWeight": 19526.76,
+    "totalMeasurement": 23.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC PHARMACEUTICALS INC.",
+      "address": "1234 PHARMACEUTICAL WAY, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-10-27 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 14\u00b0C, VALUE: USD519,102"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3771950",
+    "temperature": "14\u00b0C",
+    "minTemperature": "12\u00b0C",
+    "maxTemperature": "16\u00b0C",
+    "ventilation": "85%",
+    "humidity": "83%"
+  }
+}

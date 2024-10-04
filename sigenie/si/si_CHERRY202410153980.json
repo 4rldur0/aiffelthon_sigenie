@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410153980",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUIT FRESH IMPORT EXPORT CO",
+      "address": "123 ORCHARD STREET, NINGBO, ZHEJIANG, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8877 6655",
+      "fax": "+86 574 8877 6666",
+      "email": "INFO@FRUITFRESHIMPORT.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "555 FRANKFURTER STRASSE, HAMBURG, 20457, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 5555",
+      "email": "ORDERS@GLOBALTRADINGSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "555 FRANKFURTER STRASSE, HAMBURG, 20457, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 5555",
+      "email": "ORDERS@GLOBALTRADINGSOLUTIONS.DE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080550",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GTS20241015",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ORANGES",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' HIGH CUBE) REEFER CONTAINER ONLY",
+    "totalPackages": 500,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 35.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "PHYTOSANITARY CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "555 FRANKFURTER STRASSE, HAMBURG, 20457, GERMANY",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 5555",
+      "email": "ORDERS@GLOBALTRADINGSOLUTIONS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "555 FRANKFURTER STRASSE, HAMBURG, 20457, GERMANY",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 5555",
+      "email": "ORDERS@GLOBALTRADINGSOLUTIONS.DE"
+    },
+    "onboardDate": "2024-10-22 10:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -19\u00b0C, 7 DAYS FREE TIME AT DESTINATION, HANDLE WITH CARE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6692009",
+    "temperature": "-19\u00b0C",
+    "minTemperature": "-21\u00b0C",
+    "maxTemperature": "-17\u00b0C",
+    "ventilation": "27%",
+    "humidity": "63%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

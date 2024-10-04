@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410136151",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE FOOD PRODUCTS LTD",
+      "address": "15 CHANGI BUSINESS PARK CRESCENT, #05-01 HONEYWELL BUILDING, SINGAPORE 486006",
+      "telephone": "+65 7588 9155",
+      "fax": "+65 7588 9200",
+      "email": "LIM.KWANGHEE@SGPRECISIONTECH.COM.SG"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "notifyParty": {
+      "name": "LE HAVRE IMPORT SERVICES SARL",
+      "address": "10 QUAI DE SOUTHAMPTON, CENTRE D'AFFAIRES OC\u00c9ANE, 76600 LE HAVRE, FRANCE",
+      "taxId": "",
+      "president": "MS. MARIA RODRIGUEZ",
+      "telephone": "33 2 35 20 33 77",
+      "fax": "+33 2 35 20 33 88"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "containerType": "40 REEFER",
+      "cargoDescription": "FROZEN FISH - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 REEFER)",
+    "totalPackages": 5,
+    "packageType": "PALLETS",
+    "containerType": "40 REEFER",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 72.732
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -17\u00b0C, VALUE: USD124,753, FRAGILE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9335749",
+    "temperature": "-17\u00b0C",
+    "minTemperature": "-19\u00b0C",
+    "maxTemperature": "-15\u00b0C",
+    "ventilation": "70%",
+    "humidity": "90%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202411058158",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC INDUSTRIES LTD",
+      "address": "123 ABC STREET, SINGAPORE 123456",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0456",
+      "email": "ABC@ABCINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "KUEHNE + NAGEL",
+      "address": "456 HAMBURG STREET, HAMBURG 22222, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "KN@KUEHNE-NAGEL.DE"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT LTD",
+      "address": "789 IMPORT STREET, HAMBURG 33333, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433",
+      "email": "IMPORT@ABCIMPORT.DE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "333401",
+  "commodityDescription": "BEAUTY OR MAKE-UP PREPARATIONS AND SIMILAR ARTICLES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC12345",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PERFUME",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY)",
+    "totalPackages": 100,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 35.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "MSDS"
+    ],
+    "originalBLDistribution": {
+      "name": "KUEHNE + NAGEL",
+      "address": "456 HAMBURG STREET, HAMBURG 22222, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "KN@KUEHNE-NAGEL.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT LTD",
+      "address": "789 IMPORT STREET, HAMBURG 33333, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433",
+      "email": "IMPORT@ABCIMPORT.DE"
+    },
+    "onboardDate": "2024-11-11 09:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 3357, VALUE: USD54,807"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2718969",
+    "unClass": "3",
+    "unCode": "3357,",
+    "hsCode": "2177.95.90",
+    "flashPoint": "51\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

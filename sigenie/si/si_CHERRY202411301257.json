@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202411301257",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA COLD STORAGE LTD",
+      "onBehalfOf": "",
+      "address": "1234 COLD STORAGE RD, NINGBO, CHINA",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "INFO@CHINACOLDSTORAGE.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL COLD CHAIN LTD.",
+      "address": "UL. PORTOWA 5, GDANSK 80-686, POLAND",
+      "companyNumber": "1234567890",
+      "telephone": "+48 58 301 2345",
+      "fax": "+48 58 301 2346",
+      "email": "INFO@GLOBALCOLDCHAIN.PL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "1234 LOGISTICS AVE, GDANSK 80-000, POLAND"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT3879778",
+      "sealNumber": "SEAL309998",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 18687.78,
+      "measurement": 22.86
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD REEFER",
+    "totalPackages": 61,
+    "totalGrossWeight": 18687.78,
+    "totalMeasurement": 22.86
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "1234 LOGISTICS AVE, GDANSK 80-000, POLAND",
+      "telephone": "+48 58 301 2345",
+      "fax": "+48 58 301 2346",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA COLD STORAGE LTD.",
+      "address": "1234 COLD STORAGE RD, NINGBO, CHINA",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013"
+    },
+    "onboardDate": "2024-12-16 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -19\u00b0C, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3748368",
+    "temperature": "-19\u00b0C",
+    "minTemperature": "-21\u00b0C",
+    "maxTemperature": "-17\u00b0C",
+    "ventilation": "89%",
+    "humidity": "91%"
+  }
+}

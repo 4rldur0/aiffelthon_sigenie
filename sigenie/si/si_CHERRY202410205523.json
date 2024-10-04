@@ -1,0 +1,85 @@
+{
+  "bookingReference": "CHERRY202410205523",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 INTERNATIONAL STREET, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ABCINTERNATIONAL.CN"
+    },
+    "consignee": {
+      "name": "EVERGREEN SHIPPING LTD.",
+      "address": "1555 GREEN STREET, ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@EVERGREENSHIPPING.NL"
+    },
+    "notifyParty": {
+      "name": "EVERGREEN SHIPPING LTD.",
+      "address": "1555 GREEN STREET, ROTTERDAM, THE NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "EDUCATIONAL TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT6525949",
+      "sealNumber": "SEAL736153",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 12540.3,
+      "measurement": 32.88
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 49,
+    "totalGrossWeight": 12540.3,
+    "totalMeasurement": 32.88
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EVERGREEN SHIPPING LTD.",
+      "address": "1555 GREEN STREET, ROTTERDAM, THE NETHERLANDS",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@EVERGREENSHIPPING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "1234 INTERNATIONAL STREET, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ABCINTERNATIONAL.CN"
+    },
+    "onboardDate": "2024-11-06 20:00",
+    "additionalRemarks": "UNDER DECK TOP STOWAGE"
+  }
+}

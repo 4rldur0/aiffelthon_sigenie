@@ -1,99 +1,136 @@
 {
   "bookingReference": "CHERRY202410177771",
   "voyageDetails": {
-    "vesselName": "CMA CGM BOUGAINVILLE",
-    "voyageNumber": "2024912W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO",
-    "portOfLoading": "NINGBO",
-    "portOfDischarge": "HAMBURG",
-    "placeOfDelivery": "HAMBURG"
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Prepaid",
-    "freightPayableAt": "NINGBO"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHIPPER 1352",
-      "address": "123 MAIN STREET, ANYTOWN, CHINA",
-      "telephone": "+86 123 456 7890",
-      "fax": "+86 123 456 7891"
+      "name": "ASIA PACIFIC FOODS LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAPACIFICFOODS.COM"
     },
     "consignee": {
-      "name": "CUSTOMER 7729",
-      "address": "456 OAK AVENUE, SOMETOWN, GERMANY",
-      "telephone": "+49 123 456 7892",
-      "fax": "+49 123 456 7893",
-      "email": "CUSTOMER7729@EXAMPLE.COM",
-      "contactPerson": "JANE DOE"
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, 3011 AB, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "president": "MR. JAN VAN DER LINDEN",
+      "telephone": "+31 10 222 1111",
+      "fax": "+31 10 222 1112",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.COM"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "INVOICE RECEIVER 5184",
-      "address": "789 PINE LANE, ANYCITY, GERMANY"
+      "name": "DUTCH COLD CHAIN SERVICES BV",
+      "address": "125 WAREHOUSE STREET, ROTTERDAM, 3012 BC, NETHERLANDS",
+      "telephone": "+31 10 333 2222",
+      "fax": "+31 10 333 2223",
+      "email": "INFO@DUTCHCOLDCHAINSERVICES.COM"
     }
   },
-  "shippingTerm": "CFS/CY",
-  "hsCode": "481820",
-  "commodityDescription": "WRAPPING PAPER",
+  "shippingTerm": "CY/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN SALMON FILLETS",
   "containers": [
     {
-      "containerNumber": "CRLU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "SAMPLE MARKING",
-      "numberOfPackages": 100,
-      "cargoDescription": "WRAPPING PAPER AS DESCRIBED ON COMMERCIAL INVOICE",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "containerNumber": "CONT5103199",
+      "sealNumber": "SEAL863316",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 12177.64,
+      "measurement": 27.84
     },
     {
-      "containerNumber": "CRLU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "SAMPLE MARKING 2",
-      "numberOfPackages": 150,
-      "cargoDescription": "WRAPPING PAPER AS DESCRIBED ON COMMERCIAL INVOICE",
-      "grossWeight": 13500.0,
-      "measurement": 28.0
+      "containerNumber": "CONT8428210",
+      "sealNumber": "SEAL580811",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 7593.27,
+      "measurement": 38.1
+    },
+    {
+      "containerNumber": "CONT3119609",
+      "sealNumber": "SEAL641712",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 15826.03,
+      "measurement": 25.22
+    },
+    {
+      "containerNumber": "CONT3847918",
+      "sealNumber": "SEAL782410",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 16157.31,
+      "measurement": 32.77
+    },
+    {
+      "containerNumber": "CONT3815263",
+      "sealNumber": "SEAL990816",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 18656.57,
+      "measurement": 35.25
+    },
+    {
+      "containerNumber": "CONT3243650",
+      "sealNumber": "SEAL200205",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 19623.22,
+      "measurement": 29.57
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40 HC DRY",
-    "totalPackages": 250,
-    "totalGrossWeight": 25500.0,
-    "totalMeasurement": 53.0
+    "totalContainers": "6 x 20 STANDARD REEFER",
+    "totalPackages": 344,
+    "totalGrossWeight": 90034.04,
+    "totalMeasurement": 188.75
   },
   "additionalInformation": {
-    "invoiceNumber": "INV202410177771",
-    "documentNumber": "DOC202410177771",
     "lcDetails": {
-      "lcNumber": "LC9876543210"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "CERT1234567890"
-    ],
+    "certificateDetails": "123456789012345",
     "originalBLDistribution": {
-      "name": "CUSTOMER 7729",
-      "address": "456 OAK AVENUE, SOMETOWN, GERMANY"
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, 3011 AB, NETHERLANDS",
+      "telephone": "+31 10 222 1111",
+      "fax": "+31 10 222 1112",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.COM"
     },
     "originalInvoiceDistribution": {
-      "name": "INVOICE RECEIVER 5184",
-      "address": "789 PINE LANE, ANYCITY, GERMANY"
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, 3011 AB, NETHERLANDS",
+      "telephone": "+31 10 222 1111",
+      "fax": "+31 10 222 1112",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.COM"
     },
-    "onboardDate": "2024-10-20 12:15",
-    "additionalRemarks": "Containers to be loaded on deck."
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -6\u00b0C"
   },
-  "outOfGaugeDimensions": {
-    "length": 5400,
-    "width": 2600,
-    "height": 2500,
-    "overWidth": 100,
-    "overHeight": 500
+  "reeferSettings": {
+    "containerNumber": "CONT8104202",
+    "temperature": "-6\u00b0C",
+    "minTemperature": "-8\u00b0C",
+    "maxTemperature": "-4\u00b0C",
+    "ventilation": "12%",
+    "humidity": "93%"
   }
 }

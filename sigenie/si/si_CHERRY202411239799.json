@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202411239799",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA IMPORTS LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "NO. 456, ST. PAUL STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31-10-555-6666",
+      "fax": "+31-10-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "080510",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT1785068",
+      "sealNumber": "SEAL405371",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 7577.89,
+      "measurement": 26.99
+    },
+    {
+      "containerNumber": "CONT2548604",
+      "sealNumber": "SEAL845472",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 14013.18,
+      "measurement": 21.63
+    },
+    {
+      "containerNumber": "CONT2820497",
+      "sealNumber": "SEAL201736",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 11222.62,
+      "measurement": 29.75
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 160,
+    "totalGrossWeight": 32813.69,
+    "totalMeasurement": 78.37
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 15\u00b0C, VALUE: USD464,551, 7 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5578125",
+    "temperature": "15\u00b0C",
+    "minTemperature": "13\u00b0C",
+    "maxTemperature": "17\u00b0C",
+    "ventilation": "52%",
+    "humidity": "64%"
+  }
+}

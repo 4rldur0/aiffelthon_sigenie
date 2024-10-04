@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410194705",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "KRONOS CHEMICALS LTD.",
+      "address": "123 CHEMICAL WAY, HAMBURG 20457, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@KRONOSCHEMICALS.DE"
+    },
+    "consignee": {
+      "name": "SCHULTE & CO. GMBH",
+      "address": "456 FRANKFURTER STRASSE, SINGAPORE 123456, SINGAPORE",
+      "country": "SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "ORDERS@SCHULTEGMBH.SG"
+    },
+    "notifyParty": {
+      "name": "SCHULTE & CO. GMBH",
+      "address": "456 FRANKFURTER STRASSE, SINGAPORE 123456, SINGAPORE",
+      "country": "SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "ORDERS@SCHULTEGMBH.SG"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "281010",
+  "commodityDescription": "SODIUM CARBONATE",
+  "containers": [
+    {
+      "containerNumber": "CONT7782273",
+      "sealNumber": "SEAL749307",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 18209.24,
+      "measurement": 30.76
+    },
+    {
+      "containerNumber": "CONT3360556",
+      "sealNumber": "SEAL307397",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 19825.89,
+      "measurement": 27.54
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 51,
+    "totalGrossWeight": 38035.13,
+    "totalMeasurement": 58.3
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "MATERIAL SAFETY DATA SHEET (MSDS)"
+    ],
+    "originalBLDistribution": {
+      "name": "SCHULTE & CO. GMBH",
+      "address": "456 FRANKFURTER STRASSE, SINGAPORE 123456, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "ORDERS@SCHULTEGMBH.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SCHULTE & CO. GMBH",
+      "address": "456 FRANKFURTER STRASSE, SINGAPORE 123456, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "ORDERS@SCHULTEGMBH.SG"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1184"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7256628",
+    "unClass": "2",
+    "unCode": "1184",
+    "hsCode": "7464.71.99",
+    "flashPoint": "38\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

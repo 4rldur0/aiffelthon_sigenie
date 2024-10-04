@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410273700",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SEAFOOD CO. LTD.",
+      "address": "123 HONGQI ROAD, SHANGHAI 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5888 7193",
+      "fax": "+86 21 5888 7778",
+      "email": "ZHANG.WEI@SEAFOODLTD.CN"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN IMPORTS LLC",
+      "address": "123 MAIN STREET, AMSTERDAM 1012, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568",
+      "email": "MAREK.KOWALSKI@GOLDENSUNIMPORTS.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "123 CANAL STREET, ROTTERDAM 3011, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 765 4321",
+      "fax": "+31 10 765 4322",
+      "email": "ANNA.NOWAK@WORLDWIDELOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030741",
+  "commodityDescription": "FROZEN FISH FILLETS, WHETHER OR NOT SALTED BUT NOT SMOKED",
+  "containers": [
+    {
+      "containerNumber": "CONT3836598",
+      "sealNumber": "SEAL445231",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 15900.3,
+      "measurement": 28.12
+    },
+    {
+      "containerNumber": "CONT8945946",
+      "sealNumber": "SEAL624224",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 10118.88,
+      "measurement": 33.64
+    },
+    {
+      "containerNumber": "CONT8951245",
+      "sealNumber": "SEAL658797",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 15117.43,
+      "measurement": 30.95
+    },
+    {
+      "containerNumber": "CONT4191076",
+      "sealNumber": "SEAL761893",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 7203.93,
+      "measurement": 30.74
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE REEFER",
+    "totalPackages": 202,
+    "totalGrossWeight": 48340.54,
+    "totalMeasurement": 123.45
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      " FUMIGATION CERTIFICATE",
+      " CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN SUN IMPORTS LLC",
+      "address": "123 MAIN STREET, AMSTERDAM 1012, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568",
+      "email": "MAREK.KOWALSKI@GOLDENSUNIMPORTS.NL"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -11\u00b0C, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8071235",
+    "temperature": "-11\u00b0C",
+    "minTemperature": "-13\u00b0C",
+    "maxTemperature": "-9\u00b0C",
+    "ventilation": "32%",
+    "humidity": "60%"
+  }
+}

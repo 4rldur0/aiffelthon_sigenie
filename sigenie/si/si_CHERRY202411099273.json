@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411099273",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECHNOSOFT SOLUTIONS LTD.",
+      "address": "123 TECHNOLOGY PARK ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@TECHNOSOFT.COM.CN"
+    },
+    "consignee": {
+      "name": "AMAZON GLOBAL LOGISTICS GMBH",
+      "address": "G\u00c4RTNERPLATZ 3, 80273 MUNICH, GERMANY",
+      "taxId": "DE276132463",
+      "president": "MR. PETER SCHMIDT",
+      "telephone": "+49 89 55271500",
+      "fax": "+49 89 55271599",
+      "email": "PETER.SCHMIDT@AMAZON.DE"
+    },
+    "notifyParty": {
+      "name": "KUEHNE + NAGEL GMBH",
+      "address": "FRANKFURTER STRASSE 33, 60487 FRANKFURT AM MAIN, GERMANY",
+      "taxId": "DE111111111",
+      "president": "MS. ANNA MEIER",
+      "telephone": "+49 69 795030",
+      "fax": "+49 69 79503200",
+      "email": "ANNA.MEIER@KN.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847130",
+  "commodityDescription": "OUT OF GAUGE MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "TECHNOSOFT MARKINGS",
+      "numberOfPackages": 1,
+      "packageType": "PIECE",
+      "containerType": "OPEN TOP",
+      "cargoDescription": "OUT OF GAUGE MACHINERY - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 OT)",
+    "totalPackages": 1,
+    "packageType": "PIECE",
+    "containerType": "OPEN TOP",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 72.732
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "AMAZON GLOBAL LOGISTICS GMBH",
+      "address": "G\u00c4RTNERPLATZ 3, 80273 MUNICH, GERMANY",
+      "telephone": "+49 89 55271500",
+      "fax": "+49 89 55271599",
+      "email": "PETER.SCHMIDT@AMAZON.DE"
+    },
+    "onboardDate": "2024-12-16 17:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 4744x2111x2280, VALUE: USD380,419"
+  },
+  "outOfGaugeDimensions": {
+    "length": "4744",
+    "width": "2111",
+    "height": "2280",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

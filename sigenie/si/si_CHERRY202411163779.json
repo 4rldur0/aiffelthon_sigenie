@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411163779",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS INC.",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44-20-7777-8888",
+      "fax": "+44-20-7777-8889",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "380890",
+  "commodityDescription": "INSECTICIDES, RODENTICIDES, FUNGICIDES, HERBICIDES, ANTI-SPROUTING PRODUCTS AND PLANT-GROWTH REGULATORS, DISINFECTANTS AND SIMILAR PRODUCTS, PUT UP IN FORMS OR PACKINGS FOR RETAIL SALE OR AS PREPARATIONS OR ARTICLES (FOR EXAMPLE, SULPHUR-TREATED BANDS, WICKS AND CANDLES, AND FLY-PAPERS); OTHER",
+  "containers": [
+    {
+      "containerNumber": "CONT1631786",
+      "sealNumber": "SEAL156167",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 5891.75,
+      "measurement": 32.7
+    },
+    {
+      "containerNumber": "CONT4101550",
+      "sealNumber": "SEAL685705",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 15356.33,
+      "measurement": 23.25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 123,
+    "totalGrossWeight": 21248.08,
+    "totalMeasurement": 55.95
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241116-1001",
+    "documentNumber": "20241116-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44-20-7777-8888",
+      "fax": "+44-20-7777-8889"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44-20-7777-8888",
+      "fax": "+44-20-7777-8889"
+    },
+    "onboardDate": "2024-12-12 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2670",
+    "dangerousGoods": {
+      "unNumber": "2670",
+      "properShippingName": "INSECTICIDE/RODENITIDE",
+      "class": "3",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1704271",
+    "unClass": "9",
+    "unCode": "2670",
+    "hsCode": "9111.11.78",
+    "flashPoint": "29\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

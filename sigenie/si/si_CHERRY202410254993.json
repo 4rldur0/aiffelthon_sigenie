@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202410254993",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG, GERMANY",
+    "portOfLoading": "HAMBURG, GERMANY",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "PORT KLANG, MALAYSIA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FOOD EXPORTERS LIMITED",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@FOODEXPORTERS.DE"
+    },
+    "consignee": {
+      "name": "DANONE S.A.",
+      "address": "LOT 1234, JALAN INDUSTRI, 41000 PORT KLANG, MALAYSIA",
+      "country": "MALAYSIA",
+      "telephone": "+60 3 8987 6543",
+      "fax": "+60 3 8987 6544",
+      "email": "DANONE.ASIA@DANONE.COM"
+    },
+    "notifyParty": {
+      "name": "DANONE LOGISTICS SDN. BHD.",
+      "address": "SUITE 501, MENARA DANONE, 41000 PORT KLANG, MALAYSIA",
+      "country": "MALAYSIA",
+      "telephone": "+60 3 8987 6545",
+      "fax": "+60 3 8987 6546",
+      "email": "LOGISTICS@DANONE.COM.MY"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "040110",
+  "commodityDescription": "MILK, WHOLE",
+  "containers": [
+    {
+      "containerNumber": "CRLU4708217",
+      "sealNumber": "912373",
+      "marksAndNumbers": "SHIP3812025",
+      "numberOfPackages": 1000,
+      "packageType": "MILK CONTAINERS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MILK, WHOLE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "reeferSettings": {
+        "setTemperature": "0",
+        "temperatureUnit": "CELSIUS"
+      }
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40FT HIGH CUBE) REEFER CONTAINER ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241025001"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "DANONE LOGISTICS SDN. BHD.",
+      "address": "SUITE 501, MENARA DANONE, 41000 PORT KLANG, MALAYSIA",
+      "telephone": "+60 3 8987 6545",
+      "fax": "+60 3 8987 6546",
+      "email": "LOGISTICS@DANONE.COM.MY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DANONE S.A.",
+      "address": "LOT 1234, JALAN INDUSTRI, 41000 PORT KLANG, MALAYSIA",
+      "country": "MALAYSIA",
+      "telephone": "+60 3 8987 6543",
+      "fax": "+60 3 8987 6544",
+      "email": "DANONE.ASIA@DANONE.COM"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: 0\u00b0C, VALUE: USD87,458, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferCargo": {
+    "setTemperature": "0",
+    "temperatureUnit": "CELSIUS"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4178420",
+    "temperature": "0\u00b0C",
+    "minTemperature": "-2\u00b0C",
+    "maxTemperature": "2\u00b0C",
+    "ventilation": "64%",
+    "humidity": "87%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411237912",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI HEAVY INDUSTRIES CO., LTD.",
+      "onBehalfOf": "",
+      "address": "1234 HEAVY INDUSTRY ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@SHANGHAIHEAVY.CN"
+    },
+    "consignee": {
+      "name": "EURO FREIGHT SOLUTIONS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60329 FRANKFURT, GERMANY",
+      "companyNumber": "123456789",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679",
+      "email": "JANSSEN.EMMA@EUROFREIGHTSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": ""
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "843149",
+  "commodityDescription": "HEAVY DUTY OVERHEAD CRANE COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU5245975",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CRANE COMPONENTS - SHANGHAI HEAVY INDUSTRIES",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "HEAVY DUTY OVERHEAD CRANE COMPONENTS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 25000.0,
+      "measurement": 60.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 40' OPEN TOP CONTAINER",
+    "totalPackages": 10,
+    "packageType": "CRATES",
+    "containerType": "40' OPEN TOP",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO FREIGHT SOLUTIONS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 8584x2619x2778, VALUE: USD489,250"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8584",
+    "width": "2619",
+    "height": "2778",
+    "overWidth": "179",
+    "overHeight": "188"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

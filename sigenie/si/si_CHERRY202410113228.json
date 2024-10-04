@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410113228",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "NO. 123, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-3-2345-6789",
+      "fax": "+60-3-2345-6780",
+      "email": "INFO@GLOBALFREIGHT.COM.MY",
+      "contactPerson": "TAN AH KEE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030211",
+  "commodityDescription": "FROZEN PORK LOIN",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289453",
+      "sealNumber": 345901,
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN PORK LOIN - 20KG CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 X 4) HIGH CUBIC REEFER CONTAINER ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241011-1001",
+    "documentNumber": "20241011-1001",
+    "lcDetails": {
+      "lcNumber": "LC202410111234"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-3-2345-6789",
+      "fax": "+60-3-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-3-2345-6789",
+      "fax": "+60-3-2345-6780"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "CONTAINER TYPE: REEFER, TEMPERATURE CONTROLLED CARGO: -15\u00b0C",
+    "reeferSettings": {
+      "setTemperature": -15,
+      "ventilationSetting": "CLOSED"
+    }
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6338554",
+    "temperature": "-15\u00b0C",
+    "minTemperature": "-17\u00b0C",
+    "maxTemperature": "-13\u00b0C",
+    "ventilation": "5%",
+    "humidity": "94%"
+  },
+  "containerDetails": {
+    "type": "REEFER CONTAINER"
+  }
+}

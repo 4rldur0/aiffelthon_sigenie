@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202411159105",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECHNO PRECISION INDUSTRIES CO. LTD.",
+      "address": "NO. 1888, SHENYANG ROAD, YONGKANG, ZHEJIANG, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 579 8668 8000",
+      "fax": "+86 579 8668 8001",
+      "email": "LI.WEI@TECHNO-PRECISION.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 200, NEW YORK, NY 10001, USA",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "842839",
+  "commodityDescription": "SPECIALIZED HEAVY LIFTING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT4768780",
+      "sealNumber": "SEAL199705",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 7542.65,
+      "measurement": 35.82
+    },
+    {
+      "containerNumber": "CONT6722710",
+      "sealNumber": "SEAL620393",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 11291.62,
+      "measurement": 25.02
+    },
+    {
+      "containerNumber": "CONT1666442",
+      "sealNumber": "SEAL522312",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 11633.66,
+      "measurement": 37.07
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD FLAT RACK",
+    "totalPackages": 221,
+    "totalGrossWeight": 30467.93,
+    "totalMeasurement": 97.91
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 200, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-21 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 3706x2603x2474, 7 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3706",
+    "width": "2603",
+    "height": "2474",
+    "overWidth": "163",
+    "overHeight": "0"
+  }
+}

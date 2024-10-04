@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410139194",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA FOODS CORPORATION",
+      "address": "123 SEAFOOD STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT7104536",
+      "sealNumber": "SEAL955338",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 10563.52,
+      "measurement": 23.3
+    },
+    {
+      "containerNumber": "CONT7803753",
+      "sealNumber": "SEAL495132",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 5863.56,
+      "measurement": 37.58
+    },
+    {
+      "containerNumber": "CONT8815954",
+      "sealNumber": "SEAL584987",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 18142.17,
+      "measurement": 33.8
+    },
+    {
+      "containerNumber": "CONT2021498",
+      "sealNumber": "SEAL685436",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 8841.11,
+      "measurement": 31.35
+    },
+    {
+      "containerNumber": "CONT6459907",
+      "sealNumber": "SEAL659741",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 6505.37,
+      "measurement": 34.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD REEFER",
+    "totalPackages": 275,
+    "totalGrossWeight": 49915.73,
+    "totalMeasurement": 160.83
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    },
+    "onboardDate": "2024-10-21 22:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -16\u00b0C, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7501996",
+    "temperature": "-16\u00b0C",
+    "minTemperature": "-18\u00b0C",
+    "maxTemperature": "-14\u00b0C",
+    "ventilation": "99%",
+    "humidity": "71%"
+  }
+}

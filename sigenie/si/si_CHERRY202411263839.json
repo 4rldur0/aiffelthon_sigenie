@@ -1,0 +1,150 @@
+{
+  "bookingReference": "CHERRY202411263839",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FOODS LTD.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEFOODS.CN"
+    },
+    "consignee": {
+      "name": "BLUE SKY LOGISTICS GMBH",
+      "address": "124 SKY STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@BLUESKYLOGISTICS.NL",
+      "personincharge": "ANNA SMITH"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS GMBH",
+      "address": "124 SKY STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@BLUESKYLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030390",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT3443834",
+      "sealNumber": "SEAL923026",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 13947.9,
+      "measurement": 37.58
+    },
+    {
+      "containerNumber": "CONT4858017",
+      "sealNumber": "SEAL971763",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 7885.89,
+      "measurement": 21.56
+    },
+    {
+      "containerNumber": "CONT8157515",
+      "sealNumber": "SEAL797555",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 17266.24,
+      "measurement": 35.01
+    },
+    {
+      "containerNumber": "CONT3656748",
+      "sealNumber": "SEAL572377",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 14541.18,
+      "measurement": 29.6
+    },
+    {
+      "containerNumber": "CONT5760708",
+      "sealNumber": "SEAL202955",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 19114.92,
+      "measurement": 39.7
+    },
+    {
+      "containerNumber": "CONT3244305",
+      "sealNumber": "SEAL390544",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 13218.75,
+      "measurement": 39.81
+    },
+    {
+      "containerNumber": "CONT1769016",
+      "sealNumber": "SEAL769258",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 10689.68,
+      "measurement": 30.05
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 HIGH CUBE REEFER",
+    "totalPackages": 325,
+    "totalGrossWeight": 96664.56,
+    "totalMeasurement": 233.31
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "ORIGIN CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "BLUE SKY LOGISTICS GMBH",
+      "address": "124 SKY STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@BLUESKYLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE FOODS LTD.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEFOODS.CN"
+    },
+    "onboardDate": "2024-12-03 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -6\u00b0C, VALUE: USD247,229"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1357985",
+    "temperature": "-6\u00b0C",
+    "minTemperature": "-8\u00b0C",
+    "maxTemperature": "-4\u00b0C",
+    "ventilation": "1%",
+    "humidity": "75%"
+  }
+}

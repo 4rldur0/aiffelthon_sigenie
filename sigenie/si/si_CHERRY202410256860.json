@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202410256860",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "5678 AVENIDA DE LA ESPA\u00d1A, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-7777-8888",
+      "fax": "+34-956-7777-8889",
+      "email": "INFO@GLOBALIMPORTEXPORT.ES",
+      "contactPerson": "MARIA RODRIGUEZ"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT & EXPORT LTD"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT8054746",
+      "sealNumber": "SEAL371683",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 17386.68,
+      "measurement": 39.45
+    },
+    {
+      "containerNumber": "CONT6111728",
+      "sealNumber": "SEAL569530",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 15903.06,
+      "measurement": 35.43
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 126,
+    "totalGrossWeight": 33289.74,
+    "totalMeasurement": 74.88
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-1001",
+    "documentNumber": "20241025-1001",
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "5678 AVENIDA DE LA ESPA\u00d1A, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-7777-8888",
+      "fax": "+34-956-7777-8889"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "5678 AVENIDA DE LA ESPA\u00d1A, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-7777-8888",
+      "fax": "+34-956-7777-8889"
+    },
+    "onboardDate": "2024-11-11 18:00",
+    "additionalRemarks": "FRAGILE",
+    "specialCargoInfo": {
+      "handlingInstructions": "FRAGILE. PACKAGES SHOULD BE HANDLED WITH CARE."
+    }
+  }
+}

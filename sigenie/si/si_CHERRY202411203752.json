@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202411203752",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING CO.",
+      "address": "1234 HUA SHENG ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@OMEGAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "2345 AVENIDA DE LA LIBERTAD, MADRID, SPAIN, 28001",
+      "taxId": "ES123456789",
+      "president": "MR. ANTONIO FERNANDEZ",
+      "telephone": "+34 91 123 45 67",
+      "fax": "+34 91 123 45 68",
+      "email": "ANTONIO.FERNANDEZ@DELTASHIPPING.COM"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING LTD. - OPERATIONS",
+      "address": "2345 AVENIDA DE LA LIBERTAD, MADRID, SPAIN, 28001",
+      "taxId": "",
+      "president": "MS. MARIA GARCIA",
+      "telephone": "+34 91 123 45 69",
+      "fax": "+34 91 123 45 70"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "OUT-OF-GAUGE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9785631",
+      "sealNumber": "517123",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "containerType": "OPEN TOP",
+      "cargoDescription": "OUT-OF-GAUGE MACHINERY PARTS - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    },
+    {
+      "containerNumber": "CMAU9751372",
+      "sealNumber": "517121",
+      "marksAndNumbers": "ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "containerType": "OPEN TOP",
+      "cargoDescription": "OUT-OF-GAUGE MACHINERY PARTS - AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 72.732
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 OT X 2) OPEN TOP CONTAINERS ONLY",
+    "totalPackages": 10,
+    "packageType": "PALLETS",
+    "containerType": "OPEN TOP",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 145.464
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 7045x2865x2472, FRAGILE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "7045",
+    "width": "2865",
+    "height": "2472",
+    "overWidth": "425",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

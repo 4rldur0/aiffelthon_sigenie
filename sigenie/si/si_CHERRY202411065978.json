@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411065978",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SUNRISE CHEMICAL CO., LTD.",
+      "address": "NO. 123, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6278 9000",
+      "fax": "+86 21 6278 9001",
+      "email": "INFO@SUNRISECHEMICAL.CN"
+    },
+    "consignee": {
+      "name": "SILVER STAR IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL854321000B01",
+      "president": "MR. HANS VAN DER MEER",
+      "telephone": "+31 10 204 8000",
+      "fax": "+31 10 204 8001",
+      "email": "INFO@SILVERSTARIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "EUROLOGISTICS BV",
+      "address": "234 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7000",
+      "fax": "+31 10 456 7001",
+      "email": "INFO@EUROLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "281123",
+  "commodityDescription": "SODIUM HYDROXIDE, SOLID",
+  "containers": [
+    {
+      "containerNumber": "CONT2834097",
+      "sealNumber": "SEAL364249",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 8961.11,
+      "measurement": 36.73
+    },
+    {
+      "containerNumber": "CONT1563635",
+      "sealNumber": "SEAL172959",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 10627.98,
+      "measurement": 33.36
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 92,
+    "totalGrossWeight": 19589.09,
+    "totalMeasurement": 70.09
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN202411068723",
+    "originalBLDistribution": {
+      "name": "SILVER STAR IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 204 8000",
+      "fax": "+31 10 204 8001",
+      "email": "INFO@SILVERSTARIMPORT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SILVER STAR IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 204 8000",
+      "fax": "+31 10 204 8001",
+      "email": "INFO@SILVERSTARIMPORT.NL"
+    },
+    "onboardDate": "2024-11-17 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2834, 21 DAYS FREE TIME AT DESTINATION, FRAGILE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8732113",
+    "unClass": "4",
+    "unCode": "2834,",
+    "hsCode": "3160.40.98",
+    "flashPoint": "95\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202409305237",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "TANGER MED, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING CO.",
+      "address": "1234 INDUSTRIAL PARK STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8887",
+      "email": "SHIPPING@DELTAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "OMEGA LOGISTICS LTD.",
+      "address": "1234 PORT ROAD, CASABLANCA, MOROCCO",
+      "taxId": "12345678901234",
+      "president": "MR. MOHAMED ALI",
+      "telephone": "+212 522 5555 5555",
+      "fax": "+212 522 5555 5556",
+      "email": "MOHAMED.ALI@OMEGALOGISTICS.MA"
+    },
+    "notifyParty": {
+      "name": "OMEGA LOGISTICS LTD.",
+      "address": "1234 PORT ROAD, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 5555 5555",
+      "fax": "+212 522 5555 5556",
+      "email": "INFO@OMEGALOGISTICS.MA"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871640",
+  "commodityDescription": "SEMI-TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "SEMI-TRAILER",
+      "cargoDescription": "SEMI-TRAILER, KEEP DRY",
+      "grossWeight": 15000.0,
+      "measurement": 70.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "SEMI-TRAILER",
+    "containerType": "OPEN TOP",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "OMEGA LOGISTICS LTD.",
+      "address": "1234 PORT ROAD, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 5555 5555",
+      "fax": "+212 522 5555 5556",
+      "email": "INFO@OMEGALOGISTICS.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA LOGISTICS LTD.",
+      "address": "1234 PORT ROAD, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 5555 5555",
+      "fax": "+212 522 5555 5556",
+      "email": "INFO@OMEGALOGISTICS.MA"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 5039x2545x2799, KEEP DRY"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5039",
+    "width": "2545",
+    "height": "2799",
+    "overWidth": "105",
+    "overHeight": "209"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410319582",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SCHNEIDER ELECTRIC GMBH",
+      "address": "SCHNEIDERPLATZ 1, 91050 ERLANGEN, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 9131 9002 0",
+      "email": "INFO@SCHNEIDER-ELECTRIC.DE"
+    },
+    "consignee": {
+      "name": "SINGAPORE POWER LTD",
+      "address": "230 KENT RIDGE DRIVE, SINGAPORE 119282",
+      "country": "SINGAPORE",
+      "email": "INFO@SPOWER.COM.SG",
+      "telephone": "+65 6223 3333",
+      "fax": "+65 6223 3334"
+    },
+    "notifyParty": {
+      "name": "KUEHNE + NAGEL GMBH & CO. KG",
+      "address": "FRIEDRICH-EBERT-STRASSE 139-143, 20259 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@KN-DE.COM",
+      "telephone": "+49 40 3119 0000",
+      "fax": "+49 40 3119 1111"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "391740",
+  "commodityDescription": "ASBESTOS CEMENT SHEETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SCHNEIDER-20241031",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "ASBESTOS CEMENT SHEETS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY)",
+    "totalPackages": 100,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241031001"
+    },
+    "certificateDetails": [
+      {
+        "certificateType": "DANGEROUS GOODS CERTIFICATE",
+        "certificateNumber": "DG20241031001"
+      }
+    ],
+    "originalBLDistribution": {
+      "name": "SINGAPORE POWER LTD",
+      "address": "230 KENT RIDGE DRIVE, SINGAPORE 119282",
+      "telephone": "+65 6223 3333",
+      "fax": "+65 6223 3334",
+      "email": "INFO@SPOWER.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE POWER LTD",
+      "address": "230 KENT RIDGE DRIVE, SINGAPORE 119282",
+      "telephone": "+65 6223 3333",
+      "fax": "+65 6223 3334",
+      "email": "INFO@SPOWER.COM.SG"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 1604"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8403185",
+    "unClass": "9",
+    "unCode": "1604",
+    "hsCode": "2661.37.73",
+    "flashPoint": "45\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

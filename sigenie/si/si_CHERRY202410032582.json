@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410032582",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA EXPORTERS LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORTS INC.",
+      "address": "AVENIDA DE LA ESPA\u00d1A 567, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-789-012",
+      "fax": "+34-956-789-013",
+      "email": "INFO@ALPHAIMPORTS.ES",
+      "contactPerson": "JUAN GARCIA"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN BEEF",
+  "containers": [
+    {
+      "containerNumber": "CONT5596202",
+      "sealNumber": "SEAL860739",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 9937.97,
+      "measurement": 39.14
+    },
+    {
+      "containerNumber": "CONT5809321",
+      "sealNumber": "SEAL364210",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 12041.54,
+      "measurement": 36.59
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 106,
+    "totalGrossWeight": 21979.51,
+    "totalMeasurement": 75.73
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241004-ALPHA"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORTS INC.",
+      "address": "AVENIDA DE LA ESPA\u00d1A 567, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-789-012",
+      "fax": "+34-956-789-013"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORTS INC.",
+      "address": "AVENIDA DE LA ESPA\u00d1A 567, ALGECIRAS, SPAIN",
+      "telephone": "+34-956-789-012",
+      "fax": "+34-956-789-013"
+    },
+    "onboardDate": "2024-10-17 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -8\u00b0C, VALUE: USD245,335"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2627453",
+    "temperature": "-8\u00b0C",
+    "minTemperature": "-10\u00b0C",
+    "maxTemperature": "-6\u00b0C",
+    "ventilation": "85%",
+    "humidity": "82%"
+  }
+}

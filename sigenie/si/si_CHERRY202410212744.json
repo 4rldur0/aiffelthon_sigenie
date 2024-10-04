@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410212744",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT EXPORT CO.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@SHANGHAIIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE GLOBAL TRADING LTD.",
+      "address": "123 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8567912345",
+      "president": "MR. JAN VAN DER SLOOT",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@SUNRISEGLOBALTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL LOGISTICS BV",
+      "address": "125 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 555 6666",
+      "fax": "+31 10 555 7777",
+      "email": "INFO@SUNRISEGLOBALLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940360",
+  "commodityDescription": "FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GENERAL FURNITURE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL TRADING LTD.",
+      "address": "123 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@SUNRISEGLOBALTRADING.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING LTD.",
+      "address": "123 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@SUNRISEGLOBALTRADING.COM"
+    },
+    "onboardDate": "2024-10-30 16:00",
+    "additionalRemarks": "CONTAINER TYPE: HC"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

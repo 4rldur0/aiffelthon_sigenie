@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202409304337",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURE LTD",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@EUROTECHTRADING.COM"
+    },
+    "consignee": {
+      "name": "EUROTOYS SARL",
+      "address": "12 RUE DE LA PAIX, 76600 LE HAVRE, FRANCE",
+      "companyNumber": "123456789",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "INFO@EUROTOYSSARL.COM"
+    },
+    "notifyParty": {
+      "name": "EUROTECH TRADING CO LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, 315000, CHINA"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "SEGU4567891",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EUROTECH TOYS - SHANGHAI",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHILDREN'S TOYS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "SEGU5678902",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EUROTECH TOYS - SHANGHAI",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHILDREN'S TOYS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 20' DRY CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH TRADING CO LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@EUROTECHTRADING.COM"
+    },
+    "onboardDate": "2024-10-07 16:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

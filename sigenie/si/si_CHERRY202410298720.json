@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410298720",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "EUROASIA TRADING COMPANY",
+      "address": "150 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6788"
+    },
+    "notifyParty": {
+      "name": "EUROASIA TRADING COMPANY",
+      "address": "150 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6788"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "38249990",
+  "commodityDescription": "DANGEROUS CHEMICAL SUBSTANCE",
+  "containers": [
+    {
+      "containerNumber": "CRLU8705274",
+      "sealNumber": "654025",
+      "marksAndNumbers": "GTS20241029",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "containerType": "20 DRY CONTAINER",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN - DANGEROUS CHEMICAL SUBSTANCE, UN 2341",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY)",
+    "totalPackages": 1000,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410298720"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "DANGEROUS GOODS DECLARATION"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROASIA TRADING COMPANY",
+      "address": "150 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6788"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA TRADING COMPANY",
+      "address": "150 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6788"
+    },
+    "onboardDate": "2024-11-07 10:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 2341"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9192222",
+    "unClass": "9",
+    "unCode": "2341",
+    "hsCode": "1545.62.64",
+    "flashPoint": "3\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202411237541",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 ASIA STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "ASIA.PACIFIC@TRADINGCO.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "5678 GLOBAL ROAD, KUALA LUMPUR, MALAYSIA",
+      "companyNumber": "1234567890",
+      "telephone": "+60 3 12345678",
+      "fax": "+60 3 12345679",
+      "email": "GLOBAL.LOGISTICS@GLOBALINC.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "5678 GLOBAL ROAD, KUALA LUMPUR, MALAYSIA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854239",
+  "commodityDescription": "SEMICONDUCTOR DEVICES",
+  "containers": [
+    {
+      "containerNumber": "GACL1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SEMICONDUCTORS - ASIA PACIFIC TRADING CO.",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SEMICONDUCTOR DEVICES - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY)",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "5678 GLOBAL ROAD, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 12345678",
+      "fax": "+60 3 12345679",
+      "email": "GLOBAL.LOGISTICS@GLOBALINC.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 ASIA STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679"
+    },
+    "onboardDate": "2024-12-11 17:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

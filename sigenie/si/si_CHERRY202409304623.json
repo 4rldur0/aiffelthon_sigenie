@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202409304623",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA PRECISION ENGINEERING CO. LTD.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "MAERSK LOGISTICS LTD.",
+      "address": "WEENA 239, 3012CN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-205-1234",
+      "fax": "+31-10-205-1235",
+      "email": "INFO@MAERSK.NL",
+      "contactPerson": "JAN SMITH"
+    },
+    "notifyParty": {
+      "name": "MAERSK LOGISTICS LTD."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINE, NUMERICALLY CONTROLLED",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289453",
+      "sealNumber": 345902,
+      "marksAndNumbers": "CPE-123",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "OUT OF GAUGE MILLING MACHINE - MODEL OGM1000",
+      "grossWeight": 25000.0,
+      "measurement": 50.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 X 2) HIGH CUBIC CONTAINER ONLY",
+    "totalPackages": 1,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1002",
+    "documentNumber": "20241004-1002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "MAERSK LOGISTICS LTD.",
+      "address": "WEENA 239, 3012CN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-205-1234",
+      "fax": "+31-10-205-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MAERSK LOGISTICS LTD.",
+      "address": "WEENA 239, 3012CN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-205-1234",
+      "fax": "+31-10-205-1235"
+    },
+    "onboardDate": "2024-10-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 9893x2130x2131",
+    "outOfGaugeDimensions": {
+      "length": 9893,
+      "width": 2130,
+      "height": 2131
+    }
+  },
+  "outOfGaugeDimensions": {
+    "length": "9893",
+    "width": "2130",
+    "height": "2131",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

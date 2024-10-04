@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411099744",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT EXPORT LTD.",
+      "address": "2345 HUAHAI ROAD, SHANGHAI, CHINA, 200000",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 21 5037 8888",
+      "fax": "+86 21 5037 8889",
+      "email": "WANG.LEI@BETAIMPORT.CN"
+    },
+    "consignee": {
+      "name": "EUROASIA LOGISTICS CO. LTD.",
+      "address": "DE ROTTERDAMSEHAVEN 23, 3065 XE ROTTERDAM, NETHERLANDS",
+      "usci": "91321200765109788X",
+      "president": "JOHAN VAN DER HEIJDEN",
+      "telephone": "+31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@EUROASIALOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "EUROASIA LOGISTICS CO. LTD.",
+      "address": "DE ROTTERDAMSEHAVEN 23, 3065 XE ROTTERDAM, NETHERLANDS",
+      "usci": "91321200765109788X",
+      "telephone": "+31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@EUROASIALOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871690",
+  "commodityDescription": "SEMI-TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CMAU2200153",
+      "sealNumber": "100915",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SEMI-TRAILER, SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE SEMI-TRAILER",
+      "grossWeight": 15000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 OPEN TOP) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "20 OPEN TOP",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "EUROASIA LOGISTICS CO. LTD.",
+      "address": "DE ROTTERDAMSEHAVEN 23, 3065 XE ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@EUROASIALOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA LOGISTICS CO. LTD.",
+      "address": "DE ROTTERDAMSEHAVEN 23, 3065 XE ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@EUROASIALOGISTICS.NL"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 2975x2753x2134, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2975",
+    "width": "2753",
+    "height": "2134",
+    "overWidth": "313",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

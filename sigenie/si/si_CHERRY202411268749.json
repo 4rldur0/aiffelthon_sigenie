@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411268749",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING LIMITED",
+      "onBehalfOf": "",
+      "address": "INDUSTRIAL STREET 12, HAMBURG 20457, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@PRECISIONENGINEERING.DE"
+    },
+    "consignee": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SINGAPORE 123456",
+      "companyNumber": "202312345",
+      "telephone": "+65 67890123",
+      "fax": "+65 67890124",
+      "email": "INFO@WORLDWIDESHIPPING.COM.SG"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SINGAPORE 123456"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS GOODS - CORROSIVE LIQUID",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "PRECISION ENGINEERING LTD.",
+      "numberOfPackages": 20,
+      "packageType": "DRUMS",
+      "cargoDescription": "CORROSIVE LIQUID - UN 1760",
+      "grossWeight": 20000.0,
+      "measurement": 33.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 20' DRY CONTAINER",
+    "totalPackages": 20,
+    "packageType": "DRUMS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SINGAPORE 123456",
+      "telephone": "+65 67890123",
+      "fax": "+65 67890124",
+      "email": "INFO@WORLDWIDESHIPPING.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SINGAPORE 123456",
+      "telephone": "+65 67890123",
+      "fax": "+65 67890124",
+      "email": "INFO@WORLDWIDESHIPPING.COM.SG"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "CONTAINER TYPE: HC, DANGEROUS GOODS, UN 1760, VALUE: USD940,509, 14 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4809561",
+    "unClass": "7",
+    "unCode": "1760,",
+    "hsCode": "2025.36.48",
+    "flashPoint": "13\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410199494",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ENGINEERING LTD",
+      "address": "NO. 123, SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86 21 6288 1234",
+      "fax": "+86 21 6288 1235",
+      "email": "INFO@SUNRISEENGINEERING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "FRIEDRICHSTRASSE 12, 20095 HAMBURG, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. HANS MEIER",
+      "telephone": "+49 40 3698 7654",
+      "fax": "+49 40 3698 7655",
+      "email": "INFO@GLOBALIMPORTS.DE"
+    },
+    "notifyParty": {
+      "name": "EUROPEAN LOGISTICS GmbH",
+      "address": "HAMBURGER STRA\u00dfe 10, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 3698 5432",
+      "fax": "+49 40 3698 5433",
+      "email": "OPERATIONS@EUROLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER, SEMI-TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "OUT-OF-GAUGE TRAILER, THIS SIDE UP",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "containerType": "FLAT RACK",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 35.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241026001"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "EUROPEAN LOGISTICS GmbH",
+      "address": "HAMBURGER STRA\u00dfe 10, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 3698 5432",
+      "fax": "+49 40 3698 5433",
+      "email": "OPERATIONS@EUROLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "FRIEDRICHSTRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 3698 7654",
+      "fax": "+49 40 3698 7655",
+      "email": "INFO@GLOBALIMPORTS.DE"
+    },
+    "onboardDate": "2024-10-28 20:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 6710x2028x2046, VALUE: USD685,109, 21 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6710",
+    "width": "2028",
+    "height": "2046",
+    "overWidth": "0",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

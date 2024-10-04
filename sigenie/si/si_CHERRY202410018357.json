@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410018357",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "123 MAIN STREET, NINGBO, ZHEJIANG, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8623 1234",
+      "fax": "+86 574 8623 5678",
+      "email": "INFO@SUNRISEELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 9012",
+      "email": "INFO@WORLDWIDELOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 9012",
+      "email": "INFO@WORLDWIDELOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "340111",
+  "commodityDescription": "SOAP; ORGANIC SURFACE-ACTIVE AGENTS, WHETHER OR NOT IN THE FORM OF PREPARATIONS; WASHING PREPARATIONS (INCLUDING THOSE OF A TYPE USED FOR HOUSEHOLD PURPOSES)",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE20241001",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SOAP, ORGANIC SURFACE-ACTIVE AGENTS, WASHING PREPARATIONS",
+      "grossWeight": 16000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 500,
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "FUMIGATION CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 9012",
+      "email": "INFO@WORLDWIDELOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 9012",
+      "email": "INFO@WORLDWIDELOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 2600"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7409206",
+    "unClass": "5",
+    "unCode": "2600",
+    "hsCode": "4601.49.83",
+    "flashPoint": "42\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

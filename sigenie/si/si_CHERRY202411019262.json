@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202411019262",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE CHEMICAL INDUSTRIES PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118507",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6234 5678",
+      "fax": "+65 6234 5679",
+      "email": "SALES@SINGAPORECHEMICAL.COM.SG"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING NETHERLANDS BV",
+      "address": "VIJVERSSTRAAT 123, 3011 BT ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6790",
+      "email": "OPERATIONS@DHL.NL"
+    },
+    "notifyParty": {
+      "name": "SINGAPORE CHEMICAL INDUSTRIES PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118507",
+      "country": "SINGAPORE",
+      "telephone": "+65 6234 5678",
+      "fax": "+65 6234 5679",
+      "email": "SALES@SINGAPORECHEMICAL.COM.SG"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "281010",
+  "commodityDescription": "BORIC ACID",
+  "containers": [
+    {
+      "containerNumber": "MSKU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SCI20241115",
+      "numberOfPackages": 20,
+      "packageType": "DRUMS",
+      "cargoDescription": "BORIC ACID AS PER MSDS",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY)",
+    "totalPackages": 20,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 33.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "MSDS"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "888 WOODLANDS ROAD, SINGAPORE 738633",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "OPERATIONS@DHL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE CHEMICAL INDUSTRIES PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118507",
+      "country": "SINGAPORE",
+      "telephone": "+65 6234 5678",
+      "fax": "+65 6234 5679",
+      "email": "SALES@SINGAPORECHEMICAL.COM.SG"
+    },
+    "onboardDate": "2024-11-11 18:00",
+    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 3145, 21 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9078674",
+    "unClass": "2",
+    "unCode": "3145,",
+    "hsCode": "8383.88.68",
+    "flashPoint": "82\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "containerDetails": {
+    "type": "DRY CONTAINER"
+  }
+}

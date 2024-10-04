@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410044402",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GAMMA INDUSTRIES LTD",
+      "address": "NO. 123 YONGJI ROAD, YONGJI DISTRICT, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8865 9000",
+      "fax": "+86 574 8865 9001",
+      "email": "INFO@GAMMAINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "DELTA TRANSPORT SERVICES INC.",
+      "address": "WATERLOOPLEIN 10, 1012 MT AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 624 5000",
+      "fax": "+31 20 624 5001",
+      "email": "INFO@DELTATRANSPORTSERVICES.NL",
+      "personincharge": "PETER VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "name": "ALPHA LOGISTICS BV",
+      "address": "ZUIDERKERKHOF 17, 1092 BG AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 470 7000",
+      "fax": "+31 20 470 7001",
+      "email": "INFO@ALPHALOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "SEMI-TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "900456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SEMI-TRAILER FOR TRANSPORT",
+      "grossWeight": 25000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 40 OPEN TOP) CONTAINER ONLY",
+    "totalPackages": 1,
+    "totalpackageType": "UNIT",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241026001"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA TRANSPORT SERVICES INC.",
+      "address": "WATERLOOPLEIN 10, 1012 MT AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 5000",
+      "fax": "+31 20 624 5001",
+      "email": "INFO@DELTATRANSPORTSERVICES.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRANSPORT SERVICES INC.",
+      "address": "WATERLOOPLEIN 10, 1012 MT AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 5000",
+      "fax": "+31 20 624 5001",
+      "email": "INFO@DELTATRANSPORTSERVICES.NL"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "CONTAINER TYPE: OPEN TOP, OUT OF GAUGE CARGO, LxWxH(mm): 6934x2551x2036, VALUE: USD541,805"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6934",
+    "width": "2551",
+    "height": "2036",
+    "overWidth": "111",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "OPEN TOP"
+  }
+}

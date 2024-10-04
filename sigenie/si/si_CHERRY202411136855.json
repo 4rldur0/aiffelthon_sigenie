@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202411136855",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "123 FACTORY LANE, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 87654321",
+      "email": "SHIPPING@BETAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA INTERNATIONAL LTD",
+      "address": "456 MAIN STREET, MADRID, SPAIN",
+      "taxId": "ES1234567890",
+      "president": "MR. JUAN GARCIA",
+      "telephone": "+34 91 12345678",
+      "fax": "+34 91 87654321",
+      "email": "JUAN.GARCIA@ALPHAINTERNATIONAL.COM"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS SPAIN S.A.",
+      "address": "789 PORT STREET, BARCELONA, SPAIN",
+      "telephone": "+34 93 12345678",
+      "fax": "+34 93 87654321",
+      "email": "INFO@LOGISTICSSSPAIN.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871680",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "TRAILER",
+      "cargoDescription": "TRAILER AS PER SHIPPER'S INSTRUCTIONS",
+      "grossWeight": 15000.0,
+      "measurement": 80.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X 1) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "TRAILER",
+    "containerType": "FLAT RACK",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 80.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "ALPHA INTERNATIONAL LTD",
+      "address": "456 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 12345678",
+      "fax": "+34 91 87654321",
+      "email": "JUAN.GARCIA@ALPHAINTERNATIONAL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA INTERNATIONAL LTD",
+      "address": "456 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 12345678",
+      "fax": "+34 91 87654321",
+      "email": "JUAN.GARCIA@ALPHAINTERNATIONAL.COM"
+    },
+    "onboardDate": "2024-11-27 18:00",
+    "additionalRemarks": "CONTAINER TYPE: FLAT RACK, OUT OF GAUGE CARGO, LxWxH(mm): 9340x2480x2190, VALUE: USD494,467"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9340",
+    "width": "2480",
+    "height": "2190",
+    "overWidth": "40",
+    "overHeight": "0"
+  },
+  "containerDetails": {
+    "type": "FLAT RACK"
+  }
+}

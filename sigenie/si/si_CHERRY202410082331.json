@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410082331",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@GLOBALTRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "10 CANAL ROAD, ROTTERDAM, NETHERLANDS 3011 EK",
+      "taxId": "NL854276123B01",
+      "president": "MR. JAN VAN DER LINDE",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679",
+      "email": "ORDERS@ASIAPACIFICLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "10 CANAL ROAD, ROTTERDAM, NETHERLANDS 3011 EK",
+      "taxId": "",
+      "president": "",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT4408164",
+      "sealNumber": "SEAL320426",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 13314.33,
+      "measurement": 32.43
+    },
+    {
+      "containerNumber": "CONT1830109",
+      "sealNumber": "SEAL905140",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 19506.44,
+      "measurement": 23.73
+    },
+    {
+      "containerNumber": "CONT1692680",
+      "sealNumber": "SEAL605645",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 13576.63,
+      "measurement": 21.95
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE TANK",
+    "totalPackages": 232,
+    "totalGrossWeight": 46397.4,
+    "totalMeasurement": 78.11
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "10 CANAL ROAD, ROTTERDAM, NETHERLANDS 3011 EK",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679",
+      "email": "ORDERS@ASIAPACIFICLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "10 CANAL ROAD, ROTTERDAM, NETHERLANDS 3011 EK",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679",
+      "email": "ORDERS@ASIAPACIFICLOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "KEEP DRY"
+  }
+}
