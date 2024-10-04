@@ -10,16 +10,7 @@ class VerifyCompanyPolicy:
         self.llm = gemini_1_5_flash
         self.prompt = verify_company_policy_prompt
         self.chain = BasicChain(llm = self.llm, prompt = self.prompt, input_variables=["si_data"])
-        self.rag = self.get_RAG_agent()
-
-    def get_RAG_agent(self):
-        urls = [
-            "https://www.ilovesea.or.kr/dictionary/list.do",  # Replace with your URLs
-        ]
-        pdf_files = glob.glob('./docs/*.pdf')  # Adjust path to your PDF files
-        sources = pdf_files + urls
-        rag = RAGAgent(sources=sources, generate_response_chain=self.chain)
-        return rag
+        self.rag_agent = RAGAgent(prompt=self.prompt, llm=self.llm)
 
     def __call__(self, state: State) -> State:
         """
@@ -31,7 +22,7 @@ class VerifyCompanyPolicy:
             State: Updated state with compliance validation result.
         """
         try:
-            response = self.rag.invoke({"si_data": state['si_data']})
+            response = self.rag_agent.invoke({"si_data": state['si_data']})
             state['policy_answer'] = response
         except Exception as e:
             state['policy_answer'] = f"Error during compliance validation: {e}"
