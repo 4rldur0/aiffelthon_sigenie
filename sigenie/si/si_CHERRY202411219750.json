@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411219750",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854230",
+  "commodityDescription": "OUT-OF-GAUGE INDUSTRIAL EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT9082165",
+      "sealNumber": "SEAL440900",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 6743.6,
+      "measurement": 33.12
+    },
+    {
+      "containerNumber": "CONT4806001",
+      "sealNumber": "SEAL983785",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 8686.01,
+      "measurement": 36.96
+    },
+    {
+      "containerNumber": "CONT8591543",
+      "sealNumber": "SEAL344754",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 19436.42,
+      "measurement": 29.05
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD FLAT RACK",
+    "totalPackages": 78,
+    "totalGrossWeight": 34866.03,
+    "totalMeasurement": 99.13
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-29 16:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8788x2116x2173, THIS SIDE UP"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8788",
+    "width": "2116",
+    "height": "2173",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

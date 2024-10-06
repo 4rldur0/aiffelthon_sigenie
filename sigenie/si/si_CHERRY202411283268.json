@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202411283268",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION INDUSTRIES LTD.",
+      "address": "1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GLOBALLOGISTICS.NL",
+      "contactPerson": "PETER VAN DER LEEUW"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "330190",
+  "commodityDescription": "ESSENTIAL OILS",
+  "containers": [
+    {
+      "containerNumber": "CONT7362357",
+      "sealNumber": "SEAL826219",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 5112.67,
+      "measurement": 32.1
+    },
+    {
+      "containerNumber": "CONT9710360",
+      "sealNumber": "SEAL821840",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 7704.12,
+      "measurement": 24.81
+    },
+    {
+      "containerNumber": "CONT2991777",
+      "sealNumber": "SEAL838662",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 7513.78,
+      "measurement": 34.61
+    },
+    {
+      "containerNumber": "CONT3289192",
+      "sealNumber": "SEAL575165",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 13486.9,
+      "measurement": 26.77
+    },
+    {
+      "containerNumber": "CONT7836598",
+      "sealNumber": "SEAL156888",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 17502.02,
+      "measurement": 39.72
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD TANK",
+    "totalPackages": 313,
+    "totalGrossWeight": 51319.49,
+    "totalMeasurement": 158.01
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1505, 30 DAYS FREE TIME AT DESTINATION, THIS SIDE UP",
+    "dangerousGoods": {
+      "unNumber": "1505",
+      "properShippingName": "ESSENTIAL OILS",
+      "hazardClass": "3",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3480800",
+    "unClass": "6",
+    "unCode": "1505,",
+    "hsCode": "8415.34.12",
+    "flashPoint": "23\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "bookingReference": "CHERRY202410285188",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@SUNRISE-ELECTRONICS.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "email": "ORDERS@GLOBALTRADING.COM",
+      "telephone": "+1 212 555 1212"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@ALPHAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "902290",
+  "commodityDescription": "REFRIGERATION UNITS",
+  "containers": [
+    {
+      "containerNumber": "CONT9679168",
+      "sealNumber": "SEAL173131",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 16288.46,
+      "measurement": 20.21
+    },
+    {
+      "containerNumber": "CONT6498049",
+      "sealNumber": "SEAL682219",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 5541.9,
+      "measurement": 34.45
+    },
+    {
+      "containerNumber": "CONT5183958",
+      "sealNumber": "SEAL463459",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 6743.3,
+      "measurement": 38.97
+    },
+    {
+      "containerNumber": "CONT8854671",
+      "sealNumber": "SEAL694298",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 7461.55,
+      "measurement": 35.41
+    },
+    {
+      "containerNumber": "CONT3748213",
+      "sealNumber": "SEAL489378",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 9042.13,
+      "measurement": 21.64
+    },
+    {
+      "containerNumber": "CONT2330084",
+      "sealNumber": "SEAL378610",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 5019.21,
+      "measurement": 20.15
+    },
+    {
+      "containerNumber": "CONT8435407",
+      "sealNumber": "SEAL304251",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 17741.24,
+      "measurement": 37.02
+    },
+    {
+      "containerNumber": "CONT8100258",
+      "sealNumber": "SEAL119315",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 16836.98,
+      "measurement": 32.89
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "8 x 40 HIGH CUBE REEFER",
+    "totalPackages": 437,
+    "totalGrossWeight": 84674.77,
+    "totalMeasurement": 240.74
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-07 08:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 18\u00b0C, VALUE: USD540,735",
+    "reeferSettings": {
+      "temperature": "18\u00b0C",
+      "ventilation": "NATURAL"
+    }
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8404647",
+    "temperature": "18\u00b0C",
+    "minTemperature": "16\u00b0C",
+    "maxTemperature": "20\u00b0C",
+    "ventilation": "40%",
+    "humidity": "76%"
+  }
+}

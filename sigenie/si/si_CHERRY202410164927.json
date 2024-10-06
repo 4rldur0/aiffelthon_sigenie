@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202410164927",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION MACHINERY INC.",
+      "address": "123 MAIN STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 8888",
+      "email": "INFO@PRECISIONMACHINERY.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 PARK AVENUE, ROTTERDAM, NETHERLANDS 3011 AA",
+      "taxId": "NL850123456B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 200 1000",
+      "fax": "+31 10 200 1001",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 PARK AVENUE, ROTTERDAM, NETHERLANDS 3011 AA",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 200 1000",
+      "fax": "+31 10 200 1001",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT2448149",
+      "sealNumber": "SEAL132941",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 6215.13,
+      "measurement": 36.66
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 14,
+    "totalGrossWeight": 6215.13,
+    "totalMeasurement": 36.66
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 PARK AVENUE, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31 10 200 1000",
+      "fax": "+31 10 200 1001",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 PARK AVENUE, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31 10 200 1000",
+      "fax": "+31 10 200 1001",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "KEEP DRY"
+  }
+}

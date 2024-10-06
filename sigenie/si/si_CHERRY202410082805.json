@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202410082805",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT EXPORT CO.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING LTD",
+      "address": "CALLE CASTILLA 123, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-2345-6789",
+      "fax": "+34-91-2345-6780",
+      "email": "INFO@ALPHAGLOBAL.ES",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL TRADING LTD",
+      "address": "CALLE CASTILLA 123, 28001 MADRID, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382490",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT3104100",
+      "sealNumber": "SEAL702943",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 18286.68,
+      "measurement": 29.12
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 59,
+    "totalGrossWeight": 18286.68,
+    "totalMeasurement": 29.12
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241008-1001",
+    "documentNumber": "20241008-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING LTD",
+      "address": "CALLE CASTILLA 123, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-2345-6789",
+      "fax": "+34-91-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING LTD",
+      "address": "CALLE CASTILLA 123, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-2345-6789",
+      "fax": "+34-91-2345-6780"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2143"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2175539",
+    "unClass": "5",
+    "unCode": "2143",
+    "hsCode": "4752.13.76",
+    "flashPoint": "59\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

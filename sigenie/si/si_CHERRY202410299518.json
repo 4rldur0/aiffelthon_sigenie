@@ -1,18 +1,18 @@
 {
   "bookingReference": "CHERRY202410299518",
   "voyageDetails": {
-    "vesselName": "CMA CGM ZHENG HE",
-    "voyageNumber": "2432EWL"
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
   },
   "routeDetails": {
     "placeOfReceipt": "NINGBO, CHINA",
     "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY"
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Prepaid",
-    "freightPayableAt": "HAMBURG"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
@@ -21,87 +21,96 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TEXTILES",
-      "address": "123 Textile Lane, Shanghai, China",
-      "telephone": "+86-21-55556789",
-      "fax": "+86-21-55551234"
+      "name": "SUNRISE GLOBAL INC.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
     },
     "consignee": {
-      "name": "GLOBAL IMPORTS LTD.",
-      "address": "456 Import Street, Hamburg, Germany",
-      "telephone": "+49-40-12345678",
-      "fax": "+49-40-98765432",
-      "email": "consignee@globalimports.de",
-      "contactPerson": "PETER SCHULTZ"
+      "name": "ALPHA TRADING GROUP LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "FREIGHT FORWARDERS GMBH",
-      "address": "789 Forwarding Avenue, Hamburg, Germany",
-      "telephone": "+49-40-23456789",
-      "fax": "+49-40-34567890"
+      "name": "ALPHA TRADING GROUP LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
     }
   },
   "shippingTerm": "CFS/CY",
-  "hsCode": "551292",
-  "commodityDescription": "COTTON FABRIC",
+  "hsCode": "960611",
+  "commodityDescription": "FOUNTAIN PENS",
   "containers": [
     {
-      "containerNumber": "CRLU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "SAMPLE MARKING",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COTTON FABRIC",
-      "grossWeight": 20000.0,
-      "measurement": 60.0
+      "containerNumber": "CONT4241292",
+      "sealNumber": "SEAL459942",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 7014.22,
+      "measurement": 34.62
     },
     {
-      "containerNumber": "CRLU8765432",
-      "sealNumber": "789012",
-      "marksAndNumbers": "SAMPLE MARKING 2",
-      "numberOfPackages": 600,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COTTON FABRIC",
-      "grossWeight": 21000.0,
-      "measurement": 62.0
+      "containerNumber": "CONT5351530",
+      "sealNumber": "SEAL987364",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 15254.73,
+      "measurement": 21.85
     },
     {
-      "containerNumber": "CRLU9876543",
-      "sealNumber": "345678",
-      "marksAndNumbers": "SAMPLE MARKING 3",
-      "numberOfPackages": 550,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COTTON FABRIC",
-      "grossWeight": 20500.0,
-      "measurement": 61.0
+      "containerNumber": "CONT1297838",
+      "sealNumber": "SEAL882642",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 8309.92,
+      "measurement": 26.77
+    },
+    {
+      "containerNumber": "CONT7330656",
+      "sealNumber": "SEAL473743",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 9015.61,
+      "measurement": 28.69
+    },
+    {
+      "containerNumber": "CONT5635790",
+      "sealNumber": "SEAL242328",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 18714.98,
+      "measurement": 35.16
     }
   ],
   "totalShipment": {
-    "totalContainers": "3 X 40 DRY HC CONTAINER",
-    "totalPackages": 1650,
-    "totalGrossWeight": 61500.0,
-    "totalMeasurement": 183.0
+    "totalContainers": "5 x 40 STANDARD TANK",
+    "totalPackages": 209,
+    "totalGrossWeight": 58309.46,
+    "totalMeasurement": 147.09
   },
   "additionalInformation": {
-    "invoiceNumber": "INV202410291234",
-    "documentNumber": "DOC202410291234",
     "lcDetails": {
-      "lcNumber": "LC9876543210"
+      "lcNumber": "LC202410299518"
     },
     "certificateDetails": [
-      "CERT12345678"
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
     ],
     "originalBLDistribution": {
-      "name": "FREIGHT FORWARDERS GMBH",
-      "address": "789 Forwarding Avenue, Hamburg, Germany",
-      "telephone": "+49-40-23456789",
-      "fax": "+49-40-34567890"
+      "name": "GLOBAL TRANSPORTATION LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL IMPORTS LTD.",
-      "address": "456 Import Street, Hamburg, Germany",
-      "telephone": "+49-40-12345678",
-      "fax": "+49-40-98765432"
+      "name": "ALPHA TRADING GROUP LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
     },
-    "onboardDate": "2024-11-05 14:00",
-    "additionalRemarks": "3 x 40 DRY HC containers, Value: USD45,000"
+    "onboardDate": "2024-11-17 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
   }
 }

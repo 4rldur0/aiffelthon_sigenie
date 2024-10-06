@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411052072",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HARVE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE PRECISION TECHNOLOGIES PTE LTD",
+      "address": "15 CHANGI BUSINESS PARK CRESCENT, #05-01 HONEYWELL BUILDING, SINGAPORE 486006",
+      "telephone": "+65 7588 9155",
+      "fax": "+65 7588 9200",
+      "email": "LIM.KWANGHEE@SGPRECISIONTECH.COM.SG"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "taxId": "",
+      "president": "MS. JANE DOE",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "330499",
+  "commodityDescription": "PERFUMES AND TOILET WATERS",
+  "containers": [
+    {
+      "containerNumber": "CONT9800929",
+      "sealNumber": "SEAL841080",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 17489.37,
+      "measurement": 31.89
+    },
+    {
+      "containerNumber": "CONT3728753",
+      "sealNumber": "SEAL644915",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 8750.49,
+      "measurement": 20.4
+    },
+    {
+      "containerNumber": "CONT3502244",
+      "sealNumber": "SEAL168350",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 18714.04,
+      "measurement": 28.69
+    },
+    {
+      "containerNumber": "CONT4739894",
+      "sealNumber": "SEAL872222",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 18341.26,
+      "measurement": 25.48
+    },
+    {
+      "containerNumber": "CONT5989361",
+      "sealNumber": "SEAL767350",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 10715.29,
+      "measurement": 34.9
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD GENERAL",
+    "totalPackages": 275,
+    "totalGrossWeight": 74010.45,
+    "totalMeasurement": 141.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-16 08:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2845"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2647802",
+    "unClass": "7",
+    "unCode": "2845",
+    "hsCode": "6251.12.50",
+    "flashPoint": "36\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

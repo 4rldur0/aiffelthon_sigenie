@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202410225361",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING COMPANY INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORT EXPORT LTD",
+      "address": "456 ALICANTE STREET, MADRID, SPAIN",
+      "telephone": "+34-91-1234-5678",
+      "fax": "+34-91-1234-5679",
+      "email": "INFO@ALPHAIMPORT.COM",
+      "contactPerson": "JUAN PEREZ"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL IMPORT EXPORT LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT2895354",
+      "sealNumber": "SEAL921859",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 9368.64,
+      "measurement": 27.34
+    },
+    {
+      "containerNumber": "CONT2300622",
+      "sealNumber": "SEAL434620",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 16586.5,
+      "measurement": 25.22
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 106,
+    "totalGrossWeight": 25955.14,
+    "totalMeasurement": 52.56
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241022-1001",
+    "documentNumber": "20241022-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL IMPORT EXPORT LTD",
+      "address": "456 ALICANTE STREET, MADRID, SPAIN",
+      "telephone": "+34-91-1234-5678",
+      "fax": "+34-91-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL IMPORT EXPORT LTD",
+      "address": "456 ALICANTE STREET, MADRID, SPAIN",
+      "telephone": "+34-91-1234-5678",
+      "fax": "+34-91-1234-5679"
+    },
+    "onboardDate": "2024-11-07 09:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

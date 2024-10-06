@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202410125595",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213",
+      "email": "INFO@GLOBALIMPORT.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT EXPORT INC."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS DESIGNED TO BE RIDDEN OR PUSHED",
+  "containers": [
+    {
+      "containerNumber": "CONT1118988",
+      "sealNumber": "SEAL762839",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 6629.91,
+      "measurement": 29.99
+    },
+    {
+      "containerNumber": "CONT3127184",
+      "sealNumber": "SEAL510865",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 15185.68,
+      "measurement": 31.3
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 82,
+    "totalGrossWeight": 21815.59,
+    "totalMeasurement": 61.29
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-10-20 16:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  }
+}

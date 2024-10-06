@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411226769",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECHNO SOLUTIONS INC.",
+      "address": "1234 TECH STREET, SHANGHAI 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1313",
+      "email": "INFO@TECHNOSOLUTIONS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "333401",
+  "commodityDescription": "BEAUTY OR MAKE-UP PREPARATIONS AND SIMILAR ARTICLES",
+  "containers": [
+    {
+      "containerNumber": "CONT6210876",
+      "sealNumber": "SEAL319366",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 9801.94,
+      "measurement": 27.76
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 87,
+    "totalGrossWeight": 9801.94,
+    "totalMeasurement": 27.76
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "FUMIGATION CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM 3000 AA, NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM 3000 AA, NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-11-24 20:30",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2891, VALUE: USD73,711, KEEP DRY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7157928",
+    "unClass": "8",
+    "unCode": "2891,",
+    "hsCode": "5544.51.56",
+    "flashPoint": "51\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

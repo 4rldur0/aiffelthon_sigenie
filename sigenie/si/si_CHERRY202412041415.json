@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202412041415",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 6666",
+      "email": "INFO@ASIAPACIFICINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY 20457",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY 20457",
+      "usci": "91321200765109788X",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALTRADING.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT4769751",
+      "sealNumber": "SEAL351950",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 13696.37,
+      "measurement": 38.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 100,
+    "totalGrossWeight": 13696.37,
+    "totalMeasurement": 38.81
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-12-12 10:00",
+    "additionalRemarks": "UNDER DECK TOP STOWAGE"
+  }
+}

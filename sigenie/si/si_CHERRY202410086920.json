@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202410086920",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION TECHNOLOGIES PTE LTD",
+      "address": "123 INDUSTRIAL PARK ROAD, SINGAPORE 657890",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "SINGAPORE GLOBAL LOGISTICS LTD",
+      "address": "456 ALEXANDRA ROAD, SINGAPORE 546789",
+      "telephone": "+65-6789-4321",
+      "fax": "+65-6789-4322"
+    },
+    "notifyParty": {
+      "name": "SINGAPORE GLOBAL LOGISTICS LTD",
+      "address": "456 ALEXANDRA ROAD, SINGAPORE 546789",
+      "telephone": "+65-6789-4321",
+      "fax": "+65-6789-4322"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "300490",
+  "commodityDescription": "PHARMACEUTICAL PRODUCTS",
+  "containers": [
+    {
+      "containerNumber": "CONT4616931",
+      "sealNumber": "SEAL231890",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 6514.46,
+      "measurement": 39.13
+    },
+    {
+      "containerNumber": "CONT7587133",
+      "sealNumber": "SEAL775986",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 14600.53,
+      "measurement": 24.05
+    },
+    {
+      "containerNumber": "CONT4790838",
+      "sealNumber": "SEAL679748",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 6892.28,
+      "measurement": 20.65
+    },
+    {
+      "containerNumber": "CONT9445281",
+      "sealNumber": "SEAL387766",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 15933.24,
+      "measurement": 25.11
+    },
+    {
+      "containerNumber": "CONT1052770",
+      "sealNumber": "SEAL241344",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 17030.37,
+      "measurement": 27.57
+    },
+    {
+      "containerNumber": "CONT8409472",
+      "sealNumber": "SEAL488901",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 11728.44,
+      "measurement": 22.08
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 286,
+    "totalGrossWeight": 72699.32,
+    "totalMeasurement": 158.59
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "SINGAPORE GLOBAL LOGISTICS LTD",
+      "address": "456 ALEXANDRA ROAD, SINGAPORE 546789",
+      "telephone": "+65-6789-4321",
+      "fax": "+65-6789-4322"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE GLOBAL LOGISTICS LTD",
+      "address": "456 ALEXANDRA ROAD, SINGAPORE 546789",
+      "telephone": "+65-6789-4321",
+      "fax": "+65-6789-4322"
+    },
+    "onboardDate": "2024-10-16 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2929, VALUE: USD224,204, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4719036",
+    "unClass": "4",
+    "unCode": "2929,",
+    "hsCode": "1984.22.76",
+    "flashPoint": "50\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

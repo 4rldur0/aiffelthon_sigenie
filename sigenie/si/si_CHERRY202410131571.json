@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410131571",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES CO.",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 123 4567",
+      "fax": "+86 574 123 4568",
+      "email": "INFO@ASIAPACIFICTEXTILES.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 ABC STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568",
+      "email": "INFO@GLOBALIMPORTS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "789 DEF STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 987 6543",
+      "fax": "+31 10 987 6542",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "630900",
+  "commodityDescription": "WOVEN FABRICS OF COTTON, UNBLEACHED OR BLEACHED",
+  "containers": [
+    {
+      "containerNumber": "CONT9060369",
+      "sealNumber": "SEAL972130",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 14873.04,
+      "measurement": 26.31
+    },
+    {
+      "containerNumber": "CONT9395246",
+      "sealNumber": "SEAL170993",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 8563.83,
+      "measurement": 39.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 150,
+    "totalGrossWeight": 23436.87,
+    "totalMeasurement": 65.4
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "789 DEF STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 987 6543",
+      "fax": "+31 10 987 6542",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 ABC STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568",
+      "email": "INFO@GLOBALIMPORTS.COM"
+    },
+    "onboardDate": "2024-10-22 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

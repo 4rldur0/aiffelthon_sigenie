@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410117251",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO LTD",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5678 9012",
+      "fax": "+86 21 5678 9013"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT & EXPORT",
+      "address": "456 PORT STREET, LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 GLOBAL LANE, LONDON, UK",
+      "telephone": "+44 20 7654 3210",
+      "fax": "+44 20 7654 3211"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL MERCHANDISE",
+  "containers": [
+    {
+      "containerNumber": "CONT1165396",
+      "sealNumber": "SEAL389063",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 7371.42,
+      "measurement": 37.1
+    },
+    {
+      "containerNumber": "CONT1230475",
+      "sealNumber": "SEAL304197",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 12186.73,
+      "measurement": 30.26
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 93,
+    "totalGrossWeight": 19558.15,
+    "totalMeasurement": 67.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410235678"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 GLOBAL LANE, LONDON, UK",
+      "telephone": "+44 20 7654 3210",
+      "fax": "+44 20 7654 3211"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORT & EXPORT",
+      "address": "456 PORT STREET, LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57"
+    },
+    "onboardDate": "2024-10-23 08:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION, FRAGILE"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410315226",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC PRODUCE LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL FOODS INC",
+      "address": "NO. 456, MEISTER STREET, HAMBURG, 20457, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-12345679"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "070110",
+  "commodityDescription": "FRESH POTATOES",
+  "containers": [
+    {
+      "containerNumber": "CONT3784129",
+      "sealNumber": "SEAL104113",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 13942.99,
+      "measurement": 20.15
+    },
+    {
+      "containerNumber": "CONT5902830",
+      "sealNumber": "SEAL824231",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 6579.24,
+      "measurement": 23.49
+    },
+    {
+      "containerNumber": "CONT7268959",
+      "sealNumber": "SEAL170390",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 6999.01,
+      "measurement": 39.03
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE REEFER",
+    "totalPackages": 192,
+    "totalGrossWeight": 27521.24,
+    "totalMeasurement": 82.67
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-07 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 10\u00b0C, VALUE: USD466,719, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5294565",
+    "temperature": "10\u00b0C",
+    "minTemperature": "8\u00b0C",
+    "maxTemperature": "12\u00b0C",
+    "ventilation": "17%",
+    "humidity": "78%"
+  }
+}

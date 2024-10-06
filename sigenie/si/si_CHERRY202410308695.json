@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202410308695",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA CHEMICALS LTD",
+      "address": "123 CHEMICAL AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JEREMY.LEE@OMEGACHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "DELTA GLOBAL TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "country": "CHINA",
+      "email": "ZENLEE@DELTAGLOBALTRADING.CN",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@BLUESKYLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "070110",
+  "commodityDescription": "FRESH APPLES",
+  "containers": [
+    {
+      "containerNumber": "CONT7130917",
+      "sealNumber": "SEAL354750",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 15134.52,
+      "measurement": 31.79
+    },
+    {
+      "containerNumber": "CONT7150083",
+      "sealNumber": "SEAL560052",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 10228.1,
+      "measurement": 33.4
+    },
+    {
+      "containerNumber": "CONT2214005",
+      "sealNumber": "SEAL180943",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 15745.81,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CONT3045547",
+      "sealNumber": "SEAL475394",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 18765.43,
+      "measurement": 26.72
+    },
+    {
+      "containerNumber": "CONT8933486",
+      "sealNumber": "SEAL801243",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 13546.94,
+      "measurement": 20.9
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD REEFER",
+    "totalPackages": 291,
+    "totalGrossWeight": 73420.8,
+    "totalMeasurement": 137.91
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA GLOBAL TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@DELTAGLOBALTRADING.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA GLOBAL TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@DELTAGLOBALTRADING.CN"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -14\u00b0C, HANDLE WITH CARE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6427454",
+    "temperature": "-14\u00b0C",
+    "minTemperature": "-16\u00b0C",
+    "maxTemperature": "-12\u00b0C",
+    "ventilation": "29%",
+    "humidity": "84%"
+  }
+}

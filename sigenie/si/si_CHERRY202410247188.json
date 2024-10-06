@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410247188",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA CHEMICALS LTD.",
+      "onBeHalfOf": "",
+      "address": "1234 CHEMICAL AVE, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "INFO@BETACHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORTS INC.",
+      "address": "5678 GLOBAL WAY, ALGECIRAS, SPAIN",
+      "companyNumber": "ES123456789",
+      "telephone": "+34 956 12345678",
+      "fax": "+34 956 12345679",
+      "email": "INFO@ALPHAIMPORT.ES"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL IMPORTS INC.",
+      "address": "5678 GLOBAL WAY, ALGECIRAS, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "282735",
+  "commodityDescription": "ETHANOL SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT4880217",
+      "sealNumber": "SEAL532706",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 18439.74,
+      "measurement": 38.38
+    },
+    {
+      "containerNumber": "CONT2339891",
+      "sealNumber": "SEAL644237",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 9117.39,
+      "measurement": 26.58
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 115,
+    "totalGrossWeight": 27557.13,
+    "totalMeasurement": 64.96
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410261234"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL IMPORTS INC.",
+      "address": "5678 GLOBAL WAY, ALGECIRAS, SPAIN"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2428, MAINTAIN HUMIDITY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5315688",
+    "unClass": "8",
+    "unCode": "2428,",
+    "hsCode": "4969.38.54",
+    "flashPoint": "88\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

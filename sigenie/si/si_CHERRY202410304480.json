@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410304480",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING INC.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "ZHAO ENTERPRISES CO., LTD.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-555-6666",
+      "fax": "+86-21-555-6667"
+    },
+    "notifyParty": {
+      "name": "ZHAO ENTERPRISES CO., LTD.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-555-6666",
+      "fax": "+86-21-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871690",
+  "commodityDescription": "SEMI-TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT1624097",
+      "sealNumber": "SEAL123363",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 10899.99,
+      "measurement": 33.56
+    },
+    {
+      "containerNumber": "CONT7572061",
+      "sealNumber": "SEAL755508",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 19999.47,
+      "measurement": 27.76
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD PLATFORM",
+    "totalPackages": 128,
+    "totalGrossWeight": 30899.46,
+    "totalMeasurement": 61.32
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ZHAO ENTERPRISES CO., LTD.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-555-6666",
+      "fax": "+86-21-555-6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZHAO ENTERPRISES CO., LTD.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-555-6666",
+      "fax": "+86-21-555-6667"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5724x2481x2958, HANDLE WITH CARE",
+    "outOfGaugeDimensions": "5724x2481x2958"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5724",
+    "width": "2481",
+    "height": "2958",
+    "overWidth": "41",
+    "overHeight": "368"
+  }
+}

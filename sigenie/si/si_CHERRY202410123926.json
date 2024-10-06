@@ -1,0 +1,83 @@
+{
+  "bookingReference": "CHERRY202410123926",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TECH MANUFACTURING CO.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING INC.",
+      "address": "DAMRAK 53, 1012 LH AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-620-5000",
+      "fax": "+31-20-620-5001",
+      "email": "INFO@GLOBALSIPPING.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING INC.",
+      "address": "DAMRAK 53, 1012 LH AMSTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950490",
+  "commodityDescription": "ARTICLES FOR THE ENTERTAINMENT OR SPORTS - GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT7912197",
+      "sealNumber": "SEAL759459",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 18820.63,
+      "measurement": 30.46
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 75,
+    "totalGrossWeight": 18820.63,
+    "totalMeasurement": 30.46
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241012-1001",
+    "documentNumber": "20241012-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING INC.",
+      "address": "DAMRAK 53, 1012 LH AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-620-5000",
+      "fax": "+31-20-620-5001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING INC.",
+      "address": "DAMRAK 53, 1012 LH AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-620-5000",
+      "fax": "+31-20-620-5001"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

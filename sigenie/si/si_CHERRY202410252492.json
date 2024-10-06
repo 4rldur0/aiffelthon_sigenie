@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410252492",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ACME PRECISION ENGINEERING LTD.",
+      "address": "NO. 123, JIANXI ROAD,NINGBO ECONOMIC & TECHNOLOGICAL DEVELOPMENT ZONE, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 1234",
+      "fax": "+86 574 8888 5678",
+      "email": "SALES@ACMENGINEER.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "STATIONSPLAATS 12, 3013 AL ROTTERDAM, NETHERLANDS",
+      "taxId": "NL856723456VAT",
+      "president": "MR. JAN VAN DER MEER",
+      "telephone": "+31 10 246 8500",
+      "fax": "+31 10 246 8501",
+      "email": "INFO@GLOBALFREIGHT.NL"
+    },
+    "notifyParty": {
+      "name": "CUSTOMS BROKER N.V.",
+      "address": "PIETERMAAIJSENSTRAAT 10, 3011 AJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 436 5000",
+      "fax": "+31 10 436 5001",
+      "email": "CUSTOMS@CUSTOMSBROKER.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT8931045",
+      "sealNumber": "SEAL193558",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 8085.09,
+      "measurement": 34.51
+    },
+    {
+      "containerNumber": "CONT2471447",
+      "sealNumber": "SEAL730130",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 9174.53,
+      "measurement": 20.27
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 38,
+    "totalGrossWeight": 17259.62,
+    "totalMeasurement": 54.78
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ATTACHED",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "STATIONSPLAATS 12, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 246 8500",
+      "fax": "+31 10 246 8501",
+      "email": "INFO@GLOBALFREIGHT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "STATIONSPLAATS 12, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 246 8500",
+      "fax": "+31 10 246 8501",
+      "email": "INFO@GLOBALFREIGHT.NL"
+    },
+    "onboardDate": "2024-10-28 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

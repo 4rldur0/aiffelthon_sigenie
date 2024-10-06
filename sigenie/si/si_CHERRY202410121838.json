@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410121838",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO.",
+      "onBehalfOf": "",
+      "address": "3333 HONGQIAO ROAD, MINHANG DISTRICT, SHANGHAI 200336, CHINA",
+      "telephone": "+86 21 6666 8888",
+      "fax": "+86 21 6666 8887",
+      "email": "LI.WEI@ZENITHLOGISTICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL ENTERPRISE SOLUTIONS LTD.",
+      "address": "1234 GLOBAL WAY, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALENTERPRISESOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "OUT-OF-GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT4598588",
+      "sealNumber": "SEAL587204",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 12920.44,
+      "measurement": 33.1
+    },
+    {
+      "containerNumber": "CONT3651650",
+      "sealNumber": "SEAL277146",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 14889.84,
+      "measurement": 26.23
+    },
+    {
+      "containerNumber": "CONT7771407",
+      "sealNumber": "SEAL760053",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 18868.36,
+      "measurement": 25.49
+    },
+    {
+      "containerNumber": "CONT4813066",
+      "sealNumber": "SEAL675792",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 17337.72,
+      "measurement": 32.83
+    },
+    {
+      "containerNumber": "CONT2436281",
+      "sealNumber": "SEAL795543",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 13605.45,
+      "measurement": 39.53
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD FLAT RACK",
+    "totalPackages": 252,
+    "totalGrossWeight": 77621.81,
+    "totalMeasurement": 157.18
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL ENTERPRISE SOLUTIONS LTD.",
+      "address": "1234 GLOBAL WAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALENTERPRISESOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH INTERNATIONAL LOGISTICS LTD.",
+      "address": "3333 HONGQIAO ROAD, MINHANG DISTRICT, SHANGHAI 200336, CHINA",
+      "telephone": "+86 21 6666 8888",
+      "fax": "+86 21 6666 8887",
+      "email": "LI.WEI@ZENITHLOGISTICS.CN"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 9862x2529x2876, VALUE: USD281,645, MAINTAIN HUMIDITY"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9862",
+    "width": "2529",
+    "height": "2876",
+    "overWidth": "89",
+    "overHeight": "286"
+  }
+}

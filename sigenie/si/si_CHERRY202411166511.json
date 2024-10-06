@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202411166511",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TEXTILE CO., LTD.",
+      "address": "NO. 123, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-87654321",
+      "fax": "+86-21-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "630790",
+  "commodityDescription": "TEXTILE ARTICLES",
+  "containers": [
+    {
+      "containerNumber": "CONT6865600",
+      "sealNumber": "SEAL229033",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 5072.79,
+      "measurement": 38.69
+    },
+    {
+      "containerNumber": "CONT1394653",
+      "sealNumber": "SEAL402153",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 14019.11,
+      "measurement": 28.17
+    },
+    {
+      "containerNumber": "CONT3484420",
+      "sealNumber": "SEAL221591",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 16082.05,
+      "measurement": 23.45
+    },
+    {
+      "containerNumber": "CONT5079513",
+      "sealNumber": "SEAL361317",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 8535.3,
+      "measurement": 31.86
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE TANK",
+    "totalPackages": 172,
+    "totalGrossWeight": 43709.25,
+    "totalMeasurement": 122.17
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-24 08:00",
+    "additionalRemarks": "UNDER DECK TOP STOWAGE"
+  }
+}

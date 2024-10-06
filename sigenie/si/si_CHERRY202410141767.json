@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410141767",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "MALAYSIA CHEMICAL LTD.",
+      "address": "250 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 123 4567",
+      "fax": "+60 3 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SEA LOGISTICS LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "381210",
+  "commodityDescription": "CARBON BLACK",
+  "containers": [
+    {
+      "containerNumber": "CONT7010689",
+      "sealNumber": "SEAL690655",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 15901.87,
+      "measurement": 38.37
+    },
+    {
+      "containerNumber": "CONT9645221",
+      "sealNumber": "SEAL323276",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 12818.27,
+      "measurement": 26.26
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 103,
+    "totalGrossWeight": 28720.14,
+    "totalMeasurement": 64.63
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF ANALYSIS"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SEA LOGISTICS LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MALAYSIA CHEMICAL LTD.",
+      "address": "250 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 123 4567",
+      "fax": "+60 3 123 4568"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2616"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4412314",
+    "unClass": "5",
+    "unCode": "2616",
+    "hsCode": "5543.23.60",
+    "flashPoint": "40\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410266485",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-9876-5432",
+      "fax": "+31-10-9876-5433",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT EXPORT LTD"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT5316442",
+      "sealNumber": "SEAL860387",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 9748.66,
+      "measurement": 36.03
+    },
+    {
+      "containerNumber": "CONT4488378",
+      "sealNumber": "SEAL231100",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 13138.12,
+      "measurement": 29.94
+    },
+    {
+      "containerNumber": "CONT9194066",
+      "sealNumber": "SEAL659677",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 12251.25,
+      "measurement": 38.8
+    },
+    {
+      "containerNumber": "CONT2052210",
+      "sealNumber": "SEAL724658",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 7346.72,
+      "measurement": 37.98
+    },
+    {
+      "containerNumber": "CONT2510855",
+      "sealNumber": "SEAL171586",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 12378.09,
+      "measurement": 27.45
+    },
+    {
+      "containerNumber": "CONT6359352",
+      "sealNumber": "SEAL475663",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 17187.64,
+      "measurement": 39.91
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE TANK",
+    "totalPackages": 392,
+    "totalGrossWeight": 72050.48,
+    "totalMeasurement": 210.11
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241026-1001",
+    "documentNumber": "20241026-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT EXPORT LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-9876-5432",
+      "fax": "+31-10-9876-5433"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-9876-5432",
+      "fax": "+31-10-9876-5433"
+    },
+    "onboardDate": "2024-11-03 16:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

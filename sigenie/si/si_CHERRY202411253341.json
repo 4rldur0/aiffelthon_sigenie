@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202411253341",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING CO. LTD",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL SHIPPING LTD.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "country": "MOROCCO",
+      "email": "ORDERS@OMEGAGLOBALS.COM",
+      "telephone": "+212 522 555 123"
+    },
+    "notifyParty": {
+      "name": "OMEGA GLOBAL SHIPPING LTD.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "country": "MOROCCO",
+      "email": "ORDERS@OMEGAGLOBALS.COM",
+      "telephone": "+212 522 555 123"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT8268028",
+      "sealNumber": "SEAL869749",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 17612.65,
+      "measurement": 25.63
+    },
+    {
+      "containerNumber": "CONT8508168",
+      "sealNumber": "SEAL793363",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 17739.44,
+      "measurement": 23.55
+    },
+    {
+      "containerNumber": "CONT1509311",
+      "sealNumber": "SEAL333013",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 19039.76,
+      "measurement": 23.88
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 264,
+    "totalGrossWeight": 54391.85,
+    "totalMeasurement": 73.06
+  },
+  "additionalInformation": {
+    "dangerousGoods": {
+      "unNumber": "2812",
+      "properShippingName": "DANGEROUS CHEMICALS",
+      "class": "6.1",
+      "packingGroup": "II"
+    },
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL SHIPPING LTD.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 555 123",
+      "fax": "+212 522 555 124",
+      "email": "ORDERS@OMEGAGLOBALS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL SHIPPING LTD.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 555 123",
+      "fax": "+212 522 555 124",
+      "email": "ORDERS@OMEGAGLOBALS.COM"
+    },
+    "onboardDate": "2024-12-04 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2812, VALUE: USD716,730, 7 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5068926",
+    "unClass": "7",
+    "unCode": "2812,",
+    "hsCode": "1325.45.85",
+    "flashPoint": "69\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}
