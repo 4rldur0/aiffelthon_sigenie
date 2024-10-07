@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411189233",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL FOODS LTD",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 1234",
+      "fax": "+86 574 8888 1235",
+      "email": "INFO@GLOBALFOODS.CN"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING CO LTD",
+      "address": "12 RUE DE LA PAIX, PARIS, FRANCE",
+      "usci": "91321200765109788X",
+      "president": "JEAN DUPONT",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEAN.DUPONT@ASIAPACIFIC.FR"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT2110248",
+      "sealNumber": "SEAL608756",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 5416.8,
+      "measurement": 38.53
+    },
+    {
+      "containerNumber": "CONT7643907",
+      "sealNumber": "SEAL362377",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 6420.26,
+      "measurement": 29.07
+    },
+    {
+      "containerNumber": "CONT6875469",
+      "sealNumber": "SEAL722215",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 9283.88,
+      "measurement": 30.25
+    },
+    {
+      "containerNumber": "CONT1544312",
+      "sealNumber": "SEAL439708",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 7835.81,
+      "measurement": 31.94
+    },
+    {
+      "containerNumber": "CONT7988571",
+      "sealNumber": "SEAL529315",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 16149.34,
+      "measurement": 28.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE REEFER",
+    "totalPackages": 300,
+    "totalGrossWeight": 45106.09,
+    "totalMeasurement": 158.6
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO LTD",
+      "address": "12 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEAN.DUPONT@ASIAPACIFIC.FR"
+    },
+    "onboardDate": "2024-12-02 12:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 14\u00b0C, DO NOT STACK"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1580225",
+    "temperature": "14\u00b0C",
+    "minTemperature": "12\u00b0C",
+    "maxTemperature": "16\u00b0C",
+    "ventilation": "23%",
+    "humidity": "69%"
+  }
+}

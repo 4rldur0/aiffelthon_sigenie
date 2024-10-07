@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202410144735",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA GLOBAL TRADING CO. LTD.",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "EUROPACIFIC LOGISTICS LTD",
+      "address": "LEVEL 10, 123 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-3-2345-6789",
+      "fax": "+60-3-2345-6780",
+      "email": "INFO@EUROPACIFICLOGISTICS.COM.MY",
+      "contactPerson": "LIM CHONG"
+    },
+    "notifyParty": {
+      "name": "EUROPACIFIC LOGISTICS LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381300",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT7051079",
+      "sealNumber": "SEAL158956",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 10905.21,
+      "measurement": 35.23
+    },
+    {
+      "containerNumber": "CONT1500866",
+      "sealNumber": "SEAL263015",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 18946.33,
+      "measurement": 36.55
+    },
+    {
+      "containerNumber": "CONT6172350",
+      "sealNumber": "SEAL635740",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 8487.74,
+      "measurement": 28.25
+    },
+    {
+      "containerNumber": "CONT2760167",
+      "sealNumber": "SEAL701131",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 17841.07,
+      "measurement": 32.64
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD TANK",
+    "totalPackages": 303,
+    "totalGrossWeight": 56180.35,
+    "totalMeasurement": 132.67
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241014-1001",
+    "documentNumber": "20241014-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROPACIFIC LOGISTICS LTD",
+      "address": "LEVEL 10, 123 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-3-2345-6789",
+      "fax": "+60-3-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROPACIFIC LOGISTICS LTD",
+      "address": "LEVEL 10, 123 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-3-2345-6789",
+      "fax": "+60-3-2345-6780"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2791, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8790529",
+    "unClass": "7",
+    "unCode": "2791,",
+    "hsCode": "2370.85.25",
+    "flashPoint": "34\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

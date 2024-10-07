@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410268417",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO. LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UK SW1A 1AA",
+      "telephone": "+44-20-7936-1234",
+      "fax": "+44-20-7936-5678"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY MAKING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CONT4153346",
+      "sealNumber": "SEAL949892",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 10434.72,
+      "measurement": 30.21
+    },
+    {
+      "containerNumber": "CONT7410167",
+      "sealNumber": "SEAL285183",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 10922.08,
+      "measurement": 28.8
+    },
+    {
+      "containerNumber": "CONT3229113",
+      "sealNumber": "SEAL275190",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 5390.47,
+      "measurement": 37.71
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 155,
+    "totalGrossWeight": 26747.27,
+    "totalMeasurement": 96.72
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-06 15:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

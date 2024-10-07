@@ -1,119 +1,113 @@
 {
   "bookingReference": "CHERRY202410143653",
   "voyageDetails": {
-    "vesselName": "CMA CGM GEORG FORSTER",
-    "voyageNumber": "2432E"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Letter of Credit",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 7
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC IMPORTS",
-      "address": "2345 HONGQI ROAD, SHANGHAI, CHINA",
-      "telephone": "+86 21 5555 6666",
-      "fax": "+86 21 5555 7777"
+      "name": "SINGAPORE PRECISION ENGINEERING LTD",
+      "address": "123 TECH PARK AVENUE, JURONG WEST, SINGAPORE 649812",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "email": "SHIPPING@SINGAPOREPRECISION.COM.SG"
     },
     "consignee": {
-      "name": "GLOBAL TRADING CO. LTD.",
-      "address": "1234 AMSTERDAMSE STRAAT, ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 222 3333",
-      "fax": "+31 10 222 4444",
-      "email": "IMPORT@GLOBALTRADING.NL",
-      "contactPerson": "ANNA VAN DER SLOOT"
+      "name": "EURO COSMETICS IMPORT B.V.",
+      "address": "ZUIDERZEEWEG 50, 3141 BL MAASSLUIS, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@EUROCOSMETICS.NL",
+      "telephone": "+31 15 258 7654",
+      "fax": "+31 15 258 7653"
     },
     "notifyParty": {
-      "sameAsConsignee": true
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "123 Anson ROAD, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "email": "OPERATIONS@APLL.COM.SG",
+      "telephone": "+65 6222 1111",
+      "fax": "+65 6222 1112"
     }
   },
-  "shippingTerm": "CY/CY",
-  "hsCode": "61091000",
-  "commodityDescription": "Knitted Cotton Fabric Rolls",
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "330499",
+  "commodityDescription": "PERFUMES",
   "containers": [
     {
-      "containerNumber": "CRLU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "GLOBAL2310",
-      "numberOfPackages": 100,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: KNITTED COTTON FABRIC ROLLS",
-      "grossWeight": 12000.0,
-      "measurement": 18.5
+      "containerNumber": "CONT7012415",
+      "sealNumber": "SEAL733397",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 15990.22,
+      "measurement": 20.09
     },
     {
-      "containerNumber": "CRLU8765432",
-      "sealNumber": "765432",
-      "marksAndNumbers": "GLOBAL2310",
-      "numberOfPackages": 100,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: KNITTED COTTON FABRIC ROLLS",
-      "grossWeight": 12000.0,
-      "measurement": 18.5
+      "containerNumber": "CONT1246970",
+      "sealNumber": "SEAL489117",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 5512.45,
+      "measurement": 28.39
     },
     {
-      "containerNumber": "CRLU9876543",
-      "sealNumber": "987654",
-      "marksAndNumbers": "GLOBAL2310",
-      "numberOfPackages": 100,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: KNITTED COTTON FABRIC ROLLS",
-      "grossWeight": 12000.0,
-      "measurement": 18.5
-    },
-    {
-      "containerNumber": "CRLU2345678",
-      "sealNumber": "234567",
-      "marksAndNumbers": "GLOBAL2310",
-      "numberOfPackages": 100,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: KNITTED COTTON FABRIC ROLLS",
-      "grossWeight": 12000.0,
-      "measurement": 18.5
-    },
-    {
-      "containerNumber": "CRLU3456789",
-      "sealNumber": "345678",
-      "marksAndNumbers": "GLOBAL2310",
-      "numberOfPackages": 100,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: KNITTED COTTON FABRIC ROLLS",
-      "grossWeight": 12000.0,
-      "measurement": 18.5
+      "containerNumber": "CONT8442358",
+      "sealNumber": "SEAL984864",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 18640.78,
+      "measurement": 35.12
     }
   ],
   "totalShipment": {
-    "totalContainers": "5 X 20DRY CONTAINERS",
-    "totalPackages": 500,
-    "totalGrossWeight": 60000.0,
-    "totalMeasurement": 92.5
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 115,
+    "totalGrossWeight": 40143.45,
+    "totalMeasurement": 83.6
   },
   "additionalInformation": {
-    "invoiceNumber": "20241014-001",
-    "documentNumber": "20241014001",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC123456789"
     },
     "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "GLOBAL TRADING CO. LTD.",
-      "address": "1234 AMSTERDAMSE STRAAT, ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 222 3333",
-      "fax": "+31 10 222 4444"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "123 Anson ROAD, SINGAPORE 079903",
+      "telephone": "+65 6222 1111",
+      "fax": "+65 6222 1112",
+      "email": "OPERATIONS@APLL.COM.SG"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING CO. LTD.",
-      "address": "1234 AMSTERDAMSE STRAAT, ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 222 3333",
-      "fax": "+31 10 222 4444"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "123 Anson ROAD, SINGAPORE 079903",
+      "telephone": "+65 6222 1111",
+      "fax": "+65 6222 1112",
+      "email": "OPERATIONS@APLL.COM.SG"
     },
-    "onboardDate": "2024-10-21 12:00",
-    "additionalRemarks": "FRAGILE CARGO, HANDLE WITH CARE. Value: USD 50,000"
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2517, VALUE: USD108,743"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1165146",
+    "unClass": "5",
+    "unCode": "2517,",
+    "hsCode": "2406.44.53",
+    "flashPoint": "26\u00b0C",
+    "additionalInfo": "Handle with care"
   }
 }

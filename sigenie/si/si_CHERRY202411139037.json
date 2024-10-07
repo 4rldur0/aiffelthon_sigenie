@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202411139037",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUIT FRESH CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 4567",
+      "email": "INFO@FRUITFRESH.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "456 MAIN STREET, HAMBURG, GERMANY 20359",
+      "taxId": "DE123456789",
+      "president": "MR. HANS MEYER",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 9876 5432",
+      "email": "INFO@GLOBALIMPORTS.DE"
+    },
+    "notifyParty": {
+      "name": "FREIGHT FORWARDING GMBH",
+      "address": "789 PORT STREET, HAMBURG, GERMANY 20456",
+      "taxId": "DE987654321",
+      "president": "MS. ANNA SCHMIDT",
+      "telephone": "+49 40 5678 9012",
+      "fax": "+49 40 3456 7890"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "080550",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT7512854",
+      "sealNumber": "SEAL633238",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 17489.31,
+      "measurement": 28.23
+    },
+    {
+      "containerNumber": "CONT7939250",
+      "sealNumber": "SEAL702841",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 19902.35,
+      "measurement": 39.36
+    },
+    {
+      "containerNumber": "CONT4443858",
+      "sealNumber": "SEAL894970",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 19820.91,
+      "measurement": 36.5
+    },
+    {
+      "containerNumber": "CONT3340703",
+      "sealNumber": "SEAL639128",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 12231.29,
+      "measurement": 26.82
+    },
+    {
+      "containerNumber": "CONT9056575",
+      "sealNumber": "SEAL142896",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 5432.39,
+      "measurement": 31.47
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD REEFER",
+    "totalPackages": 320,
+    "totalGrossWeight": 74876.25,
+    "totalMeasurement": 162.38
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEELING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEELING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-22 21:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -2\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5148743",
+    "temperature": "-2\u00b0C",
+    "minTemperature": "-4\u00b0C",
+    "maxTemperature": "0\u00b0C",
+    "ventilation": "93%",
+    "humidity": "71%"
+  }
+}

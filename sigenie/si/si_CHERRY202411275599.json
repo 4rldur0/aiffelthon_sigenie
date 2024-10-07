@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411275599",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTERS INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 87654321",
+      "email": "INFO@ASIAIMPORTERS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "100 EUROPA BOULEVARD, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "NL001234567B89",
+      "president": "MR. PETER SMITH",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 87654321",
+      "email": "PETER.SMITH@GLOBALTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "FIRST NETHERLANDS LOGISTICS BV",
+      "address": "150 PORT STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "taxId": "NL009876543B21",
+      "president": "MS. ANNA JONES",
+      "telephone": "+31 10 43210987",
+      "fax": "+31 10 65432109",
+      "email": "ANNA.JONES@FIRSTLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940330",
+  "commodityDescription": "DINING CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT6816686",
+      "sealNumber": "SEAL176821",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 17077.51,
+      "measurement": 20.64
+    },
+    {
+      "containerNumber": "CONT7805513",
+      "sealNumber": "SEAL714566",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 17861.23,
+      "measurement": 23.81
+    },
+    {
+      "containerNumber": "CONT6316526",
+      "sealNumber": "SEAL997833",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 14361.39,
+      "measurement": 33.54
+    },
+    {
+      "containerNumber": "CONT3376873",
+      "sealNumber": "SEAL784200",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 6908.52,
+      "measurement": 22.88
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD GENERAL",
+    "totalPackages": 193,
+    "totalGrossWeight": 56208.65,
+    "totalMeasurement": 100.87
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST NETHERLANDS LOGISTICS BV",
+      "address": "150 PORT STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31 10 43210987",
+      "fax": "+31 10 65432109",
+      "email": "ANNA.JONES@FIRSTLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "100 EUROPA BOULEVARD, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 87654321",
+      "email": "PETER.SMITH@GLOBALTRADING.NL"
+    },
+    "onboardDate": "2024-12-06 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

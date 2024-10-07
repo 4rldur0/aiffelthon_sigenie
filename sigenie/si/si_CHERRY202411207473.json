@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202411207473",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "23 HUA YI ROAD, SHANGHAI, CHINA 200031",
+      "telephone": "+86 21 6217 8955",
+      "fax": "+86 21 6217 8900",
+      "email": "LI.WEI@ASIAPACIFICTRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "34 AVENIDA DE LA ESPA\u00d1A, MADRID, SPAIN 28001",
+      "taxId": "ESB12345678",
+      "president": "MR. FRANCISCO FERNANDEZ",
+      "telephone": "+34 91 567 89 12",
+      "fax": "+34 91 567 89 01",
+      "email": "FRANCISCO.FERNANDEZ@GLOBALFREIGHTSOLUTIONS.ES"
+    },
+    "notifyParty": {
+      "name": "TRANSGLOBAL LOGISTICS S.A.",
+      "address": "C/ ALICANTE 14, BARCELONA, SPAIN 08001",
+      "taxId": "ESB98765432",
+      "president": "MS. MARIA LOPEZ",
+      "telephone": "+34 93 456 78 90",
+      "fax": "+34 93 456 78 01"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "333410",
+  "commodityDescription": "PERFUMES AND TOILET WATERS",
+  "containers": [
+    {
+      "containerNumber": "CONT8328719",
+      "sealNumber": "SEAL802920",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 11220.97,
+      "measurement": 25.92
+    },
+    {
+      "containerNumber": "CONT9490959",
+      "sealNumber": "SEAL544696",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 10361.61,
+      "measurement": 27.39
+    },
+    {
+      "containerNumber": "CONT1524949",
+      "sealNumber": "SEAL235610",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 13718.7,
+      "measurement": 26.04
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 188,
+    "totalGrossWeight": 35301.28,
+    "totalMeasurement": 79.35
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC23456789012"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "34 AVENIDA DE LA ESPA\u00d1A, MADRID, SPAIN 28001",
+      "telephone": "+34 91 567 89 12",
+      "fax": "+34 91 567 89 01",
+      "email": "FRANCISCO.FERNANDEZ@GLOBALFREIGHTSOLUTIONS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "34 AVENIDA DE LA ESPA\u00d1A, MADRID, SPAIN 28001",
+      "telephone": "+34 91 567 89 12",
+      "fax": "+34 91 567 89 01",
+      "email": "FRANCISCO.FERNANDEZ@GLOBALFREIGHTSOLUTIONS.ES"
+    },
+    "onboardDate": "2024-12-03 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1886, VALUE: USD143,013, 14 DAYS FREE TIME AT DESTINATION, KEEP DRY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4039101",
+    "unClass": "1",
+    "unCode": "1886,",
+    "hsCode": "3694.18.34",
+    "flashPoint": "-11\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

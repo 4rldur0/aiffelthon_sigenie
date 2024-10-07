@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410262254",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING LTD.",
+      "address": "1234 HONGQI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@PRECISIONENGINEERINGLTD.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "NL855555555B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 3332",
+      "email": "JOHN.SMITH@GLOBALLOGISTICSINC.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS NETHERLANDS BV",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "taxId": "NL811111111B01",
+      "president": "MS. JANE DOE",
+      "telephone": "+31 10 4444 5555",
+      "fax": "+31 10 4444 5554"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT1402880",
+      "sealNumber": "SEAL649915",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 11562.75,
+      "measurement": 22.78
+    },
+    {
+      "containerNumber": "CONT1154990",
+      "sealNumber": "SEAL320110",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 10361.84,
+      "measurement": 29.46
+    },
+    {
+      "containerNumber": "CONT3268567",
+      "sealNumber": "SEAL185862",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 18271.9,
+      "measurement": 20.87
+    },
+    {
+      "containerNumber": "CONT2924440",
+      "sealNumber": "SEAL520484",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 7671.62,
+      "measurement": 26.07
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD GENERAL",
+    "totalPackages": 229,
+    "totalGrossWeight": 47868.11,
+    "totalMeasurement": 99.18
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-29 18:00",
+    "additionalRemarks": "DO NOT STACK"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "bookingReference": "CHERRY202411229807",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "EUROASIA LOGISTICS LTD.",
+      "address": "OFFICE BUILDING, 1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL854321987",
+      "president": "MR. JAN VAN DER LEEUW",
+      "telephone": "+31 10 202 0300",
+      "fax": "+31 10 202 0301",
+      "email": "JAN.VANDERELEUW@EUROASIALOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "EUROASIA LOGISTICS LTD.",
+      "address": "OFFICE BUILDING, 1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 0300",
+      "fax": "+31 10 202 0301",
+      "email": "JAN.VANDERELEUW@EUROASIALOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "080590",
+  "commodityDescription": "ORANGE",
+  "containers": [
+    {
+      "containerNumber": "CONT1761637",
+      "sealNumber": "SEAL563859",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 18951.88,
+      "measurement": 29.25
+    },
+    {
+      "containerNumber": "CONT9887638",
+      "sealNumber": "SEAL165554",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 8144.05,
+      "measurement": 26.92
+    },
+    {
+      "containerNumber": "CONT5907842",
+      "sealNumber": "SEAL713706",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 7996.24,
+      "measurement": 32.53
+    },
+    {
+      "containerNumber": "CONT8931709",
+      "sealNumber": "SEAL226071",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 13826.57,
+      "measurement": 27.76
+    },
+    {
+      "containerNumber": "CONT8344229",
+      "sealNumber": "SEAL266200",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 15720.34,
+      "measurement": 34.94
+    },
+    {
+      "containerNumber": "CONT8483677",
+      "sealNumber": "SEAL842209",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 13230.56,
+      "measurement": 30.84
+    },
+    {
+      "containerNumber": "CONT8432243",
+      "sealNumber": "SEAL447511",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 18130.99,
+      "measurement": 31.57
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 STANDARD REEFER",
+    "totalPackages": 357,
+    "totalGrossWeight": 96000.63,
+    "totalMeasurement": 213.81
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "PHYTOSANITARY CERTIFICATE NUMBER: CN20241122001",
+    "originalBLDistribution": {
+      "name": "EUROASIA LOGISTICS LTD.",
+      "address": "OFFICE BUILDING, 1234 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 0300",
+      "fax": "+31 10 202 0301",
+      "email": "JAN.VANDERELEUW@EUROASIALOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEELECTRONICS.CN"
+    },
+    "onboardDate": "2024-12-07 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 13\u00b0C, VALUE: USD495,696"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4891330",
+    "temperature": "13\u00b0C",
+    "minTemperature": "11\u00b0C",
+    "maxTemperature": "15\u00b0C",
+    "ventilation": "24%",
+    "humidity": "66%"
+  }
+}

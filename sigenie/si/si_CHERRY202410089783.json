@@ -1,0 +1,138 @@
+{
+  "bookingReference": "CHERRY202410089783",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GOLDEN GATE ENTERPRISES",
+      "address": "1234 MAIN STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 98765432",
+      "email": "INFO@GOLDENGATEENTERPRISES.COM"
+    },
+    "consignee": {
+      "name": "SINAR MAS GLOBAL LOGISTICS",
+      "address": "1234 PORT STREET, ROTTERDAM, NETHERLANDS 3011 AX",
+      "taxId": "",
+      "president": "",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@SINARMASGLOBAL.COM"
+    },
+    "notifyParty": {
+      "name": "SINAR MAS GLOBAL LOGISTICS",
+      "address": "1234 PORT STREET, ROTTERDAM, NETHERLANDS 3011 AX",
+      "taxId": "",
+      "president": "",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@SINARMASGLOBAL.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "38159090",
+  "commodityDescription": "ORGANIC PEROXIDES",
+  "containers": [
+    {
+      "containerNumber": "CONT3891997",
+      "sealNumber": "SEAL702230",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 15944.15,
+      "measurement": 37.85
+    },
+    {
+      "containerNumber": "CONT3387713",
+      "sealNumber": "SEAL233878",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 14037.75,
+      "measurement": 38.85
+    },
+    {
+      "containerNumber": "CONT9724240",
+      "sealNumber": "SEAL637306",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 10423.2,
+      "measurement": 27.86
+    },
+    {
+      "containerNumber": "CONT2212050",
+      "sealNumber": "SEAL736089",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 14646.78,
+      "measurement": 34.84
+    },
+    {
+      "containerNumber": "CONT5015500",
+      "sealNumber": "SEAL973280",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 9756.24,
+      "measurement": 23.29
+    },
+    {
+      "containerNumber": "CONT6735330",
+      "sealNumber": "SEAL767880",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 11886.23,
+      "measurement": 29.7
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD GENERAL",
+    "totalPackages": 353,
+    "totalGrossWeight": 76694.35,
+    "totalMeasurement": 192.39
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "SINAR MAS GLOBAL LOGISTICS",
+      "address": "1234 PORT STREET, ROTTERDAM, NETHERLANDS 3011 AX",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@SINARMASGLOBAL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINAR MAS GLOBAL LOGISTICS",
+      "address": "1234 PORT STREET, ROTTERDAM, NETHERLANDS 3011 AX",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@SINARMASGLOBAL.COM"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1186, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7772388",
+    "unClass": "6",
+    "unCode": "1186,",
+    "hsCode": "3305.95.63",
+    "flashPoint": "27\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411222824",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECHNO-MACHINERY CO. LTD.",
+      "address": "123 TECH STREET, SINGAPORE 123456",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS LTD.",
+      "address": "456 GLOBAL WAY, HAMBURG, GERMANY 20001",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS LTD.",
+      "address": "456 GLOBAL WAY, HAMBURG, GERMANY 20001",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "ACETONE",
+  "containers": [
+    {
+      "containerNumber": "CONT7561435",
+      "sealNumber": "SEAL135022",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 9008.1,
+      "measurement": 23.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD TANK",
+    "totalPackages": 50,
+    "totalGrossWeight": 9008.1,
+    "totalMeasurement": 23.16
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS LTD.",
+      "address": "456 GLOBAL WAY, HAMBURG, GERMANY 20001",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS LTD.",
+      "address": "456 GLOBAL WAY, HAMBURG, GERMANY 20001",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "onboardDate": "2024-11-27 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1370",
+    "dangerousGoods": {
+      "unNumber": "1370",
+      "properShippingName": "ACETONE",
+      "class": "3",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1944393",
+    "unClass": "7",
+    "unCode": "1370",
+    "hsCode": "2300.62.30",
+    "flashPoint": "29\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

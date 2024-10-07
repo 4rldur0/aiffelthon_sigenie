@@ -19,17 +19,20 @@ SIGenie is an early access version (v0.02) of a comprehensive shipping document 
 ## Installation
 
 1. Clone the repository:
+
    ```
    git clone https://github.com/your-username/sigenie.git
    cd sigenie
    ```
 
 2. Install Poetry (if not already installed):
+
    ```
    pip install poetry
    ```
 
 3. Install project dependencies:
+
    ```
    poetry install
    ```
@@ -43,11 +46,13 @@ SIGenie is an early access version (v0.02) of a comprehensive shipping document 
 ## Usage
 
 1. Activate the virtual environment:
+
    ```
    poetry shell
    ```
 
 2. Run the Streamlit app:
+
    ```
    streamlit run main.py
    ```
@@ -69,16 +74,15 @@ SIGenie is an early access version (v0.02) of a comprehensive shipping document 
 - `bkg/`: Directory for storing Booking JSON files.
 - `si/`: Directory for storing Shipping Instruction JSON files.
 
-
 ## Directory Descriptions
 
 ### bkg/ and si/
+
 These directories contain JSON files for Booking and Shipping Instruction documents, respectively. Each file represents a single document and follows a specific structure. The application reads these files to populate the database and display information.
 
 ## Contributing
 
 This is an early access version. For major changes, please open an issue first to discuss what you would like to change.
-
 
 ## Acknowledgements
 
@@ -89,27 +93,29 @@ This is an early access version. For major changes, please open an issue first t
 ## Version History
 
 - v0.01 (2024-09-15): Initial early access release
+
   - Basic functionality for managing Bookings, Shipping Instructions, and Bills of Lading
   - MongoDB integration
   - Custom font implementation
 
 - v0.02 (2024-09-25): Current early access version
+
   - Improved user interface
   - Added support for special cargo information in Shipping Instructions
   - Enhanced error handling and data validation
   - Performance optimizations for large datasets
   - Implemented Poetry for dependency management
 
-- v0.03 (2024-09-29): 
+- v0.03 (2024-09-29):
+
   - dataset 3263
-  - draft watermark 
+  - draft watermark
 
   - dataset 3518 (2024-10-01)
   - dataset 3782 (2024-10-03)
   - dataset 4115 (2024-10-04)
   - dataset 4308 (2024-10-07)
----
-
+  - dataset 4476 (2024-10-08)
 
 Copyright (c) 2024 Tongyang Systems.
 All rights reserved. This project and its source code are proprietary and confidential. Unauthorized copying, modification, distribution, or use of this project, via any medium, is strictly prohibited without the express written permission of the copyright holder.

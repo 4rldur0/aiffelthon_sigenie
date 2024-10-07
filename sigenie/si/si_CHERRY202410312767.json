@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410312767",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA MANUFACTURING INC.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "BETA GLOBAL TRADING CO.",
+      "address": "25 RUE DE PARIS, RABAT, MOROCCO",
+      "telephone": "+212-5-2222-3333",
+      "fax": "+212-5-2222-3334",
+      "email": "INFO@BETATRADING.COM",
+      "contactPerson": "MOHAMED ALI"
+    },
+    "notifyParty": {
+      "name": "BETA GLOBAL TRADING CO."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "630790",
+  "commodityDescription": "BED LINEN",
+  "containers": [
+    {
+      "containerNumber": "CONT3389525",
+      "sealNumber": "SEAL110527",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 16529.19,
+      "measurement": 22.91
+    },
+    {
+      "containerNumber": "CONT6746765",
+      "sealNumber": "SEAL579490",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 15564.3,
+      "measurement": 35.9
+    },
+    {
+      "containerNumber": "CONT1282163",
+      "sealNumber": "SEAL307852",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 18484.49,
+      "measurement": 32.3
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 169,
+    "totalGrossWeight": 50577.98,
+    "totalMeasurement": 91.11
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BETA GLOBAL TRADING CO.",
+      "address": "25 RUE DE PARIS, RABAT, MOROCCO",
+      "telephone": "+212-5-2222-3333",
+      "fax": "+212-5-2222-3334"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA GLOBAL TRADING CO.",
+      "address": "25 RUE DE PARIS, RABAT, MOROCCO",
+      "telephone": "+212-5-2222-3333",
+      "fax": "+212-5-2222-3334"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

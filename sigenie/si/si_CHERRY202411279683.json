@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202411279683",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORT EXPORT CO.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@SUNRISEIMPORT.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "DAMSTRAAT 123, 3012 JC ROTTERDAM, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "president": "MR. PETER VAN DER WIEL",
+      "telephone": "+31 10 246 5678",
+      "fax": "+31 10 246 5679",
+      "email": "PETER.VANDERWIEL@GLOBALTRADINGSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "CARGO CONTROL LTD.",
+      "address": "SPANJAARDENSTRAAT 10, 3035 GG ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@CARGOCONTROL.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN TUNA",
+  "containers": [
+    {
+      "containerNumber": "CONT5139138",
+      "sealNumber": "SEAL590936",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 6158.4,
+      "measurement": 31.77
+    },
+    {
+      "containerNumber": "CONT7000366",
+      "sealNumber": "SEAL134387",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 17899.96,
+      "measurement": 37.33
+    },
+    {
+      "containerNumber": "CONT6013231",
+      "sealNumber": "SEAL782107",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 5718.8,
+      "measurement": 20.89
+    },
+    {
+      "containerNumber": "CONT2347812",
+      "sealNumber": "SEAL468788",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 15979.84,
+      "measurement": 20.81
+    },
+    {
+      "containerNumber": "CONT8240109",
+      "sealNumber": "SEAL557962",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 14600.51,
+      "measurement": 39.62
+    },
+    {
+      "containerNumber": "CONT4684864",
+      "sealNumber": "SEAL482750",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 5307.33,
+      "measurement": 26.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD REEFER",
+    "totalPackages": 295,
+    "totalGrossWeight": 65664.84,
+    "totalMeasurement": 177.04
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "DAMSTRAAT 123, 3012 JC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 246 5678",
+      "fax": "+31 10 246 5679",
+      "email": "PETER.VANDERWIEL@GLOBALTRADINGSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "DAMSTRAAT 123, 3012 JC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 246 5678",
+      "fax": "+31 10 246 5679",
+      "email": "PETER.VANDERWIEL@GLOBALTRADINGSOLUTIONS.NL"
+    },
+    "onboardDate": "2025-01-17 19:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 17\u00b0C, VALUE: USD720,555, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5453102",
+    "temperature": "17\u00b0C",
+    "minTemperature": "15\u00b0C",
+    "maxTemperature": "19\u00b0C",
+    "ventilation": "41%",
+    "humidity": "81%"
+  }
+}

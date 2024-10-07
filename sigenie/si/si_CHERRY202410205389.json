@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410205389",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES INC.",
+      "onBehalfOf": "",
+      "address": "1234 SUNRISE AVE, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 6551",
+      "fax": "+86 574 8888 6560",
+      "email": "ZHANG.YUN@SUNRISEGLOBALTRADING.CN"
+    },
+    "consignee": {
+      "name": "DELTA INDUSTRIES INC.",
+      "address": "1234 DELTA WAY, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@DELTAINDUSTRIES.NL"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING CO. LTD.",
+      "address": "1234 SUNRISE AVE, NINGBO, CHINA, 315000"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871690",
+  "commodityDescription": "OUT-OF-GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT1958439",
+      "sealNumber": "SEAL708107",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 8854.97,
+      "measurement": 29.72
+    },
+    {
+      "containerNumber": "CONT4844088",
+      "sealNumber": "SEAL187812",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 9862.72,
+      "measurement": 39.12
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD PLATFORM",
+    "totalPackages": 107,
+    "totalGrossWeight": 18717.69,
+    "totalMeasurement": 68.84
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING CO. LTD.",
+      "address": "1234 SUNRISE AVE, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 6551",
+      "fax": "+86 574 8888 6560"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 3974x2538x2913, VALUE: USD469,613"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3974",
+    "width": "2538",
+    "height": "2913",
+    "overWidth": "98",
+    "overHeight": "323"
+  }
+}

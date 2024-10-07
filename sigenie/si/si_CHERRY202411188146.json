@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202411188146",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TECHNOLOGIES INC.",
+      "address": "123 TECH PARK BOULEVARD, NINGBO, ZHEJIANG PROVINCE, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 5678 9000",
+      "fax": "+86 574 5678 9001",
+      "email": "INFO@ASIAPACIFICTECH.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS LTD",
+      "address": "10 RUE DE LA PAIX, LE HAVRE, FRANCE 76600",
+      "country": "FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "INFO@WORLDWIDESHIPPING.FR",
+      "personincharge": "JEAN DUPONT"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "54 RUE DE LA LIBERTE, LE HAVRE, FRANCE 76600",
+      "country": "FRANCE",
+      "telephone": "+33 2 35 67 89 01",
+      "fax": "+33 2 35 67 89 02",
+      "email": "CONTACT@WORLDWIDELOGISTICS.FR"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT5444043",
+      "sealNumber": "SEAL871296",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 11905.63,
+      "measurement": 26.63
+    },
+    {
+      "containerNumber": "CONT3703962",
+      "sealNumber": "SEAL291918",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 9868.88,
+      "measurement": 24.21
+    },
+    {
+      "containerNumber": "CONT4072604",
+      "sealNumber": "SEAL976851",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 15659.14,
+      "measurement": 37.48
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 194,
+    "totalGrossWeight": 37433.65,
+    "totalMeasurement": 88.32
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411188146"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS LTD",
+      "address": "10 RUE DE LA PAIX, LE HAVRE, FRANCE 76600",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "INFO@WORLDWIDESHIPPING.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS LTD",
+      "address": "10 RUE DE LA PAIX, LE HAVRE, FRANCE 76600",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "INFO@WORLDWIDESHIPPING.FR"
+    },
+    "onboardDate": "2024-11-25 17:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3024, VALUE: USD906,610, HANDLE WITH CARE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5214103",
+    "unClass": "8",
+    "unCode": "3024,",
+    "hsCode": "5566.35.34",
+    "flashPoint": "34\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

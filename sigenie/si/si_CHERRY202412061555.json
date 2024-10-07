@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202412061555",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION MACHINERY LTD.",
+      "address": "23 SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAPRECISIONMACHINERY.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@GLOBALS HIPPINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@GLOBALS HIPPINGSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT5769497",
+      "sealNumber": "SEAL753293",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 6077.64,
+      "measurement": 25.42
+    },
+    {
+      "containerNumber": "CONT2389493",
+      "sealNumber": "SEAL931943",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 19051.99,
+      "measurement": 37.9
+    },
+    {
+      "containerNumber": "CONT7361950",
+      "sealNumber": "SEAL239361",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 19244.23,
+      "measurement": 39.16
+    },
+    {
+      "containerNumber": "CONT8778483",
+      "sealNumber": "SEAL853693",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 15115.99,
+      "measurement": 36.07
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE TANK",
+    "totalPackages": 127,
+    "totalGrossWeight": 59489.85,
+    "totalMeasurement": 138.55
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-12-09 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2304",
+    "dangerousGoods": {
+      "unNumber": "2304",
+      "properShippingName": "DANGEROUS CHEMICALS",
+      "class": "9",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3521418",
+    "unClass": "2",
+    "unCode": "2304",
+    "hsCode": "6403.16.76",
+    "flashPoint": "28\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

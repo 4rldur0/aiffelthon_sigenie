@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202411077971",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI FASHIONS INC.",
+      "address": "1234 YONGFU ROAD, SHANGHAI, 200021, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "ATTN: MR. LI WEI",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "LIWEI@SHANGHAIFASHIONS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "1234 MARKET STREET, ROTTERDAM, 3011 GD, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.NL",
+      "personincharge": "MS. ANNA VAN DER MEER"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS GMBH",
+      "address": "4567 HARBOUR STREET, ROTTERDAM, 3012 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 333 6666",
+      "fax": "+31 10 333 6667",
+      "email": "ORDERS@EUROLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940390",
+  "commodityDescription": "WOODEN FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT8081502",
+      "sealNumber": "SEAL161516",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 9315.78,
+      "measurement": 37.05
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 45 HIGH CUBE TANK",
+    "totalPackages": 78,
+    "totalGrossWeight": 9315.78,
+    "totalMeasurement": 37.05
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      " fumigation certificate",
+      "origin certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO LOGISTICS GMBH",
+      "address": "4567 HARBOUR STREET, ROTTERDAM, 3012 AB, NETHERLANDS",
+      "telephone": "+31 10 333 6666",
+      "fax": "+31 10 333 6667",
+      "email": "ORDERS@EUROLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "1234 MARKET STREET, ROTTERDAM, 3011 GD, NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-11-17 16:00",
+    "additionalRemarks": "HANDLE WITH CARE"
+  }
+}
