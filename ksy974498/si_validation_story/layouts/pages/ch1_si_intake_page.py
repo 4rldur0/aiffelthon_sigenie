@@ -32,8 +32,8 @@ def main():
             # draft B/L을 보여주는 페이지 인스턴스
             bl_draft_page = BLDraftPage(si_data=si_data)
             # report를 보여주는 페이지 인스턴스
-            report_page = ReportPage(report_name="Shipping Instruction Validation Report",
-                                     missing_answer=result.get("missing_answer", "No Missing Data available"),
+            report_page = ReportPage(report_name="Shipping Instruction Validation Report",\
+                                     missing_answer=result.get("missing_answer", "No Missing Data available"),\
                                      summary_answer=result.get("summary_answer", "No summary available"))
 
             # 화면을 좌우로 나눔

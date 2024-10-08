@@ -1,131 +1,20 @@
 import streamlit as st
 import base64
+import pandas as pd
 
 # 현재 SI를 기반으로 draft B/L을 보여주는 페이지
+
 class BLDraftPage:
     def __init__(self, si_data):
         self.si_data = si_data
         self.logo_img = "./layouts/imgs/containergenie.png"
-        # Custom CSS to style the Bill of Lading
-        self.custom_css = """
-        <style>
-            @font-face {{
-                font-family: 'Freesentation';
-                src: url(data:font/ttf;base64,{font_base64}) format('truetype');
-            }}
-
-            * {{
-                font-family: 'Freesentation', sans-serif !important;
-            }}
-
-            /* 모든 선(border)에 대한 스타일 */
-            * {
-                border-color: #808080 !important; /* 중간 회색 */
-            }
-
-            /* 특정 Streamlit 컴포넌트의 테두리 스타일 */
-            .stTextInput, .stSelectbox, .stMultiselect, .stDateInput, .stTimeInput,
-            .stNumber, .stText, .stDataFrame, .stTable {
-                border: 1px solid #808080 !important;
-            }
-
-            /* 구분선 스타일 */
-            hr {
-                border-top: 1px solid #808080 !important;
-            }
-
-            /* 테이블 테두리 스타일 */
-            table {
-                border-collapse: collapse;
-            }
-            th, td {
-                border: 1px solid #808080 !important;
-            }
-
-            /* 사이드바 구분선 스타일 */
-            .stSidebar .stSidebarNav {
-                border-right-color: #808080 !important;
-            }
-
-            .bl-form {
-                border: 2px solid black;
-                padding: 5px;
-                margin-bottom: 10px;
-                width: 100%;
-                position: relative;
-            }
-            .bl-header {
-                display: flex;
-                justify-content: space-between;
-                align-items: flex-start;
-                border-bottom: 1px solid black;
-                padding-bottom: 5px;
-                margin-bottom: 5px;
-            }
-            .bl-title {
-                margin-right: 15px;
-            }
-            .bl-section {
-                margin-bottom: 5px;
-                border: 1px solid black;
-                padding: 2px;
-            }
-            .bl-grid {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: 5px;
-            }
-            .bl-footer {
-                border-top: 1px solid black;
-                padding-top: 5px;
-                margin-top: 5px;
-            }
-            .bl-logo {
-                text-align: right;
-                margin-left: auto;
-            }
-            .bl-logo img {
-                max-width: 150px;
-                height: auto;
-            }
-            .bl-table {
-                width: 100%;
-                border-collapse: collapse;
-            }
-            .bl-table th, .bl-table td {
-                border: 1px solid black;
-                padding: 2px;
-                text-align: left;
-            }
-            .small-text {
-                font-size: 10px;
-            }
-            .bl-row {
-                line-height: 1.0;
-                margin: 0;
-                padding: 0;
-            }    
-            .watermark {
-                position: absolute;
-                top: 20%;
-                left: 75%;
-                transform: translate(-50%, -50%) rotate(45deg);
-                font-size: 180px;  /* 크기를 180px로 증가 */
-                color: rgba(255, 0, 0, 0.11);  /* 투명도를 0.15로 낮춤 */
-                pointer-events: none;
-                z-index: 1000;
-                user-select: none;
-                font-weight: bold;
-                white-space: nowrap;  /* 텍스트가 줄바꿈되지 않도록 설정 */
-            }
-        </style>
-        """
 
     # 로고 이미지 가져오기 및 출력 형식 지정
     def _get_base64_encoded_image(self, image_path):
         with open(image_path, "rb") as img_file:
             return base64.b64encode(img_file.read()).decode('utf-8')
     def _generate_container_rows(self, containers, doc):
+            
         particulars_html = f"""
         <h3>PARTICULARS FURNISHED BY SHIPPER - CARRIER NOT RESPONSIBLE</h3>
         <table class="bl-table">
@@ -137,6 +26,7 @@ class BLDraftPage:
                 <th>MEASUREMENT</th>
             </tr>
         """
+
         container_info_html = f"""
         <h3>TOTAL No. OF CONTAINERS OR PACKAGES RECEIVED BY THE CARRIER</h3>
         <table class="bl-table">
@@ -147,38 +37,49 @@ class BLDraftPage:
                 <th>TYPE</th>
             </tr>
         """
+
         footer_info_html = f"""
         <p><strong>Freight Payable at:</strong> {doc['paymentDetails']['freightPayableAt']}</p>
         <p><strong>Number of Original B/Ls:</strong> {doc['documentationDetails']['numberOfOriginalBLs']}</p>
         <p><strong>Place of Issue:</strong> {doc['paymentDetails']['freightPayableAt']}</p>
         <p><strong>Date of Issue:</strong> {doc['additionalInformation']['onboardDate']}</p>
         """
-        
+        def style_empty_cell(value):
+            if value == '':  # If the value is empty or None
+                return '<td style="background-color: #ffcccc;"></td>'  # Apply red background
+            else:
+                return f'<td>{value}</td>'
+            
         for container in containers:
             particulars_html += f"""
             <tr>
-                <td>{container.get('marksAndNumbers', '')}</td>
-                <td>{container.get('numberOfPackages', '')}</td>
-                <td>{container.get('descriptionOfGoods', '')}</td>
-                <td>{container.get('grossWeight', '')}</td>
-                <td>{container.get('measurement', '')}</td>
+                {style_empty_cell(container.get('marksAndNumbers', ''))}
+                {style_empty_cell(container.get('numberOfPackages', ''))}
+                {style_empty_cell(container.get('descriptionOfGoods', ''))}
+                {style_empty_cell(container.get('grossWeight', ''))}
+                {style_empty_cell(container.get('measurement', ''))}
             </tr>
             """
             container_info_html += f"""
             <tr>
-                <td>{container.get('containerNumber', '')}</td>
-                <td>{container.get('sealNumber', '')}</td>
-                <td>{container.get('containerSize', '')}</td>
-                <td>{container.get('containerType', '')}</td>
+                {style_empty_cell(container.get('containerNumber', ''))}
+                {style_empty_cell(container.get('sealNumber', ''))}
+                {style_empty_cell(container.get('containerSize', ''))}
+                {style_empty_cell(container.get('containerType', ''))}
             </tr>
-            """
+                """
 
         particulars_html += "</table>"
         container_info_html += "</table>"
-        return particulars_html, container_info_html, footer_info_html   
+
+        return particulars_html, container_info_html, footer_info_html
+
+
     def _display_bl_form(self, doc):
         # Apply custom CSS
-        st.markdown(self.custom_css, unsafe_allow_html=True)
+        from .TEMPLATES.bl_css import custom_css
+
+        st.markdown(custom_css, unsafe_allow_html=True)
         
         # Load and encode the logo
         logo_base64 = self._get_base64_encoded_image(self.logo_img)
