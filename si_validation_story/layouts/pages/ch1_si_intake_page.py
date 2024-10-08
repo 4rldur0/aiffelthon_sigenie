@@ -1,9 +1,6 @@
 import streamlit as st
 from ._page_templates import BLDraftPage, ReportPage
-from graphs.si_intake_graph import SIIntake
-
-# chapter 1 그래프 인스턴스 생성
-graph = SIIntake()
+from graphs.st_si_intake_graph import SIIntake
 
 def main():
     # booking reference를 사용자 입력으로 받음
@@ -14,11 +11,13 @@ def main():
     result = None
     # 그래프 invoke를 실행하는 버튼
     if st.button("Generate Report"):
+        # chapter 1 그래프 인스턴스 생성
+        graph = SIIntake()
         graph.state["booking_reference"] = booking_reference
         try:
             result = graph.invoke()
         except Exception as e:
-            st.error(f"An error occurred while Searching the shipping Instruction: {str(e)}")
+            st.error(f"An error occurred while Invoking the shipping Instruction Intake Graph: {str(e)}")
             st.stop()
 
     # 그래프 최종 출력이 존재할 경우에만 실행
@@ -27,7 +26,6 @@ def main():
         si_data = result.get("si_data")
         # streamlit session_state에 si_data 저장해놓음
         st.session_state["si_data"] = si_data
-
         if si_data:
             # draft B/L을 보여주는 페이지 인스턴스
             bl_draft_page = BLDraftPage(si_data=si_data)
@@ -44,9 +42,9 @@ def main():
             # 오른쪽 화면에는 report 출력
             with col2:
                 report_page.show_report_page()
-        # 그래프 최종 출력에서 si_data가 존재하지 않을 때
+        # 그래프 최종 출력이 올바르지 않을 때
         else:
-            st.warning("No shipping instruction data found for the given booking reference.")
+            st.warning("An error occurred while generating the result.")
     # 그래프 최종 출력이 존재하지 않을 때(=초기 화면)
     else:
         st.info("Please enter a booking reference first and click 'Generate Report' button.")
