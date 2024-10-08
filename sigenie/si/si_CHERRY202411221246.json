@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411221246",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO.",
+      "address": "1234 INDUSTRIAL PARK ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SHIPPING@APMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "taxId": "NL851234567B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 555 5555",
+      "fax": "+31 10 555 5556",
+      "email": "JOHN.SMITH@GFS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "taxId": "NL851234567B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 555 5555",
+      "fax": "+31 10 555 5556",
+      "email": "JOHN.SMITH@GFS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "846630",
+  "commodityDescription": "MACHINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT1268452",
+      "sealNumber": "SEAL926956",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 7847.28,
+      "measurement": 35.39
+    },
+    {
+      "containerNumber": "CONT8637105",
+      "sealNumber": "SEAL230079",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 11276.76,
+      "measurement": 21.3
+    },
+    {
+      "containerNumber": "CONT8159366",
+      "sealNumber": "SEAL992121",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 13443.62,
+      "measurement": 23.07
+    },
+    {
+      "containerNumber": "CONT2253075",
+      "sealNumber": "SEAL730510",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 8668.26,
+      "measurement": 30.06
+    },
+    {
+      "containerNumber": "CONT6352181",
+      "sealNumber": "SEAL386352",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 19937.34,
+      "measurement": 30.06
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 356,
+    "totalGrossWeight": 61173.26,
+    "totalMeasurement": 139.88
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31 10 555 5555",
+      "fax": "+31 10 555 5556",
+      "email": "JOHN.SMITH@GFS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31 10 555 5555",
+      "fax": "+31 10 555 5556",
+      "email": "JOHN.SMITH@GFS.NL"
+    },
+    "onboardDate": "2024-11-29 19:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

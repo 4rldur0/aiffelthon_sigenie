@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202411172670",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS CO. LTD",
+      "address": "123 INDUSTRY STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 8765 4321",
+      "fax": "+86 21 8765 4322"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "notifyParty": {
+      "name": "EURO TECH LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT8989758",
+      "sealNumber": "SEAL600511",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 17418.49,
+      "measurement": 36.17
+    },
+    {
+      "containerNumber": "CONT7910183",
+      "sealNumber": "SEAL688101",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 12235.87,
+      "measurement": 39.41
+    },
+    {
+      "containerNumber": "CONT3903269",
+      "sealNumber": "SEAL267306",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 18140.7,
+      "measurement": 29.55
+    },
+    {
+      "containerNumber": "CONT5842183",
+      "sealNumber": "SEAL105252",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 7884.11,
+      "measurement": 22.69
+    },
+    {
+      "containerNumber": "CONT7911095",
+      "sealNumber": "SEAL530517",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 5341.06,
+      "measurement": 35.31
+    },
+    {
+      "containerNumber": "CONT8956493",
+      "sealNumber": "SEAL323463",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 7254.39,
+      "measurement": 29.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD TANK",
+    "totalPackages": 343,
+    "totalGrossWeight": 68274.62,
+    "totalMeasurement": 192.94
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF ANALYSIS"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TECH LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-12-03 21:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1015"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9297825",
+    "unClass": "2",
+    "unCode": "1015",
+    "hsCode": "4022.24.42",
+    "flashPoint": "53\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

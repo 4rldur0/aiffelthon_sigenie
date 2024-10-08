@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202411191999",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EURO TECH SOLUTIONS GMBH",
+      "address": "BERLINER STRASSE 123, 10117 BERLIN, GERMANY",
+      "telephone": "+49 30 12345678",
+      "fax": "+49 30 98765432",
+      "email": "INFO@EUROTECHSOLUTIONS.DE"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "HAMBURGER STRASSE 456, 20095 HAMBURG, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. HANS MEIER",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 98765432",
+      "email": "INFO@GLOBALTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 789, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 98765432",
+      "email": "INFO@LOGISTICSGMBH.DE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT7942083",
+      "sealNumber": "SEAL984385",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 6660.61,
+      "measurement": 22.97
+    },
+    {
+      "containerNumber": "CONT9048975",
+      "sealNumber": "SEAL464986",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 13149.3,
+      "measurement": 39.87
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 103,
+    "totalGrossWeight": 19809.91,
+    "totalMeasurement": 62.84
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "HAMBURGER STRASSE 456, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 98765432",
+      "email": "INFO@GLOBALTRADING.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "HAMBURGER STRASSE 456, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 98765432",
+      "email": "INFO@GLOBALTRADING.DE"
+    },
+    "onboardDate": "2024-12-07 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

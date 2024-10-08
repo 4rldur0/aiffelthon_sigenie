@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410236418",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT LTD.",
+      "address": "NO. 456, DAMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-555-6666",
+      "fax": "+31-10-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080590",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT4615627",
+      "sealNumber": "SEAL812171",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 19335.07,
+      "measurement": 28.14
+    },
+    {
+      "containerNumber": "CONT2563083",
+      "sealNumber": "SEAL465805",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 10006.85,
+      "measurement": 30.82
+    },
+    {
+      "containerNumber": "CONT2256161",
+      "sealNumber": "SEAL157864",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 16269.56,
+      "measurement": 25.83
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE REEFER",
+    "totalPackages": 174,
+    "totalGrossWeight": 45611.48,
+    "totalMeasurement": 84.79
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 8\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4179452",
+    "temperature": "8\u00b0C",
+    "minTemperature": "6\u00b0C",
+    "maxTemperature": "10\u00b0C",
+    "ventilation": "20%",
+    "humidity": "75%"
+  }
+}

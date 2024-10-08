@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202411217558",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BASF SE",
+      "address": "BASF SE, 67056 LUDWIGSHAFEN, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "ATTN: EXPORT DEPARTMENT",
+      "telephone": "+49 621 604 0",
+      "email": "EXPORT@BASF.COM"
+    },
+    "consignee": {
+      "name": "KUEHNE + NAGEL GMBH",
+      "address": "KUEHNE + NAGEL GMBH, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "SINGAPORE.IMPORT@KN.COM",
+      "telephone": "+49 40 3119 3000"
+    },
+    "notifyParty": {
+      "name": "BASF SE SINGAPORE BRANCH",
+      "address": "BASF SE SINGAPORE BRANCH, 120 ROBINSON ROAD, #05-01, SINGAPORE 068913",
+      "country": "SINGAPORE",
+      "email": "SINGAPORE.IMPORT@BASF.COM",
+      "telephone": "+65 6313 6000"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "282739",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT5438718",
+      "sealNumber": "SEAL598003",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 16198.54,
+      "measurement": 35.64
+    },
+    {
+      "containerNumber": "CONT7459606",
+      "sealNumber": "SEAL572503",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 5617.01,
+      "measurement": 21.47
+    },
+    {
+      "containerNumber": "CONT8077840",
+      "sealNumber": "SEAL987778",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 11727.08,
+      "measurement": 29.44
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 99,
+    "totalGrossWeight": 33542.63,
+    "totalMeasurement": 86.55
+  },
+  "additionalInformation": {
+    "dangerousGoods": {
+      "unNumber": "2329",
+      "properShippingName": "DANGEROUS CHEMICALS",
+      "hazardClass": "6.1",
+      "packingGroup": "II"
+    },
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSURANCE"
+    ],
+    "originalBLDistribution": {
+      "name": "KUEHNE + NAGEL GMBH",
+      "address": "KUEHNE + NAGEL GMBH, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 3119 3000",
+      "fax": "+49 40 3119 3001",
+      "email": "SINGAPORE.IMPORT@KN.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BASF SE",
+      "address": "BASF SE, 67056 LUDWIGSHAFEN, GERMANY",
+      "telephone": "+49 621 604 0",
+      "fax": "+49 621 604 1111",
+      "email": "EXPORT@BASF.COM"
+    },
+    "onboardDate": "2024-11-27 09:30",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2329, VALUE: USD953,596, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9013714",
+    "unClass": "8",
+    "unCode": "2329,",
+    "hsCode": "7320.83.76",
+    "flashPoint": "-3\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411109838",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 PACIFIC RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE CARGO SOLUTIONS LTD.",
+      "address": "5678 WORLDWIDE WAY, ALGECIRAS, SPAIN 11001",
+      "companyNumber": "1234567890",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "INFO@WORLDWIDECARGOSOLUTIONS.ES"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE CARGO SOLUTIONS LTD.",
+      "address": "5678 WORLDWIDE WAY, ALGECIRAS, SPAIN 11001"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381300",
+  "commodityDescription": "DANGEROUS GOODS, UN 1361",
+  "containers": [
+    {
+      "containerNumber": "CONT5837617",
+      "sealNumber": "SEAL766856",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 5966.91,
+      "measurement": 34.3
+    },
+    {
+      "containerNumber": "CONT7157889",
+      "sealNumber": "SEAL745139",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 18936.15,
+      "measurement": 36.27
+    },
+    {
+      "containerNumber": "CONT4811799",
+      "sealNumber": "SEAL989845",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 6962.89,
+      "measurement": 34.74
+    },
+    {
+      "containerNumber": "CONT4516640",
+      "sealNumber": "SEAL473277",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 13673.72,
+      "measurement": 24.48
+    },
+    {
+      "containerNumber": "CONT9217318",
+      "sealNumber": "SEAL588284",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 8401.81,
+      "measurement": 37.43
+    },
+    {
+      "containerNumber": "CONT7809967",
+      "sealNumber": "SEAL654879",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 9291.98,
+      "measurement": 32.9
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD GENERAL",
+    "totalPackages": 379,
+    "totalGrossWeight": 63233.46,
+    "totalMeasurement": 200.12
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE CARGO SOLUTIONS LTD.",
+      "address": "5678 WORLDWIDE WAY, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "INFO@WORLDWIDECARGOSOLUTIONS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "1234 PACIFIC RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAPACIFICTRADING.CN"
+    },
+    "onboardDate": "2024-11-16 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1361"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9509405",
+    "unClass": "3",
+    "unCode": "1361",
+    "hsCode": "1457.74.91",
+    "flashPoint": "79\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

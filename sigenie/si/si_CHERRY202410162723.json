@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202410162723",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO LTD",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LLC",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LLC",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT4542871",
+      "sealNumber": "SEAL178014",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 17328.28,
+      "measurement": 33.33
+    },
+    {
+      "containerNumber": "CONT5647164",
+      "sealNumber": "SEAL947413",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 9815.18,
+      "measurement": 37.74
+    },
+    {
+      "containerNumber": "CONT6640619",
+      "sealNumber": "SEAL224282",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 5286.97,
+      "measurement": 31.67
+    },
+    {
+      "containerNumber": "CONT8494202",
+      "sealNumber": "SEAL437043",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 16171.1,
+      "measurement": 38.25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD FLAT RACK",
+    "totalPackages": 254,
+    "totalGrossWeight": 48601.53,
+    "totalMeasurement": 140.99
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC234567"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRANSPORTATION LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LLC",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-10-22 20:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 2106x2800x2967, VALUE: USD391,765"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2106",
+    "width": "2800",
+    "height": "2967",
+    "overWidth": "360",
+    "overHeight": "377"
+  }
+}

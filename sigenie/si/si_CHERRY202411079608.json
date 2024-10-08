@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202411079608",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ MANUFACTURING LTD.",
+      "address": "123 INDUSTRY STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 8888",
+      "email": "INFO@XYZMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "124 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "NL851234567",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444",
+      "email": "SALES@ABCINTERNATIONAL.COM"
+    },
+    "notifyParty": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "124 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444",
+      "email": "LOGISTICS@ABCINTERNATIONAL.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940330",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT7457856",
+      "sealNumber": "SEAL817105",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 8948.38,
+      "measurement": 33.12
+    },
+    {
+      "containerNumber": "CONT9451880",
+      "sealNumber": "SEAL355361",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 19722.89,
+      "measurement": 26.12
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 122,
+    "totalGrossWeight": 28671.27,
+    "totalMeasurement": 59.24
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "124 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444",
+      "email": "LOGISTICS@ABCINTERNATIONAL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "124 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444",
+      "email": "FINANCE@ABCINTERNATIONAL.COM"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

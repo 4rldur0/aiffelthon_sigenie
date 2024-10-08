@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411018666",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INTERNATIONAL TRADING",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8889",
+      "email": "INFO@DELTAINTERNATIONALTRADING.COM"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "456 OCEAN DRIVE, CASABLANCA, MOROCCO",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+212 522 9999 9999",
+      "fax": "+212 522 9999 9998",
+      "email": "JOHNSMITH@OMEGASHIPPINGLTD.COM"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "456 OCEAN DRIVE, CASABLANCA, MOROCCO",
+      "usci": "91321200765109788X",
+      "telephone": "+212 522 9999 9999",
+      "fax": "+212 522 9999 9998",
+      "email": "JOHNSMITH@OMEGASHIPPINGLTD.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940390",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT9676308",
+      "sealNumber": "SEAL700336",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 18306.71,
+      "measurement": 33.5
+    },
+    {
+      "containerNumber": "CONT6603149",
+      "sealNumber": "SEAL858516",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 12282.77,
+      "measurement": 23.51
+    },
+    {
+      "containerNumber": "CONT9373238",
+      "sealNumber": "SEAL476184",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 10966.49,
+      "measurement": 28.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 149,
+    "totalGrossWeight": 41555.97,
+    "totalMeasurement": 85.63
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-13 18:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  }
+}

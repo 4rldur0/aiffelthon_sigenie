@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202411154287",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREEN TECH INDUSTRIES INC",
+      "address": "123 GREEN TECH AVENUE, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "INFO@GREENTECHINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "567 MAIN STREET, BERLIN, GERMANY 10117",
+      "taxId": "DE123456789",
+      "president": "MR. HANS SCHMITZ",
+      "telephone": "+49 30 1234 5678",
+      "fax": "+49 30 1234 9876",
+      "email": "HANS.SCHMITZ@ASIAPACIFICTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "12 FRANKFURTER STRASSE, HAMBURG, GERMANY 20457",
+      "taxId": "DE987654321",
+      "president": "MS. ANNA MEIER",
+      "telephone": "+49 40 5555 1212",
+      "fax": "+49 40 5555 3434"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950699",
+  "commodityDescription": "TOY CARS",
+  "containers": [
+    {
+      "containerNumber": "CONT5003267",
+      "sealNumber": "SEAL971421",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 19590.74,
+      "measurement": 20.99
+    },
+    {
+      "containerNumber": "CONT6970626",
+      "sealNumber": "SEAL747045",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 5474.75,
+      "measurement": 25.22
+    },
+    {
+      "containerNumber": "CONT3767662",
+      "sealNumber": "SEAL939949",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 11852.29,
+      "measurement": 29.84
+    },
+    {
+      "containerNumber": "CONT4112111",
+      "sealNumber": "SEAL450570",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 9093.22,
+      "measurement": 20.22
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 45 HIGH CUBE TANK",
+    "totalPackages": 175,
+    "totalGrossWeight": 46011.0,
+    "totalMeasurement": 96.27
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "12 FRANKFURTER STRASSE, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 5555 1212",
+      "fax": "+49 40 5555 3434",
+      "email": "INFO@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "567 MAIN STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49 30 1234 5678",
+      "fax": "+49 30 1234 9876",
+      "email": "HANS.SCHMITZ@ASIAPACIFICTRADING.DE"
+    },
+    "onboardDate": "2024-11-22 12:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "bookingReference": "CHERRY202411103563",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABB LTD.",
+      "address": "123 MAIN STREET, PARIS, FRANCE 75001",
+      "telephone": "+33-1-45-67-89-01",
+      "fax": "+33-1-45-67-89-02"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "124 FRANKFURTER STRASSE, FRANKFURT, GERMANY 60311",
+      "telephone": "+49-69-75-67-89-01",
+      "fax": "+49-69-75-67-89-02"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CONT9208895",
+      "sealNumber": "SEAL392152",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 10667.97,
+      "measurement": 39.08
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE TANK",
+    "totalPackages": 72,
+    "totalGrossWeight": 10667.97,
+    "totalMeasurement": 39.08
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "124 FRANKFURTER STRASSE, FRANKFURT, GERMANY 60311",
+      "telephone": "+49-69-75-67-89-01",
+      "fax": "+49-69-75-67-89-02"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "124 FRANKFURTER STRASSE, FRANKFURT, GERMANY 60311",
+      "telephone": "+49-69-75-67-89-01",
+      "fax": "+49-69-75-67-89-02"
+    },
+    "onboardDate": "2024-11-13 16:30",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

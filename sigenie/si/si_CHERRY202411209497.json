@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411209497",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHENZHEN TECH ENTERPRISE CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 TECH STREET, SHENZHEN, CHINA 518000",
+      "telephone": "+86 755 12345678",
+      "fax": "+86 755 12345679",
+      "email": "INFO@SHENZHENTECH.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 MAIN STREET, NEW YORK, NY 10001, USA",
+      "companyNumber": "123456789",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 MAIN STREET, NEW YORK, NY 10001, USA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT1738098",
+      "sealNumber": "SEAL447439",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 8133.25,
+      "measurement": 21.47
+    },
+    {
+      "containerNumber": "CONT2840976",
+      "sealNumber": "SEAL931587",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 15443.85,
+      "measurement": 26.7
+    },
+    {
+      "containerNumber": "CONT9829903",
+      "sealNumber": "SEAL322073",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 16135.92,
+      "measurement": 33.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 199,
+    "totalGrossWeight": 39713.02,
+    "totalMeasurement": 81.19
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHENZHEN TECH ENTERPRISE CO. LTD.",
+      "address": "1234 TECH STREET, SHENZHEN, CHINA 518000",
+      "telephone": "+86 755 12345678",
+      "fax": "+86 755 12345679"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

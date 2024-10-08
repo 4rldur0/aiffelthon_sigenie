@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410123788",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SIEMENS AG",
+      "address": "WITTHAUSSTRASSE 1, 80335 MUNICH, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 89 636 30000",
+      "fax": "+49 89 636 30001",
+      "email": "INFO@SIEMENS.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "125, ROBINSON ROAD, #13-01, THE AXA TOWER, SINGAPORE 068901",
+      "country": "SINGAPORE",
+      "telephone": "+65 6532 1111",
+      "fax": "+65 6532 1112",
+      "email": "INFO@DHL.COM.SG",
+      "personincharge": "ANNA TAN"
+    },
+    "notifyParty": {
+      "name": "SIEMENS PTE LTD",
+      "address": "105, Anson Road #21-00, Anson Centre, SINGAPORE 079900",
+      "country": "SINGAPORE",
+      "telephone": "+65 6226 6666",
+      "fax": "+65 6226 6667",
+      "email": "INFO@SIEMENS.COM.SG"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "ACETIC ACID SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT3899085",
+      "sealNumber": "SEAL741108",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 7239.64,
+      "measurement": 35.93
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD GENERAL",
+    "totalPackages": 93,
+    "totalGrossWeight": 7239.64,
+    "totalMeasurement": 35.93
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "987654321098"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "125, ROBINSON ROAD, #13-01, THE AXA TOWER, SINGAPORE 068901",
+      "telephone": "+65 6532 1111",
+      "fax": "+65 6532 1112",
+      "email": "INFO@DHL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "125, ROBINSON ROAD, #13-01, THE AXA TOWER, SINGAPORE 068901",
+      "telephone": "+65 6532 1111",
+      "fax": "+65 6532 1112",
+      "email": "INFO@DHL.COM.SG"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3065"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5938363",
+    "unClass": "7",
+    "unCode": "3065",
+    "hsCode": "6245.91.33",
+    "flashPoint": "93\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

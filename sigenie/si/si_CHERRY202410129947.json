@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410129947",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECH SOLUTIONS LTD",
+      "address": "123 TECH STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@TECHSOLUTIONS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORP",
+      "address": "456 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "JOHN.SMITH@GLOBALTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "FIRST GLOBAL LOGISTICS BV",
+      "address": "789 LOGISTICS STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "taxId": "",
+      "president": "MS. ANNA JONES",
+      "telephone": "+31 10 333 3333",
+      "fax": "+31 10 333 3334"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950430",
+  "commodityDescription": "OFFICE MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT3444673",
+      "sealNumber": "SEAL536476",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 10920.43,
+      "measurement": 32.27
+    },
+    {
+      "containerNumber": "CONT9843190",
+      "sealNumber": "SEAL352770",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 18723.31,
+      "measurement": 37.17
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE TANK",
+    "totalPackages": 153,
+    "totalGrossWeight": 29643.74,
+    "totalMeasurement": 69.44
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-22 10:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202411184682",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING INC.",
+      "address": "1234 INDUSTRIAL PARKWAY, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@OMEGAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "101 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 DB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 777 7777",
+      "fax": "+31 20 777 7778",
+      "email": "MAREK.KOWALSKI@DELTAShipping.NL"
+    },
+    "notifyParty": {
+      "name": "OMEGA LOGISTICS BV",
+      "address": "222 WATERLOOSTRAAT, ROTTERDAM, NETHERLANDS, 3011 BM",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "ANNA.NOWAK@OMEGALOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "620462",
+  "commodityDescription": "LADIES' WINTER COATS",
+  "containers": [
+    {
+      "containerNumber": "CONT5710062",
+      "sealNumber": "SEAL718226",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 15888.48,
+      "measurement": 33.78
+    },
+    {
+      "containerNumber": "CONT3078927",
+      "sealNumber": "SEAL240913",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 18188.44,
+      "measurement": 36.09
+    },
+    {
+      "containerNumber": "CONT8690380",
+      "sealNumber": "SEAL342905",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 15995.83,
+      "measurement": 36.9
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 187,
+    "totalGrossWeight": 50072.75,
+    "totalMeasurement": 106.77
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "COMMERCIAL INVOICE"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "101 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 DB",
+      "telephone": "+31 20 777 7777",
+      "fax": "+31 20 777 7778",
+      "email": "MAREK.KOWALSKI@DELTAShipping.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA MANUFACTURING INC.",
+      "address": "1234 INDUSTRIAL PARKWAY, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@OMEGAMANUFACTURING.CN"
+    },
+    "onboardDate": "2024-12-06 20:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

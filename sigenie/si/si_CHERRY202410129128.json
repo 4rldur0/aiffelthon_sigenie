@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410129128",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG, GERMANY",
+    "portOfLoading": "HAMBURG, GERMANY",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "123 GLOBAL TRADE STREET, HAMBURG, 20457, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "(GLOBAL TRADE BUILDING)",
+      "telephone": "+49 40 1234 5678",
+      "email": "SHIPPING@GLOBALTRADINGCORP.DE"
+    },
+    "consignee": {
+      "name": "EUROASIA SHIPPING LTD.",
+      "address": "123 ASIA STREET, KUALA LUMPUR, 50450, MALAYSIA",
+      "country": "MALAYSIA",
+      "email": "ORDERS@EUROASIASHIPPINGLTD.MY",
+      "telephone": "+60 3 1234 5678"
+    },
+    "notifyParty": {
+      "name": "EUROASIA SHIPPING LTD.",
+      "address": "123 ASIA STREET, KUALA LUMPUR, 50450, MALAYSIA",
+      "country": "MALAYSIA",
+      "email": "ORDERS@EUROASIASHIPPINGLTD.MY",
+      "telephone": "+60 3 1234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "070200",
+  "commodityDescription": "FRESH TOMATOES",
+  "containers": [
+    {
+      "containerNumber": "CONT7446101",
+      "sealNumber": "SEAL426078",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 12418.33,
+      "measurement": 26.65
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE REEFER",
+    "totalPackages": 60,
+    "totalGrossWeight": 12418.33,
+    "totalMeasurement": 26.65
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 20\u00b0C, VALUE: USD218,212, MAINTAIN HUMIDITY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4168397",
+    "temperature": "20\u00b0C",
+    "minTemperature": "18\u00b0C",
+    "maxTemperature": "22\u00b0C",
+    "ventilation": "70%",
+    "humidity": "61%"
+  }
+}

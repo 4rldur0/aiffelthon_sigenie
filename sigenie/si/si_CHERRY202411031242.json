@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411031242",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FRUIT CO.",
+      "onBehalfOf": "",
+      "address": "1234 ORCHARD ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAFRUIT.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "1555 CANAL STREET, ROTTERDAM, NETHERLANDS 3011 GJ",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GLOBALTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "1555 CANAL STREET, ROTTERDAM, NETHERLANDS 3011 GJ"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "080550",
+  "commodityDescription": "FRESH ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT3536727",
+      "sealNumber": "SEAL710079",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 10861.1,
+      "measurement": 26.67
+    },
+    {
+      "containerNumber": "CONT3340161",
+      "sealNumber": "SEAL995402",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 6450.04,
+      "measurement": 34.47
+    },
+    {
+      "containerNumber": "CONT4997342",
+      "sealNumber": "SEAL678015",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 9712.22,
+      "measurement": 26.08
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 164,
+    "totalGrossWeight": 27023.36,
+    "totalMeasurement": 87.22
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC FRUIT CO.",
+      "address": "1234 ORCHARD ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAFRUIT.CN"
+    },
+    "onboardDate": "2024-11-09 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -9\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5847742",
+    "temperature": "-9\u00b0C",
+    "minTemperature": "-11\u00b0C",
+    "maxTemperature": "-7\u00b0C",
+    "ventilation": "53%",
+    "humidity": "88%"
+  }
+}

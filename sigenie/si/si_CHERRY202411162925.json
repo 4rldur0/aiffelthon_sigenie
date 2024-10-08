@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411162925",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "TANGER MED, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GAMMA INDUSTRIES INC.",
+      "address": "1234 XIAMEN ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@GAMMAINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "DELTA TRANSPORT LTD.",
+      "address": "1234 CASABLANCA STREET, TANGER MED, 90000, MOROCCO",
+      "country": "MOROCCO",
+      "telephone": "+212 539 345 6789",
+      "fax": "+212 539 345 6788",
+      "email": "CONTACTS@DELTATRANSPORT.MA",
+      "personincharge": "MOHAMED EL KHALIL"
+    },
+    "notifyParty": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "4567 RABAT BOULEVARD, RABAT, 10000, MOROCCO",
+      "country": "MOROCCO",
+      "telephone": "+212 537 8901 2345",
+      "fax": "+212 537 8901 2346",
+      "email": "INFO@ALPHALOGISTICS.MA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "610910",
+  "commodityDescription": "LADIES' OR GIRLS' COTTON KNIT SHIRTS AND BLOUSES",
+  "containers": [
+    {
+      "containerNumber": "CONT8221278",
+      "sealNumber": "SEAL604933",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 19424.14,
+      "measurement": 31.55
+    },
+    {
+      "containerNumber": "CONT5244281",
+      "sealNumber": "SEAL133332",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 18698.97,
+      "measurement": 35.71
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 114,
+    "totalGrossWeight": 38123.11,
+    "totalMeasurement": 67.26
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241116001"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA TRANSPORT LTD.",
+      "address": "1234 CASABLANCA STREET, TANGER MED, 90000, MOROCCO",
+      "telephone": "+212 539 345 6789",
+      "fax": "+212 539 345 6788",
+      "email": "CONTACTS@DELTATRANSPORT.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRANSPORT LTD.",
+      "address": "1234 CASABLANCA STREET, TANGER MED, 90000, MOROCCO",
+      "telephone": "+212 539 345 6789",
+      "fax": "+212 539 345 6788",
+      "email": "CONTACTS@DELTATRANSPORT.MA"
+    },
+    "onboardDate": "2024-12-03 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

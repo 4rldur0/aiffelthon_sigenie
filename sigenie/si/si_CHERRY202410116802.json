@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410116802",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTERS INC.",
+      "address": "1234 YONGFENG ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8756 9000",
+      "fax": "+86 574 8756 9001",
+      "email": "INFO@ASIAIMPORTERS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TECH SOLUTIONS LTD.",
+      "address": "1234 EUROPABOULEVARD, ROTTERDAM, 3011 XK, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 7890 1234",
+      "fax": "+31 10 7890 1235",
+      "email": "INFO@GLOBALTECHSOLUTIONS.NL",
+      "personincharge": "ANNA DEKKER"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (NETHERLANDS) B.V.",
+      "address": "1234 AERONAUTICA STREET, ROTTERDAM, 3016 KD, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 4567 8901",
+      "fax": "+31 10 4567 8902",
+      "email": "INFO@DHL.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950430",
+  "commodityDescription": "OFFICE EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT8540360",
+      "sealNumber": "SEAL435864",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 6994.98,
+      "measurement": 22.52
+    },
+    {
+      "containerNumber": "CONT9548477",
+      "sealNumber": "SEAL952850",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 5497.45,
+      "measurement": 27.15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE TANK",
+    "totalPackages": 80,
+    "totalGrossWeight": 12492.43,
+    "totalMeasurement": 49.67
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410116802"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (NETHERLANDS) B.V.",
+      "address": "1234 AERONAUTICA STREET, ROTTERDAM, 3016 KD, NETHERLANDS",
+      "telephone": "+31 10 4567 8901",
+      "fax": "+31 10 4567 8902",
+      "email": "INFO@DHL.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TECH SOLUTIONS LTD.",
+      "address": "1234 EUROPABOULEVARD, ROTTERDAM, 3011 XK, NETHERLANDS",
+      "telephone": "+31 10 7890 1234",
+      "fax": "+31 10 7890 1235",
+      "email": "INFO@GLOBALTECHSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-10-26 20:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

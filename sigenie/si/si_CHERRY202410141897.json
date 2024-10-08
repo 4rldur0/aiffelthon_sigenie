@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410141897",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING GMBH",
+      "address": "FRANKFURTER STRASSE 123, FRANKFURT AM MAIN 60311, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 69 79876543",
+      "fax": "+49 69 79876544",
+      "email": "INFO@DELTAMANUFACTURING.DE"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL TRADING CO.",
+      "address": "KEIZER STREET 456, ROTTERDAM 3011 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 4567890",
+      "fax": "+31 10 4567891",
+      "email": "ORDERS@OMEGAGLOBALTRADING.NL",
+      "personincharge": "ANNA VAN DER LEE"
+    },
+    "notifyParty": {
+      "name": "ALPHA LOGISTICS BV",
+      "address": "SPANJESTRAAT 123, ROTTERDAM 3012 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 2345678",
+      "fax": "+31 10 2345679",
+      "email": "OPERATIONS@ALPHALOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "870899",
+  "commodityDescription": "MOTOR VEHICLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT1738360",
+      "sealNumber": "SEAL590222",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 14883.23,
+      "measurement": 20.61
+    },
+    {
+      "containerNumber": "CONT9495434",
+      "sealNumber": "SEAL990103",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 19815.88,
+      "measurement": 24.73
+    },
+    {
+      "containerNumber": "CONT6737803",
+      "sealNumber": "SEAL124522",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 5932.51,
+      "measurement": 29.91
+    },
+    {
+      "containerNumber": "CONT8678040",
+      "sealNumber": "SEAL572701",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 10624.49,
+      "measurement": 20.17
+    },
+    {
+      "containerNumber": "CONT4842237",
+      "sealNumber": "SEAL675990",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 5048.68,
+      "measurement": 20.43
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD GENERAL",
+    "totalPackages": 282,
+    "totalGrossWeight": 56304.79,
+    "totalMeasurement": 115.85
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL TRADING CO.",
+      "address": "KEIZER STREET 456, ROTTERDAM 3011 AA, NETHERLANDS",
+      "telephone": "+31 10 4567890",
+      "fax": "+31 10 4567891",
+      "email": "ORDERS@OMEGAGLOBALTRADING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL TRADING CO.",
+      "address": "KEIZER STREET 456, ROTTERDAM 3011 AA, NETHERLANDS",
+      "telephone": "+31 10 4567890",
+      "fax": "+31 10 4567891",
+      "email": "ORDERS@OMEGAGLOBALTRADING.NL"
+    },
+    "onboardDate": "2024-10-23 20:00",
+    "additionalRemarks": "DO NOT STACK"
+  }
+}

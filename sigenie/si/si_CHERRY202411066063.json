@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202411066063",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BEIJING PRECISION TOOLS CO. LTD.",
+      "address": "NO. 1234, FENGTAI ROAD, BEIJING, 100080, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 10 8888 7777",
+      "fax": "+86 10 8888 6666",
+      "email": "LI.WEI@BEIJINGPRECISIONTOOLS.CN"
+    },
+    "consignee": {
+      "name": "VAN DER SLOOT IMPORT & EXPORT BV",
+      "address": "STATIONSPLEIN 12, 3012 AB ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 6666",
+      "email": "INFO@VANDERSLOOT.NL"
+    },
+    "notifyParty": {
+      "name": "MAERSK LOGISTICS LTD.",
+      "address": "1234 HARBOUR STREET, LONDON E14 9RR, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 9999",
+      "email": "LONDON.OPS@MAERSKLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "820790",
+  "commodityDescription": "TOOLING COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT2634679",
+      "sealNumber": "SEAL532404",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 15764.77,
+      "measurement": 26.75
+    },
+    {
+      "containerNumber": "CONT9732348",
+      "sealNumber": "SEAL548120",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 10583.22,
+      "measurement": 25.08
+    },
+    {
+      "containerNumber": "CONT7848434",
+      "sealNumber": "SEAL485838",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 8400.66,
+      "measurement": 21.85
+    },
+    {
+      "containerNumber": "CONT8567539",
+      "sealNumber": "SEAL895058",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 7170.37,
+      "measurement": 34.15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD TANK",
+    "totalPackages": 297,
+    "totalGrossWeight": 41919.02,
+    "totalMeasurement": 107.83
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "MAERSK LOGISTICS LTD.",
+      "address": "1234 HARBOUR STREET, LONDON E14 9RR, UNITED KINGDOM",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 9999",
+      "email": "LONDON.OPS@MAERSKLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "VAN DER SLOOT IMPORT & EXPORT BV",
+      "address": "STATIONSPLEIN 12, 3012 AB ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 6666",
+      "email": "INFO@VANDERSLOOT.NL"
+    },
+    "onboardDate": "2024-11-13 08:00",
+    "additionalRemarks": "UNDER DECK TOP STOWAGE"
+  }
+}

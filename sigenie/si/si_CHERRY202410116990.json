@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410116990",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI DRAGON TEXTILES CO. LTD.",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213",
+      "email": "INFO@GOLDENGATEIMPORTS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS GOODS",
+  "containers": [
+    {
+      "containerNumber": "CONT8605460",
+      "sealNumber": "SEAL265085",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 13928.91,
+      "measurement": 27.03
+    },
+    {
+      "containerNumber": "CONT2560531",
+      "sealNumber": "SEAL265287",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 6803.9,
+      "measurement": 25.96
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 121,
+    "totalGrossWeight": 20732.81,
+    "totalMeasurement": 52.99
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241011-1001",
+    "documentNumber": "20241011-1001",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213"
+    },
+    "onboardDate": "2024-10-22 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3334, VALUE: USD214,895, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8973440",
+    "unClass": "9",
+    "unCode": "3334,",
+    "hsCode": "8269.89.15",
+    "flashPoint": "48\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}
