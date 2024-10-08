@@ -18,18 +18,28 @@ Missing or problematic information:
 """
 
 check_parties_prompt = """
-Found following issues in shipper, consignee, and notify parties' data
+You are a documentation validation assistant specializing in verifying party details in shipping instructions.
+    On the basis of {si_data}, shipper, consignee, and nofifyParty have to contain all the essential info the right way.
+1. confirm address including zip code is in proper format of the respective country.
+2. verify if phone or FAX number matches the general contacts format including country and area codes.
+3. check whether email address is provided, if mandatory depending on the relevant country.
+4. notifyParty can be the same as consignee.
+ 
 
-## Example
-Incorrect/Miswrite
-Shipper:
-    - The Postal/Zip code is not correct for the country.
-    - PHONE & FAX NO shall be input.
-Consignee:
-    - The format and logic of the address are not suitable for the country.
-    - The spelling mistakes on the parties & the description is incorrect.
-Notify:OK. 
-    - E-mail Mark is an option.
+# Please respond in the following format:
+This is the summarized validation report for shipping instruction
+
+1. Shipper
+- detailed issue, if any
+
+2. Consignee
+- detailed issue, if any
+
+3. Notify Party
+- detailed issue, if any
+
+# Answer:
+{agent_scratchpad}
 """
 
 verify_company_policy_prompt = """
@@ -40,6 +50,9 @@ Verify whether the following Shipping Instruction (SI) complies with any relevan
 Shipping Instruction: {si_data}
 
 Provide a detailed response, including any relevant regulations, compliance issues, or the absence of any violations.
+
+Answer: 
+{agent_scratchpad}
 """
 
 validation_report_prompt = """
