@@ -7,6 +7,10 @@ class GetBKG:
     
     def __call__(self, state: State) -> State:
         bkg_data = self.mongodb.find_one_booking_reference(state["booking_reference"])
-        state["bkg_data"] = bkg_data
-        state["next"] = "get_si"
+        if bkg_data is None:
+            state["bkg_data"] = "No Booking Data found for the given booking reference"
+            state["next"] = "end"
+        else:
+            state["bkg_data"] = bkg_data
+            state["next"] = "get_si"
         return state

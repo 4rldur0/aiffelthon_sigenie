@@ -8,6 +8,68 @@ class BLDraftPage:
     def __init__(self, si_data):
         self.si_data = si_data
         self.logo_img = "./layouts/imgs/containergenie.png"
+        # Custom CSS to style the Bill of Lading
+        self.custom_css = """
+        <style>
+        @font-face {
+            font-family: 'Freesentation';
+            src: url('./ui/fonts/Freesentation.ttf') format('truetype');
+        }
+        html, body, [class*="st-"] {
+            font-family: 'Freesentation', sans-serif;
+        }
+            .bl-form {
+                font-family: Arial, sans-serif;
+                border: 2px solid black;
+                padding: 10px;
+                margin-bottom: 20px;
+                width: 100%;
+            }
+            .bl-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                border-bottom: 1px solid black;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+            }
+            .bl-title {
+                margin-right: 30px;
+            }
+            .bl-section {
+                margin-bottom: 10px;
+                border: 1px solid black;
+                padding: 5px;
+            }
+            .bl-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
+            .bl-footer {
+                border-top: 1px solid black;
+                padding-top: 10px;
+                margin-top: 10px;
+            }
+            .bl-logo {
+                text-align: right;
+                margin-left: auto;
+            }
+            .bl-logo img {
+                max-width: 250px;
+                height: auto;
+            }
+            .bl-table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            .bl-table th, .bl-table td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: left;
+            }
+        </style>
+        """
 
     # 로고 이미지 가져오기 및 출력 형식 지정
     def _get_base64_encoded_image(self, image_path):
@@ -90,10 +152,9 @@ class BLDraftPage:
         # Create the BL form HTML
         bl_html = f"""
         <div class="bl-form">
-            <div class="watermark">DRAFT</div>
             <div class="bl-header">
                 <div class="bl-title">
-                    <h2>BILL OF LADING (B/L)</h2>
+                    <h2>BILL OF LADING (B/L)(Draft)</h2>
                 </div>
                 <div>
                     <p class="bl-row"><strong>Booking Number:</strong> {doc.get('bookingReference', '')}</p>
@@ -182,7 +243,6 @@ class BLDraftPage:
         
         # Render the BL form
         st.html(bl_html)
-
 
     # 화면에 보여질 실제 페이지
     def show_bl_draft_page(self):

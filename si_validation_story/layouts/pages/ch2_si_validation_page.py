@@ -1,6 +1,6 @@
 import streamlit as st
 from ._page_templates import BLDraftPage, ReportPage
-from graphs.si_validation_graph import SIValidation
+from graphs.st_si_validation_graph import SIValidation
 
 # Chapter 2 그래프 인스턴스 생성
 graph = SIValidation()
@@ -22,7 +22,7 @@ def main():
             try:
                 result = graph.invoke()
             except Exception as e:
-                st.error(f"An error occurred while Searching the shipping Instruction: {str(e)}")
+                st.error(f"An error occurred while Invoking the shipping Instruction Validation Graph: {str(e)}")
                 st.stop()
         
         # 그래프 최종 출력이 존재할 경우에만 실행
@@ -45,8 +45,8 @@ def main():
                 # 오른쪽 화면에는 report 출력
                 with col2:
                     report_page.show_report_page()
-            # 그래프 최종 출력에서 si_data가 존재하지 않을 때
-            else:
-                st.warning("No shipping instruction data found for the given booking reference.")
+        # 그래프 최종 출력이 올바르지 않을 때
+        else:
+            st.warning("Shipping Instruction data is required. Return to Chapter 1 to fetch the data first.")
     else:
         st.error("Shipping Instruction data is required. Return to Chapter 1 to fetch the data first.")
