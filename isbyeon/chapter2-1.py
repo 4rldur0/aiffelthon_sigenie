@@ -1,5 +1,6 @@
 import os
 from pymongo import MongoClient
+from typing import List, Dict
 
 MONGO_URI = os.getenv("MONGODB_URI")
 DB_NAME = os.getenv("MONGODB_DB_NAME")
@@ -9,8 +10,7 @@ os.environ["LANGCHAIN_PROJECT"] = "containergenie.ai"
 os.environ['USER_AGENT'] = 'chapter2-1'
 
 ####################################################################################
-from typing import List, Dict
-from langchain_community.document_loaders import PyPDFLoader
+
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
@@ -18,8 +18,8 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain.tools.retriever import create_retriever_tool
-from langchain.agents import create_openai_functions_agent
-from langchain.agents import AgentExecutor
+from langchain.agents import create_openai_functions_agent, AgentExecutor
+
 ###################################################################################
 
 # block included to check whether the whole chain works out or not
@@ -39,20 +39,18 @@ def fetch_data_from_mongodb(collection_name: str, query: Dict = None, limit: int
     client.close()
     
     return data
-
-
-###################################################################################
 # Build a set of tools 
 
 ## Search online results as many as 5
-search = TavilySearchResults(k=5)
-
+search_tool = TavilySearchResults(k=5)
 
 ## look for relevant parts in pdfs
 
-PDF_loader = PyPDFLoader("./cherry_compliance.pdf")
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100, length_function=len, separators=["\n\n", "\n", " ", ""])
+PDF_loader = PyPDFLoader("./CHERRY Shipping Line Company Policy.pdf")
+
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=50, length_function=len, separators=["\n\n", "\n", " ", ""])
 PDF_split_docs = PDF_loader.load_and_split(text_splitter)
+len(PDF_split_docs)
 
 embeddings = OpenAIEmbeddings()
 
@@ -67,67 +65,50 @@ PDF_retriever_tool = create_retriever_tool(
                 "including checking what info is required for each entity" \
                 "based on the requirements of both the company and relevant countries",
 )
-
-# ## retrieve relevant info online
-# WebBase_loader = WebBaseLoader("https://www.ilovesea.or.kr/dictionary/list.do")
-# text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100, length_function=len, separators=["\n\n", "\n", " ", ""])
-# WebBase_split_docs = WebBase_loader.load_and_split(text_splitter)
-
-# embeddings = OpenAIEmbeddings()
-
-# WebBase_vector = FAISS.from_documents(documents=WebBase_split_docs, embedding=embeddings)
-
-# WebBase_retriever = WebBase_vector.as_retriever()
-
-# WebBase_retriever_tool = create_retriever_tool(
-#     WebBase_retriever,
-#     name="web_search",
-#     description="Put this tool to use in a bid to check spelling of industry terminology",
-# )
-
 # set of tools
-tools = [search, PDF_retriever_tool]
-
-###################################################################################
-
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+tools = [search_tool, PDF_retriever_tool]
+# 1. Explain your reasoning process step by step.
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.0)
 
 prompt = PromptTemplate.from_template(
-    """You are a documentation validation assistant specializing in verifying party details in shipping instructions.
-    On the basis of {data}, shipper, consignee, and nofifyParty have to contain all the essential info the right way.
-1. confirm address including zip code is in proper format of the respective country.
-2. verify if phone or FAX number matches the general contacts format including country and area codes.
-3. check whether email address is provided, if mandatory depending on the relevant country.
-4. notifyParty can be the same as consignee.
- 
+"""You are a documentation validation assistant specializing in verifying party details in shipping instructions.
+Make sure shipper, consignee, and nofifyParty in the {data} contain all the essential info as guided below:
+              
+1. Take a Chain of Thought approach in the process.
+2. It is the rule that you have to mention address, phone or fax number, and email address, which are fundamentally mandatory items.              
+3. Use PDF_retriever_tool to tell whether email address is not required.
+4. Confirm address is in proper format of the respective country with explicit postal code like "07528" as in "SEOUL 07528, KOREA".
+5. Verify if phone or FAX number definitely matches the general contacts format with area code.
+6. Check whether email address is in proper format.
+7. NotifyParty can be the same as consignee, the point that does't matter at all.
+8. Don't improvise anything you don't know at all based on the given conditions.
+9. Any wrap-up remarks at the bottom of the report are not preferred.
 
-# Please respond in the following format:
-This is the summarized validation report for shipping instruction
+# Respond in the example as below:
+This is the summarized validation report for shipping instruction.
 *{bookingReference}*
 
 1. Shipper
-- detailed issue, if any
+- Address: The address part is valid including a postal code for the related country. 
+- Phone: The phone number format is right with a conventional area code for the related country included.
+- Email: An email address is omitted, the item which is required.
 
 2. Consignee
-- detailed issue, if any
+- Address: The address part is with some typos.  
+- Phone: A phone number format is not found.
+- Email: The email address is in the correct format.
 
 3. Notify Party
-- detailed issue, if any
+- Address: The address input is void.  
+- Phone: The phone number format is provided without a conventional area code for the related country.
+- Email: The email address is left empty, the item which is required.
 
 # Answer:
-{agent_scratchpad}"""
-)
-
-###################################################################################
+{agent_scratchpad}""")
 
 agent = create_openai_functions_agent(llm, tools, prompt)
-
-
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
-
-
-
-data = fetch_data_from_mongodb(collection_name, {"bookingReference": "CHERRY202409072244"})
-    
-
-result = agent_executor.invoke({'bookingReference':"CHERRY202409072244",'data':data})
+data = fetch_data_from_mongodb(collection_name, {"bookingReference": "CHERRY202411139973"})
+data
+result = agent_executor.invoke({"bookingReference": "CHERRY202411139973", "data": data})
+print(result['output'])
