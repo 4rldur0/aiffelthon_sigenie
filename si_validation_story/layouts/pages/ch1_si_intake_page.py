@@ -1,5 +1,5 @@
 import streamlit as st
-from ._page_templates import BLDraftPage, ReportPage
+from ._page_templates import BLDraftPage, IntakeReportPage
 from graphs.st_si_intake_graph import SIIntake
 
 def main():
@@ -30,8 +30,9 @@ def main():
             # draft B/L을 보여주는 페이지 인스턴스
             bl_draft_page = BLDraftPage(si_data=si_data)
             # report를 보여주는 페이지 인스턴스
-            report_page = ReportPage(report_name="Shipping Instruction Validation Report",
-                                     text=result.get("summary_answer", "No summary available"))
+            report_page = IntakeReportPage(report_name="Shipping Instruction Validation Report",\
+                                     missing_answer=result.get("missing_answer", "No Missing Data available"),\
+                                     summary_answer=result.get("summary_answer", "No summary available"))
 
             # 화면을 좌우로 나눔
             col1, col2 = st.columns(2)

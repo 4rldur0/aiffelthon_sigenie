@@ -1,7 +1,6 @@
 import streamlit as st
 from .nodes.si_intake import si_intake_state, get_bkg, get_si, check_missing_data, generate_intake_report
 from langgraph.graph import StateGraph, END
-import json
 
 class SIIntake:
     def __init__(self):
@@ -61,13 +60,10 @@ class SIIntake:
         self.update_progress(self.steps[0])
         result = self.get_bkg_node(state)
         bkg_data = result['bkg_data']
-        try:
-            # JSON 유효성 검사를 위해 JSON으로 변환 시도
-            parsed_data = json.loads(bkg_data) if isinstance(bkg_data, str) else bkg_data
+        if isinstance(bkg_data, dict):
             with st.expander("View Booking Data", expanded=False):
-                st.json(parsed_data)  # JSON으로 성공적으로 변환된 경우 출력
-        except (json.JSONDecodeError, TypeError):
-            # JSON 파싱이 실패하면 에러메세지로 출력
+                st.json(bkg_data)
+        else:
             st.error(bkg_data)
         return result
 
@@ -75,13 +71,10 @@ class SIIntake:
         self.update_progress(self.steps[1])
         result = self.get_si_node(state)
         si_data = result['si_data']
-        try:
-            # JSON 유효성 검사를 위해 JSON으로 변환 시도
-            parsed_data = json.loads(si_data) if isinstance(si_data, str) else si_data
+        if isinstance(si_data, dict):
             with st.expander("View Shipping Instruction", expanded=False):
-                st.json(parsed_data)  # JSON으로 성공적으로 변환된 경우 출력
-        except (json.JSONDecodeError, TypeError):
-            # JSON 파싱이 실패하면 에러메세지로 출력
+                st.json(si_data)
+        else :
             st.error(si_data)
         return result
 

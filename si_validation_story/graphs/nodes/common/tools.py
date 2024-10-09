@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from pymongo import MongoClient
 from langchain_community.vectorstores import FAISS
-from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyMuPDFLoader
 from langchain.tools.retriever import create_retriever_tool
 from langchain_openai import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -23,18 +23,18 @@ class MongoDB:
     
 class Faiss:
     def retrieve_pdf(pdf_path):
+        # look for relevant parts in pdfs
+        PDF_loader = PyMuPDFLoader(pdf_path)
 
-        PDF_loader = PyPDFLoader(pdf_path)
-        
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100, length_function=len, separators=["\n\n", "\n", " ", ""])
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=50, length_function=len, separators=["\n\n", "\n", " ", ""])
         PDF_split_docs = PDF_loader.load_and_split(text_splitter)
-        
+
         embeddings = OpenAIEmbeddings()
-        
+
         PDF_vector = FAISS.from_documents(documents=PDF_split_docs, embedding=embeddings)
-        
+
         PDF_retriever = PDF_vector.as_retriever()
-        
+
         PDF_retriever_tool = create_retriever_tool(
             PDF_retriever,
             name="pdf_search",
