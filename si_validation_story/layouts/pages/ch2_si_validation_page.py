@@ -2,7 +2,6 @@ import streamlit as st
 from ._page_templates import BLDraftPage, ValReportPage
 from graphs.st_si_validation_graph import SIValidation
 
-# Chapter 2 그래프 인스턴스 생성
 graph = SIValidation()
 
 def main():
@@ -10,6 +9,7 @@ def main():
 
     # chapter 1을 이미 실행 하였을 경우에만 chapter 2 진행 가능
     if "si_data" in st.session_state.keys() and st.session_state["si_data"]:
+        # Chapter 2 그래프 인스턴스 생성
         # session 변수로 저장되어 있던 si_data를 그래프의 스테이트에 저장
         # chapter 1에서 찾은 si_data를 chapter 2로 전달
         graph.state["si_data"] = st.session_state["si_data"]
