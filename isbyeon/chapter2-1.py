@@ -11,9 +11,8 @@ os.environ['USER_AGENT'] = 'chapter2-1'
 
 ####################################################################################
 
-from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
@@ -39,14 +38,9 @@ def fetch_data_from_mongodb(collection_name: str, query: Dict = None, limit: int
     client.close()
     
     return data
-# Build a set of tools 
 
-## Search online results as many as 5
-search_tool = TavilySearchResults(k=5)
-
-## look for relevant parts in pdfs
-
-PDF_loader = PyPDFLoader("./CHERRY Shipping Line Company Policy.pdf")
+# look for relevant parts in pdfs
+PDF_loader = PyMuPDFLoader("./CHERRY Shipping Line Company Policy.pdf")
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=50, length_function=len, separators=["\n\n", "\n", " ", ""])
 PDF_split_docs = PDF_loader.load_and_split(text_splitter)
@@ -66,49 +60,62 @@ PDF_retriever_tool = create_retriever_tool(
                 "based on the requirements of both the company and relevant countries",
 )
 # set of tools
-tools = [search_tool, PDF_retriever_tool]
-# 1. Explain your reasoning process step by step.
+tools = [PDF_retriever_tool]
+
+# llm & prompt
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.0)
 
 prompt = PromptTemplate.from_template(
 """You are a documentation validation assistant specializing in verifying party details in shipping instructions.
-Make sure shipper, consignee, and nofifyParty in the {data} contain all the essential info as guided below:
-              
-1. Take a Chain of Thought approach in the process.
+Make sure shipper, consignee, and nofifyParty in the data contain all the essential info as guided below:
+
+# data:
+{data}
+
+# Instructions:
+1. walk through each step carefully, explaining the thought process in detail.             
 2. It is the rule that you have to mention address, phone or fax number, and email address, which are fundamentally mandatory items.              
 3. Use PDF_retriever_tool to tell whether email address is not required.
-4. Confirm address is in proper format of the respective country with explicit postal code like "07528" as in "SEOUL 07528, KOREA".
-5. Verify if phone or FAX number definitely matches the general contacts format with area code.
-6. Check whether email address is in proper format.
-7. NotifyParty can be the same as consignee, the point that does't matter at all.
-8. Don't improvise anything you don't know at all based on the given conditions.
-9. Any wrap-up remarks at the bottom of the report are not preferred.
+4. Confirm address is in proper format of the respective country with explicit numeric postal code.
+5. Do not attempt to infer or provide any missing elements such as a postal code in the address.
+6. Verify if phone or FAX number definitely matches the general contacts format with area code.
+7. Check whether email address is in proper format.
+8. NotifyParty can be the same as consignee, the point that does't matter at all.
+9. Any closing remarks at the bottom of the report are not preferred.
+10. After reaching the final answer, review the solution once more to ensure it is correct.
+
 
 # Respond in the example as below:
 This is the summarized validation report for shipping instruction.
 *{bookingReference}*
 
 1. Shipper
-- Address: The address part is valid including a postal code for the related country. 
-- Phone: The phone number format is right with a conventional area code for the related country included.
+- Address: The address part is valid containing a postal code(12345) for the related country.
+- Phone: The phone number format is right with a conventional area code(99) for the related country included.
 - Email: An email address is omitted, the item which is required.
 
 2. Consignee
-- Address: The address part is with some typos.  
-- Phone: A phone number format is not found.
+- Address: The address part is invalid as a postal code(99999) for the related country is not shown.
+- Phone: A phone number is not detected.
 - Email: The email address is in the correct format.
 
 3. Notify Party
-- Address: The address input is void.  
-- Phone: The phone number format is provided without a conventional area code for the related country.
-- Email: The email address is left empty, the item which is required.
+- Address: The address input is void.
+- Phone: The phone number format is provided without a conventional area code(11) for the related country.
+- Email: The email address is left empty, the item which is not mandatory.
 
 # Answer:
 {agent_scratchpad}""")
 
+# agent building
 agent = create_openai_functions_agent(llm, tools, prompt)
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
-data = fetch_data_from_mongodb(collection_name, {"bookingReference": "CHERRY202411139973"})
-data
-result = agent_executor.invoke({"bookingReference": "CHERRY202411139973", "data": data})
+
+# for result check
+data = fetch_data_from_mongodb(collection_name, {"bookingReference": "CHERRY202411065640"})
+# print(data[0]['bookingReference'])
+# data[0]['partyDetails']
+
+# execute agent
+result = agent_executor.invoke({"bookingReference": data[0]['bookingReference'], "data": data[0]['partyDetails']})
 print(result['output'])
