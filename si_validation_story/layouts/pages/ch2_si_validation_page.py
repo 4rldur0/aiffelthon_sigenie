@@ -1,5 +1,5 @@
 import streamlit as st
-from ._page_templates import BLDraftPage, ReportPage
+from ._page_templates import BLDraftPage, ValReportPage
 from graphs.st_si_validation_graph import SIValidation
 
 # Chapter 2 그래프 인스턴스 생성
@@ -33,7 +33,7 @@ def main():
                 # draft B/L을 보여주는 페이지 인스턴스
                 bl_draft_page = BLDraftPage(si_data=si_data)
                 # report를 보여주는 페이지 인스턴스
-                report_page = ReportPage(report_name="Shipping Instruction Validation Report",
+                report_page = ValReportPage(report_name="Shipping Instruction Validation Report",
                                          text=result.get("summary_answer", "No summary available"))
                 
                 # 화면을 좌우로 나눔

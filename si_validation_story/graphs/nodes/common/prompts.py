@@ -1,29 +1,19 @@
 check_missing_prompt="""
-Analyze the following Shipping Instruction (SI) data, focusing on missing or incomplete information in key sections excluding the ‘Additional Information’ field.
-For missing or incomplete details, return a summary highlighting which data is missing or invalid(`:red[MISSING]`).
-Provide a concise and structured output similar to the example below.
-
-Data:
-{si_data}
-
-Response Format:
-
-	1.	Vessel & Route Details: OK
-	2.	Payment & Documentation: OK
-	3.	Party Information: OK
-	4.	Shipping Details: OK
-	5.	Container Information: OK
-	6.	Total Shipment Summary: OK
-	7.	Additional Information: OK
-	8.	Special Cargo Information: OK
-
+    Analyze the following Shipping Instruction (SI) data, focusing on missing or incomplete information in key sections excluding the ‘Additional Information’ field.
+    \n{format_instructions}
+    \n{si_data}\n
 """
 
-intake_report_prompt = """
-Add Summarization of the missing information.
-Write Summarziation before Missing Information.
+intake_report_prompt =  """
+You are a report generator AI. Your task is to summarize any issues or missing data in key sections.
 
-Missing Information: {missing_info}
+{format_instructions}
+
+Here is the shipment data:
+{si_data}
+
+Missing or problematic information:
+{missing_info}
 """
 
 check_parties_prompt = """
