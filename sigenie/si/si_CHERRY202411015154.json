@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202411015154",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "123 SUNRISE STREET, NINGBO, ZHEJIANG, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@SUNRISE-ELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL EXPRESS LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "notifyParty": {
+      "name": "GLOBAL EXPRESS LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "340213",
+  "commodityDescription": "ORGANIC CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT7657035",
+      "sealNumber": "SEAL340187",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 7427.9,
+      "measurement": 24.11
+    },
+    {
+      "containerNumber": "CONT5240664",
+      "sealNumber": "SEAL941149",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 14345.25,
+      "measurement": 27.99
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 122,
+    "totalGrossWeight": 21773.15,
+    "totalMeasurement": 52.1
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      " FUMIGATION CERTIFICATE",
+      " CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL EXPRESS LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-12 08:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2857"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7081077",
+    "unClass": "7",
+    "unCode": "2857",
+    "hsCode": "4877.98.88",
+    "flashPoint": "16\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411306724",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 GLOBAL ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667",
+      "email": "SALES@SHANGHAIGLOBALTRADING.CN"
+    },
+    "consignee": {
+      "name": "GREEN EARTH IMPORTERS LTD.",
+      "address": "1234 GREEN EARTH WAY, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "INFO@GREENEARTHIMPORTERS.NL"
+    },
+    "notifyParty": {
+      "name": "GREEN EARTH IMPORTERS LTD.",
+      "address": "1234 GREEN EARTH WAY, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CONSTRUCTION SETS AND PARTS THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT6529691",
+      "sealNumber": "SEAL323295",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 19158.55,
+      "measurement": 39.99
+    },
+    {
+      "containerNumber": "CONT4917134",
+      "sealNumber": "SEAL716009",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 18519.64,
+      "measurement": 36.68
+    },
+    {
+      "containerNumber": "CONT3286539",
+      "sealNumber": "SEAL459492",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 18015.93,
+      "measurement": 34.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 150,
+    "totalGrossWeight": 55694.12,
+    "totalMeasurement": 110.69
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GREEN EARTH IMPORTERS LTD.",
+      "address": "1234 GREEN EARTH WAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "INFO@GREENEARTHIMPORTERS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN EARTH IMPORTERS LTD.",
+      "address": "1234 GREEN EARTH WAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001"
+    },
+    "onboardDate": "2024-12-12 21:00",
+    "additionalRemarks": "THIS SIDE UP"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410221118",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FARMS CO LTD",
+      "address": "NO. 1234, ORCHARD ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-1235"
+    },
+    "consignee": {
+      "name": "GLOBAL FOODS IMPORTERS LTD",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@GLOBALFOODSIMPORTERS.DE",
+      "contactPerson": "PETER SCHMITZ"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FOODS IMPORTERS LTD"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "070110",
+  "commodityDescription": "FRESH TARO ROOT",
+  "containers": [
+    {
+      "containerNumber": "CONT4342357",
+      "sealNumber": "SEAL295875",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 8984.32,
+      "measurement": 20.02
+    },
+    {
+      "containerNumber": "CONT6388012",
+      "sealNumber": "SEAL816371",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 8788.82,
+      "measurement": 26.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 145,
+    "totalGrossWeight": 17773.14,
+    "totalMeasurement": 46.82
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241022-1001",
+    "documentNumber": "20241022-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241022ABC"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FOODS IMPORTERS LTD",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FOODS IMPORTERS LTD",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "onboardDate": "2024-11-07 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -8\u00b0C, VALUE: USD518,595, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3842451",
+    "temperature": "-8\u00b0C",
+    "minTemperature": "-10\u00b0C",
+    "maxTemperature": "-6\u00b0C",
+    "ventilation": "8%",
+    "humidity": "65%"
+  }
+}

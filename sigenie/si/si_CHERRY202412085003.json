@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202412085003",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS LTD.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "854140",
+  "commodityDescription": "ELECTRIC MOTORS AND GENERATORS",
+  "containers": [
+    {
+      "containerNumber": "CONT3799510",
+      "sealNumber": "SEAL723757",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 6428.64,
+      "measurement": 39.55
+    },
+    {
+      "containerNumber": "CONT2246124",
+      "sealNumber": "SEAL539427",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 6352.88,
+      "measurement": 37.58
+    },
+    {
+      "containerNumber": "CONT7543818",
+      "sealNumber": "SEAL828821",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 11997.33,
+      "measurement": 36.18
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 87,
+    "totalGrossWeight": 24778.85,
+    "totalMeasurement": 113.31
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-12-16 21:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  }
+}

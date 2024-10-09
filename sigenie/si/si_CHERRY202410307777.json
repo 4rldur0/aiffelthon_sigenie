@@ -1,0 +1,118 @@
+{
+  "bookingReference": "CHERRY202410307777",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUIT FRESH PRODUCE INC",
+      "address": "NO. 1234, ZHONGLU ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(ZHONGLU BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@FRUITFRESHPRODUCE.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT CO LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GLOBALIMPORTEXPORT.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080550",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT2104417",
+      "sealNumber": "SEAL660020",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 17960.66,
+      "measurement": 38.88
+    },
+    {
+      "containerNumber": "CONT6070900",
+      "sealNumber": "SEAL771344",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 15830.81,
+      "measurement": 39.27
+    },
+    {
+      "containerNumber": "CONT5004551",
+      "sealNumber": "SEAL660180",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 11947.01,
+      "measurement": 36.24
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 81,
+    "totalGrossWeight": 45738.48,
+    "totalMeasurement": 114.39
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT EXPORT CO LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "ORDERS@GLOBALIMPORTEXPORT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT CO LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "ORDERS@GLOBALIMPORTEXPORT.NL"
+    },
+    "onboardDate": "2024-11-07 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 5\u00b0C, VALUE: USD232,882",
+    "reeferSettings": {
+      "setTemperature": "5",
+      "temperatureUnit": "\u00b0C"
+    }
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4314784",
+    "temperature": "5\u00b0C",
+    "minTemperature": "3\u00b0C",
+    "maxTemperature": "7\u00b0C",
+    "ventilation": "73%",
+    "humidity": "82%"
+  }
+}

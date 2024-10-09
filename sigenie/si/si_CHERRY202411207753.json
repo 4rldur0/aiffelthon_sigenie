@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202411207753",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA FOODS CO. LTD",
+      "onBehalfOf": "",
+      "address": "1234 YONGJI ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "INFO@DELTAFOODS.CN"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "1234 RUE DE LA MER, CASABLANCA, MOROCCO, 20000",
+      "companyNumber": "123456789",
+      "telephone": "+212 522 555 555",
+      "fax": "+212 522 555 556",
+      "email": "INFO@OMEGASHIPPING.COM"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "1234 RUE DE LA MER, CASABLANCA, MOROCCO, 20000"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030211",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT2708483",
+      "sealNumber": "SEAL708556",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 9073.49,
+      "measurement": 27.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE REEFER",
+    "totalPackages": 84,
+    "totalGrossWeight": 9073.49,
+    "totalMeasurement": 27.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "1234 RUE DE LA MER, CASABLANCA, MOROCCO, 20000",
+      "telephone": "+212 522 555 555",
+      "fax": "+212 522 555 556",
+      "email": "INFO@OMEGASHIPPING.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA FOODS CO. LTD",
+      "address": "1234 YONGJI ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "INFO@DELTAFOODS.CN"
+    },
+    "onboardDate": "2024-12-06 19:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 15\u00b0C, MAINTAIN HUMIDITY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3417602",
+    "temperature": "15\u00b0C",
+    "minTemperature": "13\u00b0C",
+    "maxTemperature": "17\u00b0C",
+    "ventilation": "54%",
+    "humidity": "90%"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410307470",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA FRESH PRODUCE CO.",
+      "onBehalfOf": "",
+      "address": "1234 ORCHARD ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAFRESHPRODUCE.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTERS LTD.",
+      "address": "1234 GLOBAL STREET, PORT KLANG, MALAYSIA 41000",
+      "companyNumber": "123456789",
+      "telephone": "+60 3 1234 5678",
+      "fax": "+60 3 1234 5679",
+      "email": "JANSSEN.EMMA@GLOBALIMPORTERS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTERS LTD.",
+      "address": "1234 GLOBAL STREET, PORT KLANG, MALAYSIA 41000"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "080510",
+  "commodityDescription": "FRESH ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT4280005",
+      "sealNumber": "SEAL855126",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 5089.35,
+      "measurement": 22.81
+    },
+    {
+      "containerNumber": "CONT7076044",
+      "sealNumber": "SEAL699731",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 7939.93,
+      "measurement": 23.07
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 163,
+    "totalGrossWeight": 13029.28,
+    "totalMeasurement": 45.88
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241030001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA FRESH PRODUCE CO.",
+      "address": "1234 ORCHARD ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -7\u00b0C, VALUE: USD215,349, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1773949",
+    "temperature": "-7\u00b0C",
+    "minTemperature": "-9\u00b0C",
+    "maxTemperature": "-5\u00b0C",
+    "ventilation": "42%",
+    "humidity": "74%"
+  }
+}

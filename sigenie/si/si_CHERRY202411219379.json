@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202411219379",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. INC.",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@BETATRADING.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORTS LTD.",
+      "address": "4567 ALGEICIRAS ROAD, ALGECIRAS, SPAIN",
+      "companyNumber": "123456789",
+      "telephone": "+34 956 498 7000",
+      "fax": "+34 956 498 7001",
+      "email": "JANSSEN.EMMA@ALPHAIMPORTS.ES"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL IMPORTS LTD.",
+      "address": "4567 ALGEICIRAS ROAD, ALGECIRAS, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871680",
+  "commodityDescription": "OUT OF GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT2825836",
+      "sealNumber": "SEAL592036",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 19460.29,
+      "measurement": 33.58
+    },
+    {
+      "containerNumber": "CONT6357789",
+      "sealNumber": "SEAL215760",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 11219.16,
+      "measurement": 23.04
+    },
+    {
+      "containerNumber": "CONT9310337",
+      "sealNumber": "SEAL242865",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 7790.5,
+      "measurement": 23.65
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD FLAT RACK",
+    "totalPackages": 162,
+    "totalGrossWeight": 38469.95,
+    "totalMeasurement": 80.27
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL IMPORTS LTD.",
+      "address": "4567 ALGEICIRAS ROAD, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 498 7000",
+      "fax": "+34 956 498 7001"
+    },
+    "onboardDate": "2024-12-07 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 4574x2983x2055, MAINTAIN HUMIDITY"
+  },
+  "outOfGaugeDimensions": {
+    "length": "4574",
+    "width": "2983",
+    "height": "2055",
+    "overWidth": "543",
+    "overHeight": "0"
+  }
+}

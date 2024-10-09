@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411102178",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "1234 MAIN STREET, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "CONTACT PERSON: JOHN SMITH",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "JOHN.SMITH@ALPHAIMPORTEXPORT.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "5678 BOULEVARD STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALTRADINGCO.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "5678 BOULEVARD STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALTRADINGCO.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871630",
+  "commodityDescription": "SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CONT2176808",
+      "sealNumber": "SEAL806586",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 8088.98,
+      "measurement": 33.43
+    },
+    {
+      "containerNumber": "CONT9257792",
+      "sealNumber": "SEAL780016",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 17757.41,
+      "measurement": 23.34
+    },
+    {
+      "containerNumber": "CONT1821165",
+      "sealNumber": "SEAL350536",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 9374.0,
+      "measurement": 35.76
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD FLAT RACK",
+    "totalPackages": 200,
+    "totalGrossWeight": 35220.39,
+    "totalMeasurement": 92.53
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "5678 BOULEVARD STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALTRADINGCO.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "5678 BOULEVARD STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALTRADINGCO.NL"
+    },
+    "onboardDate": "2024-11-14 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 6646x2023x2132, 21 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6646",
+    "width": "2023",
+    "height": "2132",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

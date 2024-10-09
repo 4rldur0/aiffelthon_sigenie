@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202411185993",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "address": "1234 CHEMICAL STREET, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "SALES@ASIAPACIFICCHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "4567 FREIGHT WAY, GDANSK, POLAND 80-200",
+      "country": "POLAND",
+      "telephone": "+48 58 301 2345",
+      "fax": "+48 58 301 2346",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.PL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS CO.",
+      "address": "8901 LOGISTICS STREET, GDANSK, POLAND 81-200",
+      "country": "POLAND",
+      "telephone": "+48 58 789 0123",
+      "fax": "+48 58 789 0124",
+      "email": "CONTACT@WORLDWIDELOGISTICS.PL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "281122",
+  "commodityDescription": "HYDROCHLORIC ACID",
+  "containers": [
+    {
+      "containerNumber": "CONT8208078",
+      "sealNumber": "SEAL500623",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 17133.49,
+      "measurement": 24.44
+    },
+    {
+      "containerNumber": "CONT9420572",
+      "sealNumber": "SEAL884743",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 15033.83,
+      "measurement": 37.91
+    },
+    {
+      "containerNumber": "CONT4136970",
+      "sealNumber": "SEAL799150",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 11754.56,
+      "measurement": 37.72
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 107,
+    "totalGrossWeight": 43921.88,
+    "totalMeasurement": 100.07
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241118001"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "DANGEROUS GOODS CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "4567 FREIGHT WAY, GDANSK, POLAND 80-200",
+      "telephone": "+48 58 301 2345",
+      "fax": "+48 58 301 2346",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "4567 FREIGHT WAY, GDANSK, POLAND 80-200",
+      "telephone": "+48 58 301 2345",
+      "fax": "+48 58 301 2346",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.PL"
+    },
+    "onboardDate": "2024-12-04 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1441, 21 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2074148",
+    "unClass": "7",
+    "unCode": "1441,",
+    "hsCode": "8891.40.93",
+    "flashPoint": "24\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

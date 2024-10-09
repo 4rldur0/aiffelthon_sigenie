@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410289281",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "OMEGA INTERNATIONAL SHIPPING LLC",
+      "address": "150 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 223 4567",
+      "fax": "+212 5 223 4568"
+    },
+    "notifyParty": {
+      "name": "OMEGA INTERNATIONAL SHIPPING LLC",
+      "address": "150 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 223 4567",
+      "fax": "+212 5 223 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "270111",
+  "commodityDescription": "REFINED PETROLEUM PRODUCTS",
+  "containers": [
+    {
+      "containerNumber": "CONT9793456",
+      "sealNumber": "SEAL928890",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 13003.31,
+      "measurement": 28.41
+    },
+    {
+      "containerNumber": "CONT6847059",
+      "sealNumber": "SEAL476238",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 9680.7,
+      "measurement": 26.43
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 129,
+    "totalGrossWeight": 22684.01,
+    "totalMeasurement": 54.84
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410289281"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF DANGEROUS GOODS"
+    ],
+    "originalBLDistribution": {
+      "name": "OMEGA INTERNATIONAL SHIPPING LLC",
+      "address": "150 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 223 4567",
+      "fax": "+212 5 223 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA INTERNATIONAL SHIPPING LLC",
+      "address": "150 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 223 4567",
+      "fax": "+212 5 223 4568"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1678, VALUE: USD342,597, THIS SIDE UP"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5249719",
+    "unClass": "3",
+    "unCode": "1678,",
+    "hsCode": "1257.97.92",
+    "flashPoint": "3\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

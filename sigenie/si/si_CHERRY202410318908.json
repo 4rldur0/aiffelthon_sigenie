@@ -1,0 +1,84 @@
+{
+  "bookingReference": "CHERRY202410318908",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC MANUFACTURING PTE LTD",
+      "onBehalfOf": "",
+      "address": "1234 INDUSTRIAL DRIVE, SINGAPORE 628385",
+      "telephone": "+65 6789 1234",
+      "fax": "+65 6789 5678",
+      "email": "SALES@ABCMANUFACTURING.COM.SG"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GERMANY GMBH",
+      "address": "SCHILDERSTRASSE 42, 20099 HAMBURG, GERMANY",
+      "companyNumber": "HRB 134567",
+      "telephone": "+49 40 3747 1000",
+      "fax": "+49 40 3747 1001",
+      "email": "INFO@DHL.DE"
+    },
+    "notifyParty": {
+      "name": "ABC MANUFACTURING PTE LTD",
+      "address": "1234 INDUSTRIAL DRIVE, SINGAPORE 628385"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940340",
+  "commodityDescription": "FURNITURE AND PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT3771026",
+      "sealNumber": "SEAL501510",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 10664.63,
+      "measurement": 38.42
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 21,
+    "totalGrossWeight": 10664.63,
+    "totalMeasurement": 38.42
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "DHL123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "1234 Anson Road, Singapore 069137",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678",
+      "email": "INFO@DHL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC MANUFACTURING PTE LTD",
+      "address": "1234 INDUSTRIAL DRIVE, SINGAPORE 628385",
+      "telephone": "+65 6789 1234",
+      "fax": "+65 6789 5678"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

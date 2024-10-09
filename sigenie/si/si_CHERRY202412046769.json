@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202412046769",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TIANJIN, CHINA",
+    "portOfLoading": "TIANJIN, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TIANJIN GLOBAL FOOD CO., LTD.",
+      "address": "1234 MAIN STREET, TIANJIN, CHINA 300000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 22 12345678",
+      "fax": "+86 22 98765432",
+      "email": "INFO@TIANJINGLOBALFOOD.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "123 BROADWAY, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313",
+      "email": "INFO@SUNRISEIMPORT.COM"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "123 BROADWAY, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313",
+      "email": "INFO@SUNRISEIMPORT.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030211",
+  "commodityDescription": "MEAT OF BOVINE ANIMALS, FRESH OR CHILLED, CUTS FROM THE CARCASS",
+  "containers": [
+    {
+      "containerNumber": "CONT6011532",
+      "sealNumber": "SEAL534677",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 7911.79,
+      "measurement": 29.66
+    },
+    {
+      "containerNumber": "CONT1557615",
+      "sealNumber": "SEAL158007",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 15665.73,
+      "measurement": 33.77
+    },
+    {
+      "containerNumber": "CONT8056096",
+      "sealNumber": "SEAL417835",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 19193.09,
+      "measurement": 20.97
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD REEFER",
+    "totalPackages": 245,
+    "totalGrossWeight": 42770.61,
+    "totalMeasurement": 84.4
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "123 BROADWAY, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313",
+      "email": "INFO@SUNRISEIMPORT.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "123 BROADWAY, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313",
+      "email": "INFO@SUNRISEIMPORT.COM"
+    },
+    "onboardDate": "2024-12-12 21:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -6\u00b0C, VALUE: USD357,519, KEEP DRY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3118714",
+    "temperature": "-6\u00b0C",
+    "minTemperature": "-8\u00b0C",
+    "maxTemperature": "-4\u00b0C",
+    "ventilation": "78%",
+    "humidity": "84%"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202411153235",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CORP.",
+      "onBehalfOf": "",
+      "address": "1234 INDUSTRY STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@BETAMFG.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "5678 COMMERCIAL AVE, MADRID, SPAIN 28001",
+      "companyNumber": "123456789",
+      "telephone": "+34 91 498 7000",
+      "fax": "+34 91 498 7001",
+      "email": "JANSSEN.EMMA@ALPHAIMPORT.ES"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": ""
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "620342",
+  "commodityDescription": "WOMEN'S OR GIRLS' TROUSERS, BIB AND BRACE OVERALLS, BREECHES, SHORTS",
+  "containers": [
+    {
+      "containerNumber": "CONT5059054",
+      "sealNumber": "SEAL765399",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 14930.45,
+      "measurement": 34.39
+    },
+    {
+      "containerNumber": "CONT7074764",
+      "sealNumber": "SEAL293250",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 8672.06,
+      "measurement": 35.75
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE TANK",
+    "totalPackages": 48,
+    "totalGrossWeight": 23602.51,
+    "totalMeasurement": 70.14
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "5678 COMMERCIAL AVE, MADRID, SPAIN 28001",
+      "telephone": "+34 91 498 7000",
+      "fax": "+34 91 498 7001"
+    },
+    "onboardDate": "2024-11-24 09:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

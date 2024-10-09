@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410235857",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING CO.",
+      "address": "123 INDUSTRIAL AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@OMEGAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING & LOGISTICS LTD.",
+      "address": "145 HARBOR STREET, 3011 AB ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@DELTASHIPPING.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "country": "CHINA",
+      "email": "ZENLEE@BLUESKYTRADING.CN",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CONT9800790",
+      "sealNumber": "SEAL510154",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 18477.56,
+      "measurement": 28.18
+    },
+    {
+      "containerNumber": "CONT4324875",
+      "sealNumber": "SEAL953698",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 7517.42,
+      "measurement": 38.34
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD OPEN TOP",
+    "totalPackages": 102,
+    "totalGrossWeight": 25994.98,
+    "totalMeasurement": 66.52
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING & LOGISTICS LTD.",
+      "address": "145 HARBOR STREET, 3011 AB ROTTERDAM, THE NETHERLANDS",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001",
+      "email": "ORDERS@DELTASHIPPING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING & LOGISTICS LTD.",
+      "address": "145 HARBOR STREET, 3011 AB ROTTERDAM, THE NETHERLANDS",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001",
+      "email": "ORDERS@DELTASHIPPING.NL"
+    },
+    "onboardDate": "2024-10-31 23:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 3804x2661x2434, VALUE: USD130,010, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3804",
+    "width": "2661",
+    "height": "2434",
+    "overWidth": "221",
+    "overHeight": "0"
+  }
+}

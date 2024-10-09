@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411023569",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA INTERNATIONAL INC.",
+      "address": "123 GLOBAL TRADE CENTER, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JOHN.DOE@BETAINTERNATIONAL.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING LTD",
+      "address": "555 ALHAMBRA STREET, MADRID, 28014, SPAIN",
+      "country": "SPAIN",
+      "email": "ANNA.SMITH@ALPHAGLOBALTRADING.ES",
+      "telephone": "+34 91 567 8901",
+      "fax": "+34 91 567 8902"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "666 GRAN VIA, BARCELONA, 08007, SPAIN",
+      "country": "SPAIN",
+      "email": "PETER.JONES@ALPHA-GLOBAL-LOGISTICS.ES",
+      "telephone": "+34 93 234 5678",
+      "fax": "+34 93 234 5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "330499",
+  "commodityDescription": "BEAUTY OR MAKE-UP PREPARATIONS AND ARTICLES FOR TOILET",
+  "containers": [
+    {
+      "containerNumber": "CONT4805721",
+      "sealNumber": "SEAL734553",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 9854.93,
+      "measurement": 35.48
+    },
+    {
+      "containerNumber": "CONT9472844",
+      "sealNumber": "SEAL823464",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 16238.14,
+      "measurement": 36.17
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 101,
+    "totalGrossWeight": 26093.07,
+    "totalMeasurement": 71.65
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411023569"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING LTD",
+      "address": "555 ALHAMBRA STREET, MADRID, 28014, SPAIN",
+      "telephone": "+34 91 567 8901",
+      "fax": "+34 91 567 8902",
+      "email": "ANNA.SMITH@ALPHAGLOBALTRADING.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING LTD",
+      "address": "555 ALHAMBRA STREET, MADRID, 28014, SPAIN",
+      "telephone": "+34 91 567 8901",
+      "fax": "+34 91 567 8902",
+      "email": "ANNA.SMITH@ALPHAGLOBALTRADING.ES"
+    },
+    "onboardDate": "2024-11-12 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2549, VALUE: USD586,961, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5922279",
+    "unClass": "6",
+    "unCode": "2549,",
+    "hsCode": "7669.55.38",
+    "flashPoint": "45\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

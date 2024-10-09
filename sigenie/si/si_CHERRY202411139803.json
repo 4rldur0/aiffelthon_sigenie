@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411139803",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING CO. LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "DELTA GLOBAL TRADING LLC",
+      "address": "NO. 456, JIANYE ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950691",
+  "commodityDescription": "ARTIFICIAL STONE TILES",
+  "containers": [
+    {
+      "containerNumber": "CONT8800072",
+      "sealNumber": "SEAL362848",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 12045.26,
+      "measurement": 38.34
+    },
+    {
+      "containerNumber": "CONT4312135",
+      "sealNumber": "SEAL551112",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 15708.9,
+      "measurement": 35.92
+    },
+    {
+      "containerNumber": "CONT5467563",
+      "sealNumber": "SEAL714170",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 5174.85,
+      "measurement": 27.46
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE TANK",
+    "totalPackages": 233,
+    "totalGrossWeight": 32929.01,
+    "totalMeasurement": 101.72
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA GLOBAL TRADING LLC",
+      "address": "NO. 456, JIANYE ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA GLOBAL TRADING LLC",
+      "address": "NO. 456, JIANYE ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "onboardDate": "2024-11-21 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

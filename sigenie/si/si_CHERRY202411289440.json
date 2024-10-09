@@ -1,0 +1,145 @@
+{
+  "bookingReference": "CHERRY202411289440",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GOLDEN DRAGON MANUFACTURING CO. LTD.",
+      "address": "123 DRAGON STREET, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@GOLDENDRAGONMFG.CN"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "123 SUNRISE AVENUE, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@SUNRISEIMPORTS.NL",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT8872764",
+      "sealNumber": "SEAL249277",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 12725.78,
+      "measurement": 25.45
+    },
+    {
+      "containerNumber": "CONT6138783",
+      "sealNumber": "SEAL211227",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 10518.37,
+      "measurement": 31.64
+    },
+    {
+      "containerNumber": "CONT7619594",
+      "sealNumber": "SEAL901990",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 8039.08,
+      "measurement": 38.41
+    },
+    {
+      "containerNumber": "CONT6289794",
+      "sealNumber": "SEAL826869",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 5472.79,
+      "measurement": 25.86
+    },
+    {
+      "containerNumber": "CONT8386081",
+      "sealNumber": "SEAL664189",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 18143.18,
+      "measurement": 22.02
+    },
+    {
+      "containerNumber": "CONT4659105",
+      "sealNumber": "SEAL768970",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 8540.28,
+      "measurement": 30.54
+    },
+    {
+      "containerNumber": "CONT9766990",
+      "sealNumber": "SEAL526234",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 11142.9,
+      "measurement": 28.48
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 HIGH CUBE TANK",
+    "totalPackages": 367,
+    "totalGrossWeight": 74582.38,
+    "totalMeasurement": 202.4
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "onboardDate": "2024-12-12 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2276, 30 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4664415",
+    "unClass": "9",
+    "unCode": "2276,",
+    "hsCode": "7754.14.10",
+    "flashPoint": "13\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

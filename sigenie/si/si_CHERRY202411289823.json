@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411289823",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREEN TECH INDUSTRIES INC",
+      "onBehalfOf": "",
+      "address": "123 GREEN TECH STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@GREENTECHINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "124 ASIA PACIFIC ROAD, HAMBURG, GERMANY",
+      "companyNumber": "123456789",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "124 ASIA PACIFIC ROAD, HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030310",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT8932882",
+      "sealNumber": "SEAL870920",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 8298.46,
+      "measurement": 39.35
+    },
+    {
+      "containerNumber": "CONT4962612",
+      "sealNumber": "SEAL601968",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 18185.58,
+      "measurement": 30.35
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE REEFER",
+    "totalPackages": 108,
+    "totalGrossWeight": 26484.04,
+    "totalMeasurement": 69.7
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "124 ASIA PACIFIC ROAD, HAMBURG, GERMANY"
+    },
+    "onboardDate": "2024-12-07 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 14\u00b0C, VALUE: USD467,133, ON DECK TOP STOWAGE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4314041",
+    "temperature": "14\u00b0C",
+    "minTemperature": "12\u00b0C",
+    "maxTemperature": "16\u00b0C",
+    "ventilation": "80%",
+    "humidity": "91%"
+  }
+}

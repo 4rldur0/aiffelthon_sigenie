@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411238412",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TOYOTA AUTOMOTIVE EUROPE",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "consignee": {
+      "name": "MAERSK LOGISTICS",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346",
+      "email": "INFO@MAERSK.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "TOYOTA AUTOMOTIVE EUROPE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "870323",
+  "commodityDescription": "MOTOR VEHICLES FOR THE TRANSPORT OF GOODS",
+  "containers": [
+    {
+      "containerNumber": "CONT5247954",
+      "sealNumber": "SEAL171350",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 14509.1,
+      "measurement": 38.77
+    },
+    {
+      "containerNumber": "CONT3248589",
+      "sealNumber": "SEAL789542",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 5561.45,
+      "measurement": 38.79
+    },
+    {
+      "containerNumber": "CONT7445645",
+      "sealNumber": "SEAL206938",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 6865.08,
+      "measurement": 23.22
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 130,
+    "totalGrossWeight": 26935.63,
+    "totalMeasurement": 100.78
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "MAERSK LOGISTICS",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TOYOTA AUTOMOTIVE EUROPE",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

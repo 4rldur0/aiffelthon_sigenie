@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411152048",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI MEGATEX CO., LTD.",
+      "onBehalfOf": "",
+      "address": "1234 MEGATEX ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@MEGATEX.COM.CN"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN IMPORT & EXPORT CO.",
+      "address": "4567 GOLDEN SUN LANE, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GOLDENSUNIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN IMPORT & EXPORT CO.",
+      "address": "4567 GOLDEN SUN LANE, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CONT9052300",
+      "sealNumber": "SEAL546589",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 7780.56,
+      "measurement": 37.08
+    },
+    {
+      "containerNumber": "CONT5173484",
+      "sealNumber": "SEAL441958",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 12016.56,
+      "measurement": 25.03
+    },
+    {
+      "containerNumber": "CONT5866703",
+      "sealNumber": "SEAL483630",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 10022.03,
+      "measurement": 25.99
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD OPEN TOP",
+    "totalPackages": 132,
+    "totalGrossWeight": 29819.15,
+    "totalMeasurement": 88.1
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GOLDEN SUN IMPORT & EXPORT CO.",
+      "address": "4567 GOLDEN SUN LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GOLDENSUNIMPORT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI MEGATEX CO., LTD.",
+      "address": "1234 MEGATEX ROAD, SHANGHAI, CHINA"
+    },
+    "onboardDate": "2024-11-29 20:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 10817x2018x2379, VALUE: USD598,728"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10817",
+    "width": "2018",
+    "height": "2379",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

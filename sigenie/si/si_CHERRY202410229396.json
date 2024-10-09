@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202410229396",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA CHEMICALS INC.",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-5678-9012",
+      "fax": "+86-21-5678-9013"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL TRADING LTD.",
+      "address": "123 MAIN STREET, RABAT, MOROCCO",
+      "telephone": "+212-536-1234-5678",
+      "fax": "+212-536-1234-5679",
+      "email": "INFO@OMEGATRADING.COM",
+      "contactPerson": "MOHAMED ALI"
+    },
+    "notifyParty": {
+      "name": "OMEGA GLOBAL TRADING LTD.",
+      "address": "123 MAIN STREET, RABAT, MOROCCO"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "282735",
+  "commodityDescription": "ZINC SULPHIDE",
+  "containers": [
+    {
+      "containerNumber": "CONT5675879",
+      "sealNumber": "SEAL943068",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 7637.93,
+      "measurement": 39.77
+    },
+    {
+      "containerNumber": "CONT6881714",
+      "sealNumber": "SEAL136399",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 19475.33,
+      "measurement": 31.87
+    },
+    {
+      "containerNumber": "CONT9806360",
+      "sealNumber": "SEAL194848",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 19934.39,
+      "measurement": 36.49
+    },
+    {
+      "containerNumber": "CONT6313055",
+      "sealNumber": "SEAL830822",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 19471.74,
+      "measurement": 31.12
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD TANK",
+    "totalPackages": 298,
+    "totalGrossWeight": 66519.39,
+    "totalMeasurement": 139.25
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241022-1001",
+    "documentNumber": "20241022-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL TRADING LTD.",
+      "address": "123 MAIN STREET, RABAT, MOROCCO"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL TRADING LTD.",
+      "address": "123 MAIN STREET, RABAT, MOROCCO"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2803, VALUE: USD645,453, 7 DAYS FREE TIME AT DESTINATION, KEEP DRY",
+    "dangerousGoods": {
+      "unNumber": "2803",
+      "properShippingName": "ZINC SULPHIDE",
+      "class": "9",
+      "packingGroup": "III"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6945803",
+    "unClass": "4",
+    "unCode": "2803,",
+    "hsCode": "5309.68.30",
+    "flashPoint": "31\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

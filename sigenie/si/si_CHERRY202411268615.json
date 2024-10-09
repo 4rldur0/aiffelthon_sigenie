@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411268615",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG, GERMANY",
+    "portOfLoading": "HAMBURG, GERMANY",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, FRANKFURT, GERMANY 60329",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "1234 KLANG STREET, PORT KLANG, MALAYSIA 42000",
+      "telephone": "+60-3-33334444",
+      "fax": "+60-3-33334445"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "12345 VICTORY ROAD, SINGAPORE 123456",
+      "telephone": "+65-66667777",
+      "fax": "+65-66667778"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950691",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT8579247",
+      "sealNumber": "SEAL605844",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 8950.87,
+      "measurement": 24.82
+    },
+    {
+      "containerNumber": "CONT5441083",
+      "sealNumber": "SEAL704688",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 14123.1,
+      "measurement": 33.04
+    },
+    {
+      "containerNumber": "CONT9293171",
+      "sealNumber": "SEAL489439",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 14130.75,
+      "measurement": 39.67
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 167,
+    "totalGrossWeight": 37204.72,
+    "totalMeasurement": 97.53
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "HANDLE WITH CARE"
+  }
+}

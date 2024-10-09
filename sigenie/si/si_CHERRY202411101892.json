@@ -1,0 +1,83 @@
+{
+  "bookingReference": "CHERRY202411101892",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CORP.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT LTD.",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": "",
+      "telephone": "",
+      "fax": ""
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "870899",
+  "commodityDescription": "CAR HEADLIGHTS",
+  "containers": [
+    {
+      "containerNumber": "CONT1223084",
+      "sealNumber": "SEAL944017",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 9580.02,
+      "measurement": 29.85
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD TANK",
+    "totalPackages": 78,
+    "totalGrossWeight": 9580.02,
+    "totalMeasurement": 29.85
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRANSPORTATION LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD.",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "onboardDate": "2024-11-17 09:00",
+    "additionalRemarks": "KEEP DRY"
+  }
+}

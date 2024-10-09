@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411304541",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CORP.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "456 AVENIDA DEL SOL, MADRID, SPAIN",
+      "telephone": "+34-91-567-8901",
+      "fax": "+34-91-567-8902",
+      "email": "INFO@ALPHAIMPORT.ES",
+      "contactPerson": "JUAN GARCIA"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT5423102",
+      "sealNumber": "SEAL961446",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 18165.72,
+      "measurement": 31.44
+    },
+    {
+      "containerNumber": "CONT8698789",
+      "sealNumber": "SEAL285421",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 8165.78,
+      "measurement": 22.53
+    },
+    {
+      "containerNumber": "CONT6619199",
+      "sealNumber": "SEAL505488",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 13667.67,
+      "measurement": 26.63
+    },
+    {
+      "containerNumber": "CONT2499229",
+      "sealNumber": "SEAL937489",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 17139.45,
+      "measurement": 30.96
+    },
+    {
+      "containerNumber": "CONT5475716",
+      "sealNumber": "SEAL755545",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 14588.11,
+      "measurement": 30.84
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE TANK",
+    "totalPackages": 301,
+    "totalGrossWeight": 71726.73,
+    "totalMeasurement": 142.4
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241215-1001",
+    "documentNumber": "20241215-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "456 AVENIDA DEL SOL, MADRID, SPAIN",
+      "telephone": "+34-91-567-8901",
+      "fax": "+34-91-567-8902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "456 AVENIDA DEL SOL, MADRID, SPAIN",
+      "telephone": "+34-91-567-8901",
+      "fax": "+34-91-567-8902"
+    },
+    "onboardDate": "2024-12-17 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

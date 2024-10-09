@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410248046",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA PRECISION MACHINERY CO LTD",
+      "onBehalfOf": "",
+      "address": "1234 PRECISION RD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@BETAPRECISION.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "888 DONGFANG ROAD, PARIS, FRANCE",
+      "companyNumber": "123456789",
+      "telephone": "+33 1 498 7000",
+      "fax": "+33 1 498 7001",
+      "email": "JANSSEN.EMMA@ALPHA GLOBAL.FR"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "888 DONGFANG ROAD, PARIS, FRANCE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847990",
+  "commodityDescription": "MACHINERY FOR CLEANING, FILLING, CLOSING, SEALING OR LABELLING",
+  "containers": [
+    {
+      "containerNumber": "CONT7921525",
+      "sealNumber": "SEAL505836",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 15797.56,
+      "measurement": 29.66
+    },
+    {
+      "containerNumber": "CONT2197324",
+      "sealNumber": "SEAL648386",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 13549.57,
+      "measurement": 30.93
+    },
+    {
+      "containerNumber": "CONT4128742",
+      "sealNumber": "SEAL702761",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 5864.38,
+      "measurement": 33.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 179,
+    "totalGrossWeight": 35211.51,
+    "totalMeasurement": 94.21
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "888 DONGFANG ROAD, PARIS, FRANCE",
+      "telephone": "+33 1 498 7000",
+      "fax": "+33 1 498 7001",
+      "email": "JANSSEN.EMMA@ALPHA GLOBAL.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA PRECISION MACHINERY CO LTD",
+      "address": "1234 PRECISION RD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

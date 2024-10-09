@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202411064904",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@ASIAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT INC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 7777 73 25",
+      "fax": "+31 10 7777 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "1234 EUROPA BOULEVARD, ROTTERDAM, NETHERLANDS, 3012AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 7777 73 39",
+      "fax": "+31 10 7777 73 44",
+      "email": "ANNA.NOWAK@WORLDWIDE-LOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT9669041",
+      "sealNumber": "SEAL909190",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 9507.56,
+      "measurement": 20.94
+    },
+    {
+      "containerNumber": "CONT2122593",
+      "sealNumber": "SEAL423039",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 8739.17,
+      "measurement": 30.48
+    },
+    {
+      "containerNumber": "CONT9970852",
+      "sealNumber": "SEAL887542",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 14971.5,
+      "measurement": 30.11
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 99,
+    "totalGrossWeight": 33218.23,
+    "totalMeasurement": 81.53
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 7777 73 25",
+      "fax": "+31 10 7777 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALIMPORT.NL"
+    },
+    "onboardDate": "2024-11-17 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

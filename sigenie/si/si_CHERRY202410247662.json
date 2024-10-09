@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410247662",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL MERCHANDISE CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 GLOBAL RD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "INFO@GLOBALMERCHANDISE.CN"
+    },
+    "consignee": {
+      "name": "SEA SKY LOGISTICS LTD.",
+      "address": "555 SEA SKY AVE, ALGECIRAS, SPAIN",
+      "companyNumber": "123456789",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 789012",
+      "email": "INFO@SEASKYLOGISTICS.ES"
+    },
+    "notifyParty": {
+      "name": "SEA SKY LOGISTICS LTD.",
+      "address": "555 SEA SKY AVE, ALGECIRAS, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "621143",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT9398459",
+      "sealNumber": "SEAL615794",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 6443.17,
+      "measurement": 22.92
+    },
+    {
+      "containerNumber": "CONT2379152",
+      "sealNumber": "SEAL367939",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 7714.03,
+      "measurement": 39.0
+    },
+    {
+      "containerNumber": "CONT7428000",
+      "sealNumber": "SEAL951842",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 7641.17,
+      "measurement": 33.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 143,
+    "totalGrossWeight": 21798.37,
+    "totalMeasurement": 95.42
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SEA SKY LOGISTICS LTD.",
+      "address": "555 SEA SKY AVE, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 789012",
+      "email": "INFO@SEASKYLOGISTICS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL MERCHANDISE CO. LTD.",
+      "address": "1234 GLOBAL RD, NINGBO, CHINA"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

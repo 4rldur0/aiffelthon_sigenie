@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411219131",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 HUANGPU ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT BV",
+      "address": "222 ROTTERDAMSEWEG, ROTTERDAM, NETHERLANDS 3011 NL",
+      "taxId": "NL855432167B01",
+      "president": "MR. JAN VAN DER SMIT",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8887",
+      "email": "INFO@GLOBALIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "150 LONDON WALL, LONDON, UNITED KINGDOM EC2Y 5HF",
+      "taxId": "GB123456789",
+      "president": "MS. ANNA SMITH",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 8887"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940170",
+  "commodityDescription": "SEATS OF FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT9911088",
+      "sealNumber": "SEAL251409",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 9260.96,
+      "measurement": 34.0
+    },
+    {
+      "containerNumber": "CONT2101826",
+      "sealNumber": "SEAL766080",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 12611.05,
+      "measurement": 36.55
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 77,
+    "totalGrossWeight": 21872.01,
+    "totalMeasurement": 70.55
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-06 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

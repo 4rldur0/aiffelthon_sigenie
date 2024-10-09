@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411032580",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86-574-1234-5678",
+      "fax": "+86-574-1234-5679"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY STREET, HAMBURG, GERMANY",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT8199776",
+      "sealNumber": "SEAL657771",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 5933.49,
+      "measurement": 34.22
+    },
+    {
+      "containerNumber": "CONT2227071",
+      "sealNumber": "SEAL151973",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 7386.15,
+      "measurement": 35.82
+    },
+    {
+      "containerNumber": "CONT6459625",
+      "sealNumber": "SEAL416807",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 14923.79,
+      "measurement": 23.94
+    },
+    {
+      "containerNumber": "CONT3461509",
+      "sealNumber": "SEAL124875",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 7410.08,
+      "measurement": 21.52
+    },
+    {
+      "containerNumber": "CONT8050159",
+      "sealNumber": "SEAL242014",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 9982.6,
+      "measurement": 38.54
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD GENERAL",
+    "totalPackages": 266,
+    "totalGrossWeight": 45636.11,
+    "totalMeasurement": 154.04
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202411032580-1",
+    "documentNumber": "202411032580-1",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY STREET, HAMBURG, GERMANY",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY STREET, HAMBURG, GERMANY",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "onboardDate": "2024-11-11 19:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410172910",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FOODS CO. LTD.",
+      "address": "123 HUAJUN ROAD, YONGJIANG DISTRICT, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8668 5555",
+      "fax": "+86 574 8668 5556",
+      "email": "INFO@SUNRISEFOODS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 ROTTERDAM STREET, 3000 ROTTERDAM, NETHERLANDS",
+      "taxId": "NL856723456",
+      "president": "MR. JAN VAN DER HOEK",
+      "telephone": "+31 10 202 5555",
+      "fax": "+31 10 202 5556",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 ROTTERDAM STREET, 3000 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 5555",
+      "fax": "+31 10 202 5556",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT5078034",
+      "sealNumber": "SEAL193391",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 10676.52,
+      "measurement": 35.27
+    },
+    {
+      "containerNumber": "CONT8139329",
+      "sealNumber": "SEAL193943",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 18349.47,
+      "measurement": 25.12
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE REEFER",
+    "totalPackages": 67,
+    "totalGrossWeight": 29025.99,
+    "totalMeasurement": 60.39
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 ROTTERDAM STREET, 3000 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 5555",
+      "fax": "+31 10 202 5556",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 ROTTERDAM STREET, 3000 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 5555",
+      "fax": "+31 10 202 5556",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-10-21 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -11\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7888296",
+    "temperature": "-11\u00b0C",
+    "minTemperature": "-13\u00b0C",
+    "maxTemperature": "-9\u00b0C",
+    "ventilation": "90%",
+    "humidity": "92%"
+  }
+}

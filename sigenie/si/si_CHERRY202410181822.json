@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410181822",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA CHEMICALS CO. INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1213",
+      "email": "INFO@BETACHEMICALS.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORTS LTD",
+      "address": "456 PORT STREET, ALGECIRAS, SPAIN",
+      "taxId": "ES1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "JOHN.SMITH@ALPHAIMPORTS.COM"
+    },
+    "notifyParty": {
+      "name": "IBERIANGLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "280610",
+  "commodityDescription": "SODIUM HYDROXIDE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT7722016",
+      "sealNumber": "SEAL480040",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 6649.39,
+      "measurement": 26.26
+    },
+    {
+      "containerNumber": "CONT5415362",
+      "sealNumber": "SEAL526846",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 19527.84,
+      "measurement": 22.38
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 95,
+    "totalGrossWeight": 26177.23,
+    "totalMeasurement": 48.64
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-10-27 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2806, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2381531",
+    "unClass": "4",
+    "unCode": "2806,",
+    "hsCode": "8780.57.28",
+    "flashPoint": "-19\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

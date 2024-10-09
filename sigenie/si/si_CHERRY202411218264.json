@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411218264",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ PRECISION ENGINEERING CO LTD",
+      "address": "123 HONGQI ROAD, NINGBO, CHINA",
+      "lei": "98765432101234567890",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 1111",
+      "email": "INFO@XYZPRECISION.COM"
+    },
+    "consignee": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "123 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@ABCGLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "123 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "usci": "91321200765109788X",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@ABCGLOBALLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940360",
+  "commodityDescription": "REEFER CONTAINERS",
+  "containers": [
+    {
+      "containerNumber": "CONT4551749",
+      "sealNumber": "SEAL340589",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 12661.57,
+      "measurement": 37.12
+    },
+    {
+      "containerNumber": "CONT5412922",
+      "sealNumber": "SEAL493123",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 9477.68,
+      "measurement": 37.02
+    },
+    {
+      "containerNumber": "CONT3821497",
+      "sealNumber": "SEAL151236",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 6094.77,
+      "measurement": 25.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE REEFER",
+    "totalPackages": 165,
+    "totalGrossWeight": 28234.02,
+    "totalMeasurement": 99.23
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 17\u00b0C, 14 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1333266",
+    "temperature": "17\u00b0C",
+    "minTemperature": "15\u00b0C",
+    "maxTemperature": "19\u00b0C",
+    "ventilation": "2%",
+    "humidity": "89%"
+  }
+}

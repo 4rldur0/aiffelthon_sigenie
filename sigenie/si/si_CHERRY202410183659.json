@@ -1,102 +1,130 @@
 {
   "bookingReference": "CHERRY202410183659",
   "voyageDetails": {
-    "vesselName": "CMA CGM ZHENG HE",
-    "voyageNumber": "2423EAW"
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
   },
   "routeDetails": {
     "placeOfReceipt": "NINGBO, CHINA",
     "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY"
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPayableAt": "NINGBO"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 7
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "123 SUNRISE AVENUE, NINGBO, CHINA"
+      "name": "OMEGA INTERNATIONAL TRADING",
+      "address": "1234 MAIN STREET, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@OMEGAINTERNATIONALTRADING.COM"
     },
     "consignee": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "456 SUNRISE STREET, HAMBURG, GERMANY",
-      "telephone": "+49 40 12345678",
-      "fax": "+49 40 98765432"
+      "name": "DELTA SHIPPING CORP.",
+      "address": "5678 OCEAN AVENUE, CASABLANCA, MOROCCO, 20100",
+      "taxId": "",
+      "president": "MR. MOHAMED ALI",
+      "telephone": "+212 522 1111 2222",
+      "fax": "+212 522 1111 2223",
+      "email": "MOHAMED.ALI@DELTASHIPPINGCORP.COM"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "123 SUNRISE AVENUE, NINGBO, CHINA"
+      "name": "FIRST GLOBAL LOGISTICS MOROCCO",
+      "address": "9012 PORT STREET, TANGER MED, MOROCCO, 90000",
+      "taxId": "",
+      "president": "MS. FATIMA BOUZIDI",
+      "telephone": "+212 539 3333 4444",
+      "fax": "+212 539 3333 4445",
+      "email": "FATIMA.BOUZIDI@FIRSTGLOBALLOGISTICS.COM"
     }
   },
-  "shippingTerm": "CFS/CY",
-  "hsCode": "847160",
-  "commodityDescription": "COMPUTER HARDWARE",
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "630790",
+  "commodityDescription": "CLOTHING, TEXTILE FABRICS",
   "containers": [
     {
-      "containerNumber": "CMAU7896543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "SRTC123",
-      "numberOfPackages": 100,
-      "cargoDescription": "COMPUTER HARDWARE",
-      "grossWeight": 18000.0,
-      "measurement": 33.0
+      "containerNumber": "CONT7474296",
+      "sealNumber": "SEAL709724",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 19659.7,
+      "measurement": 27.58
     },
     {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "SRTC456",
-      "numberOfPackages": 100,
-      "cargoDescription": "COMPUTER HARDWARE",
-      "grossWeight": 18000.0,
-      "measurement": 33.0
+      "containerNumber": "CONT9122525",
+      "sealNumber": "SEAL925413",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 10619.02,
+      "measurement": 25.16
     },
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "246801",
-      "marksAndNumbers": "SRTC789",
-      "numberOfPackages": 100,
-      "cargoDescription": "COMPUTER HARDWARE",
-      "grossWeight": 18000.0,
-      "measurement": 33.0
+      "containerNumber": "CONT1903704",
+      "sealNumber": "SEAL285281",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 12552.85,
+      "measurement": 21.05
+    },
+    {
+      "containerNumber": "CONT2630262",
+      "sealNumber": "SEAL977328",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 7102.83,
+      "measurement": 34.3
+    },
+    {
+      "containerNumber": "CONT5933409",
+      "sealNumber": "SEAL985142",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 8980.02,
+      "measurement": 27.45
+    },
+    {
+      "containerNumber": "CONT9649335",
+      "sealNumber": "SEAL808253",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 12493.24,
+      "measurement": 29.54
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
-    "totalPackages": 300,
-    "packageType": "PACKAGES",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 54000.0,
-    "totalMeasurement": 99.0
+    "totalContainers": "6 x 40 HIGH CUBE TANK",
+    "totalPackages": 438,
+    "totalGrossWeight": 71407.66,
+    "totalMeasurement": 165.08
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [],
+    "certificateDetails": "C0000171594",
     "originalBLDistribution": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "123 SUNRISE AVENUE, NINGBO, CHINA"
+      "name": "FIRST GLOBAL LOGISTICS MOROCCO",
+      "address": "9012 PORT STREET, TANGER MED, MOROCCO, 90000",
+      "telephone": "+212 539 3333 4444",
+      "fax": "+212 539 3333 4445",
+      "email": "FATIMA.BOUZIDI@FIRSTGLOBALLOGISTICS.COM"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "456 SUNRISE STREET, HAMBURG, GERMANY"
+      "name": "DELTA SHIPPING CORP.",
+      "address": "5678 OCEAN AVENUE, CASABLANCA, MOROCCO, 20100",
+      "telephone": "+212 522 1111 2222",
+      "fax": "+212 522 1111 2223",
+      "email": "MOHAMED.ALI@DELTASHIPPINGCORP.COM"
     },
-    "onboardDate": "2024-10-25 12:00",
-    "additionalRemarks": "Temperature Controlled, Value: USD300,000"
-  },
-  "reeferSettings": {
-    "containerNumber": "CRLU9908625",
-    "temperature": "+5.0\u00baC",
-    "minTemperature": "+2.0\u00b0C",
-    "maxTemperature": "+7.0\u00b0C",
-    "ventilation": "Closed",
-    "humidity": "50% ~ 60%"
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
   }
 }

@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410199587",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "1234 ELECTRONICS STREET, NINGBO 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8652 1234",
+      "fax": "+86 574 8652 9876",
+      "email": "SALES@SUNRISEELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "1234 CANAL STREET, AMSTERDAM 1012 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 666 1234",
+      "fax": "+31 20 666 9876",
+      "email": "INFO@APLLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "1234 ELECTRONICS STREET, NINGBO 315000, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8652 1234",
+      "fax": "+86 574 8652 9876",
+      "email": "SALES@SUNRISEELECTRONICS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030310",
+  "commodityDescription": "FROZEN TUNA",
+  "containers": [
+    {
+      "containerNumber": "CONT2476569",
+      "sealNumber": "SEAL995420",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 6605.25,
+      "measurement": 23.12
+    },
+    {
+      "containerNumber": "CONT6955088",
+      "sealNumber": "SEAL159823",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 13575.57,
+      "measurement": 35.35
+    },
+    {
+      "containerNumber": "CONT2462960",
+      "sealNumber": "SEAL195466",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 19009.71,
+      "measurement": 22.49
+    },
+    {
+      "containerNumber": "CONT6677439",
+      "sealNumber": "SEAL644810",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 12262.81,
+      "measurement": 30.53
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD REEFER",
+    "totalPackages": 262,
+    "totalGrossWeight": 51453.34,
+    "totalMeasurement": 111.49
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "1234 CANAL STREET, AMSTERDAM 1012 AB, NETHERLANDS",
+      "telephone": "+31 20 666 1234",
+      "fax": "+31 20 666 9876",
+      "email": "INFO@APLLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "1234 ELECTRONICS STREET, NINGBO 315000, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8652 1234",
+      "fax": "+86 574 8652 9876",
+      "email": "SALES@SUNRISEELECTRONICS.COM"
+    },
+    "onboardDate": "2024-10-26 18:00:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -8\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1502124",
+    "temperature": "-8\u00b0C",
+    "minTemperature": "-10\u00b0C",
+    "maxTemperature": "-6\u00b0C",
+    "ventilation": "48%",
+    "humidity": "85%"
+  }
+}

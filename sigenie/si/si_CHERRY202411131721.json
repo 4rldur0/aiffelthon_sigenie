@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202411131721",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING SOLUTIONS INC.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44-20-7946-0000",
+      "fax": "+44-20-7946-0001",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845630",
+  "commodityDescription": "CNC MILLING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CONT2042958",
+      "sealNumber": "SEAL569711",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 13046.35,
+      "measurement": 31.07
+    },
+    {
+      "containerNumber": "CONT2368113",
+      "sealNumber": "SEAL352236",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 13900.93,
+      "measurement": 29.32
+    },
+    {
+      "containerNumber": "CONT7624514",
+      "sealNumber": "SEAL545710",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 9986.11,
+      "measurement": 21.56
+    },
+    {
+      "containerNumber": "CONT1224844",
+      "sealNumber": "SEAL178293",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 12617.65,
+      "measurement": 34.11
+    },
+    {
+      "containerNumber": "CONT9821742",
+      "sealNumber": "SEAL727563",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 6714.66,
+      "measurement": 35.25
+    },
+    {
+      "containerNumber": "CONT3365701",
+      "sealNumber": "SEAL907490",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 18143.76,
+      "measurement": 38.41
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD PLATFORM",
+    "totalPackages": 294,
+    "totalGrossWeight": 74409.46,
+    "totalMeasurement": 189.72
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241113-1001",
+    "documentNumber": "20241113-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44-20-7946-0000",
+      "fax": "+44-20-7946-0001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44-20-7946-0000",
+      "fax": "+44-20-7946-0001"
+    },
+    "onboardDate": "2024-11-17 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8941x2673x2676, VALUE: USD127,554"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8941",
+    "width": "2673",
+    "height": "2676",
+    "overWidth": "233",
+    "overHeight": "86"
+  }
+}

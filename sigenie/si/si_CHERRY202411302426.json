@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202411302426",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "MADRID, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "1234 GRAN VIA, MADRID 28001, SPAIN",
+      "companyNumber": "B12345678",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "1234 GRAN VIA, MADRID 28001, SPAIN"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950691",
+  "commodityDescription": "TOYS, PLASTIC, ASSORTED",
+  "containers": [
+    {
+      "containerNumber": "CONT4427312",
+      "sealNumber": "SEAL610284",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 10299.23,
+      "measurement": 26.83
+    },
+    {
+      "containerNumber": "CONT1874438",
+      "sealNumber": "SEAL816619",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 7358.02,
+      "measurement": 37.14
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 40,
+    "totalGrossWeight": 17657.25,
+    "totalMeasurement": 63.97
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "1234 GRAN VIA, MADRID 28001, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "onboardDate": "2024-12-16 08:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202412065538",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL IMPORTS CO.",
+      "onBehalfOf": "",
+      "address": "1234 SEA FREIGHT RD, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@SEAFREIGHTSOLUTIONS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS CO.",
+      "address": "1234 GLOBAL IMPORT RD, ALGEICRAS 123456, SPAIN",
+      "companyNumber": "123456789",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 123457",
+      "email": "INFO@GLOBALIMPORTSCO.COM"
+    },
+    "notifyParty": {
+      "name": "SEA FREIGHT SOLUTIONS LTD.",
+      "address": "1234 SEA FREIGHT RD, SINGAPORE 123456"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940360",
+  "commodityDescription": "FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT4557008",
+      "sealNumber": "SEAL862371",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 6593.33,
+      "measurement": 21.5
+    },
+    {
+      "containerNumber": "CONT7022387",
+      "sealNumber": "SEAL545472",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 17354.31,
+      "measurement": 27.33
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 156,
+    "totalGrossWeight": 23947.64,
+    "totalMeasurement": 48.83
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS CO.",
+      "address": "1234 GLOBAL IMPORT RD, ALGEICRAS 123456, SPAIN",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 123457",
+      "email": "INFO@GLOBALIMPORTSCO.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SEA FREIGHT SOLUTIONS LTD.",
+      "address": "1234 SEA FREIGHT RD, SINGAPORE 123456"
+    },
+    "onboardDate": "2024-12-16 08:00",
+    "additionalRemarks": "DO NOT STACK"
+  }
+}

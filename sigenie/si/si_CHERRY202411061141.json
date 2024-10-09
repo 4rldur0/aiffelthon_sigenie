@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411061141",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING CO. LTD.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "848610",
+  "commodityDescription": "GENERAL MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT6831338",
+      "sealNumber": "SEAL265565",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 9526.23,
+      "measurement": 31.43
+    },
+    {
+      "containerNumber": "CONT6576829",
+      "sealNumber": "SEAL653779",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 14491.97,
+      "measurement": 21.43
+    },
+    {
+      "containerNumber": "CONT9683361",
+      "sealNumber": "SEAL991836",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 5541.39,
+      "measurement": 35.48
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 139,
+    "totalGrossWeight": 29559.59,
+    "totalMeasurement": 88.34
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241106-1001",
+    "documentNumber": "20241106-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}
