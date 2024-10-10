@@ -45,7 +45,10 @@ class BLHTML:
     def _generate_container_rows(self):
         """Generates rows for the containers and particulars table."""
         def style_empty_cell(value):
-            return f'<td>{value if value else ""}</td>'
+            if value == '':  # If the value is empty or None
+                return '<td style="background-color: #ffcccc;"></td>'  # Apply red background
+            else:
+                return f'<td>{value}</td>'
 
         for container in self.doc['containers']:
             self.particulars_html += f"""
