@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411135772",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SUNRISE AVENUE, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISETRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "124 GLOBAL STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "NL856712345",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST NINGBO LOGISTICS LTD.",
+      "address": "125 FIRST STREET, NINGBO, CHINA 315000",
+      "taxId": "CN1234567890",
+      "president": "MS. LI HUA",
+      "telephone": "+86 574 9999 8888",
+      "fax": "+86 574 9999 8887"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL MERCHANDISE",
+  "containers": [
+    {
+      "containerNumber": "CONT9849593",
+      "sealNumber": "SEAL734887",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 11334.71,
+      "measurement": 35.96
+    },
+    {
+      "containerNumber": "CONT8741302",
+      "sealNumber": "SEAL563828",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 6820.09,
+      "measurement": 29.44
+    },
+    {
+      "containerNumber": "CONT9823030",
+      "sealNumber": "SEAL712743",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 19130.5,
+      "measurement": 34.65
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 171,
+    "totalGrossWeight": 37285.3,
+    "totalMeasurement": 100.05
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST NINGBO LOGISTICS LTD.",
+      "address": "125 FIRST STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 9999 8888",
+      "fax": "+86 574 9999 8887",
+      "email": "INFO@FIRSTNINGBOLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST NINGBO LOGISTICS LTD.",
+      "address": "125 FIRST STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 9999 8888",
+      "fax": "+86 574 9999 8887",
+      "email": "INFO@FIRSTNINGBOLOGISTICS.COM"
+    },
+    "onboardDate": "2024-11-19 18:00:00",
+    "additionalRemarks": "UNDER DECK TOP STOWAGE"
+  }
+}

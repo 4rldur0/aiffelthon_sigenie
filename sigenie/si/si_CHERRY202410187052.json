@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410187052",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC PRECISION MACHINERY CO. LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, PUTUO DISTRICT, SHANGHAI, 200062",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI TOWER)",
+      "telephone": "+86 21 6385 4321",
+      "email": "SALES@ABCPMACHINERY.COM.CN"
+    },
+    "consignee": {
+      "name": "MAERSK LOGISTICS",
+      "address": "MAERSK HOUSE, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "OPERATIONS@MAERSKLOGISTICS.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "841869",
+  "commodityDescription": "REFRIGERATION UNITS",
+  "containers": [
+    {
+      "containerNumber": "CONT4486557",
+      "sealNumber": "SEAL162647",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 18573.65,
+      "measurement": 39.04
+    },
+    {
+      "containerNumber": "CONT6238577",
+      "sealNumber": "SEAL355390",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 10537.37,
+      "measurement": 22.93
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 48,
+    "totalGrossWeight": 29111.02,
+    "totalMeasurement": 61.97
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-10-21 23:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 10\u00b0C, VALUE: USD743,791"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3737604",
+    "temperature": "10\u00b0C",
+    "minTemperature": "8\u00b0C",
+    "maxTemperature": "12\u00b0C",
+    "ventilation": "36%",
+    "humidity": "75%"
+  }
+}

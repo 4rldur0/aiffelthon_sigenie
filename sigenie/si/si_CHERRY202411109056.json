@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411109056",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION MACHINERY CO. LTD.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845960",
+  "commodityDescription": "LATHE MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT8195176",
+      "sealNumber": "SEAL370654",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 19596.15,
+      "measurement": 33.49
+    },
+    {
+      "containerNumber": "CONT4172458",
+      "sealNumber": "SEAL194481",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 12895.27,
+      "measurement": 32.34
+    },
+    {
+      "containerNumber": "CONT6523964",
+      "sealNumber": "SEAL317877",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 19854.14,
+      "measurement": 34.12
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 144,
+    "totalGrossWeight": 52345.56,
+    "totalMeasurement": 99.95
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241110"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-13 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

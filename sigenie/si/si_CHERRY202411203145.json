@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202411203145",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO. INC.",
+      "address": "123 MAIN STREET, ANYTOWN, USA 12345",
+      "telephone": "+1 555 123 4567",
+      "fax": "+1 555 123 4568",
+      "email": "SHIPPING@BETAMFG.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "456 ABC STREET, SOME CITY, SPAIN 12345",
+      "taxId": "ES1234567890",
+      "president": "MR. JUAN PEREZ",
+      "telephone": "+34 555 123 4567",
+      "fax": "+34 555 123 4568",
+      "email": "JUAN.PEREZ@ALPHAIMPORT.COM"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "456 ABC STREET, SOME CITY, SPAIN 12345",
+      "telephone": "+34 555 123 4567",
+      "fax": "+34 555 123 4568",
+      "email": "JUAN.PEREZ@ALPHAIMPORT.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "630790",
+  "commodityDescription": "BED LINEN",
+  "containers": [
+    {
+      "containerNumber": "CONT4503630",
+      "sealNumber": "SEAL306158",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 6821.26,
+      "measurement": 32.3
+    },
+    {
+      "containerNumber": "CONT4827534",
+      "sealNumber": "SEAL755639",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 18504.92,
+      "measurement": 36.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 113,
+    "totalGrossWeight": 25326.18,
+    "totalMeasurement": 68.7
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "456 ABC STREET, SOME CITY, SPAIN 12345",
+      "telephone": "+34 555 123 4567",
+      "fax": "+34 555 123 4568",
+      "email": "JUAN.PEREZ@ALPHAIMPORT.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "456 ABC STREET, SOME CITY, SPAIN 12345",
+      "telephone": "+34 555 123 4567",
+      "fax": "+34 555 123 4568",
+      "email": "JUAN.PEREZ@ALPHAIMPORT.COM"
+    },
+    "onboardDate": "2024-11-27 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

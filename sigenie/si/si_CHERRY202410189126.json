@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202410189126",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO. LTD.",
+      "address": "123 TECH PARK AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "SHIPPING@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS B.V.",
+      "address": "WILHELMINAKADE 123, 3072 AP ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "903281",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CONT4466115",
+      "sealNumber": "SEAL259228",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 13547.12,
+      "measurement": 22.46
+    },
+    {
+      "containerNumber": "CONT5530211",
+      "sealNumber": "SEAL467736",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 15728.39,
+      "measurement": 35.02
+    },
+    {
+      "containerNumber": "CONT4256142",
+      "sealNumber": "SEAL361248",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 9039.06,
+      "measurement": 22.92
+    },
+    {
+      "containerNumber": "CONT1295730",
+      "sealNumber": "SEAL367265",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 5491.61,
+      "measurement": 36.69
+    },
+    {
+      "containerNumber": "CONT9234579",
+      "sealNumber": "SEAL558835",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 18541.39,
+      "measurement": 21.73
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD GENERAL",
+    "totalPackages": 210,
+    "totalGrossWeight": 62347.57,
+    "totalMeasurement": 138.82
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "++86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3092"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3142241",
+    "unClass": "6",
+    "unCode": "3092",
+    "hsCode": "4667.71.77",
+    "flashPoint": "82\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411069545",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "100 LONDON WALL, LONDON EC2Y 5HN, UNITED KINGDOM",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568",
+      "email": "INFO@GLOBALSHIPPINGSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "281010",
+  "commodityDescription": "BORATES; PEROXIDBORATES; PEROXIDBORATES OF SODIUM OR POTASSIUM; SODIUM PERBORATE; SODIUM PERBORATE MONOHYDRATE",
+  "containers": [
+    {
+      "containerNumber": "CONT8293405",
+      "sealNumber": "SEAL787416",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 11908.75,
+      "measurement": 29.63
+    },
+    {
+      "containerNumber": "CONT6311226",
+      "sealNumber": "SEAL395225",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 7106.72,
+      "measurement": 22.14
+    },
+    {
+      "containerNumber": "CONT5683494",
+      "sealNumber": "SEAL386515",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 13418.99,
+      "measurement": 26.43
+    },
+    {
+      "containerNumber": "CONT4755318",
+      "sealNumber": "SEAL890393",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 10239.62,
+      "measurement": 37.04
+    },
+    {
+      "containerNumber": "CONT6429426",
+      "sealNumber": "SEAL283488",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 17422.89,
+      "measurement": 23.45
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD GENERAL",
+    "totalPackages": 260,
+    "totalGrossWeight": 60096.97,
+    "totalMeasurement": 138.69
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241106-1001",
+    "documentNumber": "20241106-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "100 LONDON WALL, LONDON EC2Y 5HN, UNITED KINGDOM",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "100 LONDON WALL, LONDON EC2Y 5HN, UNITED KINGDOM",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1323, VALUE: USD637,093, THIS SIDE UP"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6864411",
+    "unClass": "6",
+    "unCode": "1323,",
+    "hsCode": "2943.33.40",
+    "flashPoint": "35\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

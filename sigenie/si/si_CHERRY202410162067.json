@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410162067",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI DRAGON TEXTILES CO., LTD.",
+      "address": "2388 LONGDONG ROAD, PUDONG NEW AREA, SHANGHAI 200131, CHINA",
+      "lei": "91321200765109788X",
+      "telephone": "+86 21 5037 8888",
+      "fax": "+86 21 5037 8889",
+      "email": "WANG.LEI@SHANGHAIDRAGONTEXTILES.CN"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN TRADING LTD.",
+      "address": "HAMBURGER STRASSE 123, 20095 HAMBURG, GERMANY",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+49 40 3119 1234",
+      "fax": "+49 40 3119 1235",
+      "email": "JOHAN.DEVRIES@GOLDENSUNTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN TRADING LTD.",
+      "address": "HAMBURGER STRASSE 123, 20095 HAMBURG, GERMANY",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+49 40 3119 1234",
+      "fax": "+49 40 3119 1235",
+      "email": "JOHAN.DEVRIES@GOLDENSUNTRADING.DE"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT2151924",
+      "sealNumber": "SEAL876532",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 19848.76,
+      "measurement": 36.4
+    },
+    {
+      "containerNumber": "CONT6896944",
+      "sealNumber": "SEAL462964",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 5437.48,
+      "measurement": 23.33
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 88,
+    "totalGrossWeight": 25286.24,
+    "totalMeasurement": 59.73
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-24 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1921, VALUE: USD491,008",
+    "dangerousGoods": {
+      "unNumber": "1921",
+      "properShippingName": "DANGEROUS CHEMICALS",
+      "class": "3",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4576234",
+    "unClass": "7",
+    "unCode": "1921,",
+    "hsCode": "3312.36.51",
+    "flashPoint": "34\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

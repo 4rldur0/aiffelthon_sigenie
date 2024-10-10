@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410102080",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS INC.",
+      "onBehalfOf": "",
+      "address": "1234 ELECTRONICS AVE, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "1234 GLOBAL TRADING WAY, ROTTERDAM, THE NETHERLANDS 3011 AB",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GLOBALTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "1234 GLOBAL TRADING WAY, ROTTERDAM, THE NETHERLANDS 3011 AB"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "854440",
+  "commodityDescription": "ELECTRICAL COMPONENTS AND ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "CONT8979212",
+      "sealNumber": "SEAL862369",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 11222.79,
+      "measurement": 27.45
+    },
+    {
+      "containerNumber": "CONT9226891",
+      "sealNumber": "SEAL426480",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 19969.27,
+      "measurement": 27.69
+    },
+    {
+      "containerNumber": "CONT8634511",
+      "sealNumber": "SEAL754070",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 13153.59,
+      "measurement": 23.66
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 156,
+    "totalGrossWeight": 44345.65,
+    "totalMeasurement": 78.8
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "1234 GLOBAL TRADING WAY, ROTTERDAM, THE NETHERLANDS 3011 AB",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001"
+    },
+    "onboardDate": "2024-10-18 18:00:00",
+    "additionalRemarks": "HANDLE WITH CARE"
+  }
+}

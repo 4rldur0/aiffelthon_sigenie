@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202411173456",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENTERPRISES INC",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 9876 5432",
+      "email": "SHIPPING@ASIAENTERPRISES.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "456 BROADWAY, LONDON, UNITED KINGDOM",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 1234 5678",
+      "fax": "+44 20 9876 5432",
+      "email": "JOHN.SMITH@GLOBALTRADING.CO.UK"
+    },
+    "notifyParty": {
+      "name": "EUROPEAN LOGISTICS LTD.",
+      "address": "789 VICTORIA STREET, BERLIN, GERMANY",
+      "telephone": "+49 30 1234 5678",
+      "fax": "+49 30 9876 5432",
+      "email": "INFO@EUROLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "630790",
+  "commodityDescription": "TEXTILE FABRICS",
+  "containers": [
+    {
+      "containerNumber": "CONT1251410",
+      "sealNumber": "SEAL258979",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 14357.63,
+      "measurement": 22.62
+    },
+    {
+      "containerNumber": "CONT8925036",
+      "sealNumber": "SEAL609306",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 15595.6,
+      "measurement": 38.86
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 121,
+    "totalGrossWeight": 29953.23,
+    "totalMeasurement": 61.48
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "456 BROADWAY, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 1234 5678",
+      "fax": "+44 20 9876 5432",
+      "email": "JOHN.SMITH@GLOBALTRADING.CO.UK"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ENTERPRISES INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 9876 5432",
+      "email": "SHIPPING@ASIAENTERPRISES.COM"
+    },
+    "onboardDate": "2024-11-27 21:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

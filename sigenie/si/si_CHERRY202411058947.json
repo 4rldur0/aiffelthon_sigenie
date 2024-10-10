@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411058947",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BASF SE",
+      "address": "CARL-BOSSE-STRASSE 2, 67056 LUDWIGSHAFEN, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 621 60-0",
+      "email": "INFO@BASF.COM"
+    },
+    "consignee": {
+      "name": "SCHUETZ GMBH & CO. KG",
+      "address": "FRIEDRICH-EBERT-STRASSE 10, 67433 SPEYER, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@SCHUETZ.DE",
+      "telephone": "+49 6232 510-0",
+      "fax": "+49 6232 510-100"
+    },
+    "notifyParty": {
+      "name": "SCHUETZ GMBH & CO. KG",
+      "address": "FRIEDRICH-EBERT-STRASSE 10, 67433 SPEYER, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@SCHUETZ.DE",
+      "telephone": "+49 6232 510-0",
+      "fax": "+49 6232 510-100"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381220",
+  "commodityDescription": "SYNTHETIC ORGANIC DYES, INCLUDING PIGMENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT4518437",
+      "sealNumber": "SEAL980181",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 7367.92,
+      "measurement": 20.36
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD GENERAL",
+    "totalPackages": 14,
+    "totalGrossWeight": 7367.92,
+    "totalMeasurement": 20.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC23456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SCHUETZ GMBH & CO. KG",
+      "address": "FRIEDRICH-EBERT-STRASSE 10, 67433 SPEYER, GERMANY",
+      "telephone": "+49 6232 510-0",
+      "fax": "+49 6232 510-100",
+      "email": "INFO@SCHUETZ.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SCHUETZ GMBH & CO. KG",
+      "address": "FRIEDRICH-EBERT-STRASSE 10, 67433 SPEYER, GERMANY",
+      "telephone": "+49 6232 510-0",
+      "fax": "+49 6232 510-100",
+      "email": "INFO@SCHUETZ.DE"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1418, 7 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2681758",
+    "unClass": "5",
+    "unCode": "1418,",
+    "hsCode": "9813.74.23",
+    "flashPoint": "93\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

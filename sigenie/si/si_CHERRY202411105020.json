@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202411105020",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "TANGER MED, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA CHEMICALS LTD.",
+      "address": "2345 HUAJIN ROAD, YONGHUA DISTRICT, NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "+86 574 8888 1111",
+      "fax": "+86 574 8888 2222",
+      "email": "SHIPPING@DELTACHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "OMEGA TRADING CO.",
+      "address": "1234 BOULEVARD MOHAMED V, CASABLANCA, MOROCCO",
+      "taxId": "MA1234567890",
+      "president": "MR. ABDEL RAHMAN",
+      "telephone": "+212 522 9999 1111",
+      "fax": "+212 522 9999 2222",
+      "email": "INFO@OMEGATRADING.MA"
+    },
+    "notifyParty": {
+      "name": "MAERSK LOGISTICS MOROCCO",
+      "address": "123 RUE DE LA LIBERTE, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 8888 1111",
+      "fax": "+212 522 8888 2222",
+      "email": "INFO@MAERSKLOGISTICS.MA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "320419",
+  "commodityDescription": "SYNTHETIC ORGANIC CHEMICALS, NOT ELSEWHERE SPECIFIED OR INCLUDED",
+  "containers": [
+    {
+      "containerNumber": "CONT9570764",
+      "sealNumber": "SEAL993547",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 9885.16,
+      "measurement": 27.13
+    },
+    {
+      "containerNumber": "CONT7891880",
+      "sealNumber": "SEAL354284",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 5934.58,
+      "measurement": 26.57
+    },
+    {
+      "containerNumber": "CONT2912122",
+      "sealNumber": "SEAL574187",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 11078.33,
+      "measurement": 20.06
+    },
+    {
+      "containerNumber": "CONT6809603",
+      "sealNumber": "SEAL859836",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 7208.41,
+      "measurement": 29.57
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD GENERAL",
+    "totalPackages": 204,
+    "totalGrossWeight": 34106.48,
+    "totalMeasurement": 103.33
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "MAERSK LOGISTICS MOROCCO",
+      "address": "123 RUE DE LA LIBERTE, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 8888 1111",
+      "fax": "+212 522 8888 2222",
+      "email": "INFO@MAERSKLOGISTICS.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA TRADING CO.",
+      "address": "1234 BOULEVARD MOHAMED V, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 9999 1111",
+      "fax": "+212 522 9999 2222",
+      "email": "INFO@OMEGATRADING.MA"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3204, 30 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6464211",
+    "unClass": "2",
+    "unCode": "3204,",
+    "hsCode": "4433.72.92",
+    "flashPoint": "62\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202410308211",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES LTD",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "100 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 1234 5678",
+      "fax": "+33 1 1234 5679"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "100 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 1234 5678",
+      "fax": "+33 1 1234 5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS AND GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT2895786",
+      "sealNumber": "SEAL348117",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 18849.97,
+      "measurement": 35.11
+    },
+    {
+      "containerNumber": "CONT2135175",
+      "sealNumber": "SEAL898482",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 17882.06,
+      "measurement": 22.68
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 95,
+    "totalGrossWeight": 36732.03,
+    "totalMeasurement": 57.79
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "100 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 1234 5678",
+      "fax": "+33 1 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA INDUSTRIES LTD.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679"
+    },
+    "onboardDate": "2024-11-06 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

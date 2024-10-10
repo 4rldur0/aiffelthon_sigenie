@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411115300",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING INC.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "DE BRIJNSTRAAT 123, 3011 AX ROTTERDAM, NETHERLANDS",
+      "taxId": "NL856743210",
+      "president": "MR. PETER VAN DER MARK",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "PETER.VANDERMARK@GLOBALTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "WATERLOOSTRAAT 12, 3012 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "INFO@WORLDWIDELOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT7263894",
+      "sealNumber": "SEAL967781",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 13943.83,
+      "measurement": 23.17
+    },
+    {
+      "containerNumber": "CONT4557039",
+      "sealNumber": "SEAL199356",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 15771.92,
+      "measurement": 34.48
+    },
+    {
+      "containerNumber": "CONT8551753",
+      "sealNumber": "SEAL448391",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 11739.93,
+      "measurement": 30.74
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 156,
+    "totalGrossWeight": 41455.68,
+    "totalMeasurement": 88.39
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "DE BRIJNSTRAAT 123, 3011 AX ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "PETER.VANDERMARK@GLOBALTRADING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE MANUFACTURING INC.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEMANUFACTURING.COM"
+    },
+    "onboardDate": "2024-11-17 16:00",
+    "additionalRemarks": "MAINTAIN HUMIDITY"
+  }
+}

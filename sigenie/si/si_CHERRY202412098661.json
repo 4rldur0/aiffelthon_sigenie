@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202412098661",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1500 ALGEZIRA STREET, ALGECIRAS, SPAIN 11001",
+      "companyNumber": "123456789",
+      "telephone": "+34 956 789 000",
+      "fax": "+34 956 789 001",
+      "email": "JANSSEN.EMMA@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1500 ALGEZIRA STREET, ALGECIRAS, SPAIN 11001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "870899",
+  "commodityDescription": "MOTOR VEHICLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT5740481",
+      "sealNumber": "SEAL134761",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 5857.34,
+      "measurement": 31.76
+    },
+    {
+      "containerNumber": "CONT7195364",
+      "sealNumber": "SEAL104967",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 10225.28,
+      "measurement": 33.52
+    },
+    {
+      "containerNumber": "CONT4051014",
+      "sealNumber": "SEAL789653",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 7622.85,
+      "measurement": 37.04
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 207,
+    "totalGrossWeight": 23705.47,
+    "totalMeasurement": 102.32
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2025-01-16 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

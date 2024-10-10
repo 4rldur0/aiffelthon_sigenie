@@ -1,0 +1,144 @@
+{
+  "bookingReference": "CHERRY202410208112",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "5678 VICTORY LANE, GDANSK, POLAND",
+      "telephone": "+48-58-1234-5678",
+      "fax": "+48-58-1234-5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.PL",
+      "contactPerson": "ANNA NOWAK"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT6396230",
+      "sealNumber": "SEAL603195",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 6524.99,
+      "measurement": 24.75
+    },
+    {
+      "containerNumber": "CONT4852588",
+      "sealNumber": "SEAL979217",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 13430.32,
+      "measurement": 22.15
+    },
+    {
+      "containerNumber": "CONT7468150",
+      "sealNumber": "SEAL912479",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 10916.01,
+      "measurement": 33.58
+    },
+    {
+      "containerNumber": "CONT2457567",
+      "sealNumber": "SEAL368833",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 12026.88,
+      "measurement": 39.16
+    },
+    {
+      "containerNumber": "CONT7066331",
+      "sealNumber": "SEAL244676",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 5001.41,
+      "measurement": 34.84
+    },
+    {
+      "containerNumber": "CONT7933805",
+      "sealNumber": "SEAL363537",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 8938.44,
+      "measurement": 32.9
+    },
+    {
+      "containerNumber": "CONT9045728",
+      "sealNumber": "SEAL229805",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 5641.9,
+      "measurement": 22.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 20 STANDARD TANK",
+    "totalPackages": 397,
+    "totalGrossWeight": 62479.95,
+    "totalMeasurement": 209.4
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241020-1001",
+    "documentNumber": "20241020-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "5678 VICTORY LANE, GDANSK, POLAND",
+      "telephone": "+48-58-1234-5678",
+      "fax": "+48-58-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "5678 VICTORY LANE, GDANSK, POLAND",
+      "telephone": "+48-58-1234-5678",
+      "fax": "+48-58-1234-5679"
+    },
+    "onboardDate": "2024-10-26 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1400, 14 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE",
+    "dangerousGoods": {
+      "unNumber": "1400",
+      "properShippingName": "PLASTIC PARTS, FLAMMABLE",
+      "class": "3",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7908712",
+    "unClass": "5",
+    "unCode": "1400,",
+    "hsCode": "5557.95.85",
+    "flashPoint": "36\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

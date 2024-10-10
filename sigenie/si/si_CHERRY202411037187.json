@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411037187",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 ASIA PACIFIC WAY, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 GLOBAL WAY, MADRID, SPAIN 28001",
+      "companyNumber": "123456789",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 GLOBAL WAY, MADRID, SPAIN 28001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "870899",
+  "commodityDescription": "MOTOR VEHICLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT3030735",
+      "sealNumber": "SEAL292822",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 9297.91,
+      "measurement": 34.45
+    },
+    {
+      "containerNumber": "CONT8374980",
+      "sealNumber": "SEAL106648",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 16248.98,
+      "measurement": 35.05
+    },
+    {
+      "containerNumber": "CONT9820204",
+      "sealNumber": "SEAL516668",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 9590.95,
+      "measurement": 26.48
+    },
+    {
+      "containerNumber": "CONT4852653",
+      "sealNumber": "SEAL409532",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 6641.41,
+      "measurement": 33.21
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD TANK",
+    "totalPackages": 228,
+    "totalGrossWeight": 41779.25,
+    "totalMeasurement": 129.19
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 GLOBAL WAY, MADRID, SPAIN 28001",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 ASIA PACIFIC WAY, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}
