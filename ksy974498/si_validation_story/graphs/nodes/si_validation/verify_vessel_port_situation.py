@@ -1,9 +1,9 @@
-from ..common.tools import TavilySearch
+from ..common.tools import Tavily
 from .si_validation_state import State
 
 class VerifyVesselPortSituation:
     def __init__(self):
-        self.web_search_tool = TavilySearch()
+        self.web_search_tool = Tavily.web_search()
     # ====== 수정 예정 - 일단은 뉴스 웹검색으로 대체 ======
     def __call__(self, state: State) -> State:
         try:

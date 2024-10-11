@@ -92,13 +92,31 @@ class AdditionalInformation(BaseModel):
     def calculate_total_status(cls, values):
         return {'total_status': values['status'].status}
 
+# class SpecialCargoInformation(BaseModel):
+#     status: StatusWithReason = Field(..., description="Status of Out of Gauge Dimensions Information")
+#     total_status: str = Field(..., description="Overall status of Out of Gauge Dimensions Information")
+
+#     @root_validator(pre=True)
+#     def calculate_total_status(cls, values):
+#         return {'total_status': values['status'].status}
 class SpecialCargoInformation(BaseModel):
-    status: StatusWithReason = Field(..., description="Status of Special Cargo Information")
+    out_of_gauge_dimensions_info: StatusWithReason = Field(..., description="Status of Out of Gauge Dimensions Information")
+    hazardous_materials_info: StatusWithReason = Field(..., description="Status of Hazardous Materials Information")
+    refrigerated_cargo_info: StatusWithReason = Field(..., description="Status of Refrigerated Cargo Information")
     total_status: str = Field(..., description="Overall status of Special Cargo Information")
 
     @root_validator(pre=True)
     def calculate_total_status(cls, values):
-        return {'total_status': values['status'].status}
+        statuses = [
+            values.get('out_of_gauge_dimensions_info'),
+            values.get('hazardous_materials_info'),
+            values.get('refrigerated_cargo_info')
+        ]
+        if any(status.is_problematic() for status in statuses if status):
+            values['total_status'] = "Warning"
+        else:
+            values['total_status'] = "OK"
+        return values
 
 class ShipmentStatus(BaseModel):
     vessel_route_details: VesselRouteDetails = Field(..., description="Details of Vessel and Route status")
@@ -128,7 +146,6 @@ class ShipmentStatus(BaseModel):
         else:
             values['total_status'] = "OK"
         return values
-
 
 class ShipmentSummary(BaseModel):
     overall_status: str = Field(description="The overall status of the shipment")

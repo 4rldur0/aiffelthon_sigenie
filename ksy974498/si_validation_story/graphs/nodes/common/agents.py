@@ -1,7 +1,8 @@
 from .tools import *
 from langchain.prompts import PromptTemplate
-from typing import List
 from langchain_core.output_parsers import StrOutputParser
+from langchain_core.prompts import PromptTemplate
+from langchain.agents import create_openai_functions_agent, AgentExecutor
 
 class BasicChain:
     def __init__(self, llm, prompt, input_variables):
@@ -20,36 +21,19 @@ class BasicChain:
     
 # Build Retrieval-Augmented Generation Pipeline
 class RAGAgent:
-    def __init__(self, sources: List[str], generate_response_chain):
-        faiss = Faiss()
-        self.vectorstore = faiss.load_vectorstore(sources=sources)
-        self.chain = generate_response_chain
+    def __init__(self, prompt, llm, pdf_path):
+        self.llm = llm
+        self.prompt = PromptTemplate.from_template(prompt)
+        PDF_retriever_tool = Faiss.retrieve_pdf(pdf_path=pdf_path)
+        web_search_tool = Tavily.web_search()    # default: k=5
+        self.tools = [PDF_retriever_tool, web_search_tool]
 
-    def retrieve_documents(self, query: str):
-        """
-        Function to retrieve relevant documents from the vectorstore based on the question (SI data).
-        """
-        retriever = self.vectorstore.as_retriever(search_kwargs={'k': 5})  # Retrieve top 5 relevant documents
-        relevant_docs = retriever.invoke(str(query))
-        return relevant_docs
+    def _generate_response(self, si_data):
+        agent = create_openai_functions_agent(self.llm, self.tools, self.prompt)
+        agent_executor = AgentExecutor(agent=agent, tools=self.tools, verbose=True)
+        result = agent_executor.invoke({'si_data': si_data})
+        return result
 
-    def generate_response(self, query: str, retrieved_docs: list):
-        """
-        Generate a response using the retrieved documents and the language model.
-        """
-        # Concatenate document contents to include in the prompt
-        context = "\n\n".join([doc.page_content for doc in retrieved_docs])
-        
-        # Generate a response using the LLM chain
-        return self.chain.invoke({'query':query, 'context': context})
-
-    def __call__(self, si_data: str):
-        """
-        Main function to retrieve documents and generate a response for compliance validation.
-        """
-        # Step 1: Retrieve relevant compliance documents
-        retrieved_docs = self.retrieve_documents(si_data)
-        
-        # Step 2: Generate response based on SI data and retrieved documents
-        response = self.generate_response(si_data, retrieved_docs)
+    def invoke(self, si_data):
+        response = self._generate_response(si_data)
         return response

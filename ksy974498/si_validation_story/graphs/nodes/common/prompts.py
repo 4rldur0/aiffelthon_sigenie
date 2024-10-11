@@ -1,6 +1,6 @@
 # json 형식으로 prompting
 check_missing_prompt="""
-    Analyze the following Shipping Instruction (SI) data, focusing on missing or incomplete information in key sections excluding the ‘Additional Information’ field.
+    Analyze the following Shipping Instruction (SI) data, focusing on missing or incomplete information in key sections.
     \n{format_instructions}
     \n{si_data}\n
 """

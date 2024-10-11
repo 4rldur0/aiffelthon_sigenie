@@ -1,12 +1,12 @@
 import os
-from pymongo import MongoClient
 from dotenv import load_dotenv
-from langchain_community.embeddings import OpenAIEmbeddings
+from pymongo import MongoClient
 from langchain_community.vectorstores import FAISS
-from langchain_community.document_loaders import WebBaseLoader, PyPDFLoader
+from langchain_community.document_loaders import PyMuPDFLoader
+from langchain.tools.retriever import create_retriever_tool
+from langchain_openai import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.tools.tavily_search import TavilySearchResults
-from typing import List
 
 # Load environment variables from .env file
 load_dotenv()
@@ -22,66 +22,29 @@ class MongoDB:
         return self.collection.find_one({'bookingReference': booking_reference})
     
 class Faiss:
-    def __init__(self):
-        self.save_local_path = "faiss_index"
-        self.embedding_model = OpenAIEmbeddings()
+    def retrieve_pdf(pdf_path):
+        # look for relevant parts in pdfs
+        PDF_loader = PyMuPDFLoader(pdf_path)
 
-    # Load documents from web or local sources (PDFs and URLs)
-    def _load_documents(self, sources: List[str]) -> List:
-        """
-        Load documents from the provided sources (PDFs or URLs).
-        """
-        docs = []
-        for source in sources:
-            try:
-                # If source is a URL
-                if source.startswith('http'):
-                    print(f"Loading documents from URL: {source}")
-                    loader = WebBaseLoader(source)
-                # If source is a PDF
-                elif source.endswith('.pdf'):
-                    print(f"Loading documents from PDF: {source}")
-                    loader = PyPDFLoader(source)
-                else:
-                    print(f"Unsupported source type: {source}")
-                    continue
-                docs.extend(loader.load())
-            except Exception as e:
-                print(f"Error loading from {source}: {e}")
-        return docs
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=50, length_function=len, separators=["\n\n", "\n", " ", ""])
+        PDF_split_docs = PDF_loader.load_and_split(text_splitter)
+
+        embeddings = OpenAIEmbeddings()
+
+        PDF_vector = FAISS.from_documents(documents=PDF_split_docs, embedding=embeddings)
+
+        PDF_retriever = PDF_vector.as_retriever()
+
+        PDF_retriever_tool = create_retriever_tool(
+            PDF_retriever,
+            name="pdf_search",
+            description="Use this tool for compliance for shipper, consignee, and notifyParty" \
+                        "including checking what info is required for each entity" \
+                        "based on the requirements of both the company and relevant countries",
+        )
+        
+        return PDF_retriever_tool
     
-    # Create the FAISS vector store
-    def _create_vectorstore(self, documents):
-        """
-        Create and save the FAISS vector store for document retrieval.
-        """        
-        # Use RecursiveCharacterTextSplitter to split long documents into chunks
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
-        split_docs = text_splitter.split_documents(documents)
-        
-        # Create FAISS vectorstore from split documents and embeddings
-        vectorstore = FAISS.from_documents(split_docs, self.embedding_model)
-        
-        # Save the FAISS vectorstore locally to disk
-        vectorstore.save_local(self.save_local_path)
-        print("Vector store created and saved locally at 'faiss_index'.")
-        return vectorstore
-    
-    # Step 3: Load existing vectorstore or create a new one
-    def load_vectorstore(self, sources: List[str]):
-        """
-        Load the vector store from disk if it exists.
-        If not, load documents and create a new vector store.
-        """
-        if os.path.exists("faiss_index/index.faiss"):
-            print("Loading existing vector store from 'faiss_index'.")
-            return FAISS.load_local(self.save_local_path, self.embedding_model, allow_dangerous_deserialization=True)
-        else:
-            print("Vector store not found. Loading documents and creating a new vector store.")
-            # Load documents from the provided sources (URLs or PDFs)
-            documents = self._load_documents(sources)
-            return self._create_vectorstore(documents)
-        
-class TavilySearch:
-    def __call__():
+class Tavily:
+    def web_search():
         return TavilySearchResults()

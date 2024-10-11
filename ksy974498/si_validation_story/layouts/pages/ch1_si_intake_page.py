@@ -1,6 +1,6 @@
 import streamlit as st
-from ._page_templates import BLDraftPage, ReportPage
-from graphs.si_intake_graph import SIIntake
+from ._page_templates import BLDraftPage, IntakeReportPage
+from graphs.st_si_intake_graph import SIIntake
 
 # chapter 1 그래프 인스턴스 생성
 graph = SIIntake()
@@ -15,11 +15,7 @@ def main():
     # 그래프 invoke를 실행하는 버튼
     if st.button("Generate Report"):
         graph.state["booking_reference"] = booking_reference
-        try:
-            result = graph.invoke()
-        except Exception as e:
-            st.error(f"An error occurred while Searching the shipping Instruction: {str(e)}")
-            st.stop()
+        result = graph.invoke()
 
     # 그래프 최종 출력이 존재할 경우에만 실행
     if result is not None:
@@ -32,7 +28,7 @@ def main():
             # draft B/L을 보여주는 페이지 인스턴스
             bl_draft_page = BLDraftPage(si_data=si_data)
             # report를 보여주는 페이지 인스턴스
-            report_page = ReportPage(report_name="Shipping Instruction Validation Report",\
+            report_page = IntakeReportPage(report_name="Shipping Instruction Validation Report",\
                                      missing_answer=result.get("missing_answer", "No Missing Data available"),\
                                      summary_answer=result.get("summary_answer", "No summary available"))
 

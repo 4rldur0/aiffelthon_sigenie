@@ -1,6 +1,6 @@
 import streamlit as st
 from ._page_templates import BLDraftPage, ValReportPage
-from graphs.st_si_validation_graph import SIValidation
+from graphs.si_validation_graph import SIValidation
 
 graph = SIValidation()
 

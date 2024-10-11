@@ -21,8 +21,22 @@ class SIIntake:
 
         # Add edges
         workflow.set_entry_point("get_bkg")
-        workflow.add_edge("get_bkg", "get_si")
-        workflow.add_edge("get_si", "check_missing_data")
+        workflow.add_conditional_edges(
+            "get_bkg", 
+            lambda state: state['next'],
+            {
+                "get_si": "get_si", 
+                "end": END
+            }
+        )
+        workflow.add_conditional_edges(
+            "get_si", 
+            lambda state: state['next'],
+            {
+                "check_missing_data": "check_missing_data", 
+                "end": END
+            }
+        )
         workflow.add_edge("check_missing_data", "generate_intake_report")
         workflow.add_edge("generate_intake_report", END)
 

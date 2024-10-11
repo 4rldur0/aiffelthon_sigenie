@@ -1,6 +1,6 @@
 import streamlit as st
 from ._page_templates import BLDraftPage, IntakeReportPage
-from graphs.st_si_intake_graph import SIIntake
+from graphs.si_intake_graph import SIIntake
 
 def main():
     # booking reference를 사용자 입력으로 받음
@@ -14,11 +14,8 @@ def main():
         # chapter 1 그래프 인스턴스 생성
         graph = SIIntake()
         graph.state["booking_reference"] = booking_reference
-        try:
-            result = graph.invoke()
-        except Exception as e:
-            st.error(f"An error occurred while Invoking the shipping Instruction Intake Graph: {str(e)}")
-            st.stop()
+
+        result = graph.invoke()
 
     # 그래프 최종 출력이 존재할 경우에만 실행
     if result is not None:
