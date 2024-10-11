@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410211157",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TEXTILE CORPORATION",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7636-1234",
+      "fax": "+44-20-7636-1235"
+    },
+    "consignee": {
+      "name": "DUTCH TEXTILE IMPORTERS BV",
+      "address": "234 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-234-5678",
+      "fax": "+31-10-234-5679",
+      "email": "INFO@DUTCHTEXTILE.NL",
+      "contactPerson": "JAN VAN DER SCHAFT"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7636-1234",
+      "fax": "+44-20-7636-1235"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "630790",
+  "commodityDescription": "TEXTILE FABRICS - COTTON AND POLYESTER BLENDS",
+  "containers": [
+    {
+      "containerNumber": "CONT3156282",
+      "sealNumber": "SEAL638577",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 15781.24,
+      "measurement": 31.62
+    },
+    {
+      "containerNumber": "CONT6175429",
+      "sealNumber": "SEAL282118",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 6093.26,
+      "measurement": 28.46
+    },
+    {
+      "containerNumber": "CONT8910051",
+      "sealNumber": "SEAL541071",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 8132.88,
+      "measurement": 31.18
+    },
+    {
+      "containerNumber": "CONT8729938",
+      "sealNumber": "SEAL775426",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 14414.12,
+      "measurement": 26.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE TANK",
+    "totalPackages": 86,
+    "totalGrossWeight": 44421.5,
+    "totalMeasurement": 117.66
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241021-1001",
+    "documentNumber": "20241021-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7636-1234",
+      "fax": "+44-20-7636-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH TEXTILE IMPORTERS BV",
+      "address": "234 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-234-5678",
+      "fax": "+31-10-234-5679"
+    },
+    "onboardDate": "2024-10-30 09:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

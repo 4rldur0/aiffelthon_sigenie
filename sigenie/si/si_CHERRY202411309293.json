@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411309293",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO LTD",
+      "address": "123 TECH STREET, SHANGHAI FREE TRADE ZONE, SHANGHAI, CHINA, 200131",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 1234 5678",
+      "email": "INFO@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "234 RUE DE LA PAIX, PARIS, 75008, FRANCE",
+      "country": "FRANCE",
+      "email": "PIERRE.DUBOIS@GLOBALLOGISTICS.FR",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY IMPORT & EXPORT LTD",
+      "address": "123 RUE DE LA LIBERT\u00c9, PARIS, 75010, FRANCE",
+      "country": "FRANCE",
+      "email": "JEAN.MARTIN@BLUESKYIMPORT.FR",
+      "telephone": "+33 1 12 34 56 78",
+      "fax": "+33 1 12 34 56 79"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854140",
+  "commodityDescription": "REFRIGERATED ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT7000499",
+      "sealNumber": "SEAL385674",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 10151.56,
+      "measurement": 36.41
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 36,
+    "totalGrossWeight": 10151.56,
+    "totalMeasurement": 36.41
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "234 RUE DE LA PAIX, PARIS, 75008, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "PIERRE.DUBOIS@GLOBALLOGISTICS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "234 RUE DE LA PAIX, PARIS, 75008, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "PIERRE.DUBOIS@GLOBALLOGISTICS.FR"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 19\u00b0C, VALUE: USD114,585, 21 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9639772",
+    "temperature": "19\u00b0C",
+    "minTemperature": "17\u00b0C",
+    "maxTemperature": "21\u00b0C",
+    "ventilation": "42%",
+    "humidity": "74%"
+  }
+}

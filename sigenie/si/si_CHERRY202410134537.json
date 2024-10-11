@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410134537",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL MACHINERY CO., LTD.",
+      "address": "1234 TECH STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5678 9012",
+      "fax": "+86 21 5678 9013"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN TRADING INC.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN TRADING INC.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "MACHINERY FOR WORKING TEXTILE YARNS, THREADS OR FABRICS",
+  "containers": [
+    {
+      "containerNumber": "CONT2695028",
+      "sealNumber": "SEAL286512",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 13759.26,
+      "measurement": 32.35
+    },
+    {
+      "containerNumber": "CONT4181743",
+      "sealNumber": "SEAL548054",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 5541.11,
+      "measurement": 30.65
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD PLATFORM",
+    "totalPackages": 106,
+    "totalGrossWeight": 19300.37,
+    "totalMeasurement": 63.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241013ABC123"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "GOLDEN SUN TRADING INC.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN SUN TRADING INC.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-10-28 12:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 2790x2470x2358"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2790",
+    "width": "2470",
+    "height": "2358",
+    "overWidth": "30",
+    "overHeight": "0"
+  }
+}

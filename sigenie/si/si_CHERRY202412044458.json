@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202412044458",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUITEX IMPORT EXPORT INC",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@FRUITEXIMPORT.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING COMPANY LTD",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY 20000",
+      "taxId": "DE123456789",
+      "president": "MR. HANS MEIER",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "HANS.MEIER@GLOBALTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "HAMBURG LOGISTICS SERVICES GMBH",
+      "address": "789 PORT STREET, HAMBURG, GERMANY 22000",
+      "taxId": "DE987654321",
+      "president": "MS. ANNA SCHMIDT",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080550",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT3359876",
+      "sealNumber": "SEAL188327",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 15056.87,
+      "measurement": 35.66
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE REEFER",
+    "totalPackages": 60,
+    "totalGrossWeight": 15056.87,
+    "totalMeasurement": 35.66
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 12345678",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "10 PORT STREET, HAMBURG, GERMANY 20000",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING COMPANY LTD",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY 20000",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "HANS.MEIER@GLOBALTRADING.DE"
+    },
+    "onboardDate": "2024-12-10 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -14\u00b0C, VALUE: USD981,722, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1320733",
+    "temperature": "-14\u00b0C",
+    "minTemperature": "-16\u00b0C",
+    "maxTemperature": "-12\u00b0C",
+    "ventilation": "21%",
+    "humidity": "94%"
+  }
+}

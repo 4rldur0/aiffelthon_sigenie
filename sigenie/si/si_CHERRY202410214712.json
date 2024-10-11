@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410214712",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING SOLUTIONS PTE LTD",
+      "onBehalfOf": "PRECISION ENGINEERING SOLUTIONS PTE LTD",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667",
+      "email": "SALES@DELTA-GLOBAL.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE TRADING BV",
+      "address": "WATERLOOSEPLEIN 1, 3012 AM ROTTERDAM, NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@WORLDWIDE-TRADING.NL"
+    },
+    "notifyParty": {
+      "name": "DELTA GLOBAL LOGISTICS LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "SPECIALIZED MANUFACTURING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT8786840",
+      "sealNumber": "SEAL153260",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 17608.01,
+      "measurement": 37.19
+    },
+    {
+      "containerNumber": "CONT3484123",
+      "sealNumber": "SEAL136542",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 12948.01,
+      "measurement": 38.08
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD FLAT RACK",
+    "totalPackages": 54,
+    "totalGrossWeight": 30556.02,
+    "totalMeasurement": 75.27
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA GLOBAL LOGISTICS LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA"
+    },
+    "onboardDate": "2024-11-03 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8393x2661x2396, VALUE: USD261,931"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8393",
+    "width": "2661",
+    "height": "2396",
+    "overWidth": "221",
+    "overHeight": "0"
+  }
+}

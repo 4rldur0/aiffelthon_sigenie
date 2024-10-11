@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410128324",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BAIER GMBH & CO. KG",
+      "address": "HERMANN-BAUMANN-STRASSE 15, 20146 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 40 36 98 61 00",
+      "fax": "+49 40 36 98 61 11",
+      "email": "INFO@BAIER.DE"
+    },
+    "consignee": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 333 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 21 6351 8888",
+      "fax": "+86 21 6351 8887",
+      "email": "INFO@SHANGHAIIMPORTEXPORT.CN"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60329 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 79 09 39 00",
+      "fax": "+49 69 79 09 39 11",
+      "email": "INFO@DHL.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940350",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT2403823",
+      "sealNumber": "SEAL680992",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 16879.36,
+      "measurement": 24.79
+    },
+    {
+      "containerNumber": "CONT9385702",
+      "sealNumber": "SEAL517882",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 14027.62,
+      "measurement": 28.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 95,
+    "totalGrossWeight": 30906.98,
+    "totalMeasurement": 52.88
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "FUMIGATION CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 79 09 39 00",
+      "fax": "+49 69 79 09 39 11",
+      "email": "INFO@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 333 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 21 6351 8888",
+      "fax": "+86 21 6351 8887",
+      "email": "INFO@SHANGHAIIMPORTEXPORT.CN"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "HANDLE WITH CARE"
+  }
+}

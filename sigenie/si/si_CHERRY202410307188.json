@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410307188",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD",
+      "onBehalfOf": "",
+      "address": "1234 ELECTRONICS RD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "1234 GLOBAL WAY, HAMBURG 20457, GERMANY",
+      "companyNumber": "123456789",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "JANSSEN.EMMA@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "1234 GLOBAL WAY, HAMBURG 20457, GERMANY"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTICS",
+  "containers": [
+    {
+      "containerNumber": "CONT8908138",
+      "sealNumber": "SEAL413196",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 14803.19,
+      "measurement": 31.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 66,
+    "totalGrossWeight": 14803.19,
+    "totalMeasurement": 31.8
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD",
+      "address": "1234 ELECTRONICS RD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-11-07 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3217, VALUE: USD339,844, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6297337",
+    "unClass": "8",
+    "unCode": "3217,",
+    "hsCode": "6258.35.29",
+    "flashPoint": "55\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

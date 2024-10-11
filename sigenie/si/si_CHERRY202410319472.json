@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410319472",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CORP.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 9876 5432",
+      "email": "INFO@DELTATRADING.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT LTD.",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL857642912B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 9876 5432",
+      "email": "INFO@SUNRISEIMPORT.COM"
+    },
+    "notifyParty": {
+      "name": "SUNRISE LOGISTICS LTD.",
+      "address": "789 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "INFO@SUNRISELOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CARS",
+  "containers": [
+    {
+      "containerNumber": "CONT3270798",
+      "sealNumber": "SEAL412615",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 17573.61,
+      "measurement": 33.86
+    },
+    {
+      "containerNumber": "CONT8815282",
+      "sealNumber": "SEAL623879",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 16141.04,
+      "measurement": 31.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 68,
+    "totalGrossWeight": 33714.65,
+    "totalMeasurement": 64.95
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT LTD.",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 9876 5432",
+      "email": "INFO@SUNRISEIMPORT.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT LTD.",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 9876 5432",
+      "email": "INFO@SUNRISEIMPORT.COM"
+    },
+    "onboardDate": "2024-11-13 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410191896",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "100 PASIR PANJANG ROAD, #05-01, SINGAPORE 118523",
+      "telephone": "+65 6262 9155",
+      "fax": "+65 6262 9200",
+      "email": "LIM.KWANGHEE@ASIALOGISTICS.COM.SG"
+    },
+    "consignee": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 123, 28001 MADRID, SPAIN",
+      "taxId": "ESB12345678",
+      "president": "Mr. Juan Perez",
+      "telephone": "+34 91 555 12 78",
+      "fax": "+34 91 555 80 01",
+      "email": "MARIE.DUBOIS@HAVREAUTOMATION.FR"
+    },
+    "notifyParty": {
+      "name": "ALGECIRAS IMPORT SERVICES SL",
+      "address": "C/ALBAICIN, 2, 11001 ALGECIRAS, SPAIN",
+      "taxId": "ES123456789",
+      "president": "Ms. Maria Rodriguez",
+      "telephone": "+34 956 72 33 77",
+      "fax": "+34 956 72 33 88"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CONT9009987",
+      "sealNumber": "SEAL242788",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 5219.88,
+      "measurement": 20.49
+    },
+    {
+      "containerNumber": "CONT9766427",
+      "sealNumber": "SEAL381197",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 19342.66,
+      "measurement": 35.87
+    },
+    {
+      "containerNumber": "CONT1881530",
+      "sealNumber": "SEAL930127",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 19658.42,
+      "measurement": 35.21
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD PLATFORM",
+    "totalPackages": 212,
+    "totalGrossWeight": 44220.96,
+    "totalMeasurement": 91.57
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-06 23:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 2039x2556x2849, FRAGILE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2039",
+    "width": "2556",
+    "height": "2849",
+    "overWidth": "116",
+    "overHeight": "259"
+  }
+}

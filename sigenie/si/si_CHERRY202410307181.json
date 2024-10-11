@@ -1,0 +1,146 @@
+{
+  "bookingReference": "CHERRY202410307181",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ACME CHEMICALS INC.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": "",
+      "telephone": "",
+      "fax": ""
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT8598469",
+      "sealNumber": "SEAL417403",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 19949.97,
+      "measurement": 30.34
+    },
+    {
+      "containerNumber": "CONT8754796",
+      "sealNumber": "SEAL431540",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 16663.85,
+      "measurement": 29.5
+    },
+    {
+      "containerNumber": "CONT8233158",
+      "sealNumber": "SEAL363855",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 8882.68,
+      "measurement": 27.42
+    },
+    {
+      "containerNumber": "CONT9621452",
+      "sealNumber": "SEAL782880",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 5895.39,
+      "measurement": 28.25
+    },
+    {
+      "containerNumber": "CONT6969771",
+      "sealNumber": "SEAL368857",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 8739.2,
+      "measurement": 31.03
+    },
+    {
+      "containerNumber": "CONT2079954",
+      "sealNumber": "SEAL669422",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 17105.85,
+      "measurement": 30.93
+    },
+    {
+      "containerNumber": "CONT8915358",
+      "sealNumber": "SEAL506755",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 16752.67,
+      "measurement": 30.88
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 HIGH CUBE TANK",
+    "totalPackages": 336,
+    "totalGrossWeight": 93989.61,
+    "totalMeasurement": 208.35
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-01 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1535, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoodsDetails": {
+    "unNumber": "1535",
+    "properShippingName": "DANGEROUS CHEMICALS N.O.S.",
+    "class": "3",
+    "packingGroup": "II",
+    "label": "FLAMMABLE LIQUID"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4509761",
+    "unClass": "3",
+    "unCode": "1535,",
+    "hsCode": "7033.35.43",
+    "flashPoint": "-11\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

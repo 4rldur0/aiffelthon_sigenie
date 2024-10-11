@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410202990",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 CHEMICAL STREET, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ORDERS@ASIAPACIFICCHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "EUROCHEM POLAND SP. Z O.O.",
+      "address": "UL. KRAKOWSKA 54, 80-327 GDANSK, POLAND",
+      "companyNumber": "5213456789",
+      "telephone": "+48 58 345 6789",
+      "fax": "+48 58 345 6790",
+      "email": "INFO@EUROCHEM.PL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 GLOBAL WAY, CHICAGO, IL 60601, USA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "282735",
+  "commodityDescription": "CHLORIDE SALTS",
+  "containers": [
+    {
+      "containerNumber": "CONT1477603",
+      "sealNumber": "SEAL754947",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 8860.47,
+      "measurement": 35.07
+    },
+    {
+      "containerNumber": "CONT8688581",
+      "sealNumber": "SEAL916470",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 15889.99,
+      "measurement": 37.19
+    },
+    {
+      "containerNumber": "CONT3331397",
+      "sealNumber": "SEAL362340",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 13762.57,
+      "measurement": 25.21
+    },
+    {
+      "containerNumber": "CONT8294945",
+      "sealNumber": "SEAL792731",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 10963.21,
+      "measurement": 26.09
+    },
+    {
+      "containerNumber": "CONT5170765",
+      "sealNumber": "SEAL374147",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 6074.43,
+      "measurement": 29.04
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD TANK",
+    "totalPackages": 215,
+    "totalGrossWeight": 55550.67,
+    "totalMeasurement": 152.6
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "address": "1234 CHEMICAL STREET, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ORDERS@ASIAPACIFICCHEMICALS.CN"
+    },
+    "onboardDate": "2024-10-28 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1838, VALUE: USD220,544"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4629912",
+    "unClass": "4",
+    "unCode": "1838,",
+    "hsCode": "6794.72.37",
+    "flashPoint": "83\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

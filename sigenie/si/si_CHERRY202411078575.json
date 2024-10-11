@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411078575",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO. LTD",
+      "address": "1234 FACTORY STREET, NINGBO, CHINA",
+      "lei": "98765432101234567890",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 98765432",
+      "email": "INFO@BETAMFG.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "1234 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "usci": "12345678901234567890",
+      "president": "JOHN SMITH",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@ALPHA-GLOBAL.NL"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "1234 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "usci": "12345678901234567890",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@ALPHA-GLOBAL.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT4928968",
+      "sealNumber": "SEAL288459",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 12309.52,
+      "measurement": 25.6
+    },
+    {
+      "containerNumber": "CONT9347840",
+      "sealNumber": "SEAL784440",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 10677.26,
+      "measurement": 24.9
+    },
+    {
+      "containerNumber": "CONT5619123",
+      "sealNumber": "SEAL598451",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 9465.79,
+      "measurement": 32.99
+    },
+    {
+      "containerNumber": "CONT6533448",
+      "sealNumber": "SEAL350350",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 9271.37,
+      "measurement": 20.21
+    },
+    {
+      "containerNumber": "CONT9850091",
+      "sealNumber": "SEAL639638",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 13123.77,
+      "measurement": 21.86
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE TANK",
+    "totalPackages": 286,
+    "totalGrossWeight": 54847.71,
+    "totalMeasurement": 125.56
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "1234 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@ALPHA-GLOBAL.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "1234 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@ALPHA-GLOBAL.NL"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "ON DECK TOP STOWAGE"
+  }
+}

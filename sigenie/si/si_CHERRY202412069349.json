@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202412069349",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FOODS CO.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-6351-2345",
+      "fax": "+86-574-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030191",
+  "commodityDescription": "FROZEN CHICKEN BREASTS",
+  "containers": [
+    {
+      "containerNumber": "CONT3046037",
+      "sealNumber": "SEAL494163",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 6592.09,
+      "measurement": 35.46
+    },
+    {
+      "containerNumber": "CONT6747357",
+      "sealNumber": "SEAL497679",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 17573.2,
+      "measurement": 32.21
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE REEFER",
+    "totalPackages": 151,
+    "totalGrossWeight": 24165.29,
+    "totalMeasurement": 67.67
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241206-1001",
+    "documentNumber": "20241206-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 11\u00b0C, DO NOT STACK"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5767051",
+    "temperature": "11\u00b0C",
+    "minTemperature": "9\u00b0C",
+    "maxTemperature": "13\u00b0C",
+    "ventilation": "68%",
+    "humidity": "87%"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410225045",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 EAST OCEAN AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JIMMY.WANG@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "555 ALHAMBRA STREET, SUITE 200, LOS ANGELES, CA 90031, USA",
+      "country": "USA",
+      "email": "JOHN.DOE@GLOBALLOGISTICSSOLUTIONS.COM",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    },
+    "notifyParty": {
+      "name": "PORT OF ALGECIRAS AUTHORITY",
+      "address": "AVENIDA DE LA MARINA, 1, 11201 ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "email": "INFO@PORTALGECIRAS.ES",
+      "telephone": "+34 956 72 75 00",
+      "fax": "+34 956 72 75 01"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH - SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT3244598",
+      "sealNumber": "SEAL220460",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 16004.06,
+      "measurement": 34.4
+    },
+    {
+      "containerNumber": "CONT6020935",
+      "sealNumber": "SEAL801011",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 13825.26,
+      "measurement": 39.91
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 72,
+    "totalGrossWeight": 29829.32,
+    "totalMeasurement": 74.31
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410271234"
+    },
+    "certificateDetails": [
+      {
+        "certificateType": "HEALTH CERTIFICATE",
+        "issuedBy": "CHINA IMPORT AND EXPORT INSPECTION AND QUARANTINE BUREAU"
+      }
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "555 ALHAMBRA STREET, SUITE 200, LOS ANGELES, CA 90031, USA",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213",
+      "email": "JOHN.DOE@GLOBALLOGISTICSSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "555 ALHAMBRA STREET, SUITE 200, LOS ANGELES, CA 90031, USA",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213",
+      "email": "JOHN.DOE@GLOBALLOGISTICSSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-06 08:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -18\u00b0C, VALUE: USD703,216, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1965198",
+    "temperature": "-18\u00b0C",
+    "minTemperature": "-20\u00b0C",
+    "maxTemperature": "-16\u00b0C",
+    "ventilation": "80%",
+    "humidity": "83%"
+  }
+}

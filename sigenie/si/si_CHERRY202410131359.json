@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410131359",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL IMPORT EXPORT CO.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "additionalInfo": "(BUILDING A)",
+      "telephone": "+31 10 234 5678",
+      "email": "GLOBALIMPORT@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "MARINE LOGISTICS LTD.",
+      "address": "456 PORT STREET, PORT KLANG, MALAYSIA",
+      "country": "MALAYSIA",
+      "email": "LOGISTICS@MARINELTD.COM",
+      "telephone": "+60 3 2345 6789"
+    },
+    "notifyParty": {
+      "name": "MARINE LOGISTICS LTD.",
+      "address": "456 PORT STREET, PORT KLANG, MALAYSIA",
+      "country": "MALAYSIA",
+      "email": "LOGISTICS@MARINELTD.COM",
+      "telephone": "+60 3 2345 6789"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "870899",
+  "commodityDescription": "MOTOR VEHICLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT5700065",
+      "sealNumber": "SEAL939043",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 13003.57,
+      "measurement": 35.19
+    },
+    {
+      "containerNumber": "CONT2777470",
+      "sealNumber": "SEAL987052",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 10875.88,
+      "measurement": 20.36
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE TANK",
+    "totalPackages": 80,
+    "totalGrossWeight": 23879.45,
+    "totalMeasurement": 55.55
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-10-26 09:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

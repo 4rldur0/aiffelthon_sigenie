@@ -1,0 +1,140 @@
+{
+  "bookingReference": "CHERRY202412044543",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING CORP.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "333401",
+  "commodityDescription": "HAIR CONDITIONER",
+  "containers": [
+    {
+      "containerNumber": "CONT2382763",
+      "sealNumber": "SEAL535556",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 19994.19,
+      "measurement": 36.86
+    },
+    {
+      "containerNumber": "CONT7315480",
+      "sealNumber": "SEAL732937",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 14754.73,
+      "measurement": 25.43
+    },
+    {
+      "containerNumber": "CONT7684086",
+      "sealNumber": "SEAL571802",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 10045.71,
+      "measurement": 26.28
+    },
+    {
+      "containerNumber": "CONT4694088",
+      "sealNumber": "SEAL899249",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 15105.74,
+      "measurement": 25.85
+    },
+    {
+      "containerNumber": "CONT2235129",
+      "sealNumber": "SEAL192462",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 17151.15,
+      "measurement": 31.41
+    },
+    {
+      "containerNumber": "CONT7791934",
+      "sealNumber": "SEAL472318",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 16125.76,
+      "measurement": 20.32
+    },
+    {
+      "containerNumber": "CONT5332194",
+      "sealNumber": "SEAL584677",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 5499.58,
+      "measurement": 38.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 20 STANDARD GENERAL",
+    "totalPackages": 384,
+    "totalGrossWeight": 98676.86,
+    "totalMeasurement": 204.77
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF ANALYSIS"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA MANUFACTURING CORP.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "onboardDate": "2024-12-13 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3374"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9942263",
+    "unClass": "4",
+    "unCode": "3374",
+    "hsCode": "1128.23.84",
+    "flashPoint": "25\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

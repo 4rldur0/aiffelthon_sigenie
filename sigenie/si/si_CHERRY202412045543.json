@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202412045543",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TANGER MED, MOROCCO",
+    "portOfLoading": "TANGER MED, MOROCCO",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "TANGER MED, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA EXPORT SOLUTIONS INC",
+      "address": "1234 MAIN STREET, CASABLANCA, MOROCCO",
+      "country": "MOROCCO",
+      "additionalInfo": "",
+      "telephone": "+212 522 123 4567",
+      "fax": "+212 522 123 4568",
+      "email": "INFO@ASIAEXPORTSOLUTIONS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "5678 PORT ROAD, KLANG, SELANGOR, MALAYSIA",
+      "country": "MALAYSIA",
+      "telephone": "+60 3 3333 4444",
+      "fax": "+60 3 3333 5555",
+      "email": "SALES@GLOBALLOGISTICS.COM.MY",
+      "personincharge": "AHMAD ALI"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "5678 PORT ROAD, KLANG, SELANGOR, MALAYSIA",
+      "country": "MALAYSIA",
+      "telephone": "+60 3 3333 4444",
+      "fax": "+60 3 3333 5555",
+      "email": "OPERATIONS@GLOBALLOGISTICS.COM.MY"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "330499",
+  "commodityDescription": "BEAUTY OR MAKE-UP PREPARATIONS AND ARTICLES AND PARTS THEREOF.",
+  "containers": [
+    {
+      "containerNumber": "CONT4744937",
+      "sealNumber": "SEAL624275",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 15070.81,
+      "measurement": 29.66
+    },
+    {
+      "containerNumber": "CONT6890741",
+      "sealNumber": "SEAL920882",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 6706.32,
+      "measurement": 29.48
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 98,
+    "totalGrossWeight": 21777.13,
+    "totalMeasurement": 59.14
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "5678 PORT ROAD, KLANG, SELANGOR, MALAYSIA",
+      "telephone": "+60 3 3333 4444",
+      "fax": "+60 3 3333 5555",
+      "email": "OPERATIONS@GLOBALLOGISTICS.COM.MY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "5678 PORT ROAD, KLANG, SELANGOR, MALAYSIA",
+      "telephone": "+60 3 3333 4444",
+      "fax": "+60 3 3333 5555",
+      "email": "FINANCE@GLOBALLOGISTICS.COM.MY"
+    },
+    "onboardDate": "2025-01-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1690, VALUE: USD42,701, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1844890",
+    "unClass": "2",
+    "unCode": "1690,",
+    "hsCode": "7078.80.75",
+    "flashPoint": "12\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

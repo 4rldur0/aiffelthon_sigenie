@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411213592",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC IMPORT & EXPORT LTD.",
+      "address": "2345 SHANGHAI ROAD, NINGBO, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8889",
+      "email": "SHIPPING@ABCIMPORTEXPORT.CN"
+    },
+    "consignee": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "1234 MARITIME STREET, OSLO, NORWAY",
+      "usci": "91321200765109788X",
+      "president": "MRS. ANNA JOHANNSEN",
+      "telephone": "+47 22 88 99 00",
+      "fax": "+47 22 88 99 01",
+      "email": "ANNA.JOHANNSEN@KONGSBERGM.NO"
+    },
+    "notifyParty": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "1234 MARITIME STREET, OSLO, NORWAY",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+47 22 88 99 00",
+      "fax": "+47 22 88 99 01",
+      "email": "IMPORT@KONGSBERGM.NO"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT5937115",
+      "sealNumber": "SEAL121410",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 12977.98,
+      "measurement": 21.31
+    },
+    {
+      "containerNumber": "CONT9490313",
+      "sealNumber": "SEAL835680",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 10302.43,
+      "measurement": 32.99
+    },
+    {
+      "containerNumber": "CONT5028626",
+      "sealNumber": "SEAL120951",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 18145.97,
+      "measurement": 32.32
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 241,
+    "totalGrossWeight": 41426.38,
+    "totalMeasurement": 86.62
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-12-16 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

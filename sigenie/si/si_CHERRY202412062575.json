@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202412062575",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC EXPORT IMPORT LTD.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "additionalInfo": "",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568",
+      "email": "INFO@ABCEXPORTIMPORT.NL"
+    },
+    "consignee": {
+      "name": "XYZ TRADING CO. S.A.",
+      "address": "456 ALICANTE STREET, ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 956 789 012",
+      "fax": "+34 956 789 013",
+      "email": "SALES@XYZTRADING.ES",
+      "personincharge": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS LTD.",
+      "address": "789 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 987 6543",
+      "fax": "+31 10 987 6544",
+      "email": "OPERATIONS@ABCLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "870899",
+  "commodityDescription": "OUT_OF_GAUGE CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT9398497",
+      "sealNumber": "SEAL101233",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 6211.83,
+      "measurement": 34.19
+    },
+    {
+      "containerNumber": "CONT4378664",
+      "sealNumber": "SEAL468119",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 13298.49,
+      "measurement": 31.82
+    },
+    {
+      "containerNumber": "CONT5112771",
+      "sealNumber": "SEAL876416",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 8496.67,
+      "measurement": 33.13
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD OPEN TOP",
+    "totalPackages": 207,
+    "totalGrossWeight": 28006.99,
+    "totalMeasurement": 99.14
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 11785x2723x2833, KEEP DRY"
+  },
+  "outOfGaugeDimensions": {
+    "length": "11785",
+    "width": "2723",
+    "height": "2833",
+    "overWidth": "283",
+    "overHeight": "243"
+  }
+}

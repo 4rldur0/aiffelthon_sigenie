@@ -104,7 +104,7 @@ def main():
     st.markdown("---")
     st.markdown(
         "<div style='text-align: center; color: gray; padding: 10px; font-family: Freesentation, sans-serif;'>"
-        "Copyright © 2024 SIGenie 0.03-5009 - Early Access Version. All rights reserved."
+        "Copyright © 2024 SIGenie 0.03-5189 - Early Access Version. All rights reserved."
         "</div>",
         unsafe_allow_html=True
     )

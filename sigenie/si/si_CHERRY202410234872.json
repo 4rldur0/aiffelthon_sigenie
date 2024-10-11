@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202410234872",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENGINEERING LTD.",
+      "onBehalfOf": "",
+      "address": "1234 PRECISION RD, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 12345679",
+      "email": "SALES@ASIAENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "companyNumber": "123456789",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@WORLDWIDELOGISTICS.DE"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 20095 HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES, NUMERICALLY CONTROLLED",
+  "containers": [
+    {
+      "containerNumber": "CONT2666868",
+      "sealNumber": "SEAL615732",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 10540.59,
+      "measurement": 33.04
+    },
+    {
+      "containerNumber": "CONT5475999",
+      "sealNumber": "SEAL494927",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 12502.98,
+      "measurement": 32.13
+    },
+    {
+      "containerNumber": "CONT4115075",
+      "sealNumber": "SEAL405243",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 10418.99,
+      "measurement": 34.21
+    },
+    {
+      "containerNumber": "CONT6693521",
+      "sealNumber": "SEAL907673",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 9787.65,
+      "measurement": 38.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD PLATFORM",
+    "totalPackages": 190,
+    "totalGrossWeight": 43250.21,
+    "totalMeasurement": 137.54
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@WORLDWIDELOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ENGINEERING LTD.",
+      "address": "1234 PRECISION RD, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 12345679"
+    },
+    "onboardDate": "2024-10-27 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 7955x2069x2592, 14 DAYS FREE TIME AT DESTINATION, HANDLE WITH CARE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "7955",
+    "width": "2069",
+    "height": "2592",
+    "overWidth": "0",
+    "overHeight": "2"
+  }
+}

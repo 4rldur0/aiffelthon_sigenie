@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202412088266",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO",
+      "onBehalfOf": "",
+      "address": "1234 PRECISION RD, NINGBO, CHINA",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "INFO@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "EURO TRADING LTD.",
+      "address": "2345 EURO STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 555 6667",
+      "fax": "+31 10 555 6668",
+      "email": "INFO@EUROTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "5678 GLOBAL WAY, SHANGHAI, CHINA"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "960999",
+  "commodityDescription": "ARTICLES OF PAPER OR PAPERBOARD FOR DRAWING OR MARKING OUT",
+  "containers": [
+    {
+      "containerNumber": "CONT9806877",
+      "sealNumber": "SEAL123129",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 8092.27,
+      "measurement": 28.63
+    },
+    {
+      "containerNumber": "CONT9593978",
+      "sealNumber": "SEAL141964",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 14904.69,
+      "measurement": 32.77
+    },
+    {
+      "containerNumber": "CONT1004486",
+      "sealNumber": "SEAL357564",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 14996.65,
+      "measurement": 37.45
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 162,
+    "totalGrossWeight": 37993.61,
+    "totalMeasurement": 98.85
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EURO TRADING LTD.",
+      "address": "2345 EURO STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 555 6667",
+      "fax": "+31 10 555 6668",
+      "email": "INFO@EUROTRADING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 PRECISION RD, NINGBO, CHINA",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013"
+    },
+    "onboardDate": "2024-12-16 20:00",
+    "additionalRemarks": "FRAGILE"
+  }
+}

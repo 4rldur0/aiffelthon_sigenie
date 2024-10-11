@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411086777",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING CO.",
+      "address": "NO. 123, XINING ROAD, NINGBO, CHINA 315000",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 1234",
+      "fax": "+86 574 8888 5678",
+      "email": "INFO@DELTAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL LOGISTICS LTD.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO 20000",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+212 522 123 4567",
+      "fax": "+212 522 123 8901",
+      "email": "INFO@OMEGAGLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "OMEGA GLOBAL LOGISTICS LTD.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO 20000",
+      "usci": "91321200765109788X",
+      "telephone": "+212 522 123 4567",
+      "fax": "+212 522 123 8901",
+      "email": "INFO@OMEGAGLOBALLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381210",
+  "commodityDescription": "CARBON BLACK",
+  "containers": [
+    {
+      "containerNumber": "CONT3922580",
+      "sealNumber": "SEAL210589",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 17277.55,
+      "measurement": 31.55
+    },
+    {
+      "containerNumber": "CONT4398762",
+      "sealNumber": "SEAL543453",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 8116.78,
+      "measurement": 36.63
+    },
+    {
+      "containerNumber": "CONT4860277",
+      "sealNumber": "SEAL728100",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 7745.84,
+      "measurement": 30.46
+    },
+    {
+      "containerNumber": "CONT9950303",
+      "sealNumber": "SEAL956472",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 16152.24,
+      "measurement": 27.95
+    },
+    {
+      "containerNumber": "CONT8455363",
+      "sealNumber": "SEAL742969",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 13453.43,
+      "measurement": 22.65
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE TANK",
+    "totalPackages": 323,
+    "totalGrossWeight": 62745.84,
+    "totalMeasurement": 149.24
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL LOGISTICS LTD.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO 20000",
+      "telephone": "+212 522 123 4567",
+      "fax": "+212 522 123 8901",
+      "email": "INFO@OMEGAGLOBALLOGISTICS.COM"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3008, VALUE: USD65,345"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1719737",
+    "unClass": "3",
+    "unCode": "3008,",
+    "hsCode": "9411.87.77",
+    "flashPoint": "-15\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

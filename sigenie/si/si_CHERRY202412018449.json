@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202412018449",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI JINGHUA MACHINERY CO., LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORT & EXPORT INC.",
+      "address": "NO. 456, MEINING ROAD, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-555-6666",
+      "fax": "+49-30-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "843149",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT8925248",
+      "sealNumber": "SEAL527399",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 9844.52,
+      "measurement": 24.73
+    },
+    {
+      "containerNumber": "CONT1993258",
+      "sealNumber": "SEAL167566",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 7047.75,
+      "measurement": 31.22
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD FLAT RACK",
+    "totalPackages": 182,
+    "totalGrossWeight": 16892.27,
+    "totalMeasurement": 55.95
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GREEN FIELD IMPORT & EXPORT INC.",
+      "address": "NO. 456, MEINING ROAD, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-555-6666",
+      "fax": "+49-30-555-6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN FIELD IMPORT & EXPORT INC.",
+      "address": "NO. 456, MEINING ROAD, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-555-6666",
+      "fax": "+49-30-555-6667"
+    },
+    "onboardDate": "2024-12-07 09:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 3189x2234x2475, UNDER DECK TOP STOWAGE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3189",
+    "width": "2234",
+    "height": "2475",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202410172731",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION ENGINEERING LTD.",
+      "address": "NO. 123, FUJIAN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213",
+      "email": "INFO@GLOBALIMPORTEXPORT.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "848630",
+  "commodityDescription": "METAL PROCESSING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT5396065",
+      "sealNumber": "SEAL570591",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 17045.64,
+      "measurement": 29.21
+    },
+    {
+      "containerNumber": "CONT8108007",
+      "sealNumber": "SEAL701879",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 9939.62,
+      "measurement": 24.42
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 161,
+    "totalGrossWeight": 26985.26,
+    "totalMeasurement": 53.63
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241017-1001",
+    "documentNumber": "20241017-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

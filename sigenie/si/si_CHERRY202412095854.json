@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202412095854",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SEAFOOD INTERNATIONAL INC",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT LTD",
+      "address": "NO. 456, MEINING ROAD, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-12345678",
+      "fax": "+49-30-12345679"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030741",
+  "commodityDescription": "FROZEN ATLANTIC SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT8889607",
+      "sealNumber": "SEAL804200",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 5927.81,
+      "measurement": 21.54
+    },
+    {
+      "containerNumber": "CONT2924565",
+      "sealNumber": "SEAL842233",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 8648.91,
+      "measurement": 30.58
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 94,
+    "totalGrossWeight": 14576.72,
+    "totalMeasurement": 52.12
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-14 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 13\u00b0C, VALUE: USD426,663, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9780810",
+    "temperature": "13\u00b0C",
+    "minTemperature": "11\u00b0C",
+    "maxTemperature": "15\u00b0C",
+    "ventilation": "25%",
+    "humidity": "62%"
+  }
+}

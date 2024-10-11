@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202411108918",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MACHINERY CO. LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIA-PACIFICMACHINERY.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "100 WALL STREET, NEW YORK, NY 10005, USA",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "843149",
+  "commodityDescription": "CONSTRUCTION EQUIPMENT PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT8763201",
+      "sealNumber": "SEAL222134",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 8950.52,
+      "measurement": 34.73
+    },
+    {
+      "containerNumber": "CONT7673211",
+      "sealNumber": "SEAL756118",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 10617.12,
+      "measurement": 22.87
+    },
+    {
+      "containerNumber": "CONT3616101",
+      "sealNumber": "SEAL358908",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 5876.07,
+      "measurement": 27.92
+    },
+    {
+      "containerNumber": "CONT3411487",
+      "sealNumber": "SEAL117330",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 16334.28,
+      "measurement": 20.87
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD FLAT RACK",
+    "totalPackages": 319,
+    "totalGrossWeight": 41777.99,
+    "totalMeasurement": 106.39
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "100 WALL STREET, NEW YORK, NY 10005, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 4450x2170x2154"
+  },
+  "outOfGaugeDimensions": {
+    "length": "4450",
+    "width": "2170",
+    "height": "2154",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

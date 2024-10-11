@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410314554",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO. LTD",
+      "address": "NO. 1234 JIANGNAN ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA",
+      "lei": "98765432101234567890",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 1111",
+      "email": "INFO@SUNRISEMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "DELTA INTERNATIONAL LOGISTICS LTD.",
+      "address": "2222 ROTTERDAM STREET, ROTTERDAM, THE NETHERLANDS",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@DELTAINTERNATIONAL.NL"
+    },
+    "notifyParty": {
+      "name": "DELTA INTERNATIONAL LOGISTICS LTD.",
+      "address": "2222 ROTTERDAM STREET, ROTTERDAM, THE NETHERLANDS",
+      "usci": "91321200765109788X",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@DELTAINTERNATIONAL.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT2815855",
+      "sealNumber": "SEAL852840",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 19509.25,
+      "measurement": 38.52
+    },
+    {
+      "containerNumber": "CONT3020097",
+      "sealNumber": "SEAL668903",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 17322.83,
+      "measurement": 20.3
+    },
+    {
+      "containerNumber": "CONT2403157",
+      "sealNumber": "SEAL250638",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 17733.4,
+      "measurement": 31.55
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 252,
+    "totalGrossWeight": 54565.48,
+    "totalMeasurement": 90.37
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA INTERNATIONAL LOGISTICS LTD.",
+      "address": "2222 ROTTERDAM STREET, ROTTERDAM, THE NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@DELTAINTERNATIONAL.NL"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "FRAGILE"
+  }
+}
