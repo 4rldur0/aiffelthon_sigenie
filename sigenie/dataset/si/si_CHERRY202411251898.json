@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411251898",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG, GERMANY",
+    "portOfLoading": "HAMBURG, GERMANY",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, FRANKFURT, GERMANY",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679"
+    },
+    "consignee": {
+      "name": "SOUTH EAST ASIA LOGISTICS LTD.",
+      "address": "100 JALAN TUN RAZAK, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2145 6789",
+      "fax": "+60 3 2145 6780"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "150 LONDON ROAD, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7654 3210",
+      "fax": "+44 20 7654 3211"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871190",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT6047620",
+      "sealNumber": "SEAL821792",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 17085.18,
+      "measurement": 28.59
+    },
+    {
+      "containerNumber": "CONT6600652",
+      "sealNumber": "SEAL583760",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 13104.94,
+      "measurement": 35.15
+    },
+    {
+      "containerNumber": "CONT4711005",
+      "sealNumber": "SEAL313736",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 9715.11,
+      "measurement": 25.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 194,
+    "totalGrossWeight": 39905.23,
+    "totalMeasurement": 88.94
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "150 LONDON ROAD, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7654 3210",
+      "fax": "+44 20 7654 3211"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SOUTH EAST ASIA LOGISTICS LTD.",
+      "address": "100 JALAN TUN RAZAK, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2145 6789",
+      "fax": "+60 3 2145 6780"
+    },
+    "onboardDate": "2024-12-12 18:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION, FRAGILE"
+  }
+}

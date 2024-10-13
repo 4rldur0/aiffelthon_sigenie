@@ -123,7 +123,8 @@ def main():
 
     initialize_vector_db()
 
-    search_value = st.text_input("Enter search term")
+    # search_value = st.text_input("Enter search term")
+    search_value = st.text_area("Enter search term", height=100)
 
     st.markdown("""
         **Similarity Threshold**: This slider controls how similar a document must be to the search query to be included in the results. 

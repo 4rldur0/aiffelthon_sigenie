@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202411235124",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SCHULZ GMBH & CO. KG",
+      "address": "SCHULZSTRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-12345679"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 10, 20099 FRANKFURT, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 10, 20099 FRANKFURT, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "110101",
+  "commodityDescription": "WHEAT",
+  "containers": [
+    {
+      "containerNumber": "CONT3252829",
+      "sealNumber": "SEAL354503",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 15734.5,
+      "measurement": 33.57
+    },
+    {
+      "containerNumber": "CONT9761723",
+      "sealNumber": "SEAL711070",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 7720.16,
+      "measurement": 27.54
+    },
+    {
+      "containerNumber": "CONT4300043",
+      "sealNumber": "SEAL915219",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 18951.81,
+      "measurement": 35.3
+    },
+    {
+      "containerNumber": "CONT9685410",
+      "sealNumber": "SEAL763424",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 16953.8,
+      "measurement": 37.32
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE TANK",
+    "totalPackages": 233,
+    "totalGrossWeight": 59360.27,
+    "totalMeasurement": 133.73
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 10, 20099 FRANKFURT, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 10, 20099 FRANKFURT, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2233, 30 DAYS FREE TIME AT DESTINATION",
+    "dangerousGoods": {
+      "unNumber": "2233",
+      "class": "9",
+      "packingGroup": "III"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9075363",
+    "unClass": "9",
+    "unCode": "2233,",
+    "hsCode": "7072.92.96",
+    "flashPoint": "8\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

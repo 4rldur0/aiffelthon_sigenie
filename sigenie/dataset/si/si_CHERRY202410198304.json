@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410198304",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI DRAGON TEXTILES CO., LTD.",
+      "address": "123 DRAGON STREET, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@DRAGONTEXTILES.CN"
+    },
+    "consignee": {
+      "name": "GOLDEN STAR IMPORTERS LTD.",
+      "address": "456 STAR AVENUE, ROTTERDAM, NETHERLANDS 3000 AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "ORDERS@GOLDENSTARIMPORTERS.NL",
+      "personincharge": "PETER VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "name": "EUROLOGISTICS B.V.",
+      "address": "789 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS 3010 AB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 9876 5432",
+      "fax": "+31 10 9876 5433",
+      "email": "CONTACT@EUROLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "331910",
+  "commodityDescription": "DANGEROUS GOODS",
+  "containers": [
+    {
+      "containerNumber": "CONT3160053",
+      "sealNumber": "SEAL678712",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 8182.65,
+      "measurement": 29.61
+    },
+    {
+      "containerNumber": "CONT1480613",
+      "sealNumber": "SEAL392537",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 15032.0,
+      "measurement": 30.3
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 171,
+    "totalGrossWeight": 23214.65,
+    "totalMeasurement": 59.91
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-10-28 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3319, VALUE: USD703,391"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9527234",
+    "unClass": "2",
+    "unCode": "3319,",
+    "hsCode": "5923.14.32",
+    "flashPoint": "89\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

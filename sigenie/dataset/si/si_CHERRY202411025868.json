@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411025868",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH PRECISION GMBH",
+      "address": "BERLINER STRASSE 12, 10117 BERLIN, GERMANY",
+      "telephone": "+49 30 2223 4567",
+      "fax": "+49 30 2223 4568",
+      "email": "INFO@EUROTECHPRECISION.DE"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "UNIT 1201, 12/F, SHANGHAI TOWER, 500 PU DONG AVE, SHANGHAI, CHINA 200120",
+      "taxId": "",
+      "president": "MR. LI WEI",
+      "telephone": "+86 21 6327 8901",
+      "fax": "+86 21 6327 8902",
+      "email": "WEI.LI@ASIAPACIFICLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "CHINA IMPORT SERVICES LTD",
+      "address": "ROOM 1502, 15/F, EVERGRAND PLAZA, NO. 88, SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "taxId": "",
+      "president": "MS. ZHANG MEI",
+      "telephone": "+86 574 8789 5678",
+      "fax": "+86 574 8789 5679"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "REFRIGERATION PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT9947407",
+      "sealNumber": "SEAL866372",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 9340.93,
+      "measurement": 20.18
+    },
+    {
+      "containerNumber": "CONT1279367",
+      "sealNumber": "SEAL549043",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 13153.18,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 88,
+    "totalGrossWeight": 22494.11,
+    "totalMeasurement": 45.68
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241102001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "UNIT 1201, 12/F, SHANGHAI TOWER, 500 PU DONG AVE, SHANGHAI, CHINA 200120",
+      "telephone": "+86 21 6327 8901",
+      "fax": "+86 21 6327 8902",
+      "email": "WEI.LI@ASIAPACIFICLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "UNIT 1201, 12/F, SHANGHAI TOWER, 500 PU DONG AVE, SHANGHAI, CHINA 200120",
+      "telephone": "+86 21 6327 8901",
+      "fax": "+86 21 6327 8902",
+      "email": "WEI.LI@ASIAPACIFICLOGISTICS.COM"
+    },
+    "onboardDate": "2024-11-06 21:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 11\u00b0C, VALUE: USD695,935, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7106505",
+    "temperature": "11\u00b0C",
+    "minTemperature": "9\u00b0C",
+    "maxTemperature": "13\u00b0C",
+    "ventilation": "1%",
+    "humidity": "70%"
+  }
+}

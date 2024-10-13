@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from app import json_bkg, json_si, json_bl, search_si
+from app import json_bkg, json_si, json_bl, search_si, search_compliance
 from utils.helpers import get_custom_font_css
 from pymongo import MongoClient
 from datetime import datetime
@@ -28,7 +28,7 @@ def main():
     # Sidebar menu
     menu = st.sidebar.selectbox(
         "Select Menu",
-        ["Booking", "Shipping Instructions", "Bill of Lading", "Shipping Instruction Search"]
+        ["Booking", "Shipping Instructions", "Bill of Lading", "Shipping Instruction Search", "Company Policy Search"]
     )
 
     # Dataset info in sidebar
@@ -38,14 +38,14 @@ def main():
 
     bkg_info = (
         f"**Booking Dataset:**\n\n"
-        f"Documents: {bkg_count}\n\n"
+        f"Documents: {bkg_count:,}\n\n"
         f"Last Update: {bkg_last_update.strftime('%Y-%m-%d %H:%M:%S') if bkg_last_update else 'N/A'}"
     )
     st.sidebar.info(bkg_info)
     
     si_info = (
         f"**SI Dataset:**\n\n"
-        f"Documents: {si_count}\n\n"
+        f"Documents: {si_count:,}\n\n"
         f"Last Update: {si_last_update.strftime('%Y-%m-%d %H:%M:%S') if si_last_update else 'N/A'}"
     )
     st.sidebar.info(si_info)
@@ -63,12 +63,15 @@ def main():
     elif menu == "Shipping Instruction Search":
         st.title("Shipping Instruction Search")
         search_si.main()
+    elif menu == "Company Policy Search":
+        st.title("Company Policy Search")
+        search_compliance.main()
 
     # Footer 추가
     st.markdown("---")
     st.markdown(
         "<div style='text-align: center; color: gray; padding: 10px;'>"
-        "Copyright © 2024 SIGenie 0.04-5372 - Early Access Version. All rights reserved."
+        "Copyright © 2024 SIGenie 0.04-5570 - Early Access Version. All rights reserved."
         "</div>",
         unsafe_allow_html=True
     )

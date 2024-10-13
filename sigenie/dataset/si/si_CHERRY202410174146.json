@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410174146",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS INC.",
+      "address": "1234 HONGQIAO ROAD, NINGBO 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@ASIAFOODS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "1234 SKYLINE DRIVE, WARSAW 00-100, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 22 812 73 25",
+      "fax": "+48 22 812 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALFREIGHTSOLUTIONS.PL"
+    },
+    "notifyParty": {
+      "name": "POLSKI TRANSPORT LOGISTYCZNY S.A.",
+      "address": "UL. SPEDYCYJNA 123, 31-266 KRAK\u00d3W, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 12 713 29 39",
+      "fax": "+48 12 713 29 44",
+      "email": "ANNA.NOWAK@PTL-LOGISTYKA.PL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT3159123",
+      "sealNumber": "SEAL736379",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 15512.6,
+      "measurement": 30.07
+    },
+    {
+      "containerNumber": "CONT8213624",
+      "sealNumber": "SEAL639120",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 13900.66,
+      "measurement": 31.23
+    },
+    {
+      "containerNumber": "CONT5242503",
+      "sealNumber": "SEAL497901",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 14270.05,
+      "measurement": 39.97
+    },
+    {
+      "containerNumber": "CONT5789623",
+      "sealNumber": "SEAL665370",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 19550.08,
+      "measurement": 24.49
+    },
+    {
+      "containerNumber": "CONT6715823",
+      "sealNumber": "SEAL292444",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 15827.04,
+      "measurement": 34.47
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD REEFER",
+    "totalPackages": 174,
+    "totalGrossWeight": 79060.43,
+    "totalMeasurement": 160.23
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "1234 SKYLINE DRIVE, WARSAW 00-100, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 22 812 73 25",
+      "fax": "+48 22 812 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALFREIGHTSOLUTIONS.PL"
+    },
+    "onboardDate": "2024-10-23 21:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -19\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8130238",
+    "temperature": "-19\u00b0C",
+    "minTemperature": "-21\u00b0C",
+    "maxTemperature": "-17\u00b0C",
+    "ventilation": "58%",
+    "humidity": "81%"
+  }
+}

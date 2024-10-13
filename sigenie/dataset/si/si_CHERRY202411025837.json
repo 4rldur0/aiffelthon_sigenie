@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202411025837",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA TRADING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1213"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "124 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-6666-7878",
+      "fax": "+31-20-6666-7879",
+      "email": "INFO@GLOBALSOLUTIONS.NL",
+      "contactPerson": "ANNA VAN DER MEER"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "330499",
+  "commodityDescription": "PERFUME",
+  "containers": [
+    {
+      "containerNumber": "CONT9299110",
+      "sealNumber": "SEAL886133",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 7667.37,
+      "measurement": 33.11
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 90,
+    "totalGrossWeight": 7667.37,
+    "totalMeasurement": 33.11
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241102-001",
+    "documentNumber": "20241102-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "124 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-6666-7878",
+      "fax": "+31-20-6666-7879"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "124 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-6666-7878",
+      "fax": "+31-20-6666-7879"
+    },
+    "onboardDate": "2024-11-16 21:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2249, VALUE: USD813,299, THIS SIDE UP"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7172204",
+    "unClass": "4",
+    "unCode": "2249,",
+    "hsCode": "7577.99.24",
+    "flashPoint": "-5\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

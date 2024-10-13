@@ -1,143 +1,121 @@
 {
   "bookingReference": "CHERRY202410192086",
   "voyageDetails": {
-    "vesselName": "APL VANDA",
-    "voyageNumber": "OFLQHW1MA"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
   },
   "routeDetails": {
-    "placeOfReceipt": "HAMBURG",
-    "portOfLoading": "HAMBURG",
-    "portOfDischarge": "NINGBO",
-    "placeOfDelivery": "NINGBO"
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 5
   },
   "partyDetails": {
     "shipper": {
-      "name": "SIEMENS AG",
-      "address": "WITTHAUSSTRASSE 16, 80336 MUNICH, GERMANY",
-      "telephone": "+49 89 636-35700",
-      "fax": "+49 89 636-35701",
-      "email": "SHIPPING@SIEMENS.COM"
+      "name": "GLOBAL PRECISION ENGINEERING CO LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
     },
     "consignee": {
-      "name": "DHL GLOBAL FORWARDING GMBH",
-      "address": "RAFFALSEE STREET 28, 048622 SINGAPORE",
-      "taxId": "20101234567890",
-      "president": "MR. JOHN SMITH",
-      "telephone": "+65 6238 8200",
-      "fax": "+65 6238 8201",
-      "email": "SHIPPING@DHL.COM"
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
     },
     "notifyParty": {
-      "name": "SIEMENS AG",
-      "address": "WITTHAUSSTRASSE 16, 80336 MUNICH, GERMANY",
-      "telephone": "+49 89 636-35700",
-      "fax": "+49 89 636-35701",
-      "email": "SHIPPING@SIEMENS.COM"
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
     }
   },
   "shippingTerm": "CFS/CY",
-  "hsCode": "842139",
-  "commodityDescription": "LATHE MACHINE",
+  "hsCode": "340213",
+  "commodityDescription": "DANGEROUS GOODS - LIQUIFIED ETHYLENE OXIDE",
   "containers": [
     {
-      "containerNumber": "CONT2901252",
-      "sealNumber": "SEAL957219",
-      "numberOfPackages": 99,
+      "containerNumber": "CONT6202097",
+      "sealNumber": "SEAL516037",
+      "numberOfPackages": 37,
       "packageType": "BOXES",
-      "grossWeight": 12793.26,
-      "measurement": 39.59
+      "grossWeight": 17888.45,
+      "measurement": 29.38
     },
     {
-      "containerNumber": "CONT9997743",
-      "sealNumber": "SEAL323194",
-      "numberOfPackages": 70,
+      "containerNumber": "CONT8691116",
+      "sealNumber": "SEAL125357",
+      "numberOfPackages": 60,
       "packageType": "BOXES",
-      "grossWeight": 17264.6,
-      "measurement": 27.01
+      "grossWeight": 9253.56,
+      "measurement": 25.46
     },
     {
-      "containerNumber": "CONT9129849",
-      "sealNumber": "SEAL356388",
-      "numberOfPackages": 52,
+      "containerNumber": "CONT6341880",
+      "sealNumber": "SEAL313476",
+      "numberOfPackages": 46,
       "packageType": "BOXES",
-      "grossWeight": 11598.57,
-      "measurement": 37.72
+      "grossWeight": 19572.12,
+      "measurement": 23.59
     },
     {
-      "containerNumber": "CONT9142061",
-      "sealNumber": "SEAL384865",
-      "numberOfPackages": 43,
+      "containerNumber": "CONT7048328",
+      "sealNumber": "SEAL691871",
+      "numberOfPackages": 54,
       "packageType": "BOXES",
-      "grossWeight": 7378.24,
-      "measurement": 23.41
-    },
-    {
-      "containerNumber": "CONT7043525",
-      "sealNumber": "SEAL507956",
-      "numberOfPackages": 69,
-      "packageType": "BOXES",
-      "grossWeight": 8901.73,
-      "measurement": 21.15
-    },
-    {
-      "containerNumber": "CONT3338682",
-      "sealNumber": "SEAL761941",
-      "numberOfPackages": 20,
-      "packageType": "BOXES",
-      "grossWeight": 16684.26,
-      "measurement": 27.15
-    },
-    {
-      "containerNumber": "CONT4705830",
-      "sealNumber": "SEAL266631",
-      "numberOfPackages": 26,
-      "packageType": "BOXES",
-      "grossWeight": 19232.51,
-      "measurement": 24.23
+      "grossWeight": 10275.94,
+      "measurement": 22.84
     }
   ],
   "totalShipment": {
-    "totalContainers": "7 x 20 STANDARD FLAT RACK",
-    "totalPackages": 379,
-    "totalGrossWeight": 93853.17,
-    "totalMeasurement": 200.26
+    "totalContainers": "4 x 20 STANDARD GENERAL",
+    "totalPackages": 197,
+    "totalGrossWeight": 56990.07,
+    "totalMeasurement": 101.27
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "LC20241019-001"
+      "lcNumber": ""
     },
-    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING GMBH",
-      "address": "RAFFALSEE STREET 28, 048622 SINGAPORE",
-      "telephone": "+65 6238 8200",
-      "fax": "+65 6238 8201",
-      "email": "SHIPPING@DHL.COM"
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
     },
     "originalInvoiceDistribution": {
-      "name": "SIEMENS AG",
-      "address": "WITTHAUSSTRASSE 16, 80336 MUNICH, GERMANY",
-      "telephone": "+49 89 636-35700",
-      "fax": "+49 89 636-35701",
-      "email": "SHIPPING@SIEMENS.COM"
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
     },
-    "onboardDate": "2024-10-23 22:00",
-    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5443x2849x2770, 21 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "2024-10-27 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3498, VALUE: USD511,755, 14 DAYS FREE TIME AT DESTINATION",
+    "dangerousGoods": {
+      "unNumber": "3498",
+      "properShippingName": "LIQUIFIED ETHYLENE OXIDE",
+      "class": "6.1",
+      "packingGroup": "II"
+    }
   },
-  "outOfGaugeDimensions": {
-    "length": "5443",
-    "width": "2849",
-    "height": "2770",
-    "overWidth": "409",
-    "overHeight": "180"
+  "dangerousGoods": {
+    "containerNumber": "CONT3632690",
+    "unClass": "3",
+    "unCode": "3498,",
+    "hsCode": "3820.92.85",
+    "flashPoint": "-1\u00b0C",
+    "additionalInfo": "Handle with care"
   }
 }

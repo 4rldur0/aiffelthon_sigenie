@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202410149212",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA INTERNATIONAL CO.",
+      "address": "NO. 123, JIANGSU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6325 7890",
+      "fax": "+86 21 6325 7891",
+      "email": "INFO@ALPHAINTERNATIONAL.CN"
+    },
+    "consignee": {
+      "name": "TOYOTA TRADING CO., LTD.",
+      "address": "DE BRIJENSTRAAT 12, 3011 BR ROTTERDAM, NETHERLANDS",
+      "taxId": "NL811234567B01",
+      "president": "MR. JAN VAN DER MEER",
+      "telephone": "+31 10 414 5600",
+      "fax": "+31 10 414 5601",
+      "email": "JAN.VANDERMEER@TOYOTATRADING.NL"
+    },
+    "notifyParty": {
+      "name": "DELTA LOGISTICS N.V.",
+      "address": "BEVERWYCKSTRAAT 5, 3011 GA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8889",
+      "email": "INFO@DELTA-LOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "381400",
+  "commodityDescription": "CHLOROPHENOL",
+  "containers": [
+    {
+      "containerNumber": "CONT3800828",
+      "sealNumber": "SEAL336313",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 16044.12,
+      "measurement": 37.53
+    },
+    {
+      "containerNumber": "CONT9600375",
+      "sealNumber": "SEAL746277",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 18911.61,
+      "measurement": 26.9
+    },
+    {
+      "containerNumber": "CONT4930590",
+      "sealNumber": "SEAL252679",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 17516.54,
+      "measurement": 33.78
+    },
+    {
+      "containerNumber": "CONT6768020",
+      "sealNumber": "SEAL398348",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 16249.49,
+      "measurement": 27.29
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 324,
+    "totalGrossWeight": 68721.76,
+    "totalMeasurement": 125.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-10-23 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2114, VALUE: USD347,881, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6648057",
+    "unClass": "9",
+    "unCode": "2114,",
+    "hsCode": "8309.27.82",
+    "flashPoint": "64\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

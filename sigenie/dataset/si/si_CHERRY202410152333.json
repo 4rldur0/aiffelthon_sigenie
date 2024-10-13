@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410152333",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 ASIA STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 GLOBAL WAY, GDANSK, POLAND",
+      "companyNumber": "123456789",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 GLOBAL WAY, GDANSK, POLAND"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT9624263",
+      "sealNumber": "SEAL931828",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 14576.98,
+      "measurement": 29.58
+    },
+    {
+      "containerNumber": "CONT1304192",
+      "sealNumber": "SEAL130193",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 5715.52,
+      "measurement": 38.33
+    },
+    {
+      "containerNumber": "CONT2229299",
+      "sealNumber": "SEAL785718",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 12429.71,
+      "measurement": 37.9
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 103,
+    "totalGrossWeight": 32722.21,
+    "totalMeasurement": 105.81
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 GLOBAL WAY, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 ASIA STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

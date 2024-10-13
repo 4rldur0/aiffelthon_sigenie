@@ -1,114 +1,117 @@
 {
   "bookingReference": "CHERRY202411259595",
   "voyageDetails": {
-    "vesselName": "APL CHANGI",
-    "voyageNumber": "OFLQ2E1MA"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ALGECIRAS, SPAIN",
-    "placeOfDelivery": "ALGECIRAS, SPAIN"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "SEAWAY",
-    "numberOfOriginalBLs": 0,
-    "numberOfCopies": 4
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
   },
   "partyDetails": {
     "shipper": {
-      "name": "BETA MANUFACTURING CO. LTD",
-      "address": "1234, INDUSTRY STREET, NINGBO, 315000",
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1288 NINGBO PORT ROAD, JIANGDONG DISTRICT, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
       "country": "CHINA",
-      "additionalInfo": "(NINGBO INDUSTRIAL ZONE)",
-      "telephone": "+86 574 8654 3210",
-      "email": "SHIPPING@BETAMANUFACTURING.CN"
+      "additionalInfo": "",
+      "telephone": "+86 574 8669 9000",
+      "fax": "+86 574 8669 9001",
+      "email": "ZHANG.XU@ASIAPACIFICTRADING.CN"
     },
     "consignee": {
-      "name": "ALPHA IMPORT EXPORT LTD",
-      "address": "123, ALGEICIRAS STREET, ALGECIRAS, 11001",
-      "country": "SPAIN",
-      "email": "ORDERS@ALPHAIMPORTEXPORT.ES",
-      "telephone": "+34 956 7890 12"
+      "name": "EURO TOYS LTD",
+      "address": "UL. SKARZYNSKIEGO 12, 80-255 GDANSK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 303 5000",
+      "fax": "+48 58 303 5001",
+      "email": "CONTACT@EUROTOYS.PL",
+      "personincharge": "ANNA NOWAK"
     },
     "notifyParty": {
-      "name": "ALPHA IMPORT EXPORT LTD",
-      "address": "123, ALGEICIRAS STREET, ALGECIRAS, 11001",
-      "country": "SPAIN",
-      "email": "ORDERS@ALPHAIMPORTEXPORT.ES",
-      "telephone": "+34 956 7890 12"
+      "name": "LOGISTICS SOLUTIONS POLAND SP. Z O.O.",
+      "address": "UL. ZAWISZY 15, 80-333 GDANSK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 345 6000",
+      "fax": "+48 58 345 6001",
+      "email": "INFO@LOGISTICSSOLUTIONSPL.PL"
     }
   },
-  "shippingTerm": "CY/CY",
-  "hsCode": "630790",
-  "commodityDescription": "BED LINEN SET",
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
   "containers": [
     {
-      "containerNumber": "CONT1033233",
-      "sealNumber": "SEAL232945",
-      "numberOfPackages": 58,
+      "containerNumber": "CONT6777637",
+      "sealNumber": "SEAL727601",
+      "numberOfPackages": 34,
       "packageType": "BOXES",
-      "grossWeight": 12458.99,
-      "measurement": 24.3
+      "grossWeight": 17179.61,
+      "measurement": 26.46
     },
     {
-      "containerNumber": "CONT5410279",
-      "sealNumber": "SEAL358109",
-      "numberOfPackages": 41,
+      "containerNumber": "CONT4924023",
+      "sealNumber": "SEAL750122",
+      "numberOfPackages": 15,
       "packageType": "BOXES",
-      "grossWeight": 19199.85,
-      "measurement": 23.69
+      "grossWeight": 10892.13,
+      "measurement": 34.99
     },
     {
-      "containerNumber": "CONT7473332",
-      "sealNumber": "SEAL601479",
-      "numberOfPackages": 91,
+      "containerNumber": "CONT5747607",
+      "sealNumber": "SEAL754858",
+      "numberOfPackages": 32,
       "packageType": "BOXES",
-      "grossWeight": 8486.07,
-      "measurement": 26.59
+      "grossWeight": 5752.3,
+      "measurement": 23.97
     },
     {
-      "containerNumber": "CONT6066107",
-      "sealNumber": "SEAL400180",
-      "numberOfPackages": 66,
+      "containerNumber": "CONT8507641",
+      "sealNumber": "SEAL414210",
+      "numberOfPackages": 18,
       "packageType": "BOXES",
-      "grossWeight": 16542.77,
-      "measurement": 37.21
+      "grossWeight": 19689.3,
+      "measurement": 34.15
     }
   ],
   "totalShipment": {
-    "totalContainers": "4 x 45 HIGH CUBE TANK",
-    "totalPackages": 256,
-    "totalGrossWeight": 56687.68,
-    "totalMeasurement": 111.79
+    "totalContainers": "4 x 20 STANDARD GENERAL",
+    "totalPackages": 99,
+    "totalGrossWeight": 53513.34,
+    "totalMeasurement": 119.57
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "00001010334237"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "411252403578X",
-      "411252403579X"
+      "411252403578X"
     ],
     "originalBLDistribution": {
-      "name": "TAIHAN GLOBAL CO., LTD.",
-      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
-      "telephone": "+86 755 2598 7654",
-      "fax": "+86 755 2598 7655",
-      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
     },
     "originalInvoiceDistribution": {
-      "name": "TAIHAN GLOBAL CO., LTD.",
-      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
-      "telephone": "+86 755 2598 7654",
-      "fax": "+86 755 2598 7655",
-      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
     },
-    "onboardDate": "2024-12-07 18:00",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "2024-12-11 20:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION, HANDLE WITH CARE"
   }
 }

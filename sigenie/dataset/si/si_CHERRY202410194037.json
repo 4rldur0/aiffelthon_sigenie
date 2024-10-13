@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410194037",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BAIER GMBH & CO. KG",
+      "address": "KL\u00c4REPLATZ 1, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 40 32598765",
+      "email": "SHIPPING@BAIERGMBH.DE"
+    },
+    "consignee": {
+      "name": "SCHULZE & CO. GMBH",
+      "address": "38 ROBIN ROAD, SINGAPORE 258038",
+      "country": "SINGAPORE",
+      "email": "ORDERS@SCHULZEGMBH.SG",
+      "telephone": "+65 6278 9123",
+      "fax": "+65 6278 9124"
+    },
+    "notifyParty": {
+      "name": "SCHULZE LOGISTICS PTE LTD",
+      "address": "555 ALEXANDRA ROAD, SINGAPORE 118114",
+      "country": "SINGAPORE",
+      "email": "FREIGHT@SCHULZELOGISTICS.SG",
+      "telephone": "+65 6737 8910",
+      "fax": "+65 6737 8911"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS, N.O.S.",
+  "containers": [
+    {
+      "containerNumber": "CONT5146258",
+      "sealNumber": "SEAL625726",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 15451.17,
+      "measurement": 24.35
+    },
+    {
+      "containerNumber": "CONT6837577",
+      "sealNumber": "SEAL780432",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 5048.84,
+      "measurement": 30.64
+    },
+    {
+      "containerNumber": "CONT9465232",
+      "sealNumber": "SEAL835020",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 12564.69,
+      "measurement": 38.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 60,
+    "totalGrossWeight": 33064.7,
+    "totalMeasurement": 93.15
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SCHULZE & CO. GMBH",
+      "address": "38 ROBIN ROAD, SINGAPORE 258038",
+      "telephone": "+65 6278 9123",
+      "fax": "+65 6278 9124",
+      "email": "ORDERS@SCHULZEGMBH.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SCHULZE & CO. GMBH",
+      "address": "38 ROBIN ROAD, SINGAPORE 258038",
+      "telephone": "+65 6278 9123",
+      "fax": "+65 6278 9124",
+      "email": "ORDERS@SCHULZEGMBH.SG"
+    },
+    "onboardDate": "2024-10-22 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2454"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2563292",
+    "unClass": "5",
+    "unCode": "2454",
+    "hsCode": "1105.33.71",
+    "flashPoint": "83\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

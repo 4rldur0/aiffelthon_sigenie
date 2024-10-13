@@ -73,7 +73,11 @@ sigenie/
 │ ├── json_bkg.py 🎫 (Booking handling)
 │ ├── json_si.py 📄 (Shipping Instructions handling)
 │ ├── json_bl.py 🚢 (Bill of Lading handling)
-│ └── search_si.py 🔍 (Search functionality)
+│ ├──  search_si.py 🔍 (Search functionality)
+│ └── search_compliance.py 🔍 (Search company policy)
+│
+├── prompts/
+│ └──compliance_rag_prompt.yaml 💬 (System prompt for rag)
 │
 ├── utils/
 │ ├── init.py
@@ -148,6 +152,13 @@ This is an early access version. For major changes, please open an issue first t
   - Shipping Instruction vector search in MongoDB
   - Restructue folder
   - dataset 5372 (2024-10-13)
+
+- v0.05 (2024-10-12)
+
+  - Company policy search
+  - dataset 5570 (2024-10-14)
+
+---
 
 Copyright (c) 2024 Tongyang Systems.
 All rights reserved. This project and its source code are proprietary and confidential. Unauthorized copying, modification, distribution, or use of this project, via any medium, is strictly prohibited without the express written permission of the copyright holder.

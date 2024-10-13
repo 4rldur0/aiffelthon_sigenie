@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410227353",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA GLOBAL TRADING CO.",
+      "address": "1234 GLOBAL TRADE STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SHIPPING@OMEGAGLOBAL.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "15 ALAMEDA DE LA IGLESIA, ALGECIRAS, SPAIN 11001",
+      "taxId": "ESB123456789",
+      "president": "MR. ANTONIO RODRIGUEZ",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "ANTONIO.RODRIGUEZ@DELTASHIPPING.ES"
+    },
+    "notifyParty": {
+      "name": "SPANISH IMPORT SERVICES S.A.",
+      "address": "5 AVENIDA DEL PUERTO, ALGECIRAS, SPAIN 11002",
+      "taxId": "ESA987654321",
+      "president": "MS. MARIA FERNANDEZ",
+      "telephone": "+34 956 5432 10",
+      "fax": "+34 956 5432 11"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030710",
+  "commodityDescription": "WHEAT FLOUR",
+  "containers": [
+    {
+      "containerNumber": "CONT9447898",
+      "sealNumber": "SEAL536658",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 16835.72,
+      "measurement": 28.04
+    },
+    {
+      "containerNumber": "CONT5907519",
+      "sealNumber": "SEAL141904",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 5784.47,
+      "measurement": 32.32
+    },
+    {
+      "containerNumber": "CONT6616930",
+      "sealNumber": "SEAL824021",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 10459.75,
+      "measurement": 38.74
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 193,
+    "totalGrossWeight": 33079.94,
+    "totalMeasurement": 99.1
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC23456789012"
+    },
+    "certificateDetails": "C0000171595",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 11\u00b0C, VALUE: USD425,770, UNDER DECK TOP STOWAGE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5263277",
+    "temperature": "11\u00b0C",
+    "minTemperature": "9\u00b0C",
+    "maxTemperature": "13\u00b0C",
+    "ventilation": "31%",
+    "humidity": "82%"
+  }
+}

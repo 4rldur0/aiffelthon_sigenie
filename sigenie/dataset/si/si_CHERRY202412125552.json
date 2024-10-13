@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202412125552",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TEXTILE CORPORATION",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1213",
+      "email": "INFO@SHANGHAITEXTILE.COM"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN IMPORTS LLC",
+      "address": "123 HAMBURG STREET, HAMBURG, GERMANY",
+      "taxId": "DE1234567890",
+      "president": "MR. HANS SCHMIDT",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GOLDENSUNIMPORTS.COM"
+    },
+    "notifyParty": {
+      "name": "HAMBURG LOGISTICS GMBH",
+      "address": "123 PORT STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433",
+      "email": "INFO@HAMBURGLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "630790",
+  "commodityDescription": "TEXTILE ARTICLES, MADE UP",
+  "containers": [
+    {
+      "containerNumber": "CONT9985894",
+      "sealNumber": "SEAL433315",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 19574.84,
+      "measurement": 31.52
+    },
+    {
+      "containerNumber": "CONT7475509",
+      "sealNumber": "SEAL445615",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 19244.5,
+      "measurement": 31.29
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 49,
+    "totalGrossWeight": 38819.34,
+    "totalMeasurement": 62.81
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GOLDEN SUN IMPORTS LLC",
+      "address": "123 HAMBURG STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GOLDENSUNIMPORTS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN SUN IMPORTS LLC",
+      "address": "123 HAMBURG STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GOLDENSUNIMPORTS.COM"
+    },
+    "onboardDate": "2024-12-20 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

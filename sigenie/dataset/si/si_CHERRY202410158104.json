@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410158104",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF PRECISION ENGINEERING CO.",
+      "address": "123 INDUSTRIAL STREET, SINGAPORE 659321",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0456",
+      "email": "INFO@DEFENGINEERING.SG"
+    },
+    "consignee": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "456 VICTORY ROAD, PARIS 75001, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6780",
+      "email": "SALES@ABCLOGISTICS.FR"
+    },
+    "notifyParty": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "456 VICTORY ROAD, PARIS 75001, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6780",
+      "email": "SALES@ABCLOGISTICS.FR"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "123456",
+  "commodityDescription": "CHEMICAL PRODUCTS",
+  "containers": [
+    {
+      "containerNumber": "CONT3908266",
+      "sealNumber": "SEAL663351",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 16535.0,
+      "measurement": 24.97
+    },
+    {
+      "containerNumber": "CONT4559513",
+      "sealNumber": "SEAL609332",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 12873.79,
+      "measurement": 35.38
+    },
+    {
+      "containerNumber": "CONT2004613",
+      "sealNumber": "SEAL780175",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 13797.21,
+      "measurement": 32.09
+    },
+    {
+      "containerNumber": "CONT6328027",
+      "sealNumber": "SEAL141707",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 18397.59,
+      "measurement": 24.08
+    },
+    {
+      "containerNumber": "CONT8114039",
+      "sealNumber": "SEAL732132",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 18117.06,
+      "measurement": 26.18
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD GENERAL",
+    "totalPackages": 228,
+    "totalGrossWeight": 79720.65,
+    "totalMeasurement": 142.7
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": [
+      " FUMIGATION CERTIFICATE",
+      " CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "456 VICTORY ROAD, PARIS 75001, FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6780",
+      "email": "SALES@ABCLOGISTICS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DEF PRECISION ENGINEERING CO.",
+      "address": "123 INDUSTRIAL STREET, SINGAPORE 659321",
+      "country": "SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0456",
+      "email": "INFO@DEFENGINEERING.SG"
+    },
+    "onboardDate": "2024-10-21 15:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3147"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8547876",
+    "unClass": "6",
+    "unCode": "3147",
+    "hsCode": "1197.81.41",
+    "flashPoint": "84\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

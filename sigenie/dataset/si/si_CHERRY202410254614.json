@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202410254614",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FOODS INC.",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ZENITH IMPORTS LTD",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 23, 29016 MALAGA, SPAIN",
+      "telephone": "+34-952-543-210",
+      "fax": "+34-952-543-211",
+      "email": "INFO@ZENITHIMPORTS.ES",
+      "contactPerson": "MARIA RODRIGUEZ"
+    },
+    "notifyParty": {
+      "name": "ZENITH IMPORTS LTD",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 23, 29016 MALAGA, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030211",
+  "commodityDescription": "BEEF",
+  "containers": [
+    {
+      "containerNumber": "CONT5106375",
+      "sealNumber": "SEAL991087",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 12633.45,
+      "measurement": 26.59
+    },
+    {
+      "containerNumber": "CONT3920536",
+      "sealNumber": "SEAL209322",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 5804.05,
+      "measurement": 21.53
+    },
+    {
+      "containerNumber": "CONT2753301",
+      "sealNumber": "SEAL992980",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 6390.7,
+      "measurement": 21.09
+    },
+    {
+      "containerNumber": "CONT3579137",
+      "sealNumber": "SEAL632782",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 9678.05,
+      "measurement": 26.51
+    },
+    {
+      "containerNumber": "CONT6746382",
+      "sealNumber": "SEAL274730",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 12506.39,
+      "measurement": 30.93
+    },
+    {
+      "containerNumber": "CONT9414245",
+      "sealNumber": "SEAL759837",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 12132.49,
+      "measurement": 36.96
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE REEFER",
+    "totalPackages": 393,
+    "totalGrossWeight": 59145.13,
+    "totalMeasurement": 163.61
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-1001",
+    "documentNumber": "20241025-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241025-ZENITH"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ZENITH IMPORTS LTD",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 23, 29016 MALAGA, SPAIN",
+      "telephone": "+34-952-543-210",
+      "fax": "+34-952-543-211"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH IMPORTS LTD",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 23, 29016 MALAGA, SPAIN",
+      "telephone": "+34-952-543-210",
+      "fax": "+34-952-543-211"
+    },
+    "onboardDate": "2024-11-07 10:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -10\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7068765",
+    "temperature": "-10\u00b0C",
+    "minTemperature": "-12\u00b0C",
+    "maxTemperature": "-8\u00b0C",
+    "ventilation": "75%",
+    "humidity": "85%"
+  }
+}

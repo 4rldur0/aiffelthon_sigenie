@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410236563",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "onBehalfOf": "",
+      "address": "1234 ASIA PACIFIC ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "SHIPPING@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 12345679",
+      "email": "IMPORT@GLOBALIMPORTSINC.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT8640588",
+      "sealNumber": "SEAL423727",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 13830.4,
+      "measurement": 33.27
+    },
+    {
+      "containerNumber": "CONT8566968",
+      "sealNumber": "SEAL281277",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 6361.53,
+      "measurement": 36.3
+    },
+    {
+      "containerNumber": "CONT4214321",
+      "sealNumber": "SEAL710861",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 10596.54,
+      "measurement": 27.2
+    },
+    {
+      "containerNumber": "CONT3240546",
+      "sealNumber": "SEAL566085",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 9756.3,
+      "measurement": 24.66
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD GENERAL",
+    "totalPackages": 224,
+    "totalGrossWeight": 40544.77,
+    "totalMeasurement": 121.43
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "1234 ASIA PACIFIC ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679"
+    },
+    "onboardDate": "2024-10-30 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

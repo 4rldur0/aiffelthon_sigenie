@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411052982",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA CHEMICALS INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679",
+      "email": "INFO@BETACHEMICALS.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "456 AVENIDA ESPA\u00d1A, MADRID, SPAIN",
+      "taxId": "B12345678",
+      "president": "MR. JUAN GARCIA",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "JUAN.GARCIA@ALPHAIMPORT.COM"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS SPAIN S.A.",
+      "address": "789 CALLE DE LA LOGISTICA, BARCELONA, SPAIN",
+      "telephone": "+34 93 123 4567",
+      "fax": "+34 93 123 4568",
+      "email": "INFO@LOGISTICSSSPAIN.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "281129",
+  "commodityDescription": "SODIUM HYDROXIDE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT7015267",
+      "sealNumber": "SEAL180758",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 15687.17,
+      "measurement": 22.64
+    },
+    {
+      "containerNumber": "CONT3690281",
+      "sealNumber": "SEAL693152",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 6115.79,
+      "measurement": 39.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 99,
+    "totalGrossWeight": 21802.96,
+    "totalMeasurement": 61.73
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "456 AVENIDA ESPA\u00d1A, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "JUAN.GARCIA@ALPHAIMPORT.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "456 AVENIDA ESPA\u00d1A, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "JUAN.GARCIA@ALPHAIMPORT.COM"
+    },
+    "onboardDate": "2024-11-12 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1745, VALUE: USD430,426, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6546397",
+    "unClass": "6",
+    "unCode": "1745,",
+    "hsCode": "7809.33.82",
+    "flashPoint": "-6\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

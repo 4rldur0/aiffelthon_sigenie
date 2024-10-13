@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202412085753",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA FOODS INC.",
+      "address": "1234 MAIN STREET, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(HEAD OFFICE)",
+      "telephone": "+86 21 5555 6666",
+      "email": "SALES@DELTAFOODS.CN"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT CO.",
+      "address": "123 CANAL STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "INFO@SUNRISEIMPORT.NL",
+      "telephone": "+31 10 222 3333"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT & EXPORT CO.",
+      "address": "123 CANAL STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@SUNRISEIMPORT.NL",
+      "telephone": "+31 10 222 3333"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT5424214",
+      "sealNumber": "SEAL122174",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 13715.29,
+      "measurement": 35.92
+    },
+    {
+      "containerNumber": "CONT5276503",
+      "sealNumber": "SEAL910560",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 8606.66,
+      "measurement": 20.77
+    },
+    {
+      "containerNumber": "CONT2160294",
+      "sealNumber": "SEAL578655",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 16058.7,
+      "measurement": 37.28
+    },
+    {
+      "containerNumber": "CONT7924923",
+      "sealNumber": "SEAL185850",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 19819.69,
+      "measurement": 34.73
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE REEFER",
+    "totalPackages": 212,
+    "totalGrossWeight": 58200.34,
+    "totalMeasurement": 128.7
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-12-17 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -11\u00b0C, KEEP DRY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3900112",
+    "temperature": "-11\u00b0C",
+    "minTemperature": "-13\u00b0C",
+    "maxTemperature": "-9\u00b0C",
+    "ventilation": "20%",
+    "humidity": "60%"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202412096858",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": " SIEMENS AG",
+      "address": "WITTEHILLSSTRASSE 1, 91052 ERLANGEN, GERMANY",
+      "telephone": "+49 9131 70000",
+      "fax": "+49 9131 700009999",
+      "email": "INFO@SIEMENS.COM"
+    },
+    "consignee": {
+      "name": "KUEHNE + NAGEL INTERNATIONAL GMBH",
+      "address": "SCHULEPLATZ 2, 63175 FRIEDBERG, GERMANY",
+      "taxId": "DE111111111",
+      "president": "MR. JOHANNES MEYER",
+      "telephone": "+49 6172 62000",
+      "fax": "+49 6172 62001",
+      "email": "JOHANNES.MEYER@KN-INT.COM"
+    },
+    "notifyParty": {
+      "name": "SIEMENS AG SINGAPORE",
+      "address": "251 NORTH BRIDGE ROAD, #23-01, RAFFLES CITY TOWER, SINGAPORE 179102",
+      "taxId": "GST123456789A",
+      "president": "MS. ANNA TAN",
+      "telephone": "+65 6536 9999",
+      "fax": "+65 6536 9998"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "841869",
+  "commodityDescription": "REFRIGERATORS",
+  "containers": [
+    {
+      "containerNumber": "CONT2157800",
+      "sealNumber": "SEAL723585",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 7843.45,
+      "measurement": 28.94
+    },
+    {
+      "containerNumber": "CONT4875733",
+      "sealNumber": "SEAL488166",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 13110.38,
+      "measurement": 39.64
+    },
+    {
+      "containerNumber": "CONT2804060",
+      "sealNumber": "SEAL781337",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 10754.35,
+      "measurement": 38.15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD REEFER",
+    "totalPackages": 109,
+    "totalGrossWeight": 31708.18,
+    "totalMeasurement": 106.73
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2023120912345"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-13 22:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 10\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4049337",
+    "temperature": "10\u00b0C",
+    "minTemperature": "8\u00b0C",
+    "maxTemperature": "12\u00b0C",
+    "ventilation": "62%",
+    "humidity": "63%"
+  }
+}
