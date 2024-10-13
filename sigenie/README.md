@@ -66,6 +66,7 @@ SIGenie is an early access version (v0.04-5368) of a comprehensive shipping docu
 
 ## 📁 Project Structure
 
+```
 sigenie/
 │
 ├── app/
@@ -92,6 +93,7 @@ sigenie/
 ├── pyproject.toml 📦 (Poetry configuration)
 ├── poetry.lock 🔒 (Poetry lock file)
 └── README.md 📖 (This file)
+```
 
 ## Directory Descriptions
 
