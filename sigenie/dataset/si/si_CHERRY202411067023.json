@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411067023",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING INC.",
+      "onBehalfOf": "",
+      "address": "1234 DELTA RD, SHANGHAI, CHINA 200123",
+      "telephone": "+86 21 5678 9012",
+      "fax": "+86 21 5678 9013",
+      "email": "INFO@DELTATRADINGINC.COM"
+    },
+    "consignee": {
+      "name": "KOREAN ELECTRIC CO., LTD.",
+      "address": "1234 ELECTRONICS AVE, SEOUL, SOUTH KOREA 123-456",
+      "companyNumber": "1234567890",
+      "telephone": "+82 2 1234 5678",
+      "fax": "+82 2 1234 5679",
+      "email": "INFO@KOREANELECTRIC.COM"
+    },
+    "notifyParty": {
+      "name": "KOREAN ELECTRIC CO., LTD.",
+      "address": "1234 ELECTRONICS AVE, SEOUL, SOUTH KOREA 123-456"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854442",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT1951619",
+      "sealNumber": "SEAL912797",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 5408.24,
+      "measurement": 28.12
+    },
+    {
+      "containerNumber": "CONT2308772",
+      "sealNumber": "SEAL917984",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 5822.29,
+      "measurement": 39.97
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE REEFER",
+    "totalPackages": 114,
+    "totalGrossWeight": 11230.53,
+    "totalMeasurement": 68.09
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING INC.",
+      "address": "1234 DELTA RD, SHANGHAI, CHINA 200123",
+      "telephone": "+86 21 5678 9012",
+      "fax": "+86 21 5678 9013"
+    },
+    "onboardDate": "2024-11-13 21:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -1\u00b0C, VALUE: USD603,158"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2199206",
+    "temperature": "-1\u00b0C",
+    "minTemperature": "-3\u00b0C",
+    "maxTemperature": "1\u00b0C",
+    "ventilation": "44%",
+    "humidity": "90%"
+  }
+}

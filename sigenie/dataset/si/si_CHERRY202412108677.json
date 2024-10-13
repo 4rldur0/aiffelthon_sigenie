@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202412108677",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GOLDEN DRAGON MANUFACTURING CO LTD",
+      "address": "123 DRAGON STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030319",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT8949171",
+      "sealNumber": "SEAL675313",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 8296.68,
+      "measurement": 35.13
+    },
+    {
+      "containerNumber": "CONT2119595",
+      "sealNumber": "SEAL772630",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 7523.08,
+      "measurement": 29.71
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 107,
+    "totalGrossWeight": 15819.76,
+    "totalMeasurement": 64.84
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202412100123"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 0\u00b0C, VALUE: USD709,057"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1476710",
+    "temperature": "0\u00b0C",
+    "minTemperature": "-2\u00b0C",
+    "maxTemperature": "2\u00b0C",
+    "ventilation": "71%",
+    "humidity": "90%"
+  }
+}

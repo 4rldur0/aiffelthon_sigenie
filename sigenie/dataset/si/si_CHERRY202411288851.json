@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411288851",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA IMPORTS INC.",
+      "address": "123 SUNRISE AVENUE, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "SAKURA TRADING CO. LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "SAKURA TRADING CO. LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "38249990",
+  "commodityDescription": "ETHYLENE GLYCOL SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT9572658",
+      "sealNumber": "SEAL479162",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 15468.38,
+      "measurement": 39.01
+    },
+    {
+      "containerNumber": "CONT7439372",
+      "sealNumber": "SEAL623653",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 6179.82,
+      "measurement": 35.18
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 118,
+    "totalGrossWeight": 21648.2,
+    "totalMeasurement": 74.19
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241129001"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "SAFETY DATA SHEET (SDS)"
+    ],
+    "originalBLDistribution": {
+      "name": "SAKURA TRADING CO. LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SAKURA TRADING CO. LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-12-16 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1100, VALUE: USD96,892"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1628166",
+    "unClass": "8",
+    "unCode": "1100,",
+    "hsCode": "7525.26.88",
+    "flashPoint": "88\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

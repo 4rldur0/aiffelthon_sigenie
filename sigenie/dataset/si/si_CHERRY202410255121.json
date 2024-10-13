@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410255121",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TIANJIN, CHINA",
+    "portOfLoading": "TIANJIN, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "TIANJIN, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TIANJIN DRAGON INDUSTRY CO., LTD.",
+      "address": "NO. 1234, HONGQI ROAD, TIANJIN, CHINA",
+      "telephone": "+86-22-5555-6789",
+      "fax": "+86-22-5555-6780"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "WATERLOOPLEIN 123, 1011 NZ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679",
+      "email": "INFO@SUNRISEIMPORTS.NL",
+      "contactPerson": "PETER VAN DER LINDE"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS LTD."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS - DESIGNED FOR RECREATIONAL USE",
+  "containers": [
+    {
+      "containerNumber": "CONT6780450",
+      "sealNumber": "SEAL584885",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 14338.8,
+      "measurement": 29.44
+    },
+    {
+      "containerNumber": "CONT4808434",
+      "sealNumber": "SEAL906309",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 16216.57,
+      "measurement": 27.11
+    },
+    {
+      "containerNumber": "CONT5043220",
+      "sealNumber": "SEAL190553",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 13928.05,
+      "measurement": 31.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 234,
+    "totalGrossWeight": 44483.42,
+    "totalMeasurement": 88.17
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-1001",
+    "documentNumber": "20241025-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "WATERLOOPLEIN 123, 1011 NZ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "WATERLOOPLEIN 123, 1011 NZ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "onboardDate": "2024-11-07 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

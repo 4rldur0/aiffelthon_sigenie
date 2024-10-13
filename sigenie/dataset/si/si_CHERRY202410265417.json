@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202410265417",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS INC.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "SUNRISE LOGISTICS LTD.",
+      "address": "STATIONSPLEIN 12, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@SUNRISELOGISTICS.NL",
+      "contactPerson": "PETER VAN DER MARK"
+    },
+    "notifyParty": {
+      "name": "SUNRISE LOGISTICS LTD."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "902290",
+  "commodityDescription": "MEDICAL REFRIGERATORS",
+  "containers": [
+    {
+      "containerNumber": "CONT6698700",
+      "sealNumber": "SEAL203794",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 19233.58,
+      "measurement": 28.31
+    },
+    {
+      "containerNumber": "CONT7615938",
+      "sealNumber": "SEAL167704",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 12550.65,
+      "measurement": 26.3
+    },
+    {
+      "containerNumber": "CONT2875008",
+      "sealNumber": "SEAL530085",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 14188.91,
+      "measurement": 27.44
+    },
+    {
+      "containerNumber": "CONT5744031",
+      "sealNumber": "SEAL533033",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 9003.26,
+      "measurement": 24.71
+    },
+    {
+      "containerNumber": "CONT4139157",
+      "sealNumber": "SEAL641763",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 5733.29,
+      "measurement": 20.2
+    },
+    {
+      "containerNumber": "CONT1395416",
+      "sealNumber": "SEAL908024",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 10856.99,
+      "measurement": 28.21
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE REEFER",
+    "totalPackages": 291,
+    "totalGrossWeight": 71566.68,
+    "totalMeasurement": 155.17
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241026-1001",
+    "documentNumber": "20241026-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE LOGISTICS LTD.",
+      "address": "STATIONSPLEIN 12, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE LOGISTICS LTD.",
+      "address": "STATIONSPLEIN 12, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-11-12 17:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 15\u00b0C, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6040971",
+    "temperature": "15\u00b0C",
+    "minTemperature": "13\u00b0C",
+    "maxTemperature": "17\u00b0C",
+    "ventilation": "7%",
+    "humidity": "60%"
+  }
+}

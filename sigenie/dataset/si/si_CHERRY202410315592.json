@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410315592",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL INDUSTRIES CO LTD",
+      "onBehalfOf": "",
+      "address": "1234 GLOBAL RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@GLOBALINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "EUROASIA IMPORTS LTD",
+      "address": "5555 EUROASIA ST, HAMBURG, GERMANY 20457",
+      "companyNumber": "123456789",
+      "telephone": "+49 40 498 7000",
+      "fax": "+49 40 498 7001",
+      "email": "JANSSEN.EMMA@EUROASIAIMPORTS.DE"
+    },
+    "notifyParty": {
+      "name": "EUROASIA IMPORTS LTD",
+      "address": "5555 EUROASIA ST, HAMBURG, GERMANY 20457"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "PLASTIC TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT7503031",
+      "sealNumber": "SEAL191834",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 16540.29,
+      "measurement": 38.55
+    },
+    {
+      "containerNumber": "CONT7037571",
+      "sealNumber": "SEAL278253",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 19479.68,
+      "measurement": 39.9
+    },
+    {
+      "containerNumber": "CONT9000623",
+      "sealNumber": "SEAL212644",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 5550.82,
+      "measurement": 39.76
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE TANK",
+    "totalPackages": 161,
+    "totalGrossWeight": 41570.79,
+    "totalMeasurement": 118.21
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL INDUSTRIES CO LTD",
+      "address": "1234 GLOBAL RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@GLOBALINDUSTRIES.CN"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  }
+}

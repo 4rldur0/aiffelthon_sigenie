@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411181086",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA FOODS CORPORATION",
+      "address": "123 HONGQIAO ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@BETAFOODS.COM.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "56 PASEO MARITIMO, ALGECIRAS, SPAIN, 11203",
+      "taxId": "ESB123456789",
+      "president": "Mr. Luis Garcia",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "LUIS.GARCIA@ALPHAGLOBAL.ES"
+    },
+    "notifyParty": {
+      "name": "IMPORT SOLUTIONS S.L.",
+      "address": "CALLE ALCAZAR, 12, ALGECIRAS, SPAIN, 11201",
+      "taxId": "ESB987654321",
+      "president": "Ms. Maria Sanchez",
+      "telephone": "+34 956 5432 10",
+      "fax": "+34 956 5432 11"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT1831026",
+      "sealNumber": "SEAL996929",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 7505.45,
+      "measurement": 36.72
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 86,
+    "totalGrossWeight": 7505.45,
+    "totalMeasurement": 36.72
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-24 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 17\u00b0C, VALUE: USD158,666, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8994265",
+    "temperature": "17\u00b0C",
+    "minTemperature": "15\u00b0C",
+    "maxTemperature": "19\u00b0C",
+    "ventilation": "7%",
+    "humidity": "65%"
+  }
+}

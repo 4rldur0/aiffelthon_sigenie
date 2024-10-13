@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202412042131",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "onBehalfOf": "",
+      "address": "1234 PRECISION ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@BETAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "1234 MAIN STREET, MADRID, SPAIN",
+      "companyNumber": "123456789",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "JANSSEN.EMMA@ALPHAIMPORTEXPORT.ES"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "1234 MAIN STREET, MADRID, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "870899",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT1781821",
+      "sealNumber": "SEAL710994",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 16363.91,
+      "measurement": 28.27
+    },
+    {
+      "containerNumber": "CONT4852752",
+      "sealNumber": "SEAL390816",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 16056.21,
+      "measurement": 29.87
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE TANK",
+    "totalPackages": 54,
+    "totalGrossWeight": 32420.12,
+    "totalMeasurement": 58.14
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "1234 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "onboardDate": "2024-12-17 10:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411144438",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "2345 SHANGHAI ROAD, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "SALES@SUNRISETRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "EDUCATIONAL TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT5280068",
+      "sealNumber": "SEAL870070",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 8066.44,
+      "measurement": 23.52
+    },
+    {
+      "containerNumber": "CONT6119193",
+      "sealNumber": "SEAL645196",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 12787.94,
+      "measurement": 21.35
+    },
+    {
+      "containerNumber": "CONT6087442",
+      "sealNumber": "SEAL741748",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 11229.33,
+      "measurement": 20.24
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 167,
+    "totalGrossWeight": 32083.71,
+    "totalMeasurement": 65.11
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241114SUNRISE"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL"
+    },
+    "onboardDate": "2024-11-24 08:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202410294807",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA TRADING CO.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "NO. 456, XINGMING ROAD, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-23456789",
+      "fax": "+31-10-23456788"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CARS",
+  "containers": [
+    {
+      "containerNumber": "CONT1810832",
+      "sealNumber": "SEAL266626",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 15746.2,
+      "measurement": 20.11
+    },
+    {
+      "containerNumber": "CONT4673316",
+      "sealNumber": "SEAL968733",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 12197.89,
+      "measurement": 23.89
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 82,
+    "totalGrossWeight": 27944.09,
+    "totalMeasurement": 44.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

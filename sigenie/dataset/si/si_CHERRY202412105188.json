@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202412105188",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA FRUIT IMPORT & EXPORT CO. LTD.",
+      "address": "123 ORCHARD ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@CHINAFRUIT.COM"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC SHIPPING LINES LTD.",
+      "address": "123 WARSAW STREET, GDANSK, POLAND 80-200",
+      "taxId": "PL5261234567",
+      "president": "MR. JAN NOWAK",
+      "telephone": "+48 58 300 12 34",
+      "fax": "+48 58 300 12 35",
+      "email": "JAN.NOWAK@ASIA pacificSHIPPING.PL"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS LTD.",
+      "address": "125 GDANSK STREET, GDANSK, POLAND 80-100",
+      "taxId": "PL1234567890",
+      "president": "MS. ANNA KOWALSKA",
+      "telephone": "+48 58 123 45 67",
+      "fax": "+48 58 123 45 68"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080590",
+  "commodityDescription": "ORANGE",
+  "containers": [
+    {
+      "containerNumber": "CONT1903927",
+      "sealNumber": "SEAL426320",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 11464.17,
+      "measurement": 31.49
+    },
+    {
+      "containerNumber": "CONT4026951",
+      "sealNumber": "SEAL762761",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 7532.4,
+      "measurement": 36.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE REEFER",
+    "totalPackages": 106,
+    "totalGrossWeight": 18996.57,
+    "totalMeasurement": 68.11
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC SHIPPING LINES LTD.",
+      "address": "123 WARSAW STREET, GDANSK, POLAND 80-200",
+      "telephone": "+48 58 300 12 34",
+      "fax": "+48 58 300 12 35",
+      "email": "JAN.NOWAK@ASIA pacificSHIPPING.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC SHIPPING LINES LTD.",
+      "address": "123 WARSAW STREET, GDANSK, POLAND 80-200",
+      "telephone": "+48 58 300 12 34",
+      "fax": "+48 58 300 12 35",
+      "email": "JAN.NOWAK@ASIA pacificSHIPPING.PL"
+    },
+    "onboardDate": "2024-12-16 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 2\u00b0C, VALUE: USD400,726, MAINTAIN HUMIDITY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5115996",
+    "temperature": "2\u00b0C",
+    "minTemperature": "0\u00b0C",
+    "maxTemperature": "4\u00b0C",
+    "ventilation": "82%",
+    "humidity": "68%"
+  }
+}

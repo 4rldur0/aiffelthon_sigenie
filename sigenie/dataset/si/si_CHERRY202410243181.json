@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202410243181",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH GLOBAL INDUSTRIES LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "NO. 456, ZHENRONG ROAD, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-555-6666",
+      "fax": "+31-10-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "621120",
+  "commodityDescription": "LADIES' JACKETS",
+  "containers": [
+    {
+      "containerNumber": "CONT9803145",
+      "sealNumber": "SEAL332411",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 8125.11,
+      "measurement": 36.49
+    },
+    {
+      "containerNumber": "CONT1202051",
+      "sealNumber": "SEAL588238",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 18955.54,
+      "measurement": 37.46
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 86,
+    "totalGrossWeight": 27080.65,
+    "totalMeasurement": 73.95
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "NO. 456, ZHENRONG ROAD, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-555-6666",
+      "fax": "+31-10-555-6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "NO. 456, ZHENRONG ROAD, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-555-6666",
+      "fax": "+31-10-555-6667"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

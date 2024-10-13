@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410255139",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TECH SOLUTIONS INC.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "NO. 456, KRUIJNSTRAAT, 3011 NL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4567890",
+      "fax": "+31-10-4567891"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "340290",
+  "commodityDescription": "DANGEROUS GOODS - DETERGENT SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT4010426",
+      "sealNumber": "SEAL868476",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 6554.62,
+      "measurement": 38.12
+    },
+    {
+      "containerNumber": "CONT8510690",
+      "sealNumber": "SEAL614021",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 14448.12,
+      "measurement": 28.57
+    },
+    {
+      "containerNumber": "CONT4981702",
+      "sealNumber": "SEAL247562",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 14025.76,
+      "measurement": 35.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 224,
+    "totalGrossWeight": 35028.5,
+    "totalMeasurement": 101.78
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-07 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2057, VALUE: USD376,703",
+    "dangerousGoods": {
+      "unNumber": "2057",
+      "properShippingName": "DETERGENT SOLUTION",
+      "hazardClass": "8",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4302637",
+    "unClass": "2",
+    "unCode": "2057,",
+    "hsCode": "1328.94.65",
+    "flashPoint": "72\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

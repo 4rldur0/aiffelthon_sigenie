@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202412042971",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO.",
+      "address": "123 INDUSTRY STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 123 4567",
+      "fax": "+86 21 123 4568"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871640",
+  "commodityDescription": "OUT OF GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT2519566",
+      "sealNumber": "SEAL518553",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 12417.78,
+      "measurement": 28.34
+    },
+    {
+      "containerNumber": "CONT9957301",
+      "sealNumber": "SEAL433065",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 13560.67,
+      "measurement": 22.11
+    },
+    {
+      "containerNumber": "CONT9673006",
+      "sealNumber": "SEAL228686",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 9106.6,
+      "measurement": 36.32
+    },
+    {
+      "containerNumber": "CONT4889561",
+      "sealNumber": "SEAL586797",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 16172.98,
+      "measurement": 30.6
+    },
+    {
+      "containerNumber": "CONT2816888",
+      "sealNumber": "SEAL734124",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 15083.98,
+      "measurement": 32.3
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD OPEN TOP",
+    "totalPackages": 168,
+    "totalGrossWeight": 66342.01,
+    "totalMeasurement": 149.67
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC MANUFACTURING CO.",
+      "address": "123 INDUSTRY STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 123 4567",
+      "fax": "+86 21 123 4568"
+    },
+    "onboardDate": "2024-12-16 09:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 9428x2140x2652, VALUE: USD523,172, HANDLE WITH CARE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9428",
+    "width": "2140",
+    "height": "2652",
+    "overWidth": "0",
+    "overHeight": "62"
+  }
+}

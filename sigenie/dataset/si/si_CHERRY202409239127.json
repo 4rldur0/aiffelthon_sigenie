@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202409239127",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREEN TECH INDUSTRIES INC",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@ASIATRADING.DE",
+      "contactPerson": "KLAUS MUELLER"
+    },
+    "notifyParty": { 
+      "name": "SAME AS CONSIGNEE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854442",
+  "commodityDescription": "POWER DISTRIBUTION TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CGXU4289451",
+      "sealNumber": 345901,
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "POWER DISTRIBUTION TRANSFORMER - MODEL PD1000",
+      "grossWeight": 18500.000,
+      "measurement": 25.200
+    },
+    {
+      "containerNumber": "CGXU4289452",
+      "sealNumber": 279567,
+      "marksAndNumbers": "GT-124",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "POWER DISTRIBUTION TRANSFORMER - MODEL PD1000",
+      "grossWeight": 18700.000,
+      "measurement": 25.200
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 X 2) HIGH CUBIC CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 37200.000,
+    "totalMeasurement": 50.400
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "onboardDate": "2024-10-04",
+    "additionalRemarks": "Special handling required for heavy cargo"
+  }
+}

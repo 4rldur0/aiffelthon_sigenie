@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202411289249",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MACHINERY LTD.",
+      "onBehalfOf": "",
+      "address": "1234 PRECISION RD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "LIU.WEIMIN@APMACHINERY.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 FREIGHT WAY, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 FREIGHT WAY, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "SPECIALIZED METAL PRESS",
+  "containers": [
+    {
+      "containerNumber": "CONT2139307",
+      "sealNumber": "SEAL882636",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 12905.2,
+      "measurement": 20.03
+    },
+    {
+      "containerNumber": "CONT9263857",
+      "sealNumber": "SEAL496848",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 6597.92,
+      "measurement": 33.13
+    },
+    {
+      "containerNumber": "CONT8664140",
+      "sealNumber": "SEAL462556",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 5015.73,
+      "measurement": 23.15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD PLATFORM",
+    "totalPackages": 200,
+    "totalGrossWeight": 24518.85,
+    "totalMeasurement": 76.31
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC MACHINERY LTD.",
+      "address": "1234 PRECISION RD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8058x2685x2349"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8058",
+    "width": "2685",
+    "height": "2349",
+    "overWidth": "245",
+    "overHeight": "0"
+  }
+}

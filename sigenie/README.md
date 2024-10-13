@@ -1,22 +1,24 @@
-# SIGenie - Shipping Document Management System
+# 🚢 SIGenie - Shipping Intelligence Genie 🧞‍♂️
 
-SIGenie is an early access version (v0.02) of a comprehensive shipping document management system. It allows users to manage and view Bookings, Shipping Instructions, and Bills of Lading through a user-friendly web interface.
+SIGenie is an early access version (v0.04-5368) of a comprehensive shipping document management system. It provides a user-friendly web interface for managing Bookings, Shipping Instructions, and Bills of Lading.
 
-## Features
+## ✨ Key Features
 
-- Manage Bookings (BKG)
-- Edit Shipping Instructions (SI)
-- View Bills of Lading (BL)
-- MongoDB integration for data storage
-- Custom Freesentation font applied throughout the application
+- 🎫 Booking (BKG) management
+- 📄 Shipping Instructions (SI) editing
+- 🚢 Bill of Lading (BL) viewing
+- 🔍 Shipping Instruction search (including vector search)
+- 💾 MongoDB integrated data storage
+- 🎨 Custom Freesentation font application
 
-## Prerequisites
+## 🛠 Prerequisites
 
 - Python 3.9+
 - MongoDB
+- OpenAI API key
 - Poetry (for dependency management)
 
-## Installation
+## 🚀 Installation
 
 1. Clone the repository:
 
@@ -37,15 +39,16 @@ SIGenie is an early access version (v0.02) of a comprehensive shipping document 
    poetry install
    ```
 
-4. Set up your MongoDB connection by creating a `.env` file in the root directory with the following content:
+4. Set up the `.env` file in the project root:
    ```
    MONGODB_URI=your_mongodb_connection_string
    MONGODB_DB_NAME=your_database_name
+   OPENAI_API_KEY=your_openai_api_key
    ```
 
-## Usage
+## 🏃‍♂️ Usage
 
-1. Activate the virtual environment:
+1. Activate the poetry environment:
 
    ```
    poetry shell
@@ -57,22 +60,38 @@ SIGenie is an early access version (v0.02) of a comprehensive shipping document 
    streamlit run main.py
    ```
 
-3. Open your web browser and navigate to the URL provided by Streamlit (usually `http://localhost:8501`).
+3. Navigate to the provided URL in your web browser (usually `http://localhost:8501`)
 
-4. Use the sidebar to select the document type you want to work with (Booking, Shipping Instructions, or Bill of Lading).
+4. Use the sidebar to select the desired document type (Booking, Shipping Instructions, Bill of Lading, Shipping Instruction Search)
 
-## Project Structure
+## 📁 Project Structure
 
-- `main.py`: The main Streamlit application entry point.
-- `json_bkg.py`: Handles Booking (BKG) document operations.
-- `json_si.py`: Manages Shipping Instruction (SI) document operations.
-- `json_bl.py`: Displays Bill of Lading (BL) documents.
-- `search_si.py`: Provides search functionality for Shipping Instructions.
-- `search_booking.py`: Provides search functionality for Bookings.
-- `fonts/`: Contains the custom Freesentation font.
-- `img/`: Stores images used in the application.
-- `bkg/`: Directory for storing Booking JSON files.
-- `si/`: Directory for storing Shipping Instruction JSON files.
+sigenie/
+│
+├── app/
+│ ├── init.py
+│ ├── json_bkg.py 🎫 (Booking handling)
+│ ├── json_si.py 📄 (Shipping Instructions handling)
+│ ├── json_bl.py 🚢 (Bill of Lading handling)
+│ └── search_si.py 🔍 (Search functionality)
+│
+├── utils/
+│ ├── init.py
+│ └── helpers.py 🛠️ (Utility functions)
+│
+├── vector/
+│ └── si_faiss_index/ 🧠 (Vector database)
+│
+├── img/
+│ └── containergenie.png 🖼️ (Logo image)
+│
+├── main.py 🎭 (Main application entry point)
+├── db.py 💾 (Database operations)
+├── .env 🔐 (Environment variables)
+├── .gitignore
+├── pyproject.toml 📦 (Poetry configuration)
+├── poetry.lock 🔒 (Poetry lock file)
+└── README.md 📖 (This file)
 
 ## Directory Descriptions
 
@@ -119,7 +138,12 @@ This is an early access version. For major changes, please open an issue first t
   - dataset 4654 (2024-10-09)
   - dataset 4853 (2024-10-10)
   - dataset 5009 (2024-10-11)
-  - dataset 5189 (2024-10-12)
+
+- v0.04 (2024-10-12)
+
+  - Shipping Instruction vector search in MongoDB
+  - Restructue folder
+  - dataset 5372 (2024-10-13)
 
 Copyright (c) 2024 Tongyang Systems.
 All rights reserved. This project and its source code are proprietary and confidential. Unauthorized copying, modification, distribution, or use of this project, via any medium, is strictly prohibited without the express written permission of the copyright holder.

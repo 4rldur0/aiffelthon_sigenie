@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202412018914",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA INTERNATIONAL CO.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "DELTA TRADING INC.",
+      "address": "STATIONSPLEIN 123, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@DELTATRADING.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING INC."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT5386853",
+      "sealNumber": "SEAL981206",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 16616.48,
+      "measurement": 29.67
+    },
+    {
+      "containerNumber": "CONT9262096",
+      "sealNumber": "SEAL881605",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 11677.99,
+      "measurement": 21.76
+    },
+    {
+      "containerNumber": "CONT2018979",
+      "sealNumber": "SEAL871701",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 13576.29,
+      "measurement": 27.48
+    },
+    {
+      "containerNumber": "CONT4480605",
+      "sealNumber": "SEAL477882",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 6163.69,
+      "measurement": 21.78
+    },
+    {
+      "containerNumber": "CONT7019546",
+      "sealNumber": "SEAL493903",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 10926.35,
+      "measurement": 39.29
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD TANK",
+    "totalPackages": 234,
+    "totalGrossWeight": 58960.8,
+    "totalMeasurement": 139.98
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241204-1001",
+    "documentNumber": "20241204-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING INC.",
+      "address": "STATIONSPLEIN 123, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING INC.",
+      "address": "STATIONSPLEIN 123, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

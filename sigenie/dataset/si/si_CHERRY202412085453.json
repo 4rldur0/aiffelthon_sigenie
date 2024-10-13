@@ -1,0 +1,118 @@
+{
+  "bookingReference": "CHERRY202412085453",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA FOODS INC.",
+      "address": "1234 FOOD STREET, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "CONTACT PERSON: MR. LI WEI",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "WEI.LI@OMEGAFOODS.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "5678 IMPORT STREET, ALGEICRAS, SPAIN 11001",
+      "country": "SPAIN",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES"
+    },
+    "notifyParty": {
+      "name": "BETA LOGISTICS LTD",
+      "address": "9012 LOGISTICS STREET, ALGEICRAS, SPAIN 11002",
+      "country": "SPAIN",
+      "telephone": "+34 956 789 123",
+      "fax": "+34 956 789 124",
+      "email": "NOTIFICATIONS@BETALOGISTICS.ES"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030261",
+  "commodityDescription": "FROZEN PORK LOIN",
+  "containers": [
+    {
+      "containerNumber": "CONT7323269",
+      "sealNumber": "SEAL982275",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 14672.02,
+      "measurement": 21.57
+    },
+    {
+      "containerNumber": "CONT1099932",
+      "sealNumber": "SEAL129922",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 17892.84,
+      "measurement": 31.73
+    },
+    {
+      "containerNumber": "CONT4177988",
+      "sealNumber": "SEAL807776",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 15057.03,
+      "measurement": 26.12
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD REEFER",
+    "totalPackages": 108,
+    "totalGrossWeight": 47621.89,
+    "totalMeasurement": 79.42
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "5678 IMPORT STREET, ALGEICRAS, SPAIN 11001",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "5678 IMPORT STREET, ALGEICRAS, SPAIN 11001",
+      "country": "SPAIN",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES"
+    },
+    "onboardDate": "2024-12-14 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 12\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4356110",
+    "temperature": "12\u00b0C",
+    "minTemperature": "10\u00b0C",
+    "maxTemperature": "14\u00b0C",
+    "ventilation": "2%",
+    "humidity": "86%"
+  }
+}

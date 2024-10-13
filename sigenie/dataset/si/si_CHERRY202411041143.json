@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411041143",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA EXPORTERS INC.",
+      "address": "123 OCEAN VIEW DRIVE, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(BLUE SKY BUILDING)",
+      "telephone": "+86 21 5555 6789",
+      "email": "SHIPPING@BETAEXPORTERS.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORTS LTD",
+      "address": "123 PORT STREET, MADRID, 28001",
+      "country": "SPAIN",
+      "email": "ORDERS@ALPHAIMPORTS.ES",
+      "telephone": "+34 91 123 4567"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORTS LTD",
+      "address": "123 PORT STREET, MADRID, 28001",
+      "country": "SPAIN",
+      "email": "ORDERS@ALPHAIMPORTS.ES",
+      "telephone": "+34 91 123 4567"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT6787002",
+      "sealNumber": "SEAL242119",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 11790.09,
+      "measurement": 37.06
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 85,
+    "totalGrossWeight": 11790.09,
+    "totalMeasurement": 37.06
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-17 19:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 12\u00b0C, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4057171",
+    "temperature": "12\u00b0C",
+    "minTemperature": "10\u00b0C",
+    "maxTemperature": "14\u00b0C",
+    "ventilation": "48%",
+    "humidity": "86%"
+  }
+}
