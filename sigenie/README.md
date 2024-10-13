@@ -9,11 +9,10 @@ SIGenie is an early access version (v0.04-5368) of a comprehensive shipping docu
 - 🚢 Bill of Lading (BL) viewing
 - 🔍 Shipping Instruction search (including vector search)
 - 💾 MongoDB integrated data storage
-- 🎨 Custom Freesentation font application
 
 ## 🛠 Prerequisites
 
-- Python 3.9+
+- Python 3.11+
 - MongoDB
 - OpenAI API key
 - Poetry (for dependency management)
@@ -81,10 +80,13 @@ sigenie/
 │ └── helpers.py 🛠️ (Utility functions)
 │
 ├── vector/
-│ └── si_faiss_index/ 🧠 (Vector database)
+│ └── si_faiss_index/ 🧠 (Shipping nstruction vector database)
 │
 ├── img/
 │ └── containergenie.png 🖼️ (Logo image)
+│
+├── fonts/
+│ └── Freesentation.ttf 🔠 (Font)
 │
 ├── main.py 🎭 (Main application entry point)
 ├── db.py 💾 (Database operations)
