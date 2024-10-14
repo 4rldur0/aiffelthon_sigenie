@@ -1,0 +1,82 @@
+{
+  "bookingReference": "CHERRY202412097260",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO LTD",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GOLDEN SKY LOGISTICS LTD",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@GOLDENSKYLOGISTICS.DE",
+      "contactPerson": "PETER SCHMIDT"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SKY LOGISTICS LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950410",
+  "commodityDescription": "TYPEWRITERS AND OTHER OFFICE MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT9992933",
+      "sealNumber": "SEAL670085",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 19138.22,
+      "measurement": 35.84
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD GENERAL",
+    "totalPackages": 98,
+    "totalGrossWeight": 19138.22,
+    "totalMeasurement": 35.84
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241209-1001",
+    "documentNumber": "20241209-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GOLDEN SKY LOGISTICS LTD",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN SKY LOGISTICS LTD",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "onboardDate": "2025-01-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

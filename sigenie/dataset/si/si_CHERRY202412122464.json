@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202412122464",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BAOJI IRON AND STEEL CO., LTD.",
+      "address": "NO. 1 BAOJI IRON AND STEEL ROAD, BAOJI CITY, SHAANXI PROVINCE, 721000, CHINA",
+      "telephone": "+86 917 325 8888",
+      "fax": "+86 917 325 8889",
+      "email": "SALES@BAOJIIRONSTEEL.COM"
+    },
+    "consignee": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "HELDORVEIEN 10, 3193  H\u00d8NEFOSS, NORWAY",
+      "taxId": "912123456",
+      "president": "MR. OLE SANDNES",
+      "telephone": "+47 36 75 50 00",
+      "fax": "+47 36 75 50 01",
+      "email": "OLE.SANDNES@KONGSBERGM.COM"
+    },
+    "notifyParty": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "HELDORVEIEN 10, 3193  H\u00d8NEFOSS, NORWAY",
+      "telephone": "+47 36 75 50 00",
+      "fax": "+47 36 75 50 01",
+      "email": "OLE.SANDNES@KONGSBERGM.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "720720",
+  "commodityDescription": "STEEL PLATES",
+  "containers": [
+    {
+      "containerNumber": "CONT2343374",
+      "sealNumber": "SEAL567196",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 15312.83,
+      "measurement": 34.43
+    },
+    {
+      "containerNumber": "CONT4470175",
+      "sealNumber": "SEAL807843",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 6972.15,
+      "measurement": 39.85
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD OPEN TOP",
+    "totalPackages": 97,
+    "totalGrossWeight": 22284.98,
+    "totalMeasurement": 74.28
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "HELDORVEIEN 10, 3193  H\u00d8NEFOSS, NORWAY",
+      "telephone": "+47 36 75 50 00",
+      "fax": "+47 36 75 50 01",
+      "email": "OLE.SANDNES@KONGSBERGM.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "HELDORVEIEN 10, 3193  H\u00d8NEFOSS, NORWAY",
+      "telephone": "+47 36 75 50 00",
+      "fax": "+47 36 75 50 01",
+      "email": "OLE.SANDNES@KONGSBERGM.COM"
+    },
+    "onboardDate": "2025-01-06 19:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5750x2551x2035, VALUE: USD375,513, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5750",
+    "width": "2551",
+    "height": "2035",
+    "overWidth": "111",
+    "overHeight": "0"
+  }
+}

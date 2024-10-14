@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410267308",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION ENGINEERING CO.",
+      "address": "NO. 123 FENGHUA ROAD, NINGBO, CHINA, 315000",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAPRECISION.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "UNIT 5, 123 WAREHOUSE LANE, LONDON, UK, EC1A 1AA",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "ETHANOL",
+  "containers": [
+    {
+      "containerNumber": "CONT2937400",
+      "sealNumber": "SEAL187302",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 8002.86,
+      "measurement": 26.73
+    },
+    {
+      "containerNumber": "CONT6276107",
+      "sealNumber": "SEAL533651",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 7344.17,
+      "measurement": 32.61
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 138,
+    "totalGrossWeight": 15347.03,
+    "totalMeasurement": 59.34
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-11 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1191, VALUE: USD998,634, KEEP DRY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3614510",
+    "unClass": "2",
+    "unCode": "1191,",
+    "hsCode": "9100.61.54",
+    "flashPoint": "-18\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

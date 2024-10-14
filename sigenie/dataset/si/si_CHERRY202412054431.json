@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202412054431",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL IMPORT EXPORT INC.",
+      "address": "123 SUNRISE AVENUE, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SHIPPING@SUNRISEGLOBAL.COM"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "456 MARKET STREET, ROTTERDAM 3011 AB, NETHERLANDS",
+      "taxId": "NL855212345",
+      "president": "MR. JAN VAN DER SLOOT",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "JAN.VANDERSLOOT@ASIA-PACIFIC.NL"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "456 MARKET STREET, ROTTERDAM 3011 AB, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "JAN.VANDERSLOOT@ASIA-PACIFIC.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080510",
+  "commodityDescription": "FRESH ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT8239343",
+      "sealNumber": "SEAL637737",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 19189.33,
+      "measurement": 31.83
+    },
+    {
+      "containerNumber": "CONT2939828",
+      "sealNumber": "SEAL808049",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 11097.5,
+      "measurement": 22.19
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 115,
+    "totalGrossWeight": 30286.83,
+    "totalMeasurement": 54.02
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "456 MARKET STREET, ROTTERDAM 3011 AB, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "JAN.VANDERSLOOT@ASIA-PACIFIC.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "456 MARKET STREET, ROTTERDAM 3011 AB, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "JAN.VANDERSLOOT@ASIA-PACIFIC.NL"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -7\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6375073",
+    "temperature": "-7\u00b0C",
+    "minTemperature": "-9\u00b0C",
+    "maxTemperature": "-5\u00b0C",
+    "ventilation": "5%",
+    "humidity": "92%"
+  }
+}

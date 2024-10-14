@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410303011",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA PRECISION ENGINEERING PTE LTD",
+      "address": "123 TAI SOON STREET, SINGAPORE 648157",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SALES@BETAPRECISION.SG"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "15 RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@ALPHA-GLOBAL.FR",
+      "personincharge": "PIERRE DUPONT"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "15 RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@ALPHA-GLOBAL.FR"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "MACHINERY FOR CLEANING, FILLING, CLOSING, SEALING OR LABELLING",
+  "containers": [
+    {
+      "containerNumber": "CONT1414353",
+      "sealNumber": "SEAL983838",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 12892.2,
+      "measurement": 34.56
+    },
+    {
+      "containerNumber": "CONT9832347",
+      "sealNumber": "SEAL382476",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 14155.17,
+      "measurement": 20.46
+    },
+    {
+      "containerNumber": "CONT1076831",
+      "sealNumber": "SEAL707722",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 8684.31,
+      "measurement": 25.11
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE TANK",
+    "totalPackages": 202,
+    "totalGrossWeight": 35731.68,
+    "totalMeasurement": 80.13
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "15 RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@ALPHA-GLOBAL.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "15 RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@ALPHA-GLOBAL.FR"
+    },
+    "onboardDate": "2024-11-06 15:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

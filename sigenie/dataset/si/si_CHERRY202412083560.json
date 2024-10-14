@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202412083560",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTERS INC.",
+      "onBehalfOf": "",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 12345679",
+      "email": "ASIA.IMPORTERS@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "1234 TRADING STREET, LONDON, UNITED KINGDOM",
+      "companyNumber": "123456789",
+      "telephone": "+44 20 12345678",
+      "fax": "+44 20 12345679",
+      "email": "GLOBAL.TRADING@EXAMPLE.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "1234 TRADING STREET, LONDON, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940330",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT8074441",
+      "sealNumber": "SEAL112714",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 17172.51,
+      "measurement": 27.69
+    },
+    {
+      "containerNumber": "CONT9450340",
+      "sealNumber": "SEAL449679",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 7621.35,
+      "measurement": 34.85
+    },
+    {
+      "containerNumber": "CONT2896186",
+      "sealNumber": "SEAL301455",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 8924.99,
+      "measurement": 31.77
+    },
+    {
+      "containerNumber": "CONT8042309",
+      "sealNumber": "SEAL419154",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 5632.74,
+      "measurement": 29.94
+    },
+    {
+      "containerNumber": "CONT7946638",
+      "sealNumber": "SEAL579803",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 14364.85,
+      "measurement": 28.67
+    },
+    {
+      "containerNumber": "CONT4662251",
+      "sealNumber": "SEAL738328",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 18689.35,
+      "measurement": 27.92
+    },
+    {
+      "containerNumber": "CONT4334646",
+      "sealNumber": "SEAL345678",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 14425.91,
+      "measurement": 38.49
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 20 STANDARD TANK",
+    "totalPackages": 290,
+    "totalGrossWeight": 86831.7,
+    "totalMeasurement": 219.33
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "1234 TRADING STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 12345678",
+      "fax": "+44 20 12345679",
+      "email": "GLOBAL.TRADING@EXAMPLE.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORTERS INC.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 12345679"
+    },
+    "onboardDate": "2025-01-16 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

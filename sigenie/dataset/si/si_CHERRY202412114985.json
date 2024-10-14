@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202412114985",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA IMPORT EXPORT CO.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL SHIPPING LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": "",
+      "telephone": "",
+      "fax": ""
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030390",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT8334318",
+      "sealNumber": "SEAL996320",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 19865.55,
+      "measurement": 34.86
+    },
+    {
+      "containerNumber": "CONT8850466",
+      "sealNumber": "SEAL529254",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 7315.97,
+      "measurement": 36.43
+    },
+    {
+      "containerNumber": "CONT2330954",
+      "sealNumber": "SEAL196689",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 11868.43,
+      "measurement": 26.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE REEFER",
+    "totalPackages": 185,
+    "totalGrossWeight": 39049.95,
+    "totalMeasurement": 97.91
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL SHIPPING LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL SHIPPING LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-12-16 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -6\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3923417",
+    "temperature": "-6\u00b0C",
+    "minTemperature": "-8\u00b0C",
+    "maxTemperature": "-4\u00b0C",
+    "ventilation": "44%",
+    "humidity": "80%"
+  }
+}

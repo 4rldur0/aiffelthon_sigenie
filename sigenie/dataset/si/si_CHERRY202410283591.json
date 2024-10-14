@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410283591",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD",
+      "address": "23 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAPACIFICCHEMICALS.COM"
+    },
+    "consignee": {
+      "name": "DELTA GLOBAL LOGISTICS LTD",
+      "address": "123 JAN VAN EYCKSTRAAT, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8567890123456789",
+      "president": "MR. PETER VAN DER LINDEN",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6788",
+      "email": "ORDERS@DELTA-GLOBAL.COM"
+    },
+    "notifyParty": {
+      "name": "DELTA GLOBAL LOGISTICS LTD",
+      "address": "123 JAN VAN EYCKSTRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6788",
+      "email": "ORDERS@DELTA-GLOBAL.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "281010",
+  "commodityDescription": "BORIC ACID",
+  "containers": [
+    {
+      "containerNumber": "CONT4931034",
+      "sealNumber": "SEAL708687",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 12650.31,
+      "measurement": 30.83
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE TANK",
+    "totalPackages": 37,
+    "totalGrossWeight": 12650.31,
+    "totalMeasurement": 30.83
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "DELTA GLOBAL LOGISTICS LTD",
+      "address": "123 JAN VAN EYCKSTRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6788",
+      "email": "ORDERS@DELTA-GLOBAL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA GLOBAL LOGISTICS LTD",
+      "address": "123 JAN VAN EYCKSTRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6788",
+      "email": "ORDERS@DELTA-GLOBAL.COM"
+    },
+    "onboardDate": "2024-11-04 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1257"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2410373",
+    "unClass": "9",
+    "unCode": "1257",
+    "hsCode": "8250.13.22",
+    "flashPoint": "9\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

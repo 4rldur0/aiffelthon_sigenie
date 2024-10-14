@@ -1,0 +1,139 @@
+{
+  "bookingReference": "CHERRY202411131972",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "ZENITH GLOBAL TRADING",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "333401",
+  "commodityDescription": "PERFUME CONCENTRATE",
+  "containers": [
+    {
+      "containerNumber": "CONT7022256",
+      "sealNumber": "SEAL648947",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 9970.79,
+      "measurement": 34.5
+    },
+    {
+      "containerNumber": "CONT5017877",
+      "sealNumber": "SEAL777386",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 8484.87,
+      "measurement": 23.95
+    },
+    {
+      "containerNumber": "CONT2532240",
+      "sealNumber": "SEAL218583",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 17757.66,
+      "measurement": 30.13
+    },
+    {
+      "containerNumber": "CONT1080881",
+      "sealNumber": "SEAL357389",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 13090.67,
+      "measurement": 31.63
+    },
+    {
+      "containerNumber": "CONT3290092",
+      "sealNumber": "SEAL639238",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 10101.78,
+      "measurement": 38.47
+    },
+    {
+      "containerNumber": "CONT1779251",
+      "sealNumber": "SEAL457621",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 6901.34,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CONT8412360",
+      "sealNumber": "SEAL686574",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 13249.18,
+      "measurement": 23.89
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 20 STANDARD TANK",
+    "totalPackages": 394,
+    "totalGrossWeight": 79556.29,
+    "totalMeasurement": 217.67
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-22 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2989, VALUE: USD58,627, 7 DAYS FREE TIME AT DESTINATION, KEEP DRY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9562286",
+    "unClass": "8",
+    "unCode": "2989,",
+    "hsCode": "6773.16.98",
+    "flashPoint": "50\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

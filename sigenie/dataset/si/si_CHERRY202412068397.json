@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202412068397",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 CHEMICAL RD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "INFO@ASIAPACIFICCHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE IMPORTS INC.",
+      "address": "5678 IMPORT STREET, HAMBURG, GERMANY",
+      "companyNumber": "1234567890",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@WORLDWIDEIMPORTS.DE"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE IMPORTS INC.",
+      "address": "5678 IMPORT STREET, HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT5196191",
+      "sealNumber": "SEAL128222",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 17846.31,
+      "measurement": 27.22
+    },
+    {
+      "containerNumber": "CONT9749446",
+      "sealNumber": "SEAL820137",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 16996.68,
+      "measurement": 36.02
+    },
+    {
+      "containerNumber": "CONT3788540",
+      "sealNumber": "SEAL547872",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 17045.15,
+      "measurement": 33.66
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 117,
+    "totalGrossWeight": 51888.14,
+    "totalMeasurement": 96.9
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "MSDS"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE IMPORTS INC.",
+      "address": "5678 IMPORT STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@WORLDWIDEIMPORTS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "address": "1234 CHEMICAL RD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679"
+    },
+    "onboardDate": "2024-12-12 08:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2658"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2305070",
+    "unClass": "4",
+    "unCode": "2658",
+    "hsCode": "1464.13.28",
+    "flashPoint": "91\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

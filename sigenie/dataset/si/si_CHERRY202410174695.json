@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202410174695",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING LTD.",
+      "address": "1234 BEIJING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@BETATRADING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "5678 MADRID STREET, MADRID, SPAIN 28000",
+      "taxId": "ESB123456789",
+      "president": "Mr. Carlos Sanchez",
+      "telephone": "+34 91 111 2222",
+      "fax": "+34 91 111 3333",
+      "email": "CARLOS.SANCHEZ@ALPHAIMPORTEXPORT.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SPAIN S.L.",
+      "address": "9012 BARCELONA AVENUE, BARCELONA, SPAIN 08000",
+      "taxId": "ESB987654321",
+      "president": "Ms. Maria Lopez",
+      "telephone": "+34 93 444 5555",
+      "fax": "+34 93 444 6666"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "OUT-OF-GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT8577007",
+      "sealNumber": "SEAL249157",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 13035.39,
+      "measurement": 39.09
+    },
+    {
+      "containerNumber": "CONT5220673",
+      "sealNumber": "SEAL335928",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 6114.3,
+      "measurement": 32.97
+    },
+    {
+      "containerNumber": "CONT9035886",
+      "sealNumber": "SEAL276823",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 5681.96,
+      "measurement": 30.59
+    },
+    {
+      "containerNumber": "CONT1044246",
+      "sealNumber": "SEAL826083",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 9604.41,
+      "measurement": 35.92
+    },
+    {
+      "containerNumber": "CONT3152245",
+      "sealNumber": "SEAL182194",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 9255.13,
+      "measurement": 24.97
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD OPEN TOP",
+    "totalPackages": 227,
+    "totalGrossWeight": 43691.19,
+    "totalMeasurement": 163.54
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-24 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 9653x2649x2648"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9653",
+    "width": "2649",
+    "height": "2648",
+    "overWidth": "209",
+    "overHeight": "58"
+  }
+}

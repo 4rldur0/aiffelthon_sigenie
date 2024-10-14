@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202412059981",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA INDUSTRIES LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212-522-123456",
+      "fax": "+212-522-123457"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212-522-123456",
+      "fax": "+212-522-123457"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "621120",
+  "commodityDescription": "MEN'S COTTON SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CONT3306940",
+      "sealNumber": "SEAL223008",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 19783.73,
+      "measurement": 34.89
+    },
+    {
+      "containerNumber": "CONT1485998",
+      "sealNumber": "SEAL962478",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 12322.03,
+      "measurement": 35.8
+    },
+    {
+      "containerNumber": "CONT5926077",
+      "sealNumber": "SEAL611432",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 8332.25,
+      "measurement": 29.52
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 154,
+    "totalGrossWeight": 40438.01,
+    "totalMeasurement": 100.21
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212-522-123456",
+      "fax": "+212-522-123457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212-522-123456",
+      "fax": "+212-522-123457"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

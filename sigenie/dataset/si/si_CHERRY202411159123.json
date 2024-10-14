@@ -1,0 +1,143 @@
+{
+  "bookingReference": "CHERRY202411159123",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS PTE LTD",
+      "address": "123 JALAN SINGAPURA, SINGAPORE 123456",
+      "country": "SINGAPORE",
+      "additionalInfo": "CONTACT PERSON: MR. JOHN LEE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "JOHN.LEE@ASIAFOODS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "12 RUE DE PARIS, PARIS 75001, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6790",
+      "email": "INFO@GLOBALTRADING.FR"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "12 RUE DE PARIS, PARIS 75001, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6790",
+      "email": "INFO@GLOBALTRADING.FR"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030261",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT6331517",
+      "sealNumber": "SEAL440588",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 9154.5,
+      "measurement": 23.07
+    },
+    {
+      "containerNumber": "CONT8204242",
+      "sealNumber": "SEAL914668",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 9111.71,
+      "measurement": 28.81
+    },
+    {
+      "containerNumber": "CONT6273745",
+      "sealNumber": "SEAL766510",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 11443.36,
+      "measurement": 39.57
+    },
+    {
+      "containerNumber": "CONT2431146",
+      "sealNumber": "SEAL775453",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 11334.25,
+      "measurement": 20.1
+    },
+    {
+      "containerNumber": "CONT8842541",
+      "sealNumber": "SEAL542289",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 17975.65,
+      "measurement": 27.1
+    },
+    {
+      "containerNumber": "CONT1951464",
+      "sealNumber": "SEAL307435",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 17573.65,
+      "measurement": 30.14
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD REEFER",
+    "totalPackages": 252,
+    "totalGrossWeight": 76593.12,
+    "totalMeasurement": 168.79
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "12 RUE DE PARIS, PARIS 75001, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6790",
+      "email": "INFO@GLOBALTRADING.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "12 RUE DE PARIS, PARIS 75001, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6790",
+      "email": "INFO@GLOBALTRADING.FR"
+    },
+    "onboardDate": "2024-11-21 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -20\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4068218",
+    "temperature": "-20\u00b0C",
+    "minTemperature": "-22\u00b0C",
+    "maxTemperature": "-18\u00b0C",
+    "ventilation": "66%",
+    "humidity": "88%"
+  }
+}

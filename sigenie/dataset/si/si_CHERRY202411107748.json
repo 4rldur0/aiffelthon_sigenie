@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411107748",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENGINEERING CO.",
+      "address": "NO. 1234, XINJIN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568",
+      "email": "INFO@GLOBALFREIGHT.CO.UK",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "340212",
+  "commodityDescription": "DANGEROUS CHEMICAL SUBSTANCE - ORGANIC SURFACE-ACTIVE AGENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT8393706",
+      "sealNumber": "SEAL953295",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 12436.91,
+      "measurement": 22.13
+    },
+    {
+      "containerNumber": "CONT5462198",
+      "sealNumber": "SEAL388618",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 16162.42,
+      "measurement": 21.95
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 65,
+    "totalGrossWeight": 28599.33,
+    "totalMeasurement": 44.08
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241110-1001",
+    "documentNumber": "20241110-1001",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2733, VALUE: USD357,207, 14 DAYS FREE TIME AT DESTINATION, KEEP DRY",
+    "dangerousGoods": {
+      "unNumber": "2733",
+      "properShippingName": "ORGANIC SURFACE-ACTIVE AGENTS",
+      "class": "3",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5849275",
+    "unClass": "3",
+    "unCode": "2733,",
+    "hsCode": "6629.91.36",
+    "flashPoint": "73\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

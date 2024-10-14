@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202412038726",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE AUTOMATION SOLUTIONS PTE LTD",
+      "address": "123 ALEXANDRA ROAD, #05-01, SINGAPORE 118534",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+65 6256 7890",
+      "fax": "+65 6256 7891",
+      "email": "SHIPPING@SINGAPOREAUTOMATIONSOLUTIONS.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING FRANCE SARL",
+      "address": "19 RUE DE LA LIBERTE, 75006 PARIS, FRANCE",
+      "usci": "91321200765109788X",
+      "president": "JEAN-LUC DUPONT",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEANLUC.DUPONT@DHL.COM"
+    },
+    "notifyParty": {
+      "name": "SINGAPORE AUTOMATION SOLUTIONS PTE LTD",
+      "address": "123 ALEXANDRA ROAD, #05-01, SINGAPORE 118534",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+65 6256 7890",
+      "fax": "+65 6256 7891",
+      "email": "SHIPPING@SINGAPOREAUTOMATIONSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT3856263",
+      "sealNumber": "SEAL561925",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 13189.58,
+      "measurement": 36.03
+    },
+    {
+      "containerNumber": "CONT1420007",
+      "sealNumber": "SEAL274444",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 10130.8,
+      "measurement": 31.75
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 33,
+    "totalGrossWeight": 23320.38,
+    "totalMeasurement": 67.78
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "10 Anson Road #20-01, International Plaza, Singapore 079903",
+      "telephone": "++65 6535 3800",
+      "fax": "+65 6535 3801",
+      "email": "JOHAN.DEVRIES@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "10 Anson Road #20-01, International Plaza, Singapore 079903",
+      "telephone": "++65 6535 3800",
+      "fax": "+65 6535 3801",
+      "email": "JOHAN.DEVRIES@DHL.COM"
+    },
+    "onboardDate": "2024-12-11 23:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1893, VALUE: USD687,102"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1765568",
+    "unClass": "8",
+    "unCode": "1893,",
+    "hsCode": "9953.97.53",
+    "flashPoint": "25\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

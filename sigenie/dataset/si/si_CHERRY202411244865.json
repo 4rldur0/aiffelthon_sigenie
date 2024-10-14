@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411244865",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 HONGQI ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "25 AVENIDA DE ESPA\u00d1A, ALGECIRAS, SPAIN 11200",
+      "taxId": "B98765432",
+      "president": "MR. ANTONIO FERNANDEZ",
+      "telephone": "+34 956 5555 66",
+      "fax": "+34 956 5555 67",
+      "email": "ANTONIO.FERNANDEZ@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "FRUIT IMPORTERS S.A.",
+      "address": "30 CALLE DE LA FRUTA, ALGECIRAS, SPAIN 11201",
+      "taxId": "A12345678",
+      "president": "MS. MARIA GARCIA",
+      "telephone": "+34 956 7777 88",
+      "fax": "+34 956 7777 89"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080550",
+  "commodityDescription": "MANDARINS",
+  "containers": [
+    {
+      "containerNumber": "CONT8577223",
+      "sealNumber": "SEAL464479",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 14284.64,
+      "measurement": 33.91
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD REEFER",
+    "totalPackages": 43,
+    "totalGrossWeight": 14284.64,
+    "totalMeasurement": 33.91
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -7\u00b0C, KEEP DRY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4253934",
+    "temperature": "-7\u00b0C",
+    "minTemperature": "-9\u00b0C",
+    "maxTemperature": "-5\u00b0C",
+    "ventilation": "91%",
+    "humidity": "67%"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410279626",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. INC.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "CONTACT PERSON: JOHN SMITH",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "JOHN.SMITH@BETATRADING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORTS LTD",
+      "address": "5678 ALICANTE STREET, MADRID, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 91 1111 2222",
+      "fax": "+34 91 1111 3333",
+      "email": "INFO@ALPHAIMPORT.ES"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS LTD",
+      "address": "9876 BARCELONA STREET, BARCELONA, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 93 2222 3333",
+      "fax": "+34 93 2222 4444",
+      "email": "INFO@WORLDWIDE-LOGISTICS.ES"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT4751544",
+      "sealNumber": "SEAL540537",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 8379.82,
+      "measurement": 22.73
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD TANK",
+    "totalPackages": 37,
+    "totalGrossWeight": 8379.82,
+    "totalMeasurement": 22.73
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL IMPORTS LTD",
+      "address": "5678 ALICANTE STREET, MADRID, SPAIN",
+      "telephone": "+34 91 1111 2222",
+      "fax": "+34 91 1111 3333",
+      "email": "INFO@ALPHAIMPORT.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL IMPORTS LTD",
+      "address": "5678 ALICANTE STREET, MADRID, SPAIN",
+      "telephone": "+34 91 1111 2222",
+      "fax": "+34 91 1111 3333",
+      "email": "INFO@ALPHAIMPORT.ES"
+    },
+    "onboardDate": "2024-11-12 09:00",
+    "additionalRemarks": "MAINTAIN HUMIDITY"
+  }
+}

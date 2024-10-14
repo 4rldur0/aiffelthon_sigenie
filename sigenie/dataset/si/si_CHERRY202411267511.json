@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202411267511",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679",
+      "email": "INFO@ASIAIMPORT.COM"
+    },
+    "consignee": {
+      "name": "UNIVERSAL LOGISTICS GROUP LTD.",
+      "address": "456 ABC STREET, KUALA LUMPUR, MALAYSIA 50000",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+60 3 1234 5678",
+      "fax": "+60 3 1234 5679",
+      "email": "INFO@UNIVERSALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "UNIVERSAL LOGISTICS GROUP LTD.",
+      "address": "456 ABC STREET, KUALA LUMPUR, MALAYSIA 50000",
+      "taxId": "",
+      "president": "MS. JANE DOE",
+      "telephone": "+60 3 1234 5678",
+      "fax": "+60 3 1234 5679"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CONT9698874",
+      "sealNumber": "SEAL626030",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 6418.67,
+      "measurement": 27.57
+    },
+    {
+      "containerNumber": "CONT7754636",
+      "sealNumber": "SEAL775346",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 11413.22,
+      "measurement": 34.3
+    },
+    {
+      "containerNumber": "CONT4438850",
+      "sealNumber": "SEAL155620",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 18574.04,
+      "measurement": 29.55
+    },
+    {
+      "containerNumber": "CONT3377501",
+      "sealNumber": "SEAL515698",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 8970.85,
+      "measurement": 27.08
+    },
+    {
+      "containerNumber": "CONT5238065",
+      "sealNumber": "SEAL299114",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 10769.87,
+      "measurement": 37.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD PLATFORM",
+    "totalPackages": 191,
+    "totalGrossWeight": 56146.65,
+    "totalMeasurement": 156.31
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "UNIVERSAL LOGISTICS GROUP LTD.",
+      "address": "456 ABC STREET, KUALA LUMPUR, MALAYSIA 50000",
+      "telephone": "+60 3 1234 5678",
+      "fax": "+60 3 1234 5679",
+      "email": "INFO@UNIVERSALLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "UNIVERSAL LOGISTICS GROUP LTD.",
+      "address": "456 ABC STREET, KUALA LUMPUR, MALAYSIA 50000",
+      "telephone": "+60 3 1234 5678",
+      "fax": "+60 3 1234 5679",
+      "email": "INFO@UNIVERSALLOGISTICS.COM"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5066x2660x2749, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5066",
+    "width": "2660",
+    "height": "2749",
+    "overWidth": "220",
+    "overHeight": "159"
+  }
+}

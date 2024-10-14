@@ -71,7 +71,7 @@ def main():
     st.markdown("---")
     st.markdown(
         "<div style='text-align: center; color: gray; padding: 10px;'>"
-        "Copyright © 2024 SIGenie 0.06-5573 - Early Access Version. All rights reserved."
+        "Copyright © 2024 SIGenie 0.06-5858 - Early Access Version. All rights reserved."
         "</div>",
         unsafe_allow_html=True
     )

@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202411089967",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING INC.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8625 9876",
+      "fax": "+86 574 8625 9877",
+      "email": "INFO@BETAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT CO. LTD",
+      "address": "100 GRAN VIA, ALGECIRAS, SPAIN 11001",
+      "taxId": "ES1234567890",
+      "president": "MR. JOSE RODRIGUEZ",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "JOSE.RODRIGUEZ@ALPHAIMPORT.ES"
+    },
+    "notifyParty": {
+      "name": "TRANSLOGISTICS SPAIN S.L.",
+      "address": "Calle Miguel Hernandez 10, ALGEICRAS, SPAIN 11002",
+      "taxId": "ES9876543210",
+      "president": "MS. MARIA FERNANDEZ",
+      "telephone": "+34 956 6789 01",
+      "fax": "+34 956 6789 02"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL MERCHANDISE",
+  "containers": [
+    {
+      "containerNumber": "CONT4641406",
+      "sealNumber": "SEAL472367",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 8514.15,
+      "measurement": 23.63
+    },
+    {
+      "containerNumber": "CONT1155639",
+      "sealNumber": "SEAL707029",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 19197.65,
+      "measurement": 23.51
+    },
+    {
+      "containerNumber": "CONT2781294",
+      "sealNumber": "SEAL210406",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 8275.45,
+      "measurement": 22.49
+    },
+    {
+      "containerNumber": "CONT6092777",
+      "sealNumber": "SEAL745398",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 9096.5,
+      "measurement": 24.93
+    },
+    {
+      "containerNumber": "CONT1346028",
+      "sealNumber": "SEAL476175",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 11320.5,
+      "measurement": 25.96
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD TANK",
+    "totalPackages": 301,
+    "totalGrossWeight": 56404.25,
+    "totalMeasurement": 120.52
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "TRANSLOGISTICS SPAIN S.L.",
+      "address": "Calle Miguel Hernandez 10, ALGEICRAS, SPAIN 11002",
+      "telephone": "+34 956 6789 01",
+      "fax": "+34 956 6789 02",
+      "email": "INFO@TRANSLOGISTICS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT & EXPORT CO. LTD",
+      "address": "100 GRAN VIA, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "JOSE.RODRIGUEZ@ALPHAIMPORT.ES"
+    },
+    "onboardDate": "2024-11-17 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

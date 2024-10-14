@@ -161,6 +161,7 @@ This is an early access version. For major changes, please open an issue first t
   - Doc splitter with customized function in compliance search
   - Reranker in compliance search
   - dataset 5573 (2024-10-14)
+  - dataset 5858 (2024-10-15)
 
 ---
 

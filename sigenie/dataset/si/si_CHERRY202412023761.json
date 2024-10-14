@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202412023761",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH PRECISION GMBH",
+      "address": "FRANKFURTER STRASSE 23, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "(ATTN: MR. PETER SCHULZ)",
+      "telephone": "+49 40 39990 1234",
+      "email": "PETER.SCHULZ@EUROTECHPRECISION.DE"
+    },
+    "consignee": {
+      "name": "ZENITH LOGISTICS GMBH",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118532",
+      "country": "SINGAPORE",
+      "email": "ORDERS@ZENITHLOGISTICS.COM.SG",
+      "telephone": "+65 6222 1111"
+    },
+    "notifyParty": {
+      "name": "ZENITH LOGISTICS GMBH",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118532",
+      "country": "SINGAPORE",
+      "email": "ORDERS@ZENITHLOGISTICS.COM.SG",
+      "telephone": "+65 6222 1111"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS GOODS",
+  "containers": [
+    {
+      "containerNumber": "CONT3211794",
+      "sealNumber": "SEAL418229",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 13667.45,
+      "measurement": 24.87
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 93,
+    "totalGrossWeight": 13667.45,
+    "totalMeasurement": 24.87
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "ZENITH LOGISTICS GMBH",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118532",
+      "telephone": "+65 6222 1111",
+      "fax": "+65 6222 1112",
+      "email": "LISA.CHEN@ZENITHLOGISTICS.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH LOGISTICS GMBH",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118532",
+      "telephone": "+65 6222 1111",
+      "fax": "+65 6222 1112",
+      "email": "LISA.CHEN@ZENITHLOGISTICS.COM.SG"
+    },
+    "onboardDate": "2024-12-05 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1382"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8314665",
+    "unClass": "9",
+    "unCode": "1382",
+    "hsCode": "2450.51.97",
+    "flashPoint": "33\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

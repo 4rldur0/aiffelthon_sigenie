@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202412013209",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAFOODS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "taxId": "NL850729381B01",
+      "president": "MR. PETER VAN DER MARK",
+      "telephone": "+31 10 202 1234",
+      "fax": "+31 10 202 1235",
+      "email": "PETER.VANDERMARK@GLOBALSHIPPING.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SERVICES BV",
+      "address": "125 WATERLOOSTRAAT, ROTTERDAM, NETHERLANDS 3012AA",
+      "taxId": "NL851234567B01",
+      "president": "MS. ANNA VAN DER VEEN",
+      "telephone": "+31 10 303 1234",
+      "fax": "+31 10 303 1235"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030819",
+  "commodityDescription": "FROZEN TUNA FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT4176522",
+      "sealNumber": "SEAL940423",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 11015.09,
+      "measurement": 37.8
+    },
+    {
+      "containerNumber": "CONT8301038",
+      "sealNumber": "SEAL359904",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 7373.43,
+      "measurement": 35.34
+    },
+    {
+      "containerNumber": "CONT3680273",
+      "sealNumber": "SEAL566893",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 15986.28,
+      "measurement": 29.21
+    },
+    {
+      "containerNumber": "CONT8428443",
+      "sealNumber": "SEAL784933",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 11562.39,
+      "measurement": 33.31
+    },
+    {
+      "containerNumber": "CONT8099345",
+      "sealNumber": "SEAL822586",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 9896.94,
+      "measurement": 29.45
+    },
+    {
+      "containerNumber": "CONT9508211",
+      "sealNumber": "SEAL408267",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 8625.65,
+      "measurement": 36.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE REEFER",
+    "totalPackages": 382,
+    "totalGrossWeight": 64459.78,
+    "totalMeasurement": 201.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 202 1234",
+      "fax": "+31 10 202 1235",
+      "email": "PETER.VANDERMARK@GLOBALSHIPPING.NL"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 13\u00b0C, VALUE: USD192,519"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3757136",
+    "temperature": "13\u00b0C",
+    "minTemperature": "11\u00b0C",
+    "maxTemperature": "15\u00b0C",
+    "ventilation": "1%",
+    "humidity": "78%"
+  }
+}

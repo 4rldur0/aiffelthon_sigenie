@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202412073170",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA FOODS EXPORTERS INC.",
+      "address": "123 OCEAN AVENUE, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 1234 5678",
+      "email": "SHIPPING@BETAFOODS.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORTERS LTD",
+      "address": "456 ALAMEIDA STREET, MADRID, SPAIN, 28001",
+      "country": "SPAIN",
+      "email": "INFO@ALPHAIMPORTERS.ES",
+      "telephone": "+34 91 987 6543",
+      "fax": "+34 91 987 6542"
+    },
+    "notifyParty": {
+      "name": "SEA LOGISTICS S.L.",
+      "address": "789 GRAN VIA, BARCELONA, SPAIN, 08007",
+      "country": "SPAIN",
+      "email": "OPERATIONS@SEALOGISTICS.ES",
+      "telephone": "+34 93 256 7890",
+      "fax": "+34 93 256 7891"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN HERRING",
+  "containers": [
+    {
+      "containerNumber": "CONT3967861",
+      "sealNumber": "SEAL363348",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 16576.89,
+      "measurement": 36.03
+    },
+    {
+      "containerNumber": "CONT8162541",
+      "sealNumber": "SEAL463628",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 12159.57,
+      "measurement": 34.5
+    },
+    {
+      "containerNumber": "CONT3896069",
+      "sealNumber": "SEAL558270",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 9331.81,
+      "measurement": 23.68
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 134,
+    "totalGrossWeight": 38068.27,
+    "totalMeasurement": 94.21
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ALPHA20241207"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL IMPORTERS LTD",
+      "address": "456 ALAMEIDA STREET, MADRID, SPAIN, 28001",
+      "telephone": "+34 91 987 6543",
+      "fax": "+34 91 987 6542",
+      "email": "INFO@ALPHAIMPORTERS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL IMPORTERS LTD",
+      "address": "456 ALAMEIDA STREET, MADRID, SPAIN, 28001",
+      "telephone": "+34 91 987 6543",
+      "fax": "+34 91 987 6542",
+      "email": "INFO@ALPHAIMPORTERS.ES"
+    },
+    "onboardDate": "2024-12-17 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 11\u00b0C, VALUE: USD898,295"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2969634",
+    "temperature": "11\u00b0C",
+    "minTemperature": "9\u00b0C",
+    "maxTemperature": "13\u00b0C",
+    "ventilation": "67%",
+    "humidity": "82%"
+  }
+}

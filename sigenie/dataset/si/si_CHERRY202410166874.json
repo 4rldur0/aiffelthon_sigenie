@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410166874",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING CO.",
+      "address": "1234 INDUSTRY STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "OMEGA.MANUFACTURING@ZINC.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "1234 HARBOR STREET, CASABLANCA, MOROCCO",
+      "taxId": "",
+      "president": "MR. MOHAMED ABDELHALIM",
+      "telephone": "+212 522 9999 88",
+      "fax": "+212 522 9999 87",
+      "email": "MOHAMED.ABDELHALIM@DELTASHIPPING.MA"
+    },
+    "notifyParty": {
+      "name": "ATLAS LOGISTICS S.A.",
+      "address": "1234 PORT STREET, TANGER MED, MOROCCO",
+      "taxId": "",
+      "president": "MS. FATIMA ELMOUSTI",
+      "telephone": "+212 539 8888 77",
+      "fax": "+212 539 8888 76"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "282739",
+  "commodityDescription": "ZINC DUST",
+  "containers": [
+    {
+      "containerNumber": "CONT4850381",
+      "sealNumber": "SEAL797649",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 11977.12,
+      "measurement": 38.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE TANK",
+    "totalPackages": 29,
+    "totalGrossWeight": 11977.12,
+    "totalMeasurement": 38.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024102712453"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "ATLAS LOGISTICS S.A.",
+      "address": "1234 PORT STREET, TANGER MED, MOROCCO",
+      "telephone": "+212 539 8888 77",
+      "fax": "+212 539 8888 76",
+      "email": "ATLAS.LOGISTICS@TANGERMED.MA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "1234 HARBOR STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 9999 88",
+      "fax": "+212 522 9999 87",
+      "email": "MOHAMED.ABDELHALIM@DELTASHIPPING.MA"
+    },
+    "onboardDate": "2024-10-26 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2670, VALUE: USD253,291"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8908055",
+    "unClass": "4",
+    "unCode": "2670,",
+    "hsCode": "5898.76.87",
+    "flashPoint": "63\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

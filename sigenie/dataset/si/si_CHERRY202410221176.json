@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410221176",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO",
+      "address": "123 FACTORY STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8666 9999",
+      "fax": "+86 574 8666 8888",
+      "email": "INFO@ASIA pacificMFG.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS INC",
+      "address": "456 MAIN STREET, HAMBURG, GERMANY 20457",
+      "taxId": "DE123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "JOHN.SMITH@GTSINC.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST LOGISTICS GMBH",
+      "address": "789 WAREHOUSE STREET, HAMBURG, GERMANY 22525",
+      "taxId": "DE987654321",
+      "president": "MS. ANNA MEIER",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950430",
+  "commodityDescription": "DRAWING INSTRUMENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT1263824",
+      "sealNumber": "SEAL619949",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 19619.17,
+      "measurement": 36.22
+    },
+    {
+      "containerNumber": "CONT3488257",
+      "sealNumber": "SEAL908834",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 5317.29,
+      "measurement": 37.22
+    },
+    {
+      "containerNumber": "CONT2151666",
+      "sealNumber": "SEAL604422",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 5145.39,
+      "measurement": 36.94
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 209,
+    "totalGrossWeight": 30081.85,
+    "totalMeasurement": 110.38
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST GLOBAL LOGISTICS GMBH",
+      "address": "789 WAREHOUSE STREET, HAMBURG, GERMANY 22525",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433",
+      "email": "INFO@FIRSTGLOBALLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC",
+      "address": "456 MAIN STREET, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "JOHN.SMITH@GTSINC.COM"
+    },
+    "onboardDate": "2024-10-29 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

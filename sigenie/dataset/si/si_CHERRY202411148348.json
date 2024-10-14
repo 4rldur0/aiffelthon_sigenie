@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411148348",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 1234",
+      "fax": "+86 574 8888 1235",
+      "email": "INFO@ZENITHTRADING.CN"
+    },
+    "consignee": {
+      "name": "KAIROS INTERNATIONAL LTD.",
+      "address": "1234 AMSTERDAM AVENUE, ROTTERDAM, NETHERLANDS",
+      "usci": "91321200765109788X",
+      "president": "PETER VAN DER SLUIS",
+      "telephone": "+31 10 222 1234",
+      "fax": "+31 10 222 1235",
+      "email": "INFO@KAIROSINTERNATIONAL.NL"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030191",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT8320981",
+      "sealNumber": "SEAL914429",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 14660.93,
+      "measurement": 37.4
+    },
+    {
+      "containerNumber": "CONT5576783",
+      "sealNumber": "SEAL474981",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 19214.24,
+      "measurement": 31.49
+    },
+    {
+      "containerNumber": "CONT9293016",
+      "sealNumber": "SEAL609236",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 16991.29,
+      "measurement": 35.88
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 129,
+    "totalGrossWeight": 50866.46,
+    "totalMeasurement": 104.77
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KAIROS INTERNATIONAL LTD.",
+      "address": "1234 AMSTERDAM AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 1234",
+      "fax": "+31 10 222 1235",
+      "email": "INFO@KAIROSINTERNATIONAL.NL"
+    },
+    "onboardDate": "2024-12-04 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -11\u00b0C, VALUE: USD788,722, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1586604",
+    "temperature": "-11\u00b0C",
+    "minTemperature": "-13\u00b0C",
+    "maxTemperature": "-9\u00b0C",
+    "ventilation": "91%",
+    "humidity": "86%"
+  }
+}

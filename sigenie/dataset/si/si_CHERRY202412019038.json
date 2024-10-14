@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202412019038",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8889",
+      "email": "SHIPPING@BETAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "1234 GRAN VIA, MADRID, SPAIN",
+      "taxId": "ES1234567890",
+      "president": "MR. JUAN GARCIA",
+      "telephone": "+34 911 234 567",
+      "fax": "+34 911 234 568",
+      "email": "JUAN.GARCIA@ALPHAGLOBAL.COM"
+    },
+    "notifyParty": {
+      "name": "SPANISH LOGISTICS SOLUTIONS",
+      "address": "CALLE DE LA INDUSTRIA 10, MADRID, SPAIN",
+      "telephone": "+34 912 345 678",
+      "fax": "+34 912 345 679",
+      "email": "INFO@SPANISHLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT3000258",
+      "sealNumber": "SEAL262031",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 5276.83,
+      "measurement": 26.96
+    },
+    {
+      "containerNumber": "CONT3066471",
+      "sealNumber": "SEAL350465",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 14729.29,
+      "measurement": 21.11
+    },
+    {
+      "containerNumber": "CONT6195940",
+      "sealNumber": "SEAL908134",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 10042.17,
+      "measurement": 37.64
+    },
+    {
+      "containerNumber": "CONT3149440",
+      "sealNumber": "SEAL776975",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 19957.35,
+      "measurement": 25.69
+    },
+    {
+      "containerNumber": "CONT8957472",
+      "sealNumber": "SEAL294352",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 15507.2,
+      "measurement": 27.58
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD GENERAL",
+    "totalPackages": 281,
+    "totalGrossWeight": 65512.84,
+    "totalMeasurement": 138.98
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241215001"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "1234 GRAN VIA, MADRID, SPAIN",
+      "telephone": "+34 911 234 567",
+      "fax": "+34 911 234 568",
+      "email": "JUAN.GARCIA@ALPHAGLOBAL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "1234 GRAN VIA, MADRID, SPAIN",
+      "telephone": "+34 911 234 567",
+      "fax": "+34 911 234 568",
+      "email": "JUAN.GARCIA@ALPHAGLOBAL.COM"
+    },
+    "onboardDate": "2024-12-17 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1362"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4185909",
+    "unClass": "2",
+    "unCode": "1362",
+    "hsCode": "4346.27.49",
+    "flashPoint": "44\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

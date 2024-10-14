@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202412143343",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING INC.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@OMEGAMANUFACTURING.COM.CN"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 5678, SHANGHAI ROAD, PUJIANG DISTRICT, SHANGHAI, 200123",
+      "country": "CHINA",
+      "email": "ORDERS@DELTATRADING.COM.CN",
+      "telephone": "+86 21 2345 6789"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950430",
+  "commodityDescription": "WOODEN TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT7277253",
+      "sealNumber": "SEAL263102",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 14897.86,
+      "measurement": 33.2
+    },
+    {
+      "containerNumber": "CONT3378588",
+      "sealNumber": "SEAL307306",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 14848.02,
+      "measurement": 36.67
+    },
+    {
+      "containerNumber": "CONT4139953",
+      "sealNumber": "SEAL321740",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 9483.08,
+      "measurement": 24.61
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 259,
+    "totalGrossWeight": 39228.96,
+    "totalMeasurement": 94.48
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-12-21 22:00",
+    "additionalRemarks": "MAINTAIN HUMIDITY"
+  }
+}

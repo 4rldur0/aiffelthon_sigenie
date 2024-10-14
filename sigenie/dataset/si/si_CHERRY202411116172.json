@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411116172",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC PRECISION ENGINEERING CO. LTD",
+      "onBehalfOf": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "1234 PRECISION ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 12345679",
+      "email": "INFO@ASIAPRECISION.CN"
+    },
+    "consignee": {
+      "name": "EUROPHARMA BV",
+      "address": "KWARTIERMASTERSSTRAAT 123, 3011 AA ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@EUROPHARMA.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "1234 ORCHARD ROAD, SINGAPORE 238888"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "REEFER CONTAINER - PHARMACEUTICAL PRODUCTS",
+  "containers": [
+    {
+      "containerNumber": "CONT9150771",
+      "sealNumber": "SEAL478129",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 14573.22,
+      "measurement": 31.46
+    },
+    {
+      "containerNumber": "CONT2661182",
+      "sealNumber": "SEAL635873",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 15608.26,
+      "measurement": 37.66
+    },
+    {
+      "containerNumber": "CONT9008783",
+      "sealNumber": "SEAL375596",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 18883.99,
+      "measurement": 24.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE REEFER",
+    "totalPackages": 144,
+    "totalGrossWeight": 49065.47,
+    "totalMeasurement": 93.14
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROPHARMA BV",
+      "address": "KWARTIERMASTERSSTRAAT 123, 3011 AA ROTTERDAM, THE NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@EUROPHARMA.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "1234 ORCHARD ROAD, SINGAPORE 238888"
+    },
+    "onboardDate": "2024-11-17 02:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 11\u00b0C, VALUE: USD781,678, 30 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5131960",
+    "temperature": "11\u00b0C",
+    "minTemperature": "9\u00b0C",
+    "maxTemperature": "13\u00b0C",
+    "ventilation": "56%",
+    "humidity": "91%"
+  }
+}

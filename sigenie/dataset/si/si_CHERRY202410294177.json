@@ -1,105 +1,124 @@
 {
   "bookingReference": "CHERRY202410294177",
   "voyageDetails": {
-    "vesselName": "APL CHANGI",
-    "voyageNumber": "OFLQ2E1MA"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO"
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 7
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC IMPORTS INC.",
-      "address": "123 MAIN STREET, SHANGHAI, CHINA 200000",
-      "telephone": "+86 21 5555 1234",
-      "fax": "+86 21 5555 5678",
-      "email": "INFO@ASIAIMPORTS.COM"
+      "name": "ASIA PACIFIC MANUFACTURING CO. LTD",
+      "onBehalfOf": "",
+      "address": "1234 TOY ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "LIU.MEI@ASIAMFG.CN"
     },
     "consignee": {
-      "name": "GLOBAL TRADE SOLUTIONS LTD.",
-      "address": "456 MARKET STREET, ROTTERDAM, NETHERLANDS 3000 AA",
-      "taxId": "NL123456789",
-      "president": "MR. PETER SMITH",
-      "telephone": "+31 10 1234 5678",
-      "fax": "+31 10 1234 9876",
-      "email": "PETER.SMITH@GLOBALTRADESOLUTIONS.COM"
+      "name": "WORLDWIDE SHIPPING LTD.",
+      "address": "888 WORLDWIDE WAY, ROTTERDAM, NETHERLANDS 3011 DP",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001",
+      "email": "JANSSEN.MARK@WORLDWIDESHIPPING.NL"
     },
     "notifyParty": {
-      "name": "DUTCH FORWARDING CO.",
-      "address": "789 CANAL STREET, ROTTERDAM, NETHERLANDS 3010 AB",
-      "taxId": "NL987654321",
-      "president": "MS. ANNA JONES",
-      "telephone": "+31 10 4321 5678",
-      "fax": "+31 10 4321 9876"
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "999 LOGISTICS LANE, ROTTERDAM, NETHERLANDS 3015 GJ"
     }
   },
-  "shippingTerm": "CY/CY",
+  "shippingTerm": "CFS/CY",
   "hsCode": "950300",
-  "commodityDescription": "TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
+  "commodityDescription": "TOY CARS",
   "containers": [
     {
-      "containerNumber": "CONT6483922",
-      "sealNumber": "SEAL627074",
-      "numberOfPackages": 98,
+      "containerNumber": "CONT4594047",
+      "sealNumber": "SEAL326171",
+      "numberOfPackages": 73,
       "packageType": "BOXES",
-      "grossWeight": 6924.28,
-      "measurement": 24.2
+      "grossWeight": 14413.79,
+      "measurement": 31.01
     },
     {
-      "containerNumber": "CONT4149800",
-      "sealNumber": "SEAL172950",
-      "numberOfPackages": 64,
+      "containerNumber": "CONT9003546",
+      "sealNumber": "SEAL710303",
+      "numberOfPackages": 86,
       "packageType": "BOXES",
-      "grossWeight": 12699.73,
-      "measurement": 32.58
+      "grossWeight": 12127.53,
+      "measurement": 36.68
     },
     {
-      "containerNumber": "CONT4815826",
-      "sealNumber": "SEAL324737",
-      "numberOfPackages": 14,
+      "containerNumber": "CONT9532673",
+      "sealNumber": "SEAL955101",
+      "numberOfPackages": 48,
       "packageType": "BOXES",
-      "grossWeight": 8959.09,
-      "measurement": 21.33
+      "grossWeight": 15453.52,
+      "measurement": 32.41
+    },
+    {
+      "containerNumber": "CONT7273996",
+      "sealNumber": "SEAL256566",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 11116.72,
+      "measurement": 29.0
+    },
+    {
+      "containerNumber": "CONT9041598",
+      "sealNumber": "SEAL423985",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 11629.77,
+      "measurement": 31.93
+    },
+    {
+      "containerNumber": "CONT1564920",
+      "sealNumber": "SEAL460156",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 6129.53,
+      "measurement": 35.31
     }
   ],
   "totalShipment": {
-    "totalContainers": "3 x 45 HIGH CUBE TANK",
-    "totalPackages": 176,
-    "totalGrossWeight": 28583.1,
-    "totalMeasurement": 78.11
+    "totalContainers": "6 x 40 STANDARD GENERAL",
+    "totalPackages": 345,
+    "totalGrossWeight": 70870.86,
+    "totalMeasurement": 196.34
   },
   "additionalInformation": {
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "C0000171594",
+    "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
-      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
-      "telephone": "+65 6127 4158",
-      "fax": "+65 6127 4200",
-      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+      "name": "WORLDWIDE SHIPPING LTD.",
+      "address": "888 WORLDWIDE WAY, ROTTERDAM, NETHERLANDS 3011 DP",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001",
+      "email": "JANSSEN.MARK@WORLDWIDESHIPPING.NL"
     },
     "originalInvoiceDistribution": {
-      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
-      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
-      "telephone": "+65 6127 4158",
-      "fax": "+65 6127 4200",
-      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+      "name": "ASIA PACIFIC MANUFACTURING CO. LTD.",
+      "address": "1234 TOY ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013"
     },
-    "onboardDate": "2024-11-11 20:00",
-    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION, FRAGILE"
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
   }
 }

@@ -1,0 +1,84 @@
+{
+  "bookingReference": "CHERRY202410197507",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING LIMITED",
+      "onBehalfOf": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "1234 PRECISION RD, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-12345679",
+      "email": "INFO@PRECISIONENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "12345678 ORCHARD ROAD, SINGAPORE 238888",
+      "companyNumber": "201212345H",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890124",
+      "email": "ORDERS@GLOBALLOGISTICS.SG"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "12345678 ORCHARD ROAD, SINGAPORE 238888"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT5682338",
+      "sealNumber": "SEAL535069",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 13854.71,
+      "measurement": 25.7
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 27,
+    "totalGrossWeight": 13854.71,
+    "totalMeasurement": 25.7
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "12345678 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890124",
+      "email": "ORDERS@GLOBALLOGISTICS.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS PTE LTD",
+      "address": "12345678 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890124"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

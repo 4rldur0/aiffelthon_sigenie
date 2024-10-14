@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411122587",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA COLD CHAIN LOGISTICS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 COLD CHAIN ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8688 6159",
+      "fax": "+86 574 8688 6200",
+      "email": "LIU.WEIMIN@ASIACOLDCHAIN.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 GLOBAL WAY, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 GLOBAL WAY, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN MACKEREL",
+  "containers": [
+    {
+      "containerNumber": "CONT2403801",
+      "sealNumber": "SEAL801920",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 16651.05,
+      "measurement": 39.53
+    },
+    {
+      "containerNumber": "CONT4348064",
+      "sealNumber": "SEAL423260",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 12801.36,
+      "measurement": 34.55
+    },
+    {
+      "containerNumber": "CONT7134836",
+      "sealNumber": "SEAL778242",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 11931.03,
+      "measurement": 27.37
+    },
+    {
+      "containerNumber": "CONT1719458",
+      "sealNumber": "SEAL173164",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 15448.49,
+      "measurement": 22.9
+    },
+    {
+      "containerNumber": "CONT5003297",
+      "sealNumber": "SEAL490959",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 11422.04,
+      "measurement": 20.83
+    },
+    {
+      "containerNumber": "CONT5437718",
+      "sealNumber": "SEAL449915",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 5654.96,
+      "measurement": 30.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD REEFER",
+    "totalPackages": 359,
+    "totalGrossWeight": 73908.93,
+    "totalMeasurement": 175.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 GLOBAL WAY, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-11-16 21:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 15\u00b0C, VALUE: USD144,901, FRAGILE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8683161",
+    "temperature": "15\u00b0C",
+    "minTemperature": "13\u00b0C",
+    "maxTemperature": "17\u00b0C",
+    "ventilation": "38%",
+    "humidity": "84%"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "bookingReference": "CHERRY202410276902",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUIT FRESH INTERNATIONAL",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@FRUITFRESH.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTERS LTD",
+      "address": "123 RUE DE LA PAIX, PARIS, 75000",
+      "country": "FRANCE",
+      "email": "ORDERS@GLOBALIMPORTERS.FR",
+      "telephone": "+33 1 45 67 89 10"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTERS LTD",
+      "address": "123 RUE DE LA PAIX, PARIS, 75000",
+      "country": "FRANCE",
+      "email": "ORDERS@GLOBALIMPORTERS.FR",
+      "telephone": "+33 1 45 67 89 10"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080590",
+  "commodityDescription": "ORANGE",
+  "containers": [
+    {
+      "containerNumber": "CONT1538609",
+      "sealNumber": "SEAL517609",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 12743.43,
+      "measurement": 26.07
+    },
+    {
+      "containerNumber": "CONT9149935",
+      "sealNumber": "SEAL470456",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 7238.64,
+      "measurement": 37.88
+    },
+    {
+      "containerNumber": "CONT8303830",
+      "sealNumber": "SEAL218608",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 12175.88,
+      "measurement": 28.46
+    },
+    {
+      "containerNumber": "CONT2962365",
+      "sealNumber": "SEAL442024",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 12228.05,
+      "measurement": 22.27
+    },
+    {
+      "containerNumber": "CONT6106902",
+      "sealNumber": "SEAL348289",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 18780.12,
+      "measurement": 25.08
+    },
+    {
+      "containerNumber": "CONT1496546",
+      "sealNumber": "SEAL997308",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 7463.53,
+      "measurement": 30.23
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD REEFER",
+    "totalPackages": 463,
+    "totalGrossWeight": 70629.65,
+    "totalMeasurement": 169.99
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -10\u00b0C, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5783220",
+    "temperature": "-10\u00b0C",
+    "minTemperature": "-12\u00b0C",
+    "maxTemperature": "-8\u00b0C",
+    "ventilation": "98%",
+    "humidity": "75%"
+  }
+}

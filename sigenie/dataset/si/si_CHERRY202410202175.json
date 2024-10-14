@@ -1,0 +1,88 @@
+{
+  "bookingReference": "CHERRY202410202175",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA ELECTRONICS INC",
+      "address": "123 TECH STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "SHIPPING@DELTAELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "45 RUE DE LA PAIX, PARIS, FRANCE",
+      "taxId": "FR123456789012",
+      "president": "MR. PIERRE DUPONT",
+      "telephone": "+33 1 4444 1234",
+      "fax": "+33 1 4444 5678",
+      "email": "PIERRE.DUPONT@ASIA-PACIFIC-LOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "45 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 4444 1234",
+      "fax": "+33 1 4444 5678",
+      "email": "PIERRE.DUPONT@ASIA-PACIFIC-LOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854442",
+  "commodityDescription": "TELEPHONY APPARATUS",
+  "containers": [
+    {
+      "containerNumber": "CONT4629786",
+      "sealNumber": "SEAL447963",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 15406.83,
+      "measurement": 20.45
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 67,
+    "totalGrossWeight": 15406.83,
+    "totalMeasurement": 20.45
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "45 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 4444 1234",
+      "fax": "+33 1 4444 5678",
+      "email": "PIERRE.DUPONT@ASIA-PACIFIC-LOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "45 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 4444 1234",
+      "fax": "+33 1 4444 5678",
+      "email": "PIERRE.DUPONT@ASIA-PACIFIC-LOGISTICS.COM"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "KEEP DRY"
+  }
+}

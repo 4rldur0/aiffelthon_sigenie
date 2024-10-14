@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411131430",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL MACHINERY INC",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "EUROASIA TRADING CO LTD",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@EUROASIATRADING.DE",
+      "contactPerson": "PETER SCHMITZ"
+    },
+    "notifyParty": {
+      "name": "EUROASIA TRADING CO LTD"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "SPECIALIZED OUT-OF-GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT4690813",
+      "sealNumber": "SEAL267577",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 9917.58,
+      "measurement": 27.86
+    },
+    {
+      "containerNumber": "CONT1765103",
+      "sealNumber": "SEAL707124",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 8495.96,
+      "measurement": 20.39
+    },
+    {
+      "containerNumber": "CONT2024364",
+      "sealNumber": "SEAL246616",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 12923.48,
+      "measurement": 37.9
+    },
+    {
+      "containerNumber": "CONT8628743",
+      "sealNumber": "SEAL129783",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 9909.52,
+      "measurement": 25.99
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD FLAT RACK",
+    "totalPackages": 132,
+    "totalGrossWeight": 41246.54,
+    "totalMeasurement": 112.14
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241113-1001",
+    "documentNumber": "20241113-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROASIA TRADING CO LTD",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA TRADING CO LTD",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "onboardDate": "2024-11-22 16:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 3105x2817x2017",
+    "outOfGaugeDimensions": "LxWxH(mm): 3105x2817x2017"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3105",
+    "width": "2817",
+    "height": "2017",
+    "overWidth": "377",
+    "overHeight": "0"
+  }
+}

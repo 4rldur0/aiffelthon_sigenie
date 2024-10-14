@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411211451",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS PTE LTD",
+      "address": "123 Anson ROAD, SINGAPORE 079900",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-1235",
+      "email": "INFO@GLOBALFORWARDINGSOLUTIONS.COM.SG",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT2876906",
+      "sealNumber": "SEAL774433",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 12597.23,
+      "measurement": 33.45
+    },
+    {
+      "containerNumber": "CONT7076052",
+      "sealNumber": "SEAL850474",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 5315.17,
+      "measurement": 24.12
+    },
+    {
+      "containerNumber": "CONT5118570",
+      "sealNumber": "SEAL986513",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 6086.39,
+      "measurement": 37.51
+    },
+    {
+      "containerNumber": "CONT1851857",
+      "sealNumber": "SEAL534077",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 19578.61,
+      "measurement": 32.73
+    },
+    {
+      "containerNumber": "CONT6337360",
+      "sealNumber": "SEAL925429",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 16572.41,
+      "measurement": 26.22
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE TANK",
+    "totalPackages": 243,
+    "totalGrossWeight": 60149.81,
+    "totalMeasurement": 154.03
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS PTE LTD",
+      "address": "123 Anson ROAD, SINGAPORE 079900",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS PTE LTD",
+      "address": "123 Anson ROAD, SINGAPORE 079900",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-1235"
+    },
+    "onboardDate": "2024-12-06 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2062, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6471913",
+    "unClass": "3",
+    "unCode": "2062,",
+    "hsCode": "4738.66.33",
+    "flashPoint": "41\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}
