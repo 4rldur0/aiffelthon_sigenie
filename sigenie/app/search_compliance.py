@@ -19,7 +19,6 @@ from utils.helpers import get_custom_font_css
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import FlashrankRerank
 from langchain_openai import ChatOpenAI
-from langchain_community.vectorstores import FAISS
 
 # Load environment variables
 load_dotenv()
@@ -220,23 +219,40 @@ def refresh_prompts():
     logging.info(f"Prompts refreshed at {st.session_state.last_refresh_time}")
     logging.info(f"New prompts: {st.session_state.recommended_prompts}")
 
-def perform_similarity_search(vectorstore, prompt, k=5, score_threshold=0.5):
+# def perform_similarity_search(vectorstore, prompt, k=5, score_threshold=0.5):
+#     """
+#     Perform similarity search on the vectorstore.
+    
+#     Args:
+#     vectorstore: The FAISS vectorstore
+#     prompt: The search query
+#     k: Number of results to return
+#     score_threshold: Threshold for filtering results based on similarity score
+    
+#     Returns:
+#     List of tuples containing (document, score)
+#     """
+#     results = vectorstore.similarity_search_with_score(prompt, k=k)
+    
+#     # Filter results based on score threshold
+#     filtered_results = [(doc, score) for doc, score in results if score <= score_threshold]
+    
+#     return filtered_results
+
+for reranker
+def perform_similarity_search(vectorstore, prompt, k=10, score_threshold=0.5):
     """
-    Perform similarity search on the vectorstore.
-    
-    Args:
-    vectorstore: The FAISS vectorstore
-    prompt: The search query
-    k: Number of results to return
-    score_threshold: Threshold for filtering results based on similarity score
-    
-    Returns:
-    List of tuples containing (document, score)
+    Perform similarity search on the vectorstore with reranking.
     """
-    results = vectorstore.similarity_search_with_score(prompt, k=k)
     
-    # Filter results based on score threshold
-    filtered_results = [(doc, score) for doc, score in results if score <= score_threshold]
+    retriever = vectorstore.as_retriever(search_kwargs={"k": k})
+    compressor = FlashrankRerank(model="ms-marco-MultiBERT-L-12")
+    compression_retriever = ContextualCompressionRetriever(
+        base_compressor=compressor, 
+        base_retriever=retriever
+    )
+    compressed_docs = compression_retriever.get_relevant_documents(prompt)
+    filtered_results = [(doc, getattr(doc, 'score', 1.0)) for doc in compressed_docs]
     
     return filtered_results
 

@@ -305,11 +305,11 @@ def main():
 
     booking_refs = [doc['bookingReference'] for doc in documents]
     
+
     # Create a selectbox for choosing a document by booking reference
     selected_booking_ref = st.selectbox(
         "Select a BL document",
-        options=booking_refs,
-        format_func=lambda x: f"Booking Ref: {x}"
+        options=booking_refs
     )
 
     # Fetch the selected document from MongoDB

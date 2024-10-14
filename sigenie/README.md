@@ -137,7 +137,6 @@ This is an early access version. For major changes, please open an issue first t
 
   - dataset 3263
   - draft watermark
-
   - dataset 3518 (2024-10-01)
   - dataset 3782 (2024-10-03)
   - dataset 4115 (2024-10-04)
@@ -153,10 +152,15 @@ This is an early access version. For major changes, please open an issue first t
   - Restructue folder
   - dataset 5372 (2024-10-13)
 
-- v0.05 (2024-10-12)
+- v0.05 (2024-10-13)
 
   - Company policy search
   - dataset 5570 (2024-10-14)
+
+- v0.06 (2024-10-14)
+  - Doc splitter with customized function in compliance search
+  - Reranker in compliance search
+  - dataset 5573 (2024-10-14)
 
 ---
 
