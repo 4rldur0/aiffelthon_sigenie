@@ -239,7 +239,7 @@ def refresh_prompts():
     
 #     return filtered_results
 
-for reranker
+# for reranker
 def perform_similarity_search(vectorstore, prompt, k=10, score_threshold=0.5):
     """
     Perform similarity search on the vectorstore with reranking.
