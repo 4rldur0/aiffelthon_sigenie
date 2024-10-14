@@ -121,6 +121,23 @@ def update_faiss_index():
     save_last_update(datetime.datetime.now())
     return vectorstore
 
+# def update_faiss_index():
+#     documents = load_documents([PDF_PATH])
+    
+#     # Use RecursiveCharacterTextSplitter
+#     text_splitter = RecursiveCharacterTextSplitter(
+#         chunk_size=1000,
+#         chunk_overlap=200,
+#         length_function=len,
+#     )
+    
+#     doc_splits = text_splitter.split_documents(documents)
+    
+#     vectorstore = FAISS.from_documents(doc_splits, embeddings)
+#     save_faiss_index(vectorstore)
+#     save_last_update(datetime.datetime.now())
+#     return vectorstore
+
 def initialize_vector_db():
     if 'vectorstore' not in st.session_state or st.session_state.vectorstore is None:
         if os.path.exists(os.path.join(VECTOR_STORE_PATH, "index.faiss")):

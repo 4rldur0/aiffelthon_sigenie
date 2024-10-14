@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410166117",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING INC.",
+      "onBehalfOf": "",
+      "address": "1234 CHEMICAL RD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEI@OMEGACHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "5555 PORT RD, ALGECIRAS, SPAIN",
+      "companyNumber": "123456789",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "SANCHEZ.MARIA@DELTASHIPPING.ES"
+    },
+    "notifyParty": {
+      "name": "OMEGA CHEMICALS LTD.",
+      "address": "1234 CHEMICAL RD, NINGBO, CHINA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS GOODS, UN 2801 - ACETIC ACID SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT2259070",
+      "sealNumber": "SEAL383789",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 8291.25,
+      "measurement": 31.41
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD GENERAL",
+    "totalPackages": 63,
+    "totalGrossWeight": 8291.25,
+    "totalMeasurement": 31.41
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      {
+        "certificateType": "CERTIFICATE OF ORIGIN",
+        "certificateNumber": "CO1234567890"
+      }
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "5555 PORT RD, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "SANCHEZ.MARIA@DELTASHIPPING.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA CHEMICALS LTD.",
+      "address": "1234 CHEMICAL RD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2801, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4449314",
+    "unClass": "9",
+    "unCode": "2801,",
+    "hsCode": "9378.61.60",
+    "flashPoint": "22\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}
