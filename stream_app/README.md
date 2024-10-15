@@ -28,14 +28,14 @@
 1. poetry shell
 2. `uvicorn main:app` or `python main.py`
 3. 
- 3-1. http://127.0.0.1:8000/streaming_sync/chat/ch1?query="bookingreference"
-    - ex) xf
- 3-2. http://127.0.0.1:8000/streaming_sync/chat/ch2?query="bookingreference"
+    - 1. http://127.0.0.1:8000/streaming_sync/chat/ch1?query="bookingreference"
+        - ex) http://127.0.0.1:8000/streaming_sync/chat/ch2?query=CHERRY202409072244
+    - 2. http://127.0.0.1:8000/streaming_sync/chat/ch2?query="bookingreference"
 
 ## Result 
 
 ### Ch1
- '''
+```
 event: get_si
 data: content='{\'_id\': ObjectId(\'66e1562f0abd52a6a79a2ff6\'), \'bookingReference\': \'CHERRY202409072244\', \'voyageDetails\': {\'vesselName\': \'APL TEMASEK\', \'voyageNumber\': \'2024581E\'}, \'routeDetails\': {\'placeOfReceipt\': \'NINGBO\', \'portOfLoading\': \'NINGBO\', \'portOfDischarge\': \'YANTIAN\', \'placeOfDelivery\': \'YANTIAN\'}, \'paymentDetails\': {\'freightPaymentTerms\': \'COLLECT\', \'freightPayableAt\': \'ROTTERDAM, NETHERLANDS\'}, \'documentationDetails\': {\'blType\': \'NEGOTIABLE\', \'numberOfOriginalBLs\': \'3\', \'numberOfCopies\': \'0\'}, \'partyDetails\': {\'shipper\': {\'name\': \'SHIPPER 5029\', \'address\': \'NO. 188, SHANXI ROAD, NINGBO, CHINA\', \'telephone\': \'+86 574 8765 4321\'}, \'consignee\': {\'name\': \'EUROTECH TRADING BV\', \'address\': \'WATERLOO PLAZA, 121-123 WATERLOOPLEIN, 1011 PG AMSTERDAM, NETHERLANDS\', \'telephone\': \'+31 20 624 3500\'}, \'notifyParty\': {\'name\': \'EUROTECH TRADING BV\', \'address\': \'WATERLOO PLAZA, 121-123 WATERLOOPLEIN, 1011 PG AMSTERDAM, NETHERLANDS\', \'telephone\': \'+31 20 624 3500\'}}, \'shippingTerm\': \'CIF\', \'hsCode\': \'8541400000\', \'commodityDescription\': \'POWER TRANSFORMERS\', \'containers\': [{\'containerNumber\': \'TCLU9876543\', \'sealNumber\': \'123456\', \'containerType\': \'모름\', \'packageType\': \'CRATES\', \'numberOfPackages\': 2, \'grossWeight\': 15000.0, \'measurement\': 30.0, \'cargoDescription\': "SHIPPER\'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS POWER TRANSFORMERS", \'marksAndNumbers\': \'AS PER ATTACHED RIDER\'}, {\'containerNumber\': \'TCLU7654321\', \'sealNumber\': \'654321\', \'containerType\': \'모름\', \'packageType\': \'CRATES\', \'numberOfPackages\': 2, \'grossWeight\': 15000.0, \'measurement\': 30.0, \'cargoDescription\': "SHIPPER\'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS POWER TRANSFORMERS", \'marksAndNumbers\': \'AS PER ATTACHED RIDER\'}], \'totalShipment\': {\'totalContainers\': \'TWO (20 O/T X2) CONTAINERS ONLY\', \'totalPackages\': \'4\', \'packageType\': \'CRATES\', \'containerType\': \'20 O/TX2\', \'totalGrossWeight\': \'30000.0\', \'totalMeasurement\': \'60.0\'}, \'outOfGaugeDimensions\': {\'length\': 0, \'width\': 0, \'height\': 0, \'overWidth\': 0, \'overHeight\': 0}, \'additionalInformation\': {\'lcDetails\': {\'lcNumber\': \'0123456789\'}, \'certificateDetails\': \'1234567890\', \'originalBLDistribution\': {\'name\': \'BANK OF CHINA NINGBO BRANCH\', \'address\': \'NO. 123 HAIYAN ROAD, NINGBO, CHINA\', \'telephone\': \'+86 574 8666 7890\', \'fax\': \'+86 574 8666 7891\'}, \'originalInvoiceDistribution\': {\'name\': \'BANK OF CHINA NINGBO BRANCH\', \'address\': \'NO. 123 HAIYAN ROAD, NINGBO, CHINA\', \'telephone\': \'+86 574 8666 7890\', \'fax\': \'+86 574 8666 7891\'}, \'onboardDate\': \'2024-09-14 21:26\', \'additionalRemarks\': \'No special instructions\'}}' additional_kwargs={} response_metadata={}
 
@@ -44,11 +44,10 @@ data: content="{'vessel_route_details': {'vessel_name': {'status': 'OK'}, 'voyag
 
 event: generate_intake_report
 data: {'overall_status': 'Missing', 'issues_found': 'Party information status not provided; Shipping details status not provided; Container information status not provided; Total shipment summary status not provided; Additional information status not provided; Hazardous materials information not provided; Refrigerated cargo information not provided.', 'missing_summary': 'Overall shipment status is missing; multiple sections lack complete information.', 'conclusion': 'The shipment report is incomplete and requires additional information to assess the overall status.'}
-
- '''
+```
 
  ### Ch2
- """
+```
 event: get_si
 data: {'_id': ObjectId('66e1562f0abd52a6a79a2ff6'), 'bookingReference': 'CHERRY202409072244', 'voyageDetails': {'vesselName': 'APL TEMASEK', 'voyageNumber': '2024581E'}, 'routeDetails': {'placeOfReceipt': 'NINGBO', 'portOfLoading': 'NINGBO', 'portOfDischarge': 'YANTIAN', 'placeOfDelivery': 'YANTIAN'}, 'paymentDetails': {'freightPaymentTerms': 'COLLECT', 'freightPayableAt': 'ROTTERDAM, NETHERLANDS'}, 'documentationDetails': {'blType': 'NEGOTIABLE', 'numberOfOriginalBLs': '3', 'numberOfCopies': '0'}, 'partyDetails': {'shipper': {'name': 'SHIPPER 5029', 'address': 'NO. 188, SHANXI ROAD, NINGBO, CHINA', 'telephone': '+86 574 8765 4321'}, 'consignee': {'name': 'EUROTECH TRADING BV', 'address': 'WATERLOO PLAZA, 121-123 WATERLOOPLEIN, 1011 PG AMSTERDAM, NETHERLANDS', 'telephone': '+31 20 624 3500'}, 'notifyParty': {'name': 'EUROTECH TRADING BV', 'address': 'WATERLOO PLAZA, 121-123 WATERLOOPLEIN, 1011 PG AMSTERDAM, NETHERLANDS', 'telephone': '+31 20 624 3500'}}, 'shippingTerm': 'CIF', 'hsCode': '8541400000', 'commodityDescription': 'POWER TRANSFORMERS', 'containers': [{'containerNumber': 'TCLU9876543', 'sealNumber': '123456', 'containerType': '모름', 'packageType': 'CRATES', 'numberOfPackages': 2, 'grossWeight': 15000.0, 'measurement': 30.0, 'cargoDescription': "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS POWER TRANSFORMERS", 'marksAndNumbers': 'AS PER ATTACHED RIDER'}, {'containerNumber': 'TCLU7654321', 'sealNumber': '654321', 'containerType': '모름', 'packageType': 'CRATES', 'numberOfPackages': 2, 'grossWeight': 15000.0, 'measurement': 30.0, 'cargoDescription': "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS POWER TRANSFORMERS", 'marksAndNumbers': 'AS PER ATTACHED RIDER'}], 'totalShipment': {'totalContainers': 'TWO (20 O/T X2) CONTAINERS ONLY', 'totalPackages': '4', 'packageType': 'CRATES', 'containerType': '20 O/TX2', 'totalGrossWeight': '30000.0', 'totalMeasurement': '60.0'}, 'outOfGaugeDimensions': {'length': 0, 'width': 0, 'height': 0, 'overWidth': 0, 'overHeight': 0}, 'additionalInformation': {'lcDetails': {'lcNumber': '0123456789'}, 'certificateDetails': '1234567890', 'originalBLDistribution': {'name': 'BANK OF CHINA NINGBO BRANCH', 'address': 'NO. 123 HAIYAN ROAD, NINGBO, CHINA', 'telephone': '+86 574 8666 7890', 'fax': '+86 574 8666 7891'}, 'originalInvoiceDistribution': {'name': 'BANK OF CHINA NINGBO BRANCH', 'address': 'NO. 123 HAIYAN ROAD, NINGBO, CHINA', 'telephone': '+86 574 8666 7890', 'fax': '+86 574 8666 7891'}, 'onboardDate': '2024-09-14 21:26', 'additionalRemarks': 'No special instructions'}}
 
@@ -146,4 +145,4 @@ The Shipping Instruction is mostly compliant, with the primary issue being the m
 3. [Impact of the Ningbo Port explosion on global trade](https://industrialautomationco.com/blogs/news/the-ningbo-port-explosion-unraveling-the-impact-on-global-trade-and-exploring-alternatives?srsltid=AfmBOooqBNyDE-8KvkkNOSrOpUQp62Nk-ywTNEFPPB5ByI4Dwh7b9wct)
 4. [YICT Welcomes the Maiden Call of the APL TEMASEK](https://yict.com.cn/article/detail/3461.html?locale=en_US)
 5. [Container explodes on cargo ship at Ningbo port](https://www.cnbc.com/2024/08/09/chinas-ningbo-port-reports-explosion-on-container-ship-state-news-agency-says.html)
- """
+```
