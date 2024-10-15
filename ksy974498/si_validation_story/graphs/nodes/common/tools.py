@@ -44,6 +44,7 @@ class Faiss:
         )
         
         return PDF_retriever_tool
+
     
 class Tavily:
     def web_search():

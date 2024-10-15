@@ -42,5 +42,5 @@ class SIIntake:
 
         return workflow.compile()
     
-    def invoke(self):
-        return self.graph.invoke(self.state)
+    def stream(self):
+        return self.graph.stream(self.state)
