@@ -5,29 +5,20 @@ from typing import Annotated
 from fastapi import FastAPI, Body
 from fastapi.responses import StreamingResponse
 from langchain_core.messages import HumanMessage, ToolMessage
-from llm_flow import graph
-from llm_flow2 import graph as graph2
+from ch1 import graph
+from ch2 import graph as graph2
+
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-# def event_stream(si_data: str):
-#     initial_state = {"messages": [HumanMessage(content=si_data)]}
-#     for chunk in graph.stream(initial_state):
-#         for node_name, node_results in chunk.items():
-#             chunk_messages = node_results.get("messages", [])
-#             for message in chunk_messages:
-#                 # You can have any logic you like here
-#                 # The important part is the yield
-#                 if not message:
-#                     continue
-                
-#                 event_str = f"event: {node_name}"
-#                 data_str = f"data: {message}"
-#                 yield f"{event_str}\n{data_str}\n\n"
-
-# @app.post("/stream")
-# async def stream(query: Annotated[str, Body(embed=True)]):
-#     return StreamingResponse(event_stream(query), media_type="text/event-stream")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # 모든 도메인에서의 접근 허용 (배포 시엔 도메인을 명시하세요)
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/streaming_sync/chat/ch1")
 def streaming_sync_chat(query: str):
@@ -45,7 +36,7 @@ def streaming_sync_chat(query: str):
                             continue
                         
                         event_str = f"event: {node_name}"
-                        data_str = f"data: {message}"
+                        data_str = f"data: {message.content}"
                         yield f"{event_str}\n{data_str}\n\n"
 
         except Exception as e:
@@ -71,9 +62,6 @@ def streaming_sync_chat(query: str):
                     event_str = f"event: {node_name}"
                     data_str = f"data: {message.content}"
                     yield f"{event_str}\n{data_str}\n\n"
-
-        # except Exception as e:
-        #     yield f"data: {str(e)}\n\n"
 
     return StreamingResponse(event_stream(), media_type="text/event-stream")
 
