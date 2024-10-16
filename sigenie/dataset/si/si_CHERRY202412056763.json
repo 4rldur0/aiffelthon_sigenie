@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202412056763",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 1234",
+      "fax": "+86 574 8888 1235",
+      "email": "INFO@APMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD.",
+      "address": "124 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8556789012345",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 202 1234",
+      "fax": "+31 10 202 1235",
+      "email": "INFO@GLOBALFORWARDING.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD.",
+      "address": "124 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 1234",
+      "fax": "+31 10 202 1235",
+      "email": "INFO@GLOBALFORWARDING.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940330",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT7647532",
+      "sealNumber": "SEAL721270",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 18107.51,
+      "measurement": 28.82
+    },
+    {
+      "containerNumber": "CONT1377527",
+      "sealNumber": "SEAL724821",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 7136.3,
+      "measurement": 26.47
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 107,
+    "totalGrossWeight": 25243.81,
+    "totalMeasurement": 55.29
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD.",
+      "address": "124 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 1234",
+      "fax": "+31 10 202 1235",
+      "email": "INFO@GLOBALFORWARDING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD.",
+      "address": "124 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 1234",
+      "fax": "+31 10 202 1235",
+      "email": "INFO@GLOBALFORWARDING.NL"
+    },
+    "onboardDate": "2024-12-16 19:00",
+    "additionalRemarks": "HANDLE WITH CARE"
+  }
+}

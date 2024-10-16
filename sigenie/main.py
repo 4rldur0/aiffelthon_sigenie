@@ -1,9 +1,10 @@
 import streamlit as st
 import os
-from app import json_bkg, json_si, json_bl, search_si, search_compliance
+from app import json_bkg, json_si, json_bl, search_si, search_compliance, search_compliance_qe
 from utils.helpers import get_custom_font_css
 from pymongo import MongoClient
 from datetime import datetime
+
 
 # Set page config (this should be the first Streamlit command)
 st.set_page_config(layout="wide", page_title="Booking, Shipping Instruction")
@@ -28,7 +29,7 @@ def main():
     # Sidebar menu
     menu = st.sidebar.selectbox(
         "Select Menu",
-        ["Booking", "Shipping Instructions", "Bill of Lading", "Shipping Instruction Search", "Company Policy Search"]
+        ["Booking", "Shipping Instructions", "Bill of Lading", "Shipping Instruction Search", "Company Policy Search", "Company Policy Search QE"]
     )
 
     # Dataset info in sidebar
@@ -66,12 +67,15 @@ def main():
     elif menu == "Company Policy Search":
         st.title("Company Policy Search")
         search_compliance.main()
+    elif menu == "Company Policy Search QE":
+        st.title("Company Policy Search Quary Expansion")
+        search_compliance_qe.main()
 
     # Footer 추가
     st.markdown("---")
     st.markdown(
         "<div style='text-align: center; color: gray; padding: 10px;'>"
-        "Copyright © 2024 SIGenie 0.06-5858 - Early Access Version. All rights reserved."
+        "Copyright © 2024 SIGenie 0.06-6036 - Early Access Version. All rights reserved."
         "</div>",
         unsafe_allow_html=True
     )

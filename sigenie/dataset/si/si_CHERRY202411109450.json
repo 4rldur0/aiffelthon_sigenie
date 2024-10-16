@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411109450",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORT EXPORT LTD",
+      "address": "1234 NINGBO PORT ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "ZHANG.WEI@ASIAIMPORTEXPORT.CN"
+    },
+    "consignee": {
+      "name": "ABC GLOBAL LOGISTICS GMBH",
+      "address": "hafenstrasse 1, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 4445",
+      "email": "INFO@ABCLOGISTICS.DE",
+      "personincharge": "FRANZ MEIER"
+    },
+    "notifyParty": {
+      "name": "ABC GLOBAL LOGISTICS GMBH",
+      "address": "hafenstrasse 1, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 4445",
+      "email": "INFO@ABCLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CARS AND TRUCKS",
+  "containers": [
+    {
+      "containerNumber": "CONT1517254",
+      "sealNumber": "SEAL889237",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 12449.36,
+      "measurement": 23.93
+    },
+    {
+      "containerNumber": "CONT6959454",
+      "sealNumber": "SEAL804243",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 7816.42,
+      "measurement": 31.85
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 109,
+    "totalGrossWeight": 20265.78,
+    "totalMeasurement": 55.78
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC GLOBAL LOGISTICS GMBH",
+      "address": "hafenstrasse 1, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 4445",
+      "email": "INFO@ABCLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC GLOBAL LOGISTICS GMBH",
+      "address": "hafenstrasse 1, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 4445",
+      "email": "INFO@ABCLOGISTICS.DE"
+    },
+    "onboardDate": "2024-11-16 19:00",
+    "additionalRemarks": "THIS SIDE UP"
+  }
+}

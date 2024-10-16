@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410288352",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. INC.",
+      "onBehalfOf": "",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667",
+      "email": "INFO@BETATRADING.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORTS LTD",
+      "address": "1234 PORT STREET, ALGEICERAS, SPAIN",
+      "companyNumber": "123456789",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "INFO@ALPHAIMPORTS.ES"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL IMPORTS LTD",
+      "address": "1234 PORT STREET, ALGEICERAS, SPAIN"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871210",
+  "commodityDescription": "BICYCLES",
+  "containers": [
+    {
+      "containerNumber": "CONT3879384",
+      "sealNumber": "SEAL148845",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 5617.4,
+      "measurement": 36.18
+    },
+    {
+      "containerNumber": "CONT1355218",
+      "sealNumber": "SEAL987102",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 6518.69,
+      "measurement": 35.92
+    },
+    {
+      "containerNumber": "CONT5191437",
+      "sealNumber": "SEAL413798",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 12702.59,
+      "measurement": 29.86
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 158,
+    "totalGrossWeight": 24838.68,
+    "totalMeasurement": 101.96
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL IMPORTS LTD",
+      "address": "1234 PORT STREET, ALGEICERAS, SPAIN",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "INFO@ALPHAIMPORTS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA TRADING CO. INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667",
+      "email": "INFO@BETATRADING.CN"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

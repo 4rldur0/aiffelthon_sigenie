@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410276920",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA IMPORTS LLC",
+      "address": "1234 PORT ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@DELTAIMPORTS.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE INTERNATIONAL TRADING CO.",
+      "address": "1234 WAREHOUSE STREET, ROTTERDAM, 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "ORDERS@SUNRISEINTERNATIONAL.NL",
+      "personincharge": "JAN VAN DER MARK"
+    },
+    "notifyParty": {
+      "name": "SUNRISE LOGISTICS BV",
+      "address": "1234 CANAL STREET, ROTTERDAM, 3000 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5554",
+      "email": "CUSTOMS@SUNRISELOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030331",
+  "commodityDescription": "FROZEN COD FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT4069608",
+      "sealNumber": "SEAL814372",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 12963.27,
+      "measurement": 29.36
+    },
+    {
+      "containerNumber": "CONT9279052",
+      "sealNumber": "SEAL932564",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 15643.1,
+      "measurement": 20.75
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 98,
+    "totalGrossWeight": 28606.37,
+    "totalMeasurement": 50.11
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L202410279999"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-11 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -13\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3954974",
+    "temperature": "-13\u00b0C",
+    "minTemperature": "-15\u00b0C",
+    "maxTemperature": "-11\u00b0C",
+    "ventilation": "75%",
+    "humidity": "74%"
+  }
+}

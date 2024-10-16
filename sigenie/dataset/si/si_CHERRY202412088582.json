@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202412088582",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH INDUSTRIES INC.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "INTERNATIONAL LOGISTICS SOLUTIONS LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "340213",
+  "commodityDescription": "DANGEROUS GOODS - SODIUM HYPOCHLORITE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT4485291",
+      "sealNumber": "SEAL361905",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 11218.02,
+      "measurement": 23.53
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE TANK",
+    "totalPackages": 70,
+    "totalGrossWeight": 11218.02,
+    "totalMeasurement": 23.53
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3448, VALUE: USD106,140",
+    "dangerousGoods": {
+      "unNumber": "3448",
+      "properShippingName": "SODIUM HYPOCHLORITE SOLUTION"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6097590",
+    "unClass": "7",
+    "unCode": "3448,",
+    "hsCode": "3470.70.88",
+    "flashPoint": "74\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

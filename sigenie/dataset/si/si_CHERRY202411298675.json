@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202411298675",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TEXTILES CO. LTD.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1213",
+      "email": "INFO@SHANGHAIGLOBTEXTILES.COM"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORT EXPORT LLC",
+      "address": "123 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GREENFIELDIMPORT.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST GLOBAL LOGISTICS BV",
+      "address": "123 AMSTERDAM AVENUE, AMSTERDAM, NETHERLANDS, 1000 AA",
+      "taxId": "",
+      "president": "MS. JANE DOE",
+      "telephone": "+31 20 333 3333",
+      "fax": "+31 20 333 3334"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT2066331",
+      "sealNumber": "SEAL990412",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 11454.79,
+      "measurement": 27.08
+    },
+    {
+      "containerNumber": "CONT1946645",
+      "sealNumber": "SEAL780357",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 6304.79,
+      "measurement": 25.62
+    },
+    {
+      "containerNumber": "CONT7199592",
+      "sealNumber": "SEAL276195",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 18673.13,
+      "measurement": 34.72
+    },
+    {
+      "containerNumber": "CONT4811410",
+      "sealNumber": "SEAL251009",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 16246.08,
+      "measurement": 37.97
+    },
+    {
+      "containerNumber": "CONT6729170",
+      "sealNumber": "SEAL295436",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 5641.3,
+      "measurement": 37.6
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE TANK",
+    "totalPackages": 284,
+    "totalGrossWeight": 58320.09,
+    "totalMeasurement": 162.99
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-12 08:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1209, VALUE: USD474,084, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4663853",
+    "unClass": "7",
+    "unCode": "1209,",
+    "hsCode": "1301.55.37",
+    "flashPoint": "3\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

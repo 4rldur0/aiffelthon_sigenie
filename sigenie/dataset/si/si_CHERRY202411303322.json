@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411303322",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GOLDEN SUN FOODS CO., LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GREEN EARTH IMPORTS LTD.",
+      "address": "NO. 456, PRINCESS STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-555-6666",
+      "fax": "+31-10-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT7484577",
+      "sealNumber": "SEAL372426",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 17003.93,
+      "measurement": 30.87
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD REEFER",
+    "totalPackages": 97,
+    "totalGrossWeight": 17003.93,
+    "totalMeasurement": 30.87
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-17 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -10\u00b0C, MAINTAIN HUMIDITY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7450466",
+    "temperature": "-10\u00b0C",
+    "minTemperature": "-12\u00b0C",
+    "maxTemperature": "-8\u00b0C",
+    "ventilation": "95%",
+    "humidity": "76%"
+  }
+}

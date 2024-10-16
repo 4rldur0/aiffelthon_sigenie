@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411015009",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION TECH CO. LTD.",
+      "address": "NO. 1234, HUANAN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213",
+      "email": "INFO@GLOBALSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT2044030",
+      "sealNumber": "SEAL683974",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 14858.19,
+      "measurement": 27.49
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 48,
+    "totalGrossWeight": 14858.19,
+    "totalMeasurement": 27.49
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241104-1001",
+    "documentNumber": "20241104-1001",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-11-09 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1088"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4907951",
+    "unClass": "8",
+    "unCode": "1088",
+    "hsCode": "6474.82.75",
+    "flashPoint": "65\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202411199535",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA ELECTRONICS LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-555-6666",
+      "fax": "+86-21-555-6667"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "NO. 789, FUXING ROAD, FRANKFURT, GERMANY 60329",
+      "telephone": "+49-69-999-6666",
+      "fax": "+49-69-999-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "310510",
+  "commodityDescription": "AMMONIUM SULPHATE",
+  "containers": [
+    {
+      "containerNumber": "CONT6346967",
+      "sealNumber": "SEAL459346",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 5914.74,
+      "measurement": 35.59
+    },
+    {
+      "containerNumber": "CONT5518636",
+      "sealNumber": "SEAL221944",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 16350.54,
+      "measurement": 32.23
+    },
+    {
+      "containerNumber": "CONT6903324",
+      "sealNumber": "SEAL775430",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 6326.43,
+      "measurement": 36.34
+    },
+    {
+      "containerNumber": "CONT2329356",
+      "sealNumber": "SEAL743174",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 15089.81,
+      "measurement": 30.44
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD TANK",
+    "totalPackages": 193,
+    "totalGrossWeight": 43681.52,
+    "totalMeasurement": 134.6
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-555-6666",
+      "fax": "+86-21-555-6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY LOGISTICS INC.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-555-6666",
+      "fax": "+86-21-555-6667"
+    },
+    "onboardDate": "2024-12-07 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3084, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6596917",
+    "unClass": "5",
+    "unCode": "3084,",
+    "hsCode": "5393.33.51",
+    "flashPoint": "80\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

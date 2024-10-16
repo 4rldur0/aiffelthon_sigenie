@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202411299770",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TECH IMPORT EXPORT CO.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "340213",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT4975176",
+      "sealNumber": "SEAL210848",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 5340.52,
+      "measurement": 35.14
+    },
+    {
+      "containerNumber": "CONT7395176",
+      "sealNumber": "SEAL572954",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 14795.86,
+      "measurement": 35.69
+    },
+    {
+      "containerNumber": "CONT4853637",
+      "sealNumber": "SEAL931421",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 17766.29,
+      "measurement": 27.37
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 217,
+    "totalGrossWeight": 37902.67,
+    "totalMeasurement": 98.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241215001"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "DANGEROUS GOODS DECLARATION"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3480, 21 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7384229",
+    "unClass": "5",
+    "unCode": "3480,",
+    "hsCode": "9537.19.24",
+    "flashPoint": "8\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -20,6 +20,9 @@ from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import FlashrankRerank
 from langchain_openai import ChatOpenAI
 
+# Logging
+logging.basicConfig(level=logging.INFO)
+
 # Load environment variables
 load_dotenv()
 
@@ -138,22 +141,22 @@ def update_faiss_index():
 #     return vectorstore
 
 def initialize_vector_db():
-    if 'vectorstore' not in st.session_state or st.session_state.vectorstore is None:
+    if 'compliance_vectorstore' not in st.session_state or st.session_state.compliance_vectorstore is None:
         if os.path.exists(os.path.join(VECTOR_STORE_PATH, "index.faiss")):
             try:
-                st.session_state.vectorstore = load_faiss_index()
-                st.info("Existing Vector DB loaded.")
+                st.session_state.compliance_vectorstore = load_faiss_index()
+                st.info("Existing Compliance Vector DB loaded.")
             except Exception as e:
-                st.warning(f"Failed to load existing Vector DB: {e}. Creating a new one...")
-                st.session_state.vectorstore = update_faiss_index()
+                st.warning(f"Failed to load existing Compliance Vector DB: {e}. Creating a new one...")
+                st.session_state.compliance_vectorstore = update_faiss_index()
         else:
-            st.warning("Vector DB not found. Creating a new one...")
-            st.session_state.vectorstore = update_faiss_index()
+            st.warning("Compliance Vector DB not found. Creating a new one...")
+            st.session_state.compliance_vectorstore = update_faiss_index()
     
     if check_pdf_update():
-        st.warning("PDF has been updated. Updating Vector DB...")
-        st.session_state.vectorstore = update_faiss_index()
-        st.success("Vector DB updated successfully!")
+        st.warning("PDF has been updated. Updating Compliance Vector DB...")
+        st.session_state.compliance_vectorstore = update_faiss_index()
+        st.success("Compliance Vector DB updated successfully!")
 
 def generate_recommended_prompts(vectorstore):
     predefined_topics = [
@@ -200,24 +203,25 @@ def generate_recommended_prompts(vectorstore):
 def initialize_session_state():
     if "compliance_messages" not in st.session_state:
         st.session_state.compliance_messages = []
-    if "recommended_prompts" not in st.session_state:
-        st.session_state.recommended_prompts = generate_recommended_prompts(st.session_state.vectorstore)
-    if "last_refresh_time" not in st.session_state:
-        st.session_state.last_refresh_time = datetime.datetime.now()
+    if "compliance_recommended_prompts" not in st.session_state:
+        st.session_state.compliance_recommended_prompts = generate_recommended_prompts(st.session_state.compliance_vectorstore)
+    if "compliance_last_refresh_time" not in st.session_state:
+        st.session_state.compliance_last_refresh_time = datetime.datetime.now()
 
 def refresh_prompts():
-    if 'vectorstore' in st.session_state and st.session_state.vectorstore is not None:
-        new_prompts = generate_recommended_prompts(st.session_state.vectorstore)
-        st.session_state.recommended_prompts = new_prompts
+    if 'compliance_vectorstore' in st.session_state and st.session_state.compliance_vectorstore is not None:
+        new_prompts = generate_recommended_prompts(st.session_state.compliance_vectorstore)
+        st.session_state.compliance_recommended_prompts = new_prompts
     else:
-        st.session_state.recommended_prompts = [
+        st.session_state.compliance_recommended_prompts = [
             "What are the main safety regulations in the CHERRY Shipping Line Company Policy?",
             "Explain the cargo handling procedures according to the company policy",
             "What are the documentation requirements for international shipments?"
         ]
-    st.session_state.last_refresh_time = datetime.datetime.now()
-    logging.info(f"Prompts refreshed at {st.session_state.last_refresh_time}")
-    logging.info(f"New prompts: {st.session_state.recommended_prompts}")
+    st.session_state.compliance_last_refresh_time = datetime.datetime.now()
+    logging.info(f"Compliance prompts refreshed at {st.session_state.compliance_last_refresh_time}")
+    logging.info(f"New compliance prompts: {st.session_state.compliance_recommended_prompts}")
+
 
 # def perform_similarity_search(vectorstore, prompt, k=5, score_threshold=0.5):
 #     """
@@ -276,14 +280,14 @@ def main():
     col1, col2, col3 = st.columns(3)
     prompt = None
     with col1:
-        if st.button(st.session_state.recommended_prompts[0]):
-            prompt = st.session_state.recommended_prompts[0]
+        if st.button(st.session_state.compliance_recommended_prompts[0]):
+            prompt = st.session_state.compliance_recommended_prompts[0]
     with col2:
-        if st.button(st.session_state.recommended_prompts[1]):
-            prompt = st.session_state.recommended_prompts[1]
+        if st.button(st.session_state.compliance_recommended_prompts[1]):
+            prompt = st.session_state.compliance_recommended_prompts[1]
     with col3:
-        if st.button(st.session_state.recommended_prompts[2]):
-            prompt = st.session_state.recommended_prompts[2]
+        if st.button(st.session_state.compliance_recommended_prompts[2]):
+            prompt = st.session_state.compliance_recommended_prompts[2]
 
     # Refresh recommended prompts button
     if st.button("Refresh Recommended Prompts"):
@@ -291,7 +295,7 @@ def main():
         st.rerun()
 
     # Display last refresh time
-    st.write(f"Last refreshed: {st.session_state.last_refresh_time}")
+    st.write(f"Last refreshed: {st.session_state.compliance_last_refresh_time}")
 
     # Chat input
     user_input = st.chat_input("Any question about CHERRY Shipping Line Company Policy?")
@@ -311,7 +315,7 @@ def main():
         # Get AI response
         with st.spinner("Thinking..."):
             try:
-                vector_results = perform_similarity_search(st.session_state.vectorstore, prompt)
+                vector_results = perform_similarity_search(st.session_state.compliance_vectorstore, prompt)
                 formatted_documents = []
                 for i, (doc, score) in enumerate(vector_results, 1):
                     source = doc.metadata.get('source', 'Unknown source')

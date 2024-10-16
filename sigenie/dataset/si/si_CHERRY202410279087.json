@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410279087",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 MAIN STREET, SINGAPORE 123456",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "456 ABC AVENUE, MADRID, SPAIN 28001",
+      "telephone": "+34-91-123-4567",
+      "fax": "+34-91-123-4568"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "381300",
+  "commodityDescription": "ENVIRONMENTALLY HAZARDOUS SUBSTANCE, SOLID, N.O.S.",
+  "containers": [
+    {
+      "containerNumber": "CONT9198585",
+      "sealNumber": "SEAL988728",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 11515.21,
+      "measurement": 38.32
+    },
+    {
+      "containerNumber": "CONT6122789",
+      "sealNumber": "SEAL293629",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 8053.36,
+      "measurement": 29.01
+    },
+    {
+      "containerNumber": "CONT4706513",
+      "sealNumber": "SEAL927323",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 17438.64,
+      "measurement": 34.41
+    },
+    {
+      "containerNumber": "CONT6072082",
+      "sealNumber": "SEAL967007",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 5810.57,
+      "measurement": 34.22
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD TANK",
+    "totalPackages": 262,
+    "totalGrossWeight": 42817.78,
+    "totalMeasurement": 135.96
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "salesOrderNumber": "SO9876543210",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-11 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1936, VALUE: USD990,216",
+    "dangerousGoods": {
+      "unNumber": "1936",
+      "properShippingName": "ENVIRONMENTALLY HAZARDOUS SUBSTANCE, SOLID, N.O.S.",
+      "class": "9",
+      "packingGroup": "III"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1728118",
+    "unClass": "8",
+    "unCode": "1936,",
+    "hsCode": "4994.49.83",
+    "flashPoint": "-12\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

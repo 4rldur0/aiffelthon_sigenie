@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410263929",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH CHEMICALS GMBH",
+      "address": "123 TECH PARK, FRANKFURT, GERMANY",
+      "telephone": "+49 69 123 4567",
+      "fax": "+49 69 123 4568"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT CO LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT & EXPORT CO LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "281010",
+  "commodityDescription": "SODIUM BORATE",
+  "containers": [
+    {
+      "containerNumber": "CONT2776540",
+      "sealNumber": "SEAL931472",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 10168.12,
+      "measurement": 23.32
+    },
+    {
+      "containerNumber": "CONT3477436",
+      "sealNumber": "SEAL751602",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 13669.39,
+      "measurement": 36.93
+    },
+    {
+      "containerNumber": "CONT7188115",
+      "sealNumber": "SEAL512366",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 19096.58,
+      "measurement": 32.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 181,
+    "totalGrossWeight": 42934.09,
+    "totalMeasurement": 92.35
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "SDS"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT CO LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH CHEMICALS GMBH",
+      "address": "123 TECH PARK, FRANKFURT, GERMANY",
+      "telephone": "+49 69 123 4567",
+      "fax": "+49 69 123 4568"
+    },
+    "onboardDate": "2024-10-30 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2263"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6587500",
+    "unClass": "7",
+    "unCode": "2263",
+    "hsCode": "9738.21.90",
+    "flashPoint": "45\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

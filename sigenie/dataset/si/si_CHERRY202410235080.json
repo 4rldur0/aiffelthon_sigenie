@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410235080",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950691",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT8658721",
+      "sealNumber": "SEAL344759",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 19562.33,
+      "measurement": 28.59
+    },
+    {
+      "containerNumber": "CONT7717575",
+      "sealNumber": "SEAL551625",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 15908.53,
+      "measurement": 29.28
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 106,
+    "totalGrossWeight": 35470.86,
+    "totalMeasurement": 57.87
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241023"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "ON DECK TOP STOWAGE"
+  }
+}

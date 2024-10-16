@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411251052",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENGINEERING LTD",
+      "address": "NO. 123, HUAJIANG ROAD, XIAOYING STREET, YINZHOU DISTRICT, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8662 1234",
+      "fax": "+86 574 8662 1235",
+      "email": "SALES@ASIAENGINEERING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "12 RUE DE LA PAIX, PARIS, 75001, FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN-PIERRE DUPONT",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "EURO CARGO LOGISTICS",
+      "address": "10 RUE DE LA LIBERTE, LE HAVRE, 76600, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "NOTIFICATIONS@EUROCARGOLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "8479899990",
+  "commodityDescription": "INDUSTRIAL ROBOTIC ARM",
+  "containers": [
+    {
+      "containerNumber": "CONT9656828",
+      "sealNumber": "SEAL545610",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 5850.19,
+      "measurement": 32.37
+    },
+    {
+      "containerNumber": "CONT7973557",
+      "sealNumber": "SEAL837767",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 12274.11,
+      "measurement": 27.21
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD FLAT RACK",
+    "totalPackages": 27,
+    "totalGrossWeight": 18124.3,
+    "totalMeasurement": 59.58
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "12 RUE DE LA PAIX, PARIS, 75001, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "12 RUE DE LA PAIX, PARIS, 75001, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 10978x2543x2522, VALUE: USD235,144, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10978",
+    "width": "2543",
+    "height": "2522",
+    "overWidth": "103",
+    "overHeight": "0"
+  }
+}

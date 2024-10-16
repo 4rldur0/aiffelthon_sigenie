@@ -1,0 +1,118 @@
+{
+  "bookingReference": "CHERRY202411233358",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA IMPORTS INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 2666 9000",
+      "fax": "+86 574 2666 9001",
+      "email": "INFO@DELTAIMPORTS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 246 7890",
+      "fax": "+31 10 246 7891",
+      "email": "INFO@GLOBALTRADINGCO.NL",
+      "personincharge": "JAN VAN DER LINDE"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS BV",
+      "address": "1234 ROTTERDAM HARBOR, ROTTERDAM, 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@EUROLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940161",
+  "commodityDescription": "METAL CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT7984094",
+      "sealNumber": "SEAL812390",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 14694.1,
+      "measurement": 37.18
+    },
+    {
+      "containerNumber": "CONT4501825",
+      "sealNumber": "SEAL399983",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 6016.84,
+      "measurement": 34.44
+    },
+    {
+      "containerNumber": "CONT1569573",
+      "sealNumber": "SEAL765625",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 16418.19,
+      "measurement": 29.73
+    },
+    {
+      "containerNumber": "CONT3110634",
+      "sealNumber": "SEAL741472",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 12940.25,
+      "measurement": 38.66
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD TANK",
+    "totalPackages": 112,
+    "totalGrossWeight": 50069.38,
+    "totalMeasurement": 140.01
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO LOGISTICS BV",
+      "address": "1234 ROTTERDAM HARBOR, ROTTERDAM, 3000 AA, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@EUROLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, 3000 AA, NETHERLANDS",
+      "telephone": "+31 10 246 7890",
+      "fax": "+31 10 246 7891",
+      "email": "INFO@GLOBALTRADINGCO.NL"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

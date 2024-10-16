@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202410255688",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HARVE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE PRECISION ENGINEERING PTE LTD",
+      "address": "123 ABC STREET, SINGAPORE 123456",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "456 DEF AVENUE, SINGAPORE 678901",
+      "telephone": "+65-6789-5678",
+      "fax": "+65-6789-5679"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING FRANCE",
+      "address": "123 GHI BOULEVARD, PARIS, FRANCE 75000",
+      "telephone": "+33-1-2345-6789",
+      "fax": "+33-1-2345-6780"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "AUTOMATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT4667293",
+      "sealNumber": "SEAL286671",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 8571.66,
+      "measurement": 36.69
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD FLAT RACK",
+    "totalPackages": 35,
+    "totalGrossWeight": 8571.66,
+    "totalMeasurement": 36.69
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING FRANCE",
+      "address": "123 GHI BOULEVARD, PARIS, FRANCE 75000",
+      "telephone": "+33-1-2345-6789",
+      "fax": "+33-1-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING FRANCE",
+      "address": "123 GHI BOULEVARD, PARIS, FRANCE 75000",
+      "telephone": "+33-1-2345-6789",
+      "fax": "+33-1-2345-6780"
+    },
+    "onboardDate": "2024-11-04 19:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 6158x2411x2083, VALUE: USD834,389"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6158",
+    "width": "2411",
+    "height": "2083",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

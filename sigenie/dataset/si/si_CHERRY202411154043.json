@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202411154043",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA IMPORT EXPORT CO.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-55556666",
+      "fax": "+86-21-55556667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940390",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT3357870",
+      "sealNumber": "SEAL612514",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 14291.12,
+      "measurement": 22.69
+    },
+    {
+      "containerNumber": "CONT9411423",
+      "sealNumber": "SEAL961595",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 10284.24,
+      "measurement": 28.26
+    },
+    {
+      "containerNumber": "CONT3837159",
+      "sealNumber": "SEAL246163",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 6404.18,
+      "measurement": 37.25
+    },
+    {
+      "containerNumber": "CONT7124932",
+      "sealNumber": "SEAL969671",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 7851.0,
+      "measurement": 37.57
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE TANK",
+    "totalPackages": 160,
+    "totalGrossWeight": 38830.54,
+    "totalMeasurement": 125.77
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-21 18:00",
+    "additionalRemarks": "HANDLE WITH CARE"
+  }
+}

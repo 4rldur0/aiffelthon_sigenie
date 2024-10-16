@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202410205159",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "NORTHERN SHIPPING GROUP INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@NORTHERNSHIPPING.COM"
+    },
+    "notifyParty": {
+      "name": "NORTHERN LOGISTICS BV",
+      "address": "456 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 666 7777",
+      "fax": "+31 10 666 8888",
+      "email": "INFO@NORTHERNLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT5744516",
+      "sealNumber": "SEAL770118",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 19382.45,
+      "measurement": 34.78
+    },
+    {
+      "containerNumber": "CONT5724385",
+      "sealNumber": "SEAL991494",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 5101.36,
+      "measurement": 22.28
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 116,
+    "totalGrossWeight": 24483.81,
+    "totalMeasurement": 57.06
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "NORTHERN SHIPPING GROUP INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@NORTHERNSHIPPING.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "NORTHERN SHIPPING GROUP INC.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@NORTHERNSHIPPING.COM"
+    },
+    "onboardDate": "2024-10-27 17:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

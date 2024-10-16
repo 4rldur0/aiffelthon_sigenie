@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410302672",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "EURO TECH LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "ATLAS GLOBAL LOGISTICS INC.",
+      "address": "100 TOWER STREET, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "333409",
+  "commodityDescription": "LIQUID LIPSTICK",
+  "containers": [
+    {
+      "containerNumber": "CONT5092770",
+      "sealNumber": "SEAL625594",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 5796.39,
+      "measurement": 32.26
+    },
+    {
+      "containerNumber": "CONT6358472",
+      "sealNumber": "SEAL867043",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 11324.57,
+      "measurement": 24.77
+    },
+    {
+      "containerNumber": "CONT7152557",
+      "sealNumber": "SEAL125065",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 5739.01,
+      "measurement": 20.63
+    },
+    {
+      "containerNumber": "CONT9392276",
+      "sealNumber": "SEAL447743",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 10664.89,
+      "measurement": 35.06
+    },
+    {
+      "containerNumber": "CONT8190188",
+      "sealNumber": "SEAL541983",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 11636.83,
+      "measurement": 24.9
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD TANK",
+    "totalPackages": 310,
+    "totalGrossWeight": 45161.69,
+    "totalMeasurement": 137.62
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRANSPORTATION LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TECH LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-08 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1123, VALUE: USD340,718, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8958606",
+    "unClass": "3",
+    "unCode": "1123,",
+    "hsCode": "8081.43.79",
+    "flashPoint": "86\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

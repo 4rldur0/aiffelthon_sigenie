@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410168138",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA GLOBAL TRADING",
+      "address": "123 GLOBAL TRADE CENTER, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT CO.",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT CO.",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN TUNA",
+  "containers": [
+    {
+      "containerNumber": "CONT6110283",
+      "sealNumber": "SEAL318975",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 12685.57,
+      "measurement": 31.26
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE REEFER",
+    "totalPackages": 84,
+    "totalGrossWeight": 12685.57,
+    "totalMeasurement": 31.26
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410168138"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT CO.",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT CO.",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "onboardDate": "2024-10-26 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -10\u00b0C, VALUE: USD784,467"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3086314",
+    "temperature": "-10\u00b0C",
+    "minTemperature": "-12\u00b0C",
+    "maxTemperature": "-8\u00b0C",
+    "ventilation": "12%",
+    "humidity": "90%"
+  }
+}

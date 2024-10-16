@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411234621",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI HEAVY INDUSTRIES CO., LTD.",
+      "address": "NO. 2888, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6293 8888",
+      "fax": "+86 21 6293 8889",
+      "email": "LI.WANG@SHANGHAIHEAVY.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "PO BOX 1234, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL854321000B01",
+      "president": "MR. JAN VAN DER MEER",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "JAN.VANDERMEER@GLOBALIMPORTS.NL"
+    },
+    "notifyParty": {
+      "name": "DUTCH LOGISTICS SERVICES BV",
+      "address": "WATERSTRAAT 123, 3011 Rotterdam, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "INFO@DUTCHLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT8380251",
+      "sealNumber": "SEAL116710",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 18236.83,
+      "measurement": 37.95
+    },
+    {
+      "containerNumber": "CONT5138753",
+      "sealNumber": "SEAL917597",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 8224.55,
+      "measurement": 27.78
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD OPEN TOP",
+    "totalPackages": 140,
+    "totalGrossWeight": 26461.38,
+    "totalMeasurement": 65.73
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGguez@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-11-30 16:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 3847x2411x2823, VALUE: USD152,519, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3847",
+    "width": "2411",
+    "height": "2823",
+    "overWidth": "0",
+    "overHeight": "233"
+  }
+}

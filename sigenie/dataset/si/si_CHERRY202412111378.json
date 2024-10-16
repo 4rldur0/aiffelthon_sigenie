@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202412111378",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES CO. LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-87654321",
+      "fax": "+86-21-87654322"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT2570517",
+      "sealNumber": "SEAL659946",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 5556.26,
+      "measurement": 31.05
+    },
+    {
+      "containerNumber": "CONT7000556",
+      "sealNumber": "SEAL791903",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 16963.01,
+      "measurement": 27.94
+    },
+    {
+      "containerNumber": "CONT9447950",
+      "sealNumber": "SEAL540770",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 11040.38,
+      "measurement": 36.03
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 276,
+    "totalGrossWeight": 33559.65,
+    "totalMeasurement": 95.02
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-19 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1578",
+    "dangerousGoods": {
+      "unNumber": "1578",
+      "properShippingName": "DANGEROUS CHEMICALS",
+      "class": "6.1",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4948438",
+    "unClass": "7",
+    "unCode": "1578",
+    "hsCode": "8781.64.84",
+    "flashPoint": "49\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

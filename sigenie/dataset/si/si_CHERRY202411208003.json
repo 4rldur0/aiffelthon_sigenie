@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202411208003",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "123 BROAD STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 1111",
+      "email": "INFO@ALPHAIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "456 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444",
+      "email": "INFO@SUNRISETRADING.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST GLOBAL LOGISTICS",
+      "address": "789 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "",
+      "president": "MS. JANE DOE",
+      "telephone": "+31 10 5555 6666",
+      "fax": "+31 10 5555 7777"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT8308104",
+      "sealNumber": "SEAL582654",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 11181.63,
+      "measurement": 34.26
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD GENERAL",
+    "totalPackages": 50,
+    "totalGrossWeight": 11181.63,
+    "totalMeasurement": 34.26
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST GLOBAL LOGISTICS",
+      "address": "789 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 5555 6666",
+      "fax": "+31 10 5555 7777",
+      "email": "INFO@FIRSTGLOBALLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST GLOBAL LOGISTICS",
+      "address": "789 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 5555 6666",
+      "fax": "+31 10 5555 7777",
+      "email": "INFO@FIRSTGLOBALLOGISTICS.COM"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

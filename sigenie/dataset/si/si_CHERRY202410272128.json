@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410272128",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ORIENT TRADING CORP.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL SOLUTIONS LTD.",
+      "address": "WEENA 250, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-203-1234",
+      "fax": "+31-10-203-1235",
+      "email": "INFO@GLOBALSOLUTIONS.NL",
+      "contactPerson": "JAN VAN DER MARK"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SOLUTIONS LTD."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT7151828",
+      "sealNumber": "SEAL467394",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 10412.24,
+      "measurement": 21.58
+    },
+    {
+      "containerNumber": "CONT7868123",
+      "sealNumber": "SEAL232874",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 6882.99,
+      "measurement": 29.85
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 101,
+    "totalGrossWeight": 17295.23,
+    "totalMeasurement": 51.43
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241027-1001",
+    "documentNumber": "20241027-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241027-001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SOLUTIONS LTD.",
+      "address": "WEENA 250, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-203-1234",
+      "fax": "+31-10-203-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SOLUTIONS LTD.",
+      "address": "WEENA 250, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-203-1234",
+      "fax": "+31-10-203-1235"
+    },
+    "onboardDate": "2024-11-16 15:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2420, VALUE: USD440,230, 21 DAYS FREE TIME AT DESTINATION",
+    "dangerousGoods": {
+      "unNumber": "2420",
+      "properShippingName": "DANGEROUS CHEMICALS",
+      "class": "6.1",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5162668",
+    "unClass": "4",
+    "unCode": "2420,",
+    "hsCode": "1684.54.89",
+    "flashPoint": "-20\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411081329",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORT EXPORT LTD.",
+      "address": "123 DIGITAL AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JEREMY.LEE@NINGBOVIRTUALAPPAREL.CO.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "country": "CHINA",
+      "email": "ZENLEE@BLUESKYTRADING.CN",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT9915618",
+      "sealNumber": "SEAL328368",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 9792.56,
+      "measurement": 36.82
+    },
+    {
+      "containerNumber": "CONT7770698",
+      "sealNumber": "SEAL126073",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 7802.28,
+      "measurement": 30.3
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE REEFER",
+    "totalPackages": 146,
+    "totalGrossWeight": 17594.84,
+    "totalMeasurement": 67.12
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "++86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "onboardDate": "2024-11-26 23:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 3\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5047245",
+    "temperature": "3\u00b0C",
+    "minTemperature": "1\u00b0C",
+    "maxTemperature": "5\u00b0C",
+    "ventilation": "54%",
+    "humidity": "61%"
+  }
+}

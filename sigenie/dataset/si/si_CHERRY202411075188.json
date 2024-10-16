@@ -1,97 +1,114 @@
 {
   "bookingReference": "CHERRY202411075188",
   "voyageDetails": {
-    "vesselName": "APL VANDA",
-    "voyageNumber": "OFLQHW1MA"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
   },
   "routeDetails": {
     "placeOfReceipt": "NINGBO, CHINA",
     "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LE HAVRE, FRANCE",
-    "placeOfDelivery": "LE HAVRE, FRANCE"
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "SEAWAY",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 5
+    "numberOfCopies": 4
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC MANUFACTURE LTD",
-      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA",
-      "telephone": "+86-21-6351-2345",
-      "fax": "+86-21-6351-2346"
+      "name": "BETA MANUFACTURING CO.",
+      "address": "12345 FACTORY ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO INDUSTRIAL ZONE)",
+      "telephone": "+86 574 8876 5432",
+      "email": "INFO@BETAMANUFACTURING.CN"
     },
     "consignee": {
-      "name": "GLOBAL IMPORTS INC",
-      "address": "123 MAIN STREET, PARIS, FRANCE",
-      "telephone": "+33-1-2345-6789",
-      "fax": "+33-1-2345-6780",
-      "email": "INFO@GLOBALIMPORTS.COM",
-      "contactPerson": "PIERRE DUPONT"
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "100 SPANISH STREET, ALGEICRAS, 11001",
+      "country": "SPAIN",
+      "email": "ORDERS@ALPHAIMPORTEXPORT.ES",
+      "telephone": "+34 956 556 778"
     },
     "notifyParty": {
-      "name": "GLOBAL IMPORTS INC"
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "100 SPANISH STREET, ALGEICRAS, 11001",
+      "country": "SPAIN",
+      "email": "ORDERS@ALPHAIMPORTEXPORT.ES",
+      "telephone": "+34 956 556 778"
     }
   },
   "shippingTerm": "CFS/CY",
-  "hsCode": "950300",
-  "commodityDescription": "CHILDREN'S TOYS",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "CGXU4289453",
-      "sealNumber": 345902,
-      "marksAndNumbers": "GT-125",
-      "numberOfPackages": 500,
-      "packageType": "CARTONS",
-      "cargoDescription": "CHILDREN'S TOYS - DOLLS AND ACTION FIGURES",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "containerNumber": "CONT2896698",
+      "sealNumber": "SEAL860794",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 5538.98,
+      "measurement": 36.93
     },
     {
-      "containerNumber": "CGXU4289454",
-      "sealNumber": 279568,
-      "marksAndNumbers": "GT-126",
-      "numberOfPackages": 500,
-      "packageType": "CARTONS",
-      "cargoDescription": "CHILDREN'S TOYS - BUILDING BLOCKS AND PUZZLES",
-      "grossWeight": 12200.0,
-      "measurement": 25.0
+      "containerNumber": "CONT3861254",
+      "sealNumber": "SEAL821909",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 15323.45,
+      "measurement": 39.18
+    },
+    {
+      "containerNumber": "CONT3885119",
+      "sealNumber": "SEAL610453",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 18905.6,
+      "measurement": 21.34
+    },
+    {
+      "containerNumber": "CONT5632660",
+      "sealNumber": "SEAL290162",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 18397.01,
+      "measurement": 26.8
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20 X 40) DRY CONTAINERS ONLY",
-    "totalPackages": 1000,
-    "totalGrossWeight": 24200.0,
-    "totalMeasurement": 50.0
+    "totalContainers": "4 x 45 HIGH CUBE TANK",
+    "totalPackages": 201,
+    "totalGrossWeight": 58165.04,
+    "totalMeasurement": 124.25
   },
   "additionalInformation": {
-    "invoiceNumber": "20241107-1001",
-    "documentNumber": "20241107-1001",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "00001010334237"
     },
-    "certificateDetails": [],
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
     "originalBLDistribution": {
-      "name": "GLOBAL IMPORTS INC",
-      "address": "123 MAIN STREET, PARIS, FRANCE",
-      "telephone": "+33-1-2345-6789",
-      "fax": "+33-1-2345-6780"
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL IMPORTS INC",
-      "address": "123 MAIN STREET, PARIS, FRANCE",
-      "telephone": "+33-1-2345-6789",
-      "fax": "+33-1-2345-6780"
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
     },
-    "onboardDate": "2024-11-17 16:00",
-    "additionalRemarks": "CONTAINER TYPE: HC, 21 DAYS FREE TIME AT DESTINATION, HANDLE WITH CARE"
-  },
-  "containerDetails": {
-    "type": "DRY CONTAINER"
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
   }
 }
