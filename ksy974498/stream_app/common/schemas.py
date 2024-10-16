@@ -1,5 +1,10 @@
-from typing import Optional
+import operator
+from typing import Annotated, Sequence, Optional
 from pydantic import BaseModel, Field, root_validator
+from langchain_core.messages import BaseMessage
+
+class MyAppState(BaseModel):
+    messages: Annotated[Sequence[BaseMessage], operator.add]
 
 class StatusWithReason(BaseModel):
     status: str = Field(..., description="The status of the field (OK/Missing/Warning)")
