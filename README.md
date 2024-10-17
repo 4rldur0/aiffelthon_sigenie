@@ -24,6 +24,16 @@
 4. 실시간 데이터 확인
 5. 확인한 결과 정리해서 보여주기
 
-## 실행
-api_stream_app : frontend와 연결 예정
-st_si_validation_story : streamlit version app
+## 디렉토리 구조
+.  
+├── aiffel_gru : 그루 개인 폴더   
+│   ├── daehyeon_ko  
+│   ├── hail_ro  
+│   ├── isbyeon  
+│   ├── ksy974498  
+│   └── nakyoung_kim   
+├── **api_stream_app**  : frontend와 연결 예정   
+├── dongyang_systems : 동양시스템즈   
+│   ├── frontend  
+│   └── sigenie  
+└── **st_si_validation_story**  : streamlit version app   
