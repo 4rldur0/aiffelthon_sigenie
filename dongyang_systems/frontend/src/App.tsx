@@ -90,6 +90,15 @@ const App: React.FC = () => {
     }
   };
 
+  const currentBackgroundStyle =
+    selectedMenuItem !== "2"
+      ? {
+          backgroundImage: `url(${backgroundImage})`, // 동적으로 배경 이미지 설정
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }
+      : { backgroundColor: "#f0f4f8" };
+
   const GlobalStyle = createGlobalStyle`
     body, #root, .ant-typography, .ant-input, .ant-btn, .ant-menu {
       font-family: 'Freesentation', sans-serif !important;
@@ -106,9 +115,10 @@ const App: React.FC = () => {
           maxHeight: "100vh", // 추가
           overflow: "hidden", // 추가
           fontFamily: "Freesentation, sans-serif",
-          backgroundImage: `url(${backgroundImage})`, // 동적으로 배경 이미지 설정
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          // backgroundImage: `url(${backgroundImage})`, // 동적으로 배경 이미지 설정
+          // backgroundSize: "cover",
+          // backgroundPosition: "center",
+          ...currentBackgroundStyle,
         }}
       >
         <Header
