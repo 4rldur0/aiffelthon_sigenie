@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411026264",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TEXTILE GROUP CO., LTD.",
+      "address": "1234 YONGJIANG ROAD, SHANGHAI, 200000, CHINA",
+      "lei": "98765432101234567890",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 98765432",
+      "email": "INFO@SHANGHAITEXTILEGROUP.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "101 WATERLOO ROAD, LONDON, SE1 8PN, UNITED KINGDOM",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+44 20 7946 0000",
+      "fax": "+44 20 7946 0001",
+      "email": "INFO@ALPHAGLOBALTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "630790",
+  "commodityDescription": "TEXTILE ARTICLES, MADE UP",
+  "containers": [
+    {
+      "containerNumber": "CONT2260996",
+      "sealNumber": "SEAL598428",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 16061.82,
+      "measurement": 29.01
+    },
+    {
+      "containerNumber": "CONT2881201",
+      "sealNumber": "SEAL120471",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 13650.79,
+      "measurement": 33.02
+    },
+    {
+      "containerNumber": "CONT4280589",
+      "sealNumber": "SEAL611664",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 10360.41,
+      "measurement": 23.14
+    },
+    {
+      "containerNumber": "CONT2774570",
+      "sealNumber": "SEAL652330",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 14626.41,
+      "measurement": 30.27
+    },
+    {
+      "containerNumber": "CONT9754639",
+      "sealNumber": "SEAL430806",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 5254.98,
+      "measurement": 32.75
+    },
+    {
+      "containerNumber": "CONT6972121",
+      "sealNumber": "SEAL423168",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 15973.18,
+      "measurement": 21.58
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 235,
+    "totalGrossWeight": 75927.59,
+    "totalMeasurement": 169.77
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "101 WATERLOO ROAD, LONDON, SE1 8PN, UNITED KINGDOM",
+      "telephone": "+44 20 7946 0000",
+      "fax": "+44 20 7946 0001",
+      "email": "INFO@ALPHAGLOBALTRADING.COM"
+    },
+    "onboardDate": "2024-11-17 10:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

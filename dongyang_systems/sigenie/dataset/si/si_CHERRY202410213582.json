@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410213582",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION INDUSTRIES LTD.",
+      "address": "123 JURONG STREET, SINGAPORE",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "145 DAM SQUARE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GLOBALLOGISTICS.NL",
+      "contactPerson": "PETER VAN DER SLOOT"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "145 DAM SQUARE, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030510",
+  "commodityDescription": "FRESH TUNA",
+  "containers": [
+    {
+      "containerNumber": "CONT2410066",
+      "sealNumber": "SEAL523717",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 16443.29,
+      "measurement": 30.52
+    },
+    {
+      "containerNumber": "CONT9981239",
+      "sealNumber": "SEAL405128",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 15213.39,
+      "measurement": 31.58
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 92,
+    "totalGrossWeight": 31656.68,
+    "totalMeasurement": 62.1
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241021-1001",
+    "documentNumber": "20241021-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "145 DAM SQUARE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "145 DAM SQUARE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-10-25 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 4\u00b0C, VALUE: USD665,808"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7875092",
+    "temperature": "4\u00b0C",
+    "minTemperature": "2\u00b0C",
+    "maxTemperature": "6\u00b0C",
+    "ventilation": "44%",
+    "humidity": "65%"
+  }
+}

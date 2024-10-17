@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202411201416",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "123 YUANHONG ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8722 6589",
+      "fax": "+86 574 8722 6590",
+      "email": "SALES@SUNRISE-ELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "EUROASIA SHIPPING LLC",
+      "address": "125 PASEO MARITIMO, ALGECIRAS, SPAIN, 11200",
+      "taxId": "B12345678",
+      "president": "MR. ANTONIO RODRIGUEZ",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "ANTONIO.RODRIGUEZ@EUROASIA-SHIPPING.ES"
+    },
+    "notifyParty": {
+      "name": "CUSTOMS BROKER SERVICES S.L.",
+      "address": "AVENIDA DEL PUERTO, 25, ALGECIRAS, SPAIN, 11202",
+      "taxId": "A12345678",
+      "president": "MS. MARIA FERNANDEZ",
+      "telephone": "+34 956 5432 10",
+      "fax": "+34 956 5432 11"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "340510",
+  "commodityDescription": "DIESEL FUEL",
+  "containers": [
+    {
+      "containerNumber": "CONT7355951",
+      "sealNumber": "SEAL858645",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 16576.59,
+      "measurement": 21.53
+    },
+    {
+      "containerNumber": "CONT7138019",
+      "sealNumber": "SEAL277116",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 11218.13,
+      "measurement": 32.73
+    },
+    {
+      "containerNumber": "CONT8076630",
+      "sealNumber": "SEAL660942",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 11507.0,
+      "measurement": 32.48
+    },
+    {
+      "containerNumber": "CONT5579551",
+      "sealNumber": "SEAL430903",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 12729.68,
+      "measurement": 22.03
+    },
+    {
+      "containerNumber": "CONT9764123",
+      "sealNumber": "SEAL952681",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 9486.15,
+      "measurement": 25.92
+    },
+    {
+      "containerNumber": "CONT1432779",
+      "sealNumber": "SEAL843699",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 11193.51,
+      "measurement": 35.25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE TANK",
+    "totalPackages": 356,
+    "totalGrossWeight": 72711.06,
+    "totalMeasurement": 169.94
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241120001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA SHIPPING LLC",
+      "address": "125 PASEO MARITIMO, ALGECIRAS, SPAIN, 11200",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13"
+    },
+    "onboardDate": "2024-12-07 08:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1748, VALUE: USD978,387"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1608690",
+    "unClass": "2",
+    "unCode": "1748,",
+    "hsCode": "3170.90.28",
+    "flashPoint": "30\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

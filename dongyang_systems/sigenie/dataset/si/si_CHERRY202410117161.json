@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410117161",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO.",
+      "onBeHalfOf": "",
+      "address": "1234 DELTA RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@DELTATRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT LTD.",
+      "address": "1234 GLOBAL RD, ROTTERDAM, NETHERLANDS 3000 AA",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GLOBALIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": ""
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "121190",
+  "commodityDescription": "CLEMENTINES",
+  "containers": [
+    {
+      "containerNumber": "CONT2572307",
+      "sealNumber": "SEAL760129",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 6014.56,
+      "measurement": 21.26
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 59,
+    "totalGrossWeight": 6014.56,
+    "totalMeasurement": 21.26
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "1234 DELTA RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1222, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6724704",
+    "unClass": "5",
+    "unCode": "1222,",
+    "hsCode": "3882.53.90",
+    "flashPoint": "77\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

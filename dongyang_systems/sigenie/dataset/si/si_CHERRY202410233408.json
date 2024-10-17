@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410233408",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL PRECISION MACHINERY LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@GLOBALPRECISIONMACHINERY.CN"
+    },
+    "consignee": {
+      "name": "DANZAZ LOGISTICS LTD.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM 3000, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@DANZAZLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "DANZAZ LOGISTICS LTD.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM 3000, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@DANZAZLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES, NUMERICALLY CONTROLLED",
+  "containers": [
+    {
+      "containerNumber": "CONT7224050",
+      "sealNumber": "SEAL665340",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 7274.32,
+      "measurement": 33.62
+    },
+    {
+      "containerNumber": "CONT2727614",
+      "sealNumber": "SEAL222632",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 6556.93,
+      "measurement": 26.03
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 156,
+    "totalGrossWeight": 13831.25,
+    "totalMeasurement": 59.65
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "DANZAZ LOGISTICS LTD.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM 3000, NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@DANZAZLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DANZAZ LOGISTICS LTD.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM 3000, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@DANZAZLOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-27 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 4\u00b0C, HANDLE WITH CARE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7979095",
+    "temperature": "4\u00b0C",
+    "minTemperature": "2\u00b0C",
+    "maxTemperature": "6\u00b0C",
+    "ventilation": "70%",
+    "humidity": "60%"
+  }
+}

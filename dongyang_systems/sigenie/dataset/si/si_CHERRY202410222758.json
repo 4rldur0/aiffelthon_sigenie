@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410222758",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "CONTACT PERSON: LI WEI",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "LI.WEI@ASIA-PACIFIC-CHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM 3011AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "INFO@GLOBALIMPORTS.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "456 AMSTERDAM ROAD, ROTTERDAM 3012AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 876 5432",
+      "fax": "+31 10 876 5433",
+      "email": "INFO@WORLDWIDELOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "281122",
+  "commodityDescription": "SODIUM HYDROXIDE (CAUSTIC SODA)",
+  "containers": [
+    {
+      "containerNumber": "CONT4480892",
+      "sealNumber": "SEAL388194",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 17220.38,
+      "measurement": 36.84
+    },
+    {
+      "containerNumber": "CONT5408687",
+      "sealNumber": "SEAL206271",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 16523.38,
+      "measurement": 36.24
+    },
+    {
+      "containerNumber": "CONT1747444",
+      "sealNumber": "SEAL534118",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 13688.75,
+      "measurement": 28.17
+    },
+    {
+      "containerNumber": "CONT9357468",
+      "sealNumber": "SEAL866212",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 12240.96,
+      "measurement": 23.51
+    },
+    {
+      "containerNumber": "CONT2651972",
+      "sealNumber": "SEAL366999",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 7982.68,
+      "measurement": 37.38
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD TANK",
+    "totalPackages": 438,
+    "totalGrossWeight": 67656.15,
+    "totalMeasurement": 162.14
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024102212345"
+    },
+    "certificateDetails": [
+      " FUMIGATION CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "456 AMSTERDAM ROAD, ROTTERDAM 3012AB, NETHERLANDS",
+      "telephone": "+31 10 876 5432",
+      "fax": "+31 10 876 5433",
+      "email": "INFO@WORLDWIDELOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM 3011AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "INFO@GLOBALIMPORTS.NL"
+    },
+    "onboardDate": "2024-10-28 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1368, 7 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9113687",
+    "unClass": "6",
+    "unCode": "1368,",
+    "hsCode": "5541.18.86",
+    "flashPoint": "44\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

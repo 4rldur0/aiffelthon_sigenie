@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411018029",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAPACIFIC.CN"
+    },
+    "consignee": {
+      "name": "ZHAOWEI INTERNATIONAL TRADING CO., LTD.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, THE NETHERLANDS 3011 AB",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@ZHAOWEI.NL"
+    },
+    "notifyParty": {
+      "name": "ZHAOWEI INTERNATIONAL TRADING CO., LTD.",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, THE NETHERLANDS 3011 AB"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "611030",
+  "commodityDescription": "T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CONT2294353",
+      "sealNumber": "SEAL773791",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 11413.57,
+      "measurement": 37.6
+    },
+    {
+      "containerNumber": "CONT3343061",
+      "sealNumber": "SEAL866531",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 6905.52,
+      "measurement": 35.88
+    },
+    {
+      "containerNumber": "CONT1221060",
+      "sealNumber": "SEAL997959",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 18450.31,
+      "measurement": 29.48
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 251,
+    "totalGrossWeight": 36769.4,
+    "totalMeasurement": 102.96
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAPACIFIC.CN"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  }
+}

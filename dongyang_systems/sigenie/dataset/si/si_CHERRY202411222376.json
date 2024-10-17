@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411222376",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@BETATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001",
+      "country": "UNITED STATES",
+      "email": "ORDERS@ALPHAIMPORT.COM",
+      "telephone": "+1 212 555 1212"
+    },
+    "notifyParty": {
+      "name": "GAMMA LOGISTICS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GAMMALOGISTICS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "961800",
+  "commodityDescription": "TRAVEL GOODS AND TOILETRY ARTICLES",
+  "containers": [
+    {
+      "containerNumber": "CONT5792096",
+      "sealNumber": "SEAL131423",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 12562.53,
+      "measurement": 35.15
+    },
+    {
+      "containerNumber": "CONT2181136",
+      "sealNumber": "SEAL487602",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 13650.98,
+      "measurement": 38.22
+    },
+    {
+      "containerNumber": "CONT6801471",
+      "sealNumber": "SEAL314279",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 13277.46,
+      "measurement": 34.37
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 178,
+    "totalGrossWeight": 39490.97,
+    "totalMeasurement": 107.74
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "ORDERS@ALPHAIMPORT.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "ORDERS@ALPHAIMPORT.COM"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "HANDLE WITH CARE"
+  }
+}

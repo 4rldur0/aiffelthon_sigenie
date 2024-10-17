@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410088583",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "onBehalfOf": "",
+      "address": "1234 ELECTRONICS RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@SUNRISEELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "EVERGREEN LOGISTICS INC.",
+      "address": "2345 LOGISTICS AVE, ROTTERDAM, NETHERLANDS 3000 AA",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "ZHANG.YUN@EVERGREENLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "1234 ELECTRONICS RD, NINGBO, CHINA 315000"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854230",
+  "commodityDescription": "PHARMACEUTICAL PRODUCTS",
+  "containers": [
+    {
+      "containerNumber": "CONT8803139",
+      "sealNumber": "SEAL390240",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 7583.62,
+      "measurement": 33.09
+    },
+    {
+      "containerNumber": "CONT6588907",
+      "sealNumber": "SEAL857022",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 12328.28,
+      "measurement": 35.83
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE REEFER",
+    "totalPackages": 92,
+    "totalGrossWeight": 19911.9,
+    "totalMeasurement": 68.92
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LCL202410237692"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "1234 ELECTRONICS RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-10-19 15:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 20\u00b0C, FRAGILE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6540373",
+    "temperature": "20\u00b0C",
+    "minTemperature": "18\u00b0C",
+    "maxTemperature": "22\u00b0C",
+    "ventilation": "29%",
+    "humidity": "88%"
+  }
+}

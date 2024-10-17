@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202411246530",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ MANUFACTURING CO. LTD",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ABC INTERNATIONAL FREIGHT FORWARDERS",
+      "address": "SPANJUWSTRAAT 123, 3011 KD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@ABCFF.NL",
+      "contactPerson": "PETER VAN DER MEER"
+    },
+    "notifyParty": {
+      "name": "ABC INTERNATIONAL FREIGHT FORWARDERS"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT6229582",
+      "sealNumber": "SEAL153497",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 5080.87,
+      "measurement": 20.19
+    },
+    {
+      "containerNumber": "CONT2950106",
+      "sealNumber": "SEAL441359",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 5529.5,
+      "measurement": 33.96
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 151,
+    "totalGrossWeight": 10610.37,
+    "totalMeasurement": 54.15
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241124-1001",
+    "documentNumber": "20241124-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC INTERNATIONAL FREIGHT FORWARDERS",
+      "address": "SPANJUWSTRAAT 123, 3011 KD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC INTERNATIONAL FREIGHT FORWARDERS",
+      "address": "SPANJUWSTRAAT 123, 3011 KD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-12-03 18:00",
+    "additionalRemarks": "UNDER DECK TOP STOWAGE"
+  }
+}

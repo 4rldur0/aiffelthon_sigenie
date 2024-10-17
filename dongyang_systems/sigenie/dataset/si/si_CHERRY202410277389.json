@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410277389",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTERS",
+      "address": "1234 MAIN STREET, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO DISTRICT)",
+      "telephone": "+86 574 8765 4321",
+      "email": "SHIPPING@ASIAIMPORTS.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "1234 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GFS.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "1234 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "OPERATIONS@GFS.NL",
+      "telephone": "+31 10 234 5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "GENERAL FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT3218768",
+      "sealNumber": "SEAL863978",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 14381.85,
+      "measurement": 31.28
+    },
+    {
+      "containerNumber": "CONT2164419",
+      "sealNumber": "SEAL759525",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 6603.35,
+      "measurement": 35.55
+    },
+    {
+      "containerNumber": "CONT3560208",
+      "sealNumber": "SEAL268170",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 5010.51,
+      "measurement": 34.61
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 143,
+    "totalGrossWeight": 25995.71,
+    "totalMeasurement": 101.44
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "1234 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "LISA.CHEN@GFS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "1234 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "LISA.CHEN@GFS.NL"
+    },
+    "onboardDate": "2024-11-04 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

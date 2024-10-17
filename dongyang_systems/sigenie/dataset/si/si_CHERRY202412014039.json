@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202412014039",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "INFO@DELTAINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "OMEGA TRANSPORT LTD",
+      "address": "5678 ALGEICERAS ROAD, ALGECIRAS, SPAIN 11001",
+      "taxId": "ES1234567890",
+      "president": "MR. JUAN GARCIA",
+      "telephone": "+34 956 7890 1234",
+      "fax": "+34 956 7890 1235",
+      "email": "JUAN.GARCIA@OMEGATRANS.COM"
+    },
+    "notifyParty": {
+      "name": "OMEGA LOGISTICS S.A.",
+      "address": "9012 ALGEICERAS PORT BOULEVARD, ALGECIRAS, SPAIN 11002",
+      "taxId": "ES5678901234",
+      "president": "MS. MARIA RODRIGUEZ",
+      "telephone": "+34 956 1234 5678",
+      "fax": "+34 956 1234 5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "870899",
+  "commodityDescription": "MOTOR VEHICLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT4154312",
+      "sealNumber": "SEAL963266",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 6675.9,
+      "measurement": 27.37
+    },
+    {
+      "containerNumber": "CONT6380107",
+      "sealNumber": "SEAL476246",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 7638.76,
+      "measurement": 28.73
+    },
+    {
+      "containerNumber": "CONT2223360",
+      "sealNumber": "SEAL232228",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 11722.55,
+      "measurement": 20.94
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 117,
+    "totalGrossWeight": 26037.21,
+    "totalMeasurement": 77.04
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL LOGISTICS LTD",
+      "address": "5678 ALGEICERAS PORT BOULEVARD, ALGECIRAS, SPAIN 11002",
+      "telephone": "+34 956 7890 1234",
+      "fax": "+34 956 7890 1235",
+      "email": "INFO@OMEGATRANS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL LOGISTICS LTD",
+      "address": "5678 ALGEICERAS PORT BOULEVARD, ALGECIRAS, SPAIN 11002",
+      "telephone": "+34 956 7890 1234",
+      "fax": "+34 956 7890 1235",
+      "email": "INFO@OMEGATRANS.COM"
+    },
+    "onboardDate": "2024-12-12 18:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

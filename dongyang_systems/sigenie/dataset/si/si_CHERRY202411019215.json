@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411019215",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL ENERGY SOLUTIONS LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "NORTHERN PACIFIC IMPORTS INC",
+      "address": "123 MAIN STREET, SEATTLE, WASHINGTON, USA 98104",
+      "telephone": "+1-206-555-1212",
+      "fax": "+1-206-555-1213"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "381400",
+  "commodityDescription": "ETHYLENE GLYCOL",
+  "containers": [
+    {
+      "containerNumber": "CONT4532698",
+      "sealNumber": "SEAL726938",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 6516.44,
+      "measurement": 38.42
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD GENERAL",
+    "totalPackages": 76,
+    "totalGrossWeight": 6516.44,
+    "totalMeasurement": 38.42
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-10 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1985, VALUE: USD839,596"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5620009",
+    "unClass": "2",
+    "unCode": "1985,",
+    "hsCode": "3896.90.85",
+    "flashPoint": "100\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

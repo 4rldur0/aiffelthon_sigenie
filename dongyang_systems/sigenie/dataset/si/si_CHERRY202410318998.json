@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410318998",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTERS LTD.",
+      "address": "258 HUANGPU ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "SALES@ASIAIMPORTERS.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 DAM SQUARE, ROTTERDAM, NETHERLANDS 3011 GD",
+      "taxId": "NL850912345",
+      "president": "MR. JAN VAN DER MEER",
+      "telephone": "+31 10 204 1234",
+      "fax": "+31 10 204 5678",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "DUTCH COLD CHAIN SOLUTIONS BV",
+      "address": "125 WESTWEG, ROTTERDAM, NETHERLANDS 3015 HG",
+      "taxId": "NL850967890",
+      "president": "MS. ANNA DE GROOT",
+      "telephone": "+31 10 765 4321",
+      "fax": "+31 10 765 4322"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT6816232",
+      "sealNumber": "SEAL679916",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 9234.64,
+      "measurement": 33.73
+    },
+    {
+      "containerNumber": "CONT2346465",
+      "sealNumber": "SEAL706903",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 12858.03,
+      "measurement": 39.4
+    },
+    {
+      "containerNumber": "CONT4567651",
+      "sealNumber": "SEAL728506",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 7253.35,
+      "measurement": 25.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 204,
+    "totalGrossWeight": 29346.02,
+    "totalMeasurement": 98.15
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 DAM SQUARE, ROTTERDAM, NETHERLANDS 3011 GD",
+      "telephone": "+31 10 204 1234",
+      "fax": "+31 10 204 5678",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -13\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7614926",
+    "temperature": "-13\u00b0C",
+    "minTemperature": "-15\u00b0C",
+    "maxTemperature": "-11\u00b0C",
+    "ventilation": "37%",
+    "humidity": "91%"
+  }
+}

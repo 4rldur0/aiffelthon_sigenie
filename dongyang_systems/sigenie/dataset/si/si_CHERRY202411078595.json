@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202411078595",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL FOODS INC",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679",
+      "email": "INFO@GLOBALFOODSINC.COM"
+    },
+    "consignee": {
+      "name": "EUROASIA TRADING CO",
+      "address": "456 RUE DE LA PAIX, PARIS, FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 1 1234 5678",
+      "fax": "+33 1 1234 5679",
+      "email": "INFO@EUROASIATRADING.COM"
+    },
+    "notifyParty": {
+      "name": "FRENCH IMPORT LOGISTICS",
+      "address": "789 BOULEVARD DES CHAMPS-\u00c9LYS\u00c9ES, PARIS, FRANCE",
+      "telephone": "+33 1 9876 5432",
+      "fax": "+33 1 9876 5433",
+      "email": "INFO@FRENCHIMPORTLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN COD FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT5639800",
+      "sealNumber": "SEAL249537",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 10294.7,
+      "measurement": 23.92
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD REEFER",
+    "totalPackages": 21,
+    "totalGrossWeight": 10294.7,
+    "totalMeasurement": 23.92
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "EUROASIA TRADING CO",
+      "address": "456 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 1234 5678",
+      "fax": "+33 1 1234 5679",
+      "email": "INFO@EUROASIATRADING.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA TRADING CO",
+      "address": "456 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 1234 5678",
+      "fax": "+33 1 1234 5679",
+      "email": "INFO@EUROASIATRADING.COM"
+    },
+    "onboardDate": "2024-11-14 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -3\u00b0C, HANDLE WITH CARE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7408397",
+    "temperature": "-3\u00b0C",
+    "minTemperature": "-5\u00b0C",
+    "maxTemperature": "-1\u00b0C",
+    "ventilation": "63%",
+    "humidity": "60%"
+  }
+}

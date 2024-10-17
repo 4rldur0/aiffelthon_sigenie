@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411025084",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "23 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "55 JALAN MERU, PORT KLANG, MALAYSIA 42000",
+      "taxId": "1234567890",
+      "president": "MR. LIM CHONG",
+      "telephone": "+60 3 3358 9876",
+      "fax": "+60 3 3358 9875",
+      "email": "LIM.CHONG@GLOBALLOGISTICS.COM.MY"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "55 JALAN MERU, PORT KLANG, MALAYSIA 42000",
+      "taxId": "1234567890",
+      "president": "MR. LIM CHONG",
+      "telephone": "+60 3 3358 9876",
+      "fax": "+60 3 3358 9875",
+      "email": "LIM.CHONG@GLOBALLOGISTICS.COM.MY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "381300",
+  "commodityDescription": "DANGEROUS GOODS",
+  "containers": [
+    {
+      "containerNumber": "CONT3082944",
+      "sealNumber": "SEAL635115",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 6702.64,
+      "measurement": 26.63
+    },
+    {
+      "containerNumber": "CONT1690682",
+      "sealNumber": "SEAL364577",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 10852.05,
+      "measurement": 27.58
+    },
+    {
+      "containerNumber": "CONT2494215",
+      "sealNumber": "SEAL386687",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 10326.94,
+      "measurement": 21.64
+    },
+    {
+      "containerNumber": "CONT8827154",
+      "sealNumber": "SEAL740114",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 17565.34,
+      "measurement": 28.46
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD GENERAL",
+    "totalPackages": 310,
+    "totalGrossWeight": 45446.97,
+    "totalMeasurement": 104.31
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "55 JALAN MERU, PORT KLANG, MALAYSIA 42000",
+      "telephone": "+60 3 3358 9876",
+      "fax": "+60 3 3358 9875",
+      "email": "LIM.CHONG@GLOBALLOGISTICS.COM.MY"
+    },
+    "onboardDate": "2024-11-11 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1213"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9642653",
+    "unClass": "2",
+    "unCode": "1213",
+    "hsCode": "6754.45.58",
+    "flashPoint": "94\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

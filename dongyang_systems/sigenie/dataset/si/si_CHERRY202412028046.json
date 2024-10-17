@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202412028046",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS CO.",
+      "address": "222 CHEMICAL STREET, SHANGHAI, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(CHEMICAL WAREHOUSE)",
+      "telephone": "+86 21 5555 1234",
+      "email": "ORDERS@APCCHEMICALS.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "123 PORT STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@SUNRISEIMPORTS.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "123 PORT STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@SUNRISEIMPORTS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "381700",
+  "commodityDescription": "MIXTURES OF ODOURS",
+  "containers": [
+    {
+      "containerNumber": "CONT3848562",
+      "sealNumber": "SEAL156720",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 5749.9,
+      "measurement": 31.87
+    },
+    {
+      "containerNumber": "CONT7884972",
+      "sealNumber": "SEAL708086",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 13403.54,
+      "measurement": 27.23
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 75,
+    "totalGrossWeight": 19153.44,
+    "totalMeasurement": 59.1
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "123 PORT STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "ORDERS@SUNRISEIMPORTS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "123 PORT STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "ORDERS@SUNRISEIMPORTS.NL"
+    },
+    "onboardDate": "2024-12-07 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1719, VALUE: USD515,795, 30 DAYS FREE TIME AT DESTINATION, KEEP DRY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4812784",
+    "unClass": "2",
+    "unCode": "1719,",
+    "hsCode": "9759.93.91",
+    "flashPoint": "74\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

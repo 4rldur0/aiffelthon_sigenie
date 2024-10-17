@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202410131529",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO.",
+      "address": "123 GLOBAL STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679"
+    },
+    "consignee": {
+      "name": "RED SUN IMPORT EXPORT LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "RED SUN IMPORT EXPORT LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940390",
+  "commodityDescription": "FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT5074958",
+      "sealNumber": "SEAL668158",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 12307.98,
+      "measurement": 39.08
+    },
+    {
+      "containerNumber": "CONT7253675",
+      "sealNumber": "SEAL501645",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 7129.02,
+      "measurement": 24.72
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 153,
+    "totalGrossWeight": 19437.0,
+    "totalMeasurement": 63.8
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "RED SUN IMPORT EXPORT LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "RED SUN IMPORT EXPORT LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-10-22 16:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

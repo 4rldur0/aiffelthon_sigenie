@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410239116",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TECH CO. LTD",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT7852189",
+      "sealNumber": "SEAL235947",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 15901.15,
+      "measurement": 30.24
+    },
+    {
+      "containerNumber": "CONT5245861",
+      "sealNumber": "SEAL907972",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 12113.82,
+      "measurement": 20.93
+    },
+    {
+      "containerNumber": "CONT6690694",
+      "sealNumber": "SEAL528265",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 8403.38,
+      "measurement": 31.04
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 74,
+    "totalGrossWeight": 36418.35,
+    "totalMeasurement": 82.21
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "MATERIAL SAFETY DATA SHEET (MSDS)"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-10-27 19:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3201, KEEP DRY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1962222",
+    "unClass": "2",
+    "unCode": "3201,",
+    "hsCode": "6002.66.45",
+    "flashPoint": "47\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

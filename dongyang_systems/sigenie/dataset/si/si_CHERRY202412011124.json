@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202412011124",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BEIJING AEROSPACE SCIENCE & TECHNOLOGY CO. LTD.",
+      "address": "123 AERONAUTICS STREET, BEIJING, CHINA",
+      "telephone": "+86 10 8765 4321",
+      "fax": "+86 10 8765 4320"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "100 FREIGHT LANE, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "100 FREIGHT LANE, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "880240",
+  "commodityDescription": "AIRCRAFT LOADING PLATFORM",
+  "containers": [
+    {
+      "containerNumber": "CONT8443498",
+      "sealNumber": "SEAL988136",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 11766.25,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CONT6357733",
+      "sealNumber": "SEAL906363",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 19052.17,
+      "measurement": 20.89
+    },
+    {
+      "containerNumber": "CONT4986908",
+      "sealNumber": "SEAL423115",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 14379.18,
+      "measurement": 30.51
+    },
+    {
+      "containerNumber": "CONT3733306",
+      "sealNumber": "SEAL224185",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 6389.97,
+      "measurement": 39.59
+    },
+    {
+      "containerNumber": "CONT6559785",
+      "sealNumber": "SEAL927590",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 6179.06,
+      "measurement": 35.41
+    },
+    {
+      "containerNumber": "CONT2619583",
+      "sealNumber": "SEAL308066",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 14505.39,
+      "measurement": 39.05
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD OPEN TOP",
+    "totalPackages": 203,
+    "totalGrossWeight": 72272.02,
+    "totalMeasurement": 190.45
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "100 FREIGHT LANE, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "100 FREIGHT LANE, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 6599x2780x2854, VALUE: USD512,411, HANDLE WITH CARE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6599",
+    "width": "2780",
+    "height": "2854",
+    "overWidth": "340",
+    "overHeight": "264"
+  }
+}

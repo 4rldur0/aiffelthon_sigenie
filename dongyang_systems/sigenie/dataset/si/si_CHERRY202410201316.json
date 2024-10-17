@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410201316",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION TOOLS LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "NO. 456, GREEN STREET, LONDON, UK WC1A 1AA",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "846693",
+  "commodityDescription": "PARTS AND ACCESSORIES OF MACHINERY FOR FOOD, BEVERAGE, OR TOBACCO PROCESSING",
+  "containers": [
+    {
+      "containerNumber": "CONT6621535",
+      "sealNumber": "SEAL448014",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 14894.62,
+      "measurement": 38.84
+    },
+    {
+      "containerNumber": "CONT2647329",
+      "sealNumber": "SEAL748135",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 18195.41,
+      "measurement": 22.79
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 62,
+    "totalGrossWeight": 33090.03,
+    "totalMeasurement": 61.63
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-10-23 22:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 16\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6248681",
+    "temperature": "16\u00b0C",
+    "minTemperature": "14\u00b0C",
+    "maxTemperature": "18\u00b0C",
+    "ventilation": "69%",
+    "humidity": "67%"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411188554",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI PRECISION MACHINERY CO.",
+      "address": "NO. 123, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-87654321",
+      "fax": "+86-21-87654322"
+    },
+    "consignee": {
+      "name": "STARLIGHT IMPORTS LTD.",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-555-6666",
+      "fax": "+49-40-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "846630",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT8307021",
+      "sealNumber": "SEAL121707",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 9487.05,
+      "measurement": 32.07
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD FLAT RACK",
+    "totalPackages": 16,
+    "totalGrossWeight": 9487.05,
+    "totalMeasurement": 32.07
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-07 16:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 6406x2147x2972",
+    "outOfGaugeDimensions": "LxWxH(mm): 6406x2147x2972"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6406",
+    "width": "2147",
+    "height": "2972",
+    "overWidth": "0",
+    "overHeight": "382"
+  }
+}

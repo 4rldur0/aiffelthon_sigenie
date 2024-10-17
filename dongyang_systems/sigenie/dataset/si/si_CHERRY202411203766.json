@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202411203766",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECHNO PRECISION INC.",
+      "address": "123 TECH PARK, PARIS, FRANCE",
+      "telephone": "+33 1 55 55 55 55",
+      "fax": "+33 1 55 55 55 56"
+    },
+    "consignee": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS LTD",
+      "address": "150 MAIN STREET, HONG KONG, CHINA",
+      "telephone": "+852 2222 2222",
+      "fax": "+852 2222 2223"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS LTD",
+      "address": "150 MAIN STREET, HONG KONG, CHINA",
+      "telephone": "+852 2222 2222",
+      "fax": "+852 2222 2223"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT7312235",
+      "sealNumber": "SEAL599084",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 19695.2,
+      "measurement": 31.67
+    },
+    {
+      "containerNumber": "CONT5154931",
+      "sealNumber": "SEAL439435",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 13396.99,
+      "measurement": 20.75
+    },
+    {
+      "containerNumber": "CONT5259300",
+      "sealNumber": "SEAL520849",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 10395.32,
+      "measurement": 30.2
+    },
+    {
+      "containerNumber": "CONT8443006",
+      "sealNumber": "SEAL699537",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 8537.67,
+      "measurement": 23.2
+    },
+    {
+      "containerNumber": "CONT7132848",
+      "sealNumber": "SEAL951361",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 8313.8,
+      "measurement": 35.15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD GENERAL",
+    "totalPackages": 321,
+    "totalGrossWeight": 60338.98,
+    "totalMeasurement": 140.97
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411203766DG"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF DANGEROUS GOODS"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS LTD",
+      "address": "150 MAIN STREET, HONG KONG, CHINA",
+      "telephone": "+852 2222 2222",
+      "fax": "+852 2222 2223"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TECHNO PRECISION INC.",
+      "address": "123 TECH PARK, PARIS, FRANCE",
+      "telephone": "+33 1 55 55 55 55",
+      "fax": "+33 1 55 55 55 56"
+    },
+    "onboardDate": "2024-11-26 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2236, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8916591",
+    "unClass": "8",
+    "unCode": "2236,",
+    "hsCode": "8735.76.31",
+    "flashPoint": "19\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

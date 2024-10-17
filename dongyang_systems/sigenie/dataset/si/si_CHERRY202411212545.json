@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202411212545",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SKF AB",
+      "onBehalfOf": "",
+      "address": "SIGTUNASTRANDSVAGEN 12, 444 80, SKF, SWEDEN",
+      "telephone": "+46 31 352 00 00",
+      "fax": "+46 31 352 00 01",
+      "email": "INFO@SKF.COM"
+    },
+    "consignee": {
+      "name": "DANMARK LOGISTICS A/S",
+      "address": "HANS CHRISTIAN ANDERSENS BOULEVARD 1, 2900 HELLUROP, DENMARK",
+      "companyNumber": "1234567890",
+      "telephone": "+45 70 20 60 20",
+      "fax": "+45 70 20 60 21",
+      "email": "INFO@DANMARKLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "DANMARK LOGISTICS A/S",
+      "address": "HANS CHRISTIAN ANDERSENS BOULEVARD 1, 2900 HELLUROP, DENMARK"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "848330",
+  "commodityDescription": "TRANSMISSION SHAFTS AND CRANKSHAFTS",
+  "containers": [
+    {
+      "containerNumber": "CONT9057446",
+      "sealNumber": "SEAL153074",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 14321.14,
+      "measurement": 22.45
+    },
+    {
+      "containerNumber": "CONT4804826",
+      "sealNumber": "SEAL639208",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 8826.3,
+      "measurement": 34.0
+    },
+    {
+      "containerNumber": "CONT7186596",
+      "sealNumber": "SEAL614943",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 5476.5,
+      "measurement": 33.39
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD FLAT RACK",
+    "totalPackages": 165,
+    "totalGrossWeight": 28623.94,
+    "totalMeasurement": 89.84
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DANMARK LOGISTICS A/S",
+      "address": "HANS CHRISTIAN ANDERSENS BOULEVARD 1, 2900 HELLUROP, DENMARK",
+      "telephone": "+45 70 20 60 20",
+      "fax": "+45 70 20 60 21",
+      "email": "INFO@DANMARKLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SKF AB",
+      "address": "SIGTUNASTRANDSVAGEN 12, 444 80, SKF, SWEDEN",
+      "telephone": "+46 31 352 00 00",
+      "fax": "+46 31 352 00 01",
+      "email": "INFO@SKF.COM"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8246x2857x2903, VALUE: USD675,222"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8246",
+    "width": "2857",
+    "height": "2903",
+    "overWidth": "417",
+    "overHeight": "313"
+  }
+}

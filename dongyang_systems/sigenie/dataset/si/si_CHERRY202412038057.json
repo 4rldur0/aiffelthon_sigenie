@@ -1,0 +1,85 @@
+{
+  "bookingReference": "CHERRY202412038057",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE SHIPPING INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@WORLDWIDESHIPPING.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE SHIPPING INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, THE NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL MERCHANDISE",
+  "containers": [
+    {
+      "containerNumber": "CONT1778474",
+      "sealNumber": "SEAL116336",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 16808.98,
+      "measurement": 26.56
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 75,
+    "totalGrossWeight": 16808.98,
+    "totalMeasurement": 26.56
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE SHIPPING INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, THE NETHERLANDS",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@WORLDWIDESHIPPING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAPACIFICTRADING.CN"
+    },
+    "onboardDate": "2024-12-17 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

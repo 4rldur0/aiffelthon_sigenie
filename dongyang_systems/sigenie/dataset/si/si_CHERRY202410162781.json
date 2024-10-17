@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410162781",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO. LTD",
+      "address": "123 CHANGNING ROAD, SHANGHAI, 200040, CHINA",
+      "telephone": "+86 21 6278 9155",
+      "fax": "+86 21 6278 9200",
+      "email": "LI.MEI@ASIAELECTRONICS.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "15 KOEIENSTRAAT, 3012 AM ROTTERDAM, NETHERLANDS",
+      "taxId": "NL855293612B01",
+      "president": "Mr. Pieter Van Der Meer",
+      "telephone": "+31 10 204 35 12",
+      "fax": "+31 10 204 35 80",
+      "email": "PIETER.VANDERMEER@GLOBALFORWARDING.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "15 KOEIENSTRAAT, 3012 AM ROTTERDAM, NETHERLANDS",
+      "taxId": "NL855293612B01",
+      "president": "Mr. Pieter Van Der Meer",
+      "telephone": "+31 10 204 35 12",
+      "fax": "+31 10 204 35 80",
+      "email": "PIETER.VANDERMEER@GLOBALFORWARDING.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "847130",
+  "commodityDescription": "TEMPERATURE CONTROLLED ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT1017370",
+      "sealNumber": "SEAL357682",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 15248.49,
+      "measurement": 39.87
+    },
+    {
+      "containerNumber": "CONT1811923",
+      "sealNumber": "SEAL957995",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 11204.48,
+      "measurement": 22.38
+    },
+    {
+      "containerNumber": "CONT9994805",
+      "sealNumber": "SEAL188020",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 14250.68,
+      "measurement": 22.68
+    },
+    {
+      "containerNumber": "CONT4227629",
+      "sealNumber": "SEAL245284",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 10852.5,
+      "measurement": 32.56
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE REEFER",
+    "totalPackages": 198,
+    "totalGrossWeight": 51556.15,
+    "totalMeasurement": 117.49
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L/C 2024102712345"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "15 KOEIENSTRAAT, 3012 AM ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 204 35 12",
+      "fax": "+31 10 204 35 80",
+      "email": "PIETER.VANDERMEER@GLOBALFORWARDING.NL"
+    },
+    "onboardDate": "2024-10-29 02:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 17\u00b0C, VALUE: USD220,876, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8705346",
+    "temperature": "17\u00b0C",
+    "minTemperature": "15\u00b0C",
+    "maxTemperature": "19\u00b0C",
+    "ventilation": "75%",
+    "humidity": "64%"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202411202033",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 ASIA PACIFIC STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "INFO@ASIAFOODS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 GLOBAL STREET, GDANSK, POLAND",
+      "companyNumber": "1234567890",
+      "telephone": "+48 58 12345678",
+      "fax": "+48 58 12345679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.PL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 GLOBAL STREET, GDANSK, POLAND"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030819",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT4185379",
+      "sealNumber": "SEAL718982",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 13675.25,
+      "measurement": 33.85
+    },
+    {
+      "containerNumber": "CONT7733466",
+      "sealNumber": "SEAL518579",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 8216.04,
+      "measurement": 30.64
+    },
+    {
+      "containerNumber": "CONT7477486",
+      "sealNumber": "SEAL757517",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 13965.12,
+      "measurement": 34.65
+    },
+    {
+      "containerNumber": "CONT6249919",
+      "sealNumber": "SEAL366924",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 10561.52,
+      "measurement": 27.49
+    },
+    {
+      "containerNumber": "CONT5739449",
+      "sealNumber": "SEAL428677",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 13237.08,
+      "measurement": 36.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE REEFER",
+    "totalPackages": 247,
+    "totalGrossWeight": 59655.01,
+    "totalMeasurement": 162.72
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC FOODS LTD.",
+      "address": "1234 ASIA PACIFIC STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679"
+    },
+    "onboardDate": "2024-11-26 22:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -6\u00b0C, VALUE: USD342,992, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3789829",
+    "temperature": "-6\u00b0C",
+    "minTemperature": "-8\u00b0C",
+    "maxTemperature": "-4\u00b0C",
+    "ventilation": "4%",
+    "humidity": "76%"
+  }
+}

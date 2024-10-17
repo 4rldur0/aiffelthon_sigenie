@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411301076",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "EVERGREEN SHIPPING CO., LTD.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679",
+      "email": "INFO@EVERGREENSHIPPING.NL",
+      "contactPerson": "JAN SMITH"
+    },
+    "notifyParty": {
+      "name": "EVERGREEN SHIPPING CO., LTD."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CARS",
+  "containers": [
+    {
+      "containerNumber": "CONT8412578",
+      "sealNumber": "SEAL970745",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 9526.17,
+      "measurement": 39.15
+    },
+    {
+      "containerNumber": "CONT5813057",
+      "sealNumber": "SEAL553389",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 12911.13,
+      "measurement": 22.44
+    },
+    {
+      "containerNumber": "CONT7349598",
+      "sealNumber": "SEAL205344",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 5272.92,
+      "measurement": 25.77
+    },
+    {
+      "containerNumber": "CONT4896923",
+      "sealNumber": "SEAL928715",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 18896.99,
+      "measurement": 39.91
+    },
+    {
+      "containerNumber": "CONT8415947",
+      "sealNumber": "SEAL373665",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 18929.54,
+      "measurement": 30.91
+    },
+    {
+      "containerNumber": "CONT4086725",
+      "sealNumber": "SEAL321205",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 13041.15,
+      "measurement": 32.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE TANK",
+    "totalPackages": 425,
+    "totalGrossWeight": 78577.9,
+    "totalMeasurement": 190.18
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241130-1001",
+    "documentNumber": "20241130-1001",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EVERGREEN SHIPPING CO., LTD.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EVERGREEN SHIPPING CO., LTD.",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "onboardDate": "2025-01-06 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202411109697",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "NO. 123 TECH PARK ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "NL858585858B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "EUROCARGO FORWARDING BV",
+      "address": "100 PORT STREET, ROTTERDAM, NETHERLANDS 3000 AB",
+      "taxId": "NL858585858B02",
+      "president": "MS. ANNA JONES",
+      "telephone": "+31 10 9876 5432",
+      "fax": "+31 10 9876 5431",
+      "email": "INFO@EUROCARGO.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT9656265",
+      "sealNumber": "SEAL628953",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 19798.37,
+      "measurement": 32.24
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 28,
+    "totalGrossWeight": 19798.37,
+    "totalMeasurement": 32.24
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241110001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "EUROCARGO FORWARDING BV",
+      "address": "100 PORT STREET, ROTTERDAM, NETHERLANDS 3000 AB",
+      "telephone": "+31 10 9876 5432",
+      "fax": "+31 10 9876 5431",
+      "email": "INFO@EUROCARGO.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-16 23:59",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202411285080",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS LTD.",
+      "address": "1234 YONGFENG ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8388 7193",
+      "fax": "+86 574 8388 7778",
+      "email": "LI.WEI@ASIAIMPORTS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM 3011 GJ, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 799 73 25",
+      "fax": "+31 10 799 73 90",
+      "email": "INFO@GLOBALSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS GROUP BV",
+      "address": "2345 SPUY STREET, ROTTERDAM 3012 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 713 29 39",
+      "fax": "+31 10 713 29 44",
+      "email": "ANNA.NOWAK@WORLDWIDEGROUP.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940340",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT2343705",
+      "sealNumber": "SEAL744814",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 15235.02,
+      "measurement": 38.37
+    },
+    {
+      "containerNumber": "CONT6136156",
+      "sealNumber": "SEAL246550",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 12206.62,
+      "measurement": 31.84
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 95,
+    "totalGrossWeight": 27441.64,
+    "totalMeasurement": 70.21
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "FUMIGATION CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM 3011 GJ, NETHERLANDS",
+      "telephone": "+31 10 799 73 25",
+      "fax": "+31 10 799 73 90",
+      "email": "INFO@GLOBALSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM 3011 GJ, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 799 73 25",
+      "fax": "+31 10 799 73 90",
+      "email": "INFO@GLOBALSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-12-17 18:00",
+    "additionalRemarks": "DO NOT STACK"
+  }
+}

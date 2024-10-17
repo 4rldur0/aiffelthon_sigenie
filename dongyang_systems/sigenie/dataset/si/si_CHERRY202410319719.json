@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410319719",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TRADING CO.",
+      "address": "123 HUAHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@ASIATRADINGCO.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT LTD.",
+      "address": "124 CANAL STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "taxId": "NL856789012",
+      "president": "MR. JAN VAN DER KUIJ",
+      "telephone": "+31 10 256 7890",
+      "fax": "+31 10 256 7891",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL"
+    },
+    "notifyParty": {
+      "name": "FIRST NETHERLANDS LOGISTICS BV",
+      "address": "125 KLOPPENBURG STREET, ROTTERDAM, NETHERLANDS 3012 AA",
+      "taxId": "NL856789013",
+      "president": "MS. ANNA VAN DER MEIJ",
+      "telephone": "+31 10 256 7892",
+      "fax": "+31 10 256 7893"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950410",
+  "commodityDescription": "BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT1979716",
+      "sealNumber": "SEAL101116",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 14691.82,
+      "measurement": 30.61
+    },
+    {
+      "containerNumber": "CONT5629023",
+      "sealNumber": "SEAL469875",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 7356.78,
+      "measurement": 27.43
+    },
+    {
+      "containerNumber": "CONT8066504",
+      "sealNumber": "SEAL389658",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 16431.54,
+      "measurement": 27.83
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 200,
+    "totalGrossWeight": 38480.14,
+    "totalMeasurement": 85.87
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST NETHERLANDS LOGISTICS BV",
+      "address": "125 KLOPPENBURG STREET, ROTTERDAM, NETHERLANDS 3012 AA",
+      "telephone": "+31 10 256 7892",
+      "fax": "+31 10 256 7893",
+      "email": "INFO@FIRSTNETHERLANDSLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT LTD.",
+      "address": "124 CANAL STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31 10 256 7890",
+      "fax": "+31 10 256 7891",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL"
+    },
+    "onboardDate": "2024-11-13 09:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  }
+}

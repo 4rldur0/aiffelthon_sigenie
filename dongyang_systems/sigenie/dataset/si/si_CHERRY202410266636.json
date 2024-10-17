@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410266636",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION MACHINERY MANUFACTURERS INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA 200001",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@PRECISIONMACHINERY.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "100 EUROPA BOULEVARD, ROTTERDAM, NETHERLANDS 3011AA",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "CUSTOMS BROKERAGE SERVICES BV",
+      "address": "555 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3021AB",
+      "taxId": "",
+      "president": "MS. ANNA JONES",
+      "telephone": "+31 10 555 6666",
+      "fax": "+31 10 555 7777"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINE, NUMERICALLY CONTROLLED",
+  "containers": [
+    {
+      "containerNumber": "CONT5158783",
+      "sealNumber": "SEAL826793",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 6573.54,
+      "measurement": 34.98
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD OPEN TOP",
+    "totalPackages": 31,
+    "totalGrossWeight": 6573.54,
+    "totalMeasurement": 34.98
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241026001"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "100 EUROPA BOULEVARD, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "100 EUROPA BOULEVARD, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-10-29 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8212x2565x2714, VALUE: USD680,216, MAINTAIN HUMIDITY"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8212",
+    "width": "2565",
+    "height": "2714",
+    "overWidth": "125",
+    "overHeight": "124"
+  }
+}

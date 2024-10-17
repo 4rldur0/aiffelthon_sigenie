@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411052471",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA GLOBAL TRADING INC.",
+      "address": "1234 MAIN STREET, SHANGHAI, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(OFFICE BUILDING)",
+      "telephone": "+86 21 5555 6789",
+      "email": "SHIPPING@BETAGLOBAL.COM"
+    },
+    "consignee": {
+      "name": "ALPHA INTERNATIONAL LTD",
+      "address": "4567 ALICANTE STREET, MADRID, 28000, SPAIN",
+      "country": "SPAIN",
+      "email": "INFO@ALPHAINTERNATIONAL.ES",
+      "telephone": "+34 91 123 4567"
+    },
+    "notifyParty": {
+      "name": "ALPHA INTERNATIONAL LTD",
+      "address": "4567 ALICANTE STREET, MADRID, 28000, SPAIN",
+      "country": "SPAIN",
+      "email": "ORDERS@ALPHAINTERNATIONAL.ES",
+      "telephone": "+34 91 123 4567"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL MERCHANDISE",
+  "containers": [
+    {
+      "containerNumber": "CONT4580171",
+      "sealNumber": "SEAL314561",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 11885.54,
+      "measurement": 26.89
+    },
+    {
+      "containerNumber": "CONT2963834",
+      "sealNumber": "SEAL574009",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 14969.53,
+      "measurement": 21.01
+    },
+    {
+      "containerNumber": "CONT6354512",
+      "sealNumber": "SEAL626412",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 13230.15,
+      "measurement": 22.47
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 256,
+    "totalGrossWeight": 40085.22,
+    "totalMeasurement": 70.37
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA INTERNATIONAL LTD",
+      "address": "4567 ALICANTE STREET, MADRID, 28000, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@ALPHAINTERNATIONAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA INTERNATIONAL LTD",
+      "address": "4567 ALICANTE STREET, MADRID, 28000, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@ALPHAINTERNATIONAL.ES"
+    },
+    "onboardDate": "2024-11-14 09:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

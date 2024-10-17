@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411036647",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "INTERNATIONAL SHIPPING GROUP INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "email": "INFO@ internationalshipping.com",
+      "telephone": "+1 212 555 1212"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030730",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT1887245",
+      "sealNumber": "SEAL831284",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 13252.65,
+      "measurement": 23.38
+    },
+    {
+      "containerNumber": "CONT2099403",
+      "sealNumber": "SEAL173133",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 19728.02,
+      "measurement": 30.66
+    },
+    {
+      "containerNumber": "CONT8140089",
+      "sealNumber": "SEAL479977",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 19507.78,
+      "measurement": 25.75
+    },
+    {
+      "containerNumber": "CONT8821394",
+      "sealNumber": "SEAL914977",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 7046.6,
+      "measurement": 33.6
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE REEFER",
+    "totalPackages": 161,
+    "totalGrossWeight": 59535.05,
+    "totalMeasurement": 113.39
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-17 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 18\u00b0C, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8311638",
+    "temperature": "18\u00b0C",
+    "minTemperature": "16\u00b0C",
+    "maxTemperature": "20\u00b0C",
+    "ventilation": "17%",
+    "humidity": "69%"
+  }
+}

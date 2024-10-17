@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202410072815",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. INC.",
+      "address": "1234 GLOBAL TRADE CENTER, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@BETATRADING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORT EXPORT LTD",
+      "address": "4567 PORT STREET, ALGECIRAS, SPAIN, 11001",
+      "country": "SPAIN",
+      "email": "IMPORT@ALPHAIMPORTEXPORT.ES",
+      "telephone": "+34 956 7890 1234",
+      "fax": "+34 956 7890 1235"
+    },
+    "notifyParty": {
+      "name": "OMEGA LOGISTICS S.A.",
+      "address": "8901 LOGISTICS BOULEVARD, ALGECIRAS, SPAIN, 11200",
+      "country": "SPAIN",
+      "email": "OPERATIONS@OMEGALOGISTICS.ES",
+      "telephone": "+34 956 5432 1000",
+      "fax": "+34 956 5432 1001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "330499",
+  "commodityDescription": "DANGEROUS PERFUMES",
+  "containers": [
+    {
+      "containerNumber": "CONT7095689",
+      "sealNumber": "SEAL519139",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 5260.81,
+      "measurement": 38.37
+    },
+    {
+      "containerNumber": "CONT3143966",
+      "sealNumber": "SEAL218305",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 6523.14,
+      "measurement": 28.55
+    },
+    {
+      "containerNumber": "CONT1078689",
+      "sealNumber": "SEAL793032",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 10099.71,
+      "measurement": 26.57
+    },
+    {
+      "containerNumber": "CONT7952688",
+      "sealNumber": "SEAL943984",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 11219.21,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CONT4624140",
+      "sealNumber": "SEAL445674",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 12886.84,
+      "measurement": 20.03
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 268,
+    "totalGrossWeight": 45989.71,
+    "totalMeasurement": 139.02
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410279572"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL IMPORT EXPORT LTD",
+      "address": "4567 PORT STREET, ALGECIRAS, SPAIN, 11001",
+      "telephone": "+34 956 7890 1234",
+      "fax": "+34 956 7890 1235",
+      "email": "IMPORT@ALPHAIMPORTEXPORT.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL IMPORT EXPORT LTD",
+      "address": "4567 PORT STREET, ALGECIRAS, SPAIN, 11001",
+      "telephone": "+34 956 7890 1234",
+      "fax": "+34 956 7890 1235",
+      "email": "IMPORT@ALPHAIMPORTEXPORT.ES"
+    },
+    "onboardDate": "2024-10-17 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3012, VALUE: USD331,861, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4610403",
+    "unClass": "3",
+    "unCode": "3012,",
+    "hsCode": "8912.23.27",
+    "flashPoint": "37\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

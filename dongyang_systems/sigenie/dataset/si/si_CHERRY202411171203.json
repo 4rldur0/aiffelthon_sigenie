@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411171203",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FOODS LTD.",
+      "address": "123 YONGJIANG ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@SUNRISEFOODS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "UL. POLSKA 123, 80-200 GDANSK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 301 2345",
+      "fax": "+48 58 301 2346",
+      "email": "INFO@GLOBALLOGISTICS.PL",
+      "personincharge": "ANNA NOWAK"
+    },
+    "notifyParty": {
+      "name": "POLISH COLD STORAGE LTD.",
+      "address": "UL. MORSKA 567, 81-200 GDANSK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 901 2345",
+      "fax": "+48 58 901 2346",
+      "email": "INFO@POLISHCOLDSTORAGE.PL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT2984851",
+      "sealNumber": "SEAL442427",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 11689.3,
+      "measurement": 32.48
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE REEFER",
+    "totalPackages": 89,
+    "totalGrossWeight": 11689.3,
+    "totalMeasurement": 32.48
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241117001"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "UL. POLSKA 123, 80-200 GDANSK, POLAND",
+      "telephone": "+48 58 301 2345",
+      "fax": "+48 58 301 2346",
+      "email": "INFO@GLOBALLOGISTICS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "UL. POLSKA 123, 80-200 GDANSK, POLAND",
+      "telephone": "+48 58 301 2345",
+      "fax": "+48 58 301 2346",
+      "email": "INFO@GLOBALLOGISTICS.PL"
+    },
+    "onboardDate": "2024-11-26 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -19\u00b0C, VALUE: USD69,847, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferCargo": {
+    "containerNumber": "CRLU9876543",
+    "temperature": -19,
+    "ventilation": "NATURAL"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3557891",
+    "temperature": "-19\u00b0C",
+    "minTemperature": "-21\u00b0C",
+    "maxTemperature": "-17\u00b0C",
+    "ventilation": "47%",
+    "humidity": "83%"
+  }
+}

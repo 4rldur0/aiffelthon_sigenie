@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202411297681",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES CO. LTD",
+      "address": "NO. 555, SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@DELTAINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL LOGISTICS LLC",
+      "address": "123 MAIN STREET, RABAT, MOROCCO 10000",
+      "taxId": "",
+      "president": "MR. MOHAMMED ALI",
+      "telephone": "+212 522 4444 5555",
+      "fax": "+212 522 4444 6666",
+      "email": "MOHAMED.ALI@OMEGAGLOBAL.COM"
+    },
+    "notifyParty": {
+      "name": "TANGER LOGISTICS SERVICES",
+      "address": "222 PORT BOULEVARD, TANGER MED, MOROCCO 90000",
+      "taxId": "",
+      "president": "MS. FATIMA BEN ALI",
+      "telephone": "+212 539 9999 1111",
+      "fax": "+212 539 9999 2222"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871630",
+  "commodityDescription": "RAILWAY CARRIAGE",
+  "containers": [
+    {
+      "containerNumber": "CONT6640426",
+      "sealNumber": "SEAL493680",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 16796.61,
+      "measurement": 39.49
+    },
+    {
+      "containerNumber": "CONT9570915",
+      "sealNumber": "SEAL158578",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 11559.21,
+      "measurement": 22.38
+    },
+    {
+      "containerNumber": "CONT4123444",
+      "sealNumber": "SEAL108658",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 12187.83,
+      "measurement": 22.52
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD FLAT RACK",
+    "totalPackages": 172,
+    "totalGrossWeight": 40543.65,
+    "totalMeasurement": 84.39
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL LOGISTICS LLC",
+      "address": "123 MAIN STREET, RABAT, MOROCCO 10000",
+      "telephone": "+212 522 4444 5555",
+      "fax": "+212 522 4444 6666",
+      "email": "MOHAMED.ALI@OMEGAGLOBAL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL LOGISTICS LLC",
+      "address": "123 MAIN STREET, RABAT, MOROCCO 10000",
+      "telephone": "+212 522 4444 5555",
+      "fax": "+212 522 4444 6666",
+      "email": "MOHAMED.ALI@OMEGAGLOBAL.COM"
+    },
+    "onboardDate": "2024-12-16 23:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 3937x2426x2867, VALUE: USD110,444"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3937",
+    "width": "2426",
+    "height": "2867",
+    "overWidth": "0",
+    "overHeight": "277"
+  }
+}

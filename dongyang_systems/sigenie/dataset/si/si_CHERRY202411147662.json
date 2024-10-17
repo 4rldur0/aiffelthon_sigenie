@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202411147662",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA PRECISION ENGINEERING CO LTD",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "WEZTERSTRAAT 12, 3011 ZZ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@ALPHA-GLOBAL.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950430",
+  "commodityDescription": "TYPEWRITERS AND OFFICE MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT5698574",
+      "sealNumber": "SEAL635347",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 12389.3,
+      "measurement": 27.73
+    },
+    {
+      "containerNumber": "CONT5065344",
+      "sealNumber": "SEAL410851",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 15563.48,
+      "measurement": 39.07
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 44,
+    "totalGrossWeight": 27952.78,
+    "totalMeasurement": 66.8
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241114-1001",
+    "documentNumber": "20241114-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241114-123456"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "WEZTERSTRAAT 12, 3011 ZZ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD",
+      "address": "WEZTERSTRAAT 12, 3011 ZZ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-12-03 16:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

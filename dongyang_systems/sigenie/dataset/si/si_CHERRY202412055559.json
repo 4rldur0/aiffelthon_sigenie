@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202412055559",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA TRADING COMPANY CO., LTD.",
+      "address": "NO. 123, HONGQI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@CHINATRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "DE BRIJN STRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL855555555B01",
+      "president": "MR. PETER VAN DER LINDE",
+      "telephone": "+31 10 246 5678",
+      "fax": "+31 10 246 5679",
+      "email": "INFO@GLOBALIMPORTS.NL"
+    },
+    "notifyParty": {
+      "name": "DUTCH LOGISTICS SOLUTIONS BV",
+      "address": "MAASLAAN 100, 3063 AD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@DUTCHLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940350",
+  "commodityDescription": "FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT8047022",
+      "sealNumber": "SEAL427387",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 6609.22,
+      "measurement": 39.68
+    },
+    {
+      "containerNumber": "CONT4876226",
+      "sealNumber": "SEAL539355",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 9909.77,
+      "measurement": 27.92
+    },
+    {
+      "containerNumber": "CONT6089039",
+      "sealNumber": "SEAL884469",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 9797.77,
+      "measurement": 24.21
+    },
+    {
+      "containerNumber": "CONT1693929",
+      "sealNumber": "SEAL638688",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 15198.24,
+      "measurement": 20.31
+    },
+    {
+      "containerNumber": "CONT2392247",
+      "sealNumber": "SEAL287899",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 17545.78,
+      "measurement": 28.89
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 344,
+    "totalGrossWeight": 59060.78,
+    "totalMeasurement": 141.01
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "DUTCH LOGISTICS SOLUTIONS BV",
+      "address": "MAASLAAN 100, 3063 AD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@DUTCHLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "DE BRIJN STRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 246 5678",
+      "fax": "+31 10 246 5679",
+      "email": "INFO@GLOBALIMPORTS.NL"
+    },
+    "onboardDate": "2024-12-14 16:00",
+    "additionalRemarks": "MAINTAIN HUMIDITY"
+  }
+}

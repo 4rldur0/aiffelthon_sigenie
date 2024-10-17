@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411291899",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. INC.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 123 4567",
+      "fax": "+86 21 123 4568"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORT LTD",
+      "address": "150 PORT STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL IMPORT LTD",
+      "address": "150 PORT STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT1554707",
+      "sealNumber": "SEAL151461",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 10656.78,
+      "measurement": 32.08
+    },
+    {
+      "containerNumber": "CONT2471954",
+      "sealNumber": "SEAL326533",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 15383.7,
+      "measurement": 31.85
+    },
+    {
+      "containerNumber": "CONT2060862",
+      "sealNumber": "SEAL909283",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 10019.2,
+      "measurement": 20.89
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 165,
+    "totalGrossWeight": 36059.68,
+    "totalMeasurement": 84.82
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL IMPORT LTD",
+      "address": "150 PORT STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL IMPORT LTD",
+      "address": "150 PORT STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457"
+    },
+    "onboardDate": "2024-12-17 18:00",
+    "additionalRemarks": "ON DECK TOP STOWAGE"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411181287",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENGINEERING CORP.",
+      "address": "1234 CHANGI BUSINESS PARK CRESCENT, #05-01 HONEYWELL BUILDING, SINGAPORE 486006",
+      "telephone": "+65 7588 9155",
+      "fax": "+65 7588 9200",
+      "email": "KWANGHEE.LIM@ASIAENGINEERING.COM.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "100 EUROPABOULEVARD, 3000 ROTTERDAM, NETHERLANDS",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 206 1234",
+      "fax": "+31 10 206 5678",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "CUSTOMS BROKERAGE BV",
+      "address": "250 WESTPOORT, 3011 Rotterdam, Netherlands",
+      "taxId": "",
+      "president": "MS. ANNA VAN DER LINDEN",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 1234"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940330",
+  "commodityDescription": "OFFICE FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT7596292",
+      "sealNumber": "SEAL268690",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 11425.5,
+      "measurement": 24.23
+    },
+    {
+      "containerNumber": "CONT3852923",
+      "sealNumber": "SEAL770151",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 12555.44,
+      "measurement": 28.95
+    },
+    {
+      "containerNumber": "CONT9768623",
+      "sealNumber": "SEAL493310",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 11301.21,
+      "measurement": 33.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 109,
+    "totalGrossWeight": 35282.15,
+    "totalMeasurement": 86.99
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "100 EUROPABOULEVARD, 3000 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 206 1234",
+      "fax": "+31 10 206 5678",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-11-21 22:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

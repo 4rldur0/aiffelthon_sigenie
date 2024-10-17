@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202411075543",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO. LTD",
+      "onBehalfOf": "",
+      "address": "1234 DRAGON ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8666 1234",
+      "fax": "+86 574 8666 5678",
+      "email": "SHIPPING@ASIA-PACIFIC.CN"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN GLOBAL LOGISTICS LTD",
+      "address": "5678 PARIS STREET, PARIS, FRANCE",
+      "companyNumber": "FR123456789",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "OPERATIONS@GOLDENSUNLOGISTICS.FR"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN GLOBAL LOGISTICS LTD",
+      "address": "5678 PARIS STREET, PARIS, FRANCE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "330499",
+  "commodityDescription": "PERFUMES",
+  "containers": [
+    {
+      "containerNumber": "CONT3108369",
+      "sealNumber": "SEAL828838",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 11163.1,
+      "measurement": 37.69
+    },
+    {
+      "containerNumber": "CONT1279853",
+      "sealNumber": "SEAL946263",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 6847.35,
+      "measurement": 36.97
+    },
+    {
+      "containerNumber": "CONT2872038",
+      "sealNumber": "SEAL833095",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 18337.64,
+      "measurement": 22.21
+    },
+    {
+      "containerNumber": "CONT8397861",
+      "sealNumber": "SEAL338998",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 15200.84,
+      "measurement": 28.22
+    },
+    {
+      "containerNumber": "CONT7622751",
+      "sealNumber": "SEAL542393",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 16181.52,
+      "measurement": 25.08
+    },
+    {
+      "containerNumber": "CONT4196720",
+      "sealNumber": "SEAL729251",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 7565.27,
+      "measurement": 39.53
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE TANK",
+    "totalPackages": 317,
+    "totalGrossWeight": 75295.72,
+    "totalMeasurement": 189.7
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GOLDEN SUN GLOBAL LOGISTICS LTD",
+      "address": "5678 PARIS STREET, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "OPERATIONS@GOLDENSUNLOGISTICS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC MANUFACTURING CO. LTD",
+      "address": "1234 DRAGON ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8666 1234",
+      "fax": "+86 574 8666 5678"
+    },
+    "onboardDate": "2024-11-13 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3258, VALUE: USD54,113, 14 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5393245",
+    "unClass": "7",
+    "unCode": "3258,",
+    "hsCode": "6891.35.91",
+    "flashPoint": "64\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

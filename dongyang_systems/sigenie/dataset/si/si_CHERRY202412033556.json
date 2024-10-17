@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202412033556",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF PRECISION ENGINEERING GMBH",
+      "address": "INDUSTRIESTRASSE 12, 20354 HAMBURG, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-12345679"
+    },
+    "consignee": {
+      "name": "ABC INTERNATIONAL LOGISTICS LTD",
+      "address": "123 ROBINSON ROAD, #12-01, SINGAPORE 068905",
+      "telephone": "+65-65432100",
+      "fax": "+65-65432101"
+    },
+    "notifyParty": {
+      "name": "ABC INTERNATIONAL LOGISTICS LTD",
+      "address": "123 ROBINSON ROAD, #12-01, SINGAPORE 068905",
+      "telephone": "+65-65432100",
+      "fax": "+65-65432101"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "846620",
+  "commodityDescription": "MACHINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT1656369",
+      "sealNumber": "SEAL590687",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 7299.58,
+      "measurement": 25.83
+    },
+    {
+      "containerNumber": "CONT4865994",
+      "sealNumber": "SEAL484548",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 12080.15,
+      "measurement": 32.39
+    },
+    {
+      "containerNumber": "CONT5770892",
+      "sealNumber": "SEAL771087",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 5703.51,
+      "measurement": 23.35
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 218,
+    "totalGrossWeight": 25083.24,
+    "totalMeasurement": 81.57
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ABC INTERNATIONAL LOGISTICS LTD",
+      "address": "123 ROBINSON ROAD, #12-01, SINGAPORE 068905",
+      "telephone": "+65-65432100",
+      "fax": "+65-65432101"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC INTERNATIONAL LOGISTICS LTD",
+      "address": "123 ROBINSON ROAD, #12-01, SINGAPORE 068905",
+      "telephone": "+65-65432100",
+      "fax": "+65-65432101"
+    },
+    "onboardDate": "2024-12-06 21:00",
+    "additionalRemarks": "THIS SIDE UP"
+  }
+}

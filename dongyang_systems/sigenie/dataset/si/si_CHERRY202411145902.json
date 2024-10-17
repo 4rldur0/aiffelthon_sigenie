@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411145902",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854140",
+  "commodityDescription": "ELECTRIC MOTORS AND GENERATORS",
+  "containers": [
+    {
+      "containerNumber": "CONT4396924",
+      "sealNumber": "SEAL316971",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 5168.81,
+      "measurement": 25.69
+    },
+    {
+      "containerNumber": "CONT6742360",
+      "sealNumber": "SEAL283573",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 11123.45,
+      "measurement": 25.03
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 88,
+    "totalGrossWeight": 16292.26,
+    "totalMeasurement": 50.72
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241115"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-21 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 17\u00b0C, 14 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6373432",
+    "temperature": "17\u00b0C",
+    "minTemperature": "15\u00b0C",
+    "maxTemperature": "19\u00b0C",
+    "ventilation": "34%",
+    "humidity": "74%"
+  }
+}

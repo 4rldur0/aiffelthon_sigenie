@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202410269922",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FRESH PRODUCE CO. LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "consignee": {
+      "name": "AGROLOGISTICS SOLUTIONS LTD.",
+      "address": "150 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 1234 5678",
+      "fax": "+60 3 1234 5679"
+    },
+    "notifyParty": {
+      "name": "SUNRISE LOGISTICS SDN. BHD.",
+      "address": "200 Jalan Sultan Ismail, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 9876 5432",
+      "fax": "+60 3 9876 5433"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080590",
+  "commodityDescription": "FRESH ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT4207882",
+      "sealNumber": "SEAL606314",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 10661.53,
+      "measurement": 20.77
+    },
+    {
+      "containerNumber": "CONT2226487",
+      "sealNumber": "SEAL749405",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 15176.97,
+      "measurement": 39.41
+    },
+    {
+      "containerNumber": "CONT1357977",
+      "sealNumber": "SEAL731263",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 14829.29,
+      "measurement": 23.52
+    },
+    {
+      "containerNumber": "CONT7119859",
+      "sealNumber": "SEAL732213",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 9398.79,
+      "measurement": 29.77
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE REEFER",
+    "totalPackages": 206,
+    "totalGrossWeight": 50066.58,
+    "totalMeasurement": 113.47
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241026001"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "AGROLOGISTICS SOLUTIONS LTD.",
+      "address": "150 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 1234 5678",
+      "fax": "+60 3 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC FRESH PRODUCE CO. LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -10\u00b0C, VALUE: USD548,541"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8070811",
+    "temperature": "-10\u00b0C",
+    "minTemperature": "-12\u00b0C",
+    "maxTemperature": "-8\u00b0C",
+    "ventilation": "98%",
+    "humidity": "73%"
+  }
+}

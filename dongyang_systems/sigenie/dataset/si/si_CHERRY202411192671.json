@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411192671",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MACHINERY LTD.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "telephone": "+1 212 555 1212"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT1810262",
+      "sealNumber": "SEAL579013",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 15318.7,
+      "measurement": 36.7
+    },
+    {
+      "containerNumber": "CONT2389636",
+      "sealNumber": "SEAL874230",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 5934.51,
+      "measurement": 28.25
+    },
+    {
+      "containerNumber": "CONT5345390",
+      "sealNumber": "SEAL752910",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 6459.62,
+      "measurement": 31.64
+    },
+    {
+      "containerNumber": "CONT2163327",
+      "sealNumber": "SEAL168013",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 19478.21,
+      "measurement": 34.14
+    },
+    {
+      "containerNumber": "CONT1986948",
+      "sealNumber": "SEAL198727",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 5231.4,
+      "measurement": 38.22
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD GENERAL",
+    "totalPackages": 173,
+    "totalGrossWeight": 52422.44,
+    "totalMeasurement": 168.95
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-26 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2335, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6245144",
+    "unClass": "1",
+    "unCode": "2335,",
+    "hsCode": "8821.22.48",
+    "flashPoint": "31\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

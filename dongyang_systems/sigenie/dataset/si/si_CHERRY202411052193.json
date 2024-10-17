@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411052193",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "AUTOMOTIVE COMPONENTS LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS GMBH",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@WORLDWIDEFREIGHTSOLUTIONS.DE",
+      "contactPerson": "PETER MEIER"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS GMBH"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382490",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT3779143",
+      "sealNumber": "SEAL123911",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 18531.88,
+      "measurement": 35.13
+    },
+    {
+      "containerNumber": "CONT8863786",
+      "sealNumber": "SEAL594979",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 15903.65,
+      "measurement": 38.72
+    },
+    {
+      "containerNumber": "CONT2200764",
+      "sealNumber": "SEAL555905",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 8099.45,
+      "measurement": 30.65
+    },
+    {
+      "containerNumber": "CONT1750177",
+      "sealNumber": "SEAL918753",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 14464.31,
+      "measurement": 32.97
+    },
+    {
+      "containerNumber": "CONT2521574",
+      "sealNumber": "SEAL977771",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 6107.77,
+      "measurement": 29.31
+    },
+    {
+      "containerNumber": "CONT6096883",
+      "sealNumber": "SEAL260397",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 10090.14,
+      "measurement": 23.88
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD GENERAL",
+    "totalPackages": 325,
+    "totalGrossWeight": 73197.2,
+    "totalMeasurement": 190.66
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      {
+        "certificateType": "DG DECLARATION",
+        "certificateNumber": "DG20241105001"
+      }
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS GMBH",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "AUTOMOTIVE COMPONENTS LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA"
+    },
+    "onboardDate": "2024-11-16 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1548, VALUE: USD690,314, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7531230",
+    "unClass": "1",
+    "unCode": "1548,",
+    "hsCode": "3571.58.23",
+    "flashPoint": "11\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

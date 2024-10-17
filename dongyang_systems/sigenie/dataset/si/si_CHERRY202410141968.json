@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410141968",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "NO. 1234 INDUSTRY STREET, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "CONTACT PERSON: MR. LI WEI",
+      "telephone": "+86 574 8686 1234",
+      "fax": "+86 574 8686 5678",
+      "email": "WEI.LI@BETAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "Calle Mayor 123, 29001 Malaga, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 952 666 777",
+      "fax": "+34 952 666 888",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS S.A.",
+      "address": "AV. ESPA\u00d1A 234, 28002 MADRID, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 912 345 678",
+      "fax": "+34 912 345 901",
+      "email": "OPERATIONS@WORLDWIDELOGISTICS.ES"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940390",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT8310598",
+      "sealNumber": "SEAL325008",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 12195.96,
+      "measurement": 24.8
+    },
+    {
+      "containerNumber": "CONT8483759",
+      "sealNumber": "SEAL666975",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 12458.28,
+      "measurement": 23.01
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE TANK",
+    "totalPackages": 134,
+    "totalGrossWeight": 24654.24,
+    "totalMeasurement": 47.81
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      " PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS S.A.",
+      "address": "AV. ESPA\u00d1A 234, 28002 MADRID, SPAIN",
+      "telephone": "+34 912 345 678",
+      "fax": "+34 912 345 901",
+      "email": "OPERATIONS@WORLDWIDELOGISTICS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "Calle Mayor 123, 29001 Malaga, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 952 666 777",
+      "fax": "+34 952 666 888",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

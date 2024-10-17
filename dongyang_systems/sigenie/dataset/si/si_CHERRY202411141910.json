@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202411141910",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL ENTERPRISE LTD.",
+      "address": "DIJKSTRA STREET 123, 3011 XK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GLOBALENTERPRISE.NL",
+      "contactPerson": "PETER VAN DER LINDE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL ENTERPRISE LTD."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "OUT-OF-GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT3382327",
+      "sealNumber": "SEAL870661",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 10788.1,
+      "measurement": 38.3
+    },
+    {
+      "containerNumber": "CONT2149315",
+      "sealNumber": "SEAL614794",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 9668.01,
+      "measurement": 22.57
+    },
+    {
+      "containerNumber": "CONT1517071",
+      "sealNumber": "SEAL641949",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 14261.42,
+      "measurement": 36.23
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD OPEN TOP",
+    "totalPackages": 161,
+    "totalGrossWeight": 34717.53,
+    "totalMeasurement": 97.1
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241114-1001",
+    "documentNumber": "20241114-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241114-001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL ENTERPRISE LTD.",
+      "address": "DIJKSTRA STREET 123, 3011 XK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL ENTERPRISE LTD.",
+      "address": "DIJKSTRA STREET 123, 3011 XK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-11-22 14:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5828x2221x2191, HANDLE WITH CARE",
+    "outOfGaugeDimensions": {
+      "length": 5828,
+      "width": 2221,
+      "height": 2191
+    }
+  },
+  "outOfGaugeDimensions": {
+    "length": "5828",
+    "width": "2221",
+    "height": "2191",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

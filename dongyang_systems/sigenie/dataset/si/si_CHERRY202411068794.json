@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202411068794",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 6
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL PRECISION TECHNOLOGIES INC.",
+      "address": "123 TECH STREET, JURONG EAST, SINGAPORE 608543",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "email": "CONTACT@GLOBALPRECISIONTECH.COM"
+    },
+    "consignee": {
+      "name": "BLUE SKY LOGISTICS LTD.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "country": "CHINA",
+      "email": "ZENLEE@BLUESKYTRADING.CN",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "CHEMICAL PRODUCTS AND PREPARATIONS, N.E.S.",
+  "containers": [
+    {
+      "containerNumber": "CONT6143945",
+      "sealNumber": "SEAL948506",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 10858.39,
+      "measurement": 30.42
+    },
+    {
+      "containerNumber": "CONT6405145",
+      "sealNumber": "SEAL779852",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 6776.23,
+      "measurement": 21.52
+    },
+    {
+      "containerNumber": "CONT1666139",
+      "sealNumber": "SEAL423977",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 16263.71,
+      "measurement": 27.28
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 145,
+    "totalGrossWeight": 33898.33,
+    "totalMeasurement": 79.22
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY LOGISTICS LTD.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY LOGISTICS LTD.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "++86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "onboardDate": "2024-11-09 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1508, VALUE: USD891,341"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7385254",
+    "unClass": "4",
+    "unCode": "1508,",
+    "hsCode": "1412.42.86",
+    "flashPoint": "4\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

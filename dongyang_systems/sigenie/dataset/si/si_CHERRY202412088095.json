@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202412088095",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "DELTA GLOBAL TRADING",
+      "address": "NO. 456, SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA GLOBAL TRADING",
+      "address": "NO. 789, BEIJING ROAD, BEIJING, CHINA 100000",
+      "telephone": "+86-10-8888-9999",
+      "fax": "+86-10-8888-9998"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940161",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT1160032",
+      "sealNumber": "SEAL142776",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 15160.04,
+      "measurement": 39.88
+    },
+    {
+      "containerNumber": "CONT8447388",
+      "sealNumber": "SEAL256523",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 15588.56,
+      "measurement": 37.18
+    },
+    {
+      "containerNumber": "CONT7922029",
+      "sealNumber": "SEAL202261",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 18873.31,
+      "measurement": 31.11
+    },
+    {
+      "containerNumber": "CONT7249240",
+      "sealNumber": "SEAL443070",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 13728.39,
+      "measurement": 30.79
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD TANK",
+    "totalPackages": 192,
+    "totalGrossWeight": 63350.3,
+    "totalMeasurement": 138.96
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA GLOBAL TRADING",
+      "address": "NO. 456, SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA GLOBAL TRADING",
+      "address": "NO. 456, SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-6666",
+      "fax": "+86-21-5555-6667"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

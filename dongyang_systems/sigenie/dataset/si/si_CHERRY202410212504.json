@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410212504",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIANG, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854230",
+  "commodityDescription": "ELECTRONIC INTEGRATED CIRCUITS",
+  "containers": [
+    {
+      "containerNumber": "CONT9049323",
+      "sealNumber": "SEAL179886",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 7883.39,
+      "measurement": 35.74
+    },
+    {
+      "containerNumber": "CONT2558395",
+      "sealNumber": "SEAL386916",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 5163.7,
+      "measurement": 24.07
+    },
+    {
+      "containerNumber": "CONT6407785",
+      "sealNumber": "SEAL523407",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 14707.94,
+      "measurement": 31.03
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 151,
+    "totalGrossWeight": 27755.03,
+    "totalMeasurement": 90.84
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIANG, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIANG, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-10-27 19:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

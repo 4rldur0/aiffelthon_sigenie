@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202411129786",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 9876 5432",
+      "email": "INFO@BETATRADING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA ENTERPRISES LTD",
+      "address": "456 ALICANTE STREET, MADRID, SPAIN 28001",
+      "taxId": "ES1234567890",
+      "president": "MR. JUAN GARCIA",
+      "telephone": "+34 91 1234 5678",
+      "fax": "+34 91 9876 5432",
+      "email": "JUAN.GARCIA@ALPHAENTERPRISES.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST SPAIN GLOBAL LOGISTICS S.L.",
+      "address": "123 BARCELONA STREET, ALICANTE, SPAIN 03001",
+      "taxId": "ES9876543210",
+      "president": "MS. MARIA RODRIGUEZ",
+      "telephone": "+34 96 1234 5678",
+      "fax": "+34 96 9876 5432"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940390",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT9819991",
+      "sealNumber": "SEAL526009",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 7560.39,
+      "measurement": 37.35
+    },
+    {
+      "containerNumber": "CONT3519103",
+      "sealNumber": "SEAL233582",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 8174.07,
+      "measurement": 24.87
+    },
+    {
+      "containerNumber": "CONT4360926",
+      "sealNumber": "SEAL210036",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 12718.26,
+      "measurement": 31.44
+    },
+    {
+      "containerNumber": "CONT1488942",
+      "sealNumber": "SEAL161741",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 13916.65,
+      "measurement": 27.85
+    },
+    {
+      "containerNumber": "CONT2048946",
+      "sealNumber": "SEAL289194",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 11394.1,
+      "measurement": 23.85
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE TANK",
+    "totalPackages": 321,
+    "totalGrossWeight": 53763.47,
+    "totalMeasurement": 145.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SPAIN GLOBAL LOGISTICS S.L.",
+      "address": "123 BARCELONA STREET, ALICANTE, SPAIN 03001",
+      "telephone": "+34 96 1234 5678",
+      "fax": "+34 96 9876 5432",
+      "email": "JUAN.GARCIA@ALPHAENTERPRISES.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA ENTERPRISES LTD",
+      "address": "456 ALICANTE STREET, MADRID, SPAIN 28001",
+      "telephone": "+34 91 1234 5678",
+      "fax": "+34 91 9876 5432",
+      "email": "JUAN.GARCIA@ALPHAENTERPRISES.COM"
+    },
+    "onboardDate": "2024-11-18 09:00",
+    "additionalRemarks": "FRAGILE"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202411041100",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INTERNATIONAL TRADING",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT CO.",
+      "address": "DAMSTRAAT 123, 3011XD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@SUNRISEIMPORT.NL",
+      "contactPerson": "PIETER VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT & EXPORT CO.",
+      "address": "DAMSTRAAT 123, 3011XD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "ORGANIC SOLVENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT9518220",
+      "sealNumber": "SEAL173931",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 6754.8,
+      "measurement": 39.62
+    },
+    {
+      "containerNumber": "CONT8215243",
+      "sealNumber": "SEAL698417",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 16011.5,
+      "measurement": 38.43
+    },
+    {
+      "containerNumber": "CONT5732881",
+      "sealNumber": "SEAL110901",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 16977.16,
+      "measurement": 38.27
+    },
+    {
+      "containerNumber": "CONT5945806",
+      "sealNumber": "SEAL832677",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 14625.71,
+      "measurement": 31.24
+    },
+    {
+      "containerNumber": "CONT2040112",
+      "sealNumber": "SEAL889304",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 16370.62,
+      "measurement": 39.3
+    },
+    {
+      "containerNumber": "CONT3272762",
+      "sealNumber": "SEAL103429",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 8859.1,
+      "measurement": 20.61
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 267,
+    "totalGrossWeight": 79598.89,
+    "totalMeasurement": 207.47
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241105-1001",
+    "documentNumber": "20241105-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT CO.",
+      "address": "DAMSTRAAT 123, 3011XD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT CO.",
+      "address": "DAMSTRAAT 123, 3011XD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-11-16 02:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1387, 30 DAYS FREE TIME AT DESTINATION",
+    "dangerousGoods": {
+      "unNumber": "1387",
+      "properShippingName": "ORGANIC SOLVENTS"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6860800",
+    "unClass": "5",
+    "unCode": "1387,",
+    "hsCode": "6915.56.98",
+    "flashPoint": "-15\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410315031",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES INC.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-555-6666",
+      "fax": "+86-21-555-6667"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "NO. 789, FUXING ROAD, BEIJING, CHINA 100000",
+      "telephone": "+86-10-888-9999",
+      "fax": "+86-10-888-9998"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "630900",
+  "commodityDescription": "CLOTHING - MEN'S SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CONT2785615",
+      "sealNumber": "SEAL670571",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 15979.33,
+      "measurement": 39.76
+    },
+    {
+      "containerNumber": "CONT5643807",
+      "sealNumber": "SEAL489586",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 17320.42,
+      "measurement": 37.16
+    },
+    {
+      "containerNumber": "CONT4482651",
+      "sealNumber": "SEAL649761",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 9586.17,
+      "measurement": 38.49
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 160,
+    "totalGrossWeight": 42885.92,
+    "totalMeasurement": 115.41
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-555-6666",
+      "fax": "+86-21-555-6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-555-6666",
+      "fax": "+86-21-555-6667"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "HANDLE WITH CARE"
+  }
+}

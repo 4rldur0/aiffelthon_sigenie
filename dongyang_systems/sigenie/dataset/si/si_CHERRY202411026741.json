@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411026741",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "123 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 BROAD STREET, NEW YORK, USA",
+      "telephone": "+1 212 555 1234",
+      "fax": "+1 212 555 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 BROAD STREET, NEW YORK, USA",
+      "telephone": "+1 212 555 1234",
+      "fax": "+1 212 555 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "282739",
+  "commodityDescription": "ZINC DUST",
+  "containers": [
+    {
+      "containerNumber": "CONT6171635",
+      "sealNumber": "SEAL584993",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 12172.7,
+      "measurement": 29.75
+    },
+    {
+      "containerNumber": "CONT4421370",
+      "sealNumber": "SEAL475559",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 18647.31,
+      "measurement": 27.64
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 124,
+    "totalGrossWeight": 30820.01,
+    "totalMeasurement": 57.39
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411021234"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "DANGEROUS GOODS CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 BROAD STREET, NEW YORK, USA",
+      "telephone": "+1 212 555 1234",
+      "fax": "+1 212 555 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "123 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "onboardDate": "2024-11-17 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1474, 30 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5738941",
+    "unClass": "1",
+    "unCode": "1474,",
+    "hsCode": "4596.12.96",
+    "flashPoint": "78\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

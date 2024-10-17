@@ -1,0 +1,151 @@
+{
+  "bookingReference": "CHERRY202411307600",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL PRECISION INDUSTRIES PTE LTD",
+      "address": "123 Anson ROAD, SINGAPORE 079903",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890456"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT9926975",
+      "sealNumber": "SEAL913168",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 17198.48,
+      "measurement": 32.37
+    },
+    {
+      "containerNumber": "CONT6035442",
+      "sealNumber": "SEAL509066",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 8594.67,
+      "measurement": 39.26
+    },
+    {
+      "containerNumber": "CONT2053441",
+      "sealNumber": "SEAL102623",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 7410.3,
+      "measurement": 36.13
+    },
+    {
+      "containerNumber": "CONT3737373",
+      "sealNumber": "SEAL296663",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 17094.12,
+      "measurement": 37.62
+    },
+    {
+      "containerNumber": "CONT3297413",
+      "sealNumber": "SEAL515705",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 6871.26,
+      "measurement": 34.45
+    },
+    {
+      "containerNumber": "CONT4715019",
+      "sealNumber": "SEAL624988",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 15600.22,
+      "measurement": 39.16
+    },
+    {
+      "containerNumber": "CONT4139835",
+      "sealNumber": "SEAL785941",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 8423.54,
+      "measurement": 33.84
+    },
+    {
+      "containerNumber": "CONT7779200",
+      "sealNumber": "SEAL582618",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 19154.96,
+      "measurement": 22.6
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "8 x 20 STANDARD GENERAL",
+    "totalPackages": 417,
+    "totalGrossWeight": 100347.55,
+    "totalMeasurement": 275.43
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    },
+    "onboardDate": "2024-12-16 19:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2183, FRAGILE",
+    "dangerousGoodsDetails": {
+      "unNumber": "2183",
+      "properShippingName": "DANGEROUS CHEMICALS"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5445097",
+    "unClass": "7",
+    "unCode": "2183,",
+    "hsCode": "6346.39.50",
+    "flashPoint": "47\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

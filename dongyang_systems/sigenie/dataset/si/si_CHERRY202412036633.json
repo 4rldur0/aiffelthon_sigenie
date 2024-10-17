@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202412036633",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS INC.",
+      "onBehalfOf": "",
+      "address": "1234 ASIA PACIFIC RD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@ASIAIMPORTS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "1234 GLOBAL RD, MADRID, SPAIN",
+      "companyNumber": "123456789",
+      "telephone": "+34 91 111 2222",
+      "fax": "+34 91 111 3333",
+      "email": "INFO@GLOBALTRADING.ES"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "1234 GLOBAL RD, MADRID, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "071420",
+  "commodityDescription": "CABBAGE",
+  "containers": [
+    {
+      "containerNumber": "CONT1782867",
+      "sealNumber": "SEAL411372",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 15432.57,
+      "measurement": 22.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 89,
+    "totalGrossWeight": 15432.57,
+    "totalMeasurement": 22.16
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORTS INC.",
+      "address": "1234 ASIA PACIFIC RD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777"
+    },
+    "onboardDate": "2024-12-11 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 3\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5666334",
+    "temperature": "3\u00b0C",
+    "minTemperature": "1\u00b0C",
+    "maxTemperature": "5\u00b0C",
+    "ventilation": "46%",
+    "humidity": "68%"
+  }
+}

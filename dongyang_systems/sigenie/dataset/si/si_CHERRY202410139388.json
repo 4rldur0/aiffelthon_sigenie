@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202410139388",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TECHNOLOGIES INC",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8623 7193",
+      "fax": "+86 574 8623 7778",
+      "email": "ZHANG.WEI@ASIAPACIFICTECH.CN"
+    },
+    "consignee": {
+      "name": "GOLDEN GATE LOGISTICS LTD",
+      "address": "12 RUE DE LA PAIX, 75000 PARIS, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "PIERRE.DUPONT@GOLDENGATELOGISTICS.FR"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE LOGISTICS LTD",
+      "address": "12 RUE DE LA PAIX, 75000 PARIS, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "PIERRE.DUPONT@GOLDENGATELOGISTICS.FR"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381210",
+  "commodityDescription": "CARBON BLACKS AND OTHER CARBON SUBSTANCES, INCLUDING THOSE MADE BY CRACKING OR DISTILLATION",
+  "containers": [
+    {
+      "containerNumber": "CONT3532094",
+      "sealNumber": "SEAL526491",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 16291.69,
+      "measurement": 37.67
+    },
+    {
+      "containerNumber": "CONT6490651",
+      "sealNumber": "SEAL539828",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 18541.39,
+      "measurement": 35.54
+    },
+    {
+      "containerNumber": "CONT5064273",
+      "sealNumber": "SEAL553935",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 18676.46,
+      "measurement": 21.35
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 133,
+    "totalGrossWeight": 53509.54,
+    "totalMeasurement": 94.56
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "SAFETY DATA SHEET"
+    ],
+    "originalBLDistribution": {
+      "name": "GOLDEN GATE LOGISTICS LTD",
+      "address": "12 RUE DE LA PAIX, 75000 PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "PIERRE.DUPONT@GOLDENGATELOGISTICS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN GATE LOGISTICS LTD",
+      "address": "12 RUE DE LA PAIX, 75000 PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "PIERRE.DUPONT@GOLDENGATELOGISTICS.FR"
+    },
+    "onboardDate": "2024-10-21 12:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1657"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8997727",
+    "unClass": "9",
+    "unCode": "1657",
+    "hsCode": "7917.10.57",
+    "flashPoint": "81\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

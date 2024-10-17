@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411247655",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "1234 SUNRISE BOULEVARD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SALES@SUNRISEGLOBALTRADING.CN"
+    },
+    "consignee": {
+      "name": "EURO TOYS LTD.",
+      "address": "1234 TOY STREET, ROTTERDAM, 3000 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@EUROTOYS.NL",
+      "personincharge": "ANNA VAN DER MEIJ"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC FREIGHT FORWARDERS LTD.",
+      "address": "1234 ASIA PACIFIC WAY, HONG KONG, CHINA",
+      "country": "CHINA",
+      "telephone": "+852 2222 3333",
+      "fax": "+852 2222 3332",
+      "email": "OPERATIONS@APFF.HK"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "EDUCATIONAL TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT5564555",
+      "sealNumber": "SEAL326406",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 5105.61,
+      "measurement": 39.0
+    },
+    {
+      "containerNumber": "CONT8022745",
+      "sealNumber": "SEAL803993",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 7978.27,
+      "measurement": 30.04
+    },
+    {
+      "containerNumber": "CONT5252662",
+      "sealNumber": "SEAL972777",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 16856.41,
+      "measurement": 38.55
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 120,
+    "totalGrossWeight": 29940.29,
+    "totalMeasurement": 107.59
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC FREIGHT FORWARDERS LTD.",
+      "address": "1234 ASIA PACIFIC WAY, HONG KONG, CHINA",
+      "telephone": "+852 2222 3333",
+      "fax": "+852 2222 3332",
+      "email": "OPERATIONS@APFF.HK"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TOYS LTD.",
+      "address": "1234 TOY STREET, ROTTERDAM, 3000 AA, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@EUROTOYS.NL"
+    },
+    "onboardDate": "2024-12-07 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

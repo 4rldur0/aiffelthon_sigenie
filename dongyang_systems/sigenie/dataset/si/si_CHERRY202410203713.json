@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410203713",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA CHEMICAL IMPORTS CO.",
+      "address": "123 CHEMICAL STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "BETA TRADING CORP.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL TRADING LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "281123",
+  "commodityDescription": "SODIUM HYDROXIDE (CAUSTIC SODA)",
+  "containers": [
+    {
+      "containerNumber": "CONT7204991",
+      "sealNumber": "SEAL621137",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 9762.53,
+      "measurement": 34.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 46,
+    "totalGrossWeight": 9762.53,
+    "totalMeasurement": 34.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241025ABC"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "MATERIAL SAFETY DATA SHEET (MSDS)"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRANSPORTATION LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA TRADING CORP.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-10-27 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2513"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1002900",
+    "unClass": "1",
+    "unCode": "2513",
+    "hsCode": "6081.95.35",
+    "flashPoint": "93\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

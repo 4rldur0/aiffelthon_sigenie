@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202411105219",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "123 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JEREMY.LEE@ASIAPACIFICLOGISTICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALTRADING.NL",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CONT3910925",
+      "sealNumber": "SEAL838781",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 5618.44,
+      "measurement": 24.66
+    },
+    {
+      "containerNumber": "CONT3347885",
+      "sealNumber": "SEAL353141",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 13644.78,
+      "measurement": 27.95
+    },
+    {
+      "containerNumber": "CONT3064527",
+      "sealNumber": "SEAL231387",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 5851.41,
+      "measurement": 39.79
+    },
+    {
+      "containerNumber": "CONT6433027",
+      "sealNumber": "SEAL856502",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 18381.67,
+      "measurement": 31.02
+    },
+    {
+      "containerNumber": "CONT6963217",
+      "sealNumber": "SEAL113603",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 8230.78,
+      "measurement": 38.06
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD FLAT RACK",
+    "totalPackages": 221,
+    "totalGrossWeight": 51727.08,
+    "totalMeasurement": 161.48
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411105219"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALTRADING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALTRADING.NL"
+    },
+    "onboardDate": "2024-11-23 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8647x2884x2752, VALUE: USD44,455"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8647",
+    "width": "2884",
+    "height": "2752",
+    "overWidth": "444",
+    "overHeight": "162"
+  }
+}

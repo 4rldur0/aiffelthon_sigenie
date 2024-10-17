@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411303806",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TRADING CO. LTD.",
+      "address": "238 HONGQI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ASIA.TRADING@MAIL.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SOLUTIONS INC.",
+      "address": "250 ROTTERDAMSEWEG, ROTTERDAM, NETHERLANDS 3011LN",
+      "taxId": "NL8123456789B01",
+      "president": "MR. PETER VAN DER LINDEN",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "PETER.VANDERALINDEN@GLOBALSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "FIRST GLOBAL LOGISTICS N.V.",
+      "address": "120 MAASSTRAT, ROTTERDAM, NETHERLANDS 3011LN",
+      "taxId": "NL8901234567B01",
+      "president": "MS. ANNA DE GROOT",
+      "telephone": "+31 10 876 5432",
+      "fax": "+31 10 876 5433"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT7140491",
+      "sealNumber": "SEAL798523",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 16140.93,
+      "measurement": 35.28
+    },
+    {
+      "containerNumber": "CONT5608879",
+      "sealNumber": "SEAL901928",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 6809.35,
+      "measurement": 23.21
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE REEFER",
+    "totalPackages": 49,
+    "totalGrossWeight": 22950.28,
+    "totalMeasurement": 58.49
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-11 22:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -7\u00b0C, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6701359",
+    "temperature": "-7\u00b0C",
+    "minTemperature": "-9\u00b0C",
+    "maxTemperature": "-5\u00b0C",
+    "ventilation": "2%",
+    "humidity": "90%"
+  }
+}

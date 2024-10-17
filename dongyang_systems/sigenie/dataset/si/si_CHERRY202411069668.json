@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411069668",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING COMPANY",
+      "address": "2345 WEIHAI ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO OFFICE)",
+      "telephone": "+86 574 8765 4321",
+      "email": "SALES@ASIAPACIFIC.COM.CN"
+    },
+    "consignee": {
+      "name": "ZENITH GLOBAL LOGISTICS GMBH",
+      "address": "FREIHAMMERSTRASSE 25, 20355 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "OPERATIONS@ZENITHLOGISTICS.DE",
+      "telephone": "+49 40 3678 9012"
+    },
+    "notifyParty": {
+      "name": "ZENITH GLOBAL LOGISTICS GMBH",
+      "address": "FREIHAMMERSTRASSE 25, 20355 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "OPERATIONS@ZENITHLOGISTICS.DE",
+      "telephone": "+49 40 3678 9012"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940350",
+  "commodityDescription": "FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT1933105",
+      "sealNumber": "SEAL104207",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 19218.85,
+      "measurement": 23.24
+    },
+    {
+      "containerNumber": "CONT9808912",
+      "sealNumber": "SEAL359626",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 6370.81,
+      "measurement": 33.97
+    },
+    {
+      "containerNumber": "CONT7969570",
+      "sealNumber": "SEAL433242",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 7006.31,
+      "measurement": 21.28
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 154,
+    "totalGrossWeight": 32595.97,
+    "totalMeasurement": 78.49
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ZENITH GLOBAL LOGISTICS GMBH",
+      "address": "FREIHAMMERSTRASSE 25, 20355 HAMBURG, GERMANY",
+      "telephone": "+49 40 3678 9012",
+      "fax": "+49 40 3678 9013",
+      "email": "OPERATIONS@ZENITHLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH GLOBAL LOGISTICS GMBH",
+      "address": "FREIHAMMERSTRASSE 25, 20355 HAMBURG, GERMANY",
+      "telephone": "+49 40 3678 9012",
+      "fax": "+49 40 3678 9013",
+      "email": "OPERATIONS@ZENITHLOGISTICS.DE"
+    },
+    "onboardDate": "2024-11-16 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

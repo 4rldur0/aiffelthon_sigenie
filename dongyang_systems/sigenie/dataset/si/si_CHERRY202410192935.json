@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202410192935",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "CONTACT: MR. LI WEI",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "WEI.LI@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "EUROFREIGHT LOGISTICS GMBH",
+      "address": "MARKTPLATZ 1, 20354 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 3567 8901",
+      "fax": "+49 40 3567 8902",
+      "email": "INFO@EUROFREIGHTLOGISTICS.DE"
+    },
+    "notifyParty": {
+      "name": "EUROFREIGHT LOGISTICS GMBH",
+      "address": "MARKTPLATZ 1, 20354 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 3567 8901",
+      "fax": "+49 40 3567 8902",
+      "email": "INFO@EUROFREIGHTLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854239",
+  "commodityDescription": "REFRIGERATION UNITS",
+  "containers": [
+    {
+      "containerNumber": "CONT2360021",
+      "sealNumber": "SEAL203777",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 10359.62,
+      "measurement": 29.68
+    },
+    {
+      "containerNumber": "CONT8304631",
+      "sealNumber": "SEAL712485",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 17387.36,
+      "measurement": 39.92
+    },
+    {
+      "containerNumber": "CONT9339043",
+      "sealNumber": "SEAL536142",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 14801.2,
+      "measurement": 35.89
+    },
+    {
+      "containerNumber": "CONT1621302",
+      "sealNumber": "SEAL874423",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 18813.44,
+      "measurement": 21.29
+    },
+    {
+      "containerNumber": "CONT3329179",
+      "sealNumber": "SEAL193800",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 7969.3,
+      "measurement": 30.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD REEFER",
+    "totalPackages": 233,
+    "totalGrossWeight": 69330.92,
+    "totalMeasurement": 157.58
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROFREIGHT LOGISTICS GMBH",
+      "address": "MARKTPLATZ 1, 20354 HAMBURG, GERMANY",
+      "telephone": "+49 40 3567 8901",
+      "fax": "+49 40 3567 8902",
+      "email": "INFO@EUROFREIGHTLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROFREIGHT LOGISTICS GMBH",
+      "address": "MARKTPLATZ 1, 20354 HAMBURG, GERMANY",
+      "telephone": "+49 40 3567 8901",
+      "fax": "+49 40 3567 8902",
+      "email": "INFO@EUROFREIGHTLOGISTICS.DE"
+    },
+    "onboardDate": "2024-10-27 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 12\u00b0C, VALUE: USD230,845"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4707250",
+    "temperature": "12\u00b0C",
+    "minTemperature": "10\u00b0C",
+    "maxTemperature": "14\u00b0C",
+    "ventilation": "64%",
+    "humidity": "61%"
+  }
+}

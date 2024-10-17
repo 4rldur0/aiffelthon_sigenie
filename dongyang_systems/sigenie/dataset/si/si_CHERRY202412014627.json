@@ -1,0 +1,88 @@
+{
+  "bookingReference": "CHERRY202412014627",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ TRADING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 9876 5432",
+      "email": "INFO@XYZTRADING.COM"
+    },
+    "consignee": {
+      "name": "ABC IMPORTS LTD.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL850123456B01",
+      "president": "MR. JOHN DOE",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "INFO@ABCIMPORTS.COM"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS BV",
+      "address": "789 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 4321 0987",
+      "fax": "+31 10 6543 2109",
+      "email": "INFO@ABCLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "961700",
+  "commodityDescription": "STATIONERY, DRAWING, AND PAINTING SUPPLIES",
+  "containers": [
+    {
+      "containerNumber": "CONT9619729",
+      "sealNumber": "SEAL813204",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 10915.55,
+      "measurement": 35.57
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 63,
+    "totalGrossWeight": 10915.55,
+    "totalMeasurement": 35.57
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ABC IMPORTS LTD.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "INFO@ABCIMPORTS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORTS LTD.",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "INFO@ABCIMPORTS.COM"
+    },
+    "onboardDate": "2024-12-12 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

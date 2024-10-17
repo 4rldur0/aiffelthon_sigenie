@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411174113",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE FOOD INDUSTRIES PTE LTD",
+      "address": "123 JURONG EAST STREET 31, SINGAPORE 609536",
+      "country": "SINGAPORE",
+      "additionalInfo": "(SINGAPORE FOOD INDUSTRIES BUILDING)",
+      "telephone": "+65 6265 4321",
+      "email": "SALES@SFI.COM.SG"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (ASIA PACIFIC) PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118515",
+      "country": "SINGAPORE",
+      "email": "OPERATIONS@DHLASIA.COM",
+      "telephone": "+65 6231 5678"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (ASIA PACIFIC) PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118515",
+      "country": "SINGAPORE",
+      "email": "OPERATIONS@DHLASIA.COM",
+      "telephone": "+65 6231 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030710",
+  "commodityDescription": "FROZEN COD FILLET",
+  "containers": [
+    {
+      "containerNumber": "CONT1969967",
+      "sealNumber": "SEAL685040",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 6897.07,
+      "measurement": 32.69
+    },
+    {
+      "containerNumber": "CONT9456545",
+      "sealNumber": "SEAL390658",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 6497.74,
+      "measurement": 29.15
+    },
+    {
+      "containerNumber": "CONT9123744",
+      "sealNumber": "SEAL660698",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 8059.3,
+      "measurement": 38.38
+    },
+    {
+      "containerNumber": "CONT9316271",
+      "sealNumber": "SEAL671933",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 9400.08,
+      "measurement": 25.44
+    },
+    {
+      "containerNumber": "CONT6092520",
+      "sealNumber": "SEAL416035",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 12312.75,
+      "measurement": 25.44
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE REEFER",
+    "totalPackages": 399,
+    "totalGrossWeight": 43166.94,
+    "totalMeasurement": 151.1
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (ASIA PACIFIC) PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118515",
+      "telephone": "+65 6231 5678",
+      "fax": "+65 6231 5679",
+      "email": "OPERATIONS@DHLASIA.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (ASIA PACIFIC) PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118515",
+      "telephone": "+65 6231 5678",
+      "fax": "+65 6231 5679",
+      "email": "OPERATIONS@DHLASIA.COM"
+    },
+    "onboardDate": "2024-12-02 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -6\u00b0C, VALUE: USD899,248, UNDER DECK TOP STOWAGE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8779567",
+    "temperature": "-6\u00b0C",
+    "minTemperature": "-8\u00b0C",
+    "maxTemperature": "-4\u00b0C",
+    "ventilation": "84%",
+    "humidity": "60%"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411156987",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIAN PRECISION ENGINEERING LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIANPRECISION.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT, GERMANY",
+      "usci": "91321200765109788X",
+      "president": "JOHANN MEYER",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679",
+      "email": "JOHANN.MEYER@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES, NUMERICALLY CONTROLLED",
+  "containers": [
+    {
+      "containerNumber": "CONT8170155",
+      "sealNumber": "SEAL137406",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 9956.11,
+      "measurement": 32.73
+    },
+    {
+      "containerNumber": "CONT4563556",
+      "sealNumber": "SEAL185558",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 9921.48,
+      "measurement": 31.85
+    },
+    {
+      "containerNumber": "CONT8034871",
+      "sealNumber": "SEAL591322",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 18599.68,
+      "measurement": 39.55
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 220,
+    "totalGrossWeight": 38477.27,
+    "totalMeasurement": 104.13
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679",
+      "email": "JOHANN.MEYER@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "onboardDate": "2024-11-17 18:00",
+    "additionalRemarks": "ON DECK TOP STOWAGE"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411252767",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA ELECTRONICS CO.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "ALPHA LOGISTICS LTD.",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "340213",
+  "commodityDescription": "LIQUID DETERGENT",
+  "containers": [
+    {
+      "containerNumber": "CONT4283744",
+      "sealNumber": "SEAL456317",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 17812.1,
+      "measurement": 34.6
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD TANK",
+    "totalPackages": 78,
+    "totalGrossWeight": 17812.1,
+    "totalMeasurement": 34.6
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-07 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2491, VALUE: USD490,868, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9760075",
+    "unClass": "6",
+    "unCode": "2491,",
+    "hsCode": "5556.93.37",
+    "flashPoint": "-6\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

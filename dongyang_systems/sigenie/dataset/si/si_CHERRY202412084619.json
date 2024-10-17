@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202412084619",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA INDUSTRIES INC.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "DELTA TRANSPORT LTD.",
+      "address": "NO. 456, FUXING ROAD, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "notifyParty": {
+      "name": "DELTA TRANSPORT LTD.",
+      "address": "NO. 456, FUXING ROAD, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940340",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT2781096",
+      "sealNumber": "SEAL422394",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 16687.53,
+      "measurement": 32.5
+    },
+    {
+      "containerNumber": "CONT9580343",
+      "sealNumber": "SEAL200305",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 10520.33,
+      "measurement": 30.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 156,
+    "totalGrossWeight": 27207.86,
+    "totalMeasurement": 63.3
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRANSPORT LTD.",
+      "address": "NO. 456, FUXING ROAD, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRANSPORT LTD.",
+      "address": "NO. 456, FUXING ROAD, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410221742",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LOGISTICS INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 8888",
+      "email": "INFO@APLOGISTICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "155 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "taxId": "NL855975803B01",
+      "president": "MR. PETER VAN DER LINDEN",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "PETER.VANDERLINDEN@GLOBALTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "155 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "taxId": "NL855975803B01",
+      "president": "MR. PETER VAN DER LINDEN",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "PETER.VANDERLINDEN@GLOBALTRADING.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030211",
+  "commodityDescription": "FRESH SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT2965356",
+      "sealNumber": "SEAL731093",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 5900.57,
+      "measurement": 27.24
+    },
+    {
+      "containerNumber": "CONT8545501",
+      "sealNumber": "SEAL569398",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 12629.94,
+      "measurement": 24.56
+    },
+    {
+      "containerNumber": "CONT5207037",
+      "sealNumber": "SEAL215567",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 6386.66,
+      "measurement": 35.66
+    },
+    {
+      "containerNumber": "CONT7240315",
+      "sealNumber": "SEAL752022",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 10142.88,
+      "measurement": 34.98
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD REEFER",
+    "totalPackages": 200,
+    "totalGrossWeight": 35060.05,
+    "totalMeasurement": 122.44
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410230123"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "155 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "PETER.VANDERLINDEN@GLOBALTRADING.NL"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 10\u00b0C, VALUE: USD140,869"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2785740",
+    "temperature": "10\u00b0C",
+    "minTemperature": "8\u00b0C",
+    "maxTemperature": "12\u00b0C",
+    "ventilation": "64%",
+    "humidity": "86%"
+  }
+}

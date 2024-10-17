@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411144448",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING PTE LTD",
+      "address": "123 TAI SOON STREET, SINGAPORE 456789",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SALES@PRECISIONENGINEERING.COM.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "10 RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6780",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.FR"
+    },
+    "notifyParty": {
+      "name": "CUSTOMS BROKERAGE SERVICES",
+      "address": "12 QUAI DES BELGES, 76000 ROUEN, FRANCE",
+      "telephone": "+33 2 3500 1234",
+      "fax": "+33 2 3500 1235",
+      "email": "CONTACT@CUSTOMS-BROKERAGE.FR"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR CLEANING, FILLING, CLOSING, SEALING OR LABELLING",
+  "containers": [
+    {
+      "containerNumber": "CONT3410855",
+      "sealNumber": "SEAL511718",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 14002.54,
+      "measurement": 27.15
+    },
+    {
+      "containerNumber": "CONT9884529",
+      "sealNumber": "SEAL466588",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 17885.63,
+      "measurement": 29.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD PLATFORM",
+    "totalPackages": 125,
+    "totalGrossWeight": 31888.17,
+    "totalMeasurement": 56.25
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "10 RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6780",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "10 RUE DE LA PAIX, 75001 PARIS, FRANCE",
+      "telephone": "+33 1 2345 6789",
+      "fax": "+33 1 2345 6780",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.FR"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 2708x2793x2738, VALUE: USD981,407"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2708",
+    "width": "2793",
+    "height": "2738",
+    "overWidth": "353",
+    "overHeight": "148"
+  }
+}

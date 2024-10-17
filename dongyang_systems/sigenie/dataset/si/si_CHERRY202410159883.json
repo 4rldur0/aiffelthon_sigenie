@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410159883",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG, GERMANY",
+    "portOfLoading": "HAMBURG, GERMANY",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BAUMGARTEN TEXTILES GMBH",
+      "address": "123 MAIN STREET, BERLIN, GERMANY, 10117",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 30 1234 5678",
+      "email": "INFO@BAUMGARTENTEXTILES.DE"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "456 LOGISTICS AVENUE, FRANKFURT, GERMANY, 60313",
+      "country": "GERMANY",
+      "email": "KLAUS.MEIER@DHL.COM",
+      "telephone": "+49 69 9876 5432",
+      "fax": "+49 69 9876 5433"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "456 LOGISTICS AVENUE, FRANKFURT, GERMANY, 60313",
+      "country": "GERMANY",
+      "email": "PETER.SCHULZ@DHL.COM",
+      "telephone": "+49 69 9876 5432",
+      "fax": "+49 69 9876 5433"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "610910",
+  "commodityDescription": "T-SHIRTS, SINGLETS AND TANK TOPS",
+  "containers": [
+    {
+      "containerNumber": "CONT9313062",
+      "sealNumber": "SEAL597849",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 6107.66,
+      "measurement": 37.6
+    },
+    {
+      "containerNumber": "CONT3892043",
+      "sealNumber": "SEAL767672",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 12309.52,
+      "measurement": 22.86
+    },
+    {
+      "containerNumber": "CONT1524000",
+      "sealNumber": "SEAL993829",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 7359.88,
+      "measurement": 34.15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 145,
+    "totalGrossWeight": 25777.06,
+    "totalMeasurement": 94.61
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "456 LOGISTICS AVENUE, FRANKFURT, GERMANY, 60313",
+      "telephone": "+49 69 9876 5432",
+      "fax": "+49 69 9876 5433",
+      "email": "PETER.SCHULZ@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "456 LOGISTICS AVENUE, FRANKFURT, GERMANY, 60313",
+      "telephone": "+49 69 9876 5432",
+      "fax": "+49 69 9876 5433",
+      "email": "PETER.SCHULZ@DHL.COM"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "ON DECK TOP STOWAGE"
+  }
+}

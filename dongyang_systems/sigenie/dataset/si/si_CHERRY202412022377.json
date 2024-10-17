@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202412022377",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TECH LTD.",
+      "address": "1234 TECH STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679",
+      "email": "SHIPPING@SUNRISETECH.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL12345678901234",
+      "president": "JOHN SMITH",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALS HIPPING.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "456 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 9876 5432",
+      "fax": "+31 10 9876 5433",
+      "email": "NOTIFICATIONS@GLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854230",
+  "commodityDescription": "ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDING AND REPRODUCING APPARATUS AND EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT9022407",
+      "sealNumber": "SEAL216735",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 11150.61,
+      "measurement": 21.21
+    },
+    {
+      "containerNumber": "CONT3102870",
+      "sealNumber": "SEAL708993",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 15177.64,
+      "measurement": 39.0
+    },
+    {
+      "containerNumber": "CONT4215176",
+      "sealNumber": "SEAL200635",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 17078.31,
+      "measurement": 28.89
+    },
+    {
+      "containerNumber": "CONT1037782",
+      "sealNumber": "SEAL300797",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 12834.64,
+      "measurement": 31.15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD PLATFORM",
+    "totalPackages": 187,
+    "totalGrossWeight": 56241.2,
+    "totalMeasurement": 120.25
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALS HIPPING.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@GLOBALS HIPPING.COM"
+    },
+    "onboardDate": "2024-12-17 15:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 7008x2198x2398, VALUE: USD237,953, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "7008",
+    "width": "2198",
+    "height": "2398",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

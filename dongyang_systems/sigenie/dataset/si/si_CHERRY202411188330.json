@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202411188330",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "2345 HUANGPU ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "telephone": "+86 574 8686 5555",
+      "fax": "+86 574 8686 5556",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "SCHULZENDAMM 12, 20146 HAMBURG, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. HANS MEIER",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 4445",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "notifyParty": {
+      "name": "GERMAN LOGISTICS GMBH",
+      "address": "SPERMANNSSTRASSE 5, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 2222 3333",
+      "fax": "+49 40 2222 3334",
+      "email": "INFO@GERMANLOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT8620402",
+      "sealNumber": "SEAL784216",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 5948.05,
+      "measurement": 23.8
+    },
+    {
+      "containerNumber": "CONT7856585",
+      "sealNumber": "SEAL492210",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 16586.08,
+      "measurement": 31.3
+    },
+    {
+      "containerNumber": "CONT7795686",
+      "sealNumber": "SEAL667022",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 14641.8,
+      "measurement": 30.25
+    },
+    {
+      "containerNumber": "CONT7696066",
+      "sealNumber": "SEAL301820",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 16488.09,
+      "measurement": 33.82
+    },
+    {
+      "containerNumber": "CONT5406278",
+      "sealNumber": "SEAL951822",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 6713.29,
+      "measurement": 39.89
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD GENERAL",
+    "totalPackages": 258,
+    "totalGrossWeight": 60377.31,
+    "totalMeasurement": 159.06
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS GMBH",
+      "address": "SCHULZENDAMM 12, 20146 HAMBURG, GERMANY",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 4445",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "2345 HUANGPU ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "telephone": "+86 574 8686 5555",
+      "fax": "+86 574 8686 5556",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "onboardDate": "2024-12-03 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

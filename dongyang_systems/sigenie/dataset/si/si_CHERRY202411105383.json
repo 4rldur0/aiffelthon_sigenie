@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411105383",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUIT FRESH IMPORT EXPORT INC",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@FRUITFRESH.COM.CN"
+    },
+    "consignee": {
+      "name": "ZENITH GLOBAL TRADING CO LTD",
+      "address": "123 MAIN STREET, HAMBURG, 20457, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@ZENITHGLOBAL.DE",
+      "telephone": "+49 40 1234 5678"
+    },
+    "notifyParty": {
+      "name": "ZENITH GLOBAL TRADING CO LTD",
+      "address": "123 MAIN STREET, HAMBURG, 20457, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@ZENITHGLOBAL.DE",
+      "telephone": "+49 40 1234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "080550",
+  "commodityDescription": "FRESH ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT8999132",
+      "sealNumber": "SEAL356066",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 9020.4,
+      "measurement": 34.3
+    },
+    {
+      "containerNumber": "CONT8884945",
+      "sealNumber": "SEAL788820",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 7888.5,
+      "measurement": 28.02
+    },
+    {
+      "containerNumber": "CONT4009230",
+      "sealNumber": "SEAL533955",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 17143.31,
+      "measurement": 22.47
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD REEFER",
+    "totalPackages": 172,
+    "totalGrossWeight": 34052.21,
+    "totalMeasurement": 84.79
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "ZENITH GLOBAL TRADING CO LTD",
+      "address": "123 MAIN STREET, HAMBURG, 20457, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "ORDERS@ZENITHGLOBAL.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH GLOBAL TRADING CO LTD",
+      "address": "123 MAIN STREET, HAMBURG, 20457, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "ORDERS@ZENITHGLOBAL.DE"
+    },
+    "onboardDate": "2024-11-17 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -1\u00b0C, VALUE: USD598,258"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3064445",
+    "temperature": "-1\u00b0C",
+    "minTemperature": "-3\u00b0C",
+    "maxTemperature": "1\u00b0C",
+    "ventilation": "44%",
+    "humidity": "91%"
+  }
+}

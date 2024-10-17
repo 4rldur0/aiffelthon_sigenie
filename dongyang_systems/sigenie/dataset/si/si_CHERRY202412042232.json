@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202412042232",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, GDANSK, POLAND",
+      "taxId": "PL1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+48 58 777 8888",
+      "fax": "+48 58 777 8887",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 777 8888",
+      "fax": "+48 58 777 8887",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER, OUT OF GAUGE",
+  "containers": [
+    {
+      "containerNumber": "CONT9446408",
+      "sealNumber": "SEAL702709",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 13838.11,
+      "measurement": 20.72
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD OPEN TOP",
+    "totalPackages": 39,
+    "totalGrossWeight": 13838.11,
+    "totalMeasurement": 20.72
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202412042232"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 777 8888",
+      "fax": "+48 58 777 8887",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 777 8888",
+      "fax": "+48 58 777 8887",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 11682x2998x2272, VALUE: USD706,147, MAINTAIN HUMIDITY"
+  },
+  "outOfGaugeDimensions": {
+    "length": "11682",
+    "width": "2998",
+    "height": "2272",
+    "overWidth": "558",
+    "overHeight": "0"
+  }
+}

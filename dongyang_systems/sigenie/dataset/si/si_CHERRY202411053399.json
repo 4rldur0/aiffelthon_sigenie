@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411053399",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC PRECISION ENGINEERING GMBH",
+      "address": "MUNICHER STRASSE 12, 80805 MUNICH, GERMANY",
+      "lei": "529900D357F3F8F6E2G7",
+      "telephone": "+49 89 12345678",
+      "fax": "+49 89 12345679",
+      "email": "INFO@ABCPRECISION.DE"
+    },
+    "consignee": {
+      "name": "CHINA PRECISION INDUSTRIES LTD.",
+      "address": "1234 LONGDONG AVENUE, BEILUN DISTRICT, NINGBO 315000, CHINA",
+      "usci": "91321200765109788X",
+      "president": "LI WEI",
+      "telephone": "+86 574 86123456",
+      "fax": "+86 574 86123457",
+      "email": "WEI.LI@CHINAPRECISION.CN"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "1234 LONDON ROAD, LONDON, UK EC1A 1AA",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+44 20 71234567",
+      "fax": "+44 20 71234568",
+      "email": "INFO@GLOBALLOGISTICS.CO.UK"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES, NUMERICALLY CONTROLLED",
+  "containers": [
+    {
+      "containerNumber": "CONT8466031",
+      "sealNumber": "SEAL897538",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 5717.74,
+      "measurement": 38.45
+    },
+    {
+      "containerNumber": "CONT3439988",
+      "sealNumber": "SEAL680657",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 14603.47,
+      "measurement": 35.02
+    },
+    {
+      "containerNumber": "CONT2278826",
+      "sealNumber": "SEAL160851",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 12390.74,
+      "measurement": 25.45
+    },
+    {
+      "containerNumber": "CONT6375733",
+      "sealNumber": "SEAL467173",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 6940.92,
+      "measurement": 27.59
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE REEFER",
+    "totalPackages": 207,
+    "totalGrossWeight": 39652.87,
+    "totalMeasurement": 126.51
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-12 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -15\u00b0C, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5461558",
+    "temperature": "-15\u00b0C",
+    "minTemperature": "-17\u00b0C",
+    "maxTemperature": "-13\u00b0C",
+    "ventilation": "2%",
+    "humidity": "64%"
+  }
+}

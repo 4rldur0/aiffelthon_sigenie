@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202411281551",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "onBehalfOf": "",
+      "address": "1234 GLOBAL TRADE RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LI.WEN@BETATRADING.CN"
+    },
+    "consignee": {
+      "name": "GAMMA IMPORT EXPORT BV",
+      "address": "DE KOPLAAN 50, 3021 AJ ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GAMMAIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL LOGISTICS LTD.",
+      "address": "1234 LOGISTICS AVE, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CARS",
+  "containers": [
+    {
+      "containerNumber": "CONT1888913",
+      "sealNumber": "SEAL981189",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 18364.84,
+      "measurement": 34.89
+    },
+    {
+      "containerNumber": "CONT2215965",
+      "sealNumber": "SEAL440755",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 5274.48,
+      "measurement": 26.68
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 51,
+    "totalGrossWeight": 23639.32,
+    "totalMeasurement": 61.57
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA INTERNATIONAL TRADING CO. LTD.",
+      "address": "1234 GLOBAL TRADE RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LI.WEN@BETATRADING.CN"
+    },
+    "onboardDate": "2024-12-11 16:00",
+    "additionalRemarks": "FRAGILE"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "bookingReference": "CHERRY202410148128",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO.",
+      "address": "1234 MAIN STREET, NINGBO, CHINA, 315000",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "SALES@ASIAPACIFICMFG.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "15 RUE DE LA PAIX, PARIS, FRANCE, 75000",
+      "usci": "91321200765109788X",
+      "president": "JEAN DUPONT",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@GLOBALFORWARDINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "15 RUE DE LA PAIX, PARIS, FRANCE, 75000",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "OPERATIONS@GLOBALFORWARDINGSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICAL",
+  "containers": [
+    {
+      "containerNumber": "CONT8837886",
+      "sealNumber": "SEAL257895",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 16872.26,
+      "measurement": 36.06
+    },
+    {
+      "containerNumber": "CONT7558484",
+      "sealNumber": "SEAL868403",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 16692.68,
+      "measurement": 26.51
+    },
+    {
+      "containerNumber": "CONT2338911",
+      "sealNumber": "SEAL331360",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 18470.7,
+      "measurement": 38.2
+    },
+    {
+      "containerNumber": "CONT5897442",
+      "sealNumber": "SEAL877687",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 6676.6,
+      "measurement": 24.3
+    },
+    {
+      "containerNumber": "CONT5117836",
+      "sealNumber": "SEAL161604",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 15458.32,
+      "measurement": 28.24
+    },
+    {
+      "containerNumber": "CONT8451993",
+      "sealNumber": "SEAL783175",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 12667.89,
+      "measurement": 38.24
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD TANK",
+    "totalPackages": 305,
+    "totalGrossWeight": 86838.45,
+    "totalMeasurement": 191.55
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3265, ON DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9877249",
+    "unClass": "1",
+    "unCode": "3265,",
+    "hsCode": "5167.93.47",
+    "flashPoint": "90\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

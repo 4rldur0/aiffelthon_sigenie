@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410317943",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "NO. 123 HUANZHONG ROAD, NINGBO FREE TRADE ZONE, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SALES@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "SEAFOOD DISTRIBUTORS SDN. BHD.",
+      "address": "NO. 456 JALAN PERDANA, PORT KLANG FREE ZONE, 42000 PORT KLANG, SELANGOR, MALAYSIA",
+      "country": "MALAYSIA",
+      "telephone": "+60 3 3166 7777",
+      "fax": "+60 3 3166 7778",
+      "email": "INFO@SEAFOODDISTRIBUTORS.MY",
+      "personincharge": "LIM AH KEE"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS SDN. BHD.",
+      "address": "NO. 789 JALAN MERDEKA, PORT KLANG FREE ZONE, 42000 PORT KLANG, SELANGOR, MALAYSIA",
+      "country": "MALAYSIA",
+      "telephone": "+60 3 3177 8888",
+      "fax": "+60 3 3177 8889",
+      "email": "OPERATIONS@WORLDWIDELOGISTICS.MY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030211",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT7158547",
+      "sealNumber": "SEAL643094",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 7609.8,
+      "measurement": 28.48
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE REEFER",
+    "totalPackages": 59,
+    "totalGrossWeight": 7609.8,
+    "totalMeasurement": 28.48
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "ORIGIN CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, LONDON, ENGLAND, W1A 1AA",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "INFO@WORLDWIDEFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, LONDON, ENGLAND, W1A 1AA",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "INFO@WORLDWIDEFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 0\u00b0C, VALUE: USD959,884"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3289690",
+    "temperature": "0\u00b0C",
+    "minTemperature": "-2\u00b0C",
+    "maxTemperature": "2\u00b0C",
+    "ventilation": "34%",
+    "humidity": "92%"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410164835",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES CO.",
+      "address": "NO. 123 CHANGHENG ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SALES@ASIAINDUSTRY.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 ST. JAMES STREET, LONDON SW1A 1EH, UNITED KINGDOM",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "INFO@GLOBALFREIGHT.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST GLOBAL LOGISTICS LTD.",
+      "address": "100 CANARY WHARF, LONDON E14 5HQ, UNITED KINGDOM",
+      "taxId": "GB987654321",
+      "president": "MS. ANNA JONES",
+      "telephone": "+44 20 7987 6543",
+      "fax": "+44 20 7987 6544"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "GENERAL CARGO - TOYS & GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT6451332",
+      "sealNumber": "SEAL323293",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 11696.29,
+      "measurement": 36.43
+    },
+    {
+      "containerNumber": "CONT3641320",
+      "sealNumber": "SEAL587002",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 17612.19,
+      "measurement": 22.92
+    },
+    {
+      "containerNumber": "CONT6884950",
+      "sealNumber": "SEAL761653",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 11325.22,
+      "measurement": 26.43
+    },
+    {
+      "containerNumber": "CONT3122854",
+      "sealNumber": "SEAL943178",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 17538.37,
+      "measurement": 36.97
+    },
+    {
+      "containerNumber": "CONT5060971",
+      "sealNumber": "SEAL927001",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 8007.87,
+      "measurement": 33.53
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 288,
+    "totalGrossWeight": 66179.94,
+    "totalMeasurement": 156.28
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST GLOBAL LOGISTICS LTD.",
+      "address": "100 CANARY WHARF, LONDON E14 5HQ, UNITED KINGDOM",
+      "telephone": "+44 20 7987 6543",
+      "fax": "+44 20 7987 6544",
+      "email": "INFO@FIRSTGLOBAL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 ST. JAMES STREET, LONDON SW1A 1EH, UNITED KINGDOM",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "INFO@GLOBALFREIGHT.COM"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202412111481",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS",
+      "address": "123 OCEAN STREET, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9000",
+      "fax": "+86 574 8888 9001",
+      "email": "INFO@ASIAPACIFICFOODS.CN"
+    },
+    "consignee": {
+      "name": "EUROASIA LOGISTICS SOLUTIONS",
+      "address": "UL. WOLI 12, 80-229 GDANSK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4445",
+      "email": "ORDERS@EUROASIALOGISTICS.PL",
+      "personincharge": "ANNA NOWAK"
+    },
+    "notifyParty": {
+      "name": "EUROASIA LOGISTICS SOLUTIONS",
+      "address": "UL. WOLI 12, 80-229 GDANSK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4445",
+      "email": "ORDERS@EUROASIALOGISTICS.PL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT1165862",
+      "sealNumber": "SEAL287200",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 5138.09,
+      "measurement": 22.25
+    },
+    {
+      "containerNumber": "CONT1119612",
+      "sealNumber": "SEAL174635",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 11586.28,
+      "measurement": 24.45
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE REEFER",
+    "totalPackages": 117,
+    "totalGrossWeight": 16724.37,
+    "totalMeasurement": 46.7
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "ORIGIN CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROASIA LOGISTICS SOLUTIONS",
+      "address": "UL. WOLI 12, 80-229 GDANSK, POLAND",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4445",
+      "email": "ORDERS@EUROASIALOGISTICS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA LOGISTICS SOLUTIONS",
+      "address": "UL. WOLI 12, 80-229 GDANSK, POLAND",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4445",
+      "email": "ORDERS@EUROASIALOGISTICS.PL"
+    },
+    "onboardDate": "2024-12-16 22:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -18\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2855686",
+    "temperature": "-18\u00b0C",
+    "minTemperature": "-20\u00b0C",
+    "maxTemperature": "-16\u00b0C",
+    "ventilation": "99%",
+    "humidity": "77%"
+  }
+}

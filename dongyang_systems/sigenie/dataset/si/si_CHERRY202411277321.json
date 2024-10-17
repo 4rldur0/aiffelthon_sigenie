@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411277321",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE SOLUTIONS PTE LTD",
+      "address": "123 Anson ROAD, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999",
+      "email": "SALES@SINGAPORESOLUTIONS.COM.SG"
+    },
+    "consignee": {
+      "name": "KUEHNE + NAGEL NETHERLANDS BV",
+      "address": "ROTTERDAMSEWEG 123, 3015 GG ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679",
+      "email": "INFO@KN-NL.COM",
+      "personincharge": "PIETER VAN DER MARK"
+    },
+    "notifyParty": {
+      "name": "KUEHNE + NAGEL SINGAPORE PTE LTD",
+      "address": "2 Anson ROAD, #11-01, SINGAPORE 079908",
+      "country": "SINGAPORE",
+      "telephone": "+65 6221 1111",
+      "fax": "+65 6221 2222",
+      "email": "OPERATIONS@KN-SG.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "300490",
+  "commodityDescription": "PHARMACEUTICAL PRODUCTS",
+  "containers": [
+    {
+      "containerNumber": "CONT1924341",
+      "sealNumber": "SEAL797659",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 16136.99,
+      "measurement": 25.73
+    },
+    {
+      "containerNumber": "CONT1431961",
+      "sealNumber": "SEAL114163",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 14895.89,
+      "measurement": 37.53
+    },
+    {
+      "containerNumber": "CONT2269117",
+      "sealNumber": "SEAL870747",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 18913.28,
+      "measurement": 22.34
+    },
+    {
+      "containerNumber": "CONT7380281",
+      "sealNumber": "SEAL995955",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 18010.9,
+      "measurement": 30.46
+    },
+    {
+      "containerNumber": "CONT5771767",
+      "sealNumber": "SEAL820175",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 13603.65,
+      "measurement": 20.39
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD TANK",
+    "totalPackages": 292,
+    "totalGrossWeight": 81560.71,
+    "totalMeasurement": 136.45
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "KUEHNE + NAGEL SINGAPORE PTE LTD",
+      "address": "2 Anson ROAD, #11-01, SINGAPORE 079908",
+      "telephone": "+65 6221 1111",
+      "fax": "+65 6221 2222",
+      "email": "OPERATIONS@KN-SG.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KUEHNE + NAGEL SINGAPORE PTE LTD",
+      "address": "2 Anson ROAD, #11-01, SINGAPORE 079908",
+      "telephone": "+65 6221 1111",
+      "fax": "+65 6221 2222",
+      "email": "OPERATIONS@KN-SG.COM"
+    },
+    "onboardDate": "2024-12-06 17:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1056"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3868468",
+    "unClass": "2",
+    "unCode": "1056",
+    "hsCode": "9397.19.14",
+    "flashPoint": "80\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

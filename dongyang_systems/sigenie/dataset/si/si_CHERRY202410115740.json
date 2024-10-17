@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410115740",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION MANUFACTURING CO. LTD",
+      "onBehalfOf": "",
+      "address": "12345 Marina Boulevard, Marina Bay Financial Centre, Singapore",
+      "telephone": "+65 6888 6666",
+      "fax": "+65 6888 6667",
+      "email": "SALES@DELTALOGISTICS.COM.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING BV",
+      "address": "K.P. VAN DER MANDELLAAN 20, 3072 AP ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@GLOBALTRADINGBV.NL"
+    },
+    "notifyParty": {
+      "name": "DELTA LOGISTICS PTE LTD",
+      "address": "12345 Marina Boulevard, Marina Bay Financial Centre, Singapore"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "870899",
+  "commodityDescription": "MOTOR VEHICLE PARTS & ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "CONT2112344",
+      "sealNumber": "SEAL175172",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 16055.06,
+      "measurement": 24.14
+    },
+    {
+      "containerNumber": "CONT9945711",
+      "sealNumber": "SEAL812163",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 19258.3,
+      "measurement": 23.33
+    },
+    {
+      "containerNumber": "CONT6265153",
+      "sealNumber": "SEAL536048",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 8536.98,
+      "measurement": 31.95
+    },
+    {
+      "containerNumber": "CONT2969101",
+      "sealNumber": "SEAL886181",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 18709.23,
+      "measurement": 30.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 45 HIGH CUBE TANK",
+    "totalPackages": 252,
+    "totalGrossWeight": 62559.57,
+    "totalMeasurement": 110.23
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA LOGISTICS PTE LTD",
+      "address": "12345 Marina Boulevard, Marina Bay Financial Centre, Singapore",
+      "telephone": "+65 6888 6666",
+      "fax": "+65 6888 6667",
+      "email": "SALES@DELTALOGISTICS.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING BV",
+      "address": "K.P. VAN DER MANDELLAAN 20, 3072 AP ROTTERDAM, THE NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@GLOBALTRADINGBV.NL"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "DO NOT STACK"
+  }
+}

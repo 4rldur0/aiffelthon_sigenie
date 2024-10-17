@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410313412",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC PRECISION ENGINEERING LTD.",
+      "address": "SCHUMANNSTRASSE 23, 20097 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "(FACTORY BUILDING)",
+      "telephone": "+49 40 3789 5432",
+      "email": "INFO@ABCENGINEERING.DE"
+    },
+    "consignee": {
+      "name": "SCHULZ GMBH & CO. KG",
+      "address": "BAUMWALLSTRASSE 15, 20359 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@SCHULZ GMBH.DE",
+      "telephone": "+49 40 2345 6789"
+    },
+    "notifyParty": {
+      "name": "SCHULZ GMBH & CO. KG",
+      "address": "BAUMWALLSTRASSE 15, 20359 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@SCHULZ GMBH.DE",
+      "telephone": "+49 40 2345 6789"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "846630",
+  "commodityDescription": "MACHINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT5256367",
+      "sealNumber": "SEAL906887",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 16794.03,
+      "measurement": 38.02
+    },
+    {
+      "containerNumber": "CONT7626722",
+      "sealNumber": "SEAL208258",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 19710.7,
+      "measurement": 25.99
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 126,
+    "totalGrossWeight": 36504.73,
+    "totalMeasurement": 64.01
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SCHULZ GMBH & CO. KG",
+      "address": "BAUMWALLSTRASSE 15, 20359 HAMBURG, GERMANY",
+      "telephone": "+49 40 2345 6789",
+      "fax": "+49 40 2345 6790",
+      "email": "ORDERS@SCHULZ GMBH.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SCHULZ GMBH & CO. KG",
+      "address": "BAUMWALLSTRASSE 15, 20359 HAMBURG, GERMANY",
+      "telephone": "+49 40 2345 6789",
+      "fax": "+49 40 2345 6790",
+      "email": "ORDERS@SCHULZ GMBH.DE"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

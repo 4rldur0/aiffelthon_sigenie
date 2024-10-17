@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202410234865",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS CO.",
+      "address": "1234 MAIN STREET, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 123 4567",
+      "fax": "+86 574 123 4568",
+      "email": "INFO@ASIAIMPORTS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "5678 BROADWAY STREET, MADRID, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.ES"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "5678 BROADWAY STREET, MADRID, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.ES"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "070110",
+  "commodityDescription": "FRESH VEGETABLES",
+  "containers": [
+    {
+      "containerNumber": "CONT9768231",
+      "sealNumber": "SEAL328656",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 18400.95,
+      "measurement": 21.29
+    },
+    {
+      "containerNumber": "CONT1720602",
+      "sealNumber": "SEAL494769",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 19570.29,
+      "measurement": 25.2
+    },
+    {
+      "containerNumber": "CONT9462058",
+      "sealNumber": "SEAL721659",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 9241.1,
+      "measurement": 26.08
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 153,
+    "totalGrossWeight": 47212.34,
+    "totalMeasurement": 72.57
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "5678 BROADWAY STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "5678 BROADWAY STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.ES"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 19\u00b0C, VALUE: USD509,245"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6199129",
+    "temperature": "19\u00b0C",
+    "minTemperature": "17\u00b0C",
+    "maxTemperature": "21\u00b0C",
+    "ventilation": "0%",
+    "humidity": "81%"
+  }
+}

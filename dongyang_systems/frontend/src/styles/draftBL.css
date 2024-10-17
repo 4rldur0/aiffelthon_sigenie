@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Freesentation";
+  src: url("../fonts/Freesentation.ttf") format("truetype");
+}
+
+.draftbl * {
+  font-family: "Freesentation", sans-serif !important;
+  border-color: #808080 !important; /* 모든 선(border)에 대한 스타일 - 중간 회색 */
+}
+
+.draftbl.bl-form {
+  border: 2px solid black;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  position: relative;
+}
+.draftbl.bl-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.draftbl.bl-title {
+  margin-right: 15px;
+}
+.draftbl.bl-section {
+  margin-bottom: 5px;
+  border: 1px solid black;
+  padding: 2px;
+}
+.draftbl.bl-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+.draftbl.bl-footer {
+  border-top: 1px solid black;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+.draftbl.bl-logo {
+  text-align: right;
+  margin-left: auto;
+}
+.draftbl.bl-logo img {
+  max-width: 150px;
+  height: auto;
+}
+.draftbl.bl-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.draftbl.bl-table th,
+.draftbl.bl-table td {
+  border: 1px solid black;
+  padding: 2px;
+  text-align: left;
+}
+.draftbl.small-text {
+  font-size: 10px;
+}
+.draftbl.bl-row {
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+.draftbl.watermark {
+  position: absolute;
+  transform: translate(65%, 55%) rotate(45deg);
+  font-size: 150px;
+  color: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+  z-index: 1000;
+  user-select: none;
+  white-space: nowrap; /* 텍스트가 줄바꿈되지 않도록 설정 */
+}

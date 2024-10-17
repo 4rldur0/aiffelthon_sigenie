@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202412051290",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA IMPORTS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@ALPHAIMPORTS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "123 LONDON ROAD, LONDON, EC1A 4DD, UNITED KINGDOM",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 7555 1234",
+      "fax": "+44 20 7555 1235",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "123 TOWER BRIDGE ROAD, LONDON, SE1 2UP, UNITED KINGDOM",
+      "telephone": "+44 20 7555 5678",
+      "fax": "+44 20 7555 5679",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN MACKEREL",
+  "containers": [
+    {
+      "containerNumber": "CONT9762924",
+      "sealNumber": "SEAL136446",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 13787.31,
+      "measurement": 32.65
+    },
+    {
+      "containerNumber": "CONT4190895",
+      "sealNumber": "SEAL198256",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 18768.19,
+      "measurement": 38.78
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE REEFER",
+    "totalPackages": 126,
+    "totalGrossWeight": 32555.5,
+    "totalMeasurement": 71.43
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "123 LONDON ROAD, LONDON, EC1A 4DD, UNITED KINGDOM",
+      "telephone": "+44 20 7555 1234",
+      "fax": "+44 20 7555 1235",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "123 LONDON ROAD, LONDON, EC1A 4DD, UNITED KINGDOM",
+      "telephone": "+44 20 7555 1234",
+      "fax": "+44 20 7555 1235",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-12-16 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -20\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4825939",
+    "temperature": "-20\u00b0C",
+    "minTemperature": "-22\u00b0C",
+    "maxTemperature": "-18\u00b0C",
+    "ventilation": "16%",
+    "humidity": "86%"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411263474",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC SHIPPING LTD.",
+      "onBeHalfOf": "",
+      "address": "1234 SHIPPER ROAD, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SHIPPING@ASIA\u592a\u5e73\u6d0bSHIPPING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "4567 CONSIGNEE STREET, ALGECIRAS, SPAIN 11111",
+      "companyNumber": "123456789",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 123457",
+      "email": "LOGISTICS@GLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "4567 CONSIGNEE STREET, ALGECIRAS, SPAIN 11111"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "990210",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT4485290",
+      "sealNumber": "SEAL793541",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 19155.77,
+      "measurement": 33.26
+    },
+    {
+      "containerNumber": "CONT1004165",
+      "sealNumber": "SEAL406508",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 16309.31,
+      "measurement": 31.39
+    },
+    {
+      "containerNumber": "CONT1625952",
+      "sealNumber": "SEAL923273",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 17856.86,
+      "measurement": 25.4
+    },
+    {
+      "containerNumber": "CONT4177638",
+      "sealNumber": "SEAL288962",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 6791.53,
+      "measurement": 37.78
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD TANK",
+    "totalPackages": 210,
+    "totalGrossWeight": 60113.47,
+    "totalMeasurement": 127.83
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "4567 CONSIGNEE STREET, ALGECIRAS, SPAIN 11111",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 123457",
+      "email": "LOGISTICS@GLOBALLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC SHIPPING LTD.",
+      "address": "1234 SHIPPER ROAD, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SHIPPING@ASIA\u592a\u5e73\u6d0bSHIPPING.COM"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

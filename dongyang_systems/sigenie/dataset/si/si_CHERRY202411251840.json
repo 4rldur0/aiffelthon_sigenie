@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411251840",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES INC.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "OMEGA TRANSPORT LTD.",
+      "address": "BOULEVARD MOHAMMED V, CASABLANCA, MOROCCO",
+      "telephone": "+212-522-345-6789",
+      "fax": "+212-522-345-6780",
+      "email": "INFO@OMEGATRANS.MA",
+      "contactPerson": "MOHAMED ALI"
+    },
+    "notifyParty": {
+      "name": "OMEGA TRANSPORT LTD.",
+      "address": "BOULEVARD MOHAMMED V, CASABLANCA, MOROCCO"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382490",
+  "commodityDescription": "DANGEROUS CHEMICALS, CLASS 3",
+  "containers": [
+    {
+      "containerNumber": "CONT1284482",
+      "sealNumber": "SEAL213882",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 8482.94,
+      "measurement": 33.78
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE TANK",
+    "totalPackages": 43,
+    "totalGrossWeight": 8482.94,
+    "totalMeasurement": 33.78
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241125-1001",
+    "documentNumber": "20241125-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA TRANSPORT LTD.",
+      "address": "BOULEVARD MOHAMMED V, CASABLANCA, MOROCCO",
+      "telephone": "+212-522-345-6789",
+      "fax": "+212-522-345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA TRANSPORT LTD.",
+      "address": "BOULEVARD MOHAMMED V, CASABLANCA, MOROCCO",
+      "telephone": "+212-522-345-6789",
+      "fax": "+212-522-345-6780"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1155, VALUE: USD323,112"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3954753",
+    "unClass": "1",
+    "unCode": "1155,",
+    "hsCode": "2946.16.40",
+    "flashPoint": "-5\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

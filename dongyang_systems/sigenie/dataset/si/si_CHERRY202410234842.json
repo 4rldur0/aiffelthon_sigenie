@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202410234842",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUITEX LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "email": "INFO@FRUITEXLTD.COM.SG"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "KARL-SCHRADER-STRASSE 1, 41179 MOENCHENGLADBACH, GERMANY",
+      "country": "GERMANY",
+      "email": "DHLGF@DHL.COM",
+      "telephone": "+49 2171 232323",
+      "fax": "+49 2171 232324"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "KARL-SCHRADER-STRASSE 1, 41179 MOENCHENGLADBACH, GERMANY",
+      "country": "GERMANY",
+      "email": "DHLGF@DHL.COM",
+      "telephone": "+49 2171 232323",
+      "fax": "+49 2171 232324"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080590",
+  "commodityDescription": "CITRUS FRUIT, FRESH OR DRIED",
+  "containers": [
+    {
+      "containerNumber": "CONT1722293",
+      "sealNumber": "SEAL137182",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 11671.16,
+      "measurement": 26.96
+    },
+    {
+      "containerNumber": "CONT4756622",
+      "sealNumber": "SEAL394182",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 19510.45,
+      "measurement": 26.78
+    },
+    {
+      "containerNumber": "CONT6876473",
+      "sealNumber": "SEAL571418",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 12662.23,
+      "measurement": 23.61
+    },
+    {
+      "containerNumber": "CONT1120247",
+      "sealNumber": "SEAL658394",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 5358.95,
+      "measurement": 29.58
+    },
+    {
+      "containerNumber": "CONT3658496",
+      "sealNumber": "SEAL934931",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 17209.21,
+      "measurement": 37.12
+    },
+    {
+      "containerNumber": "CONT8697309",
+      "sealNumber": "SEAL959473",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 17856.09,
+      "measurement": 21.73
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD REEFER",
+    "totalPackages": 358,
+    "totalGrossWeight": 84268.09,
+    "totalMeasurement": 165.78
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "KARL-SCHRADER-STRASSE 1, 41179 MOENCHENGLADBACH, GERMANY",
+      "telephone": "+49 2171 232323",
+      "fax": "+49 2171 232324",
+      "email": "DHLGF@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "KARL-SCHRADER-STRASSE 1, 41179 MOENCHENGLADBACH, GERMANY",
+      "telephone": "+49 2171 232323",
+      "fax": "+49 2171 232324",
+      "email": "DHLGF@DHL.COM"
+    },
+    "onboardDate": "2024-10-27 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -13\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8084379",
+    "temperature": "-13\u00b0C",
+    "minTemperature": "-15\u00b0C",
+    "maxTemperature": "-11\u00b0C",
+    "ventilation": "69%",
+    "humidity": "76%"
+  }
+}

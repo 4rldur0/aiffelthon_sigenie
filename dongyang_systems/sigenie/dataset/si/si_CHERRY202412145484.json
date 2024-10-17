@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202412145484",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES INC",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679",
+      "email": "INFO@ASIA pacificindustries.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "1234 HAMBURG STREET, HAMBURG, GERMANY 20000",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE",
+      "personincharge": "PETER SCHMIDT"
+    },
+    "notifyParty": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 SHANGHAI PORT ROAD, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "telephone": "+86 21 1234 5670",
+      "fax": "+86 21 1234 5671",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940360",
+  "commodityDescription": "FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT4191613",
+      "sealNumber": "SEAL779650",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 8257.49,
+      "measurement": 39.73
+    },
+    {
+      "containerNumber": "CONT2840933",
+      "sealNumber": "SEAL435398",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 14353.22,
+      "measurement": 31.9
+    },
+    {
+      "containerNumber": "CONT7267938",
+      "sealNumber": "SEAL305226",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 14334.52,
+      "measurement": 37.38
+    },
+    {
+      "containerNumber": "CONT8800698",
+      "sealNumber": "SEAL635481",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 10136.16,
+      "measurement": 30.04
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE TANK",
+    "totalPackages": 206,
+    "totalGrossWeight": 47081.39,
+    "totalMeasurement": 139.05
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202412151234"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 SHANGHAI PORT ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 1234 5670",
+      "fax": "+86 21 1234 5671",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "1234 HAMBURG STREET, HAMBURG, GERMANY 20000",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.DE"
+    },
+    "onboardDate": "2025-01-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

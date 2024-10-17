@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202412069655",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORT EXPORT LTD.",
+      "address": "UNIT 502, 5TH FLOOR, SHANGHAI TOWER, 50 HUANGPU ROAD, SHANGHAI, 200002, CHINA",
+      "telephone": "+86 21 6327 9856",
+      "fax": "+86 21 6327 9878",
+      "email": "INFO@ASIAIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, SUITE 400, AMSTERDAM, NETHERLANDS, 1012 DP",
+      "taxId": "NL850712345B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 20 777 8888",
+      "fax": "+31 20 777 9999",
+      "email": "INFO@GLOBALTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "NORTH SEA LOGISTICS BV",
+      "address": "125 DOCK STREET, ROTTERDAM, NETHERLANDS, 3011 AB",
+      "taxId": "NL850723456B01",
+      "president": "MS. ANNA VAN DER LINDEN",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 6666"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT1063934",
+      "sealNumber": "SEAL408819",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 17424.65,
+      "measurement": 27.26
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 88,
+    "totalGrossWeight": 17424.65,
+    "totalMeasurement": 27.26
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00012345"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-19 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -20\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3113221",
+    "temperature": "-20\u00b0C",
+    "minTemperature": "-22\u00b0C",
+    "maxTemperature": "-18\u00b0C",
+    "ventilation": "97%",
+    "humidity": "95%"
+  }
+}

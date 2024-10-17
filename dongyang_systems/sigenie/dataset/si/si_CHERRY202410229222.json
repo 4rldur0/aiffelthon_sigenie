@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410229222",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TRADING CORPORATION",
+      "onBehalfOf": "",
+      "address": "1234 TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@SHANGHAITRADING.CN"
+    },
+    "consignee": {
+      "name": "GREEN VALLEY IMPORTS INC.",
+      "address": "5555 GREEN VALLEY ROAD, HAMBURG, GERMANY",
+      "companyNumber": "1234567890",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GREENVALLEYIMPORTS.DE"
+    },
+    "notifyParty": {
+      "name": "GREEN VALLEY LOGISTICS GMBH",
+      "address": "4444 LOGISTICS STREET, HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950691",
+  "commodityDescription": "GYM EQUIPMENT - DUMBBELLS, BARBELLS, WEIGHT PLATES",
+  "containers": [
+    {
+      "containerNumber": "CONT8428148",
+      "sealNumber": "SEAL253242",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 15945.17,
+      "measurement": 20.79
+    },
+    {
+      "containerNumber": "CONT4258582",
+      "sealNumber": "SEAL534536",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 7950.67,
+      "measurement": 35.56
+    },
+    {
+      "containerNumber": "CONT5496243",
+      "sealNumber": "SEAL390760",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 6002.87,
+      "measurement": 31.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 110,
+    "totalGrossWeight": 29898.71,
+    "totalMeasurement": 87.51
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GREEN VALLEY IMPORTS INC.",
+      "address": "5555 GREEN VALLEY ROAD, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GREENVALLEYIMPORTS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN VALLEY IMPORTS INC.",
+      "address": "5555 GREEN VALLEY ROAD, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "onboardDate": "2024-11-07 21:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

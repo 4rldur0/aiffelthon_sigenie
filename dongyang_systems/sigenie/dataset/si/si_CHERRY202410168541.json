@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410168541",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "1234 MAIN STREET, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "1688 CENTURY AVENUE, PUDONG NEW AREA, SHANGHAI 200122, CHINA",
+      "country": "SPAIN",
+      "telephone": "+34 956 812 73 25",
+      "fax": "+34 956 812 73 90",
+      "email": "MAREK.KOWALSKI@POLSKAELEKTRO.PL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "1688 CENTURY AVENUE, PUDONG NEW AREA, SHANGHAI 200122, CHINA",
+      "country": "SPAIN",
+      "telephone": "+34 956 812 73 25",
+      "fax": "+34 956 812 73 90",
+      "email": "MAREK.KOWALSKI@POLSKAELEKTRO.PL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030819",
+  "commodityDescription": "FROZEN TUNA",
+  "containers": [
+    {
+      "containerNumber": "CONT4450359",
+      "sealNumber": "SEAL827079",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 19818.89,
+      "measurement": 23.79
+    },
+    {
+      "containerNumber": "CONT7831264",
+      "sealNumber": "SEAL950290",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 7600.42,
+      "measurement": 24.15
+    },
+    {
+      "containerNumber": "CONT1107394",
+      "sealNumber": "SEAL812688",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 7868.71,
+      "measurement": 38.79
+    },
+    {
+      "containerNumber": "CONT2072080",
+      "sealNumber": "SEAL631890",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 7885.63,
+      "measurement": 36.61
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD REEFER",
+    "totalPackages": 191,
+    "totalGrossWeight": 43173.65,
+    "totalMeasurement": 123.34
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "1688 CENTURY AVENUE, PUDONG NEW AREA, SHANGHAI 200122, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "1688 CENTURY AVENUE, PUDONG NEW AREA, SHANGHAI 200122, CHINA",
+      "country": "SPAIN",
+      "telephone": "+34 956 812 73 25",
+      "fax": "+34 956 812 73 90",
+      "email": "MAREK.KOWALSKI@POLSKAELEKTRO.PL"
+    },
+    "onboardDate": "2024-10-26 17:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 2\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7240561",
+    "temperature": "2\u00b0C",
+    "minTemperature": "0\u00b0C",
+    "maxTemperature": "4\u00b0C",
+    "ventilation": "85%",
+    "humidity": "69%"
+  }
+}

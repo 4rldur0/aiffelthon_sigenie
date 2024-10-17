@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202411282174",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUIT FRESH IMPORT EXPORT INC",
+      "address": "123 ORCHARD STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 6333 8888",
+      "fax": "+86 21 6333 9999",
+      "email": "INFO@FRUITFRESHIMPORT.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "10 RUE DE PARIS, 75001 PARIS, FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEAN.DUPONT@GLOBALTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "55 RUE DE LYON, 75001 PARIS, FRANCE",
+      "telephone": "+33 1 46 78 90 12",
+      "fax": "+33 1 46 78 90 13",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080550",
+  "commodityDescription": "ORANGE",
+  "containers": [
+    {
+      "containerNumber": "CONT5281848",
+      "sealNumber": "SEAL981592",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 16591.26,
+      "measurement": 20.96
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 95,
+    "totalGrossWeight": 16591.26,
+    "totalMeasurement": 20.96
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "10 RUE DE PARIS, 75001 PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEAN.DUPONT@GLOBALTRADING.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "10 RUE DE PARIS, 75001 PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "JEAN.DUPONT@GLOBALTRADING.COM"
+    },
+    "onboardDate": "2024-12-12 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -13\u00b0C, 30 DAYS FREE TIME AT DESTINATION, KEEP DRY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2348826",
+    "temperature": "-13\u00b0C",
+    "minTemperature": "-15\u00b0C",
+    "maxTemperature": "-11\u00b0C",
+    "ventilation": "0%",
+    "humidity": "90%"
+  }
+}

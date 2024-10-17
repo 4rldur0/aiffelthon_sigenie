@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202410258543",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "email": "JEREMY.LEE@ASIAPACIFICTRADING.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 BROADWAY, NEW YORK, NY 10038, USA",
+      "country": "UNITED STATES",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALLOGISTICSINC.COM",
+      "telephone": "+1 212 555 1234",
+      "fax": "+1 212 555 1235"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "country": "CHINA",
+      "email": "ZENLEE@BLUESKYTRADING.CN",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "282110",
+  "commodityDescription": "DANGEROUS GOODS, UN 2541, IRON OXIDE PIGMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT4914723",
+      "sealNumber": "SEAL316406",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 13681.7,
+      "measurement": 38.25
+    },
+    {
+      "containerNumber": "CONT4120524",
+      "sealNumber": "SEAL199467",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 19279.57,
+      "measurement": 33.22
+    },
+    {
+      "containerNumber": "CONT6048860",
+      "sealNumber": "SEAL901579",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 5073.38,
+      "measurement": 35.14
+    },
+    {
+      "containerNumber": "CONT3783807",
+      "sealNumber": "SEAL694620",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 8650.64,
+      "measurement": 23.34
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE TANK",
+    "totalPackages": 127,
+    "totalGrossWeight": 46685.29,
+    "totalMeasurement": 129.95
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      {
+        "certificateType": "MSDS",
+        "fileName": "MSDS_IRON_OXIDE_PIGMENT.PDF"
+      },
+      {
+        "certificateType": "Dangerous Goods Declaration",
+        "fileName": "DGD_2541_IRON_OXIDE_PIGMENT.PDF"
+      }
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 BROADWAY, NEW YORK, NY 10038, USA",
+      "telephone": "+1 212 555 1234",
+      "fax": "+1 212 555 1235",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALLOGISTICSINC.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "150 BROADWAY, NEW YORK, NY 10038, USA",
+      "telephone": "+1 212 555 1234",
+      "fax": "+1 212 555 1235",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALLOGISTICSINC.COM"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2541, VALUE: USD684,350, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4021081",
+    "unClass": "4",
+    "unCode": "2541,",
+    "hsCode": "1239.52.12",
+    "flashPoint": "-5\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

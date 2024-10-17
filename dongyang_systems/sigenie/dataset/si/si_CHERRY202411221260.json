@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202411221260",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "456 AVENIDA ESPA\u00d1A, MADRID, SPAIN",
+      "telephone": "+34-91-123-4567",
+      "fax": "+34-91-123-4568",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL MERCHANDISE",
+  "containers": [
+    {
+      "containerNumber": "CONT8567083",
+      "sealNumber": "SEAL334872",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 7865.42,
+      "measurement": 31.08
+    },
+    {
+      "containerNumber": "CONT5925934",
+      "sealNumber": "SEAL828802",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 14286.42,
+      "measurement": 23.25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 108,
+    "totalGrossWeight": 22151.84,
+    "totalMeasurement": 54.33
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241122-1001",
+    "documentNumber": "20241122-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "456 AVENIDA ESPA\u00d1A, MADRID, SPAIN",
+      "telephone": "+34-91-123-4567",
+      "fax": "+34-91-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "456 AVENIDA ESPA\u00d1A, MADRID, SPAIN",
+      "telephone": "+34-91-123-4567",
+      "fax": "+34-91-123-4568"
+    },
+    "onboardDate": "2024-12-07 09:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

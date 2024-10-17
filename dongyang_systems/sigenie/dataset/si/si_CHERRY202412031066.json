@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202412031066",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC EXPORTS INC.",
+      "address": "123 FRUIT LANE, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "150 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 1234 5678",
+      "fax": "+60 3 1234 5679"
+    },
+    "notifyParty": {
+      "name": "EUROFRESH LTD.",
+      "address": "100 MARKET STREET, SINGAPORE",
+      "telephone": "+65 6543 2100",
+      "fax": "+65 6543 2101"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080590",
+  "commodityDescription": "FRESH ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT7964763",
+      "sealNumber": "SEAL235216",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 6773.55,
+      "measurement": 25.24
+    },
+    {
+      "containerNumber": "CONT5343838",
+      "sealNumber": "SEAL832472",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 17126.95,
+      "measurement": 21.05
+    },
+    {
+      "containerNumber": "CONT8265408",
+      "sealNumber": "SEAL395924",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 10124.21,
+      "measurement": 36.49
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE REEFER",
+    "totalPackages": 110,
+    "totalGrossWeight": 34024.71,
+    "totalMeasurement": 82.78
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROFRESH LTD.",
+      "address": "100 MARKET STREET, SINGAPORE",
+      "telephone": "+65 6543 2100",
+      "fax": "+65 6543 2101"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "150 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 1234 5678",
+      "fax": "+60 3 1234 5679"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -5\u00b0C, VALUE: USD52,391, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8206861",
+    "temperature": "-5\u00b0C",
+    "minTemperature": "-7\u00b0C",
+    "maxTemperature": "-3\u00b0C",
+    "ventilation": "20%",
+    "humidity": "82%"
+  }
+}

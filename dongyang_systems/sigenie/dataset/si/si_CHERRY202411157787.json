@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202411157787",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECH SOLUTIONS INC.",
+      "address": "123 TECH LANE, SHANGHAI, CHINA",
+      "telephone": "+86 21 6543 2100",
+      "fax": "+86 21 6543 2101",
+      "email": "SALES@TECHSOLUTIONS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "567 GLOBAL STREET, HAMBURG, GERMANY",
+      "taxId": "DE1234567890",
+      "president": "MR. HANS MEIER",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALTRADING.DE"
+    },
+    "notifyParty": {
+      "name": "HAMBURG LOGISTICS GMBH",
+      "address": "890 PORT STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433",
+      "email": "OPERATIONS@HAMBURGLG.DE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382499",
+  "commodityDescription": "SODIUM HYDROXIDE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT1135556",
+      "sealNumber": "SEAL337720",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 8951.5,
+      "measurement": 32.47
+    },
+    {
+      "containerNumber": "CONT9145494",
+      "sealNumber": "SEAL219227",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 18793.71,
+      "measurement": 27.56
+    },
+    {
+      "containerNumber": "CONT6040919",
+      "sealNumber": "SEAL848945",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 11856.81,
+      "measurement": 24.28
+    },
+    {
+      "containerNumber": "CONT3183196",
+      "sealNumber": "SEAL303629",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 11328.35,
+      "measurement": 23.65
+    },
+    {
+      "containerNumber": "CONT3228925",
+      "sealNumber": "SEAL758130",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 18806.15,
+      "measurement": 34.73
+    },
+    {
+      "containerNumber": "CONT5190157",
+      "sealNumber": "SEAL426937",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 8837.71,
+      "measurement": 31.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD TANK",
+    "totalPackages": 522,
+    "totalGrossWeight": 78574.23,
+    "totalMeasurement": 173.78
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "567 GLOBAL STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TECH SOLUTIONS INC.",
+      "address": "123 TECH LANE, SHANGHAI, CHINA",
+      "telephone": "+86 21 6543 2100",
+      "fax": "+86 21 6543 2101",
+      "email": "SALES@TECHSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-22 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1473"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2852778",
+    "unClass": "4",
+    "unCode": "1473",
+    "hsCode": "7048.36.72",
+    "flashPoint": "86\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

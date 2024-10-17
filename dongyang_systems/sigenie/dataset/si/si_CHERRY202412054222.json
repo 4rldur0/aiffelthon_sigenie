@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202412054222",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "123 FISH MARKET STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 8768 4500",
+      "fax": "+86 21 8768 4501"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN TUNA",
+  "containers": [
+    {
+      "containerNumber": "CONT3237484",
+      "sealNumber": "SEAL821735",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 19854.31,
+      "measurement": 37.11
+    },
+    {
+      "containerNumber": "CONT6951112",
+      "sealNumber": "SEAL789737",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 15308.46,
+      "measurement": 21.28
+    },
+    {
+      "containerNumber": "CONT2520291",
+      "sealNumber": "SEAL601258",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 6374.98,
+      "measurement": 27.96
+    },
+    {
+      "containerNumber": "CONT8028317",
+      "sealNumber": "SEAL306126",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 9723.77,
+      "measurement": 28.88
+    },
+    {
+      "containerNumber": "CONT1460980",
+      "sealNumber": "SEAL217164",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 11007.1,
+      "measurement": 34.31
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE REEFER",
+    "totalPackages": 367,
+    "totalGrossWeight": 62268.62,
+    "totalMeasurement": 149.54
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ALPHA20241205"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD.",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "123 FISH MARKET STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 8768 4500",
+      "fax": "+86 21 8768 4501"
+    },
+    "onboardDate": "2024-12-14 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -2\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9576852",
+    "temperature": "-2\u00b0C",
+    "minTemperature": "-4\u00b0C",
+    "maxTemperature": "0\u00b0C",
+    "ventilation": "18%",
+    "humidity": "91%"
+  }
+}

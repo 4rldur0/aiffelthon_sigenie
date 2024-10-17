@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410301171",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 OCEAN DRIVE, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 OCEAN DRIVE, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871630",
+  "commodityDescription": "OUT OF GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT5274304",
+      "sealNumber": "SEAL989790",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 15708.96,
+      "measurement": 25.56
+    },
+    {
+      "containerNumber": "CONT4275588",
+      "sealNumber": "SEAL243203",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 11620.29,
+      "measurement": 38.22
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD OPEN TOP",
+    "totalPackages": 92,
+    "totalGrossWeight": 27329.25,
+    "totalMeasurement": 63.78
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 OCEAN DRIVE, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 OCEAN DRIVE, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 10675x2316x2621, VALUE: USD986,503"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10675",
+    "width": "2316",
+    "height": "2621",
+    "overWidth": "0",
+    "overHeight": "31"
+  }
+}

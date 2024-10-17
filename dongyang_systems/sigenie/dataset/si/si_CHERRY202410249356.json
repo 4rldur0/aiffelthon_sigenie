@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410249356",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUIT FRESH INTERNATIONAL INC",
+      "address": "123 ORCHARD STREET, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JEREMY.LEE@FRUITFRESHINTERNATIONAL.CN"
+    },
+    "consignee": {
+      "name": "EUROASIA TRADING CO LTD",
+      "address": "HAMBURGER STRASSE 123, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "WILLEM_VAN_DER_BERG@EUROASIATRADING.DE",
+      "telephone": "+49 40 987 6910",
+      "fax": "+49 40 987 6913"
+    },
+    "notifyParty": {
+      "name": "GERMAN GLOBAL LOGISTICS GMBH",
+      "address": "SPERLING STREET 500, HARBOR DISTRICT, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "PIETER_DE_VRIES@GERMANGLOBALLOGISTICS.DE",
+      "telephone": "+49 40 289 4000",
+      "fax": "+49 40 289 4001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080550",
+  "commodityDescription": "FRESH ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT4626420",
+      "sealNumber": "SEAL933688",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 8143.54,
+      "measurement": 20.69
+    },
+    {
+      "containerNumber": "CONT4788642",
+      "sealNumber": "SEAL914125",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 14287.07,
+      "measurement": 37.69
+    },
+    {
+      "containerNumber": "CONT3186799",
+      "sealNumber": "SEAL572697",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 10718.6,
+      "measurement": 36.08
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 149,
+    "totalGrossWeight": 33149.21,
+    "totalMeasurement": 94.46
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LCL202410249356"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "++86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "onboardDate": "2024-10-30 21:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -4\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8118911",
+    "temperature": "-4\u00b0C",
+    "minTemperature": "-6\u00b0C",
+    "maxTemperature": "-2\u00b0C",
+    "ventilation": "46%",
+    "humidity": "74%"
+  }
+}

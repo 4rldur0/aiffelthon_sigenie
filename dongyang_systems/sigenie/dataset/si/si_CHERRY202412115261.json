@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202412115261",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "C/LOS ANGELES, 23, 28027 MADRID, SPAIN",
+      "telephone": "+34-91-576-3210",
+      "fax": "+34-91-576-3211",
+      "email": "INFO@GLOBALLOGISTICS.ES",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030742",
+  "commodityDescription": "FROZEN COD FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT6963331",
+      "sealNumber": "SEAL130307",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 12894.28,
+      "measurement": 37.61
+    },
+    {
+      "containerNumber": "CONT4667024",
+      "sealNumber": "SEAL271123",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 18291.24,
+      "measurement": 34.29
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE REEFER",
+    "totalPackages": 77,
+    "totalGrossWeight": 31185.52,
+    "totalMeasurement": 71.9
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241211-1001",
+    "documentNumber": "20241211-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "C/LOS ANGELES, 23, 28027 MADRID, SPAIN",
+      "telephone": "+34-91-576-3210",
+      "fax": "+34-91-576-3211"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "C/LOS ANGELES, 23, 28027 MADRID, SPAIN",
+      "telephone": "+34-91-576-3210",
+      "fax": "+34-91-576-3211"
+    },
+    "onboardDate": "2025-01-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -12\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9455507",
+    "temperature": "-12\u00b0C",
+    "minTemperature": "-14\u00b0C",
+    "maxTemperature": "-10\u00b0C",
+    "ventilation": "10%",
+    "humidity": "64%"
+  }
+}

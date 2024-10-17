@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410251426",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH MANUFACTURING GMBH",
+      "address": "INDUSTRIAL STREET 123, BERLIN, GERMANY 12345",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 30 12345678",
+      "fax": "+49 30 12345679",
+      "email": "SHIPPING@EUROTECHMANUFACTURING.DE"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING GROUP LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM EC1A 1BB",
+      "country": "UNITED KINGDOM",
+      "telephone": "+44 20 71234567",
+      "fax": "+44 20 71234568",
+      "email": "INFO@GLOBALTRADINGGROUP.COM",
+      "personincharge": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "ALPHA LOGISTICS LTD",
+      "address": "123 PORT STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 12345679",
+      "email": "INFO@ALPHALOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOY PLAYING SETS AND DOLLS' HOUSES",
+  "containers": [
+    {
+      "containerNumber": "CONT3019675",
+      "sealNumber": "SEAL798611",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 12945.09,
+      "measurement": 25.87
+    },
+    {
+      "containerNumber": "CONT2133516",
+      "sealNumber": "SEAL815837",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 17429.7,
+      "measurement": 39.04
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 147,
+    "totalGrossWeight": 30374.79,
+    "totalMeasurement": 64.91
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

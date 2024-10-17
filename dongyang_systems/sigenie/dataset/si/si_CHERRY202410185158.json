@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202410185158",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROFRUIT LTD",
+      "onBehalfOf": "",
+      "address": "1234 ORCHARD STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@EUROFRUITLTD.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "1234 HARBOUR STREET, HAMBURG, GERMANY",
+      "companyNumber": "1234567890",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALTRADINGLTD.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "1234 HARBOUR STREET, HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "080550",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT2473405",
+      "sealNumber": "SEAL161725",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 16675.58,
+      "measurement": 38.24
+    },
+    {
+      "containerNumber": "CONT9198368",
+      "sealNumber": "SEAL708793",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 16373.19,
+      "measurement": 32.37
+    },
+    {
+      "containerNumber": "CONT8593418",
+      "sealNumber": "SEAL323277",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 12778.38,
+      "measurement": 33.73
+    },
+    {
+      "containerNumber": "CONT8602438",
+      "sealNumber": "SEAL288286",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 7636.82,
+      "measurement": 36.47
+    },
+    {
+      "containerNumber": "CONT2336220",
+      "sealNumber": "SEAL946114",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 12706.38,
+      "measurement": 39.67
+    },
+    {
+      "containerNumber": "CONT7005590",
+      "sealNumber": "SEAL140538",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 12293.87,
+      "measurement": 30.51
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD REEFER",
+    "totalPackages": 392,
+    "totalGrossWeight": 78464.22,
+    "totalMeasurement": 210.99
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "1234 HARBOUR STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALTRADINGLTD.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROFRUIT LTD",
+      "address": "1234 ORCHARD STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    },
+    "onboardDate": "2024-10-27 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 14\u00b0C, VALUE: USD539,691, THIS SIDE UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9720862",
+    "temperature": "14\u00b0C",
+    "minTemperature": "12\u00b0C",
+    "maxTemperature": "16\u00b0C",
+    "ventilation": "41%",
+    "humidity": "85%"
+  }
+}

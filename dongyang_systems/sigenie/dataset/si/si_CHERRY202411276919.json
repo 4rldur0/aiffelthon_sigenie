@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202411276919",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES LTD.",
+      "onBehalfOf": "",
+      "address": "1234 INDUSTRY ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "INFO@DELTAINDUSTRIESLTD.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "4567 GLOBAL WAY, HAMBURG, GERMANY",
+      "companyNumber": "DE123456789",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "4567 GLOBAL WAY, HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940390",
+  "commodityDescription": "FURNITURE AND PARTS THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT9533012",
+      "sealNumber": "SEAL492476",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 9854.89,
+      "measurement": 33.75
+    },
+    {
+      "containerNumber": "CONT6584101",
+      "sealNumber": "SEAL297819",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 19825.17,
+      "measurement": 34.72
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 104,
+    "totalGrossWeight": 29680.06,
+    "totalMeasurement": 68.47
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "4567 GLOBAL WAY, HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA INDUSTRIES LTD.",
+      "address": "1234 INDUSTRY ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679"
+    },
+    "onboardDate": "2024-12-11 09:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

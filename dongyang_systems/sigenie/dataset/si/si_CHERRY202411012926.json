@@ -1,0 +1,88 @@
+{
+  "bookingReference": "CHERRY202411012926",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ MANUFACTURING PTE LTD",
+      "address": "123 TAI SIA STREET, SINGAPORE 456789",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@XYZMANUFACTURING.COM.SG"
+    },
+    "consignee": {
+      "name": "ABC INTERNATIONAL TRADING CO LTD",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 AB",
+      "taxId": "NL851234567B01",
+      "president": "MR. JAN SMIT",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568",
+      "email": "INFO@ABCINTERNATIONAL.NL"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS BV",
+      "address": "789 PRINS HendrikSTRAAT, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "OPERATIONS@ABCLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT9069454",
+      "sealNumber": "SEAL879771",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 11475.19,
+      "measurement": 36.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 45 HIGH CUBE TANK",
+    "totalPackages": 24,
+    "totalGrossWeight": 11475.19,
+    "totalMeasurement": 36.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "ABC LOGISTICS BV",
+      "address": "789 PRINS HendrikSTRAAT, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "OPERATIONS@ABCLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC INTERNATIONAL TRADING CO LTD",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 AB",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568",
+      "email": "INFO@ABCINTERNATIONAL.NL"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202410148570",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": " SIEMENS AG",
+      "onBehalfOf": "",
+      "address": "WITTEHILFER STRASSE 27, 80333 MUENCHEN, GERMANY",
+      "telephone": "+49 89 636-20000",
+      "fax": "+49 89 636-20100",
+      "email": "INFO@SIEMENS.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "GUTENBERGSTRASSE 23, 60325 FRANKFURT AM MAIN, GERMANY",
+      "companyNumber": "HRB123456",
+      "telephone": "+49 69 797-1000",
+      "fax": "+49 69 797-1001",
+      "email": "INFO@DHL.COM"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "GUTENBERGSTRASSE 23, 60325 FRANKFURT AM MAIN, GERMANY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "842122",
+  "commodityDescription": "CENTRIFUGE",
+  "containers": [
+    {
+      "containerNumber": "CONT7190763",
+      "sealNumber": "SEAL391763",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 14902.57,
+      "measurement": 38.56
+    },
+    {
+      "containerNumber": "CONT5013595",
+      "sealNumber": "SEAL279741",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 19180.88,
+      "measurement": 33.12
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 163,
+    "totalGrossWeight": 34083.45,
+    "totalMeasurement": 71.68
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "GUTENBERGSTRASSE 23, 60325 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 797-1000",
+      "fax": "+49 69 797-1001",
+      "email": "INFO@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SIEMENS AG",
+      "address": "WITTEHILFER STRASSE 27, 80333 MUENCHEN, GERMANY",
+      "telephone": "+49 89 636-20000",
+      "fax": "+49 89 636-20100",
+      "email": "INFO@SIEMENS.COM"
+    },
+    "onboardDate": "2024-10-18 21:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411299362",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES LTD",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GAMMA TRADING CO.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GAMMA TRADING CO.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT8060989",
+      "sealNumber": "SEAL207469",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 18474.95,
+      "measurement": 25.98
+    },
+    {
+      "containerNumber": "CONT7145351",
+      "sealNumber": "SEAL269554",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 19910.87,
+      "measurement": 21.52
+    },
+    {
+      "containerNumber": "CONT8789525",
+      "sealNumber": "SEAL365541",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 5324.92,
+      "measurement": 32.06
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD OPEN TOP",
+    "totalPackages": 114,
+    "totalGrossWeight": 43710.74,
+    "totalMeasurement": 79.56
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GAMMA TRADING CO.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GAMMA TRADING CO.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 11896x2948x2773, VALUE: USD724,171"
+  },
+  "outOfGaugeDimensions": {
+    "length": "11896",
+    "width": "2948",
+    "height": "2773",
+    "overWidth": "508",
+    "overHeight": "183"
+  }
+}

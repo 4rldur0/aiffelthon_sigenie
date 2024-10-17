@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202410243657",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA INDUSTRIES INC.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7631-2345",
+      "fax": "+44-20-7631-2346",
+      "email": "INFO@DELTAShipping.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871680",
+  "commodityDescription": "SEMI-TRAILER FOR CONTAINER TRANSPORTATION",
+  "containers": [
+    {
+      "containerNumber": "CONT6886606",
+      "sealNumber": "SEAL665565",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 18456.51,
+      "measurement": 29.77
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD OPEN TOP",
+    "totalPackages": 68,
+    "totalGrossWeight": 18456.51,
+    "totalMeasurement": 29.77
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241024-1001",
+    "documentNumber": "20241024-1001",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7631-2345",
+      "fax": "+44-20-7631-2346"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7631-2345",
+      "fax": "+44-20-7631-2346"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 11048x2790x2708",
+    "outOfGaugeDimensions": {
+      "length": 11048,
+      "width": 2790,
+      "height": 2708
+    }
+  },
+  "outOfGaugeDimensions": {
+    "length": "11048",
+    "width": "2790",
+    "height": "2708",
+    "overWidth": "350",
+    "overHeight": "118"
+  }
+}

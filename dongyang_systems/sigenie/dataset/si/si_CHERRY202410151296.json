@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410151296",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@ASIAELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "1234 WARSAW STREET, GDANSK 80-222, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 777 73 25",
+      "fax": "+48 58 777 73 90",
+      "email": "MAREK.KOWALSKI@GFS.PL"
+    },
+    "notifyParty": {
+      "name": "POLSKI TRANSPORT LOGISTYCZNY S.A.",
+      "address": "UL. SPEDYCYJNA 123, 31-266 KRAK\u00d3W, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 12 713 29 39",
+      "fax": "+48 12 713 29 44",
+      "email": "ANNA.NOWAK@PTL-LOGISTYKA.PL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT5960693",
+      "sealNumber": "SEAL891561",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 19440.99,
+      "measurement": 29.71
+    },
+    {
+      "containerNumber": "CONT9762149",
+      "sealNumber": "SEAL358641",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 19153.0,
+      "measurement": 36.86
+    },
+    {
+      "containerNumber": "CONT8810754",
+      "sealNumber": "SEAL298694",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 6639.07,
+      "measurement": 39.63
+    },
+    {
+      "containerNumber": "CONT5278364",
+      "sealNumber": "SEAL465690",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 17632.11,
+      "measurement": 27.35
+    },
+    {
+      "containerNumber": "CONT9830740",
+      "sealNumber": "SEAL599040",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 7377.8,
+      "measurement": 32.95
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 330,
+    "totalGrossWeight": 70242.97,
+    "totalMeasurement": 166.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      " FUMIGATION CERTIFICATE",
+      " CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "1234 WARSAW STREET, GDANSK 80-222, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 777 73 25",
+      "fax": "+48 58 777 73 90",
+      "email": "MAREK.KOWALSKI@GFS.PL"
+    },
+    "onboardDate": "2024-10-23 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1736, VALUE: USD115,897, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9959766",
+    "unClass": "2",
+    "unCode": "1736,",
+    "hsCode": "3479.94.94",
+    "flashPoint": "2\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202411166941",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TEXTILE CO., LTD.",
+      "address": "123 SHANGHAI PORT ROAD, SHANGHAI, CHINA 200001",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "INFO@SHANGHAITEXTILE.COM"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN TRADING LTD.",
+      "address": "456 HAMBURG STREET, HAMBURG, GERMANY 20001",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 9012",
+      "email": "INFO@GOLDENSUNTRADING.COM",
+      "personincharge": "PETER MEIER"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS SERVICES GMBH",
+      "address": "789 HAMBURG PORT BOULEVARD, HAMBURG, GERMANY 20002",
+      "country": "GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 1234",
+      "email": "INFO@LOGISTICSGMBH.DE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "630790",
+  "commodityDescription": "TEXTILES",
+  "containers": [
+    {
+      "containerNumber": "CONT4615129",
+      "sealNumber": "SEAL270364",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 7069.48,
+      "measurement": 22.97
+    },
+    {
+      "containerNumber": "CONT5406567",
+      "sealNumber": "SEAL261471",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 18416.8,
+      "measurement": 39.47
+    },
+    {
+      "containerNumber": "CONT4085626",
+      "sealNumber": "SEAL748211",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 16784.92,
+      "measurement": 32.81
+    },
+    {
+      "containerNumber": "CONT5551083",
+      "sealNumber": "SEAL104096",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 17846.11,
+      "measurement": 21.73
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD GENERAL",
+    "totalPackages": 250,
+    "totalGrossWeight": 60117.31,
+    "totalMeasurement": 116.98
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-23 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

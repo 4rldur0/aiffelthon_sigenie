@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410273248",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH MANUFACTURING GMBH",
+      "onBehalfOf": "",
+      "address": "FRANKFURTER STRASSE 123, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@EUROTECHMANUFACTURING.DE"
+    },
+    "consignee": {
+      "name": "CHINA TEXTILE IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 888 HUANGLONG ROAD, NINGBO 315040, CHINA",
+      "companyNumber": "123456789012",
+      "telephone": "+86 574 86886666",
+      "fax": "+86 574 86886667",
+      "email": "INFO@CHINATEXTILEIMPORT.CN"
+    },
+    "notifyParty": {
+      "name": "MARINE LOGISTICS LTD.",
+      "address": "1234 OCEAN VIEW DRIVE, HONG KONG, CHINA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847989",
+  "commodityDescription": "TEXTILE MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CONT5647877",
+      "sealNumber": "SEAL710200",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 18215.94,
+      "measurement": 37.3
+    },
+    {
+      "containerNumber": "CONT9008381",
+      "sealNumber": "SEAL712527",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 19045.04,
+      "measurement": 27.96
+    },
+    {
+      "containerNumber": "CONT4545375",
+      "sealNumber": "SEAL797194",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 19247.87,
+      "measurement": 27.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE TANK",
+    "totalPackages": 142,
+    "totalGrossWeight": 56508.85,
+    "totalMeasurement": 92.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "CHINA TEXTILE IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 888 HUANGLONG ROAD, NINGBO 315040, CHINA",
+      "telephone": "+86 574 86886666",
+      "fax": "+86 574 86886667",
+      "email": "INFO@CHINATEXTILEIMPORT.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH MANUFACTURING GMBH",
+      "address": "FRANKFURTER STRASSE 123, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@EUROTECHMANUFACTURING.DE"
+    },
+    "onboardDate": "2024-10-30 09:00",
+    "additionalRemarks": "UNDER DECK TOP STOWAGE"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202412088978",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MACHINERY CO.",
+      "onBehalfOf": "",
+      "address": "1234 CHEMICAL RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@APCHEM.CN"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV.",
+      "address": "2500 EUROCHEM STREET, ROTTERDAM, THE NETHERLANDS 3011 AB",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@EUROCHEM.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 GLOBAL STREET, LONDON, UNITED KINGDOM EC2A 4JZ"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS - UN 2945",
+  "containers": [
+    {
+      "containerNumber": "CONT2042943",
+      "sealNumber": "SEAL608929",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 17408.43,
+      "measurement": 38.36
+    },
+    {
+      "containerNumber": "CONT2797824",
+      "sealNumber": "SEAL896175",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 9421.44,
+      "measurement": 39.27
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 185,
+    "totalGrossWeight": 26829.87,
+    "totalMeasurement": 77.63
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "address": "1234 CHEMICAL RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2945, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3023406",
+    "unClass": "2",
+    "unCode": "2945,",
+    "hsCode": "7524.19.64",
+    "flashPoint": "64\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

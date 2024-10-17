@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202412014439",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA FOODS CORPORATION",
+      "address": "NO. 123 HAIYUAN ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "SALES@CHINAAQUATICS.CN"
+    },
+    "consignee": {
+      "name": "EUROSEA FOODS BV",
+      "address": "BEZUIDENHOUTSEWEG 23, 2595 AR THE HAGUE, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 70 365 1234",
+      "fax": "+31 70 365 1235",
+      "email": "INFO@EUROSEAFOODS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "HUIZINGA STREET 10, 3011 AB ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 204 1234",
+      "fax": "+31 10 204 1235",
+      "email": "OPERATIONS@GLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN SHRIMP",
+  "containers": [
+    {
+      "containerNumber": "CONT6334920",
+      "sealNumber": "SEAL229221",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 9004.23,
+      "measurement": 35.76
+    },
+    {
+      "containerNumber": "CONT1071912",
+      "sealNumber": "SEAL783423",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 8705.47,
+      "measurement": 24.33
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 72,
+    "totalGrossWeight": 17709.7,
+    "totalMeasurement": 60.09
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROSEA FOODS BV",
+      "address": "BEZUIDENHOUTSEWEG 23, 2595 AR THE HAGUE, NETHERLANDS",
+      "telephone": "+31 70 365 1234",
+      "fax": "+31 70 365 1235",
+      "email": "INFO@EUROSEAFOODS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROSEA FOODS BV",
+      "address": "BEZUIDENHOUTSEWEG 23, 2595 AR THE HAGUE, NETHERLANDS",
+      "telephone": "+31 70 365 1234",
+      "fax": "+31 70 365 1235",
+      "email": "INFO@EUROSEAFOODS.NL"
+    },
+    "onboardDate": "2024-12-09 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 8\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5729156",
+    "temperature": "8\u00b0C",
+    "minTemperature": "6\u00b0C",
+    "maxTemperature": "10\u00b0C",
+    "ventilation": "46%",
+    "humidity": "71%"
+  }
+}

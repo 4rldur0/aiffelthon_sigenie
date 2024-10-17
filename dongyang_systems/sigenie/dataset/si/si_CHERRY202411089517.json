@@ -1,0 +1,150 @@
+{
+  "bookingReference": "CHERRY202411089517",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FRUITS LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0456",
+      "email": "INFO@ASIAFRUITS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "POLSKA TRANSPORT LOGISTYCZNY S.A.",
+      "address": "UL. SPEDYCYJNA 123, 31-266 KRAK\u00d3W, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 12 713 29 39",
+      "fax": "+48 12 713 29 44",
+      "email": "ANNA.NOWAK@PTL-LOGISTYKA.PL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080590",
+  "commodityDescription": "CITRUS FRUIT",
+  "containers": [
+    {
+      "containerNumber": "CONT2050270",
+      "sealNumber": "SEAL659197",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 6250.28,
+      "measurement": 36.0
+    },
+    {
+      "containerNumber": "CONT8703190",
+      "sealNumber": "SEAL364796",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 16769.82,
+      "measurement": 38.69
+    },
+    {
+      "containerNumber": "CONT1582862",
+      "sealNumber": "SEAL363113",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 6096.49,
+      "measurement": 29.21
+    },
+    {
+      "containerNumber": "CONT6408599",
+      "sealNumber": "SEAL775847",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 14786.49,
+      "measurement": 22.07
+    },
+    {
+      "containerNumber": "CONT4602762",
+      "sealNumber": "SEAL328990",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 5514.78,
+      "measurement": 30.66
+    },
+    {
+      "containerNumber": "CONT2760062",
+      "sealNumber": "SEAL648251",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 12600.14,
+      "measurement": 20.43
+    },
+    {
+      "containerNumber": "CONT2264030",
+      "sealNumber": "SEAL540511",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 7385.23,
+      "measurement": 29.51
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 HIGH CUBE REEFER",
+    "totalPackages": 354,
+    "totalGrossWeight": 69403.23,
+    "totalMeasurement": 206.57
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "FUMIGATION CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    },
+    "onboardDate": "2024-11-16 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -19\u00b0C, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4058900",
+    "temperature": "-19\u00b0C",
+    "minTemperature": "-21\u00b0C",
+    "maxTemperature": "-17\u00b0C",
+    "ventilation": "6%",
+    "humidity": "62%"
+  }
+}

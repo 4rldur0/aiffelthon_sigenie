@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202412049469",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ MANUFACTURING CO.",
+      "address": "123 INDUSTRIAL AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@XYZMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "ABC IMPORT EXPORT LTD",
+      "address": "123 RUE DE LA IMPORTATION, 76000 ROUEN, FRANCE",
+      "country": "FRANCE",
+      "email": "INFO@ABCIMPORTEXPORT.FR",
+      "telephone": "+33 2 35 78 90 12",
+      "fax": "+33 2 35 78 90 13"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS FRANCE",
+      "address": "125 QUAI DU HAVRE, 76600 LE HAVRE, FRANCE",
+      "country": "FRANCE",
+      "email": "NOTIFICATIONS@EUROLOGISTICSFRANCE.FR",
+      "telephone": "+33 2 35 56 78 90",
+      "fax": "+33 2 35 56 78 91"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT5251871",
+      "sealNumber": "SEAL966906",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 13961.96,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CONT8676068",
+      "sealNumber": "SEAL131499",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 9121.7,
+      "measurement": 22.54
+    },
+    {
+      "containerNumber": "CONT2589521",
+      "sealNumber": "SEAL816669",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 12336.31,
+      "measurement": 23.24
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 102,
+    "totalGrossWeight": 35419.97,
+    "totalMeasurement": 75.78
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202412049469"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC IMPORT EXPORT LTD",
+      "address": "123 RUE DE LA IMPORTATION, 76000 ROUEN, FRANCE",
+      "telephone": "+33 2 35 78 90 12",
+      "fax": "+33 2 35 78 90 13",
+      "email": "INFO@ABCIMPORTEXPORT.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT EXPORT LTD",
+      "address": "123 RUE DE LA IMPORTATION, 76000 ROUEN, FRANCE",
+      "telephone": "+33 2 35 78 90 12",
+      "fax": "+33 2 35 78 90 13",
+      "email": "INFO@ABCIMPORTEXPORT.FR"
+    },
+    "onboardDate": "2024-12-16 17:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

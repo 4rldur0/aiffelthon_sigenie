@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411256574",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SWISS PRECISION ENGINEERING GMBH",
+      "address": "BAHNHOFSTRASSE 10, 8001 ZURICH, SWITZERLAND",
+      "telephone": "+41-44-123-4567",
+      "fax": "+41-44-123-4568"
+    },
+    "consignee": {
+      "name": "DANMARK LOGISTICS A/S",
+      "address": "VESTER VOLDGADE 10, 1550 COPENHAGEN, DENMARK",
+      "telephone": "+45-33-33-33-33",
+      "fax": "+45-33-33-33-34"
+    },
+    "notifyParty": {
+      "name": "DANMARK LOGISTICS A/S",
+      "address": "VESTER VOLDGADE 10, 1550 COPENHAGEN, DENMARK",
+      "telephone": "+45-33-33-33-33",
+      "fax": "+45-33-33-33-34"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "842131",
+  "commodityDescription": "GEARBOXES",
+  "containers": [
+    {
+      "containerNumber": "CONT2621080",
+      "sealNumber": "SEAL589930",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 8807.3,
+      "measurement": 39.41
+    },
+    {
+      "containerNumber": "CONT7796107",
+      "sealNumber": "SEAL233301",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 12708.95,
+      "measurement": 27.84
+    },
+    {
+      "containerNumber": "CONT4263812",
+      "sealNumber": "SEAL634639",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 13920.12,
+      "measurement": 20.79
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 161,
+    "totalGrossWeight": 35436.37,
+    "totalMeasurement": 88.04
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DANMARK LOGISTICS A/S",
+      "address": "VESTER VOLDGADE 10, 1550 COPENHAGEN, DENMARK",
+      "telephone": "+45-33-33-33-33",
+      "fax": "+45-33-33-33-34"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DANMARK LOGISTICS A/S",
+      "address": "VESTER VOLDGADE 10, 1550 COPENHAGEN, DENMARK",
+      "telephone": "+45-33-33-33-33",
+      "fax": "+45-33-33-33-34"
+    },
+    "onboardDate": "2024-12-07 09:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

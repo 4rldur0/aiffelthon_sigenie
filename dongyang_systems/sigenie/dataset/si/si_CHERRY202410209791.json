@@ -1,0 +1,142 @@
+{
+  "bookingReference": "CHERRY202410209791",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 NINGBO PORT ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISETRADING.CN"
+    },
+    "consignee": {
+      "name": "UNIVERSAL IMPORTS LTD.",
+      "address": "123 ROTTERDAM HARBOR BOULEVARD, ROTTERDAM 3011 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "INFO@UNIVERSALIMPORTS.NL",
+      "personincharge": "JAN VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS BV",
+      "address": "125 ROTTERDAM PORT ROAD, ROTTERDAM 3012 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 666 7777",
+      "fax": "+31 10 666 7778",
+      "email": "INFO@EUROLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN SALMON FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT9052556",
+      "sealNumber": "SEAL709986",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 9780.97,
+      "measurement": 37.34
+    },
+    {
+      "containerNumber": "CONT3907133",
+      "sealNumber": "SEAL567860",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 9976.71,
+      "measurement": 38.65
+    },
+    {
+      "containerNumber": "CONT5831576",
+      "sealNumber": "SEAL338636",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 9285.72,
+      "measurement": 31.45
+    },
+    {
+      "containerNumber": "CONT1489736",
+      "sealNumber": "SEAL244860",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 5531.91,
+      "measurement": 38.71
+    },
+    {
+      "containerNumber": "CONT7976428",
+      "sealNumber": "SEAL700183",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 5784.14,
+      "measurement": 38.45
+    },
+    {
+      "containerNumber": "CONT7618329",
+      "sealNumber": "SEAL910827",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 13648.34,
+      "measurement": 30.75
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD REEFER",
+    "totalPackages": 257,
+    "totalGrossWeight": 54007.79,
+    "totalMeasurement": 215.35
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "ORIGIN CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO LOGISTICS BV",
+      "address": "125 ROTTERDAM PORT ROAD, ROTTERDAM 3012 AA, NETHERLANDS",
+      "telephone": "+31 10 666 7777",
+      "fax": "+31 10 666 7778",
+      "email": "INFO@EUROLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "UNIVERSAL IMPORTS LTD.",
+      "address": "123 ROTTERDAM HARBOR BOULEVARD, ROTTERDAM 3011 AB, NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "INFO@UNIVERSALIMPORTS.NL"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 16\u00b0C, VALUE: USD488,499, HANDLE WITH CARE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT1766695",
+    "temperature": "16\u00b0C",
+    "minTemperature": "14\u00b0C",
+    "maxTemperature": "18\u00b0C",
+    "ventilation": "25%",
+    "humidity": "95%"
+  }
+}

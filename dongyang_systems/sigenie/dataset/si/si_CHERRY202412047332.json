@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202412047332",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO",
+      "address": "123 MAIN STREET, NINGBO, CHINA 315000",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 1111",
+      "email": "INFO@GLOBALTRADINGCO.COM"
+    },
+    "consignee": {
+      "name": "ACME INTERNATIONAL LTD",
+      "address": "123 ABC STREET, HAMBURG, GERMANY 20457",
+      "usci": "91321200765109788X",
+      "president": "JOHN DOE",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@ACMEINTERNATIONAL.DE"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL MERCHANDISE",
+  "containers": [
+    {
+      "containerNumber": "CONT3394772",
+      "sealNumber": "SEAL413584",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 8160.04,
+      "measurement": 20.39
+    },
+    {
+      "containerNumber": "CONT9221864",
+      "sealNumber": "SEAL431237",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 5725.45,
+      "measurement": 25.11
+    },
+    {
+      "containerNumber": "CONT1924954",
+      "sealNumber": "SEAL694384",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 6999.37,
+      "measurement": 28.1
+    },
+    {
+      "containerNumber": "CONT4751532",
+      "sealNumber": "SEAL585211",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 6566.61,
+      "measurement": 26.59
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD TANK",
+    "totalPackages": 247,
+    "totalGrossWeight": 27451.47,
+    "totalMeasurement": 100.19
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-12-12 20:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

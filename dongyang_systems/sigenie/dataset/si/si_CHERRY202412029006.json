@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202412029006",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING GMBH",
+      "address": "INDUSTRIEGASSE 12, 20355 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "(ATTN: LOGISTICS DEPARTMENT)",
+      "telephone": "+49 40 1234 5678",
+      "email": "SHIPPING@PRECISIONENGINEERING.DE"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "UNIT 10A, 123 INDUSTRY STREET, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "email": "OPERATIONS@GLOBALFREIGHTSOLUTIONS.COM",
+      "telephone": "+86 21 4567 8901"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "UNIT 10A, 123 INDUSTRY STREET, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "email": "OPERATIONS@GLOBALFREIGHTSOLUTIONS.COM",
+      "telephone": "+86 21 4567 8901"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CONT1284513",
+      "sealNumber": "SEAL418358",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 13347.18,
+      "measurement": 29.8
+    },
+    {
+      "containerNumber": "CONT4277929",
+      "sealNumber": "SEAL943315",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 14496.73,
+      "measurement": 35.93
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD PLATFORM",
+    "totalPackages": 74,
+    "totalGrossWeight": 27843.91,
+    "totalMeasurement": 65.73
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "UNIT 10A, 123 INDUSTRY STREET, SHANGHAI, 200001, CHINA",
+      "telephone": "+86 21 4567 8901",
+      "fax": "+86 21 4567 8902",
+      "email": "OPERATIONS@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "UNIT 10A, 123 INDUSTRY STREET, SHANGHAI, 200001, CHINA",
+      "telephone": "+86 21 4567 8901",
+      "fax": "+86 21 4567 8902",
+      "email": "FINANCE@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5398x2884x2771, VALUE: USD425,121, ON DECK TOP STOWAGE",
+    "outOfGaugeDimensions": {
+      "length": 5398,
+      "width": 2884,
+      "height": 2771
+    },
+    "reeferSettings": {}
+  },
+  "outOfGaugeDimensions": {
+    "length": "5398",
+    "width": "2884",
+    "height": "2771",
+    "overWidth": "444",
+    "overHeight": "181"
+  }
+}

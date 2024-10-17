@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411298588",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "310520",
+  "commodityDescription": "NITRIC ACID",
+  "containers": [
+    {
+      "containerNumber": "CONT5649623",
+      "sealNumber": "SEAL210638",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 14830.76,
+      "measurement": 21.18
+    },
+    {
+      "containerNumber": "CONT5934720",
+      "sealNumber": "SEAL902245",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 15445.66,
+      "measurement": 38.98
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 94,
+    "totalGrossWeight": 30276.42,
+    "totalMeasurement": 60.16
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "MSDS"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-12-17 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3279"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4947181",
+    "unClass": "6",
+    "unCode": "3279",
+    "hsCode": "9969.84.26",
+    "flashPoint": "17\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

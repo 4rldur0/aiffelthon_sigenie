@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411103553",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHEJIANG DRAGON INDUSTRIES CO., LTD.",
+      "address": "NO. 888, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LLC",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213",
+      "email": "INFO@SUNRISEIMPORTS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS LLC"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871210",
+  "commodityDescription": "BICYCLES AND OTHER CYCLES (INCLUDING DELIVERY TRICYCLES) AND PARTS THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT1468183",
+      "sealNumber": "SEAL640125",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 17566.15,
+      "measurement": 33.7
+    },
+    {
+      "containerNumber": "CONT8127068",
+      "sealNumber": "SEAL613622",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 15051.41,
+      "measurement": 31.96
+    },
+    {
+      "containerNumber": "CONT7866680",
+      "sealNumber": "SEAL742830",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 12172.41,
+      "measurement": 39.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 144,
+    "totalGrossWeight": 44789.97,
+    "totalMeasurement": 105.47
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241110-1001",
+    "documentNumber": "20241110-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LLC",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS LLC",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-11-17 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

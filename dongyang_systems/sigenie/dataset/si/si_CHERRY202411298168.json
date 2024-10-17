@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411298168",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 NINGBO PORT ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "SHIPPING@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "5678 ALGEICRAS PORT BOULEVARD, ALGECIRAS, SPAIN 11001",
+      "country": "SPAIN",
+      "telephone": "+34 956 5432 1000",
+      "fax": "+34 956 5432 1001",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.ES",
+      "personincharge": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS SPAIN S.A.",
+      "address": "4321 ALGECIRAS INDUSTRIAL PARK, ALGECIRAS, SPAIN 11002",
+      "country": "SPAIN",
+      "telephone": "+34 956 6789 1000",
+      "fax": "+34 956 6789 1001",
+      "email": "OPERATIONS@LOGISTICSSSPAIN.ES"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "333490",
+  "commodityDescription": "DYE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT4207234",
+      "sealNumber": "SEAL303701",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 13796.37,
+      "measurement": 26.86
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD TANK",
+    "totalPackages": 16,
+    "totalGrossWeight": 13796.37,
+    "totalMeasurement": 26.86
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC987654321"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "5678 ALGEICRAS PORT BOULEVARD, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34 956 5432 1000",
+      "fax": "+34 956 5432 1001",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "5678 ALGEICRAS PORT BOULEVARD, ALGECIRAS, SPAIN 11001",
+      "telephone": "+34 956 5432 1000",
+      "fax": "+34 956 5432 1001",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.ES"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3334, VALUE: USD548,905"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2416678",
+    "unClass": "1",
+    "unCode": "3334,",
+    "hsCode": "6532.66.71",
+    "flashPoint": "56\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

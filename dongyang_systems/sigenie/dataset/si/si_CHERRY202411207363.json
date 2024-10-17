@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411207363",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA STEEL CORPORATION",
+      "onBehalfOf": "",
+      "address": "1234 STEEL ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8654 3210",
+      "fax": "+86 574 8654 3211",
+      "email": "LI.WEI@CHINASTEEL.CN"
+    },
+    "consignee": {
+      "name": "KUEHNE + NAGEL (NETHERLANDS) BV",
+      "address": "BEVERWIJKSTRAAT 100, 3016 AX ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@KN.NL"
+    },
+    "notifyParty": {
+      "name": "KUEHNE + NAGEL (CHINA) LTD",
+      "address": "1234 WORLD TRADE CENTER ROAD, SHANGHAI, CHINA 200080"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "721699",
+  "commodityDescription": "OUT-OF-GAUGE STEEL STRUCTURE",
+  "containers": [
+    {
+      "containerNumber": "CONT4839611",
+      "sealNumber": "SEAL988274",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 18914.68,
+      "measurement": 39.1
+    },
+    {
+      "containerNumber": "CONT5281932",
+      "sealNumber": "SEAL913970",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 10623.4,
+      "measurement": 38.76
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD PLATFORM",
+    "totalPackages": 127,
+    "totalGrossWeight": 29538.08,
+    "totalMeasurement": 77.86
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "KUEHNE + NAGEL (CHINA) LTD",
+      "address": "1234 WORLD TRADE CENTER ROAD, SHANGHAI, CHINA 200080",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@KN.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA STEEL CORPORATION",
+      "address": "1234 STEEL ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8654 3210",
+      "fax": "+86 574 8654 3211"
+    },
+    "onboardDate": "2024-11-23 22:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 10925x2954x2308, 21 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10925",
+    "width": "2954",
+    "height": "2308",
+    "overWidth": "514",
+    "overHeight": "0"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202411017458",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC EXPORTERS INC.",
+      "onBehalfOf": "",
+      "address": "1234 EXPORTERS WAY, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@ASIAEXPORTERS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "5678 LOGISTICS LANE, ALGECIRAS 11111, SPAIN",
+      "companyNumber": "ES123456789",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 789012",
+      "email": "INFO@GLOBALLOGISTICS.ES"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "5678 LOGISTICS LANE, ALGECIRAS 11111, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950630",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT9370969",
+      "sealNumber": "SEAL829317",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 18097.76,
+      "measurement": 26.15
+    },
+    {
+      "containerNumber": "CONT4719091",
+      "sealNumber": "SEAL902985",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 9228.01,
+      "measurement": 22.57
+    },
+    {
+      "containerNumber": "CONT8781049",
+      "sealNumber": "SEAL345819",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 6998.68,
+      "measurement": 23.16
+    },
+    {
+      "containerNumber": "CONT5364915",
+      "sealNumber": "SEAL921162",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 10505.39,
+      "measurement": 39.87
+    },
+    {
+      "containerNumber": "CONT2982500",
+      "sealNumber": "SEAL424715",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 10977.37,
+      "measurement": 29.22
+    },
+    {
+      "containerNumber": "CONT7374808",
+      "sealNumber": "SEAL322104",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 5302.69,
+      "measurement": 33.53
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD TANK",
+    "totalPackages": 356,
+    "totalGrossWeight": 61109.9,
+    "totalMeasurement": 174.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "5678 LOGISTICS LANE, ALGECIRAS 11111, SPAIN",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 789012",
+      "email": "INFO@GLOBALLOGISTICS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC EXPORTERS INC.",
+      "address": "1234 EXPORTERS WAY, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@ASIAEXPORTERS.COM"
+    },
+    "onboardDate": "2024-11-12 09:00",
+    "additionalRemarks": "KEEP DRY"
+  }
+}

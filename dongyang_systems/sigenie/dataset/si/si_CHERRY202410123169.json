@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410123169",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SCHMIDT ENGINEERING GMBH",
+      "address": "SCHMIDTSTRASSE 123, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@SCHMIDT-ENGINEERING.DE"
+    },
+    "consignee": {
+      "name": "SCHULZ LOGISTICS GMBH",
+      "address": "MARINE PARADE ROAD, SINGAPORE 018982",
+      "country": "SINGAPORE",
+      "telephone": "+65 67890123",
+      "fax": "+65 67890124",
+      "email": "OPERATIONS@SCHULZ-LOGISTICS.SG",
+      "personincharge": "ANNA TAN"
+    },
+    "notifyParty": {
+      "name": "SCHULZ LOGISTICS GMBH",
+      "address": "MARINE PARADE ROAD, SINGAPORE 018982",
+      "country": "SINGAPORE",
+      "telephone": "+65 67890123",
+      "fax": "+65 67890124",
+      "email": "OPERATIONS@SCHULZ-LOGISTICS.SG"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CONT5223940",
+      "sealNumber": "SEAL119951",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 19276.61,
+      "measurement": 31.08
+    },
+    {
+      "containerNumber": "CONT3662383",
+      "sealNumber": "SEAL393906",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 17095.12,
+      "measurement": 36.82
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE TANK",
+    "totalPackages": 69,
+    "totalGrossWeight": 36371.73,
+    "totalMeasurement": 67.9
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "SCHULZ LOGISTICS GMBH",
+      "address": "MARINE PARADE ROAD, SINGAPORE 018982",
+      "telephone": "+65 67890123",
+      "fax": "+65 67890124",
+      "email": "OPERATIONS@SCHULZ-LOGISTICS.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SCHULZ LOGISTICS GMBH",
+      "address": "MARINE PARADE ROAD, SINGAPORE 018982",
+      "telephone": "+65 67890123",
+      "fax": "+65 67890124",
+      "email": "OPERATIONS@SCHULZ-LOGISTICS.SG"
+    },
+    "onboardDate": "2024-10-16 22:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  },
+  "specialCargoInfo": {
+    "outOfGaugeDimensions": "LENGTH: 13.5 METERS, WIDTH: 2.6 METERS, HEIGHT: 4.5 METERS"
+  }
+}

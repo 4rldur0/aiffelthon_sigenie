@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202411249497",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECHNO CHEMICALS LTD",
+      "address": "NO. 123, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "INFO@GLOBALLOGISTICS.DE",
+      "contactPerson": "ANNA SCHMIDT"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "333401",
+  "commodityDescription": "LIQUID MAKEUP",
+  "containers": [
+    {
+      "containerNumber": "CONT4280845",
+      "sealNumber": "SEAL336464",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 8635.81,
+      "measurement": 39.64
+    },
+    {
+      "containerNumber": "CONT1725808",
+      "sealNumber": "SEAL195361",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 11815.99,
+      "measurement": 23.17
+    },
+    {
+      "containerNumber": "CONT3288223",
+      "sealNumber": "SEAL167323",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 7121.8,
+      "measurement": 38.58
+    },
+    {
+      "containerNumber": "CONT6740054",
+      "sealNumber": "SEAL899329",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 13056.4,
+      "measurement": 37.47
+    },
+    {
+      "containerNumber": "CONT9702319",
+      "sealNumber": "SEAL540524",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 10972.75,
+      "measurement": 34.48
+    },
+    {
+      "containerNumber": "CONT6473694",
+      "sealNumber": "SEAL105269",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 7078.3,
+      "measurement": 38.26
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD TANK",
+    "totalPackages": 258,
+    "totalGrossWeight": 58681.05,
+    "totalMeasurement": 211.6
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC",
+      "address": "FRANKFURTER ALLEE 12, 10365 BERLIN, GERMANY",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "onboardDate": "2024-12-07 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3406, VALUE: USD191,934, 7 DAYS FREE TIME AT DESTINATION",
+    "dangerousGoods": {
+      "unNumber": "3406",
+      "properShippingName": "LIQUID MAKEUP",
+      "hazardClass": "9",
+      "packingGroup": "III"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2879069",
+    "unClass": "8",
+    "unCode": "3406,",
+    "hsCode": "7130.16.89",
+    "flashPoint": "-11\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410192086",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL PRECISION ENGINEERING CO LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "340213",
+  "commodityDescription": "DANGEROUS GOODS - LIQUIFIED ETHYLENE OXIDE",
+  "containers": [
+    {
+      "containerNumber": "CONT6202097",
+      "sealNumber": "SEAL516037",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 17888.45,
+      "measurement": 29.38
+    },
+    {
+      "containerNumber": "CONT8691116",
+      "sealNumber": "SEAL125357",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 9253.56,
+      "measurement": 25.46
+    },
+    {
+      "containerNumber": "CONT6341880",
+      "sealNumber": "SEAL313476",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 19572.12,
+      "measurement": 23.59
+    },
+    {
+      "containerNumber": "CONT7048328",
+      "sealNumber": "SEAL691871",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 10275.94,
+      "measurement": 22.84
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD GENERAL",
+    "totalPackages": 197,
+    "totalGrossWeight": 56990.07,
+    "totalMeasurement": 101.27
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-10-27 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3498, VALUE: USD511,755, 14 DAYS FREE TIME AT DESTINATION",
+    "dangerousGoods": {
+      "unNumber": "3498",
+      "properShippingName": "LIQUIFIED ETHYLENE OXIDE",
+      "class": "6.1",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3632690",
+    "unClass": "3",
+    "unCode": "3498,",
+    "hsCode": "3820.92.85",
+    "flashPoint": "-1\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

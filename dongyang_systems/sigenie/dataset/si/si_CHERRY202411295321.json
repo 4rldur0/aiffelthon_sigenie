@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411295321",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ MANUFACTURING CO. LTD",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "WATERLOO PLAZA, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@ABCGLOBAL.NL",
+      "contactPerson": "PETER VAN DER VEEN"
+    },
+    "notifyParty": {
+      "name": "ABC GLOBAL LOGISTICS LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES AND SPORTING GOODS",
+  "containers": [
+    {
+      "containerNumber": "CONT4819783",
+      "sealNumber": "SEAL198774",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 6766.11,
+      "measurement": 23.85
+    },
+    {
+      "containerNumber": "CONT3151868",
+      "sealNumber": "SEAL897956",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 17237.61,
+      "measurement": 21.8
+    },
+    {
+      "containerNumber": "CONT8588627",
+      "sealNumber": "SEAL447975",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 6848.07,
+      "measurement": 29.26
+    },
+    {
+      "containerNumber": "CONT6503720",
+      "sealNumber": "SEAL800358",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 9839.11,
+      "measurement": 22.99
+    },
+    {
+      "containerNumber": "CONT7712183",
+      "sealNumber": "SEAL694080",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 7447.58,
+      "measurement": 25.18
+    },
+    {
+      "containerNumber": "CONT5590350",
+      "sealNumber": "SEAL892693",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 11385.17,
+      "measurement": 33.07
+    },
+    {
+      "containerNumber": "CONT2094392",
+      "sealNumber": "SEAL665128",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 19171.5,
+      "measurement": 20.47
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 STANDARD TANK",
+    "totalPackages": 400,
+    "totalGrossWeight": 78695.15,
+    "totalMeasurement": 176.62
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241215-1001",
+    "documentNumber": "20241215-1001",
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "WATERLOO PLAZA, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "WATERLOO PLAZA, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

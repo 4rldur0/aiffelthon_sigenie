@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411026063",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECHNO SOLUTIONS LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8866 9000",
+      "fax": "+86 574 8866 9001",
+      "email": "INFO@TECHNOSOLUTIONS.CN"
+    },
+    "consignee": {
+      "name": "COSMO GLOBAL LOGISTICS",
+      "address": "UL. GRZYBOWSKIEGO 125, 80-215 GDANSK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 305 6000",
+      "fax": "+48 58 305 6001",
+      "email": "INFO@COSMOGLOBALLOGISTICS.PL",
+      "personincharge": "ANNA NOWAK"
+    },
+    "notifyParty": {
+      "name": "MAGHREB LOGISTICS SERVICES SARL",
+      "address": "UL. STARE MIASTO 5, 80-805 GDANSK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 306 0000",
+      "fax": "+48 58 306 0001",
+      "email": "OMAR.BENALI@MAGHREBLOGISTICS.MA"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "340213",
+  "commodityDescription": "SURFACTANTS",
+  "containers": [
+    {
+      "containerNumber": "CONT5200336",
+      "sealNumber": "SEAL424032",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 8247.08,
+      "measurement": 26.85
+    },
+    {
+      "containerNumber": "CONT8857173",
+      "sealNumber": "SEAL387434",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 9109.71,
+      "measurement": 39.56
+    },
+    {
+      "containerNumber": "CONT8819505",
+      "sealNumber": "SEAL830299",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 8252.91,
+      "measurement": 35.51
+    },
+    {
+      "containerNumber": "CONT7380287",
+      "sealNumber": "SEAL739579",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 16970.42,
+      "measurement": 27.75
+    },
+    {
+      "containerNumber": "CONT9574468",
+      "sealNumber": "SEAL943774",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 15918.64,
+      "measurement": 20.27
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE TANK",
+    "totalPackages": 218,
+    "totalGrossWeight": 58498.76,
+    "totalMeasurement": 149.94
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-11 19:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3425, VALUE: USD75,504, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2259511",
+    "unClass": "1",
+    "unCode": "3425,",
+    "hsCode": "6263.67.83",
+    "flashPoint": "-15\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

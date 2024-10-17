@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202411043117",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE GLOBAL ENTERPRISES PTE LTD",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "456 ALEXANDRA ROAD, SINGAPORE 118888",
+      "telephone": "+65-6543-2100",
+      "fax": "+65-6543-2101"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING FRANCE",
+      "address": "12 RUE DE LA PAIX, 75000 PARIS, FRANCE",
+      "telephone": "+33-1-4567-8901",
+      "fax": "+33-1-4567-8902"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "621120",
+  "commodityDescription": "GARMENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT9568012",
+      "sealNumber": "SEAL496829",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 6539.54,
+      "measurement": 27.1
+    },
+    {
+      "containerNumber": "CONT4157410",
+      "sealNumber": "SEAL611415",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 13765.16,
+      "measurement": 22.88
+    },
+    {
+      "containerNumber": "CONT3713907",
+      "sealNumber": "SEAL453178",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 10649.46,
+      "measurement": 32.76
+    },
+    {
+      "containerNumber": "CONT5211480",
+      "sealNumber": "SEAL280569",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 15096.78,
+      "measurement": 31.88
+    },
+    {
+      "containerNumber": "CONT6573832",
+      "sealNumber": "SEAL304176",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 16188.39,
+      "measurement": 34.89
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE TANK",
+    "totalPackages": 114,
+    "totalGrossWeight": 62239.33,
+    "totalMeasurement": 149.51
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "456 ALEXANDRA ROAD, SINGAPORE 118888",
+      "telephone": "+65-6543-2100",
+      "fax": "+65-6543-2101"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "456 ALEXANDRA ROAD, SINGAPORE 118888",
+      "telephone": "+65-6543-2100",
+      "fax": "+65-6543-2101"
+    },
+    "onboardDate": "2024-11-16 02:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

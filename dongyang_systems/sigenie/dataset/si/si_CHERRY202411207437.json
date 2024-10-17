@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411207437",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@BETAIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING LTD.",
+      "address": "456 OXFORD STREET, LONDON, W1D 1BD, UNITED KINGDOM",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 7555 1212",
+      "fax": "+44 20 7555 1213",
+      "email": "INFO@ALPHA GLOBALTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL TRADING LTD.",
+      "address": "456 OXFORD STREET, LONDON, W1D 1BD, UNITED KINGDOM",
+      "telephone": "+44 20 7555 1212",
+      "fax": "+44 20 7555 1213",
+      "email": "INFO@ALPHA GLOBALTRADING.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CARS",
+  "containers": [
+    {
+      "containerNumber": "CONT2712893",
+      "sealNumber": "SEAL984378",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 8937.38,
+      "measurement": 22.73
+    },
+    {
+      "containerNumber": "CONT9329517",
+      "sealNumber": "SEAL104545",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 15110.75,
+      "measurement": 25.56
+    },
+    {
+      "containerNumber": "CONT5339535",
+      "sealNumber": "SEAL987667",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 18127.62,
+      "measurement": 35.25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 153,
+    "totalGrossWeight": 42175.75,
+    "totalMeasurement": 83.54
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING LTD.",
+      "address": "456 OXFORD STREET, LONDON, W1D 1BD, UNITED KINGDOM",
+      "telephone": "+44 20 7555 1212",
+      "fax": "+44 20 7555 1213",
+      "email": "INFO@ALPHA GLOBALTRADING.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING LTD.",
+      "address": "456 OXFORD STREET, LONDON, W1D 1BD, UNITED KINGDOM",
+      "telephone": "+44 20 7555 1212",
+      "fax": "+44 20 7555 1213",
+      "email": "INFO@ALPHA GLOBALTRADING.COM"
+    },
+    "onboardDate": "2024-12-06 10:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410143773",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING GROUP CO. LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL LOGISTICS LTD.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-555-6666",
+      "fax": "+86-21-555-6667"
+    },
+    "notifyParty": {
+      "name": "OMEGA GLOBAL LOGISTICS LTD.",
+      "address": "NO. 789, FUXING ROAD, BEIJING, CHINA 100000",
+      "telephone": "+86-10-888-9999",
+      "fax": "+86-10-888-9998"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "87169090",
+  "commodityDescription": "OUT-OF-GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT3879617",
+      "sealNumber": "SEAL116825",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 8093.92,
+      "measurement": 24.84
+    },
+    {
+      "containerNumber": "CONT5232230",
+      "sealNumber": "SEAL830922",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 6546.71,
+      "measurement": 36.99
+    },
+    {
+      "containerNumber": "CONT9104867",
+      "sealNumber": "SEAL723215",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 6833.02,
+      "measurement": 29.37
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD PLATFORM",
+    "totalPackages": 174,
+    "totalGrossWeight": 21473.65,
+    "totalMeasurement": 91.2
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "OMEGA GLOBAL LOGISTICS LTD.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-555-6666",
+      "fax": "+86-21-555-6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL LOGISTICS LTD.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-555-6666",
+      "fax": "+86-21-555-6667"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5757x2177x2966, VALUE: USD220,615",
+    "outOfGaugeDimensions": "LENGTH: 5757 MM, WIDTH: 2177 MM, HEIGHT: 2966 MM"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5757",
+    "width": "2177",
+    "height": "2966",
+    "overWidth": "0",
+    "overHeight": "376"
+  }
+}

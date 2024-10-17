@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202412071439",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TEXTILES CO., LTD.",
+      "address": "NO. 555, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213",
+      "email": "INFO@GOLDENGATEIMPORTS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE IMPORTS INC."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "38249996",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT9627956",
+      "sealNumber": "SEAL983701",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 6240.08,
+      "measurement": 21.64
+    },
+    {
+      "containerNumber": "CONT2178247",
+      "sealNumber": "SEAL415852",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 5885.55,
+      "measurement": 32.18
+    },
+    {
+      "containerNumber": "CONT7445011",
+      "sealNumber": "SEAL881196",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 13390.59,
+      "measurement": 22.82
+    },
+    {
+      "containerNumber": "CONT6210374",
+      "sealNumber": "SEAL265248",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 18009.62,
+      "measurement": 33.89
+    },
+    {
+      "containerNumber": "CONT2021964",
+      "sealNumber": "SEAL516260",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 11263.57,
+      "measurement": 29.23
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD GENERAL",
+    "totalPackages": 372,
+    "totalGrossWeight": 54789.41,
+    "totalMeasurement": 139.76
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213"
+    },
+    "onboardDate": "2024-12-17 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3002, VALUE: USD124,304",
+    "dangerousGoods": {
+      "unNumber": "3002",
+      "class": "8",
+      "packagingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4984385",
+    "unClass": "7",
+    "unCode": "3002,",
+    "hsCode": "1246.79.84",
+    "flashPoint": "86\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

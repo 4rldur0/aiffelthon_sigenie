@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411135953",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ TRADING CO.",
+      "address": "123 MAIN STREET, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8889",
+      "email": "INFO@XYZTRADING.COM"
+    },
+    "consignee": {
+      "name": "ABC IMPORT EXPORT LTD.",
+      "address": "456 DUTCH BOULEVARD, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "taxId": "NL851234567B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 7777 7777",
+      "fax": "+31 10 7777 7778",
+      "email": "INFO@ABCIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT EXPORT LTD.",
+      "address": "456 DUTCH BOULEVARD, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "telephone": "+31 10 7777 7777",
+      "fax": "+31 10 7777 7778",
+      "email": "INFO@ABCIMPORT.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "PLUSH TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT7820645",
+      "sealNumber": "SEAL537210",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 14694.97,
+      "measurement": 38.39
+    },
+    {
+      "containerNumber": "CONT6957592",
+      "sealNumber": "SEAL880679",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 9395.13,
+      "measurement": 29.04
+    },
+    {
+      "containerNumber": "CONT3838336",
+      "sealNumber": "SEAL605843",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 15749.58,
+      "measurement": 38.33
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 124,
+    "totalGrossWeight": 39839.68,
+    "totalMeasurement": 105.76
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "ABC IMPORT EXPORT LTD.",
+      "address": "456 DUTCH BOULEVARD, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "telephone": "+31 10 7777 7777",
+      "fax": "+31 10 7777 7778",
+      "email": "INFO@ABCIMPORT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT EXPORT LTD.",
+      "address": "456 DUTCH BOULEVARD, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "telephone": "+31 10 7777 7777",
+      "fax": "+31 10 7777 7778",
+      "email": "INFO@ABCIMPORT.NL"
+    },
+    "onboardDate": "2024-12-06 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202411143920",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS CO.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 NETHERLANDS STREET, GDANSK, 3011 NL",
+      "country": "POLAND",
+      "email": "ORDERS@GLOBALFREIGHTSOLUTIONS.NL",
+      "telephone": "+48 58 300 2000"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, GDANSK, 3011 NL",
+      "country": "POLAND",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+48 58 234 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT6791951",
+      "sealNumber": "SEAL714897",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 17812.73,
+      "measurement": 25.23
+    },
+    {
+      "containerNumber": "CONT1162741",
+      "sealNumber": "SEAL181284",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 5379.97,
+      "measurement": 27.74
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 47,
+    "totalGrossWeight": 23192.7,
+    "totalMeasurement": 52.97
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-12-03 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -10\u00b0C",
+    "reeferSettings": {
+      "setTemperature": "-10",
+      "temperatureUnit": "CELSIUS"
+    }
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4371633",
+    "temperature": "-10\u00b0C",
+    "minTemperature": "-12\u00b0C",
+    "maxTemperature": "-8\u00b0C",
+    "ventilation": "13%",
+    "humidity": "72%"
+  }
+}

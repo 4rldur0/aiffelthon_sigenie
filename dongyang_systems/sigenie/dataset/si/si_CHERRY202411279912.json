@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411279912",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "1234 NINGBO PORT BOULEVARD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "EUROASIA SHIPPING CO. LTD.",
+      "address": "1234 ROTTERDAM PORT BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 202 0300",
+      "fax": "+31 10 202 0301",
+      "email": "INFO@EUROASIAShipping.NL",
+      "personincharge": "JAN VAN DER BOSCH"
+    },
+    "notifyParty": {
+      "name": "EUROASIA LOGISTICS LTD.",
+      "address": "1234 ROTTERDAM PORT BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 202 0400",
+      "fax": "+31 10 202 0401",
+      "email": "INFO@EUROASIALOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854230",
+  "commodityDescription": "WIND TURBINE BLADES",
+  "containers": [
+    {
+      "containerNumber": "CONT6335865",
+      "sealNumber": "SEAL686470",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 7219.93,
+      "measurement": 29.43
+    },
+    {
+      "containerNumber": "CONT2876612",
+      "sealNumber": "SEAL916648",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 14299.3,
+      "measurement": 36.37
+    },
+    {
+      "containerNumber": "CONT5604524",
+      "sealNumber": "SEAL726741",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 10759.44,
+      "measurement": 23.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD FLAT RACK",
+    "totalPackages": 205,
+    "totalGrossWeight": 32278.67,
+    "totalMeasurement": 88.96
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411279912"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROASIA SHIPPING CO. LTD.",
+      "address": "1234 ROTTERDAM PORT BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 0300",
+      "fax": "+31 10 202 0301",
+      "email": "INFO@EUROASIAShipping.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA SHIPPING CO. LTD.",
+      "address": "1234 ROTTERDAM PORT BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 0300",
+      "fax": "+31 10 202 0301",
+      "email": "INFO@EUROASIAShipping.NL"
+    },
+    "onboardDate": "2024-12-17 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 3363x2728x2580"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3363",
+    "width": "2728",
+    "height": "2580",
+    "overWidth": "288",
+    "overHeight": "0"
+  }
+}

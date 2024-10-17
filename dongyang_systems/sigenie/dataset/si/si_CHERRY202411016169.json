@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411016169",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ACME PRECISION ENGINEERING CO. LTD.",
+      "address": "NO. 123, FENGHUA ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ACMEPRECISION.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "DE VIJVER 123, 3000 ROTTERDAM, NETHERLANDS",
+      "taxId": "NL850812345",
+      "president": "MR. JAN VAN DER WIJK",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "DE VIJVER 123, 3000 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT8620959",
+      "sealNumber": "SEAL612192",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 9599.26,
+      "measurement": 27.84
+    },
+    {
+      "containerNumber": "CONT2101339",
+      "sealNumber": "SEAL319658",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 5541.61,
+      "measurement": 30.46
+    },
+    {
+      "containerNumber": "CONT9315315",
+      "sealNumber": "SEAL951201",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 17437.99,
+      "measurement": 34.92
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 125,
+    "totalGrossWeight": 32578.86,
+    "totalMeasurement": 93.22
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "DE VIJVER 123, 3000 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "DE VIJVER 123, 3000 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  }
+}

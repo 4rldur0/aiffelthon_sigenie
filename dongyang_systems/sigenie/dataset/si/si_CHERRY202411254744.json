@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202411254744",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO. LTD",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "903281",
+  "commodityDescription": "SWITCHING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT4512794",
+      "sealNumber": "SEAL984173",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 6740.68,
+      "measurement": 25.32
+    },
+    {
+      "containerNumber": "CONT3110783",
+      "sealNumber": "SEAL354743",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 18038.03,
+      "measurement": 27.23
+    },
+    {
+      "containerNumber": "CONT9266298",
+      "sealNumber": "SEAL197446",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 9158.7,
+      "measurement": 21.4
+    },
+    {
+      "containerNumber": "CONT7043525",
+      "sealNumber": "SEAL406024",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 14264.97,
+      "measurement": 39.03
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD GENERAL",
+    "totalPackages": 254,
+    "totalGrossWeight": 48202.38,
+    "totalMeasurement": 112.98
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE FREIGHT SOLUTIONS",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-12-11 19:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1953"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4998313",
+    "unClass": "3",
+    "unCode": "1953",
+    "hsCode": "4836.39.40",
+    "flashPoint": "65\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

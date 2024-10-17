@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410208693",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INTERNATIONAL CO.",
+      "onBehalfOf": "",
+      "address": "12345 CHINA STREET, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@DELTAINTERNATIONALCO.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "1234 SUNRISE AVENUE, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@SUNRISETRADING.NL"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "1234 SUNRISE AVENUE, ROTTERDAM, NETHERLANDS, 3000 AA"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOY SETS",
+  "containers": [
+    {
+      "containerNumber": "CONT4900245",
+      "sealNumber": "SEAL413169",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 15019.86,
+      "measurement": 31.19
+    },
+    {
+      "containerNumber": "CONT9554086",
+      "sealNumber": "SEAL393172",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 7589.29,
+      "measurement": 33.5
+    },
+    {
+      "containerNumber": "CONT5540736",
+      "sealNumber": "SEAL983470",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 5062.81,
+      "measurement": 28.28
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE TANK",
+    "totalPackages": 109,
+    "totalGrossWeight": 27671.96,
+    "totalMeasurement": 92.97
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "1234 SUNRISE AVENUE, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@SUNRISETRADING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA INTERNATIONAL CO.",
+      "address": "12345 CHINA STREET, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@DELTAINTERNATIONALCO.COM"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

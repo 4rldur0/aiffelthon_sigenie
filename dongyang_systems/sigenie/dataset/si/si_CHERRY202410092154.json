@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410092154",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ENGINEERING COMPANY",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-12345679"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871640",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CONT9207049",
+      "sealNumber": "SEAL757728",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 15081.41,
+      "measurement": 32.19
+    },
+    {
+      "containerNumber": "CONT8838349",
+      "sealNumber": "SEAL983854",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 11196.52,
+      "measurement": 20.13
+    },
+    {
+      "containerNumber": "CONT5927428",
+      "sealNumber": "SEAL235974",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 13323.42,
+      "measurement": 32.96
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD FLAT RACK",
+    "totalPackages": 174,
+    "totalGrossWeight": 39601.35,
+    "totalMeasurement": 85.28
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-10-16 20:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 11176x2444x2240, 30 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "outOfGaugeDimensions": {
+    "length": "11176",
+    "width": "2444",
+    "height": "2240",
+    "overWidth": "4",
+    "overHeight": "0"
+  }
+}

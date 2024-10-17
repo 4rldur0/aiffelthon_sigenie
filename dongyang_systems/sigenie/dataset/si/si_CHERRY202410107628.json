@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410107628",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIAN FOOD IMPORTERS LTD.",
+      "onBehalfOf": "",
+      "address": "1234 YONGFU ROAD, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 5678 9012",
+      "fax": "+86 21 5678 9013",
+      "email": "LI.MING@CHINAFRESHSEAFOOD.CN"
+    },
+    "consignee": {
+      "name": "SEAFOOD IMPORTERS B.V.",
+      "address": "VEERSTRAAT 123, 3011 AA ROTTERDAM, THE NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@SEAFOODIMPORTERS.NL"
+    },
+    "notifyParty": {
+      "name": "SEAFOOD IMPORTERS B.V.",
+      "address": "VEERSTRAAT 123, 3011 AA ROTTERDAM, THE NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030771",
+  "commodityDescription": "FROZEN COD FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT8707958",
+      "sealNumber": "SEAL658884",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 13435.44,
+      "measurement": 34.93
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD REEFER",
+    "totalPackages": 85,
+    "totalGrossWeight": 13435.44,
+    "totalMeasurement": 34.93
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA FRESH SEAFOOD CO. LTD.",
+      "address": "1234 YONGFU ROAD, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 5678 9012",
+      "fax": "+86 21 5678 9013"
+    },
+    "onboardDate": "2024-10-13 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 10\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9846824",
+    "temperature": "10\u00b0C",
+    "minTemperature": "8\u00b0C",
+    "maxTemperature": "12\u00b0C",
+    "ventilation": "61%",
+    "humidity": "80%"
+  }
+}

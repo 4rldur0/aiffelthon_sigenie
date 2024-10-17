@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202412069581",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC COLD STORAGE LTD.",
+      "address": "NO. 123, HAICHANG ROAD, NINGBO FREE TRADE ZONE, 315000 NINGBO, CHINA",
+      "telephone": "+86 574 8668 9000",
+      "fax": "+86 574 8668 9001",
+      "email": "LI.WEI@APCSTORAGE.CN"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "WATERLOO PLAZA, 123 WATERLOO STREET, ROTTERDAM, 3011 AA NETHERLANDS",
+      "taxId": "NL854723821B01",
+      "president": "MR. JAN VAN DER HELM",
+      "telephone": "+31 10 241 5500",
+      "fax": "+31 10 241 5501",
+      "email": "JAN.VANDHEL@SUNRISEIMPORTS.NL"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS B.V.",
+      "address": "ZUIDPOORTWEG 10, 3191 LL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 462 5000",
+      "fax": "+31 10 462 5001",
+      "email": "INFO@EUROLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030199",
+  "commodityDescription": "LIVE FISH, OTHER THAN FISH OF THE SPECIES SALMO SALAR, SALMO TRUTTA, ONCORHYNCHUS MYKISS, AND SALMO GIRENER",
+  "containers": [
+    {
+      "containerNumber": "CONT3346533",
+      "sealNumber": "SEAL392806",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 12152.29,
+      "measurement": 33.85
+    },
+    {
+      "containerNumber": "CONT6029779",
+      "sealNumber": "SEAL748778",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 9675.23,
+      "measurement": 33.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 83,
+    "totalGrossWeight": 21827.52,
+    "totalMeasurement": 66.94
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202412069581"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-12-12 16:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 12\u00b0C, VALUE: USD939,697, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9039555",
+    "temperature": "12\u00b0C",
+    "minTemperature": "10\u00b0C",
+    "maxTemperature": "14\u00b0C",
+    "ventilation": "42%",
+    "humidity": "82%"
+  }
+}

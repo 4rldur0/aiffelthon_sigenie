@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411011185",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORTS LTD.",
+      "address": "UNIT 5, PORTAL BUSINESS PARK, ALGECIRAS, 11001",
+      "country": "SPAIN",
+      "additionalInfo": "(ATTN: MARIA FERNANDEZ)",
+      "telephone": "+34 956 789 012",
+      "email": "MARIA.FERNANDEZ@BETAIMPORTS.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "2525 PARKWAY BLVD, ATLANTA, GA 30346",
+      "country": "USA",
+      "email": "ORDERS@ALPHAGLOBAL.COM",
+      "telephone": "+1 404 555 1212"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "2525 PARKWAY BLVD, ATLANTA, GA 30346",
+      "country": "USA",
+      "email": "ORDERS@ALPHAGLOBAL.COM",
+      "telephone": "+1 404 555 1212"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN TUNA",
+  "containers": [
+    {
+      "containerNumber": "CONT6922977",
+      "sealNumber": "SEAL478144",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 6693.39,
+      "measurement": 27.19
+    },
+    {
+      "containerNumber": "CONT6391106",
+      "sealNumber": "SEAL127179",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 19989.07,
+      "measurement": 33.89
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 141,
+    "totalGrossWeight": 26682.46,
+    "totalMeasurement": 61.08
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "2525 PARKWAY BLVD, ATLANTA, GA 30346",
+      "telephone": "+1 404 555 1212",
+      "fax": "+1 404 555 1213",
+      "email": "ORDERS@ALPHAGLOBAL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "2525 PARKWAY BLVD, ATLANTA, GA 30346",
+      "telephone": "+1 404 555 1212",
+      "fax": "+1 404 555 1213",
+      "email": "ORDERS@ALPHAGLOBAL.COM"
+    },
+    "onboardDate": "2024-11-12 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 3\u00b0C, FRAGILE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7465223",
+    "temperature": "3\u00b0C",
+    "minTemperature": "1\u00b0C",
+    "maxTemperature": "5\u00b0C",
+    "ventilation": "49%",
+    "humidity": "63%"
+  }
+}

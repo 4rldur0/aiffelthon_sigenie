@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202410165082",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 MAIN STREET, SINGAPORE",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 BROADWAY, LONDON, UK",
+      "telephone": "+44-20-7678-9012",
+      "fax": "+44-20-7678-9013",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "870899",
+  "commodityDescription": "MOTOR VEHICLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT7376244",
+      "sealNumber": "SEAL603451",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 6712.58,
+      "measurement": 20.88
+    },
+    {
+      "containerNumber": "CONT4669658",
+      "sealNumber": "SEAL571006",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 8539.76,
+      "measurement": 23.6
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 110,
+    "totalGrossWeight": 15252.34,
+    "totalMeasurement": 44.48
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241016-001",
+    "documentNumber": "20241016-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 BROADWAY, LONDON, UK",
+      "telephone": "+44-20-7678-9012",
+      "fax": "+44-20-7678-9013"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 BROADWAY, LONDON, UK",
+      "telephone": "+44-20-7678-9012",
+      "fax": "+44-20-7678-9013"
+    },
+    "onboardDate": "2024-10-23 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

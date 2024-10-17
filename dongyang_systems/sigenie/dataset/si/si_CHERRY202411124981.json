@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202411124981",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA MANUFACTURING CO.",
+      "address": "1234 FACTORY STREET, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@CHINAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "5678 INTERNATIONAL STREET, HAMBURG, 20457, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@GLOBALIMPORTSLTD.DE",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "notifyParty": {
+      "name": "GERMAN LOGISTICS GMBH",
+      "address": "9876 PORT STREET, HAMBURG, 20359, GERMANY",
+      "country": "GERMANY",
+      "email": "CONTACT@GERMANLOGISTICSGMBH.DE",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940390",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT1144511",
+      "sealNumber": "SEAL638161",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 19480.79,
+      "measurement": 32.43
+    },
+    {
+      "containerNumber": "CONT7221201",
+      "sealNumber": "SEAL605461",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 9169.9,
+      "measurement": 37.47
+    },
+    {
+      "containerNumber": "CONT4875392",
+      "sealNumber": "SEAL594983",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 8051.01,
+      "measurement": 21.88
+    },
+    {
+      "containerNumber": "CONT1440340",
+      "sealNumber": "SEAL405466",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 10098.57,
+      "measurement": 21.18
+    },
+    {
+      "containerNumber": "CONT8922082",
+      "sealNumber": "SEAL803016",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 16882.8,
+      "measurement": 39.69
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD TANK",
+    "totalPackages": 352,
+    "totalGrossWeight": 63683.07,
+    "totalMeasurement": 152.65
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "5678 INTERNATIONAL STREET, HAMBURG, 20457, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "ORDERS@GLOBALIMPORTSLTD.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "5678 INTERNATIONAL STREET, HAMBURG, 20457, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "ORDERS@GLOBALIMPORTSLTD.DE"
+    },
+    "onboardDate": "2024-11-20 22:00",
+    "additionalRemarks": "DO NOT STACK"
+  }
+}

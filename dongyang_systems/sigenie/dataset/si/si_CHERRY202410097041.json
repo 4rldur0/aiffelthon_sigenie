@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410097041",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION MACHINERY CORP.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "EURO TECH LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT6612748",
+      "sealNumber": "SEAL236034",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 12773.54,
+      "measurement": 30.13
+    },
+    {
+      "containerNumber": "CONT7987805",
+      "sealNumber": "SEAL693278",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 5927.32,
+      "measurement": 29.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 175,
+    "totalGrossWeight": 18700.86,
+    "totalMeasurement": 59.15
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410235412"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO TECH LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3065, VALUE: USD243,768"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9227064",
+    "unClass": "8",
+    "unCode": "3065,",
+    "hsCode": "4894.47.19",
+    "flashPoint": "-10\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410242223",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HARVE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS INC.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL SUPPLY CHAIN SOLUTIONS LTD",
+      "address": "150 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 123 4567",
+      "fax": "+33 1 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SUPPLY CHAIN SOLUTIONS LTD",
+      "address": "150 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 123 4567",
+      "fax": "+33 1 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854370",
+  "commodityDescription": "REFRIGERATED ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CONT9765864",
+      "sealNumber": "SEAL289420",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 11878.34,
+      "measurement": 33.42
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE REEFER",
+    "totalPackages": 99,
+    "totalGrossWeight": 11878.34,
+    "totalMeasurement": 33.42
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SUPPLY CHAIN SOLUTIONS LTD",
+      "address": "150 MAIN STREET, PARIS, FRANCE",
+      "telephone": "+33 1 123 4567",
+      "fax": "+33 1 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ELECTRONICS INC.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "onboardDate": "2024-11-04 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 20\u00b0C, VALUE: USD542,968, ON DECK TOP STOWAGE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3430903",
+    "temperature": "20\u00b0C",
+    "minTemperature": "18\u00b0C",
+    "maxTemperature": "22\u00b0C",
+    "ventilation": "13%",
+    "humidity": "90%"
+  }
+}

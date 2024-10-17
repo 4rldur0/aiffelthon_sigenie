@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202412088523",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL PRECISION ENGINEERING CO. LTD.",
+      "address": "NO. 123, FENGHUA ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@GLOBALPRECISION.CN"
+    },
+    "consignee": {
+      "name": "FREIGHTLINE GLOBAL LOGISTICS LTD.",
+      "address": "1234 EUROPA BOULEVARD, ROTTERDAM, 3011 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@FREIGHTLINEGLOBAL.NL"
+    },
+    "notifyParty": {
+      "name": "FREIGHTLINE GLOBAL LOGISTICS LTD.",
+      "address": "1234 EUROPA BOULEVARD, ROTTERDAM, 3011 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 713 29 39",
+      "fax": "+31 10 713 29 44",
+      "email": "ANNA.NOWAK@FREIGHTLINEGLOBAL.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES, NUMERICALLY CONTROLLED",
+  "containers": [
+    {
+      "containerNumber": "CONT9570333",
+      "sealNumber": "SEAL782728",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 15705.8,
+      "measurement": 29.68
+    },
+    {
+      "containerNumber": "CONT8709550",
+      "sealNumber": "SEAL716478",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 5110.23,
+      "measurement": 24.73
+    },
+    {
+      "containerNumber": "CONT2971272",
+      "sealNumber": "SEAL680246",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 16600.35,
+      "measurement": 34.25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD OPEN TOP",
+    "totalPackages": 176,
+    "totalGrossWeight": 37416.38,
+    "totalMeasurement": 88.66
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LCL1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "FREIGHTLINE GLOBAL LOGISTICS LTD.",
+      "address": "1234 EUROPA BOULEVARD, ROTTERDAM, 3011 AA, NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@FREIGHTLINEGLOBAL.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FREIGHTLINE GLOBAL LOGISTICS LTD.",
+      "address": "1234 EUROPA BOULEVARD, ROTTERDAM, 3011 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@FREIGHTLINEGLOBAL.NL"
+    },
+    "onboardDate": "2024-12-13 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 11926x2599x2781, VALUE: USD104,202"
+  },
+  "outOfGaugeDimensions": {
+    "length": "11926",
+    "width": "2599",
+    "height": "2781",
+    "overWidth": "159",
+    "overHeight": "191"
+  }
+}

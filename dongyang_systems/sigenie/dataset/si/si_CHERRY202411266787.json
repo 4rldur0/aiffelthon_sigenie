@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411266787",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "TANGER MED, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO. INC.",
+      "onBehalfOf": "",
+      "address": "1234 MAIN STREET, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@DELTATRADING.CN"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "1234 PORT STREET, TANGER MED, MOROCCO",
+      "companyNumber": "123456789",
+      "telephone": "+212 524 987 6000",
+      "fax": "+212 524 987 6001",
+      "email": "JANSSEN.EMMA@OMEGASHIPPING.MA"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "1234 PORT STREET, TANGER MED, MOROCCO"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871640",
+  "commodityDescription": "OUT OF GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT9637746",
+      "sealNumber": "SEAL580356",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 6757.54,
+      "measurement": 37.03
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD PLATFORM",
+    "totalPackages": 77,
+    "totalGrossWeight": 6757.54,
+    "totalMeasurement": 37.03
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. INC.",
+      "address": "1234 MAIN STREET, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-12-12 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 9835x2550x2550, VALUE: USD877,512, 21 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "outOfGaugeDimensions": {
+    "length": "9835",
+    "width": "2550",
+    "height": "2550",
+    "overWidth": "110",
+    "overHeight": "0"
+  }
+}

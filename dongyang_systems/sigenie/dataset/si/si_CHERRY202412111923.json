@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202412111923",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ORIENTAL MANUFACTURING CO. LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-1235"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "250, WATERLOO STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-3334",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL",
+      "contactPerson": "PETER VAN DER MEER"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "250, WATERLOO STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940160",
+  "commodityDescription": "SEATS FOR AUTOMOBILES",
+  "containers": [
+    {
+      "containerNumber": "CONT3936853",
+      "sealNumber": "SEAL141620",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 5465.54,
+      "measurement": 20.55
+    },
+    {
+      "containerNumber": "CONT5452619",
+      "sealNumber": "SEAL145411",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 19364.96,
+      "measurement": 39.24
+    },
+    {
+      "containerNumber": "CONT3704648",
+      "sealNumber": "SEAL149170",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 15672.43,
+      "measurement": 22.6
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 188,
+    "totalGrossWeight": 40502.93,
+    "totalMeasurement": 82.39
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241211-001",
+    "documentNumber": "20241211-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "250, WATERLOO STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "250, WATERLOO STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-12-16 09:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

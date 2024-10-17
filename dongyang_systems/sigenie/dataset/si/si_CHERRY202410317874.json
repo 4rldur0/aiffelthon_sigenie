@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410317874",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 ASIA PACIFIC ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "GOLDEN STAR SHIPPING LTD.",
+      "address": "888 GOLDEN STAR STREET, ROTTERDAM, THE NETHERLANDS 3011 AB",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GOLDENSTARSHIPPING.NL"
+    },
+    "notifyParty": {
+      "name": "GOLDEN STAR SHIPPING LTD.",
+      "address": "888 GOLDEN STAR STREET, ROTTERDAM, THE NETHERLANDS 3011 AB"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT1971889",
+      "sealNumber": "SEAL804271",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 17593.01,
+      "measurement": 38.96
+    },
+    {
+      "containerNumber": "CONT7119312",
+      "sealNumber": "SEAL417500",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 7232.28,
+      "measurement": 25.33
+    },
+    {
+      "containerNumber": "CONT1274906",
+      "sealNumber": "SEAL701440",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 18985.08,
+      "measurement": 28.73
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE TANK",
+    "totalPackages": 218,
+    "totalGrossWeight": 43810.37,
+    "totalMeasurement": 93.02
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GOLDEN STAR SHIPPING LTD.",
+      "address": "888 GOLDEN STAR STREET, ROTTERDAM, THE NETHERLANDS 3011 AB",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@GOLDENSTARSHIPPING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 ASIA PACIFIC ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAPACIFICTRADING.CN"
+    },
+    "onboardDate": "2024-11-11 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

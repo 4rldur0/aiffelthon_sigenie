@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411017177",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HARVE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE STEEL CORPORATION PTE LTD",
+      "address": "123 STEEL MILL ROAD, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (FRANCE) SAS",
+      "address": "12 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 LOGISTICS DRIVE, SINGAPORE",
+      "telephone": "+65 6789 0456",
+      "fax": "+65 6789 0457"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "730890",
+  "commodityDescription": "STEEL BEAMS",
+  "containers": [
+    {
+      "containerNumber": "CONT4465792",
+      "sealNumber": "SEAL238988",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 5474.46,
+      "measurement": 37.05
+    },
+    {
+      "containerNumber": "CONT9949803",
+      "sealNumber": "SEAL148093",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 18738.28,
+      "measurement": 26.8
+    },
+    {
+      "containerNumber": "CONT5157270",
+      "sealNumber": "SEAL120179",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 19577.28,
+      "measurement": 26.41
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD PLATFORM",
+    "totalPackages": 203,
+    "totalGrossWeight": 43790.02,
+    "totalMeasurement": 90.26
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411017177"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 LOGISTICS DRIVE, SINGAPORE",
+      "telephone": "+65 6789 0456",
+      "fax": "+65 6789 0457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 LOGISTICS DRIVE, SINGAPORE",
+      "telephone": "+65 6789 0456",
+      "fax": "+65 6789 0457"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 6310x2622x2449, VALUE: USD21,189, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6310",
+    "width": "2622",
+    "height": "2449",
+    "overWidth": "182",
+    "overHeight": "0"
+  }
+}

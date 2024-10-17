@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202411276210",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CORPORATION S.A.",
+      "address": "123 MAIN STREET, HONG KONG, CHINA",
+      "telephone": "+852-2123-4567",
+      "fax": "+852-2123-4568"
+    },
+    "consignee": {
+      "name": "BLUE SKY LOGISTICS LTD.",
+      "address": "456 ABC AVENUE, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-3-1234-5678",
+      "fax": "+60-3-1234-5679",
+      "email": "INFO@BLUESKYLOGISTICS.COM.MY",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS LTD."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871630",
+  "commodityDescription": "OUT-OF-GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT6619493",
+      "sealNumber": "SEAL998076",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 6218.37,
+      "measurement": 35.33
+    },
+    {
+      "containerNumber": "CONT9494031",
+      "sealNumber": "SEAL955351",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 7669.28,
+      "measurement": 20.19
+    },
+    {
+      "containerNumber": "CONT4688755",
+      "sealNumber": "SEAL784779",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 14079.33,
+      "measurement": 26.57
+    },
+    {
+      "containerNumber": "CONT4313811",
+      "sealNumber": "SEAL508145",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 19955.21,
+      "measurement": 36.96
+    },
+    {
+      "containerNumber": "CONT8514161",
+      "sealNumber": "SEAL992596",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 8703.33,
+      "measurement": 38.95
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD FLAT RACK",
+    "totalPackages": 286,
+    "totalGrossWeight": 56625.52,
+    "totalMeasurement": 158.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241215-001",
+    "documentNumber": "20241215-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY LOGISTICS LTD.",
+      "address": "456 ABC AVENUE, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-3-1234-5678",
+      "fax": "+60-3-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY LOGISTICS LTD.",
+      "address": "456 ABC AVENUE, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-3-1234-5678",
+      "fax": "+60-3-1234-5679"
+    },
+    "onboardDate": "2024-12-16 17:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 2927x2557x2630, VALUE: USD739,365, 21 DAYS FREE TIME AT DESTINATION",
+    "outOfGaugeDimensions": {
+      "length": 2927,
+      "width": 2557,
+      "height": 2630
+    },
+    "value": "USD739,365"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2927",
+    "width": "2557",
+    "height": "2630",
+    "overWidth": "117",
+    "overHeight": "40"
+  }
+}

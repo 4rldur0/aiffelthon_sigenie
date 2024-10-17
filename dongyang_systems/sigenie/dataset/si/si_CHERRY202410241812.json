@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202410241812",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL856742312",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 555 5555",
+      "fax": "+31 10 555 5556",
+      "email": "JOHN.SMITH@GLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 555 5555",
+      "fax": "+31 10 555 5556",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "310210",
+  "commodityDescription": "MINERAL OR CHEMICAL FERTILIZERS, NITROGENOUS",
+  "containers": [
+    {
+      "containerNumber": "CONT5041991",
+      "sealNumber": "SEAL654843",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 12175.51,
+      "measurement": 26.45
+    },
+    {
+      "containerNumber": "CONT4930479",
+      "sealNumber": "SEAL446928",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 12359.93,
+      "measurement": 23.4
+    },
+    {
+      "containerNumber": "CONT8574226",
+      "sealNumber": "SEAL569876",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 7847.18,
+      "measurement": 28.93
+    },
+    {
+      "containerNumber": "CONT4657186",
+      "sealNumber": "SEAL210077",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 14198.42,
+      "measurement": 22.85
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD GENERAL",
+    "totalPackages": 179,
+    "totalGrossWeight": 46581.04,
+    "totalMeasurement": 101.63
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1045, VALUE: USD359,031"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7926700",
+    "unClass": "4",
+    "unCode": "1045,",
+    "hsCode": "2701.71.63",
+    "flashPoint": "59\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

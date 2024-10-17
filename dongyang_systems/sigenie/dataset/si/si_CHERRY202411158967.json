@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411158967",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC PRECISION ENGINEERING PTE LTD",
+      "address": "123 INDUSTRIAL DRIVE, SINGAPORE 628345",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING FRANCE SAS",
+      "address": "1 RUE DE LA PAIX, 76000 ROUEN, FRANCE",
+      "telephone": "+33-2-35-76-89-01",
+      "fax": "+33-2-35-76-89-02",
+      "email": "INFO@DHL-FRANCE.COM",
+      "contactPerson": "JEAN DUPONT"
+    },
+    "notifyParty": {
+      "name": "ABC PRECISION ENGINEERING PTE LTD",
+      "address": "123 INDUSTRIAL DRIVE, SINGAPORE 628345"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950691",
+  "commodityDescription": "EDUCATIONAL LABORATORY EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT1193835",
+      "sealNumber": "SEAL317183",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 19536.52,
+      "measurement": 23.44
+    },
+    {
+      "containerNumber": "CONT1065644",
+      "sealNumber": "SEAL238552",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 6772.64,
+      "measurement": 23.0
+    },
+    {
+      "containerNumber": "CONT8217887",
+      "sealNumber": "SEAL965803",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 8824.25,
+      "measurement": 21.63
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE TANK",
+    "totalPackages": 128,
+    "totalGrossWeight": 35133.41,
+    "totalMeasurement": 68.07
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241115-001",
+    "documentNumber": "20241115-001",
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING FRANCE SAS",
+      "address": "1 RUE DE LA PAIX, 76000 ROUEN, FRANCE",
+      "telephone": "+33-2-35-76-89-01",
+      "fax": "+33-2-35-76-89-02"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC PRECISION ENGINEERING PTE LTD",
+      "address": "123 INDUSTRIAL DRIVE, SINGAPORE 628345"
+    },
+    "onboardDate": "2024-11-23 16:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

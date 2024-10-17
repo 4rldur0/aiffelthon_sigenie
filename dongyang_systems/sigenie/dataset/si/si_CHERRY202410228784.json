@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202410228784",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA INDUSTRIES INC.",
+      "address": "1234 INDUSTRY LANE, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(UNIT 102)",
+      "telephone": "+86 21 5555 6789",
+      "email": "ORDERS@BETAINDUSTRIES.COM.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING LTD",
+      "address": "5678 COMMERCIAL STREET, MADRID, 28001, SPAIN",
+      "country": "SPAIN",
+      "email": "INFO@ALPHA GLOBAL TRADING.COM",
+      "telephone": "+34 91 123 4567"
+    },
+    "notifyParty": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "country": "CHINA",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN",
+      "telephone": "+86 755 2598 7654"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "300490",
+  "commodityDescription": "PHARMACEUTICAL PRODUCTS",
+  "containers": [
+    {
+      "containerNumber": "CONT9258476",
+      "sealNumber": "SEAL541821",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 11960.43,
+      "measurement": 23.24
+    },
+    {
+      "containerNumber": "CONT8336305",
+      "sealNumber": "SEAL512000",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 16432.59,
+      "measurement": 29.08
+    },
+    {
+      "containerNumber": "CONT8225417",
+      "sealNumber": "SEAL571156",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 15514.83,
+      "measurement": 23.26
+    },
+    {
+      "containerNumber": "CONT8292309",
+      "sealNumber": "SEAL973291",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 11952.82,
+      "measurement": 28.1
+    },
+    {
+      "containerNumber": "CONT6888578",
+      "sealNumber": "SEAL268271",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 16873.46,
+      "measurement": 33.56
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD TANK",
+    "totalPackages": 252,
+    "totalGrossWeight": 72734.13,
+    "totalMeasurement": 137.24
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-12 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2946, VALUE: USD322,019"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3629344",
+    "unClass": "2",
+    "unCode": "2946,",
+    "hsCode": "7890.77.53",
+    "flashPoint": "11\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

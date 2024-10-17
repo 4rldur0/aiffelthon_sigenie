@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202411052239",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS LTD.",
+      "address": "123 OCEAN BOULEVARD, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JEREMY.LEE@ASIAFOODS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 SKYLINE DRIVE, GDANSK, 80-801, POLAND",
+      "country": "POLAND",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALLOGISTICS.PL",
+      "telephone": "+48 58 987 6910",
+      "fax": "+48 58 987 6913"
+    },
+    "notifyParty": {
+      "name": "POLAND COLD CHAIN LOGISTICS SP. Z O.O.",
+      "address": "HARBOR STREET 123, GDANSK PORT, 81-777 GDANSK, POLAND",
+      "country": "POLAND",
+      "email": "PIETER_DE_VRIES@POLANDCOLDCHAIN.PL",
+      "telephone": "+48 58 289 4000",
+      "fax": "+48 58 289 4001"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030890",
+  "commodityDescription": "FROZEN FISH (EXCEPT SALMON)",
+  "containers": [
+    {
+      "containerNumber": "CONT1024117",
+      "sealNumber": "SEAL305133",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 7683.63,
+      "measurement": 22.99
+    },
+    {
+      "containerNumber": "CONT4063940",
+      "sealNumber": "SEAL245123",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 8183.67,
+      "measurement": 36.31
+    },
+    {
+      "containerNumber": "CONT5527234",
+      "sealNumber": "SEAL854336",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 13917.17,
+      "measurement": 23.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE REEFER",
+    "totalPackages": 79,
+    "totalGrossWeight": 29784.47,
+    "totalMeasurement": 82.8
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411052239"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 SKYLINE DRIVE, GDANSK, 80-801, POLAND",
+      "telephone": "+48 58 987 6910",
+      "fax": "+48 58 987 6913",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALLOGISTICS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "123 SKYLINE DRIVE, GDANSK, 80-801, POLAND",
+      "telephone": "+48 58 987 6910",
+      "fax": "+48 58 987 6913",
+      "email": "WILLEM_VAN_DER_BERG@GLOBALLOGISTICS.PL"
+    },
+    "onboardDate": "2024-11-11 22:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -9\u00b0C, VALUE: USD142,238, MAINTAIN HUMIDITY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3994175",
+    "temperature": "-9\u00b0C",
+    "minTemperature": "-11\u00b0C",
+    "maxTemperature": "-7\u00b0C",
+    "ventilation": "42%",
+    "humidity": "70%"
+  }
+}

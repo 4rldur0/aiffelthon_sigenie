@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202411065308",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO.",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "BETA GLOBAL SOLUTIONS",
+      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@BETAGLOBALSOLUTIONS.NL",
+      "contactPerson": "JAN VAN DER MEER"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT & EXPORT LTD."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940390",
+  "commodityDescription": "FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT7830979",
+      "sealNumber": "SEAL370290",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 10794.01,
+      "measurement": 39.59
+    },
+    {
+      "containerNumber": "CONT1321167",
+      "sealNumber": "SEAL631754",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 14281.27,
+      "measurement": 39.12
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 137,
+    "totalGrossWeight": 25075.28,
+    "totalMeasurement": 78.71
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241106-1001",
+    "documentNumber": "20241106-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BETA GLOBAL SOLUTIONS",
+      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD.",
+      "address": "123 MAIN STREET, LONDON, ENGLAND, UK",
+      "telephone": "+44-20-7631-1234",
+      "fax": "+44-20-7631-1235"
+    },
+    "onboardDate": "2024-11-14 16:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410263279",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FRESH PRODUCE LTD",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "456 BROADWAY, NEW YORK, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213",
+      "email": "INFO@GLOBALIMPORTS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "456 BROADWAY, NEW YORK, USA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "080590",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT9844568",
+      "sealNumber": "SEAL529030",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 11863.44,
+      "measurement": 38.05
+    },
+    {
+      "containerNumber": "CONT4993368",
+      "sealNumber": "SEAL561975",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 18547.32,
+      "measurement": 39.47
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 94,
+    "totalGrossWeight": 30410.76,
+    "totalMeasurement": 77.52
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241026-1001",
+    "documentNumber": "20241026-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "456 BROADWAY, NEW YORK, USA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS INC",
+      "address": "456 BROADWAY, NEW YORK, USA"
+    },
+    "onboardDate": "2024-11-07 22:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -9\u00b0C, VALUE: USD351,907, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2890877",
+    "temperature": "-9\u00b0C",
+    "minTemperature": "-11\u00b0C",
+    "maxTemperature": "-7\u00b0C",
+    "ventilation": "26%",
+    "humidity": "94%"
+  }
+}

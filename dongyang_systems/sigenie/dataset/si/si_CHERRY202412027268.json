@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202412027268",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "ALPHA INTERNATIONAL LTD",
+      "address": "456 AVENIDA PRINCIPAL, MADRID, SPAIN",
+      "telephone": "+34-91-1234-5678",
+      "fax": "+34-91-1234-5679",
+      "email": "INFO@ALPHAINTERNATIONAL.ES",
+      "contactPerson": "JUAN PEREZ"
+    },
+    "notifyParty": {
+      "name": "ALPHA INTERNATIONAL LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT9903624",
+      "sealNumber": "SEAL484447",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 9277.0,
+      "measurement": 22.47
+    },
+    {
+      "containerNumber": "CONT4173820",
+      "sealNumber": "SEAL419684",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 16768.07,
+      "measurement": 30.95
+    },
+    {
+      "containerNumber": "CONT7635775",
+      "sealNumber": "SEAL476995",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 6441.72,
+      "measurement": 25.23
+    },
+    {
+      "containerNumber": "CONT5588615",
+      "sealNumber": "SEAL673586",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 19316.45,
+      "measurement": 25.65
+    },
+    {
+      "containerNumber": "CONT1900216",
+      "sealNumber": "SEAL441397",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 16368.66,
+      "measurement": 33.43
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE TANK",
+    "totalPackages": 223,
+    "totalGrossWeight": 68171.9,
+    "totalMeasurement": 137.73
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202412027268-1",
+    "documentNumber": "202412027268-1",
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA INTERNATIONAL LTD",
+      "address": "456 AVENIDA PRINCIPAL, MADRID, SPAIN",
+      "telephone": "+34-91-1234-5678",
+      "fax": "+34-91-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA INTERNATIONAL LTD",
+      "address": "456 AVENIDA PRINCIPAL, MADRID, SPAIN",
+      "telephone": "+34-91-1234-5678",
+      "fax": "+34-91-1234-5679"
+    },
+    "onboardDate": "2024-12-17 16:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION, HANDLE WITH CARE"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202410161108",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA FOODS LTD.",
+      "address": "123 HUANGPU ROAD, SHANGHAI, CHINA, 200001",
+      "telephone": "+86 21 6326 8888",
+      "fax": "+86 21 6326 9999",
+      "email": "INFO@OMEGAFOODS.COM.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "AVENIDA DE LA ESPA\u00d1A 15, MADRID, SPAIN, 28001",
+      "taxId": "B12345678",
+      "president": "MR. JUAN GARCIA",
+      "telephone": "+34 91 567 8901",
+      "fax": "+34 91 567 8902",
+      "email": "JUAN.GARCIA@ALPHAIMPORT.ES"
+    },
+    "notifyParty": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030211",
+  "commodityDescription": "FROZEN BEEF",
+  "containers": [
+    {
+      "containerNumber": "CONT1191067",
+      "sealNumber": "SEAL125481",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 6477.18,
+      "measurement": 29.25
+    },
+    {
+      "containerNumber": "CONT2774447",
+      "sealNumber": "SEAL683024",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 8952.05,
+      "measurement": 27.63
+    },
+    {
+      "containerNumber": "CONT3630963",
+      "sealNumber": "SEAL528687",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 5930.04,
+      "measurement": 20.13
+    },
+    {
+      "containerNumber": "CONT5664966",
+      "sealNumber": "SEAL690500",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 11607.95,
+      "measurement": 30.17
+    },
+    {
+      "containerNumber": "CONT2731916",
+      "sealNumber": "SEAL893810",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 6054.81,
+      "measurement": 28.01
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD REEFER",
+    "totalPackages": 312,
+    "totalGrossWeight": 39022.03,
+    "totalMeasurement": 135.19
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 1234567890",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "AVENIDA DE LA ESPA\u00d1A 15, MADRID, SPAIN, 28001",
+      "telephone": "+34 91 567 8901",
+      "fax": "+34 91 567 8902",
+      "email": "JUAN.GARCIA@ALPHAIMPORT.ES"
+    },
+    "onboardDate": "2024-10-24 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -15\u00b0C, VALUE: USD609,955, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6060892",
+    "temperature": "-15\u00b0C",
+    "minTemperature": "-17\u00b0C",
+    "maxTemperature": "-13\u00b0C",
+    "ventilation": "44%",
+    "humidity": "67%"
+  }
+}

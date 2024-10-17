@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202411065079",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT EXPORT LTD.",
+      "onBehalfOf": "",
+      "address": "1234 IMPORT EXPORT STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@BETAIMPORT.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "5678 GLOBAL TRADING AVENUE, MADRID, SPAIN 28001",
+      "companyNumber": "123456789",
+      "telephone": "+34 91 498 7000",
+      "fax": "+34 91 498 7001",
+      "email": "JANSSEN.EMMA@ALPHAGLOBAL.ES"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": ""
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN SALMON",
+  "containers": [
+    {
+      "containerNumber": "CONT5560779",
+      "sealNumber": "SEAL486272",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 10004.47,
+      "measurement": 32.65
+    },
+    {
+      "containerNumber": "CONT5012410",
+      "sealNumber": "SEAL571149",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 16082.99,
+      "measurement": 28.57
+    },
+    {
+      "containerNumber": "CONT5596192",
+      "sealNumber": "SEAL428245",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 6322.39,
+      "measurement": 23.28
+    },
+    {
+      "containerNumber": "CONT2711656",
+      "sealNumber": "SEAL205557",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 16859.34,
+      "measurement": 25.9
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD REEFER",
+    "totalPackages": 182,
+    "totalGrossWeight": 49269.19,
+    "totalMeasurement": 110.4
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA IMPORT EXPORT LTD.",
+      "address": "1234 IMPORT EXPORT STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@BETAIMPORT.CN"
+    },
+    "onboardDate": "2024-11-17 10:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -16\u00b0C, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6263649",
+    "temperature": "-16\u00b0C",
+    "minTemperature": "-18\u00b0C",
+    "maxTemperature": "-14\u00b0C",
+    "ventilation": "59%",
+    "humidity": "82%"
+  }
+}

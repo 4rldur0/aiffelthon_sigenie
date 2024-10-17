@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410225405",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC COLD STORAGE CO.",
+      "address": "288 HUANGPU ROAD, NINGBO, CHINA 315040",
+      "telephone": "+86 574 8787 2222",
+      "fax": "+86 574 8787 1111",
+      "email": "LI.WEN@APCS.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 STADHOUWERSTRAAT, ROTTERDAM, NETHERLANDS 3011 AD",
+      "taxId": "NL852874123B01",
+      "president": "MR. JAN VAN DER WEE",
+      "telephone": "+31 10 204 6500",
+      "fax": "+31 10 204 6501",
+      "email": "ORDERS@GLOBALLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "EURO COLD CHAIN SOLUTIONS BV",
+      "address": "222 MARKTSTRAAT, ROTTERDAM, NETHERLANDS 3012 AB",
+      "taxId": "NL851972634A01",
+      "president": "MS. ANNA VAN DER SLOOT",
+      "telephone": "+31 10 777 5555",
+      "fax": "+31 10 777 5556"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030510",
+  "commodityDescription": "FROZEN TUNA",
+  "containers": [
+    {
+      "containerNumber": "CONT5882430",
+      "sealNumber": "SEAL598879",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 17603.41,
+      "measurement": 36.27
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 97,
+    "totalGrossWeight": 17603.41,
+    "totalMeasurement": 36.27
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN2024102254058",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 STADHOUWERSTRAAT, ROTTERDAM, NETHERLANDS 3011 AD",
+      "telephone": "+31 10 204 6500",
+      "fax": "+31 10 204 6501",
+      "email": "ORDERS@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 STADHOUWERSTRAAT, ROTTERDAM, NETHERLANDS 3011 AD",
+      "telephone": "+31 10 204 6500",
+      "fax": "+31 10 204 6501",
+      "email": "ORDERS@GLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 9\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8301027",
+    "temperature": "9\u00b0C",
+    "minTemperature": "7\u00b0C",
+    "maxTemperature": "11\u00b0C",
+    "ventilation": "62%",
+    "humidity": "94%"
+  }
+}

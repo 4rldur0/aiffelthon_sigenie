@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411016639",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING INC",
+      "address": "UNIT 502, 5TH FLOOR, SHANGHAI TOWER, 501 YIN CHENG ROAD, SHANGHAI, 200120, CHINA",
+      "telephone": "+86 21 6329 8900",
+      "fax": "+86 21 6329 8901",
+      "email": "LI.WANG@CHINASHIPPING.COM"
+    },
+    "consignee": {
+      "name": "EURO LOGISTICS BV",
+      "address": "KEIZERSGRACHT 235, 1016 GJ AMSTERDAM, NETHERLANDS",
+      "taxId": "NL851367564B01",
+      "president": "MR. PETER VAN DER MEIJDEN",
+      "telephone": "+31 20 624 5678",
+      "fax": "+31 20 624 5679",
+      "email": "PETER.VANDERMEIJDEN@EUROLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "DUTCH CARGO SERVICES BV",
+      "address": "SPUISTRAAT 23, 3012 VT ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 7500",
+      "fax": "+31 10 414 7501",
+      "email": "INFO@DUTCHCARGOSERVICES.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "282735",
+  "commodityDescription": "DANGEROUS CHEMICAL - SODIUM HYDROXIDE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT5190610",
+      "sealNumber": "SEAL191653",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 18968.02,
+      "measurement": 34.62
+    },
+    {
+      "containerNumber": "CONT4499568",
+      "sealNumber": "SEAL754655",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 12490.44,
+      "measurement": 23.64
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 106,
+    "totalGrossWeight": 31458.46,
+    "totalMeasurement": 58.26
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241113001"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CHINA FREIGHT FORWARDERS LTD",
+      "address": "UNIT 401, 4TH FLOOR, SHANGHAI INTERNATIONAL FINANCE CENTER, 8 CENTURY AVENUE, SHANGHAI, 200120, CHINA",
+      "telephone": "+86 21 6388 7800",
+      "fax": "+86 21 6388 7801",
+      "email": "LI.ZHAO@CHINAFORWARDERS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA FREIGHT FORWARDERS LTD",
+      "address": "UNIT 401, 4TH FLOOR, SHANGHAI INTERNATIONAL FINANCE CENTER, 8 CENTURY AVENUE, SHANGHAI, 200120, CHINA",
+      "telephone": "+86 21 6388 7800",
+      "fax": "+86 21 6388 7801",
+      "email": "LI.ZHAO@CHINAFORWARDERS.COM"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1182, VALUE: USD298,986, 30 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8583374",
+    "unClass": "2",
+    "unCode": "1182,",
+    "hsCode": "4960.61.41",
+    "flashPoint": "-10\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410293495",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MACHINERY CO",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "SALES@APMACHINERY.CN"
+    },
+    "consignee": {
+      "name": "EUROASIA IMPORTS LTD.",
+      "address": "123 RUE DE LA PAIX, LE HAVRE, FRANCE 76600",
+      "companyNumber": "123456789",
+      "telephone": "+33 2 35 18 20 30",
+      "fax": "+33 2 35 18 20 31",
+      "email": "PURCHASING@EUROASIAIMPORTS.FR"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "10 RUE DE PARIS, LE HAVRE, FRANCE 76600"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "TEXTILE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT2289912",
+      "sealNumber": "SEAL407192",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 19880.42,
+      "measurement": 38.2
+    },
+    {
+      "containerNumber": "CONT2141860",
+      "sealNumber": "SEAL547621",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 16174.59,
+      "measurement": 24.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 77,
+    "totalGrossWeight": 36055.01,
+    "totalMeasurement": 62.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROASIA IMPORTS LTD.",
+      "address": "123 RUE DE LA PAIX, LE HAVRE, FRANCE 76600",
+      "telephone": "+33 2 35 18 20 30",
+      "fax": "+33 2 35 18 20 31",
+      "email": "PURCHASING@EUROASIAIMPORTS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC MACHINERY CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "ON DECK TOP STOWAGE"
+  }
+}

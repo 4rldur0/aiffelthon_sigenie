@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410309135",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "123 INDUSTRY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@BETAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "Calle Mayor 123, 11001 Cadiz, SPAIN",
+      "country": "SPAIN",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457"
+    },
+    "notifyParty": {
+      "name": "SEA FREIGHT SOLUTIONS S.L.",
+      "address": "Avenida Andalucia 100, 11004 Seville, SPAIN",
+      "country": "SPAIN",
+      "email": "OPERATIONS@SEAFREIGHTSOLUTIONS.ES",
+      "telephone": "+34 954 123 456",
+      "fax": "+34 954 123 457"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT4682267",
+      "sealNumber": "SEAL702911",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 11487.5,
+      "measurement": 30.83
+    },
+    {
+      "containerNumber": "CONT2350301",
+      "sealNumber": "SEAL999862",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 10879.13,
+      "measurement": 21.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE TANK",
+    "totalPackages": 127,
+    "totalGrossWeight": 22366.63,
+    "totalMeasurement": 52.03
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "Calle Mayor 123, 11001 Cadiz, SPAIN",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "Calle Mayor 123, 11001 Cadiz, SPAIN",
+      "telephone": "+34 956 123 456",
+      "fax": "+34 956 123 457",
+      "email": "INFO@ALPHAIMPORTEXPORT.ES"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

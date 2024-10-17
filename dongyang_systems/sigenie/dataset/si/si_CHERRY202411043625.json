@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202411043625",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "1234 EAST TECH PARK ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "INFO@SUNRISEELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "1234 NORTH CANAL STREET, ROTTERDAM, 3011 GJ, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "1234 NORTH CANAL STREET, ROTTERDAM, 3011 GJ, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030510",
+  "commodityDescription": "FROZEN SHRIMP",
+  "containers": [
+    {
+      "containerNumber": "CONT8043808",
+      "sealNumber": "SEAL533245",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 15569.16,
+      "measurement": 20.55
+    },
+    {
+      "containerNumber": "CONT6644505",
+      "sealNumber": "SEAL394202",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 7810.68,
+      "measurement": 36.4
+    },
+    {
+      "containerNumber": "CONT8564078",
+      "sealNumber": "SEAL449102",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 7395.93,
+      "measurement": 33.14
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD REEFER",
+    "totalPackages": 115,
+    "totalGrossWeight": 30775.77,
+    "totalMeasurement": 90.09
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024110412345"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "1234 NORTH CANAL STREET, ROTTERDAM, 3011 GJ, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "1234 NORTH CANAL STREET, ROTTERDAM, 3011 GJ, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-11-14 12:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 10\u00b0C, VALUE: USD722,258, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2587943",
+    "temperature": "10\u00b0C",
+    "minTemperature": "8\u00b0C",
+    "maxTemperature": "12\u00b0C",
+    "ventilation": "85%",
+    "humidity": "93%"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202411183344",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 JURONG EAST STREET 13, SINGAPORE 609602",
+      "telephone": "+65 6567 8901",
+      "fax": "+65 6567 8902"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "LEVEL 15, MENARA HLA, 3 JALAN ANSON, SINGAPORE 079903",
+      "telephone": "+65 6226 8801",
+      "fax": "+65 6226 8802"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "LEVEL 15, MENARA HLA, 3 JALAN ANSON, SINGAPORE 079903",
+      "telephone": "+65 6226 8801",
+      "fax": "+65 6226 8802"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381300",
+  "commodityDescription": "DANGEROUS GOODS, SOLID, N.O.S.",
+  "containers": [
+    {
+      "containerNumber": "CONT3345471",
+      "sealNumber": "SEAL672188",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 12360.79,
+      "measurement": 26.65
+    },
+    {
+      "containerNumber": "CONT5068136",
+      "sealNumber": "SEAL783210",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 17849.51,
+      "measurement": 37.15
+    },
+    {
+      "containerNumber": "CONT4292248",
+      "sealNumber": "SEAL149407",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 11810.55,
+      "measurement": 31.16
+    },
+    {
+      "containerNumber": "CONT3856563",
+      "sealNumber": "SEAL879098",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 7996.38,
+      "measurement": 30.11
+    },
+    {
+      "containerNumber": "CONT2476768",
+      "sealNumber": "SEAL282061",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 16504.61,
+      "measurement": 32.96
+    },
+    {
+      "containerNumber": "CONT2783643",
+      "sealNumber": "SEAL112446",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 9249.19,
+      "measurement": 29.87
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD TANK",
+    "totalPackages": 277,
+    "totalGrossWeight": 75771.03,
+    "totalMeasurement": 187.9
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "LEVEL 15, MENARA HLA, 3 JALAN ANSON, SINGAPORE 079903",
+      "telephone": "+65 6226 8801",
+      "fax": "+65 6226 8802"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 JURONG EAST STREET 13, SINGAPORE 609602",
+      "telephone": "+65 6567 8901",
+      "fax": "+65 6567 8902"
+    },
+    "onboardDate": "2024-12-03 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1303, MAINTAIN HUMIDITY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3453593",
+    "unClass": "3",
+    "unCode": "1303,",
+    "hsCode": "9184.47.90",
+    "flashPoint": "79\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

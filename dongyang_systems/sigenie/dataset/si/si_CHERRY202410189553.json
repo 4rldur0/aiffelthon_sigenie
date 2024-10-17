@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202410189553",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECH SOLUTIONS INC.",
+      "address": "123 TECH LANE, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@TECHSOLUTIONS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL853829125B01",
+      "president": "MR. JAN VAN DER HEIJDEN",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@GLOBALTRADING.NL"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS BV",
+      "address": "456 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 555 6666",
+      "fax": "+31 10 555 7777",
+      "email": "INFO@EUROLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT6301701",
+      "sealNumber": "SEAL236803",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 8499.9,
+      "measurement": 20.29
+    },
+    {
+      "containerNumber": "CONT8840228",
+      "sealNumber": "SEAL826532",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 18189.08,
+      "measurement": 33.62
+    },
+    {
+      "containerNumber": "CONT5425446",
+      "sealNumber": "SEAL399231",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 9584.52,
+      "measurement": 26.86
+    },
+    {
+      "containerNumber": "CONT1152043",
+      "sealNumber": "SEAL320123",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 10924.04,
+      "measurement": 38.44
+    },
+    {
+      "containerNumber": "CONT7554515",
+      "sealNumber": "SEAL655325",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 5790.14,
+      "measurement": 30.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 285,
+    "totalGrossWeight": 52987.68,
+    "totalMeasurement": 149.37
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "INFO@GLOBALTRADING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TECH SOLUTIONS INC.",
+      "address": "123 TECH LANE, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@TECHSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-10-27 20:00",
+    "additionalRemarks": "HANDLE WITH CARE"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410125563",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA FOODS LTD.",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "DE BRIJNSTRAAT 123, 3011 AC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GLOBALTRADING.NL",
+      "contactPerson": "PETER VAN DER MEER"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING INC."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT1814125",
+      "sealNumber": "SEAL627428",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 10297.64,
+      "measurement": 24.15
+    },
+    {
+      "containerNumber": "CONT8905384",
+      "sealNumber": "SEAL534683",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 5742.1,
+      "measurement": 24.39
+    },
+    {
+      "containerNumber": "CONT6231455",
+      "sealNumber": "SEAL458012",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 11283.74,
+      "measurement": 37.91
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 115,
+    "totalGrossWeight": 27323.48,
+    "totalMeasurement": 86.45
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241012-1001",
+    "documentNumber": "20241012-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "DE BRIJNSTRAAT 123, 3011 AC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "DE BRIJNSTRAAT 123, 3011 AC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-11-06 09:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 0\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5946294",
+    "temperature": "0\u00b0C",
+    "minTemperature": "-2\u00b0C",
+    "maxTemperature": "2\u00b0C",
+    "ventilation": "27%",
+    "humidity": "79%"
+  }
+}

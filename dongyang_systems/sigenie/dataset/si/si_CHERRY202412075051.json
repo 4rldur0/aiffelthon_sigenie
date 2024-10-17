@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202412075051",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 123 4567",
+      "fax": "+86 574 123 4568",
+      "email": "INFO@SUNRISEGLOBAL.CN"
+    },
+    "consignee": {
+      "name": "ALPHA TRADING INC.",
+      "address": "123 ALPHA STREET, ALGECIRAS, SPAIN",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+34 956 123 4567",
+      "fax": "+34 956 123 4568",
+      "email": "INFO@ALPHATRADING.ES"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS S.L.",
+      "address": "123 BLUE SKY STREET, ALGECIRAS, SPAIN",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+34 956 789 1234",
+      "fax": "+34 956 789 1235",
+      "email": "INFO@BLUESKYLOGISTICS.ES"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILERS AND SEMI-TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CONT5277499",
+      "sealNumber": "SEAL204164",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 18837.33,
+      "measurement": 23.71
+    },
+    {
+      "containerNumber": "CONT3166051",
+      "sealNumber": "SEAL717606",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 12661.82,
+      "measurement": 35.12
+    },
+    {
+      "containerNumber": "CONT4067228",
+      "sealNumber": "SEAL855600",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 6575.79,
+      "measurement": 25.16
+    },
+    {
+      "containerNumber": "CONT5303326",
+      "sealNumber": "SEAL252076",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 11645.57,
+      "measurement": 21.71
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD OPEN TOP",
+    "totalPackages": 180,
+    "totalGrossWeight": 49720.51,
+    "totalMeasurement": 105.7
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-12-17 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 6153x2550x2222, VALUE: USD291,643, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6153",
+    "width": "2550",
+    "height": "2222",
+    "overWidth": "110",
+    "overHeight": "0"
+  }
+}

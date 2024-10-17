@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410253092",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO. LTD.",
+      "address": "2345 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA",
+      "telephone": "+86 574 8623 4567",
+      "fax": "+86 574 8623 4568",
+      "email": "INFO@BETATRADING.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8556789012345",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "JOHN.SMITH@ALPHAIMPORTEXPORT.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS BV",
+      "address": "4567 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 876 5432",
+      "fax": "+31 10 876 5433",
+      "email": "INFO@GLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940160",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT7424662",
+      "sealNumber": "SEAL668694",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 16631.86,
+      "measurement": 38.88
+    },
+    {
+      "containerNumber": "CONT1083435",
+      "sealNumber": "SEAL479757",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 13499.02,
+      "measurement": 23.3
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 155,
+    "totalGrossWeight": 30130.88,
+    "totalMeasurement": 62.18
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING AGENCY",
+      "address": "1234 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568",
+      "email": "INFO@GLOBALSIPPING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "JOHN.SMITH@ALPHAIMPORTEXPORT.NL"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

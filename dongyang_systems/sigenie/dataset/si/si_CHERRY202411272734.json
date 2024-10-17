@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411272734",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION ENGINEERING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA, 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAPRECISION.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, SOUTH HOLLAND, NETHERLANDS, 3011 AB",
+      "taxId": "NL853647283B01",
+      "president": "MR. PETER VAN DER MARK",
+      "telephone": "+31 10 246 5555",
+      "fax": "+31 10 246 5556",
+      "email": "PETER.VANDERMARK@GLOBALFREIGHT.NL"
+    },
+    "notifyParty": {
+      "name": "ASIA PRECISION ENGINEERING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA, 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAPRECISION.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "284440",
+  "commodityDescription": "SODIUM PERBORATE",
+  "containers": [
+    {
+      "containerNumber": "CONT7708436",
+      "sealNumber": "SEAL341849",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 17359.56,
+      "measurement": 37.48
+    },
+    {
+      "containerNumber": "CONT6608094",
+      "sealNumber": "SEAL257972",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 14523.9,
+      "measurement": 37.49
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 98,
+    "totalGrossWeight": 31883.46,
+    "totalMeasurement": 74.97
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241127001"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, SOUTH HOLLAND, NETHERLANDS, 3011 AB",
+      "telephone": "+31 10 246 5555",
+      "fax": "+31 10 246 5556",
+      "email": "PETER.VANDERMARK@GLOBALFREIGHT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PRECISION ENGINEERING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA, 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAPRECISION.COM"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2516, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8854514",
+    "unClass": "9",
+    "unCode": "2516,",
+    "hsCode": "4864.14.42",
+    "flashPoint": "11\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

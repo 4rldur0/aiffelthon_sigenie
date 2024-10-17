@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410105435",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA INDUSTRIES PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118532",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@ALPHAINDUSTRIES.COM.SG"
+    },
+    "consignee": {
+      "name": "GREENWAY SHIPPING LTD.",
+      "address": "123 ROTTERDAM STREET, ROTTERDAM 3011 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 246 8000",
+      "fax": "+31 10 246 8001",
+      "email": "INFO@GREENWAYShipping.NL",
+      "personincharge": "PETER VAN DER LINDE"
+    },
+    "notifyParty": {
+      "name": "GREENWAY LOGISTICS B.V.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM 3012 AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 345 6789",
+      "fax": "+31 10 345 6788",
+      "email": "NOTIFICATIONS@GREENWAYLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940160",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT2170765",
+      "sealNumber": "SEAL739798",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 16343.45,
+      "measurement": 32.65
+    },
+    {
+      "containerNumber": "CONT7239288",
+      "sealNumber": "SEAL657869",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 11238.9,
+      "measurement": 24.32
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD TANK",
+    "totalPackages": 89,
+    "totalGrossWeight": 27582.35,
+    "totalMeasurement": 56.97
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GREENWAY LOGISTICS B.V.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM 3012 AA, NETHERLANDS",
+      "telephone": "+31 10 345 6789",
+      "fax": "+31 10 345 6788",
+      "email": "NOTIFICATIONS@GREENWAYLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREENWAY SHIPPING LTD.",
+      "address": "123 ROTTERDAM STREET, ROTTERDAM 3011 AA, NETHERLANDS",
+      "telephone": "+31 10 246 8000",
+      "fax": "+31 10 246 8001",
+      "email": "INFO@GREENWAYShipping.NL"
+    },
+    "onboardDate": "2024-10-14 09:00",
+    "additionalRemarks": "MAINTAIN HUMIDITY"
+  }
+}

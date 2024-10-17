@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202412018360",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "UL. NOWA 123, 80-000 GDANSK, POLAND",
+      "telephone": "+48-58-555-6666",
+      "fax": "+48-58-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "903020",
+  "commodityDescription": "LASER SCANNER",
+  "containers": [
+    {
+      "containerNumber": "CONT3324244",
+      "sealNumber": "SEAL552422",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 9531.98,
+      "measurement": 30.59
+    },
+    {
+      "containerNumber": "CONT3136508",
+      "sealNumber": "SEAL915419",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 8481.57,
+      "measurement": 23.92
+    },
+    {
+      "containerNumber": "CONT8270202",
+      "sealNumber": "SEAL782552",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 16404.24,
+      "measurement": 36.74
+    },
+    {
+      "containerNumber": "CONT5092217",
+      "sealNumber": "SEAL659163",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 5731.01,
+      "measurement": 27.02
+    },
+    {
+      "containerNumber": "CONT6779334",
+      "sealNumber": "SEAL567043",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 16357.65,
+      "measurement": 22.72
+    },
+    {
+      "containerNumber": "CONT7653143",
+      "sealNumber": "SEAL463603",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 9496.48,
+      "measurement": 34.48
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD GENERAL",
+    "totalPackages": 243,
+    "totalGrossWeight": 66002.93,
+    "totalMeasurement": 175.47
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-16 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2897, VALUE: USD42,642",
+    "dangerousGoods": {
+      "unNumber": "2897",
+      "properShippingName": "LASER SCANNER WITH BATTERY"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1115667",
+    "unClass": "5",
+    "unCode": "2897,",
+    "hsCode": "9080.19.70",
+    "flashPoint": "29\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

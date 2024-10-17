@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410312959",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "282590",
+  "commodityDescription": "CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT9854495",
+      "sealNumber": "SEAL363401",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 14043.51,
+      "measurement": 20.49
+    },
+    {
+      "containerNumber": "CONT6234490",
+      "sealNumber": "SEAL976883",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 11940.76,
+      "measurement": 32.49
+    },
+    {
+      "containerNumber": "CONT5264275",
+      "sealNumber": "SEAL489180",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 7154.52,
+      "measurement": 23.83
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 146,
+    "totalGrossWeight": 33138.79,
+    "totalMeasurement": 76.81
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "MATERIAL SAFETY DATA SHEET (MSDS)"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC CHEMICALS LTD.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "onboardDate": "2024-11-11 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2825, THIS SIDE UP"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8543312",
+    "unClass": "7",
+    "unCode": "2825,",
+    "hsCode": "8655.49.11",
+    "flashPoint": "12\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

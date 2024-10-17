@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410177417",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE PRODUCE CO.",
+      "address": "123 ORCHARD ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@SUNRISEPRODUCE.COM"
+    },
+    "consignee": {
+      "name": "AGROEXPORT LTD.",
+      "address": "C/ REAL, 123, ALGECIRAS, SPAIN 11001",
+      "taxId": "",
+      "president": "MR. JUAN GARCIA",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13",
+      "email": "JUAN.GARCIA@AGROEXPORT.COM"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS SPAIN S.A.",
+      "address": "C/ MARINA, 456, ALGECIRAS, SPAIN 11002",
+      "taxId": "",
+      "president": "MS. MARIA RODRIGUEZ",
+      "telephone": "+34 956 7890 14",
+      "fax": "+34 956 7890 15"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080510",
+  "commodityDescription": "ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT2013060",
+      "sealNumber": "SEAL124475",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 12021.49,
+      "measurement": 30.33
+    },
+    {
+      "containerNumber": "CONT3643010",
+      "sealNumber": "SEAL469312",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 7855.66,
+      "measurement": 28.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 122,
+    "totalGrossWeight": 19877.15,
+    "totalMeasurement": 58.95
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241017001"
+    },
+    "certificateDetails": "C0000171595",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-10-23 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -18\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3845372",
+    "temperature": "-18\u00b0C",
+    "minTemperature": "-20\u00b0C",
+    "maxTemperature": "-16\u00b0C",
+    "ventilation": "13%",
+    "humidity": "68%"
+  }
+}

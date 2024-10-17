@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411027247",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SIEMENS AG",
+      "address": "WITTEHISE 30, 10587 BERLIN, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 30 2024 1000",
+      "email": "INFO@SIEMENS.COM"
+    },
+    "consignee": {
+      "name": "AMAZON LOGISTICS GMBH",
+      "address": "GRIFFINSTRASSE 1, 10587 BERLIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@AMAZONLOGISTICS.DE",
+      "telephone": "+49 30 3030 1000",
+      "fax": "+49 30 3030 1001"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "POSTFACH 10 02 36, 60002 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@DHL.COM",
+      "telephone": "+49 69 5005 0000",
+      "fax": "+49 69 5005 1000"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "841869",
+  "commodityDescription": "MACHINERY FOR THE INDUSTRIAL TREATMENT OF TEXTILE FIBRES",
+  "containers": [
+    {
+      "containerNumber": "CONT6642350",
+      "sealNumber": "SEAL799386",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 18860.71,
+      "measurement": 39.07
+    },
+    {
+      "containerNumber": "CONT5819414",
+      "sealNumber": "SEAL382596",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 19240.59,
+      "measurement": 38.9
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 148,
+    "totalGrossWeight": 38101.3,
+    "totalMeasurement": 77.97
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "AMAZON LOGISTICS GMBH",
+      "address": "GRIFFINSTRASSE 1, 10587 BERLIN, GERMANY",
+      "telephone": "+49 30 3030 1000",
+      "fax": "+49 30 3030 1001",
+      "email": "INFO@AMAZONLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "AMAZON LOGISTICS GMBH",
+      "address": "GRIFFINSTRASSE 1, 10587 BERLIN, GERMANY",
+      "telephone": "+49 30 3030 1000",
+      "fax": "+49 30 3030 1001",
+      "email": "INFO@AMAZONLOGISTICS.DE"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

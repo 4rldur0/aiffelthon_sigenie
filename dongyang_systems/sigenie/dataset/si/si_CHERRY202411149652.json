@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411149652",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECH SOLUTIONS INC.",
+      "address": "123 TECH PARK ROAD, SHANGHAI, CHINA 200001",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@TECHSOLUTIONSINC.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE LOGISTICS LLC.",
+      "address": "124 CANAL STREET, ROTTERDAM, NETHERLANDS 3011EB",
+      "taxId": "",
+      "president": "MR. PETER SMITH",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "PETER.SMITH@SUNRISELOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "DUTCH IMPORT SERVICES BV",
+      "address": "125 PORT STREET, ROTTERDAM, NETHERLANDS 3012AB",
+      "taxId": "",
+      "president": "MS. ANNA JOHNSON",
+      "telephone": "+31 10 555 6666",
+      "fax": "+31 10 555 7777"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "847989",
+  "commodityDescription": "OUT OF GAUGE INDUSTRIAL MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CONT6576066",
+      "sealNumber": "SEAL403564",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 19977.08,
+      "measurement": 30.93
+    },
+    {
+      "containerNumber": "CONT9568751",
+      "sealNumber": "SEAL428244",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 16513.98,
+      "measurement": 34.55
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD FLAT RACK",
+    "totalPackages": 100,
+    "totalGrossWeight": 36491.06,
+    "totalMeasurement": 65.48
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-24 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 4634x2980x2653, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "4634",
+    "width": "2980",
+    "height": "2653",
+    "overWidth": "540",
+    "overHeight": "63"
+  }
+}

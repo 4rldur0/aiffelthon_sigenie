@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411108155",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "WORLDWIDE IMPORTS LTD.",
+      "address": "1234 MAIN STREET, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(UNIT 501)",
+      "telephone": "+86 21 5555 6666",
+      "email": "SHIPMENTS@WORLDWIDEIMPORTS.CN"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS INC.",
+      "address": "4567 PORT ROAD, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@APLOGISTICS.NL",
+      "telephone": "+31 10 777 8888"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE IMPORTS LTD.",
+      "address": "1234 MAIN STREET, SHANGHAI, 200000",
+      "country": "CHINA",
+      "email": "SHIPMENTS@WORLDWIDEIMPORTS.CN",
+      "telephone": "+86 21 5555 6666"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940330",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT7369367",
+      "sealNumber": "SEAL380681",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 10439.4,
+      "measurement": 21.83
+    },
+    {
+      "containerNumber": "CONT4454640",
+      "sealNumber": "SEAL238372",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 19046.4,
+      "measurement": 25.88
+    },
+    {
+      "containerNumber": "CONT8095707",
+      "sealNumber": "SEAL830624",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 16367.54,
+      "measurement": 22.1
+    },
+    {
+      "containerNumber": "CONT2197973",
+      "sealNumber": "SEAL693087",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 5706.4,
+      "measurement": 34.81
+    },
+    {
+      "containerNumber": "CONT8754500",
+      "sealNumber": "SEAL832612",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 6065.89,
+      "measurement": 20.05
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 45 HIGH CUBE TANK",
+    "totalPackages": 361,
+    "totalGrossWeight": 57625.63,
+    "totalMeasurement": 124.67
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS INC.",
+      "address": "4567 PORT ROAD, ROTTERDAM, 3011 NL",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8889",
+      "email": "ORDERS@APLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE IMPORTS LTD.",
+      "address": "1234 MAIN STREET, SHANGHAI, 200000",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667",
+      "email": "SHIPMENTS@WORLDWIDEIMPORTS.CN"
+    },
+    "onboardDate": "2024-11-16 12:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION, KEEP DRY"
+  }
+}

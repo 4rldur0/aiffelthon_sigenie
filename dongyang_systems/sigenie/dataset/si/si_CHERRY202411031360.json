@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411031360",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INTERNATIONAL CO.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "NO. 456, BREDE STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31-10-202-5555",
+      "fax": "+31-10-202-5556"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940171",
+  "commodityDescription": "METAL CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT5086792",
+      "sealNumber": "SEAL696274",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 12488.18,
+      "measurement": 28.48
+    },
+    {
+      "containerNumber": "CONT5575475",
+      "sealNumber": "SEAL230284",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 12747.01,
+      "measurement": 24.16
+    },
+    {
+      "containerNumber": "CONT6249119",
+      "sealNumber": "SEAL367611",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 5368.43,
+      "measurement": 27.69
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE TANK",
+    "totalPackages": 74,
+    "totalGrossWeight": 30603.62,
+    "totalMeasurement": 80.33
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-11 18:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  }
+}

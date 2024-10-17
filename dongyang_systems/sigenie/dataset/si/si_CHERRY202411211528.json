@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411211528",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86-574-1234-5678",
+      "fax": "+86-574-1234-5679"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, GDANSK, POLAND",
+      "telephone": "+48-58-1234-5678",
+      "fax": "+48-58-1234-5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "contactPerson": "ANNA NOWAK"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, GDANSK, POLAND",
+      "telephone": "+48-58-1234-5678",
+      "fax": "+48-58-1234-5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS AND GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT1893525",
+      "sealNumber": "SEAL589530",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 11460.18,
+      "measurement": 28.17
+    },
+    {
+      "containerNumber": "CONT7721282",
+      "sealNumber": "SEAL372507",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 12427.59,
+      "measurement": 23.96
+    },
+    {
+      "containerNumber": "CONT6989408",
+      "sealNumber": "SEAL380481",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 9458.69,
+      "measurement": 32.33
+    },
+    {
+      "containerNumber": "CONT4907350",
+      "sealNumber": "SEAL801351",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 8192.46,
+      "measurement": 38.29
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD TANK",
+    "totalPackages": 275,
+    "totalGrossWeight": 41538.92,
+    "totalMeasurement": 122.75
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241121-1001",
+    "documentNumber": "20241121-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, GDANSK, POLAND",
+      "telephone": "+48-58-1234-5678",
+      "fax": "+48-58-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "456 BROADWAY, GDANSK, POLAND",
+      "telephone": "+48-58-1234-5678",
+      "fax": "+48-58-1234-5679"
+    },
+    "onboardDate": "2024-12-11 21:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202410142860",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HARVE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "address": "123 SAMSUNG TOWN, SUWON-SI, GYEONGGI-DO, SOUTH KOREA 443-772",
+      "telephone": "+82-31-288-3333",
+      "fax": "+82-31-288-3334"
+    },
+    "consignee": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "PO BOX 322, 3191 KONGSBERG, NORWAY",
+      "telephone": "+47-32-74-10-00",
+      "fax": "+47-32-74-10-01"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "123 RUE DE LA PAIX, PARIS, FRANCE 75000",
+      "telephone": "+33-1-45-67-89-01",
+      "fax": "+33-1-45-67-89-02"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "392690",
+  "commodityDescription": "DANGEROUS GOODS, UN 3060",
+  "containers": [
+    {
+      "containerNumber": "CONT8722841",
+      "sealNumber": "SEAL581151",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 8898.68,
+      "measurement": 31.94
+    },
+    {
+      "containerNumber": "CONT1439693",
+      "sealNumber": "SEAL812130",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 12603.89,
+      "measurement": 26.77
+    },
+    {
+      "containerNumber": "CONT4779238",
+      "sealNumber": "SEAL263621",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 14720.87,
+      "measurement": 30.65
+    },
+    {
+      "containerNumber": "CONT3162846",
+      "sealNumber": "SEAL593608",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 9817.92,
+      "measurement": 22.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD GENERAL",
+    "totalPackages": 236,
+    "totalGrossWeight": 46041.36,
+    "totalMeasurement": 111.38
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "123 RUE DE LA PAIX, PARIS, FRANCE 75000",
+      "telephone": "+33-1-45-67-89-01",
+      "fax": "+33-1-45-67-89-02"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "123 RUE DE LA PAIX, PARIS, FRANCE 75000",
+      "telephone": "+33-1-45-67-89-01",
+      "fax": "+33-1-45-67-89-02"
+    },
+    "onboardDate": "2024-10-21 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3060, VALUE: USD491,638"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7558862",
+    "unClass": "5",
+    "unCode": "3060,",
+    "hsCode": "7351.52.52",
+    "flashPoint": "31\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

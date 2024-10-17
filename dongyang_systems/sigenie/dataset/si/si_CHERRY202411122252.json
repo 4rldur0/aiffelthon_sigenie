@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411122252",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION MACHINERY SOLUTIONS PTE LTD",
+      "address": "123 Anson ROAD, SINGAPORE 079909",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6222 7193",
+      "fax": "+65 6222 7778",
+      "email": "ZHANG.WEI@PRECISIONMACHINERY.SG"
+    },
+    "consignee": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "123 RUE DE LA PAIX, PARIS, FRANCE 75000",
+      "country": "FRANCE",
+      "telephone": "+33 1 42 81 73 25",
+      "fax": "+33 1 42 81 73 90",
+      "email": "MAREK.KOWALSKI@ABCGLOBALLOGISTICS.FR"
+    },
+    "notifyParty": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "123 RUE DE LA PAIX, PARIS, FRANCE 75000",
+      "country": "FRANCE",
+      "telephone": "+33 1 42 81 73 25",
+      "fax": "+33 1 42 81 73 90",
+      "email": "MAREK.KOWALSKI@ABCGLOBALLOGISTICS.FR"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "901480",
+  "commodityDescription": "COLD-FORMING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT7825457",
+      "sealNumber": "SEAL580376",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 15587.03,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CONT3508376",
+      "sealNumber": "SEAL405069",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 7581.12,
+      "measurement": 32.03
+    },
+    {
+      "containerNumber": "CONT5557483",
+      "sealNumber": "SEAL706533",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 13812.99,
+      "measurement": 29.25
+    },
+    {
+      "containerNumber": "CONT8128159",
+      "sealNumber": "SEAL551283",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 5431.72,
+      "measurement": 37.36
+    },
+    {
+      "containerNumber": "CONT3581627",
+      "sealNumber": "SEAL273254",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 9782.97,
+      "measurement": 23.47
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE REEFER",
+    "totalPackages": 384,
+    "totalGrossWeight": 52195.83,
+    "totalMeasurement": 146.61
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      " FUMIGATION CERTIFICATE",
+      " CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "123 RUE DE LA PAIX, PARIS, FRANCE 75000",
+      "telephone": "+33 1 42 81 73 25",
+      "fax": "+33 1 42 81 73 90",
+      "email": "MAREK.KOWALSKI@ABCGLOBALLOGISTICS.FR"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "123 RUE DE LA PAIX, PARIS, FRANCE 75000",
+      "telephone": "+33 1 42 81 73 25",
+      "fax": "+33 1 42 81 73 90",
+      "email": "MAREK.KOWALSKI@ABCGLOBALLOGISTICS.FR"
+    },
+    "onboardDate": "2024-11-19 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 15\u00b0C, VALUE: USD328,796"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6691054",
+    "temperature": "15\u00b0C",
+    "minTemperature": "13\u00b0C",
+    "maxTemperature": "17\u00b0C",
+    "ventilation": "28%",
+    "humidity": "73%"
+  }
+}

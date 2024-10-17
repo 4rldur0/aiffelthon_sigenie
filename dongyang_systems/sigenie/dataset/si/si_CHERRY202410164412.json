@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410164412",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA CHEMICALS INC.",
+      "address": "123 CHEMICAL PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL IMPORTS LTD",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "notifyParty": {
+      "name": "SAME AS CONSIGNEE",
+      "address": "",
+      "telephone": "",
+      "fax": ""
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "282739",
+  "commodityDescription": "NITROGEN-FUNCTION COMPOUNDS",
+  "containers": [
+    {
+      "containerNumber": "CONT9413727",
+      "sealNumber": "SEAL468659",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 12099.53,
+      "measurement": 22.44
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE TANK",
+    "totalPackages": 32,
+    "totalGrossWeight": 12099.53,
+    "totalMeasurement": 22.44
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241025ALPHA"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF DANGEROUS GOODS"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL IMPORTS LTD",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL IMPORTS LTD",
+      "address": "150 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568"
+    },
+    "onboardDate": "2024-10-27 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1920"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8516926",
+    "unClass": "4",
+    "unCode": "1920",
+    "hsCode": "8115.23.19",
+    "flashPoint": "84\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

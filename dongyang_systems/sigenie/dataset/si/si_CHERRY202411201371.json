@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411201371",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 FIRST AVENUE, GDANSK, POLAND 80-000",
+      "taxId": "PL1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS GDANSK",
+      "address": "123 PORT STREET, GDANSK, POLAND 80-000",
+      "taxId": "PL9876543210",
+      "president": "MS. ANNA JONES",
+      "telephone": "+48 58 987 6543",
+      "fax": "+48 58 987 6544"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950691",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT5615557",
+      "sealNumber": "SEAL190549",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 18154.21,
+      "measurement": 34.36
+    },
+    {
+      "containerNumber": "CONT6483816",
+      "sealNumber": "SEAL621695",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 6414.79,
+      "measurement": 37.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE TANK",
+    "totalPackages": 139,
+    "totalGrossWeight": 24569.0,
+    "totalMeasurement": 71.86
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-03 09:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

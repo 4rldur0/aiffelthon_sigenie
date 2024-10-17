@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410103741",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA MANUFACTURING INC.",
+      "address": "1234 FACTORY LANE, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ALPHAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "BETA LOGISTICS LTD.",
+      "address": "100 LOGISTICS STREET, ALGECIRAS, SPAIN, 11001",
+      "taxId": "ES1234567890",
+      "president": "Ms. MARIA FERNANDEZ",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 123457",
+      "email": "MARIA.FERNANDEZ@BETALOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST SPAIN GLOBAL LOGISTICS S.L.",
+      "address": "555 GLOBAL STREET, ALGECIRAS, SPAIN, 11002",
+      "taxId": "ES9876543210",
+      "president": "Mr. JUAN RODRIGUEZ",
+      "telephone": "+34 956 678901",
+      "fax": "+34 956 678902"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950691",
+  "commodityDescription": "STATUES OF STONE",
+  "containers": [
+    {
+      "containerNumber": "CONT2978454",
+      "sealNumber": "SEAL232909",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 5067.01,
+      "measurement": 36.86
+    },
+    {
+      "containerNumber": "CONT1378861",
+      "sealNumber": "SEAL904530",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 11349.63,
+      "measurement": 36.03
+    },
+    {
+      "containerNumber": "CONT3978387",
+      "sealNumber": "SEAL277564",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 18885.95,
+      "measurement": 24.59
+    },
+    {
+      "containerNumber": "CONT1813860",
+      "sealNumber": "SEAL805387",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 14376.42,
+      "measurement": 39.69
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE TANK",
+    "totalPackages": 154,
+    "totalGrossWeight": 49679.01,
+    "totalMeasurement": 137.17
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SPAIN GLOBAL LOGISTICS S.L.",
+      "address": "555 GLOBAL STREET, ALGECIRAS, SPAIN, 11002",
+      "telephone": "+34 956 678901",
+      "fax": "+34 956 678902",
+      "email": "JUAN.RODRIGUEZ@FIRSTGLOBALLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA LOGISTICS LTD.",
+      "address": "100 LOGISTICS STREET, ALGECIRAS, SPAIN, 11001",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 123457",
+      "email": "MARIA.FERNANDEZ@BETALOGISTICS.COM"
+    },
+    "onboardDate": "2024-10-16 18:00",
+    "additionalRemarks": "FRAGILE"
+  }
+}

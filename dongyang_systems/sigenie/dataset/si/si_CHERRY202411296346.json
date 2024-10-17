@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202411296346",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TAIWAN FOOD EXPORTERS CO. LTD.",
+      "address": "123 TAIWAN FOOD STREET, TAIPEI, TAIWAN",
+      "country": "TAIWAN",
+      "additionalInfo": "",
+      "telephone": "+886 2 2785 9000",
+      "fax": "+886 2 2785 9001",
+      "email": "INFO@TAIWANFOODEXPORTERS.COM"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN IMPORTERS",
+      "address": "123 GOLDEN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 200 5000",
+      "fax": "+31 10 200 5001",
+      "email": "INFO@GOLDENSUNIMPORTERS.NL",
+      "personincharge": "PETER VAN DER ZEE"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN LOGISTICS BV",
+      "address": "123 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 300 6000",
+      "fax": "+31 10 300 6001",
+      "email": "INFO@GOLDENSUNLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030749",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT3617751",
+      "sealNumber": "SEAL804756",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 6521.32,
+      "measurement": 35.6
+    },
+    {
+      "containerNumber": "CONT5005461",
+      "sealNumber": "SEAL454714",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 14593.21,
+      "measurement": 21.68
+    },
+    {
+      "containerNumber": "CONT9729433",
+      "sealNumber": "SEAL866625",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 10233.77,
+      "measurement": 37.85
+    },
+    {
+      "containerNumber": "CONT5198503",
+      "sealNumber": "SEAL234008",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 13954.42,
+      "measurement": 33.82
+    },
+    {
+      "containerNumber": "CONT9437905",
+      "sealNumber": "SEAL505862",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 8831.63,
+      "measurement": 32.41
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD REEFER",
+    "totalPackages": 253,
+    "totalGrossWeight": 54134.35,
+    "totalMeasurement": 161.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "511252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-12-12 21:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 4\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9470146",
+    "temperature": "4\u00b0C",
+    "minTemperature": "2\u00b0C",
+    "maxTemperature": "6\u00b0C",
+    "ventilation": "39%",
+    "humidity": "94%"
+  }
+}

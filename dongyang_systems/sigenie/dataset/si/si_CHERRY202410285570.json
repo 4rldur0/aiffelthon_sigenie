@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410285570",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORTS INC.",
+      "address": "123 MAIN STREET, BEIJING, CHINA, 100000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 10 1234 5678",
+      "fax": "+86 10 1234 5679",
+      "email": "INFO@BETAIMPORTS.COM"
+    },
+    "consignee": {
+      "name": "ZENITH GLOBAL TRADING LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 1234 5679",
+      "email": "INFO@ZENITHGLOBAL.COM"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "123 PRINS Hendrikkade, ROTTERDAM, NETHERLANDS, 3011 GD",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "INFO@WORLDWIDELOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "961610",
+  "commodityDescription": "CANDY ASSORTMENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT9061206",
+      "sealNumber": "SEAL596296",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 5796.58,
+      "measurement": 36.25
+    },
+    {
+      "containerNumber": "CONT6303719",
+      "sealNumber": "SEAL157217",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 13870.97,
+      "measurement": 24.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 180,
+    "totalGrossWeight": 19667.55,
+    "totalMeasurement": 60.65
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH GLOBAL TRADING LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 1234 5679",
+      "email": "INFO@ZENITHGLOBAL.COM"
+    },
+    "onboardDate": "2024-11-07 16:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION, THIS SIDE UP",
+    "reeferSettings": {
+      "temperature": 10.0,
+      "humidity": 75.0
+    }
+  }
+}

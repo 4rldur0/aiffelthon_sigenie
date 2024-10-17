@@ -1,0 +1,141 @@
+{
+  "bookingReference": "CHERRY202411148386",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "FRANKFURT"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FOODS LTD",
+      "address": "123 SUNRISE AVENUE, NINGBO, ZHEJIANG PROVINCE, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 2583 9000",
+      "fax": "+86 574 2583 9001",
+      "email": "ZHIYEUN.HA@SUNRISEFOODS.CN"
+    },
+    "consignee": {
+      "name": "EUROASIA LOGISTICS GROUP",
+      "address": "888 FRANKFURTER STRASSE, FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 9555 500",
+      "fax": "+49 69 9555 501",
+      "email": "CONTACT@EUROASIALOGISTICS.DE",
+      "personincharge": "FRANK MEIER"
+    },
+    "notifyParty": {
+      "name": "FRANKFURT COLD STORAGE GMBH",
+      "address": "456 WAREHOUSE STREET, FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 69 9666 600",
+      "fax": "+49 69 9666 601",
+      "email": "OMAR.BENALI@FRANKFURTCOLDSTORAGE.DE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "070200",
+  "commodityDescription": "APPLES",
+  "containers": [
+    {
+      "containerNumber": "CONT7181708",
+      "sealNumber": "SEAL701210",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 8468.21,
+      "measurement": 35.45
+    },
+    {
+      "containerNumber": "CONT9396110",
+      "sealNumber": "SEAL108857",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 6165.83,
+      "measurement": 24.95
+    },
+    {
+      "containerNumber": "CONT5428011",
+      "sealNumber": "SEAL227578",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 16392.26,
+      "measurement": 27.26
+    },
+    {
+      "containerNumber": "CONT7509072",
+      "sealNumber": "SEAL330724",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 19753.26,
+      "measurement": 21.79
+    },
+    {
+      "containerNumber": "CONT6883019",
+      "sealNumber": "SEAL385246",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 12628.62,
+      "measurement": 21.18
+    },
+    {
+      "containerNumber": "CONT1544745",
+      "sealNumber": "SEAL730287",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 14268.91,
+      "measurement": 28.73
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD REEFER",
+    "totalPackages": 371,
+    "totalGrossWeight": 77677.09,
+    "totalMeasurement": 159.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROASIA LOGISTICS GROUP",
+      "address": "888 FRANKFURTER STRASSE, FRANKFURT, GERMANY",
+      "telephone": "+49 69 9555 500",
+      "fax": "+49 69 9555 501",
+      "email": "ZHANG.MEI@EUROASIALOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA LOGISTICS GROUP",
+      "address": "888 FRANKFURTER STRASSE, FRANKFURT, GERMANY",
+      "telephone": "+49 69 9555 500",
+      "fax": "+49 69 9555 501",
+      "email": "ZHANG.MEI@EUROASIALOGISTICS.DE"
+    },
+    "onboardDate": "2024-11-17 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 13\u00b0C, VALUE: USD374,334, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6985353",
+    "temperature": "13\u00b0C",
+    "minTemperature": "11\u00b0C",
+    "maxTemperature": "15\u00b0C",
+    "ventilation": "18%",
+    "humidity": "61%"
+  }
+}

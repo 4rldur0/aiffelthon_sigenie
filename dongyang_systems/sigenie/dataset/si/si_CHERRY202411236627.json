@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202411236627",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE FOOD INDUSTRIES PTE LTD",
+      "address": "123 JURONG EAST STREET 31, SINGAPORE 609517",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING BV",
+      "address": "VIJVERBERG 35, 3011 BL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-246-5000",
+      "fax": "+31-10-246-5001",
+      "email": "INFO@DHL.COM",
+      "contactPerson": "JAN VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING BV"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030199",
+  "commodityDescription": "FRESH SEAFOOD",
+  "containers": [
+    {
+      "containerNumber": "CONT4830627",
+      "sealNumber": "SEAL445180",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 8656.43,
+      "measurement": 21.0
+    },
+    {
+      "containerNumber": "CONT8317186",
+      "sealNumber": "SEAL748989",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 19238.31,
+      "measurement": 36.94
+    },
+    {
+      "containerNumber": "CONT1347184",
+      "sealNumber": "SEAL310762",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 17652.39,
+      "measurement": 33.69
+    },
+    {
+      "containerNumber": "CONT4018949",
+      "sealNumber": "SEAL259270",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 16411.96,
+      "measurement": 24.74
+    },
+    {
+      "containerNumber": "CONT6323429",
+      "sealNumber": "SEAL294813",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 19561.78,
+      "measurement": 29.42
+    },
+    {
+      "containerNumber": "CONT5111387",
+      "sealNumber": "SEAL490589",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 15767.65,
+      "measurement": 20.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE REEFER",
+    "totalPackages": 239,
+    "totalGrossWeight": 97288.52,
+    "totalMeasurement": 165.99
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241123-1001",
+    "documentNumber": "20241123-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241123001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING BV",
+      "address": "VIJVERBERG 35, 3011 BL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-246-5000",
+      "fax": "+31-10-246-5001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING BV",
+      "address": "VIJVERBERG 35, 3011 BL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-246-5000",
+      "fax": "+31-10-246-5001"
+    },
+    "onboardDate": "2024-12-09 12:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 4\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7518418",
+    "temperature": "4\u00b0C",
+    "minTemperature": "2\u00b0C",
+    "maxTemperature": "6\u00b0C",
+    "ventilation": "80%",
+    "humidity": "62%"
+  }
+}

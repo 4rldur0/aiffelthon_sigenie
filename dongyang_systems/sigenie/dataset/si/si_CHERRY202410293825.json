@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202410293825",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC COLD CHAIN LOGISTICS",
+      "address": "123 COLD CHAIN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 8768 4500",
+      "fax": "+86 21 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN TILAPIA FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT1257746",
+      "sealNumber": "SEAL382948",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 8546.69,
+      "measurement": 37.71
+    },
+    {
+      "containerNumber": "CONT4720618",
+      "sealNumber": "SEAL438908",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 12463.89,
+      "measurement": 23.83
+    },
+    {
+      "containerNumber": "CONT7667897",
+      "sealNumber": "SEAL699148",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 18696.14,
+      "measurement": 24.9
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 134,
+    "totalGrossWeight": 39706.72,
+    "totalMeasurement": 86.44
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 0\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT5229849",
+    "temperature": "0\u00b0C",
+    "minTemperature": "-2\u00b0C",
+    "maxTemperature": "2\u00b0C",
+    "ventilation": "50%",
+    "humidity": "83%"
+  }
+}

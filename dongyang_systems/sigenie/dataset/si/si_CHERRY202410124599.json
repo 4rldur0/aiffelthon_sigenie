@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410124599",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "UL. NOWA 123, 80-100 GDANSK, POLAND",
+      "telephone": "+48-58-555-6666",
+      "fax": "+48-58-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950430",
+  "commodityDescription": "PLAYING CARDS",
+  "containers": [
+    {
+      "containerNumber": "CONT9901902",
+      "sealNumber": "SEAL249068",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 7809.85,
+      "measurement": 35.83
+    },
+    {
+      "containerNumber": "CONT7610617",
+      "sealNumber": "SEAL247019",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 15457.32,
+      "measurement": 36.27
+    },
+    {
+      "containerNumber": "CONT7652137",
+      "sealNumber": "SEAL164053",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 19239.37,
+      "measurement": 21.24
+    },
+    {
+      "containerNumber": "CONT4732314",
+      "sealNumber": "SEAL636433",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 6109.98,
+      "measurement": 26.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD GENERAL",
+    "totalPackages": 178,
+    "totalGrossWeight": 48616.52,
+    "totalMeasurement": 119.34
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-10-23 19:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202411193559",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO. LTD",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "124 GLOBAL STREET, CASABLANCA, MOROCCO 20000",
+      "taxId": "MA123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+212 5 2222 3333",
+      "fax": "+212 5 2222 3332",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "MAERSK LOGISTICS",
+      "address": "125 MAERSK STREET, CASABLANCA, MOROCCO 20000",
+      "taxId": "",
+      "president": "MS. JANE DOE",
+      "telephone": "+212 5 2222 4444",
+      "fax": "+212 5 2222 4442"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "38249997",
+  "commodityDescription": "SODIUM HYPOCHLORITE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT8589459",
+      "sealNumber": "SEAL913172",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 10697.27,
+      "measurement": 28.45
+    },
+    {
+      "containerNumber": "CONT1863662",
+      "sealNumber": "SEAL954509",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 13842.61,
+      "measurement": 33.73
+    },
+    {
+      "containerNumber": "CONT2197403",
+      "sealNumber": "SEAL424621",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 15741.04,
+      "measurement": 36.12
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 148,
+    "totalGrossWeight": 40280.92,
+    "totalMeasurement": 98.3
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "124 GLOBAL STREET, CASABLANCA, MOROCCO 20000",
+      "telephone": "+212 5 2222 3333",
+      "fax": "+212 5 2222 3332",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2737, 21 DAYS FREE TIME AT DESTINATION, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6225972",
+    "unClass": "8",
+    "unCode": "2737,",
+    "hsCode": "2972.46.57",
+    "flashPoint": "19\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

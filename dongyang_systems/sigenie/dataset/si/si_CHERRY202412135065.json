@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202412135065",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "BEIJING, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BEIJING GLOBAL TRADING CO.",
+      "address": "NO. 123, XINHU ROAD, HAIDIAN DISTRICT, BEIJING, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 10 8888 9999",
+      "fax": "+86 10 8888 9998",
+      "email": "INFO@BEIJINGGLOBALTRADING.COM"
+    },
+    "consignee": {
+      "name": "GREEN EARTH IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3334",
+      "email": "INFO@GREENEARTHIMPORTS.COM"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS - DESIGNED FOR AMUSEMENT OR RECREATION",
+  "containers": [
+    {
+      "containerNumber": "CONT2529440",
+      "sealNumber": "SEAL306340",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 14329.22,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CONT1956339",
+      "sealNumber": "SEAL739653",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 17072.63,
+      "measurement": 24.22
+    },
+    {
+      "containerNumber": "CONT7657844",
+      "sealNumber": "SEAL317424",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 5598.54,
+      "measurement": 21.66
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 130,
+    "totalGrossWeight": 37000.39,
+    "totalMeasurement": 70.98
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN EARTH IMPORTS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3334",
+      "email": "INFO@GREENEARTHIMPORTS.COM"
+    },
+    "onboardDate": "2024-12-20 21:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  }
+}

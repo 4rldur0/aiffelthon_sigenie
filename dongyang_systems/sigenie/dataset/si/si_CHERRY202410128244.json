@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410128244",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI YUANZHEN TRADING CO., LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, PUTUO DISTRICT, SHANGHAI, 200062",
+      "country": "CHINA",
+      "additionalInfo": "(YUANZHEN BUILDING)",
+      "telephone": "+86 21 8765 4321",
+      "email": "SALES@YUANZHEN.COM.CN"
+    },
+    "consignee": {
+      "name": "GREEN EARTH IMPORTS INC.",
+      "address": "123 GREEN STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GREENEARTHIMPORTS.COM",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "GREEN EARTH IMPORTS INC.",
+      "address": "123 GREEN STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GREENEARTHIMPORTS.COM",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT7991551",
+      "sealNumber": "SEAL411480",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 16427.2,
+      "measurement": 38.06
+    },
+    {
+      "containerNumber": "CONT9815937",
+      "sealNumber": "SEAL257688",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 6241.58,
+      "measurement": 28.72
+    },
+    {
+      "containerNumber": "CONT7794755",
+      "sealNumber": "SEAL794435",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 13848.63,
+      "measurement": 32.64
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 202,
+    "totalGrossWeight": 36517.41,
+    "totalMeasurement": 99.42
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-10-22 09:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411068111",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SUNRISE AVENUE, NINGBO, CHINA 315000",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 1111",
+      "email": "INFO@SUNRISETRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 GLOBAL WAY, ROTTERDAM, NETHERLANDS 3000 AA",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+31 10 202 5000",
+      "fax": "+31 10 202 5001",
+      "email": "INFO@GLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SUNRISE AVENUE, NINGBO, CHINA 315000",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 1111",
+      "email": "INFO@SUNRISETRADING.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT7124764",
+      "sealNumber": "SEAL666416",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 16059.13,
+      "measurement": 21.18
+    },
+    {
+      "containerNumber": "CONT1273425",
+      "sealNumber": "SEAL978708",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 12241.4,
+      "measurement": 35.43
+    },
+    {
+      "containerNumber": "CONT9474670",
+      "sealNumber": "SEAL284435",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 14199.98,
+      "measurement": 35.3
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 209,
+    "totalGrossWeight": 42500.51,
+    "totalMeasurement": 91.91
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-11-14 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  }
+}

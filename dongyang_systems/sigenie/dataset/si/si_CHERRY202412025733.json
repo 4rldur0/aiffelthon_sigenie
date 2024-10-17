@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202412025733",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE ALUMINIUM INDUSTRIES PTE LTD",
+      "address": "123 JURONG ISLAND, SINGAPORE",
+      "telephone": "+65-6789-1234",
+      "fax": "+65-6789-1235"
+    },
+    "consignee": {
+      "name": "KUEHNE+NAGEL INTERNATIONAL LTD",
+      "address": "123 ZUIDERZEEWEG, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@KUEHNENAGEL.NL",
+      "contactPerson": "JAN VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "name": "KUEHNE+NAGEL INTERNATIONAL LTD",
+      "address": "123 ZUIDERZEEWEG, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "760110",
+  "commodityDescription": "ALUMINIUM ALLOY INGOTS",
+  "containers": [
+    {
+      "containerNumber": "CONT4667097",
+      "sealNumber": "SEAL471403",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 17571.74,
+      "measurement": 21.87
+    },
+    {
+      "containerNumber": "CONT1328457",
+      "sealNumber": "SEAL211070",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 13476.99,
+      "measurement": 27.05
+    },
+    {
+      "containerNumber": "CONT6254978",
+      "sealNumber": "SEAL343147",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 12747.07,
+      "measurement": 26.91
+    },
+    {
+      "containerNumber": "CONT6375666",
+      "sealNumber": "SEAL133145",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 19019.38,
+      "measurement": 20.06
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD PLATFORM",
+    "totalPackages": 134,
+    "totalGrossWeight": 62815.18,
+    "totalMeasurement": 95.89
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241204-1001",
+    "documentNumber": "20241204-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "KUEHNE+NAGEL INTERNATIONAL LTD",
+      "address": "123 ZUIDERZEEWEG, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE ALUMINIUM INDUSTRIES PTE LTD",
+      "address": "123 JURONG ISLAND, SINGAPORE"
+    },
+    "onboardDate": "2024-12-16 23:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5663x2156x2034, VALUE: USD656,781"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5663",
+    "width": "2156",
+    "height": "2034",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

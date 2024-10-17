@@ -1,0 +1,84 @@
+{
+  "bookingReference": "CHERRY202411065543",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 ASIA PACIFIC ROAD, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "SHIPPING@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 GLOBAL WAY, LONDON EC1A 1AA, UNITED KINGDOM",
+      "companyNumber": "12345678",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 8889",
+      "email": "SHIPPING@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 GLOBAL WAY, LONDON EC1A 1AA, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "870899",
+  "commodityDescription": "MOTOR VEHICLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT5000795",
+      "sealNumber": "SEAL960858",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 12778.9,
+      "measurement": 28.23
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 90,
+    "totalGrossWeight": 12778.9,
+    "totalMeasurement": 28.23
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 GLOBAL WAY, LONDON EC1A 1AA, UNITED KINGDOM",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 8889",
+      "email": "SHIPPING@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 GLOBAL WAY, LONDON EC1A 1AA, UNITED KINGDOM",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 8889"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410189878",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE ELECTRONICS LTD",
+      "address": "123 TECH PARK BOULEVARD, JURONG EAST, SINGAPORE 608729",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "email": "INFO@SINGAPOREELECTRONICS.COM.SG"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GERMANY GMBH",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@DHL-GLOBALFORWARDING.DE",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 5555"
+    },
+    "notifyParty": {
+      "name": "SINGAPORE ELECTRONICS LTD.",
+      "address": "123 TECH PARK BOULEVARD, JURONG EAST, SINGAPORE 608729",
+      "country": "SINGAPORE",
+      "email": "LOGISTICS@SINGAPOREELECTRONICS.COM.SG",
+      "telephone": "+65 6789 5678",
+      "fax": "+65 6789 9012"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "854140",
+  "commodityDescription": "ELECTRICAL APPARATUS FOR SWITCHING OR PROTECTING ELECTRICAL CIRCUITS",
+  "containers": [
+    {
+      "containerNumber": "CONT4396131",
+      "sealNumber": "SEAL759757",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 14362.95,
+      "measurement": 34.62
+    },
+    {
+      "containerNumber": "CONT6060868",
+      "sealNumber": "SEAL493624",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 14094.12,
+      "measurement": 33.77
+    },
+    {
+      "containerNumber": "CONT1395183",
+      "sealNumber": "SEAL751700",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 15075.83,
+      "measurement": 34.86
+    },
+    {
+      "containerNumber": "CONT6751459",
+      "sealNumber": "SEAL455533",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 16528.6,
+      "measurement": 35.37
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD REEFER",
+    "totalPackages": 233,
+    "totalGrossWeight": 60061.5,
+    "totalMeasurement": 138.62
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241025001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118516",
+      "telephone": "+65 6234 5678",
+      "fax": "+65 6234 9012",
+      "email": "BLDISTRIBUTION@DHL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118516",
+      "telephone": "+65 6234 5678",
+      "fax": "+65 6234 9012",
+      "email": "INVOICEDISTRIBUTION@DHL.COM.SG"
+    },
+    "onboardDate": "2024-11-03 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 9\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8293543",
+    "temperature": "9\u00b0C",
+    "minTemperature": "7\u00b0C",
+    "maxTemperature": "11\u00b0C",
+    "ventilation": "86%",
+    "humidity": "84%"
+  }
+}

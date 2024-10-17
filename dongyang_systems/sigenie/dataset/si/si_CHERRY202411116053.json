@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202411116053",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA TRADING CO.",
+      "address": "1234 XINHU ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "ATTN: MR. LI WEI",
+      "telephone": "+86 574 8866 7788",
+      "fax": "+86 574 8866 7799",
+      "email": "WEI.LI@TAIHANGLOBAL.CN"
+    },
+    "consignee": {
+      "name": "ALPHA TRADING CO.",
+      "address": "1001 HEERESTRAAT, ROTTERDAM, NETHERLANDS 3011 AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "INFO@ALPHATRADING.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "2222 KLOPPERSLAAN, ROTTERDAM, NETHERLANDS 3061 AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 333 4444",
+      "fax": "+31 10 333 4445",
+      "email": "OPERATIONS@WWLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845011",
+  "commodityDescription": "AUTOMATIC WASHING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT5059914",
+      "sealNumber": "SEAL270047",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 19031.45,
+      "measurement": 38.97
+    },
+    {
+      "containerNumber": "CONT7031337",
+      "sealNumber": "SEAL794766",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 16042.46,
+      "measurement": 35.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD FLAT RACK",
+    "totalPackages": 80,
+    "totalGrossWeight": 35073.91,
+    "totalMeasurement": 74.13
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC231017123"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA TRADING CO.",
+      "address": "1001 HEERESTRAAT, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556",
+      "email": "INFO@ALPHATRADING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "1234 XINHU ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "country": "CHINA",
+      "telephone": "+86 574 8866 7788",
+      "fax": "+86 574 8866 7799",
+      "email": "WEI.LI@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-20 16:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 2778x2474x2849, VALUE: USD799,273, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2778",
+    "width": "2474",
+    "height": "2849",
+    "overWidth": "34",
+    "overHeight": "259"
+  }
+}

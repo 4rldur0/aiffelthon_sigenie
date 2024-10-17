@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410293958",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FRUIT FRESH INTERNATIONAL LTD.",
+      "onBehalfOf": "",
+      "address": "1234 ORCHARD ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "INFO@FRUITFRESHINTERNATIONAL.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 12345679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 MAIN STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080590",
+  "commodityDescription": "FRESH ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT8956716",
+      "sealNumber": "SEAL765187",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 16160.97,
+      "measurement": 24.18
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 28,
+    "totalGrossWeight": 16160.97,
+    "totalMeasurement": 24.18
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1234 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 12345679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FRUIT FRESH INTERNATIONAL LTD.",
+      "address": "1234 ORCHARD ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 5\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9150220",
+    "temperature": "5\u00b0C",
+    "minTemperature": "3\u00b0C",
+    "maxTemperature": "7\u00b0C",
+    "ventilation": "97%",
+    "humidity": "91%"
+  }
+}

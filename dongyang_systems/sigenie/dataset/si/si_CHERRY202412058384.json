@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202412058384",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA TRADING CO.",
+      "address": "123 NINGBO PORT ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ALPHATRADINGCO.CN"
+    },
+    "consignee": {
+      "name": "ZENITH INTERNATIONAL TRADING",
+      "address": "124 ROTTERDAM PORT BOULEVARD, ROTTERDAM, SOUTH HOLLAND 3011, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "ORDERS@ZENITHINTERNATIONAL.NL",
+      "personincharge": "PETER VAN DER ZEE"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS PLUS BV",
+      "address": "125 ROTTERDAM PORT BOULEVARD, ROTTERDAM, SOUTH HOLLAND 3011, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5554",
+      "email": "INFO@LOGISTICSPLUS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT9497911",
+      "sealNumber": "SEAL128535",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 7076.05,
+      "measurement": 39.04
+    },
+    {
+      "containerNumber": "CONT3854008",
+      "sealNumber": "SEAL592898",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 13895.53,
+      "measurement": 23.58
+    },
+    {
+      "containerNumber": "CONT6990649",
+      "sealNumber": "SEAL466045",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 17232.4,
+      "measurement": 33.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 180,
+    "totalGrossWeight": 38203.98,
+    "totalMeasurement": 96.02
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3051, HANDLE WITH CARE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7228808",
+    "unClass": "6",
+    "unCode": "3051,",
+    "hsCode": "1268.28.37",
+    "flashPoint": "66\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

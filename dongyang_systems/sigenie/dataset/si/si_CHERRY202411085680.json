@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202411085680",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA GLOBAL TRADING LTD.",
+      "address": "123 GLOBAL STREET, FRANKFURT, 60313, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 69 1234 5678",
+      "email": "INFO@ALPHA GLOBAL TRADING.DE"
+    },
+    "consignee": {
+      "name": "DELTA LOGISTICS GMBH",
+      "address": "456 LOGISTICS AVENUE, SINGAPORE, 123456",
+      "country": "SINGAPORE",
+      "email": "INFO@DELTA-LOGISTICS.SG",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORT EXPORT PTE LTD.",
+      "address": "789 IMPORT STREET, SINGAPORE, 654321",
+      "country": "SINGAPORE",
+      "email": "IMPORT@BETAIMPORTEXPORT.SG",
+      "telephone": "+65 6543 2100",
+      "fax": "+65 6543 2101"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080550",
+  "commodityDescription": "CITRUS FRUIT, ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT9566270",
+      "sealNumber": "SEAL973401",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 12560.49,
+      "measurement": 31.05
+    },
+    {
+      "containerNumber": "CONT9715883",
+      "sealNumber": "SEAL272549",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 10296.48,
+      "measurement": 34.92
+    },
+    {
+      "containerNumber": "CONT1019572",
+      "sealNumber": "SEAL888364",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 16078.62,
+      "measurement": 39.28
+    },
+    {
+      "containerNumber": "CONT2800435",
+      "sealNumber": "SEAL271273",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 19425.8,
+      "measurement": 29.21
+    },
+    {
+      "containerNumber": "CONT9737487",
+      "sealNumber": "SEAL576100",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 5837.54,
+      "measurement": 23.13
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD REEFER",
+    "totalPackages": 310,
+    "totalGrossWeight": 64198.93,
+    "totalMeasurement": 157.59
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA LOGISTICS GMBH",
+      "address": "456 LOGISTICS AVENUE, SINGAPORE, 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@DELTA-LOGISTICS.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA LOGISTICS GMBH",
+      "address": "456 LOGISTICS AVENUE, SINGAPORE, 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@DELTA-LOGISTICS.SG"
+    },
+    "onboardDate": "2024-11-14 09:30",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 5\u00b0C, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8994155",
+    "temperature": "5\u00b0C",
+    "minTemperature": "3\u00b0C",
+    "maxTemperature": "7\u00b0C",
+    "ventilation": "16%",
+    "humidity": "87%"
+  }
+}

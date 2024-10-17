@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202411247028",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA MANUFACTURING INC.",
+      "onBehalfOf": "",
+      "address": "1234 INDUSTRY STREET, NINGBO, CHINA",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013",
+      "email": "SHIPPING@ALPHAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "BETA SHIPPING CORP.",
+      "address": "5678 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "ORDERS@BETASHIPPING.NL"
+    },
+    "notifyParty": {
+      "name": "GAMMA LOGISTICS BV",
+      "address": "9012 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "441111",
+  "commodityDescription": "PLYWOOD",
+  "containers": [
+    {
+      "containerNumber": "CONT9846068",
+      "sealNumber": "SEAL744138",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 7344.53,
+      "measurement": 33.99
+    },
+    {
+      "containerNumber": "CONT3819770",
+      "sealNumber": "SEAL121026",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 14412.81,
+      "measurement": 20.22
+    },
+    {
+      "containerNumber": "CONT3643778",
+      "sealNumber": "SEAL130243",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 14885.02,
+      "measurement": 34.87
+    },
+    {
+      "containerNumber": "CONT2237886",
+      "sealNumber": "SEAL878079",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 15059.17,
+      "measurement": 26.68
+    },
+    {
+      "containerNumber": "CONT2217250",
+      "sealNumber": "SEAL851394",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 13721.99,
+      "measurement": 37.75
+    },
+    {
+      "containerNumber": "CONT5857511",
+      "sealNumber": "SEAL438557",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 9873.45,
+      "measurement": 27.86
+    },
+    {
+      "containerNumber": "CONT3205630",
+      "sealNumber": "SEAL305458",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 13813.72,
+      "measurement": 20.21
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 STANDARD GENERAL",
+    "totalPackages": 343,
+    "totalGrossWeight": 89110.69,
+    "totalMeasurement": 201.58
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BETA SHIPPING CORP.",
+      "address": "5678 PORT STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "ORDERS@BETASHIPPING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA MANUFACTURING INC.",
+      "address": "1234 INDUSTRY STREET, NINGBO, CHINA",
+      "telephone": "+86 574 5678 9012",
+      "fax": "+86 574 5678 9013"
+    },
+    "onboardDate": "2024-12-16 23:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

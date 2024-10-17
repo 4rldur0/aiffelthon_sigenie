@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411304501",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING GMBH",
+      "address": "123 INDUSTRIAL PARK, NINGBO, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "845960",
+  "commodityDescription": "OUT-OF-GAUGE PRECISION LATHE",
+  "containers": [
+    {
+      "containerNumber": "CONT3631732",
+      "sealNumber": "SEAL557838",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 16563.66,
+      "measurement": 24.91
+    },
+    {
+      "containerNumber": "CONT7616882",
+      "sealNumber": "SEAL967480",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 8118.4,
+      "measurement": 38.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD PLATFORM",
+    "totalPackages": 22,
+    "totalGrossWeight": 24682.06,
+    "totalMeasurement": 63.41
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRANSPORTATION LTD.",
+      "address": "ROOM 1588, TOWER B, NO. 168 HEYI ROAD, HAISHU DISTRICT NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-12-07 16:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 2632x2561x2990, VALUE: USD528,064"
+  },
+  "outOfGaugeDimensions": {
+    "length": "2632",
+    "width": "2561",
+    "height": "2990",
+    "overWidth": "121",
+    "overHeight": "400"
+  }
+}

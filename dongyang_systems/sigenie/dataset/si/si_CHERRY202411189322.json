@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202411189322",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES CO.",
+      "address": "NO. 123 HUANSHENG ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA 315000",
+      "telephone": "+86 574 8788 9155",
+      "fax": "+86 574 8788 9200",
+      "email": "SHIPPING@ASIA-PACIFIC.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 200, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 201 2345",
+      "fax": "+31 10 201 2346",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 200, ROTTERDAM, NETHERLANDS 3000 AA",
+      "taxId": "",
+      "president": "MS. JANE DOE",
+      "telephone": "+31 10 201 2347",
+      "fax": "+31 10 201 2348"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "280411",
+  "commodityDescription": "SODIUM NITRATE",
+  "containers": [
+    {
+      "containerNumber": "CONT2615284",
+      "sealNumber": "SEAL712898",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 11126.91,
+      "measurement": 27.53
+    },
+    {
+      "containerNumber": "CONT5486832",
+      "sealNumber": "SEAL301578",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 19242.93,
+      "measurement": 35.04
+    },
+    {
+      "containerNumber": "CONT7874099",
+      "sealNumber": "SEAL222143",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 19519.58,
+      "measurement": 38.84
+    },
+    {
+      "containerNumber": "CONT6419078",
+      "sealNumber": "SEAL509575",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 12213.93,
+      "measurement": 27.7
+    },
+    {
+      "containerNumber": "CONT6803266",
+      "sealNumber": "SEAL558555",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 14295.8,
+      "measurement": 30.3
+    },
+    {
+      "containerNumber": "CONT2440867",
+      "sealNumber": "SEAL122801",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 8313.48,
+      "measurement": 38.16
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD TANK",
+    "totalPackages": 351,
+    "totalGrossWeight": 84712.63,
+    "totalMeasurement": 197.57
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-26 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2715, VALUE: USD145,764, HANDLE WITH CARE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5150749",
+    "unClass": "5",
+    "unCode": "2715,",
+    "hsCode": "7246.82.52",
+    "flashPoint": "63\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

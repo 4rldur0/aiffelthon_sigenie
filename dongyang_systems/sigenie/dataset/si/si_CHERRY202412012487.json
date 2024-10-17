@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202412012487",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC PRECISION LTD.",
+      "address": "333 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6327 9155",
+      "fax": "+86 21 6327 9200",
+      "email": "LI.YANG@ASIAPRECISIONLTD.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "250 BROADWAY, NEW YORK, NY 10004, USA",
+      "taxId": "123456789",
+      "president": "Mr. John Smith",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "CUSTOMS BROKERS INTERNATIONAL",
+      "address": "222 KEW GARDENS ROAD, ROTTERDAM, NETHERLANDS",
+      "taxId": "",
+      "president": "Ms. Maria Van Der Linde",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS GOODS, UN 3253",
+  "containers": [
+    {
+      "containerNumber": "CONT2652679",
+      "sealNumber": "SEAL394959",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 13550.85,
+      "measurement": 26.1
+    },
+    {
+      "containerNumber": "CONT6247842",
+      "sealNumber": "SEAL127482",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 7981.39,
+      "measurement": 20.77
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 103,
+    "totalGrossWeight": 21532.24,
+    "totalMeasurement": 46.87
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3253, VALUE: USD128,317, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7674532",
+    "unClass": "9",
+    "unCode": "3253,",
+    "hsCode": "1293.20.19",
+    "flashPoint": "30\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

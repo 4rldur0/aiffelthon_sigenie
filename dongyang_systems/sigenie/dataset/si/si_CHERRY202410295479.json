@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410295479",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PROCTOR & GAMBLE GERMANY GMBH",
+      "address": "STERNWARTE 11, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "(IMPORT/EXPORT DEPARTMENT)",
+      "telephone": "+49 40 3119 1000",
+      "email": "GERALD.MEIER@PG.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "GUTHORSTSTRASSE 11, 20539 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "FREIGHT.DE@DHL.COM",
+      "telephone": "+49 40 3037 5777"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "GUTHORSTSTRASSE 11, 20539 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "FREIGHT.DE@DHL.COM",
+      "telephone": "+49 40 3037 5777"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "040110",
+  "commodityDescription": "MILK POWDER",
+  "containers": [
+    {
+      "containerNumber": "CONT3372693",
+      "sealNumber": "SEAL747756",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 8596.41,
+      "measurement": 30.83
+    },
+    {
+      "containerNumber": "CONT7528115",
+      "sealNumber": "SEAL308639",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 14415.92,
+      "measurement": 34.66
+    },
+    {
+      "containerNumber": "CONT4755470",
+      "sealNumber": "SEAL167451",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 12547.11,
+      "measurement": 35.78
+    },
+    {
+      "containerNumber": "CONT9363263",
+      "sealNumber": "SEAL275519",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 5218.74,
+      "measurement": 32.38
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD REEFER",
+    "totalPackages": 254,
+    "totalGrossWeight": 40778.18,
+    "totalMeasurement": 133.65
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410278901"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE - ISSUED BY GERMAN AUTHORITIES"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "GUTHORSTSTRASSE 11, 20539 HAMBURG, GERMANY",
+      "telephone": "+49 40 3037 5777",
+      "fax": "+49 40 3037 5778",
+      "email": "FREIGHT.DE@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "PROCTOR & GAMBLE GERMANY GMBH",
+      "address": "STERNWARTE 11, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 3119 1000",
+      "fax": "+49 40 3119 1001",
+      "email": "GERALD.MEIER@PG.COM"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -9\u00b0C, VALUE: USD917,654, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8013226",
+    "temperature": "-9\u00b0C",
+    "minTemperature": "-11\u00b0C",
+    "maxTemperature": "-7\u00b0C",
+    "ventilation": "84%",
+    "humidity": "63%"
+  }
+}

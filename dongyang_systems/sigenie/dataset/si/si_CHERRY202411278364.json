@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202411278364",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "OFLQJW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORT EXPORT CO. LTD.",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118553",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6512 3456",
+      "fax": "+65 6512 3457",
+      "email": "INFO@ASIAIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "100 Paseo de la Castellana, 28046 MADRID, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 915 750 200",
+      "fax": "+34 915 750 201",
+      "email": "INFO@GLOBALSOLUTIONS.ES",
+      "personincharge": "JUAN GARCIA"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "100 Paseo de la Castellana, 28046 MADRID, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 915 750 200",
+      "fax": "+34 915 750 201",
+      "email": "INFO@GLOBALSOLUTIONS.ES"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "381300",
+  "commodityDescription": "DANGEROUS GOODS, UN 1107, BATTERY POWERED",
+  "containers": [
+    {
+      "containerNumber": "CONT3789685",
+      "sealNumber": "SEAL828016",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 6683.83,
+      "measurement": 28.89
+    },
+    {
+      "containerNumber": "CONT9634145",
+      "sealNumber": "SEAL916123",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 18792.2,
+      "measurement": 36.79
+    },
+    {
+      "containerNumber": "CONT6742280",
+      "sealNumber": "SEAL498877",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 17987.44,
+      "measurement": 29.48
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 128,
+    "totalGrossWeight": 43463.47,
+    "totalMeasurement": 95.16
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-12-12 17:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1107, VALUE: USD997,701, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2464633",
+    "unClass": "7",
+    "unCode": "1107,",
+    "hsCode": "1009.29.90",
+    "flashPoint": "93\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202412029147",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES CO. LTD.",
+      "address": "NO. 1234, HUANGLIANG ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL TOY DISTRIBUTORS BV",
+      "address": "EUROPARK 123, 3075 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GLOBALTOYS.NL",
+      "contactPerson": "JAN SMIT"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY MAKING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT7182123",
+      "sealNumber": "SEAL404773",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 9739.39,
+      "measurement": 25.43
+    },
+    {
+      "containerNumber": "CONT1325868",
+      "sealNumber": "SEAL533434",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 19692.84,
+      "measurement": 36.76
+    },
+    {
+      "containerNumber": "CONT1561070",
+      "sealNumber": "SEAL825501",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 12006.88,
+      "measurement": 32.33
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 114,
+    "totalGrossWeight": 41439.11,
+    "totalMeasurement": 94.52
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241217-1001",
+    "documentNumber": "20241217-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TOY DISTRIBUTORS BV",
+      "address": "EUROPARK 123, 3075 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44-20-7631-2345",
+      "fax": "+44-20-7631-2346"
+    },
+    "onboardDate": "2024-12-06 16:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202412128453",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL TRADING LTD.",
+      "address": "1234 SUNRISE STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@SUNRISEGLOBALTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT9325465",
+      "sealNumber": "SEAL817067",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 7824.93,
+      "measurement": 26.19
+    },
+    {
+      "containerNumber": "CONT2613162",
+      "sealNumber": "SEAL688140",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 15278.27,
+      "measurement": 32.02
+    },
+    {
+      "containerNumber": "CONT3581826",
+      "sealNumber": "SEAL329655",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 13787.93,
+      "measurement": 32.65
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 212,
+    "totalGrossWeight": 36891.13,
+    "totalMeasurement": 90.86
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-12-21 18:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION, ON DECK TOP STOWAGE"
+  }
+}

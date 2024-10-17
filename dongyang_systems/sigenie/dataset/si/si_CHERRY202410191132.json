@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410191132",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "228 CHENGZHEN ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8826 5678",
+      "fax": "+86 574 8826 5679",
+      "email": "LI.MEI@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "WORLDWIDE IMPORT & EXPORT LTD.",
+      "address": "123 DAMSTRAAT, 3011 JD ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457",
+      "email": "INFO@WORLDWIDEIMPORTEXPORT.NL",
+      "personincharge": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "DUTCH LOGISTICS GROUP BV",
+      "address": "456 KLOKKENSTRAAT, 3061 AJ ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 777 8889",
+      "fax": "+31 10 777 8888",
+      "email": "INFO@DUTCHLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "330499",
+  "commodityDescription": "PERFUMES AND TOILET WATER",
+  "containers": [
+    {
+      "containerNumber": "CONT4464210",
+      "sealNumber": "SEAL244725",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 10804.01,
+      "measurement": 34.62
+    },
+    {
+      "containerNumber": "CONT7427091",
+      "sealNumber": "SEAL272903",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 7433.23,
+      "measurement": 29.13
+    },
+    {
+      "containerNumber": "CONT8827775",
+      "sealNumber": "SEAL702025",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 16203.9,
+      "measurement": 24.38
+    },
+    {
+      "containerNumber": "CONT9463119",
+      "sealNumber": "SEAL138946",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 12180.48,
+      "measurement": 26.71
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD GENERAL",
+    "totalPackages": 158,
+    "totalGrossWeight": 46621.62,
+    "totalMeasurement": 114.84
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-06 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2274, VALUE: USD358,159, 14 DAYS FREE TIME AT DESTINATION, HANDLE WITH CARE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1930063",
+    "unClass": "3",
+    "unCode": "2274,",
+    "hsCode": "8435.27.69",
+    "flashPoint": "59\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

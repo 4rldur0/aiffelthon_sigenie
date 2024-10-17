@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202411306082",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA CHEMICALS INC.",
+      "address": "123 CHEMICAL STREET, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8683 9000",
+      "fax": "+86 574 8683 9001",
+      "email": "ZHANG.WEI@DELTACHEMICALS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "123 LOGISTICS AVENUE, ALGEICRAS, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 956 7890 500",
+      "fax": "+34 956 7890 501",
+      "email": "CARLOS.LOPEZ@GLOBALLOGISTICS.ES",
+      "personincharge": "CARLOS LOPEZ"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "123 LOGISTICS AVENUE, ALGEICRAS, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 956 7890 500",
+      "fax": "+34 956 7890 501",
+      "email": "CARLOS.LOPEZ@GLOBALLOGISTICS.ES"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "282739",
+  "commodityDescription": "ZINC OXIDE",
+  "containers": [
+    {
+      "containerNumber": "CONT9749395",
+      "sealNumber": "SEAL110822",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 14406.86,
+      "measurement": 22.67
+    },
+    {
+      "containerNumber": "CONT8089028",
+      "sealNumber": "SEAL620087",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 6542.72,
+      "measurement": 39.09
+    },
+    {
+      "containerNumber": "CONT5651216",
+      "sealNumber": "SEAL566358",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 7723.65,
+      "measurement": 33.77
+    },
+    {
+      "containerNumber": "CONT4332593",
+      "sealNumber": "SEAL144985",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 14481.53,
+      "measurement": 37.71
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD GENERAL",
+    "totalPackages": 238,
+    "totalGrossWeight": 43154.76,
+    "totalMeasurement": 133.24
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "123 LOGISTICS AVENUE, ALGEICRAS, SPAIN",
+      "telephone": "+34 956 7890 500",
+      "fax": "+34 956 7890 501",
+      "email": "CARLOS.LOPEZ@GLOBALLOGISTICS.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "123 LOGISTICS AVENUE, ALGEICRAS, SPAIN",
+      "telephone": "+34 956 7890 500",
+      "fax": "+34 956 7890 501",
+      "email": "CARLOS.LOPEZ@GLOBALLOGISTICS.ES"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2470, VALUE: USD953,695"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8782826",
+    "unClass": "9",
+    "unCode": "2470,",
+    "hsCode": "5079.95.68",
+    "flashPoint": "62\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

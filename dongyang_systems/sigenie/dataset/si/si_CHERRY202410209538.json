@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202410209538",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO",
+      "address": "123 YONGFU ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SHIPPING@APMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTERS LTD",
+      "address": "124 MARKTSTRAAT, ROTTERDAM, NETHERLANDS 3011 CK",
+      "taxId": "NL85678912345",
+      "president": "MR. PETER VAN DER LIJN",
+      "telephone": "+31 10 255 5555",
+      "fax": "+31 10 255 5556",
+      "email": "IMPORT@GLOBALIMPORTERS.NL"
+    },
+    "notifyParty": {
+      "name": "FIRST GLOBAL LOGISTICS BV",
+      "address": "125 WESTERSTRAAT, ROTTERDAM, NETHERLANDS 3021 CD",
+      "taxId": "NL85678912346",
+      "president": "MS. ANNA DE GROOT",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950691",
+  "commodityDescription": "SPORTS EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT1384136",
+      "sealNumber": "SEAL395485",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 7513.36,
+      "measurement": 26.77
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 24,
+    "totalGrossWeight": 7513.36,
+    "totalMeasurement": 26.77
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST GLOBAL LOGISTICS BV",
+      "address": "125 WESTERSTRAAT, ROTTERDAM, NETHERLANDS 3021 CD",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "OPERATIONS@FIRSTGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTERS LTD",
+      "address": "124 MARKTSTRAAT, ROTTERDAM, NETHERLANDS 3011 CK",
+      "telephone": "+31 10 255 5555",
+      "fax": "+31 10 255 5556",
+      "email": "IMPORT@GLOBALIMPORTERS.NL"
+    },
+    "onboardDate": "2024-10-27 20:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

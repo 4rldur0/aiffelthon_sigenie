@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202410181003",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL LOGISTICS CO.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "EVERBRIGHT INTERNATIONAL LTD.",
+      "address": "BEEMSTERSTRAAT 123, 1031 AE AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-2345-6789",
+      "fax": "+31-20-2345-6780",
+      "email": "INFO@EVERBRIGHT.NL",
+      "contactPerson": "JAN VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "name": "EVERBRIGHT INTERNATIONAL LTD."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871690",
+  "commodityDescription": "SPECIALIZED TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT2703859",
+      "sealNumber": "SEAL301165",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 10980.21,
+      "measurement": 31.29
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD PLATFORM",
+    "totalPackages": 95,
+    "totalGrossWeight": 10980.21,
+    "totalMeasurement": 31.29
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EVERBRIGHT INTERNATIONAL LTD.",
+      "address": "BEEMSTERSTRAAT 123, 1031 AE AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-2345-6789",
+      "fax": "+31-20-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EVERBRIGHT INTERNATIONAL LTD.",
+      "address": "BEEMSTERSTRAAT 123, 1031 AE AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-2345-6789",
+      "fax": "+31-20-2345-6780"
+    },
+    "onboardDate": "2024-10-26 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 11491x2248x2913, FRAGILE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "11491",
+    "width": "2248",
+    "height": "2913",
+    "overWidth": "0",
+    "overHeight": "323"
+  }
+}

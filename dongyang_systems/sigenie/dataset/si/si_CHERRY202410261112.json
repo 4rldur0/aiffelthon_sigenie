@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410261112",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "PORT KELANG, MALAYSIA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 1234567",
+      "fax": "+86 574 8765432",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 PARK AVENUE, PORT KLANG, MALAYSIA",
+      "taxId": "12345678901234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+60 3 12345678",
+      "fax": "+60 3 87654321",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "456 PARK AVENUE, PORT KLANG, MALAYSIA",
+      "telephone": "+60 3 12345678",
+      "fax": "+60 3 87654321",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT5822202",
+      "sealNumber": "SEAL566171",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 15632.82,
+      "measurement": 36.59
+    },
+    {
+      "containerNumber": "CONT7628398",
+      "sealNumber": "SEAL744190",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 14750.7,
+      "measurement": 23.19
+    },
+    {
+      "containerNumber": "CONT4814561",
+      "sealNumber": "SEAL705981",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 9014.8,
+      "measurement": 26.93
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 161,
+    "totalGrossWeight": 39398.32,
+    "totalMeasurement": 86.71
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-11-06 16:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410296272",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH INDUSTRIES GMBH",
+      "address": "HAMBURG STREET 123, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 40 1234 5678",
+      "email": "INFO@EUROTECHINDUSTRIES.DE"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "country": "SINGAPORE",
+      "email": "INFO@GLOBALSHiPPINGSOLUTIONS.COM.SG",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS PTE LTD.",
+      "address": "125 ROBINSON ROAD, #15-01, SINGAPORE 068901",
+      "country": "SINGAPORE",
+      "email": "OPERATIONS@GLOBALLOGISTICS.SG",
+      "telephone": "+65 6543 2100",
+      "fax": "+65 6543 2101"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "340213",
+  "commodityDescription": "ORGANIC DETERGENTS",
+  "containers": [
+    {
+      "containerNumber": "CONT9456685",
+      "sealNumber": "SEAL183989",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 5711.69,
+      "measurement": 26.04
+    },
+    {
+      "containerNumber": "CONT7060518",
+      "sealNumber": "SEAL162504",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 16344.85,
+      "measurement": 33.64
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 115,
+    "totalGrossWeight": 22056.54,
+    "totalMeasurement": 59.68
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@GLOBALSHiPPINGSOLUTIONS.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "INFO@GLOBALSHiPPINGSOLUTIONS.COM.SG"
+    },
+    "onboardDate": "2024-10-31 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1069, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9860562",
+    "unClass": "4",
+    "unCode": "1069,",
+    "hsCode": "8157.87.95",
+    "flashPoint": "-14\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

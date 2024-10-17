@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202411196619",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION ENGINEERING PTE LTD",
+      "address": "123 Anson Road, Singapore 069724",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6223 4567",
+      "fax": "+65 6223 4568",
+      "email": "SALES@ASIAENGINEERING.COM.SG"
+    },
+    "consignee": {
+      "name": "SINGAPORE GLOBAL TRADING CO LTD",
+      "address": "456 Orchard Road, Singapore 238888",
+      "country": "SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "PURCHASING@SINGAPOREGLOBALTRADING.COM"
+    },
+    "notifyParty": {
+      "name": "SINGAPORE GLOBAL TRADING CO LTD",
+      "address": "456 Orchard Road, Singapore 238888",
+      "country": "SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "LOGISTICS@SINGAPOREGLOBALTRADING.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "902410",
+  "commodityDescription": "TEMPERATURE SENSORS",
+  "containers": [
+    {
+      "containerNumber": "CONT7310461",
+      "sealNumber": "SEAL424216",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 10187.19,
+      "measurement": 22.58
+    },
+    {
+      "containerNumber": "CONT1445479",
+      "sealNumber": "SEAL444326",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 8755.96,
+      "measurement": 28.1
+    },
+    {
+      "containerNumber": "CONT6415919",
+      "sealNumber": "SEAL105662",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 9775.19,
+      "measurement": 37.62
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD REEFER",
+    "totalPackages": 131,
+    "totalGrossWeight": 28718.34,
+    "totalMeasurement": 88.3
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "SINGAPORE GLOBAL TRADING CO LTD",
+      "address": "456 Orchard Road, Singapore 238888",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "LOGISTICS@SINGAPOREGLOBALTRADING.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE GLOBAL TRADING CO LTD",
+      "address": "456 Orchard Road, Singapore 238888",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124",
+      "email": "FINANCE@SINGAPOREGLOBALTRADING.COM"
+    },
+    "onboardDate": "2024-12-06 17:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -11\u00b0C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2133453",
+    "temperature": "-11\u00b0C",
+    "minTemperature": "-13\u00b0C",
+    "maxTemperature": "-9\u00b0C",
+    "ventilation": "87%",
+    "humidity": "68%"
+  }
+}

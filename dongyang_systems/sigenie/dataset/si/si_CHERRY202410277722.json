@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410277722",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "OFLQ2E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE LOGISTICS SOLUTIONS PTE LTD",
+      "address": "123 ABC STREET, SINGAPORE 123456",
+      "country": "SINGAPORE",
+      "additionalInfo": "(ABC BUILDING)",
+      "telephone": "+65 6789 0123",
+      "email": "SHIPPER@SINGAPORELOGISTICS.COM.SG"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "456 DEF STREET, SINGAPORE 654321",
+      "country": "SINGAPORE",
+      "email": "CONSIGNEE@DHL.COM",
+      "telephone": "+65 1234 5678"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "456 DEF STREET, SINGAPORE 654321",
+      "country": "SINGAPORE",
+      "email": "NOTIFICATIONS@DHL.COM",
+      "telephone": "+65 1234 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT3390583",
+      "sealNumber": "SEAL101900",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 18552.58,
+      "measurement": 24.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE TANK",
+    "totalPackages": 33,
+    "totalGrossWeight": 18552.58,
+    "totalMeasurement": 24.5
+  },
+  "additionalInformation": {
+    "dangerousGoods": {
+      "unNumber": "2695",
+      "class": "3",
+      "packingGroup": "II",
+      "properShippingName": "CHEMICAL SOLUTION N.O.S."
+    },
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "456 DEF STREET, SINGAPORE 654321",
+      "telephone": "+65 1234 5678",
+      "fax": "+65 9876 5432",
+      "email": "LISA.CHEN@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE PTE LTD",
+      "address": "456 DEF STREET, SINGAPORE 654321",
+      "telephone": "+65 1234 5678",
+      "fax": "+65 9876 5432",
+      "email": "LISA.CHEN@DHL.COM"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2695, 30 DAYS FREE TIME AT DESTINATION, HANDLE WITH CARE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4871932",
+    "unClass": "6",
+    "unCode": "2695,",
+    "hsCode": "4867.55.89",
+    "flashPoint": "4\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

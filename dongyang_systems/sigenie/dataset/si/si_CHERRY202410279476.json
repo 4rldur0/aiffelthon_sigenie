@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202410279476",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "OFLQ8E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": " SIEMENS AG",
+      "address": "WITTEHAGENSTRASSE 10, 80333 MUNICH, GERMANY",
+      "telephone": "+49 89 636-33000",
+      "fax": "+49 89 636-33001",
+      "email": "INFO@SIEMENS.COM"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "STRASSENBAUERSTRASSE 7, 60489 FRANKFURT, GERMANY",
+      "taxId": "DE111111111",
+      "president": "MR. HANS MEIER",
+      "telephone": "+49 69 50026-0",
+      "fax": "+49 69 50026-1",
+      "email": "HANS.MEIER@DHL.COM"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING SHANGHAI",
+      "address": "ROOM 1001, SHANGHAI WORLD FINANCIAL CENTER, NO.100 CENtral EAST ROAD, SHANGHAI, CHINA",
+      "taxId": "CN123456789",
+      "president": "MS. LI WEI",
+      "telephone": "+86 21 6327-3000",
+      "fax": "+86 21 6327-3001"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "842123",
+  "commodityDescription": "HEAT TREATMENT FURNACE",
+  "containers": [
+    {
+      "containerNumber": "CONT5176239",
+      "sealNumber": "SEAL554655",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 7391.05,
+      "measurement": 23.41
+    },
+    {
+      "containerNumber": "CONT6640327",
+      "sealNumber": "SEAL200224",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 11163.61,
+      "measurement": 34.48
+    },
+    {
+      "containerNumber": "CONT1334841",
+      "sealNumber": "SEAL241465",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 10159.61,
+      "measurement": 28.06
+    },
+    {
+      "containerNumber": "CONT8470702",
+      "sealNumber": "SEAL376447",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 11741.96,
+      "measurement": 24.89
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD FLAT RACK",
+    "totalPackages": 228,
+    "totalGrossWeight": 40456.23,
+    "totalMeasurement": 110.84
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SHANGHAI",
+      "address": "ROOM 1001, SHANGHAI WORLD FINANCIAL CENTER, NO.100 CENtral EAST ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6327-3000",
+      "fax": "+86 21 6327-3001",
+      "email": "HANS.MEIER@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING SHANGHAI",
+      "address": "ROOM 1001, SHANGHAI WORLD FINANCIAL CENTER, NO.100 CENtral EAST ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6327-3000",
+      "fax": "+86 21 6327-3001",
+      "email": "HANS.MEIER@DHL.COM"
+    },
+    "onboardDate": "2024-10-30 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8477x2395x2801"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8477",
+    "width": "2395",
+    "height": "2801",
+    "overWidth": "0",
+    "overHeight": "211"
+  }
+}

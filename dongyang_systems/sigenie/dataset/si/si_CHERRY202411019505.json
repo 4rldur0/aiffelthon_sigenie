@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411019505",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "OFLQHW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ADVANCED MANUFACTURING TECHNOLOGIES LTD.",
+      "address": "HAMBURG PORT ROAD, HAMBURG 20457, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "(BUILDING A1)",
+      "telephone": "+49 40 1234 5678",
+      "email": "SHIPPING@ADVANCEDMFG.DE"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI 200001, CHINA",
+      "country": "CHINA",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.CN",
+      "telephone": "+86 21 9876 5432"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI 200001, CHINA",
+      "country": "CHINA",
+      "email": "OPERATIONS@GLOBALFREIGHTSOLUTIONS.CN",
+      "telephone": "+86 21 9876 5433"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "846630",
+  "commodityDescription": "WELDING ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "CONT2922945",
+      "sealNumber": "SEAL822489",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 12877.25,
+      "measurement": 36.68
+    },
+    {
+      "containerNumber": "CONT9217905",
+      "sealNumber": "SEAL115941",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 7250.0,
+      "measurement": 25.85
+    },
+    {
+      "containerNumber": "CONT8674313",
+      "sealNumber": "SEAL116952",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 18919.15,
+      "measurement": 36.55
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 187,
+    "totalGrossWeight": 39046.4,
+    "totalMeasurement": 99.08
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86 21 9876 5432",
+      "fax": "+86 21 9876 5431",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86 21 9876 5432",
+      "fax": "+86 21 9876 5431",
+      "email": "FINANCE@GLOBALFREIGHTSOLUTIONS.CN"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

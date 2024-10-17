@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202411154179",
+  "voyageDetails": {
+    "vesselName": "CMA CGM KERGUELEN",
+    "voyageNumber": "OFLQ4E1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH CHEMICALS GMBH",
+      "address": "12 FRANKFURTER STRASSE, FRANKFURT, 60311 GERMANY",
+      "telephone": "+49 69 79999999",
+      "fax": "+49 69 79999998",
+      "email": "INFO@EUROTECHCHEMICALS.DE"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "10 RUE DE LA PAIX, PARIS, 75001 FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 1 45678901",
+      "fax": "+33 1 45678902",
+      "email": "JEAN.DUPONT@GLOBALTRADINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SERVICES SAS",
+      "address": "20 RUE DE LA LIBERTE, LE HAVRE, 76600 FRANCE",
+      "taxId": "FR98765432101",
+      "president": "MS. MARIE MARTIN",
+      "telephone": "+33 2 35203377",
+      "fax": "+33 2 35203388"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "281123",
+  "commodityDescription": "SODIUM HYDROXIDE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT8398667",
+      "sealNumber": "SEAL268443",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 5155.16,
+      "measurement": 21.85
+    },
+    {
+      "containerNumber": "CONT7654288",
+      "sealNumber": "SEAL203964",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 10189.98,
+      "measurement": 24.34
+    },
+    {
+      "containerNumber": "CONT5312369",
+      "sealNumber": "SEAL536821",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 17787.88,
+      "measurement": 30.35
+    },
+    {
+      "containerNumber": "CONT1293224",
+      "sealNumber": "SEAL766875",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 13259.46,
+      "measurement": 37.84
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD TANK",
+    "totalPackages": 261,
+    "totalGrossWeight": 46392.48,
+    "totalMeasurement": 114.38
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-22 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1828, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8272968",
+    "unClass": "7",
+    "unCode": "1828,",
+    "hsCode": "6459.51.50",
+    "flashPoint": "81\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410242636",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION TOOLS CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 PRECISION RD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 7777",
+      "email": "INFO@ASIAPRECISIONTOOLS.CN"
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORT EXPORT LTD.",
+      "address": "1234 SKYWAY RD, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 4567 8901",
+      "fax": "+31 10 4567 8902",
+      "email": "INFO@BLUESKYIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY IMPORT EXPORT LTD.",
+      "address": "1234 SKYWAY RD, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "820540",
+  "commodityDescription": "LATHE MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CONT8509691",
+      "sealNumber": "SEAL316097",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 15561.47,
+      "measurement": 29.23
+    },
+    {
+      "containerNumber": "CONT2604246",
+      "sealNumber": "SEAL579536",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 9262.91,
+      "measurement": 28.7
+    },
+    {
+      "containerNumber": "CONT5787297",
+      "sealNumber": "SEAL812856",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 7064.29,
+      "measurement": 29.66
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 128,
+    "totalGrossWeight": 31888.67,
+    "totalMeasurement": 87.59
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY IMPORT EXPORT LTD.",
+      "address": "1234 SKYWAY RD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 4567 8901",
+      "fax": "+31 10 4567 8902",
+      "email": "INFO@BLUESKYIMPORT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PRECISION TOOLS CO. LTD.",
+      "address": "1234 PRECISION RD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 7777",
+      "email": "INFO@ASIAPRECISIONTOOLS.CN"
+    },
+    "onboardDate": "2024-10-27 09:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

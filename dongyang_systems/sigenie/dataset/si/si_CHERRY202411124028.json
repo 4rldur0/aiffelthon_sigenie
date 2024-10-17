@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202411124028",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "OFLQLW1MA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA PRECISION ENGINEERING CO. LTD.",
+      "address": "123 TECH PARK ROAD, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "SALES@CHINA-PRECISION.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1000 INTERNATIONAL DRIVE, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GLOBALFREIGHTSOLUTIONS.NL",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845630",
+  "commodityDescription": "MACHINE TOOLS FOR WORKING METAL - CNC MILLING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CONT7732380",
+      "sealNumber": "SEAL136534",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 18681.25,
+      "measurement": 27.06
+    },
+    {
+      "containerNumber": "CONT7455965",
+      "sealNumber": "SEAL807774",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 16670.18,
+      "measurement": 21.42
+    },
+    {
+      "containerNumber": "CONT8466024",
+      "sealNumber": "SEAL977051",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 17501.0,
+      "measurement": 29.79
+    },
+    {
+      "containerNumber": "CONT4839116",
+      "sealNumber": "SEAL715989",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 15281.93,
+      "measurement": 39.28
+    },
+    {
+      "containerNumber": "CONT8194523",
+      "sealNumber": "SEAL463620",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 18344.27,
+      "measurement": 34.38
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD OPEN TOP",
+    "totalPackages": 253,
+    "totalGrossWeight": 86478.63,
+    "totalMeasurement": 151.93
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1000 INTERNATIONAL DRIVE, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913",
+      "email": "ORDERS@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1000 INTERNATIONAL DRIVE, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "telephone": "++31 15 987 6910",
+      "fax": "+31 15 987 6913",
+      "email": "ORDERS@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "onboardDate": "2024-11-18 20:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5893x2552x2985, VALUE: USD771,834, FRAGILE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5893",
+    "width": "2552",
+    "height": "2985",
+    "overWidth": "112",
+    "overHeight": "395"
+  }
+}
