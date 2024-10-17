@@ -16,7 +16,6 @@ from dotenv import load_dotenv
 # for reranker
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import FlashrankRerank
-from langchain_openai import ChatOpenAI
 
 # Load environment variables
 load_dotenv()
