@@ -29,7 +29,7 @@ def get_si(state: MyAppState):
 def check_parties(state: MyAppState):
     llm = model
     prompt = check_parties_prompt
-    pdf_path = os.path.join(os.path.abspath('docs'), "CHERRYShippingLineCompanyPolicy.pdf")
+    pdf_path = "./docs/CHERRYShippingLineCompanyPolicy.pdf"#os.path.join(os.path.abspath('docs'), "CHERRYShippingLineCompanyPolicy.pdf")
     rag = RAGAgent(prompt=prompt, llm=llm, pdf_path=pdf_path, vector_name='./vector/compliance_faiss_index')
     response = rag.invoke({'si_data': state.messages[-1]})
 
@@ -43,7 +43,7 @@ def check_parties(state: MyAppState):
 def verify_company_policy(state: MyAppState):
     llm = model
     prompt = verify_company_policy_prompt
-    pdf_path = os.path.join(os.path.abspath('docs'), "CHERRYShippingLineCompanyPolicy.pdf")
+    pdf_path = "./docs/CHERRYShippingLineCompanyPolicy.pdf"#os.path.join(os.path.abspath('docs'), "CHERRYShippingLineCompanyPolicy.pdf")
     rag = RAGAgent(prompt=prompt, llm=llm, pdf_path=pdf_path, vector_name='./vector/compliance_faiss_index')
     response = rag.invoke({'si_data': state.messages[-1]})
 

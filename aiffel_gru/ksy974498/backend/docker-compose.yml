@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .  # Dockerfile이 있는 경로
+    container_name: sigenie-app
+    ports:
+      - "8000:8000"  # 외부에서 8000번 포트로 접근 가능
+    environment:
+      - MONGODB_URI=${MONGODB_URI}  # MongoDB 연결 설정
+      - OPENAI_API_KEY=${OPENAI_API_KEY}  # OpenAI API Key
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}  # Google API Key
+      - TAVILY_API_KEY=${TAVILY_API_KEY}  # Tavily API Key
+      - LANGCHAIN_API_KEY=${LANGCHAIN_API_KEY}  # Langchain API Key
+      - GROQ_API_KEY=${GROQ_API_KEY}  # Groq API Key
+    depends_on:
+      - mongo  # MongoDB 서비스가 준비될 때까지 대기
+    volumes:
+      - .:/app  # 소스 파일을 마운트
+
+  mongo:
+    image: mongo:6.0  # MongoDB 최신 이미지
+    container_name: mongo
+    ports:
+      - "27017:27017"  # MongoDB의 기본 포트
+    volumes:
+      - mongo_data:/data/db  # MongoDB 데이터 저장 볼륨
+
+volumes:
+  mongo_data:  # MongoDB 데이터를 저장할 볼륨

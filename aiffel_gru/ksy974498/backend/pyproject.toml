@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "sigenie"
+version = "0.1.0"
+description = "Sigenie project for aifflethon"
+authors = ["seongyeon1"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"  # Python 3.10 사용
+fastapi = "^0.115.2"
+uvicorn = "^0.23.1"
+pydantic = "^2.3.0"  # Pydantic 2.x 버전
+langchain = "^0.3.3"
+langchain-openai = "^0.2.2"
+langchain-community = "^0.3.2"
+langgraph = "^0.2.38"
+langchain-core = "^0.3.10"
+langchain-google-genai = "^2.0.1"
+python-dotenv = "^1.0.1"
+pymongo = "^4.10.1"
+faiss-cpu = "^1.7.2"  # FAISS CPU 버전
+openai = "^1.51.2"  # OpenAI API 클라이언트
+requests = "^2.31.0"  # HTTP 요청을 위한 Requests 라이브러리
+tavily-python = "^0.5.0"
+PyMuPDF = "^1.24.1"  # PDF 처리
+numpy = "^1.24.0"  # FAISS 사용을 위한 Numpy
+protobuf = "^5.0.0"  # Protobuf 관련 종속성 (FAISS, OpenAI 관련)
+aiohttp = "^3.8.5"
+jinja2 = "^3.1.2"
+loguru = "^0.7.0"
+pypdf = "^5.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
