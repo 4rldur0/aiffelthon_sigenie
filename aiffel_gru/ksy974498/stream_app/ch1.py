@@ -18,9 +18,14 @@ model = gpt_4o_mini
 
 from common.tools import MongoDB
 
+def get_bkg(state: MyAppState):
+    mongodb = MongoDB(collection_name="bkg")
+    si_data = mongodb.find_one_booking_reference(state.messages[-1].content)
+    return {"messages": [HumanMessage(content=str(si_data))]}
+
 def get_si(state: MyAppState):
     mongodb = MongoDB(collection_name="si")
-    si_data = mongodb.find_one_booking_reference(state.messages[-1].content)
+    si_data = mongodb.find_one_booking_reference(state.messages[-2].content)
     return {"messages": [HumanMessage(content=str(si_data))]}
 
 
@@ -61,14 +66,15 @@ def generate_intake_report(state: MyAppState):
     response_message = HumanMessage(content=str(response))
     return {"messages": [response_message]}
 
+workflow.add_node("get_bkg", get_bkg)
 workflow.add_node("get_si", get_si)
 workflow.add_node("check_missing_data", check_missing)
 workflow.add_node("generate_intake_report", generate_intake_report)
 
+workflow.set_entry_point("get_bkg")
+workflow.add_edge("get_bkg", "get_si")
 workflow.add_edge("get_si", "check_missing_data")
 workflow.add_edge("check_missing_data", "generate_intake_report")
 workflow.add_edge("generate_intake_report", END)
-
-workflow.set_entry_point("get_si")
 
 graph = workflow.compile()

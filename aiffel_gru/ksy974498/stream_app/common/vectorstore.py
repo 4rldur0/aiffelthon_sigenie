@@ -22,8 +22,8 @@ from langchain_openai import ChatOpenAI
 load_dotenv()
 
 # Constants
-PDF_PATH = "./document/CHERRYShippingLineCompanyPolicy.pdf"
-VECTOR_STORE_PATH = "./vector/compliance_faiss_index"
+PDF_PATH = "../docs/CHERRYShippingLineCompanyPolicy.pdf"
+VECTOR_STORE_PATH = "../vector/compliance_faiss_index"
 LAST_UPDATE_FILE = f"{VECTOR_STORE_PATH}/last_update.txt"
 
 # Ensure necessary directories exist
@@ -33,14 +33,6 @@ os.makedirs(VECTOR_STORE_PATH, exist_ok=True)
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 embeddings = OpenAIEmbeddings()
 
-# Initialize OpenAI LLM
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.2)
-
-# Load the prompt
-rag_prompt = load_prompt("prompts/compliance_rag_prompt.yaml")
-
-# Create the chain
-rag_chain = rag_prompt | llm | StrOutputParser()
 
 # Helper functions for FAISS index and last update time
 def save_faiss_index(vectorstore):
@@ -99,7 +91,7 @@ class PolicySplitter(TextSplitter):
         
         return chunks
 
-def update_faiss_index():
+def update_faiss_index(PDF_PATH):
     documents = load_documents([PDF_PATH])
     
     # Use the custom PolicySplitter
@@ -155,79 +147,3 @@ def perform_similarity_search(vectorstore, prompt, k=10, score_threshold=0.5):
     filtered_results = [(doc, getattr(doc, 'score', 1.0)) for doc in compressed_docs]
     
     return filtered_results
-
-def main():
-
-    # Display chat messages
-    for message in st.session_state.compliance_messages:
-        with st.chat_message(message["role"]):
-            st.markdown(f"{message['content']}\n\n<div style='font-size:0.8em; color:#888;'>{message['timestamp']}</div>", unsafe_allow_html=True)
-            if "steps" in message and message["role"] == "assistant":
-                with st.expander("View documents"):
-                    st.write(message["steps"])
-
-    # Recommended prompts
-    st.write("Recommended Prompts:")
-    col1, col2, col3 = st.columns(3)
-    prompt = None
-    with col1:
-        if st.button(st.session_state.recommended_prompts[0]):
-            prompt = st.session_state.recommended_prompts[0]
-    with col2:
-        if st.button(st.session_state.recommended_prompts[1]):
-            prompt = st.session_state.recommended_prompts[1]
-    with col3:
-        if st.button(st.session_state.recommended_prompts[2]):
-            prompt = st.session_state.recommended_prompts[2]
-
-    # Refresh recommended prompts button
-    if st.button("Refresh Recommended Prompts"):
-        refresh_prompts()
-        st.rerun()
-
-    # Display last refresh time
-    st.write(f"Last refreshed: {st.session_state.last_refresh_time}")
-
-    # Chat input
-    user_input = st.chat_input("Any question about CHERRY Shipping Line Company Policy?")
-    
-    # Use recommended prompt if clicked, otherwise use user input
-    prompt = user_input if user_input else prompt
-
-    if prompt:
-        # Add user message
-        user_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        st.session_state.compliance_messages.append({"role": "user", "content": prompt, "timestamp": user_timestamp})
-        
-        # Display user message
-        with st.chat_message("user"):
-            st.markdown(f"{prompt}\n\n<div style='font-size:0.8em; color:#888;'>{user_timestamp}</div>", unsafe_allow_html=True)
-        
-        # Get AI response
-        with st.spinner("Thinking..."):
-            try:
-                vector_results = perform_similarity_search(st.session_state.vectorstore, prompt)
-                formatted_documents = []
-                for i, (doc, score) in enumerate(vector_results, 1):
-                    source = doc.metadata.get('source', 'Unknown source')
-                    formatted_doc = f"Document {i}:\n{doc.page_content}\nSource: {source}\nScore: {score}\n---"
-                    formatted_documents.append(formatted_doc)
-                
-                formatted_documents_str = "\n".join(formatted_documents)
-                
-                ai_response = rag_chain.invoke({"formatted_documents": formatted_documents_str, "question": prompt})
-                ai_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            
-                # Add and display AI response
-                st.session_state.compliance_messages.append({"role": "assistant", "content": ai_response, "timestamp": ai_timestamp, "steps": formatted_documents})
-                with st.chat_message("assistant"):
-                    st.markdown(f"{ai_response}\n\n<div style='font-size:0.8em; color:#888;'>{ai_timestamp}</div>", unsafe_allow_html=True)
-                    with st.expander("View retrieved documents"):
-                        st.write(formatted_documents)
-            except Exception as e:
-                st.error(f"An error occurred: {e}")
-        
-        st.rerun()
-
-if __name__ == "__main__":
-    main()

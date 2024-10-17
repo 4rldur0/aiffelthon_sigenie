@@ -21,10 +21,10 @@ class BasicChain:
     
 # Build Retrieval-Augmented Generation Pipeline
 class RAGAgent:
-    def __init__(self, prompt, llm, pdf_path):
+    def __init__(self, prompt, llm, pdf_path, vector_name):
         self.llm = llm
         self.prompt = PromptTemplate.from_template(prompt)
-        PDF_retriever_tool = Faiss.retrieve_pdf(pdf_path=pdf_path)
+        PDF_retriever_tool = Faiss.retrieve_pdf(pdf_path, vector_name)
         web_search_tool = Tavily.web_search()    # default: k=5
         self.tools = [PDF_retriever_tool, web_search_tool]
 

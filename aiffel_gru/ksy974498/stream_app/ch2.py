@@ -21,7 +21,6 @@ load_dotenv()
 workflow = StateGraph(MyAppState)
 model = gpt_4o_mini
 
-
 def get_si(state: MyAppState):
     mongodb = MongoDB(collection_name="si")
     si_data = mongodb.find_one_booking_reference(state.messages[-1].content)
@@ -31,7 +30,7 @@ def check_parties(state: MyAppState):
     llm = model
     prompt = check_parties_prompt
     pdf_path = os.path.join(os.path.abspath('docs'), "CHERRYShippingLineCompanyPolicy.pdf")
-    rag = RAGAgent(prompt=prompt, llm=llm, pdf_path=pdf_path)
+    rag = RAGAgent(prompt=prompt, llm=llm, pdf_path=pdf_path, vector_name='./vector/compliance_faiss_index')
     response = rag.invoke({'si_data': state.messages[-1]})
 
     # response를 HumanMessage로 변환하여 반환
@@ -45,7 +44,7 @@ def verify_company_policy(state: MyAppState):
     llm = model
     prompt = verify_company_policy_prompt
     pdf_path = os.path.join(os.path.abspath('docs'), "CHERRYShippingLineCompanyPolicy.pdf")
-    rag = RAGAgent(prompt=prompt, llm=llm, pdf_path=pdf_path)
+    rag = RAGAgent(prompt=prompt, llm=llm, pdf_path=pdf_path, vector_name='./vector/compliance_faiss_index')
     response = rag.invoke({'si_data': state.messages[-1]})
 
     # response를 HumanMessage로 변환하여 반환
@@ -72,8 +71,8 @@ def verify_vessel_port_situation(state: MyAppState):
     client = TavilyClient(api_key=os.environ.get("TAVILY_API_KEY"))
     response = client.search(search_query, include_answer=True)
     response = {'query' : response['query'],
-     'answer': response['answer'],
-     'results' : response['results']}
+                'answer': response['answer'],
+                'results' : response['results']}
     response_message = HumanMessage(content=str(response))
     return {"messages": [response_message]}
 
@@ -82,8 +81,8 @@ def generate_validation_report(state: MyAppState):
     prompt = validation_report_prompt
     chain = BasicChain(llm, prompt, input_variables=["si_data", 'parties_check','verify_company_policy'])
     response = chain.invoke({"si_data": state.messages[-3].content, 
-                'parties_check' : state.messages[-2].content, 
-                'verify_company_policy': state.messages[-1].content})
+                             'parties_check' : state.messages[-2].content,
+                             'verify_company_policy': state.messages[-1].content})
     response_message = HumanMessage(content=str(response))
     return {"messages": [response_message]}
 
