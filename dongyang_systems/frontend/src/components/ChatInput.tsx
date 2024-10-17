@@ -54,7 +54,7 @@ const ChatInput: React.FC<ChatInputProps> = ({
         shape="circle"
         size="large"
         loading={isLoading}
-        icon={<SendOutlined style={{ fontSize: 20, color: "#ffffff" }} />}
+        icon={<SendOutlined style={{ fontSize: 20 }} />}
         onClick={isLoading ? undefined : onClickButton} // 로딩 중일 때 클릭 event 막기
       />
     </ChatDiv>

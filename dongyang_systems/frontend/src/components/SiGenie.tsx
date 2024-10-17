@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Flex } from "antd";
+import { FullscreenOutlined, FullscreenExitOutlined } from "@ant-design/icons";
 
 import { EndpointUtil } from "../utils/EndpointUtil";
 import { createGlobalStyle } from "styled-components";
-import { BackgroundCard } from "./StyledComponents";
+import { BackgroundCard, GradientButton } from "./StyledComponents";
 import ChatInput from "./ChatInput";
 import DocPreview from "./DocPreview";
 import DraftBL from "./DraftBL";
@@ -37,6 +38,8 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
   const [bkgRefExists, setBkgRefExists] = useState<boolean>(false);
   // Draft BL 생성용 데이터
   const [doc, setDoc] = useState<SIDocument>();
+  // Draft BL Preview Open 여부
+  const [isPreviewOpen, setIsPreviewOpen] = useState<boolean>(false);
   // LLM Response 출력용 데이터
   const [responseChain, setResponseChain] = useState<any[]>([]);
   // 로딩 여부
@@ -79,6 +82,7 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
     }
 
     const endpoint = EndpointUtil.API.REQUEST.QUERY_CH1 + `?query=${input}`;
+    // const endpoint = EndpointUtil.API.REQUEST.QUERY_CH2 + `?query=${input}`;
     const stream = new EventSource(endpoint, { withCredentials: true });
 
     stream.onopen = () => {
@@ -143,24 +147,60 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
   return (
     <>
       <GlobalStyle />
-      <Flex vertical={false} gap={"10px"}>
-        <Flex flex={1} style={{ display: bkgRefExists ? undefined : "none" }}>
-          <DocPreview template={<DraftBL doc={doc} />} />
-        </Flex>
-        <Flex flex={1} vertical align="center" gap={"10px"}>
-          <ChatInput
-            // placeholder="What is your episode for SIGenie story?"
-            placeholder="Please input a Booking Reference Number."
-            onSubmit={onSubmit}
-            isLoading={isLoading}
-          />
-          <BackgroundCard
+      <Flex vertical gap={"10px"}>
+        <Flex vertical={false} align="center" gap={"10px"}>
+          <Flex
+            flex={isPreviewOpen ? 1 : undefined}
+            align={isPreviewOpen ? "end" : "center"}
             style={{
+              height: "80px",
               display: bkgRefExists ? undefined : "none",
             }}
           >
-            <SIResponseViewer items={responseChain} />
-          </BackgroundCard>
+            <GradientButton
+              type="primary"
+              size="large"
+              icon={
+                isPreviewOpen ? (
+                  <FullscreenExitOutlined style={{ fontSize: 20 }} />
+                ) : (
+                  <FullscreenOutlined style={{ fontSize: 20 }} />
+                )
+              }
+              onClick={() => {
+                setIsPreviewOpen(!isPreviewOpen);
+              }}
+            >
+              Draft B/L
+            </GradientButton>
+          </Flex>
+          <Flex vertical={false} flex={1} align="center">
+            <ChatInput
+              // placeholder="What is your episode for SIGenie story?"
+              placeholder="Please input a Booking Reference Number."
+              onSubmit={onSubmit}
+              isLoading={isLoading}
+            />
+          </Flex>
+        </Flex>
+        <Flex vertical={false} align="start" gap={"10px"}>
+          <Flex flex={bkgRefExists && isPreviewOpen ? 1 : undefined}>
+            <DocPreview
+              template={<DraftBL doc={doc} />}
+              // style={{
+              //   display: bkgRefExists && isPreviewOpen ? undefined : "none",
+              // }}
+            />
+          </Flex>
+          <Flex flex={1}>
+            <BackgroundCard
+              style={{
+                display: bkgRefExists ? undefined : "none",
+              }}
+            >
+              <SIResponseViewer items={responseChain} />
+            </BackgroundCard>
+          </Flex>
         </Flex>
       </Flex>
     </>

@@ -8,9 +8,10 @@ import "../styles/docPreview.css";
 
 interface DocPreviewProps {
   template: ReactNode;
+  style?: React.CSSProperties;
 }
 
-const DocPreview: React.FC<DocPreviewProps> = ({ template }) => {
+const DocPreview: React.FC<DocPreviewProps> = ({ template, style }) => {
   // 브라우저 크기 감지용 Ref
   const previewRef = useRef<HTMLDivElement>(null);
   // 렌더링된 문서 템플릿 크기 감지용 Ref
@@ -69,6 +70,7 @@ const DocPreview: React.FC<DocPreviewProps> = ({ template }) => {
       ref={previewRef}
       style={{
         height: `${scaledHeight}px`,
+        ...style,
       }}
     >
       <div

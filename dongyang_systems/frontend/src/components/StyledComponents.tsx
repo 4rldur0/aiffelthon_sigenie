@@ -1,4 +1,4 @@
-import { Input } from "antd";
+import { Input, Button } from "antd";
 import styled from "styled-components";
 
 import LinkPreview from "./LinkPreview";
@@ -22,6 +22,21 @@ const StyledLinkPreview = styled(LinkPreview)`
   font-family: "Freesentation", sans-serif;
 `;
 
+const GradientButton = styled(Button)`
+font-weight: bold;
+inset: 0;
+paddign: 20px
+border-width: 0;
+border-radius: 20px;
+background: linear-gradient(135deg, #6253e1, #04befe);
+  opacity: 1;
+  transition: all 0.8s;
+
+  :hover::before {
+    opacity: 0;
+  }
+`;
+
 const ChatDiv = styled.div`
   display: flex;
   flex-direction: row;
@@ -42,4 +57,10 @@ const ChatInputField = styled(Input)`
   font-size: 1.2rem;
 `;
 
-export { BackgroundCard, StyledLinkPreview, ChatDiv, ChatInputField };
+export {
+  BackgroundCard,
+  StyledLinkPreview,
+  GradientButton,
+  ChatDiv,
+  ChatInputField,
+};
