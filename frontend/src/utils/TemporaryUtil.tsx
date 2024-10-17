@@ -27,11 +27,11 @@ const getNodeContent = (item: any) => {
   switch (key) {
     case "get_si":
       // return jsonToMarkdown(item);
-      return <pre>{JSON.stringify(item, null, 4)}</pre>;
+      return <pre>{JSON.stringify(item.data, null, 4)}</pre>;
     case "check_missing_data":
-      return missingCheckNode(item);
+      return missingCheckNode(item.data);
     case "generate_intake_report":
-      return intakeReportNode(item);
+      return intakeReportNode(item.data);
     default:
       return "";
   }

@@ -86,19 +86,19 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
     };
 
     stream.onmessage = (e) => {
-      console.log("message ::: ", e.data);
+      console.log("message ::: ", e);
     };
 
     stream.addEventListener("get_si", (e) => {
       const nodeName = e.type;
       const nodeResponse = {
         key: nodeName,
-        ...JSON.parse(e.data),
+        data: JSON.parse(e.data),
       };
       console.log("get_si ::: ", nodeResponse);
-      const bkgRef = nodeResponse.bookingReference;
+      const bkgRef = nodeResponse.data.bookingReference;
       setSessionBkgRef(bkgRef);
-      setDoc(nodeResponse);
+      setDoc(nodeResponse.data);
       newChain.push(nodeResponse);
       setResponseChain([...newChain]);
     });
@@ -106,7 +106,7 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
       const nodeName = e.type;
       const nodeResponse = {
         key: nodeName,
-        ...JSON.parse(e.data),
+        data: JSON.parse(e.data),
       };
       console.log("check_missing_data ::: ", nodeResponse);
       newChain.push(nodeResponse);
@@ -116,7 +116,7 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
       const nodeName = e.type;
       const nodeResponse = {
         key: nodeName,
-        ...JSON.parse(e.data),
+        data: JSON.parse(e.data),
       };
       console.log("generate_intake_report ::: ", nodeResponse);
       newChain.push(nodeResponse);
