@@ -1,40 +1,25 @@
-# llm_flow.py
-import operator
-from typing import Annotated, Sequence
-
+# ch2.py
 from langgraph.graph import END, StateGraph
 from langchain_openai import ChatOpenAI
-from langchain_core.messages import BaseMessage, SystemMessage, HumanMessage
+from langchain_core.messages import SystemMessage, HumanMessage
+from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
 
-from pydantic import BaseModel
 
 from langchain.prompts import PromptTemplate
-from common.prompts import check_parties_prompt, verify_company_policy_prompt, validation_report_prompt
 
-
-from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
-from common.schemas import ShipmentStatus, ShipmentSummary
+from common import *
+import os
+from tavily import TavilyClient
+# from ast import literal_eval
+# import json
 
 from fastapi import FastAPI
-from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
-
 from dotenv import load_dotenv
 
 load_dotenv()
 
-class MyAppState(BaseModel):
-    messages: Annotated[Sequence[BaseMessage], operator.add]
-
 workflow = StateGraph(MyAppState)
-model = ChatOpenAI(temperature=0, 
-                    model_name="gpt-4o-mini",
-                    streaming=True,              
-                    callbacks=[StreamingStdOutCallbackHandler()]
-                    )
-
-from common.tools import MongoDB
-from common.agents import RAGAgent, BasicChain
-import os
+model = gpt_4o_mini
 
 def get_si(state: MyAppState):
     mongodb = MongoDB(collection_name="si")
@@ -44,8 +29,8 @@ def get_si(state: MyAppState):
 def check_parties(state: MyAppState):
     llm = model
     prompt = check_parties_prompt
-    pdf_path = os.path.join(os.path.abspath('docs'), "CHERRYShippingLineCompanyPolicy.pdf")
-    rag = RAGAgent(prompt=prompt, llm=llm, pdf_path=pdf_path)
+    pdf_path = "./docs/CHERRYShippingLineCompanyPolicy.pdf"#os.path.join(os.path.abspath('docs'), "CHERRYShippingLineCompanyPolicy.pdf")
+    rag = RAGAgent(prompt=prompt, llm=llm, pdf_path=pdf_path, vector_name='./vector/compliance_faiss_index')
     response = rag.invoke({'si_data': state.messages[-1]})
 
     # response를 HumanMessage로 변환하여 반환
@@ -58,8 +43,8 @@ def check_parties(state: MyAppState):
 def verify_company_policy(state: MyAppState):
     llm = model
     prompt = verify_company_policy_prompt
-    pdf_path = os.path.join(os.path.abspath('docs'), "CHERRYShippingLineCompanyPolicy.pdf")
-    rag = RAGAgent(prompt=prompt, llm=llm, pdf_path=pdf_path)
+    pdf_path = "./docs/CHERRYShippingLineCompanyPolicy.pdf"#os.path.join(os.path.abspath('docs'), "CHERRYShippingLineCompanyPolicy.pdf")
+    rag = RAGAgent(prompt=prompt, llm=llm, pdf_path=pdf_path, vector_name='./vector/compliance_faiss_index')
     response = rag.invoke({'si_data': state.messages[-1]})
 
     # response를 HumanMessage로 변환하여 반환
@@ -69,27 +54,11 @@ def verify_company_policy(state: MyAppState):
         response_message = HumanMessage(content="Invalid response format.")
     return {"messages": [response_message]}
 
-import os
-from tavily import TavilyClient
-from ast import literal_eval
-import json
 
 def verify_vessel_port_situation(state: MyAppState):
     si_data = state.messages[-3].content
-    llm = ChatOpenAI(temperature=0, 
-                    model_name="gpt-4o-mini",
-                    streaming=True,              
-                    callbacks=[StreamingStdOutCallbackHandler()]
-                    )
-    query_prompt = """
-    Based on the following shipment data, generate a concise web search query to find recent news about the port and vessel. 
-    The search query should include the port of loading and the vessel name.
+    llm = model
 
-    Shipment Data:
-    {si_data}
-
-    Generate a search query that might return recent news about the status of the port and the vessel's voyage.
-    """
     prompt = PromptTemplate(
             template=query_prompt,
             input_variables=["si_data"],
@@ -101,16 +70,19 @@ def verify_vessel_port_situation(state: MyAppState):
     # 웹 검색 쿼리 작성
     client = TavilyClient(api_key=os.environ.get("TAVILY_API_KEY"))
     response = client.search(search_query, include_answer=True)
+    response = {'query' : response['query'],
+                'answer': response['answer'],
+                'results' : response['results']}
     response_message = HumanMessage(content=str(response))
     return {"messages": [response_message]}
 
 def generate_validation_report(state: MyAppState):
     llm = model
     prompt = validation_report_prompt
-    chain = BasicChain(llm, prompt, input_variables=["sources"])
-    response = chain.invoke(
-                {"sources": [state.messages[-3].content, state.messages[-2].content, state.messages[-1].content]}
-            )
+    chain = BasicChain(llm, prompt, input_variables=["si_data", 'parties_check','verify_company_policy'])
+    response = chain.invoke({"si_data": state.messages[-3].content, 
+                             'parties_check' : state.messages[-2].content,
+                             'verify_company_policy': state.messages[-1].content})
     response_message = HumanMessage(content=str(response))
     return {"messages": [response_message]}
 

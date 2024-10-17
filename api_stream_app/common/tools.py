@@ -19,22 +19,18 @@ class MongoDB:
         self.collection = db[collection_name]
 
     def find_one_booking_reference(self, booking_reference):
-        return self.collection.find_one({'bookingReference': booking_reference})
-    
+        return self.collection.find_one({'bookingReference': booking_reference}, {'_id': False })
+
+from .vectorstore import *
+
 class Faiss:
-    def retrieve_pdf(pdf_path):
-        # look for relevant parts in pdfs
-        PDF_loader = PyMuPDFLoader(pdf_path)
-
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=50, length_function=len, separators=["\n\n", "\n", " ", ""])
-        PDF_split_docs = PDF_loader.load_and_split(text_splitter)
-
-        embeddings = OpenAIEmbeddings()
-
-        PDF_vector = FAISS.from_documents(documents=PDF_split_docs, embedding=embeddings)
-
+    def retrieve_pdf(pdf_path, vector_name):
+        try:
+            PDF_vector = FAISS.load_local(vector_name, OpenAIEmbeddings(), allow_dangerous_deserialization=True)
+        except:
+            PDF_vector = update_faiss_index(pdf_path)
+        
         PDF_retriever = PDF_vector.as_retriever()
-
         PDF_retriever_tool = create_retriever_tool(
             PDF_retriever,
             name="pdf_search",

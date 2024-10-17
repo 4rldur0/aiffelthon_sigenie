@@ -1,41 +1,31 @@
-# llm_flow.py
-import operator
-from typing import Annotated, Sequence
-
+# ch1.py
 from langgraph.graph import END, StateGraph
 from langchain_openai import ChatOpenAI
-from langchain_core.messages import BaseMessage, SystemMessage, HumanMessage
-# from langchain_core.pydantic_v1 import BaseModel
-from pydantic import BaseModel
+from langchain_core.messages import SystemMessage, HumanMessage
 
 from langchain.prompts import PromptTemplate
-from common.prompts import check_missing_prompt, intake_report_prompt
 from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
-from common.schemas import ShipmentStatus, ShipmentSummary
 
+from common import *
 from fastapi import FastAPI
-
-from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
 from dotenv import load_dotenv
 
 load_dotenv()
 
-class MyAppState(BaseModel):
-    messages: Annotated[Sequence[BaseMessage], operator.add]
-
 workflow = StateGraph(MyAppState)
-model = ChatOpenAI(temperature=0, 
-                    model_name="gpt-4o-mini",
-                    streaming=True,              
-                    callbacks=[StreamingStdOutCallbackHandler()]
-                    )
+model = gpt_4o_mini
 
 from common.tools import MongoDB
 
+def get_bkg(state: MyAppState):
+    mongodb = MongoDB(collection_name="bkg")
+    si_data = mongodb.find_one_booking_reference(state.messages[-1].content)
+    return {"messages": [HumanMessage(content=str(si_data))]}
+
 def get_si(state: MyAppState):
     mongodb = MongoDB(collection_name="si")
-    si_data = mongodb.find_one_booking_reference(state.messages[-1].content)
+    si_data = mongodb.find_one_booking_reference(state.messages[-2].content)
     return {"messages": [HumanMessage(content=str(si_data))]}
 
 
@@ -73,16 +63,18 @@ def generate_intake_report(state: MyAppState):
     chain = prompt | llm | output_parser
     response = chain.invoke({'si_data': state.messages[-2], 
                              'missing_info':state.messages[-1]})
-    return {"messages": [response]}
+    response_message = HumanMessage(content=str(response))
+    return {"messages": [response_message]}
 
+workflow.add_node("get_bkg", get_bkg)
 workflow.add_node("get_si", get_si)
 workflow.add_node("check_missing_data", check_missing)
 workflow.add_node("generate_intake_report", generate_intake_report)
 
+workflow.set_entry_point("get_bkg")
+workflow.add_edge("get_bkg", "get_si")
 workflow.add_edge("get_si", "check_missing_data")
 workflow.add_edge("check_missing_data", "generate_intake_report")
 workflow.add_edge("generate_intake_report", END)
-
-workflow.set_entry_point("get_si")
 
 graph = workflow.compile()

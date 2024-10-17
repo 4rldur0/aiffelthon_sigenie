@@ -1,0 +1,191 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* App container layout */
+.App {
+  display: flex;
+  height: 100vh;
+  overflow: hidden; /* Prevents overflow from causing unwanted scroll */
+  padding: 20px;
+  background-color: #f9f9f9;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 250px; /* Adjusted width for better look */
+  background-color: #2c3e50; /* Darker color for better contrast */
+  color: #ecf0f1; /* Lighter text color for readability */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Fixed position for a sticky sidebar */
+  height: 100vh; /* Full height */
+  overflow-y: auto; /* Scrollable if content exceeds screen height */
+}
+
+.sidebar h3 {
+  color: #ecf0f1;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.message {
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: #34495e; /* Slightly darker background */
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.message span {
+  margin-right: 10px;
+}
+
+/* Main content area */
+.main-content {
+  margin-left: 250px; /* Matches sidebar width */
+  padding: 20px;
+  background-color: #f9f9f9;
+  flex-grow: 1;
+  overflow-y: auto; /* Scroll if content is too large */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Section layout */
+.sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.section {
+  width: 48%; /* Adjusted to fit better in a two-column layout */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h4 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+/* Form styling */
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+/* Spinner and error */
+.spinner {
+  font-size: 18px;
+  color: #3498db;
+}
+
+.error {
+  font-size: 16px;
+  color: #e74c3c;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  margin-top: 20px;
+}
+
+.tabs button {
+  background-color: #ecf0f1;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.tabs .active-tab {
+  background-color: #ccc;
+}
+
+.tab-content {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Event content */
+.event-content pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+}

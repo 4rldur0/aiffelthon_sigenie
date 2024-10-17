@@ -4,7 +4,6 @@
 ## What is SI?
 - SI : Shipping Instruction
 
-
 ## WorkFlow
 ### **chapter 1**
 
@@ -25,8 +24,8 @@
 5. 확인한 결과 정리해서 보여주기
 
 ## Setup
-1. poetry shell
-2. `uvicorn main:app` or `python main.py`
+1. docker-compose build
+2. docker-compose up
 3. 
     - 1. http://127.0.0.1:8000/streaming_sync/chat/ch1?query="bookingreference"
         - ex) http://127.0.0.1:8000/streaming_sync/chat/ch2?query=CHERRY202409072244
