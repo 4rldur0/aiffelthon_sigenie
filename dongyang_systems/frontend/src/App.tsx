@@ -157,6 +157,13 @@ const App: React.FC = () => {
             </h2>
           </div>
           <Space style={{ marginRight: "24px" }}>
+            <Link href="https://bit.ly/containergenie_k" target="_blank">
+              White Paper KR
+            </Link>
+            <span>/</span>
+            <Link href="https://bit.ly/containergenie" target="_blank">
+              EN
+            </Link>
             <Select
               defaultValue={language}
               style={{ width: 120 }}
@@ -170,13 +177,6 @@ const App: React.FC = () => {
               <Option value="kr">한국어</Option>
               <Option value="en">English</Option>
             </Select>
-            <Link href="https://bit.ly/containergenie_k" target="_blank">
-              White Paper KR
-            </Link>
-            <span>/</span>
-            <Link href="https://bit.ly/containergenie" target="_blank">
-              EN
-            </Link>
           </Space>
         </Header>
         <Layout

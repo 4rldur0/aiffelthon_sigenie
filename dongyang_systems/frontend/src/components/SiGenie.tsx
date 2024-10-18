@@ -217,7 +217,8 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
       if (targetStep) {
         targetStep.status = "finish";
         targetStep.icon =
-          stepKey === "generate_intake_report" ? (
+          stepKey === "generate_intake_report" ||
+          stepKey === "generate_validation_report" ? (
             <CheckCircleTwoTone
               twoToneColor={"#00cc00"}
               style={{ fontSize: "30px" }}
