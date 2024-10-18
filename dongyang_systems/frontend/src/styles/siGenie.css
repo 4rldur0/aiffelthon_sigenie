@@ -9,3 +9,31 @@
   word-wrap: break-word;
   overflow-x: auto;
 }
+
+/* ========== Steps CSS ========== */
+/* icon container */
+.sigenie-steps .ant-steps-item-icon {
+  display: flex;
+}
+/* bar between nodes */
+.sigenie-steps .ant-steps-item-tail::after {
+  position: relative;
+  top: -2px;
+  height: 3px;
+  transition: all 0.5s;
+}
+
+/* ----- on Selecting a Step ----- */
+/* icon emphasize */
+.sigenie-steps .ant-steps-item-active .anticon {
+  padding: 1.5px;
+  border: 2px solid #1677ff;
+  border-radius: 20px;
+}
+/* subtitle emphasize */
+.sigenie-steps .ant-steps-item-active .ant-steps-item-subtitle {
+  color: #1677ff;
+  font-weight: bold;
+}
+/* -------------------------------- */
+/* ================================ */

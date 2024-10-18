@@ -6,11 +6,14 @@ import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
 
+import { StepsItem } from "../components/InterfaceDefinition";
 import { StyledLinkPreview } from "../components/StyledComponents";
 import CodeBlock from "../components/markdown/CodeBlock";
 
 const getNodeName = (key: string) => {
   switch (key) {
+    case "get_bkg":
+      return "Retrieve Booking Data";
     case "get_si":
       return "Retrieve Shipping Instruction Data";
     case "check_missing_data":
@@ -22,12 +25,27 @@ const getNodeName = (key: string) => {
   }
 };
 
+const steps = [
+  "get_bkg",
+  "get_si",
+  "check_missing_data",
+  "generate_intake_report",
+];
+
+const progressItems: StepsItem[] = steps.map((key: string) => ({
+  key: key,
+  subTitle: getNodeName(key),
+  status: "wait",
+  icon: undefined,
+}));
+
 const getNodeContent = (item: any) => {
   const key = item.key;
   switch (key) {
+    case "get_bkg":
+      return jsonToMarkdown(item);
     case "get_si":
-      // return jsonToMarkdown(item);
-      return <pre>{JSON.stringify(item.data, null, 4)}</pre>;
+      return jsonToMarkdown(item);
     case "check_missing_data":
       return missingCheckNode(item.data);
     case "generate_intake_report":
@@ -38,17 +56,18 @@ const getNodeContent = (item: any) => {
 };
 
 const jsonToMarkdown = (item: any) => {
-  return (
-    <ReactMarkdown
-      rehypePlugins={[rehypeRaw]}
-      remarkPlugins={[remarkGfm]}
-      components={{
-        code: ({ node, ...props }) => (
-          <CodeBlock language="json" value={JSON.stringify(item)} {...props} />
-        ),
-      }}
-    />
-  );
+  // return (
+  //   <ReactMarkdown
+  //     rehypePlugins={[rehypeRaw]}
+  //     remarkPlugins={[remarkGfm]}
+  //     components={{
+  //       code: ({ node, ...props }) => (
+  //         <CodeBlock language="json" value={JSON.stringify(item)} {...props} />
+  //       ),
+  //     }}
+  //   />
+  // );
+  return <pre>{JSON.stringify(item.data, null, 4)}</pre>;
 };
 
 const missingCheckNode = (input: any) => {
@@ -228,9 +247,8 @@ const generateMarkdown = (markdownContent: string) => {
 };
 
 export const temp = {
+  steps,
+  progressItems,
   getNodeName,
   getNodeContent,
-  jsonToMarkdown,
-  missingCheckNode,
-  intakeReportNode,
 };

@@ -1,3 +1,5 @@
+import { StepProps } from "antd";
+
 interface SIDocument {
   _id?: string;
   bookingReference: string;
@@ -127,4 +129,10 @@ interface DangerousGoods {
   additionalInfo: string;
 }
 
-export type { SIDocument, Container };
+// ===========================================================
+
+interface StepsItem extends StepProps {
+  key: string;
+}
+
+export type { SIDocument, Container, StepsItem };

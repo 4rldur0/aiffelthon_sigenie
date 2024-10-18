@@ -1,17 +1,23 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Flex } from "antd";
-import { FullscreenOutlined, FullscreenExitOutlined } from "@ant-design/icons";
+import { Flex, Steps, StepsProps } from "antd";
+import {
+  FullscreenOutlined,
+  FullscreenExitOutlined,
+  LoadingOutlined,
+  CheckCircleTwoTone,
+} from "@ant-design/icons";
 
 import { EndpointUtil } from "../utils/EndpointUtil";
 import { createGlobalStyle } from "styled-components";
 import { BackgroundCard, GradientButton } from "./StyledComponents";
+import type { SIDocument, StepsItem } from "./InterfaceDefinition";
 import ChatInput from "./ChatInput";
 import DocPreview from "./DocPreview";
 import DraftBL from "./DraftBL";
 import SIResponseViewer from "./SiResponseViewer";
 
-import type { SIDocument } from "./InterfaceDefinition";
+import { temp } from "../utils/TemporaryUtil";
 
 // 글로벌 스타일 추가
 const GlobalStyle = createGlobalStyle`
@@ -40,8 +46,17 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
   const [doc, setDoc] = useState<SIDocument>();
   // Draft BL Preview Open 여부
   const [isPreviewOpen, setIsPreviewOpen] = useState<boolean>(false);
+  // SIGenie node key
+  const [steps] = useState(temp.steps);
+  // Progress Bar 노드
+  const [progressItems, setProgressItems] = useState<StepsItem[]>(
+    JSON.parse(JSON.stringify(temp.progressItems))
+  );
+  // Progress Bar 현재 노드
+  const [stepsCurrent, setStepsCurrent] = useState<number>(0);
   // LLM Response 출력용 데이터
   const [responseChain, setResponseChain] = useState<any[]>([]);
+  const [hasSearched, setHasSearched] = useState<boolean>(false);
   // 로딩 여부
   const [isLoading, setIsLoading] = useState<boolean>(false);
   // 스트리밍 통신용 EventSource 객체
@@ -63,12 +78,20 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
 
   // 검색 시 실행하는 함수
   const onSubmit = (query: string) => {
-    getLLMResponse(query);
+    setHasSearched(true);
+    initializeProgressItems();
+    getStreamingResponse(query);
   };
 
-  // LLM Response 출력용 데이터 가져오기
-  const getLLMResponse = (query: string) => {
-    getStreamingResponse(query);
+  // Progress Bar 데이터 초기화
+  const initializeProgressItems = () => {
+    const newProgressItems: StepsItem[] = JSON.parse(
+      JSON.stringify(temp.progressItems)
+    );
+    newProgressItems.forEach((item: StepsItem) => {
+      item.icon = <LoadingOutlined />;
+    });
+    setProgressItems(newProgressItems);
   };
 
   // LLM Response 스트리밍 데이터 요청
@@ -93,6 +116,18 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
       console.log("message ::: ", e);
     };
 
+    stream.addEventListener("get_bkg", (e) => {
+      const nodeName = e.type;
+      const nodeResponse = {
+        key: nodeName,
+        data: JSON.parse(e.data),
+      };
+      console.log("get_bkg ::: ", nodeResponse);
+      newChain.push(nodeResponse);
+      setResponseChain([...newChain]);
+      changeStepStatus(nodeName);
+    });
+
     stream.addEventListener("get_si", (e) => {
       const nodeName = e.type;
       const nodeResponse = {
@@ -105,7 +140,9 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
       setDoc(nodeResponse.data);
       newChain.push(nodeResponse);
       setResponseChain([...newChain]);
+      changeStepStatus(nodeName);
     });
+
     stream.addEventListener("check_missing_data", (e) => {
       const nodeName = e.type;
       const nodeResponse = {
@@ -115,7 +152,9 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
       console.log("check_missing_data ::: ", nodeResponse);
       newChain.push(nodeResponse);
       setResponseChain([...newChain]);
+      changeStepStatus(nodeName);
     });
+
     stream.addEventListener("generate_intake_report", (e) => {
       const nodeName = e.type;
       const nodeResponse = {
@@ -125,6 +164,7 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
       console.log("generate_intake_report ::: ", nodeResponse);
       newChain.push(nodeResponse);
       setResponseChain([...newChain]);
+      changeStepStatus(nodeName);
     });
 
     stream.addEventListener("done", (e) => {
@@ -142,6 +182,35 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
     };
 
     setEventSource(stream);
+  };
+
+  const changeStepStatus = (stepKey: string) => {
+    setProgressItems((prevItems) => {
+      const newItems = [...prevItems];
+      const targetStep = newItems.find((item) => item.key === stepKey);
+      if (targetStep) {
+        targetStep.status = "finish";
+        targetStep.icon =
+          stepKey === "generate_intake_report" ? (
+            <CheckCircleTwoTone
+              twoToneColor={"#00cc00"}
+              style={{ fontSize: "30px" }}
+            />
+          ) : (
+            <CheckCircleTwoTone style={{ fontSize: "30px" }} />
+          );
+      }
+      return newItems;
+    });
+  };
+
+  const onClickSteps = (current: number) => {
+    setStepsCurrent(current);
+
+    const nodeKey = steps[current];
+    const nodeData =
+      current < responseChain.length ? responseChain[current].data : undefined;
+    console.log(`${nodeKey} ::: `, nodeData);
   };
 
   return (
@@ -185,19 +254,24 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
         </Flex>
         <Flex vertical={false} align="start" gap={"10px"}>
           <Flex flex={bkgRefExists && isPreviewOpen ? 1 : undefined}>
-            <DocPreview
-              template={<DraftBL doc={doc} />}
-              // style={{
-              //   display: bkgRefExists && isPreviewOpen ? undefined : "none",
-              // }}
-            />
+            <DocPreview template={<DraftBL doc={doc} />} />
           </Flex>
-          <Flex flex={1}>
-            <BackgroundCard
-              style={{
-                display: bkgRefExists ? undefined : "none",
-              }}
-            >
+          <Flex
+            vertical
+            gap={"10px"}
+            flex={1}
+            style={{
+              display: hasSearched ? undefined : "none",
+            }}
+          >
+            <Steps
+              className="sigenie-steps"
+              labelPlacement="vertical"
+              current={stepsCurrent}
+              items={progressItems}
+              onChange={onClickSteps}
+            />
+            <BackgroundCard>
               <SIResponseViewer items={responseChain} />
             </BackgroundCard>
           </Flex>
