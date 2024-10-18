@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
-import { Flex, Steps, StepsProps } from "antd";
+import { Flex, Steps, Modal, Result } from "antd";
 import {
   FullscreenOutlined,
   FullscreenExitOutlined,
@@ -32,6 +31,16 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Freesentation', sans-serif;
   }
 `;
+
+const errorModal = (content: string) => {
+  Modal.error({
+    content: <Result status={"error"} title={content} />,
+    centered: true,
+    maskClosable: true,
+    zIndex: 10,
+    className: "sigenie-modal-error",
+  });
+};
 
 interface SIGenieProps {
   bookingReference?: string;
@@ -179,6 +188,8 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
       // console.log(e);
       stream.close();
       setIsLoading(false);
+      onErrorChangeStepStatus();
+      errorModal("Generation Failed");
     };
 
     setEventSource(stream);
@@ -200,6 +211,18 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
             <CheckCircleTwoTone style={{ fontSize: "30px" }} />
           );
       }
+      return newItems;
+    });
+  };
+
+  const onErrorChangeStepStatus = () => {
+    setProgressItems((prevItems) => {
+      const newItems = [...prevItems];
+      newItems.forEach((item) => {
+        if (item.status !== "finish") {
+          item.icon = undefined;
+        }
+      });
       return newItems;
     });
   };
