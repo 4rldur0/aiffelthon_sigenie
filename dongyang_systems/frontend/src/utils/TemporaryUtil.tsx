@@ -5,10 +5,11 @@
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { coy as CodeTheme } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 import { StepsItem } from "../components/InterfaceDefinition";
 import { StyledLinkPreview } from "../components/StyledComponents";
-import CodeBlock from "../components/markdown/CodeBlock";
 
 const getNodeName = (key: string) => {
   switch (key) {
@@ -20,6 +21,14 @@ const getNodeName = (key: string) => {
       return "Check Missing Data";
     case "generate_intake_report":
       return "Intake Report";
+    case "check_parties":
+      return "Party Details Check";
+    case "verify_company_policy":
+      return "Compliance Check";
+    case "verify_vessel_port_situation":
+      return "Vessel/Port Situation";
+    case "generate_validation_report":
+      return "Validation Report";
     default:
       return "";
   }
@@ -31,6 +40,13 @@ const steps = [
   "check_missing_data",
   "generate_intake_report",
 ];
+// const steps = [
+//   "get_si",
+//   "check_parties",
+//   "verify_company_policy",
+//   "verify_vessel_port_situation",
+//   "generate_validation_report",
+// ];
 
 const progressItems: StepsItem[] = steps.map((key: string) => ({
   key: key,
@@ -50,24 +66,23 @@ const getNodeContent = (item: any) => {
       return missingCheckNode(item.data);
     case "generate_intake_report":
       return intakeReportNode(item.data);
+    case "check_parties":
+      return generateMarkdown(item.data.markdown);
+    case "verify_company_policy":
+      return generateMarkdown(item.data.markdown);
+    case "verify_vessel_port_situation":
+      return vesselPortSituationNode(item.data);
+    case "generate_validation_report":
+      return generateMarkdown(item.data.markdown);
     default:
       return "";
   }
 };
 
 const jsonToMarkdown = (item: any) => {
-  // return (
-  //   <ReactMarkdown
-  //     rehypePlugins={[rehypeRaw]}
-  //     remarkPlugins={[remarkGfm]}
-  //     components={{
-  //       code: ({ node, ...props }) => (
-  //         <CodeBlock language="json" value={JSON.stringify(item)} {...props} />
-  //       ),
-  //     }}
-  //   />
-  // );
-  return <pre>{JSON.stringify(item.data, null, 4)}</pre>;
+  const json_str = JSON.stringify(item.data, null, 8);
+  const markdown = "```json\n" + json_str + "\n```\n";
+  return generateMarkdown(markdown);
 };
 
 const missingCheckNode = (input: any) => {
@@ -172,65 +187,38 @@ const statusToMarkdown = (input: any) => {
   return result;
 };
 
+const vesselPortSituationNode = (input: any) => {
+  const llmAnswer = input.answer;
+  let markdown = llmAnswer + "<br /><br />";
+  input.results.forEach((src: any) => {
+    markdown += `Source: [${src.title}](${src.url})<br />`;
+  });
+  return generateMarkdown(markdown);
+};
+
 const generateMarkdown = (markdownContent: string) => {
   return (
     <ReactMarkdown
-      rehypePlugins={[rehypeRaw]}
       remarkPlugins={[remarkGfm]}
+      rehypePlugins={[rehypeRaw]}
       components={{
-        p: ({ node, ...props }) => (
-          <p
-            style={{
-              marginLeft: "2em",
-              marginBottom: "0.5em",
-              fontFamily: "Freesentation, sans-serif",
-            }}
-            {...props}
-          />
-        ),
-        li: ({ node, ...props }) => (
-          <li
-            style={{
-              fontFamily: "Freesentation, sans-serif",
-            }}
-            {...props}
-          />
-        ),
-        h1: ({ node, ...props }) => (
-          <h1
-            style={{
-              fontSize: "1.5em",
-              marginTop: "0em",
-              marginBottom: "0em",
-              fontFamily: "Freesentation, sans-serif",
-            }}
-            {...props}
-          />
-        ),
-        h2: ({ node, ...props }) => (
-          <h2
-            style={{
-              textAlign: "start",
-              marginTop: "0.5em",
-              marginBottom: "0em",
-              marginLeft: "0.5em",
-              fontSize: "1.3em",
-              fontFamily: "Freesentation, sans-serif",
-            }}
-            {...props}
-          />
-        ),
-        h3: ({ node, ...props }) => (
-          <h3
-            style={{
-              marginBottom: 0,
-              marginLeft: "1.5em",
-              fontSize: "1.1em",
-              fontFamily: "Freesentation, sans-serif",
-            }}
-            {...props}
-          />
-        ),
+        code({ node, inline, className, children, ...props }: any) {
+          const match = /language-(\w+)/.exec(className || "");
+          return !inline && match ? (
+            <SyntaxHighlighter
+              style={{ ...CodeTheme }}
+              language={match[1]}
+              PreTag="div"
+              {...props}
+            >
+              {String(children).replace(/\n$/, "")}
+            </SyntaxHighlighter>
+          ) : (
+            <code className={className} {...props}>
+              {children}
+            </code>
+          );
+        },
         a: ({ node, href, children, ...props }) =>
           href ? (
             <StyledLinkPreview href={href}>{children}</StyledLinkPreview>

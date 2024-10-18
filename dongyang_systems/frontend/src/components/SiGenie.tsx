@@ -10,6 +10,8 @@ import {
 import { EndpointUtil } from "../utils/EndpointUtil";
 import { createGlobalStyle } from "styled-components";
 import { BackgroundCard, GradientButton } from "./StyledComponents";
+import "../styles/siGenie.css";
+
 import type { SIDocument, StepsItem } from "./InterfaceDefinition";
 import ChatInput from "./ChatInput";
 import DocPreview from "./DocPreview";
@@ -122,7 +124,20 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
     };
 
     stream.onmessage = (e) => {
-      console.log("message ::: ", e);
+      const nodeName = e.lastEventId;
+      const nodeResponse = {
+        key: nodeName,
+        data: JSON.parse(e.data),
+      };
+      console.log(`message ::: ${nodeName} ::: `, nodeResponse);
+      if (nodeName === "get_si") {
+        const bkgRef = nodeResponse.data.bookingReference;
+        setSessionBkgRef(bkgRef);
+        setDoc(nodeResponse.data);
+      }
+      newChain.push(nodeResponse);
+      setResponseChain([...newChain]);
+      changeStepStatus(nodeName);
     };
 
     stream.addEventListener("get_bkg", (e) => {
@@ -275,7 +290,11 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
             />
           </Flex>
         </Flex>
-        <Flex vertical={false} align="start" gap={"10px"}>
+        <Flex
+          vertical={false}
+          align="start"
+          gap={bkgRefExists && isPreviewOpen ? "10px" : undefined}
+        >
           <Flex flex={bkgRefExists && isPreviewOpen ? 1 : undefined}>
             <DocPreview template={<DraftBL doc={doc} />} />
           </Flex>
@@ -287,15 +306,21 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
               display: hasSearched ? undefined : "none",
             }}
           >
-            <Steps
-              className="sigenie-steps"
-              labelPlacement="vertical"
-              current={stepsCurrent}
-              items={progressItems}
-              onChange={onClickSteps}
-            />
             <BackgroundCard>
-              <SIResponseViewer items={responseChain} />
+              <Steps
+                className="sigenie-steps"
+                labelPlacement="vertical"
+                current={stepsCurrent}
+                items={progressItems}
+                onChange={onClickSteps}
+              />
+            </BackgroundCard>
+            <BackgroundCard>
+              {/* <SIResponseViewer items={responseChain} /> */}
+              <SIResponseViewer
+                className="sigenie-response"
+                item={responseChain?.at(stepsCurrent)}
+              />
             </BackgroundCard>
           </Flex>
         </Flex>

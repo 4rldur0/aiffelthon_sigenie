@@ -2,22 +2,33 @@
  * SIGenie LLM 응답을 출력하는 배경 컴포넌트
  */
 
-import { Space } from "antd";
+import { Divider } from "antd";
 
-import ResponseNode from "./ResponseNode";
-import type { ResponseProps } from "./ResponseNode";
+import { ContentDiv, MarkdownStyles } from "./StyledComponents";
+import { temp } from "../utils/TemporaryUtil";
 
 interface ResponseViewerProps {
-  items: ResponseProps[];
+  item?: any;
+  className?: string;
+  style?: React.CSSProperties;
 }
 
-const SIResponseViewer: React.FC<ResponseViewerProps> = ({ items }) => {
-  return (
-    <Space direction="vertical" style={{ width: "100%" }}>
-      {items.map((obj) => (
-        <ResponseNode item={obj} />
-      ))}
-    </Space>
+const SIResponseViewer: React.FC<ResponseViewerProps> = ({
+  item,
+  className,
+  style,
+}) => {
+  return item ? (
+    <>
+      <MarkdownStyles />
+      <ContentDiv className={className} style={{ ...style }}>
+        <h2 className="sigenie-response-title">{temp.getNodeName(item.key)}</h2>
+        <Divider />
+        <div className="markdown-body">{temp.getNodeContent(item)}</div>
+      </ContentDiv>
+    </>
+  ) : (
+    <></>
   );
 };
 
