@@ -125,20 +125,20 @@ Provide a summarized validation report for the shipping instruction using the fo
 This is the summarized validation report for shipping instruction.
 
 1. Shipper
-   - Address: [Valid/Invalid] - [Comment on format and explicitly mention postal code status]
+- Address: [Valid/Invalid] - [Comment on format and When postal code is missing it falls into Invalid]
    - Phone/Fax: [Valid/Invalid/Missing] - [Comment on format and area code]
    - Email: [Valid/Invalid/Missing] - [Comment on format]
 
 2. Consignee
-   - Address: [Valid/Invalid] - [Comment on format and explicitly mention postal code status]
+   - Address: [Valid/Invalid] - [Comment on format and When postal code is missing it falls into Invalid]
    - Phone/Fax: [Valid/Invalid/Missing] - [Comment on format and area code]
    - Email: [Valid/Invalid/Missing] - [Comment on format]
 
 3. Notify Party
-   - Address: [Valid/Invalid] - [Comment on format and explicitly mention postal code status]
+   - Address: [Valid/Invalid] - [Comment on format and When postal code is missing it falls into Invalid]
    - Phone/Fax: [Valid/Invalid/Missing] - [Comment on format and area code]
    - Email: [Valid/Invalid/Missing] - [Comment on format]
-
+   
 Overall Status: [All Valid/Invalid] - [Brief summary of issues if invalid, highlighting any missing postal codes]
 """
 
