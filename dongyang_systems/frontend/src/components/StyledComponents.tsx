@@ -12,7 +12,7 @@ const BackgroundCard = styled.div`
   height: 100%;
   text-align: center;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(15px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -123,6 +123,11 @@ const MarkdownStyles = createGlobalStyle`
     font-size: 85%;
     line-height: 1.45;
     border-radius: 3px;
+  }
+
+  .markdown-body span {
+    word-wrap: break-word;
+    white-space: pre-wrap;
   }
 `;
 

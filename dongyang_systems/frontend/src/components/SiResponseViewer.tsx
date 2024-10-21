@@ -23,7 +23,7 @@ const SIResponseViewer: React.FC<ResponseViewerProps> = ({
       <MarkdownStyles />
       <ContentDiv className={className} style={{ ...style }}>
         <h2 className="sigenie-response-title">{temp.getNodeName(item.key)}</h2>
-        <Divider />
+        <Divider style={{ margin: "5px" }} />
         <div className="markdown-body">{temp.getNodeContent(item)}</div>
       </ContentDiv>
     </>

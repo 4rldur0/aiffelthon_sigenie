@@ -139,18 +139,25 @@ const missingCheckNode = (input: any) => {
     input.additional_information.status
   )}\n`;
 
-  result += `\n## Special Cargo Information: ${statusTextColor(
-    input.special_cargo_information.total_status
-  )}\n`;
-  result += `### Out of Gauge Dimentions Information: ${statusToMarkdown(
-    input.special_cargo_information.out_of_gauge_dimensions_info
-  )}\n`;
-  result += `### Hazardous Materials Information: ${statusToMarkdown(
-    input.special_cargo_information.hazardous_materials_info
-  )}\n`;
-  result += `### Refrigerated Cargo Information: ${statusToMarkdown(
-    input.special_cargo_information.refrigerated_cargo_info
-  )}\n`;
+  if (input.special_cargo_information.status) {
+    result += `\n## Special Cargo Information: ${statusToMarkdown(
+      input.special_cargo_information.status
+    )}\n`;
+  } else {
+    result += `\n## Special Cargo Information: ${statusTextColor(
+      input.special_cargo_information.total_status
+    )}\n`;
+
+    result += `### Out of Gauge Dimensions Information: ${statusToMarkdown(
+      input.special_cargo_information.out_of_gauge_dimensions_info
+    )}\n`;
+    result += `### Hazardous Materials Information: ${statusToMarkdown(
+      input.special_cargo_information.hazardous_materials_info
+    )}\n`;
+    result += `### Refrigerated Cargo Information: ${statusToMarkdown(
+      input.special_cargo_information.refrigerated_cargo_info
+    )}\n`;
+  }
   return generateMarkdown(result);
 };
 
@@ -180,7 +187,11 @@ const statusTextColor = (status: string) => {
 };
 
 const statusToMarkdown = (input: any) => {
-  let result = `${statusTextColor(input.status)}`;
+  if (typeof input === "string") {
+    return statusTextColor(input);
+  }
+
+  let result = statusTextColor(input.status);
   if (input.reason) {
     result += `\n${input.reason}`;
   }

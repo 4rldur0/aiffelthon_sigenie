@@ -12,6 +12,12 @@
 /* ================================ */
 
 /* ========== Steps CSS ========== */
+.sigenie-steps {
+  overflow-x: auto;
+}
+.sigenie-steps.ant-steps.ant-steps-label-vertical .ant-steps-item-content {
+  margin-top: 0;
+}
 /* icon container */
 .sigenie-steps .ant-steps-item-icon {
   display: flex;

@@ -246,23 +246,26 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
   const onClickSteps = (current: number) => {
     setStepsCurrent(current);
 
-    const nodeKey = steps[current];
-    const nodeData =
-      current < responseChain.length ? responseChain[current].data : undefined;
-    console.log(`${nodeKey} ::: `, nodeData);
+    // const nodeKey = steps[current];
+    // const nodeData =
+    //   current < responseChain.length ? responseChain[current].data : undefined;
+    // console.log(`${nodeKey} ::: `, nodeData);
   };
 
   return (
     <>
       <GlobalStyle />
       <Flex vertical gap={"10px"}>
-        <Flex vertical={false} align="center" gap={"10px"}>
+        <Flex vertical={false} align="center">
           <Flex
-            flex={isPreviewOpen ? 1 : undefined}
-            align={isPreviewOpen ? "end" : "center"}
+            flex={isPreviewOpen ? "1 0 0%" : "0 0 0%"}
+            align={"end"}
             style={{
               height: "80px",
               display: bkgRefExists ? undefined : "none",
+              paddingBottom: isPreviewOpen ? 0 : "18px",
+              marginRight: "10px",
+              transition: "all 0.3s ease-in-out",
             }}
           >
             <GradientButton
@@ -296,34 +299,40 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
           align="start"
           gap={bkgRefExists && isPreviewOpen ? "10px" : undefined}
         >
-          <Flex flex={bkgRefExists && isPreviewOpen ? 1 : undefined}>
-            <DocPreview template={<DraftBL doc={doc} />} />
-          </Flex>
-          <Flex
-            vertical
-            gap={"10px"}
-            flex={1}
-            style={{
-              display: hasSearched ? undefined : "none",
-            }}
-          >
-            <BackgroundCard>
-              <Steps
-                className="sigenie-steps"
-                labelPlacement="vertical"
-                current={stepsCurrent}
-                items={progressItems}
-                onChange={onClickSteps}
-              />
-            </BackgroundCard>
-            <BackgroundCard>
-              {/* <SIResponseViewer items={responseChain} /> */}
-              <SIResponseViewer
-                className="sigenie-response"
-                item={responseChain?.at(stepsCurrent)}
-              />
-            </BackgroundCard>
-          </Flex>
+          {bkgRefExists && (
+            <Flex
+              flex={isPreviewOpen ? 1 : "0 0 auto"}
+              style={{
+                transition: "flex 0.3s ease-in-out",
+              }}
+            >
+              <DocPreview template={<DraftBL doc={doc} />} />
+            </Flex>
+          )}
+          {hasSearched && (
+            <Flex vertical gap={"10px"} flex={1}>
+              <BackgroundCard
+                style={{
+                  display: "grid", // 내용이 너무 길어질 때 스크롤 활성화를 위해
+                  gridTemplateColumns: "1fr", // 내용이 너무 짧을 때 내용의 너비를 늘리기 위해
+                }}
+              >
+                <Steps
+                  className="sigenie-steps"
+                  labelPlacement="vertical"
+                  current={stepsCurrent}
+                  items={progressItems}
+                  onChange={onClickSteps}
+                />
+              </BackgroundCard>
+              <BackgroundCard>
+                <SIResponseViewer
+                  className="sigenie-response"
+                  item={responseChain?.at(stepsCurrent)}
+                />
+              </BackgroundCard>
+            </Flex>
+          )}
         </Flex>
       </Flex>
     </>

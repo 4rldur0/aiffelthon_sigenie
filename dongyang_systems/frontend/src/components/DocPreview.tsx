@@ -69,8 +69,8 @@ const DocPreview: React.FC<DocPreviewProps> = ({ template, style }) => {
       className="docpreview-preview-container"
       ref={previewRef}
       style={{
-        height: `${scaledHeight}px`,
         ...style,
+        height: `${scaledHeight}px`,
       }}
     >
       <div
