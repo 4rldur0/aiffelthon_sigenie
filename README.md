@@ -33,9 +33,11 @@
 │   ├── isbyeon  
 │   ├── ksy974498  
 │   └── nakyoung_kim   
-├── **api_stream_app**  : frontend와 연결 예정   
 ├── dongyang_systems : 동양시스템즈   
 │   ├── frontend  
 │   └── sigenie  
+├── **main**  : final version   
+│   ├── frontend  
+│   └── backend  
 └── **st_si_validation_story**  : streamlit version app   
 ```
