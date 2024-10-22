@@ -1,0 +1,66 @@
+/* ========== Response Viewer CSS ========== */
+.sigenie-response .sigenie-response-title {
+  text-align: start;
+  margin-bottom: 0;
+}
+
+.sigenie-response pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: auto;
+}
+/* ================================ */
+
+/* ========== Steps CSS ========== */
+.sigenie-steps {
+  overflow-x: auto;
+}
+/* node container */
+.sigenie-steps.ant-steps .ant-steps-item {
+  margin-top: 4px;
+  margin-left: 4px;
+}
+/* description container */
+.sigenie-steps.ant-steps-label-vertical .ant-steps-item-content {
+  margin-top: 0;
+}
+/* icon container */
+.sigenie-steps .ant-steps-item-icon {
+  display: flex;
+}
+/* bar between nodes */
+.sigenie-steps .ant-steps-item-tail::after {
+  position: relative;
+  top: -2px;
+  height: 3px;
+  transition: all 0.5s;
+}
+
+/* ----- on Selecting a Step ----- */
+/* icon emphasize */
+.sigenie-steps .ant-steps-item-active .anticon {
+  position: relative;
+  left: -4px;
+  padding: 1.5px;
+  border: 2px solid #1677ff;
+  border-radius: 20px;
+}
+/* subtitle emphasize */
+.sigenie-steps .ant-steps-item-active .ant-steps-item-subtitle {
+  color: #1677ff;
+  font-weight: bold;
+}
+/* -------------------------------- */
+/* ================================ */
+
+/* ========== Modal CSS ========== */
+.sigenie-modal-error .ant-modal-confirm-body {
+  justify-content: center;
+}
+.sigenie-modal-error .ant-result {
+  padding-bottom: 20px;
+}
+.sigenie-modal-error .ant-modal-confirm-body > .anticon-close-circle {
+  display: none;
+}
+/* =============================== */
