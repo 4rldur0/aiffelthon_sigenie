@@ -25,6 +25,7 @@
 5. 확인한 결과 정리해서 보여주기
 
 ## 디렉토리 구조
+```
 .  
 ├── aiffel_gru : 그루 개인 폴더   
 │   ├── daehyeon_ko  
@@ -37,3 +38,4 @@
 │   ├── frontend  
 │   └── sigenie  
 └── **st_si_validation_story**  : streamlit version app   
+```
