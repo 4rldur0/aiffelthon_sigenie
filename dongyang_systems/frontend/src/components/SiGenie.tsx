@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Flex, Steps, Modal, Result, Image } from "antd";
+import { Flex, Steps, Modal, Result, Image, Select } from "antd";
 import { LoadingOutlined, CheckCircleTwoTone } from "@ant-design/icons";
 import { Expand, Shrink } from "lucide-react";
 
@@ -53,10 +53,14 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
   const [doc, setDoc] = useState<SIDocument>();
   // Draft BL Preview Open 여부
   const [isPreviewOpen, setIsPreviewOpen] = useState<boolean>(false);
+  // ===== 임시 ==================================================
+  // Progress Bar 노드
+  const [steps, setSteps] = useState<string[]>(temp.steps_1);
   // Progress Bar 노드
   const [stepsItems, setStepsItems] = useState<StepsItem[]>(
-    JSON.parse(JSON.stringify(temp.progressItems))
+    JSON.parse(JSON.stringify(temp.progressItems_1))
   );
+  // ============================================================
   // Progress Bar 현재 선택된 노드
   const [stepsCurrent, setStepsCurrent] = useState<number>(0);
   // LLM Response 출력용 데이터
@@ -67,6 +71,23 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   // 스트리밍 통신용 EventSource 객체
   const [eventSource, setEventSource] = useState<EventSource>();
+
+  // ===== 임시 select ==================================================
+  const [selectedEndpoint, setSelectedEndpoint] = useState<string>(
+    EndpointUtil.API.REQUEST.QUERY_CH1
+  );
+  const onSelectChapter = (value: string) => {
+    if (value === "chapter 1") {
+      setSelectedEndpoint(EndpointUtil.API.REQUEST.QUERY_CH1);
+      setSteps(temp.steps_1);
+      setStepsItems(JSON.parse(JSON.stringify(temp.progressItems_1)));
+    } else if (value === "chapter 2") {
+      setSelectedEndpoint(EndpointUtil.API.REQUEST.QUERY_CH2);
+      setSteps(temp.steps_2);
+      setStepsItems(JSON.parse(JSON.stringify(temp.progressItems_2)));
+    }
+  };
+  // ===================================================================
 
   // 부모 컴포넌트에서 Props로 넘어온 booking reference가 있으면
   // session으로 사용할 State 값 update
@@ -91,7 +112,7 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
   // Progress Bar 데이터 초기화
   const initializeProgressItems = () => {
     const newProgressItems: StepsItem[] = JSON.parse(
-      JSON.stringify(temp.progressItems)
+      JSON.stringify(stepsItems)
     );
     newProgressItems.forEach((item: StepsItem) => {
       item.icon = <LoadingOutlined />;
@@ -109,8 +130,7 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
       eventSource.close();
     }
 
-    const endpoint = EndpointUtil.API.REQUEST.QUERY_CH1 + `?query=${input}`;
-    // const endpoint = EndpointUtil.API.REQUEST.QUERY_CH2 + `?query=${input}`;
+    const endpoint = selectedEndpoint + `?query=${input}`;
     const stream = new EventSource(endpoint, { withCredentials: true });
 
     stream.onopen = () => {
@@ -123,7 +143,7 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
         key: nodeName,
         data: JSON.parse(e.data),
       };
-      console.log(`message ::: ${nodeName} ::: `, nodeResponse);
+      // console.log(`message ::: ${nodeName} ::: `, nodeResponse);
       if (nodeName === "get_si") {
         const bkgRef = nodeResponse.data.bookingReference;
         setSessionBkgRef(bkgRef);
@@ -134,14 +154,14 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
       changeStepStatus(nodeName);
     };
 
-    temp.steps.forEach((eventId) => {
+    steps.forEach((eventId) => {
       stream.addEventListener(eventId, (e) => {
         const nodeName = e.type;
         const nodeResponse = {
           key: nodeName,
           data: JSON.parse(e.data),
         };
-        console.log(`${eventId} ::: `, nodeResponse);
+        // console.log(`${eventId} ::: `, nodeResponse);
         if (nodeName === "get_si") {
           const bkgRef = nodeResponse.data.bookingReference;
           setSessionBkgRef(bkgRef);
@@ -206,17 +226,21 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
 
   const onClickSteps = (current: number) => {
     setStepsCurrent(current);
-
-    // const nodeKey = steps[current];
-    // const nodeData =
-    //   current < responseChain.length ? responseChain[current].data : undefined;
-    // console.log(`${nodeKey} ::: `, nodeData);
   };
 
   return (
     <>
       <GlobalStyle />
       <Flex vertical gap={"10px"}>
+        {/* ========== 임시 Select ========== */}
+        <div style={{ position: "absolute", top: "70px" }}>
+          <Select
+            options={[{ value: "chapter 1" }, { value: "chapter 2" }]}
+            defaultValue={"chapter 1"}
+            onChange={onSelectChapter}
+          />
+        </div>
+        {/* ================================ */}
         <Flex vertical={false} align="center">
           {bkgRefExists && (
             <Flex
@@ -303,7 +327,7 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
                 <BackgroundCard>
                   <SIResponseContent
                     className="sigenie-response"
-                    item={responseChain.at(stepsCurrent)}
+                    item={responseChain[stepsCurrent]}
                   />
                 </BackgroundCard>
               )}

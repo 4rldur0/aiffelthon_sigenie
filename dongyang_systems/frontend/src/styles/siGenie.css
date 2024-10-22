@@ -15,7 +15,13 @@
 .sigenie-steps {
   overflow-x: auto;
 }
-.sigenie-steps.ant-steps.ant-steps-label-vertical .ant-steps-item-content {
+/* node container */
+.sigenie-steps.ant-steps .ant-steps-item {
+  margin-top: 4px;
+  margin-left: 4px;
+}
+/* description container */
+.sigenie-steps.ant-steps-label-vertical .ant-steps-item-content {
   margin-top: 0;
 }
 /* icon container */
@@ -33,6 +39,8 @@
 /* ----- on Selecting a Step ----- */
 /* icon emphasize */
 .sigenie-steps .ant-steps-item-active .anticon {
+  position: relative;
+  left: -4px;
   padding: 1.5px;
   border: 2px solid #1677ff;
   border-radius: 20px;

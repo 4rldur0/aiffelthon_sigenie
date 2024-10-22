@@ -57,7 +57,7 @@ const ChatDiv = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 15px;
   border-radius: 20px;
   width: 100%;
   padding: 10px 20px;
@@ -67,6 +67,7 @@ const ChatDiv = styled.div`
 
 const ChatInputField = styled(Input)`
   height: 60px;
+  padding-left: 7px;
   border: none;
   border-radius: 15px;
   font-size: 1.2rem;
@@ -74,8 +75,6 @@ const ChatInputField = styled(Input)`
 
 const MarkdownStyles = createGlobalStyle`
   .markdown-body {
-    font-family: 'Freesentation';
-    src: url('/fonts/Freesentation.ttf') format('truetype');
     font-size: 16px;
     line-height: 1.6;
     color: #333;

@@ -34,21 +34,27 @@ const getNodeName = (key: string) => {
   }
 };
 
-const steps = [
+const steps_1 = [
   "get_bkg",
   "get_si",
   "check_missing_data",
   "generate_intake_report",
 ];
-// const steps = [
-//   "get_si",
-//   "check_parties",
-//   "verify_company_policy",
-//   "verify_vessel_port_situation",
-//   "generate_validation_report",
-// ];
+const steps_2 = [
+  "get_si",
+  "check_parties",
+  "verify_company_policy",
+  "verify_vessel_port_situation",
+  "generate_validation_report",
+];
 
-const progressItems: StepsItem[] = steps.map((key: string) => ({
+const progressItems_1: StepsItem[] = steps_1.map((key: string) => ({
+  key: key,
+  subTitle: getNodeName(key),
+  status: "wait",
+  icon: undefined,
+}));
+const progressItems_2: StepsItem[] = steps_2.map((key: string) => ({
   key: key,
   subTitle: getNodeName(key),
   status: "wait",
@@ -246,8 +252,10 @@ const generateMarkdown = (markdownContent: string) => {
 };
 
 export const temp = {
-  steps,
-  progressItems,
+  steps_1,
+  steps_2,
+  progressItems_1,
+  progressItems_2,
   getNodeName,
   getNodeContent,
 };
