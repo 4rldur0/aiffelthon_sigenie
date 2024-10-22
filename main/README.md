@@ -8,7 +8,6 @@
 1. chmod +x start_project.sh
 2. ./start_project.sh
 
-
 ## WorkFlow
 ### **chapter 1**
 
