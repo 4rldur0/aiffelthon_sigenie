@@ -80,11 +80,9 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
     if (value === "chapter 1") {
       setSelectedEndpoint(EndpointUtil.API.REQUEST.QUERY_CH1);
       setSteps(temp.steps_1);
-      setStepsItems(JSON.parse(JSON.stringify(temp.progressItems_1)));
     } else if (value === "chapter 2") {
       setSelectedEndpoint(EndpointUtil.API.REQUEST.QUERY_CH2);
       setSteps(temp.steps_2);
-      setStepsItems(JSON.parse(JSON.stringify(temp.progressItems_2)));
     }
   };
   // ===================================================================
@@ -111,9 +109,7 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
 
   // Progress Bar 데이터 초기화
   const initializeProgressItems = () => {
-    const newProgressItems: StepsItem[] = JSON.parse(
-      JSON.stringify(stepsItems)
-    );
+    const newProgressItems: StepsItem[] = temp.getProgressItems(steps);
     newProgressItems.forEach((item: StepsItem) => {
       item.icon = <LoadingOutlined />;
     });
