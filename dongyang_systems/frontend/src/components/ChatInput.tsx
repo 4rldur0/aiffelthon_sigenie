@@ -4,7 +4,8 @@
 
 import { useState } from "react";
 import { Button } from "antd";
-import { RobotOutlined, SendOutlined } from "@ant-design/icons";
+import { SendOutlined } from "@ant-design/icons";
+import { Bot } from "lucide-react";
 
 import { ChatDiv, ChatInputField } from "./StyledComponents";
 
@@ -42,7 +43,7 @@ const ChatInput: React.FC<ChatInputProps> = ({
 
   return (
     <ChatDiv>
-      <RobotOutlined style={{ fontSize: 30, color: "#1677ff" }} />
+      <Bot size={50} color="#1677ff" />
       <ChatInputField
         placeholder={placeholder}
         value={inputValue}

@@ -34,14 +34,18 @@ const StyledLinkPreview = styled(LinkPreview)`
 `;
 
 const GradientButton = styled(Button)`
-font-weight: bold;
-inset: 0;
-paddign: 20px
-border-width: 0;
-border-radius: 20px;
-background: linear-gradient(135deg, #6253e1, #04befe);
+  font-size: 1.3em;
+  font-weight: bold;
+  inset: 0;
+  border-width: 0;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #6253e1, #04befe);
   opacity: 1;
-  transition: all 0.8s;
+  transition: all 0.5s;
+
+  .ant-btn-icon {
+    display: grid;
+  }
 
   :hover::before {
     opacity: 0;
@@ -53,10 +57,10 @@ const ChatDiv = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   border-radius: 20px;
   width: 100%;
-  padding: 10px 15px;
+  padding: 10px 20px;
   background: #ffffff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 `;

@@ -1,22 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { Flex, Steps, Modal, Result } from "antd";
-import {
-  FullscreenOutlined,
-  FullscreenExitOutlined,
-  LoadingOutlined,
-  CheckCircleTwoTone,
-} from "@ant-design/icons";
+import { Flex, Steps, Modal, Result, Image } from "antd";
+import { LoadingOutlined, CheckCircleTwoTone } from "@ant-design/icons";
+import { Expand, Shrink } from "lucide-react";
 
+import type { SIDocument, StepsItem } from "./InterfaceDefinition";
 import { EndpointUtil } from "../utils/EndpointUtil";
 import { createGlobalStyle } from "styled-components";
 import { BackgroundCard, GradientButton } from "./StyledComponents";
-import "../styles/siGenie.css";
-
-import type { SIDocument, StepsItem } from "./InterfaceDefinition";
+import SIGenieLogo from "../assets/sigenie_logo.svg";
 import ChatInput from "./ChatInput";
 import DocPreview from "./DocPreview";
 import DraftBL from "./DraftBL";
-import SIResponseViewer from "./SiResponseViewer";
+import SIResponseContent from "./SiResponseContent";
+import "../styles/siGenie.css";
 
 import { temp } from "../utils/TemporaryUtil";
 
@@ -57,16 +53,15 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
   const [doc, setDoc] = useState<SIDocument>();
   // Draft BL Preview Open 여부
   const [isPreviewOpen, setIsPreviewOpen] = useState<boolean>(false);
-  // SIGenie node key
-  const [steps] = useState(temp.steps);
   // Progress Bar 노드
-  const [progressItems, setProgressItems] = useState<StepsItem[]>(
+  const [stepsItems, setStepsItems] = useState<StepsItem[]>(
     JSON.parse(JSON.stringify(temp.progressItems))
   );
-  // Progress Bar 현재 노드
+  // Progress Bar 현재 선택된 노드
   const [stepsCurrent, setStepsCurrent] = useState<number>(0);
   // LLM Response 출력용 데이터
   const [responseChain, setResponseChain] = useState<any[]>([]);
+  // 조회 여부
   const [hasSearched, setHasSearched] = useState<boolean>(false);
   // 로딩 여부
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -84,7 +79,6 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
   // session bookingReference 값이 바뀌면 update
   useEffect(() => {
     setBkgRefExists(sessionBkgRef ? true : false);
-    // setBkgRefExists(true);
   }, [sessionBkgRef]);
 
   // 검색 시 실행하는 함수
@@ -102,7 +96,7 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
     newProgressItems.forEach((item: StepsItem) => {
       item.icon = <LoadingOutlined />;
     });
-    setProgressItems(newProgressItems);
+    setStepsItems(newProgressItems);
   };
 
   // LLM Response 스트리밍 데이터 요청
@@ -140,62 +134,29 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
       changeStepStatus(nodeName);
     };
 
-    stream.addEventListener("get_bkg", (e) => {
-      const nodeName = e.type;
-      const nodeResponse = {
-        key: nodeName,
-        data: JSON.parse(e.data),
-      };
-      console.log("get_bkg ::: ", nodeResponse);
-      newChain.push(nodeResponse);
-      setResponseChain([...newChain]);
-      changeStepStatus(nodeName);
-    });
-
-    stream.addEventListener("get_si", (e) => {
-      const nodeName = e.type;
-      const nodeResponse = {
-        key: nodeName,
-        data: JSON.parse(e.data),
-      };
-      console.log("get_si ::: ", nodeResponse);
-      const bkgRef = nodeResponse.data.bookingReference;
-      setSessionBkgRef(bkgRef);
-      setDoc(nodeResponse.data);
-      newChain.push(nodeResponse);
-      setResponseChain([...newChain]);
-      changeStepStatus(nodeName);
-    });
-
-    stream.addEventListener("check_missing_data", (e) => {
-      const nodeName = e.type;
-      const nodeResponse = {
-        key: nodeName,
-        data: JSON.parse(e.data),
-      };
-      console.log("check_missing_data ::: ", nodeResponse);
-      newChain.push(nodeResponse);
-      setResponseChain([...newChain]);
-      changeStepStatus(nodeName);
-    });
-
-    stream.addEventListener("generate_intake_report", (e) => {
-      const nodeName = e.type;
-      const nodeResponse = {
-        key: nodeName,
-        data: JSON.parse(e.data),
-      };
-      console.log("generate_intake_report ::: ", nodeResponse);
-      newChain.push(nodeResponse);
-      setResponseChain([...newChain]);
-      changeStepStatus(nodeName);
+    temp.steps.forEach((eventId) => {
+      stream.addEventListener(eventId, (e) => {
+        const nodeName = e.type;
+        const nodeResponse = {
+          key: nodeName,
+          data: JSON.parse(e.data),
+        };
+        console.log(`${eventId} ::: `, nodeResponse);
+        if (nodeName === "get_si") {
+          const bkgRef = nodeResponse.data.bookingReference;
+          setSessionBkgRef(bkgRef);
+          setDoc(nodeResponse.data);
+        }
+        newChain.push(nodeResponse);
+        setResponseChain([...newChain]);
+        changeStepStatus(nodeName);
+      });
     });
 
     stream.addEventListener("done", (e) => {
-      console.log("done ::: ", e.data);
+      console.log("SSE comm. done ::: ", e.data);
       stream.close();
       setIsLoading(false);
-      console.log("ResponseChain ::: ", responseChain);
     });
 
     stream.onerror = (e) => {
@@ -211,7 +172,7 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
   };
 
   const changeStepStatus = (stepKey: string) => {
-    setProgressItems((prevItems) => {
+    setStepsItems((prevItems) => {
       const newItems = [...prevItems];
       const targetStep = newItems.find((item) => item.key === stepKey);
       if (targetStep) {
@@ -232,7 +193,7 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
   };
 
   const onErrorChangeStepStatus = () => {
-    setProgressItems((prevItems) => {
+    setStepsItems((prevItems) => {
       const newItems = [...prevItems];
       newItems.forEach((item) => {
         if (item.status !== "finish") {
@@ -257,35 +218,48 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
       <GlobalStyle />
       <Flex vertical gap={"10px"}>
         <Flex vertical={false} align="center">
-          <Flex
-            flex={isPreviewOpen ? "1 0 0%" : "0 0 0%"}
-            align={"end"}
-            style={{
-              height: "80px",
-              display: bkgRefExists ? undefined : "none",
-              paddingBottom: isPreviewOpen ? 0 : "18px",
-              marginRight: "10px",
-              transition: "all 0.3s ease-in-out",
-            }}
-          >
-            <GradientButton
-              type="primary"
-              size="large"
-              icon={
-                isPreviewOpen ? (
-                  <FullscreenExitOutlined style={{ fontSize: 20 }} />
-                ) : (
-                  <FullscreenOutlined style={{ fontSize: 20 }} />
-                )
-              }
-              onClick={() => {
-                setIsPreviewOpen(!isPreviewOpen);
+          {bkgRefExists && (
+            <Flex
+              flex={isPreviewOpen ? "1 0 0%" : "0 0 0%"} // transition 적용 시 flicker 현상 방지를 위해
+              align={"end"}
+              style={{
+                height: "80px",
+                paddingBottom: isPreviewOpen ? 0 : "18px",
+                marginRight: "10px",
+                transition: "all 0.3s ease-in-out",
               }}
             >
-              Draft B/L
-            </GradientButton>
-          </Flex>
-          <Flex vertical={false} flex={1} align="center">
+              <GradientButton
+                type="primary"
+                size="large"
+                icon={
+                  isPreviewOpen ? (
+                    <Shrink color="#ffffff" />
+                  ) : (
+                    <Expand color="#ffffff" />
+                  )
+                }
+                onClick={() => {
+                  setIsPreviewOpen(!isPreviewOpen);
+                }}
+              >
+                Draft B/L
+              </GradientButton>
+            </Flex>
+          )}
+          <Flex vertical flex={1} align="center">
+            {!hasSearched && (
+              <Image
+                src={SIGenieLogo}
+                alt="SIGenie Logo"
+                preview={false}
+                style={{
+                  width: "30vw",
+                  marginTop: "50px",
+                  marginBottom: "50px",
+                }}
+              />
+            )}
             <ChatInput
               // placeholder="What is your episode for SIGenie story?"
               placeholder="Please input a Booking Reference Number."
@@ -321,16 +295,18 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
                   className="sigenie-steps"
                   labelPlacement="vertical"
                   current={stepsCurrent}
-                  items={progressItems}
+                  items={stepsItems}
                   onChange={onClickSteps}
                 />
               </BackgroundCard>
-              <BackgroundCard>
-                <SIResponseViewer
-                  className="sigenie-response"
-                  item={responseChain?.at(stepsCurrent)}
-                />
-              </BackgroundCard>
+              {responseChain?.at(stepsCurrent) && (
+                <BackgroundCard>
+                  <SIResponseContent
+                    className="sigenie-response"
+                    item={responseChain.at(stepsCurrent)}
+                  />
+                </BackgroundCard>
+              )}
             </Flex>
           )}
         </Flex>

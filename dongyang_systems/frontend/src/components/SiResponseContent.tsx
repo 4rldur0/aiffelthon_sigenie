@@ -13,7 +13,7 @@ interface ResponseViewerProps {
   style?: React.CSSProperties;
 }
 
-const SIResponseViewer: React.FC<ResponseViewerProps> = ({
+const SIResponseContent: React.FC<ResponseViewerProps> = ({
   item,
   className,
   style,
@@ -32,4 +32,4 @@ const SIResponseViewer: React.FC<ResponseViewerProps> = ({
   );
 };
 
-export default SIResponseViewer;
+export default SIResponseContent;
