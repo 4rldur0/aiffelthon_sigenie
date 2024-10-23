@@ -73,16 +73,15 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
   const [eventSource, setEventSource] = useState<EventSource>();
 
   // ===== 임시 select ==================================================
-  const [selectedEndpoint, setSelectedEndpoint] = useState<string>(
-    EndpointUtil.API.REQUEST.QUERY_CH1
-  );
+  const [chapterSelection, setChapterSelection] = useState<string>("chapter 1");
   const onSelectChapter = (value: string) => {
+    setChapterSelection(value);
     if (value === "chapter 1") {
-      setSelectedEndpoint(EndpointUtil.API.REQUEST.QUERY_CH1);
       setSteps(temp.steps_1);
     } else if (value === "chapter 2") {
-      setSelectedEndpoint(EndpointUtil.API.REQUEST.QUERY_CH2);
       setSteps(temp.steps_2);
+    } else if (value === "chapter 1 & 2") {
+      setSteps(temp.steps_all);
     }
   };
   // ===================================================================
@@ -104,7 +103,14 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
   const onSubmit = (query: string) => {
     setHasSearched(true);
     initializeProgressItems();
-    getStreamingResponse(query);
+    setResponseChain([]);
+    if (chapterSelection === "chapter 1") {
+      getStreamingResponseCh1(query);
+    } else if (chapterSelection === "chapter 2") {
+      getStreamingResponseCh2(query);
+    } else if (chapterSelection === "chapter 1 & 2") {
+      getChainedStreamingResponse(query);
+    }
   };
 
   // Progress Bar 데이터 초기화
@@ -116,38 +122,25 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
     setStepsItems(newProgressItems);
   };
 
-  // LLM Response 스트리밍 데이터 요청
-  const getStreamingResponse = (input: string) => {
+  // chapter 1 LLM Response 스트리밍 데이터 요청
+  const getStreamingResponseCh1 = (input: string) => {
+    if (chapterSelection !== "chapter 1") {
+      errorModal("Chapter Selection Error");
+      return;
+    }
+
     setIsLoading(true);
-    setResponseChain([]);
     const newChain: any[] = [];
 
     if (eventSource) {
       eventSource.close();
     }
 
-    const endpoint = selectedEndpoint + `?query=${input}`;
+    const endpoint = EndpointUtil.API.REQUEST.QUERY_CH1 + `?query=${input}`;
     const stream = new EventSource(endpoint, { withCredentials: true });
 
     stream.onopen = () => {
       console.log("::: SSE comm. start :::");
-    };
-
-    stream.onmessage = (e) => {
-      const nodeName = e.lastEventId;
-      const nodeResponse = {
-        key: nodeName,
-        data: JSON.parse(e.data),
-      };
-      // console.log(`message ::: ${nodeName} ::: `, nodeResponse);
-      if (nodeName === "get_si") {
-        const bkgRef = nodeResponse.data.bookingReference;
-        setSessionBkgRef(bkgRef);
-        setDoc(nodeResponse.data);
-      }
-      newChain.push(nodeResponse);
-      setResponseChain([...newChain]);
-      changeStepStatus(nodeName);
     };
 
     steps.forEach((eventId) => {
@@ -185,6 +178,159 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
     };
 
     setEventSource(stream);
+  };
+
+  // chapter 2 LLM Response 스트리밍 데이터 요청
+  const getStreamingResponseCh2 = (input: string) => {
+    if (chapterSelection !== "chapter 2") {
+      errorModal("Chapter Selection Error");
+      return;
+    }
+
+    setIsLoading(true);
+    const newChain: any[] = [];
+
+    if (eventSource) {
+      eventSource.close();
+    }
+
+    const endpoint = EndpointUtil.API.REQUEST.QUERY_CH2 + `?query=${input}`;
+    const stream = new EventSource(endpoint, { withCredentials: true });
+
+    stream.onopen = () => {
+      console.log("::: SSE comm. start :::");
+    };
+
+    stream.onmessage = (e) => {
+      const nodeName = e.lastEventId;
+      const nodeResponse = {
+        key: nodeName,
+        data: JSON.parse(e.data),
+      };
+      // console.log(`message ::: ${nodeName} ::: `, nodeResponse);
+      if (nodeName === "get_si") {
+        const bkgRef = nodeResponse.data.bookingReference;
+        setSessionBkgRef(bkgRef);
+        setDoc(nodeResponse.data);
+      }
+      newChain.push(nodeResponse);
+      setResponseChain([...newChain]);
+      changeStepStatus(nodeName);
+    };
+
+    stream.addEventListener("done", (e) => {
+      console.log("SSE comm. done ::: ", e.data);
+      stream.close();
+      setIsLoading(false);
+    });
+
+    stream.onerror = (e) => {
+      console.log("Error while streaming!");
+      // console.log(e);
+      stream.close();
+      setIsLoading(false);
+      onErrorChangeStepStatus();
+      errorModal("Generation Failed");
+    };
+
+    setEventSource(stream);
+  };
+
+  // chapter 1 & chapter 2 LLM Response 스트리밍 데이터 요청
+  const getChainedStreamingResponse = (input: string) => {
+    if (chapterSelection !== "chapter 1 & 2") {
+      errorModal("Chapter Selection Error");
+      return;
+    }
+    setIsLoading(true);
+    const newChain: any[] = [];
+
+    if (eventSource) {
+      eventSource.close();
+    }
+
+    let endpoint = EndpointUtil.API.REQUEST.QUERY_CH1 + `?query=${input}`;
+    const streamCh1 = new EventSource(endpoint, { withCredentials: true });
+
+    streamCh1.onopen = () => {
+      console.log("::: SSE comm. start :::");
+    };
+
+    temp.steps_1.forEach((eventId) => {
+      streamCh1.addEventListener(eventId, (e) => {
+        const nodeName = e.type;
+        const nodeResponse = {
+          key: nodeName,
+          data: JSON.parse(e.data),
+        };
+        // console.log(`${eventId} ::: `, nodeResponse);
+        if (nodeName === "get_si") {
+          const bkgRef = nodeResponse.data.bookingReference;
+          setSessionBkgRef(bkgRef);
+          setDoc(nodeResponse.data);
+          // streamCh1.close(); //@@@@@@@@@@@@@@@@@@@@@@@@@
+          // setIsLoading(false);
+        }
+        newChain.push(nodeResponse);
+        setResponseChain([...newChain]);
+        changeStepStatus(nodeName);
+      });
+    });
+
+    streamCh1.addEventListener("done", (e) => {
+      console.log("SSE comm. done ::: ", e.data);
+      streamCh1.close();
+
+      // request chapter 2 =======================
+      endpoint = EndpointUtil.API.REQUEST.QUERY_CH2 + `?query=${input}`;
+      const streamCh2 = new EventSource(endpoint, { withCredentials: true });
+      streamCh2.onopen = () => {
+        console.log("::: SSE comm. start :::");
+      };
+
+      streamCh2.onmessage = (e) => {
+        const nodeName = e.lastEventId;
+        if (nodeName === "get_si") {
+          return;
+        }
+        const nodeResponse = {
+          key: nodeName,
+          data: JSON.parse(e.data),
+        };
+        // console.log(`message ::: ${nodeName} ::: `, nodeResponse);
+        newChain.push(nodeResponse);
+        setResponseChain([...newChain]);
+        changeStepStatus(nodeName);
+      };
+
+      streamCh2.addEventListener("done", (e) => {
+        console.log("SSE comm. done ::: ", e.data);
+        streamCh2.close();
+        setIsLoading(false);
+      });
+
+      streamCh2.onerror = (e) => {
+        console.log("Error while streaming!");
+        // console.log(e);
+        streamCh2.close();
+        setIsLoading(false);
+        onErrorChangeStepStatus();
+        errorModal("Generation Failed");
+      };
+
+      setEventSource(streamCh2);
+    });
+
+    streamCh1.onerror = (e) => {
+      console.log("Error while streaming!");
+      // console.log(e);
+      streamCh1.close();
+      setIsLoading(false);
+      onErrorChangeStepStatus();
+      errorModal("Generation Failed");
+    };
+
+    setEventSource(streamCh1);
   };
 
   const changeStepStatus = (stepKey: string) => {
@@ -231,9 +377,14 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
         {/* ========== 임시 Select ========== */}
         <div style={{ position: "absolute", top: "70px" }}>
           <Select
-            options={[{ value: "chapter 1" }, { value: "chapter 2" }]}
-            defaultValue={"chapter 1"}
+            options={[
+              { value: "chapter 1" },
+              { value: "chapter 2" },
+              { value: "chapter 1 & 2" },
+            ]}
+            value={chapterSelection}
             onChange={onSelectChapter}
+            style={{ width: "130px" }}
           />
         </div>
         {/* ================================ */}
@@ -274,7 +425,7 @@ const SIGenie: React.FC<SIGenieProps> = ({ bookingReference }) => {
                 alt="SIGenie Logo"
                 preview={false}
                 style={{
-                  width: "30vw",
+                  width: "25vw",
                   marginTop: "50px",
                   marginBottom: "50px",
                 }}
