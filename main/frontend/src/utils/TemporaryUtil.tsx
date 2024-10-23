@@ -52,7 +52,6 @@ const steps_all = [
   "get_si",
   "check_missing_data",
   "generate_intake_report",
-  "get_si",
   "check_parties",
   "verify_company_policy",
   "verify_vessel_port_situation",
@@ -262,14 +261,29 @@ const generateMarkdown = (markdownContent: string) => {
             </code>
           );
         },
-        a: ({ node, href, children, ...props }) =>
-          href ? (
-            <StyledLinkPreview href={href}>{children}</StyledLinkPreview>
-          ) : (
-            <a {...props} style={{ fontFamily: "Freesentation, sans-serif" }}>
-              {children}
-            </a>
-          ),
+        a: ({ node, href, children, ...props }) => {
+          if (!href) {
+            return (
+              <a {...props} style={{ fontFamily: "Freesentation, sans-serif" }}>
+                {children}
+              </a>
+            );
+          } else if (href.startsWith("mailto:")) {
+            return (
+              <a
+                {...props}
+                href={href}
+                style={{ fontFamily: "Freesentation, sans-serif" }}
+              >
+                {children}
+              </a>
+            );
+          } else {
+            return (
+              <StyledLinkPreview href={href}>{children}</StyledLinkPreview>
+            );
+          }
+        },
       }}
     >
       {markdownContent}
