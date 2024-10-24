@@ -52,7 +52,6 @@ const steps_all = [
   "get_si",
   "check_missing_data",
   "generate_intake_report",
-  "get_si",
   "check_parties",
   "verify_company_policy",
   "verify_vessel_port_situation",
@@ -193,16 +192,52 @@ const missingCheckNode = (input: any) => {
   return generateMarkdown(result);
 };
 
+// const intakeReportNode = (input: any) => {
+//   let result = "";
+//   result += `# Overall Status: ${statusTextColor(input.overall_status)}\n`;
+//   result += `# Issues Found:\n`;
+//   result += `${input.issues_found}\n\n`;
+//   result += `# Summary of Missing or Incomplete Information:\n`;
+//   result += `${input.missing_summary}\n\n`;
+//   result += `# Conclusion:\n`;
+//   result += `${input.conclusion}`;
+//   return generateMarkdown(result);
+// };
 const intakeReportNode = (input: any) => {
+  const other_sections = input.other_sections
+    ? Object.keys(input.other_sections)
+        .map(
+          (key) =>
+            `### ${key.split("_").join(" ")}\n${input.other_sections[key]}`
+        )
+        .join("\n")
+    : "No Information Found";
+  const identified_issues = input.identified_issues
+    ? input.identified_issues
+        .map((item: any) => {
+          return typeof item === "string"
+            ? `- ${item}`
+            : `- ${item.issue}\n\t- ${item.importance}`;
+        })
+        .join("\n")
+    : "No Issues Found";
+  const proposed_solutions = input.proposed_solutions
+    ? Object.keys(input.proposed_solutions)
+        .map((key) => `### ${key}\n${input.proposed_solutions[key]}`)
+        .join("\n")
+    : "No Proposals Found";
+
   let result = "";
-  result += `# Overall Status: ${statusTextColor(input.overall_status)}\n`;
-  result += `# Issues Found:\n`;
-  result += `${input.issues_found}\n\n`;
-  result += `# Summary of Missing or Incomplete Information:\n`;
-  result += `${input.missing_summary}\n\n`;
-  result += `# Conclusion:\n`;
-  result += `${input.conclusion}`;
-  return generateMarkdown(result);
+  result += `# Summary\n${input.summary}\n\n`;
+  result += `# Vessel Route Information\n${input.vessel_route_info}\n\n`;
+  result += `# Shipper Details\n${input.shipper_details}\n\n`;
+  result += `# Container Information\n${input.container_info}\n\n`;
+  result += `# Other Sections\n${other_sections}\n\n`;
+  result += `# Identified Issues\n${identified_issues}\n\n`;
+  result += `# Proposed Solutions\n${proposed_solutions}\n\n`;
+  result += `# Priority Actions\n- ${input.priority_actions.join("\n- ")}\n\n`;
+  result += `# Additional Notes\n${input.additional_notes}`;
+  return generateMarkdown(result.replace(/(\n)+(?!-)/g, "\n\n"));
 };
 
 const statusTextColor = (status: string) => {
@@ -262,14 +297,29 @@ const generateMarkdown = (markdownContent: string) => {
             </code>
           );
         },
-        a: ({ node, href, children, ...props }) =>
-          href ? (
-            <StyledLinkPreview href={href}>{children}</StyledLinkPreview>
-          ) : (
-            <a {...props} style={{ fontFamily: "Freesentation, sans-serif" }}>
-              {children}
-            </a>
-          ),
+        a: ({ node, href, children, ...props }) => {
+          if (!href) {
+            return (
+              <a {...props} style={{ fontFamily: "Freesentation, sans-serif" }}>
+                {children}
+              </a>
+            );
+          } else if (href.startsWith("mailto:")) {
+            return (
+              <a
+                {...props}
+                href={href}
+                style={{ fontFamily: "Freesentation, sans-serif" }}
+              >
+                {children}
+              </a>
+            );
+          } else {
+            return (
+              <StyledLinkPreview href={href}>{children}</StyledLinkPreview>
+            );
+          }
+        },
       }}
     >
       {markdownContent}

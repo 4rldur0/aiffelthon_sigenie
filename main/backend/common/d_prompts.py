@@ -217,6 +217,16 @@ Ensure that:
 ## Always generate the report in Korean language. All analyses, explanations, and recommendations should be written in Korean.
 """
 
+query_prompt = """
+Based on the following shipment data, generate a concise web search query to find recent news about the port and vessel. 
+The search query should include the port of loading and the vessel name.
+
+Shipment Data:
+{si_data}
+
+Generate a search query that might return recent news about the status of the port and the vessel's voyage.
+"""
+
 validation_report_prompt = """
 Please create a detailed report based on the provided shipping instruction validation results, company policy compliance check, and vessel/port situation. Structure the report as follows:
 
@@ -263,7 +273,14 @@ Please create a detailed report based on the provided shipping instruction valid
 
 Please use the following information to create this report:
 
-{sources}
+Data: 
+{si_data}
+
+Parties Check:
+{parties_check}
+
+Verify company policy:
+{verify_company_policy}
 
 Ensure the report is clear, concise, and provides actionable insights for decision-makers.
 
