@@ -14,8 +14,7 @@ import backgroundImage from "./assets/background.jpg";
 import LandingKR from "./components/landing_kr";
 import LandingEN from "./components/landing_en";
 import SIGenie from "./components/SiGenie";
-import { createGlobalStyle } from "styled-components";
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 const { Header, Content, Sider, Footer } = Layout;
 const { Link } = Typography;
