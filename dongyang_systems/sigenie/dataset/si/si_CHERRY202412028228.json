@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202412028228",
+  "voyageDetails": {
+    "vesselName": "SHIP_5402",
+    "voyageNumber": "6401"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA FOODS CO. LTD",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "OMEGA TRADING LTD.",
+      "address": "NO. 456, KING STREET, LONDON, UK WC2E 8HN",
+      "telephone": "+44-20-7946-1234",
+      "fax": "+44-20-7946-5678"
+    },
+    "notifyParty": {
+      "name": "OMEGA TRADING LTD.",
+      "address": "NO. 456, KING STREET, LONDON, UK WC2E 8HN",
+      "telephone": "+44-20-7946-1234",
+      "fax": "+44-20-7946-5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030211",
+  "commodityDescription": "FROZEN COD FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT3189409",
+      "sealNumber": "SEAL949019",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 19764.56,
+      "measurement": 35.17
+    },
+    {
+      "containerNumber": "CONT1758231",
+      "sealNumber": "SEAL244501",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 13631.97,
+      "measurement": 39.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 40,
+    "totalGrossWeight": 33396.53,
+    "totalMeasurement": 74.37
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "OMEGA TRADING LTD.",
+      "address": "NO. 456, KING STREET, LONDON, UK WC2E 8HN",
+      "telephone": "+44-20-7946-1234",
+      "fax": "+44-20-7946-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA TRADING LTD.",
+      "address": "NO. 456, KING STREET, LONDON, UK WC2E 8HN",
+      "telephone": "+44-20-7946-1234",
+      "fax": "+44-20-7946-5678"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 1°C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT8085368",
+    "temperature": "1°C",
+    "minTemperature": "-1°C",
+    "maxTemperature": "3°C",
+    "ventilation": "57%",
+    "humidity": "64%"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202412116848",
+  "voyageDetails": {
+    "vesselName": "SHIP_5556",
+    "voyageNumber": "6555"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIES LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "NO. 456, FUXING ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-12345679"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "340213",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT8655497",
+      "sealNumber": "SEAL932494",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 5844.43,
+      "measurement": 26.93
+    },
+    {
+      "containerNumber": "CONT6391607",
+      "sealNumber": "SEAL783972",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 8798.19,
+      "measurement": 29.15
+    },
+    {
+      "containerNumber": "CONT9250044",
+      "sealNumber": "SEAL291163",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 11526.74,
+      "measurement": 35.83
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 189,
+    "totalGrossWeight": 26169.36,
+    "totalMeasurement": 91.91
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-20 15:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2390, VALUE: USD499,529, 7 DAYS FREE TIME AT DESTINATION, MAINTAIN HUMIDITY"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7381429",
+    "unClass": "1",
+    "unCode": "2390,",
+    "hsCode": "4199.15.44",
+    "flashPoint": "70°C",
+    "additionalInfo": "Handle with care"
+  }
+}

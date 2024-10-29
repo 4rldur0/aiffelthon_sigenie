@@ -1,0 +1,140 @@
+{
+  "bookingReference": "CHERRY202412171655",
+  "voyageDetails": {
+    "vesselName": "SHIP_2603",
+    "voyageNumber": "3602"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA FOODS CO. LTD",
+      "onBehalfOf": "",
+      "address": "1234 FOOD STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@DELTAFOODS.CN"
+    },
+    "consignee": {
+      "name": "OMEGA GLOBAL TRADING LLC",
+      "address": "1234 GLOBAL STREET, TANGER, MOROCCO",
+      "companyNumber": "123456789",
+      "telephone": "+212 524 98 7000",
+      "fax": "+212 524 98 7001",
+      "email": "JANSSEN.EMMA@OMEGATRADING.NL"
+    },
+    "notifyParty": {
+      "name": "OMEGA GLOBAL TRADING LLC",
+      "address": "1234 GLOBAL STREET, TANGER, MOROCCO"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030192",
+  "commodityDescription": "BEEF",
+  "containers": [
+    {
+      "containerNumber": "CONT6868717",
+      "sealNumber": "SEAL475954",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 8349.14,
+      "measurement": 32.92
+    },
+    {
+      "containerNumber": "CONT9842396",
+      "sealNumber": "SEAL353908",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 18057.17,
+      "measurement": 33.99
+    },
+    {
+      "containerNumber": "CONT1698984",
+      "sealNumber": "SEAL182000",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 9088.89,
+      "measurement": 23.43
+    },
+    {
+      "containerNumber": "CONT2634784",
+      "sealNumber": "SEAL233732",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 11886.09,
+      "measurement": 39.55
+    },
+    {
+      "containerNumber": "CONT1227524",
+      "sealNumber": "SEAL640573",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 12428.57,
+      "measurement": 37.48
+    },
+    {
+      "containerNumber": "CONT9728832",
+      "sealNumber": "SEAL579522",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 9677.63,
+      "measurement": 33.62
+    },
+    {
+      "containerNumber": "CONT5137077",
+      "sealNumber": "SEAL248615",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 19501.34,
+      "measurement": 31.87
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 20 STANDARD REEFER",
+    "totalPackages": 388,
+    "totalGrossWeight": 88988.83,
+    "totalMeasurement": 232.86
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA GLOBAL TRADING LLC",
+      "address": "1234 GLOBAL STREET, TANGER, MOROCCO",
+      "telephone": "+212 524 98 7000",
+      "fax": "+212 524 98 7001"
+    },
+    "onboardDate": "2024-12-24 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -16°C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7187919",
+    "temperature": "-16°C",
+    "minTemperature": "-18°C",
+    "maxTemperature": "-14°C",
+    "ventilation": "11%",
+    "humidity": "77%"
+  }
+}

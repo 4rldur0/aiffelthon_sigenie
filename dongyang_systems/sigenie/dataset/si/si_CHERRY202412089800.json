@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202412089800",
+  "voyageDetails": {
+    "vesselName": "SHIP_1359",
+    "voyageNumber": "2358"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING COMPANY LTD",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 574 123 4567",
+      "fax": "+86 574 123 4568",
+      "email": "INFO@SUNRISETRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC",
+      "address": "456 BROADWAY, NEW YORK, NY 10003, USA",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@GLOBALSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC",
+      "address": "456 BROADWAY, NEW YORK, NY 10003, USA",
+      "usci": "91321200765109788X",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@GLOBALSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950691",
+  "commodityDescription": "ARTICLES AND ARTICLES OF BEAUTY, MAKE-UP, AND PERSONAL CARE",
+  "containers": [
+    {
+      "containerNumber": "CONT7286823",
+      "sealNumber": "SEAL742762",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 17733.31,
+      "measurement": 23.92
+    },
+    {
+      "containerNumber": "CONT2871723",
+      "sealNumber": "SEAL876310",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 11984.11,
+      "measurement": 38.3
+    },
+    {
+      "containerNumber": "CONT4144505",
+      "sealNumber": "SEAL369029",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 8604.43,
+      "measurement": 30.69
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 168,
+    "totalGrossWeight": 38321.85,
+    "totalMeasurement": 92.91
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-12-16 21:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

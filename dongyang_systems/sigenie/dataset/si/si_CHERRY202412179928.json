@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202412179928",
+  "voyageDetails": {
+    "vesselName": "SHIP_4668",
+    "voyageNumber": "5667"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "TANGER MED, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES INC.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "OMEGA TRANSPORT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, LONDON, UK SW1A 1AA",
+      "telephone": "+44-20-7936-1234",
+      "fax": "+44-20-7936-1235"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "620462",
+  "commodityDescription": "WOMEN'S COTTON SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CONT3938910",
+      "sealNumber": "SEAL549070",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 6796.61,
+      "measurement": 27.2
+    },
+    {
+      "containerNumber": "CONT2568597",
+      "sealNumber": "SEAL321905",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 16358.68,
+      "measurement": 30.57
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 165,
+    "totalGrossWeight": 23155.29,
+    "totalMeasurement": 57.77
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-25 21:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

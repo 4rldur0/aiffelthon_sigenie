@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202411234984",
+  "voyageDetails": {
+    "vesselName": "SHIP_2369",
+    "voyageNumber": "3368"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISE-ELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "456 GLOBAL WAY, HAMBURG, GERMANY 20457",
+      "taxId": "",
+      "president": "MR. HANS MEYER",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "HANS.MEYER@GLOBAL-LOGISTICS.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "456 GLOBAL WAY, HAMBURG, GERMANY 20457",
+      "taxId": "",
+      "president": "MS. ANNA SCHMIDT",
+      "telephone": "+49 40 1234 5680",
+      "fax": "+49 40 1234 5681"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "340290",
+  "commodityDescription": "DANGEROUS GOODS - ORGANIC CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT2016681",
+      "sealNumber": "SEAL867266",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 10678.12,
+      "measurement": 37.4
+    },
+    {
+      "containerNumber": "CONT3419659",
+      "sealNumber": "SEAL893138",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 14480.4,
+      "measurement": 39.8
+    },
+    {
+      "containerNumber": "CONT3141617",
+      "sealNumber": "SEAL915031",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 12953.57,
+      "measurement": 21.89
+    },
+    {
+      "containerNumber": "CONT4385273",
+      "sealNumber": "SEAL691539",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 13182.12,
+      "measurement": 31.13
+    },
+    {
+      "containerNumber": "CONT8277800",
+      "sealNumber": "SEAL835972",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 17061.66,
+      "measurement": 24.74
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE TANK",
+    "totalPackages": 349,
+    "totalGrossWeight": 68355.87,
+    "totalMeasurement": 154.96
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411234984"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "456 GLOBAL WAY, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "HANS.MEYER@GLOBAL-LOGISTICS.DE"
+    },
+    "onboardDate": "2024-12-07 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2743"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7744960",
+    "unClass": "3",
+    "unCode": "2743",
+    "hsCode": "5037.63.23",
+    "flashPoint": "80°C",
+    "additionalInfo": "Handle with care"
+  }
+}

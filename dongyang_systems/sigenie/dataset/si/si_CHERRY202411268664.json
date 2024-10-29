@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202411268664",
+  "voyageDetails": {
+    "vesselName": "SHIP_1077",
+    "voyageNumber": "2076"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ IMPORTS INC.",
+      "address": "1234 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "additionalInfo": "",
+      "telephone": "+1 212 555 1212",
+      "email": "INFO@XYZIMPORTS.COM"
+    },
+    "consignee": {
+      "name": "ABC TRADING CO. LTD.",
+      "address": "5678 BROADWAY, LONDON, WC1A 1AA, UK",
+      "country": "UK",
+      "email": "SALES@ABCTRADING.CO.UK",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS LTD.",
+      "address": "9876 QUEEN STREET, LIVERPOOL, L1 1HQ, UK",
+      "country": "UK",
+      "email": "OPERATIONS@BLUESKYLOGISTICS.CO.UK",
+      "telephone": "+44 151 555 1234",
+      "fax": "+44 151 555 1235"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL MERCHANDISE",
+  "containers": [
+    {
+      "containerNumber": "CONT5458039",
+      "sealNumber": "SEAL158770",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 11229.94,
+      "measurement": 37.26
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 96,
+    "totalGrossWeight": 11229.94,
+    "totalMeasurement": 37.26
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC TRADING CO. LTD.",
+      "address": "5678 BROADWAY, LONDON, WC1A 1AA, UK",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "SALES@ABCTRADING.CO.UK"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC TRADING CO. LTD.",
+      "address": "5678 BROADWAY, LONDON, WC1A 1AA, UK",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568",
+      "email": "SALES@ABCTRADING.CO.UK"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

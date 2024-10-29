@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202412022733",
+  "voyageDetails": {
+    "vesselName": "SHIP_1773",
+    "voyageNumber": "2772"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS INC",
+      "address": "1234 TECH STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "ATTN: MR. JOHN SMITH",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "JOHN.SMITH@GLOBALTECH.COM"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORT EXPORT LTD",
+      "address": "4567 IMPORT STREET, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 9012",
+      "email": "INFO@ASIAIMPORTS.DE"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC IMPORT EXPORT LTD",
+      "address": "4567 IMPORT STREET, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 9012",
+      "email": "INFO@ASIAIMPORTS.DE"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT6965192",
+      "sealNumber": "SEAL458490",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 8538.81,
+      "measurement": 20.04
+    },
+    {
+      "containerNumber": "CONT8028268",
+      "sealNumber": "SEAL223460",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 11146.06,
+      "measurement": 31.9
+    },
+    {
+      "containerNumber": "CONT8928720",
+      "sealNumber": "SEAL187935",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 12507.31,
+      "measurement": 31.38
+    },
+    {
+      "containerNumber": "CONT9146882",
+      "sealNumber": "SEAL371331",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 10807.45,
+      "measurement": 33.14
+    },
+    {
+      "containerNumber": "CONT8129819",
+      "sealNumber": "SEAL274291",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 13591.44,
+      "measurement": 21.81
+    },
+    {
+      "containerNumber": "CONT8835223",
+      "sealNumber": "SEAL534312",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 16074.38,
+      "measurement": 38.38
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 244,
+    "totalGrossWeight": 72665.45,
+    "totalMeasurement": 176.65
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC IMPORT EXPORT LTD",
+      "address": "4567 IMPORT STREET, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 9012",
+      "email": "INFO@ASIAIMPORTS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORT EXPORT LTD",
+      "address": "4567 IMPORT STREET, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 9012",
+      "email": "INFO@ASIAIMPORTS.DE"
+    },
+    "onboardDate": "2024-12-07 20:00",
+    "additionalRemarks": "ON DECK TOP STOWAGE"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202410176349",
+  "voyageDetails": {
+    "vesselName": "SHIP_331",
+    "voyageNumber": "1330"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS PTE LTD",
+      "address": "123 TECH PARK ROAD, SINGAPORE 628888, SINGAPORE",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "email": "INFO@GLOBALTECHSOLUTIONS.COM.SG"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "222 HAMBURG STREET, HAMBURG 20095, GERMANY",
+      "country": "GERMANY",
+      "email": "CUSTOMERCARE@ASIAPACIFICLOGISTICS.DE",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "222 HAMBURG STREET, HAMBURG 20095, GERMANY",
+      "country": "GERMANY",
+      "email": "CUSTOMERCARE@ASIAPACIFICLOGISTICS.DE",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "CHEMICAL PRODUCTS N.E.C.",
+  "containers": [
+    {
+      "containerNumber": "CONT7803103",
+      "sealNumber": "SEAL566404",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 16994.52,
+      "measurement": 33.39
+    },
+    {
+      "containerNumber": "CONT6621616",
+      "sealNumber": "SEAL106866",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 10374.4,
+      "measurement": 34.37
+    },
+    {
+      "containerNumber": "CONT8043735",
+      "sealNumber": "SEAL113946",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 6116.34,
+      "measurement": 29.1
+    },
+    {
+      "containerNumber": "CONT2035273",
+      "sealNumber": "SEAL424670",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 5225.17,
+      "measurement": 31.57
+    },
+    {
+      "containerNumber": "CONT7981684",
+      "sealNumber": "SEAL894567",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 8266.32,
+      "measurement": 20.99
+    },
+    {
+      "containerNumber": "CONT3395540",
+      "sealNumber": "SEAL555174",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 7245.84,
+      "measurement": 36.14
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD GENERAL",
+    "totalPackages": 280,
+    "totalGrossWeight": 54222.59,
+    "totalMeasurement": 185.56
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC23456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "222 HAMBURG STREET, HAMBURG 20095, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "CUSTOMERCARE@ASIAPACIFICLOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "222 HAMBURG STREET, HAMBURG 20095, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "CUSTOMERCARE@ASIAPACIFICLOGISTICS.DE"
+    },
+    "onboardDate": "2024-10-27 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2388, VALUE: USD542,499, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3019687",
+    "unClass": "2",
+    "unCode": "2388,",
+    "hsCode": "7524.84.32",
+    "flashPoint": "-13°C",
+    "additionalInfo": "Handle with care"
+  }
+}

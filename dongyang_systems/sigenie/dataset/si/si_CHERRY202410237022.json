@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410237022",
+  "voyageDetails": {
+    "vesselName": "SHIP_5301",
+    "voyageNumber": "6300"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES CO. LTD",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@DELTAINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "1234 RUE DE PARIS, CASABLANCA, MOROCCO 20000",
+      "companyNumber": "123456789",
+      "telephone": "+212 522 498 7000",
+      "fax": "+212 522 498 7001",
+      "email": "JANSSEN.EMMA@OMEGAShipping.MA"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD",
+      "address": "1234 RUE DE PARIS, CASABLANCA, MOROCCO 20000"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CONT7961063",
+      "sealNumber": "SEAL180279",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 17185.17,
+      "measurement": 32.02
+    },
+    {
+      "containerNumber": "CONT3686786",
+      "sealNumber": "SEAL729816",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 11135.35,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CONT1935893",
+      "sealNumber": "SEAL578424",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 7588.9,
+      "measurement": 34.15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 70,
+    "totalGrossWeight": 35909.42,
+    "totalMeasurement": 91.17
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA INDUSTRIES CO. LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-10-27 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411287090",
+  "voyageDetails": {
+    "vesselName": "SHIP_954",
+    "voyageNumber": "1953"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH MANUFACTURING CO. LTD",
+      "address": "128 XINHE ROAD, JIANGNING DISTRICT, NINGBO, ZHEJIANG PROVINCE 315011, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "LIU.MING@ZENITHMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 500, NEW YORK, NY 10001, USA",
+      "country": "UNITED STATES",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "JOHN.DOE@GLOBALFREIGHTSOLUTIONS.COM",
+      "personincharge": "JANE SMITH"
+    },
+    "notifyParty": {
+      "name": "ATLAS LOGISTICS LLC",
+      "address": "245 BROADWAY, NEW YORK, NY 10007, USA",
+      "country": "UNITED STATES",
+      "telephone": "+1 212 555 2323",
+      "fax": "+1 212 555 2324",
+      "email": "INFO@ATLASLOGISTICSLLC.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "310520",
+  "commodityDescription": "AMMONIUM NITRATE FERTILIZER",
+  "containers": [
+    {
+      "containerNumber": "CONT2401234",
+      "sealNumber": "SEAL667772",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 10685.61,
+      "measurement": 30.77
+    },
+    {
+      "containerNumber": "CONT3389381",
+      "sealNumber": "SEAL522765",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 7929.53,
+      "measurement": 24.91
+    },
+    {
+      "containerNumber": "CONT9579408",
+      "sealNumber": "SEAL907941",
+      "numberOfPackages": 57,
+      "packageType": "BOXES",
+      "grossWeight": 13941.77,
+      "measurement": 36.45
+    },
+    {
+      "containerNumber": "CONT6204628",
+      "sealNumber": "SEAL413855",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 12942.66,
+      "measurement": 38.82
+    },
+    {
+      "containerNumber": "CONT1982852",
+      "sealNumber": "SEAL275902",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 9781.23,
+      "measurement": 34.87
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD GENERAL",
+    "totalPackages": 248,
+    "totalGrossWeight": 55280.8,
+    "totalMeasurement": 165.82
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411287090"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 500, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "JOHN.DOE@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 500, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "JOHN.DOE@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2891, VALUE: USD198,095, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9759360",
+    "unClass": "1",
+    "unCode": "2891,",
+    "hsCode": "3959.97.79",
+    "flashPoint": "2°C",
+    "additionalInfo": "Handle with care"
+  }
+}

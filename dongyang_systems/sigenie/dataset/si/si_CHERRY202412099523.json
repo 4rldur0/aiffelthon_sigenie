@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202412099523",
+  "voyageDetails": {
+    "vesselName": "SHIP_1732",
+    "voyageNumber": "2731"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTERS INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "456 ALHAMBRA STREET, MADRID, SPAIN",
+      "telephone": "+34-91-1234-5678",
+      "fax": "+34-91-1234-5679",
+      "email": "INFO@GLOBALLOGISTICS.ES",
+      "contactPerson": "JUAN PEREZ"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT2750646",
+      "sealNumber": "SEAL368905",
+      "numberOfPackages": 65,
+      "packageType": "BOXES",
+      "grossWeight": 5300.16,
+      "measurement": 24.01
+    },
+    {
+      "containerNumber": "CONT5367880",
+      "sealNumber": "SEAL499339",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 13445.73,
+      "measurement": 37.96
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 155,
+    "totalGrossWeight": 18745.89,
+    "totalMeasurement": 61.97
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241209-1001",
+    "documentNumber": "20241209-1001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "456 ALHAMBRA STREET, MADRID, SPAIN",
+      "telephone": "+34-91-1234-5678",
+      "fax": "+34-91-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "456 ALHAMBRA STREET, MADRID, SPAIN",
+      "telephone": "+34-91-1234-5678",
+      "fax": "+34-91-1234-5679"
+    },
+    "onboardDate": "2025-01-16 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

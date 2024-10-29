@@ -1,0 +1,83 @@
+{
+  "bookingReference": "CHERRY202412143939",
+  "voyageDetails": {
+    "vesselName": "SHIP_847",
+    "voyageNumber": "1846"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "2345 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34-91-555-1212",
+      "fax": "+34-91-555-1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "contactPerson": "MARIA RODRIGUEZ"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 MAIN STREET, MADRID, SPAIN"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "95069100",
+  "commodityDescription": "GENERAL CARGO FOR SPORTS EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT5102220",
+      "sealNumber": "SEAL562703",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 5097.25,
+      "measurement": 24.12
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 45 HIGH CUBE TANK",
+    "totalPackages": 12,
+    "totalGrossWeight": 5097.25,
+    "totalMeasurement": 24.12
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241215-1001",
+    "documentNumber": "20241215-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34-91-555-1212",
+      "fax": "+34-91-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "1234 MAIN STREET, MADRID, SPAIN",
+      "telephone": "+34-91-555-1212",
+      "fax": "+34-91-555-1213"
+    },
+    "onboardDate": "2025-01-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411296533",
+  "voyageDetails": {
+    "vesselName": "SHIP_5035",
+    "voyageNumber": "6034"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI UNIVERSAL TRADING CO. LTD.",
+      "address": "123 GREEN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "GREEN EARTH LOGISTICS",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "GREEN EARTH LOGISTICS",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CARS",
+  "containers": [
+    {
+      "containerNumber": "CONT6925936",
+      "sealNumber": "SEAL873153",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 8662.37,
+      "measurement": 20.17
+    },
+    {
+      "containerNumber": "CONT2573937",
+      "sealNumber": "SEAL702122",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 13146.33,
+      "measurement": 25.83
+    },
+    {
+      "containerNumber": "CONT8391861",
+      "sealNumber": "SEAL479118",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 16753.86,
+      "measurement": 36.08
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 83,
+    "totalGrossWeight": 38562.56,
+    "totalMeasurement": 82.08
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GREEN EARTH LOGISTICS",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN EARTH LOGISTICS",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-12-07 16:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

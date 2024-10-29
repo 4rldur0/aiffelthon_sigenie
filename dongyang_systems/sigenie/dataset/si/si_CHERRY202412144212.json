@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202412144212",
+  "voyageDetails": {
+    "vesselName": "SHIP_658",
+    "voyageNumber": "1657"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ELECTRONICS CO LTD",
+      "address": "123 MAIN STREET, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 98765432",
+      "email": "SALES@ASIAELECTRONICS.COM"
+    },
+    "consignee": {
+      "name": "KONG TAI INTERNATIONAL LOGISTICS LTD",
+      "address": "124 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL854370123",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@KONGTAI.NL"
+    },
+    "notifyParty": {
+      "name": "KONG TAI INTERNATIONAL LOGISTICS LTD",
+      "address": "124 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@KONGTAI.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRICAL MACHINES AND APPARATUS, HAVING INDIVIDUAL FUNCTIONS, N.E.C.",
+  "containers": [
+    {
+      "containerNumber": "CONT8485817",
+      "sealNumber": "SEAL108984",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 18100.01,
+      "measurement": 29.74
+    },
+    {
+      "containerNumber": "CONT3177085",
+      "sealNumber": "SEAL789417",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 11537.01,
+      "measurement": 34.76
+    },
+    {
+      "containerNumber": "CONT7017640",
+      "sealNumber": "SEAL676641",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 9033.55,
+      "measurement": 20.98
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 237,
+    "totalGrossWeight": 38670.57,
+    "totalMeasurement": 85.48
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "KONG TAI INTERNATIONAL LOGISTICS LTD",
+      "address": "124 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "INFO@KONGTAI.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ELECTRONICS CO LTD",
+      "address": "123 MAIN STREET, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 98765432",
+      "email": "SALES@ASIAELECTRONICS.COM"
+    },
+    "onboardDate": "2025-01-06 18:00",
+    "additionalRemarks": "ON DECK TOP STOWAGE"
+  }
+}

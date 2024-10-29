@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411095516",
+  "voyageDetails": {
+    "vesselName": "SHIP_4222",
+    "voyageNumber": "5221"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA INDUSTRIES CO.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "620462",
+  "commodityDescription": "LADIES DRESSES",
+  "containers": [
+    {
+      "containerNumber": "CONT1452426",
+      "sealNumber": "SEAL547760",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 14338.64,
+      "measurement": 33.51
+    },
+    {
+      "containerNumber": "CONT8462667",
+      "sealNumber": "SEAL985433",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 6573.03,
+      "measurement": 24.2
+    },
+    {
+      "containerNumber": "CONT4576774",
+      "sealNumber": "SEAL502754",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 10800.82,
+      "measurement": 27.08
+    },
+    {
+      "containerNumber": "CONT4275359",
+      "sealNumber": "SEAL714585",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 5781.53,
+      "measurement": 24.94
+    },
+    {
+      "containerNumber": "CONT2955001",
+      "sealNumber": "SEAL156562",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 17271.52,
+      "measurement": 34.45
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE TANK",
+    "totalPackages": 247,
+    "totalGrossWeight": 54765.54,
+    "totalMeasurement": 144.18
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA INDUSTRIES CO.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "bookingReference": "CHERRY202410268739",
+  "voyageDetails": {
+    "vesselName": "SHIP_2158",
+    "voyageNumber": "3157"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SCHWEITZER GMBH & CO. KG",
+      "onBehalfOf": "",
+      "address": "SCHWEITZERSTRASSE 10, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@SCHWEITZER-GMBH.DE"
+    },
+    "consignee": {
+      "name": "DANONE LOGISTICS GMBH",
+      "address": "DANONEPLATZ 1, 80807 MUNICH, GERMANY",
+      "companyNumber": "1234567890",
+      "telephone": "+49 89 12345678",
+      "fax": "+49 89 12345679",
+      "email": "LOGISTICS@DANONE.DE"
+    },
+    "notifyParty": {
+      "name": "DANONE LOGISTICS GMBH",
+      "address": "DANONEPLATZ 1, 80807 MUNICH, GERMANY"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "902110",
+  "commodityDescription": "ORTHOPEDIC DEVICES",
+  "containers": [
+    {
+      "containerNumber": "CONT5056335",
+      "sealNumber": "SEAL376714",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 16000.99,
+      "measurement": 26.53
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD TANK",
+    "totalPackages": 64,
+    "totalGrossWeight": 16000.99,
+    "totalMeasurement": 26.53
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "DANONE20241026"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DANONE LOGISTICS GMBH",
+      "address": "DANONEPLATZ 1, 80807 MUNICH, GERMANY",
+      "telephone": "+49 89 12345678",
+      "fax": "+49 89 12345679",
+      "email": "LOGISTICS@DANONE.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SCHWEITZER GMBH & CO. KG",
+      "address": "SCHWEITZERSTRASSE 10, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@SCHWEITZER-GMBH.DE"
+    },
+    "onboardDate": "2024-10-29 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

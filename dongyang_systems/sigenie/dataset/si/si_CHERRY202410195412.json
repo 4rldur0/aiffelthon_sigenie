@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410195412",
+  "voyageDetails": {
+    "vesselName": "SHIP_1984",
+    "voyageNumber": "2983"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "DAMSTRAAT 123, 3011 XD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@OMEGASHIPPING.NL",
+      "contactPerson": "JAN VAN DER MEER"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030811",
+  "commodityDescription": "FROZEN HALIBUT",
+  "containers": [
+    {
+      "containerNumber": "CONT2520313",
+      "sealNumber": "SEAL495926",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 14031.12,
+      "measurement": 25.43
+    },
+    {
+      "containerNumber": "CONT6256183",
+      "sealNumber": "SEAL694201",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 6878.68,
+      "measurement": 37.3
+    },
+    {
+      "containerNumber": "CONT3104461",
+      "sealNumber": "SEAL869426",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 8748.16,
+      "measurement": 25.23
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 171,
+    "totalGrossWeight": 29657.96,
+    "totalMeasurement": 87.96
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "DAMSTRAAT 123, 3011 XD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "DAMSTRAAT 123, 3011 XD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-10-26 10:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 18°C, VALUE: USD90,085, UNDER DECK TOP STOWAGE",
+    "reeferSettings": {
+      "setTemperature": 18,
+      "temperatureTolerance": 0.5,
+      "ventilation": "NORMAL"
+    }
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6944926",
+    "temperature": "18°C",
+    "minTemperature": "16°C",
+    "maxTemperature": "20°C",
+    "ventilation": "9%",
+    "humidity": "88%"
+  }
+}

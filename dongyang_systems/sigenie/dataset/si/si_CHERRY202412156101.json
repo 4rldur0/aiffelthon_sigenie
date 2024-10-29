@@ -1,0 +1,82 @@
+{
+  "bookingReference": "CHERRY202412156101",
+  "voyageDetails": {
+    "vesselName": "SHIP_2953",
+    "voyageNumber": "3952"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING INC.",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT EXPORT CO.",
+      "address": "WATERLOOSTRAAT 12, 3012 AM ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@SUNRISEIMPORT.NL",
+      "contactPerson": "PETER VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT EXPORT CO."
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT4182481",
+      "sealNumber": "SEAL865181",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 16567.01,
+      "measurement": 29.43
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 21,
+    "totalGrossWeight": 16567.01,
+    "totalMeasurement": 29.43
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241215-1001",
+    "documentNumber": "20241215-1001",
+    "lcDetails": {
+      "lcNumber": "LC20241215ABC"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT EXPORT CO.",
+      "address": "WATERLOOSTRAAT 12, 3012 AM ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT EXPORT CO.",
+      "address": "WATERLOOSTRAAT 12, 3012 AM ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-12-23 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

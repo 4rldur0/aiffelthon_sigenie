@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202410283816",
+  "voyageDetails": {
+    "vesselName": "SHIP_4548",
+    "voyageNumber": "5547"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "onBehalfOf": "",
+      "address": "1234 SUNRISE AVE, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@SUNRISEELECTRONICS.CN"
+    },
+    "consignee": {
+      "name": "EUROASIA SHIPPING LTD.",
+      "address": "1234 WORLD TRADE CENTER, ROTTERDAM, NETHERLANDS 3013 AL",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@EUROASIA.NL"
+    },
+    "notifyParty": {
+      "name": "EUROASIA SHIPPING LTD.",
+      "address": "1234 WORLD TRADE CENTER, ROTTERDAM, NETHERLANDS 3013 AL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "901890",
+  "commodityDescription": "MEDICAL REFRIGERATORS",
+  "containers": [
+    {
+      "containerNumber": "CONT7832063",
+      "sealNumber": "SEAL870121",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 12872.46,
+      "measurement": 21.79
+    },
+    {
+      "containerNumber": "CONT2952422",
+      "sealNumber": "SEAL478971",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 10861.19,
+      "measurement": 34.8
+    },
+    {
+      "containerNumber": "CONT8293085",
+      "sealNumber": "SEAL628696",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 15547.14,
+      "measurement": 31.95
+    },
+    {
+      "containerNumber": "CONT5157023",
+      "sealNumber": "SEAL678042",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 11768.9,
+      "measurement": 36.84
+    },
+    {
+      "containerNumber": "CONT1083870",
+      "sealNumber": "SEAL448006",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 13937.98,
+      "measurement": 26.09
+    },
+    {
+      "containerNumber": "CONT7759418",
+      "sealNumber": "SEAL630439",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 14369.88,
+      "measurement": 22.95
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD REEFER",
+    "totalPackages": 207,
+    "totalGrossWeight": 79357.55,
+    "totalMeasurement": 174.42
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROASIA SHIPPING LTD.",
+      "address": "1234 WORLD TRADE CENTER, ROTTERDAM, NETHERLANDS 3013 AL",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@EUROASIA.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "1234 SUNRISE AVE, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@SUNRISEELECTRONICS.CN"
+    },
+    "onboardDate": "2024-11-07 18:00:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 6°C, VALUE: USD851,524, KEEP DRY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT3593874",
+    "temperature": "6°C",
+    "minTemperature": "4°C",
+    "maxTemperature": "8°C",
+    "ventilation": "41%",
+    "humidity": "73%"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411121196",
+  "voyageDetails": {
+    "vesselName": "SHIP_3862",
+    "voyageNumber": "4861"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDED",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT EXPORT CO.",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667",
+      "email": "SHIPPING@SHANGHAIIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "1234 TRADING WAY, LONDON, UNITED KINGDOM",
+      "companyNumber": "123456789",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 8889",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "1234 TRADING WAY, LONDON, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940390",
+  "commodityDescription": "GENERAL FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT4449612",
+      "sealNumber": "SEAL148964",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 7882.81,
+      "measurement": 25.34
+    },
+    {
+      "containerNumber": "CONT9405411",
+      "sealNumber": "SEAL123269",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 18360.61,
+      "measurement": 21.63
+    },
+    {
+      "containerNumber": "CONT8225244",
+      "sealNumber": "SEAL422953",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "grossWeight": 6746.68,
+      "measurement": 25.36
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 71,
+    "totalGrossWeight": 32990.1,
+    "totalMeasurement": 72.33
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "1234 TRADING WAY, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 8889",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "1234 TRADING WAY, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 8889"
+    },
+    "onboardDate": "2024-11-17 20:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

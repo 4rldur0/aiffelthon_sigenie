@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202411251183",
+  "voyageDetails": {
+    "vesselName": "SHIP_4836",
+    "voyageNumber": "5835"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "NO. 1234, HUAHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "UNIT 10, PARK WAY INDUSTRIAL ESTATE, GDANSK, POLAND",
+      "taxId": "PL9876543210",
+      "president": "MR. JAN NOWAK",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4443",
+      "email": "JAN.NOWAK@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "UNIT 10, PARK WAY INDUSTRIAL ESTATE, GDANSK, POLAND",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4443",
+      "email": "JAN.NOWAK@GLOBALFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT8709413",
+      "sealNumber": "SEAL692088",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 7014.14,
+      "measurement": 30.94
+    },
+    {
+      "containerNumber": "CONT8174676",
+      "sealNumber": "SEAL789303",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 7927.35,
+      "measurement": 33.67
+    },
+    {
+      "containerNumber": "CONT7690646",
+      "sealNumber": "SEAL754139",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 5357.08,
+      "measurement": 29.27
+    },
+    {
+      "containerNumber": "CONT8148066",
+      "sealNumber": "SEAL397256",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 9191.63,
+      "measurement": 29.85
+    },
+    {
+      "containerNumber": "CONT7262048",
+      "sealNumber": "SEAL911941",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 10787.43,
+      "measurement": 20.99
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD GENERAL",
+    "totalPackages": 187,
+    "totalGrossWeight": 40277.63,
+    "totalMeasurement": 144.72
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "UNIT 10, PARK WAY INDUSTRIAL ESTATE, GDANSK, POLAND",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4443",
+      "email": "JAN.NOWAK@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "UNIT 10, PARK WAY INDUSTRIAL ESTATE, GDANSK, POLAND",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4443",
+      "email": "JAN.NOWAK@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-12-06 16:00",
+    "additionalRemarks": "DO NOT STACK"
+  }
+}

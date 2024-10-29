@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202412189385",
+  "voyageDetails": {
+    "vesselName": "SHIP_5353",
+    "voyageNumber": "6352"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES CO. LTD",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "lei": "724500A1B2C3D4E5F6G7",
+      "telephone": "+86 21 5037 8888",
+      "fax": "+86 21 5037 8889",
+      "email": "INFO@ASIA pacificindustries.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORPORATION LTD",
+      "address": "1234 ROTTERDAM STREET, ROTTERDAM, THE NETHERLANDS",
+      "usci": "91321200765109788X",
+      "president": "JOHN SMITH",
+      "telephone": "+31 10 891 2185",
+      "fax": "+31 10 891 2200",
+      "email": "INFO@GLOBALTRADINGCORPORATION.COM"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "usci": "91310000MA1FL1XH2B",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT6331209",
+      "sealNumber": "SEAL780990",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 9129.44,
+      "measurement": 26.0
+    },
+    {
+      "containerNumber": "CONT9916955",
+      "sealNumber": "SEAL876835",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 17795.4,
+      "measurement": 36.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 62,
+    "totalGrossWeight": 26924.84,
+    "totalMeasurement": 62.81
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "WAALHAVEN ZUIDZIJDE 21, 3089 JH ROTTERDAM, THE NETHERLANDS",
+      "telephone": "++31 10 294 5000",
+      "fax": "+31 10 294 5001",
+      "email": "JOHAN.DEVRIES@DUTCHGLOBALLOGISTICS.NL"
+    },
+    "onboardDate": "2024-12-21 22:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

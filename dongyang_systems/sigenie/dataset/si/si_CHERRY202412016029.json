@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202412016029",
+  "voyageDetails": {
+    "vesselName": "SHIP_5769",
+    "voyageNumber": "6768"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING INC.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1213",
+      "email": "INFO@ASIAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "1234 ABC STREET, LONDON, UNITED KINGDOM",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 7777 1212",
+      "fax": "+44 20 7777 1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "1234 ABC STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7777 1212",
+      "fax": "+44 20 7777 1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT7447317",
+      "sealNumber": "SEAL797946",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 15668.52,
+      "measurement": 29.4
+    },
+    {
+      "containerNumber": "CONT2967651",
+      "sealNumber": "SEAL108696",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 9126.59,
+      "measurement": 20.92
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 165,
+    "totalGrossWeight": 24795.11,
+    "totalMeasurement": 50.32
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "1234 ABC STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7777 1212",
+      "fax": "+44 20 7777 1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "1234 ABC STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7777 1212",
+      "fax": "+44 20 7777 1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-12-06 17:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202412078913",
+  "voyageDetails": {
+    "vesselName": "SHIP_6170",
+    "voyageNumber": "7169"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA EXPORTERS INC.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORTS LTD",
+      "address": "5678 ALAMO STREET, MADRID, SPAIN",
+      "telephone": "+34-91-1234-5678",
+      "fax": "+34-91-1234-5679",
+      "email": "INFO@ALPHAIMPORTS.ES",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORTS LTD"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "961900",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT6054173",
+      "sealNumber": "SEAL633951",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 13609.73,
+      "measurement": 26.39
+    },
+    {
+      "containerNumber": "CONT9493482",
+      "sealNumber": "SEAL317159",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 5410.86,
+      "measurement": 39.64
+    },
+    {
+      "containerNumber": "CONT8275355",
+      "sealNumber": "SEAL828843",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 15617.04,
+      "measurement": 20.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD GENERAL",
+    "totalPackages": 188,
+    "totalGrossWeight": 34637.63,
+    "totalMeasurement": 86.53
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241207-001",
+    "documentNumber": "20241207-001",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORTS LTD",
+      "address": "5678 ALAMO STREET, MADRID, SPAIN",
+      "telephone": "+34-91-1234-5678",
+      "fax": "+34-91-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORTS LTD",
+      "address": "5678 ALAMO STREET, MADRID, SPAIN",
+      "telephone": "+34-91-1234-5678",
+      "fax": "+34-91-1234-5679"
+    },
+    "onboardDate": "2024-12-17 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

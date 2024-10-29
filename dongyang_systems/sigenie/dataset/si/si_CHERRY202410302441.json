@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410302441",
+  "voyageDetails": {
+    "vesselName": "SHIP_2484",
+    "voyageNumber": "3483"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "123 ROBINSON ROAD, SINGAPORE 048545",
+      "telephone": "+65 6536 5555",
+      "fax": "+65 6536 5556",
+      "email": "SALES@ASIAPACIFICTRADING.COM.SG"
+    },
+    "consignee": {
+      "name": "ZENITH LOGISTICS LTD",
+      "address": "CALLE DE LA INDUSTRIA 45, PARQUE EMPRESARIAL BAHÍA DE ALGECIRAS, 11205 ALGECIRAS, CÁDIZ, SPAIN",
+      "telephone": "+34 956 613 900",
+      "fax": "+34 956 613 901",
+      "email": "JAVIER.MORENO@ESTRECHOEXPORT.ES"
+    },
+    "notifyParty": {
+      "name": "ZENITH LOGISTICS LTD",
+      "address": "CALLE DE LA INDUSTRIA 45, PARQUE EMPRESARIAL BAHÍA DE ALGECIRAS, 11205 ALGECIRAS, CÁDIZ, SPAIN",
+      "telephone": "+34 956 613 900",
+      "fax": "+34 956 613 901",
+      "email": "JAVIER.MORENO@ESTRECHOEXPORT.ES"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "381300",
+  "commodityDescription": "INDUSTRIAL AND LABORATORY CHEMICALS NOT ELSEWHERE SPECIFIED OR INCLUDED",
+  "containers": [
+    {
+      "containerNumber": "CONT3091557",
+      "sealNumber": "SEAL906587",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 5442.02,
+      "measurement": 32.89
+    },
+    {
+      "containerNumber": "CONT1240904",
+      "sealNumber": "SEAL855519",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 11260.98,
+      "measurement": 30.59
+    },
+    {
+      "containerNumber": "CONT2051713",
+      "sealNumber": "SEAL256901",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 8573.88,
+      "measurement": 22.76
+    },
+    {
+      "containerNumber": "CONT9020864",
+      "sealNumber": "SEAL308971",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 9532.63,
+      "measurement": 20.39
+    },
+    {
+      "containerNumber": "CONT6179502",
+      "sealNumber": "SEAL923894",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 16347.52,
+      "measurement": 28.29
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD GENERAL",
+    "totalPackages": 298,
+    "totalGrossWeight": 51157.03,
+    "totalMeasurement": 134.92
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "ZENITH LOGISTICS LTD",
+      "address": "CALLE DE LA INDUSTRIA 45, PARQUE EMPRESARIAL BAHÍA DE ALGECIRAS, 11205 ALGECIRAS, CÁDIZ, SPAIN",
+      "telephone": "+34 956 613 900",
+      "fax": "+34 956 613 901",
+      "email": "JAVIER.MORENO@ESTRECHOEXPORT.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH LOGISTICS LTD",
+      "address": "CALLE DE LA INDUSTRIA 45, PARQUE EMPRESARIAL BAHÍA DE ALGECIRAS, 11205 ALGECIRAS, CÁDIZ, SPAIN",
+      "telephone": "+34 956 613 900",
+      "fax": "+34 956 613 901",
+      "email": "JAVIER.MORENO@ESTRECHOEXPORT.ES"
+    },
+    "onboardDate": "2024-11-12 08:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2202, VALUE: USD543,382, UNDER DECK TOP STOWAGE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7299039",
+    "unClass": "7",
+    "unCode": "2202,",
+    "hsCode": "5800.63.48",
+    "flashPoint": "98°C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202410268532",
+  "voyageDetails": {
+    "vesselName": "SHIP_762",
+    "voyageNumber": "1761"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 EUROPA STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4444-5678",
+      "fax": "+31-10-4444-5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL",
+      "contactPerson": "JAN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD."
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "630900",
+  "commodityDescription": "COTTON FABRICS",
+  "containers": [
+    {
+      "containerNumber": "CONT3962166",
+      "sealNumber": "SEAL162458",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 15706.31,
+      "measurement": 30.54
+    },
+    {
+      "containerNumber": "CONT6612854",
+      "sealNumber": "SEAL375177",
+      "numberOfPackages": 13,
+      "packageType": "BOXES",
+      "grossWeight": 8382.09,
+      "measurement": 27.01
+    },
+    {
+      "containerNumber": "CONT4254157",
+      "sealNumber": "SEAL105741",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 10793.47,
+      "measurement": 23.43
+    },
+    {
+      "containerNumber": "CONT1541694",
+      "sealNumber": "SEAL365666",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 18909.59,
+      "measurement": 34.2
+    },
+    {
+      "containerNumber": "CONT5217718",
+      "sealNumber": "SEAL761351",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 10667.2,
+      "measurement": 23.66
+    },
+    {
+      "containerNumber": "CONT8011401",
+      "sealNumber": "SEAL656091",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 14366.91,
+      "measurement": 24.52
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD GENERAL",
+    "totalPackages": 284,
+    "totalGrossWeight": 78825.57,
+    "totalMeasurement": 163.36
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241026-1001",
+    "documentNumber": "20241026-1001",
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 EUROPA STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4444-5678",
+      "fax": "+31-10-4444-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
+  }
+}

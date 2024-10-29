@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202411117889",
+  "voyageDetails": {
+    "vesselName": "SHIP_4851",
+    "voyageNumber": "5850"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORTS INC.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1313",
+      "email": "INFO@BETAIMPORTS.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "5678 ALCALDE STREET, MADRID, SPAIN, 28001",
+      "country": "SPAIN",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@ALPHAGLOBALTRADING.ES"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS",
+      "address": "9876 PORT STREET, BARCELONA, SPAIN, 08001",
+      "country": "SPAIN",
+      "telephone": "+34 93 234 5678",
+      "fax": "+34 93 234 5679",
+      "email": "INFO@WORLDWIDE.ES"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN BEEF",
+  "containers": [
+    {
+      "containerNumber": "CONT2247049",
+      "sealNumber": "SEAL735424",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 16953.6,
+      "measurement": 30.61
+    },
+    {
+      "containerNumber": "CONT6700612",
+      "sealNumber": "SEAL663872",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 11506.01,
+      "measurement": 22.63
+    },
+    {
+      "containerNumber": "CONT3255591",
+      "sealNumber": "SEAL108182",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 14172.36,
+      "measurement": 32.71
+    },
+    {
+      "containerNumber": "CONT1226189",
+      "sealNumber": "SEAL889484",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 18304.58,
+      "measurement": 39.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE REEFER",
+    "totalPackages": 263,
+    "totalGrossWeight": 60936.55,
+    "totalMeasurement": 125.04
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "HEALTH CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "5678 ALCALDE STREET, MADRID, SPAIN, 28001",
+      "telephone": "+34 91 123 4567",
+      "fax": "+34 91 123 4568",
+      "email": "INFO@ALPHAGLOBALTRADING.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA IMPORTS INC.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1313",
+      "email": "INFO@BETAIMPORTS.CN"
+    },
+    "onboardDate": "2024-11-17 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -4°C, VALUE: USD686,462, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7420236",
+    "temperature": "-4°C",
+    "minTemperature": "-6°C",
+    "maxTemperature": "-2°C",
+    "ventilation": "56%",
+    "humidity": "74%"
+  }
+}

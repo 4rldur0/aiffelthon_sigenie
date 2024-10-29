@@ -1,0 +1,152 @@
+{
+  "bookingReference": "CHERRY202412011041",
+  "voyageDetails": {
+    "vesselName": "SHIP_5511",
+    "voyageNumber": "6510"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA INTERNATIONAL LTD.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TECH TRADING CO.",
+      "address": "123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GLOBALTECHTRADING.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "PHOSPHORUS TRICHLORIDE",
+  "containers": [
+    {
+      "containerNumber": "CONT9782358",
+      "sealNumber": "SEAL190180",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 14010.72,
+      "measurement": 23.66
+    },
+    {
+      "containerNumber": "CONT7726288",
+      "sealNumber": "SEAL830470",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 17227.38,
+      "measurement": 30.99
+    },
+    {
+      "containerNumber": "CONT7812160",
+      "sealNumber": "SEAL389755",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 14824.57,
+      "measurement": 35.15
+    },
+    {
+      "containerNumber": "CONT5085597",
+      "sealNumber": "SEAL854952",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 9779.62,
+      "measurement": 32.64
+    },
+    {
+      "containerNumber": "CONT5689062",
+      "sealNumber": "SEAL722416",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 5412.74,
+      "measurement": 23.34
+    },
+    {
+      "containerNumber": "CONT6399979",
+      "sealNumber": "SEAL985723",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 8834.04,
+      "measurement": 22.77
+    },
+    {
+      "containerNumber": "CONT6064047",
+      "sealNumber": "SEAL682139",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 9346.18,
+      "measurement": 28.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 40 HIGH CUBE TANK",
+    "totalPackages": 407,
+    "totalGrossWeight": 79435.25,
+    "totalMeasurement": 197.35
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1381",
+    "dangerousGoods": {
+      "unNumber": "1381",
+      "properShippingName": "PHOSPHORUS TRICHLORIDE",
+      "hazardClass": "6.1",
+      "packingGroup": "II"
+    }
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5873009",
+    "unClass": "2",
+    "unCode": "1381",
+    "hsCode": "5222.52.26",
+    "flashPoint": "37°C",
+    "additionalInfo": "Handle with care"
+  }
+}

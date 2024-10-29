@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202412056893",
+  "voyageDetails": {
+    "vesselName": "SHIP_3940",
+    "voyageNumber": "4939"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE, FRANCE",
+    "portOfLoading": "LE HAVRE, FRANCE",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "12 RUE DE PARIS, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "MALAYSIA LOGISTICS SDN. BHD.",
+      "address": "23 Jalan Sultan Ismail, Kuala Lumpur, MALAYSIA",
+      "taxId": "1234567890",
+      "president": "MR. TAN CHONG WEE",
+      "telephone": "+60 3 2145 6789",
+      "fax": "+60 3 2145 6788",
+      "email": "TAN.CHONGWEE@MALAYSIALOGISTICS.COM.MY"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "10 Anson Road, #05-01, Singapore 079903",
+      "taxId": "123456789012345",
+      "president": "MS. LINDA TAN",
+      "telephone": "+65 6221 4567",
+      "fax": "+65 6221 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "381300",
+  "commodityDescription": "DANGEROUS GOODS, UN 1174",
+  "containers": [
+    {
+      "containerNumber": "CONT6744737",
+      "sealNumber": "SEAL339631",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 8826.31,
+      "measurement": 24.08
+    },
+    {
+      "containerNumber": "CONT1818314",
+      "sealNumber": "SEAL867688",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 17733.28,
+      "measurement": 39.2
+    },
+    {
+      "containerNumber": "CONT5176893",
+      "sealNumber": "SEAL360766",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 5467.07,
+      "measurement": 26.66
+    },
+    {
+      "containerNumber": "CONT1605299",
+      "sealNumber": "SEAL557104",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 6868.11,
+      "measurement": 24.56
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 236,
+    "totalGrossWeight": 38894.77,
+    "totalMeasurement": 114.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "10 Anson Road, #05-01, Singapore 079903",
+      "telephone": "+65 6221 4567",
+      "fax": "+65 6221 4568",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "10 Anson Road, #05-01, Singapore 079903",
+      "telephone": "+65 6221 4567",
+      "fax": "+65 6221 4568",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1174, VALUE: USD375,644"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6926147",
+    "unClass": "9",
+    "unCode": "1174,",
+    "hsCode": "5101.69.62",
+    "flashPoint": "26°C",
+    "additionalInfo": "Handle with care"
+  }
+}

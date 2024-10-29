@@ -1,100 +1,122 @@
 {
   "bookingReference": "CHERRY202411244326",
   "voyageDetails": {
-    "vesselName": "APL RAFFLES",
-    "voyageNumber": "OFLQ8E1MA"
+    "vesselName": "SHIP_2942",
+    "voyageNumber": "3941"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ALGECIRAS, SPAIN",
-    "placeOfDelivery": "ALGECIRAS, SPAIN"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ALGECIRAS, SPAIN"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
   },
   "documentationDetails": {
-    "blType": "SURRENDED",
-    "numberOfOriginalBLs": 0,
-    "numberOfCopies": 3
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CORP",
-      "onBehalfOf": "",
-      "address": "1234 PACIFIC AVE, NINGBO, CHINA, 315000",
-      "telephone": "+86 574 8888 6159",
-      "fax": "+86 574 8888 6200",
-      "email": "LIU.WEIMIN@ASIAPACIFICTRADING.CN"
+      "name": "SUNRISE ELECTRONICS CO. LTD",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISEELECTRONICS.COM"
     },
     "consignee": {
-      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
-      "address": "555 GLOBAL STREET, MADRID, SPAIN, 28001",
-      "companyNumber": "123456789",
-      "telephone": "+34 91 498 7000",
-      "fax": "+34 91 498 7001",
-      "email": "JANSSEN.EMMA@GLOBALFREIGHTSOLUTIONS.ES"
+      "name": "GLOBAL FREIGHT SOLUTIONS INC",
+      "address": "123 MAIN STREET, GDANSK, POLAND 80-801",
+      "taxId": "PL1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+48 58 777 88 88",
+      "fax": "+48 58 777 88 87",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
     },
     "notifyParty": {
-      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
-      "address": "555 GLOBAL STREET, MADRID, SPAIN, 28001"
+      "name": "GLOBAL FREIGHT SOLUTIONS INC",
+      "address": "123 MAIN STREET, GDANSK, POLAND 80-801",
+      "taxId": "PL1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+48 58 777 88 88",
+      "fax": "+48 58 777 88 87",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
     }
   },
-  "shippingTerm": "CFS/CY",
-  "hsCode": "381300",
-  "commodityDescription": "ETHANOL SOLUTION",
+  "shippingTerm": "CY/CY",
+  "hsCode": "854140",
+  "commodityDescription": "ELECTRICAL APPARATUS FOR SWITCHING OR PROTECTING ELECTRICAL CIRCUITS",
   "containers": [
     {
-      "containerNumber": "CRLU5245975",
-      "sealNumber": "123456",
-      "marksAndNumbers": "ETHANOL SOLUTION - NINGBO",
-      "numberOfPackages": 10,
-      "packageType": "DRUMS",
-      "cargoDescription": "ETHANOL SOLUTION - SHIPPERS LOAD AND COUNT",
-      "grossWeight": 13000.0,
-      "measurement": 33.696,
-      "additionalInfo": ""
+      "containerNumber": "CONT6046097",
+      "sealNumber": "SEAL714320",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 16030.48,
+      "measurement": 36.65
+    },
+    {
+      "containerNumber": "CONT6154666",
+      "sealNumber": "SEAL802304",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 10675.29,
+      "measurement": 33.57
+    },
+    {
+      "containerNumber": "CONT7073390",
+      "sealNumber": "SEAL656933",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 15277.84,
+      "measurement": 20.36
+    },
+    {
+      "containerNumber": "CONT5771720",
+      "sealNumber": "SEAL371867",
+      "numberOfPackages": 59,
+      "packageType": "BOXES",
+      "grossWeight": 19402.96,
+      "measurement": 35.83
+    },
+    {
+      "containerNumber": "CONT7248593",
+      "sealNumber": "SEAL955292",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 6356.14,
+      "measurement": 39.48
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (1 X 20') CONTAINER",
-    "totalPackages": 10,
-    "packageType": "DRUMS",
-    "containerType": "20' STANDARD",
-    "totalGrossWeight": 13000.0,
-    "totalMeasurement": 33.696
+    "totalContainers": "5 x 45 HIGH CUBE TANK",
+    "totalPackages": 355,
+    "totalGrossWeight": 67742.71,
+    "totalMeasurement": 165.89
   },
   "additionalInformation": {
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [],
+    "certificateDetails": "C0000171594",
     "originalBLDistribution": {
-      "name": "WORLDWIDE LOGISTICS LTD.",
-      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
-      "telephone": "+86 21 2175 6551",
-      "fax": "+86 21 2175 6560",
-      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CORP",
-      "address": "1234 PACIFIC AVE, NINGBO, CHINA, 315000",
-      "telephone": "+86 574 8888 6159",
-      "fax": "+86 574 8888 6200"
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
     },
-    "onboardDate": "2025-01-12 08:00",
-    "additionalRemarks": "CONTAINER TYPE: GENERAL, DANGEROUS GOODS, UN 1295, VALUE: USD837,999"
-  },
-  "dangerousGoods": {
-    "containerNumber": "CONT2887226",
-    "unClass": "2",
-    "unCode": "1295,",
-    "hsCode": "8222.57.83",
-    "flashPoint": "32\u00b0C",
-    "additionalInfo": "Handle with care"
-  },
-  "containerDetails": {
-    "type": "DRY CONTAINER"
+    "onboardDate": "2024-12-06 19:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION"
   }
 }

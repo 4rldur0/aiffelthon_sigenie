@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411219125",
+  "voyageDetails": {
+    "vesselName": "SHIP_4725",
+    "voyageNumber": "5724"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "INTERNATIONAL METALWORKS GMBH",
+      "address": "GERNSTRASSE 23, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 40 1234 5678",
+      "email": "INFO@INTERNATIONALMETALWORKS.DE"
+    },
+    "consignee": {
+      "name": "EUROASIA SHIPPING LTD.",
+      "address": "123 ASIA STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "email": "ORDERS@EUROASIASHIPPING.CN",
+      "telephone": "+86 21 9876 5432",
+      "fax": "+86 21 9876 5433"
+    },
+    "notifyParty": {
+      "name": "CHINA LOGISTICS CO. LTD.",
+      "address": "245 HONGQI ROAD, NINGBO, CHINA",
+      "country": "CHINA",
+      "email": "NINGBO@CHINALOGISTICS.CN",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "732690",
+  "commodityDescription": "OTHER ARTICLES OF IRON OR STEEL",
+  "containers": [
+    {
+      "containerNumber": "CONT4594661",
+      "sealNumber": "SEAL416685",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 19294.38,
+      "measurement": 32.56
+    },
+    {
+      "containerNumber": "CONT5524177",
+      "sealNumber": "SEAL347798",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 7011.7,
+      "measurement": 37.03
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD PLATFORM",
+    "totalPackages": 114,
+    "totalGrossWeight": 26306.08,
+    "totalMeasurement": 69.59
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROASIA SHIPPING LTD.",
+      "address": "123 ASIA STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 9876 5432",
+      "fax": "+86 21 9876 5433",
+      "email": "ORDERS@EUROASIASHIPPING.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA SHIPPING LTD.",
+      "address": "123 ASIA STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 9876 5432",
+      "fax": "+86 21 9876 5433",
+      "email": "ORDERS@EUROASIASHIPPING.CN"
+    },
+    "onboardDate": "2024-12-03 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 11950x2810x2315"
+  },
+  "outOfGaugeDimensions": {
+    "length": "11950",
+    "width": "2810",
+    "height": "2315",
+    "overWidth": "370",
+    "overHeight": "0"
+  }
+}

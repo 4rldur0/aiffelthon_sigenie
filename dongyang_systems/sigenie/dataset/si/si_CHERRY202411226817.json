@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202411226817",
+  "voyageDetails": {
+    "vesselName": "SHIP_4826",
+    "voyageNumber": "5825"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679",
+      "email": "INFO@GLOBALLOGISTICS.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT9582129",
+      "sealNumber": "SEAL820368",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 17826.19,
+      "measurement": 32.21
+    },
+    {
+      "containerNumber": "CONT1437410",
+      "sealNumber": "SEAL351593",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 8136.74,
+      "measurement": 24.58
+    },
+    {
+      "containerNumber": "CONT7177950",
+      "sealNumber": "SEAL364509",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 14184.41,
+      "measurement": 24.59
+    },
+    {
+      "containerNumber": "CONT1655123",
+      "sealNumber": "SEAL368823",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 12607.44,
+      "measurement": 22.88
+    },
+    {
+      "containerNumber": "CONT1583340",
+      "sealNumber": "SEAL402261",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 13471.99,
+      "measurement": 32.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD TANK",
+    "totalPackages": 293,
+    "totalGrossWeight": 66226.77,
+    "totalMeasurement": 137.07
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241205-1001",
+    "documentNumber": "20241205-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

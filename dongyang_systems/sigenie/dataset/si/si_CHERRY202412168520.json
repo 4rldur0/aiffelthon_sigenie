@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202412168520",
+  "voyageDetails": {
+    "vesselName": "SHIP_53",
+    "voyageNumber": "1052"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "FRANKFURT"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TOYOTA INDUSTRIES CORPORATION",
+      "address": "1, TOYOTA-CHO, TOYOTA CITY, AICHI 471-8571, JAPAN",
+      "telephone": "+81 565 28 2111",
+      "fax": "+81 565 28 2112",
+      "email": "TOYOTA@TOYOTA.CO.JP"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING LTD.",
+      "address": "FRANKFURTER STRASSE 60, 60329 FRANKFURT AM MAIN, GERMANY",
+      "taxId": "DE1234567890",
+      "president": "MR. PETER SCHMIDT",
+      "telephone": "+49 69 7902 0",
+      "fax": "+49 69 7902 111",
+      "email": "PETER.SCHMIDT@DHL.COM"
+    },
+    "notifyParty": {
+      "name": "TOYOTA INDUSTRIES CORPORATION",
+      "address": "1, TOYOTA-CHO, TOYOTA CITY, AICHI 471-8571, JAPAN",
+      "telephone": "+81 565 28 2111",
+      "fax": "+81 565 28 2112",
+      "email": "TOYOTA@TOYOTA.CO.JP"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC COMPONENTS FOR AUTOMOBILES",
+  "containers": [
+    {
+      "containerNumber": "CONT6156533",
+      "sealNumber": "SEAL591184",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 16319.66,
+      "measurement": 37.44
+    },
+    {
+      "containerNumber": "CONT8869136",
+      "sealNumber": "SEAL627090",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 11521.84,
+      "measurement": 31.58
+    },
+    {
+      "containerNumber": "CONT5165714",
+      "sealNumber": "SEAL110258",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 19223.53,
+      "measurement": 25.44
+    },
+    {
+      "containerNumber": "CONT3905234",
+      "sealNumber": "SEAL325205",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 19238.68,
+      "measurement": 22.44
+    },
+    {
+      "containerNumber": "CONT8628673",
+      "sealNumber": "SEAL792229",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 19545.6,
+      "measurement": 23.14
+    },
+    {
+      "containerNumber": "CONT3468781",
+      "sealNumber": "SEAL414831",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 18533.75,
+      "measurement": 31.79
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE TANK",
+    "totalPackages": 205,
+    "totalGrossWeight": 104383.06,
+    "totalMeasurement": 171.83
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING LTD.",
+      "address": "FRANKFURTER STRASSE 60, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 7902 0",
+      "fax": "+49 69 7902 111",
+      "email": "PETER.SCHMIDT@DHL.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING LTD.",
+      "address": "FRANKFURTER STRASSE 60, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 7902 0",
+      "fax": "+49 69 7902 111",
+      "email": "PETER.SCHMIDT@DHL.COM"
+    },
+    "onboardDate": "2024-12-19 22:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1834, VALUE: USD488,538, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT4142651",
+    "unClass": "8",
+    "unCode": "1834,",
+    "hsCode": "1409.83.58",
+    "flashPoint": "92°C",
+    "additionalInfo": "Handle with care"
+  }
+}

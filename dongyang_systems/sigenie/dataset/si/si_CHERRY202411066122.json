@@ -1,0 +1,84 @@
+{
+  "bookingReference": "CHERRY202411066122",
+  "voyageDetails": {
+    "vesselName": "SHIP_3254",
+    "voyageNumber": "4253"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TECH SOLUTIONS INC",
+      "onBehalfOf": "",
+      "address": "1234 TECH PARK ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679",
+      "email": "INFO@ASIATECHSOLUTIONS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT CO LTD",
+      "address": "FRANKFURTER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "companyNumber": "1234567890",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@GLOBALIMPORTEXPORT.DE"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT & EXPORT CO LTD",
+      "address": "FRANKFURTER STRASSE 12, 20095 HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950430",
+  "commodityDescription": "OFFICE MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CONT7851780",
+      "sealNumber": "SEAL304849",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 10113.57,
+      "measurement": 33.48
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 50,
+    "totalGrossWeight": 10113.57,
+    "totalMeasurement": 33.48
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT CO LTD",
+      "address": "FRANKFURTER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@GLOBALIMPORTEXPORT.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA TECH SOLUTIONS INC",
+      "address": "1234 TECH PARK ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679"
+    },
+    "onboardDate": "2024-11-14 20:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

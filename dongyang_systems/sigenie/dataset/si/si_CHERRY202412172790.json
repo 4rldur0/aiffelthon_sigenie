@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202412172790",
+  "voyageDetails": {
+    "vesselName": "SHIP_6161",
+    "voyageNumber": "7160"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA PRECISION MACHINERY CO. LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9900",
+      "email": "INFO@CHINA-PRECISION.COM"
+    },
+    "consignee": {
+      "name": "ASIA GLOBAL LOGISTICS LTD.",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "taxId": "SG123456789A",
+      "president": "MR. TAN CHEONG HUI",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.CHEONGHUI@SINGAPOREGLOBAL.COM.SG"
+    },
+    "notifyParty": {
+      "name": "ASIA GLOBAL LOGISTICS LTD.",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "taxId": "SG123456789A",
+      "president": "MR. TAN CHEONG HUI",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.CHEONGHUI@SINGAPOREGLOBAL.COM.SG"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES, NUMERICALLY CONTROLLED",
+  "containers": [
+    {
+      "containerNumber": "CONT6412349",
+      "sealNumber": "SEAL276256",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 5608.07,
+      "measurement": 23.89
+    },
+    {
+      "containerNumber": "CONT7737375",
+      "sealNumber": "SEAL466873",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 13142.09,
+      "measurement": 26.93
+    },
+    {
+      "containerNumber": "CONT1456675",
+      "sealNumber": "SEAL191728",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 7236.21,
+      "measurement": 37.51
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 163,
+    "totalGrossWeight": 25986.37,
+    "totalMeasurement": 88.33
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "ASIA GLOBAL LOGISTICS LTD.",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA GLOBAL LOGISTICS LTD.",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-19 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -13°C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9714392",
+    "temperature": "-13°C",
+    "minTemperature": "-15°C",
+    "maxTemperature": "-11°C",
+    "ventilation": "50%",
+    "humidity": "60%"
+  }
+}

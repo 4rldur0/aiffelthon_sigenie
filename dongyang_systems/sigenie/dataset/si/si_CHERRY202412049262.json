@@ -1,0 +1,141 @@
+{
+  "bookingReference": "CHERRY202412049262",
+  "voyageDetails": {
+    "vesselName": "SHIP_6007",
+    "voyageNumber": "7006"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INTERNATIONAL TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 DELTA RD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@DELTAINTERNATIONAL.CN"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING SOLUTIONS LTD.",
+      "address": "888 WORLDWIDE RD, CASABLANCA, MOROCCO, 20200",
+      "companyNumber": "123456789",
+      "telephone": "+212 522 498 7000",
+      "fax": "+212 522 498 7001",
+      "email": "JANSSEN.EMMA@OMEGASOLUTIONS.MA"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING SOLUTIONS LTD.",
+      "address": "888 WORLDWIDE RD, CASABLANCA, MOROCCO, 20200"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "38249996",
+  "commodityDescription": "ORGANIC PEROXIDES",
+  "containers": [
+    {
+      "containerNumber": "CONT2771754",
+      "sealNumber": "SEAL407698",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 13104.6,
+      "measurement": 32.63
+    },
+    {
+      "containerNumber": "CONT3305351",
+      "sealNumber": "SEAL184003",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 7925.79,
+      "measurement": 20.47
+    },
+    {
+      "containerNumber": "CONT6349703",
+      "sealNumber": "SEAL823201",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 16581.2,
+      "measurement": 25.44
+    },
+    {
+      "containerNumber": "CONT5519426",
+      "sealNumber": "SEAL843818",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 19406.4,
+      "measurement": 38.89
+    },
+    {
+      "containerNumber": "CONT2451905",
+      "sealNumber": "SEAL774730",
+      "numberOfPackages": 29,
+      "packageType": "BOXES",
+      "grossWeight": 7370.93,
+      "measurement": 34.4
+    },
+    {
+      "containerNumber": "CONT2557237",
+      "sealNumber": "SEAL724224",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 7695.22,
+      "measurement": 30.48
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD TANK",
+    "totalPackages": 255,
+    "totalGrossWeight": 72084.14,
+    "totalMeasurement": 182.31
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      {
+        "certificateType": "CERTIFICATE OF ORIGIN",
+        "issuingAuthority": "CHINA CHAMBER OF COMMERCE"
+      },
+      {
+        "certificateType": "MATERIAL SAFETY DATA SHEET (MSDS)",
+        "issuingAuthority": "DELTA INTERNATIONAL TRADING CO."
+      }
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA INTERNATIONAL TRADING CO.",
+      "address": "1234 DELTA RD, NINGBO, CHINA, 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3130, VALUE: USD803,209"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT6659184",
+    "unClass": "5",
+    "unCode": "3130,",
+    "hsCode": "3926.53.91",
+    "flashPoint": "-5°C",
+    "additionalInfo": "Handle with care"
+  }
+}

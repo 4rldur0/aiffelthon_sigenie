@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202412166658",
+  "voyageDetails": {
+    "vesselName": "SHIP_5467",
+    "voyageNumber": "6466"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO LTD",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@SUNRISEMANUFACTURING.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT INC",
+      "address": "555 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "UNITED STATES",
+      "email": "INFO@GLOBALIMPORTEXPORT.COM",
+      "telephone": "+1 212 555 1212"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "961700",
+  "commodityDescription": "NOTEBOOKS AND WRITING PADS",
+  "containers": [
+    {
+      "containerNumber": "CONT5081362",
+      "sealNumber": "SEAL583624",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 18959.2,
+      "measurement": 25.86
+    },
+    {
+      "containerNumber": "CONT6426871",
+      "sealNumber": "SEAL652331",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 16576.24,
+      "measurement": 25.37
+    },
+    {
+      "containerNumber": "CONT3848729",
+      "sealNumber": "SEAL195224",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 19347.34,
+      "measurement": 37.85
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE TANK",
+    "totalPackages": 109,
+    "totalGrossWeight": 54882.78,
+    "totalMeasurement": 89.08
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-12-24 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

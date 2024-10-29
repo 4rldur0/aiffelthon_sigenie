@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202412111369",
+  "voyageDetails": {
+    "vesselName": "SHIP_4145",
+    "voyageNumber": "5144"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH PRECISION ENGINEERING GMBH",
+      "address": "MAX-PLANCK-STRASSE 12, 20354 HAMBURG, GERMANY",
+      "lei": "529900A1B2C3D4E5F6G7",
+      "telephone": "+49 40 3613 8888",
+      "fax": "+49 40 3613 8889",
+      "email": "INFO@EUROTECHPRECISION.DE"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "25/F, TOWER A, THE CENTER, 99 QUEENS ROAD CENTRAL, HONG KONG",
+      "usci": "91321200765109788X",
+      "president": "MR. JACK CHEN",
+      "telephone": "+852 2889 1234",
+      "fax": "+852 2889 1235",
+      "email": "JACK.CHEN@GLS.COM.HK"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "25/F, TOWER A, THE CENTER, 99 QUEENS ROAD CENTRAL, HONG KONG",
+      "usci": "91321200765109788X",
+      "telephone": "+852 2889 1234",
+      "fax": "+852 2889 1235",
+      "email": "JACK.CHEN@GLS.COM.HK"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINE, NUMERICALLY CONTROLLED",
+  "containers": [
+    {
+      "containerNumber": "CONT4886710",
+      "sealNumber": "SEAL326542",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 8002.79,
+      "measurement": 28.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD OPEN TOP",
+    "totalPackages": 24,
+    "totalGrossWeight": 8002.79,
+    "totalMeasurement": 28.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "R10008C67375"
+    },
+    "certificateDetails": "100004736100073",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "25/F, TOWER A, THE CENTER, 99 QUEENS ROAD CENTRAL, HONG KONG",
+      "telephone": "+852 2889 1234",
+      "fax": "+852 2889 1235",
+      "email": "JACK.CHEN@GLS.COM.HK"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "25/F, TOWER A, THE CENTER, 99 QUEENS ROAD CENTRAL, HONG KONG",
+      "telephone": "+852 2889 1234",
+      "fax": "+852 2889 1235",
+      "email": "JACK.CHEN@GLS.COM.HK"
+    },
+    "onboardDate": "2024-12-17 09:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 6408x2894x2552, VALUE: USD179,276, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "6408",
+    "width": "2894",
+    "height": "2552",
+    "overWidth": "454",
+    "overHeight": "0"
+  }
+}

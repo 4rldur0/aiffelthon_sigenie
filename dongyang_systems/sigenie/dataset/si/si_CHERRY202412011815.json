@@ -1,0 +1,83 @@
+{
+  "bookingReference": "CHERRY202412011815",
+  "voyageDetails": {
+    "vesselName": "SHIP_1783",
+    "voyageNumber": "2782"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ACME MANUFACTURING CO.",
+      "address": "INDUSTRIAL STREET, 123, HAMBURG, GERMANY 20457",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-12345679"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 ROBINSON ROAD, #15-01, SINGAPORE 068905",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890124"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT9143010",
+      "sealNumber": "SEAL712312",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 7601.43,
+      "measurement": 28.36
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 85,
+    "totalGrossWeight": 7601.43,
+    "totalMeasurement": 28.36
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 ROBINSON ROAD, #15-01, SINGAPORE 068905",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890124"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 ROBINSON ROAD, #15-01, SINGAPORE 068905",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890124"
+    },
+    "onboardDate": "2024-12-07 09:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

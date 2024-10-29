@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202411242662",
+  "voyageDetails": {
+    "vesselName": "SHIP_3434",
+    "voyageNumber": "4433"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING INC.",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "MARKTSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GLOBALTRADING.NL",
+      "contactPerson": "JAN SMIT"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD."
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT8940597",
+      "sealNumber": "SEAL821146",
+      "numberOfPackages": 35,
+      "packageType": "BOXES",
+      "grossWeight": 8327.98,
+      "measurement": 29.9
+    },
+    {
+      "containerNumber": "CONT4758605",
+      "sealNumber": "SEAL922205",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 5106.01,
+      "measurement": 25.68
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 95,
+    "totalGrossWeight": 13433.99,
+    "totalMeasurement": 55.58
+  },
+  "additionalInformation": {
+    "invoiceNumber": "GT20241124-001",
+    "documentNumber": "GT20241124-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "MARKTSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "MARKTSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION, KEEP DRY"
+  }
+}

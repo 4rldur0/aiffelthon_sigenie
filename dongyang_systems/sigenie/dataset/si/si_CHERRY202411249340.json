@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411249340",
+  "voyageDetails": {
+    "vesselName": "SHIP_5539",
+    "voyageNumber": "6538"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO.",
+      "onBehalfOf": "",
+      "address": "1234 SUNRISE RD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8666 1234",
+      "fax": "+86 574 8666 5678",
+      "email": "LIU.YONG@SUNRISEMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1555 GLOBAL WAY, CHICAGO, IL 60601, USA",
+      "companyNumber": "1234567890",
+      "telephone": "+1 312 555 1212",
+      "fax": "+1 312 555 1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1555 GLOBAL WAY, CHICAGO, IL 60601, USA"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "871690",
+  "commodityDescription": "TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT1932136",
+      "sealNumber": "SEAL518465",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 17572.15,
+      "measurement": 30.7
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD OPEN TOP",
+    "totalPackages": 82,
+    "totalGrossWeight": 17572.15,
+    "totalMeasurement": 30.7
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "1555 GLOBAL WAY, CHICAGO, IL 60601, USA",
+      "telephone": "+1 312 555 1212",
+      "fax": "+1 312 555 1213",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE MANUFACTURING CO.",
+      "address": "1234 SUNRISE RD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86 574 8666 1234",
+      "fax": "+86 574 8666 5678"
+    },
+    "onboardDate": "2024-12-03 20:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5353x2029x2045"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5353",
+    "width": "2029",
+    "height": "2045",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

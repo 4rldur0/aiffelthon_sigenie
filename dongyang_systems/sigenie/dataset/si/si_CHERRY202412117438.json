@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202412117438",
+  "voyageDetails": {
+    "vesselName": "SHIP_3831",
+    "voyageNumber": "4830"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA FRESH PRODUCE CO. LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "NO. 456, BROADWAY STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080510",
+  "commodityDescription": "FRESH ORANGES",
+  "containers": [
+    {
+      "containerNumber": "CONT4026822",
+      "sealNumber": "SEAL813124",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 16495.93,
+      "measurement": 26.27
+    },
+    {
+      "containerNumber": "CONT3959627",
+      "sealNumber": "SEAL773994",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 14932.71,
+      "measurement": 27.0
+    },
+    {
+      "containerNumber": "CONT4923343",
+      "sealNumber": "SEAL926830",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 10446.28,
+      "measurement": 32.87
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD REEFER",
+    "totalPackages": 113,
+    "totalGrossWeight": 41874.92,
+    "totalMeasurement": 86.14
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-16 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -8°C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4124288",
+    "temperature": "-8°C",
+    "minTemperature": "-10°C",
+    "maxTemperature": "-6°C",
+    "ventilation": "29%",
+    "humidity": "92%"
+  }
+}

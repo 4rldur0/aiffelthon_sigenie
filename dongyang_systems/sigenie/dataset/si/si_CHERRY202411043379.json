@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411043379",
+  "voyageDetails": {
+    "vesselName": "SHIP_5908",
+    "voyageNumber": "6907"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT & EXPORT",
+      "address": "UNIT 502, 5TH FLOOR, SHANGHAI TOWER, 500 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6328 9800",
+      "fax": "+86 21 6328 9801",
+      "email": "SHIPPING@BETAIMPORTEXPORT.COM.CN"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "WATERLOOSEPLEIN 15, 3013 AL ROTTERDAM, NETHERLANDS",
+      "taxId": "NL811234567",
+      "president": "MR. JAN VAN DER HEIJDEN",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457",
+      "email": "INFO@SUNRISETRADING.NL"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "WATERLOOSEPLEIN 15, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457",
+      "email": "INFO@SUNRISETRADING.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CARS",
+  "containers": [
+    {
+      "containerNumber": "CONT7186941",
+      "sealNumber": "SEAL542962",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 5353.7,
+      "measurement": 28.16
+    },
+    {
+      "containerNumber": "CONT5552926",
+      "sealNumber": "SEAL425277",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 18936.62,
+      "measurement": 28.67
+    },
+    {
+      "containerNumber": "CONT4157448",
+      "sealNumber": "SEAL542683",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 17843.88,
+      "measurement": 39.69
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD GENERAL",
+    "totalPackages": 194,
+    "totalGrossWeight": 42134.2,
+    "totalMeasurement": 96.52
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "WATERLOOSEPLEIN 15, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457",
+      "email": "INFO@SUNRISETRADING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "WATERLOOSEPLEIN 15, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457",
+      "email": "INFO@SUNRISETRADING.NL"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

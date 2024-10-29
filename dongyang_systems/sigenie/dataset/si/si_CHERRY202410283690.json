@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202410283690",
+  "voyageDetails": {
+    "vesselName": "SHIP_450",
+    "voyageNumber": "1449"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "1234 MAIN STREET, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 98765432",
+      "email": "SUNRISE@TRADING.CN"
+    },
+    "consignee": {
+      "name": "ATLANTIC LOGISTICS GROUP",
+      "address": "5678 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "ATLANTIC@LOGISTICSGROUP.NL"
+    },
+    "notifyParty": {
+      "name": "ATLANTIC LOGISTICS GROUP",
+      "address": "5678 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "ATLANTIC@LOGISTICSGROUP.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT2271117",
+      "sealNumber": "SEAL754338",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 13233.24,
+      "measurement": 27.43
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 45 HIGH CUBE TANK",
+    "totalPackages": 80,
+    "totalGrossWeight": 13233.24,
+    "totalMeasurement": 27.43
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "ATLANTIC LOGISTICS GROUP",
+      "address": "5678 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "ATLANTIC@LOGISTICSGROUP.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ATLANTIC LOGISTICS GROUP",
+      "address": "5678 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "ATLANTIC@LOGISTICSGROUP.NL"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

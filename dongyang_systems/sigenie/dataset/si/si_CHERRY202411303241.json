@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411303241",
+  "voyageDetails": {
+    "vesselName": "SHIP_4346",
+    "voyageNumber": "5345"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TECH INDUSTRIES INC",
+      "address": "NO. 1234, SHANGHAI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(ASIA TECH BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ASIATECH.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING COMPANY LTD",
+      "address": "HAMBURG BUSINESS PARK, 123 GERMANY STREET, HAMBURG, 20457",
+      "country": "GERMANY",
+      "email": "ORDERS@GLOBALTRADING.DE",
+      "telephone": "+49 40 234 5678"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT5741465",
+      "sealNumber": "SEAL855609",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 14051.44,
+      "measurement": 33.26
+    },
+    {
+      "containerNumber": "CONT4918324",
+      "sealNumber": "SEAL319950",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 9530.09,
+      "measurement": 34.53
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 32,
+    "totalGrossWeight": 23581.53,
+    "totalMeasurement": 67.79
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-12-07 20:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION, FRAGILE"
+  }
+}

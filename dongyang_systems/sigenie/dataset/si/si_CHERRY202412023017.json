@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202412023017",
+  "voyageDetails": {
+    "vesselName": "SHIP_1383",
+    "voyageNumber": "2382"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION TECHNOLOGIES LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-5678-9012",
+      "fax": "+86-21-5678-9013"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679",
+      "email": "INFO@GLOBALLOGISTICS.NL",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS AND GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT4191528",
+      "sealNumber": "SEAL677929",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 9056.08,
+      "measurement": 29.72
+    },
+    {
+      "containerNumber": "CONT2258205",
+      "sealNumber": "SEAL894373",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 8410.05,
+      "measurement": 39.84
+    },
+    {
+      "containerNumber": "CONT9728918",
+      "sealNumber": "SEAL149837",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 19313.12,
+      "measurement": 38.61
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 175,
+    "totalGrossWeight": 36779.25,
+    "totalMeasurement": 108.17
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241202-001",
+    "documentNumber": "20241202-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

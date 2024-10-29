@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202411076114",
+  "voyageDetails": {
+    "vesselName": "SHIP_3776",
+    "voyageNumber": "4775"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION MACHINERY LTD",
+      "address": "238 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 6328 7193",
+      "fax": "+86 21 6328 7778",
+      "email": "LI.WEI@ASIAMACHINERY.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC",
+      "address": "2345 ROTTERDAM STREET, ROTTERDAM 3011GP, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE FREIGHT FORWARDING",
+      "address": "1234 AMSTERDAM AVENUE, AMSTERDAM 1051AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 713 29 39",
+      "fax": "+31 20 713 29 44",
+      "email": "ANNA.NOWAK@WFF.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR CLEANING, FILLING, CLOSING, SEALING OR LABELLING",
+  "containers": [
+    {
+      "containerNumber": "CONT9638170",
+      "sealNumber": "SEAL812339",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 15223.79,
+      "measurement": 23.86
+    },
+    {
+      "containerNumber": "CONT3251376",
+      "sealNumber": "SEAL322463",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 11360.7,
+      "measurement": 20.13
+    },
+    {
+      "containerNumber": "CONT6924335",
+      "sealNumber": "SEAL775975",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 19909.61,
+      "measurement": 34.93
+    },
+    {
+      "containerNumber": "CONT1010272",
+      "sealNumber": "SEAL125790",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 11866.46,
+      "measurement": 31.21
+    },
+    {
+      "containerNumber": "CONT2811416",
+      "sealNumber": "SEAL120874",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 17076.0,
+      "measurement": 29.35
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE REEFER",
+    "totalPackages": 291,
+    "totalGrossWeight": 75436.56,
+    "totalMeasurement": 139.48
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      " FUMIGATION CERTIFICATE",
+      " CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC",
+      "address": "2345 ROTTERDAM STREET, ROTTERDAM 3011GP, NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@GLOBALLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PRECISION MACHINERY LTD",
+      "address": "238 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 21 6328 7193",
+      "fax": "+86 21 6328 7778",
+      "email": "LI.WEI@ASIAMACHINERY.CN"
+    },
+    "onboardDate": "2024-11-13 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -6°C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4114664",
+    "temperature": "-6°C",
+    "minTemperature": "-8°C",
+    "maxTemperature": "-4°C",
+    "ventilation": "10%",
+    "humidity": "72%"
+  }
+}

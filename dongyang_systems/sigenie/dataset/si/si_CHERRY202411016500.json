@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411016500",
+  "voyageDetails": {
+    "vesselName": "SHIP_2390",
+    "voyageNumber": "3389"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "PORT KELANG, MALAYSIA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "NO. 123, HUANGPU ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "LEVEL 12, SULTAN ABDUL SAMAD BUILDING, 50 Jalan Sultan Abdul Samad, 50050 Kuala Lumpur, MALAYSIA",
+      "taxId": "01-0123456-7890",
+      "president": "MR. LIM CHENG HUI",
+      "telephone": "+60 3 2222 1111",
+      "fax": "+60 3 2222 1112",
+      "email": "LIM.CHENGHUI@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "MALAYSIAN INTEGRATED LOGISTICS SERVICES SDN BHD",
+      "address": "BLOCK A, NORTHPORT DISTRIPARK, PERSIARAN PELABUHAN UTARA, 42000 PORT KLANG, SELANGOR, MALAYSIA",
+      "telephone": "+60 3 3169 8500",
+      "fax": "+60 3 3169 8501",
+      "email": "ONG.LIHUI@MILSERVICES.COM.MY"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS GOODS, UN 1642",
+  "containers": [
+    {
+      "containerNumber": "CONT7163261",
+      "sealNumber": "SEAL514948",
+      "numberOfPackages": 94,
+      "packageType": "BOXES",
+      "grossWeight": 10203.61,
+      "measurement": 35.63
+    },
+    {
+      "containerNumber": "CONT6189174",
+      "sealNumber": "SEAL186952",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 9216.53,
+      "measurement": 32.37
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 158,
+    "totalGrossWeight": 19420.14,
+    "totalMeasurement": 68.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "onboardDate": "2024-11-06 17:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1642, VALUE: USD283,822, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5803861",
+    "unClass": "4",
+    "unCode": "1642,",
+    "hsCode": "5134.56.24",
+    "flashPoint": "70°C",
+    "additionalInfo": "Handle with care"
+  }
+}

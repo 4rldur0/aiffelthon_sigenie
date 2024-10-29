@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410315412",
+  "voyageDetails": {
+    "vesselName": "SHIP_2471",
+    "voyageNumber": "3470"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS INC.",
+      "onBehalfOf": "",
+      "address": "1234 ASIA PACIFIC RD, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679",
+      "email": "SALES@ASIAIMPORT.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "1234 GLOBAL TRADING RD, LONDON, UNITED KINGDOM",
+      "companyNumber": "123456789",
+      "telephone": "+44 20 1234 5678",
+      "fax": "+44 20 1234 5679",
+      "email": "INFO@GLOBALTRADING.CO.UK"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD.",
+      "address": "1234 GLOBAL TRADING RD, LONDON, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950691",
+  "commodityDescription": "SPORTS EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT3182621",
+      "sealNumber": "SEAL164024",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 13932.63,
+      "measurement": 21.29
+    },
+    {
+      "containerNumber": "CONT7329355",
+      "sealNumber": "SEAL874407",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 9261.78,
+      "measurement": 26.32
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 76,
+    "totalGrossWeight": 23194.41,
+    "totalMeasurement": 47.61
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORTS INC.",
+      "address": "1234 ASIA PACIFIC RD, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679"
+    },
+    "onboardDate": "2024-11-11 23:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

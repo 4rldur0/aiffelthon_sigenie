@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202411275224",
+  "voyageDetails": {
+    "vesselName": "SHIP_4000",
+    "voyageNumber": "4999"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MACHINERY LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "INFO@APMACHINERY.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 WARSAW STREET, GDANSK, POMORSKIE, 80-200, POLAND",
+      "taxId": "PL1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4445",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "POLAND IMPORT SERVICES SP. Z O.O.",
+      "address": "100 GDANSK STREET, GDANSK, POMORSKIE, 80-200, POLAND",
+      "taxId": "PL9876543210",
+      "president": "MS. ANNA NOWAK",
+      "telephone": "+48 58 111 2222",
+      "fax": "+48 58 111 2223"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CONT5475761",
+      "sealNumber": "SEAL389156",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 16917.71,
+      "measurement": 30.43
+    },
+    {
+      "containerNumber": "CONT8392982",
+      "sealNumber": "SEAL265492",
+      "numberOfPackages": 88,
+      "packageType": "BOXES",
+      "grossWeight": 8105.18,
+      "measurement": 26.24
+    },
+    {
+      "containerNumber": "CONT4585532",
+      "sealNumber": "SEAL681493",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 12183.65,
+      "measurement": 38.33
+    },
+    {
+      "containerNumber": "CONT9774651",
+      "sealNumber": "SEAL218884",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 19423.07,
+      "measurement": 35.11
+    },
+    {
+      "containerNumber": "CONT1208373",
+      "sealNumber": "SEAL103632",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 16585.29,
+      "measurement": 30.47
+    },
+    {
+      "containerNumber": "CONT9726527",
+      "sealNumber": "SEAL584033",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 10683.54,
+      "measurement": 25.02
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD PLATFORM",
+    "totalPackages": 263,
+    "totalGrossWeight": 83898.44,
+    "totalMeasurement": 185.6
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-12-11 20:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 8859x2075x2437, 21 DAYS FREE TIME AT DESTINATION, KEEP DRY"
+  },
+  "outOfGaugeDimensions": {
+    "length": "8859",
+    "width": "2075",
+    "height": "2437",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

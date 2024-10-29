@@ -1,0 +1,84 @@
+{
+  "bookingReference": "CHERRY202411239131",
+  "voyageDetails": {
+    "vesselName": "SHIP_4898",
+    "voyageNumber": "5897"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEUTSCHE BAHN AG",
+      "address": "WALDENAUER STR. 19, 60594 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 7902 5000",
+      "fax": "+49 69 7902 5999"
+    },
+    "consignee": {
+      "name": "DEUTSCHE BAHN AG",
+      "address": "POTSDAMER PLATZ 1, 10117 BERLIN, GERMANY",
+      "telephone": "+49 30 2020 0",
+      "fax": "+49 30 2020 6666"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "WALDENAUER STR. 19, 60594 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 7902 5000",
+      "fax": "+49 69 7902 5999"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871630",
+  "commodityDescription": "TRAILERS",
+  "containers": [
+    {
+      "containerNumber": "CONT9999158",
+      "sealNumber": "SEAL121239",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 9506.38,
+      "measurement": 38.42
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 45 HIGH CUBE TANK",
+    "totalPackages": 63,
+    "totalGrossWeight": 9506.38,
+    "totalMeasurement": 38.42
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "DHL/2024/1123"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "DEUTSCHE BAHN AG",
+      "address": "POTSDAMER PLATZ 1, 10117 BERLIN, GERMANY",
+      "telephone": "+49 30 2020 0",
+      "fax": "+49 30 2020 6666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "WALDENAUER STR. 19, 60594 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 7902 5000",
+      "fax": "+49 69 7902 5999"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

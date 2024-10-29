@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202412022332",
+  "voyageDetails": {
+    "vesselName": "SHIP_606",
+    "voyageNumber": "1605"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO.",
+      "address": "123 GLOBAL STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORTS LLC",
+      "address": "456 IMPORT LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "notifyParty": {
+      "name": "GREEN FIELD IMPORTS LLC",
+      "address": "456 IMPORT LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT7726217",
+      "sealNumber": "SEAL172468",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 10341.15,
+      "measurement": 23.08
+    },
+    {
+      "containerNumber": "CONT6290915",
+      "sealNumber": "SEAL352498",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 17745.7,
+      "measurement": 32.51
+    },
+    {
+      "containerNumber": "CONT3357683",
+      "sealNumber": "SEAL909656",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 15751.46,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CONT5677451",
+      "sealNumber": "SEAL657092",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 10890.03,
+      "measurement": 39.48
+    },
+    {
+      "containerNumber": "CONT5586611",
+      "sealNumber": "SEAL447892",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 7902.02,
+      "measurement": 24.9
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 45 HIGH CUBE TANK",
+    "totalPackages": 317,
+    "totalGrossWeight": 62630.36,
+    "totalMeasurement": 147.97
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L/C 1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GREEN FIELD IMPORTS LLC",
+      "address": "456 IMPORT LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN FIELD IMPORTS LLC",
+      "address": "456 IMPORT LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "onboardDate": "2024-12-07 20:00",
+    "additionalRemarks": "THIS SIDE UP"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411268487",
+  "voyageDetails": {
+    "vesselName": "SHIP_378",
+    "voyageNumber": "1377"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "WORLDWIDE INDUSTRIES LTD",
+      "address": "123 INDUSTRY ROAD, SHANGHAI, CHINA 200001",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@WORLDWIDEINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORP",
+      "address": "456 TRADE STREET, AMSTERDAM, NETHERLANDS 1012 AB",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 20 7777 8888",
+      "fax": "+31 20 7777 9999",
+      "email": "INFO@GLOBALTRADINGCORP.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST NINGBO LOGISTICS LTD",
+      "address": "789 PORT ROAD, NINGBO, CHINA 315001",
+      "taxId": "",
+      "president": "MS. JANE LEE",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 0000"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT3165106",
+      "sealNumber": "SEAL855843",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 12723.79,
+      "measurement": 30.37
+    },
+    {
+      "containerNumber": "CONT6043668",
+      "sealNumber": "SEAL397820",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 12381.93,
+      "measurement": 24.83
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 113,
+    "totalGrossWeight": 25105.72,
+    "totalMeasurement": 55.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST NINGBO LOGISTICS LTD",
+      "address": "789 PORT ROAD, NINGBO, CHINA 315001",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 0000",
+      "email": "INFO@FIRSTNINGBOLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST NINGBO LOGISTICS LTD",
+      "address": "789 PORT ROAD, NINGBO, CHINA 315001",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 0000",
+      "email": "INFO@FIRSTNINGBOLOGISTICS.COM"
+    },
+    "onboardDate": "2024-12-07 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

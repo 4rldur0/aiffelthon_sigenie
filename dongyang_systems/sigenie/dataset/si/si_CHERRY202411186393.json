@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202411186393",
+  "voyageDetails": {
+    "vesselName": "SHIP_3323",
+    "voyageNumber": "4322"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION ENGINEERING CO.",
+      "onBehalfOf": "",
+      "address": "1234 PRECISION RD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679",
+      "email": "INFO@ASIAENGINEERING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "888 WORLDWIDE AVE, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "1234567890",
+      "telephone": "+31 10 98765432",
+      "fax": "+31 10 98765431",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "888 WORLDWIDE AVE, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "848690",
+  "commodityDescription": "GENERAL ENGINEERING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CONT9566243",
+      "sealNumber": "SEAL664189",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 19883.65,
+      "measurement": 39.83
+    },
+    {
+      "containerNumber": "CONT1003001",
+      "sealNumber": "SEAL414377",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 10123.79,
+      "measurement": 23.58
+    },
+    {
+      "containerNumber": "CONT9060271",
+      "sealNumber": "SEAL557925",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 10055.85,
+      "measurement": 27.87
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 129,
+    "totalGrossWeight": 40063.29,
+    "totalMeasurement": 91.28
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "888 WORLDWIDE AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 98765432",
+      "fax": "+31 10 98765431",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PRECISION ENGINEERING CO.",
+      "address": "1234 PRECISION RD, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 12345679"
+    },
+    "onboardDate": "2024-12-03 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

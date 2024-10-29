@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202411174903",
+  "voyageDetails": {
+    "vesselName": "SHIP_5854",
+    "voyageNumber": "6853"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE CHEMICAL INDUSTRIES PTE LTD",
+      "address": "123 CHEMICAL STREET, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (FRANCE) SAS",
+      "address": "150 RUE DE LA PAIX, PARIS, FRANCE 75001",
+      "telephone": "+33 1 4567 8901",
+      "fax": "+33 1 4567 8902"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (FRANCE) SAS",
+      "address": "150 RUE DE LA PAIX, PARIS, FRANCE 75001",
+      "telephone": "+33 1 4567 8901",
+      "fax": "+33 1 4567 8902"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "281010",
+  "commodityDescription": "BORIC ACID POWDER",
+  "containers": [
+    {
+      "containerNumber": "CONT4994545",
+      "sealNumber": "SEAL705613",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 10194.74,
+      "measurement": 39.0
+    },
+    {
+      "containerNumber": "CONT3329102",
+      "sealNumber": "SEAL758047",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 8260.12,
+      "measurement": 34.33
+    },
+    {
+      "containerNumber": "CONT3442046",
+      "sealNumber": "SEAL542660",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 16612.98,
+      "measurement": 28.49
+    },
+    {
+      "containerNumber": "CONT3039364",
+      "sealNumber": "SEAL657956",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 15890.27,
+      "measurement": 22.3
+    },
+    {
+      "containerNumber": "CONT8800428",
+      "sealNumber": "SEAL384703",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 18219.67,
+      "measurement": 34.36
+    },
+    {
+      "containerNumber": "CONT6829815",
+      "sealNumber": "SEAL557968",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 5170.19,
+      "measurement": 35.78
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 20 STANDARD GENERAL",
+    "totalPackages": 271,
+    "totalGrossWeight": 74347.97,
+    "totalMeasurement": 194.26
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF ANALYSIS"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (FRANCE) SAS",
+      "address": "150 RUE DE LA PAIX, PARIS, FRANCE 75001",
+      "telephone": "+33 1 4567 8901",
+      "fax": "+33 1 4567 8902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (FRANCE) SAS",
+      "address": "150 RUE DE LA PAIX, PARIS, FRANCE 75001",
+      "telephone": "+33 1 4567 8901",
+      "fax": "+33 1 4567 8902"
+    },
+    "onboardDate": "2024-12-03 05:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1322"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7467863",
+    "unClass": "4",
+    "unCode": "1322",
+    "hsCode": "5310.99.63",
+    "flashPoint": "-9°C",
+    "additionalInfo": "Handle with care"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202411122507",
+  "voyageDetails": {
+    "vesselName": "SHIP_405",
+    "voyageNumber": "1404"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EVERGREEN MANUFACTURING CO.",
+      "address": "1234 GREENVILLE STREET, NINGBO, ZHEJIANG PROVINCE, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@EVERGREENMFG.CN"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "1234 SUNRISE BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@SUNRISEIMPORTS.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOY SETS",
+  "containers": [
+    {
+      "containerNumber": "CONT2023823",
+      "sealNumber": "SEAL683125",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 18535.86,
+      "measurement": 35.35
+    },
+    {
+      "containerNumber": "CONT2293821",
+      "sealNumber": "SEAL649315",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 13584.3,
+      "measurement": 28.68
+    },
+    {
+      "containerNumber": "CONT1514779",
+      "sealNumber": "SEAL183728",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 6452.74,
+      "measurement": 21.37
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 164,
+    "totalGrossWeight": 38572.9,
+    "totalMeasurement": 85.4
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      " FUMIGATION CERTIFICATE",
+      " CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "1234 SUNRISE BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 812 73 25",
+      "fax": "+31 10 812 73 90",
+      "email": "MAREK.KOWALSKI@SUNRISEIMPORTS.NL"
+    },
+    "onboardDate": "2024-11-17 22:00",
+    "additionalRemarks": "KEEP DRY"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202411236137",
+  "voyageDetails": {
+    "vesselName": "SHIP_1229",
+    "voyageNumber": "2228"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 JURONG PORT ROAD, JURONG ISLAND, SINGAPORE 628123",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6266 8899",
+      "fax": "+65 6266 8800",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "WORLDWIDE LOGISTICS GROUP LTD.",
+      "address": "CALLE DE LA ESPERANZA, 12, 11002 ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 956 789 000",
+      "fax": "+34 956 789 001",
+      "email": "INFO@WORLDWIDELOGISTICSGROUP.ES",
+      "personincharge": "MARIA FERNANDEZ"
+    },
+    "notifyParty": {
+      "name": "CUSTOMS BROKERAGE SERVICES S.L.",
+      "address": "AVENIDA DEL PUERTO, 50, 11002 ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "telephone": "+34 956 567 890",
+      "fax": "+34 956 567 891",
+      "email": "CUSTOMS@CUSTOMSBROKAGE.ES"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "381300",
+  "commodityDescription": "CARBON BLACK",
+  "containers": [
+    {
+      "containerNumber": "CONT8530007",
+      "sealNumber": "SEAL246161",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 19580.05,
+      "measurement": 39.87
+    },
+    {
+      "containerNumber": "CONT5001604",
+      "sealNumber": "SEAL240859",
+      "numberOfPackages": 18,
+      "packageType": "BOXES",
+      "grossWeight": 19255.05,
+      "measurement": 39.74
+    },
+    {
+      "containerNumber": "CONT9938710",
+      "sealNumber": "SEAL577812",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 13507.42,
+      "measurement": 30.41
+    },
+    {
+      "containerNumber": "CONT8539830",
+      "sealNumber": "SEAL102426",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 12307.47,
+      "measurement": 35.91
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD TANK",
+    "totalPackages": 124,
+    "totalGrossWeight": 64649.99,
+    "totalMeasurement": 145.93
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241215001"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS GROUP LTD.",
+      "address": "CALLE DE LA ESPERANZA, 12, 11002 ALGECIRAS, SPAIN",
+      "telephone": "+34 956 789 000",
+      "fax": "+34 956 789 001",
+      "email": "INFO@WORLDWIDELOGISTICSGROUP.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE LOGISTICS GROUP LTD.",
+      "address": "CALLE DE LA ESPERANZA, 12, 11002 ALGECIRAS, SPAIN",
+      "telephone": "+34 956 789 000",
+      "fax": "+34 956 789 001",
+      "email": "INFO@WORLDWIDELOGISTICSGROUP.ES"
+    },
+    "onboardDate": "2024-12-12 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1134, THIS SIDE UP"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2999492",
+    "unClass": "5",
+    "unCode": "1134,",
+    "hsCode": "2682.38.84",
+    "flashPoint": "72°C",
+    "additionalInfo": "Handle with care"
+  }
+}

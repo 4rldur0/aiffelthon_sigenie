@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202412136180",
+  "voyageDetails": {
+    "vesselName": "SHIP_5891",
+    "voyageNumber": "6890"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "123 SUNRISE AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "JOHN.DOE@SUNRISEGLOBALTRADING.CN"
+    },
+    "consignee": {
+      "name": "NEXGEN IMPORTS INC.",
+      "address": "123 GLOBAL STREET, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@NEXGENIMPORTS.NL",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT9191828",
+      "sealNumber": "SEAL637376",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 9952.18,
+      "measurement": 26.45
+    },
+    {
+      "containerNumber": "CONT7576003",
+      "sealNumber": "SEAL433834",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 18930.37,
+      "measurement": 25.18
+    },
+    {
+      "containerNumber": "CONT4768839",
+      "sealNumber": "SEAL843944",
+      "numberOfPackages": 48,
+      "packageType": "BOXES",
+      "grossWeight": 19718.14,
+      "measurement": 26.63
+    },
+    {
+      "containerNumber": "CONT3970348",
+      "sealNumber": "SEAL261866",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 12492.0,
+      "measurement": 20.91
+    },
+    {
+      "containerNumber": "CONT1229039",
+      "sealNumber": "SEAL418261",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "grossWeight": 14224.12,
+      "measurement": 21.29
+    },
+    {
+      "containerNumber": "CONT8295276",
+      "sealNumber": "SEAL636615",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 17402.4,
+      "measurement": 20.82
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 388,
+    "totalGrossWeight": 92719.21,
+    "totalMeasurement": 141.28
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "NEXGEN IMPORTS INC.",
+      "address": "123 GLOBAL STREET, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913",
+      "email": "INFO@NEXGENIMPORTS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "NEXGEN IMPORTS INC.",
+      "address": "123 GLOBAL STREET, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913",
+      "email": "INFO@NEXGENIMPORTS.NL"
+    },
+    "onboardDate": "2024-12-26 15:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  }
+}

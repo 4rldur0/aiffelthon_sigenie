@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202412129149",
+  "voyageDetails": {
+    "vesselName": "SHIP_680",
+    "voyageNumber": "1679"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECHNO GEAR LTD.",
+      "address": "SPATENSTRASSE 15, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "10 Anson Road #28-01 International Plaza Singapore 079903",
+      "telephone": "+65-6224-1234",
+      "fax": "+65-6224-1235",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "10 Anson Road #28-01 International Plaza Singapore 079903"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "870899",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT6837046",
+      "sealNumber": "SEAL583095",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 8921.66,
+      "measurement": 27.39
+    },
+    {
+      "containerNumber": "CONT9825040",
+      "sealNumber": "SEAL784170",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 11551.06,
+      "measurement": 25.11
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 167,
+    "totalGrossWeight": 20472.72,
+    "totalMeasurement": 52.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241222-001",
+    "documentNumber": "20241222-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "10 Anson Road #28-01 International Plaza Singapore 079903",
+      "telephone": "+65-6224-1234",
+      "fax": "+65-6224-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "10 Anson Road #28-01 International Plaza Singapore 079903",
+      "telephone": "+65-6224-1234",
+      "fax": "+65-6224-1235"
+    },
+    "onboardDate": "2024-12-16 15:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

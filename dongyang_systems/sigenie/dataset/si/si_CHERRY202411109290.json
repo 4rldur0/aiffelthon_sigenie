@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411109290",
+  "voyageDetails": {
+    "vesselName": "SHIP_5972",
+    "voyageNumber": "6971"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS PTE LTD",
+      "address": "101, ROBINSON ROAD, SINGAPORE",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-1235"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "12 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33-1-4567-8901",
+      "fax": "+33-1-4567-8902",
+      "email": "INFO@ASIA pacificlogistics.fr",
+      "contactPerson": "PIERRE DUPONT"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950430",
+  "commodityDescription": "VIDEO GAME CONSOLES AND MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT9565532",
+      "sealNumber": "SEAL685688",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 17953.14,
+      "measurement": 21.77
+    },
+    {
+      "containerNumber": "CONT4790547",
+      "sealNumber": "SEAL277085",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 17071.27,
+      "measurement": 30.01
+    },
+    {
+      "containerNumber": "CONT8768013",
+      "sealNumber": "SEAL194657",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 5815.15,
+      "measurement": 36.62
+    },
+    {
+      "containerNumber": "CONT6028585",
+      "sealNumber": "SEAL178399",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 17608.86,
+      "measurement": 32.39
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 STANDARD GENERAL",
+    "totalPackages": 155,
+    "totalGrossWeight": 58448.42,
+    "totalMeasurement": 120.79
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241115-1001",
+    "documentNumber": "20241115-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "12 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33-1-4567-8901",
+      "fax": "+33-1-4567-8902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "12 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33-1-4567-8901",
+      "fax": "+33-1-4567-8902"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

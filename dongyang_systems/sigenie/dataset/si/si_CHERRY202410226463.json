@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202410226463",
+  "voyageDetails": {
+    "vesselName": "SHIP_3529",
+    "voyageNumber": "4528"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@SUNRISEELECTRONICS.COM.CN"
+    },
+    "consignee": {
+      "name": "TO ORDER OF DEUTSCHE GLOBAL BANK AG",
+      "address": "",
+      "country": "",
+      "email": "",
+      "telephone": ""
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS INC.",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@ASIAPACIFICLOGISTICS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "333401",
+  "commodityDescription": "BEAUTY OR MAKE-UP PREPARATIONS AND ARTICLES FOR USE IN THE CARE OF THE SKIN (OTHER THAN MEDICAMENTS)",
+  "containers": [
+    {
+      "containerNumber": "CONT9721683",
+      "sealNumber": "SEAL351942",
+      "numberOfPackages": 43,
+      "packageType": "BOXES",
+      "grossWeight": 11537.08,
+      "measurement": 33.1
+    },
+    {
+      "containerNumber": "CONT5903675",
+      "sealNumber": "SEAL281600",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 10371.98,
+      "measurement": 33.69
+    },
+    {
+      "containerNumber": "CONT5967020",
+      "sealNumber": "SEAL916624",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 11175.42,
+      "measurement": 22.98
+    },
+    {
+      "containerNumber": "CONT4980610",
+      "sealNumber": "SEAL186990",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 19854.6,
+      "measurement": 31.76
+    },
+    {
+      "containerNumber": "CONT1071378",
+      "sealNumber": "SEAL387331",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 8615.2,
+      "measurement": 28.42
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 20 STANDARD TANK",
+    "totalPackages": 335,
+    "totalGrossWeight": 61554.28,
+    "totalMeasurement": 149.95
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-10-30 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2233, DO NOT STACK"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1350633",
+    "unClass": "7",
+    "unCode": "2233,",
+    "hsCode": "6118.38.82",
+    "flashPoint": "52°C",
+    "additionalInfo": "Handle with care"
+  }
+}

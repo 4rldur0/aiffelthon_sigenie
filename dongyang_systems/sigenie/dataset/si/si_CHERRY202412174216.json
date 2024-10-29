@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202412174216",
+  "voyageDetails": {
+    "vesselName": "SHIP_1447",
+    "voyageNumber": "2446"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING COMPANY PTE LTD",
+      "address": "123 TAI SOON STREET, #05-01 GLOBAL TRADE CENTRE, SINGAPORE 058777",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0456",
+      "email": "SALES@GLOBALTRADING.COM.SG"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "101 EUROPABOULEVARD, ROTTERDAM 3011 AX, NETHERLANDS",
+      "taxId": "NL8123456789B01",
+      "president": "MR. PETER VAN DER LINDE",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001",
+      "email": "INFO@ASIAPACIFICLOGISTICS.NL"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "101 EUROPABOULEVARD, ROTTERDAM 3011 AX, NETHERLANDS",
+      "taxId": "NL8123456789B01",
+      "president": "MR. PETER VAN DER LINDE",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001",
+      "email": "INFO@ASIAPACIFICLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL MERCHANDISE",
+  "containers": [
+    {
+      "containerNumber": "CONT6484567",
+      "sealNumber": "SEAL484027",
+      "numberOfPackages": 69,
+      "packageType": "BOXES",
+      "grossWeight": 10487.9,
+      "measurement": 28.57
+    },
+    {
+      "containerNumber": "CONT9422557",
+      "sealNumber": "SEAL782820",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 16943.84,
+      "measurement": 32.58
+    },
+    {
+      "containerNumber": "CONT5032773",
+      "sealNumber": "SEAL502863",
+      "numberOfPackages": 56,
+      "packageType": "BOXES",
+      "grossWeight": 7474.02,
+      "measurement": 29.68
+    },
+    {
+      "containerNumber": "CONT1767065",
+      "sealNumber": "SEAL287561",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 5440.88,
+      "measurement": 29.78
+    },
+    {
+      "containerNumber": "CONT1260707",
+      "sealNumber": "SEAL383931",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 12929.62,
+      "measurement": 22.04
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 379,
+    "totalGrossWeight": 53276.26,
+    "totalMeasurement": 142.65
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "101 EUROPABOULEVARD, ROTTERDAM 3011 AX, NETHERLANDS",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001",
+      "email": "INFO@ASIAPACIFICLOGISTICS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "101 EUROPABOULEVARD, ROTTERDAM 3011 AX, NETHERLANDS",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001",
+      "email": "INFO@ASIAPACIFICLOGISTICS.NL"
+    },
+    "onboardDate": "2024-12-23 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

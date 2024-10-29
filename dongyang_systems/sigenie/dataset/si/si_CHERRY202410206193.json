@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410206193",
+  "voyageDetails": {
+    "vesselName": "SHIP_3138",
+    "voyageNumber": "4137"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO. LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING INC.",
+      "address": "NO. 456, MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940390",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT9130904",
+      "sealNumber": "SEAL325323",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 13948.47,
+      "measurement": 36.57
+    },
+    {
+      "containerNumber": "CONT7660547",
+      "sealNumber": "SEAL512286",
+      "numberOfPackages": 36,
+      "packageType": "BOXES",
+      "grossWeight": 6484.0,
+      "measurement": 20.83
+    },
+    {
+      "containerNumber": "CONT4365111",
+      "sealNumber": "SEAL983932",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 6514.39,
+      "measurement": 25.71
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 136,
+    "totalGrossWeight": 26946.86,
+    "totalMeasurement": 83.11
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-10-27 10:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

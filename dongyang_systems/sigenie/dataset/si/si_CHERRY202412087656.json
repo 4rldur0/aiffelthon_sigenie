@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202412087656",
+  "voyageDetails": {
+    "vesselName": "SHIP_4528",
+    "voyageNumber": "5527"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA FRUITS IMPORT & EXPORT CO. LTD.",
+      "address": "123 ORCHARD ROAD, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@ASIAFRUITS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 WAREHOUSE STREET, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALLOGISTICSINC.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    },
+    "notifyParty": {
+      "name": "DUTCH GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHGLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "080590",
+  "commodityDescription": "ORANGE",
+  "containers": [
+    {
+      "containerNumber": "CONT6243156",
+      "sealNumber": "SEAL598942",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 19255.47,
+      "measurement": 39.98
+    },
+    {
+      "containerNumber": "CONT1320927",
+      "sealNumber": "SEAL937545",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 14452.2,
+      "measurement": 20.44
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD REEFER",
+    "totalPackages": 154,
+    "totalGrossWeight": 33707.67,
+    "totalMeasurement": 60.42
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "++86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "onboardDate": "2024-12-16 21:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -16°C, VALUE: USD743,238"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT9754572",
+    "temperature": "-16°C",
+    "minTemperature": "-18°C",
+    "maxTemperature": "-14°C",
+    "ventilation": "9%",
+    "humidity": "91%"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410255915",
+  "voyageDetails": {
+    "vesselName": "SHIP_194",
+    "voyageNumber": "1193"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "INFO@ASIA-TEXTILES.COM"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORTERS INC.",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "email": "INFO@GREENFIELDIMPORTERS.COM"
+    },
+    "notifyParty": {
+      "name": "GREEN FIELD IMPORTERS INC.",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GREENFIELDIMPORTERS.COM",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "330720",
+  "commodityDescription": "DANGEROUS GOODS",
+  "containers": [
+    {
+      "containerNumber": "CONT4215128",
+      "sealNumber": "SEAL598645",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 19082.54,
+      "measurement": 23.86
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 20 STANDARD GENERAL",
+    "totalPackages": 81,
+    "totalGrossWeight": 19082.54,
+    "totalMeasurement": 23.86
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-07 09:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3490, VALUE: USD152,633, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8151993",
+    "unClass": "6",
+    "unCode": "3490,",
+    "hsCode": "6901.63.82",
+    "flashPoint": "10°C",
+    "additionalInfo": "Handle with care"
+  }
+}

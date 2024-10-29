@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202411126312",
+  "voyageDetails": {
+    "vesselName": "SHIP_2617",
+    "voyageNumber": "3616"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TECH INDUSTRIES LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIATECHINDUSTRIES.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "100 MAIN STREET, HAMBURG, GERMANY 20457",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "FIRST LOGISTICS GMBH",
+      "address": "55 ALSTER ARCADE, HAMBURG, GERMANY 20354",
+      "taxId": "",
+      "president": "MS. ANNA MEIER",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382490",
+  "commodityDescription": "LIQUID CHEMICAL SOLVENT",
+  "containers": [
+    {
+      "containerNumber": "CONT2821523",
+      "sealNumber": "SEAL351554",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 13205.88,
+      "measurement": 34.1
+    },
+    {
+      "containerNumber": "CONT3913949",
+      "sealNumber": "SEAL605406",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 15276.08,
+      "measurement": 27.9
+    },
+    {
+      "containerNumber": "CONT9515115",
+      "sealNumber": "SEAL725565",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 8160.5,
+      "measurement": 30.1
+    },
+    {
+      "containerNumber": "CONT5423729",
+      "sealNumber": "SEAL449633",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 18471.33,
+      "measurement": 25.27
+    },
+    {
+      "containerNumber": "CONT1558380",
+      "sealNumber": "SEAL242540",
+      "numberOfPackages": 28,
+      "packageType": "BOXES",
+      "grossWeight": 16305.32,
+      "measurement": 31.96
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 247,
+    "totalGrossWeight": 71419.11,
+    "totalMeasurement": 149.33
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST LOGISTICS GMBH",
+      "address": "55 ALSTER ARCADE, HAMBURG, GERMANY 20354",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433",
+      "email": "INFO@FIRSTLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "100 MAIN STREET, HAMBURG, GERMANY 20457",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-21 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3457, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9058860",
+    "unClass": "2",
+    "unCode": "3457,",
+    "hsCode": "6220.95.11",
+    "flashPoint": "9°C",
+    "additionalInfo": "Handle with care"
+  }
+}

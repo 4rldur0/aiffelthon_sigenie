@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411154515",
+  "voyageDetails": {
+    "vesselName": "SHIP_2284",
+    "voyageNumber": "3283"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURERS CO",
+      "address": "123 SHANGHAI ROAD, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@APMCO.CN"
+    },
+    "consignee": {
+      "name": "EUROASIA IMPORTS LTD",
+      "address": "123 DAM SQUARE, 1012 NL AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROASIAIMPORTS.NL",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY LOGISTICS BV",
+      "address": "123 EUROPA BOULEVARD, 3012 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@BLUESKYLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "PLASTIC BUILDING BLOCKS",
+  "containers": [
+    {
+      "containerNumber": "CONT5203306",
+      "sealNumber": "SEAL164125",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 7302.51,
+      "measurement": 30.81
+    },
+    {
+      "containerNumber": "CONT2603935",
+      "sealNumber": "SEAL443900",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 18477.59,
+      "measurement": 34.12
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD GENERAL",
+    "totalPackages": 84,
+    "totalGrossWeight": 25780.1,
+    "totalMeasurement": 64.93
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EUROASIA IMPORTS LTD",
+      "address": "123 DAM SQUARE, 1012 NL AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568",
+      "email": "INFO@EUROASIAIMPORTS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA IMPORTS LTD",
+      "address": "123 DAM SQUARE, 1012 NL AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568",
+      "email": "INFO@EUROASIAIMPORTS.NL"
+    },
+    "onboardDate": "2024-11-24 20:00",
+    "additionalRemarks": "30 DAYS FREE TIME AT DESTINATION, THIS SIDE UP"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202412119703",
+  "voyageDetails": {
+    "vesselName": "SHIP_3416",
+    "voyageNumber": "4415"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE FOODS LTD.",
+      "address": "123 OCEAN AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE, 314000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 1234 5678",
+      "email": "INFO@SUNRISEFOODS.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 GLOBAL STREET, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GLOBALTRADINGINC.NL",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913"
+    },
+    "notifyParty": {
+      "name": "DUTCH COLD CHAIN LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "PIETER_DE_VRIES@DUTCHCOLDCHAINLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030219",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT1637027",
+      "sealNumber": "SEAL488629",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 7219.02,
+      "measurement": 25.57
+    },
+    {
+      "containerNumber": "CONT3103460",
+      "sealNumber": "SEAL291096",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 19510.96,
+      "measurement": 32.6
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD REEFER",
+    "totalPackages": 156,
+    "totalGrossWeight": 26729.98,
+    "totalMeasurement": 58.17
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202412119703"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 GLOBAL STREET, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913",
+      "email": "ORDERS@GLOBALTRADINGINC.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 GLOBAL STREET, ROTTERDAM, 3072 AP, THE NETHERLANDS",
+      "telephone": "+31 15 987 6910",
+      "fax": "+31 15 987 6913",
+      "email": "ORDERS@GLOBALTRADINGINC.NL"
+    },
+    "onboardDate": "2024-12-26 23:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -7°C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2838985",
+    "temperature": "-7°C",
+    "minTemperature": "-9°C",
+    "maxTemperature": "-5°C",
+    "ventilation": "48%",
+    "humidity": "93%"
+  }
+}

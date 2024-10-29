@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202411017673",
+  "voyageDetails": {
+    "vesselName": "SHIP_1684",
+    "voyageNumber": "2683"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES CO. LTD",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "150 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 456789",
+      "fax": "+212 522 456780"
+    },
+    "notifyParty": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "150 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 456789",
+      "fax": "+212 522 456780"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030211",
+  "commodityDescription": "FROZEN FISH FILLETS",
+  "containers": [
+    {
+      "containerNumber": "CONT4449013",
+      "sealNumber": "SEAL345617",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 10067.89,
+      "measurement": 32.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE REEFER",
+    "totalPackages": 34,
+    "totalGrossWeight": 10067.89,
+    "totalMeasurement": 32.09
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "150 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 456789",
+      "fax": "+212 522 456780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OMEGA SHIPPING LTD.",
+      "address": "150 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 522 456789",
+      "fax": "+212 522 456780"
+    },
+    "onboardDate": "2024-11-12 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -2°C, VALUE: USD109,181, HANDLE WITH CARE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT7463461",
+    "temperature": "-2°C",
+    "minTemperature": "-4°C",
+    "maxTemperature": "0°C",
+    "ventilation": "83%",
+    "humidity": "82%"
+  }
+}

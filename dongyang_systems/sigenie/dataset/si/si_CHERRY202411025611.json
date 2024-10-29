@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202411025611",
+  "voyageDetails": {
+    "vesselName": "SHIP_3044",
+    "voyageNumber": "4043"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ ENGINEERING PTE LTD",
+      "address": "123 Anson ROAD, SINGAPORE 079909",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6222 8888",
+      "fax": "+65 6222 9999",
+      "email": "INFO@XYZENGINEERING.COM.SG"
+    },
+    "consignee": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "456 BOULEVARD DES CAPUCINES, 75002 PARIS, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 42 42 42 42",
+      "fax": "+33 1 42 42 42 43",
+      "email": "INFO@ABCGLOBALLOGISTICS.COM"
+    },
+    "notifyParty": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "456 BOULEVARD DES CAPUCINES, 75002 PARIS, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 42 42 42 42",
+      "fax": "+33 1 42 42 42 43",
+      "email": "INFO@ABCGLOBALLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940390",
+  "commodityDescription": "FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT3487722",
+      "sealNumber": "SEAL287868",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 10292.24,
+      "measurement": 31.49
+    },
+    {
+      "containerNumber": "CONT9368025",
+      "sealNumber": "SEAL119174",
+      "numberOfPackages": 21,
+      "packageType": "BOXES",
+      "grossWeight": 11115.36,
+      "measurement": 22.72
+    },
+    {
+      "containerNumber": "CONT2327293",
+      "sealNumber": "SEAL773733",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 16002.83,
+      "measurement": 22.81
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 64,
+    "totalGrossWeight": 37410.43,
+    "totalMeasurement": 77.02
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "456 BOULEVARD DES CAPUCINES, 75002 PARIS, FRANCE",
+      "telephone": "+33 1 42 42 42 42",
+      "fax": "+33 1 42 42 42 43",
+      "email": "INFO@ABCGLOBALLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC GLOBAL LOGISTICS LTD",
+      "address": "456 BOULEVARD DES CAPUCINES, 75002 PARIS, FRANCE",
+      "telephone": "+33 1 42 42 42 42",
+      "fax": "+33 1 42 42 42 43",
+      "email": "INFO@ABCGLOBALLOGISTICS.COM"
+    },
+    "onboardDate": "2024-11-11 16:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  },
+  "specialCargo": {
+    "outOfGaugeDimensions": "NONE"
+  }
+}

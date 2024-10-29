@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202412147452",
+  "voyageDetails": {
+    "vesselName": "SHIP_1211",
+    "voyageNumber": "2210"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "LI.WEI@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "EUROASIA SHIPPING LINES LTD.",
+      "address": "1234 ALGERIA STREET, ALGEICIRAS, SPAIN 11001",
+      "companyNumber": "1234567890",
+      "telephone": "+34 956 7777 88",
+      "fax": "+34 956 7777 89",
+      "email": "GONZALES.MARIA@EUROASIA.ES"
+    },
+    "notifyParty": {
+      "name": "EUROASIA SHIPPING LINES LTD.",
+      "address": "1234 ALGERIA STREET, ALGEICIRAS, SPAIN 11001"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "870899",
+  "commodityDescription": "PARTS AND ACCESSORIES FOR VEHICLES OF HEADINGS 8701 TO 8705",
+  "containers": [
+    {
+      "containerNumber": "CONT8334233",
+      "sealNumber": "SEAL792182",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 15098.6,
+      "measurement": 23.5
+    },
+    {
+      "containerNumber": "CONT9994052",
+      "sealNumber": "SEAL805316",
+      "numberOfPackages": 22,
+      "packageType": "BOXES",
+      "grossWeight": 18391.73,
+      "measurement": 22.81
+    },
+    {
+      "containerNumber": "CONT2697017",
+      "sealNumber": "SEAL119900",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 9961.57,
+      "measurement": 24.52
+    },
+    {
+      "containerNumber": "CONT6221741",
+      "sealNumber": "SEAL143548",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 5795.58,
+      "measurement": 24.96
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD FLAT RACK",
+    "totalPackages": 171,
+    "totalGrossWeight": 49247.48,
+    "totalMeasurement": 95.79
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667"
+    },
+    "onboardDate": "2025-01-12 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5853x2638x2098, VALUE: USD205,053"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5853",
+    "width": "2638",
+    "height": "2098",
+    "overWidth": "198",
+    "overHeight": "0"
+  }
+}

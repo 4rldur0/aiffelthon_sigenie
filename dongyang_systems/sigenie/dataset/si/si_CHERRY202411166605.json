@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411166605",
+  "voyageDetails": {
+    "vesselName": "SHIP_2885",
+    "voyageNumber": "3884"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA GLOBAL TRADING LTD.",
+      "address": "UNIT 502, 5TH FLOOR, NO.123 HONGKONG STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 6329 8765",
+      "fax": "+86 21 6329 8764",
+      "email": "LI.MEI@BETAGLOBAL.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "AVDA. DEL PUERTO 55, POL. IND. LA RIBERA, 11202 ALGECIRAS, CADIZ, SPAIN",
+      "taxId": "B12345678",
+      "president": "MR. JUAN GARCIA",
+      "telephone": "+34 956 789 123",
+      "fax": "+34 956 789 124",
+      "email": "JUAN.GARCIA@ALPHAIMPORT.ES"
+    },
+    "notifyParty": {
+      "name": "IBEROCEAN LOGISTICS S.L.",
+      "address": "CALLE DE LA INDUSTRIA 25, PARQUE EMPRESARIAL BAHIA DE ALGECIRAS, 11205 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 613 902",
+      "fax": "+34 956 613 903",
+      "email": "MARIA.LOPEZ@IBEROCEAN.ES"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "333401",
+  "commodityDescription": "PERFUME CONCENTRATE",
+  "containers": [
+    {
+      "containerNumber": "CONT8344005",
+      "sealNumber": "SEAL387499",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 7458.11,
+      "measurement": 34.72
+    },
+    {
+      "containerNumber": "CONT4852986",
+      "sealNumber": "SEAL257473",
+      "numberOfPackages": 33,
+      "packageType": "BOXES",
+      "grossWeight": 8612.61,
+      "measurement": 20.28
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 94,
+    "totalGrossWeight": 16070.72,
+    "totalMeasurement": 55.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "IBERIAN GLOBAL LOGISTICS S.L.",
+      "address": "AVENIDA DEL PUERTO 23, POLIGONO INDUSTRIAL LA MENACHA, 11204 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 718 935",
+      "fax": "+34 956 718 940",
+      "email": "CARMEN.RODRIGUEZ@IBERIANGLOBAL.ES"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "AVDA. DEL PUERTO 55, POL. IND. LA RIBERA, 11202 ALGECIRAS, CADIZ, SPAIN",
+      "telephone": "+34 956 789 123",
+      "fax": "+34 956 789 124",
+      "email": "JUAN.GARCIA@ALPHAIMPORT.ES"
+    },
+    "onboardDate": "2024-11-27 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1974, VALUE: USD65,117, 7 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5852582",
+    "unClass": "6",
+    "unCode": "1974,",
+    "hsCode": "9966.64.97",
+    "flashPoint": "-15°C",
+    "additionalInfo": "Handle with care"
+  }
+}

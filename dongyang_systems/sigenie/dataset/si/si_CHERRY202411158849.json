@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202411158849",
+  "voyageDetails": {
+    "vesselName": "SHIP_2200",
+    "voyageNumber": "3199"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA MANUFACTURING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ALPHAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "15-A BURGHLEY ROAD, ROTTERDAM, NETHERLANDS 3031 BR",
+      "taxId": "",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 202 2020",
+      "fax": "+31 10 202 2021",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "15-A BURGHLEY ROAD, ROTTERDAM, NETHERLANDS 3031 BR",
+      "taxId": "",
+      "president": "MS. JANE DOE",
+      "telephone": "+31 10 202 2022",
+      "fax": "+31 10 202 2023",
+      "email": "JANE.DOE@GLOBALFREIGHTSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940171",
+  "commodityDescription": "METAL SEATS",
+  "containers": [
+    {
+      "containerNumber": "CONT2049914",
+      "sealNumber": "SEAL383767",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "grossWeight": 17078.0,
+      "measurement": 25.23
+    },
+    {
+      "containerNumber": "CONT2882904",
+      "sealNumber": "SEAL901292",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 15372.81,
+      "measurement": 26.52
+    },
+    {
+      "containerNumber": "CONT3634618",
+      "sealNumber": "SEAL114778",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 14731.38,
+      "measurement": 29.35
+    },
+    {
+      "containerNumber": "CONT5615232",
+      "sealNumber": "SEAL731563",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 14039.09,
+      "measurement": 29.86
+    },
+    {
+      "containerNumber": "CONT8537751",
+      "sealNumber": "SEAL983889",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 8193.93,
+      "measurement": 33.18
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 220,
+    "totalGrossWeight": 69415.21,
+    "totalMeasurement": 144.14
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "15-A BURGHLEY ROAD, ROTTERDAM, NETHERLANDS 3031 BR",
+      "telephone": "+31 10 202 2020",
+      "fax": "+31 10 202 2021",
+      "email": "JOHN.SMITH@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-17 18:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

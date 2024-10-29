@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202412015526",
+  "voyageDetails": {
+    "vesselName": "SHIP_4189",
+    "voyageNumber": "5188"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO.",
+      "address": "123 GLOBAL TRADE CENTER, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "GREEN EARTH IMPORTS LTD.",
+      "address": "150 GREEN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "GREEN EARTH IMPORTS LTD.",
+      "address": "150 GREEN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT8339989",
+      "sealNumber": "SEAL818473",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 9198.01,
+      "measurement": 34.36
+    },
+    {
+      "containerNumber": "CONT6295962",
+      "sealNumber": "SEAL646306",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 9845.71,
+      "measurement": 38.04
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 22,
+    "totalGrossWeight": 19043.72,
+    "totalMeasurement": 72.4
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GREEN EARTH IMPORTS LTD.",
+      "address": "150 GREEN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN EARTH IMPORTS LTD.",
+      "address": "150 GREEN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-12-12 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

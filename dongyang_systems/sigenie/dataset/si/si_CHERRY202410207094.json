@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410207094",
+  "voyageDetails": {
+    "vesselName": "SHIP_4616",
+    "voyageNumber": "5615"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "PRECISION ENGINEERING INC.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "fax": "+86 21 1234 5679",
+      "email": "INFO@PRECISIONENGINEERING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "456 RUE DE LA PAIX, PARIS, FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 1 1234 5678",
+      "fax": "+33 1 1234 5679",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "456 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 1234 5678",
+      "fax": "+33 1 1234 5679",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.COM"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS, GAMES AND SPORTING GOODS",
+  "containers": [
+    {
+      "containerNumber": "CONT9962163",
+      "sealNumber": "SEAL654569",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 10320.57,
+      "measurement": 38.98
+    },
+    {
+      "containerNumber": "CONT4135710",
+      "sealNumber": "SEAL635259",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 6913.12,
+      "measurement": 22.13
+    },
+    {
+      "containerNumber": "CONT7035807",
+      "sealNumber": "SEAL907530",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 6366.53,
+      "measurement": 34.95
+    },
+    {
+      "containerNumber": "CONT7524096",
+      "sealNumber": "SEAL519859",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 19887.72,
+      "measurement": 36.89
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 202,
+    "totalGrossWeight": 43487.94,
+    "totalMeasurement": 132.95
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "456 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 1234 5678",
+      "fax": "+33 1 1234 5679",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "456 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 1234 5678",
+      "fax": "+33 1 1234 5679",
+      "email": "INFO@GLOBALLOGISTICSSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-03 18:00",
+    "additionalRemarks": "DO NOT STACK"
+  }
+}

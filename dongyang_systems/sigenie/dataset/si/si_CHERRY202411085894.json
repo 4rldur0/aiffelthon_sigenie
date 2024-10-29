@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411085894",
+  "voyageDetails": {
+    "vesselName": "SHIP_1545",
+    "voyageNumber": "2544"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BAUMANN ENGINEERING GMBH",
+      "address": "BAUMANNSTRASSE 12, 20355 HAMBURG, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-12345679"
+    },
+    "consignee": {
+      "name": "SCHULZ LOGISTICS GMBH",
+      "address": "SCHULZSTRASSE 10, 20354 HAMBURG, GERMANY",
+      "telephone": "+49-40-98765432",
+      "fax": "+49-40-98765433"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "846620",
+  "commodityDescription": "MACHINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT7619662",
+      "sealNumber": "SEAL577418",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 11912.3,
+      "measurement": 37.15
+    },
+    {
+      "containerNumber": "CONT9063522",
+      "sealNumber": "SEAL648612",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 11170.88,
+      "measurement": 21.71
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 182,
+    "totalGrossWeight": 23083.18,
+    "totalMeasurement": 58.86
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-16 16:30",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

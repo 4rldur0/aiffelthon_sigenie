@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410319877",
+  "voyageDetails": {
+    "vesselName": "SHIP_397",
+    "voyageNumber": "1396"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "PARIS, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "PARIS, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "JAPAN FOODS CORPORATION",
+      "address": "123 FOOD STREET, TOKYO, JAPAN",
+      "telephone": "+81 3 1234 5678",
+      "fax": "+81 3 1234 5679"
+    },
+    "consignee": {
+      "name": "KAWASAKI HEAVY INDUSTRIES (SINGAPORE) PTE LTD",
+      "address": "150 MAIN STREET, SINGAPORE",
+      "telephone": "+65 6123 4567",
+      "fax": "+65 6123 4568"
+    },
+    "notifyParty": {
+      "name": "KAWASAKI HEAVY INDUSTRIES (FRANCE) SAS",
+      "address": "10 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 1234 5678",
+      "fax": "+33 1 1234 5679"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "030211",
+  "commodityDescription": "REEFER MEAT",
+  "containers": [
+    {
+      "containerNumber": "CONT1501403",
+      "sealNumber": "SEAL615748",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 8033.98,
+      "measurement": 25.36
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE REEFER",
+    "totalPackages": 96,
+    "totalGrossWeight": 8033.98,
+    "totalMeasurement": 25.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202410319877"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "HEALTH CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "KAWASAKI HEAVY INDUSTRIES (SINGAPORE) PTE LTD",
+      "address": "150 MAIN STREET, SINGAPORE",
+      "telephone": "+65 6123 4567",
+      "fax": "+65 6123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KAWASAKI HEAVY INDUSTRIES (FRANCE) SAS",
+      "address": "10 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 1234 5678",
+      "fax": "+33 1 1234 5679"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -11°C, VALUE: USD292,387"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT4917867",
+    "temperature": "-11°C",
+    "minTemperature": "-13°C",
+    "maxTemperature": "-9°C",
+    "ventilation": "71%",
+    "humidity": "93%"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "bookingReference": "CHERRY202411045661",
+  "voyageDetails": {
+    "vesselName": "SHIP_2744",
+    "voyageNumber": "3743"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINOPEC GROUP CO.",
+      "address": "NO. 123, XINXING ROAD, HAIWAN DISTRICT, NINGBO, 315011",
+      "country": "CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "INFO@SINOPECGROUP.COM.CN"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING LTD.",
+      "address": "4TH FLOOR, BUILDING A, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@DHLGLOBALFORWARDING.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING LTD.",
+      "address": "4TH FLOOR, BUILDING A, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@DHLGLOBALFORWARDING.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381400",
+  "commodityDescription": "BENZENE",
+  "containers": [
+    {
+      "containerNumber": "CONT3579245",
+      "sealNumber": "SEAL372368",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 9283.13,
+      "measurement": 27.73
+    },
+    {
+      "containerNumber": "CONT8879373",
+      "sealNumber": "SEAL780121",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 17032.63,
+      "measurement": 20.78
+    },
+    {
+      "containerNumber": "CONT7128874",
+      "sealNumber": "SEAL250639",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 5502.67,
+      "measurement": 37.61
+    },
+    {
+      "containerNumber": "CONT6210011",
+      "sealNumber": "SEAL326694",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 19657.65,
+      "measurement": 27.79
+    },
+    {
+      "containerNumber": "CONT9117557",
+      "sealNumber": "SEAL379263",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 11605.0,
+      "measurement": 27.44
+    },
+    {
+      "containerNumber": "CONT9384119",
+      "sealNumber": "SEAL481368",
+      "numberOfPackages": 90,
+      "packageType": "BOXES",
+      "grossWeight": 8020.32,
+      "measurement": 25.4
+    },
+    {
+      "containerNumber": "CONT6306638",
+      "sealNumber": "SEAL302399",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 14589.61,
+      "measurement": 23.75
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 20 STANDARD GENERAL",
+    "totalPackages": 349,
+    "totalGrossWeight": 85691.01,
+    "totalMeasurement": 190.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING LTD.",
+      "address": "4TH FLOOR, BUILDING A, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "ORDERS@DHLGLOBALFORWARDING.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING LTD.",
+      "address": "4TH FLOOR, BUILDING A, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679",
+      "email": "ORDERS@DHLGLOBALFORWARDING.NL"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 3353, VALUE: USD467,139, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT2260714",
+    "unClass": "8",
+    "unCode": "3353,",
+    "hsCode": "4666.47.11",
+    "flashPoint": "75°C",
+    "additionalInfo": "Handle with care"
+  }
+}

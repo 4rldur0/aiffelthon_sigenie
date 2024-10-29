@@ -1,0 +1,118 @@
+{
+  "bookingReference": "CHERRY202411026056",
+  "voyageDetails": {
+    "vesselName": "SHIP_967",
+    "voyageNumber": "1966"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "4567 BROADWAY, NEW YORK, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 2323",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "8901 PARK AVENUE, LONDON, UK",
+      "country": "UK",
+      "telephone": "+44 20 7555 1111",
+      "fax": "+44 20 7555 2222",
+      "email": "OPERATIONS@WORLDWIDELOGISTICS.CO.UK"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "999999",
+  "commodityDescription": "MIXED GOODS",
+  "containers": [
+    {
+      "containerNumber": "CONT1776618",
+      "sealNumber": "SEAL282676",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 11611.91,
+      "measurement": 22.46
+    },
+    {
+      "containerNumber": "CONT4605336",
+      "sealNumber": "SEAL671442",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 10130.48,
+      "measurement": 36.69
+    },
+    {
+      "containerNumber": "CONT6112183",
+      "sealNumber": "SEAL250982",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 12614.4,
+      "measurement": 21.38
+    },
+    {
+      "containerNumber": "CONT1665983",
+      "sealNumber": "SEAL444696",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 10402.78,
+      "measurement": 34.25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 45 HIGH CUBE TANK",
+    "totalPackages": 221,
+    "totalGrossWeight": 44759.57,
+    "totalMeasurement": 114.78
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "4567 BROADWAY, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 2323",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "4567 BROADWAY, NEW YORK, USA",
+      "country": "USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 2323",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  }
+}

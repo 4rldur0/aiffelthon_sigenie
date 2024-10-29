@@ -1,0 +1,146 @@
+{
+  "bookingReference": "CHERRY202411016859",
+  "voyageDetails": {
+    "vesselName": "SHIP_833",
+    "voyageNumber": "1832"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC COLD STORAGE",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "UNIT 10, 123 NETHERLANDS STREET, GDANSK, 80-888",
+      "country": "POLAND",
+      "email": "ORDERS@GFS.PL",
+      "telephone": "+48 58 345 6789"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, GDANSK, 80-888",
+      "country": "POLAND",
+      "email": "ORDERS@BETAIMPORTERS.PL",
+      "telephone": "+48 58 234 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030269",
+  "commodityDescription": "FROZEN FISH",
+  "containers": [
+    {
+      "containerNumber": "CONT9658513",
+      "sealNumber": "SEAL157758",
+      "numberOfPackages": 44,
+      "packageType": "BOXES",
+      "grossWeight": 14719.1,
+      "measurement": 38.88
+    },
+    {
+      "containerNumber": "CONT6296952",
+      "sealNumber": "SEAL448279",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 13423.52,
+      "measurement": 35.97
+    },
+    {
+      "containerNumber": "CONT4245360",
+      "sealNumber": "SEAL742252",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 17006.14,
+      "measurement": 38.97
+    },
+    {
+      "containerNumber": "CONT9873961",
+      "sealNumber": "SEAL394790",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 17468.25,
+      "measurement": 27.08
+    },
+    {
+      "containerNumber": "CONT9375844",
+      "sealNumber": "SEAL354118",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 5112.31,
+      "measurement": 23.85
+    },
+    {
+      "containerNumber": "CONT1124807",
+      "sealNumber": "SEAL508331",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 11794.0,
+      "measurement": 21.45
+    },
+    {
+      "containerNumber": "CONT2854288",
+      "sealNumber": "SEAL240209",
+      "numberOfPackages": 85,
+      "packageType": "BOXES",
+      "grossWeight": 8900.7,
+      "measurement": 24.44
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "7 x 20 STANDARD REEFER",
+    "totalPackages": 491,
+    "totalGrossWeight": 88424.02,
+    "totalMeasurement": 210.64
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-09 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: -3°C, VALUE: USD438,771, 14 DAYS FREE TIME AT DESTINATION"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6172210",
+    "temperature": "-3°C",
+    "minTemperature": "-5°C",
+    "maxTemperature": "-1°C",
+    "ventilation": "70%",
+    "humidity": "71%"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202412089204",
+  "voyageDetails": {
+    "vesselName": "SHIP_5974",
+    "voyageNumber": "6973"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@ALPHATRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "ALPHA INTERNATIONAL LTD",
+      "address": "1234 MAIN STREET, MADRID, 28001, SPAIN",
+      "country": "SPAIN",
+      "email": "INFO@ALPHAINTERNATIONAL.ES",
+      "telephone": "+34 91 555 1212"
+    },
+    "notifyParty": {
+      "name": "GAMMA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GAMMAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "940330",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT5041753",
+      "sealNumber": "SEAL514991",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 6078.98,
+      "measurement": 39.32
+    },
+    {
+      "containerNumber": "CONT9008606",
+      "sealNumber": "SEAL203031",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 18028.95,
+      "measurement": 23.14
+    },
+    {
+      "containerNumber": "CONT3788245",
+      "sealNumber": "SEAL658347",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 13941.46,
+      "measurement": 35.42
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 131,
+    "totalGrossWeight": 38049.39,
+    "totalMeasurement": 97.88
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-12-14 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

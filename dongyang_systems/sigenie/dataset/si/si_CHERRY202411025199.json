@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202411025199",
+  "voyageDetails": {
+    "vesselName": "SHIP_6099",
+    "voyageNumber": "7098"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@SHANGHAIGLOBALTRADING.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "1234 MAIN STREET, HAMBURG, GERMANY",
+      "companyNumber": "123456789",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 12345679",
+      "email": "INFO@SUNRISEIMPORTS.COM"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "1234 MAIN STREET, HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940330",
+  "commodityDescription": "FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT4626872",
+      "sealNumber": "SEAL583611",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 5504.45,
+      "measurement": 21.67
+    },
+    {
+      "containerNumber": "CONT5447493",
+      "sealNumber": "SEAL858939",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 10489.83,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CONT7647441",
+      "sealNumber": "SEAL605986",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 8454.71,
+      "measurement": 37.11
+    },
+    {
+      "containerNumber": "CONT8367636",
+      "sealNumber": "SEAL370494",
+      "numberOfPackages": 24,
+      "packageType": "BOXES",
+      "grossWeight": 8684.79,
+      "measurement": 31.76
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 261,
+    "totalGrossWeight": 33133.78,
+    "totalMeasurement": 122.54
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777"
+    },
+    "onboardDate": "2024-11-10 08:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

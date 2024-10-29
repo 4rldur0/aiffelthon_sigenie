@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202412175021",
+  "voyageDetails": {
+    "vesselName": "SHIP_609",
+    "voyageNumber": "1608"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORT EXPORT LTD.",
+      "address": "1234 MAIN STREET, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 7193",
+      "fax": "+86 574 8888 7778",
+      "email": "ZHANG.WEI@BETAIMPORT.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "5678 ALICANTE STREET, MADRID, SPAIN 28001",
+      "country": "SPAIN",
+      "telephone": "+34 91 812 73 25",
+      "fax": "+34 91 812 73 90",
+      "email": "MAREK.KOWALSKI@ALPHATRADING.ES"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS SOLUTIONS",
+      "address": "9012 GRAN VIA STREET, BARCELONA, SPAIN 08001",
+      "country": "SPAIN",
+      "telephone": "+34 93 713 29 39",
+      "fax": "+34 93 713 29 44",
+      "email": "ANNA.NOWAK@WLSLOGISTICS.ES"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "961700",
+  "commodityDescription": "STATIONERY, DRAWING BOOKS, PAINTING BOOKS AND OTHER BOOKS OF DRAWING OR PAINTING",
+  "containers": [
+    {
+      "containerNumber": "CONT6716502",
+      "sealNumber": "SEAL275729",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 7433.34,
+      "measurement": 20.11
+    },
+    {
+      "containerNumber": "CONT2789337",
+      "sealNumber": "SEAL717751",
+      "numberOfPackages": 53,
+      "packageType": "BOXES",
+      "grossWeight": 7524.99,
+      "measurement": 34.52
+    },
+    {
+      "containerNumber": "CONT8145304",
+      "sealNumber": "SEAL143556",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 19961.57,
+      "measurement": 25.73
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 176,
+    "totalGrossWeight": 34919.9,
+    "totalMeasurement": 80.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRANSPORTATION LOGISTICS",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 6123 7195",
+      "fax": "+86 21 6123 7200",
+      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING",
+      "address": "5678 ALICANTE STREET, MADRID, SPAIN 28001",
+      "country": "SPAIN",
+      "telephone": "+34 91 812 73 25",
+      "fax": "+34 91 812 73 90",
+      "email": "MAREK.KOWALSKI@ALPHATRADING.ES"
+    },
+    "onboardDate": "2024-12-22 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

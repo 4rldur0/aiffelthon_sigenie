@@ -1,0 +1,138 @@
+{
+  "bookingReference": "CHERRY202411088791",
+  "voyageDetails": {
+    "vesselName": "SHIP_5770",
+    "voyageNumber": "6769"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING INC.",
+      "address": "NO. 1234, HUAYUAN ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HUAYUAN BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "SALES@OMEGAMANUFACTURING.COM.CN"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING CORP.",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "country": "MOROCCO",
+      "email": "IMPORT@DELTASHIPPINGCORP.COM",
+      "telephone": "+212 522 4567 8901"
+    },
+    "notifyParty": {
+      "name": "BETA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@BETAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "381400",
+  "commodityDescription": "ACETIC ACID",
+  "containers": [
+    {
+      "containerNumber": "CONT4060481",
+      "sealNumber": "SEAL158420",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 7441.24,
+      "measurement": 21.24
+    },
+    {
+      "containerNumber": "CONT3838677",
+      "sealNumber": "SEAL540703",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 12118.71,
+      "measurement": 20.99
+    },
+    {
+      "containerNumber": "CONT6459686",
+      "sealNumber": "SEAL674085",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 5057.7,
+      "measurement": 31.09
+    },
+    {
+      "containerNumber": "CONT5348483",
+      "sealNumber": "SEAL833806",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 13558.62,
+      "measurement": 34.71
+    },
+    {
+      "containerNumber": "CONT8224581",
+      "sealNumber": "SEAL939881",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 16448.44,
+      "measurement": 38.76
+    },
+    {
+      "containerNumber": "CONT1894284",
+      "sealNumber": "SEAL345369",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 6270.45,
+      "measurement": 35.88
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 332,
+    "totalGrossWeight": 60895.16,
+    "totalMeasurement": 182.67
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-13 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1026, VALUE: USD805,668"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1826912",
+    "unClass": "8",
+    "unCode": "1026,",
+    "hsCode": "3746.39.47",
+    "flashPoint": "11°C",
+    "additionalInfo": "Handle with care"
+  }
+}

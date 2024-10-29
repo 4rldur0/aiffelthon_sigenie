@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202412014650",
+  "voyageDetails": {
+    "vesselName": "SHIP_613",
+    "voyageNumber": "1612"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE, FRANCE",
+    "portOfLoading": "LE HAVRE, FRANCE",
+    "portOfDischarge": "PORT KLANG, MALAYSIA",
+    "placeOfDelivery": "PORT KLANG, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "12 RUE DE LA PAIX, 76600 LE HAVRE, FRANCE",
+      "country": "FRANCE",
+      "additionalInfo": "",
+      "telephone": "+33 2 35 23 71 93",
+      "fax": "+33 2 35 23 77 90",
+      "email": "JEAN.DUPONT@ASIAPACIFICTRADING.FR"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "LEVEL 25, MENARA KL, JALAN AMPANG, 50450 KUALA LUMPUR, MALAYSIA",
+      "country": "MALAYSIA",
+      "telephone": "+60 3 2176 25 39",
+      "fax": "+60 3 2176 25 90",
+      "email": "LEE.CHEN@GLOBALLOGISTICS.COM.MY"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE SHIPPING AGENCY SDN BHD",
+      "address": "SUITE 1201, TOWER A, KLCC, 50088 KUALA LUMPUR, MALAYSIA",
+      "country": "MALAYSIA",
+      "telephone": "+60 3 2383 39 25",
+      "fax": "+60 3 2383 39 44",
+      "email": "INFO@WORLDWIDESHIPPINGAGENCY.COM.MY"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "381300",
+  "commodityDescription": "INDUSTRIAL AND LABORATORY CHEMICALS NOT ELSEWHERE SPECIFIED OR INCLUDED",
+  "containers": [
+    {
+      "containerNumber": "CONT7792218",
+      "sealNumber": "SEAL700155",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 5629.77,
+      "measurement": 31.97
+    },
+    {
+      "containerNumber": "CONT3066193",
+      "sealNumber": "SEAL307490",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 11517.03,
+      "measurement": 36.55
+    },
+    {
+      "containerNumber": "CONT6307488",
+      "sealNumber": "SEAL987065",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 10600.69,
+      "measurement": 22.58
+    },
+    {
+      "containerNumber": "CONT3594396",
+      "sealNumber": "SEAL322231",
+      "numberOfPackages": 45,
+      "packageType": "BOXES",
+      "grossWeight": 15278.48,
+      "measurement": 32.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 20 STANDARD TANK",
+    "totalPackages": 210,
+    "totalGrossWeight": 43025.97,
+    "totalMeasurement": 123.9
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202412019874"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "DANGEROUS GOODS CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE SHIPPING AGENCY SDN BHD",
+      "address": "SUITE 1201, TOWER A, KLCC, 50088 KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2383 39 25",
+      "fax": "+60 3 2383 39 44",
+      "email": "INFO@WORLDWIDESHIPPINGAGENCY.COM.MY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "LEVEL 25, MENARA KL, JALAN AMPANG, 50450 KUALA LUMPUR, MALAYSIA",
+      "country": "MALAYSIA",
+      "telephone": "+60 3 2176 25 39",
+      "fax": "+60 3 2176 25 90",
+      "email": "LEE.CHEN@GLOBALLOGISTICS.COM.MY"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1931"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7222124",
+    "unClass": "8",
+    "unCode": "1931",
+    "hsCode": "9660.20.10",
+    "flashPoint": "47°C",
+    "additionalInfo": "Handle with care"
+  }
+}

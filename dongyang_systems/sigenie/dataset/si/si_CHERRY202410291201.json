@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202410291201",
+  "voyageDetails": {
+    "vesselName": "SHIP_4537",
+    "voyageNumber": "5536"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TECH SOLUTIONS INC",
+      "address": "123 TECH PARK BOULEVARD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "INFO@ASIATECHSOLUTIONS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "456 FRANKFURTER STRASSE, BERLIN, GERMANY 10117",
+      "taxId": "DE123456789",
+      "president": "Mr. PETER SCHMIDT",
+      "telephone": "+49 30 1234 5678",
+      "fax": "+49 30 1234 5679",
+      "email": "INFO@GLOBALIMPORTS.DE"
+    },
+    "notifyParty": {
+      "name": "HAMBURG LOGISTICS GMBH",
+      "address": "789 HARBOUR STREET, HAMBURG, GERMANY 20457",
+      "taxId": "DE987654321",
+      "president": "Ms. ANNA MEIER",
+      "telephone": "+49 40 5555 1212",
+      "fax": "+49 40 5555 1213"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "850440",
+  "commodityDescription": "ELECTRICAL TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CONT9621131",
+      "sealNumber": "SEAL119112",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 5282.56,
+      "measurement": 27.69
+    },
+    {
+      "containerNumber": "CONT7641524",
+      "sealNumber": "SEAL126516",
+      "numberOfPackages": 41,
+      "packageType": "BOXES",
+      "grossWeight": 14592.29,
+      "measurement": 35.03
+    },
+    {
+      "containerNumber": "CONT8728435",
+      "sealNumber": "SEAL576918",
+      "numberOfPackages": 77,
+      "packageType": "BOXES",
+      "grossWeight": 7277.59,
+      "measurement": 34.98
+    },
+    {
+      "containerNumber": "CONT1738512",
+      "sealNumber": "SEAL981928",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 6636.77,
+      "measurement": 26.47
+    },
+    {
+      "containerNumber": "CONT8325940",
+      "sealNumber": "SEAL686974",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 12916.26,
+      "measurement": 22.8
+    },
+    {
+      "containerNumber": "CONT7102356",
+      "sealNumber": "SEAL257468",
+      "numberOfPackages": 55,
+      "packageType": "BOXES",
+      "grossWeight": 8034.97,
+      "measurement": 31.85
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD OPEN TOP",
+    "totalPackages": 312,
+    "totalGrossWeight": 54740.44,
+    "totalMeasurement": 178.82
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-07 20:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 10053x2633x2897, VALUE: USD876,732, HANDLE WITH CARE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10053",
+    "width": "2633",
+    "height": "2897",
+    "overWidth": "193",
+    "overHeight": "307"
+  }
+}

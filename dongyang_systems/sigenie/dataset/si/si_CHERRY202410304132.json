@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202410304132",
+  "voyageDetails": {
+    "vesselName": "SHIP_4681",
+    "voyageNumber": "5680"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO. LTD.",
+      "address": "123 GLOBAL STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5768 4500",
+      "fax": "+86 21 5768 4501"
+    },
+    "consignee": {
+      "name": "GREEN EARTH IMPORTERS INC.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "notifyParty": {
+      "name": "GREEN EARTH IMPORTERS INC.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CONSTRUCTION SETS",
+  "containers": [
+    {
+      "containerNumber": "CONT9919067",
+      "sealNumber": "SEAL847604",
+      "numberOfPackages": 14,
+      "packageType": "BOXES",
+      "grossWeight": 13316.18,
+      "measurement": 21.39
+    },
+    {
+      "containerNumber": "CONT5123262",
+      "sealNumber": "SEAL394190",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 9526.63,
+      "measurement": 27.97
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD GENERAL",
+    "totalPackages": 90,
+    "totalGrossWeight": 22842.81,
+    "totalMeasurement": 49.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GREEN EARTH IMPORTERS INC.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN EARTH IMPORTERS INC.",
+      "address": "150 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "2024-11-07 22:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION, FRAGILE"
+  }
+}

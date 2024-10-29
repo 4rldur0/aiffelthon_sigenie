@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202410307611",
+  "voyageDetails": {
+    "vesselName": "SHIP_4805",
+    "voyageNumber": "5804"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING COMPANY",
+      "address": "1234 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "SHIPPING@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "5678 FIRST AVENUE, GDANSK, POLAND",
+      "taxId": "PL1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+48 58 777 7777",
+      "fax": "+48 58 777 7776",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS POLAND",
+      "address": "9012 THIRD STREET, GDANSK, POLAND",
+      "taxId": "PL9876543210",
+      "president": "MS. JANE DOE",
+      "telephone": "+48 58 888 8888",
+      "fax": "+48 58 888 8887"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOYS",
+  "containers": [
+    {
+      "containerNumber": "CONT1252133",
+      "sealNumber": "SEAL614871",
+      "numberOfPackages": 37,
+      "packageType": "BOXES",
+      "grossWeight": 6546.66,
+      "measurement": 31.54
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 45 HIGH CUBE TANK",
+    "totalPackages": 37,
+    "totalGrossWeight": 6546.66,
+    "totalMeasurement": 31.54
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "ABC LOGISTICS POLAND",
+      "address": "9012 THIRD STREET, GDANSK, POLAND",
+      "telephone": "+48 58 888 8888",
+      "fax": "+48 58 888 8887",
+      "email": "INFO@ABCLOGISTICS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "5678 FIRST AVENUE, GDANSK, POLAND",
+      "telephone": "+48 58 777 7777",
+      "fax": "+48 58 777 7776",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-11-06 16:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

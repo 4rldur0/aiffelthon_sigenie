@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202410258804",
+  "voyageDetails": {
+    "vesselName": "SHIP_1090",
+    "voyageNumber": "2089"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA EXPORTS INC.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORTS LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030199",
+  "commodityDescription": "REEFER - LIVE LOBSTERS",
+  "containers": [
+    {
+      "containerNumber": "CONT9530247",
+      "sealNumber": "SEAL362629",
+      "numberOfPackages": 86,
+      "packageType": "BOXES",
+      "grossWeight": 18658.03,
+      "measurement": 23.3
+    },
+    {
+      "containerNumber": "CONT2264248",
+      "sealNumber": "SEAL302081",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 14796.64,
+      "measurement": 28.55
+    },
+    {
+      "containerNumber": "CONT7378142",
+      "sealNumber": "SEAL949252",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 11106.0,
+      "measurement": 38.1
+    },
+    {
+      "containerNumber": "CONT9498752",
+      "sealNumber": "SEAL242728",
+      "numberOfPackages": 82,
+      "packageType": "BOXES",
+      "grossWeight": 13700.1,
+      "measurement": 33.18
+    },
+    {
+      "containerNumber": "CONT1373471",
+      "sealNumber": "SEAL110291",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 7159.55,
+      "measurement": 31.61
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE REEFER",
+    "totalPackages": 364,
+    "totalGrossWeight": 65420.32,
+    "totalMeasurement": 154.74
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-07 18:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 14°C, VALUE: USD879,609"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT2963447",
+    "temperature": "14°C",
+    "minTemperature": "12°C",
+    "maxTemperature": "16°C",
+    "ventilation": "8%",
+    "humidity": "87%"
+  }
+}

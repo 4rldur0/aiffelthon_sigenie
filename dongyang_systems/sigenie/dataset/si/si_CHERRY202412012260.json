@@ -1,14 +1,14 @@
 {
   "bookingReference": "CHERRY202412012260",
   "voyageDetails": {
-    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
-    "voyageNumber": "OFLQJW1MA"
+    "vesselName": "SHIP_3976",
+    "voyageNumber": "4975"
   },
   "routeDetails": {
     "placeOfReceipt": "NINGBO, CHINA",
     "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY"
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
@@ -17,78 +17,107 @@
   "documentationDetails": {
     "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 5
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "1234 SUNRISE STREET, NINGBO, CHINA, 315000",
-      "country": "CHINA",
-      "additionalInfo": "",
-      "telephone": "+86 574 8888 7193",
-      "fax": "+86 574 8888 7778",
-      "email": "INFO@SUNRISETRADING.CN"
+      "name": "ORIENTAL TEXTILES LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
     },
     "consignee": {
-      "name": "KOBAYASHI ENTERPRISES INC.",
-      "address": "5678 HAMBURG STREET, HAMBURG, GERMANY, 20095",
-      "country": "GERMANY",
-      "telephone": "+49 40 123 4567",
-      "fax": "+49 40 123 4568",
-      "email": "INFO@KOBAYASHIENTERPRISES.DE"
+      "name": "SOUTHERN GLOBAL LOGISTICS",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
     },
     "notifyParty": {
-      "name": "KOBAYASHI ENTERPRISES INC.",
-      "address": "5678 HAMBURG STREET, HAMBURG, GERMANY, 20095",
-      "country": "GERMANY",
-      "telephone": "+49 40 123 4567",
-      "fax": "+49 40 123 4568",
-      "email": "INFO@KOBAYASHIENTERPRISES.DE"
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
     }
   },
-  "shippingTerm": "CY/CY",
-  "hsCode": "940360",
-  "commodityDescription": "OTHER SEATS OF A KIND USED FOR CHAIRS; OTHER PARTS OF FURNITURE",
+  "shippingTerm": "CFS/CY",
+  "hsCode": "630790",
+  "commodityDescription": "MADE UP TEXTILE ARTICLES; TRIMS AND DECORATIVE ARTICLES",
   "containers": [
     {
-      "containerNumber": "CONT3398127",
-      "sealNumber": "SEAL868372",
-      "numberOfPackages": 60,
+      "containerNumber": "CONT9083907",
+      "sealNumber": "SEAL258982",
+      "numberOfPackages": 20,
       "packageType": "BOXES",
-      "grossWeight": 10758.67,
-      "measurement": 33.94
+      "grossWeight": 18652.74,
+      "measurement": 29.21
+    },
+    {
+      "containerNumber": "CONT5632546",
+      "sealNumber": "SEAL302670",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 8762.79,
+      "measurement": 32.22
+    },
+    {
+      "containerNumber": "CONT9946523",
+      "sealNumber": "SEAL656792",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 16023.9,
+      "measurement": 32.71
+    },
+    {
+      "containerNumber": "CONT9487442",
+      "sealNumber": "SEAL469262",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "grossWeight": 5488.53,
+      "measurement": 31.53
+    },
+    {
+      "containerNumber": "CONT7176632",
+      "sealNumber": "SEAL236667",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 5221.2,
+      "measurement": 24.55
+    },
+    {
+      "containerNumber": "CONT8981893",
+      "sealNumber": "SEAL840496",
+      "numberOfPackages": 27,
+      "packageType": "BOXES",
+      "grossWeight": 5838.25,
+      "measurement": 24.33
     }
   ],
   "totalShipment": {
-    "totalContainers": "1 x 20 STANDARD TANK",
-    "totalPackages": 60,
-    "totalGrossWeight": 10758.67,
-    "totalMeasurement": 33.94
+    "totalContainers": "6 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 222,
+    "totalGrossWeight": 59987.41,
+    "totalMeasurement": 174.55
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "CERTIFICATE OF ORIGIN",
-      " fumigation certificate"
-    ],
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "WORLDWIDE SHIPPING LOGISTICS",
-      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
-      "telephone": "+86 21 6123 7195",
-      "fax": "+86 21 6123 7200",
-      "email": "LI.JING@SHANGHAIGLOBALLOGISTICS.CN"
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
     },
     "originalInvoiceDistribution": {
-      "name": "KOBAYASHI ENTERPRISES INC.",
-      "address": "5678 HAMBURG STREET, HAMBURG, GERMANY, 20095",
-      "country": "GERMANY",
-      "telephone": "+49 40 123 4567",
-      "fax": "+49 40 123 4568",
-      "email": "INFO@KOBAYASHIENTERPRISES.DE"
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
     },
-    "onboardDate": "2024-12-06 18:00",
-    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "2024-12-12 08:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
   }
 }

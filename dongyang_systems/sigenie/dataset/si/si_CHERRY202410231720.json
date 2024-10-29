@@ -1,0 +1,85 @@
+{
+  "bookingReference": "CHERRY202410231720",
+  "voyageDetails": {
+    "vesselName": "SHIP_2888",
+    "voyageNumber": "3887"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES LTD.",
+      "onBehalfOf": "",
+      "address": "1234 ASIA PACIFIC ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAINDUSTRIES.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "888 WORLDWIDE WAY, GDANSK, POLAND 80-200",
+      "companyNumber": "123456789",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568",
+      "email": "JANSSEN.EMMA@GLOBALLOGISTICS.PL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "888 WORLDWIDE WAY, GDANSK, POLAND 80-200"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY CONSTRUCTION SETS AND PARTS THEREOF",
+  "containers": [
+    {
+      "containerNumber": "CONT1923219",
+      "sealNumber": "SEAL488013",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 9504.6,
+      "measurement": 27.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD GENERAL",
+    "totalPackages": 54,
+    "totalGrossWeight": 9504.6,
+    "totalMeasurement": 27.09
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC23456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "888 WORLDWIDE WAY, GDANSK, POLAND 80-200",
+      "telephone": "+48 58 123 4567",
+      "fax": "+48 58 123 4568",
+      "email": "JANSSEN.EMMA@GLOBALLOGISTICS.PL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC INDUSTRIES LTD.",
+      "address": "1234 ASIA PACIFIC ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@ASIAINDUSTRIES.CN"
+    },
+    "onboardDate": "2024-10-29 20:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

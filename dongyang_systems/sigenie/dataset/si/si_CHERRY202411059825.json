@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202411059825",
+  "voyageDetails": {
+    "vesselName": "SHIP_617",
+    "voyageNumber": "1616"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING LTD",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "DELTA GLOBAL TRADING",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212-5-2222-3333",
+      "fax": "+212-5-2222-3334",
+      "email": "INFO@DELTAGLOBAL.MA",
+      "contactPerson": "MOHAMED ALI"
+    },
+    "notifyParty": {
+      "name": "DELTA GLOBAL TRADING",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "870899",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CONT6534172",
+      "sealNumber": "SEAL941239",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "grossWeight": 15111.31,
+      "measurement": 35.88
+    },
+    {
+      "containerNumber": "CONT6461713",
+      "sealNumber": "SEAL344684",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 19070.1,
+      "measurement": 25.22
+    },
+    {
+      "containerNumber": "CONT4400262",
+      "sealNumber": "SEAL441498",
+      "numberOfPackages": 71,
+      "packageType": "BOXES",
+      "grossWeight": 11716.84,
+      "measurement": 35.88
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 HIGH CUBE TANK",
+    "totalPackages": 193,
+    "totalGrossWeight": 45898.25,
+    "totalMeasurement": 96.98
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241105-001",
+    "documentNumber": "20241105-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA GLOBAL TRADING",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA GLOBAL TRADING",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

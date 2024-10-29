@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202411024153",
+  "voyageDetails": {
+    "vesselName": "SHIP_3020",
+    "voyageNumber": "4019"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EURO TECH IMPORT EXPORT GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "",
+      "telephone": "+49 69 7983 9000",
+      "fax": "+49 69 7983 9001",
+      "email": "INFO@EUROTECHIMPORTEXPORT.DE"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "52 HANOVER STREET, LONDON W1S 1YH, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "telephone": "+44 20 7493 5000",
+      "fax": "+44 20 7493 5001",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.CO.UK",
+      "personincharge": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS GLOBAL LTD",
+      "address": "123 PARK LANE, LONDON W1K 7AA, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "telephone": "+44 20 7297 8000",
+      "fax": "+44 20 7297 8001",
+      "email": "INFO@LOGISTICSGLOBAL.CO.UK"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "330499",
+  "commodityDescription": "PERFUME",
+  "containers": [
+    {
+      "containerNumber": "CONT3939936",
+      "sealNumber": "SEAL143127",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 17881.86,
+      "measurement": 33.42
+    },
+    {
+      "containerNumber": "CONT5610255",
+      "sealNumber": "SEAL217882",
+      "numberOfPackages": 39,
+      "packageType": "BOXES",
+      "grossWeight": 15274.08,
+      "measurement": 24.57
+    },
+    {
+      "containerNumber": "CONT9289692",
+      "sealNumber": "SEAL355830",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 9616.09,
+      "measurement": 27.89
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 133,
+    "totalGrossWeight": 42772.03,
+    "totalMeasurement": 85.88
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202411024153"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-12 10:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1498, VALUE: USD151,750"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT8679762",
+    "unClass": "7",
+    "unCode": "1498,",
+    "hsCode": "9888.27.52",
+    "flashPoint": "18°C",
+    "additionalInfo": "Handle with care"
+  }
+}

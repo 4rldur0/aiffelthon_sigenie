@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202411119046",
+  "voyageDetails": {
+    "vesselName": "SHIP_1580",
+    "voyageNumber": "2579"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA TRADING CO.",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT LTD.",
+      "address": "MARKTSTRAAT 123, 3011 GR ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL",
+      "contactPerson": "PETER VAN DER ZANDEN"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT EXPORT LTD.",
+      "address": "MARKTSTRAAT 123, 3011 GR ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "382499",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT7464071",
+      "sealNumber": "SEAL724894",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "grossWeight": 16895.64,
+      "measurement": 30.46
+    },
+    {
+      "containerNumber": "CONT4764944",
+      "sealNumber": "SEAL523107",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 5440.1,
+      "measurement": 25.66
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD TANK",
+    "totalPackages": 86,
+    "totalGrossWeight": 22335.74,
+    "totalMeasurement": 56.12
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241004-1001",
+    "documentNumber": "20241004-1001",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT EXPORT LTD.",
+      "address": "MARKTSTRAAT 123, 3011 GR ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT LTD.",
+      "address": "MARKTSTRAAT 123, 3011 GR ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2345-6789",
+      "fax": "+31-10-2345-6780"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2287, VALUE: USD176,074"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT3735825",
+    "unClass": "3",
+    "unCode": "2287,",
+    "hsCode": "9771.67.97",
+    "flashPoint": "81°C",
+    "additionalInfo": "Handle with care"
+  }
+}

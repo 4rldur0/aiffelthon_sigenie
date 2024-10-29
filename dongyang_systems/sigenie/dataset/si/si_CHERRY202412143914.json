@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202412143914",
+  "voyageDetails": {
+    "vesselName": "SHIP_518",
+    "voyageNumber": "1517"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "CASABLANCA, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA INDUSTRIES INC.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "OMEGA TRADING CO. LTD",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212-522-555-6666",
+      "fax": "+212-522-555-6667"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "621120",
+  "commodityDescription": "MEN'S COTTON SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CONT5586587",
+      "sealNumber": "SEAL632438",
+      "numberOfPackages": 74,
+      "packageType": "BOXES",
+      "grossWeight": 6847.44,
+      "measurement": 29.06
+    },
+    {
+      "containerNumber": "CONT7178987",
+      "sealNumber": "SEAL710169",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 19254.05,
+      "measurement": 25.76
+    },
+    {
+      "containerNumber": "CONT6698718",
+      "sealNumber": "SEAL739166",
+      "numberOfPackages": 84,
+      "packageType": "BOXES",
+      "grossWeight": 7138.58,
+      "measurement": 34.01
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 228,
+    "totalGrossWeight": 33240.07,
+    "totalMeasurement": 88.83
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-12-26 18:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

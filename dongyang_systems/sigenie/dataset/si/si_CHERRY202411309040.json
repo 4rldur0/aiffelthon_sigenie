@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202411309040",
+  "voyageDetails": {
+    "vesselName": "SHIP_5672",
+    "voyageNumber": "6671"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "1234 MAIN STREET, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO BRANCH)",
+      "telephone": "+86 574 8765 4321",
+      "email": "SHIPPING@APLLTD.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TECH SOLUTIONS INC.",
+      "address": "1234 TECH LANE, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "IMPORT@GLOBALTECH.NL",
+      "telephone": "+31 10 234 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TECH SOLUTIONS INC.",
+      "address": "1234 TECH LANE, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "IMPORT@GLOBALTECH.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "INDUSTRIAL PRINTING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CONT8393116",
+      "sealNumber": "SEAL712644",
+      "numberOfPackages": 61,
+      "packageType": "BOXES",
+      "grossWeight": 14584.24,
+      "measurement": 27.97
+    },
+    {
+      "containerNumber": "CONT9594914",
+      "sealNumber": "SEAL373814",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 13114.29,
+      "measurement": 28.66
+    },
+    {
+      "containerNumber": "CONT5061681",
+      "sealNumber": "SEAL928458",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 18034.73,
+      "measurement": 37.82
+    },
+    {
+      "containerNumber": "CONT9668767",
+      "sealNumber": "SEAL554004",
+      "numberOfPackages": 46,
+      "packageType": "BOXES",
+      "grossWeight": 15510.99,
+      "measurement": 34.3
+    },
+    {
+      "containerNumber": "CONT5217736",
+      "sealNumber": "SEAL439703",
+      "numberOfPackages": 91,
+      "packageType": "BOXES",
+      "grossWeight": 8428.34,
+      "measurement": 28.45
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 STANDARD OPEN TOP",
+    "totalPackages": 303,
+    "totalGrossWeight": 69672.59,
+    "totalMeasurement": 157.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-12-16 20:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 4350x2636x2196, 30 DAYS FREE TIME AT DESTINATION",
+    "outOfGaugeDimensions": {
+      "length": 4350,
+      "width": 2636,
+      "height": 2196,
+      "unit": "MM"
+    }
+  },
+  "outOfGaugeDimensions": {
+    "length": "4350",
+    "width": "2636",
+    "height": "2196",
+    "overWidth": "196",
+    "overHeight": "0"
+  }
+}

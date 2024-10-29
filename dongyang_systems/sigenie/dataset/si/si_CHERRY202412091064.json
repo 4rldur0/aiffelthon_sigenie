@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202412091064",
+  "voyageDetails": {
+    "vesselName": "SHIP_4966",
+    "voyageNumber": "5965"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL MACHINERY CO., LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "GOLDEN GATE IMPORTS LLC",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213",
+      "email": "INFO@GOLDENGATEIMPORTS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE IMPORTS LLC"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR WORKING TEXTILE YARNS, THREADS OR FABRICS",
+  "containers": [
+    {
+      "containerNumber": "CONT3942544",
+      "sealNumber": "SEAL408520",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 14865.15,
+      "measurement": 26.35
+    },
+    {
+      "containerNumber": "CONT1645533",
+      "sealNumber": "SEAL383137",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 18322.16,
+      "measurement": 21.91
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 20 STANDARD PLATFORM",
+    "totalPackages": 49,
+    "totalGrossWeight": 33187.31,
+    "totalMeasurement": 48.26
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241209-1001",
+    "documentNumber": "20241209-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GOLDEN GATE IMPORTS LLC",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN GATE IMPORTS LLC",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213"
+    },
+    "onboardDate": "2024-12-17 16:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 10472x2462x2961, VALUE: USD654,432, 30 DAYS FREE TIME AT DESTINATION"
+  },
+  "outOfGaugeDimensions": {
+    "length": "10472",
+    "width": "2462",
+    "height": "2961",
+    "overWidth": "22",
+    "overHeight": "371"
+  }
+}

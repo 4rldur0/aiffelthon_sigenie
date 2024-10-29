@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202410242944",
+  "voyageDetails": {
+    "vesselName": "SHIP_5000",
+    "voyageNumber": "5999"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREEN FIELD TRADING CO.",
+      "onBehalfOf": "",
+      "address": "1234 GREEN FIELD RD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 6159",
+      "fax": "+86 574 8888 6200",
+      "email": "LIU.WEIMIN@GREENFIELDTRADING.CN"
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORT & EXPORT LTD.",
+      "address": "1234 BLUE SKY RD, ROTTERDAM, NETHERLANDS 3011 AB",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001",
+      "email": "JANSSEN.EMMA@BLUESKYIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940161",
+  "commodityDescription": "SEATS OF CANE, OAT, RUSH, REED, OR OTHER NATURAL VEGETABLE MATERIALS",
+  "containers": [
+    {
+      "containerNumber": "CONT5518251",
+      "sealNumber": "SEAL853521",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 9328.56,
+      "measurement": 28.61
+    },
+    {
+      "containerNumber": "CONT8725136",
+      "sealNumber": "SEAL801660",
+      "numberOfPackages": 58,
+      "packageType": "BOXES",
+      "grossWeight": 8389.73,
+      "measurement": 30.38
+    },
+    {
+      "containerNumber": "CONT6899088",
+      "sealNumber": "SEAL396385",
+      "numberOfPackages": 62,
+      "packageType": "BOXES",
+      "grossWeight": 19896.45,
+      "measurement": 29.89
+    },
+    {
+      "containerNumber": "CONT6026566",
+      "sealNumber": "SEAL421302",
+      "numberOfPackages": 51,
+      "packageType": "BOXES",
+      "grossWeight": 12725.32,
+      "measurement": 31.99
+    },
+    {
+      "containerNumber": "CONT2441751",
+      "sealNumber": "SEAL799122",
+      "numberOfPackages": 87,
+      "packageType": "BOXES",
+      "grossWeight": 9798.45,
+      "measurement": 26.38
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 x 40 HIGH CUBE GENERAL",
+    "totalPackages": 288,
+    "totalGrossWeight": 60138.51,
+    "totalMeasurement": 147.25
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS LTD.",
+      "address": "888 DONGFANG ROAD, PUDONG NEW AREA, SHANGHAI 200120, CHINA",
+      "telephone": "+86 21 2175 6551",
+      "fax": "+86 21 2175 6560",
+      "email": "ZHANG.YUN@WORLDWIDELOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY IMPORT & EXPORT LTD.",
+      "address": "1234 BLUE SKY RD, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31 10 498 7000",
+      "fax": "+31 10 498 7001"
+    },
+    "onboardDate": "2024-11-06 18:00",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

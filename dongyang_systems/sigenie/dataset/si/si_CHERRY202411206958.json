@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202411206958",
+  "voyageDetails": {
+    "vesselName": "SHIP_1322",
+    "voyageNumber": "2321"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA HEAVY INDUSTRIES INC.",
+      "address": "1234 INDUSTRIAL AVE, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 98765432",
+      "email": "SHIPPING@BETAHAVY.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING LTD",
+      "address": "5678 TRADE CENTER, MADRID, SPAIN",
+      "taxId": "ES1234567890",
+      "president": "MR. JUAN PEREZ",
+      "telephone": "+34 91 12345678",
+      "fax": "+34 91 98765432",
+      "email": "JUAN.PEREZ@ALPHAGLOBAL.COM"
+    },
+    "notifyParty": {
+      "name": "SPANISH LOGISTICS SERVICES S.L.",
+      "address": "9012 PORT AVE, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 987654",
+      "email": "INFO@SPANISHLOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871680",
+  "commodityDescription": "TRAILER, SEMI-TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT8747351",
+      "sealNumber": "SEAL803942",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 17458.86,
+      "measurement": 34.42
+    },
+    {
+      "containerNumber": "CONT7109757",
+      "sealNumber": "SEAL699396",
+      "numberOfPackages": 81,
+      "packageType": "BOXES",
+      "grossWeight": 11927.53,
+      "measurement": 20.06
+    },
+    {
+      "containerNumber": "CONT3144462",
+      "sealNumber": "SEAL998049",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 7312.51,
+      "measurement": 34.67
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD PLATFORM",
+    "totalPackages": 224,
+    "totalGrossWeight": 36698.9,
+    "totalMeasurement": 89.15
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "originalBLDistribution": {
+      "name": "SPANISH LOGISTICS SERVICES S.L.",
+      "address": "9012 PORT AVE, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 987654",
+      "email": "INFO@SPANISHLOGISTICS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING LTD",
+      "address": "5678 TRADE CENTER, MADRID, SPAIN",
+      "telephone": "+34 91 12345678",
+      "fax": "+34 91 98765432",
+      "email": "JUAN.PEREZ@ALPHAGLOBAL.COM"
+    },
+    "onboardDate": "2024-12-12 16:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 4926x2459x2800, VALUE: USD626,853, UNDER DECK TOP STOWAGE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "4926",
+    "width": "2459",
+    "height": "2800",
+    "overWidth": "19",
+    "overHeight": "210"
+  }
+}

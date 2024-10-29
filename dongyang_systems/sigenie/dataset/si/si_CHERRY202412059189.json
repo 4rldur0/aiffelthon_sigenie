@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202412059189",
+  "voyageDetails": {
+    "vesselName": "SHIP_4779",
+    "voyageNumber": "5778"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI PRECISION MACHINERY CO. LTD",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "INFO@SHANGHAIMACHINERY.COM"
+    },
+    "consignee": {
+      "name": "DUTCH PRECISION ENGINEERING BV",
+      "address": "5678 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "taxId": "NL8556789012345",
+      "president": "MR. JAN VAN DER HELM",
+      "telephone": "+31 10 2222 1234",
+      "fax": "+31 10 2222 5678",
+      "email": "INFO@DUTCHPRECISION.NL"
+    },
+    "notifyParty": {
+      "name": "DUTCH LOGISTICS SERVICES BV",
+      "address": "9012 ROTTERDAM BOULEVARD, ROTTERDAM, NETHERLANDS 3010AB",
+      "taxId": "NL8590123456789",
+      "president": "MS. ANNA VAN DEELEN",
+      "telephone": "+31 10 3333 1234",
+      "fax": "+31 10 3333 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "845961",
+  "commodityDescription": "MILLING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CONT6846793",
+      "sealNumber": "SEAL528486",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "grossWeight": 7169.75,
+      "measurement": 31.87
+    },
+    {
+      "containerNumber": "CONT5983657",
+      "sealNumber": "SEAL278096",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 5433.38,
+      "measurement": 35.46
+    },
+    {
+      "containerNumber": "CONT1387536",
+      "sealNumber": "SEAL754950",
+      "numberOfPackages": 96,
+      "packageType": "BOXES",
+      "grossWeight": 15865.09,
+      "measurement": 39.22
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD OPEN TOP",
+    "totalPackages": 212,
+    "totalGrossWeight": 28468.22,
+    "totalMeasurement": 106.55
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "MAERSK LOGISTICS CHINA LTD",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "INFO@MAERSKLOGISTICS.COM.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MAERSK LOGISTICS CHINA LTD",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678",
+      "email": "INFO@MAERSKLOGISTICS.COM.CN"
+    },
+    "onboardDate": "2024-12-08 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5912x2431x2522, VALUE: USD441,114, HANDLE WITH CARE"
+  },
+  "outOfGaugeDimensions": {
+    "length": "5912",
+    "width": "2431",
+    "height": "2522",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

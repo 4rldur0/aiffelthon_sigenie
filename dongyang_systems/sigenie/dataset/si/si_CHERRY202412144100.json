@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202412144100",
+  "voyageDetails": {
+    "vesselName": "SHIP_1169",
+    "voyageNumber": "2168"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "HANS SCHMIDT GMBH",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY 20000",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-12345679"
+    },
+    "consignee": {
+      "name": "SCHULTE & CO. GMBH",
+      "address": "456 MARKET STREET, SINGAPORE 123456",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890124"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "789 ORCHARD ROAD, SINGAPORE 123456",
+      "telephone": "+65-65432109",
+      "fax": "+65-65432108"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950430",
+  "commodityDescription": "VIDEO GAMES",
+  "containers": [
+    {
+      "containerNumber": "CONT5538950",
+      "sealNumber": "SEAL452165",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 8231.64,
+      "measurement": 25.92
+    },
+    {
+      "containerNumber": "CONT1838852",
+      "sealNumber": "SEAL231408",
+      "numberOfPackages": 54,
+      "packageType": "BOXES",
+      "grossWeight": 12198.24,
+      "measurement": 33.22
+    },
+    {
+      "containerNumber": "CONT7186034",
+      "sealNumber": "SEAL895794",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "grossWeight": 17507.22,
+      "measurement": 35.86
+    },
+    {
+      "containerNumber": "CONT4143715",
+      "sealNumber": "SEAL817071",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 14147.78,
+      "measurement": 39.62
+    },
+    {
+      "containerNumber": "CONT5454799",
+      "sealNumber": "SEAL688190",
+      "numberOfPackages": 73,
+      "packageType": "BOXES",
+      "grossWeight": 11758.27,
+      "measurement": 29.77
+    },
+    {
+      "containerNumber": "CONT2122830",
+      "sealNumber": "SEAL696017",
+      "numberOfPackages": 49,
+      "packageType": "BOXES",
+      "grossWeight": 10860.82,
+      "measurement": 26.82
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 HIGH CUBE TANK",
+    "totalPackages": 380,
+    "totalGrossWeight": 74703.97,
+    "totalMeasurement": 191.21
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "789 ORCHARD ROAD, SINGAPORE 123456",
+      "telephone": "+65-65432109",
+      "fax": "+65-65432108"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "789 ORCHARD ROAD, SINGAPORE 123456",
+      "telephone": "+65-65432109",
+      "fax": "+65-65432108"
+    },
+    "onboardDate": "2024-12-17 09:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

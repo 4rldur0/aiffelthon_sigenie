@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202411058204",
+  "voyageDetails": {
+    "vesselName": "SHIP_2287",
+    "voyageNumber": "3286"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "CALLE MAYOR, 12, 28001 MADRID, SPAIN",
+      "telephone": "+34-91-555-6666",
+      "fax": "+34-91-555-6667"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "950630",
+  "commodityDescription": "SPORTS EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CONT5828657",
+      "sealNumber": "SEAL189829",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 16294.1,
+      "measurement": 20.95
+    },
+    {
+      "containerNumber": "CONT3495335",
+      "sealNumber": "SEAL770190",
+      "numberOfPackages": 89,
+      "packageType": "BOXES",
+      "grossWeight": 16776.35,
+      "measurement": 39.28
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 HIGH CUBE TANK",
+    "totalPackages": 149,
+    "totalGrossWeight": 33070.45,
+    "totalMeasurement": 60.23
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO. LTD",
+      "address": "NO. 1, FUXING ROAD, HANGZHOU, ZHEJIAN, CHINA 310000",
+      "telephone": "+86-571-87654300",
+      "fax": "+86-571-87654301"
+    },
+    "onboardDate": "2024-11-11 19:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  },
+  "specialCargoInformation": {
+    "outOfGaugeDimensions": "NONE",
+    "dangerousGoods": "NO",
+    "reeferSettings": "N/A"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411113366",
+  "voyageDetails": {
+    "vesselName": "SHIP_5146",
+    "voyageNumber": "6145"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO.",
+      "address": "1234 NINGBO PORT ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 2666 9000",
+      "fax": "+86 574 2666 9001",
+      "email": "ZHIYEUN.HA@ASIAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD.",
+      "address": "888 ROTTERDAM HARBOR BOULEVARD, ROTTERDAM 3011 XZ, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 201 5000",
+      "fax": "+31 10 201 5001",
+      "email": "CONTACT@GLOBALSHIPPINGSOLUTIONS.NL",
+      "personincharge": "JAN VAN DER WIJK"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS SERVICES BV",
+      "address": "222 ROTTERDAM PORT AVENUE, ROTTERDAM 3015 XT, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "OMAR.BENALI@EUROLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CONT4824559",
+      "sealNumber": "SEAL435577",
+      "numberOfPackages": 42,
+      "packageType": "BOXES",
+      "grossWeight": 16711.89,
+      "measurement": 30.63
+    },
+    {
+      "containerNumber": "CONT1917591",
+      "sealNumber": "SEAL337506",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 11097.11,
+      "measurement": 28.99
+    },
+    {
+      "containerNumber": "CONT3577280",
+      "sealNumber": "SEAL449160",
+      "numberOfPackages": 76,
+      "packageType": "BOXES",
+      "grossWeight": 8301.56,
+      "measurement": 35.85
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 184,
+    "totalGrossWeight": 36110.56,
+    "totalMeasurement": 95.47
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-16 18:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

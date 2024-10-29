@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202412152818",
+  "voyageDetails": {
+    "vesselName": "SHIP_4263",
+    "voyageNumber": "5262"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "TANGER MED, MOROCCO",
+    "placeOfDelivery": "TANGER MED, MOROCCO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "OMEGA MANUFACTURING LTD",
+      "address": "NO. 1234, SHANGHAI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(OMEGA BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@OMEGAMANUFACTURING.COM.CN"
+    },
+    "consignee": {
+      "name": "DELTA TRADING COMPANY",
+      "address": "123 MAIN STREET, CASABLANCA, MOROCCO",
+      "country": "MOROCCO",
+      "email": "ORDERS@DELTATRADING.COM",
+      "telephone": "+212 522 345 6789"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORTERS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@ALPHAIMPORTERS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "871680",
+  "commodityDescription": "OUT-OF-GAUGE TRAILER",
+  "containers": [
+    {
+      "containerNumber": "CONT5827003",
+      "sealNumber": "SEAL233669",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "grossWeight": 18523.18,
+      "measurement": 29.04
+    },
+    {
+      "containerNumber": "CONT3229157",
+      "sealNumber": "SEAL948471",
+      "numberOfPackages": 78,
+      "packageType": "BOXES",
+      "grossWeight": 12393.65,
+      "measurement": 30.19
+    },
+    {
+      "containerNumber": "CONT8186999",
+      "sealNumber": "SEAL726053",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 15907.53,
+      "measurement": 33.98
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD OPEN TOP",
+    "totalPackages": 237,
+    "totalGrossWeight": 46824.36,
+    "totalMeasurement": 93.21
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-12-22 18:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 3919x2583x2940"
+  },
+  "outOfGaugeDimensions": {
+    "length": "3919",
+    "width": "2583",
+    "height": "2940",
+    "overWidth": "143",
+    "overHeight": "350"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411115170",
+  "voyageDetails": {
+    "vesselName": "SHIP_2051",
+    "voyageNumber": "3050"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CORPORATION",
+      "address": "1234 MAIN STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@BETATRADING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA INDUSTRIES LTD",
+      "address": "5678 ALFA STREET, ALGECIRAS, SPAIN 11001",
+      "taxId": "ES123456789",
+      "president": "Mr. Juan Garcia",
+      "telephone": "+34 956 7777 8888",
+      "fax": "+34 956 7777 8887",
+      "email": "JUAN.GARCIA@ALPHAINDUSTRIES.COM"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS SPAIN S.A.",
+      "address": "9012 BETA AVENUE, ALGECIRAS, SPAIN 11002",
+      "taxId": "ES987654321",
+      "president": "Ms. Maria Sanchez",
+      "telephone": "+34 956 6666 7777",
+      "fax": "+34 956 6666 7776"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "382490",
+  "commodityDescription": "DANGEROUS CHEMICALS",
+  "containers": [
+    {
+      "containerNumber": "CONT6356939",
+      "sealNumber": "SEAL584597",
+      "numberOfPackages": 75,
+      "packageType": "BOXES",
+      "grossWeight": 8576.95,
+      "measurement": 34.37
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD TANK",
+    "totalPackages": 75,
+    "totalGrossWeight": 8576.95,
+    "totalMeasurement": 34.37
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FIRST SINGAPORE GLOBAL LOGISTICS PTE LTD",
+      "address": "1 KEPPEL ROAD, #10-00 MARITIME SQUARE TOWER, SINGAPORE 089053",
+      "telephone": "+65 6127 4158",
+      "fax": "+65 6127 4200",
+      "email": "TAN.MEILING@SINGAPOREGLOBAL.COM.SG"
+    },
+    "onboardDate": "2024-11-17 16:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 1977, 21 DAYS FREE TIME AT DESTINATION, HANDLE WITH CARE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT1161936",
+    "unClass": "6",
+    "unCode": "1977,",
+    "hsCode": "9523.31.28",
+    "flashPoint": "-10°C",
+    "additionalInfo": "Handle with care"
+  }
+}

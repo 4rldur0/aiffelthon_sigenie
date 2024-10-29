@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202411165816",
+  "voyageDetails": {
+    "vesselName": "SHIP_4498",
+    "voyageNumber": "5497"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "APPLE INC.",
+      "address": "1 APPLE PARK WAY, CUPERTINO, CA 95014, UNITED STATES",
+      "country": "UNITED STATES",
+      "telephone": "+1 408 996 1010",
+      "fax": "+1 408 996 1011",
+      "email": "INFO@APPLE.COM"
+    },
+    "consignee": {
+      "name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "address": "129 SAMSUNG-RO, YEONGTONG-GU, SUWON-SI, GYEONGGI-DO, 16678, SOUTH KOREA",
+      "country": "SOUTH KOREA",
+      "telephone": "+82 31 726 1114",
+      "fax": "+82 31 726 1115",
+      "email": "INFO@SAMSUNG.COM"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS INC.",
+      "address": "101 PARK AVENUE, NEW YORK, NY 10178, UNITED STATES",
+      "country": "UNITED STATES",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@WORLDWIDELOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "847130",
+  "commodityDescription": "AUTOMATIC DATA PROCESSING MACHINES AND UNITS THEREOF; MAGNETIC OR OPTICAL READERS, MACHINES FOR TRANSCRIBING DATA ONTO DATA MEDIA IN CODED FORM AND MACHINES FOR PROCESSING SUCH DATA, NOT SPECIFIED ELSEWHERE IN THIS CHAPTER",
+  "containers": [
+    {
+      "containerNumber": "CONT7265984",
+      "sealNumber": "SEAL647809",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 11678.7,
+      "measurement": 22.6
+    },
+    {
+      "containerNumber": "CONT8154149",
+      "sealNumber": "SEAL581810",
+      "numberOfPackages": 17,
+      "packageType": "BOXES",
+      "grossWeight": 8883.2,
+      "measurement": 28.4
+    },
+    {
+      "containerNumber": "CONT2101774",
+      "sealNumber": "SEAL387408",
+      "numberOfPackages": 63,
+      "packageType": "BOXES",
+      "grossWeight": 7825.71,
+      "measurement": 39.36
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 172,
+    "totalGrossWeight": 28387.61,
+    "totalMeasurement": 90.36
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "address": "129 SAMSUNG-RO, YEONGTONG-GU, SUWON-SI, GYEONGGI-DO, 16678, SOUTH KOREA",
+      "telephone": "+82 31 726 1114",
+      "fax": "+82 31 726 1115",
+      "email": "INFO@SAMSUNG.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "APPLE INC.",
+      "address": "1 APPLE PARK WAY, CUPERTINO, CA 95014, UNITED STATES",
+      "telephone": "+1 408 996 1010",
+      "fax": "+1 408 996 1011",
+      "email": "INFO@APPLE.COM"
+    },
+    "onboardDate": "2024-12-06 18:00",
+    "additionalRemarks": "THIS SIDE UP"
+  }
+}

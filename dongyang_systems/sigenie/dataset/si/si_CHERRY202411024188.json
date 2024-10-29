@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411024188",
+  "voyageDetails": {
+    "vesselName": "SHIP_4340",
+    "voyageNumber": "5339"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TEXTILE CO., LTD.",
+      "address": "123 YONGJIANG ROAD, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@SUNRISETEXTILE.CN"
+    },
+    "consignee": {
+      "name": "GOLDEN STAR IMPORTS LTD.",
+      "address": "144 ROTTERDAM STREET, ROTTERDAM, SOUTH HOLLAND 3011 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 2222",
+      "fax": "+31 10 222 2223",
+      "email": "INFO@GOLDENSTARIMPORTS.NL",
+      "personincharge": "PETER VAN DER MARK"
+    },
+    "notifyParty": {
+      "name": "GOLDEN STAR LOGISTICS BV",
+      "address": "125 ROTTERDAM STREET, ROTTERDAM, SOUTH HOLLAND 3011 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 333 3333",
+      "fax": "+31 10 333 3334",
+      "email": "INFO@GOLDENSTARLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "630790",
+  "commodityDescription": "MADE UP TEXTILE ARTICLES, N.E.S.",
+  "containers": [
+    {
+      "containerNumber": "CONT1006588",
+      "sealNumber": "SEAL965132",
+      "numberOfPackages": 93,
+      "packageType": "BOXES",
+      "grossWeight": 5068.67,
+      "measurement": 34.99
+    },
+    {
+      "containerNumber": "CONT3702656",
+      "sealNumber": "SEAL173822",
+      "numberOfPackages": 70,
+      "packageType": "BOXES",
+      "grossWeight": 8158.74,
+      "measurement": 38.22
+    },
+    {
+      "containerNumber": "CONT4857996",
+      "sealNumber": "SEAL322748",
+      "numberOfPackages": 32,
+      "packageType": "BOXES",
+      "grossWeight": 5338.4,
+      "measurement": 20.13
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE TANK",
+    "totalPackages": 195,
+    "totalGrossWeight": 18565.81,
+    "totalMeasurement": 93.34
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC987654321"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA LOGISTICS INC.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2556 7890",
+      "fax": "+86 755 2556 7891",
+      "email": "ZHANG.MEI@ALPHALOGISTICS.CN"
+    },
+    "onboardDate": "2024-11-08 16:00",
+    "additionalRemarks": "UNDER DECK TOP STOWAGE"
+  }
+}

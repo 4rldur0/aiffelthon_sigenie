@@ -1,0 +1,84 @@
+{
+  "bookingReference": "CHERRY202412114054",
+  "voyageDetails": {
+    "vesselName": "SHIP_3771",
+    "voyageNumber": "4770"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 FACTORY ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667",
+      "email": "INFO@ASIAMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "1234 GLOBAL WAY, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3334",
+      "email": "INFO@GLOBALSOLUTIONS.NL"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "1234 GLOBAL WAY, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT6168220",
+      "sealNumber": "SEAL285447",
+      "numberOfPackages": 95,
+      "packageType": "BOXES",
+      "grossWeight": 7218.77,
+      "measurement": 30.52
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 45 HIGH CUBE GENERAL",
+    "totalPackages": 95,
+    "totalGrossWeight": 7218.77,
+    "totalMeasurement": 30.52
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "1234 GLOBAL WAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3334",
+      "email": "INFO@GLOBALSOLUTIONS.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC MANUFACTURING CO. LTD.",
+      "address": "1234 FACTORY ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 6667"
+    },
+    "onboardDate": "2025-01-11 18:00",
+    "additionalRemarks": "DO NOT STACK"
+  }
+}

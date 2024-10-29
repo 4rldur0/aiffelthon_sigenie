@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202411128401",
+  "voyageDetails": {
+    "vesselName": "SHIP_3342",
+    "voyageNumber": "4341"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO.",
+      "address": "1234 HUANGPU ROAD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 21 5888 7193",
+      "fax": "+86 21 5888 7778",
+      "email": "ZHANG.WEI@SHANGHAIGLOBALTRADING.CN"
+    },
+    "consignee": {
+      "name": "GREEN FIELD IMPORT EXPORT LTD.",
+      "address": "123 MAIN STREET, BERLIN, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 30 123 4567",
+      "fax": "+49 30 123 4568",
+      "email": "INFO@GREENFIELDIMPORTEXPORT.DE"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 40 789 0123",
+      "fax": "+49 40 789 0124",
+      "email": "INFO@WORLDWIDELOGISTICS.DE"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "940190",
+  "commodityDescription": "SEATS OF CANE, OSIERS OR OTHER PLANT MATERIALS",
+  "containers": [
+    {
+      "containerNumber": "CONT6619080",
+      "sealNumber": "SEAL529657",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 5784.32,
+      "measurement": 27.0
+    },
+    {
+      "containerNumber": "CONT4178357",
+      "sealNumber": "SEAL420079",
+      "numberOfPackages": 16,
+      "packageType": "BOXES",
+      "grossWeight": 5633.07,
+      "measurement": 32.32
+    },
+    {
+      "containerNumber": "CONT2058580",
+      "sealNumber": "SEAL209698",
+      "numberOfPackages": 83,
+      "packageType": "BOXES",
+      "grossWeight": 12859.03,
+      "measurement": 38.84
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 40 STANDARD TANK",
+    "totalPackages": 197,
+    "totalGrossWeight": 24276.42,
+    "totalMeasurement": 98.16
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "FUMIGATION CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "456 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 789 0123",
+      "fax": "+49 40 789 0124",
+      "email": "INFO@WORLDWIDELOGISTICS.DE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN FIELD IMPORT EXPORT LTD.",
+      "address": "123 MAIN STREET, BERLIN, GERMANY",
+      "country": "GERMANY",
+      "telephone": "+49 30 123 4567",
+      "fax": "+49 30 123 4568",
+      "email": "INFO@GREENFIELDIMPORTEXPORT.DE"
+    },
+    "onboardDate": "2024-11-17 16:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
+  }
+}

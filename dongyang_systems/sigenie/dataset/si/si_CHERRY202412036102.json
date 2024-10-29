@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202412036102",
+  "voyageDetails": {
+    "vesselName": "SHIP_4041",
+    "voyageNumber": "5040"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC FOODS CO.",
+      "address": "123 FUJIAN ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@ASIAFOODS.COM"
+    },
+    "consignee": {
+      "name": "POLISH IMPORT & EXPORT LTD.",
+      "address": "UL. KRZYWA 25, GDANSK, POLAND 80-200",
+      "taxId": "PL5261234567",
+      "president": "MR. JAN KOWALSKI",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4445",
+      "email": "JAN.KOWALSKI@POLISHEIMPORTS.COM"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SERVICES LTD.",
+      "address": "UL. STARE MIASTO 10, GDANSK, POLAND 80-800",
+      "taxId": "PL5261234568",
+      "president": "MS. ANNA NOWAK",
+      "telephone": "+48 58 777 8888",
+      "fax": "+48 58 777 8889",
+      "email": "ANNA.NOWAK@GLOBALLOGISTICS.PL"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "030812",
+  "commodityDescription": "FROZEN MANGOES",
+  "containers": [
+    {
+      "containerNumber": "CONT3401611",
+      "sealNumber": "SEAL902241",
+      "numberOfPackages": 68,
+      "packageType": "BOXES",
+      "grossWeight": 15724.31,
+      "measurement": 29.09
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 STANDARD REEFER",
+    "totalPackages": 68,
+    "totalGrossWeight": 15724.31,
+    "totalMeasurement": 29.09
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024120312345"
+    },
+    "certificateDetails": "C0000171594",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, LONDON, UK W1A 1AA",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 8889",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, LONDON, UK W1A 1AA",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 8889",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-12-11 20:00",
+    "additionalRemarks": "TEMPERATURE CONTROLLED CARGO: 2°C"
+  },
+  "reeferSettings": {
+    "containerNumber": "CONT6988646",
+    "temperature": "2°C",
+    "minTemperature": "0°C",
+    "maxTemperature": "4°C",
+    "ventilation": "30%",
+    "humidity": "92%"
+  }
+}

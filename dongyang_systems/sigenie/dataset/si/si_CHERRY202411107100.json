@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411107100",
+  "voyageDetails": {
+    "vesselName": "SHIP_1782",
+    "voyageNumber": "2781"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA GLOBAL TRADING CO.",
+      "address": "NO. 1234, HONGQI ROAD, YONGHUA DISTRICT, HANGZHOU, 310006",
+      "country": "CHINA",
+      "additionalInfo": "(HONGQI BUILDING)",
+      "telephone": "+86 571 8765 4321",
+      "email": "MALONG@BETAGLOBALTRADING.COM.CN"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "123 MAIN STREET, LONDON, UK, WC1A 1AA",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@ALPHAIMPORTEXPORT.CO.UK",
+      "telephone": "+44 20 7123 4567"
+    },
+    "notifyParty": {
+      "name": "GAMMA LOGISTICS LTD",
+      "address": "DUTCH BUSINESS PARK, 123 NETHERLANDS STREET, ROTTERDAM, 3011 NL",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GAMMALOGISTICS.NL",
+      "telephone": "+31 10 234 5678"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL MERCHANDISE",
+  "containers": [
+    {
+      "containerNumber": "CONT7444760",
+      "sealNumber": "SEAL101483",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "grossWeight": 13323.4,
+      "measurement": 26.05
+    },
+    {
+      "containerNumber": "CONT7483145",
+      "sealNumber": "SEAL821724",
+      "numberOfPackages": 67,
+      "packageType": "BOXES",
+      "grossWeight": 13259.58,
+      "measurement": 24.96
+    },
+    {
+      "containerNumber": "CONT2302434",
+      "sealNumber": "SEAL727299",
+      "numberOfPackages": 23,
+      "packageType": "BOXES",
+      "grossWeight": 16922.35,
+      "measurement": 34.18
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 100,
+    "totalGrossWeight": 43505.33,
+    "totalMeasurement": 85.19
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-11-17 10:00",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION, DO NOT STACK"
+  }
+}

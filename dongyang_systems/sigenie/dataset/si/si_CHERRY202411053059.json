@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411053059",
+  "voyageDetails": {
+    "vesselName": "SHIP_2373",
+    "voyageNumber": "3372"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES PTE LTD",
+      "address": "123 INTERNATIONAL BUSINESS PARK, SINGAPORE 609937",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "email": "SHIPPING@ASIAINDUSTRY.COM.SG"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "123 CANAL STREET, ROTTERDAM, 3011NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GLOBALTRADING.NL",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS B.V.",
+      "address": "MAASVLAKTE BOULEVARD 500, HARBOR DISTRICT, 3199 LZ, ROTTERDAM, THE NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALLOGISTICS.NL",
+      "telephone": "+31 10 289 4000",
+      "fax": "+31 10 289 4001"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "961700",
+  "commodityDescription": "STATIONERY, DRAWING, PAINTING AND COLOURING MATERIALS",
+  "containers": [
+    {
+      "containerNumber": "CONT8231249",
+      "sealNumber": "SEAL770470",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "grossWeight": 8245.52,
+      "measurement": 22.5
+    },
+    {
+      "containerNumber": "CONT6642300",
+      "sealNumber": "SEAL240151",
+      "numberOfPackages": 47,
+      "packageType": "BOXES",
+      "grossWeight": 6583.99,
+      "measurement": 20.92
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 45 HIGH CUBE TANK",
+    "totalPackages": 107,
+    "totalGrossWeight": 14829.51,
+    "totalMeasurement": 43.42
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241105001"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "888 CENTURY AVENUE, YINZHOU DISTRICT, NINGBO CITY, ZHEJIANG PROVINCE 312100, CHINA",
+      "telephone": "++86 574 8765 4321",
+      "fax": "+86 574 8765 4322",
+      "email": "ZENLEE@BLUESKYTRADING.CN"
+    },
+    "onboardDate": "2024-11-13 09:00",
+    "additionalRemarks": "21 DAYS FREE TIME AT DESTINATION"
+  }
+}

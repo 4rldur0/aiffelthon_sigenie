@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410219533",
+  "voyageDetails": {
+    "vesselName": "SHIP_2838",
+    "voyageNumber": "3837"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING COMPANY",
+      "address": "123 MAIN STREET, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO HEADQUARTERS)",
+      "telephone": "+86 574 8765 4321",
+      "email": "SHIPPING@ASIAPACIFIC.COM.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 WAREHOUSE LANE, GDANSK, 80-808",
+      "country": "POLAND",
+      "email": "OPERATIONS@GLOBALFREIGHTSOLUTIONS.COM",
+      "telephone": "+48 58 333 4444"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 WAREHOUSE LANE, GDANSK, 80-808",
+      "country": "POLAND",
+      "email": "OPERATIONS@GLOBALFREIGHTSOLUTIONS.COM",
+      "telephone": "+48 58 333 4444"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940360",
+  "commodityDescription": "GENERAL FURNITURE",
+  "containers": [
+    {
+      "containerNumber": "CONT6347364",
+      "sealNumber": "SEAL627985",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 15263.83,
+      "measurement": 28.91
+    },
+    {
+      "containerNumber": "CONT1065666",
+      "sealNumber": "SEAL857868",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 10509.63,
+      "measurement": 36.33
+    },
+    {
+      "containerNumber": "CONT1041511",
+      "sealNumber": "SEAL562013",
+      "numberOfPackages": 99,
+      "packageType": "BOXES",
+      "grossWeight": 17350.93,
+      "measurement": 23.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 20 STANDARD TANK",
+    "totalPackages": 189,
+    "totalGrossWeight": 43124.39,
+    "totalMeasurement": 88.74
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 WAREHOUSE LANE, GDANSK, 80-808",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4445",
+      "email": "OPERATIONS@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 WAREHOUSE LANE, GDANSK, 80-808",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 4445",
+      "email": "OPERATIONS@GLOBALFREIGHTSOLUTIONS.COM"
+    },
+    "onboardDate": "2024-10-27 21:00",
+    "additionalRemarks": "ON DECK TOP STOWAGE"
+  }
+}

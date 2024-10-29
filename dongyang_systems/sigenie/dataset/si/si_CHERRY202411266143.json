@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202411266143",
+  "voyageDetails": {
+    "vesselName": "SHIP_492",
+    "voyageNumber": "1491"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 7
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ MANUFACTURING INC",
+      "address": "1234 FACTORY LANE, NINGBO, ZHEJIANG PROVINCE 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998",
+      "email": "INFO@XYZMANUFACTURING.CN"
+    },
+    "consignee": {
+      "name": "ABC IMPORT EXPORT CO LTD",
+      "address": "5678 WAREHOUSE STREET, ROTTERDAM 3011 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@ABCIMPORTEXPORT.NL",
+      "personincharge": "JAN VAN DER LEEUW"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "9012 PORT BOULEVARD, ROTTERDAM 3015 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5554",
+      "email": "CONTACT@GLOBALLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "999999",
+  "commodityDescription": "GENERAL CARGO",
+  "containers": [
+    {
+      "containerNumber": "CONT6620926",
+      "sealNumber": "SEAL905874",
+      "numberOfPackages": 19,
+      "packageType": "BOXES",
+      "grossWeight": 8391.5,
+      "measurement": 21.17
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 x 40 HIGH CUBE TANK",
+    "totalPackages": 19,
+    "totalGrossWeight": 8391.5,
+    "totalMeasurement": 21.17
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241126001"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC IMPORT EXPORT CO LTD",
+      "address": "5678 WAREHOUSE STREET, ROTTERDAM 3011 NL, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@ABCIMPORTEXPORT.NL"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT EXPORT CO LTD",
+      "address": "5678 WAREHOUSE STREET, ROTTERDAM 3011 NL, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "INFO@ABCIMPORTEXPORT.NL"
+    },
+    "onboardDate": "2024-12-11 18:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}

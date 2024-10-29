@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202411047244",
+  "voyageDetails": {
+    "vesselName": "SHIP_5473",
+    "voyageNumber": "6472"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA IMPORT EXPORT INC.",
+      "address": "123 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 574 8768 4500",
+      "fax": "+86 574 8768 4501"
+    },
+    "consignee": {
+      "name": "GLOBAL SOLUTIONS LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SOLUTIONS LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "382499",
+  "commodityDescription": "SODIUM HYPOCHLORITE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "CONT5316283",
+      "sealNumber": "SEAL294198",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 16745.93,
+      "measurement": 36.95
+    },
+    {
+      "containerNumber": "CONT7589258",
+      "sealNumber": "SEAL670856",
+      "numberOfPackages": 64,
+      "packageType": "BOXES",
+      "grossWeight": 17813.22,
+      "measurement": 37.63
+    },
+    {
+      "containerNumber": "CONT4145747",
+      "sealNumber": "SEAL731664",
+      "numberOfPackages": 34,
+      "packageType": "BOXES",
+      "grossWeight": 19054.65,
+      "measurement": 39.46
+    },
+    {
+      "containerNumber": "CONT3675472",
+      "sealNumber": "SEAL611556",
+      "numberOfPackages": 31,
+      "packageType": "BOXES",
+      "grossWeight": 14243.0,
+      "measurement": 32.98
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 x 40 HIGH CUBE TANK",
+    "totalPackages": 155,
+    "totalGrossWeight": 67856.8,
+    "totalMeasurement": 147.02
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241105-001"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "DANGEROUS GOODS DECLARATION"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SOLUTIONS LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SOLUTIONS LTD.",
+      "address": "150 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-11-13 20:00",
+    "additionalRemarks": "DANGEROUS GOODS, UN 2009, VALUE: USD727,756, 21 DAYS FREE TIME AT DESTINATION"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7476857",
+    "unClass": "4",
+    "unCode": "2009,",
+    "hsCode": "1636.70.24",
+    "flashPoint": "93°C",
+    "additionalInfo": "Handle with care"
+  }
+}

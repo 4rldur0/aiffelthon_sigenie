@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202412157133",
+  "voyageDetails": {
+    "vesselName": "SHIP_4802",
+    "voyageNumber": "5801"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 4
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE PRECISION TECHNOLOGIES PTE LTD",
+      "address": "12345 JURONG EAST STREET 13, SINGAPORE 609605",
+      "country": "SINGAPORE",
+      "additionalInfo": "(JURONG EAST INDUSTRIAL ESTATE)",
+      "telephone": "+65 6789 0123",
+      "email": "SALES@SPT.COM.SG"
+    },
+    "consignee": {
+      "name": "KONE CRANES AND SERVICES PTE LTD",
+      "address": "10 Anson Road, #30-01 International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "email": "PURCHASING@KONECRANES.COM.SG",
+      "telephone": "+65 6227 2727"
+    },
+    "notifyParty": {
+      "name": "KONE CRANES AND SERVICES PTE LTD",
+      "address": "10 Anson Road, #30-01 International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "email": "ORDERS@KONECRANES.COM.SG",
+      "telephone": "+65 6227 2727"
+    }
+  },
+  "shippingTerm": "CFS/CY",
+  "hsCode": "843149",
+  "commodityDescription": "CRANE COMPONENT",
+  "containers": [
+    {
+      "containerNumber": "CONT2192743",
+      "sealNumber": "SEAL199050",
+      "numberOfPackages": 26,
+      "packageType": "BOXES",
+      "grossWeight": 13013.47,
+      "measurement": 26.07
+    },
+    {
+      "containerNumber": "CONT8199681",
+      "sealNumber": "SEAL311164",
+      "numberOfPackages": 92,
+      "packageType": "BOXES",
+      "grossWeight": 16722.22,
+      "measurement": 20.17
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 x 40 STANDARD OPEN TOP",
+    "totalPackages": 118,
+    "totalGrossWeight": 29735.69,
+    "totalMeasurement": 46.24
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TAIHAN GLOBAL CO., LTD.",
+      "address": "888 YANTIAN PORT ROAD, YANTIAN DISTRICT, SHENZHEN CITY, GUANGDONG PROVINCE 518083, CHINA",
+      "telephone": "+86 755 2598 7654",
+      "fax": "+86 755 2598 7655",
+      "email": "LISA.CHEN@TAIHANGLOBAL.CN"
+    },
+    "onboardDate": "2024-12-23 08:00",
+    "additionalRemarks": "OUT OF GAUGE CARGO, LxWxH(mm): 5757x2051x2334, VALUE: USD614,987"
+  },
+  "cargoValue": 614987,
+  "outOfGaugeDimensions": {
+    "length": "5757",
+    "width": "2051",
+    "height": "2334",
+    "overWidth": "0",
+    "overHeight": "0"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410294503",
+  "voyageDetails": {
+    "vesselName": "SHIP_1665",
+    "voyageNumber": "2664"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TEXTILE CO. LTD.",
+      "address": "123 YINZHU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6789 4567",
+      "fax": "+86 21 6789 4568"
+    },
+    "consignee": {
+      "name": "EURO TEXTILE IMPORT LTD.",
+      "address": "100 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING LTD.",
+      "address": "150 BROADWAY, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    }
+  },
+  "shippingTerm": "CY/DOOR",
+  "hsCode": "630790",
+  "commodityDescription": "TEXTILE ARTICLES",
+  "containers": [
+    {
+      "containerNumber": "CONT8964134",
+      "sealNumber": "SEAL351466",
+      "numberOfPackages": 66,
+      "packageType": "BOXES",
+      "grossWeight": 14032.18,
+      "measurement": 38.08
+    },
+    {
+      "containerNumber": "CONT4231272",
+      "sealNumber": "SEAL215060",
+      "numberOfPackages": 97,
+      "packageType": "BOXES",
+      "grossWeight": 8699.66,
+      "measurement": 39.92
+    },
+    {
+      "containerNumber": "CONT4034316",
+      "sealNumber": "SEAL984459",
+      "numberOfPackages": 38,
+      "packageType": "BOXES",
+      "grossWeight": 6457.57,
+      "measurement": 27.28
+    },
+    {
+      "containerNumber": "CONT8232086",
+      "sealNumber": "SEAL575585",
+      "numberOfPackages": 11,
+      "packageType": "BOXES",
+      "grossWeight": 9697.31,
+      "measurement": 30.83
+    },
+    {
+      "containerNumber": "CONT8502803",
+      "sealNumber": "SEAL124181",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 9716.74,
+      "measurement": 29.83
+    },
+    {
+      "containerNumber": "CONT9888879",
+      "sealNumber": "SEAL785039",
+      "numberOfPackages": 79,
+      "packageType": "BOXES",
+      "grossWeight": 19647.77,
+      "measurement": 28.33
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "6 x 40 STANDARD GENERAL",
+    "totalPackages": 370,
+    "totalGrossWeight": 68251.23,
+    "totalMeasurement": 194.27
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO TEXTILE IMPORT LTD.",
+      "address": "100 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING LTD.",
+      "address": "150 BROADWAY, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "onboardDate": "2024-11-07 22:00",
+    "additionalRemarks": "UNDER DECK TOP STOWAGE"
+  }
+}

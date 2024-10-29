@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411128516",
+  "voyageDetails": {
+    "vesselName": "SHIP_989",
+    "voyageNumber": "1988"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 5
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURERS INC.",
+      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "WORLDWIDE CARGO SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7555-1234",
+      "fax": "+44-20-7555-1235",
+      "email": "INFO@WORLDWIDE.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE CARGO SOLUTIONS LTD"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "950300",
+  "commodityDescription": "TOY SETS",
+  "containers": [
+    {
+      "containerNumber": "CONT9045685",
+      "sealNumber": "SEAL176949",
+      "numberOfPackages": 72,
+      "packageType": "BOXES",
+      "grossWeight": 17647.03,
+      "measurement": 36.99
+    },
+    {
+      "containerNumber": "CONT9269154",
+      "sealNumber": "SEAL756234",
+      "numberOfPackages": 52,
+      "packageType": "BOXES",
+      "grossWeight": 15819.67,
+      "measurement": 24.39
+    },
+    {
+      "containerNumber": "CONT7036192",
+      "sealNumber": "SEAL799252",
+      "numberOfPackages": 98,
+      "packageType": "BOXES",
+      "grossWeight": 15205.85,
+      "measurement": 33.44
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 x 45 HIGH CUBE TANK",
+    "totalPackages": 222,
+    "totalGrossWeight": 48672.55,
+    "totalMeasurement": 94.82
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241112-1001",
+    "documentNumber": "20241112-1001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE CARGO SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7555-1234",
+      "fax": "+44-20-7555-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE CARGO SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM",
+      "telephone": "+44-20-7555-1234",
+      "fax": "+44-20-7555-1235"
+    },
+    "onboardDate": "2024-11-16 22:00",
+    "additionalRemarks": "NO SPECIAL INSTRUCTIONS"
+  }
+}
