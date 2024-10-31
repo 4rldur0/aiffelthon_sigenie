@@ -1,9 +1,7 @@
-# 🚢 SiGenie.ai
-- LangChain, RAG, and Intelligent Agent.
-
-## What is SI?
-- SI : Shipping Instruction
-
+# 🚢 SIGenie.ai
+- AI를 활용한 해운 산업의 선적 지시서 처리 자동화 시스템
+- **SI**(Shipping Instruction, 선적 지시서) + **Genie**
+- LLM, RAG, and multi AI Agent
 
 ## WorkFlow
 ### **chapter 1**
@@ -25,7 +23,11 @@
 .  
 ├── **sigenie**  : final version   
 │   ├── frontend  
-│   ├── database  
+│   ├── database
+
 │   └── backend  
 └── **st_sigenie**  : streamlit version app   
 ```
+
+## 시연 영상
+<img src="https://github.com/user-attachments/assets/baa49b07-489a-45d2-889f-be9c0199ef34" width="200" height="200"/>
